@@ -2,9 +2,13 @@
 
 Access your computer terminal from anywhere using your phone.
 
+![CodePress Terminal](screenshot.png)
+
 ## Features
 
 - **Remote Terminal Access** - Connect to your laptop or desktop terminal from your phone, anywhere in the world
+- **Sessions Sidebar** - Organize your work with multiple named sessions, each with its own set of tabs
+- **Terminal Tabs** - Run multiple terminal instances within each session for parallel workflows
 - **Secure WebSocket Connection** - Encrypted real-time communication between your devices
 - **Session Persistence** - Reconnect to your existing terminal sessions
 - **Full Terminal Support** - Run any command, use vim, ssh into servers, manage git repos, and more
@@ -23,7 +27,6 @@ Check the [Releases](https://github.com/quantfive/codepress-desktop-releases/rel
 
 ### macOS
 - **Apple Silicon (M1/M2/M3)**: Download the `arm64.dmg` file
-- **Intel Macs**: Coming soon
 
 ### Windows & Linux
 - Coming soon
