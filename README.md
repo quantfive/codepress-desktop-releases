@@ -1,6 +1,6 @@
 # CodePress Desktop
 
-A native terminal for macOS that you can connect to remotely from your phone — so you never have to stop working.
+A native terminal for macOS that you can connect to remotely from your phone or browser, so you never have to stop working.
 
 ![CodePress Terminal](screenshot.png)
 
