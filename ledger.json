@@ -6110,10 +6110,14 @@
       "sourcePackageVersion": "1.297.10",
       "releaseId": null,
       "mac": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "38976948676",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-17T22:39:10.549Z",
         "dispatch": null,
         "failures": []
       },
