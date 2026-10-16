@@ -5924,10 +5924,14 @@
       "sourcePackageVersion": "1.297.9",
       "releaseId": null,
       "mac": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "38971968693",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-17T21:50:14.382Z",
         "dispatch": null,
         "failures": []
       },
