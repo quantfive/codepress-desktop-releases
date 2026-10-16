@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "95969e31ea079a6c4c4a26f21bcbd73a690c566c",
-  "highWaterVersion": "1.292.1",
+  "cursorSha": "3c250c45b03f72ee0a3d773f877bb6d81de1cc45",
+  "highWaterVersion": "1.292.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -990,6 +990,60 @@
       "sourceSha": "95969e31ea079a6c4c4a26f21bcbd73a690c566c",
       "version": "1.292.1",
       "publicationDate": "2026-10-16T01:50:05.324Z",
+      "sourcePackageVersion": "1.292.0",
+      "releaseId": null,
+      "mac": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "key": "main:70a86e967cd8ca17e78db21eb6145ef431c1b184",
+      "kind": "main",
+      "sequence": 33,
+      "sourceSha": "70a86e967cd8ca17e78db21eb6145ef431c1b184",
+      "version": "1.292.2",
+      "publicationDate": "2026-10-16T02:02:53.396Z",
+      "sourcePackageVersion": "1.292.0",
+      "releaseId": null,
+      "mac": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "key": "main:3c250c45b03f72ee0a3d773f877bb6d81de1cc45",
+      "kind": "main",
+      "sequence": 34,
+      "sourceSha": "3c250c45b03f72ee0a3d773f877bb6d81de1cc45",
+      "version": "1.292.3",
+      "publicationDate": "2026-10-16T02:02:53.396Z",
       "sourcePackageVersion": "1.292.0",
       "releaseId": null,
       "mac": {
