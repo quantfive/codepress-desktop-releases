@@ -119,7 +119,7 @@
       "sourcePackageVersion": "1.291.1",
       "releaseId": null,
       "mac": {
-        "status": "running",
+        "status": "failed",
         "generation": 4,
         "owner": {
           "ownerId": "terminal-macos-delivery",
@@ -130,7 +130,7 @@
         "dispatch": {
           "intentId": "same-run:daea43fd3d5b52bcfb12ec2cb9484d5bda24b5ff9905d975731e751fb1d30f58",
           "runId": "38842594795",
-          "terminal": false
+          "terminal": true
         },
         "failures": [
           {
@@ -144,6 +144,10 @@
           {
             "code": "run_failed",
             "at": "2026-10-16T02:26:44.792Z"
+          },
+          {
+            "code": "run_failed",
+            "at": "2026-10-16T02:55:27.589Z"
           }
         ]
       },
