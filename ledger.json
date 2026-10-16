@@ -279,7 +279,7 @@
       "sourcePackageVersion": "1.291.1",
       "releaseId": null,
       "mac": {
-        "status": "running",
+        "status": "failed",
         "generation": 1,
         "owner": {
           "ownerId": "terminal-macos-delivery",
@@ -292,7 +292,12 @@
           "runId": "38835213376",
           "terminal": true
         },
-        "failures": []
+        "failures": [
+          {
+            "code": "verification_failed",
+            "at": "2026-10-16T01:33:00.831Z"
+          }
+        ]
       },
       "linux": {
         "status": "pending",
