@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3c2da752fcbfe676fd1e5e01a3a69ce378b9ea8b",
-  "highWaterVersion": "1.293.14",
+  "cursorSha": "7c13287fadba97ccca95e9e63f68c8b54dcda0dc",
+  "highWaterVersion": "1.293.16",
   "rows": [
     {
       "schemaVersion": 1,
@@ -1651,6 +1651,60 @@
       "sourceSha": "3c2da752fcbfe676fd1e5e01a3a69ce378b9ea8b",
       "version": "1.293.14",
       "publicationDate": "2026-10-16T04:01:24.956Z",
+      "sourcePackageVersion": "1.293.3",
+      "releaseId": null,
+      "mac": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "key": "main:3ab2ff723c2e5d88fae29f30d0f25d082023067f",
+      "kind": "main",
+      "sequence": 52,
+      "sourceSha": "3ab2ff723c2e5d88fae29f30d0f25d082023067f",
+      "version": "1.293.15",
+      "publicationDate": "2026-10-16T04:06:15.379Z",
+      "sourcePackageVersion": "1.293.3",
+      "releaseId": null,
+      "mac": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "key": "main:7c13287fadba97ccca95e9e63f68c8b54dcda0dc",
+      "kind": "main",
+      "sequence": 53,
+      "sourceSha": "7c13287fadba97ccca95e9e63f68c8b54dcda0dc",
+      "version": "1.293.16",
+      "publicationDate": "2026-10-16T04:06:15.379Z",
       "sourcePackageVersion": "1.293.3",
       "releaseId": null,
       "mac": {
