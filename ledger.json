@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "20507a64821e4a01ceae61b45946c73051ed89e5",
-  "highWaterVersion": "1.297.12",
+  "cursorSha": "f0dcfac74cc230a30bc681097a26b85af5c209a0",
+  "highWaterVersion": "1.297.14",
   "rows": [
     {
       "schemaVersion": 1,
@@ -5066,6 +5066,60 @@
       "sourceSha": "20507a64821e4a01ceae61b45946c73051ed89e5",
       "version": "1.297.12",
       "publicationDate": "2026-10-16T18:54:11.336Z",
+      "sourcePackageVersion": "1.297.2",
+      "releaseId": null,
+      "mac": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "key": "main:901759a1f90ec6188c769af7f6407a481e7e6fe7",
+      "kind": "main",
+      "sequence": 166,
+      "sourceSha": "901759a1f90ec6188c769af7f6407a481e7e6fe7",
+      "version": "1.297.13",
+      "publicationDate": "2026-10-16T18:57:58.795Z",
+      "sourcePackageVersion": "1.297.2",
+      "releaseId": null,
+      "mac": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "key": "main:f0dcfac74cc230a30bc681097a26b85af5c209a0",
+      "kind": "main",
+      "sequence": 167,
+      "sourceSha": "f0dcfac74cc230a30bc681097a26b85af5c209a0",
+      "version": "1.297.14",
+      "publicationDate": "2026-10-16T18:57:58.795Z",
       "sourcePackageVersion": "1.297.2",
       "releaseId": null,
       "mac": {
