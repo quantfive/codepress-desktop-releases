@@ -4186,10 +4186,14 @@
       "sourcePackageVersion": "1.296.1",
       "releaseId": null,
       "mac": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "38905841349",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-17T13:11:18.156Z",
         "dispatch": null,
         "failures": []
       },
