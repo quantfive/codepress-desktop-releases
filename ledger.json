@@ -6261,10 +6261,14 @@
       "sourcePackageVersion": "1.297.11",
       "releaseId": null,
       "mac": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "38979819437",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-17T23:09:27.925Z",
         "dispatch": null,
         "failures": []
       },
