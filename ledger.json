@@ -8037,7 +8037,7 @@
         "failures": []
       },
       "linux": {
-        "status": "dispatching",
+        "status": "running",
         "generation": 1,
         "owner": {
           "ownerId": "terminal-macos-delivery",
@@ -8047,7 +8047,7 @@
         "leaseUntil": "2026-10-18T09:08:04.563Z",
         "dispatch": {
           "intentId": "same-run:c3839844ccf8945b391886d5abce00a1b18d32442a34f15a91dbff16137f3bb8",
-          "runId": null,
+          "runId": "39019943621",
           "terminal": false
         },
         "failures": []
