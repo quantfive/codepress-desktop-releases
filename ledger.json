@@ -7231,10 +7231,14 @@
       "sourcePackageVersion": "1.297.14",
       "releaseId": null,
       "mac": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "39004147357",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-18T04:52:36.655Z",
         "dispatch": null,
         "failures": []
       },
