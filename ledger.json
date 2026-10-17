@@ -9232,7 +9232,7 @@
       "sourcePackageVersion": "1.297.22",
       "releaseId": null,
       "mac": {
-        "status": "claimed",
+        "status": "dispatching",
         "generation": 1,
         "owner": {
           "ownerId": "terminal-macos-delivery",
@@ -9240,7 +9240,11 @@
           "attempt": 1
         },
         "leaseUntil": "2026-10-18T20:14:36.234Z",
-        "dispatch": null,
+        "dispatch": {
+          "intentId": "same-run:f48f7a475cd51672b9be32361d6675a014e0e66c446113745d65c0847709090c",
+          "runId": null,
+          "terminal": false
+        },
         "failures": []
       },
       "linux": {
