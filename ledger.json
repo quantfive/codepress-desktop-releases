@@ -14073,7 +14073,7 @@
         "failures": []
       },
       "linux": {
-        "status": "dispatching",
+        "status": "failed",
         "generation": 1,
         "owner": {
           "ownerId": "terminal-macos-delivery",
@@ -14083,10 +14083,15 @@
         "leaseUntil": "2026-10-19T22:07:09.082Z",
         "dispatch": {
           "intentId": "same-run:53bcfdee4e4bfaed3c34c1b09b9f78685c63720d4a3577a99fb12123d394c902",
-          "runId": null,
-          "terminal": false
+          "runId": "39170805873",
+          "terminal": true
         },
-        "failures": []
+        "failures": [
+          {
+            "code": "run_failed",
+            "at": "2026-10-18T22:07:37.002Z"
+          }
+        ]
       }
     },
     {
