@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "dd80e89e4e81df47365075e2a66942a16fc618d4",
-  "highWaterVersion": "1.297.187",
+  "cursorSha": "a849c50b1d4e5e6b2faf6f28965f88ef72fffe12",
+  "highWaterVersion": "1.297.188",
   "rows": [
     {
       "schemaVersion": 1,
@@ -10553,6 +10553,33 @@
       "version": "1.297.187",
       "publicationDate": "2026-10-18T02:26:48.372Z",
       "sourcePackageVersion": "1.297.35",
+      "releaseId": null,
+      "mac": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "key": "main:a849c50b1d4e5e6b2faf6f28965f88ef72fffe12",
+      "kind": "main",
+      "sequence": 341,
+      "sourceSha": "a849c50b1d4e5e6b2faf6f28965f88ef72fffe12",
+      "version": "1.297.188",
+      "publicationDate": "2026-10-18T02:28:46.818Z",
+      "sourcePackageVersion": "1.297.36",
       "releaseId": null,
       "mac": {
         "status": "pending",
