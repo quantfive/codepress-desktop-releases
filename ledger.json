@@ -10037,10 +10037,14 @@
       "sourcePackageVersion": "1.297.31",
       "releaseId": null,
       "mac": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "39086930601",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-19T01:34:16.430Z",
         "dispatch": null,
         "failures": []
       },
