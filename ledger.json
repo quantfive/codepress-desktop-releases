@@ -15161,10 +15161,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "39228486154",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-20T09:14:20.427Z",
         "dispatch": null,
         "failures": []
       }
