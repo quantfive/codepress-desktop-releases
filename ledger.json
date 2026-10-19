@@ -16617,10 +16617,14 @@
       "sourcePackageVersion": "1.300.10",
       "releaseId": null,
       "mac": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "39335276401",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-20T22:29:32.571Z",
         "dispatch": null,
         "failures": []
       },
