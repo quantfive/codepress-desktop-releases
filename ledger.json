@@ -14673,7 +14673,7 @@
       "sourcePackageVersion": "1.299.4",
       "releaseId": null,
       "mac": {
-        "status": "claimed",
+        "status": "dispatching",
         "generation": 1,
         "owner": {
           "ownerId": "terminal-macos-delivery",
@@ -14681,7 +14681,11 @@
           "attempt": 1
         },
         "leaseUntil": "2026-10-20T01:49:27.536Z",
-        "dispatch": null,
+        "dispatch": {
+          "intentId": "same-run:9285316953bccd94a3dd2d007795d7d4a7297aca8c348ac14cc50825fe4a8bad",
+          "runId": null,
+          "terminal": false
+        },
         "failures": []
       },
       "linux": {
