@@ -21212,7 +21212,7 @@
         "failures": []
       },
       "linux": {
-        "status": "dispatching",
+        "status": "failed",
         "generation": 1,
         "owner": {
           "ownerId": "terminal-macos-delivery",
@@ -21222,10 +21222,15 @@
         "leaseUntil": "2026-10-21T21:08:11.042Z",
         "dispatch": {
           "intentId": "same-run:639b4d38b1f38873a76b2579ca06b1abb85063e4d9f5cb360dc81349ad74b648",
-          "runId": null,
-          "terminal": false
+          "runId": "39497826506",
+          "terminal": true
         },
-        "failures": []
+        "failures": [
+          {
+            "code": "run_failed",
+            "at": "2026-10-20T21:08:45.317Z"
+          }
+        ]
       }
     },
     {
