@@ -20313,10 +20313,14 @@
       "sourcePackageVersion": "1.311.1",
       "releaseId": null,
       "mac": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "39469344680",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-21T17:49:56.189Z",
         "dispatch": null,
         "failures": []
       },
