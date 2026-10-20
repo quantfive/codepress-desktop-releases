@@ -17518,10 +17518,14 @@
       "sourcePackageVersion": "1.302.3",
       "releaseId": null,
       "mac": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "39352034767",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-21T01:11:48.080Z",
         "dispatch": null,
         "failures": []
       },
