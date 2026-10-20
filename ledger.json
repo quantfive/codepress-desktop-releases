@@ -19469,7 +19469,7 @@
       "sourcePackageVersion": "1.309.0",
       "releaseId": null,
       "mac": {
-        "status": "running",
+        "status": "failed",
         "generation": 1,
         "owner": {
           "ownerId": "terminal-macos-delivery",
@@ -19480,9 +19480,14 @@
         "dispatch": {
           "intentId": "same-run:2c2bdc3828385914c7e78ae8c07866f61765c4febb73f8b93f11a3ad0843f497",
           "runId": "39429026556",
-          "terminal": false
+          "terminal": true
         },
-        "failures": []
+        "failures": [
+          {
+            "code": "run_failed",
+            "at": "2026-10-20T13:40:17.614Z"
+          }
+        ]
       },
       "linux": {
         "status": "pending",
