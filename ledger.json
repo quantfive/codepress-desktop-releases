@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "728c48cb067faf7d7f24c7ee40c4d875ff3561cf",
-  "highWaterVersion": "1.302.6",
+  "cursorSha": "6b3e92204fd5c930e2b656707e25b4fbcef03e1b",
+  "highWaterVersion": "1.302.7",
   "rows": [
     {
       "schemaVersion": 1,
@@ -17194,6 +17194,33 @@
       "sourceSha": "728c48cb067faf7d7f24c7ee40c4d875ff3561cf",
       "version": "1.302.6",
       "publicationDate": "2026-10-20T00:05:30.013Z",
+      "sourcePackageVersion": "1.302.2",
+      "releaseId": null,
+      "mac": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "key": "main:6b3e92204fd5c930e2b656707e25b4fbcef03e1b",
+      "kind": "main",
+      "sequence": 549,
+      "sourceSha": "6b3e92204fd5c930e2b656707e25b4fbcef03e1b",
+      "version": "1.302.7",
+      "publicationDate": "2026-10-20T00:07:12.810Z",
       "sourcePackageVersion": "1.302.2",
       "releaseId": null,
       "mac": {
