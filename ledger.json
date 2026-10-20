@@ -17456,10 +17456,14 @@
       "sourcePackageVersion": "1.302.3",
       "releaseId": null,
       "mac": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "39349098654",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-21T00:41:58.797Z",
         "dispatch": null,
         "failures": []
       },
