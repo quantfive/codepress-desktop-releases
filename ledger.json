@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "dced1f12f4290696283c88c03354db8b206f18f3",
-  "highWaterVersion": "1.302.19",
+  "cursorSha": "08fe967faa7f95e88c4c0808f4957febfba8f634",
+  "highWaterVersion": "1.302.20",
   "rows": [
     {
       "schemaVersion": 1,
@@ -17586,6 +17586,33 @@
       "version": "1.302.19",
       "publicationDate": "2026-10-20T01:20:13.355Z",
       "sourcePackageVersion": "1.302.3",
+      "releaseId": null,
+      "mac": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "key": "main:08fe967faa7f95e88c4c0808f4957febfba8f634",
+      "kind": "main",
+      "sequence": 562,
+      "sourceSha": "08fe967faa7f95e88c4c0808f4957febfba8f634",
+      "version": "1.302.20",
+      "publicationDate": "2026-10-20T01:22:45.976Z",
+      "sourcePackageVersion": "1.302.4",
       "releaseId": null,
       "mac": {
         "status": "pending",
