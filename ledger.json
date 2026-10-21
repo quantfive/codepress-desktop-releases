@@ -23489,7 +23489,7 @@
         "failures": []
       },
       "linux": {
-        "status": "claimed",
+        "status": "failed",
         "generation": 1,
         "owner": {
           "ownerId": "terminal-macos-delivery",
@@ -23498,7 +23498,12 @@
         },
         "leaseUntil": "2026-10-22T07:26:33.374Z",
         "dispatch": null,
-        "failures": []
+        "failures": [
+          {
+            "code": "dispatch_failed",
+            "at": "2026-10-21T07:26:35.297Z"
+          }
+        ]
       }
     },
     {
