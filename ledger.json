@@ -30341,10 +30341,14 @@
       "sourcePackageVersion": "1.328.1",
       "releaseId": null,
       "mac": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "39676547885",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-22T21:10:53.991Z",
         "dispatch": null,
         "failures": []
       },
