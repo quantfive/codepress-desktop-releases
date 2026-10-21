@@ -27103,10 +27103,14 @@
       "sourcePackageVersion": "1.322.0",
       "releaseId": null,
       "mac": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "39595118529",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-22T11:52:10.983Z",
         "dispatch": null,
         "failures": []
       },
