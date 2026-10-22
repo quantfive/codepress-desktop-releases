@@ -34611,10 +34611,14 @@
       "sourcePackageVersion": "1.337.0",
       "releaseId": null,
       "mac": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "39834063366",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-23T18:45:25.167Z",
         "dispatch": null,
         "failures": []
       },
