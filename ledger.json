@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "24a04671ba459f2c8c5ba1b8481b003151c8b9d1",
-  "highWaterVersion": "1.333.12",
+  "cursorSha": "7cf0843b5616f31e77c6eae9dd31af62bbfe0f61",
+  "highWaterVersion": "1.333.14",
   "rows": [
     {
       "schemaVersion": 1,
@@ -32982,6 +32982,60 @@
       "version": "1.333.12",
       "publicationDate": "2026-10-22T10:17:03.916Z",
       "sourcePackageVersion": "1.333.4",
+      "releaseId": null,
+      "mac": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "key": "main:71d1f1d11c00e5fc8bc2014fcf9c2790999687d7",
+      "kind": "main",
+      "sequence": 1071,
+      "sourceSha": "71d1f1d11c00e5fc8bc2014fcf9c2790999687d7",
+      "version": "1.333.13",
+      "publicationDate": "2026-10-22T10:20:40.752Z",
+      "sourcePackageVersion": "1.333.5",
+      "releaseId": null,
+      "mac": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "key": "main:7cf0843b5616f31e77c6eae9dd31af62bbfe0f61",
+      "kind": "main",
+      "sequence": 1072,
+      "sourceSha": "7cf0843b5616f31e77c6eae9dd31af62bbfe0f61",
+      "version": "1.333.14",
+      "publicationDate": "2026-10-22T10:20:40.752Z",
+      "sourcePackageVersion": "1.333.5",
       "releaseId": null,
       "mac": {
         "status": "pending",
