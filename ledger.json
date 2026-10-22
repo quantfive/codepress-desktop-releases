@@ -36153,10 +36153,14 @@
       "sourcePackageVersion": "1.340.3",
       "releaseId": null,
       "mac": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "39867735846",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-23T22:50:22.896Z",
         "dispatch": null,
         "failures": []
       },
