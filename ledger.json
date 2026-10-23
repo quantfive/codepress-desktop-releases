@@ -45143,10 +45143,14 @@
       "sourcePackageVersion": "1.353.1",
       "releaseId": null,
       "mac": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40035496010",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-24T22:45:55.028Z",
         "dispatch": null,
         "failures": []
       },
