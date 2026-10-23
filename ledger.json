@@ -44784,10 +44784,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40032868105",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-24T22:20:07.660Z",
         "dispatch": null,
         "failures": []
       }
