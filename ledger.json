@@ -44768,10 +44768,14 @@
       "sourcePackageVersion": "1.352.10",
       "releaseId": null,
       "mac": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40029640312",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-24T21:52:10.280Z",
         "dispatch": null,
         "failures": []
       },
