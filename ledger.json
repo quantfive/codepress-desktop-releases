@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7584ecbb643a35c93adde0c30c14c67d38f0b372",
-  "highWaterVersion": "1.354.0",
+  "cursorSha": "71e60abf94f6423e77b24e271883c95c3d1c63f6",
+  "highWaterVersion": "1.354.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -45372,6 +45372,60 @@
       "sourceSha": "7584ecbb643a35c93adde0c30c14c67d38f0b372",
       "version": "1.354.0",
       "publicationDate": "2026-10-23T22:59:28.618Z",
+      "sourcePackageVersion": "1.354.0",
+      "releaseId": null,
+      "mac": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "key": "main:ac9d9854c11f88a9978a25039205bfdff9252135",
+      "kind": "main",
+      "sequence": 1482,
+      "sourceSha": "ac9d9854c11f88a9978a25039205bfdff9252135",
+      "version": "1.354.1",
+      "publicationDate": "2026-10-23T23:03:56.124Z",
+      "sourcePackageVersion": "1.354.0",
+      "releaseId": null,
+      "mac": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "key": "main:71e60abf94f6423e77b24e271883c95c3d1c63f6",
+      "kind": "main",
+      "sequence": 1483,
+      "sourceSha": "71e60abf94f6423e77b24e271883c95c3d1c63f6",
+      "version": "1.354.2",
+      "publicationDate": "2026-10-23T23:03:56.124Z",
       "sourcePackageVersion": "1.354.0",
       "releaseId": null,
       "mac": {
