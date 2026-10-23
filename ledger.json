@@ -42171,10 +42171,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "39950341789",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-24T12:02:46.591Z",
         "dispatch": null,
         "failures": []
       }
