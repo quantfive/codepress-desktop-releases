@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "03191f345a8298290e4b59cf75a607ce5c6870b2",
-  "highWaterVersion": "1.347.3",
+  "cursorSha": "f49d71cba9386b8774a7e116b5e941645b7e4419",
+  "highWaterVersion": "1.347.6",
   "rows": [
     {
       "schemaVersion": 1,
@@ -39562,6 +39562,87 @@
       "sourceSha": "03191f345a8298290e4b59cf75a607ce5c6870b2",
       "version": "1.347.3",
       "publicationDate": "2026-10-23T05:05:10.393Z",
+      "sourcePackageVersion": "1.347.1",
+      "releaseId": null,
+      "mac": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "key": "main:384772f957a75ec6ae4b428fd4c8b64032508794",
+      "kind": "main",
+      "sequence": 1298,
+      "sourceSha": "384772f957a75ec6ae4b428fd4c8b64032508794",
+      "version": "1.347.4",
+      "publicationDate": "2026-10-23T05:16:21.643Z",
+      "sourcePackageVersion": "1.347.1",
+      "releaseId": null,
+      "mac": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "key": "main:0ec1b3ad2312210b466f5f25cb8b423fc8fe8d7f",
+      "kind": "main",
+      "sequence": 1299,
+      "sourceSha": "0ec1b3ad2312210b466f5f25cb8b423fc8fe8d7f",
+      "version": "1.347.5",
+      "publicationDate": "2026-10-23T05:16:21.643Z",
+      "sourcePackageVersion": "1.347.1",
+      "releaseId": null,
+      "mac": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "key": "main:f49d71cba9386b8774a7e116b5e941645b7e4419",
+      "kind": "main",
+      "sequence": 1300,
+      "sourceSha": "f49d71cba9386b8774a7e116b5e941645b7e4419",
+      "version": "1.347.6",
+      "publicationDate": "2026-10-23T05:16:21.643Z",
       "sourcePackageVersion": "1.347.1",
       "releaseId": null,
       "mac": {
