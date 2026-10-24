@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ec4e40f17f39341efe38faccb3a101471efb7677",
+  "cursorSha": "a53116bedd4c7d62292c14f2af91465fc7a0c9f9",
   "highWaterVersion": "1.362.43",
   "rows": [
     {
@@ -99867,6 +99867,16 @@
       "intentIds": [
         "renew-held-leases-through-outages:09a7974c443298ed0d883bff24e2bb7f1658848668aafae150376ea8dec87896"
       ]
+    },
+    {
+      "sourceSha": "5f7a11ac61726645165f55bcb1f2874600f028da",
+      "sourcePackageVersion": "1.362.14",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "a53116bedd4c7d62292c14f2af91465fc7a0c9f9",
+      "sourcePackageVersion": "1.362.14",
+      "intentIds": []
     }
   ],
   "intents": [
