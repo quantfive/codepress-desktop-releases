@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7c31a3d63e99f56fcf5bd0632c402de8362894ae",
-  "highWaterVersion": "1.362.11",
+  "cursorSha": "ee785770380f33e288388ad6a8f2075aa0d66986",
+  "highWaterVersion": "1.362.13",
   "rows": [
     {
       "schemaVersion": 1,
@@ -48775,6 +48775,60 @@
       "sourceSha": "7c31a3d63e99f56fcf5bd0632c402de8362894ae",
       "version": "1.362.11",
       "publicationDate": "2026-10-24T10:58:34.561Z",
+      "sourcePackageVersion": "1.362.2",
+      "releaseId": null,
+      "mac": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "key": "main:d4ec25f4fc884ead855fcd9b67ebb6e8ef74c16a",
+      "kind": "main",
+      "sequence": 1593,
+      "sourceSha": "d4ec25f4fc884ead855fcd9b67ebb6e8ef74c16a",
+      "version": "1.362.12",
+      "publicationDate": "2026-10-24T11:03:06.055Z",
+      "sourcePackageVersion": "1.362.2",
+      "releaseId": null,
+      "mac": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "key": "main:ee785770380f33e288388ad6a8f2075aa0d66986",
+      "kind": "main",
+      "sequence": 1594,
+      "sourceSha": "ee785770380f33e288388ad6a8f2075aa0d66986",
+      "version": "1.362.13",
+      "publicationDate": "2026-10-24T11:03:06.055Z",
       "sourcePackageVersion": "1.362.2",
       "releaseId": null,
       "mac": {
