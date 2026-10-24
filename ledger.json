@@ -49803,10 +49803,14 @@
         "type": "patch"
       },
       "mac": {
-        "status": "pending",
-        "generation": 1,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 2,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40121672128",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-25T18:40:03.425Z",
         "dispatch": null,
         "failures": [
           {
