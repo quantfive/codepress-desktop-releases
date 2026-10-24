@@ -49265,10 +49265,14 @@
       "sourcePackageVersion": "1.362.4",
       "releaseId": null,
       "mac": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40097387594",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-25T13:16:33.575Z",
         "dispatch": null,
         "failures": []
       },
