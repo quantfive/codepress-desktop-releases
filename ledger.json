@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "7fd4af55618827b23c2fc9340c630009db240c2b",
-  "highWaterVersion": "1.362.45",
+  "highWaterVersion": "1.362.46",
   "rows": [
     {
       "schemaVersion": 1,
@@ -50123,6 +50123,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:7fd4af55618827b23c2fc9340c630009db240c2b",
+      "kind": "main",
+      "sequence": 1627,
+      "sourceSha": "7fd4af55618827b23c2fc9340c630009db240c2b",
+      "sourcePackageVersion": "1.362.18",
+      "version": "1.362.46",
+      "publicationDate": "2026-10-24T23:47:43.746Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "machines-list-read-timeout:7b7b40a55156373539586493d89502d5d991412ece6aa079ff4492073ac9a0c6",
+          "tidy-linux-cli-reads:3f682cbab0a877e3fad35c8c72a2132520d1c6fcb86c71316f672f5665a67d12"
+        ],
+        "notesIntentIds": [
+          "machines-list-read-timeout:7b7b40a55156373539586493d89502d5d991412ece6aa079ff4492073ac9a0c6",
+          "tidy-linux-cli-reads:3f682cbab0a877e3fad35c8c72a2132520d1c6fcb86c71316f672f5665a67d12"
+        ],
+        "throughSourceSha": "7fd4af55618827b23c2fc9340c630009db240c2b",
+        "previousThroughSourceSha": "c663bbc237cf4946256b7a3bfb1b63b75e3d2fcf",
+        "baselineVersion": "1.362.45",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40144091275",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-25T23:47:22.085Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -100189,7 +100234,9 @@
     "tidy-computers-tunnel-list:06f7b08b4444836c0ac43b7ed612631b0578b3bc3379996b12c7d7040a1f8b08",
     "renew-held-leases-through-outages:09a7974c443298ed0d883bff24e2bb7f1658848668aafae150376ea8dec87896",
     "landing-cleanup-probes-before-lease:053dc18907ea6ed1e9ab05b1c577f0a0489a31c83d7aa1580cc47f6e47951675",
-    "kickoff-runs-on-machines-auto-lands:b5942bb345e559a97c520682bce9aeef451032c78040ef89cf67701278b54a2d"
+    "kickoff-runs-on-machines-auto-lands:b5942bb345e559a97c520682bce9aeef451032c78040ef89cf67701278b54a2d",
+    "machines-list-read-timeout:7b7b40a55156373539586493d89502d5d991412ece6aa079ff4492073ac9a0c6",
+    "tidy-linux-cli-reads:3f682cbab0a877e3fad35c8c72a2132520d1c6fcb86c71316f672f5665a67d12"
   ],
-  "consumedThroughSha": "c663bbc237cf4946256b7a3bfb1b63b75e3d2fcf"
+  "consumedThroughSha": "7fd4af55618827b23c2fc9340c630009db240c2b"
 }
