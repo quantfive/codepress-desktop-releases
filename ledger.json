@@ -48371,14 +48371,10 @@
         "failures": []
       },
       "linux": {
-        "status": "failed",
+        "status": "pending",
         "generation": 1,
-        "owner": {
-          "ownerId": "terminal-macos-delivery",
-          "runId": "40085079507",
-          "attempt": 1
-        },
-        "leaseUntil": "2026-10-25T10:15:04.438Z",
+        "owner": null,
+        "leaseUntil": null,
         "dispatch": null,
         "failures": [
           {
