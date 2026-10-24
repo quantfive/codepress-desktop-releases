@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "158ca5f90e26fe394078b967bad937c00b39c7d3",
+  "cursorSha": "45b04eed1ddb6e946ced178745044379731a99a7",
   "highWaterVersion": "1.362.39",
   "rows": [
     {
@@ -99498,6 +99498,13 @@
       "sourceSha": "158ca5f90e26fe394078b967bad937c00b39c7d3",
       "sourcePackageVersion": "1.362.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "45b04eed1ddb6e946ced178745044379731a99a7",
+      "sourcePackageVersion": "1.362.8",
+      "intentIds": [
+        "kimi-real-context-window:3fd0b1b3732c205312b912ec40ddf7718d59903a82259dacb8f091f87ea6b305"
+      ]
     }
   ],
   "intents": [
@@ -99524,6 +99531,14 @@
       "summary": "Terminal CI Vitest cache: the prune step now leaves the saved cache untouched, and warns, when it cannot find the directory the unit step wrote.",
       "sourceSha": "8f6ea37238a3ee82f7d3850d3f436880b56f4e94",
       "identity": "terminal-vitest-cache-prune-guard:48bd61be6e271931ce8c8e392ea55d0a69e13c91be9caf43d69ee1b8e2d377dc"
+    },
+    {
+      "id": "kimi-real-context-window",
+      "digest": "3fd0b1b3732c205312b912ec40ddf7718d59903a82259dacb8f091f87ea6b305",
+      "type": "patch",
+      "summary": "Kimi models now compact at their real context window instead of the 200k Claude Code assumes for an unknown model: K3.1 Pro gets a 262,144 window (about a 229k compaction threshold) on every plan unless you set a smaller one for the model.",
+      "sourceSha": "45b04eed1ddb6e946ced178745044379731a99a7",
+      "identity": "kimi-real-context-window:3fd0b1b3732c205312b912ec40ddf7718d59903a82259dacb8f091f87ea6b305"
     }
   ],
   "consumedIntentIds": [
