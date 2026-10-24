@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "cd6f780fb188a55d6589a9ca982cd7459b8db0f8",
-  "highWaterVersion": "1.362.43",
+  "highWaterVersion": "1.362.44",
   "rows": [
     {
       "schemaVersion": 1,
@@ -50011,6 +50011,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:cd6f780fb188a55d6589a9ca982cd7459b8db0f8",
+      "kind": "main",
+      "sequence": 1625,
+      "sourceSha": "cd6f780fb188a55d6589a9ca982cd7459b8db0f8",
+      "sourcePackageVersion": "1.362.14",
+      "version": "1.362.44",
+      "publicationDate": "2026-10-24T22:12:20.561Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "renew-held-leases-through-outages:09a7974c443298ed0d883bff24e2bb7f1658848668aafae150376ea8dec87896",
+          "landing-cleanup-probes-before-lease:053dc18907ea6ed1e9ab05b1c577f0a0489a31c83d7aa1580cc47f6e47951675"
+        ],
+        "notesIntentIds": [
+          "renew-held-leases-through-outages:09a7974c443298ed0d883bff24e2bb7f1658848668aafae150376ea8dec87896",
+          "landing-cleanup-probes-before-lease:053dc18907ea6ed1e9ab05b1c577f0a0489a31c83d7aa1580cc47f6e47951675"
+        ],
+        "throughSourceSha": "cd6f780fb188a55d6589a9ca982cd7459b8db0f8",
+        "previousThroughSourceSha": "bb7a535b1012c311e8b70efe577e7dac05fca1b3",
+        "baselineVersion": "1.362.43",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40137449411",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-25T22:11:57.890Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -99984,7 +100029,9 @@
     "headless-linux-libatomic:1f0b22165981a23bfbbc115a56e6b0c4c424f582b6bbf37a5f12faf92c5e08b4",
     "tidy-revoked-machine-pickers:f85e87e9c7a70370e4c176179faee77cba6ecf8e13c72fdcebe762731be5b6c6",
     "keep-leased-keys-across-auth:58728ad7d7efdcfcac45149c7939d282746d8ecee3bd3ad2b003fe389389fef4",
-    "tidy-computers-tunnel-list:06f7b08b4444836c0ac43b7ed612631b0578b3bc3379996b12c7d7040a1f8b08"
+    "tidy-computers-tunnel-list:06f7b08b4444836c0ac43b7ed612631b0578b3bc3379996b12c7d7040a1f8b08",
+    "renew-held-leases-through-outages:09a7974c443298ed0d883bff24e2bb7f1658848668aafae150376ea8dec87896",
+    "landing-cleanup-probes-before-lease:053dc18907ea6ed1e9ab05b1c577f0a0489a31c83d7aa1580cc47f6e47951675"
   ],
-  "consumedThroughSha": "bb7a535b1012c311e8b70efe577e7dac05fca1b3"
+  "consumedThroughSha": "cd6f780fb188a55d6589a9ca982cd7459b8db0f8"
 }
