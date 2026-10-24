@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ef2b8c2f9fab270f2f68d378358051fa2dee8767",
+  "cursorSha": "bb7a535b1012c311e8b70efe577e7dac05fca1b3",
   "highWaterVersion": "1.362.42",
   "rows": [
     {
@@ -99791,6 +99791,13 @@
       "sourceSha": "ef2b8c2f9fab270f2f68d378358051fa2dee8767",
       "sourcePackageVersion": "1.362.12",
       "intentIds": []
+    },
+    {
+      "sourceSha": "bb7a535b1012c311e8b70efe577e7dac05fca1b3",
+      "sourcePackageVersion": "1.362.12",
+      "intentIds": [
+        "tidy-computers-tunnel-list:06f7b08b4444836c0ac43b7ed612631b0578b3bc3379996b12c7d7040a1f8b08"
+      ]
     }
   ],
   "intents": [
@@ -99849,6 +99856,14 @@
       "summary": "Leased Personal Claude and Codex keys now stay on this computer when CodePress sign-in changes for the same person: a new token generation, a locally expired token (kept for up to 24 hours) and a 403 that is not about this computer or organization no longer delete them, so workers stop dying with \"Not logged in\". Turn off `terminal.personalLeaseKeepAcrossAuth` to restore the old behaviour.",
       "sourceSha": "67746f90f75f1a9d21e8adc0d2c04e8215ee5598",
       "identity": "keep-leased-keys-across-auth:58728ad7d7efdcfcac45149c7939d282746d8ecee3bd3ad2b003fe389389fef4"
+    },
+    {
+      "id": "tidy-computers-tunnel-list",
+      "digest": "06f7b08b4444836c0ac43b7ed612631b0578b3bc3379996b12c7d7040a1f8b08",
+      "type": "patch",
+      "summary": "Show Terminal tunnel computers in Settings and keep earlier sign-ins revocable under a collapsed Older sign-ins section, preserving the existing list on older backends.\nAlways keep This computer visible, including when it is revoked.",
+      "sourceSha": "bb7a535b1012c311e8b70efe577e7dac05fca1b3",
+      "identity": "tidy-computers-tunnel-list:06f7b08b4444836c0ac43b7ed612631b0578b3bc3379996b12c7d7040a1f8b08"
     }
   ],
   "consumedIntentIds": [
