@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f66d6df41f46e3dfdf4aebf36f7068aa189eba5a",
+  "cursorSha": "44e4ebe23ff2ea81e001a071bb10f8f41eb93ca0",
   "highWaterVersion": "1.362.44",
   "rows": [
     {
@@ -99951,6 +99951,13 @@
       "sourceSha": "f66d6df41f46e3dfdf4aebf36f7068aa189eba5a",
       "sourcePackageVersion": "1.362.15",
       "intentIds": []
+    },
+    {
+      "sourceSha": "44e4ebe23ff2ea81e001a071bb10f8f41eb93ca0",
+      "sourcePackageVersion": "1.362.15",
+      "intentIds": [
+        "kickoff-runs-on-machines-auto-lands:b5942bb345e559a97c520682bce9aeef451032c78040ef89cf67701278b54a2d"
+      ]
     }
   ],
   "intents": [
@@ -100033,6 +100040,14 @@
       "summary": "Cleaning up a landed project's session folder no longer makes a worker relaunch or a new worktree on a busy machine fail with \"Could not acquire worktree lifecycle lock\": the machine-wide check for running processes in the folder now runs before the shared worktree lock is taken, not while it is held.",
       "sourceSha": "cd6f780fb188a55d6589a9ca982cd7459b8db0f8",
       "identity": "landing-cleanup-probes-before-lease:053dc18907ea6ed1e9ab05b1c577f0a0489a31c83d7aa1580cc47f6e47951675"
+    },
+    {
+      "id": "kickoff-runs-on-machines-auto-lands",
+      "digest": "b5942bb345e559a97c520682bce9aeef451032c78040ef89cf67701278b54a2d",
+      "type": "patch",
+      "summary": "The kickoff's Runs on now lists your other machines wherever Auto is offered (including Chat), and Auto no longer hangs on \"Auto is choosing where to run\": it names its pick within seconds, or falls back to This machine after 2.5 s with a reason. Machine lists load faster and are shared between the Connect menu and the kickoff.",
+      "sourceSha": "44e4ebe23ff2ea81e001a071bb10f8f41eb93ca0",
+      "identity": "kickoff-runs-on-machines-auto-lands:b5942bb345e559a97c520682bce9aeef451032c78040ef89cf67701278b54a2d"
     }
   ],
   "consumedIntentIds": [
