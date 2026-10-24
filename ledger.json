@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d2b4cc7a1ed8596dbd6e8de34e16ccb0df985fe2",
+  "cursorSha": "01da1e58289e504ca576bce50d5e179983a5d829",
   "highWaterVersion": "1.362.40",
   "rows": [
     {
@@ -99613,6 +99613,13 @@
       "sourceSha": "d2b4cc7a1ed8596dbd6e8de34e16ccb0df985fe2",
       "sourcePackageVersion": "1.362.9",
       "intentIds": []
+    },
+    {
+      "sourceSha": "01da1e58289e504ca576bce50d5e179983a5d829",
+      "sourcePackageVersion": "1.362.9",
+      "intentIds": [
+        "headless-linux-libatomic:1f0b22165981a23bfbbc115a56e6b0c4c424f582b6bbf37a5f12faf92c5e08b4"
+      ]
     }
   ],
   "intents": [
@@ -99647,6 +99654,14 @@
       "summary": "Kimi models now compact at their real context window instead of the 200k Claude Code assumes for an unknown model: K3.1 Pro gets a 262,144 window (about a 229k compaction threshold) on every plan unless you set a smaller one for the model.",
       "sourceSha": "45b04eed1ddb6e946ced178745044379731a99a7",
       "identity": "kimi-real-context-window:3fd0b1b3732c205312b912ec40ddf7718d59903a82259dacb8f091f87ea6b305"
+    },
+    {
+      "id": "headless-linux-libatomic",
+      "digest": "1f0b22165981a23bfbbc115a56e6b0c4c424f582b6bbf37a5f12faf92c5e08b4",
+      "type": "patch",
+      "summary": "Bundle libatomic with Linux headless CLI runtimes so stock Linux installs can start Node without installing libatomic1, and report sanitized missing-library diagnostics when startup fails.",
+      "sourceSha": "01da1e58289e504ca576bce50d5e179983a5d829",
+      "identity": "headless-linux-libatomic:1f0b22165981a23bfbbc115a56e6b0c4c424f582b6bbf37a5f12faf92c5e08b4"
     }
   ],
   "consumedIntentIds": [
