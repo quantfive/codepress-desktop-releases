@@ -49803,7 +49803,7 @@
         "type": "patch"
       },
       "mac": {
-        "status": "claimed",
+        "status": "failed",
         "generation": 1,
         "owner": {
           "ownerId": "terminal-macos-delivery",
@@ -49812,7 +49812,12 @@
         },
         "leaseUntil": "2026-10-25T18:19:41.606Z",
         "dispatch": null,
-        "failures": []
+        "failures": [
+          {
+            "code": "dispatch_failed",
+            "at": "2026-10-24T18:19:44.515Z"
+          }
+        ]
       },
       "linux": {
         "status": "pending",
