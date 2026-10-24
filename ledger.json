@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "cb6761a131c61464d61802cd91d1b0c6ba556833",
+  "cursorSha": "afd4159398ab08f8f3f147821d845ee1ca2c421e",
   "highWaterVersion": "1.362.38",
   "rows": [
     {
@@ -99424,6 +99424,18 @@
       "sourceSha": "cb6761a131c61464d61802cd91d1b0c6ba556833",
       "sourcePackageVersion": "1.362.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "8f6ea37238a3ee82f7d3850d3f436880b56f4e94",
+      "sourcePackageVersion": "1.362.7",
+      "intentIds": [
+        "terminal-vitest-cache-prune-guard:48bd61be6e271931ce8c8e392ea55d0a69e13c91be9caf43d69ee1b8e2d377dc"
+      ]
+    },
+    {
+      "sourceSha": "afd4159398ab08f8f3f147821d845ee1ca2c421e",
+      "sourcePackageVersion": "1.362.8",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -99442,6 +99454,14 @@
       "summary": "Terminal CI Vitest cache: restore a shard's newest saved modules across lockfile edits that leave Terminal's dependencies alone, prune entries a run did not read before saving, and log how the restore matched.",
       "sourceSha": "86b04f14cb8af529316df2d7cfb29b21f1a1522a",
       "identity": "terminal-vitest-cache-prune:34ec2f5465653c794ee754e37e80f97e32f4ad17082ab496602c6c8113be2e6c"
+    },
+    {
+      "id": "terminal-vitest-cache-prune-guard",
+      "digest": "48bd61be6e271931ce8c8e392ea55d0a69e13c91be9caf43d69ee1b8e2d377dc",
+      "type": "patch",
+      "summary": "Terminal CI Vitest cache: the prune step now leaves the saved cache untouched, and warns, when it cannot find the directory the unit step wrote.",
+      "sourceSha": "8f6ea37238a3ee82f7d3850d3f436880b56f4e94",
+      "identity": "terminal-vitest-cache-prune-guard:48bd61be6e271931ce8c8e392ea55d0a69e13c91be9caf43d69ee1b8e2d377dc"
     }
   ],
   "consumedIntentIds": [
