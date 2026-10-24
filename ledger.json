@@ -47215,10 +47215,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40066745623",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-25T05:34:24.981Z",
         "dispatch": null,
         "failures": []
       }
