@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5447dccbdd5eecbf008891c4a10580d77098e131",
+  "cursorSha": "6ed7b47806b5b48d63ce3bb196a92145e8e75f8d",
   "highWaterVersion": "1.362.46",
   "rows": [
     {
@@ -100131,6 +100131,20 @@
       "sourceSha": "5447dccbdd5eecbf008891c4a10580d77098e131",
       "sourcePackageVersion": "1.362.19",
       "intentIds": []
+    },
+    {
+      "sourceSha": "616ae932f651668204b544a360c1303ba52f28e1",
+      "sourcePackageVersion": "1.362.19",
+      "intentIds": [
+        "lost-claude-login-recovers-by-itself:902ccf4437e680ed2f55109f9c0b072a2692f911a1c265faf42c724f5fd78fac"
+      ]
+    },
+    {
+      "sourceSha": "6ed7b47806b5b48d63ce3bb196a92145e8e75f8d",
+      "sourcePackageVersion": "1.362.19",
+      "intentIds": [
+        "tidy-accounts-switch:86799ccec803b19460d7e68de571a581548d144f8d50e78c9c973e8375b0f0c1"
+      ]
     }
   ],
   "intents": [
@@ -100245,6 +100259,22 @@
       "summary": "Show the hosting Mac's weekly subscription usage in a synced project's Orchestrator and Workers model pickers.",
       "sourceSha": "0d37aa019a199abe7e80ddbfa4fe6dcfb22bde9a",
       "identity": "remote-project-weekly-usage:1eadc1134aa57b668481419e6ce40556e1982b1727e1efe60e5fa628025d981f"
+    },
+    {
+      "id": "lost-claude-login-recovers-by-itself",
+      "digest": "902ccf4437e680ed2f55109f9c0b072a2692f911a1c265faf42c724f5fd78fac",
+      "type": "patch",
+      "summary": "A Claude worker that prints \"Not logged in · Please run /login\" now recovers by itself: Terminal leases the person's active Personal account again and resumes the worker, or fails the worker over to another healthy account. A Personal lease whose renewal just failed or timed out is no longer waited on again by every launch for a minute.",
+      "sourceSha": "616ae932f651668204b544a360c1303ba52f28e1",
+      "identity": "lost-claude-login-recovers-by-itself:902ccf4437e680ed2f55109f9c0b072a2692f911a1c265faf42c724f5fd78fac"
+    },
+    {
+      "id": "tidy-accounts-switch",
+      "digest": "86799ccec803b19460d7e68de571a581548d144f8d50e78c9c973e8375b0f0c1",
+      "type": "patch",
+      "summary": "Use one native activation rule for synced Claude and Codex accounts, preserve outside logins, and explain skipped switches on the Accounts card.",
+      "sourceSha": "6ed7b47806b5b48d63ce3bb196a92145e8e75f8d",
+      "identity": "tidy-accounts-switch:86799ccec803b19460d7e68de571a581548d144f8d50e78c9c973e8375b0f0c1"
     }
   ],
   "consumedIntentIds": [
