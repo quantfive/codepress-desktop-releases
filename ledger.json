@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "bee13f021f3e8af8b40c050eac068513e4acc735",
+  "cursorSha": "eab129ade904a39dc6c451472f97080210af479e",
   "highWaterVersion": "1.362.48",
   "rows": [
     {
@@ -100348,6 +100348,13 @@
       "sourceSha": "bee13f021f3e8af8b40c050eac068513e4acc735",
       "sourcePackageVersion": "1.362.22",
       "intentIds": []
+    },
+    {
+      "sourceSha": "eab129ade904a39dc6c451472f97080210af479e",
+      "sourcePackageVersion": "1.362.22",
+      "intentIds": [
+        "continue-here-names-restored-tab:36526e5e615be063c9c2100ba40ddf2f3b32355e2aa7846271ec251edc565165"
+      ]
     }
   ],
   "intents": [
@@ -100494,6 +100501,14 @@
       "summary": "Make both phone drawers a continuous surface under the thread card, without a seam border or card ring.",
       "sourceSha": "275a0614f25c7005cbb6b2532aa61cfca918772d",
       "identity": "smooth-phone-drawers:c1c03d832886619e77577703ed115352fff259900759049acb5bfbf35345c18f"
+    },
+    {
+      "id": "continue-here-names-restored-tab",
+      "digest": "36526e5e615be063c9c2100ba40ddf2f3b32355e2aa7846271ec251edc565165",
+      "type": "patch",
+      "summary": "Continue here on a cloud chat or saved tab saves the restored tab's card at once, so a message typed into that chat on the web reaches the new tab instead of answering \"did not answer\".",
+      "sourceSha": "eab129ade904a39dc6c451472f97080210af479e",
+      "identity": "continue-here-names-restored-tab:36526e5e615be063c9c2100ba40ddf2f3b32355e2aa7846271ec251edc565165"
     }
   ],
   "consumedIntentIds": [
