@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "fb9077594b72543f6351659a2b1f94272d379fd1",
+  "cursorSha": "a00e8799a25fd9f3cbd0e2c40cc36bd9df2415ae",
   "highWaterVersion": "1.368.4",
   "rows": [
     {
@@ -102290,6 +102290,13 @@
       "sourceSha": "fb9077594b72543f6351659a2b1f94272d379fd1",
       "sourcePackageVersion": "1.367.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a00e8799a25fd9f3cbd0e2c40cc36bd9df2415ae",
+      "sourcePackageVersion": "1.367.4",
+      "intentIds": [
+        "copy-unstick:24f87009a6e5f5aee3fafeea553a73aaf8a544b080cfb776ffabf560d37897b7"
+      ]
     }
   ],
   "intents": [
@@ -102652,6 +102659,14 @@
       "summary": "Keep account reports flowing before this computer has its own account choice by omitting revision-zero outcomes.",
       "sourceSha": "e4bc3dd8c456796f70641192c2eef96c41f4e68e",
       "identity": "quiet-computers-report:cfb963df2fbaad777381adf2be9b24288e913d76130d1da1267597b8ced549a1"
+    },
+    {
+      "id": "copy-unstick",
+      "digest": "24f87009a6e5f5aee3fafeea553a73aaf8a544b080cfb776ffabf560d37897b7",
+      "type": "patch",
+      "summary": "Keep project cards and cloud copies syncing after a session snapshot is refused.",
+      "sourceSha": "a00e8799a25fd9f3cbd0e2c40cc36bd9df2415ae",
+      "identity": "copy-unstick:24f87009a6e5f5aee3fafeea553a73aaf8a544b080cfb776ffabf560d37897b7"
     }
   ],
   "consumedIntentIds": [
