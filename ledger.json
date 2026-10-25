@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "09fcb6e8aff55d55fd475f791f637b1cd09a5946",
+  "cursorSha": "46fc35bf8a6e4acb32f880ade2ed6ffa6cb4c536",
   "highWaterVersion": "1.367.0",
   "rows": [
     {
@@ -101924,6 +101924,13 @@
       "intentIds": [
         "tidy-computers-account-menu:42c8d21788f681306021ea8269c7509ff728b19d6973d429a4c7ad5b8d8cf6d1"
       ]
+    },
+    {
+      "sourceSha": "46fc35bf8a6e4acb32f880ade2ed6ffa6cb4c536",
+      "sourcePackageVersion": "1.366.1",
+      "intentIds": [
+        "runner-pool-computers:26a10f02adc741c5ab7b635f80baa11844f5cac52c68d6027820237a02d8d957"
+      ]
     }
   ],
   "intents": [
@@ -102238,6 +102245,14 @@
       "summary": "Choose accounts for this computer, another approved computer, or all computers from the Accounts switcher, with reported running status and remote Muse confirmation.",
       "sourceSha": "09fcb6e8aff55d55fd475f791f637b1cd09a5946",
       "identity": "tidy-computers-account-menu:42c8d21788f681306021ea8269c7509ff728b19d6973d429a4c7ad5b8d8cf6d1"
+    },
+    {
+      "id": "runner-pool-computers",
+      "digest": "26a10f02adc741c5ab7b635f80baa11844f5cac52c68d6027820237a02d8d957",
+      "type": "minor",
+      "summary": "Add the organization Runner pool to Settings → Computers, with pool status,\nfallback policy, installation commands and explicit local join/leave controls.",
+      "sourceSha": "46fc35bf8a6e4acb32f880ade2ed6ffa6cb4c536",
+      "identity": "runner-pool-computers:26a10f02adc741c5ab7b635f80baa11844f5cac52c68d6027820237a02d8d957"
     }
   ],
   "consumedIntentIds": [
