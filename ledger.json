@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6f52ae3f542fbd6217a716e86c4c0b3c1928cebd",
+  "cursorSha": "942011a30269f3627df0fe1868cdc122659452b5",
   "highWaterVersion": "1.368.5",
   "rows": [
     {
@@ -102360,6 +102360,18 @@
       "sourceSha": "6f52ae3f542fbd6217a716e86c4c0b3c1928cebd",
       "sourcePackageVersion": "1.367.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "527db3ed17f20d467bb696ff89512893ea489b0d",
+      "sourcePackageVersion": "1.367.5",
+      "intentIds": [
+        "remote-usage-tooltip-names-home:36291c7424ce191c29c00fe01893e47f3b67a1aea90cd5c18b79ab37ba3a40c7"
+      ]
+    },
+    {
+      "sourceSha": "942011a30269f3627df0fe1868cdc122659452b5",
+      "sourcePackageVersion": "1.367.5",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -102730,6 +102742,14 @@
       "summary": "Keep project cards and cloud copies syncing after a session snapshot is refused.",
       "sourceSha": "a00e8799a25fd9f3cbd0e2c40cc36bd9df2415ae",
       "identity": "copy-unstick:24f87009a6e5f5aee3fafeea553a73aaf8a544b080cfb776ffabf560d37897b7"
+    },
+    {
+      "id": "remote-usage-tooltip-names-home",
+      "digest": "36291c7424ce191c29c00fe01893e47f3b67a1aea90cd5c18b79ab37ba3a40c7",
+      "type": "patch",
+      "summary": "The weekly usage bars on a project homed on another Mac now say which Mac they were read from in their tooltip.",
+      "sourceSha": "527db3ed17f20d467bb696ff89512893ea489b0d",
+      "identity": "remote-usage-tooltip-names-home:36291c7424ce191c29c00fe01893e47f3b67a1aea90cd5c18b79ab37ba3a40c7"
     }
   ],
   "consumedIntentIds": [
