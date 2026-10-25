@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f8107e4cddd6650e9b888645fca23c1aa5ed572a",
+  "cursorSha": "7efa544ce596fdbbe1caf2d39a2bdf373640313f",
   "highWaterVersion": "1.363.0",
   "rows": [
     {
@@ -101149,6 +101149,13 @@
       "sourceSha": "f8107e4cddd6650e9b888645fca23c1aa5ed572a",
       "sourcePackageVersion": "1.363.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7efa544ce596fdbbe1caf2d39a2bdf373640313f",
+      "sourcePackageVersion": "1.363.0",
+      "intentIds": [
+        "terminal-device-accounts-report:fb978b8493f79ed9f4400e9f4feb60e8eaadf37913c55e999b536d203037ef37"
+      ]
     }
   ],
   "intents": [
@@ -101383,6 +101390,14 @@
       "summary": "Add a separate Linux capacity-host CLI and root service with pinned containerd/Kata installation, owned bridge/firewall isolation, per-session VMs, preflight probes, admission and self-fencing.",
       "sourceSha": "99ddf3c60c61557ffc874e725e3ad8b4cd7bc428",
       "identity": "capacity-host-service:8a29fc17ed495cc6f71cd8d8cbefe1d17042d85c309e4f829df18521589c49ca"
+    },
+    {
+      "id": "terminal-device-accounts-report",
+      "digest": "fb978b8493f79ed9f4400e9f4feb60e8eaadf37913c55e999b536d203037ef37",
+      "type": "minor",
+      "summary": "Follow this computer's Claude and Codex account choices, support targeted account selection, and report account status to other approved computers.",
+      "sourceSha": "7efa544ce596fdbbe1caf2d39a2bdf373640313f",
+      "identity": "terminal-device-accounts-report:fb978b8493f79ed9f4400e9f4feb60e8eaadf37913c55e999b536d203037ef37"
     }
   ],
   "consumedIntentIds": [
