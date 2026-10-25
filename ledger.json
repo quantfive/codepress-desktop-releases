@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b3a456904e4143567be9de2f7c8eb477ae970776",
+  "cursorSha": "09fcb6e8aff55d55fd475f791f637b1cd09a5946",
   "highWaterVersion": "1.366.1",
   "rows": [
     {
@@ -101870,6 +101870,13 @@
       "sourceSha": "b3a456904e4143567be9de2f7c8eb477ae970776",
       "sourcePackageVersion": "1.366.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "09fcb6e8aff55d55fd475f791f637b1cd09a5946",
+      "sourcePackageVersion": "1.366.1",
+      "intentIds": [
+        "tidy-computers-account-menu:42c8d21788f681306021ea8269c7509ff728b19d6973d429a4c7ad5b8d8cf6d1"
+      ]
     }
   ],
   "intents": [
@@ -102176,6 +102183,14 @@
       "summary": "Open synced conversations from their cloud copy before reading live updates when the organization's cloud-first flag is on.",
       "sourceSha": "7c1348a44c4f3a6f33597777dc5420e15aea3505",
       "identity": "tidy-cloud-first-reads:73cbccc78afae296c9cd235de866eabc6108a0d6539ab6f41f5822bb8c6ecf40"
+    },
+    {
+      "id": "tidy-computers-account-menu",
+      "digest": "42c8d21788f681306021ea8269c7509ff728b19d6973d429a4c7ad5b8d8cf6d1",
+      "type": "minor",
+      "summary": "Choose accounts for this computer, another approved computer, or all computers from the Accounts switcher, with reported running status and remote Muse confirmation.",
+      "sourceSha": "09fcb6e8aff55d55fd475f791f637b1cd09a5946",
+      "identity": "tidy-computers-account-menu:42c8d21788f681306021ea8269c7509ff728b19d6973d429a4c7ad5b8d8cf6d1"
     }
   ],
   "consumedIntentIds": [
