@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "606fc59f58e06bfdc7636920658c322b0968b17d",
+  "cursorSha": "69df6efdbd5aa6387dcac1de4156c9816d85a8fe",
   "highWaterVersion": "1.362.56",
   "rows": [
     {
@@ -101055,6 +101055,18 @@
       "sourceSha": "606fc59f58e06bfdc7636920658c322b0968b17d",
       "sourcePackageVersion": "1.362.31",
       "intentIds": []
+    },
+    {
+      "sourceSha": "eea531c7184b2b005fbde39f2937e856f9a1f80b",
+      "sourcePackageVersion": "1.362.31",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "69df6efdbd5aa6387dcac1de4156c9816d85a8fe",
+      "sourcePackageVersion": "1.362.31",
+      "intentIds": [
+        "auto-keeps-local-inputs:9917d422e5cd919adf2e1b1a329df26aa21bcbb4f3f52ce9f2b9b4e69497ccde"
+      ]
     }
   ],
   "intents": [
@@ -101273,6 +101285,14 @@
       "summary": "Settings → Computers shows each computer's Terminal version and whether it is up to date, has an update ready, is downloading, restarting or needs updating by hand; `list_machines` reports the same, plus how many agents are busy on each machine.",
       "sourceSha": "9e2b2322c0109ed14b07c25da9c5b6fa799c2875",
       "identity": "computer-update-state:61064a9853b71721963752b4b4cf7687e2ea15c512bea31159ce91afd3b5433d"
+    },
+    {
+      "id": "auto-keeps-local-inputs",
+      "digest": "9917d422e5cd919adf2e1b1a329df26aa21bcbb4f3f52ce9f2b9b4e69497ccde",
+      "type": "patch",
+      "summary": "Keep Auto kickoffs on This machine while the draft has attachments or @mentions, and restore the ranked pick when they are removed.",
+      "sourceSha": "69df6efdbd5aa6387dcac1de4156c9816d85a8fe",
+      "identity": "auto-keeps-local-inputs:9917d422e5cd919adf2e1b1a329df26aa21bcbb4f3f52ce9f2b9b4e69497ccde"
     }
   ],
   "consumedIntentIds": [
