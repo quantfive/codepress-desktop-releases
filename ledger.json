@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5272d9cfd072b26f7fb08d1028b2b44b0c3b9233",
+  "cursorSha": "a1a0c147d34a97cdbd77c2218d562d760b14640a",
   "highWaterVersion": "1.365.0",
   "rows": [
     {
@@ -101537,6 +101537,13 @@
       "sourceSha": "5272d9cfd072b26f7fb08d1028b2b44b0c3b9233",
       "sourcePackageVersion": "1.365.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a1a0c147d34a97cdbd77c2218d562d760b14640a",
+      "sourcePackageVersion": "1.365.1",
+      "intentIds": [
+        "current-cloud-project-copy:3ad16eac4197b3bc5bdf7a574ac5d4018e6f42f10aad724d7d5ed104959c212f"
+      ]
     }
   ],
   "intents": [
@@ -101811,6 +101818,14 @@
       "summary": "Follow each computer's Muse account choice, including deferred idle switches, and report its local sign-ins and conversation restart state.",
       "sourceSha": "00ff224844aca8911c5b38e72a75b23f72361580",
       "identity": "muse-per-computer-choice:f42a47029442d750dff739e778e88d2cbfc5173002e247e55dae7ca916c03cd0"
+    },
+    {
+      "id": "current-cloud-project-copy",
+      "digest": "3ad16eac4197b3bc5bdf7a574ac5d4018e6f42f10aad724d7d5ed104959c212f",
+      "type": "patch",
+      "summary": "Keep synced project cloud copies current after record changes, refresh edited older pages, and preserve whole count-based pages up to the cloud upload ceiling.",
+      "sourceSha": "a1a0c147d34a97cdbd77c2218d562d760b14640a",
+      "identity": "current-cloud-project-copy:3ad16eac4197b3bc5bdf7a574ac5d4018e6f42f10aad724d7d5ed104959c212f"
     }
   ],
   "consumedIntentIds": [
