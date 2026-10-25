@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9208b8ff38696d48367d6f3fee31c54b52ea82df",
+  "cursorSha": "31814636e0110791c0f4c7c2b48535bd6ffa16c9",
   "highWaterVersion": "1.362.47",
   "rows": [
     {
@@ -100219,6 +100219,13 @@
       "sourceSha": "9208b8ff38696d48367d6f3fee31c54b52ea82df",
       "sourcePackageVersion": "1.362.20",
       "intentIds": []
+    },
+    {
+      "sourceSha": "31814636e0110791c0f4c7c2b48535bd6ffa16c9",
+      "sourcePackageVersion": "1.362.20",
+      "intentIds": [
+        "quiet-macos-cli-metadata:b2b8b3db8a9963a8c4be99b5619b326533e3e98871fe1cf4cde46b706ef5a58a"
+      ]
     }
   ],
   "intents": [
@@ -100349,6 +100356,14 @@
       "summary": "Use one native activation rule for synced Claude and Codex accounts, preserve outside logins, and explain skipped switches on the Accounts card.",
       "sourceSha": "6ed7b47806b5b48d63ce3bb196a92145e8e75f8d",
       "identity": "tidy-accounts-switch:86799ccec803b19460d7e68de571a581548d144f8d50e78c9c973e8375b0f0c1"
+    },
+    {
+      "id": "quiet-macos-cli-metadata",
+      "digest": "b2b8b3db8a9963a8c4be99b5619b326533e3e98871fe1cf4cde46b706ef5a58a",
+      "type": "patch",
+      "summary": "Strip macOS metadata from CLI archives and keep tar warnings outside the publisher's stdout limits.",
+      "sourceSha": "31814636e0110791c0f4c7c2b48535bd6ffa16c9",
+      "identity": "quiet-macos-cli-metadata:b2b8b3db8a9963a8c4be99b5619b326533e3e98871fe1cf4cde46b706ef5a58a"
     }
   ],
   "consumedIntentIds": [
