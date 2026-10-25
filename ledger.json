@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "56a7bcb3e6088d0688645628d73ea5ec708a26e3",
-  "highWaterVersion": "1.362.51",
+  "highWaterVersion": "1.362.52",
   "rows": [
     {
       "schemaVersion": 1,
@@ -50453,6 +50453,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:56a7bcb3e6088d0688645628d73ea5ec708a26e3",
+      "kind": "main",
+      "sequence": 1633,
+      "sourceSha": "56a7bcb3e6088d0688645628d73ea5ec708a26e3",
+      "sourcePackageVersion": "1.362.26",
+      "version": "1.362.52",
+      "publicationDate": "2026-10-25T03:48:02.474Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "whole-live-project-pages:3ca8b8b968a8c0bef43bf4c31b6db66ba574bf3024661883b9e4f5b16e548d86"
+        ],
+        "notesIntentIds": [
+          "whole-live-project-pages:3ca8b8b968a8c0bef43bf4c31b6db66ba574bf3024661883b9e4f5b16e548d86"
+        ],
+        "throughSourceSha": "56a7bcb3e6088d0688645628d73ea5ec708a26e3",
+        "previousThroughSourceSha": "37e60c89eafa8584cd406a149226016c0dda824a",
+        "baselineVersion": "1.362.51",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40159462237",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-26T03:47:39.868Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -100804,7 +100847,8 @@
     "smooth-phone-drawers:c1c03d832886619e77577703ed115352fff259900759049acb5bfbf35345c18f",
     "continue-here-names-restored-tab:36526e5e615be063c9c2100ba40ddf2f3b32355e2aa7846271ec251edc565165",
     "ghostty-on-linux:f0070fd34af0db0b23e4361af1ae0ef22525a7e08d77eaf2718ac9941ac9ff97",
-    "pm-window-proxy-fallback:76ab7e74e0cbab4c6a67bcd721cac2ffbcc3469787352e056cd0bebeaf9a95ea"
+    "pm-window-proxy-fallback:76ab7e74e0cbab4c6a67bcd721cac2ffbcc3469787352e056cd0bebeaf9a95ea",
+    "whole-live-project-pages:3ca8b8b968a8c0bef43bf4c31b6db66ba574bf3024661883b9e4f5b16e548d86"
   ],
-  "consumedThroughSha": "37e60c89eafa8584cd406a149226016c0dda824a"
+  "consumedThroughSha": "56a7bcb3e6088d0688645628d73ea5ec708a26e3"
 }
