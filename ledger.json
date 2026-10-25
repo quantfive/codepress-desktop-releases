@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "7c1348a44c4f3a6f33597777dc5420e15aea3505",
-  "highWaterVersion": "1.366.0",
+  "highWaterVersion": "1.366.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -51188,6 +51188,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:7c1348a44c4f3a6f33597777dc5420e15aea3505",
+      "kind": "main",
+      "sequence": 1646,
+      "sourceSha": "7c1348a44c4f3a6f33597777dc5420e15aea3505",
+      "sourcePackageVersion": "1.366.0",
+      "version": "1.366.1",
+      "publicationDate": "2026-10-25T14:03:15.706Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "tidy-cloud-first-reads:73cbccc78afae296c9cd235de866eabc6108a0d6539ab6f41f5822bb8c6ecf40"
+        ],
+        "notesIntentIds": [
+          "tidy-cloud-first-reads:73cbccc78afae296c9cd235de866eabc6108a0d6539ab6f41f5822bb8c6ecf40"
+        ],
+        "throughSourceSha": "7c1348a44c4f3a6f33597777dc5420e15aea3505",
+        "previousThroughSourceSha": "a522e2a3c25d20bccf9e63dce0d05e342c280468",
+        "baselineVersion": "1.366.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40200336673",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-26T14:02:54.469Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -102135,7 +102178,8 @@
     "muse-per-computer-choice:f42a47029442d750dff739e778e88d2cbfc5173002e247e55dae7ca916c03cd0",
     "current-cloud-project-copy:3ad16eac4197b3bc5bdf7a574ac5d4018e6f42f10aad724d7d5ed104959c212f",
     "quick-terminal-selection:7d1645f43e3eb8b618280228c962ef713c4471bfb76aa82e3cdde4942e7d6a6a",
-    "keep-computers-updated:19be12dd2c10c611667334c7ff1e800c9d06d8e47af1d8deb0cbffa7ae03854f"
+    "keep-computers-updated:19be12dd2c10c611667334c7ff1e800c9d06d8e47af1d8deb0cbffa7ae03854f",
+    "tidy-cloud-first-reads:73cbccc78afae296c9cd235de866eabc6108a0d6539ab6f41f5822bb8c6ecf40"
   ],
-  "consumedThroughSha": "a522e2a3c25d20bccf9e63dce0d05e342c280468"
+  "consumedThroughSha": "7c1348a44c4f3a6f33597777dc5420e15aea3505"
 }
