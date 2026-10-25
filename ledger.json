@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2ed8e533bc53838ead747c44bf080c2567a91586",
+  "cursorSha": "275a0614f25c7005cbb6b2532aa61cfca918772d",
   "highWaterVersion": "1.362.47",
   "rows": [
     {
@@ -100246,6 +100246,18 @@
       "sourceSha": "2ed8e533bc53838ead747c44bf080c2567a91586",
       "sourcePackageVersion": "1.362.21",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c6b08972555b558585794f57cb2123d693277e59",
+      "sourcePackageVersion": "1.362.21",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "275a0614f25c7005cbb6b2532aa61cfca918772d",
+      "sourcePackageVersion": "1.362.21",
+      "intentIds": [
+        "smooth-phone-drawers:c1c03d832886619e77577703ed115352fff259900759049acb5bfbf35345c18f"
+      ]
     }
   ],
   "intents": [
@@ -100384,6 +100396,14 @@
       "summary": "Strip macOS metadata from CLI archives and keep tar warnings outside the publisher's stdout limits.",
       "sourceSha": "31814636e0110791c0f4c7c2b48535bd6ffa16c9",
       "identity": "quiet-macos-cli-metadata:b2b8b3db8a9963a8c4be99b5619b326533e3e98871fe1cf4cde46b706ef5a58a"
+    },
+    {
+      "id": "smooth-phone-drawers",
+      "digest": "c1c03d832886619e77577703ed115352fff259900759049acb5bfbf35345c18f",
+      "type": "patch",
+      "summary": "Make both phone drawers a continuous surface under the thread card, without a seam border or card ring.",
+      "sourceSha": "275a0614f25c7005cbb6b2532aa61cfca918772d",
+      "identity": "smooth-phone-drawers:c1c03d832886619e77577703ed115352fff259900759049acb5bfbf35345c18f"
     }
   ],
   "consumedIntentIds": [
