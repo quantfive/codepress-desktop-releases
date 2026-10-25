@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2789a56e1eb1d50a6a78b446abce87fc8297357b",
+  "cursorSha": "dd1c4b1cd0066469bef19c063117ab2f82c618f1",
   "highWaterVersion": "1.362.52",
   "rows": [
     {
@@ -100711,6 +100711,13 @@
       "sourceSha": "2789a56e1eb1d50a6a78b446abce87fc8297357b",
       "sourcePackageVersion": "1.362.26",
       "intentIds": []
+    },
+    {
+      "sourceSha": "dd1c4b1cd0066469bef19c063117ab2f82c618f1",
+      "sourcePackageVersion": "1.362.26",
+      "intentIds": [
+        "tidy-storage-import-order:59882a0ecfb5c48041aed692a387b94811e5fe96679b292336ea0d7dbb88f214"
+      ]
     }
   ],
   "intents": [
@@ -100889,6 +100896,14 @@
       "summary": "Read remote projects in complete count-based pages, retain unchanged Work and Fleet records, and immediately catch up on pending replies.\n\nPreserve emoji pairs at text caps and normalize malformed Unicode before relaying project reads.",
       "sourceSha": "6284d5e2a9b222b5753c64ec90051c657b40d0a3",
       "identity": "whole-live-project-pages:3ca8b8b968a8c0bef43bf4c31b6db66ba574bf3024661883b9e4f5b16e548d86"
+    },
+    {
+      "id": "tidy-storage-import-order",
+      "digest": "59882a0ecfb5c48041aed692a387b94811e5fe96679b292336ea0d7dbb88f214",
+      "type": "patch",
+      "summary": "Make storage janitor initialization independent of target import order.",
+      "sourceSha": "dd1c4b1cd0066469bef19c063117ab2f82c618f1",
+      "identity": "tidy-storage-import-order:59882a0ecfb5c48041aed692a387b94811e5fe96679b292336ea0d7dbb88f214"
     }
   ],
   "consumedIntentIds": [
