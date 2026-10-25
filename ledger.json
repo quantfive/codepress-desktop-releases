@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "49755e924e846cfa2254ddf2d6afa9310f31159d",
+  "cursorSha": "112f975c12da4cde42458fdc98328fde2b51dd36",
   "highWaterVersion": "1.362.49",
   "rows": [
     {
@@ -100427,6 +100427,13 @@
       "sourceSha": "49755e924e846cfa2254ddf2d6afa9310f31159d",
       "sourcePackageVersion": "1.362.23",
       "intentIds": []
+    },
+    {
+      "sourceSha": "112f975c12da4cde42458fdc98328fde2b51dd36",
+      "sourcePackageVersion": "1.362.23",
+      "intentIds": [
+        "ghostty-on-linux:f0070fd34af0db0b23e4361af1ae0ef22525a7e08d77eaf2718ac9941ac9ff97"
+      ]
     }
   ],
   "intents": [
@@ -100581,6 +100588,14 @@
       "summary": "Continue here on a cloud chat or saved tab saves the restored tab's card at once, so a message typed into that chat on the web reaches the new tab instead of answering \"did not answer\".",
       "sourceSha": "eab129ade904a39dc6c451472f97080210af479e",
       "identity": "continue-here-names-restored-tab:36526e5e615be063c9c2100ba40ddf2f3b32355e2aa7846271ec251edc565165"
+    },
+    {
+      "id": "ghostty-on-linux",
+      "digest": "f0070fd34af0db0b23e4361af1ae0ef22525a7e08d77eaf2718ac9941ac9ff97",
+      "type": "patch",
+      "summary": "The Ghostty terminal engine pilot now works on x86_64 Linux: Linux builds package the engine, and the background service keeps a copy of it, so opted-in users get Ghostty tabs instead of xterm with \"unsupported runtime\". The broker also counts output that arrives while a Ghostty snapshot is being taken toward its next checkpoint, instead of treating it as already checkpointed. A window that first reached a server without the engine (for example, before the background service swapped it to the new build's server) now retries the viewer engine from the new server instead of keeping the earlier failure. A Ghostty tab opened in the background no longer shows blank until the window is resized: revealing a tab repaints its last frame.",
+      "sourceSha": "112f975c12da4cde42458fdc98328fde2b51dd36",
+      "identity": "ghostty-on-linux:f0070fd34af0db0b23e4361af1ae0ef22525a7e08d77eaf2718ac9941ac9ff97"
     }
   ],
   "consumedIntentIds": [
