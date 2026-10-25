@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9c2b4b62e247fe56b99594777a36ac9abbce7415",
+  "cursorSha": "d859110bd0665abc2c9374e15c7121b33abccdd6",
   "highWaterVersion": "1.362.50",
   "rows": [
     {
@@ -100509,6 +100509,13 @@
       "sourceSha": "9c2b4b62e247fe56b99594777a36ac9abbce7415",
       "sourcePackageVersion": "1.362.24",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d859110bd0665abc2c9374e15c7121b33abccdd6",
+      "sourcePackageVersion": "1.362.24",
+      "intentIds": [
+        "pm-window-proxy-fallback:76ab7e74e0cbab4c6a67bcd721cac2ffbcc3469787352e056cd0bebeaf9a95ea"
+      ]
     }
   ],
   "intents": [
@@ -100671,6 +100678,14 @@
       "summary": "The Ghostty terminal engine pilot now works on x86_64 Linux: Linux builds package the engine, and the background service keeps a copy of it, so opted-in users get Ghostty tabs instead of xterm with \"unsupported runtime\". The broker also counts output that arrives while a Ghostty snapshot is being taken toward its next checkpoint, instead of treating it as already checkpointed. A window that first reached a server without the engine (for example, before the background service swapped it to the new build's server) now retries the viewer engine from the new server instead of keeping the earlier failure. A Ghostty tab opened in the background no longer shows blank until the window is resized: revealing a tab repaints its last frame.",
       "sourceSha": "112f975c12da4cde42458fdc98328fde2b51dd36",
       "identity": "ghostty-on-linux:f0070fd34af0db0b23e4361af1ae0ef22525a7e08d77eaf2718ac9941ac9ff97"
+    },
+    {
+      "id": "pm-window-proxy-fallback",
+      "digest": "76ab7e74e0cbab4c6a67bcd721cac2ffbcc3469787352e056cd0bebeaf9a95ea",
+      "type": "patch",
+      "summary": "Start Orchestrators in the Terminal window when Claude or Codex needs its Team relay, and retry a host's window-bound launch refusal once in that window.",
+      "sourceSha": "d859110bd0665abc2c9374e15c7121b33abccdd6",
+      "identity": "pm-window-proxy-fallback:76ab7e74e0cbab4c6a67bcd721cac2ffbcc3469787352e056cd0bebeaf9a95ea"
     }
   ],
   "consumedIntentIds": [
