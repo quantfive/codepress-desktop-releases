@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "9e2b2322c0109ed14b07c25da9c5b6fa799c2875",
-  "highWaterVersion": "1.362.55",
+  "highWaterVersion": "1.362.56",
   "rows": [
     {
       "schemaVersion": 1,
@@ -50688,6 +50688,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:9e2b2322c0109ed14b07c25da9c5b6fa799c2875",
+      "kind": "main",
+      "sequence": 1637,
+      "sourceSha": "9e2b2322c0109ed14b07c25da9c5b6fa799c2875",
+      "sourcePackageVersion": "1.362.30",
+      "version": "1.362.56",
+      "publicationDate": "2026-10-25T06:56:00.885Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "computer-update-state:61064a9853b71721963752b4b4cf7687e2ea15c512bea31159ce91afd3b5433d"
+        ],
+        "notesIntentIds": [
+          "computer-update-state:61064a9853b71721963752b4b4cf7687e2ea15c512bea31159ce91afd3b5433d"
+        ],
+        "throughSourceSha": "9e2b2322c0109ed14b07c25da9c5b6fa799c2875",
+        "previousThroughSourceSha": "10d7657a287954b730303121815ab0f3f28e0e19",
+        "baselineVersion": "1.362.55",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40170745172",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-26T06:55:40.022Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -101249,7 +101292,8 @@
     "tidy-storage-import-order:59882a0ecfb5c48041aed692a387b94811e5fe96679b292336ea0d7dbb88f214",
     "use-on-select-compact:664eeed14991599ec856d44ed8d5a576245d67e42364d468077b1a8a15c8bd6b",
     "quiet-launcher-test-polls:03849777c50f2c699341c323450f0adb7967cdd4a4bff3f82376a47679c083c2",
-    "bridge-tab-output-byte-cap:01b642066fc6dae40aa1d71efee39571f669105fbb6d6930e88d89b438167ff7"
+    "bridge-tab-output-byte-cap:01b642066fc6dae40aa1d71efee39571f669105fbb6d6930e88d89b438167ff7",
+    "computer-update-state:61064a9853b71721963752b4b4cf7687e2ea15c512bea31159ce91afd3b5433d"
   ],
-  "consumedThroughSha": "10d7657a287954b730303121815ab0f3f28e0e19"
+  "consumedThroughSha": "9e2b2322c0109ed14b07c25da9c5b6fa799c2875"
 }
