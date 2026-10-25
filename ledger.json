@@ -50281,10 +50281,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40151237252",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-26T01:36:25.833Z",
         "dispatch": null,
         "failures": []
       }
