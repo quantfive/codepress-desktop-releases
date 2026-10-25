@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "30e5d62731dbc155ac305dc547bb75ad31a4080a",
+  "cursorSha": "e25c824cba801987206d56366dbd45097f69972d",
   "highWaterVersion": "1.362.54",
   "rows": [
     {
@@ -100879,6 +100879,13 @@
       "sourceSha": "30e5d62731dbc155ac305dc547bb75ad31a4080a",
       "sourcePackageVersion": "1.362.29",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e25c824cba801987206d56366dbd45097f69972d",
+      "sourcePackageVersion": "1.362.29",
+      "intentIds": [
+        "bridge-tab-output-byte-cap:01b642066fc6dae40aa1d71efee39571f669105fbb6d6930e88d89b438167ff7"
+      ]
     }
   ],
   "intents": [
@@ -101081,6 +101088,14 @@
       "summary": "Allow the background launcher poll cadence to be compressed for deterministic tests while retaining its production timing defaults.",
       "sourceSha": "ac95fff5506a0e936db4b66a1e6e35a19c20a5a2",
       "identity": "quiet-launcher-test-polls:03849777c50f2c699341c323450f0adb7967cdd4a4bff3f82376a47679c083c2"
+    },
+    {
+      "id": "bridge-tab-output-byte-cap",
+      "digest": "01b642066fc6dae40aa1d71efee39571f669105fbb6d6930e88d89b438167ff7",
+      "type": "patch",
+      "summary": "Cap relayed tab output at 16 KiB of ANSI-stripped text so terminal UI redraws stay within the machine bridge reply limit.",
+      "sourceSha": "e25c824cba801987206d56366dbd45097f69972d",
+      "identity": "bridge-tab-output-byte-cap:01b642066fc6dae40aa1d71efee39571f669105fbb6d6930e88d89b438167ff7"
     }
   ],
   "consumedIntentIds": [
