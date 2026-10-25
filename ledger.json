@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "25a2b7ef6b3055c600a530e036ab673aa02e102f",
+  "cursorSha": "9e2b2322c0109ed14b07c25da9c5b6fa799c2875",
   "highWaterVersion": "1.362.55",
   "rows": [
     {
@@ -100988,6 +100988,13 @@
       "sourceSha": "25a2b7ef6b3055c600a530e036ab673aa02e102f",
       "sourcePackageVersion": "1.362.30",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9e2b2322c0109ed14b07c25da9c5b6fa799c2875",
+      "sourcePackageVersion": "1.362.30",
+      "intentIds": [
+        "computer-update-state:61064a9853b71721963752b4b4cf7687e2ea15c512bea31159ce91afd3b5433d"
+      ]
     }
   ],
   "intents": [
@@ -101198,6 +101205,14 @@
       "summary": "Cap relayed tab output at 16 KiB of ANSI-stripped text so terminal UI redraws stay within the machine bridge reply limit.",
       "sourceSha": "e25c824cba801987206d56366dbd45097f69972d",
       "identity": "bridge-tab-output-byte-cap:01b642066fc6dae40aa1d71efee39571f669105fbb6d6930e88d89b438167ff7"
+    },
+    {
+      "id": "computer-update-state",
+      "digest": "61064a9853b71721963752b4b4cf7687e2ea15c512bea31159ce91afd3b5433d",
+      "type": "patch",
+      "summary": "Settings → Computers shows each computer's Terminal version and whether it is up to date, has an update ready, is downloading, restarting or needs updating by hand; `list_machines` reports the same, plus how many agents are busy on each machine.",
+      "sourceSha": "9e2b2322c0109ed14b07c25da9c5b6fa799c2875",
+      "identity": "computer-update-state:61064a9853b71721963752b4b4cf7687e2ea15c512bea31159ce91afd3b5433d"
     }
   ],
   "consumedIntentIds": [
