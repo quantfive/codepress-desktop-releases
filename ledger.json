@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "37e60c89eafa8584cd406a149226016c0dda824a",
+  "cursorSha": "6284d5e2a9b222b5753c64ec90051c657b40d0a3",
   "highWaterVersion": "1.362.51",
   "rows": [
     {
@@ -100591,6 +100591,13 @@
       "sourceSha": "37e60c89eafa8584cd406a149226016c0dda824a",
       "sourcePackageVersion": "1.362.25",
       "intentIds": []
+    },
+    {
+      "sourceSha": "6284d5e2a9b222b5753c64ec90051c657b40d0a3",
+      "sourcePackageVersion": "1.362.25",
+      "intentIds": [
+        "whole-live-project-pages:3ca8b8b968a8c0bef43bf4c31b6db66ba574bf3024661883b9e4f5b16e548d86"
+      ]
     }
   ],
   "intents": [
@@ -100761,6 +100768,14 @@
       "summary": "Start Orchestrators in the Terminal window when Claude or Codex needs its Team relay, and retry a host's window-bound launch refusal once in that window.",
       "sourceSha": "d859110bd0665abc2c9374e15c7121b33abccdd6",
       "identity": "pm-window-proxy-fallback:76ab7e74e0cbab4c6a67bcd721cac2ffbcc3469787352e056cd0bebeaf9a95ea"
+    },
+    {
+      "id": "whole-live-project-pages",
+      "digest": "3ca8b8b968a8c0bef43bf4c31b6db66ba574bf3024661883b9e4f5b16e548d86",
+      "type": "patch",
+      "summary": "Read remote projects in complete count-based pages, retain unchanged Work and Fleet records, and immediately catch up on pending replies.\n\nPreserve emoji pairs at text caps and normalize malformed Unicode before relaying project reads.",
+      "sourceSha": "6284d5e2a9b222b5753c64ec90051c657b40d0a3",
+      "identity": "whole-live-project-pages:3ca8b8b968a8c0bef43bf4c31b6db66ba574bf3024661883b9e4f5b16e548d86"
     }
   ],
   "consumedIntentIds": [
