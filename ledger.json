@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "3abb8dd18c25d43d2817151b58d7d0691e4b9072",
-  "highWaterVersion": "1.368.0",
+  "highWaterVersion": "1.368.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -51351,6 +51351,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:3abb8dd18c25d43d2817151b58d7d0691e4b9072",
+      "kind": "main",
+      "sequence": 1649,
+      "sourceSha": "3abb8dd18c25d43d2817151b58d7d0691e4b9072",
+      "sourcePackageVersion": "1.367.0",
+      "version": "1.368.1",
+      "publicationDate": "2026-10-25T17:52:50.806Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "capacity-host-failure-paths:4a5206071be2ec0620dfeb699dfb252fed3d51390d9acceef09beb359305010c"
+        ],
+        "notesIntentIds": [
+          "capacity-host-failure-paths:4a5206071be2ec0620dfeb699dfb252fed3d51390d9acceef09beb359305010c"
+        ],
+        "throughSourceSha": "3abb8dd18c25d43d2817151b58d7d0691e4b9072",
+        "previousThroughSourceSha": "0d481edc3e45c7252413443b5523071e6bfc099a",
+        "baselineVersion": "1.368.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40218450112",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-26T17:52:28.154Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -102376,7 +102419,8 @@
     "keep-computers-updated:19be12dd2c10c611667334c7ff1e800c9d06d8e47af1d8deb0cbffa7ae03854f",
     "tidy-cloud-first-reads:73cbccc78afae296c9cd235de866eabc6108a0d6539ab6f41f5822bb8c6ecf40",
     "tidy-computers-account-menu:42c8d21788f681306021ea8269c7509ff728b19d6973d429a4c7ad5b8d8cf6d1",
-    "runner-pool-computers:26a10f02adc741c5ab7b635f80baa11844f5cac52c68d6027820237a02d8d957"
+    "runner-pool-computers:26a10f02adc741c5ab7b635f80baa11844f5cac52c68d6027820237a02d8d957",
+    "capacity-host-failure-paths:4a5206071be2ec0620dfeb699dfb252fed3d51390d9acceef09beb359305010c"
   ],
-  "consumedThroughSha": "0d481edc3e45c7252413443b5523071e6bfc099a"
+  "consumedThroughSha": "3abb8dd18c25d43d2817151b58d7d0691e4b9072"
 }
