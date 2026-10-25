@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "86e2093378a1deebeb8cdd8e1faf896b20a4aa6d",
+  "cursorSha": "a2f47606e0f313612ad88219323c03d539d678f3",
   "highWaterVersion": "1.364.1",
   "rows": [
     {
@@ -101379,6 +101379,13 @@
       "sourceSha": "86e2093378a1deebeb8cdd8e1faf896b20a4aa6d",
       "sourcePackageVersion": "1.364.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a2f47606e0f313612ad88219323c03d539d678f3",
+      "sourcePackageVersion": "1.364.1",
+      "intentIds": [
+        "remote-kickoff-carry:06630752b3e10c247c57345efe04194a9006d30fb3efda806ded0ef0cc1b15a3"
+      ]
     }
   ],
   "intents": [
@@ -101629,6 +101636,14 @@
       "summary": "Allow local Orchestrator composers to mention and read open chats on owned machines behind the default-off Cross-machine chat mentions organization flag.",
       "sourceSha": "04c9a2eea610a7a15c40fdc973746e04ac595991",
       "identity": "cross-machine-chat-mentions:88da3da1cdcfb2b5404602a07b454e5f64925d2330b6bf9f241354f86bb56cdc"
+    },
+    {
+      "id": "remote-kickoff-carry",
+      "digest": "06630752b3e10c247c57345efe04194a9006d30fb3efda806ded0ef0cc1b15a3",
+      "type": "patch",
+      "summary": "Carry attachments and owned-machine conversation mentions with capable remote kickoffs, while preserving mixed-version fallback and shared-computer refusals.",
+      "sourceSha": "a2f47606e0f313612ad88219323c03d539d678f3",
+      "identity": "remote-kickoff-carry:06630752b3e10c247c57345efe04194a9006d30fb3efda806ded0ef0cc1b15a3"
     }
   ],
   "consumedIntentIds": [
