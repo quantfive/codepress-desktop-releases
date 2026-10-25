@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e804853dc5993a4c31a07e423885a77ae31a7cae",
+  "cursorSha": "178a8e42c120473d0a4f815c1dae172aa2cfa606",
   "highWaterVersion": "1.365.2",
   "rows": [
     {
@@ -101693,6 +101693,13 @@
       "sourceSha": "e804853dc5993a4c31a07e423885a77ae31a7cae",
       "sourcePackageVersion": "1.365.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "178a8e42c120473d0a4f815c1dae172aa2cfa606",
+      "sourcePackageVersion": "1.365.3",
+      "intentIds": [
+        "keep-computers-updated:19be12dd2c10c611667334c7ff1e800c9d06d8e47af1d8deb0cbffa7ae03854f"
+      ]
     }
   ],
   "intents": [
@@ -101983,6 +101990,14 @@
       "summary": "Speed up Terminal CI test selection by sharing dependency graph walks across tests while preserving the selected tests and projects.",
       "sourceSha": "b7ebf6180f80ca2fc0a9775518630162be7feaf6",
       "identity": "quick-terminal-selection:7d1645f43e3eb8b618280228c962ef713c4471bfb76aa82e3cdde4942e7d6a6a"
+    },
+    {
+      "id": "keep-computers-updated",
+      "digest": "19be12dd2c10c611667334c7ff1e800c9d06d8e47af1d8deb0cbffa7ae03854f",
+      "type": "minor",
+      "summary": "Keep my computers up to date: one setting in Settings → Computers (shown where remote update is on) makes every computer you own install a ready update by itself once its agents are idle, and one that was asleep or offline catches up when it is back. A waiting install that the host refuses after accepting it now shows as failed with the reason (for example \"Needs an admin password there\") instead of staying on \"Waiting for its agents to finish\", and asking for an idle install of an update that restarts the terminal runtime asks for your OK straight away.",
+      "sourceSha": "178a8e42c120473d0a4f815c1dae172aa2cfa606",
+      "identity": "keep-computers-updated:19be12dd2c10c611667334c7ff1e800c9d06d8e47af1d8deb0cbffa7ae03854f"
     }
   ],
   "consumedIntentIds": [
