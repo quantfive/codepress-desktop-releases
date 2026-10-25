@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b332330fa408c41c272a4cc87594d49caca274f9",
+  "cursorSha": "b7ebf6180f80ca2fc0a9775518630162be7feaf6",
   "highWaterVersion": "1.365.1",
   "rows": [
     {
@@ -101634,6 +101634,13 @@
       "sourceSha": "b332330fa408c41c272a4cc87594d49caca274f9",
       "sourcePackageVersion": "1.365.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b7ebf6180f80ca2fc0a9775518630162be7feaf6",
+      "sourcePackageVersion": "1.365.2",
+      "intentIds": [
+        "quick-terminal-selection:7d1645f43e3eb8b618280228c962ef713c4471bfb76aa82e3cdde4942e7d6a6a"
+      ]
     }
   ],
   "intents": [
@@ -101916,6 +101923,14 @@
       "summary": "Keep synced project cloud copies current after record changes, refresh edited older pages, and preserve whole count-based pages up to the cloud upload ceiling.",
       "sourceSha": "a1a0c147d34a97cdbd77c2218d562d760b14640a",
       "identity": "current-cloud-project-copy:3ad16eac4197b3bc5bdf7a574ac5d4018e6f42f10aad724d7d5ed104959c212f"
+    },
+    {
+      "id": "quick-terminal-selection",
+      "digest": "7d1645f43e3eb8b618280228c962ef713c4471bfb76aa82e3cdde4942e7d6a6a",
+      "type": "patch",
+      "summary": "Speed up Terminal CI test selection by sharing dependency graph walks across tests while preserving the selected tests and projects.",
+      "sourceSha": "b7ebf6180f80ca2fc0a9775518630162be7feaf6",
+      "identity": "quick-terminal-selection:7d1645f43e3eb8b618280228c962ef713c4471bfb76aa82e3cdde4942e7d6a6a"
     }
   ],
   "consumedIntentIds": [
