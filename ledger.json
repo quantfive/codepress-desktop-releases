@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0d481edc3e45c7252413443b5523071e6bfc099a",
+  "cursorSha": "3abb8dd18c25d43d2817151b58d7d0691e4b9072",
   "highWaterVersion": "1.368.0",
   "rows": [
     {
@@ -101997,6 +101997,13 @@
       "sourceSha": "0d481edc3e45c7252413443b5523071e6bfc099a",
       "sourcePackageVersion": "1.367.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3abb8dd18c25d43d2817151b58d7d0691e4b9072",
+      "sourcePackageVersion": "1.367.0",
+      "intentIds": [
+        "capacity-host-failure-paths:4a5206071be2ec0620dfeb699dfb252fed3d51390d9acceef09beb359305010c"
+      ]
     }
   ],
   "intents": [
@@ -102319,6 +102326,14 @@
       "summary": "Add the organization Runner pool to Settings → Computers, with pool status,\nfallback policy, installation commands and explicit local join/leave controls.",
       "sourceSha": "46fc35bf8a6e4acb32f880ade2ed6ffa6cb4c536",
       "identity": "runner-pool-computers:26a10f02adc741c5ab7b635f80baa11844f5cac52c68d6027820237a02d8d957"
+    },
+    {
+      "id": "capacity-host-failure-paths",
+      "digest": "4a5206071be2ec0620dfeb699dfb252fed3d51390d9acceef09beb359305010c",
+      "type": "patch",
+      "summary": "Keep capacity hosts fenced and retryable after shutdown, heartbeat, VM creation, and uninstall failures; accept enrollment tokens only through environment or bounded stdin.\n\nAccept successful empty namespace inventories during cleanup and retain creation boot fences for unrecognized RPC failures.",
+      "sourceSha": "3abb8dd18c25d43d2817151b58d7d0691e4b9072",
+      "identity": "capacity-host-failure-paths:4a5206071be2ec0620dfeb699dfb252fed3d51390d9acceef09beb359305010c"
     }
   ],
   "consumedIntentIds": [
