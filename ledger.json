@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "eab129ade904a39dc6c451472f97080210af479e",
-  "highWaterVersion": "1.362.48",
+  "highWaterVersion": "1.362.49",
   "rows": [
     {
       "schemaVersion": 1,
@@ -50296,6 +50296,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:eab129ade904a39dc6c451472f97080210af479e",
+      "kind": "main",
+      "sequence": 1630,
+      "sourceSha": "eab129ade904a39dc6c451472f97080210af479e",
+      "sourcePackageVersion": "1.362.22",
+      "version": "1.362.49",
+      "publicationDate": "2026-10-25T01:40:19.707Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "continue-here-names-restored-tab:36526e5e615be063c9c2100ba40ddf2f3b32355e2aa7846271ec251edc565165"
+        ],
+        "notesIntentIds": [
+          "continue-here-names-restored-tab:36526e5e615be063c9c2100ba40ddf2f3b32355e2aa7846271ec251edc565165"
+        ],
+        "throughSourceSha": "eab129ade904a39dc6c451472f97080210af479e",
+        "previousThroughSourceSha": "275a0614f25c7005cbb6b2532aa61cfca918772d",
+        "baselineVersion": "1.362.48",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40151449907",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-26T01:39:57.210Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -100529,7 +100572,8 @@
     "lost-claude-login-recovers-by-itself:902ccf4437e680ed2f55109f9c0b072a2692f911a1c265faf42c724f5fd78fac",
     "tidy-accounts-switch:86799ccec803b19460d7e68de571a581548d144f8d50e78c9c973e8375b0f0c1",
     "quiet-macos-cli-metadata:b2b8b3db8a9963a8c4be99b5619b326533e3e98871fe1cf4cde46b706ef5a58a",
-    "smooth-phone-drawers:c1c03d832886619e77577703ed115352fff259900759049acb5bfbf35345c18f"
+    "smooth-phone-drawers:c1c03d832886619e77577703ed115352fff259900759049acb5bfbf35345c18f",
+    "continue-here-names-restored-tab:36526e5e615be063c9c2100ba40ddf2f3b32355e2aa7846271ec251edc565165"
   ],
-  "consumedThroughSha": "275a0614f25c7005cbb6b2532aa61cfca918772d"
+  "consumedThroughSha": "eab129ade904a39dc6c451472f97080210af479e"
 }
