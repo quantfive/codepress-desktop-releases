@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "9208b8ff38696d48367d6f3fee31c54b52ea82df",
-  "highWaterVersion": "1.362.46",
+  "highWaterVersion": "1.362.47",
   "rows": [
     {
       "schemaVersion": 1,
@@ -50180,6 +50180,53 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:9208b8ff38696d48367d6f3fee31c54b52ea82df",
+      "kind": "main",
+      "sequence": 1628,
+      "sourceSha": "9208b8ff38696d48367d6f3fee31c54b52ea82df",
+      "sourcePackageVersion": "1.362.20",
+      "version": "1.362.47",
+      "publicationDate": "2026-10-25T00:21:25.745Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "remote-project-weekly-usage:1eadc1134aa57b668481419e6ce40556e1982b1727e1efe60e5fa628025d981f",
+          "lost-claude-login-recovers-by-itself:902ccf4437e680ed2f55109f9c0b072a2692f911a1c265faf42c724f5fd78fac",
+          "tidy-accounts-switch:86799ccec803b19460d7e68de571a581548d144f8d50e78c9c973e8375b0f0c1"
+        ],
+        "notesIntentIds": [
+          "remote-project-weekly-usage:1eadc1134aa57b668481419e6ce40556e1982b1727e1efe60e5fa628025d981f",
+          "lost-claude-login-recovers-by-itself:902ccf4437e680ed2f55109f9c0b072a2692f911a1c265faf42c724f5fd78fac",
+          "tidy-accounts-switch:86799ccec803b19460d7e68de571a581548d144f8d50e78c9c973e8375b0f0c1"
+        ],
+        "throughSourceSha": "9208b8ff38696d48367d6f3fee31c54b52ea82df",
+        "previousThroughSourceSha": "7fd4af55618827b23c2fc9340c630009db240c2b",
+        "baselineVersion": "1.362.46",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40146257552",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-26T00:21:05.168Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -100313,7 +100360,10 @@
     "landing-cleanup-probes-before-lease:053dc18907ea6ed1e9ab05b1c577f0a0489a31c83d7aa1580cc47f6e47951675",
     "kickoff-runs-on-machines-auto-lands:b5942bb345e559a97c520682bce9aeef451032c78040ef89cf67701278b54a2d",
     "machines-list-read-timeout:7b7b40a55156373539586493d89502d5d991412ece6aa079ff4492073ac9a0c6",
-    "tidy-linux-cli-reads:3f682cbab0a877e3fad35c8c72a2132520d1c6fcb86c71316f672f5665a67d12"
+    "tidy-linux-cli-reads:3f682cbab0a877e3fad35c8c72a2132520d1c6fcb86c71316f672f5665a67d12",
+    "remote-project-weekly-usage:1eadc1134aa57b668481419e6ce40556e1982b1727e1efe60e5fa628025d981f",
+    "lost-claude-login-recovers-by-itself:902ccf4437e680ed2f55109f9c0b072a2692f911a1c265faf42c724f5fd78fac",
+    "tidy-accounts-switch:86799ccec803b19460d7e68de571a581548d144f8d50e78c9c973e8375b0f0c1"
   ],
-  "consumedThroughSha": "7fd4af55618827b23c2fc9340c630009db240c2b"
+  "consumedThroughSha": "9208b8ff38696d48367d6f3fee31c54b52ea82df"
 }
