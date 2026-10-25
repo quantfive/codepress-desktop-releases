@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e49bc93bcc3fb89ab0c6ee3fdadaf199755a9b74",
+  "cursorSha": "ac95fff5506a0e936db4b66a1e6e35a19c20a5a2",
   "highWaterVersion": "1.362.54",
   "rows": [
     {
@@ -100867,6 +100867,13 @@
       "sourceSha": "e49bc93bcc3fb89ab0c6ee3fdadaf199755a9b74",
       "sourcePackageVersion": "1.362.28",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ac95fff5506a0e936db4b66a1e6e35a19c20a5a2",
+      "sourcePackageVersion": "1.362.28",
+      "intentIds": [
+        "quiet-launcher-test-polls:03849777c50f2c699341c323450f0adb7967cdd4a4bff3f82376a47679c083c2"
+      ]
     }
   ],
   "intents": [
@@ -101061,6 +101068,14 @@
       "summary": "Accounts: the \"Use on\" picker on Personal account cards now sits clear of the usage bar and is a compact, theme-matched dropdown instead of the oversized native one.",
       "sourceSha": "d0c479ac2141947bcdd7ac974342c750b179b3cd",
       "identity": "use-on-select-compact:664eeed14991599ec856d44ed8d5a576245d67e42364d468077b1a8a15c8bd6b"
+    },
+    {
+      "id": "quiet-launcher-test-polls",
+      "digest": "03849777c50f2c699341c323450f0adb7967cdd4a4bff3f82376a47679c083c2",
+      "type": "patch",
+      "summary": "Allow the background launcher poll cadence to be compressed for deterministic tests while retaining its production timing defaults.",
+      "sourceSha": "ac95fff5506a0e936db4b66a1e6e35a19c20a5a2",
+      "identity": "quiet-launcher-test-polls:03849777c50f2c699341c323450f0adb7967cdd4a4bff3f82376a47679c083c2"
     }
   ],
   "consumedIntentIds": [
