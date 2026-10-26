@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ee7b05f75c99d9a796e3dda3e0c7e1e59480d0d4",
+  "cursorSha": "36aa3fa4756b2cda4156bfddfa3abca66364f647",
   "highWaterVersion": "1.370.16",
   "rows": [
     {
@@ -104930,6 +104930,13 @@
       "intentIds": [
         "cross-machine-answers-one-path:e5a99cf00d7db5b3fe4dd6550fdcb01ccc30e6494f80c976a4e9d9d7ad85d283"
       ]
+    },
+    {
+      "sourceSha": "36aa3fa4756b2cda4156bfddfa3abca66364f647",
+      "sourcePackageVersion": "1.369.22",
+      "intentIds": [
+        "automations-runner-pool-ui:46b8ceaa4287aaf441101253e31bdcc36b17723a8bedca0e7df5ac911e71abb9"
+      ]
     }
   ],
   "intents": [
@@ -105700,6 +105707,14 @@
       "summary": "Make a question answered from another machine apply on the home exactly as it does when pressed there: an idle Orchestrator is started to take the answer, an option and the words typed beside it both arrive, and an answer that could not apply is reported back as refused instead of delivered.",
       "sourceSha": "ee7b05f75c99d9a796e3dda3e0c7e1e59480d0d4",
       "identity": "cross-machine-answers-one-path:e5a99cf00d7db5b3fe4dd6550fdcb01ccc30e6494f80c976a4e9d9d7ad85d283"
+    },
+    {
+      "id": "automations-runner-pool-ui",
+      "digest": "46b8ceaa4287aaf441101253e31bdcc36b17723a8bedca0e7df5ac911e71abb9",
+      "type": "patch",
+      "summary": "Choose Auto, Local or Cloud for organization automations in Runner pool settings, and show automation capacity and recent runs beside sessions.",
+      "sourceSha": "36aa3fa4756b2cda4156bfddfa3abca66364f647",
+      "identity": "automations-runner-pool-ui:46b8ceaa4287aaf441101253e31bdcc36b17723a8bedca0e7df5ac911e71abb9"
     }
   ],
   "consumedIntentIds": [
