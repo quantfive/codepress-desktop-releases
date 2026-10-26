@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "74351cdda6c7b3b5294dc83697aa9c292e049663",
+  "cursorSha": "e059dad4fcaa7ee0d71e8b266ac161a55a7a728b",
   "highWaterVersion": "1.370.5",
   "rows": [
     {
@@ -103933,6 +103933,13 @@
       "sourceSha": "74351cdda6c7b3b5294dc83697aa9c292e049663",
       "sourcePackageVersion": "1.369.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e059dad4fcaa7ee0d71e8b266ac161a55a7a728b",
+      "sourcePackageVersion": "1.369.5",
+      "intentIds": [
+        "terminal-watch-desktop-observation:247f2bad58f54762cf265eae20d0f918bdd3b9b7b8530b4acf3a83ebfe76c231"
+      ]
     }
   ],
   "intents": [
@@ -104495,6 +104502,14 @@
       "summary": "Terminal now starts a fresh terminal broker when the previous one was killed without shutting down cleanly (for example by the OOM killer), instead of failing on every launch with \"Broker endpoint unavailable before deadline\".",
       "sourceSha": "af94d2c14b7f2c14f2ef6e71a015e0b7d6456b4f",
       "identity": "dead-broker-generation-restart:f89ee1b2b6cffe392f110728feab5be189fff946e6369be48d1d4511fe55c69d"
+    },
+    {
+      "id": "terminal-watch-desktop-observation",
+      "digest": "247f2bad58f54762cf265eae20d0f918bdd3b9b7b8530b4acf3a83ebfe76c231",
+      "type": "patch",
+      "summary": "Refresh an agent launch marker observed during screen rendering while its start deadline remains, preserving sampling deadlines and agent identity checks. Add optional observation hooks for deterministic verification without changing default timing or rendering.",
+      "sourceSha": "e059dad4fcaa7ee0d71e8b266ac161a55a7a728b",
+      "identity": "terminal-watch-desktop-observation:247f2bad58f54762cf265eae20d0f918bdd3b9b7b8530b4acf3a83ebfe76c231"
     }
   ],
   "consumedIntentIds": [
