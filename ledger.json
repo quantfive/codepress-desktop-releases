@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e0fa08580755a63f75b4df628f56008f6210d7d8",
+  "cursorSha": "e9dcaf9a796e38b09bef82cefe6e8f485ec3bced",
   "highWaterVersion": "1.370.9",
   "rows": [
     {
@@ -104273,6 +104273,13 @@
       "sourceSha": "e0fa08580755a63f75b4df628f56008f6210d7d8",
       "sourcePackageVersion": "1.369.11",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e9dcaf9a796e38b09bef82cefe6e8f485ec3bced",
+      "sourcePackageVersion": "1.369.11",
+      "intentIds": [
+        "cua-driver-download-retries:4877b4ee0b2d05bb04b23d54d07bb3f4cea2d66e23a7584ad1228b0ab4b385e3"
+      ]
     }
   ],
   "intents": [
@@ -104891,6 +104898,14 @@
       "summary": "Another Mac now shows a synced project or chat as Working… when its turn or a background task starts, not only when the turn ends.",
       "sourceSha": "539026264caba2e73ef52727e0c8b89bd3394d01",
       "identity": "working-starts-reach-the-cloud:985d57fc2b567867ed546388af2778fadb79731e65abdbf3fab88cd50ea73b7a"
+    },
+    {
+      "id": "cua-driver-download-retries",
+      "digest": "4877b4ee0b2d05bb04b23d54d07bb3f4cea2d66e23a7584ad1228b0ab4b385e3",
+      "type": "patch",
+      "summary": "Retry brief GitHub download failures while bundling the desktop-control helper, so a transient 5xx no longer fails a release build.",
+      "sourceSha": "e9dcaf9a796e38b09bef82cefe6e8f485ec3bced",
+      "identity": "cua-driver-download-retries:4877b4ee0b2d05bb04b23d54d07bb3f4cea2d66e23a7584ad1228b0ab4b385e3"
     }
   ],
   "consumedIntentIds": [
