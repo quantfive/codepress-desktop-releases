@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "8f28f3e0aa6e973550484c51cbc42a4172fc2c87",
+  "cursorSha": "10d0cfe529baded7660e494160ede835b89ea825",
   "highWaterVersion": "1.369.7",
   "rows": [
     {
@@ -103069,6 +103069,18 @@
       "sourceSha": "8f28f3e0aa6e973550484c51cbc42a4172fc2c87",
       "sourcePackageVersion": "1.368.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a9f0226c0472907ee98bdb6d203129757d0e59b4",
+      "sourcePackageVersion": "1.368.7",
+      "intentIds": [
+        "tidy-batch-d-fixtures:cbe61092684addbc87210eafb7ed060a8a438be6963686afd20f4c7a5d677860"
+      ]
+    },
+    {
+      "sourceSha": "10d0cfe529baded7660e494160ede835b89ea825",
+      "sourcePackageVersion": "1.368.8",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -103519,6 +103531,14 @@
       "summary": "Allow the claimed stable macOS CLI to publish while its desktop release is lane-staged, with both uploaded Darwin manifests required.",
       "sourceSha": "611671a207c3c2d6fa103a26bd9c6cd3c1f847e5",
       "identity": "tidy-mac-cli-staging:f093d221efdc06b2c8ca47a2939874b32bc5a995edf080e4aa1cbca2f896ae6a"
+    },
+    {
+      "id": "tidy-batch-d-fixtures",
+      "digest": "cbe61092684addbc87210eafb7ed060a8a438be6963686afd20f4c7a5d677860",
+      "type": "patch",
+      "summary": "Allow private Linux tmpfs directories in the test-only reclaim safety guard, and provide a defaulted saver dependency for focused reclaim fixtures. Production cleanup behavior is unchanged.",
+      "sourceSha": "a9f0226c0472907ee98bdb6d203129757d0e59b4",
+      "identity": "tidy-batch-d-fixtures:cbe61092684addbc87210eafb7ed060a8a438be6963686afd20f4c7a5d677860"
     }
   ],
   "consumedIntentIds": [
