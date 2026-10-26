@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7471bad2c2ded53add9af156215072f2776aae19",
+  "cursorSha": "38b64d99a8cc62cc28ed845ed562779c161774f0",
   "highWaterVersion": "1.370.18",
   "rows": [
     {
@@ -105177,6 +105177,13 @@
       "sourceSha": "7471bad2c2ded53add9af156215072f2776aae19",
       "sourcePackageVersion": "1.369.26",
       "intentIds": []
+    },
+    {
+      "sourceSha": "38b64d99a8cc62cc28ed845ed562779c161774f0",
+      "sourcePackageVersion": "1.369.26",
+      "intentIds": [
+        "plan-issues-graphql:03a00ec1d83daf38bee07962ab4ac1bee3e734f81c53567c527741d2616094c4"
+      ]
     }
   ],
   "intents": [
@@ -106027,6 +106034,14 @@
       "summary": "The @ picker reaches other machines' agent tabs sooner: the lookup can answer tabs and Orchestrator chats separately, a machine whose chat discovery is slow or times out keeps showing the chats it last returned for ten minutes instead of dropping them, and repeated lookups reuse the feature-flag read and each machine's validation for a short time. Sending a message with a mention still checks everything fresh.",
       "sourceSha": "34b6a26d65f01300d1f751c1677d3e1062031e19",
       "identity": "faster-cross-machine-mention-lookup:6a1a60122134b784601cf2aa8795c2b1d7adf6a553b8b779751f9c8770b603ce"
+    },
+    {
+      "id": "plan-issues-graphql",
+      "digest": "03a00ec1d83daf38bee07962ab4ac1bee3e734f81c53567c527741d2616094c4",
+      "type": "patch",
+      "summary": "Read plan and design issues and merged PR descriptions over GraphQL so they remain available when the GitHub REST budget is exhausted. Batch Plan view issue reads in groups of up to 25.",
+      "sourceSha": "38b64d99a8cc62cc28ed845ed562779c161774f0",
+      "identity": "plan-issues-graphql:03a00ec1d83daf38bee07962ab4ac1bee3e734f81c53567c527741d2616094c4"
     }
   ],
   "consumedIntentIds": [
