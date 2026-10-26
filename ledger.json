@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7799f663bbf6347a8c2d4fc5c48af72282fb2521",
+  "cursorSha": "2023f362376566b15b006a184642067926f523e6",
   "highWaterVersion": "1.369.3",
   "rows": [
     {
@@ -102767,6 +102767,13 @@
       "sourceSha": "7799f663bbf6347a8c2d4fc5c48af72282fb2521",
       "sourcePackageVersion": "1.368.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2023f362376566b15b006a184642067926f523e6",
+      "sourcePackageVersion": "1.368.3",
+      "intentIds": [
+        "static-format-cache:ef53bb0ca44b915c8ec7b55124d7b46dd9c31a03a5692bb9f073016858bbebe4"
+      ]
     }
   ],
   "intents": [
@@ -103177,6 +103184,14 @@
       "summary": "Resolve Orchestrator chat mentions through the base server context for local and bridged MCP kickoffs, and log discovery failure codes when a mention is refused.",
       "sourceSha": "923784da041aa5359a2370709770149d8944101c",
       "identity": "tidy-chat-mention-context:a52cae2fbfe042fbe5fd85567a913f33f222eb2c751b053ae26e49db19daaf53"
+    },
+    {
+      "id": "static-format-cache",
+      "digest": "ef53bb0ca44b915c8ec7b55124d7b46dd9c31a03a5692bb9f073016858bbebe4",
+      "type": "patch",
+      "summary": "Reuse content-validated formatting results to reduce CI time after source edits.",
+      "sourceSha": "2023f362376566b15b006a184642067926f523e6",
+      "identity": "static-format-cache:ef53bb0ca44b915c8ec7b55124d7b46dd9c31a03a5692bb9f073016858bbebe4"
     }
   ],
   "consumedIntentIds": [
