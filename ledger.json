@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "af5417922c9a4667a10eb9cb376b6be3a34d6f81",
+  "cursorSha": "bc3c6dc67e8517fdf629da1aeb4ee03f6d1c361b",
   "highWaterVersion": "1.370.18",
   "rows": [
     {
@@ -105194,6 +105194,19 @@
       "sourceSha": "af5417922c9a4667a10eb9cb376b6be3a34d6f81",
       "sourcePackageVersion": "1.369.27",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ef83f69060495def72eb10c86a61634c23e65073",
+      "sourcePackageVersion": "1.369.27",
+      "intentIds": [
+        "carry-capability-without-local-cloud-runs:5a841697116ab10af6cc3f9b7bc2a3dc14b5caa0a88c1c101292b4fb3995119a",
+        "terminal-full-suite-pilot:23ce6362952af48022742ffd3ebd021bcd80bd5069095e3a1ea647820f48ed93"
+      ]
+    },
+    {
+      "sourceSha": "bc3c6dc67e8517fdf629da1aeb4ee03f6d1c361b",
+      "sourcePackageVersion": "1.369.27",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -106052,6 +106065,22 @@
       "summary": "Read plan and design issues and merged PR descriptions over GraphQL so they remain available when the GitHub REST budget is exhausted. Batch Plan view issue reads in groups of up to 25.",
       "sourceSha": "38b64d99a8cc62cc28ed845ed562779c161774f0",
       "identity": "plan-issues-graphql:03a00ec1d83daf38bee07962ab4ac1bee3e734f81c53567c527741d2616094c4"
+    },
+    {
+      "id": "carry-capability-without-local-cloud-runs",
+      "digest": "5a841697116ab10af6cc3f9b7bc2a3dc14b5caa0a88c1c101292b4fb3995119a",
+      "type": "patch",
+      "summary": "Starting a project on another of your own Macs with an attachment or @mention no longer refuses when Local Cloud Runs is off and the Mac is up to date. A Mac whose version can't be read now says so instead of asking you to update it.",
+      "sourceSha": "ef83f69060495def72eb10c86a61634c23e65073",
+      "identity": "carry-capability-without-local-cloud-runs:5a841697116ab10af6cc3f9b7bc2a3dc14b5caa0a88c1c101292b4fb3995119a"
+    },
+    {
+      "id": "terminal-full-suite-pilot",
+      "digest": "23ce6362952af48022742ffd3ebd021bcd80bd5069095e3a1ea647820f48ed93",
+      "type": "patch",
+      "summary": "Keep selected Terminal CI checks focused when only full-suite planning inputs change, and improve full-suite verification with isolated test lanes.",
+      "sourceSha": "ef83f69060495def72eb10c86a61634c23e65073",
+      "identity": "terminal-full-suite-pilot:23ce6362952af48022742ffd3ebd021bcd80bd5069095e3a1ea647820f48ed93"
     }
   ],
   "consumedIntentIds": [
