@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "34b6a26d65f01300d1f751c1677d3e1062031e19",
+  "cursorSha": "52618cd59415cb1a8ae3303d6e969e1cfbb5a5f3",
   "highWaterVersion": "1.370.17",
   "rows": [
     {
@@ -105091,6 +105091,11 @@
       "intentIds": [
         "faster-cross-machine-mention-lookup:6a1a60122134b784601cf2aa8795c2b1d7adf6a553b8b779751f9c8770b603ce"
       ]
+    },
+    {
+      "sourceSha": "52618cd59415cb1a8ae3303d6e969e1cfbb5a5f3",
+      "sourcePackageVersion": "1.369.26",
+      "intentIds": []
     }
   ],
   "intents": [
