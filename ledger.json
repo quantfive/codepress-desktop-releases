@@ -52145,10 +52145,14 @@
         "type": "patch"
       },
       "mac": {
-        "status": "pending",
-        "generation": 1,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 2,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40294906779",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-27T08:50:04.790Z",
         "dispatch": null,
         "failures": [
           {
