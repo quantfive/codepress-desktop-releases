@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "63c9d4c7027ad7eb357fd2f890278d80b2303230",
+  "cursorSha": "eddb9250c626fb0da641d85e698d67be73313b69",
   "highWaterVersion": "1.369.5",
   "rows": [
     {
@@ -102933,6 +102933,13 @@
       "sourceSha": "63c9d4c7027ad7eb357fd2f890278d80b2303230",
       "sourcePackageVersion": "1.368.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "eddb9250c626fb0da641d85e698d67be73313b69",
+      "sourcePackageVersion": "1.368.6",
+      "intentIds": [
+        "terminal-integration-file-profile:e8eb7b3ff219d9c0a6acff2b47cd3dced0a5db10a18a84cf961c148574673f59"
+      ]
     }
   ],
   "intents": [
@@ -103367,6 +103374,14 @@
       "summary": "Keep the server responsive during project sync by sharing repeated checkout inspections and bounding Git reads through the lightweight spawn host. Reuse sampled CPU topology for capacity heartbeats instead of repeatedly enumerating every processor.",
       "sourceSha": "1e033f06611b2fc903a7bcd5dc1bbccf46b766aa",
       "identity": "calm-project-snapshot-git:5a9223ab2e2a211895b7d4ffd7c6824752dd1d85c0e2fb7b5e77d69fd9553eeb"
+    },
+    {
+      "id": "terminal-integration-file-profile",
+      "digest": "e8eb7b3ff219d9c0a6acff2b47cd3dced0a5db10a18a84cf961c148574673f59",
+      "type": "patch",
+      "summary": "Collect best-effort per-file Terminal integration profiles in server CI and reuse test daemon bundles.",
+      "sourceSha": "eddb9250c626fb0da641d85e698d67be73313b69",
+      "identity": "terminal-integration-file-profile:e8eb7b3ff219d9c0a6acff2b47cd3dced0a5db10a18a84cf961c148574673f59"
     }
   ],
   "consumedIntentIds": [
