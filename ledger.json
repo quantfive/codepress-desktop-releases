@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "48b76d7d26cd77a63583992f2e972dcab399a7b4",
+  "cursorSha": "3552cfe25f4d52837369acfdbde62acae5754a4c",
   "highWaterVersion": "1.370.2",
   "rows": [
     {
@@ -103673,6 +103673,18 @@
       "sourceSha": "48b76d7d26cd77a63583992f2e972dcab399a7b4",
       "sourcePackageVersion": "1.369.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9ae295c6945dfa30bca566b833df4d87b5d74ffc",
+      "sourcePackageVersion": "1.369.2",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "3552cfe25f4d52837369acfdbde62acae5754a4c",
+      "sourcePackageVersion": "1.369.2",
+      "intentIds": [
+        "appimage-ghostty-required:4a839eb977cc1aa92dc45e5c7981019a3125230b2f12be8ca57fddf09bc502ea"
+      ]
     }
   ],
   "intents": [
@@ -104203,6 +104215,14 @@
       "summary": "Retry macOS CLI artifact downloads and transient immutable-upload failures with separate transfer deadlines, preserving the macOS upload allowance and publisher job cap.",
       "sourceSha": "1178f0db83cdd0f22651c047721b83bcbb2a78d8",
       "identity": "mac-cli-transfer-retries:50f8be29fb326e3ff482fdb3e1892e7b81ba804721a94db901c08732e6beabb9"
+    },
+    {
+      "id": "appimage-ghostty-required",
+      "digest": "4a839eb977cc1aa92dc45e5c7981019a3125230b2f12be8ca57fddf09bc502ea",
+      "type": "patch",
+      "summary": "Fail the Linux AppImage release check when an x86_64 build ships without the Ghostty engine, instead of letting every tab silently fall back to xterm.",
+      "sourceSha": "3552cfe25f4d52837369acfdbde62acae5754a4c",
+      "identity": "appimage-ghostty-required:4a839eb977cc1aa92dc45e5c7981019a3125230b2f12be8ca57fddf09bc502ea"
     }
   ],
   "consumedIntentIds": [
