@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7e629b74d2146c2f38d70ec1ee598073e4dfe110",
+  "cursorSha": "3823ec126fa10edcff3a675e1adf3ab0361d7b10",
   "highWaterVersion": "1.370.17",
   "rows": [
     {
@@ -105065,6 +105065,20 @@
       "intentIds": [
         "auto-keeps-late-folder-answers:85dc7af84d9939fc2880b155b34b560118d0dc6cdf231a70159134911294f985"
       ]
+    },
+    {
+      "sourceSha": "3c4d75d26c4909fab8be89de7f6a1b899fbafe51",
+      "sourcePackageVersion": "1.369.24",
+      "intentIds": [
+        "feed-rail-first-paint:4b222a6331aa7ad981fe703d35165a1851bf55300602ea82bea0026d5836147f"
+      ]
+    },
+    {
+      "sourceSha": "3823ec126fa10edcff3a675e1adf3ab0361d7b10",
+      "sourcePackageVersion": "1.369.24",
+      "intentIds": [
+        "project-changed-push:c0aa56040ecd304a4440f781dad6904b1f969b98982e97718dacd0a9e6be9925"
+      ]
     }
   ],
   "intents": [
@@ -105891,6 +105905,22 @@
       "summary": "Auto no longer rules out another machine just because it answered the folder check slowly: a late answer is kept and used on the next look, and a failed read is logged.",
       "sourceSha": "7e629b74d2146c2f38d70ec1ee598073e4dfe110",
       "identity": "auto-keeps-late-folder-answers:85dc7af84d9939fc2880b155b34b560118d0dc6cdf231a70159134911294f985"
+    },
+    {
+      "id": "feed-rail-first-paint",
+      "digest": "4b222a6331aa7ad981fe703d35165a1851bf55300602ea82bea0026d5836147f",
+      "type": "patch",
+      "summary": "With the One agent feed setting on and remembered, Terminal now opens on the feed rail loading instead of drawing the classic project rail first, and a startup \"not ready\" answer from the local feed no longer flips the feed off and back on.",
+      "sourceSha": "3c4d75d26c4909fab8be89de7f6a1b899fbafe51",
+      "identity": "feed-rail-first-paint:4b222a6331aa7ad981fe703d35165a1851bf55300602ea82bea0026d5836147f"
+    },
+    {
+      "id": "project-changed-push",
+      "digest": "c0aa56040ecd304a4440f781dad6904b1f969b98982e97718dacd0a9e6be9925",
+      "type": "patch",
+      "summary": "A project that changes on another device refreshes on this one's rail within about a second, instead of at its next 15-second poll.",
+      "sourceSha": "3823ec126fa10edcff3a675e1adf3ab0361d7b10",
+      "identity": "project-changed-push:c0aa56040ecd304a4440f781dad6904b1f969b98982e97718dacd0a9e6be9925"
     }
   ],
   "consumedIntentIds": [
