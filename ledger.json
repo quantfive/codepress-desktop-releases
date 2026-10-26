@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "dbe0d75d95381d34bb8d07a594708fb04e4b3030",
+  "cursorSha": "da2085a50051de64fec59b016435cd388d77c15e",
   "highWaterVersion": "1.369.9",
   "rows": [
     {
@@ -103254,6 +103254,18 @@
       "intentIds": [
         "local-orchestrator-feature-flags:069b6665d32fa452f86ee57087dff2a4579bdd478c2d96f40231a9b079a6b780"
       ]
+    },
+    {
+      "sourceSha": "4ba5e5fc3e592587d272886e8df4b9c276bc08af",
+      "sourcePackageVersion": "1.368.10",
+      "intentIds": [
+        "fair-handoff-worktrees:8f362b71b6274cb759db1dc93da4b0e27b6cf7ea0a4724ecfab32c0861ef3528"
+      ]
+    },
+    {
+      "sourceSha": "da2085a50051de64fec59b016435cd388d77c15e",
+      "sourcePackageVersion": "1.368.11",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -103736,6 +103748,14 @@
       "summary": "Let the local Orchestrator judge when a change needs a feature flag and follow the synced Feature flags preference in Settings → Agents.",
       "sourceSha": "dbe0d75d95381d34bb8d07a594708fb04e4b3030",
       "identity": "local-orchestrator-feature-flags:069b6665d32fa452f86ee57087dff2a4579bdd478c2d96f40231a9b079a6b780"
+    },
+    {
+      "id": "fair-handoff-worktrees",
+      "digest": "8f362b71b6274cb759db1dc93da4b0e27b6cf7ea0a4724ecfab32c0861ef3528",
+      "type": "patch",
+      "summary": "Coordinate project-worker restores sharing a handoff repository so concurrent Git worktree creation cannot expose incomplete metadata to a sibling restore.",
+      "sourceSha": "4ba5e5fc3e592587d272886e8df4b9c276bc08af",
+      "identity": "fair-handoff-worktrees:8f362b71b6274cb759db1dc93da4b0e27b6cf7ea0a4724ecfab32c0861ef3528"
     }
   ],
   "consumedIntentIds": [
