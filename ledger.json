@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "c5f5c016ef6f8189f3df25994344a3cc699f8df9",
-  "highWaterVersion": "1.370.13",
+  "highWaterVersion": "1.370.14",
   "rows": [
     {
       "schemaVersion": 1,
@@ -53136,6 +53136,55 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:c5f5c016ef6f8189f3df25994344a3cc699f8df9",
+      "kind": "main",
+      "sequence": 1681,
+      "sourceSha": "c5f5c016ef6f8189f3df25994344a3cc699f8df9",
+      "sourcePackageVersion": "1.369.18",
+      "version": "1.370.14",
+      "publicationDate": "2026-10-26T20:55:51.470Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "instructions-editor-window-controls:68e62ab4b9543d025e54acf99eedd50f96803aae628ad42fe5a94818fa9d9561",
+          "tidy-ramp-schema-guidance:5aca13252b6de7e6017404272f48e721df3b2ae52fa7a4049a7a2cea24b7da5d",
+          "keep-remote-control-on:194bc396b09b91d589dae11e99202425ac14ce0cbe799d18dae15e8573df0691",
+          "claude-terminal-signin-parity:ef2a3f777663a09a9cf95db853a6e16025ea12d3898ac4556d3d7b01518c812b"
+        ],
+        "notesIntentIds": [
+          "instructions-editor-window-controls:68e62ab4b9543d025e54acf99eedd50f96803aae628ad42fe5a94818fa9d9561",
+          "tidy-ramp-schema-guidance:5aca13252b6de7e6017404272f48e721df3b2ae52fa7a4049a7a2cea24b7da5d",
+          "keep-remote-control-on:194bc396b09b91d589dae11e99202425ac14ce0cbe799d18dae15e8573df0691",
+          "claude-terminal-signin-parity:ef2a3f777663a09a9cf95db853a6e16025ea12d3898ac4556d3d7b01518c812b"
+        ],
+        "throughSourceSha": "c5f5c016ef6f8189f3df25994344a3cc699f8df9",
+        "previousThroughSourceSha": "27be3cf79ae22e980cc4528a2cd767be247e895a",
+        "baselineVersion": "1.370.13",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40399746925",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-27T20:55:25.927Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -105419,7 +105468,11 @@
     "project-sync-reconcile:fae06c5fab76ee45450a425fb2ede00ea942fa03342b77c5d62fc7e751edbc00",
     "repository-kickoff-org-flag:05c7d382d738fcdee72e958a44abf89a2af629ccb347e2fe40c3a7b5a7756cf6",
     "local-project-repositories:cac1cd74bc4d5223f589796115258a680211bc2a8e64443b0eabc50117794ada",
-    "quick-computer-choice-retries:74b9f632e0d2c35b0fea9aed2c2c51740684c480389a43217c2f52a7a61d75e5"
+    "quick-computer-choice-retries:74b9f632e0d2c35b0fea9aed2c2c51740684c480389a43217c2f52a7a61d75e5",
+    "instructions-editor-window-controls:68e62ab4b9543d025e54acf99eedd50f96803aae628ad42fe5a94818fa9d9561",
+    "tidy-ramp-schema-guidance:5aca13252b6de7e6017404272f48e721df3b2ae52fa7a4049a7a2cea24b7da5d",
+    "keep-remote-control-on:194bc396b09b91d589dae11e99202425ac14ce0cbe799d18dae15e8573df0691",
+    "claude-terminal-signin-parity:ef2a3f777663a09a9cf95db853a6e16025ea12d3898ac4556d3d7b01518c812b"
   ],
-  "consumedThroughSha": "27be3cf79ae22e980cc4528a2cd767be247e895a"
+  "consumedThroughSha": "c5f5c016ef6f8189f3df25994344a3cc699f8df9"
 }
