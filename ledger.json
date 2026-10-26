@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3f903c3bd9e264072f0db8f00fc4ef92ae8fae40",
+  "cursorSha": "7e629b74d2146c2f38d70ec1ee598073e4dfe110",
   "highWaterVersion": "1.370.17",
   "rows": [
     {
@@ -105058,6 +105058,13 @@
       "sourceSha": "3f903c3bd9e264072f0db8f00fc4ef92ae8fae40",
       "sourcePackageVersion": "1.369.24",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7e629b74d2146c2f38d70ec1ee598073e4dfe110",
+      "sourcePackageVersion": "1.369.24",
+      "intentIds": [
+        "auto-keeps-late-folder-answers:85dc7af84d9939fc2880b155b34b560118d0dc6cdf231a70159134911294f985"
+      ]
     }
   ],
   "intents": [
@@ -105876,6 +105883,14 @@
       "summary": "With cross-machine chat mentions on, the `@` menu groups Orchestrator and agent chats by machine (this machine first, then each other machine by name) so chats from your other Macs are no longer crowded out by this machine's, and shows \"Searching your other machines…\" while they load. The list stays visible while it refreshes, and opening the menu fetches it again when it is over 30 seconds old or failed.",
       "sourceSha": "85052f7058220b88582c66b15ad81435b6535501",
       "identity": "grouped-mention-picker:03dba2540547c773ff8086e01f1f91c62d706c94e37918bf31129143a022863f"
+    },
+    {
+      "id": "auto-keeps-late-folder-answers",
+      "digest": "85dc7af84d9939fc2880b155b34b560118d0dc6cdf231a70159134911294f985",
+      "type": "patch",
+      "summary": "Auto no longer rules out another machine just because it answered the folder check slowly: a late answer is kept and used on the next look, and a failed read is logged.",
+      "sourceSha": "7e629b74d2146c2f38d70ec1ee598073e4dfe110",
+      "identity": "auto-keeps-late-folder-answers:85dc7af84d9939fc2880b155b34b560118d0dc6cdf231a70159134911294f985"
     }
   ],
   "consumedIntentIds": [
