@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e9dcaf9a796e38b09bef82cefe6e8f485ec3bced",
+  "cursorSha": "ef7ff21eb9f8a7df7129a6db32d61e744ff95f9f",
   "highWaterVersion": "1.370.9",
   "rows": [
     {
@@ -104280,6 +104280,13 @@
       "intentIds": [
         "cua-driver-download-retries:4877b4ee0b2d05bb04b23d54d07bb3f4cea2d66e23a7584ad1228b0ab4b385e3"
       ]
+    },
+    {
+      "sourceSha": "ef7ff21eb9f8a7df7129a6db32d61e744ff95f9f",
+      "sourcePackageVersion": "1.369.11",
+      "intentIds": [
+        "remote-window-org-handoff:03bcb2e2625b0f5194e16df2d24743a2c446c18ca3bf3031fb62a7c923f64398"
+      ]
     }
   ],
   "intents": [
@@ -104906,6 +104913,14 @@
       "summary": "Retry brief GitHub download failures while bundling the desktop-control helper, so a transient 5xx no longer fails a release build.",
       "sourceSha": "e9dcaf9a796e38b09bef82cefe6e8f485ec3bced",
       "identity": "cua-driver-download-retries:4877b4ee0b2d05bb04b23d54d07bb3f4cea2d66e23a7584ad1228b0ab4b385e3"
+    },
+    {
+      "id": "remote-window-org-handoff",
+      "digest": "03bcb2e2625b0f5194e16df2d24743a2c446c18ca3bf3031fb62a7c923f64398",
+      "type": "patch",
+      "summary": "A window opened for another machine now starts on the organization you picked in the main window, with the last one-feed answer, instead of your first organization with nothing cached.",
+      "sourceSha": "ef7ff21eb9f8a7df7129a6db32d61e744ff95f9f",
+      "identity": "remote-window-org-handoff:03bcb2e2625b0f5194e16df2d24743a2c446c18ca3bf3031fb62a7c923f64398"
     }
   ],
   "consumedIntentIds": [
