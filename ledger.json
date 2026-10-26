@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "cb6196d2ad4039cd2042bc126a234664bc55f507",
+  "cursorSha": "3f903c3bd9e264072f0db8f00fc4ef92ae8fae40",
   "highWaterVersion": "1.370.17",
   "rows": [
     {
@@ -105046,6 +105046,18 @@
       "sourceSha": "cb6196d2ad4039cd2042bc126a234664bc55f507",
       "sourcePackageVersion": "1.369.24",
       "intentIds": []
+    },
+    {
+      "sourceSha": "85052f7058220b88582c66b15ad81435b6535501",
+      "sourcePackageVersion": "1.369.24",
+      "intentIds": [
+        "grouped-mention-picker:03dba2540547c773ff8086e01f1f91c62d706c94e37918bf31129143a022863f"
+      ]
+    },
+    {
+      "sourceSha": "3f903c3bd9e264072f0db8f00fc4ef92ae8fae40",
+      "sourcePackageVersion": "1.369.24",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -105856,6 +105868,14 @@
       "summary": "A message or ask answer sent from another Mac, the web or the phone while an Orchestrator is mid-turn is now read by that running turn, as if it had been typed in the home's composer, instead of waiting for the turn to end. It follows the composer's steering rules: when a model change is pending, an earlier queued message was not steered, or the provider declines, it runs as the next turn as before. A repeated delivery of the same message steers once, and answers given on the home Mac keep their own turns.",
       "sourceSha": "b82fc70722ab2f54483e9f804ea8ef3c0e4fff7c",
       "identity": "remote-message-steers-running-turn:2b7b8cd352bad07ee457585f5f3f4d2982b5fdbe9ac3f253c2df42b9fe1b3349"
+    },
+    {
+      "id": "grouped-mention-picker",
+      "digest": "03dba2540547c773ff8086e01f1f91c62d706c94e37918bf31129143a022863f",
+      "type": "patch",
+      "summary": "With cross-machine chat mentions on, the `@` menu groups Orchestrator and agent chats by machine (this machine first, then each other machine by name) so chats from your other Macs are no longer crowded out by this machine's, and shows \"Searching your other machines…\" while they load. The list stays visible while it refreshes, and opening the menu fetches it again when it is over 30 seconds old or failed.",
+      "sourceSha": "85052f7058220b88582c66b15ad81435b6535501",
+      "identity": "grouped-mention-picker:03dba2540547c773ff8086e01f1f91c62d706c94e37918bf31129143a022863f"
     }
   ],
   "consumedIntentIds": [
