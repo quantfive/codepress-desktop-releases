@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d8e7d6600b08051f5a639af9c07259659b47a4f5",
+  "cursorSha": "42ddba3d73bfa4d8c7a8eab420b75a5379e5893f",
   "highWaterVersion": "1.371.0",
   "rows": [
     {
@@ -105311,6 +105311,16 @@
       "intentIds": [
         "machine-load-real-cpu-ram:3779c541d97c9ee63ff638b7a54b491f4ce3d47f289f32e2f922d0bd39e8083d"
       ]
+    },
+    {
+      "sourceSha": "9edf3e34514753ad29ce3ae574b4b0868fb0792e",
+      "sourcePackageVersion": "1.370.1",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "42ddba3d73bfa4d8c7a8eab420b75a5379e5893f",
+      "sourcePackageVersion": "1.370.2",
+      "intentIds": []
     }
   ],
   "intents": [
