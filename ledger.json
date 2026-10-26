@@ -52166,10 +52166,14 @@
         ]
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40298991893",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-27T09:22:58.014Z",
         "dispatch": null,
         "failures": []
       }
