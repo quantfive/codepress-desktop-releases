@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "27be3cf79ae22e980cc4528a2cd767be247e895a",
+  "cursorSha": "3045c2b7ccb941d5f888e34972c87919eae54438",
   "highWaterVersion": "1.370.13",
   "rows": [
     {
@@ -104588,6 +104588,13 @@
       "sourceSha": "27be3cf79ae22e980cc4528a2cd767be247e895a",
       "sourcePackageVersion": "1.369.16",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3045c2b7ccb941d5f888e34972c87919eae54438",
+      "sourcePackageVersion": "1.369.16",
+      "intentIds": [
+        "instructions-editor-window-controls:68e62ab4b9543d025e54acf99eedd50f96803aae628ad42fe5a94818fa9d9561"
+      ]
     }
   ],
   "intents": [
@@ -105254,6 +105261,14 @@
       "summary": "Apply computer account choices before due lease renewals, retry temporary activation failures after 5, 10 and 20 seconds, and catch up missed choices when the device channel reconnects.",
       "sourceSha": "e4d5eebbafbe0ce232857122651f38a3b9f75367",
       "identity": "quick-computer-choice-retries:74b9f632e0d2c35b0fea9aed2c2c51740684c480389a43217c2f52a7a61d75e5"
+    },
+    {
+      "id": "instructions-editor-window-controls",
+      "digest": "68e62ab4b9543d025e54acf99eedd50f96803aae628ad42fe5a94818fa9d9561",
+      "type": "patch",
+      "summary": "The Orchestrator instructions editor no longer sits under the macOS window controls, can drag the window, and now follows the Orchestrator's light and dark theme, with a higher-contrast Contents list and text.",
+      "sourceSha": "3045c2b7ccb941d5f888e34972c87919eae54438",
+      "identity": "instructions-editor-window-controls:68e62ab4b9543d025e54acf99eedd50f96803aae628ad42fe5a94818fa9d9561"
     }
   ],
   "consumedIntentIds": [
