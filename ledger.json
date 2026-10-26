@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6866d5383de949b074522d0f720ee2a8cf76e1cf",
+  "cursorSha": "1181f5fca55c56ecabae8fcf1cf0552fcc35d992",
   "highWaterVersion": "1.370.11",
   "rows": [
     {
@@ -104435,6 +104435,13 @@
       "sourceSha": "6866d5383de949b074522d0f720ee2a8cf76e1cf",
       "sourcePackageVersion": "1.369.13",
       "intentIds": []
+    },
+    {
+      "sourceSha": "1181f5fca55c56ecabae8fcf1cf0552fcc35d992",
+      "sourcePackageVersion": "1.369.13",
+      "intentIds": [
+        "repository-kickoff-org-flag:05c7d382d738fcdee72e958a44abf89a2af629ccb347e2fe40c3a7b5a7756cf6"
+      ]
     }
   ],
   "intents": [
@@ -105077,6 +105084,14 @@
       "summary": "Each Mac now periodically checks its synced projects and chats against the cloud's copies homed on it, and repairs a copy that never arrived or was lost, a copy whose project is gone, a copy with stale fields, and a card the cloud refused.",
       "sourceSha": "2842fdf0cc573ee2aab077f5c4be9715dd356cf0",
       "identity": "project-sync-reconcile:fae06c5fab76ee45450a425fb2ede00ea942fa03342b77c5d62fc7e751edbc00"
+    },
+    {
+      "id": "repository-kickoff-org-flag",
+      "digest": "05c7d382d738fcdee72e958a44abf89a2af629ccb347e2fe40c3a7b5a7756cf6",
+      "type": "patch",
+      "summary": "Terminal can now read the staff-only \"Orchestrator repository kickoff\" organization setting, in the app and on its server. Nothing uses it yet, so behavior is unchanged.",
+      "sourceSha": "1181f5fca55c56ecabae8fcf1cf0552fcc35d992",
+      "identity": "repository-kickoff-org-flag:05c7d382d738fcdee72e958a44abf89a2af629ccb347e2fe40c3a7b5a7756cf6"
     }
   ],
   "consumedIntentIds": [
