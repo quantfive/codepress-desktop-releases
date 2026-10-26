@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1788c8d22dac3e30931e37b7d93cfccd02497199",
+  "cursorSha": "cb6196d2ad4039cd2042bc126a234664bc55f507",
   "highWaterVersion": "1.370.17",
   "rows": [
     {
@@ -105034,6 +105034,18 @@
       "intentIds": [
         "ci-pass-evidence-throttle:b56bcefe62730c89954a4f848213a1c25d5a5867ff5495f83c16db17241b1932"
       ]
+    },
+    {
+      "sourceSha": "b82fc70722ab2f54483e9f804ea8ef3c0e4fff7c",
+      "sourcePackageVersion": "1.369.24",
+      "intentIds": [
+        "remote-message-steers-running-turn:2b7b8cd352bad07ee457585f5f3f4d2982b5fdbe9ac3f253c2df42b9fe1b3349"
+      ]
+    },
+    {
+      "sourceSha": "cb6196d2ad4039cd2042bc126a234664bc55f507",
+      "sourcePackageVersion": "1.369.24",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -105836,6 +105848,14 @@
       "summary": "Share CI-passed evidence reads across attachments and respect poll backoff and GitHub budget holds while preserving fresh checks before message delivery.",
       "sourceSha": "1788c8d22dac3e30931e37b7d93cfccd02497199",
       "identity": "ci-pass-evidence-throttle:b56bcefe62730c89954a4f848213a1c25d5a5867ff5495f83c16db17241b1932"
+    },
+    {
+      "id": "remote-message-steers-running-turn",
+      "digest": "2b7b8cd352bad07ee457585f5f3f4d2982b5fdbe9ac3f253c2df42b9fe1b3349",
+      "type": "patch",
+      "summary": "A message or ask answer sent from another Mac, the web or the phone while an Orchestrator is mid-turn is now read by that running turn, as if it had been typed in the home's composer, instead of waiting for the turn to end. It follows the composer's steering rules: when a model change is pending, an earlier queued message was not steered, or the provider declines, it runs as the next turn as before. A repeated delivery of the same message steers once, and answers given on the home Mac keep their own turns.",
+      "sourceSha": "b82fc70722ab2f54483e9f804ea8ef3c0e4fff7c",
+      "identity": "remote-message-steers-running-turn:2b7b8cd352bad07ee457585f5f3f4d2982b5fdbe9ac3f253c2df42b9fe1b3349"
     }
   ],
   "consumedIntentIds": [
