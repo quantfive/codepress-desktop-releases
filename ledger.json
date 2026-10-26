@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "091a7a9bc7dd95637cab7660ab24c9c34112afa6",
-  "highWaterVersion": "1.369.11",
+  "highWaterVersion": "1.370.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -52355,6 +52355,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:091a7a9bc7dd95637cab7660ab24c9c34112afa6",
+      "kind": "main",
+      "sequence": 1667,
+      "sourceSha": "091a7a9bc7dd95637cab7660ab24c9c34112afa6",
+      "sourcePackageVersion": "1.369.0",
+      "version": "1.370.0",
+      "publicationDate": "2026-10-26T11:45:49.792Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "capacity-host-automation-jobs:d5d0f3b6bde907618b6bf06a4a99494114ae57dab94ae17d50dcef3ea1e22af0"
+        ],
+        "notesIntentIds": [
+          "capacity-host-automation-jobs:d5d0f3b6bde907618b6bf06a4a99494114ae57dab94ae17d50dcef3ea1e22af0"
+        ],
+        "throughSourceSha": "091a7a9bc7dd95637cab7660ab24c9c34112afa6",
+        "previousThroughSourceSha": "ddf1181008b5767d5977bb398f30f20f0c99c96c",
+        "baselineVersion": "1.369.11",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40317309239",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-27T11:45:24.898Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -104028,7 +104071,8 @@
     "local-orchestrator-feature-flags:069b6665d32fa452f86ee57087dff2a4579bdd478c2d96f40231a9b079a6b780",
     "fair-handoff-worktrees:8f362b71b6274cb759db1dc93da4b0e27b6cf7ea0a4724ecfab32c0861ef3528",
     "cli-publication-notice:6c071f9e70501cd59060eccce934ab25ce908e8d1423374d5b931a51ad563b7e",
-    "terminal-batch-f-claude-poll:77f204477a25c8f923c1469f0dfdb8060cb4916ffef1360404e817890996bf0e"
+    "terminal-batch-f-claude-poll:77f204477a25c8f923c1469f0dfdb8060cb4916ffef1360404e817890996bf0e",
+    "capacity-host-automation-jobs:d5d0f3b6bde907618b6bf06a4a99494114ae57dab94ae17d50dcef3ea1e22af0"
   ],
-  "consumedThroughSha": "ddf1181008b5767d5977bb398f30f20f0c99c96c"
+  "consumedThroughSha": "091a7a9bc7dd95637cab7660ab24c9c34112afa6"
 }
