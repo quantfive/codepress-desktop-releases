@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3045c2b7ccb941d5f888e34972c87919eae54438",
+  "cursorSha": "8bfc3e2dfbe039dad94f077daf0366d0a5bf4ba9",
   "highWaterVersion": "1.370.13",
   "rows": [
     {
@@ -104595,6 +104595,13 @@
       "intentIds": [
         "instructions-editor-window-controls:68e62ab4b9543d025e54acf99eedd50f96803aae628ad42fe5a94818fa9d9561"
       ]
+    },
+    {
+      "sourceSha": "8bfc3e2dfbe039dad94f077daf0366d0a5bf4ba9",
+      "sourcePackageVersion": "1.369.16",
+      "intentIds": [
+        "tidy-ramp-schema-guidance:5aca13252b6de7e6017404272f48e721df3b2ae52fa7a4049a7a2cea24b7da5d"
+      ]
     }
   ],
   "intents": [
@@ -105269,6 +105276,14 @@
       "summary": "The Orchestrator instructions editor no longer sits under the macOS window controls, can drag the window, and now follows the Orchestrator's light and dark theme, with a higher-contrast Contents list and text.",
       "sourceSha": "3045c2b7ccb941d5f888e34972c87919eae54438",
       "identity": "instructions-editor-window-controls:68e62ab4b9543d025e54acf99eedd50f96803aae628ad42fe5a94818fa9d9561"
+    },
+    {
+      "id": "tidy-ramp-schema-guidance",
+      "digest": "5aca13252b6de7e6017404272f48e721df3b2ae52fa7a4049a7a2cea24b7da5d",
+      "type": "patch",
+      "summary": "Match integration discovery guidance to the gateway: compact discovery may omit large schemas, and exact discovery returns the full schema without a size limit.",
+      "sourceSha": "8bfc3e2dfbe039dad94f077daf0366d0a5bf4ba9",
+      "identity": "tidy-ramp-schema-guidance:5aca13252b6de7e6017404272f48e721df3b2ae52fa7a4049a7a2cea24b7da5d"
     }
   ],
   "consumedIntentIds": [
