@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "bf52e2b9a5b7e002baf59017ca5f75dcef731d0a",
+  "cursorSha": "30d33628752289f6a6b5999a9c1efc42e9b6752d",
   "highWaterVersion": "1.370.15",
   "rows": [
     {
@@ -104812,6 +104812,13 @@
       "intentIds": [
         "unique-session-branch-names:2061317398febf52da1a2b017d31f4d9a1f33224918923745f384db876726ce7"
       ]
+    },
+    {
+      "sourceSha": "30d33628752289f6a6b5999a9c1efc42e9b6752d",
+      "sourcePackageVersion": "1.369.19",
+      "intentIds": [
+        "fast-online-computer-choices:7f9e1c94f1b9ecd9e5eca9d5cabecda01237dd96da3901b8029ba7e8b7302d7e"
+      ]
     }
   ],
   "intents": [
@@ -105550,6 +105557,14 @@
       "summary": "Two Orchestrator projects started on the same checkout within about a minute of each other now both get a session worktree: the session branch name ends in the random tail of the project id instead of its timestamp prefix. Existing session trees keep the branch they are on.",
       "sourceSha": "bf52e2b9a5b7e002baf59017ca5f75dcef731d0a",
       "identity": "unique-session-branch-names:2061317398febf52da1a2b017d31f4d9a1f33224918923745f384db876726ce7"
+    },
+    {
+      "id": "fast-online-computer-choices",
+      "digest": "7f9e1c94f1b9ecd9e5eca9d5cabecda01237dd96da3901b8029ba7e8b7302d7e",
+      "type": "patch",
+      "summary": "Apply all-computer account choices immediately on the originating computer and show completion once online computers have switched, with faster refresh while switching and separate offline and refusal notes.",
+      "sourceSha": "30d33628752289f6a6b5999a9c1efc42e9b6752d",
+      "identity": "fast-online-computer-choices:7f9e1c94f1b9ecd9e5eca9d5cabecda01237dd96da3901b8029ba7e8b7302d7e"
     }
   ],
   "consumedIntentIds": [
