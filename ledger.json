@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "af94d2c14b7f2c14f2ef6e71a015e0b7d6456b4f",
+  "cursorSha": "ae7c9ad9f9ee201d28c3fba6a438bbfb09e5fdce",
   "highWaterVersion": "1.370.4",
   "rows": [
     {
@@ -103850,6 +103850,16 @@
       "intentIds": [
         "dead-broker-generation-restart:f89ee1b2b6cffe392f110728feab5be189fff946e6369be48d1d4511fe55c69d"
       ]
+    },
+    {
+      "sourceSha": "fac8df5bc8e23d94590d134e3ef65062b76c57b9",
+      "sourcePackageVersion": "1.369.4",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "ae7c9ad9f9ee201d28c3fba6a438bbfb09e5fdce",
+      "sourcePackageVersion": "1.369.5",
+      "intentIds": []
     }
   ],
   "intents": [
