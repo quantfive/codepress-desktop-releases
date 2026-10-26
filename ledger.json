@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "92fdbbef8b0692d392c54f9ba4230d78e21c958a",
+  "cursorSha": "2afc200556f3a3fc50f9d5b05a1056a09b88996d",
   "highWaterVersion": "1.370.15",
   "rows": [
     {
@@ -104824,6 +104824,13 @@
       "sourceSha": "92fdbbef8b0692d392c54f9ba4230d78e21c958a",
       "sourcePackageVersion": "1.369.20",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2afc200556f3a3fc50f9d5b05a1056a09b88996d",
+      "sourcePackageVersion": "1.369.20",
+      "intentIds": [
+        "orchestrator-sees-repositories:5717f0670e8695273faa91b4f6a03e52d63420afc05edbfad94cd58d86315bfd"
+      ]
     }
   ],
   "intents": [
@@ -105570,6 +105577,14 @@
       "summary": "Apply all-computer account choices immediately on the originating computer and show completion once online computers have switched, with faster refresh while switching and separate offline and refusal notes.",
       "sourceSha": "30d33628752289f6a6b5999a9c1efc42e9b6752d",
       "identity": "fast-online-computer-choices:7f9e1c94f1b9ecd9e5eca9d5cabecda01237dd96da3901b8029ba7e8b7302d7e"
+    },
+    {
+      "id": "orchestrator-sees-repositories",
+      "digest": "5717f0670e8695273faa91b4f6a03e52d63420afc05edbfad94cd58d86315bfd",
+      "type": "patch",
+      "summary": "An Orchestrator started with repositories now sees them from its first turn: `list_directories` and `list_repositories` show each repository's worktree, its prompt names them, it can read them, `project_fleet_assign` with just a `repository` cuts the worker from the project's own checkout without cloning it again, and file references and Quick Open search them.",
+      "sourceSha": "2afc200556f3a3fc50f9d5b05a1056a09b88996d",
+      "identity": "orchestrator-sees-repositories:5717f0670e8695273faa91b4f6a03e52d63420afc05edbfad94cd58d86315bfd"
     }
   ],
   "consumedIntentIds": [
