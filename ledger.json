@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d7a04f026513c56dc56b3297f7d386a9ac570ec2",
+  "cursorSha": "ddf1181008b5767d5977bb398f30f20f0c99c96c",
   "highWaterVersion": "1.369.10",
   "rows": [
     {
@@ -103370,6 +103370,13 @@
       "sourceSha": "d7a04f026513c56dc56b3297f7d386a9ac570ec2",
       "sourcePackageVersion": "1.368.12",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ddf1181008b5767d5977bb398f30f20f0c99c96c",
+      "sourcePackageVersion": "1.368.12",
+      "intentIds": [
+        "terminal-batch-f-claude-poll:77f204477a25c8f923c1469f0dfdb8060cb4916ffef1360404e817890996bf0e"
+      ]
     }
   ],
   "intents": [
@@ -103868,6 +103875,14 @@
       "summary": "Report failed macOS CLI publication in the macOS arm64 release notice and name the correct platform in CLI failure annotations.",
       "sourceSha": "4532c9a5352334f4b382ec78df40ca493e7e5df4",
       "identity": "cli-publication-notice:6c071f9e70501cd59060eccce934ab25ce908e8d1423374d5b931a51ad563b7e"
+    },
+    {
+      "id": "terminal-batch-f-claude-poll",
+      "digest": "77f204477a25c8f923c1469f0dfdb8060cb4916ffef1360404e817890996bf0e",
+      "type": "patch",
+      "summary": "Allow QA to shorten the Claude CLI sign-in polling interval while retaining the two-second production default.",
+      "sourceSha": "ddf1181008b5767d5977bb398f30f20f0c99c96c",
+      "identity": "terminal-batch-f-claude-poll:77f204477a25c8f923c1469f0dfdb8060cb4916ffef1360404e817890996bf0e"
     }
   ],
   "consumedIntentIds": [
