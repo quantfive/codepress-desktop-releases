@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "63287dee9de05891fbc1c472f2889e93957f6112",
-  "highWaterVersion": "1.370.4",
+  "highWaterVersion": "1.370.5",
   "rows": [
     {
       "schemaVersion": 1,
@@ -52637,6 +52637,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:63287dee9de05891fbc1c472f2889e93957f6112",
+      "kind": "main",
+      "sequence": 1672,
+      "sourceSha": "63287dee9de05891fbc1c472f2889e93957f6112",
+      "sourcePackageVersion": "1.369.5",
+      "version": "1.370.5",
+      "publicationDate": "2026-10-26T15:16:14.690Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "dead-broker-generation-restart:f89ee1b2b6cffe392f110728feab5be189fff946e6369be48d1d4511fe55c69d"
+        ],
+        "notesIntentIds": [
+          "dead-broker-generation-restart:f89ee1b2b6cffe392f110728feab5be189fff946e6369be48d1d4511fe55c69d"
+        ],
+        "throughSourceSha": "63287dee9de05891fbc1c472f2889e93957f6112",
+        "previousThroughSourceSha": "071efd268f6231e6b1d9626fd1791ccbf1984de8",
+        "baselineVersion": "1.370.4",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40347339505",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-27T15:15:47.713Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -104506,7 +104549,8 @@
     "mac-cli-transfer-retries:50f8be29fb326e3ff482fdb3e1892e7b81ba804721a94db901c08732e6beabb9",
     "appimage-ghostty-required:4a839eb977cc1aa92dc45e5c7981019a3125230b2f12be8ca57fddf09bc502ea",
     "terminal-batch-g-git-contract:f83e053e7af611937c3c7a23028673311a38f8cc8a507e8142b445ec8ae5847b",
-    "browse-proxy-ipv6-loopback:0ae22682b82074d25db80f5d0ffa09b15e3a1210437c27e41a51403d8747fa0d"
+    "browse-proxy-ipv6-loopback:0ae22682b82074d25db80f5d0ffa09b15e3a1210437c27e41a51403d8747fa0d",
+    "dead-broker-generation-restart:f89ee1b2b6cffe392f110728feab5be189fff946e6369be48d1d4511fe55c69d"
   ],
-  "consumedThroughSha": "071efd268f6231e6b1d9626fd1791ccbf1984de8"
+  "consumedThroughSha": "63287dee9de05891fbc1c472f2889e93957f6112"
 }
