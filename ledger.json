@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "071efd268f6231e6b1d9626fd1791ccbf1984de8",
-  "highWaterVersion": "1.370.3",
+  "highWaterVersion": "1.370.4",
   "rows": [
     {
       "schemaVersion": 1,
@@ -52580,6 +52580,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:071efd268f6231e6b1d9626fd1791ccbf1984de8",
+      "kind": "main",
+      "sequence": 1671,
+      "sourceSha": "071efd268f6231e6b1d9626fd1791ccbf1984de8",
+      "sourcePackageVersion": "1.369.3",
+      "version": "1.370.4",
+      "publicationDate": "2026-10-26T14:47:40.130Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-batch-g-git-contract:f83e053e7af611937c3c7a23028673311a38f8cc8a507e8142b445ec8ae5847b",
+          "browse-proxy-ipv6-loopback:0ae22682b82074d25db80f5d0ffa09b15e3a1210437c27e41a51403d8747fa0d"
+        ],
+        "notesIntentIds": [
+          "terminal-batch-g-git-contract:f83e053e7af611937c3c7a23028673311a38f8cc8a507e8142b445ec8ae5847b",
+          "browse-proxy-ipv6-loopback:0ae22682b82074d25db80f5d0ffa09b15e3a1210437c27e41a51403d8747fa0d"
+        ],
+        "throughSourceSha": "071efd268f6231e6b1d9626fd1791ccbf1984de8",
+        "previousThroughSourceSha": "3552cfe25f4d52837369acfdbde62acae5754a4c",
+        "baselineVersion": "1.370.3",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40342410857",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-27T14:47:15.410Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -104412,7 +104457,9 @@
     "capacity-host-automation-jobs:d5d0f3b6bde907618b6bf06a4a99494114ae57dab94ae17d50dcef3ea1e22af0",
     "terminal-ambient-oauth-imports:c2614e737d601f32c69b82e8b7a7e1d8103a7db8ebf46b5d5804ca5ee3f55413",
     "mac-cli-transfer-retries:50f8be29fb326e3ff482fdb3e1892e7b81ba804721a94db901c08732e6beabb9",
-    "appimage-ghostty-required:4a839eb977cc1aa92dc45e5c7981019a3125230b2f12be8ca57fddf09bc502ea"
+    "appimage-ghostty-required:4a839eb977cc1aa92dc45e5c7981019a3125230b2f12be8ca57fddf09bc502ea",
+    "terminal-batch-g-git-contract:f83e053e7af611937c3c7a23028673311a38f8cc8a507e8142b445ec8ae5847b",
+    "browse-proxy-ipv6-loopback:0ae22682b82074d25db80f5d0ffa09b15e3a1210437c27e41a51403d8747fa0d"
   ],
-  "consumedThroughSha": "3552cfe25f4d52837369acfdbde62acae5754a4c"
+  "consumedThroughSha": "071efd268f6231e6b1d9626fd1791ccbf1984de8"
 }
