@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d9248ef45c2e2a020a264830d324e783d2d325e7",
+  "cursorSha": "d8e7d6600b08051f5a639af9c07259659b47a4f5",
   "highWaterVersion": "1.371.0",
   "rows": [
     {
@@ -105304,6 +105304,13 @@
       "sourceSha": "d9248ef45c2e2a020a264830d324e783d2d325e7",
       "sourcePackageVersion": "1.370.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d8e7d6600b08051f5a639af9c07259659b47a4f5",
+      "sourcePackageVersion": "1.370.1",
+      "intentIds": [
+        "machine-load-real-cpu-ram:3779c541d97c9ee63ff638b7a54b491f4ce3d47f289f32e2f922d0bd39e8083d"
+      ]
     }
   ],
   "intents": [
@@ -106194,6 +106201,14 @@
       "summary": "Offer the agent tabs you may read on machines a teammate shared with you in the @ mention menu, grouped under `<machine> · <owner>`, and let the Orchestrator read them.",
       "sourceSha": "522d09e919a6e01546cb1b4a0529363bef061c6a",
       "identity": "shared-machine-agent-tab-mentions:5932ede5a5fb561938e1e508646ab74d7177810ceda94cd3dd00d0d4e44684de"
+    },
+    {
+      "id": "machine-load-real-cpu-ram",
+      "digest": "3779c541d97c9ee63ff638b7a54b491f4ce3d47f289f32e2f922d0bd39e8083d",
+      "type": "patch",
+      "summary": "Auto routing now goes by real CPU utilisation, the share of busy time Activity Monitor shows, instead of the load average, and heartbeats carry the memory in use for each machine.",
+      "sourceSha": "d8e7d6600b08051f5a639af9c07259659b47a4f5",
+      "identity": "machine-load-real-cpu-ram:3779c541d97c9ee63ff638b7a54b491f4ce3d47f289f32e2f922d0bd39e8083d"
     }
   ],
   "consumedIntentIds": [
