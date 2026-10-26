@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "be52d7519800fbf4b062d385134fa49ede335f84",
+  "cursorSha": "03045ff6b6f9ab571880cd1c9188b00e23d495f5",
   "highWaterVersion": "1.369.4",
   "rows": [
     {
@@ -102843,6 +102843,11 @@
       "intentIds": [
         "capacity-host-arm64-pmu:7842f087d00c9f0a48fdc0f69380ca6e96d23ccaed1cbb13b2a6ef979ee0e609"
       ]
+    },
+    {
+      "sourceSha": "03045ff6b6f9ab571880cd1c9188b00e23d495f5",
+      "sourcePackageVersion": "1.368.5",
+      "intentIds": []
     }
   ],
   "intents": [
