@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0e1a7bee4db8639dfa13a4345bc397f4aea0d37f",
+  "cursorSha": "e4d5eebbafbe0ce232857122651f38a3b9f75367",
   "highWaterVersion": "1.370.12",
   "rows": [
     {
@@ -104519,6 +104519,13 @@
       "sourceSha": "0e1a7bee4db8639dfa13a4345bc397f4aea0d37f",
       "sourcePackageVersion": "1.369.15",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e4d5eebbafbe0ce232857122651f38a3b9f75367",
+      "sourcePackageVersion": "1.369.15",
+      "intentIds": [
+        "quick-computer-choice-retries:74b9f632e0d2c35b0fea9aed2c2c51740684c480389a43217c2f52a7a61d75e5"
+      ]
     }
   ],
   "intents": [
@@ -105177,6 +105184,14 @@
       "summary": "A local project can be started with `repositories` instead of, or beside, a Project folder. Terminal checks each one with `gh` before the kickoff claims its key, prepares a session worktree of the first and a `repos/<owner>/<name>` worktree of the others from `origin/<default>` when the project opens, and removes them when the project lands.",
       "sourceSha": "da76195f7bc1fb9d60025ee6a7c36acdd9addc66",
       "identity": "local-project-repositories:cac1cd74bc4d5223f589796115258a680211bc2a8e64443b0eabc50117794ada"
+    },
+    {
+      "id": "quick-computer-choice-retries",
+      "digest": "74b9f632e0d2c35b0fea9aed2c2c51740684c480389a43217c2f52a7a61d75e5",
+      "type": "patch",
+      "summary": "Apply computer account choices before due lease renewals, retry temporary activation failures after 5, 10 and 20 seconds, and catch up missed choices when the device channel reconnects.",
+      "sourceSha": "e4d5eebbafbe0ce232857122651f38a3b9f75367",
+      "identity": "quick-computer-choice-retries:74b9f632e0d2c35b0fea9aed2c2c51740684c480389a43217c2f52a7a61d75e5"
     }
   ],
   "consumedIntentIds": [
