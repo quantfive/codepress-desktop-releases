@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "15913d87b2648edf83b7d7003e97ab89f19a2b3f",
+  "cursorSha": "5323d8090ba3f410f73c6306a13b137e30807a00",
   "highWaterVersion": "1.370.15",
   "rows": [
     {
@@ -104771,6 +104771,13 @@
       "intentIds": [
         "unified-project-handoff:991476cb4deb7983cdbd2f8003d41e19610d08480464cd9ad080ca9729838688"
       ]
+    },
+    {
+      "sourceSha": "5323d8090ba3f410f73c6306a13b137e30807a00",
+      "sourcePackageVersion": "1.369.18",
+      "intentIds": [
+        "inbound-safety-poll-and-logs:bba5abea8100b4dec85728276b6f46ac5ab3e99e5bb10e6c3dcf98ce4d9e99e1"
+      ]
     }
   ],
   "intents": [
@@ -105477,6 +105484,14 @@
       "summary": "Unify project transfers under Hand off… and offer This Mac and Cloud VM in the remote project's destination picker.",
       "sourceSha": "15913d87b2648edf83b7d7003e97ab89f19a2b3f",
       "identity": "unified-project-handoff:991476cb4deb7983cdbd2f8003d41e19610d08480464cd9ad080ca9729838688"
+    },
+    {
+      "id": "inbound-safety-poll-and-logs",
+      "digest": "bba5abea8100b4dec85728276b6f46ac5ab3e99e5bb10e6c3dcf98ce4d9e99e1",
+      "type": "patch",
+      "summary": "A home Mac that is told which replicas have mail waiting now also asks every two minutes, so a dropped wake-up cannot leave a queued reply or answer undelivered. Each delivery, and each reason an item was not delivered, is now in the log.",
+      "sourceSha": "5323d8090ba3f410f73c6306a13b137e30807a00",
+      "identity": "inbound-safety-poll-and-logs:bba5abea8100b4dec85728276b6f46ac5ab3e99e5bb10e6c3dcf98ce4d9e99e1"
     }
   ],
   "consumedIntentIds": [
