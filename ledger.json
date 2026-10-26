@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4ea163b3546e5e3dd7c994c84d1bd1bab3c149eb",
+  "cursorSha": "1788c8d22dac3e30931e37b7d93cfccd02497199",
   "highWaterVersion": "1.370.17",
   "rows": [
     {
@@ -105027,6 +105027,13 @@
       "sourceSha": "4ea163b3546e5e3dd7c994c84d1bd1bab3c149eb",
       "sourcePackageVersion": "1.369.24",
       "intentIds": []
+    },
+    {
+      "sourceSha": "1788c8d22dac3e30931e37b7d93cfccd02497199",
+      "sourcePackageVersion": "1.369.24",
+      "intentIds": [
+        "ci-pass-evidence-throttle:b56bcefe62730c89954a4f848213a1c25d5a5867ff5495f83c16db17241b1932"
+      ]
     }
   ],
   "intents": [
@@ -105821,6 +105828,14 @@
       "summary": "The feed rail's loading skeleton now lives in its own shared file, so the web dashboard can draw it without loading the whole rail. Nothing changes on screen.",
       "sourceSha": "983b09d68abcb1c88a9ce124bbdffb73a57a4460",
       "identity": "feed-rail-skeleton-split:dd0be9ff265758a7ebc1296d08342a02d9d6a167093623f4a1784a0a9c1d3c59"
+    },
+    {
+      "id": "ci-pass-evidence-throttle",
+      "digest": "b56bcefe62730c89954a4f848213a1c25d5a5867ff5495f83c16db17241b1932",
+      "type": "patch",
+      "summary": "Share CI-passed evidence reads across attachments and respect poll backoff and GitHub budget holds while preserving fresh checks before message delivery.",
+      "sourceSha": "1788c8d22dac3e30931e37b7d93cfccd02497199",
+      "identity": "ci-pass-evidence-throttle:b56bcefe62730c89954a4f848213a1c25d5a5867ff5495f83c16db17241b1932"
     }
   ],
   "consumedIntentIds": [
