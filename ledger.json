@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b8a133121407ee7956790c8eb94ced6c516280c2",
+  "cursorSha": "38db1d19809394c92641ce90e970f0985eeb9fd7",
   "highWaterVersion": "1.370.8",
   "rows": [
     {
@@ -104161,6 +104161,13 @@
       "intentIds": [
         "synced-by-default-card-gate:a080a8dbd8b5fe80a0b44923d658add4fe89b7370ae8eb5ddcf7194b5eef3bc9"
       ]
+    },
+    {
+      "sourceSha": "38db1d19809394c92641ce90e970f0985eeb9fd7",
+      "sourcePackageVersion": "1.369.8",
+      "intentIds": [
+        "feed-machine-count-uncapped:10ccec81c74b26544a3caf3d0828982bd166346e362dcddc8ab488e272d13fe2"
+      ]
     }
   ],
   "intents": [
@@ -104755,6 +104762,14 @@
       "summary": "New Orchestrator projects and chats start Synced, and Local-only ones you never chose are adopted, whenever the cloud already accepts this Mac's cards (One agent feed, Project sync or session copy everywhere), not only with the One agent feed on.",
       "sourceSha": "b8a133121407ee7956790c8eb94ced6c516280c2",
       "identity": "synced-by-default-card-gate:a080a8dbd8b5fe80a0b44923d658add4fe89b7370ae8eb5ddcf7194b5eef3bc9"
+    },
+    {
+      "id": "feed-machine-count-uncapped",
+      "digest": "10ccec81c74b26544a3caf3d0828982bd166346e362dcddc8ab488e272d13fe2",
+      "type": "patch",
+      "summary": "This Mac's count in the feed's Machine filter no longer counts a synced project or chat twice when the cloud holds more copies than the feed lists, and still counts a Local-only project once.",
+      "sourceSha": "38db1d19809394c92641ce90e970f0985eeb9fd7",
+      "identity": "feed-machine-count-uncapped:10ccec81c74b26544a3caf3d0828982bd166346e362dcddc8ab488e272d13fe2"
     }
   ],
   "consumedIntentIds": [
