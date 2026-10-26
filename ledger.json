@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2248b241a4bf15fa3cab7a1a5602d270da90ee76",
+  "cursorSha": "b8a133121407ee7956790c8eb94ced6c516280c2",
   "highWaterVersion": "1.370.8",
   "rows": [
     {
@@ -104154,6 +104154,13 @@
       "sourceSha": "2248b241a4bf15fa3cab7a1a5602d270da90ee76",
       "sourcePackageVersion": "1.369.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b8a133121407ee7956790c8eb94ced6c516280c2",
+      "sourcePackageVersion": "1.369.8",
+      "intentIds": [
+        "synced-by-default-card-gate:a080a8dbd8b5fe80a0b44923d658add4fe89b7370ae8eb5ddcf7194b5eef3bc9"
+      ]
     }
   ],
   "intents": [
@@ -104740,6 +104747,14 @@
       "summary": "Deleting an untouched voice-started project now also retires its cloud copy, so other Macs stop listing a Synced project that no longer exists.",
       "sourceSha": "4d1657149c4646c2984683c23bd0e52858ce6173",
       "identity": "untouched-talk-tombstone:61e9c0a342c6cc4d82d67843144d4d3e7bf568fa459cbead53a762b81c800cfd"
+    },
+    {
+      "id": "synced-by-default-card-gate",
+      "digest": "a080a8dbd8b5fe80a0b44923d658add4fe89b7370ae8eb5ddcf7194b5eef3bc9",
+      "type": "patch",
+      "summary": "New Orchestrator projects and chats start Synced, and Local-only ones you never chose are adopted, whenever the cloud already accepts this Mac's cards (One agent feed, Project sync or session copy everywhere), not only with the One agent feed on.",
+      "sourceSha": "b8a133121407ee7956790c8eb94ced6c516280c2",
+      "identity": "synced-by-default-card-gate:a080a8dbd8b5fe80a0b44923d658add4fe89b7370ae8eb5ddcf7194b5eef3bc9"
     }
   ],
   "consumedIntentIds": [
