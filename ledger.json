@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "80e4fb320293a46437f15e0badae53276ac2cade",
+  "cursorSha": "1e033f06611b2fc903a7bcd5dc1bbccf46b766aa",
   "highWaterVersion": "1.369.4",
   "rows": [
     {
@@ -102861,6 +102861,13 @@
       "sourceSha": "80e4fb320293a46437f15e0badae53276ac2cade",
       "sourcePackageVersion": "1.368.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "1e033f06611b2fc903a7bcd5dc1bbccf46b766aa",
+      "sourcePackageVersion": "1.368.5",
+      "intentIds": [
+        "calm-project-snapshot-git:5a9223ab2e2a211895b7d4ffd7c6824752dd1d85c0e2fb7b5e77d69fd9553eeb"
+      ]
     }
   ],
   "intents": [
@@ -103287,6 +103294,14 @@
       "summary": "Allow capacity-host Kata QEMU sessions on arm64 hosts without a hardware PMU by removing only the unsupported `pmu=off` CPU feature during host join. Report the applied CPU features and reason in host doctor JSON.",
       "sourceSha": "be52d7519800fbf4b062d385134fa49ede335f84",
       "identity": "capacity-host-arm64-pmu:7842f087d00c9f0a48fdc0f69380ca6e96d23ccaed1cbb13b2a6ef979ee0e609"
+    },
+    {
+      "id": "calm-project-snapshot-git",
+      "digest": "5a9223ab2e2a211895b7d4ffd7c6824752dd1d85c0e2fb7b5e77d69fd9553eeb",
+      "type": "patch",
+      "summary": "Keep the server responsive during project sync by sharing repeated checkout inspections and bounding Git reads through the lightweight spawn host. Reuse sampled CPU topology for capacity heartbeats instead of repeatedly enumerating every processor.",
+      "sourceSha": "1e033f06611b2fc903a7bcd5dc1bbccf46b766aa",
+      "identity": "calm-project-snapshot-git:5a9223ab2e2a211895b7d4ffd7c6824752dd1d85c0e2fb7b5e77d69fd9553eeb"
     }
   ],
   "consumedIntentIds": [
