@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "2e4cfb398e58ee20e3cfee6f7e91ede7f2b60630",
-  "highWaterVersion": "1.369.8",
+  "highWaterVersion": "1.369.9",
   "rows": [
     {
       "schemaVersion": 1,
@@ -52186,6 +52186,49 @@
           }
         ]
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:2e4cfb398e58ee20e3cfee6f7e91ede7f2b60630",
+      "kind": "main",
+      "sequence": 1664,
+      "sourceSha": "2e4cfb398e58ee20e3cfee6f7e91ede7f2b60630",
+      "sourcePackageVersion": "1.368.9",
+      "version": "1.369.9",
+      "publicationDate": "2026-10-26T09:39:04.548Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "bright-chats-resolve:77a3a4f2b843f255d2263c125bed0b40faba47cfc39358ffe039eced30192853"
+        ],
+        "notesIntentIds": [
+          "bright-chats-resolve:77a3a4f2b843f255d2263c125bed0b40faba47cfc39358ffe039eced30192853"
+        ],
+        "throughSourceSha": "2e4cfb398e58ee20e3cfee6f7e91ede7f2b60630",
+        "previousThroughSourceSha": "056210e87c6752e0c1cec77b41d13557b40c4145",
+        "baselineVersion": "1.369.8",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40300993337",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-27T09:38:36.437Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -103724,7 +103767,8 @@
     "terminal-integration-file-profile:e8eb7b3ff219d9c0a6acff2b47cd3dced0a5db10a18a84cf961c148574673f59",
     "tidy-mac-cli-staging:f093d221efdc06b2c8ca47a2939874b32bc5a995edf080e4aa1cbca2f896ae6a",
     "tidy-batch-d-fixtures:cbe61092684addbc87210eafb7ed060a8a438be6963686afd20f4c7a5d677860",
-    "linux-cli-build-budget:3d5254358a8c79a989fdf1590bb966c28402c36afa127aa26d9b071d9ff7dbd3"
+    "linux-cli-build-budget:3d5254358a8c79a989fdf1590bb966c28402c36afa127aa26d9b071d9ff7dbd3",
+    "bright-chats-resolve:77a3a4f2b843f255d2263c125bed0b40faba47cfc39358ffe039eced30192853"
   ],
-  "consumedThroughSha": "056210e87c6752e0c1cec77b41d13557b40c4145"
+  "consumedThroughSha": "2e4cfb398e58ee20e3cfee6f7e91ede7f2b60630"
 }
