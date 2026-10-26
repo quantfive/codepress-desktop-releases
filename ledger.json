@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "6866d5383de949b074522d0f720ee2a8cf76e1cf",
-  "highWaterVersion": "1.370.10",
+  "highWaterVersion": "1.370.11",
   "rows": [
     {
       "schemaVersion": 1,
@@ -52971,6 +52971,55 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:6866d5383de949b074522d0f720ee2a8cf76e1cf",
+      "kind": "main",
+      "sequence": 1678,
+      "sourceSha": "6866d5383de949b074522d0f720ee2a8cf76e1cf",
+      "sourcePackageVersion": "1.369.13",
+      "version": "1.370.11",
+      "publicationDate": "2026-10-26T18:55:10.052Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "project-sync-reconcile:fae06c5fab76ee45450a425fb2ede00ea942fa03342b77c5d62fc7e751edbc00"
+        ],
+        "notesIntentIds": [
+          "synced-by-default-card-gate:a080a8dbd8b5fe80a0b44923d658add4fe89b7370ae8eb5ddcf7194b5eef3bc9",
+          "feed-machine-count-uncapped:10ccec81c74b26544a3caf3d0828982bd166346e362dcddc8ab488e272d13fe2",
+          "remote-window-account-reads:cf10564e2cb6483400c4c89d7302957c754e9274bee453e0f302ed2bdf2cbe3b",
+          "working-starts-reach-the-cloud:985d57fc2b567867ed546388af2778fadb79731e65abdbf3fab88cd50ea73b7a",
+          "cua-driver-download-retries:4877b4ee0b2d05bb04b23d54d07bb3f4cea2d66e23a7584ad1228b0ab4b385e3",
+          "remote-window-org-handoff:03bcb2e2625b0f5194e16df2d24743a2c446c18ca3bf3031fb62a7c923f64398",
+          "project-sync-reconcile:fae06c5fab76ee45450a425fb2ede00ea942fa03342b77c5d62fc7e751edbc00"
+        ],
+        "throughSourceSha": "6866d5383de949b074522d0f720ee2a8cf76e1cf",
+        "previousThroughSourceSha": "ef7ff21eb9f8a7df7129a6db32d61e744ff95f9f",
+        "baselineVersion": "1.370.10",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40381785007",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-27T18:54:39.623Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -105105,7 +105154,8 @@
     "remote-window-account-reads:cf10564e2cb6483400c4c89d7302957c754e9274bee453e0f302ed2bdf2cbe3b",
     "working-starts-reach-the-cloud:985d57fc2b567867ed546388af2778fadb79731e65abdbf3fab88cd50ea73b7a",
     "cua-driver-download-retries:4877b4ee0b2d05bb04b23d54d07bb3f4cea2d66e23a7584ad1228b0ab4b385e3",
-    "remote-window-org-handoff:03bcb2e2625b0f5194e16df2d24743a2c446c18ca3bf3031fb62a7c923f64398"
+    "remote-window-org-handoff:03bcb2e2625b0f5194e16df2d24743a2c446c18ca3bf3031fb62a7c923f64398",
+    "project-sync-reconcile:fae06c5fab76ee45450a425fb2ede00ea942fa03342b77c5d62fc7e751edbc00"
   ],
-  "consumedThroughSha": "ef7ff21eb9f8a7df7129a6db32d61e744ff95f9f"
+  "consumedThroughSha": "6866d5383de949b074522d0f720ee2a8cf76e1cf"
 }
