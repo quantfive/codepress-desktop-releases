@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "453e07ea77a50a9ed7a0d0083cd6ccbdbebce28c",
-  "highWaterVersion": "1.370.11",
+  "highWaterVersion": "1.370.12",
   "rows": [
     {
       "schemaVersion": 1,
@@ -53024,6 +53024,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:453e07ea77a50a9ed7a0d0083cd6ccbdbebce28c",
+      "kind": "main",
+      "sequence": 1679,
+      "sourceSha": "453e07ea77a50a9ed7a0d0083cd6ccbdbebce28c",
+      "sourcePackageVersion": "1.369.14",
+      "version": "1.370.12",
+      "publicationDate": "2026-10-26T19:30:07.565Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "repository-kickoff-org-flag:05c7d382d738fcdee72e958a44abf89a2af629ccb347e2fe40c3a7b5a7756cf6"
+        ],
+        "notesIntentIds": [
+          "repository-kickoff-org-flag:05c7d382d738fcdee72e958a44abf89a2af629ccb347e2fe40c3a7b5a7756cf6"
+        ],
+        "throughSourceSha": "453e07ea77a50a9ed7a0d0083cd6ccbdbebce28c",
+        "previousThroughSourceSha": "6866d5383de949b074522d0f720ee2a8cf76e1cf",
+        "baselineVersion": "1.370.11",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40387092567",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-27T19:29:41.864Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -105184,7 +105227,8 @@
     "working-starts-reach-the-cloud:985d57fc2b567867ed546388af2778fadb79731e65abdbf3fab88cd50ea73b7a",
     "cua-driver-download-retries:4877b4ee0b2d05bb04b23d54d07bb3f4cea2d66e23a7584ad1228b0ab4b385e3",
     "remote-window-org-handoff:03bcb2e2625b0f5194e16df2d24743a2c446c18ca3bf3031fb62a7c923f64398",
-    "project-sync-reconcile:fae06c5fab76ee45450a425fb2ede00ea942fa03342b77c5d62fc7e751edbc00"
+    "project-sync-reconcile:fae06c5fab76ee45450a425fb2ede00ea942fa03342b77c5d62fc7e751edbc00",
+    "repository-kickoff-org-flag:05c7d382d738fcdee72e958a44abf89a2af629ccb347e2fe40c3a7b5a7756cf6"
   ],
-  "consumedThroughSha": "6866d5383de949b074522d0f720ee2a8cf76e1cf"
+  "consumedThroughSha": "453e07ea77a50a9ed7a0d0083cd6ccbdbebce28c"
 }
