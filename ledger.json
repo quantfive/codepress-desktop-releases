@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7e4148a5ae6d567710dcbdb22a2caf62c9c60f75",
+  "cursorSha": "cb6178fabb365432bc8e401ca3085ce5167822c4",
   "highWaterVersion": "1.370.0",
   "rows": [
     {
@@ -103514,6 +103514,13 @@
       "sourceSha": "7e4148a5ae6d567710dcbdb22a2caf62c9c60f75",
       "sourcePackageVersion": "1.369.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "cb6178fabb365432bc8e401ca3085ce5167822c4",
+      "sourcePackageVersion": "1.369.0",
+      "intentIds": [
+        "terminal-ambient-oauth-imports:c2614e737d601f32c69b82e8b7a7e1d8103a7db8ebf46b5d5804ca5ee3f55413"
+      ]
     }
   ],
   "intents": [
@@ -104028,6 +104035,14 @@
       "summary": "Allow runner-pool computers to run automation handler jobs in isolated VMs with shared capacity, bounded output, deadlines, and cancellation.",
       "sourceSha": "8e0b4dc96886c54d42d94206fbab8d27922876ca",
       "identity": "capacity-host-automation-jobs:d5d0f3b6bde907618b6bf06a4a99494114ae57dab94ae17d50dcef3ea1e22af0"
+    },
+    {
+      "id": "terminal-ambient-oauth-imports",
+      "digest": "c2614e737d601f32c69b82e8b7a7e1d8103a7db8ebf46b5d5804ca5ee3f55413",
+      "type": "patch",
+      "summary": "Import Claude Code, enabled plugin and Codex OAuth MCP servers as Terminal sign-ins and pick them up in running Orchestrator conversations.",
+      "sourceSha": "cb6178fabb365432bc8e401ca3085ce5167822c4",
+      "identity": "terminal-ambient-oauth-imports:c2614e737d601f32c69b82e8b7a7e1d8103a7db8ebf46b5d5804ca5ee3f55413"
     }
   ],
   "consumedIntentIds": [
