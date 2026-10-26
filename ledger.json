@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "63844de4cef70dccf51d751414dbf4c36c5c2765",
+  "cursorSha": "539026264caba2e73ef52727e0c8b89bd3394d01",
   "highWaterVersion": "1.370.8",
   "rows": [
     {
@@ -104185,6 +104185,13 @@
       "sourceSha": "63844de4cef70dccf51d751414dbf4c36c5c2765",
       "sourcePackageVersion": "1.369.10",
       "intentIds": []
+    },
+    {
+      "sourceSha": "539026264caba2e73ef52727e0c8b89bd3394d01",
+      "sourcePackageVersion": "1.369.10",
+      "intentIds": [
+        "working-starts-reach-the-cloud:985d57fc2b567867ed546388af2778fadb79731e65abdbf3fab88cd50ea73b7a"
+      ]
     }
   ],
   "intents": [
@@ -104795,6 +104802,14 @@
       "summary": "A window opened for another machine now shows the one-feed switcher and rail, and the \"waiting on you\" count, when that setting is on, the same as the main window. Its rail leaves out Automations, Coordination and Evals, which cannot open there yet.",
       "sourceSha": "ba2c2525caaf2102ab35b04df3cc940ee5686c92",
       "identity": "remote-window-account-reads:cf10564e2cb6483400c4c89d7302957c754e9274bee453e0f302ed2bdf2cbe3b"
+    },
+    {
+      "id": "working-starts-reach-the-cloud",
+      "digest": "985d57fc2b567867ed546388af2778fadb79731e65abdbf3fab88cd50ea73b7a",
+      "type": "patch",
+      "summary": "Another Mac now shows a synced project or chat as Working… when its turn or a background task starts, not only when the turn ends.",
+      "sourceSha": "539026264caba2e73ef52727e0c8b89bd3394d01",
+      "identity": "working-starts-reach-the-cloud:985d57fc2b567867ed546388af2778fadb79731e65abdbf3fab88cd50ea73b7a"
     }
   ],
   "consumedIntentIds": [
