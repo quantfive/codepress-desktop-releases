@@ -52622,7 +52622,7 @@
         "failures": []
       },
       "linux": {
-        "status": "dispatching",
+        "status": "running",
         "generation": 1,
         "owner": {
           "ownerId": "terminal-macos-delivery",
@@ -52632,7 +52632,7 @@
         "leaseUntil": "2026-10-27T15:13:29.121Z",
         "dispatch": {
           "intentId": "same-run:e40d25420c14dee317c8973fd980794ea6feeff115e420adaef579fab8f900eb",
-          "runId": null,
+          "runId": "40346894314",
           "terminal": false
         },
         "failures": []
