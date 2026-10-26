@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "83e8eea44d6cd847186595e9112dab35d95e79fa",
+  "cursorSha": "4532c9a5352334f4b382ec78df40ca493e7e5df4",
   "highWaterVersion": "1.369.9",
   "rows": [
     {
@@ -103281,6 +103281,13 @@
       "sourceSha": "83e8eea44d6cd847186595e9112dab35d95e79fa",
       "sourcePackageVersion": "1.368.11",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4532c9a5352334f4b382ec78df40ca493e7e5df4",
+      "sourcePackageVersion": "1.368.11",
+      "intentIds": [
+        "cli-publication-notice:6c071f9e70501cd59060eccce934ab25ce908e8d1423374d5b931a51ad563b7e"
+      ]
     }
   ],
   "intents": [
@@ -103771,6 +103778,14 @@
       "summary": "Coordinate project-worker restores sharing a handoff repository so concurrent Git worktree creation cannot expose incomplete metadata to a sibling restore.",
       "sourceSha": "4ba5e5fc3e592587d272886e8df4b9c276bc08af",
       "identity": "fair-handoff-worktrees:8f362b71b6274cb759db1dc93da4b0e27b6cf7ea0a4724ecfab32c0861ef3528"
+    },
+    {
+      "id": "cli-publication-notice",
+      "digest": "6c071f9e70501cd59060eccce934ab25ce908e8d1423374d5b931a51ad563b7e",
+      "type": "patch",
+      "summary": "Report failed macOS CLI publication in the macOS arm64 release notice and name the correct platform in CLI failure annotations.",
+      "sourceSha": "4532c9a5352334f4b382ec78df40ca493e7e5df4",
+      "identity": "cli-publication-notice:6c071f9e70501cd59060eccce934ab25ce908e8d1423374d5b931a51ad563b7e"
     }
   ],
   "consumedIntentIds": [
