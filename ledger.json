@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "1e118fae39923f87a48f36436f56cba69c587c97",
-  "highWaterVersion": "1.370.15",
+  "highWaterVersion": "1.370.16",
   "rows": [
     {
       "schemaVersion": 1,
@@ -53262,6 +53262,62 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:1e118fae39923f87a48f36436f56cba69c587c97",
+      "kind": "main",
+      "sequence": 1683,
+      "sourceSha": "1e118fae39923f87a48f36436f56cba69c587c97",
+      "sourcePackageVersion": "1.369.21",
+      "version": "1.370.16",
+      "publicationDate": "2026-10-26T22:01:16.583Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "inbound-safety-poll-and-logs:bba5abea8100b4dec85728276b6f46ac5ab3e99e5bb10e6c3dcf98ce4d9e99e1",
+          "quiet-codepress-organizations:502175b261ca1f2781489708dcc85a78fc461cf9ad4fd2fdf0cb6a12faea668c",
+          "instructions-editor-live-markdown:f91bd197d29cb899a8655bb669b239e2c68a4ea9b7b30a2904f50b36ed369cdc",
+          "unique-session-branch-names:2061317398febf52da1a2b017d31f4d9a1f33224918923745f384db876726ce7",
+          "fast-online-computer-choices:7f9e1c94f1b9ecd9e5eca9d5cabecda01237dd96da3901b8029ba7e8b7302d7e",
+          "orchestrator-sees-repositories:5717f0670e8695273faa91b4f6a03e52d63420afc05edbfad94cd58d86315bfd",
+          "repository-kickoff-scope-line:a2a50af328e1c4f66c904c3f29c83b1a5c5f45f391226d174b27c89468cabda4"
+        ],
+        "notesIntentIds": [
+          "unified-project-handoff:991476cb4deb7983cdbd2f8003d41e19610d08480464cd9ad080ca9729838688",
+          "inbound-safety-poll-and-logs:bba5abea8100b4dec85728276b6f46ac5ab3e99e5bb10e6c3dcf98ce4d9e99e1",
+          "quiet-codepress-organizations:502175b261ca1f2781489708dcc85a78fc461cf9ad4fd2fdf0cb6a12faea668c",
+          "instructions-editor-live-markdown:f91bd197d29cb899a8655bb669b239e2c68a4ea9b7b30a2904f50b36ed369cdc",
+          "unique-session-branch-names:2061317398febf52da1a2b017d31f4d9a1f33224918923745f384db876726ce7",
+          "fast-online-computer-choices:7f9e1c94f1b9ecd9e5eca9d5cabecda01237dd96da3901b8029ba7e8b7302d7e",
+          "orchestrator-sees-repositories:5717f0670e8695273faa91b4f6a03e52d63420afc05edbfad94cd58d86315bfd",
+          "repository-kickoff-scope-line:a2a50af328e1c4f66c904c3f29c83b1a5c5f45f391226d174b27c89468cabda4"
+        ],
+        "throughSourceSha": "1e118fae39923f87a48f36436f56cba69c587c97",
+        "previousThroughSourceSha": "15913d87b2648edf83b7d7003e97ab89f19a2b3f",
+        "baselineVersion": "1.370.15",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40408932620",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-27T22:00:51.678Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -105710,7 +105766,14 @@
     "tidy-ramp-schema-guidance:5aca13252b6de7e6017404272f48e721df3b2ae52fa7a4049a7a2cea24b7da5d",
     "keep-remote-control-on:194bc396b09b91d589dae11e99202425ac14ce0cbe799d18dae15e8573df0691",
     "claude-terminal-signin-parity:ef2a3f777663a09a9cf95db853a6e16025ea12d3898ac4556d3d7b01518c812b",
-    "unified-project-handoff:991476cb4deb7983cdbd2f8003d41e19610d08480464cd9ad080ca9729838688"
+    "unified-project-handoff:991476cb4deb7983cdbd2f8003d41e19610d08480464cd9ad080ca9729838688",
+    "inbound-safety-poll-and-logs:bba5abea8100b4dec85728276b6f46ac5ab3e99e5bb10e6c3dcf98ce4d9e99e1",
+    "quiet-codepress-organizations:502175b261ca1f2781489708dcc85a78fc461cf9ad4fd2fdf0cb6a12faea668c",
+    "instructions-editor-live-markdown:f91bd197d29cb899a8655bb669b239e2c68a4ea9b7b30a2904f50b36ed369cdc",
+    "unique-session-branch-names:2061317398febf52da1a2b017d31f4d9a1f33224918923745f384db876726ce7",
+    "fast-online-computer-choices:7f9e1c94f1b9ecd9e5eca9d5cabecda01237dd96da3901b8029ba7e8b7302d7e",
+    "orchestrator-sees-repositories:5717f0670e8695273faa91b4f6a03e52d63420afc05edbfad94cd58d86315bfd",
+    "repository-kickoff-scope-line:a2a50af328e1c4f66c904c3f29c83b1a5c5f45f391226d174b27c89468cabda4"
   ],
-  "consumedThroughSha": "15913d87b2648edf83b7d7003e97ab89f19a2b3f"
+  "consumedThroughSha": "1e118fae39923f87a48f36436f56cba69c587c97"
 }
