@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1af1b628046ddfdc0512b7cf75c9041a631bb8b8",
+  "cursorSha": "4d1657149c4646c2984683c23bd0e52858ce6173",
   "highWaterVersion": "1.370.7",
   "rows": [
     {
@@ -104085,6 +104085,13 @@
       "sourceSha": "1af1b628046ddfdc0512b7cf75c9041a631bb8b8",
       "sourcePackageVersion": "1.369.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4d1657149c4646c2984683c23bd0e52858ce6173",
+      "sourcePackageVersion": "1.369.7",
+      "intentIds": [
+        "untouched-talk-tombstone:61e9c0a342c6cc4d82d67843144d4d3e7bf568fa459cbead53a762b81c800cfd"
+      ]
     }
   ],
   "intents": [
@@ -104663,6 +104670,14 @@
       "summary": "Auto and Move's Suggested machine now rank your own Macs by live load whenever your feed, Project sync or copy-everywhere is on, and a Mac that has not reported says it is not reporting its load.",
       "sourceSha": "138100a9cbfb28d3614f1a88d167d94ac6a0f359",
       "identity": "auto-router-reads-routing-list:3b6a37b1a760d2e2d6e51c3243163c94828ea8c4d4e9d5610f18f19dd879979e"
+    },
+    {
+      "id": "untouched-talk-tombstone",
+      "digest": "61e9c0a342c6cc4d82d67843144d4d3e7bf568fa459cbead53a762b81c800cfd",
+      "type": "patch",
+      "summary": "Deleting an untouched voice-started project now also retires its cloud copy, so other Macs stop listing a Synced project that no longer exists.",
+      "sourceSha": "4d1657149c4646c2984683c23bd0e52858ce6173",
+      "identity": "untouched-talk-tombstone:61e9c0a342c6cc4d82d67843144d4d3e7bf568fa459cbead53a762b81c800cfd"
     }
   ],
   "consumedIntentIds": [
