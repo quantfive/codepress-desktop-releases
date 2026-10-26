@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5323d8090ba3f410f73c6306a13b137e30807a00",
+  "cursorSha": "bcacfb5a9f1b125999d0694d809cdc74deae684a",
   "highWaterVersion": "1.370.15",
   "rows": [
     {
@@ -104786,6 +104786,25 @@
       "intentIds": [
         "inbound-safety-poll-and-logs:bba5abea8100b4dec85728276b6f46ac5ab3e99e5bb10e6c3dcf98ce4d9e99e1"
       ]
+    },
+    {
+      "sourceSha": "4ed2a255a94b45337c56ec4cf709a9074fa70570",
+      "sourcePackageVersion": "1.369.18",
+      "intentIds": [
+        "quiet-codepress-organizations:502175b261ca1f2781489708dcc85a78fc461cf9ad4fd2fdf0cb6a12faea668c"
+      ]
+    },
+    {
+      "sourceSha": "43afeecf35109d8c782ece1edef04262edaae14d",
+      "sourcePackageVersion": "1.369.18",
+      "intentIds": [
+        "instructions-editor-live-markdown:f91bd197d29cb899a8655bb669b239e2c68a4ea9b7b30a2904f50b36ed369cdc"
+      ]
+    },
+    {
+      "sourceSha": "bcacfb5a9f1b125999d0694d809cdc74deae684a",
+      "sourcePackageVersion": "1.369.19",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -105500,6 +105519,22 @@
       "summary": "A home Mac that is told which replicas have mail waiting now also asks every two minutes, so a dropped wake-up cannot leave a queued reply or answer undelivered. Each delivery, and each reason an item was not delivered, is now in the log.",
       "sourceSha": "5323d8090ba3f410f73c6306a13b137e30807a00",
       "identity": "inbound-safety-poll-and-logs:bba5abea8100b4dec85728276b6f46ac5ab3e99e5bb10e6c3dcf98ce4d9e99e1"
+    },
+    {
+      "id": "quiet-codepress-organizations",
+      "digest": "502175b261ca1f2781489708dcc85a78fc461cf9ad4fd2fdf0cb6a12faea668c",
+      "type": "patch",
+      "summary": "Let people choose all their CodePress organizations for Terminal's broker connection, keep agent credentials on that connection, and answer broker OAuth discovery probes with JSON.",
+      "sourceSha": "4ed2a255a94b45337c56ec4cf709a9074fa70570",
+      "identity": "quiet-codepress-organizations:502175b261ca1f2781489708dcc85a78fc461cf9ad4fd2fdf0cb6a12faea668c"
+    },
+    {
+      "id": "instructions-editor-live-markdown",
+      "digest": "f91bd197d29cb899a8655bb669b239e2c68a4ea9b7b30a2904f50b36ed369cdc",
+      "type": "patch",
+      "summary": "The Orchestrator prompt editor now styles Markdown as you type: `##` titles are large with a divider above each section, and bold, italic, code and links are styled. The text is still plain Markdown, and the Preview button is gone.",
+      "sourceSha": "43afeecf35109d8c782ece1edef04262edaae14d",
+      "identity": "instructions-editor-live-markdown:f91bd197d29cb899a8655bb669b239e2c68a4ea9b7b30a2904f50b36ed369cdc"
     }
   ],
   "consumedIntentIds": [
