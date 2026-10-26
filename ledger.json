@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f555484d022acd5e41704896005a07d405d957b0",
+  "cursorSha": "1178f0db83cdd0f22651c047721b83bcbb2a78d8",
   "highWaterVersion": "1.370.1",
   "rows": [
     {
@@ -103578,6 +103578,13 @@
       "sourceSha": "f555484d022acd5e41704896005a07d405d957b0",
       "sourcePackageVersion": "1.369.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "1178f0db83cdd0f22651c047721b83bcbb2a78d8",
+      "sourcePackageVersion": "1.369.1",
+      "intentIds": [
+        "mac-cli-transfer-retries:50f8be29fb326e3ff482fdb3e1892e7b81ba804721a94db901c08732e6beabb9"
+      ]
     }
   ],
   "intents": [
@@ -104100,6 +104107,14 @@
       "summary": "Import Claude Code, enabled plugin and Codex OAuth MCP servers as Terminal sign-ins and pick them up in running Orchestrator conversations.",
       "sourceSha": "cb6178fabb365432bc8e401ca3085ce5167822c4",
       "identity": "terminal-ambient-oauth-imports:c2614e737d601f32c69b82e8b7a7e1d8103a7db8ebf46b5d5804ca5ee3f55413"
+    },
+    {
+      "id": "mac-cli-transfer-retries",
+      "digest": "50f8be29fb326e3ff482fdb3e1892e7b81ba804721a94db901c08732e6beabb9",
+      "type": "patch",
+      "summary": "Retry macOS CLI artifact downloads and transient immutable-upload failures with separate transfer deadlines, preserving the macOS upload allowance and publisher job cap.",
+      "sourceSha": "1178f0db83cdd0f22651c047721b83bcbb2a78d8",
+      "identity": "mac-cli-transfer-retries:50f8be29fb326e3ff482fdb3e1892e7b81ba804721a94db901c08732e6beabb9"
     }
   ],
   "consumedIntentIds": [
