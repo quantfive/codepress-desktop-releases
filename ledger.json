@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c31f015b7d28cd3226dc8a62e63465632a3b06ac",
+  "cursorSha": "983b09d68abcb1c88a9ce124bbdffb73a57a4460",
   "highWaterVersion": "1.370.16",
   "rows": [
     {
@@ -104947,6 +104947,20 @@
       "sourceSha": "c31f015b7d28cd3226dc8a62e63465632a3b06ac",
       "sourcePackageVersion": "1.369.23",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3346767cf8506fe18761280af619f6d30c15b1b8",
+      "sourcePackageVersion": "1.369.23",
+      "intentIds": [
+        "queued-answer-status:793b0588c8a1f70998e2d836cb77f02a9115980ced3e28e0b176ac9284e9a84a"
+      ]
+    },
+    {
+      "sourceSha": "983b09d68abcb1c88a9ce124bbdffb73a57a4460",
+      "sourcePackageVersion": "1.369.23",
+      "intentIds": [
+        "feed-rail-skeleton-split:dd0be9ff265758a7ebc1296d08342a02d9d6a167093623f4a1784a0a9c1d3c59"
+      ]
     }
   ],
   "intents": [
@@ -105725,6 +105739,22 @@
       "summary": "Choose Auto, Local or Cloud for organization automations in Runner pool settings, and show automation capacity and recent runs beside sessions.",
       "sourceSha": "36aa3fa4756b2cda4156bfddfa3abca66364f647",
       "identity": "automations-runner-pool-ui:46b8ceaa4287aaf441101253e31bdcc36b17723a8bedca0e7df5ac911e71abb9"
+    },
+    {
+      "id": "queued-answer-status",
+      "digest": "793b0588c8a1f70998e2d836cb77f02a9115980ced3e28e0b176ac9284e9a84a",
+      "type": "patch",
+      "summary": "Answering or messaging another Mac's project now sends the words you typed with a picked option, and shows whether the Mac delivered it, could not apply it, or has not picked it up yet (with Send again), instead of an endless \"Sending to…\".",
+      "sourceSha": "3346767cf8506fe18761280af619f6d30c15b1b8",
+      "identity": "queued-answer-status:793b0588c8a1f70998e2d836cb77f02a9115980ced3e28e0b176ac9284e9a84a"
+    },
+    {
+      "id": "feed-rail-skeleton-split",
+      "digest": "dd0be9ff265758a7ebc1296d08342a02d9d6a167093623f4a1784a0a9c1d3c59",
+      "type": "patch",
+      "summary": "The feed rail's loading skeleton now lives in its own shared file, so the web dashboard can draw it without loading the whole rail. Nothing changes on screen.",
+      "sourceSha": "983b09d68abcb1c88a9ce124bbdffb73a57a4460",
+      "identity": "feed-rail-skeleton-split:dd0be9ff265758a7ebc1296d08342a02d9d6a167093623f4a1784a0a9c1d3c59"
     }
   ],
   "consumedIntentIds": [
