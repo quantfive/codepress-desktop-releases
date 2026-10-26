@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a150325b76bdaf250061130e73983679d4159585",
+  "cursorSha": "069b49fac23cbb49018fe5b54ef0d9ce6c3c3af0",
   "highWaterVersion": "1.370.3",
   "rows": [
     {
@@ -103770,6 +103770,18 @@
       "sourceSha": "a150325b76bdaf250061130e73983679d4159585",
       "sourcePackageVersion": "1.369.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0337771dce5d2133f2e78af138ad83180040b9c2",
+      "sourcePackageVersion": "1.369.3",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "069b49fac23cbb49018fe5b54ef0d9ce6c3c3af0",
+      "sourcePackageVersion": "1.369.3",
+      "intentIds": [
+        "terminal-batch-g-git-contract:f83e053e7af611937c3c7a23028673311a38f8cc8a507e8142b445ec8ae5847b"
+      ]
     }
   ],
   "intents": [
@@ -104308,6 +104320,14 @@
       "summary": "Fail the Linux AppImage release check when an x86_64 build ships without the Ghostty engine, instead of letting every tab silently fall back to xterm.",
       "sourceSha": "3552cfe25f4d52837369acfdbde62acae5754a4c",
       "identity": "appimage-ghostty-required:4a839eb977cc1aa92dc45e5c7981019a3125230b2f12be8ca57fddf09bc502ea"
+    },
+    {
+      "id": "terminal-batch-g-git-contract",
+      "digest": "f83e053e7af611937c3c7a23028673311a38f8cc8a507e8142b445ec8ae5847b",
+      "type": "patch",
+      "summary": "Share worker Git result shaping with synchronous fixture execution so release tests preserve production error messages and output limits. Production callers retain the asynchronous default runner.",
+      "sourceSha": "069b49fac23cbb49018fe5b54ef0d9ce6c3c3af0",
+      "identity": "terminal-batch-g-git-contract:f83e053e7af611937c3c7a23028673311a38f8cc8a507e8142b445ec8ae5847b"
     }
   ],
   "consumedIntentIds": [
