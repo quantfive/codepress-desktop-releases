@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "cb6178fabb365432bc8e401ca3085ce5167822c4",
-  "highWaterVersion": "1.370.0",
+  "highWaterVersion": "1.370.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -52410,6 +52410,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:cb6178fabb365432bc8e401ca3085ce5167822c4",
+      "kind": "main",
+      "sequence": 1668,
+      "sourceSha": "cb6178fabb365432bc8e401ca3085ce5167822c4",
+      "sourcePackageVersion": "1.369.0",
+      "version": "1.370.1",
+      "publicationDate": "2026-10-26T12:33:01.005Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-ambient-oauth-imports:c2614e737d601f32c69b82e8b7a7e1d8103a7db8ebf46b5d5804ca5ee3f55413"
+        ],
+        "notesIntentIds": [
+          "terminal-ambient-oauth-imports:c2614e737d601f32c69b82e8b7a7e1d8103a7db8ebf46b5d5804ca5ee3f55413"
+        ],
+        "throughSourceSha": "cb6178fabb365432bc8e401ca3085ce5167822c4",
+        "previousThroughSourceSha": "091a7a9bc7dd95637cab7660ab24c9c34112afa6",
+        "baselineVersion": "1.370.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40323156198",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-27T12:32:35.124Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -104109,7 +104152,8 @@
     "fair-handoff-worktrees:8f362b71b6274cb759db1dc93da4b0e27b6cf7ea0a4724ecfab32c0861ef3528",
     "cli-publication-notice:6c071f9e70501cd59060eccce934ab25ce908e8d1423374d5b931a51ad563b7e",
     "terminal-batch-f-claude-poll:77f204477a25c8f923c1469f0dfdb8060cb4916ffef1360404e817890996bf0e",
-    "capacity-host-automation-jobs:d5d0f3b6bde907618b6bf06a4a99494114ae57dab94ae17d50dcef3ea1e22af0"
+    "capacity-host-automation-jobs:d5d0f3b6bde907618b6bf06a4a99494114ae57dab94ae17d50dcef3ea1e22af0",
+    "terminal-ambient-oauth-imports:c2614e737d601f32c69b82e8b7a7e1d8103a7db8ebf46b5d5804ca5ee3f55413"
   ],
-  "consumedThroughSha": "091a7a9bc7dd95637cab7660ab24c9c34112afa6"
+  "consumedThroughSha": "cb6178fabb365432bc8e401ca3085ce5167822c4"
 }
