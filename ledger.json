@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "61b9f2c8594674bd8d9083bcbd58ce117d4fe743",
+  "cursorSha": "522d09e919a6e01546cb1b4a0529363bef061c6a",
   "highWaterVersion": "1.370.18",
   "rows": [
     {
@@ -105224,6 +105224,13 @@
       "sourceSha": "61b9f2c8594674bd8d9083bcbd58ce117d4fe743",
       "sourcePackageVersion": "1.370.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "522d09e919a6e01546cb1b4a0529363bef061c6a",
+      "sourcePackageVersion": "1.370.0",
+      "intentIds": [
+        "shared-machine-agent-tab-mentions:5932ede5a5fb561938e1e508646ab74d7177810ceda94cd3dd00d0d4e44684de"
+      ]
     }
   ],
   "intents": [
@@ -106106,6 +106113,14 @@
       "summary": "A Mac that hosts Orchestrator projects can now stream a project's thread to a viewer on another device: it pushes each change as it happens instead of waiting to be polled, while someone is watching. Tool calls in a remote read also carry a short summary of what they ran (the command, path, pattern, url or query), so a viewer's tool rows say more than the tool's name.",
       "sourceSha": "49aedd365b9981fb32cd0b8fbc1c09424e726fd4",
       "identity": "home-thread-stream:70a98df8443758ea17ab4ea31140b3ee6328b83814e02ab8ee7c0d5a18bd558b"
+    },
+    {
+      "id": "shared-machine-agent-tab-mentions",
+      "digest": "5932ede5a5fb561938e1e508646ab74d7177810ceda94cd3dd00d0d4e44684de",
+      "type": "patch",
+      "summary": "Offer the agent tabs you may read on machines a teammate shared with you in the @ mention menu, grouped under `<machine> · <owner>`, and let the Orchestrator read them.",
+      "sourceSha": "522d09e919a6e01546cb1b4a0529363bef061c6a",
+      "identity": "shared-machine-agent-tab-mentions:5932ede5a5fb561938e1e508646ab74d7177810ceda94cd3dd00d0d4e44684de"
     }
   ],
   "consumedIntentIds": [
