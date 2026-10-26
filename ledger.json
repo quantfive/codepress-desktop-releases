@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "66da86406511664f2df146762b039e94ab46b354",
+  "cursorSha": "1e118fae39923f87a48f36436f56cba69c587c97",
   "highWaterVersion": "1.370.15",
   "rows": [
     {
@@ -104851,6 +104851,13 @@
       "sourceSha": "66da86406511664f2df146762b039e94ab46b354",
       "sourcePackageVersion": "1.369.21",
       "intentIds": []
+    },
+    {
+      "sourceSha": "1e118fae39923f87a48f36436f56cba69c587c97",
+      "sourcePackageVersion": "1.369.21",
+      "intentIds": [
+        "repository-kickoff-scope-line:a2a50af328e1c4f66c904c3f29c83b1a5c5f45f391226d174b27c89468cabda4"
+      ]
     }
   ],
   "intents": [
@@ -105605,6 +105612,14 @@
       "summary": "An Orchestrator started with repositories now sees them from its first turn: `list_directories` and `list_repositories` show each repository's worktree, its prompt names them, it can read them, `project_fleet_assign` with just a `repository` cuts the worker from the project's own checkout without cloning it again, and file references and Quick Open search them.",
       "sourceSha": "2afc200556f3a3fc50f9d5b05a1056a09b88996d",
       "identity": "orchestrator-sees-repositories:5717f0670e8695273faa91b4f6a03e52d63420afc05edbfad94cd58d86315bfd"
+    },
+    {
+      "id": "repository-kickoff-scope-line",
+      "digest": "a2a50af328e1c4f66c904c3f29c83b1a5c5f45f391226d174b27c89468cabda4",
+      "type": "patch",
+      "summary": "With the repository kickoff flag on, the kickoff input carries one quiet line, \"In acme/web, api…\", that names the GitHub repositories and the folder a new project starts in, and its menu adds, ticks and removes them. The Project folder card gives way to it; with the flag off nothing changes. A repository the sidecar refuses shows in red on the line and the brief is kept.",
+      "sourceSha": "1e118fae39923f87a48f36436f56cba69c587c97",
+      "identity": "repository-kickoff-scope-line:a2a50af328e1c4f66c904c3f29c83b1a5c5f45f391226d174b27c89468cabda4"
     }
   ],
   "consumedIntentIds": [
