@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b7fb14e4a0617effbec9fe7d8b5ebb7a9a457d8e",
+  "cursorSha": "dd277e5aba14f5178996e3afa1030e4fbf3dedd9",
   "highWaterVersion": "1.370.13",
   "rows": [
     {
@@ -104614,6 +104614,13 @@
       "intentIds": [
         "keep-remote-control-on:194bc396b09b91d589dae11e99202425ac14ce0cbe799d18dae15e8573df0691"
       ]
+    },
+    {
+      "sourceSha": "dd277e5aba14f5178996e3afa1030e4fbf3dedd9",
+      "sourcePackageVersion": "1.369.17",
+      "intentIds": [
+        "claude-terminal-signin-parity:ef2a3f777663a09a9cf95db853a6e16025ea12d3898ac4556d3d7b01518c812b"
+      ]
     }
   ],
   "intents": [
@@ -105304,6 +105311,14 @@
       "summary": "One failed remote command no longer switches this Mac's remote control off until Terminal restarts. Only a journal failure withdraws it, a writable journal restores it, and `get_terminal_diagnostics` reports why it was withdrawn. A cross-machine call refused because this Mac was briefly not offering control now reconnects, refreshes its capabilities and retries once, and when it still fails the error says nothing was sent and how to fix it.",
       "sourceSha": "b7fb14e4a0617effbec9fe7d8b5ebb7a9a457d8e",
       "identity": "keep-remote-control-on:194bc396b09b91d589dae11e99202425ac14ce0cbe799d18dae15e8573df0691"
+    },
+    {
+      "id": "claude-terminal-signin-parity",
+      "digest": "ef2a3f777663a09a9cf95db853a6e16025ea12d3898ac4556d3d7b01518c812b",
+      "type": "patch",
+      "summary": "Keep Claude account identity, scopes and plan details when uploading Personal or Team sign-ins, and explain reconnect failures when switching accounts.",
+      "sourceSha": "dd277e5aba14f5178996e3afa1030e4fbf3dedd9",
+      "identity": "claude-terminal-signin-parity:ef2a3f777663a09a9cf95db853a6e16025ea12d3898ac4556d3d7b01518c812b"
     }
   ],
   "consumedIntentIds": [
