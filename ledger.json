@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "815af51dd9bc640c4d328cfba1f9a0eea3c3fd9c",
+  "cursorSha": "c0dd490131a0c10f6387eefc1c0b2fd47d2ef7eb",
   "highWaterVersion": "1.374.22",
   "rows": [
     {
@@ -108086,6 +108086,13 @@
       "sourceSha": "815af51dd9bc640c4d328cfba1f9a0eea3c3fd9c",
       "sourcePackageVersion": "1.374.34",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c0dd490131a0c10f6387eefc1c0b2fd47d2ef7eb",
+      "sourcePackageVersion": "1.374.34",
+      "intentIds": [
+        "mcp-sign-in-only-on-request:75491797dd92bf2c0785c23d443b5781e31b555f1e2c278246995e653e2fb2e5"
+      ]
     }
   ],
   "intents": [
@@ -109456,6 +109463,14 @@
       "summary": "Throttle the Orchestrator's push-driven cloud feed reads to one per 2 seconds, and let a pushed narrowed read share an unfiltered cloud read already in flight instead of starting another.",
       "sourceSha": "2618c0a8c27f0e13d7ad0c5b0e939b6f232d2709",
       "identity": "terminal-feed-push-throttle:f96e8a7a1c58dd19e6ef242033c16d3ca240a291dc8693dc8019edf176179cb2"
+    },
+    {
+      "id": "mcp-sign-in-only-on-request",
+      "digest": "75491797dd92bf2c0785c23d443b5781e31b555f1e2c278246995e653e2fb2e5",
+      "type": "patch",
+      "summary": "A local Orchestrator project or chat no longer raises the \"Sign in to your MCP servers\" question by itself. It appears only when the Orchestrator calls `request_mcp_sign_in` for a server its current work needs, so a new project no longer lands in Needs you for a sign-in nobody asked for. Sign-in stays available in Settings → Agent MCPs.",
+      "sourceSha": "c0dd490131a0c10f6387eefc1c0b2fd47d2ef7eb",
+      "identity": "mcp-sign-in-only-on-request:75491797dd92bf2c0785c23d443b5781e31b555f1e2c278246995e653e2fb2e5"
     }
   ],
   "consumedIntentIds": [
