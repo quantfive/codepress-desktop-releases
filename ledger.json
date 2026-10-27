@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "76c22408c87b9136a9cabb0060332ad4bf739f07",
+  "cursorSha": "60ec65b21a8c7a6aa0b2c9a84ae22d0fe8986b29",
   "highWaterVersion": "1.374.27",
   "rows": [
     {
@@ -108650,6 +108650,13 @@
       "sourceSha": "76c22408c87b9136a9cabb0060332ad4bf739f07",
       "sourcePackageVersion": "1.374.42",
       "intentIds": []
+    },
+    {
+      "sourceSha": "60ec65b21a8c7a6aa0b2c9a84ae22d0fe8986b29",
+      "sourcePackageVersion": "1.374.42",
+      "intentIds": [
+        "quiet-cleaning-marker:4364719ecae9ff455961a5c9a33c8ca1c17ad41e4ca883c9d7859c2904e58f55"
+      ]
     }
   ],
   "intents": [
@@ -110100,6 +110107,14 @@
       "summary": "Recover invalid retained GitHub stats canonical data by downloading the complete published snapshot after local restoration rolls back.",
       "sourceSha": "b5feb21ab44486679c25caf50d906316b4d624cf",
       "identity": "tidy-canonical-recovery:8d3677d572f9ce4a0c890cc3c02b23841839ab45a7054305eaf65445ef28d110"
+    },
+    {
+      "id": "quiet-cleaning-marker",
+      "digest": "4364719ecae9ff455961a5c9a33c8ca1c17ad41e4ca883c9d7859c2904e58f55",
+      "type": "patch",
+      "summary": "Add suspendable worktree cleanup leases with durable per-path cleaning fences and log lifecycle locks still held after ten seconds.",
+      "sourceSha": "60ec65b21a8c7a6aa0b2c9a84ae22d0fe8986b29",
+      "identity": "quiet-cleaning-marker:4364719ecae9ff455961a5c9a33c8ca1c17ad41e4ca883c9d7859c2904e58f55"
     }
   ],
   "consumedIntentIds": [
