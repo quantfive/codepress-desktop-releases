@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e674eed9c4048d081990c5d4791189471a97dfbd",
+  "cursorSha": "69eb992f6ecbfc14b427f313968d4214ffedd3d8",
   "highWaterVersion": "1.374.25",
   "rows": [
     {
@@ -108397,6 +108397,25 @@
       "sourceSha": "e674eed9c4048d081990c5d4791189471a97dfbd",
       "sourcePackageVersion": "1.374.38",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c2ac4b984326ca6a3399d21796b66159734db63a",
+      "sourcePackageVersion": "1.374.38",
+      "intentIds": [
+        "mute-mcp-sign-in-prompts:d4d90e239b41e9ae9a4ad22b54a9857a04e220114844818566bec8bb5896528d"
+      ]
+    },
+    {
+      "sourceSha": "e73976619dab7bfcfd04e230a3e72460df8d95e5",
+      "sourcePackageVersion": "1.374.38",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "69eb992f6ecbfc14b427f313968d4214ffedd3d8",
+      "sourcePackageVersion": "1.374.38",
+      "intentIds": [
+        "calm-cloud-attachments:569ff800de160818fd1b1401b744ca1ce7277d85d4fede1f6bd2d984cadec150"
+      ]
     }
   ],
   "intents": [
@@ -109799,6 +109818,22 @@
       "summary": "Saving a project's state on another device no longer re-reads the Orchestrator rail and feed; only a card change does.",
       "sourceSha": "fe2e45255c8907e878c23f447a4def6f0ba24d53",
       "identity": "replica-state-push-skips-feed:5180d442b89448d491e6efdb39cc02374bd18b215fa53b4e5b3244b430b18572"
+    },
+    {
+      "id": "mute-mcp-sign-in-prompts",
+      "digest": "d4d90e239b41e9ae9a4ad22b54a9857a04e220114844818566bec8bb5896528d",
+      "type": "patch",
+      "summary": "The Orchestrator's MCP sign-in card has Don't ask again on each server, kept per computer and listed under Settings → Agent MCPs → Muted sign-in prompts with Unmute. The card no longer lists a server your Orchestrator already reports as connected, and shows servers on the same host as one row.",
+      "sourceSha": "c2ac4b984326ca6a3399d21796b66159734db63a",
+      "identity": "mute-mcp-sign-in-prompts:d4d90e239b41e9ae9a4ad22b54a9857a04e220114844818566bec8bb5896528d"
+    },
+    {
+      "id": "calm-cloud-attachments",
+      "digest": "569ff800de160818fd1b1401b744ca1ce7277d85d4fede1f6bd2d984cadec150",
+      "type": "patch",
+      "summary": "Keep failed attachments from being omitted by cloud agent chat sends, while preserving the Orchestrator composer's text-send behavior.",
+      "sourceSha": "69eb992f6ecbfc14b427f313968d4214ffedd3d8",
+      "identity": "calm-cloud-attachments:569ff800de160818fd1b1401b744ca1ce7277d85d4fede1f6bd2d984cadec150"
     }
   ],
   "consumedIntentIds": [
