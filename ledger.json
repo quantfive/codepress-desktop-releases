@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "7c6a222580bf186e3c92ea76224cf3d88684be00",
-  "highWaterVersion": "1.374.1",
+  "highWaterVersion": "1.374.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -53949,6 +53949,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:7c6a222580bf186e3c92ea76224cf3d88684be00",
+      "kind": "main",
+      "sequence": 1694,
+      "sourceSha": "7c6a222580bf186e3c92ea76224cf3d88684be00",
+      "sourcePackageVersion": "1.374.2",
+      "version": "1.374.2",
+      "publicationDate": "2026-10-27T04:40:42.073Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "wrapper-agent-detection:c3b6eab5f9c4af815879d5968b67183f53b85fc409721ce655d6c007d440ccf0",
+          "terminal-feed-keeps-landed-pages:6fcd28f1459a2cba5658021325e7296503470462d32a935e7e113b512f023bb7"
+        ],
+        "notesIntentIds": [
+          "wrapper-agent-detection:c3b6eab5f9c4af815879d5968b67183f53b85fc409721ce655d6c007d440ccf0",
+          "terminal-feed-keeps-landed-pages:6fcd28f1459a2cba5658021325e7296503470462d32a935e7e113b512f023bb7"
+        ],
+        "throughSourceSha": "7c6a222580bf186e3c92ea76224cf3d88684be00",
+        "previousThroughSourceSha": "130d929ec436d675caaef1a5fd2892d3906cefc4",
+        "baselineVersion": "1.374.1",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40450909781",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-28T04:40:18.564Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -107280,7 +107325,9 @@
     "failed-orchestrator-person-wake:fe0c2b4ffd162f658bd5e418a4f39d63dd9048f6064c9811985b468c47e9c157",
     "fast-project-handoff-options:d8aee82a0990c67c35df02e59764792c162c1b165db087848eea4e72854517ad",
     "repository-rules-settings-layers:6636cb6ee65d1a5b5cfbdf78f2b7a575c85d94ab714bf7688426fc9f36643d0e",
-    "retire-terminal-mcp-sign-in-flag:7d67c654a8f77554a770be3e73455d4c7c7cc84db43a690e5b35161c526996c9"
+    "retire-terminal-mcp-sign-in-flag:7d67c654a8f77554a770be3e73455d4c7c7cc84db43a690e5b35161c526996c9",
+    "wrapper-agent-detection:c3b6eab5f9c4af815879d5968b67183f53b85fc409721ce655d6c007d440ccf0",
+    "terminal-feed-keeps-landed-pages:6fcd28f1459a2cba5658021325e7296503470462d32a935e7e113b512f023bb7"
   ],
-  "consumedThroughSha": "130d929ec436d675caaef1a5fd2892d3906cefc4"
+  "consumedThroughSha": "7c6a222580bf186e3c92ea76224cf3d88684be00"
 }
