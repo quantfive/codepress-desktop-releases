@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "efb1eba8a6fb5a8711d73d24db2978f609a91886",
-  "highWaterVersion": "1.373.1",
+  "highWaterVersion": "1.373.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -53772,6 +53772,55 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:efb1eba8a6fb5a8711d73d24db2978f609a91886",
+      "kind": "main",
+      "sequence": 1691,
+      "sourceSha": "efb1eba8a6fb5a8711d73d24db2978f609a91886",
+      "sourcePackageVersion": "1.373.5",
+      "version": "1.373.2",
+      "publicationDate": "2026-10-27T02:59:56.421Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "thread-sorted-by-time:68f84a228d6f8b98d4c4ee30bd7f58e6a6bf5116086b3e096d7766b4804113eb",
+          "terminal-signed-out-archive-inventory:0c700d4008ce6552e9dcff2f848410c0f40d91a784e39c383bd0c21fc8e242c4",
+          "terminal-rest-overlap:be1145a17f98beaa76960fa1ffe8bab693e9c56f515c12a6217879d6117a3851",
+          "fleet-update-popover-counts-every-computer:50d5004ef3d7366f51b62f3be0cb69e6c7fea625e17bc25141e3f615197b7ed3"
+        ],
+        "notesIntentIds": [
+          "thread-sorted-by-time:68f84a228d6f8b98d4c4ee30bd7f58e6a6bf5116086b3e096d7766b4804113eb",
+          "terminal-signed-out-archive-inventory:0c700d4008ce6552e9dcff2f848410c0f40d91a784e39c383bd0c21fc8e242c4",
+          "terminal-rest-overlap:be1145a17f98beaa76960fa1ffe8bab693e9c56f515c12a6217879d6117a3851",
+          "fleet-update-popover-counts-every-computer:50d5004ef3d7366f51b62f3be0cb69e6c7fea625e17bc25141e3f615197b7ed3"
+        ],
+        "throughSourceSha": "efb1eba8a6fb5a8711d73d24db2978f609a91886",
+        "previousThroughSourceSha": "a1d717c7be1799cd930e08b45013e7588fe8a0b6",
+        "baselineVersion": "1.373.1",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40441514676",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-28T02:59:31.561Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -106924,7 +106973,11 @@
     "repository-rules-on-the-account:9ed1a0295fe28271a8afe7a6077224657e58467686da4f2fa7f61138f2af8dea",
     "pool-claude-tool-search:d1090da223ef2af717681c51d090eb377b8ac603181bd9456551f328914fbf9c",
     "repository-kickoff-other-machines:3bafdef183d2baf81b73a73d2733dd6ff69b06c3fc1b61ef40d9e029f50f6297",
-    "stream-recovers-after-backend-restart:0919a3198285d021ee6792b68d2e2754ad4e7e8a47b5994964ab56365241c5bc"
+    "stream-recovers-after-backend-restart:0919a3198285d021ee6792b68d2e2754ad4e7e8a47b5994964ab56365241c5bc",
+    "thread-sorted-by-time:68f84a228d6f8b98d4c4ee30bd7f58e6a6bf5116086b3e096d7766b4804113eb",
+    "terminal-signed-out-archive-inventory:0c700d4008ce6552e9dcff2f848410c0f40d91a784e39c383bd0c21fc8e242c4",
+    "terminal-rest-overlap:be1145a17f98beaa76960fa1ffe8bab693e9c56f515c12a6217879d6117a3851",
+    "fleet-update-popover-counts-every-computer:50d5004ef3d7366f51b62f3be0cb69e6c7fea625e17bc25141e3f615197b7ed3"
   ],
-  "consumedThroughSha": "a1d717c7be1799cd930e08b45013e7588fe8a0b6"
+  "consumedThroughSha": "efb1eba8a6fb5a8711d73d24db2978f609a91886"
 }
