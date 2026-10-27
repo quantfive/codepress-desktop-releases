@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "907f9940843ea49f2d10fa8ff3da482abcacf2ad",
+  "cursorSha": "3760ee172418130756cd361c49e0a8865254b29e",
   "highWaterVersion": "1.374.7",
   "rows": [
     {
@@ -106651,6 +106651,13 @@
       "sourceSha": "907f9940843ea49f2d10fa8ff3da482abcacf2ad",
       "sourcePackageVersion": "1.374.11",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3760ee172418130756cd361c49e0a8865254b29e",
+      "sourcePackageVersion": "1.374.11",
+      "intentIds": [
+        "banked-reset-picker:f339463c2e86cc52750d9eaec37ce815a9b17bbac26260f2c8b67301d25808ce"
+      ]
     }
   ],
   "intents": [
@@ -107829,6 +107836,14 @@
       "summary": "Keep Terminal test transform caches separate across pnpm dependency store layouts.",
       "sourceSha": "72786cd21fea1b66249021ce1de2c32f77e7b172",
       "identity": "terminal-vitest-store-layout:532ddff63f6507e7fdb88bbe3693b2c922a1a1a6a6abae6b3b9908dae779cc5f"
+    },
+    {
+      "id": "banked-reset-picker",
+      "digest": "f339463c2e86cc52750d9eaec37ce815a9b17bbac26260f2c8b67301d25808ce",
+      "type": "patch",
+      "summary": "List every banked subscription reset with its expiry and let each account use the chosen reset.\nGate Claude grants individually and start a new reset attempt after a definite provider outcome while preserving request IDs for ambiguous retries.",
+      "sourceSha": "3760ee172418130756cd361c49e0a8865254b29e",
+      "identity": "banked-reset-picker:f339463c2e86cc52750d9eaec37ce815a9b17bbac26260f2c8b67301d25808ce"
     }
   ],
   "consumedIntentIds": [
