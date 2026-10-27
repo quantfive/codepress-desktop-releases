@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ce998ab071784f13ee71e3bd22152c9406481932",
+  "cursorSha": "09e2987db2fefb0f075771ffc8b7dc0a7b4c9a40",
   "highWaterVersion": "1.371.1",
   "rows": [
     {
@@ -105408,6 +105408,13 @@
       "sourceSha": "ce998ab071784f13ee71e3bd22152c9406481932",
       "sourcePackageVersion": "1.370.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "09e2987db2fefb0f075771ffc8b7dc0a7b4c9a40",
+      "sourcePackageVersion": "1.370.3",
+      "intentIds": [
+        "viewers-thread-stream:40cf4ee29b87fedd6872173c68336083e303f92b742ca937518e6f760a9ef8d5"
+      ]
     }
   ],
   "intents": [
@@ -106314,6 +106321,14 @@
       "summary": "Allow handoff verification to compress progress polling while preserving the production request deadline and polling defaults.\n\nKeep Muse credential execution injectable per switcher while preserving the native production executor and existing test project membership.",
       "sourceSha": "2434a36c3367592979dbaede7cd12e7ac1a5634d",
       "identity": "term-h-fixture-cadence:dd684299262b8f78029a0390a9726cd3223b89f2bd85e6f56a0a4e26065af31f"
+    },
+    {
+      "id": "viewers-thread-stream",
+      "digest": "40cf4ee29b87fedd6872173c68336083e303f92b742ca937518e6f760a9ef8d5",
+      "type": "minor",
+      "summary": "An open chat or project on another of your Macs now streams live in Terminal and on the web: the reply appears as the Mac writes it instead of at the next 3-second poll, and the project's card in the list keeps in step with what the open thread shows (working, and which questions are waiting on you). It falls back to the old polling on any problem, and against an older Mac or backend nothing changes.",
+      "sourceSha": "09e2987db2fefb0f075771ffc8b7dc0a7b4c9a40",
+      "identity": "viewers-thread-stream:40cf4ee29b87fedd6872173c68336083e303f92b742ca937518e6f760a9ef8d5"
     }
   ],
   "consumedIntentIds": [
