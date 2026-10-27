@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a59361c0a6e6af47735a543c6ab90b42aafae3dc",
+  "cursorSha": "fcda577ff7c6766a2b62ecb9eff207c6878475ee",
   "highWaterVersion": "1.374.4",
   "rows": [
     {
@@ -106347,6 +106347,13 @@
       "intentIds": [
         "remote-start-late-card-opens:d2170f67c58968e83e5066cade1808c993ac328aba15bee898978662775ebd91"
       ]
+    },
+    {
+      "sourceSha": "fcda577ff7c6766a2b62ecb9eff207c6878475ee",
+      "sourcePackageVersion": "1.374.6",
+      "intentIds": [
+        "background-project-refresh:f87cb2b94f5610a8641b1b4b8b4cc7b04e250a43b96ad49929227edb55e8f6c7"
+      ]
     }
   ],
   "intents": [
@@ -107469,6 +107476,14 @@
       "summary": "A project you start on another Mac from the kickoff still opens its thread here when its synced card arrives late. After the 30 second fast wait the kickoff keeps waiting for up to ten minutes and says \"Still waiting for <machine> to sync it\", and its notices no longer promise an automatic open once the wait has ended.",
       "sourceSha": "a59361c0a6e6af47735a543c6ab90b42aafae3dc",
       "identity": "remote-start-late-card-opens:d2170f67c58968e83e5066cade1808c993ac328aba15bee898978662775ebd91"
+    },
+    {
+      "id": "background-project-refresh",
+      "digest": "f87cb2b94f5610a8641b1b4b8b4cc7b04e250a43b96ad49929227edb55e8f6c7",
+      "type": "patch",
+      "summary": "Focusing the Terminal window no longer flashes \"Loading more…\" in the project rail or re-reads it twice, and a failed Processes refresh keeps the last list on screen with a note instead of replacing it with an error.",
+      "sourceSha": "fcda577ff7c6766a2b62ecb9eff207c6878475ee",
+      "identity": "background-project-refresh:f87cb2b94f5610a8641b1b4b8b4cc7b04e250a43b96ad49929227edb55e8f6c7"
     }
   ],
   "consumedIntentIds": [
