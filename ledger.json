@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "29d2a9acc1a8cd2a17db1ffa6cee04f24eac3678",
+  "cursorSha": "c9eec5d5a303c5653d987adc332e0987204b19bb",
   "highWaterVersion": "1.371.1",
   "rows": [
     {
@@ -105425,6 +105425,13 @@
       "sourceSha": "29d2a9acc1a8cd2a17db1ffa6cee04f24eac3678",
       "sourcePackageVersion": "1.371.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c9eec5d5a303c5653d987adc332e0987204b19bb",
+      "sourcePackageVersion": "1.371.0",
+      "intentIds": [
+        "copy-mentions:55691dc607f5bd23f57713843a44dab695581b6461633a8a428d9353b772c002"
+      ]
     }
   ],
   "intents": [
@@ -106339,6 +106346,14 @@
       "summary": "An open chat or project on another of your Macs now streams live in Terminal and on the web: the reply appears as the Mac writes it instead of at the next 3-second poll, and the project's card in the list keeps in step with what the open thread shows (working, and which questions are waiting on you). It falls back to the old polling on any problem, and against an older Mac or backend nothing changes.",
       "sourceSha": "09e2987db2fefb0f075771ffc8b7dc0a7b4c9a40",
       "identity": "viewers-thread-stream:40cf4ee29b87fedd6872173c68336083e303f92b742ca937518e6f760a9ef8d5"
+    },
+    {
+      "id": "copy-mentions",
+      "digest": "55691dc607f5bd23f57713843a44dab695581b6461633a8a428d9353b772c002",
+      "type": "minor",
+      "summary": "Mention chats from a synced copy. Typing `@` in a project's copy on another machine offers this machine's and the home's chats, and the picks travel with the message so the home's Orchestrator can read them; a home that needs a newer Terminal says so in the menu.",
+      "sourceSha": "c9eec5d5a303c5653d987adc332e0987204b19bb",
+      "identity": "copy-mentions:55691dc607f5bd23f57713843a44dab695581b6461633a8a428d9353b772c002"
     }
   ],
   "consumedIntentIds": [
