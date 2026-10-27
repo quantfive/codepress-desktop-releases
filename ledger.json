@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "8660d7d727306d0724b71857494fbe92e386c621",
-  "highWaterVersion": "1.374.21",
+  "highWaterVersion": "1.374.22",
   "rows": [
     {
       "schemaVersion": 1,
@@ -55087,6 +55087,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:8660d7d727306d0724b71857494fbe92e386c621",
+      "kind": "main",
+      "sequence": 1714,
+      "sourceSha": "8660d7d727306d0724b71857494fbe92e386c621",
+      "sourcePackageVersion": "1.374.32",
+      "version": "1.374.22",
+      "publicationDate": "2026-10-27T19:29:12.794Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-app-frame-nav-guard:a0b2aa08ea78eaf4eeb31d2b127cf0d2f3cd99d21c25d4bd5414ffe8bd295576",
+          "automation-opens-in-place:6dc3dda972ed664209b94f3b142d41ed36ad47b45a62cee13c132521152ac432"
+        ],
+        "notesIntentIds": [
+          "terminal-app-frame-nav-guard:a0b2aa08ea78eaf4eeb31d2b127cf0d2f3cd99d21c25d4bd5414ffe8bd295576",
+          "automation-opens-in-place:6dc3dda972ed664209b94f3b142d41ed36ad47b45a62cee13c132521152ac432"
+        ],
+        "throughSourceSha": "8660d7d727306d0724b71857494fbe92e386c621",
+        "previousThroughSourceSha": "97663e5651207511fa39e6f5b3e4b2a2db80b3df",
+        "baselineVersion": "1.374.21",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40569298025",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-28T19:28:44.244Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -109544,7 +109589,9 @@
     "orchestrator-inline-file-links:08030585d01b252cfacdecf389e5faa4abc85bc3f7e3732739ddf5d6a78e7b43",
     "steady-rail-across-tabs:b05db2c8639c422781e4ccd3f65590e6b5d4d61d75a70db945ce2770ff117de6",
     "accounts-computer-sheet-clearance:1a04953423ff6fb7da5f8b41365442b776a3089d1ce4ebe9b3b0ecea5055e04b",
-    "tidy-accounts-phone-layout:455d64a03e5d1cf0bdf719f7ad21f53b43ff6c4c76eb950bd6a4446f7bf26739"
+    "tidy-accounts-phone-layout:455d64a03e5d1cf0bdf719f7ad21f53b43ff6c4c76eb950bd6a4446f7bf26739",
+    "terminal-app-frame-nav-guard:a0b2aa08ea78eaf4eeb31d2b127cf0d2f3cd99d21c25d4bd5414ffe8bd295576",
+    "automation-opens-in-place:6dc3dda972ed664209b94f3b142d41ed36ad47b45a62cee13c132521152ac432"
   ],
-  "consumedThroughSha": "97663e5651207511fa39e6f5b3e4b2a2db80b3df"
+  "consumedThroughSha": "8660d7d727306d0724b71857494fbe92e386c621"
 }
