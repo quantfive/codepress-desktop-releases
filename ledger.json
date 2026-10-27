@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "d8aca4fcd1f42223c04eee01022a017511c1a6fe",
-  "highWaterVersion": "1.371.1",
+  "highWaterVersion": "1.372.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -53590,6 +53590,61 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:d8aca4fcd1f42223c04eee01022a017511c1a6fe",
+      "kind": "main",
+      "sequence": 1688,
+      "sourceSha": "d8aca4fcd1f42223c04eee01022a017511c1a6fe",
+      "sourcePackageVersion": "1.372.1",
+      "version": "1.372.0",
+      "publicationDate": "2026-10-27T00:50:13.427Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "term-h-fixture-cadence:dd684299262b8f78029a0390a9726cd3223b89f2bd85e6f56a0a4e26065af31f",
+          "viewers-thread-stream:40cf4ee29b87fedd6872173c68336083e303f92b742ca937518e6f760a9ef8d5",
+          "copy-mentions:55691dc607f5bd23f57713843a44dab695581b6461633a8a428d9353b772c002",
+          "cli-packaged-runtime-paths:a25b3d05827c695439413b86b15067613a331f5aec770c0509c0b2c7fd11a9b5",
+          "runs-on-menu-machine-state:1206acebfbacef1dc010d3f3db532115fa9e014fd32814affe8ab4a340b0f273",
+          "other-macs-handoff:48d1bfc5e63017147b961e30bcda2b8961d9b862e1c23e41f8615f49ea3ec799",
+          "mac-home-stamps-thread-times:5e1e297e3de280e67efc822abf21e351493c58bfa4ef297d21ee0ce37a65aa94"
+        ],
+        "notesIntentIds": [
+          "term-h-fixture-cadence:dd684299262b8f78029a0390a9726cd3223b89f2bd85e6f56a0a4e26065af31f",
+          "viewers-thread-stream:40cf4ee29b87fedd6872173c68336083e303f92b742ca937518e6f760a9ef8d5",
+          "copy-mentions:55691dc607f5bd23f57713843a44dab695581b6461633a8a428d9353b772c002",
+          "cli-packaged-runtime-paths:a25b3d05827c695439413b86b15067613a331f5aec770c0509c0b2c7fd11a9b5",
+          "runs-on-menu-machine-state:1206acebfbacef1dc010d3f3db532115fa9e014fd32814affe8ab4a340b0f273",
+          "other-macs-handoff:48d1bfc5e63017147b961e30bcda2b8961d9b862e1c23e41f8615f49ea3ec799",
+          "mac-home-stamps-thread-times:5e1e297e3de280e67efc822abf21e351493c58bfa4ef297d21ee0ce37a65aa94"
+        ],
+        "throughSourceSha": "d8aca4fcd1f42223c04eee01022a017511c1a6fe",
+        "previousThroughSourceSha": "a90fa53dbd9ee9edc8bc3623b11d1641c249de01",
+        "baselineVersion": "1.371.1",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40428626906",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-28T00:49:48.719Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -106551,7 +106606,14 @@
     "terminal-full-suite-pilot:23ce6362952af48022742ffd3ebd021bcd80bd5069095e3a1ea647820f48ed93",
     "home-thread-stream:70a98df8443758ea17ab4ea31140b3ee6328b83814e02ab8ee7c0d5a18bd558b",
     "shared-machine-agent-tab-mentions:5932ede5a5fb561938e1e508646ab74d7177810ceda94cd3dd00d0d4e44684de",
-    "machine-load-real-cpu-ram:3779c541d97c9ee63ff638b7a54b491f4ce3d47f289f32e2f922d0bd39e8083d"
+    "machine-load-real-cpu-ram:3779c541d97c9ee63ff638b7a54b491f4ce3d47f289f32e2f922d0bd39e8083d",
+    "term-h-fixture-cadence:dd684299262b8f78029a0390a9726cd3223b89f2bd85e6f56a0a4e26065af31f",
+    "viewers-thread-stream:40cf4ee29b87fedd6872173c68336083e303f92b742ca937518e6f760a9ef8d5",
+    "copy-mentions:55691dc607f5bd23f57713843a44dab695581b6461633a8a428d9353b772c002",
+    "cli-packaged-runtime-paths:a25b3d05827c695439413b86b15067613a331f5aec770c0509c0b2c7fd11a9b5",
+    "runs-on-menu-machine-state:1206acebfbacef1dc010d3f3db532115fa9e014fd32814affe8ab4a340b0f273",
+    "other-macs-handoff:48d1bfc5e63017147b961e30bcda2b8961d9b862e1c23e41f8615f49ea3ec799",
+    "mac-home-stamps-thread-times:5e1e297e3de280e67efc822abf21e351493c58bfa4ef297d21ee0ce37a65aa94"
   ],
-  "consumedThroughSha": "a90fa53dbd9ee9edc8bc3623b11d1641c249de01"
+  "consumedThroughSha": "d8aca4fcd1f42223c04eee01022a017511c1a6fe"
 }
