@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "65a4bae9271151e4d2930282580df068127050e5",
+  "cursorSha": "adce465ad3332e205678c4b47c2b25631be3a8df",
   "highWaterVersion": "1.374.13",
   "rows": [
     {
@@ -107243,6 +107243,13 @@
       "sourceSha": "65a4bae9271151e4d2930282580df068127050e5",
       "sourcePackageVersion": "1.374.23",
       "intentIds": []
+    },
+    {
+      "sourceSha": "adce465ad3332e205678c4b47c2b25631be3a8df",
+      "sourcePackageVersion": "1.374.23",
+      "intentIds": [
+        "orchestrator-composer-limit-strip:e391d6f3021db337fd0b57450ba5fcf8a13c1a74414c0bd3a6131104f5a8e1be"
+      ]
     }
   ],
   "intents": [
@@ -108525,6 +108532,14 @@
       "summary": "Check repository access before handing off a project, reuse the receiver's own checkout, and report checkout failures without importing an empty folder.\n\nKeep checked repository identities stable through source stop and refuse occupied managed checkout paths with a different GitHub origin.\n\nRefuse captured or retried payloads that introduce repositories outside the receiver's checked manifest.\n\nApply the same check before receiver checkout preparation for older senders and parked restores.",
       "sourceSha": "6fa669ae70554460becdb2c82078d6c4e88f5c25",
       "identity": "receiver-repository-checkouts:180bcd1d85e3a33940cd3efd1381158fc4776b3ee8ef036448b44405e8733586"
+    },
+    {
+      "id": "orchestrator-composer-limit-strip",
+      "digest": "e391d6f3021db337fd0b57450ba5fcf8a13c1a74414c0bd3a6131104f5a8e1be",
+      "type": "patch",
+      "summary": "Continue a limited, rule-bound Orchestrator on another healthy account from the strip above its composer, until the bound account resets.",
+      "sourceSha": "adce465ad3332e205678c4b47c2b25631be3a8df",
+      "identity": "orchestrator-composer-limit-strip:e391d6f3021db337fd0b57450ba5fcf8a13c1a74414c0bd3a6131104f5a8e1be"
     }
   ],
   "consumedIntentIds": [
