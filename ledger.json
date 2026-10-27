@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "138aa1ae3c610a1ebd91aa6d2199cc3111c0ec23",
+  "cursorSha": "9476cdd77578e2c0ac61910c0e51cb32f455d2f5",
   "highWaterVersion": "1.374.9",
   "rows": [
     {
@@ -106847,6 +106847,18 @@
       "sourceSha": "138aa1ae3c610a1ebd91aa6d2199cc3111c0ec23",
       "sourcePackageVersion": "1.374.15",
       "intentIds": []
+    },
+    {
+      "sourceSha": "dc242667d080af7b69135f4b802dea8e90e0fca8",
+      "sourcePackageVersion": "1.374.15",
+      "intentIds": [
+        "preserve-handoff-device-reasons:bd291a8fd6a6b8be64a93cc1fac2617d18af9428ed76783529ff03fd19d29a7e"
+      ]
+    },
+    {
+      "sourceSha": "9476cdd77578e2c0ac61910c0e51cb32f455d2f5",
+      "sourcePackageVersion": "1.374.15",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -108065,6 +108077,14 @@
       "summary": "Show one New Cloud VM choice for project hand-off, with a repository picker when needed, and list recent owned computers with reasons when unavailable.",
       "sourceSha": "ea6f8b261a5b107e53c428e16c4e84033eed426d",
       "identity": "terminal-new-vm-destinations:852e7b2c683595ec98e123de868cd569533a57593aced09eb09dfa37f3df69e2"
+    },
+    {
+      "id": "preserve-handoff-device-reasons",
+      "digest": "bd291a8fd6a6b8be64a93cc1fac2617d18af9428ed76783529ff03fd19d29a7e",
+      "type": "patch",
+      "summary": "Keep current and asleep Macs correctly named in handoff pickers and show the update reason for unsupported online Macs.",
+      "sourceSha": "dc242667d080af7b69135f4b802dea8e90e0fca8",
+      "identity": "preserve-handoff-device-reasons:bd291a8fd6a6b8be64a93cc1fac2617d18af9428ed76783529ff03fd19d29a7e"
     }
   ],
   "consumedIntentIds": [
