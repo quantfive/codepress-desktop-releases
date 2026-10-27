@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "10cebc3a9c6f339a2f274b9d6e45a04014a8d9a4",
-  "highWaterVersion": "1.374.19",
+  "highWaterVersion": "1.374.20",
   "rows": [
     {
       "schemaVersion": 1,
@@ -54985,6 +54985,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:10cebc3a9c6f339a2f274b9d6e45a04014a8d9a4",
+      "kind": "main",
+      "sequence": 1712,
+      "sourceSha": "10cebc3a9c6f339a2f274b9d6e45a04014a8d9a4",
+      "sourcePackageVersion": "1.374.29",
+      "version": "1.374.20",
+      "publicationDate": "2026-10-27T18:26:32.239Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "accounts-computer-sheet-clearance:1a04953423ff6fb7da5f8b41365442b776a3089d1ce4ebe9b3b0ecea5055e04b"
+        ],
+        "notesIntentIds": [
+          "accounts-computer-sheet-clearance:1a04953423ff6fb7da5f8b41365442b776a3089d1ce4ebe9b3b0ecea5055e04b"
+        ],
+        "throughSourceSha": "10cebc3a9c6f339a2f274b9d6e45a04014a8d9a4",
+        "previousThroughSourceSha": "aeec6c544b7b7678ff901510e910846e04fefc84",
+        "baselineVersion": "1.374.19",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40559755969",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-28T18:26:03.905Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -109335,7 +109378,8 @@
     "remote-auth-observer-diagnostic:0750bd70ab3536e8f11f63e96491dc38ea8ffd98f3264335b7b0d36d57e679d7",
     "thread-mcp-sign-in:fccd96415f058e65b53ac849af3c3d0e418091da3ceef5dc0ed3b86b96f19488",
     "orchestrator-inline-file-links:08030585d01b252cfacdecf389e5faa4abc85bc3f7e3732739ddf5d6a78e7b43",
-    "steady-rail-across-tabs:b05db2c8639c422781e4ccd3f65590e6b5d4d61d75a70db945ce2770ff117de6"
+    "steady-rail-across-tabs:b05db2c8639c422781e4ccd3f65590e6b5d4d61d75a70db945ce2770ff117de6",
+    "accounts-computer-sheet-clearance:1a04953423ff6fb7da5f8b41365442b776a3089d1ce4ebe9b3b0ecea5055e04b"
   ],
-  "consumedThroughSha": "aeec6c544b7b7678ff901510e910846e04fefc84"
+  "consumedThroughSha": "10cebc3a9c6f339a2f274b9d6e45a04014a8d9a4"
 }
