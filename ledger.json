@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c700a4a6d21b2811e0cb47e9b7d5851cc70a3556",
+  "cursorSha": "2618c0a8c27f0e13d7ad0c5b0e939b6f232d2709",
   "highWaterVersion": "1.374.22",
   "rows": [
     {
@@ -108074,6 +108074,13 @@
       "sourceSha": "c700a4a6d21b2811e0cb47e9b7d5851cc70a3556",
       "sourcePackageVersion": "1.374.33",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2618c0a8c27f0e13d7ad0c5b0e939b6f232d2709",
+      "sourcePackageVersion": "1.374.33",
+      "intentIds": [
+        "terminal-feed-push-throttle:f96e8a7a1c58dd19e6ef242033c16d3ca240a291dc8693dc8019edf176179cb2"
+      ]
     }
   ],
   "intents": [
@@ -109436,6 +109443,14 @@
       "summary": "Orchestrator rail: clicking an automation in the Automations tab now shows it beside the rail instead of switching the window to Web mode. Open full page still goes to the web page.",
       "sourceSha": "2353a2d98cfe7e4ad2fa1918730b7d16eeb32f92",
       "identity": "automation-opens-in-place:6dc3dda972ed664209b94f3b142d41ed36ad47b45a62cee13c132521152ac432"
+    },
+    {
+      "id": "terminal-feed-push-throttle",
+      "digest": "f96e8a7a1c58dd19e6ef242033c16d3ca240a291dc8693dc8019edf176179cb2",
+      "type": "patch",
+      "summary": "Throttle the Orchestrator's push-driven cloud feed reads to one per 2 seconds, and let a pushed narrowed read share an unfiltered cloud read already in flight instead of starting another.",
+      "sourceSha": "2618c0a8c27f0e13d7ad0c5b0e939b6f232d2709",
+      "identity": "terminal-feed-push-throttle:f96e8a7a1c58dd19e6ef242033c16d3ca240a291dc8693dc8019edf176179cb2"
     }
   ],
   "consumedIntentIds": [
