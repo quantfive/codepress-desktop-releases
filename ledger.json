@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f4d93e8c3f4e4dbc1794452a3ec764aec2ab1ae9",
+  "cursorSha": "e8c4e802cd7e630f8ae2716bc5b72acb9b2d1366",
   "highWaterVersion": "1.374.16",
   "rows": [
     {
@@ -107486,6 +107486,13 @@
       "sourceSha": "f4d93e8c3f4e4dbc1794452a3ec764aec2ab1ae9",
       "sourcePackageVersion": "1.374.26",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e8c4e802cd7e630f8ae2716bc5b72acb9b2d1366",
+      "sourcePackageVersion": "1.374.26",
+      "intentIds": [
+        "thread-mcp-sign-in:fccd96415f058e65b53ac849af3c3d0e418091da3ceef5dc0ed3b86b96f19488"
+      ]
     }
   ],
   "intents": [
@@ -108792,6 +108799,14 @@
       "summary": "Add an opt-in redacted authorization observer for remote-control daemon diagnostics while preserving normal authorization and deadlines.",
       "sourceSha": "93ffed4803cfa103ca7816cbe715e1b67683115c",
       "identity": "remote-auth-observer-diagnostic:0750bd70ab3536e8f11f63e96491dc38ea8ffd98f3264335b7b0d36d57e679d7"
+    },
+    {
+      "id": "thread-mcp-sign-in",
+      "digest": "fccd96415f058e65b53ac849af3c3d0e418091da3ceef5dc0ed3b86b96f19488",
+      "type": "patch",
+      "summary": "Show MCP sign-in cards in Orchestrator projects and chats and notify the Orchestrator when sign-in completes or fails.",
+      "sourceSha": "e8c4e802cd7e630f8ae2716bc5b72acb9b2d1366",
+      "identity": "thread-mcp-sign-in:fccd96415f058e65b53ac849af3c3d0e418091da3ceef5dc0ed3b86b96f19488"
     }
   ],
   "consumedIntentIds": [
