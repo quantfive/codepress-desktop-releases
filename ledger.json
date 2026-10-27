@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "228278b64bfb9786143a6291867770e4e71882bc",
+  "cursorSha": "7c6a222580bf186e3c92ea76224cf3d88684be00",
   "highWaterVersion": "1.374.1",
   "rows": [
     {
@@ -106065,6 +106065,13 @@
       "sourceSha": "228278b64bfb9786143a6291867770e4e71882bc",
       "sourcePackageVersion": "1.374.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7c6a222580bf186e3c92ea76224cf3d88684be00",
+      "sourcePackageVersion": "1.374.2",
+      "intentIds": [
+        "terminal-feed-keeps-landed-pages:6fcd28f1459a2cba5658021325e7296503470462d32a935e7e113b512f023bb7"
+      ]
     }
   ],
   "intents": [
@@ -107131,6 +107138,14 @@
       "summary": "Detect agents launched through this tab's provider admission wrapper so Orchestrator messages, approvals, and agent paste submission work for running workers, including after a daemon update.",
       "sourceSha": "7d3ffbca48c9beee68dedb324bf1415ded8e2af7",
       "identity": "wrapper-agent-detection:c3b6eab5f9c4af815879d5968b67183f53b85fc409721ce655d6c007d440ccf0"
+    },
+    {
+      "id": "terminal-feed-keeps-landed-pages",
+      "digest": "6fcd28f1459a2cba5658021325e7296503470462d32a935e7e113b512f023bb7",
+      "type": "patch",
+      "summary": "The Landed and Archived sections of the One feed rail keep their rows through every background refresh instead of flashing \"Loading…\". Pages you opened are read again only when the section's count changes, and the old rows stay on screen until the new ones arrive.",
+      "sourceSha": "7c6a222580bf186e3c92ea76224cf3d88684be00",
+      "identity": "terminal-feed-keeps-landed-pages:6fcd28f1459a2cba5658021325e7296503470462d32a935e7e113b512f023bb7"
     }
   ],
   "consumedIntentIds": [
