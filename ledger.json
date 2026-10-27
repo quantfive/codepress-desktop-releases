@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4b5002f72efc2fcd42e51ec9d0b913a7bb793e42",
+  "cursorSha": "0655f810bdf799b8cf77623b67b4945bafd6c2ca",
   "highWaterVersion": "1.373.2",
   "rows": [
     {
@@ -105881,6 +105881,13 @@
       "sourceSha": "4b5002f72efc2fcd42e51ec9d0b913a7bb793e42",
       "sourcePackageVersion": "1.373.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0655f810bdf799b8cf77623b67b4945bafd6c2ca",
+      "sourcePackageVersion": "1.373.7",
+      "intentIds": [
+        "fast-project-handoff-options:d8aee82a0990c67c35df02e59764792c162c1b165db087848eea4e72854517ad"
+      ]
     }
   ],
   "intents": [
@@ -106915,6 +106922,14 @@
       "summary": "Restart a failed Orchestrator on its home Mac when the person's message arrives, including through project sync.",
       "sourceSha": "99a0e1701cd5827a612e0465c1175d8a733944fb",
       "identity": "failed-orchestrator-person-wake:fe0c2b4ffd162f658bd5e418a4f39d63dd9048f6064c9811985b468c47e9c157"
+    },
+    {
+      "id": "fast-project-handoff-options",
+      "digest": "d8aee82a0990c67c35df02e59764792c162c1b165db087848eea4e72854517ad",
+      "type": "patch",
+      "summary": "Load handoff destinations without downloading the project's cloud copy, narrow Cloud VM rows to the project's connected repositories, and show progress while destinations load.",
+      "sourceSha": "0655f810bdf799b8cf77623b67b4945bafd6c2ca",
+      "identity": "fast-project-handoff-options:d8aee82a0990c67c35df02e59764792c162c1b165db087848eea4e72854517ad"
     }
   ],
   "consumedIntentIds": [
