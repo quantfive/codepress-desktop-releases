@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "59b80c194338066a372df5890388aaf13fd1c16d",
+  "cursorSha": "207538ad90a5a543b97a8ef7891d5d28509722b9",
   "highWaterVersion": "1.373.2",
   "rows": [
     {
@@ -105901,6 +105901,13 @@
       "sourceSha": "59b80c194338066a372df5890388aaf13fd1c16d",
       "sourcePackageVersion": "1.373.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "207538ad90a5a543b97a8ef7891d5d28509722b9",
+      "sourcePackageVersion": "1.373.8",
+      "intentIds": [
+        "repository-rules-settings-layers:6636cb6ee65d1a5b5cfbdf78f2b7a575c85d94ab714bf7688426fc9f36643d0e"
+      ]
     }
   ],
   "intents": [
@@ -106943,6 +106950,14 @@
       "summary": "Load handoff destinations without downloading the project's cloud copy, narrow Cloud VM rows to the project's connected repositories, and show progress while destinations load.",
       "sourceSha": "0655f810bdf799b8cf77623b67b4945bafd6c2ca",
       "identity": "fast-project-handoff-options:d8aee82a0990c67c35df02e59764792c162c1b165db087848eea4e72854517ad"
+    },
+    {
+      "id": "repository-rules-settings-layers",
+      "digest": "6636cb6ee65d1a5b5cfbdf78f2b7a575c85d94ab714bf7688426fc9f36643d0e",
+      "type": "minor",
+      "summary": "Settings → Agents → Repositories shows your organization's default rules and your own. Owners and admins edit the organization defaults; everyone else sees them read-only. Your rules sync to every computer, with account pins kept per computer, and a rule that differs from the organization default is marked. Project settings says when a rule is the organization's default.",
+      "sourceSha": "207538ad90a5a543b97a8ef7891d5d28509722b9",
+      "identity": "repository-rules-settings-layers:6636cb6ee65d1a5b5cfbdf78f2b7a575c85d94ab714bf7688426fc9f36643d0e"
     }
   ],
   "consumedIntentIds": [
