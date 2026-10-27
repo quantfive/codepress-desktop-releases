@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "68d2faa81adcd518d87908208d264b99f2db66d8",
-  "highWaterVersion": "1.374.28",
+  "highWaterVersion": "1.374.29",
   "rows": [
     {
       "schemaVersion": 1,
@@ -55508,6 +55508,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:68d2faa81adcd518d87908208d264b99f2db66d8",
+      "kind": "main",
+      "sequence": 1721,
+      "sourceSha": "68d2faa81adcd518d87908208d264b99f2db66d8",
+      "sourcePackageVersion": "1.374.45",
+      "version": "1.374.29",
+      "publicationDate": "2026-10-27T23:42:45.994Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "quiet-rail-search:1c87d01f7eff1e58844b611cd99516b3558ce786e2e2c7a99f63aff00e331145",
+          "kata-admitted-vm-size:930f5c1d49a03e608b0b07b6eb7b635d286d479e09f434babe384ab5496dab19"
+        ],
+        "notesIntentIds": [
+          "quiet-rail-search:1c87d01f7eff1e58844b611cd99516b3558ce786e2e2c7a99f63aff00e331145",
+          "kata-admitted-vm-size:930f5c1d49a03e608b0b07b6eb7b635d286d479e09f434babe384ab5496dab19"
+        ],
+        "throughSourceSha": "68d2faa81adcd518d87908208d264b99f2db66d8",
+        "previousThroughSourceSha": "60ec65b21a8c7a6aa0b2c9a84ae22d0fe8986b29",
+        "baselineVersion": "1.374.28",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40603816489",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-28T23:42:21.613Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -110424,7 +110469,9 @@
     "clean-canonical-collector:0e83f816ebeabe34d0d8f89e46fec18bb06817c3c3123353d3a72936a8eb1ff5",
     "tame-browse-hosts:46ad358493d79cd21782dcc13e9b3ca2194767b7ed7d3205d09c339518e9224c",
     "tidy-canonical-recovery:8d3677d572f9ce4a0c890cc3c02b23841839ab45a7054305eaf65445ef28d110",
-    "quiet-cleaning-marker:4364719ecae9ff455961a5c9a33c8ca1c17ad41e4ca883c9d7859c2904e58f55"
+    "quiet-cleaning-marker:4364719ecae9ff455961a5c9a33c8ca1c17ad41e4ca883c9d7859c2904e58f55",
+    "quiet-rail-search:1c87d01f7eff1e58844b611cd99516b3558ce786e2e2c7a99f63aff00e331145",
+    "kata-admitted-vm-size:930f5c1d49a03e608b0b07b6eb7b635d286d479e09f434babe384ab5496dab19"
   ],
-  "consumedThroughSha": "60ec65b21a8c7a6aa0b2c9a84ae22d0fe8986b29"
+  "consumedThroughSha": "68d2faa81adcd518d87908208d264b99f2db66d8"
 }
