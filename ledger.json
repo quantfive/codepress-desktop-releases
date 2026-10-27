@@ -55137,10 +55137,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 1,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 2,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40574332791",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-28T20:02:38.278Z",
         "dispatch": null,
         "failures": [
           {
