@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "8993b0127363bfdf70fa8e18aeef1c59e39810e0",
+  "cursorSha": "b7c8eb1d65d4e731b9086304f6fd5d9290b80d23",
   "highWaterVersion": "1.374.11",
   "rows": [
     {
@@ -107053,6 +107053,13 @@
       "sourceSha": "8993b0127363bfdf70fa8e18aeef1c59e39810e0",
       "sourcePackageVersion": "1.374.20",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b7c8eb1d65d4e731b9086304f6fd5d9290b80d23",
+      "sourcePackageVersion": "1.374.20",
+      "intentIds": [
+        "continue-bound-agent-on-another-account:2ecb5a7d9bb51361a9405370cccbc75e531fad1f5743cc1bfec728f578939b5a"
+      ]
     }
   ],
   "intents": [
@@ -108311,6 +108318,14 @@
       "summary": "Enforce synced Personal and Team repository restrictions across Terminal selection and failover, and expose a Repositories editor on account cards.",
       "sourceSha": "68fe9a92db1037b09312c7f2f95caa0fc46dc8fc",
       "identity": "repository-restricted-terminal-accounts:4007d6696d343880533d33c01c540f568aa87f7044fe703a2fca79f4f225b315"
+    },
+    {
+      "id": "continue-bound-agent-on-another-account",
+      "digest": "2ecb5a7d9bb51361a9405370cccbc75e531fad1f5743cc1bfec728f578939b5a",
+      "type": "patch",
+      "summary": "Let a person continue a rule-bound Claude or Codex agent on a healthy account after its subscription limit, with a composer limit strip and a temporary account bypass.",
+      "sourceSha": "b7c8eb1d65d4e731b9086304f6fd5d9290b80d23",
+      "identity": "continue-bound-agent-on-another-account:2ecb5a7d9bb51361a9405370cccbc75e531fad1f5743cc1bfec728f578939b5a"
     }
   ],
   "consumedIntentIds": [
