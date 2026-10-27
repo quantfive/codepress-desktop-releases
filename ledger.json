@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "cd5dac026d3bdb5653a4c9afc7b0a9f4ee04442c",
+  "cursorSha": "99a0e1701cd5827a612e0465c1175d8a733944fb",
   "highWaterVersion": "1.373.2",
   "rows": [
     {
@@ -105854,6 +105854,13 @@
       "sourceSha": "cd5dac026d3bdb5653a4c9afc7b0a9f4ee04442c",
       "sourcePackageVersion": "1.373.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "99a0e1701cd5827a612e0465c1175d8a733944fb",
+      "sourcePackageVersion": "1.373.6",
+      "intentIds": [
+        "failed-orchestrator-person-wake:fe0c2b4ffd162f658bd5e418a4f39d63dd9048f6064c9811985b468c47e9c157"
+      ]
     }
   ],
   "intents": [
@@ -106880,6 +106887,14 @@
       "summary": "Keep this computer's verified tunnel nickname visible while the machine list loads at startup.",
       "sourceSha": "274bcd186aa1ca5a90d0d09c9e0c3a12a8a1df4b",
       "identity": "verified-local-nickname:0dfab3618a6d1efa51ef24f66de0107547e1889ab90680bd9ab692fc8e54ea4a"
+    },
+    {
+      "id": "failed-orchestrator-person-wake",
+      "digest": "fe0c2b4ffd162f658bd5e418a4f39d63dd9048f6064c9811985b468c47e9c157",
+      "type": "patch",
+      "summary": "Restart a failed Orchestrator on its home Mac when the person's message arrives, including through project sync.",
+      "sourceSha": "99a0e1701cd5827a612e0465c1175d8a733944fb",
+      "identity": "failed-orchestrator-person-wake:fe0c2b4ffd162f658bd5e418a4f39d63dd9048f6064c9811985b468c47e9c157"
     }
   ],
   "consumedIntentIds": [
