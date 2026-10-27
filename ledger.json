@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e36f40c49fe6562f6620a1b9d3370629cd2f7586",
+  "cursorSha": "59919aa489f96299f81ba2e8dc520d83bc5e631e",
   "highWaterVersion": "1.374.24",
   "rows": [
     {
@@ -108278,6 +108278,18 @@
       "sourceSha": "e36f40c49fe6562f6620a1b9d3370629cd2f7586",
       "sourcePackageVersion": "1.374.36",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f55e224b39ecf46ac400e5b7479df15d25973df2",
+      "sourcePackageVersion": "1.374.36",
+      "intentIds": [
+        "rule-bound-pm-launch-repository:a5a32b03b8d1f20ba132e3dc4df40173701ea0817531f58433ae0f35259e8ba0"
+      ]
+    },
+    {
+      "sourceSha": "59919aa489f96299f81ba2e8dc520d83bc5e631e",
+      "sourcePackageVersion": "1.374.36",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -109664,6 +109676,14 @@
       "summary": "Explain why CodePress organization coverage must be changed in that computer's own Terminal, disable the control in connected remote windows, and keep refused saves visible in Settings.",
       "sourceSha": "14cec2f7d5908459b3a12c80812025bc68e8163d",
       "identity": "remote-owner-codepress-organizations:474048bf487d5874b21ce065f3083c263dd3ad7118f538c89898edd3ed6d7244"
+    },
+    {
+      "id": "rule-bound-pm-launch-repository",
+      "digest": "a5a32b03b8d1f20ba132e3dc4df40173701ea0817531f58433ae0f35259e8ba0",
+      "type": "patch",
+      "summary": "Record a rule-bound Orchestrator's launch repository before pinning a restricted subscription account, and explain refusals using the project setting or repository rule and the account's allowed repositories.",
+      "sourceSha": "f55e224b39ecf46ac400e5b7479df15d25973df2",
+      "identity": "rule-bound-pm-launch-repository:a5a32b03b8d1f20ba132e3dc4df40173701ea0817531f58433ae0f35259e8ba0"
     }
   ],
   "consumedIntentIds": [
