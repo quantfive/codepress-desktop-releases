@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "95627911f42b412376946f342425d4a0001c36e5",
+  "cursorSha": "a4ce0a7dedc8999e7648b4b532d05536d224e87d",
   "highWaterVersion": "1.374.2",
   "rows": [
     {
@@ -106182,6 +106182,13 @@
       "sourceSha": "95627911f42b412376946f342425d4a0001c36e5",
       "sourcePackageVersion": "1.374.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a4ce0a7dedc8999e7648b4b532d05536d224e87d",
+      "sourcePackageVersion": "1.374.3",
+      "intentIds": [
+        "offer-mcp-coverage-labels:6c496e4e65f4e6ef305ac1ee1e2374261a24b93e578e472133b361adc557e604"
+      ]
     }
   ],
   "intents": [
@@ -107256,6 +107263,14 @@
       "summary": "The Landed and Archived sections of the One feed rail keep their rows through every background refresh instead of flashing \"Loading…\". Pages you opened are read again only when the section's count changes, and the old rows stay on screen until the new ones arrive.",
       "sourceSha": "7c6a222580bf186e3c92ea76224cf3d88684be00",
       "identity": "terminal-feed-keeps-landed-pages:6fcd28f1459a2cba5658021325e7296503470462d32a935e7e113b512f023bb7"
+    },
+    {
+      "id": "offer-mcp-coverage-labels",
+      "digest": "6c496e4e65f4e6ef305ac1ee1e2374261a24b93e578e472133b361adc557e604",
+      "type": "patch",
+      "summary": "Show effective MCP access for authorized unclaimed offers in All organizations mode, keep project coverage labels tied to the stored flag, and refresh labels when the coverage mode changes, with compatibility for older backends.",
+      "sourceSha": "a4ce0a7dedc8999e7648b4b532d05536d224e87d",
+      "identity": "offer-mcp-coverage-labels:6c496e4e65f4e6ef305ac1ee1e2374261a24b93e578e472133b361adc557e604"
     }
   ],
   "consumedIntentIds": [
