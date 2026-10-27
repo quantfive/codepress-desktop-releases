@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4c5437f31b59c1b02b3eb1a2b9996961c6606ac6",
+  "cursorSha": "fdbc319f0401e6868c841f267e7481847212d863",
   "highWaterVersion": "1.374.5",
   "rows": [
     {
@@ -106474,6 +106474,20 @@
       "sourceSha": "4c5437f31b59c1b02b3eb1a2b9996961c6606ac6",
       "sourcePackageVersion": "1.374.10",
       "intentIds": []
+    },
+    {
+      "sourceSha": "52b57531154d715a378138b1f2bd4acc02b8ebfb",
+      "sourcePackageVersion": "1.374.10",
+      "intentIds": [
+        "terminal-launch-draws-once:4c3b17d55e7d15b819dc6900a7b52e699ef64ac1f33c4c4c5a95486c9d865a3f"
+      ]
+    },
+    {
+      "sourceSha": "fdbc319f0401e6868c841f267e7481847212d863",
+      "sourcePackageVersion": "1.374.10",
+      "intentIds": [
+        "quiet-pr-fixture-discovery:1b2c13aa57124433cdd89918e8c2f7a25aa98e603f1b768cc6898d1504510ae3"
+      ]
     }
   ],
   "intents": [
@@ -107628,6 +107642,22 @@
       "summary": "Keep a new Orchestrator project's opening brief above the merge-authority and prompt-approval notices, and move briefs already written below them back to the top.",
       "sourceSha": "5094ba18eadbab1c0cc0fad81d7a8fdec4c5ffa6",
       "identity": "kickoff-brief-stays-first:d39d33518ef7a741ea613f8f71e4fdcdaaf9465b676de7e453f420699964e3f1"
+    },
+    {
+      "id": "terminal-launch-draws-once",
+      "digest": "4c3b17d55e7d15b819dc6900a7b52e699ef64ac1f33c4c4c5a95486c9d865a3f",
+      "type": "patch",
+      "summary": "A launch with the one feed on no longer flashes today's rail and the Cloud label before the feed, and an open chat is no longer replaced by the empty New chat composer when the same account signs in again. The cached feed answer survives the account's auth generation moving, the open chat, searches and last painted thread follow the user and organization instead of the sign-in lineage, the menu bar is told the frontend is ready once, and the daemon log records when the generation moves.",
+      "sourceSha": "52b57531154d715a378138b1f2bd4acc02b8ebfb",
+      "identity": "terminal-launch-draws-once:4c3b17d55e7d15b819dc6900a7b52e699ef64ac1f33c4c4c5a95486c9d865a3f"
+    },
+    {
+      "id": "quiet-pr-fixture-discovery",
+      "digest": "1b2c13aa57124433cdd89918e8c2f7a25aa98e603f1b768cc6898d1504510ae3",
+      "type": "patch",
+      "summary": "Clear checkout-discovery state when resetting shared PR-status E2E fixtures.",
+      "sourceSha": "fdbc319f0401e6868c841f267e7481847212d863",
+      "identity": "quiet-pr-fixture-discovery:1b2c13aa57124433cdd89918e8c2f7a25aa98e603f1b768cc6898d1504510ae3"
     }
   ],
   "consumedIntentIds": [
