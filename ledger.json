@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "efc9cec43ff40b7f8b5ac5f9c35b4a210077bb68",
+  "cursorSha": "8660d7d727306d0724b71857494fbe92e386c621",
   "highWaterVersion": "1.374.21",
   "rows": [
     {
@@ -108000,6 +108000,18 @@
       "sourceSha": "efc9cec43ff40b7f8b5ac5f9c35b4a210077bb68",
       "sourcePackageVersion": "1.374.32",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2353a2d98cfe7e4ad2fa1918730b7d16eeb32f92",
+      "sourcePackageVersion": "1.374.32",
+      "intentIds": [
+        "automation-opens-in-place:6dc3dda972ed664209b94f3b142d41ed36ad47b45a62cee13c132521152ac432"
+      ]
+    },
+    {
+      "sourceSha": "8660d7d727306d0724b71857494fbe92e386c621",
+      "sourcePackageVersion": "1.374.32",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -109354,6 +109366,14 @@
       "summary": "Cloud mode: opening the Apps page or an App no longer opens a system-browser tab for each App iframe or for frames inside a migrated Framer site. Links you click to other sites still open in your browser, and the CodePress sign-in is now written only into CodePress's own web pages.",
       "sourceSha": "2e75076131d83dcb9ed9362689efe187514c9cd2",
       "identity": "terminal-app-frame-nav-guard:a0b2aa08ea78eaf4eeb31d2b127cf0d2f3cd99d21c25d4bd5414ffe8bd295576"
+    },
+    {
+      "id": "automation-opens-in-place",
+      "digest": "6dc3dda972ed664209b94f3b142d41ed36ad47b45a62cee13c132521152ac432",
+      "type": "patch",
+      "summary": "Orchestrator rail: clicking an automation in the Automations tab now shows it beside the rail instead of switching the window to Web mode. Open full page still goes to the web page.",
+      "sourceSha": "2353a2d98cfe7e4ad2fa1918730b7d16eeb32f92",
+      "identity": "automation-opens-in-place:6dc3dda972ed664209b94f3b142d41ed36ad47b45a62cee13c132521152ac432"
     }
   ],
   "consumedIntentIds": [
