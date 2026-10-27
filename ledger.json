@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6f206c0fd661b03100636c34875cac7de79beed6",
+  "cursorSha": "5b3a59560861082ff353940ee15c09fbc93b482d",
   "highWaterVersion": "1.374.25",
   "rows": [
     {
@@ -108426,6 +108426,13 @@
       "sourceSha": "6f206c0fd661b03100636c34875cac7de79beed6",
       "sourcePackageVersion": "1.374.39",
       "intentIds": []
+    },
+    {
+      "sourceSha": "5b3a59560861082ff353940ee15c09fbc93b482d",
+      "sourcePackageVersion": "1.374.39",
+      "intentIds": [
+        "team-relay-repository:6b35612f158c4a5add827109fca5ece06db805157d8a2daa3da83c9cb7145f84"
+      ]
     }
   ],
   "intents": [
@@ -109844,6 +109851,14 @@
       "summary": "Keep failed attachments from being omitted by cloud agent chat sends, while preserving the Orchestrator composer's text-send behavior.",
       "sourceSha": "69eb992f6ecbfc14b427f313968d4214ffedd3d8",
       "identity": "calm-cloud-attachments:569ff800de160818fd1b1401b744ca1ce7277d85d4fede1f6bd2d984cadec150"
+    },
+    {
+      "id": "team-relay-repository",
+      "digest": "6b35612f158c4a5add827109fca5ece06db805157d8a2daa3da83c9cb7145f84",
+      "type": "patch",
+      "summary": "Carry a Team-pinned tab's repository through the relay so restricted Team accounts work in their allowed repositories, with tokens cached separately per repository.",
+      "sourceSha": "5b3a59560861082ff353940ee15c09fbc93b482d",
+      "identity": "team-relay-repository:6b35612f158c4a5add827109fca5ece06db805157d8a2daa3da83c9cb7145f84"
     }
   ],
   "consumedIntentIds": [
