@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4cd8277605f3a5879a66c28bec2f37c680c6c57f",
+  "cursorSha": "ea6f8b261a5b107e53c428e16c4e84033eed426d",
   "highWaterVersion": "1.374.8",
   "rows": [
     {
@@ -106769,6 +106769,13 @@
       "sourceSha": "4cd8277605f3a5879a66c28bec2f37c680c6c57f",
       "sourcePackageVersion": "1.374.14",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ea6f8b261a5b107e53c428e16c4e84033eed426d",
+      "sourcePackageVersion": "1.374.14",
+      "intentIds": [
+        "terminal-new-vm-destinations:852e7b2c683595ec98e123de868cd569533a57593aced09eb09dfa37f3df69e2"
+      ]
     }
   ],
   "intents": [
@@ -107979,6 +107986,14 @@
       "summary": "A synced project's cloud copy now carries the same health and reason the home's rail and Home show, and it is re-sent when health changes with no other event (the quiet window passing, a limit wait ending), so other devices stop reading a stopped Orchestrator as a question waiting on you.",
       "sourceSha": "6804e6a6a1161699fcefae23d1264101822c31bc",
       "identity": "home-health-upload:e909fcd7113eedd8dcb264c8e820e05e8d2b61276b609acf6b5010751b415570"
+    },
+    {
+      "id": "terminal-new-vm-destinations",
+      "digest": "852e7b2c683595ec98e123de868cd569533a57593aced09eb09dfa37f3df69e2",
+      "type": "patch",
+      "summary": "Show one New Cloud VM choice for project hand-off, with a repository picker when needed, and list recent owned computers with reasons when unavailable.",
+      "sourceSha": "ea6f8b261a5b107e53c428e16c4e84033eed426d",
+      "identity": "terminal-new-vm-destinations:852e7b2c683595ec98e123de868cd569533a57593aced09eb09dfa37f3df69e2"
     }
   ],
   "consumedIntentIds": [
