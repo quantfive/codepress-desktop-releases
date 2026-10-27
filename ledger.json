@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ce0f744635e89bffeecad14158b69e45688b0a16",
+  "cursorSha": "10cebc3a9c6f339a2f274b9d6e45a04014a8d9a4",
   "highWaterVersion": "1.374.19",
   "rows": [
     {
@@ -107822,6 +107822,13 @@
       "sourceSha": "ce0f744635e89bffeecad14158b69e45688b0a16",
       "sourcePackageVersion": "1.374.29",
       "intentIds": []
+    },
+    {
+      "sourceSha": "10cebc3a9c6f339a2f274b9d6e45a04014a8d9a4",
+      "sourcePackageVersion": "1.374.29",
+      "intentIds": [
+        "accounts-computer-sheet-clearance:1a04953423ff6fb7da5f8b41365442b776a3089d1ce4ebe9b3b0ecea5055e04b"
+      ]
     }
   ],
   "intents": [
@@ -109152,6 +109159,14 @@
       "summary": "Orchestrator rail: switching between the kind tabs and the Automations tab no longer moves the tab row, the filter row or the first section header.",
       "sourceSha": "aeec6c544b7b7678ff901510e910846e04fefc84",
       "identity": "steady-rail-across-tabs:b05db2c8639c422781e4ccd3f65590e6b5d4d61d75a70db945ce2770ff117de6"
+    },
+    {
+      "id": "accounts-computer-sheet-clearance",
+      "digest": "1a04953423ff6fb7da5f8b41365442b776a3089d1ce4ebe9b3b0ecea5055e04b",
+      "type": "patch",
+      "summary": "Keep the Accounts computer sheet above the iOS app's floating bottom bar, with safe-area padding and two-line phone summaries.",
+      "sourceSha": "10cebc3a9c6f339a2f274b9d6e45a04014a8d9a4",
+      "identity": "accounts-computer-sheet-clearance:1a04953423ff6fb7da5f8b41365442b776a3089d1ce4ebe9b3b0ecea5055e04b"
     }
   ],
   "consumedIntentIds": [
