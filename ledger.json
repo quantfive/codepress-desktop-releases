@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "de733d688183d4984a951c1f1d72924ff41efb05",
+  "cursorSha": "6d99631ac950a9b921c799ca556c137114d3ce19",
   "highWaterVersion": "1.374.3",
   "rows": [
     {
@@ -106241,6 +106241,13 @@
       "sourceSha": "de733d688183d4984a951c1f1d72924ff41efb05",
       "sourcePackageVersion": "1.374.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "6d99631ac950a9b921c799ca556c137114d3ce19",
+      "sourcePackageVersion": "1.374.4",
+      "intentIds": [
+        "quiet-worktree-create-lock:5912b63f5e7fc392ebeefd6423666bf7e4ab06e143d00d31d45b64168af88947"
+      ]
     }
   ],
   "intents": [
@@ -107323,6 +107330,14 @@
       "summary": "Show effective MCP access for authorized unclaimed offers in All organizations mode, keep project coverage labels tied to the stored flag, and refresh labels when the coverage mode changes, with compatibility for older backends.",
       "sourceSha": "a4ce0a7dedc8999e7648b4b532d05536d224e87d",
       "identity": "offer-mcp-coverage-labels:6c496e4e65f4e6ef305ac1ee1e2374261a24b93e578e472133b361adc557e604"
+    },
+    {
+      "id": "quiet-worktree-create-lock",
+      "digest": "5912b63f5e7fc392ebeefd6423666bf7e4ab06e143d00d31d45b64168af88947",
+      "type": "patch",
+      "summary": "Wait out lifecycle lock contention during worktree creation and restoration within the existing preparation wait bound.",
+      "sourceSha": "6d99631ac950a9b921c799ca556c137114d3ce19",
+      "identity": "quiet-worktree-create-lock:5912b63f5e7fc392ebeefd6423666bf7e4ab06e143d00d31d45b64168af88947"
     }
   ],
   "consumedIntentIds": [
