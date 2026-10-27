@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "bc77402b712f0888edbbde7b5e19e1e5b2c43260",
+  "cursorSha": "3c9c06d6be8e89f0586781af99fb861cf0205a59",
   "highWaterVersion": "1.374.10",
   "rows": [
     {
@@ -106925,6 +106925,11 @@
       "intentIds": [
         "batched-ci-pass-evidence:62114b0ee40d7e7fca608e9e42874f0dbe74dc386fb531ea793532bf20ad2637"
       ]
+    },
+    {
+      "sourceSha": "3c9c06d6be8e89f0586781af99fb861cf0205a59",
+      "sourcePackageVersion": "1.374.17",
+      "intentIds": []
     }
   ],
   "intents": [
