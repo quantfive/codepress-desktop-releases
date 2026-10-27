@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "175b985aac94a01caac6081db7ba0ea5b855d7bc",
+  "cursorSha": "0cb006d97af7b362d7b1032352bab8b9db838bbf",
   "highWaterVersion": "1.374.28",
   "rows": [
     {
@@ -108736,6 +108736,13 @@
       "sourceSha": "175b985aac94a01caac6081db7ba0ea5b855d7bc",
       "sourcePackageVersion": "1.374.44",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0cb006d97af7b362d7b1032352bab8b9db838bbf",
+      "sourcePackageVersion": "1.374.44",
+      "intentIds": [
+        "kata-admitted-vm-size:930f5c1d49a03e608b0b07b6eb7b635d286d479e09f434babe384ab5496dab19"
+      ]
     }
   ],
   "intents": [
@@ -110202,6 +110209,14 @@
       "summary": "Typing in the One feed search redraws only the rail instead of the whole Orchestrator view; the feed hears the search once typing pauses.",
       "sourceSha": "687c81f201f72282006de331b656bc0684a3a242",
       "identity": "quiet-rail-search:1c87d01f7eff1e58844b611cd99516b3558ce786e2e2c7a99f63aff00e331145"
+    },
+    {
+      "id": "kata-admitted-vm-size",
+      "digest": "930f5c1d49a03e608b0b07b6eb7b635d286d479e09f434babe384ab5496dab19",
+      "type": "patch",
+      "summary": "Boot capacity-host Kata VMs at their admitted CPU and memory size, reserving guest overhead within the memory limit.",
+      "sourceSha": "0cb006d97af7b362d7b1032352bab8b9db838bbf",
+      "identity": "kata-admitted-vm-size:930f5c1d49a03e608b0b07b6eb7b635d286d479e09f434babe384ab5496dab19"
     }
   ],
   "consumedIntentIds": [
