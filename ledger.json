@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "bc77402b712f0888edbbde7b5e19e1e5b2c43260",
-  "highWaterVersion": "1.374.9",
+  "highWaterVersion": "1.374.10",
   "rows": [
     {
       "schemaVersion": 1,
@@ -54413,6 +54413,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:bc77402b712f0888edbbde7b5e19e1e5b2c43260",
+      "kind": "main",
+      "sequence": 1702,
+      "sourceSha": "bc77402b712f0888edbbde7b5e19e1e5b2c43260",
+      "sourcePackageVersion": "1.374.16",
+      "version": "1.374.10",
+      "publicationDate": "2026-10-27T09:34:26.171Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "preserve-handoff-device-reasons:bd291a8fd6a6b8be64a93cc1fac2617d18af9428ed76783529ff03fd19d29a7e",
+          "batched-ci-pass-evidence:62114b0ee40d7e7fca608e9e42874f0dbe74dc386fb531ea793532bf20ad2637"
+        ],
+        "notesIntentIds": [
+          "preserve-handoff-device-reasons:bd291a8fd6a6b8be64a93cc1fac2617d18af9428ed76783529ff03fd19d29a7e",
+          "batched-ci-pass-evidence:62114b0ee40d7e7fca608e9e42874f0dbe74dc386fb531ea793532bf20ad2637"
+        ],
+        "throughSourceSha": "bc77402b712f0888edbbde7b5e19e1e5b2c43260",
+        "previousThroughSourceSha": "ea6f8b261a5b107e53c428e16c4e84033eed426d",
+        "baselineVersion": "1.374.9",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40481613837",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-28T09:33:59.707Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -108264,7 +108309,9 @@
     "terminal-automations-rail-tab:a40c84657e891a5d701ebf24fc0dc42d0c68e254c5bf87799ca02aed7f0e934e",
     "terminal-vitest-cache-lazy-yaml:0126a4f14b3b3a67d261009cf3fbec30797bb1c8fa903e10cb3fdaca9f93ee20",
     "home-health-upload:e909fcd7113eedd8dcb264c8e820e05e8d2b61276b609acf6b5010751b415570",
-    "terminal-new-vm-destinations:852e7b2c683595ec98e123de868cd569533a57593aced09eb09dfa37f3df69e2"
+    "terminal-new-vm-destinations:852e7b2c683595ec98e123de868cd569533a57593aced09eb09dfa37f3df69e2",
+    "preserve-handoff-device-reasons:bd291a8fd6a6b8be64a93cc1fac2617d18af9428ed76783529ff03fd19d29a7e",
+    "batched-ci-pass-evidence:62114b0ee40d7e7fca608e9e42874f0dbe74dc386fb531ea793532bf20ad2637"
   ],
-  "consumedThroughSha": "ea6f8b261a5b107e53c428e16c4e84033eed426d"
+  "consumedThroughSha": "bc77402b712f0888edbbde7b5e19e1e5b2c43260"
 }
