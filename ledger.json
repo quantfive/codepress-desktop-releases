@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "b5feb21ab44486679c25caf50d906316b4d624cf",
-  "highWaterVersion": "1.374.26",
+  "highWaterVersion": "1.374.27",
   "rows": [
     {
       "schemaVersion": 1,
@@ -55388,6 +55388,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:b5feb21ab44486679c25caf50d906316b4d624cf",
+      "kind": "main",
+      "sequence": 1719,
+      "sourceSha": "b5feb21ab44486679c25caf50d906316b4d624cf",
+      "sourcePackageVersion": "1.374.41",
+      "version": "1.374.27",
+      "publicationDate": "2026-10-27T22:19:50.674Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "tame-browse-hosts:46ad358493d79cd21782dcc13e9b3ca2194767b7ed7d3205d09c339518e9224c",
+          "tidy-canonical-recovery:8d3677d572f9ce4a0c890cc3c02b23841839ab45a7054305eaf65445ef28d110"
+        ],
+        "notesIntentIds": [
+          "tame-browse-hosts:46ad358493d79cd21782dcc13e9b3ca2194767b7ed7d3205d09c339518e9224c",
+          "tidy-canonical-recovery:8d3677d572f9ce4a0c890cc3c02b23841839ab45a7054305eaf65445ef28d110"
+        ],
+        "throughSourceSha": "b5feb21ab44486679c25caf50d906316b4d624cf",
+        "previousThroughSourceSha": "640ce59485c9b4ab10e461617680e59a0affee9e",
+        "baselineVersion": "1.374.26",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40593758518",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-28T22:19:23.459Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -110166,7 +110211,9 @@
     "mute-mcp-sign-in-prompts:d4d90e239b41e9ae9a4ad22b54a9857a04e220114844818566bec8bb5896528d",
     "calm-cloud-attachments:569ff800de160818fd1b1401b744ca1ce7277d85d4fede1f6bd2d984cadec150",
     "team-relay-repository:6b35612f158c4a5add827109fca5ece06db805157d8a2daa3da83c9cb7145f84",
-    "clean-canonical-collector:0e83f816ebeabe34d0d8f89e46fec18bb06817c3c3123353d3a72936a8eb1ff5"
+    "clean-canonical-collector:0e83f816ebeabe34d0d8f89e46fec18bb06817c3c3123353d3a72936a8eb1ff5",
+    "tame-browse-hosts:46ad358493d79cd21782dcc13e9b3ca2194767b7ed7d3205d09c339518e9224c",
+    "tidy-canonical-recovery:8d3677d572f9ce4a0c890cc3c02b23841839ab45a7054305eaf65445ef28d110"
   ],
-  "consumedThroughSha": "640ce59485c9b4ab10e461617680e59a0affee9e"
+  "consumedThroughSha": "b5feb21ab44486679c25caf50d906316b4d624cf"
 }
