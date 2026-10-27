@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5fb2c0accb63f616a02f449a283c5bfc0e5a2026",
+  "cursorSha": "2e75076131d83dcb9ed9362689efe187514c9cd2",
   "highWaterVersion": "1.374.21",
   "rows": [
     {
@@ -107973,6 +107973,13 @@
       "sourceSha": "5fb2c0accb63f616a02f449a283c5bfc0e5a2026",
       "sourcePackageVersion": "1.374.31",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2e75076131d83dcb9ed9362689efe187514c9cd2",
+      "sourcePackageVersion": "1.374.31",
+      "intentIds": [
+        "terminal-app-frame-nav-guard:a0b2aa08ea78eaf4eeb31d2b127cf0d2f3cd99d21c25d4bd5414ffe8bd295576"
+      ]
     }
   ],
   "intents": [
@@ -109319,6 +109326,14 @@
       "summary": "Keep the Accounts settings panel, scope filters, organization selector and account cards inside a phone viewport, with centered Settings tabs and compact outlined actions.",
       "sourceSha": "4f34cc3223d8d8c197124b6350e289f8e84159f8",
       "identity": "tidy-accounts-phone-layout:455d64a03e5d1cf0bdf719f7ad21f53b43ff6c4c76eb950bd6a4446f7bf26739"
+    },
+    {
+      "id": "terminal-app-frame-nav-guard",
+      "digest": "a0b2aa08ea78eaf4eeb31d2b127cf0d2f3cd99d21c25d4bd5414ffe8bd295576",
+      "type": "patch",
+      "summary": "Cloud mode: opening the Apps page or an App no longer opens a system-browser tab for each App iframe or for frames inside a migrated Framer site. Links you click to other sites still open in your browser, and the CodePress sign-in is now written only into CodePress's own web pages.",
+      "sourceSha": "2e75076131d83dcb9ed9362689efe187514c9cd2",
+      "identity": "terminal-app-frame-nav-guard:a0b2aa08ea78eaf4eeb31d2b127cf0d2f3cd99d21c25d4bd5414ffe8bd295576"
     }
   ],
   "consumedIntentIds": [
