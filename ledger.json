@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "06c910ad0eaf856b748e9b83e56f29a5fbb5578b",
+  "cursorSha": "a59361c0a6e6af47735a543c6ab90b42aafae3dc",
   "highWaterVersion": "1.374.4",
   "rows": [
     {
@@ -106340,6 +106340,13 @@
       "sourceSha": "06c910ad0eaf856b748e9b83e56f29a5fbb5578b",
       "sourcePackageVersion": "1.374.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a59361c0a6e6af47735a543c6ab90b42aafae3dc",
+      "sourcePackageVersion": "1.374.6",
+      "intentIds": [
+        "remote-start-late-card-opens:d2170f67c58968e83e5066cade1808c993ac328aba15bee898978662775ebd91"
+      ]
     }
   ],
   "intents": [
@@ -107454,6 +107461,14 @@
       "summary": "Keep ordinary PR lookups to one GraphQL query, with lightweight discovery for fork collisions and bounded paging for larger evidence histories.",
       "sourceSha": "371999f0b3c3feff1aa4566e2f45473b3e848d83",
       "identity": "quiet-graphql-pr-lookups:e51679529e6845d52d78e70eb9752b2ed8ae79438dccac3e0034e1ba13260c58"
+    },
+    {
+      "id": "remote-start-late-card-opens",
+      "digest": "d2170f67c58968e83e5066cade1808c993ac328aba15bee898978662775ebd91",
+      "type": "patch",
+      "summary": "A project you start on another Mac from the kickoff still opens its thread here when its synced card arrives late. After the 30 second fast wait the kickoff keeps waiting for up to ten minutes and says \"Still waiting for <machine> to sync it\", and its notices no longer promise an automatic open once the wait has ended.",
+      "sourceSha": "a59361c0a6e6af47735a543c6ab90b42aafae3dc",
+      "identity": "remote-start-late-card-opens:d2170f67c58968e83e5066cade1808c993ac328aba15bee898978662775ebd91"
     }
   ],
   "consumedIntentIds": [
