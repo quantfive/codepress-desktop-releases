@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "130d929ec436d675caaef1a5fd2892d3906cefc4",
-  "highWaterVersion": "1.374.0",
+  "highWaterVersion": "1.374.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -53894,6 +53894,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:130d929ec436d675caaef1a5fd2892d3906cefc4",
+      "kind": "main",
+      "sequence": 1693,
+      "sourceSha": "130d929ec436d675caaef1a5fd2892d3906cefc4",
+      "sourcePackageVersion": "1.374.1",
+      "version": "1.374.1",
+      "publicationDate": "2026-10-27T04:06:53.717Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "retire-terminal-mcp-sign-in-flag:7d67c654a8f77554a770be3e73455d4c7c7cc84db43a690e5b35161c526996c9"
+        ],
+        "notesIntentIds": [
+          "retire-terminal-mcp-sign-in-flag:7d67c654a8f77554a770be3e73455d4c7c7cc84db43a690e5b35161c526996c9"
+        ],
+        "throughSourceSha": "130d929ec436d675caaef1a5fd2892d3906cefc4",
+        "previousThroughSourceSha": "207538ad90a5a543b97a8ef7891d5d28509722b9",
+        "baselineVersion": "1.374.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40447789322",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-28T04:06:29.569Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -107174,7 +107217,8 @@
     "verified-local-nickname:0dfab3618a6d1efa51ef24f66de0107547e1889ab90680bd9ab692fc8e54ea4a",
     "failed-orchestrator-person-wake:fe0c2b4ffd162f658bd5e418a4f39d63dd9048f6064c9811985b468c47e9c157",
     "fast-project-handoff-options:d8aee82a0990c67c35df02e59764792c162c1b165db087848eea4e72854517ad",
-    "repository-rules-settings-layers:6636cb6ee65d1a5b5cfbdf78f2b7a575c85d94ab714bf7688426fc9f36643d0e"
+    "repository-rules-settings-layers:6636cb6ee65d1a5b5cfbdf78f2b7a575c85d94ab714bf7688426fc9f36643d0e",
+    "retire-terminal-mcp-sign-in-flag:7d67c654a8f77554a770be3e73455d4c7c7cc84db43a690e5b35161c526996c9"
   ],
-  "consumedThroughSha": "207538ad90a5a543b97a8ef7891d5d28509722b9"
+  "consumedThroughSha": "130d929ec436d675caaef1a5fd2892d3906cefc4"
 }
