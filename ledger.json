@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b13c5f58ecb1dc7cddbd65812905ec6081cd52b0",
+  "cursorSha": "7891ba57d68fc468a0b85b06e859bc89875be56c",
   "highWaterVersion": "1.373.1",
   "rows": [
     {
@@ -105747,6 +105747,13 @@
       "sourceSha": "b13c5f58ecb1dc7cddbd65812905ec6081cd52b0",
       "sourcePackageVersion": "1.373.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7891ba57d68fc468a0b85b06e859bc89875be56c",
+      "sourcePackageVersion": "1.373.3",
+      "intentIds": [
+        "terminal-rest-overlap:be1145a17f98beaa76960fa1ffe8bab693e9c56f515c12a6217879d6117a3851"
+      ]
     }
   ],
   "intents": [
@@ -106749,6 +106756,14 @@
       "summary": "Avoid global process and open-file inventory for signed-out archive-only storage runs while preserving cleanup safety checks for other runs.",
       "sourceSha": "fee8ce3a9642026cf5d7d299508e11ee70faf25c",
       "identity": "terminal-signed-out-archive-inventory:0c700d4008ce6552e9dcff2f848410c0f40d91a784e39c383bd0c21fc8e242c4"
+    },
+    {
+      "id": "terminal-rest-overlap",
+      "digest": "be1145a17f98beaa76960fa1ffe8bab693e9c56f515c12a6217879d6117a3851",
+      "type": "patch",
+      "summary": "Run capacity and Turbo script checks before overlapping the remaining Terminal CI checks, preserving the full test inventory, one package deadline, failure reporting, and process cleanup.",
+      "sourceSha": "7891ba57d68fc468a0b85b06e859bc89875be56c",
+      "identity": "terminal-rest-overlap:be1145a17f98beaa76960fa1ffe8bab693e9c56f515c12a6217879d6117a3851"
     }
   ],
   "consumedIntentIds": [
