@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a90fa53dbd9ee9edc8bc3623b11d1641c249de01",
+  "cursorSha": "2434a36c3367592979dbaede7cd12e7ac1a5634d",
   "highWaterVersion": "1.371.1",
   "rows": [
     {
@@ -105378,6 +105378,18 @@
       "sourceSha": "a90fa53dbd9ee9edc8bc3623b11d1641c249de01",
       "sourcePackageVersion": "1.370.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "eaef868056eeebb5dd8c4a05b408c959d430c50c",
+      "sourcePackageVersion": "1.370.2",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "2434a36c3367592979dbaede7cd12e7ac1a5634d",
+      "sourcePackageVersion": "1.370.2",
+      "intentIds": [
+        "term-h-fixture-cadence:dd684299262b8f78029a0390a9726cd3223b89f2bd85e6f56a0a4e26065af31f"
+      ]
     }
   ],
   "intents": [
@@ -106276,6 +106288,14 @@
       "summary": "Auto routing now goes by real CPU utilisation, the share of busy time Activity Monitor shows, instead of the load average, and heartbeats carry the memory in use for each machine.",
       "sourceSha": "d8e7d6600b08051f5a639af9c07259659b47a4f5",
       "identity": "machine-load-real-cpu-ram:3779c541d97c9ee63ff638b7a54b491f4ce3d47f289f32e2f922d0bd39e8083d"
+    },
+    {
+      "id": "term-h-fixture-cadence",
+      "digest": "dd684299262b8f78029a0390a9726cd3223b89f2bd85e6f56a0a4e26065af31f",
+      "type": "patch",
+      "summary": "Allow handoff verification to compress progress polling while preserving the production request deadline and polling defaults.\n\nKeep Muse credential execution injectable per switcher while preserving the native production executor and existing test project membership.",
+      "sourceSha": "2434a36c3367592979dbaede7cd12e7ac1a5634d",
+      "identity": "term-h-fixture-cadence:dd684299262b8f78029a0390a9726cd3223b89f2bd85e6f56a0a4e26065af31f"
     }
   ],
   "consumedIntentIds": [
