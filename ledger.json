@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "fe2e45255c8907e878c23f447a4def6f0ba24d53",
+  "cursorSha": "e674eed9c4048d081990c5d4791189471a97dfbd",
   "highWaterVersion": "1.374.24",
   "rows": [
     {
@@ -108330,6 +108330,11 @@
       "intentIds": [
         "replica-state-push-skips-feed:5180d442b89448d491e6efdb39cc02374bd18b215fa53b4e5b3244b430b18572"
       ]
+    },
+    {
+      "sourceSha": "e674eed9c4048d081990c5d4791189471a97dfbd",
+      "sourcePackageVersion": "1.374.38",
+      "intentIds": []
     }
   ],
   "intents": [
