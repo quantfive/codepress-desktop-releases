@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "5199c01c04fbd9d20321f5ed96df2562ee6315cf",
-  "highWaterVersion": "1.374.4",
+  "highWaterVersion": "1.374.5",
   "rows": [
     {
       "schemaVersion": 1,
@@ -54122,6 +54122,53 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:5199c01c04fbd9d20321f5ed96df2562ee6315cf",
+      "kind": "main",
+      "sequence": 1697,
+      "sourceSha": "5199c01c04fbd9d20321f5ed96df2562ee6315cf",
+      "sourcePackageVersion": "1.374.8",
+      "version": "1.374.5",
+      "publicationDate": "2026-10-27T06:54:04.568Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "remote-start-late-card-opens:d2170f67c58968e83e5066cade1808c993ac328aba15bee898978662775ebd91",
+          "background-project-refresh:f87cb2b94f5610a8641b1b4b8b4cc7b04e250a43b96ad49929227edb55e8f6c7",
+          "quiet-accounts-switch:c162baee1ba54b2059b1c59d4c448d1ee8376fec89384a2dddbc06e6c1bd199a"
+        ],
+        "notesIntentIds": [
+          "remote-start-late-card-opens:d2170f67c58968e83e5066cade1808c993ac328aba15bee898978662775ebd91",
+          "background-project-refresh:f87cb2b94f5610a8641b1b4b8b4cc7b04e250a43b96ad49929227edb55e8f6c7",
+          "quiet-accounts-switch:c162baee1ba54b2059b1c59d4c448d1ee8376fec89384a2dddbc06e6c1bd199a"
+        ],
+        "throughSourceSha": "5199c01c04fbd9d20321f5ed96df2562ee6315cf",
+        "previousThroughSourceSha": "371999f0b3c3feff1aa4566e2f45473b3e848d83",
+        "baselineVersion": "1.374.4",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40463723179",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-28T06:53:40.885Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -107660,7 +107707,10 @@
     "quiet-worktree-create-lock:5912b63f5e7fc392ebeefd6423666bf7e4ab06e143d00d31d45b64168af88947",
     "terminal-feed-no-skeleton-per-keystroke:3f4d91772167209f1ffeb7efc6c68bca060f91185327f2df19f131ca00a079db",
     "project-sync-card-first:40e14098c3e3b6bf804c2f05b565f51f3fdd62efaeefbbee26a975e6b0d58751",
-    "quiet-graphql-pr-lookups:e51679529e6845d52d78e70eb9752b2ed8ae79438dccac3e0034e1ba13260c58"
+    "quiet-graphql-pr-lookups:e51679529e6845d52d78e70eb9752b2ed8ae79438dccac3e0034e1ba13260c58",
+    "remote-start-late-card-opens:d2170f67c58968e83e5066cade1808c993ac328aba15bee898978662775ebd91",
+    "background-project-refresh:f87cb2b94f5610a8641b1b4b8b4cc7b04e250a43b96ad49929227edb55e8f6c7",
+    "quiet-accounts-switch:c162baee1ba54b2059b1c59d4c448d1ee8376fec89384a2dddbc06e6c1bd199a"
   ],
-  "consumedThroughSha": "371999f0b3c3feff1aa4566e2f45473b3e848d83"
+  "consumedThroughSha": "5199c01c04fbd9d20321f5ed96df2562ee6315cf"
 }
