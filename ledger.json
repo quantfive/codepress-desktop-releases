@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "618778986762e40d6f3694f0cf14e7c8e6d256d6",
-  "highWaterVersion": "1.374.23",
+  "highWaterVersion": "1.374.24",
   "rows": [
     {
       "schemaVersion": 1,
@@ -55210,6 +55210,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:618778986762e40d6f3694f0cf14e7c8e6d256d6",
+      "kind": "main",
+      "sequence": 1716,
+      "sourceSha": "618778986762e40d6f3694f0cf14e7c8e6d256d6",
+      "sourcePackageVersion": "1.374.36",
+      "version": "1.374.24",
+      "publicationDate": "2026-10-27T20:40:45.219Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "remote-owner-codepress-organizations:474048bf487d5874b21ce065f3083c263dd3ad7118f538c89898edd3ed6d7244"
+        ],
+        "notesIntentIds": [
+          "remote-owner-codepress-organizations:474048bf487d5874b21ce065f3083c263dd3ad7118f538c89898edd3ed6d7244"
+        ],
+        "throughSourceSha": "618778986762e40d6f3694f0cf14e7c8e6d256d6",
+        "previousThroughSourceSha": "87851c2eb10a6893e20f0f3ffc01417f49b26f9a",
+        "baselineVersion": "1.374.23",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40579391500",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-28T20:40:16.762Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -109786,7 +109829,8 @@
     "terminal-app-frame-nav-guard:a0b2aa08ea78eaf4eeb31d2b127cf0d2f3cd99d21c25d4bd5414ffe8bd295576",
     "automation-opens-in-place:6dc3dda972ed664209b94f3b142d41ed36ad47b45a62cee13c132521152ac432",
     "terminal-feed-push-throttle:f96e8a7a1c58dd19e6ef242033c16d3ca240a291dc8693dc8019edf176179cb2",
-    "mcp-sign-in-only-on-request:75491797dd92bf2c0785c23d443b5781e31b555f1e2c278246995e653e2fb2e5"
+    "mcp-sign-in-only-on-request:75491797dd92bf2c0785c23d443b5781e31b555f1e2c278246995e653e2fb2e5",
+    "remote-owner-codepress-organizations:474048bf487d5874b21ce065f3083c263dd3ad7118f538c89898edd3ed6d7244"
   ],
-  "consumedThroughSha": "87851c2eb10a6893e20f0f3ffc01417f49b26f9a"
+  "consumedThroughSha": "618778986762e40d6f3694f0cf14e7c8e6d256d6"
 }
