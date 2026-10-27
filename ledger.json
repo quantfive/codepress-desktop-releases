@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2a7b34d7356767d242c488785cb892074dbd8f0f",
+  "cursorSha": "687c81f201f72282006de331b656bc0684a3a242",
   "highWaterVersion": "1.374.28",
   "rows": [
     {
@@ -108714,6 +108714,13 @@
       "sourceSha": "2a7b34d7356767d242c488785cb892074dbd8f0f",
       "sourcePackageVersion": "1.374.43",
       "intentIds": []
+    },
+    {
+      "sourceSha": "687c81f201f72282006de331b656bc0684a3a242",
+      "sourcePackageVersion": "1.374.43",
+      "intentIds": [
+        "quiet-rail-search:1c87d01f7eff1e58844b611cd99516b3558ce786e2e2c7a99f63aff00e331145"
+      ]
     }
   ],
   "intents": [
@@ -110172,6 +110179,14 @@
       "summary": "Add suspendable worktree cleanup leases with durable per-path cleaning fences and log lifecycle locks still held after ten seconds.",
       "sourceSha": "60ec65b21a8c7a6aa0b2c9a84ae22d0fe8986b29",
       "identity": "quiet-cleaning-marker:4364719ecae9ff455961a5c9a33c8ca1c17ad41e4ca883c9d7859c2904e58f55"
+    },
+    {
+      "id": "quiet-rail-search",
+      "digest": "1c87d01f7eff1e58844b611cd99516b3558ce786e2e2c7a99f63aff00e331145",
+      "type": "patch",
+      "summary": "Typing in the One feed search redraws only the rail instead of the whole Orchestrator view; the feed hears the search once typing pauses.",
+      "sourceSha": "687c81f201f72282006de331b656bc0684a3a242",
+      "identity": "quiet-rail-search:1c87d01f7eff1e58844b611cd99516b3558ce786e2e2c7a99f63aff00e331145"
     }
   ],
   "consumedIntentIds": [
