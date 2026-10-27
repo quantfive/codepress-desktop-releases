@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4b39a4f882f9943eb1aeab4fdd4b59d4ed61dc83",
+  "cursorSha": "371999f0b3c3feff1aa4566e2f45473b3e848d83",
   "highWaterVersion": "1.374.3",
   "rows": [
     {
@@ -106261,6 +106261,27 @@
       "sourceSha": "4b39a4f882f9943eb1aeab4fdd4b59d4ed61dc83",
       "sourcePackageVersion": "1.374.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "461f01edea852f217aef97ec1854917fb05f2d33",
+      "sourcePackageVersion": "1.374.5",
+      "intentIds": [
+        "terminal-feed-no-skeleton-per-keystroke:3f4d91772167209f1ffeb7efc6c68bca060f91185327f2df19f131ca00a079db"
+      ]
+    },
+    {
+      "sourceSha": "358471c224dab369578c11ea7170273f1f294fd3",
+      "sourcePackageVersion": "1.374.5",
+      "intentIds": [
+        "project-sync-card-first:40e14098c3e3b6bf804c2f05b565f51f3fdd62efaeefbbee26a975e6b0d58751"
+      ]
+    },
+    {
+      "sourceSha": "371999f0b3c3feff1aa4566e2f45473b3e848d83",
+      "sourcePackageVersion": "1.374.5",
+      "intentIds": [
+        "quiet-graphql-pr-lookups:e51679529e6845d52d78e70eb9752b2ed8ae79438dccac3e0034e1ba13260c58"
+      ]
     }
   ],
   "intents": [
@@ -107351,6 +107372,30 @@
       "summary": "Wait out lifecycle lock contention during worktree creation and restoration within the existing preparation wait bound.",
       "sourceSha": "6d99631ac950a9b921c799ca556c137114d3ce19",
       "identity": "quiet-worktree-create-lock:5912b63f5e7fc392ebeefd6423666bf7e4ab06e143d00d31d45b64168af88947"
+    },
+    {
+      "id": "terminal-feed-no-skeleton-per-keystroke",
+      "digest": "3f4d91772167209f1ffeb7efc6c68bca060f91185327f2df19f131ca00a079db",
+      "type": "patch",
+      "summary": "Searching and filtering the One feed no longer sends a request and flashes a skeleton on every keystroke or click: the search is asked once typing pauses, and the rows already on screen stay (dimmed) until the new ones arrive. The Tabs kind no longer shows a skeleton at launch or on first visit, and an empty answer to a Landed or Archived refresh is retried once on the next refresh.",
+      "sourceSha": "461f01edea852f217aef97ec1854917fb05f2d33",
+      "identity": "terminal-feed-no-skeleton-per-keystroke:3f4d91772167209f1ffeb7efc6c68bca060f91185327f2df19f131ca00a079db"
+    },
+    {
+      "id": "project-sync-card-first",
+      "digest": "40e14098c3e3b6bf804c2f05b565f51f3fdd62efaeefbbee26a975e6b0d58751",
+      "type": "patch",
+      "summary": "A new Synced project's card now reaches the cloud within seconds, even right after Terminal restarts, so a project started from another Mac opens there without a long wait. The card retries every 15 seconds at most, uploads ahead of other sync work, and the log says why when it has to wait.",
+      "sourceSha": "358471c224dab369578c11ea7170273f1f294fd3",
+      "identity": "project-sync-card-first:40e14098c3e3b6bf804c2f05b565f51f3fdd62efaeefbbee26a975e6b0d58751"
+    },
+    {
+      "id": "quiet-graphql-pr-lookups",
+      "digest": "e51679529e6845d52d78e70eb9752b2ed8ae79438dccac3e0034e1ba13260c58",
+      "type": "patch",
+      "summary": "Keep ordinary PR lookups to one GraphQL query, with lightweight discovery for fork collisions and bounded paging for larger evidence histories.",
+      "sourceSha": "371999f0b3c3feff1aa4566e2f45473b3e848d83",
+      "identity": "quiet-graphql-pr-lookups:e51679529e6845d52d78e70eb9752b2ed8ae79438dccac3e0034e1ba13260c58"
     }
   ],
   "consumedIntentIds": [
