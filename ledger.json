@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "10c162d13699cf7c9eeebbe6d050bf65044efb40",
+  "cursorSha": "a8dec8a93377e61435b26a4040ae1fa68b3b5751",
   "highWaterVersion": "1.374.12",
   "rows": [
     {
@@ -107153,6 +107153,13 @@
       "sourceSha": "10c162d13699cf7c9eeebbe6d050bf65044efb40",
       "sourcePackageVersion": "1.374.21",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a8dec8a93377e61435b26a4040ae1fa68b3b5751",
+      "sourcePackageVersion": "1.374.21",
+      "intentIds": [
+        "orchestrator-remote-thread-file-links:9378de844db3e5350673fc9334dae2d92fac5d05def1420a1370de1b8e4f968d"
+      ]
     }
   ],
   "intents": [
@@ -108419,6 +108426,14 @@
       "summary": "Let a person continue a rule-bound Claude or Codex agent on a healthy account after its subscription limit, with a composer limit strip and a temporary account bypass.",
       "sourceSha": "b7c8eb1d65d4e731b9086304f6fd5d9290b80d23",
       "identity": "continue-bound-agent-on-another-account:2ecb5a7d9bb51361a9405370cccbc75e531fad1f5743cc1bfec728f578939b5a"
+    },
+    {
+      "id": "orchestrator-remote-thread-file-links",
+      "digest": "9378de844db3e5350673fc9334dae2d92fac5d05def1420a1370de1b8e4f968d",
+      "type": "patch",
+      "summary": "Open file references from another machine's live Orchestrator threads in Files, with remote content, line navigation, and inline compatibility notices.",
+      "sourceSha": "a8dec8a93377e61435b26a4040ae1fa68b3b5751",
+      "identity": "orchestrator-remote-thread-file-links:9378de844db3e5350673fc9334dae2d92fac5d05def1420a1370de1b8e4f968d"
     }
   ],
   "consumedIntentIds": [
