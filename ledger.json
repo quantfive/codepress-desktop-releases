@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d4f9b29c0db181333d224d9b81683cb74d66868d",
+  "cursorSha": "66edfce18d2090fb3be4a4fd32073b4baf516e38",
   "highWaterVersion": "1.374.0",
   "rows": [
     {
@@ -105966,6 +105966,13 @@
       "sourceSha": "d4f9b29c0db181333d224d9b81683cb74d66868d",
       "sourcePackageVersion": "1.374.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "66edfce18d2090fb3be4a4fd32073b4baf516e38",
+      "sourcePackageVersion": "1.374.0",
+      "intentIds": [
+        "retire-terminal-mcp-sign-in-flag:7d67c654a8f77554a770be3e73455d4c7c7cc84db43a690e5b35161c526996c9"
+      ]
     }
   ],
   "intents": [
@@ -107016,6 +107023,14 @@
       "summary": "Settings → Agents → Repositories shows your organization's default rules and your own. Owners and admins edit the organization defaults; everyone else sees them read-only. Your rules sync to every computer, with account pins kept per computer, and a rule that differs from the organization default is marked. Project settings says when a rule is the organization's default.",
       "sourceSha": "207538ad90a5a543b97a8ef7891d5d28509722b9",
       "identity": "repository-rules-settings-layers:6636cb6ee65d1a5b5cfbdf78f2b7a575c85d94ab714bf7688426fc9f36643d0e"
+    },
+    {
+      "id": "retire-terminal-mcp-sign-in-flag",
+      "digest": "7d67c654a8f77554a770be3e73455d4c7c7cc84db43a690e5b35161c526996c9",
+      "type": "patch",
+      "summary": "Make all CodePress organizations coverage and MCP sign-in available without an organization rollout flag.",
+      "sourceSha": "66edfce18d2090fb3be4a4fd32073b4baf516e38",
+      "identity": "retire-terminal-mcp-sign-in-flag:7d67c654a8f77554a770be3e73455d4c7c7cc84db43a690e5b35161c526996c9"
     }
   ],
   "consumedIntentIds": [
