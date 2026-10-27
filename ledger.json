@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "65f44c955b624c68ba91e5a81026e3e5674e5ff7",
+  "cursorSha": "84acb1303227a414ae0c365683b776aa122175f9",
   "highWaterVersion": "1.371.1",
   "rows": [
     {
@@ -105463,6 +105463,13 @@
       "sourceSha": "65f44c955b624c68ba91e5a81026e3e5674e5ff7",
       "sourcePackageVersion": "1.372.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "84acb1303227a414ae0c365683b776aa122175f9",
+      "sourcePackageVersion": "1.372.0",
+      "intentIds": [
+        "mac-home-stamps-thread-times:5e1e297e3de280e67efc822abf21e351493c58bfa4ef297d21ee0ce37a65aa94"
+      ]
     }
   ],
   "intents": [
@@ -106409,6 +106416,14 @@
       "summary": "Offer your other Macs in a remote project's Hand off picker and follow its Continue on request through completion or refusal.",
       "sourceSha": "07d89c8955a2b36565cf9f76da9fc1adf0798c8e",
       "identity": "other-macs-handoff:48d1bfc5e63017147b961e30bcda2b8961d9b862e1c23e41f8615f49ea3ec799"
+    },
+    {
+      "id": "mac-home-stamps-thread-times",
+      "digest": "5e1e297e3de280e67efc822abf21e351493c58bfa4ef297d21ee0ce37a65aa94",
+      "type": "patch",
+      "summary": "The Mac that hosts an Orchestrator project now gives every thread entry one UTC time from a per-project clock that never goes backwards, and sends those times to every viewer. A message queued while a reply runs takes the time the Orchestrator reads it, reply text takes the time it arrived rather than the time it was saved, projects get their existing history timed once on first open, and a project moved to another Mac keeps its times. Nothing in the thread looks different yet.",
+      "sourceSha": "84acb1303227a414ae0c365683b776aa122175f9",
+      "identity": "mac-home-stamps-thread-times:5e1e297e3de280e67efc822abf21e351493c58bfa4ef297d21ee0ce37a65aa94"
     }
   ],
   "consumedIntentIds": [
