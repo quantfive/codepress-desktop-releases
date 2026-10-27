@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2618c0a8c27f0e13d7ad0c5b0e939b6f232d2709",
+  "cursorSha": "815af51dd9bc640c4d328cfba1f9a0eea3c3fd9c",
   "highWaterVersion": "1.374.22",
   "rows": [
     {
@@ -108081,6 +108081,11 @@
       "intentIds": [
         "terminal-feed-push-throttle:f96e8a7a1c58dd19e6ef242033c16d3ca240a291dc8693dc8019edf176179cb2"
       ]
+    },
+    {
+      "sourceSha": "815af51dd9bc640c4d328cfba1f9a0eea3c3fd9c",
+      "sourcePackageVersion": "1.374.34",
+      "intentIds": []
     }
   ],
   "intents": [
