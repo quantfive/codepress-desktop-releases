@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "207538ad90a5a543b97a8ef7891d5d28509722b9",
-  "highWaterVersion": "1.373.2",
+  "highWaterVersion": "1.374.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -53841,6 +53841,55 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:207538ad90a5a543b97a8ef7891d5d28509722b9",
+      "kind": "main",
+      "sequence": 1692,
+      "sourceSha": "207538ad90a5a543b97a8ef7891d5d28509722b9",
+      "sourcePackageVersion": "1.373.8",
+      "version": "1.374.0",
+      "publicationDate": "2026-10-27T03:36:16.987Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "verified-local-nickname:0dfab3618a6d1efa51ef24f66de0107547e1889ab90680bd9ab692fc8e54ea4a",
+          "failed-orchestrator-person-wake:fe0c2b4ffd162f658bd5e418a4f39d63dd9048f6064c9811985b468c47e9c157",
+          "fast-project-handoff-options:d8aee82a0990c67c35df02e59764792c162c1b165db087848eea4e72854517ad",
+          "repository-rules-settings-layers:6636cb6ee65d1a5b5cfbdf78f2b7a575c85d94ab714bf7688426fc9f36643d0e"
+        ],
+        "notesIntentIds": [
+          "verified-local-nickname:0dfab3618a6d1efa51ef24f66de0107547e1889ab90680bd9ab692fc8e54ea4a",
+          "failed-orchestrator-person-wake:fe0c2b4ffd162f658bd5e418a4f39d63dd9048f6064c9811985b468c47e9c157",
+          "fast-project-handoff-options:d8aee82a0990c67c35df02e59764792c162c1b165db087848eea4e72854517ad",
+          "repository-rules-settings-layers:6636cb6ee65d1a5b5cfbdf78f2b7a575c85d94ab714bf7688426fc9f36643d0e"
+        ],
+        "throughSourceSha": "207538ad90a5a543b97a8ef7891d5d28509722b9",
+        "previousThroughSourceSha": "efb1eba8a6fb5a8711d73d24db2978f609a91886",
+        "baselineVersion": "1.373.2",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40444919955",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-28T03:35:53.304Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -107087,7 +107136,11 @@
     "thread-sorted-by-time:68f84a228d6f8b98d4c4ee30bd7f58e6a6bf5116086b3e096d7766b4804113eb",
     "terminal-signed-out-archive-inventory:0c700d4008ce6552e9dcff2f848410c0f40d91a784e39c383bd0c21fc8e242c4",
     "terminal-rest-overlap:be1145a17f98beaa76960fa1ffe8bab693e9c56f515c12a6217879d6117a3851",
-    "fleet-update-popover-counts-every-computer:50d5004ef3d7366f51b62f3be0cb69e6c7fea625e17bc25141e3f615197b7ed3"
+    "fleet-update-popover-counts-every-computer:50d5004ef3d7366f51b62f3be0cb69e6c7fea625e17bc25141e3f615197b7ed3",
+    "verified-local-nickname:0dfab3618a6d1efa51ef24f66de0107547e1889ab90680bd9ab692fc8e54ea4a",
+    "failed-orchestrator-person-wake:fe0c2b4ffd162f658bd5e418a4f39d63dd9048f6064c9811985b468c47e9c157",
+    "fast-project-handoff-options:d8aee82a0990c67c35df02e59764792c162c1b165db087848eea4e72854517ad",
+    "repository-rules-settings-layers:6636cb6ee65d1a5b5cfbdf78f2b7a575c85d94ab714bf7688426fc9f36643d0e"
   ],
-  "consumedThroughSha": "efb1eba8a6fb5a8711d73d24db2978f609a91886"
+  "consumedThroughSha": "207538ad90a5a543b97a8ef7891d5d28509722b9"
 }
