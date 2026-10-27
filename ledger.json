@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7dc4492b14ecf18f1975d5f07fb5bfcd00a9f97e",
+  "cursorSha": "7d3ffbca48c9beee68dedb324bf1415ded8e2af7",
   "highWaterVersion": "1.374.1",
   "rows": [
     {
@@ -106053,6 +106053,13 @@
       "sourceSha": "7dc4492b14ecf18f1975d5f07fb5bfcd00a9f97e",
       "sourcePackageVersion": "1.374.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7d3ffbca48c9beee68dedb324bf1415ded8e2af7",
+      "sourcePackageVersion": "1.374.1",
+      "intentIds": [
+        "wrapper-agent-detection:c3b6eab5f9c4af815879d5968b67183f53b85fc409721ce655d6c007d440ccf0"
+      ]
     }
   ],
   "intents": [
@@ -107111,6 +107118,14 @@
       "summary": "Make all CodePress organizations coverage and MCP sign-in available without an organization rollout flag.",
       "sourceSha": "66edfce18d2090fb3be4a4fd32073b4baf516e38",
       "identity": "retire-terminal-mcp-sign-in-flag:7d67c654a8f77554a770be3e73455d4c7c7cc84db43a690e5b35161c526996c9"
+    },
+    {
+      "id": "wrapper-agent-detection",
+      "digest": "c3b6eab5f9c4af815879d5968b67183f53b85fc409721ce655d6c007d440ccf0",
+      "type": "patch",
+      "summary": "Detect agents launched through this tab's provider admission wrapper so Orchestrator messages, approvals, and agent paste submission work for running workers, including after a daemon update.",
+      "sourceSha": "7d3ffbca48c9beee68dedb324bf1415ded8e2af7",
+      "identity": "wrapper-agent-detection:c3b6eab5f9c4af815879d5968b67183f53b85fc409721ce655d6c007d440ccf0"
     }
   ],
   "consumedIntentIds": [
