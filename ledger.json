@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "391399704a8a2ad261a21d8661fc6392b9d6ee50",
+  "cursorSha": "d71c0f138c33ba32eb1efa53add58c207e735fe4",
   "highWaterVersion": "1.374.4",
   "rows": [
     {
@@ -106369,6 +106369,13 @@
       "sourceSha": "391399704a8a2ad261a21d8661fc6392b9d6ee50",
       "sourcePackageVersion": "1.374.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d71c0f138c33ba32eb1efa53add58c207e735fe4",
+      "sourcePackageVersion": "1.374.7",
+      "intentIds": [
+        "quiet-accounts-switch:c162baee1ba54b2059b1c59d4c448d1ee8376fec89384a2dddbc06e6c1bd199a"
+      ]
     }
   ],
   "intents": [
@@ -107499,6 +107506,14 @@
       "summary": "Focusing the Terminal window no longer flashes \"Loading more…\" in the project rail or re-reads it twice, and a failed Processes refresh keeps the last list on screen with a note instead of replacing it with an error.",
       "sourceSha": "fcda577ff7c6766a2b62ecb9eff207c6878475ee",
       "identity": "background-project-refresh:f87cb2b94f5610a8641b1b4b8b4cc7b04e250a43b96ad49929227edb55e8f6c7"
+    },
+    {
+      "id": "quiet-accounts-switch",
+      "digest": "c162baee1ba54b2059b1c59d4c448d1ee8376fec89384a2dddbc06e6c1bd199a",
+      "type": "patch",
+      "summary": "Show Switching… on the account being selected while Terminal applies the login and reloads accounts, including computer-scoped selections and the tab subscription switcher.",
+      "sourceSha": "d71c0f138c33ba32eb1efa53add58c207e735fe4",
+      "identity": "quiet-accounts-switch:c162baee1ba54b2059b1c59d4c448d1ee8376fec89384a2dddbc06e6c1bd199a"
     }
   ],
   "consumedIntentIds": [
