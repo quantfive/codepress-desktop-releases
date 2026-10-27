@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6ee4e8a6c49984413ddcc3b9e72f5a45b387e088",
+  "cursorSha": "aeec6c544b7b7678ff901510e910846e04fefc84",
   "highWaterVersion": "1.374.18",
   "rows": [
     {
@@ -107700,6 +107700,13 @@
       "sourceSha": "6ee4e8a6c49984413ddcc3b9e72f5a45b387e088",
       "sourcePackageVersion": "1.374.28",
       "intentIds": []
+    },
+    {
+      "sourceSha": "aeec6c544b7b7678ff901510e910846e04fefc84",
+      "sourcePackageVersion": "1.374.28",
+      "intentIds": [
+        "steady-rail-across-tabs:b05db2c8639c422781e4ccd3f65590e6b5d4d61d75a70db945ce2770ff117de6"
+      ]
     }
   ],
   "intents": [
@@ -109022,6 +109029,14 @@
       "summary": "Link existing bare file names and relative paths in Orchestrator prose, opening the resolved file in Files. Guide project and chat replies to write file mentions as links.",
       "sourceSha": "4d8b36321f4f550b18d875ab23b7ad37421b5c8e",
       "identity": "orchestrator-inline-file-links:08030585d01b252cfacdecf389e5faa4abc85bc3f7e3732739ddf5d6a78e7b43"
+    },
+    {
+      "id": "steady-rail-across-tabs",
+      "digest": "b05db2c8639c422781e4ccd3f65590e6b5d4d61d75a70db945ce2770ff117de6",
+      "type": "patch",
+      "summary": "Orchestrator rail: switching between the kind tabs and the Automations tab no longer moves the tab row, the filter row or the first section header.",
+      "sourceSha": "aeec6c544b7b7678ff901510e910846e04fefc84",
+      "identity": "steady-rail-across-tabs:b05db2c8639c422781e4ccd3f65590e6b5d4d61d75a70db945ce2770ff117de6"
     }
   ],
   "consumedIntentIds": [
