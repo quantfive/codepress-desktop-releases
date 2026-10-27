@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5199c01c04fbd9d20321f5ed96df2562ee6315cf",
+  "cursorSha": "fe6ea7ccecdb69606b6b3a772186092e4de3d3ee",
   "highWaterVersion": "1.374.5",
   "rows": [
     {
@@ -106440,6 +106440,13 @@
       "sourceSha": "5199c01c04fbd9d20321f5ed96df2562ee6315cf",
       "sourcePackageVersion": "1.374.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "fe6ea7ccecdb69606b6b3a772186092e4de3d3ee",
+      "sourcePackageVersion": "1.374.8",
+      "intentIds": [
+        "feed-rail-automations-panel-tab:6ffae571f64db35349c150e1dbc2a96a873f914c46e6749b72c205b5ee423d8d"
+      ]
     }
   ],
   "intents": [
@@ -107578,6 +107585,14 @@
       "summary": "Show Switching… on the account being selected while Terminal applies the login and reloads accounts, including computer-scoped selections and the tab subscription switcher.",
       "sourceSha": "d71c0f138c33ba32eb1efa53add58c207e735fe4",
       "identity": "quiet-accounts-switch:c162baee1ba54b2059b1c59d4c448d1ee8376fec89384a2dddbc06e6c1bd199a"
+    },
+    {
+      "id": "feed-rail-automations-panel-tab",
+      "digest": "6ffae571f64db35349c150e1dbc2a96a873f914c46e6749b72c205b5ee423d8d",
+      "type": "patch",
+      "summary": "The shared One feed rail gains an optional panel tab and its section headers move into their own file. Terminal passes no panel tab, so its rail looks and behaves as before.",
+      "sourceSha": "fe6ea7ccecdb69606b6b3a772186092e4de3d3ee",
+      "identity": "feed-rail-automations-panel-tab:6ffae571f64db35349c150e1dbc2a96a873f914c46e6749b72c205b5ee423d8d"
     }
   ],
   "consumedIntentIds": [
