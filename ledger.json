@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4adfaf54947698a7ca379c140c3070f180c269fe",
+  "cursorSha": "eb685e373a1a81b41a9a21012169690847eda658",
   "highWaterVersion": "1.374.14",
   "rows": [
     {
@@ -107312,6 +107312,13 @@
       "sourceSha": "4adfaf54947698a7ca379c140c3070f180c269fe",
       "sourcePackageVersion": "1.374.24",
       "intentIds": []
+    },
+    {
+      "sourceSha": "eb685e373a1a81b41a9a21012169690847eda658",
+      "sourcePackageVersion": "1.374.24",
+      "intentIds": [
+        "visible-orchestrator-file-search:0bbbd741c0edb2a24476b56e09663487314f60adf895dc3f103823848f08f78c"
+      ]
     }
   ],
   "intents": [
@@ -108602,6 +108609,14 @@
       "summary": "Continue a limited, rule-bound Orchestrator on another healthy account from the strip above its composer, until the bound account resets.",
       "sourceSha": "adce465ad3332e205678c4b47c2b25631be3a8df",
       "identity": "orchestrator-composer-limit-strip:e391d6f3021db337fd0b57450ba5fcf8a13c1a74414c0bd3a6131104f5a8e1be"
+    },
+    {
+      "id": "visible-orchestrator-file-search",
+      "digest": "0bbbd741c0edb2a24476b56e09663487314f60adf895dc3f103823848f08f78c",
+      "type": "patch",
+      "summary": "Make Orchestrator file search visible in Files and the thread header, and open it with the keyboard shortcut from every view, including live synced copies and unavailable hosts with an explanation.",
+      "sourceSha": "eb685e373a1a81b41a9a21012169690847eda658",
+      "identity": "visible-orchestrator-file-search:0bbbd741c0edb2a24476b56e09663487314f60adf895dc3f103823848f08f78c"
     }
   ],
   "consumedIntentIds": [
