@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "2f54cb1e6a9d5bc670733e0e42c1b50c02706fbd",
-  "highWaterVersion": "1.372.0",
+  "highWaterVersion": "1.373.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -53654,6 +53654,56 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:2f54cb1e6a9d5bc670733e0e42c1b50c02706fbd",
+      "kind": "main",
+      "sequence": 1689,
+      "sourceSha": "2f54cb1e6a9d5bc670733e0e42c1b50c02706fbd",
+      "sourcePackageVersion": "1.372.1",
+      "version": "1.373.0",
+      "publicationDate": "2026-10-27T01:34:40.295Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "repository-rules-on-the-account:9ed1a0295fe28271a8afe7a6077224657e58467686da4f2fa7f61138f2af8dea"
+        ],
+        "notesIntentIds": [
+          "term-h-fixture-cadence:dd684299262b8f78029a0390a9726cd3223b89f2bd85e6f56a0a4e26065af31f",
+          "viewers-thread-stream:40cf4ee29b87fedd6872173c68336083e303f92b742ca937518e6f760a9ef8d5",
+          "copy-mentions:55691dc607f5bd23f57713843a44dab695581b6461633a8a428d9353b772c002",
+          "cli-packaged-runtime-paths:a25b3d05827c695439413b86b15067613a331f5aec770c0509c0b2c7fd11a9b5",
+          "runs-on-menu-machine-state:1206acebfbacef1dc010d3f3db532115fa9e014fd32814affe8ab4a340b0f273",
+          "other-macs-handoff:48d1bfc5e63017147b961e30bcda2b8961d9b862e1c23e41f8615f49ea3ec799",
+          "mac-home-stamps-thread-times:5e1e297e3de280e67efc822abf21e351493c58bfa4ef297d21ee0ce37a65aa94",
+          "repository-rules-on-the-account:9ed1a0295fe28271a8afe7a6077224657e58467686da4f2fa7f61138f2af8dea"
+        ],
+        "throughSourceSha": "2f54cb1e6a9d5bc670733e0e42c1b50c02706fbd",
+        "previousThroughSourceSha": "d8aca4fcd1f42223c04eee01022a017511c1a6fe",
+        "baselineVersion": "1.372.0",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40433251312",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-28T01:34:16.073Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -106647,7 +106697,8 @@
     "cli-packaged-runtime-paths:a25b3d05827c695439413b86b15067613a331f5aec770c0509c0b2c7fd11a9b5",
     "runs-on-menu-machine-state:1206acebfbacef1dc010d3f3db532115fa9e014fd32814affe8ab4a340b0f273",
     "other-macs-handoff:48d1bfc5e63017147b961e30bcda2b8961d9b862e1c23e41f8615f49ea3ec799",
-    "mac-home-stamps-thread-times:5e1e297e3de280e67efc822abf21e351493c58bfa4ef297d21ee0ce37a65aa94"
+    "mac-home-stamps-thread-times:5e1e297e3de280e67efc822abf21e351493c58bfa4ef297d21ee0ce37a65aa94",
+    "repository-rules-on-the-account:9ed1a0295fe28271a8afe7a6077224657e58467686da4f2fa7f61138f2af8dea"
   ],
-  "consumedThroughSha": "d8aca4fcd1f42223c04eee01022a017511c1a6fe"
+  "consumedThroughSha": "2f54cb1e6a9d5bc670733e0e42c1b50c02706fbd"
 }
