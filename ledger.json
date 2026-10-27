@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "37c7626926f588fb57e94fcf11e79025cfb0fc79",
+  "cursorSha": "6804e6a6a1161699fcefae23d1264101822c31bc",
   "highWaterVersion": "1.374.8",
   "rows": [
     {
@@ -106750,6 +106750,20 @@
       "sourceSha": "37c7626926f588fb57e94fcf11e79025cfb0fc79",
       "sourcePackageVersion": "1.374.13",
       "intentIds": []
+    },
+    {
+      "sourceSha": "90f9d8951e35f9dff68b6ab3d40fa815e11808c6",
+      "sourcePackageVersion": "1.374.13",
+      "intentIds": [
+        "terminal-vitest-cache-lazy-yaml:0126a4f14b3b3a67d261009cf3fbec30797bb1c8fa903e10cb3fdaca9f93ee20"
+      ]
+    },
+    {
+      "sourceSha": "6804e6a6a1161699fcefae23d1264101822c31bc",
+      "sourcePackageVersion": "1.374.13",
+      "intentIds": [
+        "home-health-upload:e909fcd7113eedd8dcb264c8e820e05e8d2b61276b609acf6b5010751b415570"
+      ]
     }
   ],
   "intents": [
@@ -107944,6 +107958,22 @@
       "summary": "Terminal's one-feed rail gains an Automations tab after the kinds, replacing the top-row Automations button. It lists the organization's automations, with a count of those that need you, and opens a row, the overview or the create flow on the web page in Web mode. Offline it says \"Automations need a connection\".",
       "sourceSha": "1774b1e0f4a3dddf4fd6c349d1dce7ec1f642d88",
       "identity": "terminal-automations-rail-tab:a40c84657e891a5d701ebf24fc0dc42d0c68e254c5bf87799ca02aed7f0e934e"
+    },
+    {
+      "id": "terminal-vitest-cache-lazy-yaml",
+      "digest": "0126a4f14b3b3a67d261009cf3fbec30797bb1c8fa903e10cb3fdaca9f93ee20",
+      "type": "patch",
+      "summary": "The CI script that restores Terminal's Vitest module cache loads again where only the root dependencies are installed: it reads pnpm's install manifest with yaml only when it needs to.",
+      "sourceSha": "90f9d8951e35f9dff68b6ab3d40fa815e11808c6",
+      "identity": "terminal-vitest-cache-lazy-yaml:0126a4f14b3b3a67d261009cf3fbec30797bb1c8fa903e10cb3fdaca9f93ee20"
+    },
+    {
+      "id": "home-health-upload",
+      "digest": "e909fcd7113eedd8dcb264c8e820e05e8d2b61276b609acf6b5010751b415570",
+      "type": "patch",
+      "summary": "A synced project's cloud copy now carries the same health and reason the home's rail and Home show, and it is re-sent when health changes with no other event (the quiet window passing, a limit wait ending), so other devices stop reading a stopped Orchestrator as a question waiting on you.",
+      "sourceSha": "6804e6a6a1161699fcefae23d1264101822c31bc",
+      "identity": "home-health-upload:e909fcd7113eedd8dcb264c8e820e05e8d2b61276b609acf6b5010751b415570"
     }
   ],
   "consumedIntentIds": [
