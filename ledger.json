@@ -54577,10 +54577,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40494561504",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-28T11:14:48.079Z",
         "dispatch": null,
         "failures": []
       }
