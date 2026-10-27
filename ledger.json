@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "66719a7d6d0e3c8bae78df192e5b1069d6ea1828",
+  "cursorSha": "72786cd21fea1b66249021ce1de2c32f77e7b172",
   "highWaterVersion": "1.374.6",
   "rows": [
     {
@@ -106577,6 +106577,13 @@
       "sourceSha": "66719a7d6d0e3c8bae78df192e5b1069d6ea1828",
       "sourcePackageVersion": "1.374.10",
       "intentIds": []
+    },
+    {
+      "sourceSha": "72786cd21fea1b66249021ce1de2c32f77e7b172",
+      "sourcePackageVersion": "1.374.10",
+      "intentIds": [
+        "terminal-vitest-store-layout:532ddff63f6507e7fdb88bbe3693b2c922a1a1a6a6abae6b3b9908dae779cc5f"
+      ]
     }
   ],
   "intents": [
@@ -107747,6 +107754,14 @@
       "summary": "Clear checkout-discovery state when resetting shared PR-status E2E fixtures.",
       "sourceSha": "fdbc319f0401e6868c841f267e7481847212d863",
       "identity": "quiet-pr-fixture-discovery:1b2c13aa57124433cdd89918e8c2f7a25aa98e603f1b768cc6898d1504510ae3"
+    },
+    {
+      "id": "terminal-vitest-store-layout",
+      "digest": "532ddff63f6507e7fdb88bbe3693b2c922a1a1a6a6abae6b3b9908dae779cc5f",
+      "type": "patch",
+      "summary": "Keep Terminal test transform caches separate across pnpm dependency store layouts.",
+      "sourceSha": "72786cd21fea1b66249021ce1de2c32f77e7b172",
+      "identity": "terminal-vitest-store-layout:532ddff63f6507e7fdb88bbe3693b2c922a1a1a6a6abae6b3b9908dae779cc5f"
     }
   ],
   "consumedIntentIds": [
