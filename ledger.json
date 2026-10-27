@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b5feb21ab44486679c25caf50d906316b4d624cf",
+  "cursorSha": "532b88e90853cd50d33186d80339e54e5f5c41c0",
   "highWaterVersion": "1.374.27",
   "rows": [
     {
@@ -108584,6 +108584,11 @@
       "intentIds": [
         "tidy-canonical-recovery:8d3677d572f9ce4a0c890cc3c02b23841839ab45a7054305eaf65445ef28d110"
       ]
+    },
+    {
+      "sourceSha": "532b88e90853cd50d33186d80339e54e5f5c41c0",
+      "sourcePackageVersion": "1.374.42",
+      "intentIds": []
     }
   ],
   "intents": [
