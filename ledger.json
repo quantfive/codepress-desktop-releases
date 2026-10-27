@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4d520576be8463c03617d552c9e366dfec60253c",
+  "cursorSha": "4d8b36321f4f550b18d875ab23b7ad37421b5c8e",
   "highWaterVersion": "1.374.17",
   "rows": [
     {
@@ -107545,6 +107545,13 @@
       "sourceSha": "4d520576be8463c03617d552c9e366dfec60253c",
       "sourcePackageVersion": "1.374.27",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4d8b36321f4f550b18d875ab23b7ad37421b5c8e",
+      "sourcePackageVersion": "1.374.27",
+      "intentIds": [
+        "orchestrator-inline-file-links:08030585d01b252cfacdecf389e5faa4abc85bc3f7e3732739ddf5d6a78e7b43"
+      ]
     }
   ],
   "intents": [
@@ -108859,6 +108866,14 @@
       "summary": "Show MCP sign-in cards in Orchestrator projects and chats and notify the Orchestrator when sign-in completes or fails.",
       "sourceSha": "e8c4e802cd7e630f8ae2716bc5b72acb9b2d1366",
       "identity": "thread-mcp-sign-in:fccd96415f058e65b53ac849af3c3d0e418091da3ceef5dc0ed3b86b96f19488"
+    },
+    {
+      "id": "orchestrator-inline-file-links",
+      "digest": "08030585d01b252cfacdecf389e5faa4abc85bc3f7e3732739ddf5d6a78e7b43",
+      "type": "patch",
+      "summary": "Link existing bare file names and relative paths in Orchestrator prose, opening the resolved file in Files. Guide project and chat replies to write file mentions as links.",
+      "sourceSha": "4d8b36321f4f550b18d875ab23b7ad37421b5c8e",
+      "identity": "orchestrator-inline-file-links:08030585d01b252cfacdecf389e5faa4abc85bc3f7e3732739ddf5d6a78e7b43"
     }
   ],
   "consumedIntentIds": [
