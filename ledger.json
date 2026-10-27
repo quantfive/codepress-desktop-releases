@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a7f82db7b0b6322d0065d7eab885d4144b1476e3",
+  "cursorSha": "fe2e45255c8907e878c23f447a4def6f0ba24d53",
   "highWaterVersion": "1.374.24",
   "rows": [
     {
@@ -108323,6 +108323,13 @@
       "sourceSha": "a7f82db7b0b6322d0065d7eab885d4144b1476e3",
       "sourcePackageVersion": "1.374.37",
       "intentIds": []
+    },
+    {
+      "sourceSha": "fe2e45255c8907e878c23f447a4def6f0ba24d53",
+      "sourcePackageVersion": "1.374.37",
+      "intentIds": [
+        "replica-state-push-skips-feed:5180d442b89448d491e6efdb39cc02374bd18b215fa53b4e5b3244b430b18572"
+      ]
     }
   ],
   "intents": [
@@ -109717,6 +109724,14 @@
       "summary": "Record a rule-bound Orchestrator's launch repository before pinning a restricted subscription account, and explain refusals using the project setting or repository rule and the account's allowed repositories.",
       "sourceSha": "f55e224b39ecf46ac400e5b7479df15d25973df2",
       "identity": "rule-bound-pm-launch-repository:a5a32b03b8d1f20ba132e3dc4df40173701ea0817531f58433ae0f35259e8ba0"
+    },
+    {
+      "id": "replica-state-push-skips-feed",
+      "digest": "5180d442b89448d491e6efdb39cc02374bd18b215fa53b4e5b3244b430b18572",
+      "type": "patch",
+      "summary": "Saving a project's state on another device no longer re-reads the Orchestrator rail and feed; only a card change does.",
+      "sourceSha": "fe2e45255c8907e878c23f447a4def6f0ba24d53",
+      "identity": "replica-state-push-skips-feed:5180d442b89448d491e6efdb39cc02374bd18b215fa53b4e5b3244b430b18572"
     }
   ],
   "consumedIntentIds": [
