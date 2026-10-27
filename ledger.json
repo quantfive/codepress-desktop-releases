@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "ea6f8b261a5b107e53c428e16c4e84033eed426d",
-  "highWaterVersion": "1.374.8",
+  "highWaterVersion": "1.374.9",
   "rows": [
     {
       "schemaVersion": 1,
@@ -54352,6 +54352,55 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:ea6f8b261a5b107e53c428e16c4e84033eed426d",
+      "kind": "main",
+      "sequence": 1701,
+      "sourceSha": "ea6f8b261a5b107e53c428e16c4e84033eed426d",
+      "sourcePackageVersion": "1.374.14",
+      "version": "1.374.9",
+      "publicationDate": "2026-10-27T09:02:47.206Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-automations-rail-tab:a40c84657e891a5d701ebf24fc0dc42d0c68e254c5bf87799ca02aed7f0e934e",
+          "terminal-vitest-cache-lazy-yaml:0126a4f14b3b3a67d261009cf3fbec30797bb1c8fa903e10cb3fdaca9f93ee20",
+          "home-health-upload:e909fcd7113eedd8dcb264c8e820e05e8d2b61276b609acf6b5010751b415570",
+          "terminal-new-vm-destinations:852e7b2c683595ec98e123de868cd569533a57593aced09eb09dfa37f3df69e2"
+        ],
+        "notesIntentIds": [
+          "terminal-automations-rail-tab:a40c84657e891a5d701ebf24fc0dc42d0c68e254c5bf87799ca02aed7f0e934e",
+          "terminal-vitest-cache-lazy-yaml:0126a4f14b3b3a67d261009cf3fbec30797bb1c8fa903e10cb3fdaca9f93ee20",
+          "home-health-upload:e909fcd7113eedd8dcb264c8e820e05e8d2b61276b609acf6b5010751b415570",
+          "terminal-new-vm-destinations:852e7b2c683595ec98e123de868cd569533a57593aced09eb09dfa37f3df69e2"
+        ],
+        "throughSourceSha": "ea6f8b261a5b107e53c428e16c4e84033eed426d",
+        "previousThroughSourceSha": "fa4a788a88350dbb2f4aeeb61170f72c0e8d624a",
+        "baselineVersion": "1.374.8",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40477655186",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-28T09:02:24.037Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -108144,7 +108193,11 @@
     "terminal-launch-draws-once:4c3b17d55e7d15b819dc6900a7b52e699ef64ac1f33c4c4c5a95486c9d865a3f",
     "quiet-pr-fixture-discovery:1b2c13aa57124433cdd89918e8c2f7a25aa98e603f1b768cc6898d1504510ae3",
     "terminal-vitest-store-layout:532ddff63f6507e7fdb88bbe3693b2c922a1a1a6a6abae6b3b9908dae779cc5f",
-    "banked-reset-picker:f339463c2e86cc52750d9eaec37ce815a9b17bbac26260f2c8b67301d25808ce"
+    "banked-reset-picker:f339463c2e86cc52750d9eaec37ce815a9b17bbac26260f2c8b67301d25808ce",
+    "terminal-automations-rail-tab:a40c84657e891a5d701ebf24fc0dc42d0c68e254c5bf87799ca02aed7f0e934e",
+    "terminal-vitest-cache-lazy-yaml:0126a4f14b3b3a67d261009cf3fbec30797bb1c8fa903e10cb3fdaca9f93ee20",
+    "home-health-upload:e909fcd7113eedd8dcb264c8e820e05e8d2b61276b609acf6b5010751b415570",
+    "terminal-new-vm-destinations:852e7b2c683595ec98e123de868cd569533a57593aced09eb09dfa37f3df69e2"
   ],
-  "consumedThroughSha": "fa4a788a88350dbb2f4aeeb61170f72c0e8d624a"
+  "consumedThroughSha": "ea6f8b261a5b107e53c428e16c4e84033eed426d"
 }
