@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "f48d8e8e8ece5ce852692878cefdd7fb2c8936fb",
-  "highWaterVersion": "1.376.3",
+  "highWaterVersion": "1.377.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -55976,6 +55976,66 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:f48d8e8e8ece5ce852692878cefdd7fb2c8936fb",
+      "kind": "main",
+      "sequence": 1729,
+      "sourceSha": "f48d8e8e8ece5ce852692878cefdd7fb2c8936fb",
+      "sourcePackageVersion": "1.377.1",
+      "version": "1.377.0",
+      "publicationDate": "2026-10-28T03:46:57.977Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "mention-local-channel-notice:c1f1fa093b33d4752c9503290eacd93ab1e499a6535ebab136f2add483fd5259",
+          "fable-weekly-accounts:5b90d45cee686feffdaed6dc11783ab3c44cd6f56713ebba6ecac62b5e2008df",
+          "land-project-cloud:3a281eca0259b60785519a33f898815a96bc3efa6710a2442281a2193a72fd8a",
+          "quiet-canvas-pages:22eae8a3276170681e7eb538fade494e9e3b195483d3c57e7b4d6c2b64f6092d",
+          "inline-project-settings:4a61b244801444c2c0cc872876bf7a8df0392b4108ccf62afc247b648dcec37f"
+        ],
+        "notesIntentIds": [
+          "archive-answers-first:03a4c989dc9421762db6f467f8dd62887b5946f74e1ced17834b3ece6f25376e",
+          "local-preview-origins:f56e79f5f44d41ce50d26f7f9880abc499ad7573727ea07aec4b280501a25a5e",
+          "soft-mcp-sign-in-notice:c94455b4ddecda52fb0d2ea7af70b2da0b8b88bd7996124ee56505c91e375d0c",
+          "narrow-held-rows:39e7a00fc5669b24b1ee24d3d24dcb7436063b5adf127c7e1c0f6618543b35dc",
+          "unified-shell-flag:7f4e11e5d65b0a48ca509c4b813e0c55c396a980fdef76d5fe3716be0d91751d",
+          "headless-claude-entrypoint:5a88122e3a3f71e48f498849277bd1d031b52dbd8c5e92cba9a2f5b0ffaece72",
+          "fast-this-mac-handoff-preview:856036af03028741d5ca50fcbfa05408043e4498867769471f325a79a0c35d31",
+          "tidy-machine-channel-reconnect:274dc996581bf01f2139b554a80b9caf071d9973225f47525b1b240fb54617f2",
+          "green-machines-menu:4c4a9a5de90679cad1c4c9ae060751c23fe1c8b86bc78051285fca6bafc9408a",
+          "mention-local-channel-notice:c1f1fa093b33d4752c9503290eacd93ab1e499a6535ebab136f2add483fd5259",
+          "fable-weekly-accounts:5b90d45cee686feffdaed6dc11783ab3c44cd6f56713ebba6ecac62b5e2008df",
+          "land-project-cloud:3a281eca0259b60785519a33f898815a96bc3efa6710a2442281a2193a72fd8a",
+          "quiet-canvas-pages:22eae8a3276170681e7eb538fade494e9e3b195483d3c57e7b4d6c2b64f6092d",
+          "inline-project-settings:4a61b244801444c2c0cc872876bf7a8df0392b4108ccf62afc247b648dcec37f"
+        ],
+        "throughSourceSha": "f48d8e8e8ece5ce852692878cefdd7fb2c8936fb",
+        "previousThroughSourceSha": "e20aabafee4e0ec1288735a46e671f4458986436",
+        "baselineVersion": "1.376.3",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40628189982",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-29T03:46:32.818Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -111469,7 +111529,12 @@
     "headless-claude-entrypoint:5a88122e3a3f71e48f498849277bd1d031b52dbd8c5e92cba9a2f5b0ffaece72",
     "fast-this-mac-handoff-preview:856036af03028741d5ca50fcbfa05408043e4498867769471f325a79a0c35d31",
     "tidy-machine-channel-reconnect:274dc996581bf01f2139b554a80b9caf071d9973225f47525b1b240fb54617f2",
-    "green-machines-menu:4c4a9a5de90679cad1c4c9ae060751c23fe1c8b86bc78051285fca6bafc9408a"
+    "green-machines-menu:4c4a9a5de90679cad1c4c9ae060751c23fe1c8b86bc78051285fca6bafc9408a",
+    "mention-local-channel-notice:c1f1fa093b33d4752c9503290eacd93ab1e499a6535ebab136f2add483fd5259",
+    "fable-weekly-accounts:5b90d45cee686feffdaed6dc11783ab3c44cd6f56713ebba6ecac62b5e2008df",
+    "land-project-cloud:3a281eca0259b60785519a33f898815a96bc3efa6710a2442281a2193a72fd8a",
+    "quiet-canvas-pages:22eae8a3276170681e7eb538fade494e9e3b195483d3c57e7b4d6c2b64f6092d",
+    "inline-project-settings:4a61b244801444c2c0cc872876bf7a8df0392b4108ccf62afc247b648dcec37f"
   ],
-  "consumedThroughSha": "e20aabafee4e0ec1288735a46e671f4458986436"
+  "consumedThroughSha": "f48d8e8e8ece5ce852692878cefdd7fb2c8936fb"
 }
