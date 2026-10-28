@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "08aee1fcf826b76f57699090dcb0524bdca237e8",
+  "cursorSha": "92cce8664dcccdf9d17c75f5a7e4c8f867b44448",
   "highWaterVersion": "1.378.23",
   "rows": [
     {
@@ -112297,6 +112297,18 @@
       "sourceSha": "08aee1fcf826b76f57699090dcb0524bdca237e8",
       "sourcePackageVersion": "1.378.35",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f0eb35d9fe09eb5ef1aed7c02e2a5630c611c54c",
+      "sourcePackageVersion": "1.378.35",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "92cce8664dcccdf9d17c75f5a7e4c8f867b44448",
+      "sourcePackageVersion": "1.378.35",
+      "intentIds": [
+        "review-one-step:e19b8821eadcc4577492862eaf989fed7790528de69808b5860d063d9cc1d47d"
+      ]
     }
   ],
   "intents": [
@@ -114395,6 +114407,14 @@
       "summary": "Keep lock-screen unlock off in permission onboarding unless the person enables it, preserving existing saved choices.",
       "sourceSha": "896437b0393279f6797c4478f85cd9b7e75c435d",
       "identity": "terminal-onboarding-unlock-consent:d891b73e1ea373c07ba7aa7bf64e615b5f26666345b2768d8c5717a57ab2b1a4"
+    },
+    {
+      "id": "review-one-step",
+      "digest": "e19b8821eadcc4577492862eaf989fed7790528de69808b5860d063d9cc1d47d",
+      "type": "patch",
+      "summary": "A work item's card reads Code, Review, Ready, Merged, and stays \"In review\" from the pull request opening until it is Ready or Merged, whatever the worker is doing. The Work tab groups items by their own step, and the project track is Brief, Plan, Build and Land, with Build showing how many items are in review.",
+      "sourceSha": "92cce8664dcccdf9d17c75f5a7e4c8f867b44448",
+      "identity": "review-one-step:e19b8821eadcc4577492862eaf989fed7790528de69808b5860d063d9cc1d47d"
     }
   ],
   "consumedIntentIds": [
