@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "ebdd2db0462673c75e02a4c84fcbe0bc7d33a47d",
-  "highWaterVersion": "1.377.3",
+  "highWaterVersion": "1.378.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -56231,6 +56231,55 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:ebdd2db0462673c75e02a4c84fcbe0bc7d33a47d",
+      "kind": "main",
+      "sequence": 1733,
+      "sourceSha": "ebdd2db0462673c75e02a4c84fcbe0bc7d33a47d",
+      "sourcePackageVersion": "1.378.1",
+      "version": "1.378.0",
+      "publicationDate": "2026-10-28T05:57:38.452Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "fast-terminal-settings-snapshot:91494085711c773df8589e0955ce963fbebf6876f21703c359c513f27054fcc2",
+          "quick-delete-answers:0c9c6d82954eb2a8e0b922e3fba0e364f55f606307e5e28a7d8e87653e12588a",
+          "remote-unlock-host-setup:73fc6b6061c25f9b5accd6b71e7991203acd71fe7b859c88434de85abb281dbc",
+          "return-moved-project-to-this-mac:17240d5a9832823cc8bf0f08590806c8716ff975a1a592e96b608d5c738e8b14"
+        ],
+        "notesIntentIds": [
+          "fast-terminal-settings-snapshot:91494085711c773df8589e0955ce963fbebf6876f21703c359c513f27054fcc2",
+          "quick-delete-answers:0c9c6d82954eb2a8e0b922e3fba0e364f55f606307e5e28a7d8e87653e12588a",
+          "remote-unlock-host-setup:73fc6b6061c25f9b5accd6b71e7991203acd71fe7b859c88434de85abb281dbc",
+          "return-moved-project-to-this-mac:17240d5a9832823cc8bf0f08590806c8716ff975a1a592e96b608d5c738e8b14"
+        ],
+        "throughSourceSha": "ebdd2db0462673c75e02a4c84fcbe0bc7d33a47d",
+        "previousThroughSourceSha": "acaecb3ad07ce09cbe06c1471ffb7f3a680b0878",
+        "baselineVersion": "1.377.3",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40640163025",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-29T05:57:12.889Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -112121,7 +112170,11 @@
     "slow-kata-host-boot:212d21a83e46c797affa45ac754869307ca884fd15fdc8b41b54d896f96174e1",
     "plan-page-frame-origin-guard:5e80f18ff347451af01c80617b9718cbf29697c97952de96d8edd16f73f1d5eb",
     "always-on-terminal-chat-mentions:17e26460b0f88fdbb8483eb9bb0de225a7208b08ad174d3fe020fcc7f7909fd1",
-    "accounts-instant-paint:128690e399ee27755c248dd0ca7b58ae7824569327e788f84cbbb91be3b598d4"
+    "accounts-instant-paint:128690e399ee27755c248dd0ca7b58ae7824569327e788f84cbbb91be3b598d4",
+    "fast-terminal-settings-snapshot:91494085711c773df8589e0955ce963fbebf6876f21703c359c513f27054fcc2",
+    "quick-delete-answers:0c9c6d82954eb2a8e0b922e3fba0e364f55f606307e5e28a7d8e87653e12588a",
+    "remote-unlock-host-setup:73fc6b6061c25f9b5accd6b71e7991203acd71fe7b859c88434de85abb281dbc",
+    "return-moved-project-to-this-mac:17240d5a9832823cc8bf0f08590806c8716ff975a1a592e96b608d5c738e8b14"
   ],
-  "consumedThroughSha": "acaecb3ad07ce09cbe06c1471ffb7f3a680b0878"
+  "consumedThroughSha": "ebdd2db0462673c75e02a4c84fcbe0bc7d33a47d"
 }
