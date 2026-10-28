@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "77c9156afcd565d27bbae03affd4bb46497dbfeb",
+  "cursorSha": "2942c16b5d69c0ab79946e047827cd0804001bac",
   "highWaterVersion": "1.374.30",
   "rows": [
     {
@@ -108894,6 +108894,13 @@
       "sourceSha": "77c9156afcd565d27bbae03affd4bb46497dbfeb",
       "sourcePackageVersion": "1.374.46",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2942c16b5d69c0ab79946e047827cd0804001bac",
+      "sourcePackageVersion": "1.374.46",
+      "intentIds": [
+        "shared-github-stats-busy:39b1a18bffd6ae3310647c3af022511cc844612e397c50ba40146cb2fb2f5ea5"
+      ]
     }
   ],
   "intents": [
@@ -110376,6 +110383,14 @@
       "summary": "Find text with Cmd/Ctrl+F in the Orchestrator prompt editor and keep Contents on the section visible while scrolling.",
       "sourceSha": "e2a7a61ad59ee6897009158cadf50c9067dfe576",
       "identity": "prompt-find-scroll-contents:f68ccd3544535b2aa22723ca61cd50fc68768fd06c94cf592624af0331bdefe5"
+    },
+    {
+      "id": "shared-github-stats-busy",
+      "digest": "39b1a18bffd6ae3310647c3af022511cc844612e397c50ba40146cb2fb2f5ea5",
+      "type": "patch",
+      "summary": "Show temporary shared GitHub stats server congestion as busy, retaining cached ranges without marking the server offline.",
+      "sourceSha": "2942c16b5d69c0ab79946e047827cd0804001bac",
+      "identity": "shared-github-stats-busy:39b1a18bffd6ae3310647c3af022511cc844612e397c50ba40146cb2fb2f5ea5"
     }
   ],
   "consumedIntentIds": [
