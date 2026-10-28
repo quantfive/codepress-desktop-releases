@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "b7293f9c3caec35fea5b9461b015e7f7c0daf4e2",
-  "highWaterVersion": "1.377.0",
+  "highWaterVersion": "1.377.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -56048,6 +56048,61 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:b7293f9c3caec35fea5b9461b015e7f7c0daf4e2",
+      "kind": "main",
+      "sequence": 1730,
+      "sourceSha": "b7293f9c3caec35fea5b9461b015e7f7c0daf4e2",
+      "sourcePackageVersion": "1.377.4",
+      "version": "1.377.1",
+      "publicationDate": "2026-10-28T04:15:59.680Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "narrow-creation-relaunch-wait:4fd5397665e7f45c870ba2f479ab6a993aac0b184c17f2f4a7bb9ed8b498dd88",
+          "offline-shared-machine-moon:f2f7d03295fa996f1ce87fff6667717442a83119f830a38bf259ec6b0df382e6",
+          "headless-machine-auth-retry:d0e75e995ba09aee5538db80061458bd38c9799214fe98f88c5bb9f446648fec",
+          "narrow-worker-removal:f9a5e8a823408ca8681f27f52a0b4da5c8394ff12b45b5304805d5abaf69c065",
+          "remote-machine-file-opener:efdc3f131a627044924d44016fa758d5b9908a7d710832af5190a2ad9644f6a9",
+          "quick-shared-snapshot-pages:a0b84ad75ea2fb08927a88dee991a621e53ea84c58b5e06679266878cfbbccfa",
+          "anthropic-sdk-0312:affc4a12384ecd506a466ab80fb378e91aaa2af68cc2c3a03d09535b0cfa9bbb"
+        ],
+        "notesIntentIds": [
+          "narrow-creation-relaunch-wait:4fd5397665e7f45c870ba2f479ab6a993aac0b184c17f2f4a7bb9ed8b498dd88",
+          "offline-shared-machine-moon:f2f7d03295fa996f1ce87fff6667717442a83119f830a38bf259ec6b0df382e6",
+          "headless-machine-auth-retry:d0e75e995ba09aee5538db80061458bd38c9799214fe98f88c5bb9f446648fec",
+          "narrow-worker-removal:f9a5e8a823408ca8681f27f52a0b4da5c8394ff12b45b5304805d5abaf69c065",
+          "remote-machine-file-opener:efdc3f131a627044924d44016fa758d5b9908a7d710832af5190a2ad9644f6a9",
+          "quick-shared-snapshot-pages:a0b84ad75ea2fb08927a88dee991a621e53ea84c58b5e06679266878cfbbccfa",
+          "anthropic-sdk-0312:affc4a12384ecd506a466ab80fb378e91aaa2af68cc2c3a03d09535b0cfa9bbb"
+        ],
+        "throughSourceSha": "b7293f9c3caec35fea5b9461b015e7f7c0daf4e2",
+        "previousThroughSourceSha": "f48d8e8e8ece5ce852692878cefdd7fb2c8936fb",
+        "baselineVersion": "1.377.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40630903340",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-29T04:15:36.021Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -111686,7 +111741,14 @@
     "fable-weekly-accounts:5b90d45cee686feffdaed6dc11783ab3c44cd6f56713ebba6ecac62b5e2008df",
     "land-project-cloud:3a281eca0259b60785519a33f898815a96bc3efa6710a2442281a2193a72fd8a",
     "quiet-canvas-pages:22eae8a3276170681e7eb538fade494e9e3b195483d3c57e7b4d6c2b64f6092d",
-    "inline-project-settings:4a61b244801444c2c0cc872876bf7a8df0392b4108ccf62afc247b648dcec37f"
+    "inline-project-settings:4a61b244801444c2c0cc872876bf7a8df0392b4108ccf62afc247b648dcec37f",
+    "narrow-creation-relaunch-wait:4fd5397665e7f45c870ba2f479ab6a993aac0b184c17f2f4a7bb9ed8b498dd88",
+    "offline-shared-machine-moon:f2f7d03295fa996f1ce87fff6667717442a83119f830a38bf259ec6b0df382e6",
+    "headless-machine-auth-retry:d0e75e995ba09aee5538db80061458bd38c9799214fe98f88c5bb9f446648fec",
+    "narrow-worker-removal:f9a5e8a823408ca8681f27f52a0b4da5c8394ff12b45b5304805d5abaf69c065",
+    "remote-machine-file-opener:efdc3f131a627044924d44016fa758d5b9908a7d710832af5190a2ad9644f6a9",
+    "quick-shared-snapshot-pages:a0b84ad75ea2fb08927a88dee991a621e53ea84c58b5e06679266878cfbbccfa",
+    "anthropic-sdk-0312:affc4a12384ecd506a466ab80fb378e91aaa2af68cc2c3a03d09535b0cfa9bbb"
   ],
-  "consumedThroughSha": "f48d8e8e8ece5ce852692878cefdd7fb2c8936fb"
+  "consumedThroughSha": "b7293f9c3caec35fea5b9461b015e7f7c0daf4e2"
 }
