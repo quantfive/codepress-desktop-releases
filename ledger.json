@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a4130c26b5f8d91ac711f8a9d8ac68443aafdf38",
+  "cursorSha": "0b80705d20fabad059ed93da128c107b279e7638",
   "highWaterVersion": "1.378.22",
   "rows": [
     {
@@ -112202,6 +112202,18 @@
       "sourceSha": "a4130c26b5f8d91ac711f8a9d8ac68443aafdf38",
       "sourcePackageVersion": "1.378.34",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2e7ac90a8c55a8114c9f42f8f1c2c36931edd25e",
+      "sourcePackageVersion": "1.378.34",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "0b80705d20fabad059ed93da128c107b279e7638",
+      "sourcePackageVersion": "1.378.34",
+      "intentIds": [
+        "orchestrator-restricted-project-repositories:43fe79e60a37a6e444472c8d1924704e79ba0545fd78d64248bfa0bf84c87aee"
+      ]
     }
   ],
   "intents": [
@@ -114276,6 +114288,14 @@
       "summary": "Orchestrator: once a work item's pull request is open, its phase no longer goes back to Coding. The pull request's own updates stop resetting the item to \"In checks\", a write that sets `implement` on an item with an open pull request is stored as checks, and a judge FAIL shows \"fixing judge findings · round N\" while the item stays in review. The 3-hour step check now calls the Verify step Review.",
       "sourceSha": "1dfbcf9603ddf3574c57d85c6ddac5ef01954ad7",
       "identity": "item-phases-follow-review-loop:a63ab0e68d7c1e8ce78f953ffb6fec91c2bffac5885adff944e70e87d5e1b78c"
+    },
+    {
+      "id": "orchestrator-restricted-project-repositories",
+      "digest": "43fe79e60a37a6e444472c8d1924704e79ba0545fd78d64248bfa0bf84c87aee",
+      "type": "patch",
+      "summary": "Allow an Orchestrator outside a git repository to use a restricted account when every recorded project repository is covered, consistently across window and host launches and the account picker. Explain uncovered repositories in refusal messages.",
+      "sourceSha": "0b80705d20fabad059ed93da128c107b279e7638",
+      "identity": "orchestrator-restricted-project-repositories:43fe79e60a37a6e444472c8d1924704e79ba0545fd78d64248bfa0bf84c87aee"
     }
   ],
   "consumedIntentIds": [
