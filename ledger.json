@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "74d085556ef25aba92f3f9638bc798f7ccbedfdd",
+  "cursorSha": "f5bb5482c327e923c02ca7bef2106e57959fe342",
   "highWaterVersion": "1.378.1",
   "rows": [
     {
@@ -110299,6 +110299,13 @@
       "sourceSha": "74d085556ef25aba92f3f9638bc798f7ccbedfdd",
       "sourcePackageVersion": "1.378.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f5bb5482c327e923c02ca7bef2106e57959fe342",
+      "sourcePackageVersion": "1.378.3",
+      "intentIds": [
+        "sponsor-terminal-relay:33d24dcb22a3ea7c81476c3070eea6cf3abbcf67eeb8db71eeb3fd22829faa2b"
+      ]
     }
   ],
   "intents": [
@@ -112077,6 +112084,14 @@
       "summary": "Removing a worker's folder waits for a closed tab's exit instead of polling for it, a project's trees share one process read, archive releases a project's repository trees in parallel, and each removal logs how long every step took.",
       "sourceSha": "7daa67c43758309783eb8697c09332882c0ff30b",
       "identity": "faster-worker-tree-cleanup:f7ef647b964b41c28b6ecce75df18e6b5c3d2417a37a758183aa377bd03a153e"
+    },
+    {
+      "id": "sponsor-terminal-relay",
+      "digest": "33d24dcb22a3ea7c81476c3070eea6cf3abbcf67eeb8db71eeb3fd22829faa2b",
+      "type": "patch",
+      "summary": "Continue limited Terminal workers through sponsored subscriptions on the hosted relay and show read-only sponsor availability in Accounts. Preserve newer project account choices during sponsored replacement startup.",
+      "sourceSha": "f5bb5482c327e923c02ca7bef2106e57959fe342",
+      "identity": "sponsor-terminal-relay:33d24dcb22a3ea7c81476c3070eea6cf3abbcf67eeb8db71eeb3fd22829faa2b"
     }
   ],
   "consumedIntentIds": [
