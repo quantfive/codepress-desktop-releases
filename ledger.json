@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2accb5adb465f31628707037c8812925d5682fc9",
+  "cursorSha": "d9e5870e8235b8dba7eb81ac2c5b8ad2a4d28f7a",
   "highWaterVersion": "1.378.8",
   "rows": [
     {
@@ -110911,6 +110911,13 @@
       "sourceSha": "2accb5adb465f31628707037c8812925d5682fc9",
       "sourcePackageVersion": "1.378.16",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d9e5870e8235b8dba7eb81ac2c5b8ad2a4d28f7a",
+      "sourcePackageVersion": "1.378.16",
+      "intentIds": [
+        "compact-accounts-rows:a0ed6d5601581710431c29c7f8d7f00041f3a897b94fc462f5766d7fcbcd0ffb"
+      ]
     }
   ],
   "intents": [
@@ -112801,6 +112808,14 @@
       "summary": "Show Reconnecting while the machine still answers health probes, retaining accepted agent counts until their receipt lease expires on desktop and phone.",
       "sourceSha": "deac8310487a374d7e7f894d854e8d38ee8cf753",
       "identity": "honest-redial-status:d39005e85092106ce198a016d33e1f0349eadde48c72d7e7ee6b93694678fc7b"
+    },
+    {
+      "id": "compact-accounts-rows",
+      "digest": "a0ed6d5601581710431c29c7f8d7f00041f3a897b94fc462f5766d7fcbcd0ffb",
+      "type": "patch",
+      "summary": "Flatten Agents Accounts into compact expandable rows with a simpler computer toolbar and actionable provider readiness.",
+      "sourceSha": "d9e5870e8235b8dba7eb81ac2c5b8ad2a4d28f7a",
+      "identity": "compact-accounts-rows:a0ed6d5601581710431c29c7f8d7f00041f3a897b94fc462f5766d7fcbcd0ffb"
     }
   ],
   "consumedIntentIds": [
