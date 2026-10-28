@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f814660835f8e0a09240a9944c476fe4a033caa5",
+  "cursorSha": "d35eeaf4720a6b9a6ddbd774f3cfa11488ecdc27",
   "highWaterVersion": "1.378.13",
   "rows": [
     {
@@ -111391,6 +111391,13 @@
       "sourceSha": "f814660835f8e0a09240a9944c476fe4a033caa5",
       "sourcePackageVersion": "1.378.25",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d35eeaf4720a6b9a6ddbd774f3cfa11488ecdc27",
+      "sourcePackageVersion": "1.378.25",
+      "intentIds": [
+        "ghostty-incremental-render:f5cac6a647c7805a4745a81fbfe025f2b316029ff3b667425dce4e4a60b2f728"
+      ]
     }
   ],
   "intents": [
@@ -113361,6 +113368,14 @@
       "summary": "The Agent (Orchestrator) mode button no longer disappears from the title bar when the account has not loaded; the mode shows its loading or sign-in state instead, and a failed account read after a window reload is retried.",
       "sourceSha": "881ebc2ceefab237e3bbb29080a93c87c84e0a67",
       "identity": "orchestrator-button-always-shown:38d395bf16401cf92342e00235507f8a9936f5aa70effdcb9bacbbb1896faa74"
+    },
+    {
+      "id": "ghostty-incremental-render",
+      "digest": "f5cac6a647c7805a4745a81fbfe025f2b316029ff3b667425dce4e4a60b2f728",
+      "type": "patch",
+      "summary": "Ghostty tabs now render incrementally from libghostty's dirty render state, at most once per display frame, and stop rendering while hidden. A busy background Ghostty tab no longer pins the UI thread and lags typing in other tabs.",
+      "sourceSha": "d35eeaf4720a6b9a6ddbd774f3cfa11488ecdc27",
+      "identity": "ghostty-incremental-render:f5cac6a647c7805a4745a81fbfe025f2b316029ff3b667425dce4e4a60b2f728"
     }
   ],
   "consumedIntentIds": [
