@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "b7725e61bf39a4479ab97fb56c0ed2e0fd4e2e65",
-  "highWaterVersion": "1.378.15",
+  "highWaterVersion": "1.378.16",
   "rows": [
     {
       "schemaVersion": 1,
@@ -57144,6 +57144,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:b7725e61bf39a4479ab97fb56c0ed2e0fd4e2e65",
+      "kind": "main",
+      "sequence": 1749,
+      "sourceSha": "b7725e61bf39a4479ab97fb56c0ed2e0fd4e2e65",
+      "sourcePackageVersion": "1.378.27",
+      "version": "1.378.16",
+      "publicationDate": "2026-10-28T17:15:15.746Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "ghostty-key-encoder:5582e5f1c522854702c2e36d04d99215aef1bb98c8d8163e66e81eff8f6ecc19",
+          "ghostty-restore-dead-owner:315a36d83ced2ee1d446a803224f2c406c835bc09748cf29fbf3ee9087291c43"
+        ],
+        "notesIntentIds": [
+          "ghostty-key-encoder:5582e5f1c522854702c2e36d04d99215aef1bb98c8d8163e66e81eff8f6ecc19",
+          "ghostty-restore-dead-owner:315a36d83ced2ee1d446a803224f2c406c835bc09748cf29fbf3ee9087291c43"
+        ],
+        "throughSourceSha": "b7725e61bf39a4479ab97fb56c0ed2e0fd4e2e65",
+        "previousThroughSourceSha": "d7fa16f6ba692d865a33d6a44c2db644ace2f8fc",
+        "baselineVersion": "1.378.15",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40733461976",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-29T17:14:48.168Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -113821,7 +113866,9 @@
     "terminal-ui-origin-boundary:1407889e2dba0980ef57425040a8b2354401db214763f116c8c4d71c96cfa4c6",
     "orchestrator-button-always-shown:38d395bf16401cf92342e00235507f8a9936f5aa70effdcb9bacbbb1896faa74",
     "ghostty-incremental-render:f5cac6a647c7805a4745a81fbfe025f2b316029ff3b667425dce4e4a60b2f728",
-    "remote-owner-organizations:4eec7269c2f991505668ee5ba2357dc99a49c942b6765346e85d008fa1c6c821"
+    "remote-owner-organizations:4eec7269c2f991505668ee5ba2357dc99a49c942b6765346e85d008fa1c6c821",
+    "ghostty-key-encoder:5582e5f1c522854702c2e36d04d99215aef1bb98c8d8163e66e81eff8f6ecc19",
+    "ghostty-restore-dead-owner:315a36d83ced2ee1d446a803224f2c406c835bc09748cf29fbf3ee9087291c43"
   ],
-  "consumedThroughSha": "d7fa16f6ba692d865a33d6a44c2db644ace2f8fc"
+  "consumedThroughSha": "b7725e61bf39a4479ab97fb56c0ed2e0fd4e2e65"
 }
