@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "acaecb3ad07ce09cbe06c1471ffb7f3a680b0878",
-  "highWaterVersion": "1.377.2",
+  "highWaterVersion": "1.377.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -56170,6 +56170,55 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:acaecb3ad07ce09cbe06c1471ffb7f3a680b0878",
+      "kind": "main",
+      "sequence": 1732,
+      "sourceSha": "acaecb3ad07ce09cbe06c1471ffb7f3a680b0878",
+      "sourcePackageVersion": "1.377.8",
+      "version": "1.377.3",
+      "publicationDate": "2026-10-28T05:23:10.611Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "slow-kata-host-boot:212d21a83e46c797affa45ac754869307ca884fd15fdc8b41b54d896f96174e1",
+          "plan-page-frame-origin-guard:5e80f18ff347451af01c80617b9718cbf29697c97952de96d8edd16f73f1d5eb",
+          "always-on-terminal-chat-mentions:17e26460b0f88fdbb8483eb9bb0de225a7208b08ad174d3fe020fcc7f7909fd1",
+          "accounts-instant-paint:128690e399ee27755c248dd0ca7b58ae7824569327e788f84cbbb91be3b598d4"
+        ],
+        "notesIntentIds": [
+          "slow-kata-host-boot:212d21a83e46c797affa45ac754869307ca884fd15fdc8b41b54d896f96174e1",
+          "plan-page-frame-origin-guard:5e80f18ff347451af01c80617b9718cbf29697c97952de96d8edd16f73f1d5eb",
+          "always-on-terminal-chat-mentions:17e26460b0f88fdbb8483eb9bb0de225a7208b08ad174d3fe020fcc7f7909fd1",
+          "accounts-instant-paint:128690e399ee27755c248dd0ca7b58ae7824569327e788f84cbbb91be3b598d4"
+        ],
+        "throughSourceSha": "acaecb3ad07ce09cbe06c1471ffb7f3a680b0878",
+        "previousThroughSourceSha": "ba4f54321e82d2b507bdde6bb7a3f6b502531457",
+        "baselineVersion": "1.377.2",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40636863688",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-29T05:22:45.948Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -111956,7 +112005,11 @@
     "remote-machine-file-opener:efdc3f131a627044924d44016fa758d5b9908a7d710832af5190a2ad9644f6a9",
     "quick-shared-snapshot-pages:a0b84ad75ea2fb08927a88dee991a621e53ea84c58b5e06679266878cfbbccfa",
     "anthropic-sdk-0312:affc4a12384ecd506a466ab80fb378e91aaa2af68cc2c3a03d09535b0cfa9bbb",
-    "quiet-channel-visibility:67c61d6af48100368bbd3160f4949c4e2835e841262e05a0434c432ee95ddbdc"
+    "quiet-channel-visibility:67c61d6af48100368bbd3160f4949c4e2835e841262e05a0434c432ee95ddbdc",
+    "slow-kata-host-boot:212d21a83e46c797affa45ac754869307ca884fd15fdc8b41b54d896f96174e1",
+    "plan-page-frame-origin-guard:5e80f18ff347451af01c80617b9718cbf29697c97952de96d8edd16f73f1d5eb",
+    "always-on-terminal-chat-mentions:17e26460b0f88fdbb8483eb9bb0de225a7208b08ad174d3fe020fcc7f7909fd1",
+    "accounts-instant-paint:128690e399ee27755c248dd0ca7b58ae7824569327e788f84cbbb91be3b598d4"
   ],
-  "consumedThroughSha": "ba4f54321e82d2b507bdde6bb7a3f6b502531457"
+  "consumedThroughSha": "acaecb3ad07ce09cbe06c1471ffb7f3a680b0878"
 }
