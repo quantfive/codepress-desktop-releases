@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f48d8e8e8ece5ce852692878cefdd7fb2c8936fb",
+  "cursorSha": "afada5745be2746983ec434700ac34a908b734f2",
   "highWaterVersion": "1.377.0",
   "rows": [
     {
@@ -109698,6 +109698,13 @@
       "sourceSha": "f48d8e8e8ece5ce852692878cefdd7fb2c8936fb",
       "sourcePackageVersion": "1.377.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "afada5745be2746983ec434700ac34a908b734f2",
+      "sourcePackageVersion": "1.377.1",
+      "intentIds": [
+        "narrow-creation-relaunch-wait:4fd5397665e7f45c870ba2f479ab6a993aac0b184c17f2f4a7bb9ed8b498dd88"
+      ]
     }
   ],
   "intents": [
@@ -111332,6 +111339,14 @@
       "summary": "Open Project settings inside the Details panel so the conversation and composer stay available. Settings fit narrow panels and the phone drawer, with Back, Esc and the settings icon returning to Work or Plan.",
       "sourceSha": "1e0216cd199a9d7bc5b8387ab12d859b4672ad94",
       "identity": "inline-project-settings:4a61b244801444c2c0cc872876bf7a8df0392b4108ccf62afc247b648dcec37f"
+    },
+    {
+      "id": "narrow-creation-relaunch-wait",
+      "digest": "4fd5397665e7f45c870ba2f479ab6a993aac0b184c17f2f4a7bb9ed8b498dd88",
+      "type": "patch",
+      "summary": "Enable narrow worktree creation locking by default and retain the explicit false fallback. Fence a reused physical checkout before hydration, and let worker relaunch wait out lifecycle lock holders while releasing the lock before agent launch or slow failed-tab disposal.",
+      "sourceSha": "afada5745be2746983ec434700ac34a908b734f2",
+      "identity": "narrow-creation-relaunch-wait:4fd5397665e7f45c870ba2f479ab6a993aac0b184c17f2f4a7bb9ed8b498dd88"
     }
   ],
   "consumedIntentIds": [
