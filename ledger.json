@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a4b4f32d72a5e4008f940ffba2d642faffc63917",
+  "cursorSha": "b9412798a73535290cb58a86b113c6e09d1560b3",
   "highWaterVersion": "1.378.20",
   "rows": [
     {
@@ -111994,6 +111994,18 @@
       "intentIds": [
         "daemon-listens-sooner:114c3fd85a725a13c6d454579b8bd06f0b31e561a56ea4446536e93a3793e188"
       ]
+    },
+    {
+      "sourceSha": "91dbf9b00a5468731438c6ca768b40e1b71fb840",
+      "sourcePackageVersion": "1.378.31",
+      "intentIds": [
+        "waiting-line-names-the-wait:4982f3e0187361762959853f42b99d9960baf5ed1245bd065b20a6910a5f561b"
+      ]
+    },
+    {
+      "sourceSha": "b9412798a73535290cb58a86b113c6e09d1560b3",
+      "sourcePackageVersion": "1.378.32",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -114044,6 +114056,14 @@
       "summary": "The daemon starts accepting requests sooner on launch: it no longer opens the Orchestrator store, reconciles file saves or starts the usage ledger before it listens, and restores sessions beside the account pools instead of behind them. A file save during the first moments answers a retryable \"starting\" and goes through once ready.",
       "sourceSha": "a4b4f32d72a5e4008f940ffba2d642faffc63917",
       "identity": "daemon-listens-sooner:114c3fd85a725a13c6d454579b8bd06f0b31e561a56ea4446536e93a3793e188"
+    },
+    {
+      "id": "waiting-line-names-the-wait",
+      "digest": "4982f3e0187361762959853f42b99d9960baf5ed1245bd065b20a6910a5f561b",
+      "type": "patch",
+      "summary": "An Orchestrator worker waiting between turns on an open pull request now reads \"Waiting on checks for #42 · last: pushed a commit\" (or QA, the judge, \"Ready to merge\") instead of \"Idle after: ran ls\", and the idle line skips reads and look-around commands.",
+      "sourceSha": "91dbf9b00a5468731438c6ca768b40e1b71fb840",
+      "identity": "waiting-line-names-the-wait:4982f3e0187361762959853f42b99d9960baf5ed1245bd065b20a6910a5f561b"
     }
   ],
   "consumedIntentIds": [
