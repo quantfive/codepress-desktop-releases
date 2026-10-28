@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "bd94291a594e88ac10a03a16dc79f73d10d81d44",
+  "cursorSha": "8401429185784aa0d7a810ac6efa33354132c204",
   "highWaterVersion": "1.377.3",
   "rows": [
     {
@@ -110116,6 +110116,13 @@
       "sourceSha": "bd94291a594e88ac10a03a16dc79f73d10d81d44",
       "sourcePackageVersion": "1.378.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "8401429185784aa0d7a810ac6efa33354132c204",
+      "sourcePackageVersion": "1.378.0",
+      "intentIds": [
+        "return-moved-project-to-this-mac:17240d5a9832823cc8bf0f08590806c8716ff975a1a592e96b608d5c738e8b14"
+      ]
     }
   ],
   "intents": [
@@ -111870,6 +111877,14 @@
       "summary": "Make Remote unlock setup visible in Remote Access settings and onboarding, and preset never-chosen lock-screen access when Desktop hosting is turned on.",
       "sourceSha": "a7b914bd6a3d201a007f5147a321800098453f07",
       "identity": "remote-unlock-host-setup:73fc6b6061c25f9b5accd6b71e7991203acd71fe7b859c88434de85abb281dbc"
+    },
+    {
+      "id": "return-moved-project-to-this-mac",
+      "digest": "17240d5a9832823cc8bf0f08590806c8716ff975a1a592e96b608d5c738e8b14",
+      "type": "patch",
+      "summary": "Treat projects that moved away as remote in Hand off so This Mac can bring them back without offering their current home as a destination.",
+      "sourceSha": "8401429185784aa0d7a810ac6efa33354132c204",
+      "identity": "return-moved-project-to-this-mac:17240d5a9832823cc8bf0f08590806c8716ff975a1a592e96b608d5c738e8b14"
     }
   ],
   "consumedIntentIds": [
