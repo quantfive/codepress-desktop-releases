@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "32105ba3890997503f8baf56c17ff85227e4d0e7",
+  "cursorSha": "0cd0e867a29e3216b0d9afff0c57e2a5d07f5467",
   "highWaterVersion": "1.378.5",
   "rows": [
     {
@@ -110648,6 +110648,13 @@
       "intentIds": [
         "worker-cleanup-lock-diagnostics:b829528d254179aeb9480edc8a94d90e9a9c747d8ee74208e5c60d662402d3c4"
       ]
+    },
+    {
+      "sourceSha": "0cd0e867a29e3216b0d9afff0c57e2a5d07f5467",
+      "sourcePackageVersion": "1.378.10",
+      "intentIds": [
+        "handoff-continue-fail-fast:b37b747b0913973c6a84fb6d26713814d119d8bbb3f85af236bba4f6fa910634"
+      ]
     }
   ],
   "intents": [
@@ -112490,6 +112497,14 @@
       "summary": "Label worker-cleanup lock holders and report locked setup time to identify repeated cleanup contention.",
       "sourceSha": "32105ba3890997503f8baf56c17ff85227e4d0e7",
       "identity": "worker-cleanup-lock-diagnostics:b829528d254179aeb9480edc8a94d90e9a9c747d8ee74208e5c60d662402d3c4"
+    },
+    {
+      "id": "handoff-continue-fail-fast",
+      "digest": "b37b747b0913973c6a84fb6d26713814d119d8bbb3f85af236bba4f6fa910634",
+      "type": "patch",
+      "summary": "Finish handoffs to a Mac that already holds the project, report target-side failures, and offer recovery when a handoff is still waiting.",
+      "sourceSha": "0cd0e867a29e3216b0d9afff0c57e2a5d07f5467",
+      "identity": "handoff-continue-fail-fast:b37b747b0913973c6a84fb6d26713814d119d8bbb3f85af236bba4f6fa910634"
     }
   ],
   "consumedIntentIds": [
