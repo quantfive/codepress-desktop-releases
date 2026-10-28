@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "10bdeecbffc32ff9f8c77d40a42de0f701e5edba",
+  "cursorSha": "b7293f9c3caec35fea5b9461b015e7f7c0daf4e2",
   "highWaterVersion": "1.377.0",
   "rows": [
     {
@@ -109763,6 +109763,25 @@
       "sourceSha": "10bdeecbffc32ff9f8c77d40a42de0f701e5edba",
       "sourcePackageVersion": "1.377.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "41e2aeed3ea13452a73a8906f20cbf36eabff84a",
+      "sourcePackageVersion": "1.377.4",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "aab201051fb9d7a0e632eab98b0e19677fa4e858",
+      "sourcePackageVersion": "1.377.4",
+      "intentIds": [
+        "quick-shared-snapshot-pages:a0b84ad75ea2fb08927a88dee991a621e53ea84c58b5e06679266878cfbbccfa"
+      ]
+    },
+    {
+      "sourceSha": "b7293f9c3caec35fea5b9461b015e7f7c0daf4e2",
+      "sourcePackageVersion": "1.377.4",
+      "intentIds": [
+        "anthropic-sdk-0312:affc4a12384ecd506a466ab80fb378e91aaa2af68cc2c3a03d09535b0cfa9bbb"
+      ]
     }
   ],
   "intents": [
@@ -111437,6 +111456,22 @@
       "summary": "Open and save files outside a project's folders on its home machine from a remote Terminal or web thread, with the same private-data refusal as the home opener.",
       "sourceSha": "aafdf062a184ca3105a37163e41000736af56776",
       "identity": "remote-machine-file-opener:efdc3f131a627044924d44016fa758d5b9908a7d710832af5190a2ad9644f6a9"
+    },
+    {
+      "id": "quick-shared-snapshot-pages",
+      "digest": "a0b84ad75ea2fb08927a88dee991a621e53ea84c58b5e06679266878cfbbccfa",
+      "type": "patch",
+      "summary": "Hydrate shared GitHub stats in larger snapshot pages, with a 100-row compatibility fallback for older backends.",
+      "sourceSha": "aab201051fb9d7a0e632eab98b0e19677fa4e858",
+      "identity": "quick-shared-snapshot-pages:a0b84ad75ea2fb08927a88dee991a621e53ea84c58b5e06679266878cfbbccfa"
+    },
+    {
+      "id": "anthropic-sdk-0312",
+      "digest": "affc4a12384ecd506a466ab80fb378e91aaa2af68cc2c3a03d09535b0cfa9bbb",
+      "type": "patch",
+      "summary": "Update the Claude Agent SDK to 0.3.312, shipping Claude Code 2.1.312 for local Orchestrator and local-device agent sessions. Existing sessions keep their conversation history when resumed.",
+      "sourceSha": "b7293f9c3caec35fea5b9461b015e7f7c0daf4e2",
+      "identity": "anthropic-sdk-0312:affc4a12384ecd506a466ab80fb378e91aaa2af68cc2c3a03d09535b0cfa9bbb"
     }
   ],
   "consumedIntentIds": [
