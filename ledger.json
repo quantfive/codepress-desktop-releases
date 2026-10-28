@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "16756ed22f6a15ccca6ec0fe0e37e8071bf8940e",
+  "cursorSha": "fd73756db8225af7c56671e3158e838e899ff143",
   "highWaterVersion": "1.378.23",
   "rows": [
     {
@@ -112321,6 +112321,23 @@
       "intentIds": [
         "tidy-home-device-address:b17024a51cd17908d09d9854ab8986c71669ea86299742b2e409c3225fc6b264"
       ]
+    },
+    {
+      "sourceSha": "d711ff14f8dc654516a1c197f294f694631f4f5b",
+      "sourcePackageVersion": "1.378.36",
+      "intentIds": [
+        "steady-handoff-presence:4aa8c752f87e7207e9b8fd1f347c7dcac14e3b4994ef4461a6f2a6c12c74d02c"
+      ]
+    },
+    {
+      "sourceSha": "565d9d8836ef1001c79a9a72749e0d8db61fdff3",
+      "sourcePackageVersion": "1.378.36",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "fd73756db8225af7c56671e3158e838e899ff143",
+      "sourcePackageVersion": "1.378.37",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -114435,6 +114452,14 @@
       "summary": "Address direct project handoffs back to This Mac by the home's device id and reuse its account-fenced machine inventory for preview and start.",
       "sourceSha": "16756ed22f6a15ccca6ec0fe0e37e8071bf8940e",
       "identity": "tidy-home-device-address:b17024a51cd17908d09d9854ab8986c71669ea86299742b2e409c3225fc6b264"
+    },
+    {
+      "id": "steady-handoff-presence",
+      "digest": "4aa8c752f87e7207e9b8fd1f347c7dcac14e3b4994ef4461a6f2a6c12c74d02c",
+      "type": "patch",
+      "summary": "Keep owned Macs in Hand off destinations when device presence or tunnel probes are slow, with account-scoped last-good presence and disabled asleep fallbacks.",
+      "sourceSha": "d711ff14f8dc654516a1c197f294f694631f4f5b",
+      "identity": "steady-handoff-presence:4aa8c752f87e7207e9b8fd1f347c7dcac14e3b4994ef4461a6f2a6c12c74d02c"
     }
   ],
   "consumedIntentIds": [
