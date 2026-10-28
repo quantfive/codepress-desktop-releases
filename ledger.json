@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "bb47494abe027835c8ecb1c4155794318723d53b",
+  "cursorSha": "78b2d6a573fd8c643159c3abd688bd6277f755e7",
   "highWaterVersion": "1.376.1",
   "rows": [
     {
@@ -109370,6 +109370,13 @@
       "sourceSha": "bb47494abe027835c8ecb1c4155794318723d53b",
       "sourcePackageVersion": "1.376.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "78b2d6a573fd8c643159c3abd688bd6277f755e7",
+      "sourcePackageVersion": "1.376.4",
+      "intentIds": [
+        "headless-claude-entrypoint:5a88122e3a3f71e48f498849277bd1d031b52dbd8c5e92cba9a2f5b0ffaece72"
+      ]
     }
   ],
   "intents": [
@@ -110932,6 +110939,14 @@
       "summary": "Add the default-off `useUnifiedShell` gate for the unified shell. Nothing reads it yet.",
       "sourceSha": "08bcf25e32edbd057edf2422e2226192f793a9bb",
       "identity": "unified-shell-flag:7f4e11e5d65b0a48ca509c4b813e0c55c396a980fdef76d5fe3716be0d91751d"
+    },
+    {
+      "id": "headless-claude-entrypoint",
+      "digest": "5a88122e3a3f71e48f498849277bd1d031b52dbd8c5e92cba9a2f5b0ffaece72",
+      "type": "patch",
+      "summary": "Label headless Claude sessions as codepress while preserving ambient authentication.",
+      "sourceSha": "78b2d6a573fd8c643159c3abd688bd6277f755e7",
+      "identity": "headless-claude-entrypoint:5a88122e3a3f71e48f498849277bd1d031b52dbd8c5e92cba9a2f5b0ffaece72"
     }
   ],
   "consumedIntentIds": [
