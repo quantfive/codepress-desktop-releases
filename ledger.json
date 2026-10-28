@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "96adad1df1a105b8871ae8ca5ff0581e5448cac6",
+  "cursorSha": "59051316916976511bd72323de31fb86b27a4e6c",
   "highWaterVersion": "1.374.30",
   "rows": [
     {
@@ -108936,6 +108936,13 @@
       "sourceSha": "96adad1df1a105b8871ae8ca5ff0581e5448cac6",
       "sourcePackageVersion": "1.374.48",
       "intentIds": []
+    },
+    {
+      "sourceSha": "59051316916976511bd72323de31fb86b27a4e6c",
+      "sourcePackageVersion": "1.374.48",
+      "intentIds": [
+        "land-project-from-menu:86e8281f7123358da7148f92dd3cdec59ee7b81e0503026a3af9ad40d1561e42"
+      ]
     }
   ],
   "intents": [
@@ -110434,6 +110441,14 @@
       "summary": "Feed rows leave the rail the moment you archive, delete or mark them handled, and come back with the error notice if the write is refused.",
       "sourceSha": "a56b162afe8a74044599ad4b7f59a16a56e6289b",
       "identity": "feed-rows-leave-at-once:ba44bf640e43bd0a82b8775524e7aa2ff3abb15ae0ed77e6986708bb433dac3f"
+    },
+    {
+      "id": "land-project-from-menu",
+      "digest": "86e8281f7123358da7148f92dd3cdec59ee7b81e0503026a3af9ad40d1561e42",
+      "type": "minor",
+      "summary": "Add \"Land project…\" to the ⋯ menu of a local building project in the Projects rail and the one-feed rail. The dialog lists the work items that aren't done, and landing cancels them with a reason the landed summary records.",
+      "sourceSha": "59051316916976511bd72323de31fb86b27a4e6c",
+      "identity": "land-project-from-menu:86e8281f7123358da7148f92dd3cdec59ee7b81e0503026a3af9ad40d1561e42"
     }
   ],
   "consumedIntentIds": [
