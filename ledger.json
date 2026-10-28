@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "0d1d3b9df1c3c6e69695d4c00e984c833a8acee9",
-  "highWaterVersion": "1.375.1",
+  "highWaterVersion": "1.376.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -55739,6 +55739,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:0d1d3b9df1c3c6e69695d4c00e984c833a8acee9",
+      "kind": "main",
+      "sequence": 1725,
+      "sourceSha": "0d1d3b9df1c3c6e69695d4c00e984c833a8acee9",
+      "sourcePackageVersion": "1.376.0",
+      "version": "1.376.0",
+      "publicationDate": "2026-10-28T01:45:51.791Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "remote-unlock-viewer-turn-on:77a670c0c15984ba32ca2bec4bdd694ad48938e8226367fc3b7ee6acbdf5508f"
+        ],
+        "notesIntentIds": [
+          "remote-unlock-viewer-turn-on:77a670c0c15984ba32ca2bec4bdd694ad48938e8226367fc3b7ee6acbdf5508f"
+        ],
+        "throughSourceSha": "0d1d3b9df1c3c6e69695d4c00e984c833a8acee9",
+        "previousThroughSourceSha": "8f729982c57e1dc2484ebe3f29c5548af1145453",
+        "baselineVersion": "1.375.1",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40616585731",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-29T01:45:23.102Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -110867,7 +110910,8 @@
     "shared-github-stats-busy:39b1a18bffd6ae3310647c3af022511cc844612e397c50ba40146cb2fb2f5ea5",
     "feed-rows-leave-at-once:ba44bf640e43bd0a82b8775524e7aa2ff3abb15ae0ed77e6986708bb433dac3f",
     "land-project-from-menu:86e8281f7123358da7148f92dd3cdec59ee7b81e0503026a3af9ad40d1561e42",
-    "settled-worker-cleanup-lease:bd60acbddbc1782cabdf41286db452bd521af397163fa7ee6cc2e65d8b6da6bb"
+    "settled-worker-cleanup-lease:bd60acbddbc1782cabdf41286db452bd521af397163fa7ee6cc2e65d8b6da6bb",
+    "remote-unlock-viewer-turn-on:77a670c0c15984ba32ca2bec4bdd694ad48938e8226367fc3b7ee6acbdf5508f"
   ],
-  "consumedThroughSha": "8f729982c57e1dc2484ebe3f29c5548af1145453"
+  "consumedThroughSha": "0d1d3b9df1c3c6e69695d4c00e984c833a8acee9"
 }
