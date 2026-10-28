@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "a96783bfddf0580b1625ff1a230eda5254eea06e",
-  "highWaterVersion": "1.378.11",
+  "highWaterVersion": "1.378.12",
   "rows": [
     {
       "schemaVersion": 1,
@@ -56916,6 +56916,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:a96783bfddf0580b1625ff1a230eda5254eea06e",
+      "kind": "main",
+      "sequence": 1745,
+      "sourceSha": "a96783bfddf0580b1625ff1a230eda5254eea06e",
+      "sourcePackageVersion": "1.378.24",
+      "version": "1.378.12",
+      "publicationDate": "2026-10-28T13:26:19.582Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-ui-origin-boundary:1407889e2dba0980ef57425040a8b2354401db214763f116c8c4d71c96cfa4c6"
+        ],
+        "notesIntentIds": [
+          "terminal-ui-origin-boundary:1407889e2dba0980ef57425040a8b2354401db214763f116c8c4d71c96cfa4c6"
+        ],
+        "throughSourceSha": "a96783bfddf0580b1625ff1a230eda5254eea06e",
+        "previousThroughSourceSha": "e3e1385576fcca98e425d7c867e30f0f3cc07e0c",
+        "baselineVersion": "1.378.11",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40696205887",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-29T13:25:52.437Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -113434,7 +113477,8 @@
     "chat-card-pushed-to-viewer:229dfe72dfb0825fdb549abfd2d52013ac193aebc94a50a6a6a03896c487e41a",
     "tender-sockets-answer:ec22db088c641cccab81d7e1363362f94463b2c44db5ae36183e206aefe2d1ce",
     "pool-host-cleanup-retry:8a5cdbdc59fe3b09e523237e71c6403045b4cc4294c2ecd846b7bdb0b4e50aaa",
-    "terminal-native-pages:37f12901a30af163c8e38d73400434482e3cb9901e46257a02402bc8730ca579"
+    "terminal-native-pages:37f12901a30af163c8e38d73400434482e3cb9901e46257a02402bc8730ca579",
+    "terminal-ui-origin-boundary:1407889e2dba0980ef57425040a8b2354401db214763f116c8c4d71c96cfa4c6"
   ],
-  "consumedThroughSha": "e3e1385576fcca98e425d7c867e30f0f3cc07e0c"
+  "consumedThroughSha": "a96783bfddf0580b1625ff1a230eda5254eea06e"
 }
