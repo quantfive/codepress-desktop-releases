@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "96b62c39ee421d5616aad2c3b5ba8311715d3e3d",
+  "cursorSha": "27922ffb877ab98543a22539e92f174f7cf14cd5",
   "highWaterVersion": "1.376.1",
   "rows": [
     {
@@ -109341,6 +109341,13 @@
       "sourceSha": "96b62c39ee421d5616aad2c3b5ba8311715d3e3d",
       "sourcePackageVersion": "1.376.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "27922ffb877ab98543a22539e92f174f7cf14cd5",
+      "sourcePackageVersion": "1.376.3",
+      "intentIds": [
+        "narrow-held-rows:39e7a00fc5669b24b1ee24d3d24dcb7436063b5adf127c7e1c0f6618543b35dc"
+      ]
     }
   ],
   "intents": [
@@ -110887,6 +110894,14 @@
       "summary": "A quiet strip above the composer says how many MCP servers need sign-in and fades after a few seconds, and a key chip with the count stays in the composer toolbar. Its list has Sign in and Ignore for each server. When your Orchestrator asks you to sign in to specific servers, the question names them and says why.",
       "sourceSha": "61cf351843730740d45bfb96f7442edeba5e2198",
       "identity": "soft-mcp-sign-in-notice:c94455b4ddecda52fb0d2ea7af70b2da0b8b88bd7996124ee56505c91e375d0c"
+    },
+    {
+      "id": "narrow-held-rows",
+      "digest": "39e7a00fc5669b24b1ee24d3d24dcb7436063b5adf127c7e1c0f6618543b35dc",
+      "type": "patch",
+      "summary": "While a One feed search is pending, the rail narrows the rows it already holds by title instead of dimming them all, and says \"Searching…\" when none match; the cloud answer replaces it.",
+      "sourceSha": "27922ffb877ab98543a22539e92f174f7cf14cd5",
+      "identity": "narrow-held-rows:39e7a00fc5669b24b1ee24d3d24dcb7436063b5adf127c7e1c0f6618543b35dc"
     }
   ],
   "consumedIntentIds": [
