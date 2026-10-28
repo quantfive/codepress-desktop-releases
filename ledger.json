@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "94a2021b1be4f4deb48da997cb89948ebfdfe817",
+  "cursorSha": "7684d20ed5f24794686004c3f39f82a770514320",
   "highWaterVersion": "1.378.10",
   "rows": [
     {
@@ -111138,6 +111138,13 @@
       "sourceSha": "94a2021b1be4f4deb48da997cb89948ebfdfe817",
       "sourcePackageVersion": "1.378.22",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7684d20ed5f24794686004c3f39f82a770514320",
+      "sourcePackageVersion": "1.378.22",
+      "intentIds": [
+        "terminal-native-pages:37f12901a30af163c8e38d73400434482e3cb9901e46257a02402bc8730ca579"
+      ]
     }
   ],
   "intents": [
@@ -113084,6 +113091,14 @@
       "summary": "Retry unconfirmed pool-host VM cleanup while online, escalate ineffective guest kills only to verified owned processes, recover transient preflight failures, report redacted cleanup errors, and bound host leave with a configurable timeout (600 seconds by default).",
       "sourceSha": "841bbc99d0affc694de055294681f28d5e6a729d",
       "identity": "pool-host-cleanup-retry:8a5cdbdc59fe3b09e523237e71c6403045b4cc4294c2ecd846b7bdb0b4e50aaa"
+    },
+    {
+      "id": "terminal-native-pages",
+      "digest": "37f12901a30af163c8e38d73400434482e3cb9901e46257a02402bc8730ca579",
+      "type": "patch",
+      "summary": "With the organization's unified shell flag on, My Work, Servers and Media are drawn by Terminal itself in the shell's page instead of loading codepress.dev in the embedded webview. My Work's Coordination and Done tabs each have their own address, so a Done pick survives leaving and coming back. A conversation link opens in the Agent layer, and Create MicroVM still opens the embedded Servers page. Apps, Design and Automations are unchanged, and so is the window with the flag off.",
+      "sourceSha": "7684d20ed5f24794686004c3f39f82a770514320",
+      "identity": "terminal-native-pages:37f12901a30af163c8e38d73400434482e3cb9901e46257a02402bc8730ca579"
     }
   ],
   "consumedIntentIds": [
