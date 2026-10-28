@@ -55605,7 +55605,7 @@
         "failures": []
       },
       "linux": {
-        "status": "running",
+        "status": "failed",
         "generation": 1,
         "owner": {
           "ownerId": "terminal-macos-delivery",
@@ -55616,9 +55616,14 @@
         "dispatch": {
           "intentId": "same-run:b3594c446fb3e79f91ce1eb657062eef528f68feed6a720971cf4af111c7a76e",
           "runId": "40611038545",
-          "terminal": false
+          "terminal": true
         },
-        "failures": []
+        "failures": [
+          {
+            "code": "run_failed",
+            "at": "2026-10-28T01:11:10.789Z"
+          }
+        ]
       }
     },
     {
