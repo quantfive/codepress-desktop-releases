@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "78b2d6a573fd8c643159c3abd688bd6277f755e7",
-  "highWaterVersion": "1.376.1",
+  "highWaterVersion": "1.376.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -55855,6 +55855,56 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:78b2d6a573fd8c643159c3abd688bd6277f755e7",
+      "kind": "main",
+      "sequence": 1727,
+      "sourceSha": "78b2d6a573fd8c643159c3abd688bd6277f755e7",
+      "sourcePackageVersion": "1.376.4",
+      "version": "1.376.2",
+      "publicationDate": "2026-10-28T02:51:17.399Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "narrow-held-rows:39e7a00fc5669b24b1ee24d3d24dcb7436063b5adf127c7e1c0f6618543b35dc",
+          "unified-shell-flag:7f4e11e5d65b0a48ca509c4b813e0c55c396a980fdef76d5fe3716be0d91751d",
+          "headless-claude-entrypoint:5a88122e3a3f71e48f498849277bd1d031b52dbd8c5e92cba9a2f5b0ffaece72"
+        ],
+        "notesIntentIds": [
+          "archive-answers-first:03a4c989dc9421762db6f467f8dd62887b5946f74e1ced17834b3ece6f25376e",
+          "local-preview-origins:f56e79f5f44d41ce50d26f7f9880abc499ad7573727ea07aec4b280501a25a5e",
+          "soft-mcp-sign-in-notice:c94455b4ddecda52fb0d2ea7af70b2da0b8b88bd7996124ee56505c91e375d0c",
+          "narrow-held-rows:39e7a00fc5669b24b1ee24d3d24dcb7436063b5adf127c7e1c0f6618543b35dc",
+          "unified-shell-flag:7f4e11e5d65b0a48ca509c4b813e0c55c396a980fdef76d5fe3716be0d91751d",
+          "headless-claude-entrypoint:5a88122e3a3f71e48f498849277bd1d031b52dbd8c5e92cba9a2f5b0ffaece72"
+        ],
+        "throughSourceSha": "78b2d6a573fd8c643159c3abd688bd6277f755e7",
+        "previousThroughSourceSha": "1fe53454ad0af83323319e6070e69414c43c2ffa",
+        "baselineVersion": "1.376.1",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40623018033",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-29T02:50:52.634Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -111142,7 +111192,10 @@
     "remote-unlock-viewer-turn-on:77a670c0c15984ba32ca2bec4bdd694ad48938e8226367fc3b7ee6acbdf5508f",
     "archive-answers-first:03a4c989dc9421762db6f467f8dd62887b5946f74e1ced17834b3ece6f25376e",
     "local-preview-origins:f56e79f5f44d41ce50d26f7f9880abc499ad7573727ea07aec4b280501a25a5e",
-    "soft-mcp-sign-in-notice:c94455b4ddecda52fb0d2ea7af70b2da0b8b88bd7996124ee56505c91e375d0c"
+    "soft-mcp-sign-in-notice:c94455b4ddecda52fb0d2ea7af70b2da0b8b88bd7996124ee56505c91e375d0c",
+    "narrow-held-rows:39e7a00fc5669b24b1ee24d3d24dcb7436063b5adf127c7e1c0f6618543b35dc",
+    "unified-shell-flag:7f4e11e5d65b0a48ca509c4b813e0c55c396a980fdef76d5fe3716be0d91751d",
+    "headless-claude-entrypoint:5a88122e3a3f71e48f498849277bd1d031b52dbd8c5e92cba9a2f5b0ffaece72"
   ],
-  "consumedThroughSha": "1fe53454ad0af83323319e6070e69414c43c2ffa"
+  "consumedThroughSha": "78b2d6a573fd8c643159c3abd688bd6277f755e7"
 }
