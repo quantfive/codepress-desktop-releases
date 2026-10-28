@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "d7fa16f6ba692d865a33d6a44c2db644ace2f8fc",
-  "highWaterVersion": "1.378.14",
+  "highWaterVersion": "1.378.15",
   "rows": [
     {
       "schemaVersion": 1,
@@ -57081,6 +57081,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:d7fa16f6ba692d865a33d6a44c2db644ace2f8fc",
+      "kind": "main",
+      "sequence": 1748,
+      "sourceSha": "d7fa16f6ba692d865a33d6a44c2db644ace2f8fc",
+      "sourcePackageVersion": "1.378.27",
+      "version": "1.378.15",
+      "publicationDate": "2026-10-28T16:02:38.848Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "remote-owner-organizations:4eec7269c2f991505668ee5ba2357dc99a49c942b6765346e85d008fa1c6c821"
+        ],
+        "notesIntentIds": [
+          "remote-owner-organizations:4eec7269c2f991505668ee5ba2357dc99a49c942b6765346e85d008fa1c6c821"
+        ],
+        "throughSourceSha": "d7fa16f6ba692d865a33d6a44c2db644ace2f8fc",
+        "previousThroughSourceSha": "d35eeaf4720a6b9a6ddbd774f3cfa11488ecdc27",
+        "baselineVersion": "1.378.14",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40721735573",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-29T16:02:08.401Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -113707,7 +113750,8 @@
     "terminal-native-pages:37f12901a30af163c8e38d73400434482e3cb9901e46257a02402bc8730ca579",
     "terminal-ui-origin-boundary:1407889e2dba0980ef57425040a8b2354401db214763f116c8c4d71c96cfa4c6",
     "orchestrator-button-always-shown:38d395bf16401cf92342e00235507f8a9936f5aa70effdcb9bacbbb1896faa74",
-    "ghostty-incremental-render:f5cac6a647c7805a4745a81fbfe025f2b316029ff3b667425dce4e4a60b2f728"
+    "ghostty-incremental-render:f5cac6a647c7805a4745a81fbfe025f2b316029ff3b667425dce4e4a60b2f728",
+    "remote-owner-organizations:4eec7269c2f991505668ee5ba2357dc99a49c942b6765346e85d008fa1c6c821"
   ],
-  "consumedThroughSha": "d35eeaf4720a6b9a6ddbd774f3cfa11488ecdc27"
+  "consumedThroughSha": "d7fa16f6ba692d865a33d6a44c2db644ace2f8fc"
 }
