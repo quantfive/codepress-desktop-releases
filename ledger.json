@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "375b5a13a2bdc206bbf200bf85b6449f5960c09d",
+  "cursorSha": "16756ed22f6a15ccca6ec0fe0e37e8071bf8940e",
   "highWaterVersion": "1.378.23",
   "rows": [
     {
@@ -112314,6 +112314,13 @@
       "sourceSha": "375b5a13a2bdc206bbf200bf85b6449f5960c09d",
       "sourcePackageVersion": "1.378.36",
       "intentIds": []
+    },
+    {
+      "sourceSha": "16756ed22f6a15ccca6ec0fe0e37e8071bf8940e",
+      "sourcePackageVersion": "1.378.36",
+      "intentIds": [
+        "tidy-home-device-address:b17024a51cd17908d09d9854ab8986c71669ea86299742b2e409c3225fc6b264"
+      ]
     }
   ],
   "intents": [
@@ -114420,6 +114427,14 @@
       "summary": "A work item's card reads Code, Review, Ready, Merged, and stays \"In review\" from the pull request opening until it is Ready or Merged, whatever the worker is doing. The Work tab groups items by their own step, and the project track is Brief, Plan, Build and Land, with Build showing how many items are in review.",
       "sourceSha": "92cce8664dcccdf9d17c75f5a7e4c8f867b44448",
       "identity": "review-one-step:e19b8821eadcc4577492862eaf989fed7790528de69808b5860d063d9cc1d47d"
+    },
+    {
+      "id": "tidy-home-device-address",
+      "digest": "b17024a51cd17908d09d9854ab8986c71669ea86299742b2e409c3225fc6b264",
+      "type": "patch",
+      "summary": "Address direct project handoffs back to This Mac by the home's device id and reuse its account-fenced machine inventory for preview and start.",
+      "sourceSha": "16756ed22f6a15ccca6ec0fe0e37e8071bf8940e",
+      "identity": "tidy-home-device-address:b17024a51cd17908d09d9854ab8986c71669ea86299742b2e409c3225fc6b264"
     }
   ],
   "consumedIntentIds": [
