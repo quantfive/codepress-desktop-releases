@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5153d61bf21098252ac0015695d748cb7cff5d59",
+  "cursorSha": "e3f5fb2ea8f348eb4acff3540e1dd3b96bdf6d25",
   "highWaterVersion": "1.377.2",
   "rows": [
     {
@@ -109970,6 +109970,20 @@
       "sourceSha": "5153d61bf21098252ac0015695d748cb7cff5d59",
       "sourcePackageVersion": "1.377.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ecf51843f2666c98e22037294cf1f55cf053a427",
+      "sourcePackageVersion": "1.377.7",
+      "intentIds": [
+        "always-on-terminal-chat-mentions:17e26460b0f88fdbb8483eb9bb0de225a7208b08ad174d3fe020fcc7f7909fd1"
+      ]
+    },
+    {
+      "sourceSha": "e3f5fb2ea8f348eb4acff3540e1dd3b96bdf6d25",
+      "sourcePackageVersion": "1.377.7",
+      "intentIds": [
+        "accounts-instant-paint:128690e399ee27755c248dd0ca7b58ae7824569327e788f84cbbb91be3b598d4"
+      ]
     }
   ],
   "intents": [
@@ -111684,6 +111698,22 @@
       "summary": "Show the Orchestrator's HTML plan pages again on the Overview tab. The desktop app's local-control origin guard was refusing the plan page frame with `ORIGIN_NOT_ALLOWED`; it now admits that frame's page load, as it already does for file and media frames.",
       "sourceSha": "96cc25e347d5c2c612f315406e0b44f79dee3310",
       "identity": "plan-page-frame-origin-guard:5e80f18ff347451af01c80617b9718cbf29697c97952de96d8edd16f73f1d5eb"
+    },
+    {
+      "id": "always-on-terminal-chat-mentions",
+      "digest": "17e26460b0f88fdbb8483eb9bb0de225a7208b08ad174d3fe020fcc7f7909fd1",
+      "type": "patch",
+      "summary": "Make cross-machine chat mentions always available in the composer and kickoff, while preserving ownership, organization and receiver capability checks.",
+      "sourceSha": "ecf51843f2666c98e22037294cf1f55cf053a427",
+      "identity": "always-on-terminal-chat-mentions:17e26460b0f88fdbb8483eb9bb0de225a7208b08ad174d3fe020fcc7f7909fd1"
+    },
+    {
+      "id": "accounts-instant-paint",
+      "digest": "128690e399ee27755c248dd0ca7b58ae7824569327e788f84cbbb91be3b598d4",
+      "type": "patch",
+      "summary": "Show the last-known Accounts snapshot immediately while refreshing in the background, and remove unnecessary computer polling and duplicate account reads.",
+      "sourceSha": "e3f5fb2ea8f348eb4acff3540e1dd3b96bdf6d25",
+      "identity": "accounts-instant-paint:128690e399ee27755c248dd0ca7b58ae7824569327e788f84cbbb91be3b598d4"
     }
   ],
   "consumedIntentIds": [
