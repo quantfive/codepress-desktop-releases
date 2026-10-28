@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "44671d63e05adee70ea4dd5bd33196ed444e30d2",
+  "cursorSha": "b5ab07c70d321f71ca4f2463c012d8e9d64086a4",
   "highWaterVersion": "1.376.0",
   "rows": [
     {
@@ -109211,6 +109211,13 @@
       "sourceSha": "44671d63e05adee70ea4dd5bd33196ed444e30d2",
       "sourcePackageVersion": "1.376.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b5ab07c70d321f71ca4f2463c012d8e9d64086a4",
+      "sourcePackageVersion": "1.376.0",
+      "intentIds": [
+        "archive-answers-first:03a4c989dc9421762db6f467f8dd62887b5946f74e1ced17834b3ece6f25376e"
+      ]
     }
   ],
   "intents": [
@@ -110733,6 +110740,14 @@
       "summary": "Let owners turn on remote unlock for a locked Mac from another signed-in device, with a host notification and audit event.",
       "sourceSha": "4c22c71024a4ffc5faa9e04acd7965682fb8b1a0",
       "identity": "remote-unlock-viewer-turn-on:77a670c0c15984ba32ca2bec4bdd694ad48938e8226367fc3b7ee6acbdf5508f"
+    },
+    {
+      "id": "archive-answers-first",
+      "digest": "03a4c989dc9421762db6f467f8dd62887b5946f74e1ced17834b3ece6f25376e",
+      "type": "patch",
+      "summary": "Archiving a project answers as soon as the archive is saved; closing its session and removing its worktrees now finish in the background, retried if a folder is kept, with a rail notice pointing to Settings → Storage when something could not be removed.",
+      "sourceSha": "b5ab07c70d321f71ca4f2463c012d8e9d64086a4",
+      "identity": "archive-answers-first:03a4c989dc9421762db6f467f8dd62887b5946f74e1ced17834b3ece6f25376e"
     }
   ],
   "consumedIntentIds": [
