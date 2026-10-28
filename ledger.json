@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "8c03ab2a66fc5bfefc1395b907d5c3fe1aaddd06",
+  "cursorSha": "ed57c7dcca35b7aa6eb35ad886e0792b09d83e2d",
   "highWaterVersion": "1.377.2",
   "rows": [
     {
@@ -109951,6 +109951,13 @@
       "sourceSha": "8c03ab2a66fc5bfefc1395b907d5c3fe1aaddd06",
       "sourcePackageVersion": "1.377.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ed57c7dcca35b7aa6eb35ad886e0792b09d83e2d",
+      "sourcePackageVersion": "1.377.6",
+      "intentIds": [
+        "slow-kata-host-boot:212d21a83e46c797affa45ac754869307ca884fd15fdc8b41b54d896f96174e1"
+      ]
     }
   ],
   "intents": [
@@ -111649,6 +111656,14 @@
       "summary": "Show bounded device-channel and remote-control reasons in headless status, and recovery hints for running machines with a disconnected control channel.",
       "sourceSha": "ba4f54321e82d2b507bdde6bb7a3f6b502531457",
       "identity": "quiet-channel-visibility:67c61d6af48100368bbd3160f4949c4e2835e841262e05a0434c432ee95ddbdc"
+    },
+    {
+      "id": "slow-kata-host-boot",
+      "digest": "212d21a83e46c797affa45ac754869307ca884fd15fdc8b41b54d896f96174e1",
+      "type": "patch",
+      "summary": "Allow slow capacity hosts up to 90 seconds to connect to the Kata guest agent,\nwith a longer host boot-command timeout. Hosts adopt the change after updating\nthe CLI and running host leave followed by host join.",
+      "sourceSha": "ed57c7dcca35b7aa6eb35ad886e0792b09d83e2d",
+      "identity": "slow-kata-host-boot:212d21a83e46c797affa45ac754869307ca884fd15fdc8b41b54d896f96174e1"
     }
   ],
   "consumedIntentIds": [
