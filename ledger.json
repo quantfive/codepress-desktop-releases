@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "f5bb5482c327e923c02ca7bef2106e57959fe342",
-  "highWaterVersion": "1.378.1",
+  "highWaterVersion": "1.378.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -56350,6 +56350,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:f5bb5482c327e923c02ca7bef2106e57959fe342",
+      "kind": "main",
+      "sequence": 1735,
+      "sourceSha": "f5bb5482c327e923c02ca7bef2106e57959fe342",
+      "sourcePackageVersion": "1.378.3",
+      "version": "1.378.2",
+      "publicationDate": "2026-10-28T07:03:11.008Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "sponsor-terminal-relay:33d24dcb22a3ea7c81476c3070eea6cf3abbcf67eeb8db71eeb3fd22829faa2b"
+        ],
+        "notesIntentIds": [
+          "sponsor-terminal-relay:33d24dcb22a3ea7c81476c3070eea6cf3abbcf67eeb8db71eeb3fd22829faa2b"
+        ],
+        "throughSourceSha": "f5bb5482c327e923c02ca7bef2106e57959fe342",
+        "previousThroughSourceSha": "7daa67c43758309783eb8697c09332882c0ff30b",
+        "baselineVersion": "1.378.1",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40647456375",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-29T07:02:44.338Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -112316,7 +112359,8 @@
     "remote-unlock-host-setup:73fc6b6061c25f9b5accd6b71e7991203acd71fe7b859c88434de85abb281dbc",
     "return-moved-project-to-this-mac:17240d5a9832823cc8bf0f08590806c8716ff975a1a592e96b608d5c738e8b14",
     "brief-cleanup-holds:d048aaf828dca104e772f4abd338b935a16648e94fc548f8aa2eec5e88468d60",
-    "faster-worker-tree-cleanup:f7ef647b964b41c28b6ecce75df18e6b5c3d2417a37a758183aa377bd03a153e"
+    "faster-worker-tree-cleanup:f7ef647b964b41c28b6ecce75df18e6b5c3d2417a37a758183aa377bd03a153e",
+    "sponsor-terminal-relay:33d24dcb22a3ea7c81476c3070eea6cf3abbcf67eeb8db71eeb3fd22829faa2b"
   ],
-  "consumedThroughSha": "7daa67c43758309783eb8697c09332882c0ff30b"
+  "consumedThroughSha": "f5bb5482c327e923c02ca7bef2106e57959fe342"
 }
