@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "da30d150010e626aa4518f832a0c7ad9151cd611",
+  "cursorSha": "10bdeecbffc32ff9f8c77d40a42de0f701e5edba",
   "highWaterVersion": "1.377.0",
   "rows": [
     {
@@ -109751,6 +109751,18 @@
       "intentIds": [
         "narrow-worker-removal:f9a5e8a823408ca8681f27f52a0b4da5c8394ff12b45b5304805d5abaf69c065"
       ]
+    },
+    {
+      "sourceSha": "aafdf062a184ca3105a37163e41000736af56776",
+      "sourcePackageVersion": "1.377.3",
+      "intentIds": [
+        "remote-machine-file-opener:efdc3f131a627044924d44016fa758d5b9908a7d710832af5190a2ad9644f6a9"
+      ]
+    },
+    {
+      "sourceSha": "10bdeecbffc32ff9f8c77d40a42de0f701e5edba",
+      "sourcePackageVersion": "1.377.3",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -111417,6 +111429,14 @@
       "summary": "Keep worker cleanup's slow probes, snapshots and quarantine deletion outside the machine-wide worktree lock while a per-path cleaning marker protects the original checkout. Revalidate ownership before moving and recording, and preserve changed quarantine copies for recovery.",
       "sourceSha": "da30d150010e626aa4518f832a0c7ad9151cd611",
       "identity": "narrow-worker-removal:f9a5e8a823408ca8681f27f52a0b4da5c8394ff12b45b5304805d5abaf69c065"
+    },
+    {
+      "id": "remote-machine-file-opener",
+      "digest": "efdc3f131a627044924d44016fa758d5b9908a7d710832af5190a2ad9644f6a9",
+      "type": "patch",
+      "summary": "Open and save files outside a project's folders on its home machine from a remote Terminal or web thread, with the same private-data refusal as the home opener.",
+      "sourceSha": "aafdf062a184ca3105a37163e41000736af56776",
+      "identity": "remote-machine-file-opener:efdc3f131a627044924d44016fa758d5b9908a7d710832af5190a2ad9644f6a9"
     }
   ],
   "consumedIntentIds": [
