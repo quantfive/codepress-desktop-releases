@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f157ea1c889e7fa09b7e82c4b249e82cf6241c4e",
+  "cursorSha": "b964ad72247bed387a2e698fb99d61952d2bd941",
   "highWaterVersion": "1.377.0",
   "rows": [
     {
@@ -109720,6 +109720,20 @@
       "sourceSha": "f157ea1c889e7fa09b7e82c4b249e82cf6241c4e",
       "sourcePackageVersion": "1.377.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2e991f8b753d86dd081603736ac8ad90ab01b225",
+      "sourcePackageVersion": "1.377.2",
+      "intentIds": [
+        "offline-shared-machine-moon:f2f7d03295fa996f1ce87fff6667717442a83119f830a38bf259ec6b0df382e6"
+      ]
+    },
+    {
+      "sourceSha": "b964ad72247bed387a2e698fb99d61952d2bd941",
+      "sourcePackageVersion": "1.377.2",
+      "intentIds": [
+        "headless-machine-auth-retry:d0e75e995ba09aee5538db80061458bd38c9799214fe98f88c5bb9f446648fec"
+      ]
     }
   ],
   "intents": [
@@ -111362,6 +111376,22 @@
       "summary": "Enable narrow worktree creation locking by default and retain the explicit false fallback. Fence a reused physical checkout before hydration, and let worker relaunch wait out lifecycle lock holders while releasing the lock before agent launch or slow failed-tab disposal.",
       "sourceSha": "afada5745be2746983ec434700ac34a908b734f2",
       "identity": "narrow-creation-relaunch-wait:4fd5397665e7f45c870ba2f479ab6a993aac0b184c17f2f4a7bb9ed8b498dd88"
+    },
+    {
+      "id": "offline-shared-machine-moon",
+      "digest": "f2f7d03295fa996f1ce87fff6667717442a83119f830a38bf259ec6b0df382e6",
+      "type": "patch",
+      "summary": "Show the offline moon for shared machines even when their inline connection failed.",
+      "sourceSha": "2e991f8b753d86dd081603736ac8ad90ab01b225",
+      "identity": "offline-shared-machine-moon:f2f7d03295fa996f1ce87fff6667717442a83119f830a38bf259ec6b0df382e6"
+    },
+    {
+      "id": "headless-machine-auth-retry",
+      "digest": "d0e75e995ba09aee5538db80061458bd38c9799214fe98f88c5bb9f446648fec",
+      "type": "patch",
+      "summary": "Keep headless device channels retrying after machine-auth refusals, while preserving hard stops for revoked machines.",
+      "sourceSha": "b964ad72247bed387a2e698fb99d61952d2bd941",
+      "identity": "headless-machine-auth-retry:d0e75e995ba09aee5538db80061458bd38c9799214fe98f88c5bb9f446648fec"
     }
   ],
   "consumedIntentIds": [
