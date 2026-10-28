@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "ddb348ffd1fbcfd3607696bacd56745f126d46b0",
-  "highWaterVersion": "1.378.4",
+  "highWaterVersion": "1.378.5",
   "rows": [
     {
       "schemaVersion": 1,
@@ -56521,6 +56521,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:ddb348ffd1fbcfd3607696bacd56745f126d46b0",
+      "kind": "main",
+      "sequence": 1738,
+      "sourceSha": "ddb348ffd1fbcfd3607696bacd56745f126d46b0",
+      "sourcePackageVersion": "1.378.9",
+      "version": "1.378.5",
+      "publicationDate": "2026-10-28T09:11:40.474Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-shell-polish:b4bcaefb34c3b90609c9a6fb8b8a8e48a0317e8f8bb0f047767033587de43f08"
+        ],
+        "notesIntentIds": [
+          "terminal-shell-polish:b4bcaefb34c3b90609c9a6fb8b8a8e48a0317e8f8bb0f047767033587de43f08"
+        ],
+        "throughSourceSha": "ddb348ffd1fbcfd3607696bacd56745f126d46b0",
+        "previousThroughSourceSha": "e1ac24a67c0831863a569fcd945bf07a60ccea8a",
+        "baselineVersion": "1.378.4",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40662130199",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-29T09:11:08.952Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -112653,7 +112696,8 @@
     "stale-device-project-home:61395b506d76f270e3b161bcef0115f3578c909071a8b4e821a3c099a9729087",
     "shared-stats-fast-install:783025f8450e859555ca1bb3f00de103dbdbc43a64009c8dbb26833105347c2c",
     "pushed-row-applied-in-place:c4b8feb2d5b9e4c7458767d7932814c9b4eb020d3c3f0a3f6baa490d2b8edc3a",
-    "terminal-shell-rail:6646497f1401e1ae0bfe5f6768dabbf123ce8a7ee471952c7e45d96c886dc6fc"
+    "terminal-shell-rail:6646497f1401e1ae0bfe5f6768dabbf123ce8a7ee471952c7e45d96c886dc6fc",
+    "terminal-shell-polish:b4bcaefb34c3b90609c9a6fb8b8a8e48a0317e8f8bb0f047767033587de43f08"
   ],
-  "consumedThroughSha": "e1ac24a67c0831863a569fcd945bf07a60ccea8a"
+  "consumedThroughSha": "ddb348ffd1fbcfd3607696bacd56745f126d46b0"
 }
