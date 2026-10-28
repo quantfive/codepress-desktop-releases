@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1742917192058d60067ac7caa483d921e3ea6ff1",
+  "cursorSha": "f991a573050a205d0908faed426f43087eed5810",
   "highWaterVersion": "1.378.3",
   "rows": [
     {
@@ -110492,6 +110492,13 @@
       "sourceSha": "1742917192058d60067ac7caa483d921e3ea6ff1",
       "sourcePackageVersion": "1.378.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f991a573050a205d0908faed426f43087eed5810",
+      "sourcePackageVersion": "1.378.8",
+      "intentIds": [
+        "terminal-shell-rail:6646497f1401e1ae0bfe5f6768dabbf123ce8a7ee471952c7e45d96c886dc6fc"
+      ]
     }
   ],
   "intents": [
@@ -112310,6 +112317,14 @@
       "summary": "When another device changes a synced project, the sidebar now updates that row in place instead of re-reading the whole feed, so a project that needs you moves to Needs you within a moment.",
       "sourceSha": "9cb3fe89188d1f7778f59e0e5e8af2c4929cc97c",
       "identity": "pushed-row-applied-in-place:c4b8feb2d5b9e4c7458767d7932814c9b4eb020d3c3f0a3f6baa490d2b8edc3a"
+    },
+    {
+      "id": "terminal-shell-rail",
+      "digest": "6646497f1401e1ae0bfe5f6768dabbf123ce8a7ee471952c7e45d96c886dc6fc",
+      "type": "patch",
+      "summary": "With the organization's unified shell flag on, the main window draws an icon rail in place of the title bar's Agent / Apps / Terminal switcher. Agent and Terminal keep their warm layers, every other section opens its page inside the shell, Automations lists the organization's automations beside the page, and ⌃1–⌃9 (Alt+1–9 off macOS) move between sections. The window opens as before with the flag off.",
+      "sourceSha": "f991a573050a205d0908faed426f43087eed5810",
+      "identity": "terminal-shell-rail:6646497f1401e1ae0bfe5f6768dabbf123ce8a7ee471952c7e45d96c886dc6fc"
     }
   ],
   "consumedIntentIds": [
