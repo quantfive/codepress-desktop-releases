@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "159303a328915368cf8b1a106622e2b707daccf8",
-  "highWaterVersion": "1.378.22",
+  "highWaterVersion": "1.378.23",
   "rows": [
     {
       "schemaVersion": 1,
@@ -57529,6 +57529,53 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:159303a328915368cf8b1a106622e2b707daccf8",
+      "kind": "main",
+      "sequence": 1756,
+      "sourceSha": "159303a328915368cf8b1a106622e2b707daccf8",
+      "sourcePackageVersion": "1.378.35",
+      "version": "1.378.23",
+      "publicationDate": "2026-10-28T22:23:26.382Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "orchestrator-restricted-project-repositories:43fe79e60a37a6e444472c8d1924704e79ba0545fd78d64248bfa0bf84c87aee",
+          "signed-in-listens-sooner:2f085950f1049acda2bdecf42051ea9323f1d10e577ce901b2517fa69cf12e08",
+          "terminal-onboarding-unlock-consent:d891b73e1ea373c07ba7aa7bf64e615b5f26666345b2768d8c5717a57ab2b1a4"
+        ],
+        "notesIntentIds": [
+          "orchestrator-restricted-project-repositories:43fe79e60a37a6e444472c8d1924704e79ba0545fd78d64248bfa0bf84c87aee",
+          "signed-in-listens-sooner:2f085950f1049acda2bdecf42051ea9323f1d10e577ce901b2517fa69cf12e08",
+          "terminal-onboarding-unlock-consent:d891b73e1ea373c07ba7aa7bf64e615b5f26666345b2768d8c5717a57ab2b1a4"
+        ],
+        "throughSourceSha": "159303a328915368cf8b1a106622e2b707daccf8",
+        "previousThroughSourceSha": "e613700e90c3a3de55d1081661de2c6a9ecddb56",
+        "baselineVersion": "1.378.22",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40779409461",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-29T22:23:01.158Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -114592,7 +114639,10 @@
     "daemon-listens-sooner:114c3fd85a725a13c6d454579b8bd06f0b31e561a56ea4446536e93a3793e188",
     "waiting-line-names-the-wait:4982f3e0187361762959853f42b99d9960baf5ed1245bd065b20a6910a5f561b",
     "shell-rail-logo:dfc60daae363a11e90d9e4aa8994068b1b6dca5f1e4961ef391d66a6dd9f95b2",
-    "item-phases-follow-review-loop:a63ab0e68d7c1e8ce78f953ffb6fec91c2bffac5885adff944e70e87d5e1b78c"
+    "item-phases-follow-review-loop:a63ab0e68d7c1e8ce78f953ffb6fec91c2bffac5885adff944e70e87d5e1b78c",
+    "orchestrator-restricted-project-repositories:43fe79e60a37a6e444472c8d1924704e79ba0545fd78d64248bfa0bf84c87aee",
+    "signed-in-listens-sooner:2f085950f1049acda2bdecf42051ea9323f1d10e577ce901b2517fa69cf12e08",
+    "terminal-onboarding-unlock-consent:d891b73e1ea373c07ba7aa7bf64e615b5f26666345b2768d8c5717a57ab2b1a4"
   ],
-  "consumedThroughSha": "e613700e90c3a3de55d1081661de2c6a9ecddb56"
+  "consumedThroughSha": "159303a328915368cf8b1a106622e2b707daccf8"
 }
