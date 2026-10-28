@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9eb571e8aeb46670f7719b4e8158ad70920fb8e3",
+  "cursorSha": "3c114fe0f08b65436d051a52d3f2ec66751944ad",
   "highWaterVersion": "1.377.3",
   "rows": [
     {
@@ -110087,6 +110087,13 @@
       "sourceSha": "9eb571e8aeb46670f7719b4e8158ad70920fb8e3",
       "sourcePackageVersion": "1.377.9",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3c114fe0f08b65436d051a52d3f2ec66751944ad",
+      "sourcePackageVersion": "1.377.9",
+      "intentIds": [
+        "quick-delete-answers:0c9c6d82954eb2a8e0b922e3fba0e364f55f606307e5e28a7d8e87653e12588a"
+      ]
     }
   ],
   "intents": [
@@ -111825,6 +111832,14 @@
       "summary": "Hydrate missing account preferences, engine policy and subscription status on the first Terminal settings read within a shared three-second deadline, then return cached settings during background refreshes. Serve recent Team credential status during refresh.",
       "sourceSha": "577ef4d7d1574e00a957e257e5f76c7301882514",
       "identity": "fast-terminal-settings-snapshot:91494085711c773df8589e0955ce963fbebf6876f21703c359c513f27054fcc2"
+    },
+    {
+      "id": "quick-delete-answers",
+      "digest": "0c9c6d82954eb2a8e0b922e3fba0e364f55f606307e5e28a7d8e87653e12588a",
+      "type": "patch",
+      "summary": "Answer a project delete as soon as its agents and Orchestrator are stopped and the project is deleted; closing the workers' tabs and removing their worktrees and the project folder continue in the background, and the delete preview reads workers in parallel.",
+      "sourceSha": "3c114fe0f08b65436d051a52d3f2ec66751944ad",
+      "identity": "quick-delete-answers:0c9c6d82954eb2a8e0b922e3fba0e364f55f606307e5e28a7d8e87653e12588a"
     }
   ],
   "consumedIntentIds": [
