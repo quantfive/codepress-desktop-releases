@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "38e0b957e4bf17a25fc0f3c3bb660d5a6b3a40cb",
-  "highWaterVersion": "1.378.24",
+  "highWaterVersion": "1.378.25",
   "rows": [
     {
       "schemaVersion": 1,
@@ -57644,6 +57644,52 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:38e0b957e4bf17a25fc0f3c3bb660d5a6b3a40cb",
+      "kind": "main",
+      "sequence": 1758,
+      "sourceSha": "38e0b957e4bf17a25fc0f3c3bb660d5a6b3a40cb",
+      "sourcePackageVersion": "1.378.37",
+      "version": "1.378.25",
+      "publicationDate": "2026-10-28T22:53:27.836Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "feed-answers-sooner:25869cf722289172567ecfff4a994d168f8bd66ff2460c60be7fde5dcf485ed6"
+        ],
+        "notesIntentIds": [
+          "review-one-step:e19b8821eadcc4577492862eaf989fed7790528de69808b5860d063d9cc1d47d",
+          "tidy-home-device-address:b17024a51cd17908d09d9854ab8986c71669ea86299742b2e409c3225fc6b264",
+          "steady-handoff-presence:4aa8c752f87e7207e9b8fd1f347c7dcac14e3b4994ef4461a6f2a6c12c74d02c",
+          "feed-answers-sooner:25869cf722289172567ecfff4a994d168f8bd66ff2460c60be7fde5dcf485ed6"
+        ],
+        "throughSourceSha": "38e0b957e4bf17a25fc0f3c3bb660d5a6b3a40cb",
+        "previousThroughSourceSha": "fd73756db8225af7c56671e3158e838e899ff143",
+        "baselineVersion": "1.378.24",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40782883532",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-29T22:53:02.633Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -114798,7 +114844,8 @@
     "terminal-onboarding-unlock-consent:d891b73e1ea373c07ba7aa7bf64e615b5f26666345b2768d8c5717a57ab2b1a4",
     "review-one-step:e19b8821eadcc4577492862eaf989fed7790528de69808b5860d063d9cc1d47d",
     "tidy-home-device-address:b17024a51cd17908d09d9854ab8986c71669ea86299742b2e409c3225fc6b264",
-    "steady-handoff-presence:4aa8c752f87e7207e9b8fd1f347c7dcac14e3b4994ef4461a6f2a6c12c74d02c"
+    "steady-handoff-presence:4aa8c752f87e7207e9b8fd1f347c7dcac14e3b4994ef4461a6f2a6c12c74d02c",
+    "feed-answers-sooner:25869cf722289172567ecfff4a994d168f8bd66ff2460c60be7fde5dcf485ed6"
   ],
-  "consumedThroughSha": "fd73756db8225af7c56671e3158e838e899ff143"
+  "consumedThroughSha": "38e0b957e4bf17a25fc0f3c3bb660d5a6b3a40cb"
 }
