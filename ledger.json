@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e47ea4fdf6f16ea07bdacb15b39ecb1e9bf2f652",
+  "cursorSha": "0e45480b78c3a2b744a1e1c33f94e6fa8e9cdee3",
   "highWaterVersion": "1.376.3",
   "rows": [
     {
@@ -109583,6 +109583,13 @@
       "sourceSha": "e47ea4fdf6f16ea07bdacb15b39ecb1e9bf2f652",
       "sourcePackageVersion": "1.376.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0e45480b78c3a2b744a1e1c33f94e6fa8e9cdee3",
+      "sourcePackageVersion": "1.376.8",
+      "intentIds": [
+        "land-project-cloud:3a281eca0259b60785519a33f898815a96bc3efa6710a2442281a2193a72fd8a"
+      ]
     }
   ],
   "intents": [
@@ -111193,6 +111200,14 @@
       "summary": "Show Claude accounts' Fable and other per-model weekly usage in Accounts without changing account availability or selection.",
       "sourceSha": "200313868b50a251621120199d1cee6f1881de85",
       "identity": "fable-weekly-accounts:5b90d45cee686feffdaed6dc11783ab3c44cd6f56713ebba6ecac62b5e2008df"
+    },
+    {
+      "id": "land-project-cloud",
+      "digest": "3a281eca0259b60785519a33f898815a96bc3efa6710a2442281a2193a72fd8a",
+      "type": "patch",
+      "summary": "Land project… is also in the ⋯ menu of a building cloud project, and landing refuses (and shows the new list) when the project's unfinished work items changed after the dialog opened.",
+      "sourceSha": "0e45480b78c3a2b744a1e1c33f94e6fa8e9cdee3",
+      "identity": "land-project-cloud:3a281eca0259b60785519a33f898815a96bc3efa6710a2442281a2193a72fd8a"
     }
   ],
   "consumedIntentIds": [
