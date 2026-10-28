@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d9e5870e8235b8dba7eb81ac2c5b8ad2a4d28f7a",
+  "cursorSha": "7b984ad45604c77f7b8905385fc5d21a8a8ec9ab",
   "highWaterVersion": "1.378.8",
   "rows": [
     {
@@ -110918,6 +110918,18 @@
       "intentIds": [
         "compact-accounts-rows:a0ed6d5601581710431c29c7f8d7f00041f3a897b94fc462f5766d7fcbcd0ffb"
       ]
+    },
+    {
+      "sourceSha": "5adbecdc330742cba7e0c586e9a7ecd272ce620c",
+      "sourcePackageVersion": "1.378.17",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "7b984ad45604c77f7b8905385fc5d21a8a8ec9ab",
+      "sourcePackageVersion": "1.378.17",
+      "intentIds": [
+        "remote-browser-preview-origin:bb328421907fee64be90646a1d7cf8d6aaca3fd2ae4c60c02e47baab2a86e67e"
+      ]
     }
   ],
   "intents": [
@@ -112816,6 +112828,14 @@
       "summary": "Flatten Agents Accounts into compact expandable rows with a simpler computer toolbar and actionable provider readiness.",
       "sourceSha": "d9e5870e8235b8dba7eb81ac2c5b8ad2a4d28f7a",
       "identity": "compact-accounts-rows:a0ed6d5601581710431c29c7f8d7f00041f3a897b94fc462f5766d7fcbcd0ffb"
+    },
+    {
+      "id": "remote-browser-preview-origin",
+      "digest": "bb328421907fee64be90646a1d7cf8d6aaca3fd2ae4c60c02e47baab2a86e67e",
+      "type": "patch",
+      "summary": "Isolate remote Browser Tab apps on the machine's preview host, with single-use\nbootstrap tickets and an opaque sandbox fallback when that host is unavailable.\nLimit fallback resource grants to their issuing port and scheme, with short\nexpiry and renewal authenticated by the open Browser Tab's control page.\nRestrict remote-machine native commands to their window's control origin.",
+      "sourceSha": "7b984ad45604c77f7b8905385fc5d21a8a8ec9ab",
+      "identity": "remote-browser-preview-origin:bb328421907fee64be90646a1d7cf8d6aaca3fd2ae4c60c02e47baab2a86e67e"
     }
   ],
   "consumedIntentIds": [
