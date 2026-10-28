@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "ff4e3505c0caeb85946dfc2cc556cd7e18ec993d",
-  "highWaterVersion": "1.378.25",
+  "highWaterVersion": "1.378.26",
   "rows": [
     {
       "schemaVersion": 1,
@@ -57710,6 +57710,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:ff4e3505c0caeb85946dfc2cc556cd7e18ec993d",
+      "kind": "main",
+      "sequence": 1759,
+      "sourceSha": "ff4e3505c0caeb85946dfc2cc556cd7e18ec993d",
+      "sourcePackageVersion": "1.378.38",
+      "version": "1.378.26",
+      "publicationDate": "2026-10-28T23:51:10.078Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "shell-per-person-flag:c39a1e1011fb13a7fd1dde7c5a43132e49c182b8f5bbad2e040d3f5253b84ed4"
+        ],
+        "notesIntentIds": [
+          "shell-per-person-flag:c39a1e1011fb13a7fd1dde7c5a43132e49c182b8f5bbad2e040d3f5253b84ed4"
+        ],
+        "throughSourceSha": "ff4e3505c0caeb85946dfc2cc556cd7e18ec993d",
+        "previousThroughSourceSha": "38e0b957e4bf17a25fc0f3c3bb660d5a6b3a40cb",
+        "baselineVersion": "1.378.25",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40789985194",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-29T23:50:38.130Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -114905,7 +114948,8 @@
     "review-one-step:e19b8821eadcc4577492862eaf989fed7790528de69808b5860d063d9cc1d47d",
     "tidy-home-device-address:b17024a51cd17908d09d9854ab8986c71669ea86299742b2e409c3225fc6b264",
     "steady-handoff-presence:4aa8c752f87e7207e9b8fd1f347c7dcac14e3b4994ef4461a6f2a6c12c74d02c",
-    "feed-answers-sooner:25869cf722289172567ecfff4a994d168f8bd66ff2460c60be7fde5dcf485ed6"
+    "feed-answers-sooner:25869cf722289172567ecfff4a994d168f8bd66ff2460c60be7fde5dcf485ed6",
+    "shell-per-person-flag:c39a1e1011fb13a7fd1dde7c5a43132e49c182b8f5bbad2e040d3f5253b84ed4"
   ],
-  "consumedThroughSha": "38e0b957e4bf17a25fc0f3c3bb660d5a6b3a40cb"
+  "consumedThroughSha": "ff4e3505c0caeb85946dfc2cc556cd7e18ec993d"
 }
