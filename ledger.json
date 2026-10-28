@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ddb348ffd1fbcfd3607696bacd56745f126d46b0",
+  "cursorSha": "32105ba3890997503f8baf56c17ff85227e4d0e7",
   "highWaterVersion": "1.378.5",
   "rows": [
     {
@@ -110636,6 +110636,18 @@
       "intentIds": [
         "terminal-shell-polish:b4bcaefb34c3b90609c9a6fb8b8a8e48a0317e8f8bb0f047767033587de43f08"
       ]
+    },
+    {
+      "sourceSha": "97f84bfae00e6288922188d0832e05774b550eda",
+      "sourcePackageVersion": "1.378.10",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "32105ba3890997503f8baf56c17ff85227e4d0e7",
+      "sourcePackageVersion": "1.378.10",
+      "intentIds": [
+        "worker-cleanup-lock-diagnostics:b829528d254179aeb9480edc8a94d90e9a9c747d8ee74208e5c60d662402d3c4"
+      ]
     }
   ],
   "intents": [
@@ -112470,6 +112482,14 @@
       "summary": "With the unified shell on, the rail's section shortcuts (⌃1–⌃9, Alt+1–9 off macOS) are Settings → Keybindings rows (\"Go to Terminal section\" and so on) that can be rebound or cleared, match the physical digit key on any keyboard layout, and take Alt+digit from terminal programs only while the shell is drawn. Moving the pointer along the rail no longer blanks the embedded page, and a chat link that falls back to the web view no longer lights the wrong rail entry.",
       "sourceSha": "ddb348ffd1fbcfd3607696bacd56745f126d46b0",
       "identity": "terminal-shell-polish:b4bcaefb34c3b90609c9a6fb8b8a8e48a0317e8f8bb0f047767033587de43f08"
+    },
+    {
+      "id": "worker-cleanup-lock-diagnostics",
+      "digest": "b829528d254179aeb9480edc8a94d90e9a9c747d8ee74208e5c60d662402d3c4",
+      "type": "patch",
+      "summary": "Label worker-cleanup lock holders and report locked setup time to identify repeated cleanup contention.",
+      "sourceSha": "32105ba3890997503f8baf56c17ff85227e4d0e7",
+      "identity": "worker-cleanup-lock-diagnostics:b829528d254179aeb9480edc8a94d90e9a9c747d8ee74208e5c60d662402d3c4"
     }
   ],
   "consumedIntentIds": [
