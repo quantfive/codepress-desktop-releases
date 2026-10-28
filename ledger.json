@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "2654173b94b83124d6f71e156ac17b0b7f5a833d",
-  "highWaterVersion": "1.378.18",
+  "highWaterVersion": "1.378.19",
   "rows": [
     {
       "schemaVersion": 1,
@@ -57313,6 +57313,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:2654173b94b83124d6f71e156ac17b0b7f5a833d",
+      "kind": "main",
+      "sequence": 1752,
+      "sourceSha": "2654173b94b83124d6f71e156ac17b0b7f5a833d",
+      "sourcePackageVersion": "1.378.31",
+      "version": "1.378.19",
+      "publicationDate": "2026-10-28T19:27:04.071Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "native-pages-theme:021f00e250c9838a42a10b53be8a05729ec2b14ec0bde388398c2395563d3fa2"
+        ],
+        "notesIntentIds": [
+          "native-pages-theme:021f00e250c9838a42a10b53be8a05729ec2b14ec0bde388398c2395563d3fa2"
+        ],
+        "throughSourceSha": "2654173b94b83124d6f71e156ac17b0b7f5a833d",
+        "previousThroughSourceSha": "d8d6a57ed7a2ce0a657b8c6b0f3a71ab8e73a4f2",
+        "baselineVersion": "1.378.18",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40753785320",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-29T19:26:37.422Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -114125,7 +114168,8 @@
     "ghostty-restore-dead-owner:315a36d83ced2ee1d446a803224f2c406c835bc09748cf29fbf3ee9087291c43",
     "launch-timings-readable:f4220f0517c82d0618f488484386f0d35f4dbd0c48212e10c642892ff1a945d2",
     "synced-copy-project-settings:d3ceaeea7c598d100800172c2a65336dd676ce283c43e5a56edb542a23d4e410",
-    "rail-section-skeleton:26effa9a2802a7988f0dcef747f1439424b5243e0b6c3500afeacffe6c5d4d59"
+    "rail-section-skeleton:26effa9a2802a7988f0dcef747f1439424b5243e0b6c3500afeacffe6c5d4d59",
+    "native-pages-theme:021f00e250c9838a42a10b53be8a05729ec2b14ec0bde388398c2395563d3fa2"
   ],
-  "consumedThroughSha": "d8d6a57ed7a2ce0a657b8c6b0f3a71ab8e73a4f2"
+  "consumedThroughSha": "2654173b94b83124d6f71e156ac17b0b7f5a833d"
 }
