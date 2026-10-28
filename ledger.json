@@ -57129,10 +57129,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40727667366",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-29T16:37:38.963Z",
         "dispatch": null,
         "failures": []
       }
