@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f5bb5482c327e923c02ca7bef2106e57959fe342",
+  "cursorSha": "a36cf7d764eb5036f54cb77f62bab6d24d502ab1",
   "highWaterVersion": "1.378.2",
   "rows": [
     {
@@ -110353,6 +110353,18 @@
       "intentIds": [
         "sponsor-terminal-relay:33d24dcb22a3ea7c81476c3070eea6cf3abbcf67eeb8db71eeb3fd22829faa2b"
       ]
+    },
+    {
+      "sourceSha": "01ea4f264b425cc0d2ec3b6fa7d3924b4be7d43c",
+      "sourcePackageVersion": "1.378.4",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "a36cf7d764eb5036f54cb77f62bab6d24d502ab1",
+      "sourcePackageVersion": "1.378.4",
+      "intentIds": [
+        "kept-reason-keeps-the-why:452491a2086fbddaaac266f61b4c9410800875997b84be0d0a98d482338d891f"
+      ]
     }
   ],
   "intents": [
@@ -112139,6 +112151,14 @@
       "summary": "Continue limited Terminal workers through sponsored subscriptions on the hosted relay and show read-only sponsor availability in Accounts. Preserve newer project account choices during sponsored replacement startup.",
       "sourceSha": "f5bb5482c327e923c02ca7bef2106e57959fe342",
       "identity": "sponsor-terminal-relay:33d24dcb22a3ea7c81476c3070eea6cf3abbcf67eeb8db71eeb3fd22829faa2b"
+    },
+    {
+      "id": "kept-reason-keeps-the-why",
+      "digest": "452491a2086fbddaaac266f61b4c9410800875997b84be0d0a98d482338d891f",
+      "type": "patch",
+      "summary": "Settings → Storage now shows why a project folder was left on disk even when its path is long: the reason leads and the whole removal command follows, instead of the command's two long paths cutting the reason off.",
+      "sourceSha": "a36cf7d764eb5036f54cb77f62bab6d24d502ab1",
+      "identity": "kept-reason-keeps-the-why:452491a2086fbddaaac266f61b4c9410800875997b84be0d0a98d482338d891f"
     }
   ],
   "consumedIntentIds": [
