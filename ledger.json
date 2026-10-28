@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "cb421e2331ac93ba582fa52fc992e1346d4f2a37",
+  "cursorSha": "7daa67c43758309783eb8697c09332882c0ff30b",
   "highWaterVersion": "1.378.0",
   "rows": [
     {
@@ -110221,6 +110221,13 @@
       "sourceSha": "cb421e2331ac93ba582fa52fc992e1346d4f2a37",
       "sourcePackageVersion": "1.378.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7daa67c43758309783eb8697c09332882c0ff30b",
+      "sourcePackageVersion": "1.378.2",
+      "intentIds": [
+        "faster-worker-tree-cleanup:f7ef647b964b41c28b6ecce75df18e6b5c3d2417a37a758183aa377bd03a153e"
+      ]
     }
   ],
   "intents": [
@@ -111991,6 +111998,14 @@
       "summary": "Release the machine-wide worktree lock during storage cleanup, folder and session reclaim, and workflow removal so unrelated worktrees can launch while cleanup runs.",
       "sourceSha": "030533fd5978007c297d463ae76c16b24f357bd2",
       "identity": "brief-cleanup-holds:d048aaf828dca104e772f4abd338b935a16648e94fc548f8aa2eec5e88468d60"
+    },
+    {
+      "id": "faster-worker-tree-cleanup",
+      "digest": "f7ef647b964b41c28b6ecce75df18e6b5c3d2417a37a758183aa377bd03a153e",
+      "type": "patch",
+      "summary": "Removing a worker's folder waits for a closed tab's exit instead of polling for it, a project's trees share one process read, archive releases a project's repository trees in parallel, and each removal logs how long every step took.",
+      "sourceSha": "7daa67c43758309783eb8697c09332882c0ff30b",
+      "identity": "faster-worker-tree-cleanup:f7ef647b964b41c28b6ecce75df18e6b5c3d2417a37a758183aa377bd03a153e"
     }
   ],
   "consumedIntentIds": [
