@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "acaecb3ad07ce09cbe06c1471ffb7f3a680b0878",
+  "cursorSha": "577ef4d7d1574e00a957e257e5f76c7301882514",
   "highWaterVersion": "1.377.3",
   "rows": [
     {
@@ -110065,6 +110065,18 @@
       "sourceSha": "acaecb3ad07ce09cbe06c1471ffb7f3a680b0878",
       "sourcePackageVersion": "1.377.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ec707e997b887f87930350099b03bf4aabf39174",
+      "sourcePackageVersion": "1.377.8",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "577ef4d7d1574e00a957e257e5f76c7301882514",
+      "sourcePackageVersion": "1.377.8",
+      "intentIds": [
+        "fast-terminal-settings-snapshot:91494085711c773df8589e0955ce963fbebf6876f21703c359c513f27054fcc2"
+      ]
     }
   ],
   "intents": [
@@ -111795,6 +111807,14 @@
       "summary": "Show the last-known Accounts snapshot immediately while refreshing in the background, and remove unnecessary computer polling and duplicate account reads.",
       "sourceSha": "e3f5fb2ea8f348eb4acff3540e1dd3b96bdf6d25",
       "identity": "accounts-instant-paint:128690e399ee27755c248dd0ca7b58ae7824569327e788f84cbbb91be3b598d4"
+    },
+    {
+      "id": "fast-terminal-settings-snapshot",
+      "digest": "91494085711c773df8589e0955ce963fbebf6876f21703c359c513f27054fcc2",
+      "type": "patch",
+      "summary": "Hydrate missing account preferences, engine policy and subscription status on the first Terminal settings read within a shared three-second deadline, then return cached settings during background refreshes. Serve recent Team credential status during refresh.",
+      "sourceSha": "577ef4d7d1574e00a957e257e5f76c7301882514",
+      "identity": "fast-terminal-settings-snapshot:91494085711c773df8589e0955ce963fbebf6876f21703c359c513f27054fcc2"
     }
   ],
   "consumedIntentIds": [
