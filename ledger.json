@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3c8898939c8c06a542649e6c0689b9ec9a4f04a0",
+  "cursorSha": "f0240e46c9554af3cfea12c7ccd9b4fd074523b9",
   "highWaterVersion": "1.378.6",
   "rows": [
     {
@@ -110744,6 +110744,13 @@
       "sourceSha": "3c8898939c8c06a542649e6c0689b9ec9a4f04a0",
       "sourcePackageVersion": "1.378.12",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f0240e46c9554af3cfea12c7ccd9b4fd074523b9",
+      "sourcePackageVersion": "1.378.12",
+      "intentIds": [
+        "quiet-pr-routing-git:af94eb86203b2f741fe9424d9531ed67f87aab9ace7f563fdea2e9b005bee66e"
+      ]
     }
   ],
   "intents": [
@@ -112602,6 +112609,14 @@
       "summary": "Pace terminal WebSocket bulk replay and sessions broadcasts on socket backpressure, serialize replays per connection, and log every socket close.",
       "sourceSha": "79e95c3df23b3d5d5c7eca87dc1a714d2407566e",
       "identity": "ws-bulk-send-pacing:5f9cff99a2d52cbb6de9c3dc5cbba82899625f4553ca4c0217ad22dab7684300"
+    },
+    {
+      "id": "quiet-pr-routing-git",
+      "digest": "af94eb86203b2f741fe9424d9531ed67f87aab9ace7f563fdea2e9b005bee66e",
+      "type": "patch",
+      "summary": "Reuse stamped checkout identities when routing PR events, avoiding repeated branch and origin Git processes across unchanged Terminal tabs while detecting checkout and remote changes.",
+      "sourceSha": "f0240e46c9554af3cfea12c7ccd9b4fd074523b9",
+      "identity": "quiet-pr-routing-git:af94eb86203b2f741fe9424d9531ed67f87aab9ace7f563fdea2e9b005bee66e"
     }
   ],
   "consumedIntentIds": [
