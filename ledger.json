@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "6a3a68d13a7a9ed059147c2103aa7df39842f2ee",
-  "highWaterVersion": "1.378.5",
+  "highWaterVersion": "1.378.6",
   "rows": [
     {
       "schemaVersion": 1,
@@ -56568,6 +56568,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:6a3a68d13a7a9ed059147c2103aa7df39842f2ee",
+      "kind": "main",
+      "sequence": 1739,
+      "sourceSha": "6a3a68d13a7a9ed059147c2103aa7df39842f2ee",
+      "sourcePackageVersion": "1.378.11",
+      "version": "1.378.6",
+      "publicationDate": "2026-10-28T09:41:46.478Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "worker-cleanup-lock-diagnostics:b829528d254179aeb9480edc8a94d90e9a9c747d8ee74208e5c60d662402d3c4",
+          "handoff-continue-fail-fast:b37b747b0913973c6a84fb6d26713814d119d8bbb3f85af236bba4f6fa910634"
+        ],
+        "notesIntentIds": [
+          "worker-cleanup-lock-diagnostics:b829528d254179aeb9480edc8a94d90e9a9c747d8ee74208e5c60d662402d3c4",
+          "handoff-continue-fail-fast:b37b747b0913973c6a84fb6d26713814d119d8bbb3f85af236bba4f6fa910634"
+        ],
+        "throughSourceSha": "6a3a68d13a7a9ed059147c2103aa7df39842f2ee",
+        "previousThroughSourceSha": "ddb348ffd1fbcfd3607696bacd56745f126d46b0",
+        "baselineVersion": "1.378.5",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40665939823",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-29T09:41:18.067Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -112756,7 +112801,9 @@
     "shared-stats-fast-install:783025f8450e859555ca1bb3f00de103dbdbc43a64009c8dbb26833105347c2c",
     "pushed-row-applied-in-place:c4b8feb2d5b9e4c7458767d7932814c9b4eb020d3c3f0a3f6baa490d2b8edc3a",
     "terminal-shell-rail:6646497f1401e1ae0bfe5f6768dabbf123ce8a7ee471952c7e45d96c886dc6fc",
-    "terminal-shell-polish:b4bcaefb34c3b90609c9a6fb8b8a8e48a0317e8f8bb0f047767033587de43f08"
+    "terminal-shell-polish:b4bcaefb34c3b90609c9a6fb8b8a8e48a0317e8f8bb0f047767033587de43f08",
+    "worker-cleanup-lock-diagnostics:b829528d254179aeb9480edc8a94d90e9a9c747d8ee74208e5c60d662402d3c4",
+    "handoff-continue-fail-fast:b37b747b0913973c6a84fb6d26713814d119d8bbb3f85af236bba4f6fa910634"
   ],
-  "consumedThroughSha": "ddb348ffd1fbcfd3607696bacd56745f126d46b0"
+  "consumedThroughSha": "6a3a68d13a7a9ed059147c2103aa7df39842f2ee"
 }
