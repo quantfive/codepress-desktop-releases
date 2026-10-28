@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1d02c6b79fc613aaea129f5cc15d70cafd6560b0",
+  "cursorSha": "ddb348ffd1fbcfd3607696bacd56745f126d46b0",
   "highWaterVersion": "1.378.4",
   "rows": [
     {
@@ -110582,6 +110582,13 @@
       "sourceSha": "1d02c6b79fc613aaea129f5cc15d70cafd6560b0",
       "sourcePackageVersion": "1.378.9",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ddb348ffd1fbcfd3607696bacd56745f126d46b0",
+      "sourcePackageVersion": "1.378.9",
+      "intentIds": [
+        "terminal-shell-polish:b4bcaefb34c3b90609c9a6fb8b8a8e48a0317e8f8bb0f047767033587de43f08"
+      ]
     }
   ],
   "intents": [
@@ -112408,6 +112415,14 @@
       "summary": "With the organization's unified shell flag on, the main window draws an icon rail in place of the title bar's Agent / Apps / Terminal switcher. Agent and Terminal keep their warm layers, every other section opens its page inside the shell, Automations lists the organization's automations beside the page, and ⌃1–⌃9 (Alt+1–9 off macOS) move between sections. The window opens as before with the flag off.",
       "sourceSha": "f991a573050a205d0908faed426f43087eed5810",
       "identity": "terminal-shell-rail:6646497f1401e1ae0bfe5f6768dabbf123ce8a7ee471952c7e45d96c886dc6fc"
+    },
+    {
+      "id": "terminal-shell-polish",
+      "digest": "b4bcaefb34c3b90609c9a6fb8b8a8e48a0317e8f8bb0f047767033587de43f08",
+      "type": "patch",
+      "summary": "With the unified shell on, the rail's section shortcuts (⌃1–⌃9, Alt+1–9 off macOS) are Settings → Keybindings rows (\"Go to Terminal section\" and so on) that can be rebound or cleared, match the physical digit key on any keyboard layout, and take Alt+digit from terminal programs only while the shell is drawn. Moving the pointer along the rail no longer blanks the embedded page, and a chat link that falls back to the web view no longer lights the wrong rail entry.",
+      "sourceSha": "ddb348ffd1fbcfd3607696bacd56745f126d46b0",
+      "identity": "terminal-shell-polish:b4bcaefb34c3b90609c9a6fb8b8a8e48a0317e8f8bb0f047767033587de43f08"
     }
   ],
   "consumedIntentIds": [
