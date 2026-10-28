@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5acb8822b93484d4e7e0a1cb1368120e36f5c798",
+  "cursorSha": "1e0216cd199a9d7bc5b8387ab12d859b4672ad94",
   "highWaterVersion": "1.376.3",
   "rows": [
     {
@@ -109617,6 +109617,13 @@
       "sourceSha": "5acb8822b93484d4e7e0a1cb1368120e36f5c798",
       "sourcePackageVersion": "1.377.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "1e0216cd199a9d7bc5b8387ab12d859b4672ad94",
+      "sourcePackageVersion": "1.377.0",
+      "intentIds": [
+        "inline-project-settings:4a61b244801444c2c0cc872876bf7a8df0392b4108ccf62afc247b648dcec37f"
+      ]
     }
   ],
   "intents": [
@@ -111243,6 +111250,14 @@
       "summary": "Send each local project's page list to CodePress so its shared plan canvas matches Terminal. The list goes after every plan publish and page removal, and once at start for projects whose list changed, at most one send per project at a time; a failed, slow or unsupported send never fails the publish and is retried on the next change or start. The Orchestrator is told the plan page's share link opens every page once there are two or more, when CodePress has taken the list.",
       "sourceSha": "46a96d42a0830ba7b484ced54656f4743b87c367",
       "identity": "quiet-canvas-pages:22eae8a3276170681e7eb538fade494e9e3b195483d3c57e7b4d6c2b64f6092d"
+    },
+    {
+      "id": "inline-project-settings",
+      "digest": "4a61b244801444c2c0cc872876bf7a8df0392b4108ccf62afc247b648dcec37f",
+      "type": "patch",
+      "summary": "Open Project settings inside the Details panel so the conversation and composer stay available. Settings fit narrow panels and the phone drawer, with Back, Esc and the settings icon returning to Work or Plan.",
+      "sourceSha": "1e0216cd199a9d7bc5b8387ab12d859b4672ad94",
+      "identity": "inline-project-settings:4a61b244801444c2c0cc872876bf7a8df0392b4108ccf62afc247b648dcec37f"
     }
   ],
   "consumedIntentIds": [
