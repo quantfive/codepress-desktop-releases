@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0e45480b78c3a2b744a1e1c33f94e6fa8e9cdee3",
+  "cursorSha": "46a96d42a0830ba7b484ced54656f4743b87c367",
   "highWaterVersion": "1.376.3",
   "rows": [
     {
@@ -109590,6 +109590,13 @@
       "intentIds": [
         "land-project-cloud:3a281eca0259b60785519a33f898815a96bc3efa6710a2442281a2193a72fd8a"
       ]
+    },
+    {
+      "sourceSha": "46a96d42a0830ba7b484ced54656f4743b87c367",
+      "sourcePackageVersion": "1.376.8",
+      "intentIds": [
+        "quiet-canvas-pages:22eae8a3276170681e7eb538fade494e9e3b195483d3c57e7b4d6c2b64f6092d"
+      ]
     }
   ],
   "intents": [
@@ -111208,6 +111215,14 @@
       "summary": "Land project… is also in the ⋯ menu of a building cloud project, and landing refuses (and shows the new list) when the project's unfinished work items changed after the dialog opened.",
       "sourceSha": "0e45480b78c3a2b744a1e1c33f94e6fa8e9cdee3",
       "identity": "land-project-cloud:3a281eca0259b60785519a33f898815a96bc3efa6710a2442281a2193a72fd8a"
+    },
+    {
+      "id": "quiet-canvas-pages",
+      "digest": "22eae8a3276170681e7eb538fade494e9e3b195483d3c57e7b4d6c2b64f6092d",
+      "type": "minor",
+      "summary": "Send each local project's page list to CodePress so its shared plan canvas matches Terminal. The list goes after every plan publish and page removal, and once at start for projects whose list changed, at most one send per project at a time; a failed, slow or unsupported send never fails the publish and is retried on the next change or start. The Orchestrator is told the plan page's share link opens every page once there are two or more, when CodePress has taken the list.",
+      "sourceSha": "46a96d42a0830ba7b484ced54656f4743b87c367",
+      "identity": "quiet-canvas-pages:22eae8a3276170681e7eb538fade494e9e3b195483d3c57e7b4d6c2b64f6092d"
     }
   ],
   "consumedIntentIds": [
