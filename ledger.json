@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "78b2d6a573fd8c643159c3abd688bd6277f755e7",
+  "cursorSha": "19ffadd292cd7caefa8316e39e5b97e81e6f43ef",
   "highWaterVersion": "1.376.2",
   "rows": [
     {
@@ -109431,6 +109431,13 @@
       "intentIds": [
         "headless-claude-entrypoint:5a88122e3a3f71e48f498849277bd1d031b52dbd8c5e92cba9a2f5b0ffaece72"
       ]
+    },
+    {
+      "sourceSha": "19ffadd292cd7caefa8316e39e5b97e81e6f43ef",
+      "sourcePackageVersion": "1.376.4",
+      "intentIds": [
+        "fast-this-mac-handoff-preview:856036af03028741d5ca50fcbfa05408043e4498867769471f325a79a0c35d31"
+      ]
     }
   ],
   "intents": [
@@ -111001,6 +111008,14 @@
       "summary": "Label headless Claude sessions as codepress while preserving ambient authentication.",
       "sourceSha": "78b2d6a573fd8c643159c3abd688bd6277f755e7",
       "identity": "headless-claude-entrypoint:5a88122e3a3f71e48f498849277bd1d031b52dbd8c5e92cba9a2f5b0ffaece72"
+    },
+    {
+      "id": "fast-this-mac-handoff-preview",
+      "digest": "856036af03028741d5ca50fcbfa05408043e4498867769471f325a79a0c35d31",
+      "type": "patch",
+      "summary": "Make This Mac handoff previews probe only the home Mac, check handoff targets concurrently, and show loading, retry, and Needs update states in the picker.",
+      "sourceSha": "19ffadd292cd7caefa8316e39e5b97e81e6f43ef",
+      "identity": "fast-this-mac-handoff-preview:856036af03028741d5ca50fcbfa05408043e4498867769471f325a79a0c35d31"
     }
   ],
   "consumedIntentIds": [
