@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0833274225b9aff73cf8836b7fc697e843f08b5e",
+  "cursorSha": "01f8985700ee01e71a55145f680cf15c0bff4948",
   "highWaterVersion": "1.378.10",
   "rows": [
     {
@@ -111119,6 +111119,13 @@
       "sourceSha": "0833274225b9aff73cf8836b7fc697e843f08b5e",
       "sourcePackageVersion": "1.378.21",
       "intentIds": []
+    },
+    {
+      "sourceSha": "01f8985700ee01e71a55145f680cf15c0bff4948",
+      "sourcePackageVersion": "1.378.21",
+      "intentIds": [
+        "tender-sockets-answer:ec22db088c641cccab81d7e1363362f94463b2c44db5ae36183e206aefe2d1ce"
+      ]
     }
   ],
   "intents": [
@@ -113049,6 +113056,14 @@
       "summary": "A chat's change reaches the feed on screen as one pushed row, and a chat whose card is gone is removed by its row key, with no feed read.",
       "sourceSha": "68f2e6cb441d978bbb52755339c241c7f12e43e1",
       "identity": "chat-card-pushed-to-viewer:229dfe72dfb0825fdb549abfd2d52013ac193aebc94a50a6a6a03896c487e41a"
+    },
+    {
+      "id": "tender-sockets-answer",
+      "digest": "ec22db088c641cccab81d7e1363362f94463b2c44db5ae36183e206aefe2d1ce",
+      "type": "patch",
+      "summary": "Keep remote windows connected during large post-connect output bursts by treating every inbound frame as liveness, while retaining a separate pong deadline and reporting heartbeat close reasons and round-trip timing.\n\nProbe immediately on foreground return and share a three-second, any-frame focus probe across desktop, browser and remote-machine windows.",
+      "sourceSha": "01f8985700ee01e71a55145f680cf15c0bff4948",
+      "identity": "tender-sockets-answer:ec22db088c641cccab81d7e1363362f94463b2c44db5ae36183e206aefe2d1ce"
     }
   ],
   "consumedIntentIds": [
