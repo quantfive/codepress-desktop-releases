@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ed0c2841a66ede68ab92cf179a476da11f8f016f",
+  "cursorSha": "442ebc4d6c2ffbde90e03795aa188a38770215f0",
   "highWaterVersion": "1.376.0",
   "rows": [
     {
@@ -109223,6 +109223,13 @@
       "sourceSha": "ed0c2841a66ede68ab92cf179a476da11f8f016f",
       "sourcePackageVersion": "1.376.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "442ebc4d6c2ffbde90e03795aa188a38770215f0",
+      "sourcePackageVersion": "1.376.1",
+      "intentIds": [
+        "local-preview-origins:f56e79f5f44d41ce50d26f7f9880abc499ad7573727ea07aec4b280501a25a5e"
+      ]
     }
   ],
   "intents": [
@@ -110753,6 +110760,14 @@
       "summary": "Archiving a project answers as soon as the archive is saved; closing its session and removing its worktrees now finish in the background, retried if a folder is kept, with a rail notice pointing to Settings → Storage when something could not be removed.",
       "sourceSha": "b5ab07c70d321f71ca4f2463c012d8e9d64086a4",
       "identity": "archive-answers-first:03a4c989dc9421762db6f467f8dd62887b5946f74e1ced17834b3ece6f25376e"
+    },
+    {
+      "id": "local-preview-origins",
+      "digest": "f56e79f5f44d41ce50d26f7f9880abc499ad7573727ea07aec4b280501a25a5e",
+      "type": "patch",
+      "summary": "Isolate local Browser Tab previews from Terminal controls, strip Terminal credentials from preview relays, and preserve old preview links with safe navigation redirects. Preview applications start with fresh browser storage once. Linux uses dedicated loopback preview listeners.",
+      "sourceSha": "442ebc4d6c2ffbde90e03795aa188a38770215f0",
+      "identity": "local-preview-origins:f56e79f5f44d41ce50d26f7f9880abc499ad7573727ea07aec4b280501a25a5e"
     }
   ],
   "consumedIntentIds": [
