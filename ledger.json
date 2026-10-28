@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ed57c7dcca35b7aa6eb35ad886e0792b09d83e2d",
+  "cursorSha": "96cc25e347d5c2c612f315406e0b44f79dee3310",
   "highWaterVersion": "1.377.2",
   "rows": [
     {
@@ -109958,6 +109958,13 @@
       "intentIds": [
         "slow-kata-host-boot:212d21a83e46c797affa45ac754869307ca884fd15fdc8b41b54d896f96174e1"
       ]
+    },
+    {
+      "sourceSha": "96cc25e347d5c2c612f315406e0b44f79dee3310",
+      "sourcePackageVersion": "1.377.6",
+      "intentIds": [
+        "plan-page-frame-origin-guard:5e80f18ff347451af01c80617b9718cbf29697c97952de96d8edd16f73f1d5eb"
+      ]
     }
   ],
   "intents": [
@@ -111664,6 +111671,14 @@
       "summary": "Allow slow capacity hosts up to 90 seconds to connect to the Kata guest agent,\nwith a longer host boot-command timeout. Hosts adopt the change after updating\nthe CLI and running host leave followed by host join.",
       "sourceSha": "ed57c7dcca35b7aa6eb35ad886e0792b09d83e2d",
       "identity": "slow-kata-host-boot:212d21a83e46c797affa45ac754869307ca884fd15fdc8b41b54d896f96174e1"
+    },
+    {
+      "id": "plan-page-frame-origin-guard",
+      "digest": "5e80f18ff347451af01c80617b9718cbf29697c97952de96d8edd16f73f1d5eb",
+      "type": "patch",
+      "summary": "Show the Orchestrator's HTML plan pages again on the Overview tab. The desktop app's local-control origin guard was refusing the plan page frame with `ORIGIN_NOT_ALLOWED`; it now admits that frame's page load, as it already does for file and media frames.",
+      "sourceSha": "96cc25e347d5c2c612f315406e0b44f79dee3310",
+      "identity": "plan-page-frame-origin-guard:5e80f18ff347451af01c80617b9718cbf29697c97952de96d8edd16f73f1d5eb"
     }
   ],
   "consumedIntentIds": [
