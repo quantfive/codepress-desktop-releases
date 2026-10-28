@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "75c32b40c919d697f47fd874279723030c12d903",
+  "cursorSha": "881ebc2ceefab237e3bbb29080a93c87c84e0a67",
   "highWaterVersion": "1.378.12",
   "rows": [
     {
@@ -111294,6 +111294,13 @@
       "sourceSha": "75c32b40c919d697f47fd874279723030c12d903",
       "sourcePackageVersion": "1.378.24",
       "intentIds": []
+    },
+    {
+      "sourceSha": "881ebc2ceefab237e3bbb29080a93c87c84e0a67",
+      "sourcePackageVersion": "1.378.24",
+      "intentIds": [
+        "orchestrator-button-always-shown:38d395bf16401cf92342e00235507f8a9936f5aa70effdcb9bacbbb1896faa74"
+      ]
     }
   ],
   "intents": [
@@ -113256,6 +113263,14 @@
       "summary": "Add a strict authenticated owner UI request predicate for future daemon routes and verify the Terminal UI origin boundary.",
       "sourceSha": "2cff5270eeecab46011b494b9af20bcbfb4747cc",
       "identity": "terminal-ui-origin-boundary:1407889e2dba0980ef57425040a8b2354401db214763f116c8c4d71c96cfa4c6"
+    },
+    {
+      "id": "orchestrator-button-always-shown",
+      "digest": "38d395bf16401cf92342e00235507f8a9936f5aa70effdcb9bacbbb1896faa74",
+      "type": "patch",
+      "summary": "The Agent (Orchestrator) mode button no longer disappears from the title bar when the account has not loaded; the mode shows its loading or sign-in state instead, and a failed account read after a window reload is retried.",
+      "sourceSha": "881ebc2ceefab237e3bbb29080a93c87c84e0a67",
+      "identity": "orchestrator-button-always-shown:38d395bf16401cf92342e00235507f8a9936f5aa70effdcb9bacbbb1896faa74"
     }
   ],
   "consumedIntentIds": [
