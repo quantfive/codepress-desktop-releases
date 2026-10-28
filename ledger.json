@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b6e5555f54dd2704c4aec0e0672c2de870c86c8b",
+  "cursorSha": "896437b0393279f6797c4478f85cd9b7e75c435d",
   "highWaterVersion": "1.378.22",
   "rows": [
     {
@@ -112221,6 +112221,13 @@
       "intentIds": [
         "signed-in-listens-sooner:2f085950f1049acda2bdecf42051ea9323f1d10e577ce901b2517fa69cf12e08"
       ]
+    },
+    {
+      "sourceSha": "896437b0393279f6797c4478f85cd9b7e75c435d",
+      "sourcePackageVersion": "1.378.34",
+      "intentIds": [
+        "terminal-onboarding-unlock-consent:d891b73e1ea373c07ba7aa7bf64e615b5f26666345b2768d8c5717a57ab2b1a4"
+      ]
     }
   ],
   "intents": [
@@ -114311,6 +114318,14 @@
       "summary": "Signed-in daemons listen sooner: the device channel starts right after the daemon listens instead of opening the Orchestrator store first.",
       "sourceSha": "b6e5555f54dd2704c4aec0e0672c2de870c86c8b",
       "identity": "signed-in-listens-sooner:2f085950f1049acda2bdecf42051ea9323f1d10e577ce901b2517fa69cf12e08"
+    },
+    {
+      "id": "terminal-onboarding-unlock-consent",
+      "digest": "d891b73e1ea373c07ba7aa7bf64e615b5f26666345b2768d8c5717a57ab2b1a4",
+      "type": "patch",
+      "summary": "Keep lock-screen unlock off in permission onboarding unless the person enables it, preserving existing saved choices.",
+      "sourceSha": "896437b0393279f6797c4478f85cd9b7e75c435d",
+      "identity": "terminal-onboarding-unlock-consent:d891b73e1ea373c07ba7aa7bf64e615b5f26666345b2768d8c5717a57ab2b1a4"
     }
   ],
   "consumedIntentIds": [
