@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "30ea5b0f99a5a03eedd1477c0d135ea3510ef8c0",
+  "cursorSha": "6af480cee2251ad445cd693a503933e83216bc0b",
   "highWaterVersion": "1.378.2",
   "rows": [
     {
@@ -110387,6 +110387,18 @@
       "sourceSha": "30ea5b0f99a5a03eedd1477c0d135ea3510ef8c0",
       "sourcePackageVersion": "1.378.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7d194cbd216c1e6d191796054db25f29c30bbf54",
+      "sourcePackageVersion": "1.378.6",
+      "intentIds": [
+        "shared-stats-fast-install:783025f8450e859555ca1bb3f00de103dbdbc43a64009c8dbb26833105347c2c"
+      ]
+    },
+    {
+      "sourceSha": "6af480cee2251ad445cd693a503933e83216bc0b",
+      "sourcePackageVersion": "1.378.6",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -112189,6 +112201,14 @@
       "summary": "Re-home live synced projects after a Terminal device-id change when their prior home is offline and the local replica generation still matches.",
       "sourceSha": "3bd8ff2d07811489892ed88450b59ec7d8d74c4c",
       "identity": "stale-device-project-home:61395b506d76f270e3b161bcef0115f3578c909071a8b4e821a3c099a9729087"
+    },
+    {
+      "id": "shared-stats-fast-install",
+      "digest": "783025f8450e859555ca1bb3f00de103dbdbc43a64009c8dbb26833105347c2c",
+      "type": "patch",
+      "summary": "Install shared GitHub stats snapshots with reusable bulk SQLite writes, preserving atomic recovery and reporting lease loss before collection continues.",
+      "sourceSha": "7d194cbd216c1e6d191796054db25f29c30bbf54",
+      "identity": "shared-stats-fast-install:783025f8450e859555ca1bb3f00de103dbdbc43a64009c8dbb26833105347c2c"
     }
   ],
   "consumedIntentIds": [
