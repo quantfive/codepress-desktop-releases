@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3c114fe0f08b65436d051a52d3f2ec66751944ad",
+  "cursorSha": "a7b914bd6a3d201a007f5147a321800098453f07",
   "highWaterVersion": "1.377.3",
   "rows": [
     {
@@ -110094,6 +110094,18 @@
       "intentIds": [
         "quick-delete-answers:0c9c6d82954eb2a8e0b922e3fba0e364f55f606307e5e28a7d8e87653e12588a"
       ]
+    },
+    {
+      "sourceSha": "a17c64e3751a45e67e12e3db31c8079ab5223cee",
+      "sourcePackageVersion": "1.377.10",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "a7b914bd6a3d201a007f5147a321800098453f07",
+      "sourcePackageVersion": "1.377.10",
+      "intentIds": [
+        "remote-unlock-host-setup:73fc6b6061c25f9b5accd6b71e7991203acd71fe7b859c88434de85abb281dbc"
+      ]
     }
   ],
   "intents": [
@@ -111840,6 +111852,14 @@
       "summary": "Answer a project delete as soon as its agents and Orchestrator are stopped and the project is deleted; closing the workers' tabs and removing their worktrees and the project folder continue in the background, and the delete preview reads workers in parallel.",
       "sourceSha": "3c114fe0f08b65436d051a52d3f2ec66751944ad",
       "identity": "quick-delete-answers:0c9c6d82954eb2a8e0b922e3fba0e364f55f606307e5e28a7d8e87653e12588a"
+    },
+    {
+      "id": "remote-unlock-host-setup",
+      "digest": "73fc6b6061c25f9b5accd6b71e7991203acd71fe7b859c88434de85abb281dbc",
+      "type": "minor",
+      "summary": "Make Remote unlock setup visible in Remote Access settings and onboarding, and preset never-chosen lock-screen access when Desktop hosting is turned on.",
+      "sourceSha": "a7b914bd6a3d201a007f5147a321800098453f07",
+      "identity": "remote-unlock-host-setup:73fc6b6061c25f9b5accd6b71e7991203acd71fe7b859c88434de85abb281dbc"
     }
   ],
   "consumedIntentIds": [
