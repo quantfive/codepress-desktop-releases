@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "80977612e95a4fe92ef25470d817d856fa54e9e3",
+  "cursorSha": "68f2e6cb441d978bbb52755339c241c7f12e43e1",
   "highWaterVersion": "1.378.9",
   "rows": [
     {
@@ -111025,6 +111025,13 @@
       "sourceSha": "80977612e95a4fe92ef25470d817d856fa54e9e3",
       "sourcePackageVersion": "1.378.20",
       "intentIds": []
+    },
+    {
+      "sourceSha": "68f2e6cb441d978bbb52755339c241c7f12e43e1",
+      "sourcePackageVersion": "1.378.20",
+      "intentIds": [
+        "chat-card-pushed-to-viewer:229dfe72dfb0825fdb549abfd2d52013ac193aebc94a50a6a6a03896c487e41a"
+      ]
     }
   ],
   "intents": [
@@ -112947,6 +112954,14 @@
       "summary": "With the unified shell flag on, the status bar is gone and everything it did moves into the rail's machine picker: the tunnel URL (copy, edit, QR code), Processes, the agent scope, the update and restart pills, queued-message delivery, Software Factory activation, the agent dashboard toggle, reconnect, \"Open another computer…\" (the machines menu) and \"Connect a computer…\". The computer you are driving remotely and notices such as a pending key prefix or other viewers show on the picker button with the menu closed. Choosing a machine in the picker marks it as the selected one in the menu; the rows still act on this computer. With the flag off the status bar is unchanged.",
       "sourceSha": "b3b914d7ecfacf628bf9314ab98b67d4948ae312",
       "identity": "terminal-machine-picker:846ed746f7b789d22fb2a7730a391d60efe68e7a93f851e3af10ec33357e07b1"
+    },
+    {
+      "id": "chat-card-pushed-to-viewer",
+      "digest": "229dfe72dfb0825fdb549abfd2d52013ac193aebc94a50a6a6a03896c487e41a",
+      "type": "patch",
+      "summary": "A chat's change reaches the feed on screen as one pushed row, and a chat whose card is gone is removed by its row key, with no feed read.",
+      "sourceSha": "68f2e6cb441d978bbb52755339c241c7f12e43e1",
+      "identity": "chat-card-pushed-to-viewer:229dfe72dfb0825fdb549abfd2d52013ac193aebc94a50a6a6a03896c487e41a"
     }
   ],
   "consumedIntentIds": [
