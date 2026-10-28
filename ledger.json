@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ac4cebbaa07805b0f05ccb92103bfc768f3eb14d",
+  "cursorSha": "b3b914d7ecfacf628bf9314ab98b67d4948ae312",
   "highWaterVersion": "1.378.9",
   "rows": [
     {
@@ -111005,6 +111005,13 @@
       "sourceSha": "ac4cebbaa07805b0f05ccb92103bfc768f3eb14d",
       "sourcePackageVersion": "1.378.19",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b3b914d7ecfacf628bf9314ab98b67d4948ae312",
+      "sourcePackageVersion": "1.378.19",
+      "intentIds": [
+        "terminal-machine-picker:846ed746f7b789d22fb2a7730a391d60efe68e7a93f851e3af10ec33357e07b1"
+      ]
     }
   ],
   "intents": [
@@ -112919,6 +112926,14 @@
       "summary": "Group Hand off destinations into compact lists, show the route beneath the selected destination, and use shared timed progress and recovery views on desktop and phones.",
       "sourceSha": "a797987cfa156113bbf7f04e06675a1a9c3d2822",
       "identity": "tidy-handoff-dialog:3e4e55b1ee10d2d19774ab673f8e22ed429a541828f3125ade325e802babebd0"
+    },
+    {
+      "id": "terminal-machine-picker",
+      "digest": "846ed746f7b789d22fb2a7730a391d60efe68e7a93f851e3af10ec33357e07b1",
+      "type": "patch",
+      "summary": "With the unified shell flag on, the status bar is gone and everything it did moves into the rail's machine picker: the tunnel URL (copy, edit, QR code), Processes, the agent scope, the update and restart pills, queued-message delivery, Software Factory activation, the agent dashboard toggle, reconnect, \"Open another computer…\" (the machines menu) and \"Connect a computer…\". The computer you are driving remotely and notices such as a pending key prefix or other viewers show on the picker button with the menu closed. Choosing a machine in the picker marks it as the selected one in the menu; the rows still act on this computer. With the flag off the status bar is unchanged.",
+      "sourceSha": "b3b914d7ecfacf628bf9314ab98b67d4948ae312",
+      "identity": "terminal-machine-picker:846ed746f7b789d22fb2a7730a391d60efe68e7a93f851e3af10ec33357e07b1"
     }
   ],
   "consumedIntentIds": [
