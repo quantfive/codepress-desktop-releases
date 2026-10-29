@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "c0722a7cf426fb3e8b8c4eae64cad3e35e7e6095",
-  "highWaterVersion": "1.379.15",
+  "highWaterVersion": "1.379.16",
   "rows": [
     {
       "schemaVersion": 1,
@@ -59115,6 +59115,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:c0722a7cf426fb3e8b8c4eae64cad3e35e7e6095",
+      "kind": "main",
+      "sequence": 1784,
+      "sourceSha": "c0722a7cf426fb3e8b8c4eae64cad3e35e7e6095",
+      "sourcePackageVersion": "1.379.23",
+      "version": "1.379.16",
+      "publicationDate": "2026-10-29T17:12:24.586Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-component-test-harness:9d874116111b6894fb1990e47bee77f744b28df06993d13baf6e11d488744984"
+        ],
+        "notesIntentIds": [
+          "terminal-component-test-harness:9d874116111b6894fb1990e47bee77f744b28df06993d13baf6e11d488744984"
+        ],
+        "throughSourceSha": "c0722a7cf426fb3e8b8c4eae64cad3e35e7e6095",
+        "previousThroughSourceSha": "d8a3dd71604d93775743bd15137c020a97107027",
+        "baselineVersion": "1.379.15",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40918853841",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-30T17:11:55.955Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -117590,7 +117633,8 @@
     "vm-park-refusal-reporting:ff0dbe34839980cdd8c185c26467bdb80f8ae572c330043b0419d661cd3e292f",
     "calm-pool-cleanup:62234adc99c63540b4d7b80238f6002f0a98bc28be89696b1226a45f820cb192",
     "pool-host-cpu-overhead:1f0ddf24bba4257c344d988755ceee1f35bb201d2301179131479b2a9782fd36",
-    "retire-launch-recovery-done-item:5eff20b0dd2f312ad4017b9bbc1d4080d8d9f694253d2819062670e4781770b1"
+    "retire-launch-recovery-done-item:5eff20b0dd2f312ad4017b9bbc1d4080d8d9f694253d2819062670e4781770b1",
+    "terminal-component-test-harness:9d874116111b6894fb1990e47bee77f744b28df06993d13baf6e11d488744984"
   ],
-  "consumedThroughSha": "d8a3dd71604d93775743bd15137c020a97107027"
+  "consumedThroughSha": "c0722a7cf426fb3e8b8c4eae64cad3e35e7e6095"
 }
