@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3d93d40d788fac7634074f289a4dae4eb6034f6f",
+  "cursorSha": "0bc6d852519c3741d34e091c56ba218db0641221",
   "highWaterVersion": "1.379.7",
   "rows": [
     {
@@ -114098,6 +114098,13 @@
       "sourceSha": "3d93d40d788fac7634074f289a4dae4eb6034f6f",
       "sourcePackageVersion": "1.379.13",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0bc6d852519c3741d34e091c56ba218db0641221",
+      "sourcePackageVersion": "1.379.13",
+      "intentIds": [
+        "terminate-parked-cloud-vms:dff227076c1406c469793f1ffda8a67650b79f825eae4809f6fc136bdc566802"
+      ]
     }
   ],
   "intents": [
@@ -116516,6 +116523,14 @@
       "summary": "Open after moving a project to a New Cloud VM now opens that VM through its viewer grant, the handoff destination list no longer shows a Cloud VM as an offline \"localhost\" Mac, and a Cloud VM page opened without a viewer grant says how to open it instead of asking for a reload.",
       "sourceSha": "52c01cb0b21c2a1660fb8229917c8ab0770e8978",
       "identity": "vm-open-after-move:77039448ea331df7acba129a4adfdf5276e2de1beed052eaff45edd16e7d8ed9"
+    },
+    {
+      "id": "terminate-parked-cloud-vms",
+      "digest": "dff227076c1406c469793f1ffda8a67650b79f825eae4809f6fc136bdc566802",
+      "type": "patch",
+      "summary": "Parked Cloud VMs can be terminated from their card and detail view, discarding their saved work.",
+      "sourceSha": "0bc6d852519c3741d34e091c56ba218db0641221",
+      "identity": "terminate-parked-cloud-vms:dff227076c1406c469793f1ffda8a67650b79f825eae4809f6fc136bdc566802"
     }
   ],
   "consumedIntentIds": [
