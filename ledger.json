@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a15d9fad4e58c1c29343237f9fd4d6ed5884d05c",
+  "cursorSha": "3d2635945e33cacc1176c58c936a4d0bd4c736f6",
   "highWaterVersion": "1.378.28",
   "rows": [
     {
@@ -112765,6 +112765,13 @@
       "sourceSha": "a15d9fad4e58c1c29343237f9fd4d6ed5884d05c",
       "sourcePackageVersion": "1.378.46",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3d2635945e33cacc1176c58c936a4d0bd4c736f6",
+      "sourcePackageVersion": "1.378.46",
+      "intentIds": [
+        "instant-feed-filter:9d3146bf7eb8d30073b037fc32234bb0e9765b7b88a0f0e4d2ac194fae371656"
+      ]
     }
   ],
   "intents": [
@@ -114959,6 +114966,14 @@
       "summary": "Fix pool-host VM cleanup on real hosts: command timeouts derived from the monotonic clock are now whole milliseconds, so destroy no longer fails with \"Invalid host command timeout\" before it can stop or remove a sandbox.",
       "sourceSha": "48b77032d4366f55ab574893b961c0bc0e15d7a8",
       "identity": "pool-host-integer-timeouts:215a966985c8216833e1bb080b0ced617d19e877bbf5746e2f0030316b935ac5"
+    },
+    {
+      "id": "instant-feed-filter",
+      "digest": "9d3146bf7eb8d30073b037fc32234bb0e9765b7b88a0f0e4d2ac194fae371656",
+      "type": "patch",
+      "summary": "Ticking a filter in the feed rail now shows the matching rows you already have right away, with an \"Updating…\" bar, instead of dimming the list; an asleep machine in the filter menu no longer looks disabled.",
+      "sourceSha": "3d2635945e33cacc1176c58c936a4d0bd4c736f6",
+      "identity": "instant-feed-filter:9d3146bf7eb8d30073b037fc32234bb0e9765b7b88a0f0e4d2ac194fae371656"
     }
   ],
   "consumedIntentIds": [
