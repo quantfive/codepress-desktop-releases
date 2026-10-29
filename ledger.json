@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "162c7beccb32b3cf5cf7ef589534f0556080b465",
+  "cursorSha": "fcabfd396a11271266ec23a8d950acb61fb434ad",
   "highWaterVersion": "1.379.21",
   "rows": [
     {
@@ -115358,6 +115358,13 @@
       "sourceSha": "162c7beccb32b3cf5cf7ef589534f0556080b465",
       "sourcePackageVersion": "1.379.31",
       "intentIds": []
+    },
+    {
+      "sourceSha": "fcabfd396a11271266ec23a8d950acb61fb434ad",
+      "sourcePackageVersion": "1.379.31",
+      "intentIds": [
+        "handoff-managed-checkout-on-dispatch:93757b0f5ff90768e6a01aa416834a6da29f5a90d1cea24eade67db908615b3e"
+      ]
     }
   ],
   "intents": [
@@ -117936,6 +117943,14 @@
       "summary": "The pages Terminal draws itself in the unified shell can now read the signed-in person, the page's query and title, in-app confirm and prompt dialogs, file uploads and host-supplied pieces from Terminal, ready for Evals, Automations and the Apps list to move in. Nothing changes on screen yet.",
       "sourceSha": "108c52504431f7fa860be693dbe41df58384753e",
       "identity": "shell-page-contract-v2:ef444f1ae9df0e98499748d46eef7d5077df18755ad56b18743e1f95099e623a"
+    },
+    {
+      "id": "handoff-managed-checkout-on-dispatch",
+      "digest": "93757b0f5ff90768e6a01aa416834a6da29f5a90d1cea24eade67db908615b3e",
+      "type": "patch",
+      "summary": "A Mac that receives an Orchestrator handed off from the cloud no longer needs the project's repository checked out first: Terminal reuses its checkout of that repository or clones one, starts the Orchestrator there, and tells CodePress which folder it used.",
+      "sourceSha": "fcabfd396a11271266ec23a8d950acb61fb434ad",
+      "identity": "handoff-managed-checkout-on-dispatch:93757b0f5ff90768e6a01aa416834a6da29f5a90d1cea24eade67db908615b3e"
     }
   ],
   "consumedIntentIds": [
