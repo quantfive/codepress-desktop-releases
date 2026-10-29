@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "edd0ca65569f73d8efd2b33f2f405f4cef047b92",
-  "highWaterVersion": "1.379.2",
+  "highWaterVersion": "1.379.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -58399,6 +58399,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:edd0ca65569f73d8efd2b33f2f405f4cef047b92",
+      "kind": "main",
+      "sequence": 1771,
+      "sourceSha": "edd0ca65569f73d8efd2b33f2f405f4cef047b92",
+      "sourcePackageVersion": "1.379.6",
+      "version": "1.379.3",
+      "publicationDate": "2026-10-29T06:13:26.865Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "cloud-vm-handoff-readiness:31adc22c117271bbc41af4d4fe0fc47d24d580d0efaa4cfc30fd2cf83eb7527f",
+          "reset-expiry-time:567b6aa04285fe67cae1a132dbd39b5fc24b166b02e1814ec997965ba2cbd7f2"
+        ],
+        "notesIntentIds": [
+          "cloud-vm-handoff-readiness:31adc22c117271bbc41af4d4fe0fc47d24d580d0efaa4cfc30fd2cf83eb7527f",
+          "reset-expiry-time:567b6aa04285fe67cae1a132dbd39b5fc24b166b02e1814ec997965ba2cbd7f2"
+        ],
+        "throughSourceSha": "edd0ca65569f73d8efd2b33f2f405f4cef047b92",
+        "previousThroughSourceSha": "49de7bd34efe800c7e375b97e38a38f519733a3c",
+        "baselineVersion": "1.379.2",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40827759651",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-30T06:13:00.494Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -116280,7 +116325,9 @@
     "landed-poll-prefilter:37f077eeeae10a3e3a5b5cec53851ec69cf1cedd7c4822462b9f8e231ca63ada",
     "tidy-github-stats-loading:2a66e63c680a101aae94697a6936227d183a66d905f67c0292f69dd839369887",
     "embed-section-switch-in-page:39b4334915c28c02a389bf308d7e2e015bc30ff5cc98b12200185c59ac381452",
-    "terra-61-release:a3d08a0c233211f8e4dec8e6f151fc193615974c1c4277dddcb053c274d43237"
+    "terra-61-release:a3d08a0c233211f8e4dec8e6f151fc193615974c1c4277dddcb053c274d43237",
+    "cloud-vm-handoff-readiness:31adc22c117271bbc41af4d4fe0fc47d24d580d0efaa4cfc30fd2cf83eb7527f",
+    "reset-expiry-time:567b6aa04285fe67cae1a132dbd39b5fc24b166b02e1814ec997965ba2cbd7f2"
   ],
-  "consumedThroughSha": "49de7bd34efe800c7e375b97e38a38f519733a3c"
+  "consumedThroughSha": "edd0ca65569f73d8efd2b33f2f405f4cef047b92"
 }
