@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "157e0be5667d87f745e95c73ffb421f11d684049",
-  "highWaterVersion": "1.379.5",
+  "highWaterVersion": "1.379.6",
   "rows": [
     {
       "schemaVersion": 1,
@@ -58567,6 +58567,52 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:157e0be5667d87f745e95c73ffb421f11d684049",
+      "kind": "main",
+      "sequence": 1774,
+      "sourceSha": "157e0be5667d87f745e95c73ffb421f11d684049",
+      "sourcePackageVersion": "1.379.11",
+      "version": "1.379.6",
+      "publicationDate": "2026-10-29T09:11:17.834Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "pool-session-runner-output:bd51599a8ef4891e00bfbca6dbeaf1507f18dc825065607c834cdd55349916f6",
+          "restore-unified-update-badge:4305b9402821177fec4f5061dab80fe585fb2cb3e1c059ff5bd6786debf3d862"
+        ],
+        "notesIntentIds": [
+          "feed-rail-instant-archive-delete:33f63ae63b81e0069a0483ac49c849b10bee136642c8205b45f6f4bc3cf011dc",
+          "pool-session-runner-output:bd51599a8ef4891e00bfbca6dbeaf1507f18dc825065607c834cdd55349916f6",
+          "restore-unified-update-badge:4305b9402821177fec4f5061dab80fe585fb2cb3e1c059ff5bd6786debf3d862"
+        ],
+        "throughSourceSha": "157e0be5667d87f745e95c73ffb421f11d684049",
+        "previousThroughSourceSha": "099bf99964b0562e967ff6d84dadefcb579aaa92",
+        "baselineVersion": "1.379.5",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40847459853",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-30T09:10:48.699Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -116654,7 +116700,9 @@
     "moved-copy-archive-delete:30ffd0085623ed8723028a1d1ff1d291ed6d9ac2825b1e80d965d7bbadc73f88",
     "quiet-feed-section-jumps:1f561c05a5541c509e38542495d5ef258301a11828ef986f17f3e0fc3122f9b8",
     "slow-mac-handoff-preview:69200c3b235838104360b303b0e4016eb3acc3b31b31588538ea5b8083407443",
-    "feed-rail-instant-archive-delete:33f63ae63b81e0069a0483ac49c849b10bee136642c8205b45f6f4bc3cf011dc"
+    "feed-rail-instant-archive-delete:33f63ae63b81e0069a0483ac49c849b10bee136642c8205b45f6f4bc3cf011dc",
+    "pool-session-runner-output:bd51599a8ef4891e00bfbca6dbeaf1507f18dc825065607c834cdd55349916f6",
+    "restore-unified-update-badge:4305b9402821177fec4f5061dab80fe585fb2cb3e1c059ff5bd6786debf3d862"
   ],
-  "consumedThroughSha": "099bf99964b0562e967ff6d84dadefcb579aaa92"
+  "consumedThroughSha": "157e0be5667d87f745e95c73ffb421f11d684049"
 }
