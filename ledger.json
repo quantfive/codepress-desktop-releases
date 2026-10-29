@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7f39fe83837616c1b4b015ad5145a89ff9306e89",
+  "cursorSha": "ee70c38f4d5d2c8c0c0bbf8f6c6344421b63c6ff",
   "highWaterVersion": "1.379.3",
   "rows": [
     {
@@ -113688,6 +113688,11 @@
       "intentIds": [
         "moved-copy-archive-delete:30ffd0085623ed8723028a1d1ff1d291ed6d9ac2825b1e80d965d7bbadc73f88"
       ]
+    },
+    {
+      "sourceSha": "ee70c38f4d5d2c8c0c0bbf8f6c6344421b63c6ff",
+      "sourcePackageVersion": "1.379.6",
+      "intentIds": []
     }
   ],
   "intents": [
