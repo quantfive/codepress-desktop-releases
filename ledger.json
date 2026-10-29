@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "703986ec4d86f65a54b4e75b64b5a1090d31373e",
+  "cursorSha": "4962ab08e7108948c489e07173f36241c3428f3c",
   "highWaterVersion": "1.378.32",
   "rows": [
     {
@@ -113158,6 +113158,13 @@
       "sourceSha": "703986ec4d86f65a54b4e75b64b5a1090d31373e",
       "sourcePackageVersion": "1.378.53",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4962ab08e7108948c489e07173f36241c3428f3c",
+      "sourcePackageVersion": "1.378.53",
+      "intentIds": [
+        "local-mark-ready:4b5d319b668eb8f5ed0e605b9fc2bf956396c60c50d6399e1f2af02d2cae3efb"
+      ]
     }
   ],
   "intents": [
@@ -115424,6 +115431,14 @@
       "summary": "Orchestrator project stores already opened by a recent build run the schema pass once more, so they get the `settings_revision` column that synced copies need to change home accounts and project folders.",
       "sourceSha": "2c7ad69f5f1546d3d38aa49e0fcc6d68ecda7e31",
       "identity": "orchestrator-fresh-schema-fingerprint:b55890f7a9ba10dae324f90b289cf0463df0ceb9fafe49ca4d8cbd017e866c1c"
+    },
+    {
+      "id": "local-mark-ready",
+      "digest": "4b5d319b668eb8f5ed0e605b9fc2bf956396c60c50d6399e1f2af02d2cae3efb",
+      "type": "patch",
+      "summary": "Let the local Orchestrator mark reviewed pull requests ready without merge authority or approval, while keeping merge approval requirements.",
+      "sourceSha": "4962ab08e7108948c489e07173f36241c3428f3c",
+      "identity": "local-mark-ready:4b5d319b668eb8f5ed0e605b9fc2bf956396c60c50d6399e1f2af02d2cae3efb"
     }
   ],
   "consumedIntentIds": [
