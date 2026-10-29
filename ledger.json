@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "62190ddffe32f763371ebe26d09b849c9a19a425",
+  "cursorSha": "0daa070d01b265d15383b4d49ee39eec2da3aaab",
   "highWaterVersion": "1.379.0",
   "rows": [
     {
@@ -113440,6 +113440,13 @@
       "sourceSha": "62190ddffe32f763371ebe26d09b849c9a19a425",
       "sourcePackageVersion": "1.379.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0daa070d01b265d15383b4d49ee39eec2da3aaab",
+      "sourcePackageVersion": "1.379.2",
+      "intentIds": [
+        "embed-section-switch-in-page:39b4334915c28c02a389bf308d7e2e015bc30ff5cc98b12200185c59ac381452"
+      ]
     }
   ],
   "intents": [
@@ -115762,6 +115769,14 @@
       "summary": "Let GitHub stats finish loading while shared collection publishes new snapshots, coalescing background refreshes without cancelling the current request.",
       "sourceSha": "74602aa462ed0152081af2a1be8866db51087a02",
       "identity": "tidy-github-stats-loading:2a66e63c680a101aae94697a6936227d183a66d905f67c0292f69dd839369887"
+    },
+    {
+      "id": "embed-section-switch-in-page",
+      "digest": "39b4334915c28c02a389bf308d7e2e015bc30ff5cc98b12200185c59ac381452",
+      "type": "patch",
+      "summary": "With the unified shell on, switching between Apps, Design, Automations and Evals routes inside the page that is already loaded instead of loading the whole web app again, so a later switch no longer repeats the sign-in, organization and settings reads. A web page that cannot route itself, or a page on another origin, is loaded as before.",
+      "sourceSha": "0daa070d01b265d15383b4d49ee39eec2da3aaab",
+      "identity": "embed-section-switch-in-page:39b4334915c28c02a389bf308d7e2e015bc30ff5cc98b12200185c59ac381452"
     }
   ],
   "consumedIntentIds": [
