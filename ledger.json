@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ad10796d8c3b68f0a7c00bd2c5074c06189fb7d2",
+  "cursorSha": "e2a67c5b3888df1bf85830617ef5bcaac15150a5",
   "highWaterVersion": "1.379.18",
   "rows": [
     {
@@ -115007,6 +115007,16 @@
       "intentIds": [
         "fleet-worker-computer-use:8aa84a401782fbbfcdddf6fd2b30ade8ced3420ef016c331ad510120691f15df"
       ]
+    },
+    {
+      "sourceSha": "14e18ccc85243f7fce72c45ba9888993d7a863c0",
+      "sourcePackageVersion": "1.379.27",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "e2a67c5b3888df1bf85830617ef5bcaac15150a5",
+      "sourcePackageVersion": "1.379.27",
+      "intentIds": []
     }
   ],
   "intents": [
