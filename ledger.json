@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "233361a4bb6467fe27551a70b973ddc6e666ccd8",
-  "highWaterVersion": "1.379.18",
+  "highWaterVersion": "1.379.19",
   "rows": [
     {
       "schemaVersion": 1,
@@ -59280,6 +59280,53 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:233361a4bb6467fe27551a70b973ddc6e666ccd8",
+      "kind": "main",
+      "sequence": 1787,
+      "sourceSha": "233361a4bb6467fe27551a70b973ddc6e666ccd8",
+      "sourcePackageVersion": "1.379.28",
+      "version": "1.379.19",
+      "publicationDate": "2026-10-29T18:52:58.573Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "fleet-worker-computer-use:8aa84a401782fbbfcdddf6fd2b30ade8ced3420ef016c331ad510120691f15df",
+          "supersede-launch-recovery-orchestrator:7643c46a104dd4dd9ca32bc5a90259b871993be37dd52033314680a6b5c17167",
+          "native-bridge-rejected-cause:e92a0074e6d2720f3c2e19f945610832f9bbb98c1013d44722f02deb33f4a054"
+        ],
+        "notesIntentIds": [
+          "fleet-worker-computer-use:8aa84a401782fbbfcdddf6fd2b30ade8ced3420ef016c331ad510120691f15df",
+          "supersede-launch-recovery-orchestrator:7643c46a104dd4dd9ca32bc5a90259b871993be37dd52033314680a6b5c17167",
+          "native-bridge-rejected-cause:e92a0074e6d2720f3c2e19f945610832f9bbb98c1013d44722f02deb33f4a054"
+        ],
+        "throughSourceSha": "233361a4bb6467fe27551a70b973ddc6e666ccd8",
+        "previousThroughSourceSha": "c274b2caeea5067000b83a0a903410844418e8bb",
+        "baselineVersion": "1.379.18",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40934433223",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-30T18:52:31.605Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -117909,7 +117956,10 @@
     "terminal-component-test-harness:9d874116111b6894fb1990e47bee77f744b28df06993d13baf6e11d488744984",
     "tidy-host-boot-fence:afb3cd9678f94f5903d6c92c6e0a2a1a180bcaa4ceaf05da3fbb8df4bb404119",
     "terminal-cloud-pm-handoff:1f98310f7df29b77aa66bc6285ca2dac10d7c453e425180fa69548df33e95604",
-    "terminal-update-badge-title-bar:59008e733902e5000d619888ba16ff623ebcddb1b2a169262c7bc327472d3184"
+    "terminal-update-badge-title-bar:59008e733902e5000d619888ba16ff623ebcddb1b2a169262c7bc327472d3184",
+    "fleet-worker-computer-use:8aa84a401782fbbfcdddf6fd2b30ade8ced3420ef016c331ad510120691f15df",
+    "supersede-launch-recovery-orchestrator:7643c46a104dd4dd9ca32bc5a90259b871993be37dd52033314680a6b5c17167",
+    "native-bridge-rejected-cause:e92a0074e6d2720f3c2e19f945610832f9bbb98c1013d44722f02deb33f4a054"
   ],
-  "consumedThroughSha": "c274b2caeea5067000b83a0a903410844418e8bb"
+  "consumedThroughSha": "233361a4bb6467fe27551a70b973ddc6e666ccd8"
 }
