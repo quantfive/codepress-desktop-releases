@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "ef8b1b5618286194e73c1cec7200ae96b84b4457",
-  "highWaterVersion": "1.378.26",
+  "highWaterVersion": "1.378.27",
   "rows": [
     {
       "schemaVersion": 1,
@@ -57757,6 +57757,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:ef8b1b5618286194e73c1cec7200ae96b84b4457",
+      "kind": "main",
+      "sequence": 1760,
+      "sourceSha": "ef8b1b5618286194e73c1cec7200ae96b84b4457",
+      "sourcePackageVersion": "1.378.41",
+      "version": "1.378.27",
+      "publicationDate": "2026-10-29T00:20:23.572Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "feed-rows-carry-filter-facts:2e7634046e84a1aac686fc261bec3c72ef103c328008ca95fd8f8dee249c8f4b",
+          "session-refresh-unlocked:8d59590342f96861a11b73dbb049d4e84a82ae59fea11b14d87658acaedd9ad4"
+        ],
+        "notesIntentIds": [
+          "feed-rows-carry-filter-facts:2e7634046e84a1aac686fc261bec3c72ef103c328008ca95fd8f8dee249c8f4b",
+          "session-refresh-unlocked:8d59590342f96861a11b73dbb049d4e84a82ae59fea11b14d87658acaedd9ad4"
+        ],
+        "throughSourceSha": "ef8b1b5618286194e73c1cec7200ae96b84b4457",
+        "previousThroughSourceSha": "ff4e3505c0caeb85946dfc2cc556cd7e18ec993d",
+        "baselineVersion": "1.378.26",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40793253432",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-30T00:19:58.686Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -115003,7 +115048,9 @@
     "tidy-home-device-address:b17024a51cd17908d09d9854ab8986c71669ea86299742b2e409c3225fc6b264",
     "steady-handoff-presence:4aa8c752f87e7207e9b8fd1f347c7dcac14e3b4994ef4461a6f2a6c12c74d02c",
     "feed-answers-sooner:25869cf722289172567ecfff4a994d168f8bd66ff2460c60be7fde5dcf485ed6",
-    "shell-per-person-flag:c39a1e1011fb13a7fd1dde7c5a43132e49c182b8f5bbad2e040d3f5253b84ed4"
+    "shell-per-person-flag:c39a1e1011fb13a7fd1dde7c5a43132e49c182b8f5bbad2e040d3f5253b84ed4",
+    "feed-rows-carry-filter-facts:2e7634046e84a1aac686fc261bec3c72ef103c328008ca95fd8f8dee249c8f4b",
+    "session-refresh-unlocked:8d59590342f96861a11b73dbb049d4e84a82ae59fea11b14d87658acaedd9ad4"
   ],
-  "consumedThroughSha": "ff4e3505c0caeb85946dfc2cc556cd7e18ec993d"
+  "consumedThroughSha": "ef8b1b5618286194e73c1cec7200ae96b84b4457"
 }
