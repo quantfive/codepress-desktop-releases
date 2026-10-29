@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "cdbde47c505e585437697345ebdb3ff906def57a",
+  "cursorSha": "9cf962a3abf84a7cd95acccced10a4f0e53f23bf",
   "highWaterVersion": "1.379.23",
   "rows": [
     {
@@ -115525,6 +115525,13 @@
       "intentIds": [
         "retire-terminal-cloud-vms:b4b8f95ed21bc6778aacf1bb4ee692b48c02e92c1ccff78d69db9e4ff6364f1a"
       ]
+    },
+    {
+      "sourceSha": "9cf962a3abf84a7cd95acccced10a4f0e53f23bf",
+      "sourcePackageVersion": "1.379.32",
+      "intentIds": [
+        "browser-sign-in-to-codepress:aa313c9acfce69d84b0c0b799365bff2b5b53756456affaf85a8524408526185"
+      ]
     }
   ],
   "intents": [
@@ -118119,6 +118126,14 @@
       "summary": "Retire Cloud VM launch and handoff destinations while preserving parked-work recovery and handoff to this Mac.",
       "sourceSha": "cdbde47c505e585437697345ebdb3ff906def57a",
       "identity": "retire-terminal-cloud-vms:b4b8f95ed21bc6778aacf1bb4ee692b48c02e92c1ccff78d69db9e4ff6364f1a"
+    },
+    {
+      "id": "browser-sign-in-to-codepress",
+      "digest": "aa313c9acfce69d84b0c0b799365bff2b5b53756456affaf85a8524408526185",
+      "type": "minor",
+      "summary": "Add `sign_in_to_codepress` to the local browser: an agent can open CodePress in its browser already signed in as the account Terminal is signed in to, instead of asking you to log in. Signing out of Terminal, letting the login expire or switching accounts also clears that browser's CodePress login.",
+      "sourceSha": "9cf962a3abf84a7cd95acccced10a4f0e53f23bf",
+      "identity": "browser-sign-in-to-codepress:aa313c9acfce69d84b0c0b799365bff2b5b53756456affaf85a8524408526185"
     }
   ],
   "consumedIntentIds": [
