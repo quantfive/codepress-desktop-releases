@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1dc3059210b9bccaaf476e86571ed9a0caab3b7f",
+  "cursorSha": "62559ca031d63ad59b27fc57992641f66a71d18a",
   "highWaterVersion": "1.378.29",
   "rows": [
     {
@@ -112846,6 +112846,18 @@
       "intentIds": [
         "store-open-stamp:95952ec0af5a7d1335092d568ee085c7bb58205a103255c8c6f4968bab6530c8"
       ]
+    },
+    {
+      "sourceSha": "e5372f444cf009f3260086d16e3272d14014af5a",
+      "sourcePackageVersion": "1.378.47",
+      "intentIds": [
+        "calm-host-orphans:4f0db7dd43ba998019507306311f8c7c809aac618632afaba985e31e0c4d1f41"
+      ]
+    },
+    {
+      "sourceSha": "62559ca031d63ad59b27fc57992641f66a71d18a",
+      "sourcePackageVersion": "1.378.48",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -115056,6 +115068,14 @@
       "summary": "Terminal launches faster on a large Orchestrator store: a store the last open already migrated skips the schema checks and one-time backfills instead of repeating them every boot. The first launch after updating still runs them once.",
       "sourceSha": "1dc3059210b9bccaaf476e86571ed9a0caab3b7f",
       "identity": "store-open-stamp:95952ec0af5a7d1335092d568ee085c7bb58205a103255c8c6f4968bab6530c8"
+    },
+    {
+      "id": "calm-host-orphans",
+      "digest": "4f0db7dd43ba998019507306311f8c7c809aac618632afaba985e31e0c4d1f41",
+      "type": "patch",
+      "summary": "Retry orphaned pool sandboxes and failed canary cleanup while the host stays online, allowing qualification to recover without a reconnect.",
+      "sourceSha": "e5372f444cf009f3260086d16e3272d14014af5a",
+      "identity": "calm-host-orphans:4f0db7dd43ba998019507306311f8c7c809aac618632afaba985e31e0c4d1f41"
     }
   ],
   "consumedIntentIds": [
