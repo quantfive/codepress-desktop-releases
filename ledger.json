@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "dac53b4af67703806881a087680ab21d0eebb64b",
+  "cursorSha": "099bf99964b0562e967ff6d84dadefcb579aaa92",
   "highWaterVersion": "1.379.4",
   "rows": [
     {
@@ -113849,6 +113849,18 @@
       "sourceSha": "dac53b4af67703806881a087680ab21d0eebb64b",
       "sourcePackageVersion": "1.379.9",
       "intentIds": []
+    },
+    {
+      "sourceSha": "6aa66a4f17d48c9672b493db875c53643664cfe8",
+      "sourcePackageVersion": "1.379.9",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "099bf99964b0562e967ff6d84dadefcb579aaa92",
+      "sourcePackageVersion": "1.379.9",
+      "intentIds": [
+        "feed-rail-instant-archive-delete:33f63ae63b81e0069a0483ac49c849b10bee136642c8205b45f6f4bc3cf011dc"
+      ]
     }
   ],
   "intents": [
@@ -116227,6 +116239,14 @@
       "summary": "Let handoff previews proceed when a Mac's availability checks time out, while still blocking confirmed offline Macs.",
       "sourceSha": "d56057ddfb3516696c69c541103cda77609df7dc",
       "identity": "slow-mac-handoff-preview:69200c3b235838104360b303b0e4016eb3acc3b31b31588538ea5b8083407443"
+    },
+    {
+      "id": "feed-rail-instant-archive-delete",
+      "digest": "33f63ae63b81e0069a0483ac49c849b10bee136642c8205b45f6f4bc3cf011dc",
+      "type": "patch",
+      "summary": "Feed rail: archiving or deleting another machine's project or chat moves the row into Archived or removes it at once, and a saved agent tab's ⋯ offers Forget saved copy….",
+      "sourceSha": "099bf99964b0562e967ff6d84dadefcb579aaa92",
+      "identity": "feed-rail-instant-archive-delete:33f63ae63b81e0069a0483ac49c849b10bee136642c8205b45f6f4bc3cf011dc"
     }
   ],
   "consumedIntentIds": [
