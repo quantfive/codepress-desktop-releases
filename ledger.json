@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "8727422aa8010ccc4ccc32ee5fe26ac6163cb3fb",
+  "cursorSha": "d56057ddfb3516696c69c541103cda77609df7dc",
   "highWaterVersion": "1.379.3",
   "rows": [
     {
@@ -113720,6 +113720,13 @@
       "sourceSha": "8727422aa8010ccc4ccc32ee5fe26ac6163cb3fb",
       "sourcePackageVersion": "1.379.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d56057ddfb3516696c69c541103cda77609df7dc",
+      "sourcePackageVersion": "1.379.8",
+      "intentIds": [
+        "slow-mac-handoff-preview:69200c3b235838104360b303b0e4016eb3acc3b31b31588538ea5b8083407443"
+      ]
     }
   ],
   "intents": [
@@ -116090,6 +116097,14 @@
       "summary": "Remove feed rail refresh indicators and their reserved space, and add floating previous/next section buttons that respect reduced motion.",
       "sourceSha": "6973523d2f7af2d656d9a670f77d48826fc79330",
       "identity": "quiet-feed-section-jumps:1f561c05a5541c509e38542495d5ef258301a11828ef986f17f3e0fc3122f9b8"
+    },
+    {
+      "id": "slow-mac-handoff-preview",
+      "digest": "69200c3b235838104360b303b0e4016eb3acc3b31b31588538ea5b8083407443",
+      "type": "patch",
+      "summary": "Let handoff previews proceed when a Mac's availability checks time out, while still blocking confirmed offline Macs.",
+      "sourceSha": "d56057ddfb3516696c69c541103cda77609df7dc",
+      "identity": "slow-mac-handoff-preview:69200c3b235838104360b303b0e4016eb3acc3b31b31588538ea5b8083407443"
     }
   ],
   "consumedIntentIds": [
