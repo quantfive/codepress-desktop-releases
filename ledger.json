@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1984484d762ff094be46dcb457bb711a94288feb",
+  "cursorSha": "a2aca72a5e4e316a7d7cdce8ec60fe889ae967cb",
   "highWaterVersion": "1.380.0",
   "rows": [
     {
@@ -115636,6 +115636,13 @@
       "sourceSha": "1984484d762ff094be46dcb457bb711a94288feb",
       "sourcePackageVersion": "1.380.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a2aca72a5e4e316a7d7cdce8ec60fe889ae967cb",
+      "sourcePackageVersion": "1.380.1",
+      "intentIds": [
+        "handoff-picker-offers-all-macs:1059ee370cef434baf7f2924d2e0dc5c6bd864a74e75077113c6c66f2dbfd80c"
+      ]
     }
   ],
   "intents": [
@@ -118246,6 +118253,14 @@
       "summary": "Pass each Codex worker's project TMPDIR to its threads on the shared daemon, and direct worker scratch and QA evidence into that folder.",
       "sourceSha": "f5abb6329358163087fbf271023b2aece9b32f9c",
       "identity": "codex-worker-project-temp:8bf9c3275e5c5b313258402095a35b1ac825160bb8085e0a372c111c8784bd85"
+    },
+    {
+      "id": "handoff-picker-offers-all-macs",
+      "digest": "1059ee370cef434baf7f2924d2e0dc5c6bd864a74e75077113c6c66f2dbfd80c",
+      "type": "patch",
+      "summary": "Hand off now offers every one of your online Macs for a cloud project's Orchestrator. A Mac without a checkout of the project's repository reads \"Will check out owner/repo\" and checks it out when it takes over.",
+      "sourceSha": "a2aca72a5e4e316a7d7cdce8ec60fe889ae967cb",
+      "identity": "handoff-picker-offers-all-macs:1059ee370cef434baf7f2924d2e0dc5c6bd864a74e75077113c6c66f2dbfd80c"
     }
   ],
   "consumedIntentIds": [
