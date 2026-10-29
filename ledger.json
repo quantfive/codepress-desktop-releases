@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "59ca56056b4fe3dbd9635e5c9f6301c555da955f",
-  "highWaterVersion": "1.379.8",
+  "highWaterVersion": "1.379.9",
   "rows": [
     {
       "schemaVersion": 1,
@@ -58736,6 +58736,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:59ca56056b4fe3dbd9635e5c9f6301c555da955f",
+      "kind": "main",
+      "sequence": 1777,
+      "sourceSha": "59ca56056b4fe3dbd9635e5c9f6301c555da955f",
+      "sourcePackageVersion": "1.379.16",
+      "version": "1.379.9",
+      "publicationDate": "2026-10-29T10:46:31.887Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "fair-pool-capacity:982e7b04f0b4a1a2790adb326c075b71d154c1821ca2ce81e4ff0276a1d7c5c6",
+          "teammate-live-reads-messages:48e10f2b9d2e13021b5925a6e1ae13fc5321603a60ce8a2e3c9bfcf8850150c3"
+        ],
+        "notesIntentIds": [
+          "fair-pool-capacity:982e7b04f0b4a1a2790adb326c075b71d154c1821ca2ce81e4ff0276a1d7c5c6",
+          "teammate-live-reads-messages:48e10f2b9d2e13021b5925a6e1ae13fc5321603a60ce8a2e3c9bfcf8850150c3"
+        ],
+        "throughSourceSha": "59ca56056b4fe3dbd9635e5c9f6301c555da955f",
+        "previousThroughSourceSha": "a091025e1671dd525367d3ce3bf44b5a1986b530",
+        "baselineVersion": "1.379.8",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40859326537",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-30T10:45:58.898Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -116973,7 +117018,9 @@
     "restore-unified-update-badge:4305b9402821177fec4f5061dab80fe585fb2cb3e1c059ff5bd6786debf3d862",
     "fix-landed-conversation-status:ae5cbe073e5ebb0913198e2524306e74b0654c65d339a563b6dc11f7ee124da9",
     "vm-open-after-move:77039448ea331df7acba129a4adfdf5276e2de1beed052eaff45edd16e7d8ed9",
-    "terminate-parked-cloud-vms:dff227076c1406c469793f1ffda8a67650b79f825eae4809f6fc136bdc566802"
+    "terminate-parked-cloud-vms:dff227076c1406c469793f1ffda8a67650b79f825eae4809f6fc136bdc566802",
+    "fair-pool-capacity:982e7b04f0b4a1a2790adb326c075b71d154c1821ca2ce81e4ff0276a1d7c5c6",
+    "teammate-live-reads-messages:48e10f2b9d2e13021b5925a6e1ae13fc5321603a60ce8a2e3c9bfcf8850150c3"
   ],
-  "consumedThroughSha": "a091025e1671dd525367d3ce3bf44b5a1986b530"
+  "consumedThroughSha": "59ca56056b4fe3dbd9635e5c9f6301c555da955f"
 }
