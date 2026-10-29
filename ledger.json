@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "898965bd7a73e5a61d9e4c69ded5a21c7f1e8c4e",
+  "cursorSha": "f9ec8c0fbd7ebcab64958014a801c6e33b4dc427",
   "highWaterVersion": "1.378.34",
   "rows": [
     {
@@ -113355,6 +113355,13 @@
       "sourceSha": "898965bd7a73e5a61d9e4c69ded5a21c7f1e8c4e",
       "sourcePackageVersion": "1.379.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f9ec8c0fbd7ebcab64958014a801c6e33b4dc427",
+      "sourcePackageVersion": "1.379.0",
+      "intentIds": [
+        "landed-poll-prefilter:37f077eeeae10a3e3a5b5cec53851ec69cf1cedd7c4822462b9f8e231ca63ada"
+      ]
     }
   ],
   "intents": [
@@ -115661,6 +115668,14 @@
       "summary": "The rail draws what it last showed the moment Terminal launches, then updates to live without jumping: unchanged rows stay put, changed rows update in place, moved rows slide, and the list holds your place. Chats, projects and automations are remembered on this Mac only.",
       "sourceSha": "ebe03327ec62db5140a15fe5001d5de0f9b08d9a",
       "identity": "remembered-rail-at-launch:1c73f21b5c790ba18ce0be9ebc0ce7a2dd0a1c46e0184d28eb21c992a460eef2"
+    },
+    {
+      "id": "landed-poll-prefilter",
+      "digest": "37f077eeeae10a3e3a5b5cec53851ec69cf1cedd7c4822462b9f8e231ca63ada",
+      "type": "patch",
+      "summary": "The inbox poll's scan for landed projects that are waiting on a message now narrows them with one query first, so a Mac with hundreds of landed projects no longer runs the per-project checks for every one of them on every poll.",
+      "sourceSha": "f9ec8c0fbd7ebcab64958014a801c6e33b4dc427",
+      "identity": "landed-poll-prefilter:37f077eeeae10a3e3a5b5cec53851ec69cf1cedd7c4822462b9f8e231ca63ada"
     }
   ],
   "consumedIntentIds": [
