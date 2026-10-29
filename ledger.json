@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e251b02c1cd66c276e90ccff7379a29322041d36",
+  "cursorSha": "4325478a5f6f889a9b591515b8da72bcdf6c841c",
   "highWaterVersion": "1.379.18",
   "rows": [
     {
@@ -115024,6 +115024,11 @@
       "intentIds": [
         "supersede-launch-recovery-orchestrator:7643c46a104dd4dd9ca32bc5a90259b871993be37dd52033314680a6b5c17167"
       ]
+    },
+    {
+      "sourceSha": "4325478a5f6f889a9b591515b8da72bcdf6c841c",
+      "sourcePackageVersion": "1.379.27",
+      "intentIds": []
     }
   ],
   "intents": [
