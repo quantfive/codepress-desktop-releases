@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "6a47fe86322bb021526729a01caa67820b99182f",
-  "highWaterVersion": "1.380.2",
+  "highWaterVersion": "1.380.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -59667,6 +59667,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:6a47fe86322bb021526729a01caa67820b99182f",
+      "kind": "main",
+      "sequence": 1794,
+      "sourceSha": "6a47fe86322bb021526729a01caa67820b99182f",
+      "sourcePackageVersion": "1.380.2",
+      "version": "1.380.3",
+      "publicationDate": "2026-10-29T22:37:28.861Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "codex-worker-project-temp:8bf9c3275e5c5b313258402095a35b1ac825160bb8085e0a372c111c8784bd85",
+          "handoff-picker-offers-all-macs:1059ee370cef434baf7f2924d2e0dc5c6bd864a74e75077113c6c66f2dbfd80c"
+        ],
+        "notesIntentIds": [
+          "codex-worker-project-temp:8bf9c3275e5c5b313258402095a35b1ac825160bb8085e0a372c111c8784bd85",
+          "handoff-picker-offers-all-macs:1059ee370cef434baf7f2924d2e0dc5c6bd864a74e75077113c6c66f2dbfd80c"
+        ],
+        "throughSourceSha": "6a47fe86322bb021526729a01caa67820b99182f",
+        "previousThroughSourceSha": "9cf962a3abf84a7cd95acccced10a4f0e53f23bf",
+        "baselineVersion": "1.380.2",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40967117692",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-30T22:37:01.281Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -118686,7 +118731,9 @@
     "shell-page-contract-v2:ef444f1ae9df0e98499748d46eef7d5077df18755ad56b18743e1f95099e623a",
     "handoff-managed-checkout-on-dispatch:93757b0f5ff90768e6a01aa416834a6da29f5a90d1cea24eade67db908615b3e",
     "retire-terminal-cloud-vms:b4b8f95ed21bc6778aacf1bb4ee692b48c02e92c1ccff78d69db9e4ff6364f1a",
-    "browser-sign-in-to-codepress:aa313c9acfce69d84b0c0b799365bff2b5b53756456affaf85a8524408526185"
+    "browser-sign-in-to-codepress:aa313c9acfce69d84b0c0b799365bff2b5b53756456affaf85a8524408526185",
+    "codex-worker-project-temp:8bf9c3275e5c5b313258402095a35b1ac825160bb8085e0a372c111c8784bd85",
+    "handoff-picker-offers-all-macs:1059ee370cef434baf7f2924d2e0dc5c6bd864a74e75077113c6c66f2dbfd80c"
   ],
-  "consumedThroughSha": "9cf962a3abf84a7cd95acccced10a4f0e53f23bf"
+  "consumedThroughSha": "6a47fe86322bb021526729a01caa67820b99182f"
 }
