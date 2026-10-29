@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "49de7bd34efe800c7e375b97e38a38f519733a3c",
+  "cursorSha": "de3e83fa3f663c58cc566b02672881b618156938",
   "highWaterVersion": "1.379.2",
   "rows": [
     {
@@ -113590,6 +113590,13 @@
       "sourceSha": "49de7bd34efe800c7e375b97e38a38f519733a3c",
       "sourcePackageVersion": "1.379.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "de3e83fa3f663c58cc566b02672881b618156938",
+      "sourcePackageVersion": "1.379.4",
+      "intentIds": [
+        "cloud-vm-handoff-readiness:31adc22c117271bbc41af4d4fe0fc47d24d580d0efaa4cfc30fd2cf83eb7527f"
+      ]
     }
   ],
   "intents": [
@@ -115928,6 +115935,14 @@
       "summary": "Add GPT-6.1 Terra usage rates and pin the stable Codex SDK and CLI to 0.165.0, with authenticated native role/follow-up and interruption captures. Restricted assessment/design profiles accept the native apply_patch advertisement under the owner's release decision.",
       "sourceSha": "c4df26e3fe7a8429f933b57a79387a913374f1c2",
       "identity": "terra-61-release:a3d08a0c233211f8e4dec8e6f151fc193615974c1c4277dddcb053c274d43237"
+    },
+    {
+      "id": "cloud-vm-handoff-readiness",
+      "digest": "31adc22c117271bbc41af4d4fe0fc47d24d580d0efaa4cfc30fd2cf83eb7527f",
+      "type": "patch",
+      "summary": "Hand a project off to a new Cloud VM reliably: a VM the backend reports ready but whose Terminal is not yet answering, or whose Orchestrator host is still starting, now shows as \"waiting for the destination\" instead of failing with \"Destination is not the claimed VM\" or \"The VM image is missing the running Orchestrator host capability\". A project also moves in any state: an Orchestrator still mid-turn after a 20-second grace is stopped (its turn settles interrupted and the destination resumes it) instead of the handoff failing with \"The PM is still running a turn\".",
+      "sourceSha": "de3e83fa3f663c58cc566b02672881b618156938",
+      "identity": "cloud-vm-handoff-readiness:31adc22c117271bbc41af4d4fe0fc47d24d580d0efaa4cfc30fd2cf83eb7527f"
     }
   ],
   "consumedIntentIds": [
