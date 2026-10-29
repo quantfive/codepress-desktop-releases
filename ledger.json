@@ -58441,10 +58441,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40830604871",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-30T06:41:06.713Z",
         "dispatch": null,
         "failures": []
       }
