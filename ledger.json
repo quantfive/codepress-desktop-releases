@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "59a83de7011310008cbd9df10edcc2d8103b7091",
-  "highWaterVersion": "1.379.9",
+  "highWaterVersion": "1.379.10",
   "rows": [
     {
       "schemaVersion": 1,
@@ -58785,6 +58785,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:59a83de7011310008cbd9df10edcc2d8103b7091",
+      "kind": "main",
+      "sequence": 1778,
+      "sourceSha": "59a83de7011310008cbd9df10edcc2d8103b7091",
+      "sourcePackageVersion": "1.379.16",
+      "version": "1.379.10",
+      "publicationDate": "2026-10-29T11:22:57.596Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "vm-viewer-parking-close:81424fda4a2ab79eb6f1766dfcdcaa15cec730a97dfd62cc0222c1a4d9474eb8"
+        ],
+        "notesIntentIds": [
+          "vm-viewer-parking-close:81424fda4a2ab79eb6f1766dfcdcaa15cec730a97dfd62cc0222c1a4d9474eb8"
+        ],
+        "throughSourceSha": "59a83de7011310008cbd9df10edcc2d8103b7091",
+        "previousThroughSourceSha": "59ca56056b4fe3dbd9635e5c9f6301c555da955f",
+        "baselineVersion": "1.379.9",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40864762928",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-30T11:22:31.392Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -117049,7 +117092,8 @@
     "vm-open-after-move:77039448ea331df7acba129a4adfdf5276e2de1beed052eaff45edd16e7d8ed9",
     "terminate-parked-cloud-vms:dff227076c1406c469793f1ffda8a67650b79f825eae4809f6fc136bdc566802",
     "fair-pool-capacity:982e7b04f0b4a1a2790adb326c075b71d154c1821ca2ce81e4ff0276a1d7c5c6",
-    "teammate-live-reads-messages:48e10f2b9d2e13021b5925a6e1ae13fc5321603a60ce8a2e3c9bfcf8850150c3"
+    "teammate-live-reads-messages:48e10f2b9d2e13021b5925a6e1ae13fc5321603a60ce8a2e3c9bfcf8850150c3",
+    "vm-viewer-parking-close:81424fda4a2ab79eb6f1766dfcdcaa15cec730a97dfd62cc0222c1a4d9474eb8"
   ],
-  "consumedThroughSha": "59ca56056b4fe3dbd9635e5c9f6301c555da955f"
+  "consumedThroughSha": "59a83de7011310008cbd9df10edcc2d8103b7091"
 }
