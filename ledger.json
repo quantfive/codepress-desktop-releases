@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6375bde71af2f1fde99054147ef6e5ff84c5eeea",
+  "cursorSha": "fd2f7c3fee4a1bb75fa1c644db27c6c2d4c38193",
   "highWaterVersion": "1.379.2",
   "rows": [
     {
@@ -113614,6 +113614,11 @@
       "intentIds": [
         "reset-expiry-time:567b6aa04285fe67cae1a132dbd39b5fc24b166b02e1814ec997965ba2cbd7f2"
       ]
+    },
+    {
+      "sourceSha": "fd2f7c3fee4a1bb75fa1c644db27c6c2d4c38193",
+      "sourcePackageVersion": "1.379.6",
+      "intentIds": []
     }
   ],
   "intents": [
