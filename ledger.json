@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3ef293304389819ddd9940ea2e0ae33e6010fe1b",
+  "cursorSha": "2d3a4671c8e018ce44a00a142a495faf70f7bbb8",
   "highWaterVersion": "1.378.30",
   "rows": [
     {
@@ -112951,6 +112951,13 @@
       "sourceSha": "3ef293304389819ddd9940ea2e0ae33e6010fe1b",
       "sourcePackageVersion": "1.378.49",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2d3a4671c8e018ce44a00a142a495faf70f7bbb8",
+      "sourcePackageVersion": "1.378.49",
+      "intentIds": [
+        "concurrent-background-default-on:a78c1635a3ddd9ed1855fbfe3accdf3b7839d3deb3adc0ea94793defdab5961b"
+      ]
     }
   ],
   "intents": [
@@ -115185,6 +115192,14 @@
       "summary": "Let synced project copies choose the home's subscription accounts and browse and change its Project folder with the home's validation.",
       "sourceSha": "7165e759821a9fbae7fe286df9fe277741ebb1b6",
       "identity": "synced-copy-account-folder:ea638c3eb958f0a2182d826894c175f7ea647be10645b2ad92814e854e3b63a6"
+    },
+    {
+      "id": "concurrent-background-default-on",
+      "digest": "a78c1635a3ddd9ed1855fbfe3accdf3b7839d3deb3adc0ea94793defdab5961b",
+      "type": "patch",
+      "summary": "Turn on concurrent background Computer Use by default while preserving saved opt-outs. Background leases on non-overlapping windows can run together; overlapping targets and foreground input keep their existing serialization.",
+      "sourceSha": "2d3a4671c8e018ce44a00a142a495faf70f7bbb8",
+      "identity": "concurrent-background-default-on:a78c1635a3ddd9ed1855fbfe3accdf3b7839d3deb3adc0ea94793defdab5961b"
     }
   ],
   "consumedIntentIds": [
