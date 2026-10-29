@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1dabefcd3f2a9effc6c6ea5ba9fa51eea9e12c00",
+  "cursorSha": "ad10796d8c3b68f0a7c00bd2c5074c06189fb7d2",
   "highWaterVersion": "1.379.18",
   "rows": [
     {
@@ -115000,6 +115000,13 @@
       "sourceSha": "1dabefcd3f2a9effc6c6ea5ba9fa51eea9e12c00",
       "sourcePackageVersion": "1.379.26",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ad10796d8c3b68f0a7c00bd2c5074c06189fb7d2",
+      "sourcePackageVersion": "1.379.26",
+      "intentIds": [
+        "fleet-worker-computer-use:8aa84a401782fbbfcdddf6fd2b30ade8ced3420ef016c331ad510120691f15df"
+      ]
     }
   ],
   "intents": [
@@ -117522,6 +117529,14 @@
       "summary": "Show the update pill at the top right of the Terminal title bar, so a pending update is visible with the machine menu closed, and remove the update entry from the left machine menu.",
       "sourceSha": "b5bef3d69a43a7c7b1c0eeb4e0b7d382dddec97c",
       "identity": "terminal-update-badge-title-bar:59008e733902e5000d619888ba16ff623ebcddb1b2a169262c7bc327472d3184"
+    },
+    {
+      "id": "fleet-worker-computer-use",
+      "digest": "8aa84a401782fbbfcdddf6fd2b30ade8ced3420ef016c331ad510120691f15df",
+      "type": "patch",
+      "summary": "Workers the Orchestrator launches (`project_fleet_assign`, `project_worker_relaunch`) now get the same managed computer-use binding as an agent started from a Terminal tab, so Claude and Codex workers list `computer_execute` and `computer_reset` when computer use is on. If the binding cannot be made, the worker still starts and its `mcp_servers` row reports `computer_use_unbound` instead of an empty tool list.",
+      "sourceSha": "ad10796d8c3b68f0a7c00bd2c5074c06189fb7d2",
+      "identity": "fleet-worker-computer-use:8aa84a401782fbbfcdddf6fd2b30ade8ced3420ef016c331ad510120691f15df"
     }
   ],
   "consumedIntentIds": [
