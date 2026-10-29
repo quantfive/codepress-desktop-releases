@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "f0a3361842629a8a862182af6907d6d1a3178bb7",
-  "highWaterVersion": "1.379.6",
+  "highWaterVersion": "1.379.7",
   "rows": [
     {
       "schemaVersion": 1,
@@ -58617,6 +58617,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:f0a3361842629a8a862182af6907d6d1a3178bb7",
+      "kind": "main",
+      "sequence": 1775,
+      "sourceSha": "f0a3361842629a8a862182af6907d6d1a3178bb7",
+      "sourcePackageVersion": "1.379.12",
+      "version": "1.379.7",
+      "publicationDate": "2026-10-29T09:42:40.380Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "fix-landed-conversation-status:ae5cbe073e5ebb0913198e2524306e74b0654c65d339a563b6dc11f7ee124da9",
+          "vm-open-after-move:77039448ea331df7acba129a4adfdf5276e2de1beed052eaff45edd16e7d8ed9"
+        ],
+        "notesIntentIds": [
+          "fix-landed-conversation-status:ae5cbe073e5ebb0913198e2524306e74b0654c65d339a563b6dc11f7ee124da9",
+          "vm-open-after-move:77039448ea331df7acba129a4adfdf5276e2de1beed052eaff45edd16e7d8ed9"
+        ],
+        "throughSourceSha": "f0a3361842629a8a862182af6907d6d1a3178bb7",
+        "previousThroughSourceSha": "157e0be5667d87f745e95c73ffb421f11d684049",
+        "baselineVersion": "1.379.6",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40851508659",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-30T09:42:12.024Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -116751,7 +116796,9 @@
     "slow-mac-handoff-preview:69200c3b235838104360b303b0e4016eb3acc3b31b31588538ea5b8083407443",
     "feed-rail-instant-archive-delete:33f63ae63b81e0069a0483ac49c849b10bee136642c8205b45f6f4bc3cf011dc",
     "pool-session-runner-output:bd51599a8ef4891e00bfbca6dbeaf1507f18dc825065607c834cdd55349916f6",
-    "restore-unified-update-badge:4305b9402821177fec4f5061dab80fe585fb2cb3e1c059ff5bd6786debf3d862"
+    "restore-unified-update-badge:4305b9402821177fec4f5061dab80fe585fb2cb3e1c059ff5bd6786debf3d862",
+    "fix-landed-conversation-status:ae5cbe073e5ebb0913198e2524306e74b0654c65d339a563b6dc11f7ee124da9",
+    "vm-open-after-move:77039448ea331df7acba129a4adfdf5276e2de1beed052eaff45edd16e7d8ed9"
   ],
-  "consumedThroughSha": "157e0be5667d87f745e95c73ffb421f11d684049"
+  "consumedThroughSha": "f0a3361842629a8a862182af6907d6d1a3178bb7"
 }
