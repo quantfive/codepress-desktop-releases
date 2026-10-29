@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4085416e31ceaefa8fd1f89352fa136f2acef330",
+  "cursorSha": "b5bef3d69a43a7c7b1c0eeb4e0b7d382dddec97c",
   "highWaterVersion": "1.379.17",
   "rows": [
     {
@@ -114928,6 +114928,13 @@
       "sourceSha": "4085416e31ceaefa8fd1f89352fa136f2acef330",
       "sourcePackageVersion": "1.379.25",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b5bef3d69a43a7c7b1c0eeb4e0b7d382dddec97c",
+      "sourcePackageVersion": "1.379.25",
+      "intentIds": [
+        "terminal-update-badge-title-bar:59008e733902e5000d619888ba16ff623ebcddb1b2a169262c7bc327472d3184"
+      ]
     }
   ],
   "intents": [
@@ -117442,6 +117449,14 @@
       "summary": "Hand off… on a cloud project in Orchestrator mode: the thread header and the feed row's ⋯ open a picker that lists this Mac first, then your other Macs, then Cloud once the Orchestrator is on a Mac, and moves only the Orchestrator there. The run-location tag then names the Mac it runs on.",
       "sourceSha": "9334a5f77cf5d97626e7e8b9645ebbe7f371a80c",
       "identity": "terminal-cloud-pm-handoff:1f98310f7df29b77aa66bc6285ca2dac10d7c453e425180fa69548df33e95604"
+    },
+    {
+      "id": "terminal-update-badge-title-bar",
+      "digest": "59008e733902e5000d619888ba16ff623ebcddb1b2a169262c7bc327472d3184",
+      "type": "patch",
+      "summary": "Show the update pill at the top right of the Terminal title bar, so a pending update is visible with the machine menu closed, and remove the update entry from the left machine menu.",
+      "sourceSha": "b5bef3d69a43a7c7b1c0eeb4e0b7d382dddec97c",
+      "identity": "terminal-update-badge-title-bar:59008e733902e5000d619888ba16ff623ebcddb1b2a169262c7bc327472d3184"
     }
   ],
   "consumedIntentIds": [
