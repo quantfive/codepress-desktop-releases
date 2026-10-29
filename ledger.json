@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0bc6d852519c3741d34e091c56ba218db0641221",
+  "cursorSha": "a091025e1671dd525367d3ce3bf44b5a1986b530",
   "highWaterVersion": "1.379.7",
   "rows": [
     {
@@ -114110,6 +114110,11 @@
       "intentIds": [
         "terminate-parked-cloud-vms:dff227076c1406c469793f1ffda8a67650b79f825eae4809f6fc136bdc566802"
       ]
+    },
+    {
+      "sourceSha": "a091025e1671dd525367d3ce3bf44b5a1986b530",
+      "sourcePackageVersion": "1.379.14",
+      "intentIds": []
     }
   ],
   "intents": [
