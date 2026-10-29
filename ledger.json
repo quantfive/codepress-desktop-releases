@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9e7038f4312528a30386c87d315b30559097ce92",
+  "cursorSha": "59a83de7011310008cbd9df10edcc2d8103b7091",
   "highWaterVersion": "1.379.9",
   "rows": [
     {
@@ -114285,6 +114285,13 @@
       "sourceSha": "9e7038f4312528a30386c87d315b30559097ce92",
       "sourcePackageVersion": "1.379.16",
       "intentIds": []
+    },
+    {
+      "sourceSha": "59a83de7011310008cbd9df10edcc2d8103b7091",
+      "sourcePackageVersion": "1.379.16",
+      "intentIds": [
+        "vm-viewer-parking-close:81424fda4a2ab79eb6f1766dfcdcaa15cec730a97dfd62cc0222c1a4d9474eb8"
+      ]
     }
   ],
   "intents": [
@@ -116727,6 +116734,14 @@
       "summary": "A shared computer now passes a teammate's live project reads and messages from their other devices to that teammate's own Orchestrator. It advertises `actor_orchestrator_live: 1`, beside the unchanged `actor_orchestrator: 1`, so the backend can tell it supports them.",
       "sourceSha": "c80b7b50390bff0c3ea03b11a529d0eb77537399",
       "identity": "teammate-live-reads-messages:48e10f2b9d2e13021b5925a6e1ae13fc5321603a60ce8a2e3c9bfcf8850150c3"
+    },
+    {
+      "id": "vm-viewer-parking-close",
+      "digest": "81424fda4a2ab79eb6f1766dfcdcaa15cec730a97dfd62cc0222c1a4d9474eb8",
+      "type": "patch",
+      "summary": "A Cloud VM viewer opened while the VM is parking now says so (\"This cloud VM is parking. Reopen it from your machine list later.\") instead of reconnecting forever.",
+      "sourceSha": "59a83de7011310008cbd9df10edcc2d8103b7091",
+      "identity": "vm-viewer-parking-close:81424fda4a2ab79eb6f1766dfcdcaa15cec730a97dfd62cc0222c1a4d9474eb8"
     }
   ],
   "consumedIntentIds": [
