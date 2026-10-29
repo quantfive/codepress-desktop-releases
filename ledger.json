@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6758199b83f7a04b4fdd9d6459273592711b412e",
+  "cursorSha": "df234fe6014f58f147e26556e29908f81b8cb828",
   "highWaterVersion": "1.380.4",
   "rows": [
     {
@@ -115937,6 +115937,13 @@
       "intentIds": [
         "cloud-vm-project-arrival-adoption:39b0323de7105e9c497fa316c3a884cc685221d4fe0e45cd0f45d2ea82fc31b0"
       ]
+    },
+    {
+      "sourceSha": "df234fe6014f58f147e26556e29908f81b8cb828",
+      "sourcePackageVersion": "1.380.3",
+      "intentIds": [
+        "same-email-workspaces:77c67d4c373d8bbb03593eec9a495cc0ec941600e24b3d6e4b297ca02cb41564"
+      ]
     }
   ],
   "intents": [
@@ -118571,6 +118578,14 @@
       "summary": "A project moved to a new Cloud VM no longer fails with \"Sign in to GitHub CLI\" while the VM's GitHub credential is still coming up (the move now waits), and the VM is no longer parked 15 minutes after the project arrives.",
       "sourceSha": "6758199b83f7a04b4fdd9d6459273592711b412e",
       "identity": "cloud-vm-project-arrival-adoption:39b0323de7105e9c497fa316c3a884cc685221d4fe0e45cd0f45d2ea82fc31b0"
+    },
+    {
+      "id": "same-email-workspaces",
+      "digest": "77c67d4c373d8bbb03593eec9a495cc0ec941600e24b3d6e4b297ca02cb41564",
+      "type": "patch",
+      "summary": "Select a Personal Claude or Codex account that shares its email with a Local sign-in or another Personal one but belongs to a different workspace; it is filed as `personal-<id>` instead of failing with \"cannot be distinguished\", and a Claude reconnect must sign in to the same organization.",
+      "sourceSha": "df234fe6014f58f147e26556e29908f81b8cb828",
+      "identity": "same-email-workspaces:77c67d4c373d8bbb03593eec9a495cc0ec941600e24b3d6e4b297ca02cb41564"
     }
   ],
   "consumedIntentIds": [
