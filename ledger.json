@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "29b73293f16caa26047d78a83723d8d65f4c71ec",
+  "cursorSha": "33fa1f05eb6430d1630d6df80d67e87c231092d4",
   "highWaterVersion": "1.378.27",
   "rows": [
     {
@@ -112649,6 +112649,13 @@
       "sourceSha": "29b73293f16caa26047d78a83723d8d65f4c71ec",
       "sourcePackageVersion": "1.378.42",
       "intentIds": []
+    },
+    {
+      "sourceSha": "33fa1f05eb6430d1630d6df80d67e87c231092d4",
+      "sourcePackageVersion": "1.378.42",
+      "intentIds": [
+        "landed-wakes-on-any-message:91a9ac3d6e9ef34b5e25adc6ac2aa44655bc6d7e54fea711e72cd9b3f4beae79"
+      ]
     }
   ],
   "intents": [
@@ -114811,6 +114818,14 @@
       "summary": "Keep account-switch errors on their owning Personal or Team card, and prevent background choice refreshes from superseding a single explicit account switch.",
       "sourceSha": "dd7407b4a13180ef828e05f539abfea5992ce0cb",
       "identity": "calm-team-account-switch:924bd0304c1181980da23fcdfd0575ab0d3062ea51d855010168d30c1dee6f66"
+    },
+    {
+      "id": "landed-wakes-on-any-message",
+      "digest": "91a9ac3d6e9ef34b5e25adc6ac2aa44655bc6d7e54fea711e72cd9b3f4beae79",
+      "type": "patch",
+      "summary": "A message to a landed project now restarts its Orchestrator conversation whichever surface sent it (the web, another Mac or a synced copy, not only this Mac's composer), a paused project still holds it until resumed, and a turn that cannot start says why in the thread and answers once the cause clears.",
+      "sourceSha": "33fa1f05eb6430d1630d6df80d67e87c231092d4",
+      "identity": "landed-wakes-on-any-message:91a9ac3d6e9ef34b5e25adc6ac2aa44655bc6d7e54fea711e72cd9b3f4beae79"
     }
   ],
   "consumedIntentIds": [
