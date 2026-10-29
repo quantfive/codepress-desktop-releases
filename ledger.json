@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a5787d2cd1f88fba07244421fc4d8e0bb164ae23",
+  "cursorSha": "7f0c30c603f5f97e02ab99f651bebb1698607f4e",
   "highWaterVersion": "1.379.13",
   "rows": [
     {
@@ -114593,6 +114593,13 @@
       "sourceSha": "a5787d2cd1f88fba07244421fc4d8e0bb164ae23",
       "sourcePackageVersion": "1.379.20",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7f0c30c603f5f97e02ab99f651bebb1698607f4e",
+      "sourcePackageVersion": "1.379.20",
+      "intentIds": [
+        "pool-host-cpu-overhead:1f0ddf24bba4257c344d988755ceee1f35bb201d2301179131479b2a9782fd36"
+      ]
     }
   ],
   "intents": [
@@ -117067,6 +117074,14 @@
       "summary": "Free capacity-host slots after a definite VM boot failure when successful task and process inventories confirm that no task, shim or hypervisor remains. Preserve pending cleanup retry backoff across reconciliation and stop requests.",
       "sourceSha": "1a8bdc0143fd3e4cd909242f2881fbbbbb88ce0e",
       "identity": "calm-pool-cleanup:62234adc99c63540b4d7b80238f6002f0a98bc28be89696b1226a45f820cb192"
+    },
+    {
+      "id": "pool-host-cpu-overhead",
+      "digest": "1f0ddf24bba4257c344d988755ceee1f35bb201d2301179131479b2a9782fd36",
+      "type": "patch",
+      "summary": "Size pool host CPU defaults from available cores, reserve one core per slot for VM overhead, reject oversubscribed hosts in doctor, and show host sizing in status.\n\nExisting hosts retain their saved CPU budgets and can become Not ready under the stricter reserve check. To resize, run `host drain --wait`, then `host leave` and `host join` with lower `--slots` or `--cpu-millicores`; omit the CPU flag to use the new default. Rejoin requires a fresh install token or a new device-code approval.",
+      "sourceSha": "7f0c30c603f5f97e02ab99f651bebb1698607f4e",
+      "identity": "pool-host-cpu-overhead:1f0ddf24bba4257c344d988755ceee1f35bb201d2301179131479b2a9782fd36"
     }
   ],
   "consumedIntentIds": [
