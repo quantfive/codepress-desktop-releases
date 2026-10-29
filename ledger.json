@@ -59644,10 +59644,14 @@
         "route": "mac"
       },
       "mac": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40961998971",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-30T21:58:38.850Z",
         "dispatch": null,
         "failures": []
       },
