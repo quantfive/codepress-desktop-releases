@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "8f14314123a5810f7848c7dfccc03cd7c92823e4",
+  "cursorSha": "d8a3dd71604d93775743bd15137c020a97107027",
   "highWaterVersion": "1.379.14",
   "rows": [
     {
@@ -114698,6 +114698,13 @@
       "sourceSha": "8f14314123a5810f7848c7dfccc03cd7c92823e4",
       "sourcePackageVersion": "1.379.21",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d8a3dd71604d93775743bd15137c020a97107027",
+      "sourcePackageVersion": "1.379.21",
+      "intentIds": [
+        "retire-launch-recovery-done-item:5eff20b0dd2f312ad4017b9bbc1d4080d8d9f694253d2819062670e4781770b1"
+      ]
     }
   ],
   "intents": [
@@ -117180,6 +117187,14 @@
       "summary": "Size pool host CPU defaults from available cores, reserve one core per slot for VM overhead, reject oversubscribed hosts in doctor, and show host sizing in status.\n\nExisting hosts retain their saved CPU budgets and can become Not ready under the stricter reserve check. To resize, run `host drain --wait`, then `host leave` and `host join` with lower `--slots` or `--cpu-millicores`; omit the CPU flag to use the new default. Rejoin requires a fresh install token or a new device-code approval.",
       "sourceSha": "7f0c30c603f5f97e02ab99f651bebb1698607f4e",
       "identity": "pool-host-cpu-overhead:1f0ddf24bba4257c344d988755ceee1f35bb201d2301179131479b2a9782fd36"
+    },
+    {
+      "id": "retire-launch-recovery-done-item",
+      "digest": "5eff20b0dd2f312ad4017b9bbc1d4080d8d9f694253d2819062670e4781770b1",
+      "type": "patch",
+      "summary": "A launch-recovery ask for a worker that never started no longer opens once its work item is done or cancelled; its history reads as retired by the platform.",
+      "sourceSha": "d8a3dd71604d93775743bd15137c020a97107027",
+      "identity": "retire-launch-recovery-done-item:5eff20b0dd2f312ad4017b9bbc1d4080d8d9f694253d2819062670e4781770b1"
     }
   ],
   "consumedIntentIds": [
