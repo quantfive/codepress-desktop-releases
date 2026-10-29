@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "edd0ca65569f73d8efd2b33f2f405f4cef047b92",
+  "cursorSha": "7f39fe83837616c1b4b015ad5145a89ff9306e89",
   "highWaterVersion": "1.379.3",
   "rows": [
     {
@@ -113681,6 +113681,13 @@
       "sourceSha": "edd0ca65569f73d8efd2b33f2f405f4cef047b92",
       "sourcePackageVersion": "1.379.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7f39fe83837616c1b4b015ad5145a89ff9306e89",
+      "sourcePackageVersion": "1.379.6",
+      "intentIds": [
+        "moved-copy-archive-delete:30ffd0085623ed8723028a1d1ff1d291ed6d9ac2825b1e80d965d7bbadc73f88"
+      ]
     }
   ],
   "intents": [
@@ -116035,6 +116042,14 @@
       "summary": "Show the exact local expiry time for every usage reset in Accounts.",
       "sourceSha": "6375bde71af2f1fde99054147ef6e5ff84c5eeea",
       "identity": "reset-expiry-time:567b6aa04285fe67cae1a132dbd39b5fc24b166b02e1814ec997965ba2cbd7f2"
+    },
+    {
+      "id": "moved-copy-archive-delete",
+      "digest": "30ffd0085623ed8723028a1d1ff1d291ed6d9ac2825b1e80d965d7bbadc73f88",
+      "type": "patch",
+      "summary": "A project that finished moving to another machine can now be archived and deleted from its ⋯ menu on the old machine, instead of being refused with \"finish or cancel the transfer\".",
+      "sourceSha": "7f39fe83837616c1b4b015ad5145a89ff9306e89",
+      "identity": "moved-copy-archive-delete:30ffd0085623ed8723028a1d1ff1d291ed6d9ac2825b1e80d965d7bbadc73f88"
     }
   ],
   "consumedIntentIds": [
