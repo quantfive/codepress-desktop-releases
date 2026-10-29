@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "253cbade375dcd21cb168aa3c4141def2266aa32",
-  "highWaterVersion": "1.380.4",
+  "highWaterVersion": "1.380.5",
   "rows": [
     {
       "schemaVersion": 1,
@@ -59779,6 +59779,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:253cbade375dcd21cb168aa3c4141def2266aa32",
+      "kind": "main",
+      "sequence": 1796,
+      "sourceSha": "253cbade375dcd21cb168aa3c4141def2266aa32",
+      "sourcePackageVersion": "1.380.4",
+      "version": "1.380.5",
+      "publicationDate": "2026-10-29T23:46:14.121Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "cloud-vm-project-arrival-adoption:39b0323de7105e9c497fa316c3a884cc685221d4fe0e45cd0f45d2ea82fc31b0",
+          "same-email-workspaces:77c67d4c373d8bbb03593eec9a495cc0ec941600e24b3d6e4b297ca02cb41564"
+        ],
+        "notesIntentIds": [
+          "cloud-vm-project-arrival-adoption:39b0323de7105e9c497fa316c3a884cc685221d4fe0e45cd0f45d2ea82fc31b0",
+          "same-email-workspaces:77c67d4c373d8bbb03593eec9a495cc0ec941600e24b3d6e4b297ca02cb41564"
+        ],
+        "throughSourceSha": "253cbade375dcd21cb168aa3c4141def2266aa32",
+        "previousThroughSourceSha": "a093a755befcb98d888eb8f50e9f26e1736eedd4",
+        "baselineVersion": "1.380.4",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40975206074",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-30T23:45:48.693Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -118931,7 +118976,9 @@
     "browser-sign-in-to-codepress:aa313c9acfce69d84b0c0b799365bff2b5b53756456affaf85a8524408526185",
     "codex-worker-project-temp:8bf9c3275e5c5b313258402095a35b1ac825160bb8085e0a372c111c8784bd85",
     "handoff-picker-offers-all-macs:1059ee370cef434baf7f2924d2e0dc5c6bd864a74e75077113c6c66f2dbfd80c",
-    "native-thrown-cause-visible:4a9e0079beef5ada771c5d08028fbffe4fbbf39f3bcd8ff8f4399954e43ef0b3"
+    "native-thrown-cause-visible:4a9e0079beef5ada771c5d08028fbffe4fbbf39f3bcd8ff8f4399954e43ef0b3",
+    "cloud-vm-project-arrival-adoption:39b0323de7105e9c497fa316c3a884cc685221d4fe0e45cd0f45d2ea82fc31b0",
+    "same-email-workspaces:77c67d4c373d8bbb03593eec9a495cc0ec941600e24b3d6e4b297ca02cb41564"
   ],
-  "consumedThroughSha": "a093a755befcb98d888eb8f50e9f26e1736eedd4"
+  "consumedThroughSha": "253cbade375dcd21cb168aa3c4141def2266aa32"
 }
