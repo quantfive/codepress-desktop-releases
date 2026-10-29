@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a33d03ef51a8c179709044aab1291b1a079599eb",
+  "cursorSha": "108c52504431f7fa860be693dbe41df58384753e",
   "highWaterVersion": "1.379.21",
   "rows": [
     {
@@ -115319,6 +115319,20 @@
       "sourceSha": "a33d03ef51a8c179709044aab1291b1a079599eb",
       "sourcePackageVersion": "1.379.30",
       "intentIds": []
+    },
+    {
+      "sourceSha": "074134b29ec00a5b11387938c0fd1b11dcfa9919",
+      "sourcePackageVersion": "1.379.30",
+      "intentIds": [
+        "terminal-section-shown-after-paint:fd40e495e9bc4b7e735497720292f4c76612426f64d04af243ab1d9bdaed57f0"
+      ]
+    },
+    {
+      "sourceSha": "108c52504431f7fa860be693dbe41df58384753e",
+      "sourcePackageVersion": "1.379.30",
+      "intentIds": [
+        "shell-page-contract-v2:ef444f1ae9df0e98499748d46eef7d5077df18755ad56b18743e1f95099e623a"
+      ]
     }
   ],
   "intents": [
@@ -117881,6 +117895,22 @@
       "summary": "Recover the owned browser after a stale CDP session or a failed computer-use reset. A browser tool call that hits a dead tab session now returns a short refusal without replaying anything, closes the original tab, and opens a fresh one on the next call. A computer-use reset that ended in error can be retried with `retryCleanup` and settles at the same generation once the original tab is confirmed closed.",
       "sourceSha": "bad4052f95f356eec37d070967916f65b8c84ac2",
       "identity": "browser-stale-session-recovery:51865c6fb567a71b7f9f9e8111938d7f40b5884ddf15342644c71896a860921f"
+    },
+    {
+      "id": "terminal-section-shown-after-paint",
+      "digest": "fd40e495e9bc4b7e735497720292f4c76612426f64d04af243ab1d9bdaed57f0",
+      "type": "patch",
+      "summary": "With the unified shell on, pressing Apps, Design, Automations, Evals, Integrations or Settings from Agent, Terminal or one of the shell's own pages no longer flashes the page the embedded view was left on first: the view stays hidden until the page you pressed has painted, or a short timeout has passed. Resting the pointer on a rail button over an embedded page no longer blanks it, since no tooltip is drawn over the embedded page.",
+      "sourceSha": "074134b29ec00a5b11387938c0fd1b11dcfa9919",
+      "identity": "terminal-section-shown-after-paint:fd40e495e9bc4b7e735497720292f4c76612426f64d04af243ab1d9bdaed57f0"
+    },
+    {
+      "id": "shell-page-contract-v2",
+      "digest": "ef444f1ae9df0e98499748d46eef7d5077df18755ad56b18743e1f95099e623a",
+      "type": "patch",
+      "summary": "The pages Terminal draws itself in the unified shell can now read the signed-in person, the page's query and title, in-app confirm and prompt dialogs, file uploads and host-supplied pieces from Terminal, ready for Evals, Automations and the Apps list to move in. Nothing changes on screen yet.",
+      "sourceSha": "108c52504431f7fa860be693dbe41df58384753e",
+      "identity": "shell-page-contract-v2:ef444f1ae9df0e98499748d46eef7d5077df18755ad56b18743e1f95099e623a"
     }
   ],
   "consumedIntentIds": [
