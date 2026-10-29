@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3eec53a5fbef4d7fd296e8b3a598d42df649a6be",
+  "cursorSha": "79a59824608405defdf827fc5d95d6ccd2596d61",
   "highWaterVersion": "1.379.5",
   "rows": [
     {
@@ -113928,6 +113928,13 @@
       "sourceSha": "3eec53a5fbef4d7fd296e8b3a598d42df649a6be",
       "sourcePackageVersion": "1.379.10",
       "intentIds": []
+    },
+    {
+      "sourceSha": "79a59824608405defdf827fc5d95d6ccd2596d61",
+      "sourcePackageVersion": "1.379.10",
+      "intentIds": [
+        "pool-session-runner-output:bd51599a8ef4891e00bfbca6dbeaf1507f18dc825065607c834cdd55349916f6"
+      ]
     }
   ],
   "intents": [
@@ -116314,6 +116321,14 @@
       "summary": "Feed rail: archiving or deleting another machine's project or chat moves the row into Archived or removes it at once, and a saved agent tab's ⋯ offers Forget saved copy….",
       "sourceSha": "099bf99964b0562e967ff6d84dadefcb579aaa92",
       "identity": "feed-rail-instant-archive-delete:33f63ae63b81e0069a0483ac49c849b10bee136642c8205b45f6f4bc3cf011dc"
+    },
+    {
+      "id": "pool-session-runner-output",
+      "digest": "bd51599a8ef4891e00bfbca6dbeaf1507f18dc825065607c834cdd55349916f6",
+      "type": "patch",
+      "summary": "Capture bounded pool session runner output and expose redacted tails on exit and in host status.\nRestrict status tails to the root control socket and keep draining guest output when capture storage fails.",
+      "sourceSha": "79a59824608405defdf827fc5d95d6ccd2596d61",
+      "identity": "pool-session-runner-output:bd51599a8ef4891e00bfbca6dbeaf1507f18dc825065607c834cdd55349916f6"
     }
   ],
   "consumedIntentIds": [
