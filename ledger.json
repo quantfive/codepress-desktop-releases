@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "33fa1f05eb6430d1630d6df80d67e87c231092d4",
+  "cursorSha": "7d1afda566b7df580406da7feba69d8af4e36df6",
   "highWaterVersion": "1.378.27",
   "rows": [
     {
@@ -112656,6 +112656,18 @@
       "intentIds": [
         "landed-wakes-on-any-message:91a9ac3d6e9ef34b5e25adc6ac2aa44655bc6d7e54fea711e72cd9b3f4beae79"
       ]
+    },
+    {
+      "sourceSha": "d4cc68c7e639bf0e37e0004949d5eafd92f00c50",
+      "sourcePackageVersion": "1.378.43",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "7d1afda566b7df580406da7feba69d8af4e36df6",
+      "sourcePackageVersion": "1.378.43",
+      "intentIds": [
+        "landed-conversation-build-context:1046e86037b0eb0463b374bba41c1be525dddcaf401abad641e5fc1e61401951"
+      ]
     }
   ],
   "intents": [
@@ -114826,6 +114838,14 @@
       "summary": "A message to a landed project now restarts its Orchestrator conversation whichever surface sent it (the web, another Mac or a synced copy, not only this Mac's composer), a paused project still holds it until resumed, and a turn that cannot start says why in the thread and answers once the cause clears.",
       "sourceSha": "33fa1f05eb6430d1630d6df80d67e87c231092d4",
       "identity": "landed-wakes-on-any-message:91a9ac3d6e9ef34b5e25adc6ac2aa44655bc6d7e54fea711e72cd9b3f4beae79"
+    },
+    {
+      "id": "landed-conversation-build-context",
+      "digest": "1046e86037b0eb0463b374bba41c1be525dddcaf401abad641e5fc1e61401951",
+      "type": "patch",
+      "summary": "A landed project's Orchestrator conversation keeps the build's context: each Orchestrator session records where its provider ran, and a landed conversation that cannot resume starts from the landing summary and the newest thread entries instead of a single line. A project handoff now carries the transcript of a build that ran in its session worktree.",
+      "sourceSha": "7d1afda566b7df580406da7feba69d8af4e36df6",
+      "identity": "landed-conversation-build-context:1046e86037b0eb0463b374bba41c1be525dddcaf401abad641e5fc1e61401951"
     }
   ],
   "consumedIntentIds": [
