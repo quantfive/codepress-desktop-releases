@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7552523e0f10af04d45a0d399ad280ab7edf4193",
+  "cursorSha": "62577408579e4703620ebfc63043b10d8a101472",
   "highWaterVersion": "1.378.26",
   "rows": [
     {
@@ -112551,6 +112551,13 @@
       "sourceSha": "7552523e0f10af04d45a0d399ad280ab7edf4193",
       "sourcePackageVersion": "1.378.39",
       "intentIds": []
+    },
+    {
+      "sourceSha": "62577408579e4703620ebfc63043b10d8a101472",
+      "sourcePackageVersion": "1.378.39",
+      "intentIds": [
+        "feed-rows-carry-filter-facts:2e7634046e84a1aac686fc261bec3c72ef103c328008ca95fd8f8dee249c8f4b"
+      ]
     }
   ],
   "intents": [
@@ -114689,6 +114696,14 @@
       "summary": "The unified shell now follows each person's own \"Unified shell\" switch in the web app's Feature Flags menu instead of an organization setting. It is off until you turn it on, and Terminal picks the change up within a minute.",
       "sourceSha": "ff4e3505c0caeb85946dfc2cc556cd7e18ec993d",
       "identity": "shell-per-person-flag:c39a1e1011fb13a7fd1dde7c5a43132e49c182b8f5bbad2e040d3f5253b84ed4"
+    },
+    {
+      "id": "feed-rows-carry-filter-facts",
+      "digest": "2e7634046e84a1aac686fc261bec3c72ef103c328008ca95fd8f8dee249c8f4b",
+      "type": "patch",
+      "summary": "The feed's rows now carry the facts the filters compare (a chat's source and agent key), and this Mac's own chats, projects and agent tabs set them, so the rail can apply the server's filter rules to rows it already holds.",
+      "sourceSha": "62577408579e4703620ebfc63043b10d8a101472",
+      "identity": "feed-rows-carry-filter-facts:2e7634046e84a1aac686fc261bec3c72ef103c328008ca95fd8f8dee249c8f4b"
     }
   ],
   "consumedIntentIds": [
