@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5fd39cd9e8a9d10bfdc72e9b5436c9dba99ac48e",
+  "cursorSha": "74602aa462ed0152081af2a1be8866db51087a02",
   "highWaterVersion": "1.379.0",
   "rows": [
     {
@@ -113428,6 +113428,13 @@
       "sourceSha": "5fd39cd9e8a9d10bfdc72e9b5436c9dba99ac48e",
       "sourcePackageVersion": "1.379.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "74602aa462ed0152081af2a1be8866db51087a02",
+      "sourcePackageVersion": "1.379.1",
+      "intentIds": [
+        "tidy-github-stats-loading:2a66e63c680a101aae94697a6936227d183a66d905f67c0292f69dd839369887"
+      ]
     }
   ],
   "intents": [
@@ -115742,6 +115749,14 @@
       "summary": "The inbox poll's scan for landed projects that are waiting on a message now narrows them with one query first, so a Mac with hundreds of landed projects no longer runs the per-project checks for every one of them on every poll.",
       "sourceSha": "f9ec8c0fbd7ebcab64958014a801c6e33b4dc427",
       "identity": "landed-poll-prefilter:37f077eeeae10a3e3a5b5cec53851ec69cf1cedd7c4822462b9f8e231ca63ada"
+    },
+    {
+      "id": "tidy-github-stats-loading",
+      "digest": "2a66e63c680a101aae94697a6936227d183a66d905f67c0292f69dd839369887",
+      "type": "patch",
+      "summary": "Let GitHub stats finish loading while shared collection publishes new snapshots, coalescing background refreshes without cancelling the current request.",
+      "sourceSha": "74602aa462ed0152081af2a1be8866db51087a02",
+      "identity": "tidy-github-stats-loading:2a66e63c680a101aae94697a6936227d183a66d905f67c0292f69dd839369887"
     }
   ],
   "consumedIntentIds": [
