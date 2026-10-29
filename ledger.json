@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "28effa23f59a213bb9741cd6600b1be0b567418e",
+  "cursorSha": "8672aa6b4b0dc1cfdbb0dd14a24c8f92fafb6077",
   "highWaterVersion": "1.378.30",
   "rows": [
     {
@@ -112973,6 +112973,18 @@
       "sourceSha": "28effa23f59a213bb9741cd6600b1be0b567418e",
       "sourcePackageVersion": "1.378.50",
       "intentIds": []
+    },
+    {
+      "sourceSha": "afcb3dc5fc62e8463e28d3bab9286e1dba044992",
+      "sourcePackageVersion": "1.378.50",
+      "intentIds": [
+        "quiet-host-doctor:ce3e1f73d7b02bfde2ecca10ea708a51ea21feefb41a20e131e463bf4357fcc5"
+      ]
+    },
+    {
+      "sourceSha": "8672aa6b4b0dc1cfdbb0dd14a24c8f92fafb6077",
+      "sourcePackageVersion": "1.378.50",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -115215,6 +115227,14 @@
       "summary": "Turn on concurrent background Computer Use by default while preserving saved opt-outs. Background leases on non-overlapping windows can run together; overlapping targets and foreground input keep their existing serialization.",
       "sourceSha": "2d3a4671c8e018ce44a00a142a495faf70f7bbb8",
       "identity": "concurrent-background-default-on:a78c1635a3ddd9ed1855fbfe3accdf3b7839d3deb3adc0ea94793defdab5961b"
+    },
+    {
+      "id": "quiet-host-doctor",
+      "digest": "ce3e1f73d7b02bfde2ecca10ea708a51ea21feefb41a20e131e463bf4357fcc5",
+      "type": "patch",
+      "summary": "Run host doctor's local canary only when the host service control socket is absent or refuses the connection. Report other service errors without starting a second canary.",
+      "sourceSha": "afcb3dc5fc62e8463e28d3bab9286e1dba044992",
+      "identity": "quiet-host-doctor:ce3e1f73d7b02bfde2ecca10ea708a51ea21feefb41a20e131e463bf4357fcc5"
     }
   ],
   "consumedIntentIds": [
