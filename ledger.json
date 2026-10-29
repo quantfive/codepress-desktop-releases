@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9db8f062a8ad921b3518f70a88bbec53e18a6f59",
+  "cursorSha": "c80b7b50390bff0c3ea03b11a529d0eb77537399",
   "highWaterVersion": "1.379.8",
   "rows": [
     {
@@ -114186,6 +114186,28 @@
       "sourceSha": "9db8f062a8ad921b3518f70a88bbec53e18a6f59",
       "sourcePackageVersion": "1.379.15",
       "intentIds": []
+    },
+    {
+      "sourceSha": "165b0002682522ad6569eb327615669a9dd2ed5d",
+      "sourcePackageVersion": "1.379.15",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "32c6909692810c1e2539b3e8724b0aa9c678eaf5",
+      "sourcePackageVersion": "1.379.15",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "53fc550558a120b5f19a8f417db1124329e58271",
+      "sourcePackageVersion": "1.379.15",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "c80b7b50390bff0c3ea03b11a529d0eb77537399",
+      "sourcePackageVersion": "1.379.15",
+      "intentIds": [
+        "teammate-live-reads-messages:48e10f2b9d2e13021b5925a6e1ae13fc5321603a60ce8a2e3c9bfcf8850150c3"
+      ]
     }
   ],
   "intents": [
@@ -116620,6 +116642,14 @@
       "summary": "Refuse capacity-host qualification when all configured slots cannot fit the live data disk or memory, crediting resources held by running sandboxes and reporting actionable capacity reasons.",
       "sourceSha": "734f6e6afca28b1c40603552046f9a781997ba8b",
       "identity": "fair-pool-capacity:982e7b04f0b4a1a2790adb326c075b71d154c1821ca2ce81e4ff0276a1d7c5c6"
+    },
+    {
+      "id": "teammate-live-reads-messages",
+      "digest": "48e10f2b9d2e13021b5925a6e1ae13fc5321603a60ce8a2e3c9bfcf8850150c3",
+      "type": "patch",
+      "summary": "A shared computer now passes a teammate's live project reads and messages from their other devices to that teammate's own Orchestrator. It advertises `actor_orchestrator_live: 1`, beside the unchanged `actor_orchestrator: 1`, so the backend can tell it supports them.",
+      "sourceSha": "c80b7b50390bff0c3ea03b11a529d0eb77537399",
+      "identity": "teammate-live-reads-messages:48e10f2b9d2e13021b5925a6e1ae13fc5321603a60ce8a2e3c9bfcf8850150c3"
     }
   ],
   "consumedIntentIds": [
