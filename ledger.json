@@ -58539,7 +58539,7 @@
         "type": "patch"
       },
       "mac": {
-        "status": "running",
+        "status": "failed",
         "generation": 1,
         "owner": {
           "ownerId": "terminal-macos-delivery",
@@ -58550,9 +58550,14 @@
         "dispatch": {
           "intentId": "same-run:0f3e1049e65e98262d46500df9c5337359a8ac9acef21078a209b720d1503737",
           "runId": "40842951148",
-          "terminal": false
+          "terminal": true
         },
-        "failures": []
+        "failures": [
+          {
+            "code": "run_failed",
+            "at": "2026-10-29T09:06:06.750Z"
+          }
+        ]
       },
       "linux": {
         "status": "pending",
