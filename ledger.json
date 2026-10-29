@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "866d29cae9119b8447498cefc93c571247a1a238",
+  "cursorSha": "a197ece24da6468533a1b1d59ab9516996702a1a",
   "highWaterVersion": "1.378.33",
   "rows": [
     {
@@ -113242,6 +113242,13 @@
       "sourceSha": "866d29cae9119b8447498cefc93c571247a1a238",
       "sourcePackageVersion": "1.378.54",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a197ece24da6468533a1b1d59ab9516996702a1a",
+      "sourcePackageVersion": "1.378.54",
+      "intentIds": [
+        "agents-message-landed-projects:6894509a3f4e3d51b149d4eb6cc596a6cf27834b4a2b926537af2be1ad4444fa"
+      ]
     }
   ],
   "intents": [
@@ -115516,6 +115523,14 @@
       "summary": "Let the local Orchestrator mark reviewed pull requests ready without merge authority or approval, while keeping merge approval requirements.",
       "sourceSha": "4962ab08e7108948c489e07173f36241c3428f3c",
       "identity": "local-mark-ready:4b5d319b668eb8f5ed0e605b9fc2bf956396c60c50d6399e1f2af02d2cae3efb"
+    },
+    {
+      "id": "agents-message-landed-projects",
+      "digest": "6894509a3f4e3d51b149d4eb6cc596a6cf27834b4a2b926537af2be1ad4444fa",
+      "type": "patch",
+      "summary": "An Orchestrator or any agent can now message a landed project: `message_orchestrator`, Terminal `send_message` and `list_orchestrators` treat it like any stopped project. The message is kept and wakes it, starting or resuming its landed conversation, within the existing 6-wakes-per-10-minutes limit per sender. A landed start that was refused before it began is retried when its cause clears, without another send, at doubling gaps up to 10 minutes.",
+      "sourceSha": "a197ece24da6468533a1b1d59ab9516996702a1a",
+      "identity": "agents-message-landed-projects:6894509a3f4e3d51b149d4eb6cc596a6cf27834b4a2b926537af2be1ad4444fa"
     }
   ],
   "consumedIntentIds": [
