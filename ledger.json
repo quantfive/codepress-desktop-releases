@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "233361a4bb6467fe27551a70b973ddc6e666ccd8",
+  "cursorSha": "f6f0fd423d72e776f775dfb1b831bfb5605f2f37",
   "highWaterVersion": "1.379.19",
   "rows": [
     {
@@ -115097,6 +115097,13 @@
       "sourceSha": "233361a4bb6467fe27551a70b973ddc6e666ccd8",
       "sourcePackageVersion": "1.379.28",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f6f0fd423d72e776f775dfb1b831bfb5605f2f37",
+      "sourcePackageVersion": "1.379.28",
+      "intentIds": [
+        "terminal-e2e-build-reuse:0b3aa0867124406eed8be641eb69db47e6605b338ad80203ad8068b7625beb20"
+      ]
     }
   ],
   "intents": [
@@ -117643,6 +117650,14 @@
       "summary": "Native computer-use failures are easier to diagnose: a refused bridge request now reports the closed route and HTTP status class (`bridge_rejected`/`lease_lost`, never the body) instead of `unknown`, and a foreground `stale_handle` says which freshness check failed. Codes, effects and authority are unchanged and nothing is replayed.",
       "sourceSha": "b5268c92a476568d314f55c78b1a004de2ff1f69",
       "identity": "native-bridge-rejected-cause:e92a0074e6d2720f3c2e19f945610832f9bbb98c1013d44722f02deb33f4a054"
+    },
+    {
+      "id": "terminal-e2e-build-reuse",
+      "digest": "0b3aa0867124406eed8be641eb69db47e6605b338ad80203ad8068b7625beb20",
+      "type": "patch",
+      "summary": "Reuse unchanged local E2E server builds and lane-specific web bundles, with forced rebuild and web dev-server opt-outs.",
+      "sourceSha": "f6f0fd423d72e776f775dfb1b831bfb5605f2f37",
+      "identity": "terminal-e2e-build-reuse:0b3aa0867124406eed8be641eb69db47e6605b338ad80203ad8068b7625beb20"
     }
   ],
   "consumedIntentIds": [
