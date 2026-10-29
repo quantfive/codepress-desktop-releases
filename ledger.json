@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "48b77032d4366f55ab574893b961c0bc0e15d7a8",
-  "highWaterVersion": "1.378.27",
+  "highWaterVersion": "1.378.28",
   "rows": [
     {
       "schemaVersion": 1,
@@ -57814,6 +57814,57 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:48b77032d4366f55ab574893b961c0bc0e15d7a8",
+      "kind": "main",
+      "sequence": 1761,
+      "sourceSha": "48b77032d4366f55ab574893b961c0bc0e15d7a8",
+      "sourcePackageVersion": "1.378.45",
+      "version": "1.378.28",
+      "publicationDate": "2026-10-29T00:52:24.864Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "calm-team-account-switch:924bd0304c1181980da23fcdfd0575ab0d3062ea51d855010168d30c1dee6f66",
+          "landed-wakes-on-any-message:91a9ac3d6e9ef34b5e25adc6ac2aa44655bc6d7e54fea711e72cd9b3f4beae79",
+          "landed-conversation-build-context:1046e86037b0eb0463b374bba41c1be525dddcaf401abad641e5fc1e61401951",
+          "one-load-per-thing-at-launch:90e09d5b60a476c59cf787cbcb09d37cf8f777b6a99d0965a244631bf264c6ea",
+          "pool-host-integer-timeouts:215a966985c8216833e1bb080b0ced617d19e877bbf5746e2f0030316b935ac5"
+        ],
+        "notesIntentIds": [
+          "calm-team-account-switch:924bd0304c1181980da23fcdfd0575ab0d3062ea51d855010168d30c1dee6f66",
+          "landed-wakes-on-any-message:91a9ac3d6e9ef34b5e25adc6ac2aa44655bc6d7e54fea711e72cd9b3f4beae79",
+          "landed-conversation-build-context:1046e86037b0eb0463b374bba41c1be525dddcaf401abad641e5fc1e61401951",
+          "one-load-per-thing-at-launch:90e09d5b60a476c59cf787cbcb09d37cf8f777b6a99d0965a244631bf264c6ea",
+          "pool-host-integer-timeouts:215a966985c8216833e1bb080b0ced617d19e877bbf5746e2f0030316b935ac5"
+        ],
+        "throughSourceSha": "48b77032d4366f55ab574893b961c0bc0e15d7a8",
+        "previousThroughSourceSha": "ef8b1b5618286194e73c1cec7200ae96b84b4457",
+        "baselineVersion": "1.378.27",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40796552971",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-30T00:51:55.811Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -115162,7 +115213,12 @@
     "feed-answers-sooner:25869cf722289172567ecfff4a994d168f8bd66ff2460c60be7fde5dcf485ed6",
     "shell-per-person-flag:c39a1e1011fb13a7fd1dde7c5a43132e49c182b8f5bbad2e040d3f5253b84ed4",
     "feed-rows-carry-filter-facts:2e7634046e84a1aac686fc261bec3c72ef103c328008ca95fd8f8dee249c8f4b",
-    "session-refresh-unlocked:8d59590342f96861a11b73dbb049d4e84a82ae59fea11b14d87658acaedd9ad4"
+    "session-refresh-unlocked:8d59590342f96861a11b73dbb049d4e84a82ae59fea11b14d87658acaedd9ad4",
+    "calm-team-account-switch:924bd0304c1181980da23fcdfd0575ab0d3062ea51d855010168d30c1dee6f66",
+    "landed-wakes-on-any-message:91a9ac3d6e9ef34b5e25adc6ac2aa44655bc6d7e54fea711e72cd9b3f4beae79",
+    "landed-conversation-build-context:1046e86037b0eb0463b374bba41c1be525dddcaf401abad641e5fc1e61401951",
+    "one-load-per-thing-at-launch:90e09d5b60a476c59cf787cbcb09d37cf8f777b6a99d0965a244631bf264c6ea",
+    "pool-host-integer-timeouts:215a966985c8216833e1bb080b0ced617d19e877bbf5746e2f0030316b935ac5"
   ],
-  "consumedThroughSha": "ef8b1b5618286194e73c1cec7200ae96b84b4457"
+  "consumedThroughSha": "48b77032d4366f55ab574893b961c0bc0e15d7a8"
 }
