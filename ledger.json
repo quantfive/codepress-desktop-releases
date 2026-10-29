@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2564a6db8139c17684b4095e0b995924ed7fff37",
+  "cursorSha": "0b80be53da20bf338a0bc9f47515d18fedf78ca8",
   "highWaterVersion": "1.379.16",
   "rows": [
     {
@@ -114839,6 +114839,13 @@
       "sourceSha": "2564a6db8139c17684b4095e0b995924ed7fff37",
       "sourcePackageVersion": "1.379.23",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0b80be53da20bf338a0bc9f47515d18fedf78ca8",
+      "sourcePackageVersion": "1.379.23",
+      "intentIds": [
+        "tidy-host-boot-fence:afb3cd9678f94f5903d6c92c6e0a2a1a180bcaa4ceaf05da3fbb8df4bb404119"
+      ]
     }
   ],
   "intents": [
@@ -117337,6 +117344,14 @@
       "summary": "Add an in-memory component-test harness for Terminal screens and move two mocked Network Access settings checks out of the browser suite.",
       "sourceSha": "e0314790e051dc84ffe2a5aae893c61eb0908bb0",
       "identity": "terminal-component-test-harness:9d874116111b6894fb1990e47bee77f744b28df06993d13baf6e11d488744984"
+    },
+    {
+      "id": "tidy-host-boot-fence",
+      "digest": "afb3cd9678f94f5903d6c92c6e0a2a1a180bcaa4ceaf05da3fbb8df4bb404119",
+      "type": "patch",
+      "summary": "Free a capacity-host slot after a returned VM boot failure only when repeated task and process inventories confirm absence; include redacted offline leave cleanup errors.",
+      "sourceSha": "0b80be53da20bf338a0bc9f47515d18fedf78ca8",
+      "identity": "tidy-host-boot-fence:afb3cd9678f94f5903d6c92c6e0a2a1a180bcaa4ceaf05da3fbb8df4bb404119"
     }
   ],
   "consumedIntentIds": [
