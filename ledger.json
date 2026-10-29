@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f2af9d960da0475037b11e8dd2f1913fee8a6161",
+  "cursorSha": "6973523d2f7af2d656d9a670f77d48826fc79330",
   "highWaterVersion": "1.379.3",
   "rows": [
     {
@@ -113708,6 +113708,13 @@
       "sourceSha": "f2af9d960da0475037b11e8dd2f1913fee8a6161",
       "sourcePackageVersion": "1.379.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "6973523d2f7af2d656d9a670f77d48826fc79330",
+      "sourcePackageVersion": "1.379.7",
+      "intentIds": [
+        "quiet-feed-section-jumps:1f561c05a5541c509e38542495d5ef258301a11828ef986f17f3e0fc3122f9b8"
+      ]
     }
   ],
   "intents": [
@@ -116070,6 +116077,14 @@
       "summary": "A project that finished moving to another machine can now be archived and deleted from its ⋯ menu on the old machine, instead of being refused with \"finish or cancel the transfer\".",
       "sourceSha": "7f39fe83837616c1b4b015ad5145a89ff9306e89",
       "identity": "moved-copy-archive-delete:30ffd0085623ed8723028a1d1ff1d291ed6d9ac2825b1e80d965d7bbadc73f88"
+    },
+    {
+      "id": "quiet-feed-section-jumps",
+      "digest": "1f561c05a5541c509e38542495d5ef258301a11828ef986f17f3e0fc3122f9b8",
+      "type": "patch",
+      "summary": "Remove feed rail refresh indicators and their reserved space, and add floating previous/next section buttons that respect reduced motion.",
+      "sourceSha": "6973523d2f7af2d656d9a670f77d48826fc79330",
+      "identity": "quiet-feed-section-jumps:1f561c05a5541c509e38542495d5ef258301a11828ef986f17f3e0fc3122f9b8"
     }
   ],
   "consumedIntentIds": [
