@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "661df2c185f8428786ec3446945ddddfdbcbcd13",
+  "cursorSha": "e8423e679ebf38f3895cb5d604e87a427939bb05",
   "highWaterVersion": "1.380.12",
   "rows": [
     {
@@ -116673,6 +116673,11 @@
       "intentIds": [
         "native-foreground-request-reaches-adapter:eb9ee0231dd65cebd2a142272e0eb71048d49c81f94448a9850c83038a0af517"
       ]
+    },
+    {
+      "sourceSha": "e8423e679ebf38f3895cb5d604e87a427939bb05",
+      "sourcePackageVersion": "1.380.13",
+      "intentIds": []
     }
   ],
   "intents": [
