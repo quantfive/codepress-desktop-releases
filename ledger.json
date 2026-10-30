@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "872b9d79f31cc9c7f140cf9cf9b4203e4769c49e",
+  "cursorSha": "9c1950e58f29fbad9e36ff92ce4ba11a6976d261",
   "highWaterVersion": "1.383.1",
   "rows": [
     {
@@ -119336,6 +119336,13 @@
       "sourceSha": "872b9d79f31cc9c7f140cf9cf9b4203e4769c49e",
       "sourcePackageVersion": "1.384.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9c1950e58f29fbad9e36ff92ce4ba11a6976d261",
+      "sourcePackageVersion": "1.384.0",
+      "intentIds": [
+        "fence-live-browser-actions:7c724d20161c4d574e2a549955a3f35d5d64a297594f1c3e44ae74649a85ccd7"
+      ]
     }
   ],
   "intents": [
@@ -122482,6 +122489,14 @@
       "summary": "With the Unified shell on, Settings opens as the same Slack-style modal as the dialog, grouped Account, Organization and This machine, over whatever section you were on, instead of a page in the list panel. Pages that live on the web, such as Billing, are marked with an external-link icon and close the modal to open in the web layer. Escape or the close button returns you to where you were.",
       "sourceSha": "3d722110730d5e4237ce6873946d55b3af82acc0",
       "identity": "shell-settings-modal:c7c67ee290d16cad7f11ba91e285bc23c4515ca84783a9546c777c72b53d499e"
+    },
+    {
+      "id": "fence-live-browser-actions",
+      "digest": "7c724d20161c4d574e2a549955a3f35d5d64a297594f1c3e44ae74649a85ccd7",
+      "type": "patch",
+      "summary": "Refuse retired live browser viewer actions after another daemon replaces the shared-profile handoff.",
+      "sourceSha": "9c1950e58f29fbad9e36ff92ce4ba11a6976d261",
+      "identity": "fence-live-browser-actions:7c724d20161c4d574e2a549955a3f35d5d64a297594f1c3e44ae74649a85ccd7"
     }
   ],
   "consumedIntentIds": [
