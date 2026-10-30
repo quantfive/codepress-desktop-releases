@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e17f1965ad47b87a32663e2c272a9b371497e574",
+  "cursorSha": "04270f250776a68fa86254b6ebb9ff67c5f02c31",
   "highWaterVersion": "1.380.13",
   "rows": [
     {
@@ -116743,6 +116743,13 @@
       "sourceSha": "e17f1965ad47b87a32663e2c272a9b371497e574",
       "sourcePackageVersion": "1.380.13",
       "intentIds": []
+    },
+    {
+      "sourceSha": "04270f250776a68fa86254b6ebb9ff67c5f02c31",
+      "sourcePackageVersion": "1.380.13",
+      "intentIds": [
+        "handed-off-source-shows-synced-copy:7aa4bbc2c466e0906e2a33518c36aea218479f7c98e21c09a205c00521f2808e"
+      ]
     }
   ],
   "intents": [
@@ -119465,6 +119472,14 @@
       "summary": "Native computer use: a deliberate foreground step (`computer.native.foreground`) now reaches the native adapter as a foreground request, so the focus-then-click workflow is no longer refused as \"unavailable in background delivery\".\n\nA background native click or key on a window that is already focused is now refused before any input as `unsupported` with effect none, instead of cancelling the lease and surfacing `terminal_not_quiescent` with an unknown effect.",
       "sourceSha": "661df2c185f8428786ec3446945ddddfdbcbcd13",
       "identity": "native-foreground-request-reaches-adapter:eb9ee0231dd65cebd2a142272e0eb71048d49c81f94448a9850c83038a0af517"
+    },
+    {
+      "id": "handed-off-source-shows-synced-copy",
+      "digest": "7aa4bbc2c466e0906e2a33518c36aea218479f7c98e21c09a205c00521f2808e",
+      "type": "patch",
+      "summary": "A project handed off from this Mac now shows its synced copy once the transfer finishes, so you can keep reading and replying to it here instead of seeing a read-only tombstone. With no synced copy, the composer names the machine the project now runs on.",
+      "sourceSha": "04270f250776a68fa86254b6ebb9ff67c5f02c31",
+      "identity": "handed-off-source-shows-synced-copy:7aa4bbc2c466e0906e2a33518c36aea218479f7c98e21c09a205c00521f2808e"
     }
   ],
   "consumedIntentIds": [
