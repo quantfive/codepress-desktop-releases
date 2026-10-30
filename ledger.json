@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "67e21f637e13f6c4c30bbedd57457af7d5f6d9e4",
+  "cursorSha": "88e3b6d7c98550d071b8bdce4f0161d771356b0d",
   "highWaterVersion": "1.384.4",
   "rows": [
     {
@@ -119941,6 +119941,18 @@
       "sourceSha": "67e21f637e13f6c4c30bbedd57457af7d5f6d9e4",
       "sourcePackageVersion": "1.385.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "5e4c0d49448a59ba4c31586478173d64071137f9",
+      "sourcePackageVersion": "1.385.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "88e3b6d7c98550d071b8bdce4f0161d771356b0d",
+      "sourcePackageVersion": "1.385.0",
+      "intentIds": [
+        "section-cache-apps-automations:ed98947c4b7cf4de3323415faaaee83466b22f22564fc7f3088d7571a8c9346c"
+      ]
     }
   ],
   "intents": [
@@ -123207,6 +123219,14 @@
       "summary": "Ship seeded installers, a slim updater archive and separately signed dependency layers with every release, so a later update can download only what changed.",
       "sourceSha": "80120e53e6dffc1c50972bb06f4f7db79a6ce265",
       "identity": "terminal-build-layers:14af4f81cd46b733cf8727632e9303a91ad556fa8c442642de1674a4775358c2"
+    },
+    {
+      "id": "section-cache-apps-automations",
+      "digest": "ed98947c4b7cf4de3323415faaaee83466b22f22564fc7f3088d7571a8c9346c",
+      "type": "patch",
+      "summary": "Apps and Automations show the rows you last saw as soon as you open them, even after relaunching, then quietly update them from the server. Each part of the page loads on its own, so it fills in as soon as its own answer arrives.",
+      "sourceSha": "88e3b6d7c98550d071b8bdce4f0161d771356b0d",
+      "identity": "section-cache-apps-automations:ed98947c4b7cf4de3323415faaaee83466b22f22564fc7f3088d7571a8c9346c"
     }
   ],
   "consumedIntentIds": [
