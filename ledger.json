@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "32065589fad03a8fb7019f2bac0351300b096b2e",
+  "cursorSha": "bff913e1dacc262b4c9e45629f6cc212dbf28141",
   "highWaterVersion": "1.380.21",
   "rows": [
     {
@@ -117527,6 +117527,18 @@
       "sourceSha": "32065589fad03a8fb7019f2bac0351300b096b2e",
       "sourcePackageVersion": "1.380.26",
       "intentIds": []
+    },
+    {
+      "sourceSha": "16ef12b7a8a6cbe01e39edc46fe0a201a3ac0ace",
+      "sourcePackageVersion": "1.380.26",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "bff913e1dacc262b4c9e45629f6cc212dbf28141",
+      "sourcePackageVersion": "1.380.26",
+      "intentIds": [
+        "quiet-codex-subagents:2c820c12be91397cd2d3d25127e796767573925b1d8a19a19deb47594263e431"
+      ]
     }
   ],
   "intents": [
@@ -120385,6 +120397,14 @@
       "summary": "Terminal's new-chat screen now draws through shared new-chat pieces (layout, mode pill) that the web will reuse. Nothing changes on screen; the Chat | Orchestrator pill's test IDs are now `new-chat-mode*`.",
       "sourceSha": "94e7ec28c0fc520ed47866564b434e2a9a7ff7d6",
       "identity": "new-chat-shared-pieces:40b9a6547ed4685726cbe7a3bd96c62c10f4e6fad6c0a15eb4d6a97e4bb98fd9"
+    },
+    {
+      "id": "quiet-codex-subagents",
+      "digest": "2c820c12be91397cd2d3d25127e796767573925b1d8a19a19deb47594263e431",
+      "type": "patch",
+      "summary": "Give Codex workers final-only native subagent reporting, longer waits, and bounded ordinary delegation with reserved QA capacity. Seed bridged Codex-home defaults only where the user has not set a value, preserving user choices and workspace trust.",
+      "sourceSha": "bff913e1dacc262b4c9e45629f6cc212dbf28141",
+      "identity": "quiet-codex-subagents:2c820c12be91397cd2d3d25127e796767573925b1d8a19a19deb47594263e431"
     }
   ],
   "consumedIntentIds": [
