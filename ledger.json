@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "cabc317354374664e434e6afa05804002da2083f",
+  "cursorSha": "4ecc451d27f8c7943266e3b5d735917f628f05f8",
   "highWaterVersion": "1.383.1",
   "rows": [
     {
@@ -119363,6 +119363,18 @@
       "sourceSha": "cabc317354374664e434e6afa05804002da2083f",
       "sourcePackageVersion": "1.384.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "21b727fc6c687928cf7775f0dc6e407c71c753a5",
+      "sourcePackageVersion": "1.384.1",
+      "intentIds": [
+        "repository-kickoff-per-person:fe76ba96f104d61f0e37283b374eb070fa4b1e04abd809dcedf2564a7b60d42a"
+      ]
+    },
+    {
+      "sourceSha": "4ecc451d27f8c7943266e3b5d735917f628f05f8",
+      "sourcePackageVersion": "1.384.1",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -122517,6 +122529,14 @@
       "summary": "Refuse retired live browser viewer actions after another daemon replaces the shared-profile handoff.",
       "sourceSha": "9c1950e58f29fbad9e36ff92ce4ba11a6976d261",
       "identity": "fence-live-browser-actions:7c724d20161c4d574e2a549955a3f35d5d64a297594f1c3e44ae74649a85ccd7"
+    },
+    {
+      "id": "repository-kickoff-per-person",
+      "digest": "fe76ba96f104d61f0e37283b374eb070fa4b1e04abd809dcedf2564a7b60d42a",
+      "type": "patch",
+      "summary": "Repository kickoff now follows each person's own \"Repository kickoff\" switch in the web app's Feature Flags menu instead of an organization setting. It is off until you turn it on, and Terminal picks the change up within a minute: with it on, a new chat or Orchestrator project offers repositories instead of a Project folder.",
+      "sourceSha": "21b727fc6c687928cf7775f0dc6e407c71c753a5",
+      "identity": "repository-kickoff-per-person:fe76ba96f104d61f0e37283b374eb070fa4b1e04abd809dcedf2564a7b60d42a"
     }
   ],
   "consumedIntentIds": [
