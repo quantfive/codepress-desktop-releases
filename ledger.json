@@ -60051,10 +60051,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "40993669754",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-31T02:47:51.522Z",
         "dispatch": null,
         "failures": []
       }
