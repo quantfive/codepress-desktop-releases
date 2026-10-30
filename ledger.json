@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3b9c99adbda3e367857b2fcba3a555398964d2c9",
+  "cursorSha": "7e9748eb951d7cbb9ea96a50e7b837d149710e17",
   "highWaterVersion": "1.382.2",
   "rows": [
     {
@@ -118539,6 +118539,20 @@
       "sourceSha": "3b9c99adbda3e367857b2fcba3a555398964d2c9",
       "sourcePackageVersion": "1.382.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "82904d076378575bd63f9d44d813d592dfb4d66b",
+      "sourcePackageVersion": "1.382.2",
+      "intentIds": [
+        "handoff-cloud-organization-discovery:f1e94e2b295c1c3afbfa32807e72261818b282f7987f7bb84c31e71d3e694ba9"
+      ]
+    },
+    {
+      "sourceSha": "7e9748eb951d7cbb9ea96a50e7b837d149710e17",
+      "sourcePackageVersion": "1.382.2",
+      "intentIds": [
+        "phone-shell-page-header:960210320bcde2bd4c2515cd533b1b6126c3a7aef3ed2dd47b8217569523b01f"
+      ]
     }
   ],
   "intents": [
@@ -121525,6 +121539,22 @@
       "summary": "Fix the Terminal unit test setup that made MilkdownEditor.test.tsx fail on the Blacksmith runners when the cached Vitest modules were restored: Vitest could not load a stylesheet from the pnpm store outside the checkout. No change to the app.",
       "sourceSha": "95bd1921e6aaa02bca1eb63cc84a09981bc2a555",
       "identity": "terminal-vitest-stylesheet-outside-root:9645ce2554d1dd28e44e95fbcb139a8cd3d2dc639d3bf061a3a90572194afb02"
+    },
+    {
+      "id": "handoff-cloud-organization-discovery",
+      "digest": "f1e94e2b295c1c3afbfa32807e72261818b282f7987f7bb84c31e71d3e694ba9",
+      "type": "patch",
+      "summary": "Restore Cloud VM handoff destinations for accounts in many organizations by scoping project reads to their organization and retaining account-bound Cloud discovery results after the picker deadline.",
+      "sourceSha": "82904d076378575bd63f9d44d813d592dfb4d66b",
+      "identity": "handoff-cloud-organization-discovery:f1e94e2b295c1c3afbfa32807e72261818b282f7987f7bb84c31e71d3e694ba9"
+    },
+    {
+      "id": "phone-shell-page-header",
+      "digest": "960210320bcde2bd4c2515cd533b1b6126c3a7aef3ed2dd47b8217569523b01f",
+      "type": "patch",
+      "summary": "Let a page that draws its own phone header take the shell's header row and menu button, and let the Orchestrator screen use the shell's drawer instead of its own rail on a phone. Terminal's own layout is unchanged.",
+      "sourceSha": "7e9748eb951d7cbb9ea96a50e7b837d149710e17",
+      "identity": "phone-shell-page-header:960210320bcde2bd4c2515cd533b1b6126c3a7aef3ed2dd47b8217569523b01f"
     }
   ],
   "consumedIntentIds": [
