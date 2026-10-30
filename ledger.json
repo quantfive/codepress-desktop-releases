@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "510e85ede914b3e5ce46bc6392083565d45ea6fa",
-  "highWaterVersion": "1.380.23",
+  "highWaterVersion": "1.380.24",
   "rows": [
     {
       "schemaVersion": 1,
@@ -60865,6 +60865,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:510e85ede914b3e5ce46bc6392083565d45ea6fa",
+      "kind": "main",
+      "sequence": 1815,
+      "sourceSha": "510e85ede914b3e5ce46bc6392083565d45ea6fa",
+      "sourcePackageVersion": "1.380.29",
+      "version": "1.380.24",
+      "publicationDate": "2026-10-30T08:34:47.114Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-chat-shared-new-chat:fb47ea2c75873768ec78d11d1d5af9f94e5349a601aab5cf23836ea830b0ce5e"
+        ],
+        "notesIntentIds": [
+          "terminal-chat-shared-new-chat:fb47ea2c75873768ec78d11d1d5af9f94e5349a601aab5cf23836ea830b0ce5e"
+        ],
+        "throughSourceSha": "510e85ede914b3e5ce46bc6392083565d45ea6fa",
+        "previousThroughSourceSha": "18d21fd72ddd9f49701fb20df756c16cd73e00e0",
+        "baselineVersion": "1.380.23",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41027177668",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-31T08:34:20.879Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -121030,7 +121073,8 @@
     "quiet-codex-subagents:2c820c12be91397cd2d3d25127e796767573925b1d8a19a19deb47594263e431",
     "phone-moved-pages-cards:51b650c14e998cd33ce0235473941b6c931d02cf6d1bb33b27f57b3e655709d5",
     "native-foreground-lease-target:f4c50441d7654f5fd2fe800ff3799b03915478029cdda4b4f9b99e956bf5b7d5",
-    "terminal-native-cross-org-links:9e5a7abefb70c3fc07b1bf646525ab09c81eb4f210e381a40257093646865460"
+    "terminal-native-cross-org-links:9e5a7abefb70c3fc07b1bf646525ab09c81eb4f210e381a40257093646865460",
+    "terminal-chat-shared-new-chat:fb47ea2c75873768ec78d11d1d5af9f94e5349a601aab5cf23836ea830b0ce5e"
   ],
-  "consumedThroughSha": "18d21fd72ddd9f49701fb20df756c16cd73e00e0"
+  "consumedThroughSha": "510e85ede914b3e5ce46bc6392083565d45ea6fa"
 }
