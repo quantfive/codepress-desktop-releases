@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9a2581aa16302555173cf830a37e29a04671d073",
+  "cursorSha": "a220fb9215be2bb136da545873dce1a63f871c21",
   "highWaterVersion": "1.380.18",
   "rows": [
     {
@@ -117222,6 +117222,18 @@
       "sourceSha": "9a2581aa16302555173cf830a37e29a04671d073",
       "sourcePackageVersion": "1.380.19",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b32b739c8fe612d9005f1bde815f6c2dd219f886",
+      "sourcePackageVersion": "1.380.19",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "a220fb9215be2bb136da545873dce1a63f871c21",
+      "sourcePackageVersion": "1.380.19",
+      "intentIds": [
+        "phone-kickoff-keyboard:33027d35567cafc6b1c5782f20b17b0f95517225bb933c8771fe6ba4285c9717"
+      ]
     }
   ],
   "intents": [
@@ -120016,6 +120028,14 @@
       "summary": "Retire six default-on Terminal platform settings. Memory-aware fleet admission, bounded tab memory, Linux disk-staged updates, freeze sampling, the agent cursor, and signed Computer Use Driver hosting now run without their former toggles, including when older settings files contain false values.",
       "sourceSha": "01b639ffd2753d28800d764fecd91b2ef8219ec8",
       "identity": "retire-terminal-platform-settings:72c06f8107df1a2d1edafa8780d52ed1e8307d5499ddd4706292e3bcd1f3a79f"
+    },
+    {
+      "id": "phone-kickoff-keyboard",
+      "digest": "33027d35567cafc6b1c5782f20b17b0f95517225bb933c8771fe6ba4285c9717",
+      "type": "patch",
+      "summary": "Keep the focused Orchestrator kickoff input visible when the phone keyboard shrinks its scroller.\nUse the singular \"1 repo\" in the compact prompt update notice.",
+      "sourceSha": "a220fb9215be2bb136da545873dce1a63f871c21",
+      "identity": "phone-kickoff-keyboard:33027d35567cafc6b1c5782f20b17b0f95517225bb933c8771fe6ba4285c9717"
     }
   ],
   "consumedIntentIds": [
