@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "225d5b36feeff3add7b8c96cfd1df6bd450d7424",
-  "highWaterVersion": "1.382.6",
+  "highWaterVersion": "1.383.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -61604,6 +61604,53 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:225d5b36feeff3add7b8c96cfd1df6bd450d7424",
+      "kind": "main",
+      "sequence": 1828,
+      "sourceSha": "225d5b36feeff3add7b8c96cfd1df6bd450d7424",
+      "sourcePackageVersion": "1.383.1",
+      "version": "1.383.0",
+      "publicationDate": "2026-10-30T19:00:52.828Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "settings-modal-chrome:08503cc67b556a5e122ce5eabb47e25d4ff89f8c2cb6111d4b4e8c0a58833812",
+          "teammate-owner-only-panels:27e5661361aebbbed818c641e4f97a6764642dc18510dc2fcca482aae9b6bb34",
+          "org-switcher-rail-tile:2f1dfa73f78bc5616dfa7b7fa1683946e2abb33605141fcc25f7c0ae9c476f0e"
+        ],
+        "notesIntentIds": [
+          "settings-modal-chrome:08503cc67b556a5e122ce5eabb47e25d4ff89f8c2cb6111d4b4e8c0a58833812",
+          "teammate-owner-only-panels:27e5661361aebbbed818c641e4f97a6764642dc18510dc2fcca482aae9b6bb34",
+          "org-switcher-rail-tile:2f1dfa73f78bc5616dfa7b7fa1683946e2abb33605141fcc25f7c0ae9c476f0e"
+        ],
+        "throughSourceSha": "225d5b36feeff3add7b8c96cfd1df6bd450d7424",
+        "previousThroughSourceSha": "cea87e58707f2fb69e22e86d910f11a14af9c272",
+        "baselineVersion": "1.382.6",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41110127846",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-31T19:00:21.920Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -122644,7 +122691,10 @@
     "teammate-own-session:1a328a7e8b865e4cd0e9160f5dc78f5e8905fb80da3f9399e16518f76309a717",
     "teammate-runtime-messages:6c466534d38df8e8164a2deed2d21d1d38d66a0b37f0691e193d4fda358c8b47",
     "terminal-hidden-pages-kept:91acea896f800cb8b44d2dab676f29b0ea95c902c5bda74b57440d16f2d3ebc5",
-    "shared-window-cloud-signin:9a956bd4af7679b581fa918563e9516aceacbe1e7f41bb0fbde4f993095d2e2b"
+    "shared-window-cloud-signin:9a956bd4af7679b581fa918563e9516aceacbe1e7f41bb0fbde4f993095d2e2b",
+    "settings-modal-chrome:08503cc67b556a5e122ce5eabb47e25d4ff89f8c2cb6111d4b4e8c0a58833812",
+    "teammate-owner-only-panels:27e5661361aebbbed818c641e4f97a6764642dc18510dc2fcca482aae9b6bb34",
+    "org-switcher-rail-tile:2f1dfa73f78bc5616dfa7b7fa1683946e2abb33605141fcc25f7c0ae9c476f0e"
   ],
-  "consumedThroughSha": "cea87e58707f2fb69e22e86d910f11a14af9c272"
+  "consumedThroughSha": "225d5b36feeff3add7b8c96cfd1df6bd450d7424"
 }
