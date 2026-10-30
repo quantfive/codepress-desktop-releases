@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "91068790822a8aff791001b463b982d2c350198a",
+  "cursorSha": "888efb5645d041429548ed3631913bfdf674f686",
   "highWaterVersion": "1.380.20",
   "rows": [
     {
@@ -117403,6 +117403,23 @@
       "sourceSha": "91068790822a8aff791001b463b982d2c350198a",
       "sourcePackageVersion": "1.380.22",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3e9bdacabeedf6b86c2c82528e2f4cb349737277",
+      "sourcePackageVersion": "1.380.23",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "835ec603f6dd7f95121812938ff36d1fc4d53e40",
+      "sourcePackageVersion": "1.380.23",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "888efb5645d041429548ed3631913bfdf674f686",
+      "sourcePackageVersion": "1.380.23",
+      "intentIds": [
+        "terminal-native-automations:91e427a829862336784621341af03f58e977c986c0d18f070a1613c9a56f2837"
+      ]
     }
   ],
   "intents": [
@@ -120229,6 +120246,14 @@
       "summary": "Keep the Orchestrator PM on Opus while ordinary Anthropic chats default to Sonnet.",
       "sourceSha": "a89fa8a33b8ee2faf5edc3ac7aabb25b0a9ac432",
       "identity": "sonnet-chat-opus-pm:ea35920f3d36c73527bea6a917906a5654211073c4afd9b6c797af650f46311d"
+    },
+    {
+      "id": "terminal-native-automations",
+      "digest": "91e427a829862336784621341af03f58e977c986c0d18f070a1613c9a56f2837",
+      "type": "patch",
+      "summary": "With the unified shell on, the Automations section (the activity overview, an automation and its run history, a run, its settings, the managed automations and the catalog) is drawn by Terminal itself in the shell's page instead of loading codepress.dev in the embedded webview. Selecting an automation in the list panel opens it in the page, and leaving Automations for Agent or another section and coming back keeps the open automation, its tab and run, and what was typed in its settings. A run's conversation opens in the Agent view on that session. The GitHub App controls of the managed automations stay on the web (the panel keeps its link to the GitHub settings), and starting a new automation still seeds the web's chat. The window with the unified shell off is unchanged.",
+      "sourceSha": "888efb5645d041429548ed3631913bfdf674f686",
+      "identity": "terminal-native-automations:91e427a829862336784621341af03f58e977c986c0d18f070a1613c9a56f2837"
     }
   ],
   "consumedIntentIds": [
