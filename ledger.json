@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3179dc253de63d1ec237aadb717d29e22c48b409",
+  "cursorSha": "661df2c185f8428786ec3446945ddddfdbcbcd13",
   "highWaterVersion": "1.380.12",
   "rows": [
     {
@@ -116659,6 +116659,20 @@
       "sourceSha": "3179dc253de63d1ec237aadb717d29e22c48b409",
       "sourcePackageVersion": "1.380.12",
       "intentIds": []
+    },
+    {
+      "sourceSha": "87aa398c94590e317239c2758584479fc90134d9",
+      "sourcePackageVersion": "1.380.12",
+      "intentIds": [
+        "terminal-native-apps-list:64af456d76b8d8c05b6bfa3a4e3264da6de18f820b7287c91808e12075edc934"
+      ]
+    },
+    {
+      "sourceSha": "661df2c185f8428786ec3446945ddddfdbcbcd13",
+      "sourcePackageVersion": "1.380.12",
+      "intentIds": [
+        "native-foreground-request-reaches-adapter:eb9ee0231dd65cebd2a142272e0eb71048d49c81f94448a9850c83038a0af517"
+      ]
     }
   ],
   "intents": [
@@ -119365,6 +119379,22 @@
       "summary": "A new hand-off of a project whose own earlier transfer failed while still holding the source claim now releases that failed transfer the way Resume here would, then moves. When that is not safe, it says why (the earlier move cannot be undone here, or its destination has not confirmed the cancel yet) instead of \"Another project handoff already owns this source\".",
       "sourceSha": "1f5fe9ea561496338070004d3078f1adcc55e9d0",
       "identity": "handoff-releases-dead-transfer:8dd3532e467d8499d8f5c1889153845809bada062134a6daae509a123b058b00"
+    },
+    {
+      "id": "terminal-native-apps-list",
+      "digest": "64af456d76b8d8c05b6bfa3a4e3264da6de18f820b7287c91808e12075edc934",
+      "type": "patch",
+      "summary": "With the unified shell on, the Apps section's list (folders, apps and, for organizations with collections, the collections view) is drawn by Terminal itself in the shell's page instead of loading codepress.dev in the embedded webview. Leaving Apps for Agent or another section and coming back keeps the open folder or collection and what was typed in its search, and opening an app shows its page in the embedded view without first flashing the page it was left on. New app and Make a widget from a collection ask for the message in a small card, start the chat with the collection's instructions and open it in the Agent layer. Link a site, Add a blog and Migrate a site open the web's Apps page. Design and Automations are unchanged, and so is the window with the unified shell off.",
+      "sourceSha": "87aa398c94590e317239c2758584479fc90134d9",
+      "identity": "terminal-native-apps-list:64af456d76b8d8c05b6bfa3a4e3264da6de18f820b7287c91808e12075edc934"
+    },
+    {
+      "id": "native-foreground-request-reaches-adapter",
+      "digest": "eb9ee0231dd65cebd2a142272e0eb71048d49c81f94448a9850c83038a0af517",
+      "type": "patch",
+      "summary": "Native computer use: a deliberate foreground step (`computer.native.foreground`) now reaches the native adapter as a foreground request, so the focus-then-click workflow is no longer refused as \"unavailable in background delivery\".\n\nA background native click or key on a window that is already focused is now refused before any input as `unsupported` with effect none, instead of cancelling the lease and surfacing `terminal_not_quiescent` with an unknown effect.",
+      "sourceSha": "661df2c185f8428786ec3446945ddddfdbcbcd13",
+      "identity": "native-foreground-request-reaches-adapter:eb9ee0231dd65cebd2a142272e0eb71048d49c81f94448a9850c83038a0af517"
     }
   ],
   "consumedIntentIds": [
