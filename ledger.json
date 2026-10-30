@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "427b614017d055cd6ab119db663e425ee75a85fa",
+  "cursorSha": "6545d4b2433d04328968cb28259d57463adbaab1",
   "highWaterVersion": "1.383.1",
   "rows": [
     {
@@ -119302,6 +119302,13 @@
       "sourceSha": "427b614017d055cd6ab119db663e425ee75a85fa",
       "sourcePackageVersion": "1.383.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "6545d4b2433d04328968cb28259d57463adbaab1",
+      "sourcePackageVersion": "1.383.3",
+      "intentIds": [
+        "teammate-footer-owner-tabs:4b6a09159fdadd40446f20f4d05e704fae2357ad5c33cd149f739a8bf5765cdb"
+      ]
     }
   ],
   "intents": [
@@ -122432,6 +122439,14 @@
       "summary": "Open a waiting browser from its ask on your phone or another Mac, with live touch, keyboard and Paste controls. Browser WebSockets authenticate with a single-use owner ticket.",
       "sourceSha": "492ec20397e8872af11a7f87431efb9f11d0119d",
       "identity": "live-browser-viewer:f196b0b3528d2b89d8fb104f24ee8197e46bef4dea4f052ae6bb30d3b1762d70"
+    },
+    {
+      "id": "teammate-footer-owner-tabs",
+      "digest": "4b6a09159fdadd40446f20f4d05e704fae2357ad5c33cd149f739a8bf5765cdb",
+      "type": "patch",
+      "summary": "Shared computers: a teammate's window footer counts their own agents instead of reading \"Agents unavailable\". The computer owner's tabs, which an admin teammate can see, are badged as the owner's, dimmed and read-only, and the owner's output, input and attention text (such as their account errors) are kept from the teammate. The owner's settings gear is hidden in a teammate's window, and the session and worktree refusals name the owner when they are signed in.",
+      "sourceSha": "6545d4b2433d04328968cb28259d57463adbaab1",
+      "identity": "teammate-footer-owner-tabs:4b6a09159fdadd40446f20f4d05e704fae2357ad5c33cd149f739a8bf5765cdb"
     }
   ],
   "consumedIntentIds": [
