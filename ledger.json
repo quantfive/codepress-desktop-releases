@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ed76f057e0a8651c9d6eae3c05f2b70998fe0093",
+  "cursorSha": "306c5bd393657f4515745bdc827c8d2963c66d24",
   "highWaterVersion": "1.384.0",
   "rows": [
     {
@@ -119474,6 +119474,13 @@
       "sourceSha": "ed76f057e0a8651c9d6eae3c05f2b70998fe0093",
       "sourcePackageVersion": "1.384.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "306c5bd393657f4515745bdc827c8d2963c66d24",
+      "sourcePackageVersion": "1.384.2",
+      "intentIds": [
+        "animated-new-chat-mode-pill:27a80219bc239ffcb7fffb2279495924516adc734b333480b79d45f60bceeb06"
+      ]
     }
   ],
   "intents": [
@@ -122636,6 +122643,14 @@
       "summary": "Repository kickoff now follows each person's own \"Repository kickoff\" switch in the web app's Feature Flags menu instead of an organization setting. It is off until you turn it on, and Terminal picks the change up within a minute: with it on, a new chat or Orchestrator project offers repositories instead of a Project folder.",
       "sourceSha": "21b727fc6c687928cf7775f0dc6e407c71c753a5",
       "identity": "repository-kickoff-per-person:fe76ba96f104d61f0e37283b374eb070fa4b1e04abd809dcedf2564a7b60d42a"
+    },
+    {
+      "id": "animated-new-chat-mode-pill",
+      "digest": "27a80219bc239ffcb7fffb2279495924516adc734b333480b79d45f60bceeb06",
+      "type": "patch",
+      "summary": "The Chat | Orchestrator pill now slides its white thumb to the option you pick, with a short spring and a pop on the label, instead of swapping instantly.",
+      "sourceSha": "306c5bd393657f4515745bdc827c8d2963c66d24",
+      "identity": "animated-new-chat-mode-pill:27a80219bc239ffcb7fffb2279495924516adc734b333480b79d45f60bceeb06"
     }
   ],
   "consumedIntentIds": [
