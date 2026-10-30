@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "b251ef238003e7d1e09b360e5a6b388849e3fa6a",
-  "highWaterVersion": "1.380.11",
+  "highWaterVersion": "1.380.12",
   "rows": [
     {
       "schemaVersion": 1,
@@ -60176,6 +60176,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:b251ef238003e7d1e09b360e5a6b388849e3fa6a",
+      "kind": "main",
+      "sequence": 1803,
+      "sourceSha": "b251ef238003e7d1e09b360e5a6b388849e3fa6a",
+      "sourcePackageVersion": "1.380.11",
+      "version": "1.380.12",
+      "publicationDate": "2026-10-30T03:59:15.255Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "handoff-releases-dead-transfer:8dd3532e467d8499d8f5c1889153845809bada062134a6daae509a123b058b00"
+        ],
+        "notesIntentIds": [
+          "handoff-releases-dead-transfer:8dd3532e467d8499d8f5c1889153845809bada062134a6daae509a123b058b00"
+        ],
+        "throughSourceSha": "b251ef238003e7d1e09b360e5a6b388849e3fa6a",
+        "previousThroughSourceSha": "82144fdacd11af010b29413c7cb8ebae87105525",
+        "baselineVersion": "1.380.11",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41000143771",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-31T03:58:51.061Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -119642,7 +119685,8 @@
     "landed-archived-skeleton-visible:c6012e5a1b7c40b1afe4468b152cc2b078817ce96acdecd43f049122ae1d7309",
     "handoff-finished-transfer-chooser:cc929c8bb0ad2d2fc6095f5e38a9bfe83f84d05014d270846c7b9aff742476b3",
     "handoff-preflight-login-shell-cli:ee99e613afa5e3fa0166757158fbb09e42ccfcecea952a1d7b7fa22da4690669",
-    "terminal-native-settings:7260f78649b3790ff8bf592ed2f41565965b1207061bc15ab8c5ce53cf58a8f7"
+    "terminal-native-settings:7260f78649b3790ff8bf592ed2f41565965b1207061bc15ab8c5ce53cf58a8f7",
+    "handoff-releases-dead-transfer:8dd3532e467d8499d8f5c1889153845809bada062134a6daae509a123b058b00"
   ],
-  "consumedThroughSha": "82144fdacd11af010b29413c7cb8ebae87105525"
+  "consumedThroughSha": "b251ef238003e7d1e09b360e5a6b388849e3fa6a"
 }
