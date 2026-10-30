@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "228196e169c531a07f4f8ac5a22ea4bc28a467c1",
-  "highWaterVersion": "1.380.20",
+  "highWaterVersion": "1.380.21",
   "rows": [
     {
       "schemaVersion": 1,
@@ -60677,6 +60677,55 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:228196e169c531a07f4f8ac5a22ea4bc28a467c1",
+      "kind": "main",
+      "sequence": 1812,
+      "sourceSha": "228196e169c531a07f4f8ac5a22ea4bc28a467c1",
+      "sourcePackageVersion": "1.380.24",
+      "version": "1.380.21",
+      "publicationDate": "2026-10-30T06:43:57.785Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "orchestrator-inbox-batches:93d45a399d2630992f1e49bc675275a24fd7f34af06e4dd06e787059913e294e",
+          "sonnet-chat-opus-pm:ea35920f3d36c73527bea6a917906a5654211073c4afd9b6c797af650f46311d",
+          "terminal-native-automations:91e427a829862336784621341af03f58e977c986c0d18f070a1613c9a56f2837",
+          "terminal-agent-sync-test-isolation:70116c2b3f72fdc06c5050e272a8a816d2abd80cb0a45ada708301230403c1bf"
+        ],
+        "notesIntentIds": [
+          "orchestrator-inbox-batches:93d45a399d2630992f1e49bc675275a24fd7f34af06e4dd06e787059913e294e",
+          "sonnet-chat-opus-pm:ea35920f3d36c73527bea6a917906a5654211073c4afd9b6c797af650f46311d",
+          "terminal-native-automations:91e427a829862336784621341af03f58e977c986c0d18f070a1613c9a56f2837",
+          "terminal-agent-sync-test-isolation:70116c2b3f72fdc06c5050e272a8a816d2abd80cb0a45ada708301230403c1bf"
+        ],
+        "throughSourceSha": "228196e169c531a07f4f8ac5a22ea4bc28a467c1",
+        "previousThroughSourceSha": "9cc9c6409fa93e48c0e4e3c5bd2a253aad239055",
+        "baselineVersion": "1.380.20",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41015664641",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-31T06:43:31.774Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -120627,7 +120676,11 @@
     "phone-drawer-shell:f2eedbadb95b5496e270a03a5a564bb4dc18535b5f3912c26a6ff35c97747c2e",
     "retire-terminal-platform-settings:72c06f8107df1a2d1edafa8780d52ed1e8307d5499ddd4706292e3bcd1f3a79f",
     "phone-kickoff-keyboard:33027d35567cafc6b1c5782f20b17b0f95517225bb933c8771fe6ba4285c9717",
-    "one-codepress-platform-mcp:e14747f2e072111a96f217cb9842a121f9dca6fbbebce25b6e54ff7aea29890f"
+    "one-codepress-platform-mcp:e14747f2e072111a96f217cb9842a121f9dca6fbbebce25b6e54ff7aea29890f",
+    "orchestrator-inbox-batches:93d45a399d2630992f1e49bc675275a24fd7f34af06e4dd06e787059913e294e",
+    "sonnet-chat-opus-pm:ea35920f3d36c73527bea6a917906a5654211073c4afd9b6c797af650f46311d",
+    "terminal-native-automations:91e427a829862336784621341af03f58e977c986c0d18f070a1613c9a56f2837",
+    "terminal-agent-sync-test-isolation:70116c2b3f72fdc06c5050e272a8a816d2abd80cb0a45ada708301230403c1bf"
   ],
-  "consumedThroughSha": "9cc9c6409fa93e48c0e4e3c5bd2a253aad239055"
+  "consumedThroughSha": "228196e169c531a07f4f8ac5a22ea4bc28a467c1"
 }
