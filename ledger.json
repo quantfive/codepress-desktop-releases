@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2017629cc012272fc2872009bb457853ce8c181b",
+  "cursorSha": "9e0c4c2a3f51736e61f0ed376dd0bce111a8f57e",
   "highWaterVersion": "1.380.26",
   "rows": [
     {
@@ -118036,6 +118036,13 @@
       "sourceSha": "2017629cc012272fc2872009bb457853ce8c181b",
       "sourcePackageVersion": "1.380.32",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9e0c4c2a3f51736e61f0ed376dd0bce111a8f57e",
+      "sourcePackageVersion": "1.380.32",
+      "intentIds": [
+        "flag-review-operational-reasons:c1dc00f3ecd77f801157683ad51667a1ada45e38e5aae952a85f30b1a0a1cd50"
+      ]
     }
   ],
   "intents": [
@@ -120966,6 +120973,14 @@
       "summary": "Retire graduated Orchestrator rollout settings. Live replies, newest-first chats, pushed project cards, snapshot workers, stacked rail cards, weekly subscription usage, and the document workspace are always available; old stored opt-outs are ignored.",
       "sourceSha": "1c93ae98871c5a22ed43be73e0bf471cdc7b8286",
       "identity": "retire-orchestrator-rollout-settings:985085495cc40710bc4e263bdb9f09264e9d5de0bf252c3f855d0a059a18eb3b"
+    },
+    {
+      "id": "flag-review-operational-reasons",
+      "digest": "c1dc00f3ecd77f801157683ad51667a1ada45e38e5aae952a85f30b1a0a1cd50",
+      "type": "patch",
+      "summary": "Document why Terminal and Factory operational environment switches are process-wide controls for the feature flag review; behavior and defaults are unchanged.",
+      "sourceSha": "9e0c4c2a3f51736e61f0ed376dd0bce111a8f57e",
+      "identity": "flag-review-operational-reasons:c1dc00f3ecd77f801157683ad51667a1ada45e38e5aae952a85f30b1a0a1cd50"
     }
   ],
   "consumedIntentIds": [
