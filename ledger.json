@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f7bc1c8a695b24be396a758fd620696139d3f7fc",
+  "cursorSha": "8de860e034376c681ea11e876e00a46ce26dc4c0",
   "highWaterVersion": "1.384.2",
   "rows": [
     {
@@ -119666,6 +119666,20 @@
       "sourceSha": "f7bc1c8a695b24be396a758fd620696139d3f7fc",
       "sourcePackageVersion": "1.384.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3cb0bfa7d537b8110f3dee6b839dc28cbc91a837",
+      "sourcePackageVersion": "1.384.6",
+      "intentIds": [
+        "rail-popups-theme-border:eb1a91a884339c0e218c57688e86140a2d16de3edcbe4dc63f62662ddeef316b"
+      ]
+    },
+    {
+      "sourceSha": "8de860e034376c681ea11e876e00a46ce26dc4c0",
+      "sourcePackageVersion": "1.384.6",
+      "intentIds": [
+        "arrival-snapshot-at-once:ef488abdb37b2ba6c554de99b4dcfeb8ef39adca2e9d5c6a99fce76e83eed688"
+      ]
     }
   ],
   "intents": [
@@ -122876,6 +122890,22 @@
       "summary": "Pressing Design, Integrations or an App page now shows the page only once its content is on screen, and a page that reloads on its own no longer makes the next press wait out the timeout.",
       "sourceSha": "d7f5390c7a9fb3e716eae07f101845eac386fefd",
       "identity": "terminal-reveal-after-body-paint:ee4bfdffee87fa331f287c573fbf02d80f540704586c61e13ad9bbe3fd539f84"
+    },
+    {
+      "id": "rail-popups-theme-border",
+      "digest": "eb1a91a884339c0e218c57688e86140a2d16de3edcbe4dc63f62662ddeef316b",
+      "type": "patch",
+      "summary": "The unified shell's rail popups (organization switcher, account menu, machine picker, More) draw the theme's border colour instead of a white or black outline, with 12px corners, a shadow and small muted section labels, and open just past the rail. The current organization is marked by its check alone. Kit menus, selects, dialogs and sheets in Terminal also stop drawing their border in the text colour.",
+      "sourceSha": "3cb0bfa7d537b8110f3dee6b839dc28cbc91a837",
+      "identity": "rail-popups-theme-border:eb1a91a884339c0e218c57688e86140a2d16de3edcbe4dc63f62662ddeef316b"
+    },
+    {
+      "id": "arrival-snapshot-at-once",
+      "digest": "ef488abdb37b2ba6c554de99b4dcfeb8ef39adca2e9d5c6a99fce76e83eed688",
+      "type": "patch",
+      "summary": "Publish a project's snapshot to its cloud copy as soon as it arrives on a Mac by direct move or takeover, so a later takeover never starts from the old home's copy.",
+      "sourceSha": "8de860e034376c681ea11e876e00a46ce26dc4c0",
+      "identity": "arrival-snapshot-at-once:ef488abdb37b2ba6c554de99b4dcfeb8ef39adca2e9d5c6a99fce76e83eed688"
     }
   ],
   "consumedIntentIds": [
