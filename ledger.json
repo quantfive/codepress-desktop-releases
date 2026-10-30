@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f68714729e9719721c18efd1b0ce0736ab9de9a6",
+  "cursorSha": "228196e169c531a07f4f8ac5a22ea4bc28a467c1",
   "highWaterVersion": "1.380.20",
   "rows": [
     {
@@ -117425,6 +117425,13 @@
       "sourceSha": "f68714729e9719721c18efd1b0ce0736ab9de9a6",
       "sourcePackageVersion": "1.380.24",
       "intentIds": []
+    },
+    {
+      "sourceSha": "228196e169c531a07f4f8ac5a22ea4bc28a467c1",
+      "sourcePackageVersion": "1.380.24",
+      "intentIds": [
+        "terminal-agent-sync-test-isolation:70116c2b3f72fdc06c5050e272a8a816d2abd80cb0a45ada708301230403c1bf"
+      ]
     }
   ],
   "intents": [
@@ -120259,6 +120266,14 @@
       "summary": "With the unified shell on, the Automations section (the activity overview, an automation and its run history, a run, its settings, the managed automations and the catalog) is drawn by Terminal itself in the shell's page instead of loading codepress.dev in the embedded webview. Selecting an automation in the list panel opens it in the page, and leaving Automations for Agent or another section and coming back keeps the open automation, its tab and run, and what was typed in its settings. A run's conversation opens in the Agent view on that session. The GitHub App controls of the managed automations stay on the web (the panel keeps its link to the GitHub settings), and starting a new automation still seeds the web's chat. The window with the unified shell off is unchanged.",
       "sourceSha": "888efb5645d041429548ed3631913bfdf674f686",
       "identity": "terminal-native-automations:91e427a829862336784621341af03f58e977c986c0d18f070a1613c9a56f2837"
+    },
+    {
+      "id": "terminal-agent-sync-test-isolation",
+      "digest": "70116c2b3f72fdc06c5050e272a8a816d2abd80cb0a45ada708301230403c1bf",
+      "type": "patch",
+      "summary": "Run the server tests that start agent sync, or that drain or count the whole fake clock, in their own process, so a timer another test leaves running cannot break them. Also keeps the Milkdown editor test independent of its packaged theme stylesheet and updates a stale expectation in the test selector. Test infrastructure only; no change to Terminal behavior.",
+      "sourceSha": "228196e169c531a07f4f8ac5a22ea4bc28a467c1",
+      "identity": "terminal-agent-sync-test-isolation:70116c2b3f72fdc06c5050e272a8a816d2abd80cb0a45ada708301230403c1bf"
     }
   ],
   "consumedIntentIds": [
