@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6545d4b2433d04328968cb28259d57463adbaab1",
+  "cursorSha": "3d722110730d5e4237ce6873946d55b3af82acc0",
   "highWaterVersion": "1.383.1",
   "rows": [
     {
@@ -119309,6 +119309,18 @@
       "intentIds": [
         "teammate-footer-owner-tabs:4b6a09159fdadd40446f20f4d05e704fae2357ad5c33cd149f739a8bf5765cdb"
       ]
+    },
+    {
+      "sourceSha": "0103ff10bb810a6cdf7bfb2bd434fc25d974132c",
+      "sourcePackageVersion": "1.383.4",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "3d722110730d5e4237ce6873946d55b3af82acc0",
+      "sourcePackageVersion": "1.383.4",
+      "intentIds": [
+        "shell-settings-modal:c7c67ee290d16cad7f11ba91e285bc23c4515ca84783a9546c777c72b53d499e"
+      ]
     }
   ],
   "intents": [
@@ -122447,6 +122459,14 @@
       "summary": "Shared computers: a teammate's window footer counts their own agents instead of reading \"Agents unavailable\". The computer owner's tabs, which an admin teammate can see, are badged as the owner's, dimmed and read-only, and the owner's output, input and attention text (such as their account errors) are kept from the teammate. The owner's settings gear is hidden in a teammate's window, and the session and worktree refusals name the owner when they are signed in.",
       "sourceSha": "6545d4b2433d04328968cb28259d57463adbaab1",
       "identity": "teammate-footer-owner-tabs:4b6a09159fdadd40446f20f4d05e704fae2357ad5c33cd149f739a8bf5765cdb"
+    },
+    {
+      "id": "shell-settings-modal",
+      "digest": "c7c67ee290d16cad7f11ba91e285bc23c4515ca84783a9546c777c72b53d499e",
+      "type": "minor",
+      "summary": "With the Unified shell on, Settings opens as the same Slack-style modal as the dialog, grouped Account, Organization and This machine, over whatever section you were on, instead of a page in the list panel. Pages that live on the web, such as Billing, are marked with an external-link icon and close the modal to open in the web layer. Escape or the close button returns you to where you were.",
+      "sourceSha": "3d722110730d5e4237ce6873946d55b3af82acc0",
+      "identity": "shell-settings-modal:c7c67ee290d16cad7f11ba91e285bc23c4515ca84783a9546c777c72b53d499e"
     }
   ],
   "consumedIntentIds": [
