@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9c36767844ea02510eb2f947dfa895414d252560",
+  "cursorSha": "c5786d999899a8d88b3aecc8941105242d538373",
   "highWaterVersion": "1.382.4",
   "rows": [
     {
@@ -118769,6 +118769,13 @@
       "sourceSha": "9c36767844ea02510eb2f947dfa895414d252560",
       "sourcePackageVersion": "1.382.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c5786d999899a8d88b3aecc8941105242d538373",
+      "sourcePackageVersion": "1.382.5",
+      "intentIds": [
+        "settings-type-tiers:6ac23662cc717723d38ebae8e8dfe0e860b38696a6b8a5292fd2a0fb8a96cd62"
+      ]
     }
   ],
   "intents": [
@@ -121787,6 +121794,14 @@
       "summary": "Move the kickoff Chat | Orchestrator pill into the unified desktop shell's title bar, centred over the page column.",
       "sourceSha": "5305ca76d96e4cbba6bfd646f6739316958cb161",
       "identity": "terminal-kickoff-titlebar:02b5c1f2344109b3b711cb98457e0063afe646c22f268cd5dbceba58de895722"
+    },
+    {
+      "id": "settings-type-tiers",
+      "digest": "6ac23662cc717723d38ebae8e8dfe0e860b38696a6b8a5292fd2a0fb8a96cd62",
+      "type": "patch",
+      "summary": "Settings tabs now tell a group heading, a setting's label and its description apart: headings are larger and bolder, descriptions smaller and muted, and a rule with more room separates one group from the next.",
+      "sourceSha": "c5786d999899a8d88b3aecc8941105242d538373",
+      "identity": "settings-type-tiers:6ac23662cc717723d38ebae8e8dfe0e860b38696a6b8a5292fd2a0fb8a96cd62"
     }
   ],
   "consumedIntentIds": [
