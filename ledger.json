@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "aba9221b8b9d93d37daba16cdbdd3f7a10802228",
+  "cursorSha": "046a2d040f4884d84f1a7d6fbf9e15dec6d62c4d",
   "highWaterVersion": "1.382.5",
   "rows": [
     {
@@ -118909,6 +118909,20 @@
       "sourceSha": "aba9221b8b9d93d37daba16cdbdd3f7a10802228",
       "sourcePackageVersion": "1.382.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c710d1aa970ed473117611c6ae986631a95e32bc",
+      "sourcePackageVersion": "1.382.8",
+      "intentIds": [
+        "teammate-own-session:1a328a7e8b865e4cd0e9160f5dc78f5e8905fb80da3f9399e16518f76309a717"
+      ]
+    },
+    {
+      "sourceSha": "046a2d040f4884d84f1a7d6fbf9e15dec6d62c4d",
+      "sourcePackageVersion": "1.382.8",
+      "intentIds": [
+        "teammate-runtime-messages:6c466534d38df8e8164a2deed2d21d1d38d66a0b37f0691e193d4fda358c8b47"
+      ]
     }
   ],
   "intents": [
@@ -121967,6 +121981,22 @@
       "summary": "Terminal accepts an owner kickoff relayed by the backend (`owner_kickoff`) and starts the project in its owner's own Orchestrator, advertising `orchestrator_owner_kickoff` once Orchestrator messaging is ready.",
       "sourceSha": "efbe5d159ebe35ecdac84e0131b83ba4243a9f2e",
       "identity": "owner-kickoff-frame:7140ad77714f3c3f4d567b131dfb370aa2d9f876878e8c58f4ca4d02fc1ecaf8"
+    },
+    {
+      "id": "teammate-own-session",
+      "digest": "1a328a7e8b865e4cd0e9160f5dc78f5e8905fb80da3f9399e16518f76309a717",
+      "type": "patch",
+      "summary": "On a shared computer, a teammate's New Tab, New Workflow and agent launches now open in their own session (created on first use) instead of failing, and the New Workflow dialog names their own subscription or CodePress's relay.",
+      "sourceSha": "c710d1aa970ed473117611c6ae986631a95e32bc",
+      "identity": "teammate-own-session:1a328a7e8b865e4cd0e9160f5dc78f5e8905fb80da3f9399e16518f76309a717"
+    },
+    {
+      "id": "teammate-runtime-messages",
+      "digest": "6c466534d38df8e8164a2deed2d21d1d38d66a0b37f0691e193d4fda358c8b47",
+      "type": "patch",
+      "summary": "Teammates' Orchestrators and runs now start on a headless `codepress-terminal serve` host, which sets its app version itself. When one cannot start, the teammate sees one sentence naming the computer's owner, the computer and the fix, instead of the raw runtime error.",
+      "sourceSha": "046a2d040f4884d84f1a7d6fbf9e15dec6d62c4d",
+      "identity": "teammate-runtime-messages:6c466534d38df8e8164a2deed2d21d1d38d66a0b37f0691e193d4fda358c8b47"
     }
   ],
   "consumedIntentIds": [
