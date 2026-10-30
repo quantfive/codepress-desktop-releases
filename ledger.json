@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "ffd197a3c58aa7d2f458c406b8859a26eb14d83d",
-  "highWaterVersion": "1.381.0",
+  "highWaterVersion": "1.382.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -61201,6 +61201,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:ffd197a3c58aa7d2f458c406b8859a26eb14d83d",
+      "kind": "main",
+      "sequence": 1821,
+      "sourceSha": "ffd197a3c58aa7d2f458c406b8859a26eb14d83d",
+      "sourcePackageVersion": "1.381.0",
+      "version": "1.382.0",
+      "publicationDate": "2026-10-30T13:58:24.170Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "claude-window-usage:458972cdc9c8ef3841e1da9bdd758e31bad34f5e1064beb673ec746fb7f2804f"
+        ],
+        "notesIntentIds": [
+          "claude-window-usage:458972cdc9c8ef3841e1da9bdd758e31bad34f5e1064beb673ec746fb7f2804f"
+        ],
+        "throughSourceSha": "ffd197a3c58aa7d2f458c406b8859a26eb14d83d",
+        "previousThroughSourceSha": "72afd2dde4a98c1435049faebe5afc2d5d618c8b",
+        "baselineVersion": "1.381.0",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41067505367",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-31T13:57:54.413Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -121665,7 +121708,8 @@
     "flag-review-operational-reasons:c1dc00f3ecd77f801157683ad51667a1ada45e38e5aae952a85f30b1a0a1cd50",
     "layer-store-runtime:08fa67ef6d04379bf41bf2f67ce895edba808ff6a3648671b3b8d64d5eaab85e",
     "parallel-macos-release-jobs:16b13b9de3a8325cd2c3dd6854f1fa09ff71e3dd3b8c7ce6fd954019179d61e4",
-    "measured-claude-subscription-windows:2b1f8fc10512bda2bfece53f23b1a66641377035da388df3be0a72adb5f2d687"
+    "measured-claude-subscription-windows:2b1f8fc10512bda2bfece53f23b1a66641377035da388df3be0a72adb5f2d687",
+    "claude-window-usage:458972cdc9c8ef3841e1da9bdd758e31bad34f5e1064beb673ec746fb7f2804f"
   ],
-  "consumedThroughSha": "72afd2dde4a98c1435049faebe5afc2d5d618c8b"
+  "consumedThroughSha": "ffd197a3c58aa7d2f458c406b8859a26eb14d83d"
 }
