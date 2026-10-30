@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d86ab3656153479f704450a64f32c4a70946321c",
+  "cursorSha": "cc655d776ffe00ffefffc8ff5a06e51149b16ad1",
   "highWaterVersion": "1.385.0",
   "rows": [
     {
@@ -120098,6 +120098,13 @@
       "sourceSha": "d86ab3656153479f704450a64f32c4a70946321c",
       "sourcePackageVersion": "1.386.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "cc655d776ffe00ffefffc8ff5a06e51149b16ad1",
+      "sourcePackageVersion": "1.386.0",
+      "intentIds": [
+        "layered-updater:ed1662b33993c513a7881b0ee5a5f47a96cac589f901cd7f3968344fe4f7c40d"
+      ]
     }
   ],
   "intents": [
@@ -123388,6 +123395,14 @@
       "summary": "Subscription failover, PR readiness approval, review delivery, working hours, appearance and the agent automation toggles now follow your account across computers. Each Mac hands its own choices to your account once, the first time the account has none, and keeps them as its fallback; a change on one Mac reaches the others at their next refresh. New local Orchestrator projects start from your account's merge and prompt-approval defaults.",
       "sourceSha": "baf35668386326d71b942fd6ea366eabfc435466",
       "identity": "terminal-reads-account-settings:4720e27230e25d883d200222e4bad6b95a450f279698cb5ce91b6d3e0f6779ad"
+    },
+    {
+      "id": "layered-updater",
+      "digest": "ed1662b33993c513a7881b0ee5a5f47a96cac589f901cd7f3968344fe4f7c40d",
+      "type": "minor",
+      "summary": "Update by downloading the slim app and only the dependency layers that changed, falling back to the full bundle on any failure.",
+      "sourceSha": "cc655d776ffe00ffefffc8ff5a06e51149b16ad1",
+      "identity": "layered-updater:ed1662b33993c513a7881b0ee5a5f47a96cac589f901cd7f3968344fe4f7c40d"
     }
   ],
   "consumedIntentIds": [
