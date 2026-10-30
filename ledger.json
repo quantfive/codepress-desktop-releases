@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b66fba70f44f01df928eb8fa140b4d77a6da1889",
+  "cursorSha": "98ed8ee3f7b46da231c32ca0882d2caf8df36663",
   "highWaterVersion": "1.382.6",
   "rows": [
     {
@@ -119102,6 +119102,18 @@
       "sourceSha": "b66fba70f44f01df928eb8fa140b4d77a6da1889",
       "sourcePackageVersion": "1.383.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0a8af52ab0413db95dafb80997420b86ad5f560b",
+      "sourcePackageVersion": "1.383.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "98ed8ee3f7b46da231c32ca0882d2caf8df36663",
+      "sourcePackageVersion": "1.383.0",
+      "intentIds": [
+        "org-switcher-rail-tile:2f1dfa73f78bc5616dfa7b7fa1683946e2abb33605141fcc25f7c0ae9c476f0e"
+      ]
     }
   ],
   "intents": [
@@ -122208,6 +122220,14 @@
       "summary": "In a teammate's window on a shared computer, the Files panel now says the computer's files belong to its owner instead of failing to detect a project root, owner-only settings and entry points are hidden, and anything still refused says what it is and who can help instead of \"Not available to teammates on this computer\".",
       "sourceSha": "456e5c2db578f57589a788f765df0c996df910f0",
       "identity": "teammate-owner-only-panels:27e5661361aebbbed818c641e4f97a6764642dc18510dc2fcca482aae9b6bb34"
+    },
+    {
+      "id": "org-switcher-rail-tile",
+      "digest": "2f1dfa73f78bc5616dfa7b7fa1683946e2abb33605141fcc25f7c0ae9c476f0e",
+      "type": "patch",
+      "summary": "With the unified shell on, the top of the rail is now the current organization's tile (its logo, avatar or initials) and opens an organization switcher. The foot is the account menu.",
+      "sourceSha": "98ed8ee3f7b46da231c32ca0882d2caf8df36663",
+      "identity": "org-switcher-rail-tile:2f1dfa73f78bc5616dfa7b7fa1683946e2abb33605141fcc25f7c0ae9c476f0e"
     }
   ],
   "consumedIntentIds": [
