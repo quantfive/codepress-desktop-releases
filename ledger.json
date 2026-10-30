@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "54dfdf407845f6963828d0c0fa5cdc35c9d4995e",
+  "cursorSha": "a89fa8a33b8ee2faf5edc3ac7aabb25b0a9ac432",
   "highWaterVersion": "1.380.20",
   "rows": [
     {
@@ -117391,6 +117391,13 @@
       "sourceSha": "54dfdf407845f6963828d0c0fa5cdc35c9d4995e",
       "sourcePackageVersion": "1.380.22",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a89fa8a33b8ee2faf5edc3ac7aabb25b0a9ac432",
+      "sourcePackageVersion": "1.380.22",
+      "intentIds": [
+        "sonnet-chat-opus-pm:ea35920f3d36c73527bea6a917906a5654211073c4afd9b6c797af650f46311d"
+      ]
     }
   ],
   "intents": [
@@ -120209,6 +120216,14 @@
       "summary": "Coalesce non-urgent Orchestrator inbox wakes, include PR head facts in notices, and keep actionable snapshot data ahead of history. Expose valid project post envelope states in the tool schema and validation errors.",
       "sourceSha": "9fd61c3aba8d58172559bd0ded85ac9a4e9a2d0c",
       "identity": "orchestrator-inbox-batches:93d45a399d2630992f1e49bc675275a24fd7f34af06e4dd06e787059913e294e"
+    },
+    {
+      "id": "sonnet-chat-opus-pm",
+      "digest": "ea35920f3d36c73527bea6a917906a5654211073c4afd9b6c797af650f46311d",
+      "type": "patch",
+      "summary": "Keep the Orchestrator PM on Opus while ordinary Anthropic chats default to Sonnet.",
+      "sourceSha": "a89fa8a33b8ee2faf5edc3ac7aabb25b0a9ac432",
+      "identity": "sonnet-chat-opus-pm:ea35920f3d36c73527bea6a917906a5654211073c4afd9b6c797af650f46311d"
     }
   ],
   "consumedIntentIds": [
