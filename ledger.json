@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "910e63bfa135c172db1ec2fdc1136a20f99507e7",
-  "highWaterVersion": "1.384.4",
+  "highWaterVersion": "1.385.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -62013,6 +62013,55 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:910e63bfa135c172db1ec2fdc1136a20f99507e7",
+      "kind": "main",
+      "sequence": 1835,
+      "sourceSha": "910e63bfa135c172db1ec2fdc1136a20f99507e7",
+      "sourcePackageVersion": "1.385.1",
+      "version": "1.385.0",
+      "publicationDate": "2026-10-30T23:32:13.253Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "one-pickup-line:8a952571eeeeb26f15d9c041d054405a1d37deeafbdb8361fc34e4ce5dcfc6e4",
+          "terminal-build-layers:14af4f81cd46b733cf8727632e9303a91ad556fa8c442642de1674a4775358c2",
+          "section-cache-apps-automations:ed98947c4b7cf4de3323415faaaee83466b22f22564fc7f3088d7571a8c9346c",
+          "account-pages-computer-group:4dbed892cd150593c3de8906a8d1567a2301fd8a1cb127b45c9406433bc26691"
+        ],
+        "notesIntentIds": [
+          "one-pickup-line:8a952571eeeeb26f15d9c041d054405a1d37deeafbdb8361fc34e4ce5dcfc6e4",
+          "terminal-build-layers:14af4f81cd46b733cf8727632e9303a91ad556fa8c442642de1674a4775358c2",
+          "section-cache-apps-automations:ed98947c4b7cf4de3323415faaaee83466b22f22564fc7f3088d7571a8c9346c",
+          "account-pages-computer-group:4dbed892cd150593c3de8906a8d1567a2301fd8a1cb127b45c9406433bc26691"
+        ],
+        "throughSourceSha": "910e63bfa135c172db1ec2fdc1136a20f99507e7",
+        "previousThroughSourceSha": "66a0e0748ba40a988ecded4cb0bef6c37f3fec62",
+        "baselineVersion": "1.384.4",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41144896147",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-31T23:31:47.412Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -123688,7 +123737,11 @@
     "arrival-snapshot-at-once:ef488abdb37b2ba6c554de99b4dcfeb8ef39adca2e9d5c6a99fce76e83eed688",
     "takeover-own-copy-generation:aa6381284b318e9edafc7b0196bda3a3892f3a3f850397abaa70cda87f1d9cb4",
     "agent-data-admin-settings:62025d131cdb45dc7c8d917f44aaa995f6d739f7d701fbbd9828a439860fe1c4",
-    "phone-thread-one-header:e271e79f44417ca8e0916878f775aa5950d08bca26078776b7f6f786ae4c7947"
+    "phone-thread-one-header:e271e79f44417ca8e0916878f775aa5950d08bca26078776b7f6f786ae4c7947",
+    "one-pickup-line:8a952571eeeeb26f15d9c041d054405a1d37deeafbdb8361fc34e4ce5dcfc6e4",
+    "terminal-build-layers:14af4f81cd46b733cf8727632e9303a91ad556fa8c442642de1674a4775358c2",
+    "section-cache-apps-automations:ed98947c4b7cf4de3323415faaaee83466b22f22564fc7f3088d7571a8c9346c",
+    "account-pages-computer-group:4dbed892cd150593c3de8906a8d1567a2301fd8a1cb127b45c9406433bc26691"
   ],
-  "consumedThroughSha": "66a0e0748ba40a988ecded4cb0bef6c37f3fec62"
+  "consumedThroughSha": "910e63bfa135c172db1ec2fdc1136a20f99507e7"
 }
