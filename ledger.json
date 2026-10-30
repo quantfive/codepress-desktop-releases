@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "bfc7c18d9cc9f15f38c42c914964ed08fb196a40",
+  "cursorSha": "dd6fde478abd7eb2d4406bd8ba00adc6c9288d4e",
   "highWaterVersion": "1.382.6",
   "rows": [
     {
@@ -119063,6 +119063,13 @@
       "sourceSha": "bfc7c18d9cc9f15f38c42c914964ed08fb196a40",
       "sourcePackageVersion": "1.382.10",
       "intentIds": []
+    },
+    {
+      "sourceSha": "dd6fde478abd7eb2d4406bd8ba00adc6c9288d4e",
+      "sourcePackageVersion": "1.382.10",
+      "intentIds": [
+        "settings-modal-chrome:08503cc67b556a5e122ce5eabb47e25d4ff89f8c2cb6111d4b4e8c0a58833812"
+      ]
     }
   ],
   "intents": [
@@ -122153,6 +122160,14 @@
       "summary": "Cloud mode now opens in a shared-computer window with your own CodePress sign-in, which stays on your machine and never reaches the shared computer.",
       "sourceSha": "7d6ca500072588d3d1a68896dd4aed59916b9a76",
       "identity": "shared-window-cloud-signin:9a956bd4af7679b581fa918563e9516aceacbe1e7f41bb0fbde4f993095d2e2b"
+    },
+    {
+      "id": "settings-modal-chrome",
+      "digest": "08503cc67b556a5e122ce5eabb47e25d4ff89f8c2cb6111d4b4e8c0a58833812",
+      "type": "minor",
+      "summary": "Settings now looks like Slack's Preferences: a header with a close button, a grouped icon rail on the left and a titled pane on the right, and on a phone a full-screen list of sections that opens one at a time. Four sections are renamed: Terminal app, Agent MCPs, My computers and Local usage.",
+      "sourceSha": "dd6fde478abd7eb2d4406bd8ba00adc6c9288d4e",
+      "identity": "settings-modal-chrome:08503cc67b556a5e122ce5eabb47e25d4ff89f8c2cb6111d4b4e8c0a58833812"
     }
   ],
   "consumedIntentIds": [
