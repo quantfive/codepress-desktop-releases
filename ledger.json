@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "cc655d776ffe00ffefffc8ff5a06e51149b16ad1",
+  "cursorSha": "5739d6118f955e6da2bcd68f5ffe88aa314d4eca",
   "highWaterVersion": "1.385.0",
   "rows": [
     {
@@ -120105,6 +120105,13 @@
       "intentIds": [
         "layered-updater:ed1662b33993c513a7881b0ee5a5f47a96cac589f901cd7f3968344fe4f7c40d"
       ]
+    },
+    {
+      "sourceSha": "5739d6118f955e6da2bcd68f5ffe88aa314d4eca",
+      "sourcePackageVersion": "1.386.0",
+      "intentIds": [
+        "move-standing-moved-record:3cfcdf94cb2aaabe88e57f91e65f05988b836a978c9f0edaab5e4bb169168a79"
+      ]
     }
   ],
   "intents": [
@@ -123403,6 +123410,14 @@
       "summary": "Update by downloading the slim app and only the dependency layers that changed, falling back to the full bundle on any failure.",
       "sourceSha": "cc655d776ffe00ffefffc8ff5a06e51149b16ad1",
       "identity": "layered-updater:ed1662b33993c513a7881b0ee5a5f47a96cac589f901cd7f3968344fe4f7c40d"
+    },
+    {
+      "id": "move-standing-moved-record",
+      "digest": "3cfcdf94cb2aaabe88e57f91e65f05988b836a978c9f0edaab5e4bb169168a79",
+      "type": "patch",
+      "summary": "A project that moved away from this Mac names where it went and can move again here or to a Cloud VM, including when that Mac is away and no cloud copy exists to continue from.",
+      "sourceSha": "5739d6118f955e6da2bcd68f5ffe88aa314d4eca",
+      "identity": "move-standing-moved-record:3cfcdf94cb2aaabe88e57f91e65f05988b836a978c9f0edaab5e4bb169168a79"
     }
   ],
   "consumedIntentIds": [
