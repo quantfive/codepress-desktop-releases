@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "72afd2dde4a98c1435049faebe5afc2d5d618c8b",
-  "highWaterVersion": "1.380.28",
+  "highWaterVersion": "1.381.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -61138,6 +61138,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:72afd2dde4a98c1435049faebe5afc2d5d618c8b",
+      "kind": "main",
+      "sequence": 1820,
+      "sourceSha": "72afd2dde4a98c1435049faebe5afc2d5d618c8b",
+      "sourcePackageVersion": "1.381.0",
+      "version": "1.381.0",
+      "publicationDate": "2026-10-30T12:47:05.629Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "measured-claude-subscription-windows:2b1f8fc10512bda2bfece53f23b1a66641377035da388df3be0a72adb5f2d687"
+        ],
+        "notesIntentIds": [
+          "measured-claude-subscription-windows:2b1f8fc10512bda2bfece53f23b1a66641377035da388df3be0a72adb5f2d687"
+        ],
+        "throughSourceSha": "72afd2dde4a98c1435049faebe5afc2d5d618c8b",
+        "previousThroughSourceSha": "5ad97578aaade84a166692a5c8965deef742486f",
+        "baselineVersion": "1.380.28",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41057731067",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-31T12:46:36.698Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -121571,7 +121614,8 @@
     "retire-orchestrator-rollout-settings:985085495cc40710bc4e263bdb9f09264e9d5de0bf252c3f855d0a059a18eb3b",
     "flag-review-operational-reasons:c1dc00f3ecd77f801157683ad51667a1ada45e38e5aae952a85f30b1a0a1cd50",
     "layer-store-runtime:08fa67ef6d04379bf41bf2f67ce895edba808ff6a3648671b3b8d64d5eaab85e",
-    "parallel-macos-release-jobs:16b13b9de3a8325cd2c3dd6854f1fa09ff71e3dd3b8c7ce6fd954019179d61e4"
+    "parallel-macos-release-jobs:16b13b9de3a8325cd2c3dd6854f1fa09ff71e3dd3b8c7ce6fd954019179d61e4",
+    "measured-claude-subscription-windows:2b1f8fc10512bda2bfece53f23b1a66641377035da388df3be0a72adb5f2d687"
   ],
-  "consumedThroughSha": "5ad97578aaade84a166692a5c8965deef742486f"
+  "consumedThroughSha": "72afd2dde4a98c1435049faebe5afc2d5d618c8b"
 }
