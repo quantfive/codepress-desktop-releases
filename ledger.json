@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a46da8cbc6309b09d05908a4409b7eebad07bb32",
+  "cursorSha": "4cccbd588ba0e9e861f0aa943aac2abb5ebec65c",
   "highWaterVersion": "1.380.8",
   "rows": [
     {
@@ -116297,6 +116297,13 @@
       "sourceSha": "a46da8cbc6309b09d05908a4409b7eebad07bb32",
       "sourcePackageVersion": "1.380.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4cccbd588ba0e9e861f0aa943aac2abb5ebec65c",
+      "sourcePackageVersion": "1.380.7",
+      "intentIds": [
+        "landed-archived-skeleton-visible:c6012e5a1b7c40b1afe4468b152cc2b078817ce96acdecd43f049122ae1d7309"
+      ]
     }
   ],
   "intents": [
@@ -118963,6 +118970,14 @@
       "summary": "Handing a project off from a Mac on an older Terminal no longer fails with \"The bundle must carry rows for project_previous_landings\": a table added after the bundle format shipped imports as empty when the sender predates it. When the destination does refuse a project copy, the source Mac now resumes the project's Orchestrator and workers at once instead of leaving it read-only until Resume here.",
       "sourceSha": "e9a366d955420f6e35549a994bf1a5f8f36ed7cf",
       "identity": "handoff-older-sender-bundle:740c457af213d37504e025d57fcabd7e2a8f8baa9152029a9c8de230c1727474"
+    },
+    {
+      "id": "landed-archived-skeleton-visible",
+      "digest": "c6012e5a1b7c40b1afe4468b152cc2b078817ce96acdecd43f049122ae1d7309",
+      "type": "patch",
+      "summary": "Landed and Archived in the Orchestrator rail now show visible, row-sized placeholders while their first page loads, in every theme.",
+      "sourceSha": "4cccbd588ba0e9e861f0aa943aac2abb5ebec65c",
+      "identity": "landed-archived-skeleton-visible:c6012e5a1b7c40b1afe4468b152cc2b078817ce96acdecd43f049122ae1d7309"
     }
   ],
   "consumedIntentIds": [
