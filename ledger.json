@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "60bd21c1564a2f4a0b659eaf2f0e4271680f93ab",
-  "highWaterVersion": "1.382.4",
+  "highWaterVersion": "1.382.5",
   "rows": [
     {
       "schemaVersion": 1,
@@ -61478,6 +61478,59 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:60bd21c1564a2f4a0b659eaf2f0e4271680f93ab",
+      "kind": "main",
+      "sequence": 1826,
+      "sourceSha": "60bd21c1564a2f4a0b659eaf2f0e4271680f93ab",
+      "sourcePackageVersion": "1.382.8",
+      "version": "1.382.5",
+      "publicationDate": "2026-10-30T17:43:04.782Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-kickoff-titlebar:02b5c1f2344109b3b711cb98457e0063afe646c22f268cd5dbceba58de895722",
+          "settings-type-tiers:6ac23662cc717723d38ebae8e8dfe0e860b38696a6b8a5292fd2a0fb8a96cd62",
+          "phone-shell-header-slideover:930b959acfcbaffe1332d318407071e4cc4d7d40c48c03c5341df71dc5bf1e5b",
+          "phone-thread-direct-buttons:fb7f50d8f8721413e4beb8b7441223ee65756e7765c3c5e5cc2557cfa3c2cf80",
+          "terminal-apps-frame-src:3995a52312a577e68800fe26955d1717473e3f9f1042c322d31a1d1134c4c906",
+          "owner-kickoff-frame:7140ad77714f3c3f4d567b131dfb370aa2d9f876878e8c58f4ca4d02fc1ecaf8"
+        ],
+        "notesIntentIds": [
+          "terminal-kickoff-titlebar:02b5c1f2344109b3b711cb98457e0063afe646c22f268cd5dbceba58de895722",
+          "settings-type-tiers:6ac23662cc717723d38ebae8e8dfe0e860b38696a6b8a5292fd2a0fb8a96cd62",
+          "phone-shell-header-slideover:930b959acfcbaffe1332d318407071e4cc4d7d40c48c03c5341df71dc5bf1e5b",
+          "phone-thread-direct-buttons:fb7f50d8f8721413e4beb8b7441223ee65756e7765c3c5e5cc2557cfa3c2cf80",
+          "terminal-apps-frame-src:3995a52312a577e68800fe26955d1717473e3f9f1042c322d31a1d1134c4c906",
+          "owner-kickoff-frame:7140ad77714f3c3f4d567b131dfb370aa2d9f876878e8c58f4ca4d02fc1ecaf8"
+        ],
+        "throughSourceSha": "60bd21c1564a2f4a0b659eaf2f0e4271680f93ab",
+        "previousThroughSourceSha": "083209bf7303591c469f11bef6f5326ded7fa6fb",
+        "baselineVersion": "1.382.4",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41099261963",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-31T17:42:26.271Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -122278,7 +122331,13 @@
     "terminal-vitest-stylesheet-outside-root:9645ce2554d1dd28e44e95fbcb139a8cd3d2dc639d3bf061a3a90572194afb02",
     "handoff-cloud-organization-discovery:f1e94e2b295c1c3afbfa32807e72261818b282f7987f7bb84c31e71d3e694ba9",
     "phone-shell-page-header:960210320bcde2bd4c2515cd533b1b6126c3a7aef3ed2dd47b8217569523b01f",
-    "live-browser-host:e303c7bb15bd184cd95196293e38306ecbca46da11f498341d301c568c9ff1c1"
+    "live-browser-host:e303c7bb15bd184cd95196293e38306ecbca46da11f498341d301c568c9ff1c1",
+    "terminal-kickoff-titlebar:02b5c1f2344109b3b711cb98457e0063afe646c22f268cd5dbceba58de895722",
+    "settings-type-tiers:6ac23662cc717723d38ebae8e8dfe0e860b38696a6b8a5292fd2a0fb8a96cd62",
+    "phone-shell-header-slideover:930b959acfcbaffe1332d318407071e4cc4d7d40c48c03c5341df71dc5bf1e5b",
+    "phone-thread-direct-buttons:fb7f50d8f8721413e4beb8b7441223ee65756e7765c3c5e5cc2557cfa3c2cf80",
+    "terminal-apps-frame-src:3995a52312a577e68800fe26955d1717473e3f9f1042c322d31a1d1134c4c906",
+    "owner-kickoff-frame:7140ad77714f3c3f4d567b131dfb370aa2d9f876878e8c58f4ca4d02fc1ecaf8"
   ],
-  "consumedThroughSha": "083209bf7303591c469f11bef6f5326ded7fa6fb"
+  "consumedThroughSha": "60bd21c1564a2f4a0b659eaf2f0e4271680f93ab"
 }
