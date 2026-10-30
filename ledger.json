@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3772751735830b6c01859c9c2faff8cf721a8404",
+  "cursorSha": "39b01b4a7d17b2b4cfc7e0301d358fd384221a69",
   "highWaterVersion": "1.384.3",
   "rows": [
     {
@@ -119818,6 +119818,18 @@
       "sourceSha": "3772751735830b6c01859c9c2faff8cf721a8404",
       "sourcePackageVersion": "1.384.9",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4f7cdbc9a8f59b569274ddd8cb7b4e1334f3c70e",
+      "sourcePackageVersion": "1.384.9",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "39b01b4a7d17b2b4cfc7e0301d358fd384221a69",
+      "sourcePackageVersion": "1.384.9",
+      "intentIds": [
+        "phone-thread-one-header:e271e79f44417ca8e0916878f775aa5950d08bca26078776b7f6f786ae4c7947"
+      ]
     }
   ],
   "intents": [
@@ -123060,6 +123072,14 @@
       "summary": "Settings → General now has a \"Sessions and remote access\" section with \"Keep cloud copies of sessions\" and \"Remote agent actions\". Organization admins can turn either off; members see them read-only.",
       "sourceSha": "806c0efef764280fd3bb723ad184d8cedc5c7d43",
       "identity": "agent-data-admin-settings:62025d131cdb45dc7c8d917f44aaa995f6d739f7d701fbbd9828a439860fe1c4"
+    },
+    {
+      "id": "phone-thread-one-header",
+      "digest": "e271e79f44417ca8e0916878f775aa5950d08bca26078776b7f6f786ae4c7947",
+      "type": "patch",
+      "summary": "Use the shared phone shell header for Orchestrator projects, with compact progress, the hosting machine and Work actions.",
+      "sourceSha": "39b01b4a7d17b2b4cfc7e0301d358fd384221a69",
+      "identity": "phone-thread-one-header:e271e79f44417ca8e0916878f775aa5950d08bca26078776b7f6f786ae4c7947"
     }
   ],
   "consumedIntentIds": [
