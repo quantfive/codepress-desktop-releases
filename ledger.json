@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "47b995a2f23c7a9d66b5bbebb6c49b50518702f0",
+  "cursorSha": "3869b46f9bb5d771692d5c217401219b0ac16910",
   "highWaterVersion": "1.380.14",
   "rows": [
     {
@@ -116815,6 +116815,13 @@
       "sourceSha": "47b995a2f23c7a9d66b5bbebb6c49b50518702f0",
       "sourcePackageVersion": "1.380.14",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3869b46f9bb5d771692d5c217401219b0ac16910",
+      "sourcePackageVersion": "1.380.14",
+      "intentIds": [
+        "terminal-mobile-open-tab:c2527526079d64f31ebd52b3682a479632a46a87abc20be69595c9eae74d9643"
+      ]
     }
   ],
   "intents": [
@@ -119545,6 +119552,14 @@
       "summary": "A project handed off from this Mac now shows its synced copy once the transfer finishes, so you can keep reading and replying to it here instead of seeing a read-only tombstone. With no synced copy, the composer names the machine the project now runs on.",
       "sourceSha": "04270f250776a68fa86254b6ebb9ff67c5f02c31",
       "identity": "handed-off-source-shows-synced-copy:7aa4bbc2c466e0906e2a33518c36aea218479f7c98e21c09a205c00521f2808e"
+    },
+    {
+      "id": "terminal-mobile-open-tab",
+      "digest": "c2527526079d64f31ebd52b3682a479632a46a87abc20be69595c9eae74d9643",
+      "type": "patch",
+      "summary": "When the CodePress phone app opens a machine's live view from the shell's \"Open on <Mac>\", the Terminal page now focuses the tab the person came from. The page advertises `openTab` in its mobile-mode-ready message and answers `codepress:mobile-open-tab` by showing the Terminal and focusing that tab once the session list is live; a tab this machine does not have changes nothing. Older apps never send it, and the desktop window is unchanged.",
+      "sourceSha": "3869b46f9bb5d771692d5c217401219b0ac16910",
+      "identity": "terminal-mobile-open-tab:c2527526079d64f31ebd52b3682a479632a46a87abc20be69595c9eae74d9643"
     }
   ],
   "consumedIntentIds": [
