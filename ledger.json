@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9c1950e58f29fbad9e36ff92ce4ba11a6976d261",
+  "cursorSha": "589f6fc851a97e5916a478e1da1f02bff0982271",
   "highWaterVersion": "1.383.1",
   "rows": [
     {
@@ -119343,6 +119343,16 @@
       "intentIds": [
         "fence-live-browser-actions:7c724d20161c4d574e2a549955a3f35d5d64a297594f1c3e44ae74649a85ccd7"
       ]
+    },
+    {
+      "sourceSha": "166d4ce4c4a32dfce6da06ffe25de54d52142749",
+      "sourcePackageVersion": "1.384.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "589f6fc851a97e5916a478e1da1f02bff0982271",
+      "sourcePackageVersion": "1.384.0",
+      "intentIds": []
     }
   ],
   "intents": [
