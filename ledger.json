@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a10379fe611ac98d625fcc1fd0d212fbea9eb354",
+  "cursorSha": "ffa862b93a29c9674b854a5720e9689fc3bee578",
   "highWaterVersion": "1.380.16",
   "rows": [
     {
@@ -117000,6 +117000,18 @@
       "sourceSha": "a10379fe611ac98d625fcc1fd0d212fbea9eb354",
       "sourcePackageVersion": "1.380.16",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3fc5bb7383a9dc9cb9d10df01caa90cb0c248a7d",
+      "sourcePackageVersion": "1.380.16",
+      "intentIds": [
+        "phone-home-dock:d945b57bffaa4cda8ab602ecf27066743cf48846ef113ef3bcc547fb8b9657a0"
+      ]
+    },
+    {
+      "sourceSha": "ffa862b93a29c9674b854a5720e9689fc3bee578",
+      "sourcePackageVersion": "1.380.16",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -119762,6 +119774,14 @@
       "summary": "Mac release builds now wait a few seconds for a busy disk image to release before giving up, and clean up an installer image an earlier build left mounted, so one stuck mount can no longer block every later Mac release.",
       "sourceSha": "782c1dbb4cd85c1ccb362bec86d25bad43b14c44",
       "identity": "mac-release-waits-out-busy-disk-image:a5a808f4d1f53cb8e455a9a259e47904833a708ddf1e868b8fdec204a61c8f97"
+    },
+    {
+      "id": "phone-home-dock",
+      "digest": "d945b57bffaa4cda8ab602ecf27066743cf48846ef113ef3bcc547fb8b9657a0",
+      "type": "patch",
+      "summary": "Centre the phone home mode pill in one header and dock the kickoff composer above native navigation.",
+      "sourceSha": "3fc5bb7383a9dc9cb9d10df01caa90cb0c248a7d",
+      "identity": "phone-home-dock:d945b57bffaa4cda8ab602ecf27066743cf48846ef113ef3bcc547fb8b9657a0"
     }
   ],
   "consumedIntentIds": [
