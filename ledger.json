@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e9a82654b302df1f771a68194d90220029479ed8",
+  "cursorSha": "eeb411166110077efee4948ad09a20a96799652c",
   "highWaterVersion": "1.384.1",
   "rows": [
     {
@@ -119550,6 +119550,13 @@
       "intentIds": [
         "live-browser-agent-link:3729006c80eb832eeeea1515ce16ee472368f0907232c7da58089146b08a2020"
       ]
+    },
+    {
+      "sourceSha": "eeb411166110077efee4948ad09a20a96799652c",
+      "sourcePackageVersion": "1.384.3",
+      "intentIds": [
+        "build-panel-default:23044444c23543f38275507118b653fe66a23291192d6bc257f9c7c2548abf5b"
+      ]
     }
   ],
   "intents": [
@@ -122728,6 +122735,14 @@
       "summary": "Return live browser links from machine handoffs and guide agents to share them for human-only browser steps.",
       "sourceSha": "e9a82654b302df1f771a68194d90220029479ed8",
       "identity": "live-browser-agent-link:3729006c80eb832eeeea1515ce16ee472368f0907232c7da58089146b08a2020"
+    },
+    {
+      "id": "build-panel-default",
+      "digest": "23044444c23543f38275507118b653fe66a23291192d6bc257f9c7c2548abf5b",
+      "type": "patch",
+      "summary": "Add a Build panel setting under Settings → Orchestrator → Display (Last used, Open or Closed) that chooses whether a project's Work and Plan panel starts open in a wide window.",
+      "sourceSha": "eeb411166110077efee4948ad09a20a96799652c",
+      "identity": "build-panel-default:23044444c23543f38275507118b653fe66a23291192d6bc257f9c7c2548abf5b"
     }
   ],
   "consumedIntentIds": [
