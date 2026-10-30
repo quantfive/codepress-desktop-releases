@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6327fa87ca5549d49c05d18c26940d9d389a38d9",
+  "cursorSha": "a1f63a025fdd0da8b68386990d91ef238073f0d1",
   "highWaterVersion": "1.380.22",
   "rows": [
     {
@@ -117657,6 +117657,13 @@
       "sourceSha": "6327fa87ca5549d49c05d18c26940d9d389a38d9",
       "sourcePackageVersion": "1.380.28",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a1f63a025fdd0da8b68386990d91ef238073f0d1",
+      "sourcePackageVersion": "1.380.28",
+      "intentIds": [
+        "terminal-native-cross-org-links:9e5a7abefb70c3fc07b1bf646525ab09c81eb4f210e381a40257093646865460"
+      ]
     }
   ],
   "intents": [
@@ -120539,6 +120546,14 @@
       "summary": "Fix native foreground `focus` and click on the installed host: the adapter compared the host's echoed target with the request's by key order, so every real foreground lease was refused as `lease_mismatch`. It now compares by value, and releases a lease the host admitted but the adapter refused so a reset can settle.",
       "sourceSha": "f9b461ac5ed0caa36f29f5d564c6ae933b2d1b50",
       "identity": "native-foreground-lease-target:f4c50441d7654f5fd2fe800ff3799b03915478029cdda4b4f9b99e956bf5b7d5"
+    },
+    {
+      "id": "terminal-native-cross-org-links",
+      "digest": "9e5a7abefb70c3fc07b1bf646525ab09c81eb4f210e381a40257093646865460",
+      "type": "patch",
+      "summary": "With the unified shell on, a link into another organization's My Work, Servers, Media, Evals, Apps, Settings or Automations page (a notification, a `codepress://open` link, a link in a chat, or a link a page builds) now opens in the embedded web view, where the web picks the organization from the link, instead of being drawn by Terminal under the organization it is on with the other organization's ids. Terminal does not switch organization for it, and the page you were on stays as you left it. A link to an organization you are not in no longer draws anything natively either. Links for the organization Terminal is on, and the window with the unified shell off, are unchanged.",
+      "sourceSha": "a1f63a025fdd0da8b68386990d91ef238073f0d1",
+      "identity": "terminal-native-cross-org-links:9e5a7abefb70c3fc07b1bf646525ab09c81eb4f210e381a40257093646865460"
     }
   ],
   "consumedIntentIds": [
