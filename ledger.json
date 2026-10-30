@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e9a366d955420f6e35549a994bf1a5f8f36ed7cf",
+  "cursorSha": "b8fd1656774a46d230ba4782087a5fd7f62c217c",
   "highWaterVersion": "1.380.8",
   "rows": [
     {
@@ -116282,6 +116282,11 @@
       "intentIds": [
         "handoff-older-sender-bundle:740c457af213d37504e025d57fcabd7e2a8f8baa9152029a9c8de230c1727474"
       ]
+    },
+    {
+      "sourceSha": "b8fd1656774a46d230ba4782087a5fd7f62c217c",
+      "sourcePackageVersion": "1.380.7",
+      "intentIds": []
     }
   ],
   "intents": [
