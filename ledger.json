@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "56c39f939c19fc296aab65b9a5a7acfdb5ab6eb1",
+  "cursorSha": "492ec20397e8872af11a7f87431efb9f11d0119d",
   "highWaterVersion": "1.383.1",
   "rows": [
     {
@@ -119285,6 +119285,13 @@
       "sourceSha": "56c39f939c19fc296aab65b9a5a7acfdb5ab6eb1",
       "sourcePackageVersion": "1.383.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "492ec20397e8872af11a7f87431efb9f11d0119d",
+      "sourcePackageVersion": "1.383.2",
+      "intentIds": [
+        "live-browser-viewer:f196b0b3528d2b89d8fb104f24ee8197e46bef4dea4f052ae6bb30d3b1762d70"
+      ]
     }
   ],
   "intents": [
@@ -122407,6 +122414,14 @@
       "summary": "The Automations list panel and the Automations page now share one summary read and poll, so Terminal's Automations tab no longer issues a duplicate `/summary` request while the page is open.",
       "sourceSha": "7febd8fe27047bb268de3538425dac46cbfa5c6c",
       "identity": "automations-shared-summary-read:e8c19c36900b637a76251936ce37a9eafdf6fa4a532e3b02b40fb28bf0942c0c"
+    },
+    {
+      "id": "live-browser-viewer",
+      "digest": "f196b0b3528d2b89d8fb104f24ee8197e46bef4dea4f052ae6bb30d3b1762d70",
+      "type": "patch",
+      "summary": "Open a waiting browser from its ask on your phone or another Mac, with live touch, keyboard and Paste controls. Browser WebSockets authenticate with a single-use owner ticket.",
+      "sourceSha": "492ec20397e8872af11a7f87431efb9f11d0119d",
+      "identity": "live-browser-viewer:f196b0b3528d2b89d8fb104f24ee8197e46bef4dea4f052ae6bb30d3b1762d70"
     }
   ],
   "consumedIntentIds": [
