@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ff0388c1c478c8d428575d8516ef831d7e11ad8c",
+  "cursorSha": "5576654f8905a8740f25c8f02fe20ad533dac70d",
   "highWaterVersion": "1.384.4",
   "rows": [
     {
@@ -119917,6 +119917,13 @@
       "sourceSha": "ff0388c1c478c8d428575d8516ef831d7e11ad8c",
       "sourcePackageVersion": "1.384.10",
       "intentIds": []
+    },
+    {
+      "sourceSha": "5576654f8905a8740f25c8f02fe20ad533dac70d",
+      "sourcePackageVersion": "1.384.10",
+      "intentIds": [
+        "one-pickup-line:8a952571eeeeb26f15d9c041d054405a1d37deeafbdb8361fc34e4ce5dcfc6e4"
+      ]
     }
   ],
   "intents": [
@@ -123167,6 +123174,14 @@
       "summary": "Use the shared phone shell header for Orchestrator projects, with compact progress, the hosting machine and Work actions.",
       "sourceSha": "39b01b4a7d17b2b4cfc7e0301d358fd384221a69",
       "identity": "phone-thread-one-header:e271e79f44417ca8e0916878f775aa5950d08bca26078776b7f6f786ae4c7947"
+    },
+    {
+      "id": "one-pickup-line",
+      "digest": "8a952571eeeeb26f15d9c041d054405a1d37deeafbdb8361fc34e4ce5dcfc6e4",
+      "type": "patch",
+      "summary": "Show one \"Picked up\" line after a takeover, and share a running takeover between presses of the same project.",
+      "sourceSha": "5576654f8905a8740f25c8f02fe20ad533dac70d",
+      "identity": "one-pickup-line:8a952571eeeeb26f15d9c041d054405a1d37deeafbdb8361fc34e4ce5dcfc6e4"
     }
   ],
   "consumedIntentIds": [
