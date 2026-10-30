@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "14e189cc316b944945de63e977363e72a7058e82",
+  "cursorSha": "fcd6594eeb585364a4097688823685bcd9c15864",
   "highWaterVersion": "1.384.1",
   "rows": [
     {
@@ -119586,6 +119586,18 @@
       "intentIds": [
         "section-cache-show-then-refresh:7bf58d80f7098e95c5d3a36a0064de1ce8887a584f3ee83a0eb7eb464330adf7"
       ]
+    },
+    {
+      "sourceSha": "d7f5390c7a9fb3e716eae07f101845eac386fefd",
+      "sourcePackageVersion": "1.384.5",
+      "intentIds": [
+        "terminal-reveal-after-body-paint:ee4bfdffee87fa331f287c573fbf02d80f540704586c61e13ad9bbe3fd539f84"
+      ]
+    },
+    {
+      "sourceSha": "fcd6594eeb585364a4097688823685bcd9c15864",
+      "sourcePackageVersion": "1.384.5",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -122788,6 +122800,14 @@
       "summary": "My Work, Media, Servers and Evals show the rows you last saw as soon as you open them, even after relaunching, then quietly update them from the server. Signing out deletes what was stored.",
       "sourceSha": "14e189cc316b944945de63e977363e72a7058e82",
       "identity": "section-cache-show-then-refresh:7bf58d80f7098e95c5d3a36a0064de1ce8887a584f3ee83a0eb7eb464330adf7"
+    },
+    {
+      "id": "terminal-reveal-after-body-paint",
+      "digest": "ee4bfdffee87fa331f287c573fbf02d80f540704586c61e13ad9bbe3fd539f84",
+      "type": "patch",
+      "summary": "Pressing Design, Integrations or an App page now shows the page only once its content is on screen, and a page that reloads on its own no longer makes the next press wait out the timeout.",
+      "sourceSha": "d7f5390c7a9fb3e716eae07f101845eac386fefd",
+      "identity": "terminal-reveal-after-body-paint:ee4bfdffee87fa331f287c573fbf02d80f540704586c61e13ad9bbe3fd539f84"
     }
   ],
   "consumedIntentIds": [
