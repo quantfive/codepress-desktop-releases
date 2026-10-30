@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "09c9a78c2bb20546d1a91a9f4e54cab1ac3085d4",
-  "highWaterVersion": "1.384.2",
+  "highWaterVersion": "1.384.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -61897,6 +61897,53 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:09c9a78c2bb20546d1a91a9f4e54cab1ac3085d4",
+      "kind": "main",
+      "sequence": 1833,
+      "sourceSha": "09c9a78c2bb20546d1a91a9f4e54cab1ac3085d4",
+      "sourcePackageVersion": "1.384.8",
+      "version": "1.384.3",
+      "publicationDate": "2026-10-30T22:02:05.348Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "rail-popups-theme-border:eb1a91a884339c0e218c57688e86140a2d16de3edcbe4dc63f62662ddeef316b",
+          "arrival-snapshot-at-once:ef488abdb37b2ba6c554de99b4dcfeb8ef39adca2e9d5c6a99fce76e83eed688",
+          "takeover-own-copy-generation:aa6381284b318e9edafc7b0196bda3a3892f3a3f850397abaa70cda87f1d9cb4"
+        ],
+        "notesIntentIds": [
+          "rail-popups-theme-border:eb1a91a884339c0e218c57688e86140a2d16de3edcbe4dc63f62662ddeef316b",
+          "arrival-snapshot-at-once:ef488abdb37b2ba6c554de99b4dcfeb8ef39adca2e9d5c6a99fce76e83eed688",
+          "takeover-own-copy-generation:aa6381284b318e9edafc7b0196bda3a3892f3a3f850397abaa70cda87f1d9cb4"
+        ],
+        "throughSourceSha": "09c9a78c2bb20546d1a91a9f4e54cab1ac3085d4",
+        "previousThroughSourceSha": "f7bc1c8a695b24be396a758fd620696139d3f7fc",
+        "baselineVersion": "1.384.2",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41135146143",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-31T22:01:38.551Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -123362,7 +123409,10 @@
     "build-panel-default:23044444c23543f38275507118b653fe66a23291192d6bc257f9c7c2548abf5b",
     "new-workflow-ghostty-admission:63f30afca15be00fc06426b6b57077347c7a40d135901c2f61b67840d9d65eba",
     "section-cache-show-then-refresh:7bf58d80f7098e95c5d3a36a0064de1ce8887a584f3ee83a0eb7eb464330adf7",
-    "terminal-reveal-after-body-paint:ee4bfdffee87fa331f287c573fbf02d80f540704586c61e13ad9bbe3fd539f84"
+    "terminal-reveal-after-body-paint:ee4bfdffee87fa331f287c573fbf02d80f540704586c61e13ad9bbe3fd539f84",
+    "rail-popups-theme-border:eb1a91a884339c0e218c57688e86140a2d16de3edcbe4dc63f62662ddeef316b",
+    "arrival-snapshot-at-once:ef488abdb37b2ba6c554de99b4dcfeb8ef39adca2e9d5c6a99fce76e83eed688",
+    "takeover-own-copy-generation:aa6381284b318e9edafc7b0196bda3a3892f3a3f850397abaa70cda87f1d9cb4"
   ],
-  "consumedThroughSha": "f7bc1c8a695b24be396a758fd620696139d3f7fc"
+  "consumedThroughSha": "09c9a78c2bb20546d1a91a9f4e54cab1ac3085d4"
 }
