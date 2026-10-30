@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6b55350c3c14eb163feb57211a5bbf4b6dbdcd95",
+  "cursorSha": "f9b461ac5ed0caa36f29f5d564c6ae933b2d1b50",
   "highWaterVersion": "1.380.21",
   "rows": [
     {
@@ -117561,6 +117561,18 @@
       "sourceSha": "6b55350c3c14eb163feb57211a5bbf4b6dbdcd95",
       "sourcePackageVersion": "1.380.27",
       "intentIds": []
+    },
+    {
+      "sourceSha": "cdab43066eff6400df6801649b6d350906c183b2",
+      "sourcePackageVersion": "1.380.27",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "f9b461ac5ed0caa36f29f5d564c6ae933b2d1b50",
+      "sourcePackageVersion": "1.380.27",
+      "intentIds": [
+        "native-foreground-lease-target:f4c50441d7654f5fd2fe800ff3799b03915478029cdda4b4f9b99e956bf5b7d5"
+      ]
     }
   ],
   "intents": [
@@ -120435,6 +120447,14 @@
       "summary": "The shared Audit, Quicklinks and Automations all-activity tables draw their rows as cards below the md breakpoint, so they never scroll sideways on a phone. Terminal's window is wider than that, so its tables are unchanged.",
       "sourceSha": "03001dccee6d2469ffbfb887c3403f0c0bdcee56",
       "identity": "phone-moved-pages-cards:51b650c14e998cd33ce0235473941b6c931d02cf6d1bb33b27f57b3e655709d5"
+    },
+    {
+      "id": "native-foreground-lease-target",
+      "digest": "f4c50441d7654f5fd2fe800ff3799b03915478029cdda4b4f9b99e956bf5b7d5",
+      "type": "patch",
+      "summary": "Fix native foreground `focus` and click on the installed host: the adapter compared the host's echoed target with the request's by key order, so every real foreground lease was refused as `lease_mismatch`. It now compares by value, and releases a lease the host admitted but the adapter refused so a reset can settle.",
+      "sourceSha": "f9b461ac5ed0caa36f29f5d564c6ae933b2d1b50",
+      "identity": "native-foreground-lease-target:f4c50441d7654f5fd2fe800ff3799b03915478029cdda4b4f9b99e956bf5b7d5"
     }
   ],
   "consumedIntentIds": [
