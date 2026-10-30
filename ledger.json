@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4af4ebba664789b919ffba2f3fe891af5898dbf9",
+  "cursorSha": "01b639ffd2753d28800d764fecd91b2ef8219ec8",
   "highWaterVersion": "1.380.17",
   "rows": [
     {
@@ -117101,6 +117101,18 @@
       "intentIds": [
         "phone-drawer-shell:f2eedbadb95b5496e270a03a5a564bb4dc18535b5f3912c26a6ff35c97747c2e"
       ]
+    },
+    {
+      "sourceSha": "03f571f485f4e46cdd8bfd1d1379567359f43ed7",
+      "sourcePackageVersion": "1.380.18",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "01b639ffd2753d28800d764fecd91b2ef8219ec8",
+      "sourcePackageVersion": "1.380.18",
+      "intentIds": [
+        "retire-terminal-platform-settings:72c06f8107df1a2d1edafa8780d52ed1e8307d5499ddd4706292e3bcd1f3a79f"
+      ]
     }
   ],
   "intents": [
@@ -119887,6 +119899,14 @@
       "summary": "The shared shell's phone layout (not drawn in Terminal's own phone mode) swaps its bottom bar for a menu button and drawer.",
       "sourceSha": "4af4ebba664789b919ffba2f3fe891af5898dbf9",
       "identity": "phone-drawer-shell:f2eedbadb95b5496e270a03a5a564bb4dc18535b5f3912c26a6ff35c97747c2e"
+    },
+    {
+      "id": "retire-terminal-platform-settings",
+      "digest": "72c06f8107df1a2d1edafa8780d52ed1e8307d5499ddd4706292e3bcd1f3a79f",
+      "type": "patch",
+      "summary": "Retire six default-on Terminal platform settings. Memory-aware fleet admission, bounded tab memory, Linux disk-staged updates, freeze sampling, the agent cursor, and signed Computer Use Driver hosting now run without their former toggles, including when older settings files contain false values.",
+      "sourceSha": "01b639ffd2753d28800d764fecd91b2ef8219ec8",
+      "identity": "retire-terminal-platform-settings:72c06f8107df1a2d1edafa8780d52ed1e8307d5499ddd4706292e3bcd1f3a79f"
     }
   ],
   "consumedIntentIds": [
