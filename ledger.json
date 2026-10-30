@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c9661db9ac41b2ff3553469a801644669585357b",
+  "cursorSha": "57b19e8191f6a163d86f24a0f3a359ea9da4a520",
   "highWaterVersion": "1.380.8",
   "rows": [
     {
@@ -116314,6 +116314,13 @@
       "sourceSha": "c9661db9ac41b2ff3553469a801644669585357b",
       "sourcePackageVersion": "1.380.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "57b19e8191f6a163d86f24a0f3a359ea9da4a520",
+      "sourcePackageVersion": "1.380.8",
+      "intentIds": [
+        "handoff-finished-transfer-chooser:cc929c8bb0ad2d2fc6095f5e38a9bfe83f84d05014d270846c7b9aff742476b3"
+      ]
     }
   ],
   "intents": [
@@ -118988,6 +118995,14 @@
       "summary": "Landed and Archived in the Orchestrator rail now show visible, row-sized placeholders while their first page loads, in every theme.",
       "sourceSha": "4cccbd588ba0e9e861f0aa943aac2abb5ebec65c",
       "identity": "landed-archived-skeleton-visible:c6012e5a1b7c40b1afe4468b152cc2b078817ce96acdecd43f049122ae1d7309"
+    },
+    {
+      "id": "handoff-finished-transfer-chooser",
+      "digest": "cc929c8bb0ad2d2fc6095f5e38a9bfe83f84d05014d270846c7b9aff742476b3",
+      "type": "patch",
+      "summary": "Hand off… on a project whose last transfer already finished now opens the destination chooser again instead of replaying that transfer's \"Handed off\" result. A project handed off to a computer that has since gone quiet can be taken back with Continue here.",
+      "sourceSha": "57b19e8191f6a163d86f24a0f3a359ea9da4a520",
+      "identity": "handoff-finished-transfer-chooser:cc929c8bb0ad2d2fc6095f5e38a9bfe83f84d05014d270846c7b9aff742476b3"
     }
   ],
   "consumedIntentIds": [
