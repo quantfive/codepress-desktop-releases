@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2a65de53bb54a88ca0d0457a02606cd81c62b9e3",
+  "cursorSha": "ffd197a3c58aa7d2f458c406b8859a26eb14d83d",
   "highWaterVersion": "1.381.0",
   "rows": [
     {
@@ -118316,6 +118316,13 @@
       "sourceSha": "2a65de53bb54a88ca0d0457a02606cd81c62b9e3",
       "sourcePackageVersion": "1.381.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ffd197a3c58aa7d2f458c406b8859a26eb14d83d",
+      "sourcePackageVersion": "1.381.0",
+      "intentIds": [
+        "claude-window-usage:458972cdc9c8ef3841e1da9bdd758e31bad34f5e1064beb673ec746fb7f2804f"
+      ]
     }
   ],
   "intents": [
@@ -121278,6 +121285,14 @@
       "summary": "Attribute verified native and proxy Claude requests to retained subscription\nwindows, with quota/reset history, bounded local HTTP/MCP reports and optional\nprovenance-preserving usage sync.",
       "sourceSha": "5f190034753d11558b060b1890f622e2b93fa0e4",
       "identity": "measured-claude-subscription-windows:2b1f8fc10512bda2bfece53f23b1a66641377035da388df3be0a72adb5f2d687"
+    },
+    {
+      "id": "claude-window-usage",
+      "digest": "458972cdc9c8ef3841e1da9bdd758e31bad34f5e1064beb673ec746fb7f2804f",
+      "type": "minor",
+      "summary": "Show measured Claude subscription usage by retained five-hour and weekly window in Settings, with quota observations, separate source subtotals and explicit partial coverage.",
+      "sourceSha": "ffd197a3c58aa7d2f458c406b8859a26eb14d83d",
+      "identity": "claude-window-usage:458972cdc9c8ef3841e1da9bdd758e31bad34f5e1064beb673ec746fb7f2804f"
     }
   ],
   "consumedIntentIds": [
