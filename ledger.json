@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "cea87e58707f2fb69e22e86d910f11a14af9c272",
-  "highWaterVersion": "1.382.5",
+  "highWaterVersion": "1.382.6",
   "rows": [
     {
       "schemaVersion": 1,
@@ -61535,6 +61535,55 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:cea87e58707f2fb69e22e86d910f11a14af9c272",
+      "kind": "main",
+      "sequence": 1827,
+      "sourceSha": "cea87e58707f2fb69e22e86d910f11a14af9c272",
+      "sourcePackageVersion": "1.382.10",
+      "version": "1.382.6",
+      "publicationDate": "2026-10-30T18:27:10.679Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "teammate-own-session:1a328a7e8b865e4cd0e9160f5dc78f5e8905fb80da3f9399e16518f76309a717",
+          "teammate-runtime-messages:6c466534d38df8e8164a2deed2d21d1d38d66a0b37f0691e193d4fda358c8b47",
+          "terminal-hidden-pages-kept:91acea896f800cb8b44d2dab676f29b0ea95c902c5bda74b57440d16f2d3ebc5",
+          "shared-window-cloud-signin:9a956bd4af7679b581fa918563e9516aceacbe1e7f41bb0fbde4f993095d2e2b"
+        ],
+        "notesIntentIds": [
+          "teammate-own-session:1a328a7e8b865e4cd0e9160f5dc78f5e8905fb80da3f9399e16518f76309a717",
+          "teammate-runtime-messages:6c466534d38df8e8164a2deed2d21d1d38d66a0b37f0691e193d4fda358c8b47",
+          "terminal-hidden-pages-kept:91acea896f800cb8b44d2dab676f29b0ea95c902c5bda74b57440d16f2d3ebc5",
+          "shared-window-cloud-signin:9a956bd4af7679b581fa918563e9516aceacbe1e7f41bb0fbde4f993095d2e2b"
+        ],
+        "throughSourceSha": "cea87e58707f2fb69e22e86d910f11a14af9c272",
+        "previousThroughSourceSha": "60bd21c1564a2f4a0b659eaf2f0e4271680f93ab",
+        "baselineVersion": "1.382.5",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41106261120",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-31T18:26:41.987Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -122456,7 +122505,11 @@
     "phone-shell-header-slideover:930b959acfcbaffe1332d318407071e4cc4d7d40c48c03c5341df71dc5bf1e5b",
     "phone-thread-direct-buttons:fb7f50d8f8721413e4beb8b7441223ee65756e7765c3c5e5cc2557cfa3c2cf80",
     "terminal-apps-frame-src:3995a52312a577e68800fe26955d1717473e3f9f1042c322d31a1d1134c4c906",
-    "owner-kickoff-frame:7140ad77714f3c3f4d567b131dfb370aa2d9f876878e8c58f4ca4d02fc1ecaf8"
+    "owner-kickoff-frame:7140ad77714f3c3f4d567b131dfb370aa2d9f876878e8c58f4ca4d02fc1ecaf8",
+    "teammate-own-session:1a328a7e8b865e4cd0e9160f5dc78f5e8905fb80da3f9399e16518f76309a717",
+    "teammate-runtime-messages:6c466534d38df8e8164a2deed2d21d1d38d66a0b37f0691e193d4fda358c8b47",
+    "terminal-hidden-pages-kept:91acea896f800cb8b44d2dab676f29b0ea95c902c5bda74b57440d16f2d3ebc5",
+    "shared-window-cloud-signin:9a956bd4af7679b581fa918563e9516aceacbe1e7f41bb0fbde4f993095d2e2b"
   ],
-  "consumedThroughSha": "60bd21c1564a2f4a0b659eaf2f0e4271680f93ab"
+  "consumedThroughSha": "cea87e58707f2fb69e22e86d910f11a14af9c272"
 }
