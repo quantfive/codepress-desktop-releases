@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "09f50963d86c77dad8a82c00c9ca854e7a1f890d",
+  "cursorSha": "9fd61c3aba8d58172559bd0ded85ac9a4e9a2d0c",
   "highWaterVersion": "1.380.20",
   "rows": [
     {
@@ -117374,6 +117374,18 @@
       "sourceSha": "09f50963d86c77dad8a82c00c9ca854e7a1f890d",
       "sourcePackageVersion": "1.380.21",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ffc31b8f1ab47ac32c88b62fb5eca2cc5866bea3",
+      "sourcePackageVersion": "1.380.21",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "9fd61c3aba8d58172559bd0ded85ac9a4e9a2d0c",
+      "sourcePackageVersion": "1.380.21",
+      "intentIds": [
+        "orchestrator-inbox-batches:93d45a399d2630992f1e49bc675275a24fd7f34af06e4dd06e787059913e294e"
+      ]
     }
   ],
   "intents": [
@@ -120184,6 +120196,14 @@
       "summary": "Load one personal CodePress platform MCP catalog for local workers and the Orchestrator when Terminal supplies its broker, while preserving repository team access and the broker-skipped fallback.",
       "sourceSha": "9cc9c6409fa93e48c0e4e3c5bd2a253aad239055",
       "identity": "one-codepress-platform-mcp:e14747f2e072111a96f217cb9842a121f9dca6fbbebce25b6e54ff7aea29890f"
+    },
+    {
+      "id": "orchestrator-inbox-batches",
+      "digest": "93d45a399d2630992f1e49bc675275a24fd7f34af06e4dd06e787059913e294e",
+      "type": "patch",
+      "summary": "Coalesce non-urgent Orchestrator inbox wakes, include PR head facts in notices, and keep actionable snapshot data ahead of history. Expose valid project post envelope states in the tool schema and validation errors.",
+      "sourceSha": "9fd61c3aba8d58172559bd0ded85ac9a4e9a2d0c",
+      "identity": "orchestrator-inbox-batches:93d45a399d2630992f1e49bc675275a24fd7f34af06e4dd06e787059913e294e"
     }
   ],
   "consumedIntentIds": [
