@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2c68f2c1029e9ef5fbd65a89cc1d83eb10ec54fa",
+  "cursorSha": "256a50d1414e5dedecfd9e60e9e97883ef9add70",
   "highWaterVersion": "1.380.24",
   "rows": [
     {
@@ -117843,6 +117843,13 @@
       "sourceSha": "2c68f2c1029e9ef5fbd65a89cc1d83eb10ec54fa",
       "sourcePackageVersion": "1.380.30",
       "intentIds": []
+    },
+    {
+      "sourceSha": "256a50d1414e5dedecfd9e60e9e97883ef9add70",
+      "sourcePackageVersion": "1.380.30",
+      "intentIds": [
+        "phone-drawer-actions:e0d9e6864a769741f23ce72ce4b3e4d9d31de05b88646292a2f5df495fede177"
+      ]
     }
   ],
   "intents": [
@@ -120749,6 +120756,14 @@
       "summary": "A project handed off from this Mac now opens as its synced copy when this Mac's cards arrive on the card stream, instead of the read-only tombstone.",
       "sourceSha": "27baf8dbebd164f2fe05f0a2f34c59ac3a614801",
       "identity": "handed-off-copy-card-stream:e14e6aac121440eb4ace3cf905f608ea26964cf5f354b85c56e97e726a9afb6d"
+    },
+    {
+      "id": "phone-drawer-actions",
+      "digest": "e0d9e6864a769741f23ce72ce4b3e4d9d31de05b88646292a2f5df495fede177",
+      "type": "patch",
+      "summary": "The shared shell's phone layout gains a long press on a feed row that opens the row's menu as a bottom sheet, 44 px section-jump buttons, and a search button in the drawer when the host provides one (Terminal's own phone mode is unchanged).",
+      "sourceSha": "256a50d1414e5dedecfd9e60e9e97883ef9add70",
+      "identity": "phone-drawer-actions:e0d9e6864a769741f23ce72ce4b3e4d9d31de05b88646292a2f5df495fede177"
     }
   ],
   "consumedIntentIds": [
