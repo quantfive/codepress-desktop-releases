@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c58a3299f43102c6fe3e5626d212c2959188d8a0",
+  "cursorSha": "e155b10c76977812312cbaf84bc5400a21d96b6c",
   "highWaterVersion": "1.382.0",
   "rows": [
     {
@@ -118375,6 +118375,13 @@
       "sourceSha": "c58a3299f43102c6fe3e5626d212c2959188d8a0",
       "sourcePackageVersion": "1.382.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e155b10c76977812312cbaf84bc5400a21d96b6c",
+      "sourcePackageVersion": "1.382.0",
+      "intentIds": [
+        "tidy-terminal-ci-writes:1be403aa34e72f903023304b86f00cb57fdda49a9eb63abdacda5d28928a1db8"
+      ]
     }
   ],
   "intents": [
@@ -121345,6 +121352,14 @@
       "summary": "Show measured Claude subscription usage by retained five-hour and weekly window in Settings, with quota observations, separate source subtotals and explicit partial coverage.",
       "sourceSha": "ffd197a3c58aa7d2f458c406b8859a26eb14d83d",
       "identity": "claude-window-usage:458972cdc9c8ef3841e1da9bdd758e31bad34f5e1064beb673ec746fb7f2804f"
+    },
+    {
+      "id": "tidy-terminal-ci-writes",
+      "digest": "1be403aa34e72f903023304b86f00cb57fdda49a9eb63abdacda5d28928a1db8",
+      "type": "patch",
+      "summary": "Reduce server CI disk writes while assembling Terminal's PM SDK runtime, keeping release package copies independent.",
+      "sourceSha": "e155b10c76977812312cbaf84bc5400a21d96b6c",
+      "identity": "tidy-terminal-ci-writes:1be403aa34e72f903023304b86f00cb57fdda49a9eb63abdacda5d28928a1db8"
     }
   ],
   "consumedIntentIds": [
