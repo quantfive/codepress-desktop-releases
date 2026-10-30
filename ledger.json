@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "782c1dbb4cd85c1ccb362bec86d25bad43b14c44",
-  "highWaterVersion": "1.380.15",
+  "highWaterVersion": "1.380.16",
   "rows": [
     {
       "schemaVersion": 1,
@@ -60394,6 +60394,58 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:782c1dbb4cd85c1ccb362bec86d25bad43b14c44",
+      "kind": "main",
+      "sequence": 1807,
+      "sourceSha": "782c1dbb4cd85c1ccb362bec86d25bad43b14c44",
+      "sourcePackageVersion": "1.380.15",
+      "version": "1.380.16",
+      "publicationDate": "2026-10-30T04:46:02.105Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "phone-shared-pages-bottom-sheets:bc2d71d794546efc64fbe218354d161fcea670393a00894dde268ef677364f0b",
+          "phone-terminal-open-on-machine:a7fd400a83ecc90084850e406b1d5c4f21806bbdaf174b95e780e386fcc2a1b4",
+          "mac-release-waits-out-busy-disk-image:a5a808f4d1f53cb8e455a9a259e47904833a708ddf1e868b8fdec204a61c8f97"
+        ],
+        "notesIntentIds": [
+          "handoff-releases-dead-transfer:8dd3532e467d8499d8f5c1889153845809bada062134a6daae509a123b058b00",
+          "terminal-native-apps-list:64af456d76b8d8c05b6bfa3a4e3264da6de18f820b7287c91808e12075edc934",
+          "native-foreground-request-reaches-adapter:eb9ee0231dd65cebd2a142272e0eb71048d49c81f94448a9850c83038a0af517",
+          "handed-off-source-shows-synced-copy:7aa4bbc2c466e0906e2a33518c36aea218479f7c98e21c09a205c00521f2808e",
+          "terminal-mobile-open-tab:c2527526079d64f31ebd52b3682a479632a46a87abc20be69595c9eae74d9643",
+          "phone-shared-pages-bottom-sheets:bc2d71d794546efc64fbe218354d161fcea670393a00894dde268ef677364f0b",
+          "phone-terminal-open-on-machine:a7fd400a83ecc90084850e406b1d5c4f21806bbdaf174b95e780e386fcc2a1b4",
+          "mac-release-waits-out-busy-disk-image:a5a808f4d1f53cb8e455a9a259e47904833a708ddf1e868b8fdec204a61c8f97"
+        ],
+        "throughSourceSha": "782c1dbb4cd85c1ccb362bec86d25bad43b14c44",
+        "previousThroughSourceSha": "3869b46f9bb5d771692d5c217401219b0ac16910",
+        "baselineVersion": "1.380.15",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41004391684",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-31T04:45:35.863Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -120020,7 +120072,10 @@
     "terminal-native-apps-list:64af456d76b8d8c05b6bfa3a4e3264da6de18f820b7287c91808e12075edc934",
     "native-foreground-request-reaches-adapter:eb9ee0231dd65cebd2a142272e0eb71048d49c81f94448a9850c83038a0af517",
     "handed-off-source-shows-synced-copy:7aa4bbc2c466e0906e2a33518c36aea218479f7c98e21c09a205c00521f2808e",
-    "terminal-mobile-open-tab:c2527526079d64f31ebd52b3682a479632a46a87abc20be69595c9eae74d9643"
+    "terminal-mobile-open-tab:c2527526079d64f31ebd52b3682a479632a46a87abc20be69595c9eae74d9643",
+    "phone-shared-pages-bottom-sheets:bc2d71d794546efc64fbe218354d161fcea670393a00894dde268ef677364f0b",
+    "phone-terminal-open-on-machine:a7fd400a83ecc90084850e406b1d5c4f21806bbdaf174b95e780e386fcc2a1b4",
+    "mac-release-waits-out-busy-disk-image:a5a808f4d1f53cb8e455a9a259e47904833a708ddf1e868b8fdec204a61c8f97"
   ],
-  "consumedThroughSha": "3869b46f9bb5d771692d5c217401219b0ac16910"
+  "consumedThroughSha": "782c1dbb4cd85c1ccb362bec86d25bad43b14c44"
 }
