@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9e1892a364b2c8a0a2d0c53308d0816c638717ad",
+  "cursorSha": "e9a366d955420f6e35549a994bf1a5f8f36ed7cf",
   "highWaterVersion": "1.380.7",
   "rows": [
     {
@@ -116228,6 +116228,13 @@
       "sourceSha": "9e1892a364b2c8a0a2d0c53308d0816c638717ad",
       "sourcePackageVersion": "1.380.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e9a366d955420f6e35549a994bf1a5f8f36ed7cf",
+      "sourcePackageVersion": "1.380.6",
+      "intentIds": [
+        "handoff-older-sender-bundle:740c457af213d37504e025d57fcabd7e2a8f8baa9152029a9c8de230c1727474"
+      ]
     }
   ],
   "intents": [
@@ -118886,6 +118893,14 @@
       "summary": "When two sign-ins are the same account (or Terminal can't tell them apart yet), Settings → Accounts now says what is wrong and offers the fix — Use Local account, Move Local to Personal, Use the other one, Reconnect or Remove from this computer — instead of \"Try again\". Rows show the problem before you click, the All computers view offers the same actions, and a Claude sign-in moved or reconnected to Personal now sends its organization.",
       "sourceSha": "bb99665f90e7b6c9ef2a63d681093c7a07cfa4c3",
       "identity": "account-conflict-actions:bcdc0fcce7b2133dd08061bcdb463210ce5367225eb2e543253b1739778f6bd9"
+    },
+    {
+      "id": "handoff-older-sender-bundle",
+      "digest": "740c457af213d37504e025d57fcabd7e2a8f8baa9152029a9c8de230c1727474",
+      "type": "patch",
+      "summary": "Handing a project off from a Mac on an older Terminal no longer fails with \"The bundle must carry rows for project_previous_landings\": a table added after the bundle format shipped imports as empty when the sender predates it. When the destination does refuse a project copy, the source Mac now resumes the project's Orchestrator and workers at once instead of leaving it read-only until Resume here.",
+      "sourceSha": "e9a366d955420f6e35549a994bf1a5f8f36ed7cf",
+      "identity": "handoff-older-sender-bundle:740c457af213d37504e025d57fcabd7e2a8f8baa9152029a9c8de230c1727474"
     }
   ],
   "consumedIntentIds": [
