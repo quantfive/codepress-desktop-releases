@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ba3d6fd3356803e8f553851305fa6269a64d453b",
+  "cursorSha": "4af4ebba664789b919ffba2f3fe891af5898dbf9",
   "highWaterVersion": "1.380.17",
   "rows": [
     {
@@ -117089,6 +117089,18 @@
       "sourceSha": "ba3d6fd3356803e8f553851305fa6269a64d453b",
       "sourcePackageVersion": "1.380.18",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2868cf779ecf7301d8bd68ae880180101529ffee",
+      "sourcePackageVersion": "1.380.18",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "4af4ebba664789b919ffba2f3fe891af5898dbf9",
+      "sourcePackageVersion": "1.380.18",
+      "intentIds": [
+        "phone-drawer-shell:f2eedbadb95b5496e270a03a5a564bb4dc18535b5f3912c26a6ff35c97747c2e"
+      ]
     }
   ],
   "intents": [
@@ -119867,6 +119879,14 @@
       "summary": "Shared Orchestrator thread code gains an opt-in phone header (title, panel button, ⋯ menu) and a soft-keyboard fold for the docked question. Terminal's own screens do not opt in, so nothing changes on screen here; the UI dependency closure is regenerated for the new file.",
       "sourceSha": "1c54d2977aa9f68f1a6575f221062643d5c0d629",
       "identity": "phone-thread-header:0deed9bda25f67f43377017241f09a21dbccabc9ed70d5e85e9d031d68dfe493"
+    },
+    {
+      "id": "phone-drawer-shell",
+      "digest": "f2eedbadb95b5496e270a03a5a564bb4dc18535b5f3912c26a6ff35c97747c2e",
+      "type": "patch",
+      "summary": "The shared shell's phone layout (not drawn in Terminal's own phone mode) swaps its bottom bar for a menu button and drawer.",
+      "sourceSha": "4af4ebba664789b919ffba2f3fe891af5898dbf9",
+      "identity": "phone-drawer-shell:f2eedbadb95b5496e270a03a5a564bb4dc18535b5f3912c26a6ff35c97747c2e"
     }
   ],
   "consumedIntentIds": [
