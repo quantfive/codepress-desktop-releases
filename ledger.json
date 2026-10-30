@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e94aaf46a573171f1918c3a79f544a62e29e99ac",
+  "cursorSha": "5fbeee8fa7b4583d3c8d02dc684180ae434281ff",
   "highWaterVersion": "1.382.4",
   "rows": [
     {
@@ -118786,6 +118786,20 @@
       "sourceSha": "e94aaf46a573171f1918c3a79f544a62e29e99ac",
       "sourcePackageVersion": "1.382.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "08993974b7d36916f5c01fac0e60880711e87f55",
+      "sourcePackageVersion": "1.382.6",
+      "intentIds": [
+        "phone-shell-header-slideover:930b959acfcbaffe1332d318407071e4cc4d7d40c48c03c5341df71dc5bf1e5b"
+      ]
+    },
+    {
+      "sourceSha": "5fbeee8fa7b4583d3c8d02dc684180ae434281ff",
+      "sourcePackageVersion": "1.382.6",
+      "intentIds": [
+        "phone-thread-direct-buttons:fb7f50d8f8721413e4beb8b7441223ee65756e7765c3c5e5cc2557cfa3c2cf80"
+      ]
     }
   ],
   "intents": [
@@ -121812,6 +121826,22 @@
       "summary": "Settings tabs now tell a group heading, a setting's label and its description apart: headings are larger and bolder, descriptions smaller and muted, and a rule with more room separates one group from the next.",
       "sourceSha": "c5786d999899a8d88b3aecc8941105242d538373",
       "identity": "settings-type-tiers:6ac23662cc717723d38ebae8e8dfe0e860b38696a6b8a5292fd2a0fb8a96cd62"
+    },
+    {
+      "id": "phone-shell-header-slideover",
+      "digest": "930b959acfcbaffe1332d318407071e4cc4d7d40c48c03c5341df71dc5bf1e5b",
+      "type": "patch",
+      "summary": "Keep Terminal's shared UI dependency manifest aligned with phone header slots and the shared slide-over primitives.",
+      "sourceSha": "08993974b7d36916f5c01fac0e60880711e87f55",
+      "identity": "phone-shell-header-slideover:930b959acfcbaffe1332d318407071e4cc4d7d40c48c03c5341df71dc5bf1e5b"
+    },
+    {
+      "id": "phone-thread-direct-buttons",
+      "digest": "fb7f50d8f8721413e4beb8b7441223ee65756e7765c3c5e5cc2557cfa3c2cf80",
+      "type": "patch",
+      "summary": "Draw Hand off… and Project settings as direct buttons in the phone Orchestrator thread's toolbar instead of behind a ⋯ menu.",
+      "sourceSha": "5fbeee8fa7b4583d3c8d02dc684180ae434281ff",
+      "identity": "phone-thread-direct-buttons:fb7f50d8f8721413e4beb8b7441223ee65756e7765c3c5e5cc2557cfa3c2cf80"
     }
   ],
   "consumedIntentIds": [
