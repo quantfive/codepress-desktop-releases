@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ffabebf8ac67200a42a58947a9bc2a93e7246ba5",
+  "cursorSha": "94e7ec28c0fc520ed47866564b434e2a9a7ff7d6",
   "highWaterVersion": "1.380.21",
   "rows": [
     {
@@ -117498,6 +117498,20 @@
       "sourceSha": "ffabebf8ac67200a42a58947a9bc2a93e7246ba5",
       "sourcePackageVersion": "1.380.25",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2b3d8a3501d106817bd94e1c656e089f56785696",
+      "sourcePackageVersion": "1.380.25",
+      "intentIds": [
+        "kickoff-reveal-no-jump:31f9ef55354e69ee16f80b80dc887a5ffcde00c1823e96100bc463d659bdeb10"
+      ]
+    },
+    {
+      "sourceSha": "94e7ec28c0fc520ed47866564b434e2a9a7ff7d6",
+      "sourcePackageVersion": "1.380.25",
+      "intentIds": [
+        "new-chat-shared-pieces:40b9a6547ed4685726cbe7a3bd96c62c10f4e6fad6c0a15eb4d6a97e4bb98fd9"
+      ]
     }
   ],
   "intents": [
@@ -120340,6 +120354,22 @@
       "summary": "Run the server tests that start agent sync, or that drain or count the whole fake clock, in their own process, so a timer another test leaves running cannot break them. Also keeps the Milkdown editor test independent of its packaged theme stylesheet and updates a stale expectation in the test selector. Test infrastructure only; no change to Terminal behavior.",
       "sourceSha": "228196e169c531a07f4f8ac5a22ea4bc28a467c1",
       "identity": "terminal-agent-sync-test-isolation:70116c2b3f72fdc06c5050e272a8a816d2abd80cb0a45ada708301230403c1bf"
+    },
+    {
+      "id": "kickoff-reveal-no-jump",
+      "digest": "31f9ef55354e69ee16f80b80dc887a5ffcde00c1823e96100bc463d659bdeb10",
+      "type": "patch",
+      "summary": "Keep visible kickoff fields in place when tapped, including oversized briefs during keyboard resize.",
+      "sourceSha": "2b3d8a3501d106817bd94e1c656e089f56785696",
+      "identity": "kickoff-reveal-no-jump:31f9ef55354e69ee16f80b80dc887a5ffcde00c1823e96100bc463d659bdeb10"
+    },
+    {
+      "id": "new-chat-shared-pieces",
+      "digest": "40b9a6547ed4685726cbe7a3bd96c62c10f4e6fad6c0a15eb4d6a97e4bb98fd9",
+      "type": "patch",
+      "summary": "Terminal's new-chat screen now draws through shared new-chat pieces (layout, mode pill) that the web will reuse. Nothing changes on screen; the Chat | Orchestrator pill's test IDs are now `new-chat-mode*`.",
+      "sourceSha": "94e7ec28c0fc520ed47866564b434e2a9a7ff7d6",
+      "identity": "new-chat-shared-pieces:40b9a6547ed4685726cbe7a3bd96c62c10f4e6fad6c0a15eb4d6a97e4bb98fd9"
     }
   ],
   "consumedIntentIds": [
