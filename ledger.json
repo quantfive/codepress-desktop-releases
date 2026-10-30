@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f9d1c6d63017da382ef8173d6691801e771b6c95",
+  "cursorSha": "1f5fe9ea561496338070004d3078f1adcc55e9d0",
   "highWaterVersion": "1.380.11",
   "rows": [
     {
@@ -116572,6 +116572,18 @@
       "sourceSha": "f9d1c6d63017da382ef8173d6691801e771b6c95",
       "sourcePackageVersion": "1.380.11",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0fa9a0ba205485bce4a40dc25d18ecbf3a230134",
+      "sourcePackageVersion": "1.380.11",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "1f5fe9ea561496338070004d3078f1adcc55e9d0",
+      "sourcePackageVersion": "1.380.11",
+      "intentIds": [
+        "handoff-releases-dead-transfer:8dd3532e467d8499d8f5c1889153845809bada062134a6daae509a123b058b00"
+      ]
     }
   ],
   "intents": [
@@ -119270,6 +119282,14 @@
       "summary": "With the unified shell on, Settings → Organization → General, Members, Teams, Navigation, Quicklinks and Audit, and Account → Preferences, are drawn by Terminal itself instead of loading codepress.dev in the embedded webview, so pressing Settings opens General at once. A half-edited General form is still there after a visit to Agent, Members offers invitations by opening the web Members page, and Billing, Integrations and the other Organization pages stay in the embedded view (shown only after they have painted). The window with the unified shell off is unchanged.",
       "sourceSha": "82144fdacd11af010b29413c7cb8ebae87105525",
       "identity": "terminal-native-settings:7260f78649b3790ff8bf592ed2f41565965b1207061bc15ab8c5ce53cf58a8f7"
+    },
+    {
+      "id": "handoff-releases-dead-transfer",
+      "digest": "8dd3532e467d8499d8f5c1889153845809bada062134a6daae509a123b058b00",
+      "type": "patch",
+      "summary": "A new hand-off of a project whose own earlier transfer failed while still holding the source claim now releases that failed transfer the way Resume here would, then moves. When that is not safe, it says why (the earlier move cannot be undone here, or its destination has not confirmed the cancel yet) instead of \"Another project handoff already owns this source\".",
+      "sourceSha": "1f5fe9ea561496338070004d3078f1adcc55e9d0",
+      "identity": "handoff-releases-dead-transfer:8dd3532e467d8499d8f5c1889153845809bada062134a6daae509a123b058b00"
     }
   ],
   "consumedIntentIds": [
