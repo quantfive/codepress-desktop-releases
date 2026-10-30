@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "510e85ede914b3e5ce46bc6392083565d45ea6fa",
+  "cursorSha": "c96d01e6690e9778edbf272ae085bec9891cf98f",
   "highWaterVersion": "1.380.24",
   "rows": [
     {
@@ -117816,6 +117816,18 @@
       "intentIds": [
         "terminal-chat-shared-new-chat:fb47ea2c75873768ec78d11d1d5af9f94e5349a601aab5cf23836ea830b0ce5e"
       ]
+    },
+    {
+      "sourceSha": "27baf8dbebd164f2fe05f0a2f34c59ac3a614801",
+      "sourcePackageVersion": "1.380.29",
+      "intentIds": [
+        "handed-off-copy-card-stream:e14e6aac121440eb4ace3cf905f608ea26964cf5f354b85c56e97e726a9afb6d"
+      ]
+    },
+    {
+      "sourceSha": "c96d01e6690e9778edbf272ae085bec9891cf98f",
+      "sourcePackageVersion": "1.380.30",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -120714,6 +120726,14 @@
       "summary": "New chat in Chat mode now shows the shared new-chat screen: the coloured \"Hello, {name}!\" greeting, four starter cards under the input, and Runs on in the row above the input (also in Orchestrator mode).",
       "sourceSha": "510e85ede914b3e5ce46bc6392083565d45ea6fa",
       "identity": "terminal-chat-shared-new-chat:fb47ea2c75873768ec78d11d1d5af9f94e5349a601aab5cf23836ea830b0ce5e"
+    },
+    {
+      "id": "handed-off-copy-card-stream",
+      "digest": "e14e6aac121440eb4ace3cf905f608ea26964cf5f354b85c56e97e726a9afb6d",
+      "type": "patch",
+      "summary": "A project handed off from this Mac now opens as its synced copy when this Mac's cards arrive on the card stream, instead of the read-only tombstone.",
+      "sourceSha": "27baf8dbebd164f2fe05f0a2f34c59ac3a614801",
+      "identity": "handed-off-copy-card-stream:e14e6aac121440eb4ace3cf905f608ea26964cf5f354b85c56e97e726a9afb6d"
     }
   ],
   "consumedIntentIds": [
