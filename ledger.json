@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "237b703a9dfe06af306f3ef3ed4395f97b4431b5",
+  "cursorSha": "1c54d2977aa9f68f1a6575f221062643d5c0d629",
   "highWaterVersion": "1.380.17",
   "rows": [
     {
@@ -117077,6 +117077,13 @@
       "sourceSha": "237b703a9dfe06af306f3ef3ed4395f97b4431b5",
       "sourcePackageVersion": "1.380.17",
       "intentIds": []
+    },
+    {
+      "sourceSha": "1c54d2977aa9f68f1a6575f221062643d5c0d629",
+      "sourcePackageVersion": "1.380.17",
+      "intentIds": [
+        "phone-thread-header:0deed9bda25f67f43377017241f09a21dbccabc9ed70d5e85e9d031d68dfe493"
+      ]
     }
   ],
   "intents": [
@@ -119847,6 +119854,14 @@
       "summary": "Centre the phone home mode pill in one header and dock the kickoff composer above native navigation.",
       "sourceSha": "3fc5bb7383a9dc9cb9d10df01caa90cb0c248a7d",
       "identity": "phone-home-dock:d945b57bffaa4cda8ab602ecf27066743cf48846ef113ef3bcc547fb8b9657a0"
+    },
+    {
+      "id": "phone-thread-header",
+      "digest": "0deed9bda25f67f43377017241f09a21dbccabc9ed70d5e85e9d031d68dfe493",
+      "type": "patch",
+      "summary": "Shared Orchestrator thread code gains an opt-in phone header (title, panel button, ⋯ menu) and a soft-keyboard fold for the docked question. Terminal's own screens do not opt in, so nothing changes on screen here; the UI dependency closure is regenerated for the new file.",
+      "sourceSha": "1c54d2977aa9f68f1a6575f221062643d5c0d629",
+      "identity": "phone-thread-header:0deed9bda25f67f43377017241f09a21dbccabc9ed70d5e85e9d031d68dfe493"
     }
   ],
   "consumedIntentIds": [
