@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "04f044fc051b5705adc266a3d6311f63d7ebb4c2",
+  "cursorSha": "bb99665f90e7b6c9ef2a63d681093c7a07cfa4c3",
   "highWaterVersion": "1.380.6",
   "rows": [
     {
@@ -116123,6 +116123,13 @@
       "sourceSha": "04f044fc051b5705adc266a3d6311f63d7ebb4c2",
       "sourcePackageVersion": "1.380.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "bb99665f90e7b6c9ef2a63d681093c7a07cfa4c3",
+      "sourcePackageVersion": "1.380.5",
+      "intentIds": [
+        "account-conflict-actions:bcdc0fcce7b2133dd08061bcdb463210ce5367225eb2e543253b1739778f6bd9"
+      ]
     }
   ],
   "intents": [
@@ -118773,6 +118780,14 @@
       "summary": "With the unified shell on, Evals (the suites list, a suite and its tabs, run comparison and the new-eval form) is drawn by Terminal itself in the shell's page instead of loading codepress.dev in the embedded webview. Leaving Evals for Agent or another section and coming back keeps the open suite and tab and a half-typed new eval, and a link to a suite opens it in Terminal. Apps, Design and Automations are unchanged, and so is the window with the unified shell off.",
       "sourceSha": "d54aba6bc4c5613abc24191e74d3b736a58fae6b",
       "identity": "terminal-native-evals:65ee593c4f3b085cfea4f53a389bd4b29db9b801c316af714c17dd959edcbc19"
+    },
+    {
+      "id": "account-conflict-actions",
+      "digest": "bcdc0fcce7b2133dd08061bcdb463210ce5367225eb2e543253b1739778f6bd9",
+      "type": "patch",
+      "summary": "When two sign-ins are the same account (or Terminal can't tell them apart yet), Settings → Accounts now says what is wrong and offers the fix — Use Local account, Move Local to Personal, Use the other one, Reconnect or Remove from this computer — instead of \"Try again\". Rows show the problem before you click, the All computers view offers the same actions, and a Claude sign-in moved or reconnected to Personal now sends its organization.",
+      "sourceSha": "bb99665f90e7b6c9ef2a63d681093c7a07cfa4c3",
+      "identity": "account-conflict-actions:bcdc0fcce7b2133dd08061bcdb463210ce5367225eb2e543253b1739778f6bd9"
     }
   ],
   "consumedIntentIds": [
