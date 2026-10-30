@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "52babe72576b3bd721d96a8e799d7efae7fc1a65",
+  "cursorSha": "03001dccee6d2469ffbfb887c3403f0c0bdcee56",
   "highWaterVersion": "1.380.21",
   "rows": [
     {
@@ -117544,6 +117544,13 @@
       "sourceSha": "52babe72576b3bd721d96a8e799d7efae7fc1a65",
       "sourcePackageVersion": "1.380.26",
       "intentIds": []
+    },
+    {
+      "sourceSha": "03001dccee6d2469ffbfb887c3403f0c0bdcee56",
+      "sourcePackageVersion": "1.380.26",
+      "intentIds": [
+        "phone-moved-pages-cards:51b650c14e998cd33ce0235473941b6c931d02cf6d1bb33b27f57b3e655709d5"
+      ]
     }
   ],
   "intents": [
@@ -120410,6 +120417,14 @@
       "summary": "Give Codex workers final-only native subagent reporting, longer waits, and bounded ordinary delegation with reserved QA capacity. Seed bridged Codex-home defaults only where the user has not set a value, preserving user choices and workspace trust.",
       "sourceSha": "bff913e1dacc262b4c9e45629f6cc212dbf28141",
       "identity": "quiet-codex-subagents:2c820c12be91397cd2d3d25127e796767573925b1d8a19a19deb47594263e431"
+    },
+    {
+      "id": "phone-moved-pages-cards",
+      "digest": "51b650c14e998cd33ce0235473941b6c931d02cf6d1bb33b27f57b3e655709d5",
+      "type": "patch",
+      "summary": "The shared Audit, Quicklinks and Automations all-activity tables draw their rows as cards below the md breakpoint, so they never scroll sideways on a phone. Terminal's window is wider than that, so its tables are unchanged.",
+      "sourceSha": "03001dccee6d2469ffbfb887c3403f0c0bdcee56",
+      "identity": "phone-moved-pages-cards:51b650c14e998cd33ce0235473941b6c931d02cf6d1bb33b27f57b3e655709d5"
     }
   ],
   "consumedIntentIds": [
