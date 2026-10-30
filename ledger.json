@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "306c5bd393657f4515745bdc827c8d2963c66d24",
-  "highWaterVersion": "1.384.0",
+  "highWaterVersion": "1.384.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -61779,6 +61779,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:306c5bd393657f4515745bdc827c8d2963c66d24",
+      "kind": "main",
+      "sequence": 1831,
+      "sourceSha": "306c5bd393657f4515745bdc827c8d2963c66d24",
+      "sourcePackageVersion": "1.384.2",
+      "version": "1.384.1",
+      "publicationDate": "2026-10-30T20:51:06.288Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "animated-new-chat-mode-pill:27a80219bc239ffcb7fffb2279495924516adc734b333480b79d45f60bceeb06"
+        ],
+        "notesIntentIds": [
+          "animated-new-chat-mode-pill:27a80219bc239ffcb7fffb2279495924516adc734b333480b79d45f60bceeb06"
+        ],
+        "throughSourceSha": "306c5bd393657f4515745bdc827c8d2963c66d24",
+        "previousThroughSourceSha": "4ecc451d27f8c7943266e3b5d735917f628f05f8",
+        "baselineVersion": "1.384.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41126259674",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-10-31T20:50:37.684Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -123048,7 +123091,8 @@
     "teammate-footer-owner-tabs:4b6a09159fdadd40446f20f4d05e704fae2357ad5c33cd149f739a8bf5765cdb",
     "shell-settings-modal:c7c67ee290d16cad7f11ba91e285bc23c4515ca84783a9546c777c72b53d499e",
     "fence-live-browser-actions:7c724d20161c4d574e2a549955a3f35d5d64a297594f1c3e44ae74649a85ccd7",
-    "repository-kickoff-per-person:fe76ba96f104d61f0e37283b374eb070fa4b1e04abd809dcedf2564a7b60d42a"
+    "repository-kickoff-per-person:fe76ba96f104d61f0e37283b374eb070fa4b1e04abd809dcedf2564a7b60d42a",
+    "animated-new-chat-mode-pill:27a80219bc239ffcb7fffb2279495924516adc734b333480b79d45f60bceeb06"
   ],
-  "consumedThroughSha": "4ecc451d27f8c7943266e3b5d735917f628f05f8"
+  "consumedThroughSha": "306c5bd393657f4515745bdc827c8d2963c66d24"
 }
