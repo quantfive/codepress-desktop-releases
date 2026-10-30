@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c8e233929074a5c6165beaf357a872a3003b21ba",
+  "cursorSha": "1c93ae98871c5a22ed43be73e0bf471cdc7b8286",
   "highWaterVersion": "1.380.25",
   "rows": [
     {
@@ -117927,6 +117927,20 @@
       "sourceSha": "c8e233929074a5c6165beaf357a872a3003b21ba",
       "sourcePackageVersion": "1.380.31",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7a0b9ed594cb9101a155ef2d0ee4cb941b4de4c0",
+      "sourcePackageVersion": "1.380.31",
+      "intentIds": [
+        "preserve-retired-checkpoint-owner:9da561a417cd3b4a705afa74de29d2e7b44772de44612c55e6b4f5363cdd7c66"
+      ]
+    },
+    {
+      "sourceSha": "1c93ae98871c5a22ed43be73e0bf471cdc7b8286",
+      "sourcePackageVersion": "1.380.31",
+      "intentIds": [
+        "retire-orchestrator-rollout-settings:985085495cc40710bc4e263bdb9f09264e9d5de0bf252c3f855d0a059a18eb3b"
+      ]
     }
   ],
   "intents": [
@@ -120841,6 +120855,22 @@
       "summary": "The shared shell's phone layout gains a long press on a feed row that opens the row's menu as a bottom sheet, 44 px section-jump buttons, and a search button in the drawer when the host provides one (Terminal's own phone mode is unchanged).",
       "sourceSha": "256a50d1414e5dedecfd9e60e9e97883ef9add70",
       "identity": "phone-drawer-actions:e0d9e6864a769741f23ce72ce4b3e4d9d31de05b88646292a2f5df495fede177"
+    },
+    {
+      "id": "preserve-retired-checkpoint-owner",
+      "digest": "9da561a417cd3b4a705afa74de29d2e7b44772de44612c55e6b4f5363cdd7c66",
+      "type": "patch",
+      "summary": "Preserve checkpoint ownership when a retired cloud coding session resumes on a local runner.",
+      "sourceSha": "7a0b9ed594cb9101a155ef2d0ee4cb941b4de4c0",
+      "identity": "preserve-retired-checkpoint-owner:9da561a417cd3b4a705afa74de29d2e7b44772de44612c55e6b4f5363cdd7c66"
+    },
+    {
+      "id": "retire-orchestrator-rollout-settings",
+      "digest": "985085495cc40710bc4e263bdb9f09264e9d5de0bf252c3f855d0a059a18eb3b",
+      "type": "patch",
+      "summary": "Retire graduated Orchestrator rollout settings. Live replies, newest-first chats, pushed project cards, snapshot workers, stacked rail cards, weekly subscription usage, and the document workspace are always available; old stored opt-outs are ignored.",
+      "sourceSha": "1c93ae98871c5a22ed43be73e0bf471cdc7b8286",
+      "identity": "retire-orchestrator-rollout-settings:985085495cc40710bc4e263bdb9f09264e9d5de0bf252c3f855d0a059a18eb3b"
     }
   ],
   "consumedIntentIds": [
