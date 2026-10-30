@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "99e9f8e47bb23a8c324bec237eb23cef0fe8be3e",
+  "cursorSha": "782c1dbb4cd85c1ccb362bec86d25bad43b14c44",
   "highWaterVersion": "1.380.15",
   "rows": [
     {
@@ -116893,6 +116893,27 @@
       "sourceSha": "99e9f8e47bb23a8c324bec237eb23cef0fe8be3e",
       "sourcePackageVersion": "1.380.15",
       "intentIds": []
+    },
+    {
+      "sourceSha": "21f057e2d15d15146444f4242cffec2e824f0253",
+      "sourcePackageVersion": "1.380.15",
+      "intentIds": [
+        "phone-shared-pages-bottom-sheets:bc2d71d794546efc64fbe218354d161fcea670393a00894dde268ef677364f0b"
+      ]
+    },
+    {
+      "sourceSha": "5aafacf5868bdf1ea5d098c71f62df7eb8f48ba6",
+      "sourcePackageVersion": "1.380.15",
+      "intentIds": [
+        "phone-terminal-open-on-machine:a7fd400a83ecc90084850e406b1d5c4f21806bbdaf174b95e780e386fcc2a1b4"
+      ]
+    },
+    {
+      "sourceSha": "782c1dbb4cd85c1ccb362bec86d25bad43b14c44",
+      "sourcePackageVersion": "1.380.15",
+      "intentIds": [
+        "mac-release-waits-out-busy-disk-image:a5a808f4d1f53cb8e455a9a259e47904833a708ddf1e868b8fdec204a61c8f97"
+      ]
     }
   ],
   "intents": [
@@ -119631,6 +119652,30 @@
       "summary": "When the CodePress phone app opens a machine's live view from the shell's \"Open on <Mac>\", the Terminal page now focuses the tab the person came from. The page advertises `openTab` in its mobile-mode-ready message and answers `codepress:mobile-open-tab` by showing the Terminal and focusing that tab once the session list is live; a tab this machine does not have changes nothing. Older apps never send it, and the desktop window is unchanged.",
       "sourceSha": "3869b46f9bb5d771692d5c217401219b0ac16910",
       "identity": "terminal-mobile-open-tab:c2527526079d64f31ebd52b3682a479632a46a87abc20be69595c9eae74d9643"
+    },
+    {
+      "id": "phone-shared-pages-bottom-sheets",
+      "digest": "bc2d71d794546efc64fbe218354d161fcea670393a00894dde268ef677364f0b",
+      "type": "patch",
+      "summary": "The shared pages Terminal draws (My Work, Servers, Media, Evals) now carry phone-width layouts and bottom-sheet dialogs. Terminal's window is never phone width, so nothing changes on screen; the pages' dependency list gains two small modules.",
+      "sourceSha": "21f057e2d15d15146444f4242cffec2e824f0253",
+      "identity": "phone-shared-pages-bottom-sheets:bc2d71d794546efc64fbe218354d161fcea670393a00894dde268ef677364f0b"
+    },
+    {
+      "id": "phone-terminal-open-on-machine",
+      "digest": "a7fd400a83ecc90084850e406b1d5c4f21806bbdaf174b95e780e386fcc2a1b4",
+      "type": "patch",
+      "summary": "The shared shell kit Terminal draws gains an optional \"Open on <computer>\" host capability. Terminal's own shell supplies none, so nothing changes in its window: the agent view, the machines list and saved tabs look and behave as before, except that an agent tab whose computer is away no longer draws a disabled message box.",
+      "sourceSha": "5aafacf5868bdf1ea5d098c71f62df7eb8f48ba6",
+      "identity": "phone-terminal-open-on-machine:a7fd400a83ecc90084850e406b1d5c4f21806bbdaf174b95e780e386fcc2a1b4"
+    },
+    {
+      "id": "mac-release-waits-out-busy-disk-image",
+      "digest": "a5a808f4d1f53cb8e455a9a259e47904833a708ddf1e868b8fdec204a61c8f97",
+      "type": "patch",
+      "summary": "Mac release builds now wait a few seconds for a busy disk image to release before giving up, and clean up an installer image an earlier build left mounted, so one stuck mount can no longer block every later Mac release.",
+      "sourceSha": "782c1dbb4cd85c1ccb362bec86d25bad43b14c44",
+      "identity": "mac-release-waits-out-busy-disk-image:a5a808f4d1f53cb8e455a9a259e47904833a708ddf1e868b8fdec204a61c8f97"
     }
   ],
   "consumedIntentIds": [
