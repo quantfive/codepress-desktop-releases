@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "8a101292f7c51de9e6e021b37ff1018e11470d46",
+  "cursorSha": "07754d30160e3c268198f0e74c2e0b66c41d9411",
   "highWaterVersion": "1.384.4",
   "rows": [
     {
@@ -119958,6 +119958,23 @@
       "sourceSha": "8a101292f7c51de9e6e021b37ff1018e11470d46",
       "sourcePackageVersion": "1.385.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "dac3d4a3957c249aad6b95c6337749226c369ad4",
+      "sourcePackageVersion": "1.385.0",
+      "intentIds": [
+        "account-pages-computer-group:4dbed892cd150593c3de8906a8d1567a2301fd8a1cb127b45c9406433bc26691"
+      ]
+    },
+    {
+      "sourceSha": "63dd3247f4a38e008fb69f559d343cce535f887a",
+      "sourcePackageVersion": "1.385.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "07754d30160e3c268198f0e74c2e0b66c41d9411",
+      "sourcePackageVersion": "1.385.1",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -123232,6 +123249,14 @@
       "summary": "Apps and Automations show the rows you last saw as soon as you open them, even after relaunching, then quietly update them from the server. Each part of the page loads on its own, so it fills in as soon as its own answer arrives.",
       "sourceSha": "88e3b6d7c98550d071b8bdce4f0161d771356b0d",
       "identity": "section-cache-apps-automations:ed98947c4b7cf4de3323415faaaee83466b22f22564fc7f3088d7571a8c9346c"
+    },
+    {
+      "id": "account-pages-computer-group",
+      "digest": "4dbed892cd150593c3de8906a8d1567a2301fd8a1cb127b45c9406433bc26691",
+      "type": "patch",
+      "summary": "Settings calls the per-computer group \"Computer · <name>\" instead of \"This machine\", and the autocompact token contract and model catalog now come from the shared UI package so the web's Account → Agents page edits the same value with the same rules.",
+      "sourceSha": "dac3d4a3957c249aad6b95c6337749226c369ad4",
+      "identity": "account-pages-computer-group:4dbed892cd150593c3de8906a8d1567a2301fd8a1cb127b45c9406433bc26691"
     }
   ],
   "consumedIntentIds": [
