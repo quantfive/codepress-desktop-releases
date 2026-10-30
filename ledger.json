@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1f5fe9ea561496338070004d3078f1adcc55e9d0",
+  "cursorSha": "b251ef238003e7d1e09b360e5a6b388849e3fa6a",
   "highWaterVersion": "1.380.11",
   "rows": [
     {
@@ -116592,6 +116592,11 @@
       "intentIds": [
         "handoff-releases-dead-transfer:8dd3532e467d8499d8f5c1889153845809bada062134a6daae509a123b058b00"
       ]
+    },
+    {
+      "sourceSha": "b251ef238003e7d1e09b360e5a6b388849e3fa6a",
+      "sourcePackageVersion": "1.380.11",
+      "intentIds": []
     }
   ],
   "intents": [
