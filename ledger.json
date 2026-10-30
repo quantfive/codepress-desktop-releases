@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ff3519ee2a06411161ddb9743e66b338ce0d0be3",
+  "cursorSha": "083209bf7303591c469f11bef6f5326ded7fa6fb",
   "highWaterVersion": "1.382.3",
   "rows": [
     {
@@ -118688,6 +118688,13 @@
       "sourceSha": "ff3519ee2a06411161ddb9743e66b338ce0d0be3",
       "sourcePackageVersion": "1.382.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "083209bf7303591c469f11bef6f5326ded7fa6fb",
+      "sourcePackageVersion": "1.382.3",
+      "intentIds": [
+        "live-browser-host:e303c7bb15bd184cd95196293e38306ecbca46da11f498341d301c568c9ff1c1"
+      ]
     }
   ],
   "intents": [
@@ -121690,6 +121697,14 @@
       "summary": "Let a page that draws its own phone header take the shell's header row and menu button, and let the Orchestrator screen use the shell's drawer instead of its own rail on a phone. Terminal's own layout is unchanged.",
       "sourceSha": "7e9748eb951d7cbb9ea96a50e7b837d149710e17",
       "identity": "phone-shell-page-header:960210320bcde2bd4c2515cd533b1b6126c3a7aef3ed2dd47b8217569523b01f"
+    },
+    {
+      "id": "live-browser-host",
+      "digest": "e303c7bb15bd184cd95196293e38306ecbca46da11f498341d301c568c9ff1c1",
+      "type": "patch",
+      "summary": "Add owner-authenticated live viewing and input transport for the visible browser handoff, with single-use tickets and a shared validated protocol.",
+      "sourceSha": "083209bf7303591c469f11bef6f5326ded7fa6fb",
+      "identity": "live-browser-host:e303c7bb15bd184cd95196293e38306ecbca46da11f498341d301c568c9ff1c1"
     }
   ],
   "consumedIntentIds": [
