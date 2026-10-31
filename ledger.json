@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e4d17d3657b0dda84d19edf0e04f6b87604b2652",
+  "cursorSha": "94c6d6535d36a36d1110b25ae7afb8478341320d",
   "highWaterVersion": "1.386.0",
   "rows": [
     {
@@ -120255,6 +120255,13 @@
       "sourceSha": "e4d17d3657b0dda84d19edf0e04f6b87604b2652",
       "sourcePackageVersion": "1.387.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "94c6d6535d36a36d1110b25ae7afb8478341320d",
+      "sourcePackageVersion": "1.387.3",
+      "intentIds": [
+        "integrations-leaves-the-rail:81a8d18be17f6a9bc984cda4d686f8a0a80c7e2171a6633cb0e217cf7eb84ea3"
+      ]
     }
   ],
   "intents": [
@@ -123577,6 +123584,14 @@
       "summary": "Offer Hand off… on a project this Mac recorded as moved when sync is on, and add Continue here to the Moved banner.",
       "sourceSha": "f5e5db68fc640a1b099cda570be72a1e84c081f0",
       "identity": "transfer-every-project-state:67fa635ea2e532bdcc0709c546dfee6442650f69935fc39aee97825c44201a26"
+    },
+    {
+      "id": "integrations-leaves-the-rail",
+      "digest": "81a8d18be17f6a9bc984cda4d686f8a0a80c7e2171a6633cb0e217cf7eb84ea3",
+      "type": "patch",
+      "summary": "Integrations is no longer its own rail entry: it is a row of Settings, and choosing it shows the web page beside the Settings list as Billing does.",
+      "sourceSha": "94c6d6535d36a36d1110b25ae7afb8478341320d",
+      "identity": "integrations-leaves-the-rail:81a8d18be17f6a9bc984cda4d686f8a0a80c7e2171a6633cb0e217cf7eb84ea3"
     }
   ],
   "consumedIntentIds": [
