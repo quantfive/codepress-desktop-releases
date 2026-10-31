@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "21c227333dfe3e23e4abc03057b46a6f8b5e313b",
+  "cursorSha": "a31997f42f9e9ac85353e900937ec6e393f788df",
   "highWaterVersion": "1.386.1",
   "rows": [
     {
@@ -120321,6 +120321,13 @@
       "sourceSha": "21c227333dfe3e23e4abc03057b46a6f8b5e313b",
       "sourcePackageVersion": "1.387.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a31997f42f9e9ac85353e900937ec6e393f788df",
+      "sourcePackageVersion": "1.387.4",
+      "intentIds": [
+        "warm-every-section-first-page:5c7d2d50c43b95ea471e784e78f37c993a49699813e336eafd3b7e10ea5463ce"
+      ]
     }
   ],
   "intents": [
@@ -123651,6 +123658,14 @@
       "summary": "Integrations is no longer its own rail entry: it is a row of Settings, and choosing it shows the web page beside the Settings list as Billing does.",
       "sourceSha": "94c6d6535d36a36d1110b25ae7afb8478341320d",
       "identity": "integrations-leaves-the-rail:81a8d18be17f6a9bc984cda4d686f8a0a80c7e2171a6633cb0e217cf7eb84ea3"
+    },
+    {
+      "id": "warm-every-section-first-page",
+      "digest": "5c7d2d50c43b95ea471e784e78f37c993a49699813e336eafd3b7e10ea5463ce",
+      "type": "patch",
+      "summary": "After launch, My Work, Servers, Media, Evals, Apps and Automations quietly read their first page in the background, all at once, so the first press of each shows its rows with no loading skeleton. Nothing is read with Save-Data on, and a refresh that returns what is already shown no longer redraws the rows.",
+      "sourceSha": "a31997f42f9e9ac85353e900937ec6e393f788df",
+      "identity": "warm-every-section-first-page:5c7d2d50c43b95ea471e784e78f37c993a49699813e336eafd3b7e10ea5463ce"
     }
   ],
   "consumedIntentIds": [
