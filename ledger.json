@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "f85be3bd57f483017dc68e475852cd9ff782c0e3",
-  "highWaterVersion": "1.391.3",
+  "highWaterVersion": "1.391.4",
   "rows": [
     {
       "schemaVersion": 1,
@@ -62818,6 +62818,53 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:f85be3bd57f483017dc68e475852cd9ff782c0e3",
+      "kind": "main",
+      "sequence": 1849,
+      "sourceSha": "f85be3bd57f483017dc68e475852cd9ff782c0e3",
+      "sourcePackageVersion": "1.392.7",
+      "version": "1.391.4",
+      "publicationDate": "2026-10-31T10:45:38.465Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "green-computers-carry:1cdb9155c07ffeb861a7fc410b6c70bb157364c37c042355b1b269d0aa568320",
+          "phone-shell-work-slide:65d575be403129b9a5043d9314fc412a570d2f2dfb1d66b7acfe14fbb8c7be48",
+          "desktop-shell-search:a8dceb9af947af38797ba195d22699683789a02614583cdd3675f0e7b476af53"
+        ],
+        "notesIntentIds": [
+          "green-computers-carry:1cdb9155c07ffeb861a7fc410b6c70bb157364c37c042355b1b269d0aa568320",
+          "phone-shell-work-slide:65d575be403129b9a5043d9314fc412a570d2f2dfb1d66b7acfe14fbb8c7be48",
+          "desktop-shell-search:a8dceb9af947af38797ba195d22699683789a02614583cdd3675f0e7b476af53"
+        ],
+        "throughSourceSha": "f85be3bd57f483017dc68e475852cd9ff782c0e3",
+        "previousThroughSourceSha": "3c422ddc7b473693a6b7e5cf5edeb140670c639c",
+        "baselineVersion": "1.391.3",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41193879379",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-01T10:45:12.517Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -125521,7 +125568,10 @@
     "linux-lane-faster-delivery:800dce2c936dfe95eaacefbba3d9f137e4bd8290aa1cdb652b89f369cee00074",
     "return-copy-follows-tab:a9fdca470eec9102e3c7ddb5a58f12db6bbf618554d18af6e7d44cc3309054fd",
     "phone-agent-search:ae76f0088358279f4c1de1cd904716c5a9bd98ffa85c4d26a815aa32e08faa3f",
-    "shared-terminal-motion:dbc96d4ba64ec68a4c6bc767e5dfc64969cb0e43cbb7adb97155fa7018576570"
+    "shared-terminal-motion:dbc96d4ba64ec68a4c6bc767e5dfc64969cb0e43cbb7adb97155fa7018576570",
+    "green-computers-carry:1cdb9155c07ffeb861a7fc410b6c70bb157364c37c042355b1b269d0aa568320",
+    "phone-shell-work-slide:65d575be403129b9a5043d9314fc412a570d2f2dfb1d66b7acfe14fbb8c7be48",
+    "desktop-shell-search:a8dceb9af947af38797ba195d22699683789a02614583cdd3675f0e7b476af53"
   ],
-  "consumedThroughSha": "3c422ddc7b473693a6b7e5cf5edeb140670c639c"
+  "consumedThroughSha": "f85be3bd57f483017dc68e475852cd9ff782c0e3"
 }
