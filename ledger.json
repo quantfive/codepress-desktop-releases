@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "837341f8249cd660b3b0745226535cb4588075fe",
+  "cursorSha": "3bdac479e2d9e2d4eea3fc836fc568fa1faab88e",
   "highWaterVersion": "1.387.0",
   "rows": [
     {
@@ -120523,6 +120523,23 @@
       "sourceSha": "837341f8249cd660b3b0745226535cb4588075fe",
       "sourcePackageVersion": "1.387.9",
       "intentIds": []
+    },
+    {
+      "sourceSha": "369b825a15d2bfc9bf805e03d9106358e648a70e",
+      "sourcePackageVersion": "1.388.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "9ff8d28334288f84ae74d6ec2ea63ae8172e9f0f",
+      "sourcePackageVersion": "1.388.0",
+      "intentIds": [
+        "settings-modal-draws-web-pages:3052622d01d05a47ebc5874770b27ee6a45f6836e95a5fa8429e55dae7b1c287"
+      ]
+    },
+    {
+      "sourceSha": "3bdac479e2d9e2d4eea3fc836fc568fa1faab88e",
+      "sourcePackageVersion": "1.388.0",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -123901,6 +123918,14 @@
       "summary": "Terminal can now stream any of its terminal tabs live, and open a new shell in a \"Remote\" session, for you on codepress.dev and the phone app. The web side ships in a later release. A new switch, Settings → Network → \"Allow terminal from web & phone\" (on by default), turns all of it off for this computer. The switch is also available as `allowRemoteTerminal` in `update_terminal_agent_settings`.",
       "sourceSha": "f3e7cfe6dcbc1e87bb6b8e798559881c07991e67",
       "identity": "terminal-live-stream-home:612ee5e6227376de6f38ca374db6d71b35bb0273c93d240a7ab9135bf76d3610"
+    },
+    {
+      "id": "settings-modal-draws-web-pages",
+      "digest": "3052622d01d05a47ebc5874770b27ee6a45f6836e95a5fa8429e55dae7b1c287",
+      "type": "minor",
+      "summary": "With the unified shell on, the Settings modal draws every section in its own pane, the web pages included (Integrations, Platform MCP, Team computers, Branding, Billing, Capacity, App hosting, Usage). Choosing one, or following a link to one, keeps the modal open; Escape, ⌘W and the close button return you to where you were.",
+      "sourceSha": "9ff8d28334288f84ae74d6ec2ea63ae8172e9f0f",
+      "identity": "settings-modal-draws-web-pages:3052622d01d05a47ebc5874770b27ee6a45f6836e95a5fa8429e55dae7b1c287"
     }
   ],
   "consumedIntentIds": [
