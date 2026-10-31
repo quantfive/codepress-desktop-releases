@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "51fdc59a51df38943c509f61d67f728fb5c268fc",
+  "cursorSha": "c5aa03286b24887aaa9b696b5d2c6341ca1de3a6",
   "highWaterVersion": "1.386.2",
   "rows": [
     {
@@ -120445,6 +120445,13 @@
       "sourceSha": "51fdc59a51df38943c509f61d67f728fb5c268fc",
       "sourcePackageVersion": "1.387.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c5aa03286b24887aaa9b696b5d2c6341ca1de3a6",
+      "sourcePackageVersion": "1.387.8",
+      "intentIds": [
+        "remote-terminal-any-stream:92818263003277e9ca8e478db4ff4951228b665575cb9eef3d9892245106b195"
+      ]
     }
   ],
   "intents": [
@@ -123807,6 +123814,14 @@
       "summary": "A stored page that no longer matches what the app expects can no longer break a section. Saved rows from a different app version are ignored and cleared, and a section that fails to draw saved rows clears them and loads again once.",
       "sourceSha": "8b1dc5132403c4f45099c156d60e56932b2904d7",
       "identity": "section-cache-guard:3ad155b476a369246fff3800b1b6306333b8d8ee7018d053a7770c2809e5cf0c"
+    },
+    {
+      "id": "remote-terminal-any-stream",
+      "digest": "92818263003277e9ca8e478db4ff4951228b665575cb9eef3d9892245106b195",
+      "type": "patch",
+      "summary": "The live terminal viewer for another machine's Orchestrator panes now runs on a shared stream client that can open any live terminal stream. Pane terminals look and behave as before.",
+      "sourceSha": "c5aa03286b24887aaa9b696b5d2c6341ca1de3a6",
+      "identity": "remote-terminal-any-stream:92818263003277e9ca8e478db4ff4951228b665575cb9eef3d9892245106b195"
     }
   ],
   "consumedIntentIds": [
