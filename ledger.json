@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "3a3b0687c4fad614afec31c054fd809d625f80eb",
-  "highWaterVersion": "1.392.11",
+  "highWaterVersion": "1.392.12",
   "rows": [
     {
       "schemaVersion": 1,
@@ -63543,6 +63543,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:3a3b0687c4fad614afec31c054fd809d625f80eb",
+      "kind": "main",
+      "sequence": 1862,
+      "sourceSha": "3a3b0687c4fad614afec31c054fd809d625f80eb",
+      "sourcePackageVersion": "1.393.10",
+      "version": "1.392.12",
+      "publicationDate": "2026-10-31T21:17:39.149Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "shared-auto-machine-router:d8231c987aac1d5295f0a1012218b89f30dd4fce58766bbea53c9d369da0cbc5"
+        ],
+        "notesIntentIds": [
+          "shared-auto-machine-router:d8231c987aac1d5295f0a1012218b89f30dd4fce58766bbea53c9d369da0cbc5"
+        ],
+        "throughSourceSha": "3a3b0687c4fad614afec31c054fd809d625f80eb",
+        "previousThroughSourceSha": "935a524c80badec206453b7b664e696fbb95e014",
+        "baselineVersion": "1.392.11",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41242762179",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-01T21:17:14.563Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -126671,7 +126714,8 @@
     "terminal-all-new-follows-open-conversation:7a27487f2bc0a90ece67c8c064b0bbbab695e54fa5a9cb7604893f6abded1e75",
     "headless-home-project-actions:70cd0dfcf0c44f36acac4e66b5948e9d292bec1af9c2584bba9a35054ca059af",
     "project-tabs-all-there-on-load:7bd30664e291056afe0956fb665cea93809ba88458de84b3ca6f9f68495d4a63",
-    "macos-release-resume-refused-bundle-delete:66f12d6251baed7044a737d320c6ab0babc59f3651664846e6db5b8bb4b9cbbb"
+    "macos-release-resume-refused-bundle-delete:66f12d6251baed7044a737d320c6ab0babc59f3651664846e6db5b8bb4b9cbbb",
+    "shared-auto-machine-router:d8231c987aac1d5295f0a1012218b89f30dd4fce58766bbea53c9d369da0cbc5"
   ],
-  "consumedThroughSha": "935a524c80badec206453b7b664e696fbb95e014"
+  "consumedThroughSha": "3a3b0687c4fad614afec31c054fd809d625f80eb"
 }
