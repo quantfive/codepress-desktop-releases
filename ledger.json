@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4d05c611f140c66f5b1e3d11525c760fc87a89ac",
+  "cursorSha": "68503c33b95086267fbdf0f5571921b2fd8fdacc",
   "highWaterVersion": "1.392.4",
   "rows": [
     {
@@ -121964,6 +121964,13 @@
       "sourceSha": "4d05c611f140c66f5b1e3d11525c760fc87a89ac",
       "sourcePackageVersion": "1.393.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "68503c33b95086267fbdf0f5571921b2fd8fdacc",
+      "sourcePackageVersion": "1.393.3",
+      "intentIds": [
+        "terminal-compact-search-pill:f308c07b6c480ec3d041405b38bdbca0e2eb72ba9cb8ba78a456658697fa8b5a"
+      ]
     }
   ],
   "intents": [
@@ -125542,6 +125549,14 @@
       "summary": "Track the shared project placeholder helper in Terminal's UI dependency closure so shared UI changes select Terminal verification.",
       "sourceSha": "18385785c304cf3eabf63116db79a24533f79c42",
       "identity": "web-project-placeholder:222628c4983d9c704d603cdf56b615976ebcfb6495852d8d6aebefcfb10802b5"
+    },
+    {
+      "id": "terminal-compact-search-pill",
+      "digest": "f308c07b6c480ec3d041405b38bdbca0e2eb72ba9cb8ba78a456658697fa8b5a",
+      "type": "patch",
+      "summary": "The title-bar search is now a small \"Search ⌘⇧L\" pill beside the update button, so it no longer covers the Agent project toolbar. It also finds project files: with an Agent project open, matching files appear under Files and open in the Files view. The separate file-search icon beside the Thread and Files tabs is gone; Cmd/Ctrl+P still opens file search.",
+      "sourceSha": "68503c33b95086267fbdf0f5571921b2fd8fdacc",
+      "identity": "terminal-compact-search-pill:f308c07b6c480ec3d041405b38bdbca0e2eb72ba9cb8ba78a456658697fa8b5a"
     }
   ],
   "consumedIntentIds": [
