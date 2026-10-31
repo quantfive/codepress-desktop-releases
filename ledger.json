@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3f005d6a0d4e165876ba386630d685be97bc581a",
+  "cursorSha": "55d4b940423842026cbf5b3eace55e12652a867f",
   "highWaterVersion": "1.391.0",
   "rows": [
     {
@@ -121236,6 +121236,13 @@
       "sourceSha": "3f005d6a0d4e165876ba386630d685be97bc581a",
       "sourcePackageVersion": "1.392.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "55d4b940423842026cbf5b3eace55e12652a867f",
+      "sourcePackageVersion": "1.392.0",
+      "intentIds": [
+        "cloud-handoff-refusal-visible:0b89e44f181bc4f8e13a0c0237321a19af5323eb37e742e2721fad7dbfa421f2"
+      ]
     }
   ],
   "intents": [
@@ -124702,6 +124709,14 @@
       "summary": "Hand a Terminal tab off to the agent runner from any organization: the Cloud destination no longer needs Coding VM Workspaces, and a task brought back into its tab keeps syncing.",
       "sourceSha": "aea05c24d8f479206c53604b3d3f148d97b35391",
       "identity": "cloud-handoff-agent-runner:ea82ead0ea6b8e462308fb4d65734c62e973cd3f45d571193d2accb33e5a8b24"
+    },
+    {
+      "id": "cloud-handoff-refusal-visible",
+      "digest": "0b89e44f181bc4f8e13a0c0237321a19af5323eb37e742e2721fad7dbfa421f2",
+      "type": "patch",
+      "summary": "A Cloud handoff the backend refuses now shows the backend's reason, such as the organization's concurrent session limit, instead of only a status code.",
+      "sourceSha": "55d4b940423842026cbf5b3eace55e12652a867f",
+      "identity": "cloud-handoff-refusal-visible:0b89e44f181bc4f8e13a0c0237321a19af5323eb37e742e2721fad7dbfa421f2"
     }
   ],
   "consumedIntentIds": [
