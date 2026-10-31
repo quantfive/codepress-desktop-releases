@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3c422ddc7b473693a6b7e5cf5edeb140670c639c",
+  "cursorSha": "5076acba917095501c716d921b6318780ad38bd2",
   "highWaterVersion": "1.391.3",
   "rows": [
     {
@@ -121486,6 +121486,13 @@
       "sourceSha": "3c422ddc7b473693a6b7e5cf5edeb140670c639c",
       "sourcePackageVersion": "1.392.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "5076acba917095501c716d921b6318780ad38bd2",
+      "sourcePackageVersion": "1.392.4",
+      "intentIds": [
+        "green-computers-carry:1cdb9155c07ffeb861a7fc410b6c70bb157364c37c042355b1b269d0aa568320"
+      ]
     }
   ],
   "intents": [
@@ -125000,6 +125007,14 @@
       "summary": "Share Terminal's motion tokens and existing keyframes with codepress.dev while preserving Terminal's curves and timing.",
       "sourceSha": "2e60417288632034260d49e278b1b46d41d00155",
       "identity": "shared-terminal-motion:dbc96d4ba64ec68a4c6bc767e5dfc64969cb0e43cbb7adb97155fa7018576570"
+    },
+    {
+      "id": "green-computers-carry",
+      "digest": "1cdb9155c07ffeb861a7fc410b6c70bb157364c37c042355b1b269d0aa568320",
+      "type": "patch",
+      "summary": "Carry attachments and conversation mentions when starting projects on shared computers. Older computers receive signed file links and conversation references in the brief without blocking Send or showing a carry notice.",
+      "sourceSha": "5076acba917095501c716d921b6318780ad38bd2",
+      "identity": "green-computers-carry:1cdb9155c07ffeb861a7fc410b6c70bb157364c37c042355b1b269d0aa568320"
     }
   ],
   "consumedIntentIds": [
