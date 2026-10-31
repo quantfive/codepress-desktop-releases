@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "333d64664f41d040a70199b867e9fe05ad0759c6",
+  "cursorSha": "acb612ec948e6bb0ef414279b0ccb1c3318c9fca",
   "highWaterVersion": "1.390.0",
   "rows": [
     {
@@ -120985,6 +120985,13 @@
       "sourceSha": "333d64664f41d040a70199b867e9fe05ad0759c6",
       "sourcePackageVersion": "1.391.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "acb612ec948e6bb0ef414279b0ccb1c3318c9fca",
+      "sourcePackageVersion": "1.391.2",
+      "intentIds": [
+        "cloud-card-open-chat:22e890de2a76c8e92870ba0ee07f561d1b6a011afe6084103a001c82d6715fb6"
+      ]
     }
   ],
   "intents": [
@@ -124419,6 +124426,14 @@
       "summary": "The Orchestrator's chat rail and Details panel now slide in and out over 200ms on desktop instead of snapping. The drawer terminal resizes once, at the final width, rather than on every frame of the slide.",
       "sourceSha": "b1c87fd7161104b018e45e61cd83195dbb8803b4",
       "identity": "orchestrator-panels-slide:aa49d9c69ca09a5e2a76d3efc3329d841c35b69cfd2cf0db972972bc1295b82a"
+    },
+    {
+      "id": "cloud-card-open-chat",
+      "digest": "22e890de2a76c8e92870ba0ee07f561d1b6a011afe6084103a001c82d6715fb6",
+      "type": "patch",
+      "summary": "Open a task handed off to the cloud in the Agent tab from its retained card.",
+      "sourceSha": "acb612ec948e6bb0ef414279b0ccb1c3318c9fca",
+      "identity": "cloud-card-open-chat:22e890de2a76c8e92870ba0ee07f561d1b6a011afe6084103a001c82d6715fb6"
     }
   ],
   "consumedIntentIds": [
