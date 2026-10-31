@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7410a9a989a6900d78228b7e090866ca3af3b0f9",
+  "cursorSha": "df586519cebc20eaac540eff555b4c1b4f570d86",
   "highWaterVersion": "1.386.1",
   "rows": [
     {
@@ -120360,6 +120360,13 @@
       "sourceSha": "7410a9a989a6900d78228b7e090866ca3af3b0f9",
       "sourcePackageVersion": "1.387.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "df586519cebc20eaac540eff555b4c1b4f570d86",
+      "sourcePackageVersion": "1.387.6",
+      "intentIds": [
+        "phone-drawer-pending-section:efd19f1028d3172b1910f98454e4338b206c493259c6ac7e63db4a175dc0ee79"
+      ]
     }
   ],
   "intents": [
@@ -123706,6 +123713,14 @@
       "summary": "A chat or Orchestrator project started with repositories now opens worktrees off origin's default branch of Terminal's own managed clone (cloned the first time), never of a checkout of yours. A chat with repositories and no Project folder starts in the first repository's worktree. The remote kickoff's repository refusal now says the switch is yours.",
       "sourceSha": "065373d90799e053e52fee719b6f17b822178817",
       "identity": "repositories-open-from-managed-clone:d2a0e80040522cb8e02fe1ea9bd598bf8e9b63b5208a6abdd1f468b82da6858a"
+    },
+    {
+      "id": "phone-drawer-pending-section",
+      "digest": "efd19f1028d3172b1910f98454e4338b206c493259c6ac7e63db4a175dc0ee79",
+      "type": "patch",
+      "summary": "Bundle the shared shell's pending-section state for phone drawer taps. Terminal draws no phone shell, so nothing changes on screen.",
+      "sourceSha": "df586519cebc20eaac540eff555b4c1b4f570d86",
+      "identity": "phone-drawer-pending-section:efd19f1028d3172b1910f98454e4338b206c493259c6ac7e63db4a175dc0ee79"
     }
   ],
   "consumedIntentIds": [
