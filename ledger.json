@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "bc4c715ceab5c7cb253ccae2b968918f2ffdfe36",
+  "cursorSha": "c85390b1c39a7d50be4b36ce8aef70e98172cd43",
   "highWaterVersion": "1.391.1",
   "rows": [
     {
@@ -121314,6 +121314,11 @@
       "intentIds": [
         "linux-lane-faster-delivery:800dce2c936dfe95eaacefbba3d9f137e4bd8290aa1cdb652b89f369cee00074"
       ]
+    },
+    {
+      "sourceSha": "c85390b1c39a7d50be4b36ce8aef70e98172cd43",
+      "sourcePackageVersion": "1.392.2",
+      "intentIds": []
     }
   ],
   "intents": [
