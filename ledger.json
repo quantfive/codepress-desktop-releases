@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "8022efe964f299704bdd76e3d9489a1299da563a",
-  "highWaterVersion": "1.392.0",
+  "highWaterVersion": "1.392.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -62940,6 +62940,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:8022efe964f299704bdd76e3d9489a1299da563a",
+      "kind": "main",
+      "sequence": 1851,
+      "sourceSha": "8022efe964f299704bdd76e3d9489a1299da563a",
+      "sourcePackageVersion": "1.393.1",
+      "version": "1.392.1",
+      "publicationDate": "2026-10-31T12:14:24.607Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "slim-dmg-first-launch:af6b4bae9bd8d3efb0386db1c76e3f2aba069503984508eaec66b670e9a1133a"
+        ],
+        "notesIntentIds": [
+          "slim-dmg-first-launch:af6b4bae9bd8d3efb0386db1c76e3f2aba069503984508eaec66b670e9a1133a"
+        ],
+        "throughSourceSha": "8022efe964f299704bdd76e3d9489a1299da563a",
+        "previousThroughSourceSha": "d62ce4849bced924d4fc01b9014749645dd0bc0f",
+        "baselineVersion": "1.392.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41200109773",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-01T12:13:59.696Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -125697,7 +125740,8 @@
     "green-computers-carry:1cdb9155c07ffeb861a7fc410b6c70bb157364c37c042355b1b269d0aa568320",
     "phone-shell-work-slide:65d575be403129b9a5043d9314fc412a570d2f2dfb1d66b7acfe14fbb8c7be48",
     "desktop-shell-search:a8dceb9af947af38797ba195d22699683789a02614583cdd3675f0e7b476af53",
-    "terminal-stops-reading-retired-flags:bf85f7a073ae769fe343e9e7b0c12f3cb92ca71f8cfd31d6af28356a54ff1151"
+    "terminal-stops-reading-retired-flags:bf85f7a073ae769fe343e9e7b0c12f3cb92ca71f8cfd31d6af28356a54ff1151",
+    "slim-dmg-first-launch:af6b4bae9bd8d3efb0386db1c76e3f2aba069503984508eaec66b670e9a1133a"
   ],
-  "consumedThroughSha": "d62ce4849bced924d4fc01b9014749645dd0bc0f"
+  "consumedThroughSha": "8022efe964f299704bdd76e3d9489a1299da563a"
 }
