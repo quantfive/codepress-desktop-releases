@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "935a524c80badec206453b7b664e696fbb95e014",
-  "highWaterVersion": "1.392.10",
+  "highWaterVersion": "1.392.11",
   "rows": [
     {
       "schemaVersion": 1,
@@ -63484,6 +63484,53 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:935a524c80badec206453b7b664e696fbb95e014",
+      "kind": "main",
+      "sequence": 1861,
+      "sourceSha": "935a524c80badec206453b7b664e696fbb95e014",
+      "sourcePackageVersion": "1.393.10",
+      "version": "1.392.11",
+      "publicationDate": "2026-10-31T20:59:28.124Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "macos-release-resume-refused-bundle-delete:66f12d6251baed7044a737d320c6ab0babc59f3651664846e6db5b8bb4b9cbbb"
+        ],
+        "notesIntentIds": [
+          "curved-full-screen-phone-drawers:cb8689bfcb88621d9b7aa5fa8d192b622c50b4259d1b3ee8dc9950bb1ff19a37",
+          "terminal-all-new-follows-open-conversation:7a27487f2bc0a90ece67c8c064b0bbbab695e54fa5a9cb7604893f6abded1e75",
+          "headless-home-project-actions:70cd0dfcf0c44f36acac4e66b5948e9d292bec1af9c2584bba9a35054ca059af",
+          "project-tabs-all-there-on-load:7bd30664e291056afe0956fb665cea93809ba88458de84b3ca6f9f68495d4a63",
+          "macos-release-resume-refused-bundle-delete:66f12d6251baed7044a737d320c6ab0babc59f3651664846e6db5b8bb4b9cbbb"
+        ],
+        "throughSourceSha": "935a524c80badec206453b7b664e696fbb95e014",
+        "previousThroughSourceSha": "b4c33682685a5a7d585d579f52b20e7cac874f81",
+        "baselineVersion": "1.392.10",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41241312810",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-01T20:59:04.097Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -126596,7 +126643,8 @@
     "curved-full-screen-phone-drawers:cb8689bfcb88621d9b7aa5fa8d192b622c50b4259d1b3ee8dc9950bb1ff19a37",
     "terminal-all-new-follows-open-conversation:7a27487f2bc0a90ece67c8c064b0bbbab695e54fa5a9cb7604893f6abded1e75",
     "headless-home-project-actions:70cd0dfcf0c44f36acac4e66b5948e9d292bec1af9c2584bba9a35054ca059af",
-    "project-tabs-all-there-on-load:7bd30664e291056afe0956fb665cea93809ba88458de84b3ca6f9f68495d4a63"
+    "project-tabs-all-there-on-load:7bd30664e291056afe0956fb665cea93809ba88458de84b3ca6f9f68495d4a63",
+    "macos-release-resume-refused-bundle-delete:66f12d6251baed7044a737d320c6ab0babc59f3651664846e6db5b8bb4b9cbbb"
   ],
-  "consumedThroughSha": "b4c33682685a5a7d585d579f52b20e7cac874f81"
+  "consumedThroughSha": "935a524c80badec206453b7b664e696fbb95e014"
 }
