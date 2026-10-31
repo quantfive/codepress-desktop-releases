@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "aea05c24d8f479206c53604b3d3f148d97b35391",
-  "highWaterVersion": "1.390.1",
+  "highWaterVersion": "1.391.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -62596,6 +62596,53 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:aea05c24d8f479206c53604b3d3f148d97b35391",
+      "kind": "main",
+      "sequence": 1845,
+      "sourceSha": "aea05c24d8f479206c53604b3d3f148d97b35391",
+      "sourcePackageVersion": "1.391.5",
+      "version": "1.391.0",
+      "publicationDate": "2026-10-31T07:03:44.471Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "mac-cli-running-lane:c95380fd365b6c981f936a7ea5c38e78f2b79f73e7620a7197c376427bde58cc",
+          "owner-kickoff-carry:8aedd04f706602657e2afa961b868eaa228d822404a2127f505d3dddb563fc02",
+          "cloud-handoff-agent-runner:ea82ead0ea6b8e462308fb4d65734c62e973cd3f45d571193d2accb33e5a8b24"
+        ],
+        "notesIntentIds": [
+          "mac-cli-running-lane:c95380fd365b6c981f936a7ea5c38e78f2b79f73e7620a7197c376427bde58cc",
+          "owner-kickoff-carry:8aedd04f706602657e2afa961b868eaa228d822404a2127f505d3dddb563fc02",
+          "cloud-handoff-agent-runner:ea82ead0ea6b8e462308fb4d65734c62e973cd3f45d571193d2accb33e5a8b24"
+        ],
+        "throughSourceSha": "aea05c24d8f479206c53604b3d3f148d97b35391",
+        "previousThroughSourceSha": "acb612ec948e6bb0ef414279b0ccb1c3318c9fca",
+        "baselineVersion": "1.390.1",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41178936520",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-01T07:03:19.620Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -125020,7 +125067,10 @@
     "live-terminal-fit-size:750127c3bc0e2f65d337f044092da7f653bb1b0b0cf553dbe6a563b5b8b3d014",
     "shell-list-fold-slide:e4029fc719d7fac289cf8a2073553ccf9cd5da86e570ce5fd9b0e46f66208455",
     "orchestrator-panels-slide:aa49d9c69ca09a5e2a76d3efc3329d841c35b69cfd2cf0db972972bc1295b82a",
-    "cloud-card-open-chat:22e890de2a76c8e92870ba0ee07f561d1b6a011afe6084103a001c82d6715fb6"
+    "cloud-card-open-chat:22e890de2a76c8e92870ba0ee07f561d1b6a011afe6084103a001c82d6715fb6",
+    "mac-cli-running-lane:c95380fd365b6c981f936a7ea5c38e78f2b79f73e7620a7197c376427bde58cc",
+    "owner-kickoff-carry:8aedd04f706602657e2afa961b868eaa228d822404a2127f505d3dddb563fc02",
+    "cloud-handoff-agent-runner:ea82ead0ea6b8e462308fb4d65734c62e973cd3f45d571193d2accb33e5a8b24"
   ],
-  "consumedThroughSha": "acb612ec948e6bb0ef414279b0ccb1c3318c9fca"
+  "consumedThroughSha": "aea05c24d8f479206c53604b3d3f148d97b35391"
 }
