@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "93fe1db194dfac29e7720bc1be6b33fe30eb18d8",
-  "highWaterVersion": "1.387.0",
+  "highWaterVersion": "1.388.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -62315,6 +62315,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:93fe1db194dfac29e7720bc1be6b33fe30eb18d8",
+      "kind": "main",
+      "sequence": 1840,
+      "sourceSha": "93fe1db194dfac29e7720bc1be6b33fe30eb18d8",
+      "sourcePackageVersion": "1.389.1",
+      "version": "1.388.0",
+      "publicationDate": "2026-10-31T02:51:00.317Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "settings-modal-draws-web-pages:3052622d01d05a47ebc5874770b27ee6a45f6836e95a5fa8429e55dae7b1c287",
+          "automations-visit-trim:4fc9f9cfecf6c586e9bbb2eb0cdb10031bc53d2d094f1bfbf397c1962ef3a0f5"
+        ],
+        "notesIntentIds": [
+          "settings-modal-draws-web-pages:3052622d01d05a47ebc5874770b27ee6a45f6836e95a5fa8429e55dae7b1c287",
+          "automations-visit-trim:4fc9f9cfecf6c586e9bbb2eb0cdb10031bc53d2d094f1bfbf397c1962ef3a0f5"
+        ],
+        "throughSourceSha": "93fe1db194dfac29e7720bc1be6b33fe30eb18d8",
+        "previousThroughSourceSha": "f3e7cfe6dcbc1e87bb6b8e798559881c07991e67",
+        "baselineVersion": "1.387.0",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41161690952",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-01T02:50:33.749Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -124421,7 +124466,9 @@
     "phone-drawer-pending-section:efd19f1028d3172b1910f98454e4338b206c493259c6ac7e63db4a175dc0ee79",
     "section-cache-guard:3ad155b476a369246fff3800b1b6306333b8d8ee7018d053a7770c2809e5cf0c",
     "remote-terminal-any-stream:92818263003277e9ca8e478db4ff4951228b665575cb9eef3d9892245106b195",
-    "terminal-live-stream-home:612ee5e6227376de6f38ca374db6d71b35bb0273c93d240a7ab9135bf76d3610"
+    "terminal-live-stream-home:612ee5e6227376de6f38ca374db6d71b35bb0273c93d240a7ab9135bf76d3610",
+    "settings-modal-draws-web-pages:3052622d01d05a47ebc5874770b27ee6a45f6836e95a5fa8429e55dae7b1c287",
+    "automations-visit-trim:4fc9f9cfecf6c586e9bbb2eb0cdb10031bc53d2d094f1bfbf397c1962ef3a0f5"
   ],
-  "consumedThroughSha": "f3e7cfe6dcbc1e87bb6b8e798559881c07991e67"
+  "consumedThroughSha": "93fe1db194dfac29e7720bc1be6b33fe30eb18d8"
 }
