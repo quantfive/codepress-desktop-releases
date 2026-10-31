@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e8ae16a81bc939d64966beb8f7a9d8371f9eaa84",
+  "cursorSha": "2e60417288632034260d49e278b1b46d41d00155",
   "highWaterVersion": "1.391.2",
   "rows": [
     {
@@ -121414,6 +121414,13 @@
       "sourceSha": "e8ae16a81bc939d64966beb8f7a9d8371f9eaa84",
       "sourcePackageVersion": "1.392.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2e60417288632034260d49e278b1b46d41d00155",
+      "sourcePackageVersion": "1.392.3",
+      "intentIds": [
+        "shared-terminal-motion:dbc96d4ba64ec68a4c6bc767e5dfc64969cb0e43cbb7adb97155fa7018576570"
+      ]
     }
   ],
   "intents": [
@@ -124920,6 +124927,14 @@
       "summary": "Track the shared phone viewport helper in Terminal's UI dependency closure.",
       "sourceSha": "f25d52751cae99cf9f99ed729b3a5088e1f9bc0e",
       "identity": "phone-agent-search:ae76f0088358279f4c1de1cd904716c5a9bd98ffa85c4d26a815aa32e08faa3f"
+    },
+    {
+      "id": "shared-terminal-motion",
+      "digest": "dbc96d4ba64ec68a4c6bc767e5dfc64969cb0e43cbb7adb97155fa7018576570",
+      "type": "patch",
+      "summary": "Share Terminal's motion tokens and existing keyframes with codepress.dev while preserving Terminal's curves and timing.",
+      "sourceSha": "2e60417288632034260d49e278b1b46d41d00155",
+      "identity": "shared-terminal-motion:dbc96d4ba64ec68a4c6bc767e5dfc64969cb0e43cbb7adb97155fa7018576570"
     }
   ],
   "consumedIntentIds": [
