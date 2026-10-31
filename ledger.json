@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f640eb1e43887b71571d719eb33733a58018f202",
+  "cursorSha": "46b70dde01f2245b639952b8e26214015129d8b2",
   "highWaterVersion": "1.392.14",
   "rows": [
     {
@@ -122804,6 +122804,18 @@
       "intentIds": [
         "lighter-terminal-delivery:0b4c576f4ed60e58c6f594a996b36b8006acaeafc316f7f5f69ade2b1ad85dd5"
       ]
+    },
+    {
+      "sourceSha": "bc6d5be3a88fd9f416af4503c92fe066959f275d",
+      "sourcePackageVersion": "1.393.14",
+      "intentIds": [
+        "patient-intel-daemon-launch:e855cca79cba24ab3a7b1150f2928f4da89eeb076ce256aef3ae9c77a3f66f89"
+      ]
+    },
+    {
+      "sourceSha": "46b70dde01f2245b639952b8e26214015129d8b2",
+      "sourcePackageVersion": "1.393.14",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -126478,6 +126490,14 @@
       "summary": "Terminal releases reach users faster: admission and publishing take less time, CLI packaging no longer holds up the desktop build, and each delivery reports how long every lane took.",
       "sourceSha": "f640eb1e43887b71571d719eb33733a58018f202",
       "identity": "lighter-terminal-delivery:0b4c576f4ed60e58c6f594a996b36b8006acaeafc316f7f5f69ade2b1ad85dd5"
+    },
+    {
+      "id": "patient-intel-daemon-launch",
+      "digest": "e855cca79cba24ab3a7b1150f2928f4da89eeb076ce256aef3ae9c77a3f66f89",
+      "type": "patch",
+      "summary": "Give the background daemon 30 seconds instead of 10 to start when Terminal launches, so a slow first launch (an Intel Mac opening a just-installed update) no longer closes the app. `CODEPRESS_DAEMON_START_TIMEOUT_MS` overrides the wait.",
+      "sourceSha": "bc6d5be3a88fd9f416af4503c92fe066959f275d",
+      "identity": "patient-intel-daemon-launch:e855cca79cba24ab3a7b1150f2928f4da89eeb076ce256aef3ae9c77a3f66f89"
     }
   ],
   "consumedIntentIds": [
