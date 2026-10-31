@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ed9dd54f4afa9c2c29cd3cc92ec123f8aff6a41b",
+  "cursorSha": "347b1f0411bd52b8212510924a0bbc5aef505d32",
   "highWaterVersion": "1.392.15",
   "rows": [
     {
@@ -122898,6 +122898,13 @@
       "sourceSha": "ed9dd54f4afa9c2c29cd3cc92ec123f8aff6a41b",
       "sourcePackageVersion": "1.393.15",
       "intentIds": []
+    },
+    {
+      "sourceSha": "347b1f0411bd52b8212510924a0bbc5aef505d32",
+      "sourcePackageVersion": "1.393.15",
+      "intentIds": [
+        "bright-org-avatar-thumbnails:568f15590b663ae1719db005a5a0aa102e09dd42e3ab820d455db7b692c786b2"
+      ]
     }
   ],
   "intents": [
@@ -126580,6 +126587,14 @@
       "summary": "Give the background daemon 30 seconds instead of 10 to start when Terminal launches, so a slow first launch (an Intel Mac opening a just-installed update) no longer closes the app. `CODEPRESS_DAEMON_START_TIMEOUT_MS` overrides the wait.",
       "sourceSha": "bc6d5be3a88fd9f416af4503c92fe066959f275d",
       "identity": "patient-intel-daemon-launch:e855cca79cba24ab3a7b1150f2928f4da89eeb076ce256aef3ae9c77a3f66f89"
+    },
+    {
+      "id": "bright-org-avatar-thumbnails",
+      "digest": "568f15590b663ae1719db005a5a0aa102e09dd42e3ab820d455db7b692c786b2",
+      "type": "patch",
+      "summary": "Show organization icons through authenticated cached thumbnails in the switcher and General settings. Load visible rows on demand and reuse images when the switcher reopens.",
+      "sourceSha": "347b1f0411bd52b8212510924a0bbc5aef505d32",
+      "identity": "bright-org-avatar-thumbnails:568f15590b663ae1719db005a5a0aa102e09dd42e3ab820d455db7b692c786b2"
     }
   ],
   "consumedIntentIds": [
