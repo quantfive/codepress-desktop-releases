@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3ef6f5a2c9af250fee30f73364edd705d8476237",
+  "cursorSha": "aea05c24d8f479206c53604b3d3f148d97b35391",
   "highWaterVersion": "1.390.1",
   "rows": [
     {
@@ -121107,6 +121107,13 @@
       "sourceSha": "3ef6f5a2c9af250fee30f73364edd705d8476237",
       "sourcePackageVersion": "1.391.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "aea05c24d8f479206c53604b3d3f148d97b35391",
+      "sourcePackageVersion": "1.391.5",
+      "intentIds": [
+        "cloud-handoff-agent-runner:ea82ead0ea6b8e462308fb4d65734c62e973cd3f45d571193d2accb33e5a8b24"
+      ]
     }
   ],
   "intents": [
@@ -124565,6 +124572,14 @@
       "summary": "Carry attachments and conversation mentions into projects started on your computer from the web or phone.",
       "sourceSha": "fe343d2aa9318e7e41179769099ef875cb22691c",
       "identity": "owner-kickoff-carry:8aedd04f706602657e2afa961b868eaa228d822404a2127f505d3dddb563fc02"
+    },
+    {
+      "id": "cloud-handoff-agent-runner",
+      "digest": "ea82ead0ea6b8e462308fb4d65734c62e973cd3f45d571193d2accb33e5a8b24",
+      "type": "minor",
+      "summary": "Hand a Terminal tab off to the agent runner from any organization: the Cloud destination no longer needs Coding VM Workspaces, and a task brought back into its tab keeps syncing.",
+      "sourceSha": "aea05c24d8f479206c53604b3d3f148d97b35391",
+      "identity": "cloud-handoff-agent-runner:ea82ead0ea6b8e462308fb4d65734c62e973cd3f45d571193d2accb33e5a8b24"
     }
   ],
   "consumedIntentIds": [
