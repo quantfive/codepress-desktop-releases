@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3505382373e712ee26da6f41a0c0dc9b1925d104",
+  "cursorSha": "9e63a85ea0968a3f6bbd00a832c72b433525fe28",
   "highWaterVersion": "1.392.1",
   "rows": [
     {
@@ -121768,6 +121768,13 @@
       "sourceSha": "3505382373e712ee26da6f41a0c0dc9b1925d104",
       "sourcePackageVersion": "1.393.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9e63a85ea0968a3f6bbd00a832c72b433525fe28",
+      "sourcePackageVersion": "1.393.1",
+      "intentIds": [
+        "terminal-global-search:87f8e3bca618749cd972cad5b50a404e7fd97f1cd711a0ba6a3ce14934faf7b1"
+      ]
     }
   ],
   "intents": [
@@ -125322,6 +125329,14 @@
       "summary": "New Mac installs download their dependencies on first launch, with progress on the setup screen and automatic retries.",
       "sourceSha": "40ded66e2a9d4e19c86689af5e7ffa8d9eae142b",
       "identity": "slim-dmg-first-launch:af6b4bae9bd8d3efb0386db1c76e3f2aba069503984508eaec66b670e9a1133a"
+    },
+    {
+      "id": "terminal-global-search",
+      "digest": "87f8e3bca618749cd972cad5b50a404e7fd97f1cd711a0ba6a3ce14934faf7b1",
+      "type": "patch",
+      "summary": "Add global search to the desktop title bar with Cmd/Ctrl+Shift+L, sharing the web palette UI. Move the Chat | Orchestrator switch back into the Agent new-chat page.",
+      "sourceSha": "9e63a85ea0968a3f6bbd00a832c72b433525fe28",
+      "identity": "terminal-global-search:87f8e3bca618749cd972cad5b50a404e7fd97f1cd711a0ba6a3ce14934faf7b1"
     }
   ],
   "consumedIntentIds": [
