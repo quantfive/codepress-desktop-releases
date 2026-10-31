@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ca7bd738cc3d9bc3e50ad29be76cbd82e5236e10",
+  "cursorSha": "4ff18dfa560c40c62f0ae79c962d7df79e90764b",
   "highWaterVersion": "1.389.0",
   "rows": [
     {
@@ -120772,6 +120772,13 @@
       "sourceSha": "ca7bd738cc3d9bc3e50ad29be76cbd82e5236e10",
       "sourcePackageVersion": "1.390.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4ff18dfa560c40c62f0ae79c962d7df79e90764b",
+      "sourcePackageVersion": "1.390.0",
+      "intentIds": [
+        "pinned-one-feed-rail:6d0cb77f7f43a4a794cfec6e513a1b74d54143a64b56aae11c9e383a81f2a9b4"
+      ]
     }
   ],
   "intents": [
@@ -124174,6 +124181,14 @@
       "summary": "Settings → Account in Terminal draws the same Orchestrator, Agent accounts, Agents, Notifications and My computers pages as the web and the phone, in the shell's Settings modal and in the Settings dialog. The Computer tabs keep only what belongs to this computer: model defaults, the agent feed, the cloud copy, the step check, working hours, feature flags, compaction windows, the automation and pull-request switches, failover, keep-updated and each repository rule's merge choice now live on the Account page, and each leaves one line that opens it. The Computer group is named \"Computer · <this computer>\".",
       "sourceSha": "6f8c29255b4a0da7432f2fccdef014a37fb952b0",
       "identity": "terminal-account-pages-regroup:8df57167685edb8920cff60b0f4e8cef16867c724d81d5b06501f7a88d6112c4"
+    },
+    {
+      "id": "pinned-one-feed-rail",
+      "digest": "6d0cb77f7f43a4a794cfec6e513a1b74d54143a64b56aae11c9e383a81f2a9b4",
+      "type": "patch",
+      "summary": "Add an extra Pinned section and Pin / Unpin actions for One-feed projects and chats, with cloud pins across computers and local offline mirrors.",
+      "sourceSha": "4ff18dfa560c40c62f0ae79c962d7df79e90764b",
+      "identity": "pinned-one-feed-rail:6d0cb77f7f43a4a794cfec6e513a1b74d54143a64b56aae11c9e383a81f2a9b4"
     }
   ],
   "consumedIntentIds": [
