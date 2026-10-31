@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a74bc93bc5ac75b7ad88ee44a34a3b7d637cdbe4",
+  "cursorSha": "c5f4d04f68aad399165411a021bad08950f5c303",
   "highWaterVersion": "1.391.3",
   "rows": [
     {
@@ -121525,6 +121525,18 @@
       "sourceSha": "a74bc93bc5ac75b7ad88ee44a34a3b7d637cdbe4",
       "sourcePackageVersion": "1.392.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a4227fdaca1e28846b198447bc406790181ae898",
+      "sourcePackageVersion": "1.392.6",
+      "intentIds": [
+        "desktop-shell-search:a8dceb9af947af38797ba195d22699683789a02614583cdd3675f0e7b476af53"
+      ]
+    },
+    {
+      "sourceSha": "c5f4d04f68aad399165411a021bad08950f5c303",
+      "sourcePackageVersion": "1.392.6",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -125055,6 +125067,14 @@
       "summary": "Make Work push the complete unified phone shell left with the shared phone panel animation, including the header and tabs.",
       "sourceSha": "ca0fdfbc1a108b23876bbb1530bd489491183cf3",
       "identity": "phone-shell-work-slide:65d575be403129b9a5043d9314fc412a570d2f2dfb1d66b7acfe14fbb8c7be48"
+    },
+    {
+      "id": "desktop-shell-search",
+      "digest": "a8dceb9af947af38797ba195d22699683789a02614583cdd3675f0e7b476af53",
+      "type": "patch",
+      "summary": "Track the shared shell search field in Terminal's UI dependency closure so shared shell changes receive browser verification. Terminal's own search bar remains a separate change.",
+      "sourceSha": "a4227fdaca1e28846b198447bc406790181ae898",
+      "identity": "desktop-shell-search:a8dceb9af947af38797ba195d22699683789a02614583cdd3675f0e7b476af53"
     }
   ],
   "consumedIntentIds": [
