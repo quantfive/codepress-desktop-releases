@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "e8ae16a81bc939d64966beb8f7a9d8371f9eaa84",
-  "highWaterVersion": "1.391.1",
+  "highWaterVersion": "1.391.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -62710,6 +62710,55 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:e8ae16a81bc939d64966beb8f7a9d8371f9eaa84",
+      "kind": "main",
+      "sequence": 1847,
+      "sourceSha": "e8ae16a81bc939d64966beb8f7a9d8371f9eaa84",
+      "sourcePackageVersion": "1.392.3",
+      "version": "1.391.2",
+      "publicationDate": "2026-10-31T09:32:23.287Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "mac-arches-build-in-parallel:d92984ff5e728365dd4d648edd896a354748bfa57be273266ca3c9e0f7f66fb8",
+          "linux-lane-faster-delivery:800dce2c936dfe95eaacefbba3d9f137e4bd8290aa1cdb652b89f369cee00074",
+          "return-copy-follows-tab:a9fdca470eec9102e3c7ddb5a58f12db6bbf618554d18af6e7d44cc3309054fd",
+          "phone-agent-search:ae76f0088358279f4c1de1cd904716c5a9bd98ffa85c4d26a815aa32e08faa3f"
+        ],
+        "notesIntentIds": [
+          "mac-arches-build-in-parallel:d92984ff5e728365dd4d648edd896a354748bfa57be273266ca3c9e0f7f66fb8",
+          "linux-lane-faster-delivery:800dce2c936dfe95eaacefbba3d9f137e4bd8290aa1cdb652b89f369cee00074",
+          "return-copy-follows-tab:a9fdca470eec9102e3c7ddb5a58f12db6bbf618554d18af6e7d44cc3309054fd",
+          "phone-agent-search:ae76f0088358279f4c1de1cd904716c5a9bd98ffa85c4d26a815aa32e08faa3f"
+        ],
+        "throughSourceSha": "e8ae16a81bc939d64966beb8f7a9d8371f9eaa84",
+        "previousThroughSourceSha": "55d4b940423842026cbf5b3eace55e12652a867f",
+        "baselineVersion": "1.391.1",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41189004020",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-01T09:31:57.692Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -125303,7 +125352,11 @@
     "mac-cli-running-lane:c95380fd365b6c981f936a7ea5c38e78f2b79f73e7620a7197c376427bde58cc",
     "owner-kickoff-carry:8aedd04f706602657e2afa961b868eaa228d822404a2127f505d3dddb563fc02",
     "cloud-handoff-agent-runner:ea82ead0ea6b8e462308fb4d65734c62e973cd3f45d571193d2accb33e5a8b24",
-    "cloud-handoff-refusal-visible:0b89e44f181bc4f8e13a0c0237321a19af5323eb37e742e2721fad7dbfa421f2"
+    "cloud-handoff-refusal-visible:0b89e44f181bc4f8e13a0c0237321a19af5323eb37e742e2721fad7dbfa421f2",
+    "mac-arches-build-in-parallel:d92984ff5e728365dd4d648edd896a354748bfa57be273266ca3c9e0f7f66fb8",
+    "linux-lane-faster-delivery:800dce2c936dfe95eaacefbba3d9f137e4bd8290aa1cdb652b89f369cee00074",
+    "return-copy-follows-tab:a9fdca470eec9102e3c7ddb5a58f12db6bbf618554d18af6e7d44cc3309054fd",
+    "phone-agent-search:ae76f0088358279f4c1de1cd904716c5a9bd98ffa85c4d26a815aa32e08faa3f"
   ],
-  "consumedThroughSha": "55d4b940423842026cbf5b3eace55e12652a867f"
+  "consumedThroughSha": "e8ae16a81bc939d64966beb8f7a9d8371f9eaa84"
 }
