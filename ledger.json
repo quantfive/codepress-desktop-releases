@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "3dfac93ce37a44861c9b78dffe6592010f537f11",
-  "highWaterVersion": "1.385.0",
+  "highWaterVersion": "1.386.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -62079,6 +62079,55 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:3dfac93ce37a44861c9b78dffe6592010f537f11",
+      "kind": "main",
+      "sequence": 1836,
+      "sourceSha": "3dfac93ce37a44861c9b78dffe6592010f537f11",
+      "sourcePackageVersion": "1.387.1",
+      "version": "1.386.0",
+      "publicationDate": "2026-10-31T00:09:30.485Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-reads-account-settings:4720e27230e25d883d200222e4bad6b95a450f279698cb5ce91b6d3e0f6779ad",
+          "layered-updater:ed1662b33993c513a7881b0ee5a5f47a96cac589f901cd7f3968344fe4f7c40d",
+          "move-standing-moved-record:3cfcdf94cb2aaabe88e57f91e65f05988b836a978c9f0edaab5e4bb169168a79",
+          "deprecated-microvm-retention:64db4a096fc49c3ab9e279067bb155d2294e4716552587a4721ff19e2520412b"
+        ],
+        "notesIntentIds": [
+          "terminal-reads-account-settings:4720e27230e25d883d200222e4bad6b95a450f279698cb5ce91b6d3e0f6779ad",
+          "layered-updater:ed1662b33993c513a7881b0ee5a5f47a96cac589f901cd7f3968344fe4f7c40d",
+          "move-standing-moved-record:3cfcdf94cb2aaabe88e57f91e65f05988b836a978c9f0edaab5e4bb169168a79",
+          "deprecated-microvm-retention:64db4a096fc49c3ab9e279067bb155d2294e4716552587a4721ff19e2520412b"
+        ],
+        "throughSourceSha": "3dfac93ce37a44861c9b78dffe6592010f537f11",
+        "previousThroughSourceSha": "910e63bfa135c172db1ec2fdc1136a20f99507e7",
+        "baselineVersion": "1.385.0",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41148292812",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-01T00:09:04.368Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -123873,7 +123922,11 @@
     "one-pickup-line:8a952571eeeeb26f15d9c041d054405a1d37deeafbdb8361fc34e4ce5dcfc6e4",
     "terminal-build-layers:14af4f81cd46b733cf8727632e9303a91ad556fa8c442642de1674a4775358c2",
     "section-cache-apps-automations:ed98947c4b7cf4de3323415faaaee83466b22f22564fc7f3088d7571a8c9346c",
-    "account-pages-computer-group:4dbed892cd150593c3de8906a8d1567a2301fd8a1cb127b45c9406433bc26691"
+    "account-pages-computer-group:4dbed892cd150593c3de8906a8d1567a2301fd8a1cb127b45c9406433bc26691",
+    "terminal-reads-account-settings:4720e27230e25d883d200222e4bad6b95a450f279698cb5ce91b6d3e0f6779ad",
+    "layered-updater:ed1662b33993c513a7881b0ee5a5f47a96cac589f901cd7f3968344fe4f7c40d",
+    "move-standing-moved-record:3cfcdf94cb2aaabe88e57f91e65f05988b836a978c9f0edaab5e4bb169168a79",
+    "deprecated-microvm-retention:64db4a096fc49c3ab9e279067bb155d2294e4716552587a4721ff19e2520412b"
   ],
-  "consumedThroughSha": "910e63bfa135c172db1ec2fdc1136a20f99507e7"
+  "consumedThroughSha": "3dfac93ce37a44861c9b78dffe6592010f537f11"
 }
