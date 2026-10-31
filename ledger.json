@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "fc667fdd68d170bef06106a69370fc09749d997c",
+  "cursorSha": "fbeb628a4b608a1068d7d0d4e1cdc5226feffe20",
   "highWaterVersion": "1.387.0",
   "rows": [
     {
@@ -120573,6 +120573,18 @@
       "sourceSha": "fc667fdd68d170bef06106a69370fc09749d997c",
       "sourcePackageVersion": "1.389.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0d45bab14b047c47190ec3ec300152d9569ca9bd",
+      "sourcePackageVersion": "1.389.0",
+      "intentIds": [
+        "automations-visit-trim:4fc9f9cfecf6c586e9bbb2eb0cdb10031bc53d2d094f1bfbf397c1962ef3a0f5"
+      ]
+    },
+    {
+      "sourceSha": "fbeb628a4b608a1068d7d0d4e1cdc5226feffe20",
+      "sourcePackageVersion": "1.389.0",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -123959,6 +123971,14 @@
       "summary": "With the unified shell on, the Settings modal draws every section in its own pane, the web pages included (Integrations, Platform MCP, Team computers, Branding, Billing, Capacity, App hosting, Usage). Choosing one, or following a link to one, keeps the modal open; Escape, ⌘W and the close button return you to where you were.",
       "sourceSha": "9ff8d28334288f84ae74d6ec2ea63ae8172e9f0f",
       "identity": "settings-modal-draws-web-pages:3052622d01d05a47ebc5874770b27ee6a45f6836e95a5fa8429e55dae7b1c287"
+    },
+    {
+      "id": "automations-visit-trim",
+      "digest": "4fc9f9cfecf6c586e9bbb2eb0cdb10031bc53d2d094f1bfbf397c1962ef3a0f5",
+      "type": "patch",
+      "summary": "Automations no longer reads the whole automation list again every time its activity summary refreshes. A running workflow's agent log now loads only its newest messages, and its step list leaves out the step inputs and outputs it never shows.",
+      "sourceSha": "0d45bab14b047c47190ec3ec300152d9569ca9bd",
+      "identity": "automations-visit-trim:4fc9f9cfecf6c586e9bbb2eb0cdb10031bc53d2d094f1bfbf397c1962ef3a0f5"
     }
   ],
   "consumedIntentIds": [
