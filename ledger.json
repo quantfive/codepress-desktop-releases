@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6d7e83b33389fa9e0f41e64cf0cf1ba80946961b",
+  "cursorSha": "f5e5db68fc640a1b099cda570be72a1e84c081f0",
   "highWaterVersion": "1.386.0",
   "rows": [
     {
@@ -120210,6 +120210,13 @@
       "sourceSha": "6d7e83b33389fa9e0f41e64cf0cf1ba80946961b",
       "sourcePackageVersion": "1.387.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f5e5db68fc640a1b099cda570be72a1e84c081f0",
+      "sourcePackageVersion": "1.387.2",
+      "intentIds": [
+        "transfer-every-project-state:67fa635ea2e532bdcc0709c546dfee6442650f69935fc39aee97825c44201a26"
+      ]
     }
   ],
   "intents": [
@@ -123524,6 +123531,14 @@
       "summary": "Mark retained MicroVM modules as deprecated so future agent work uses the ECS runner hosts.",
       "sourceSha": "46935c0f9d6a79aeb9ff106de66b298f106d3271",
       "identity": "deprecated-microvm-retention:64db4a096fc49c3ab9e279067bb155d2294e4716552587a4721ff19e2520412b"
+    },
+    {
+      "id": "transfer-every-project-state",
+      "digest": "67fa635ea2e532bdcc0709c546dfee6442650f69935fc39aee97825c44201a26",
+      "type": "patch",
+      "summary": "Offer Hand off… on a project this Mac recorded as moved when sync is on, and add Continue here to the Moved banner.",
+      "sourceSha": "f5e5db68fc640a1b099cda570be72a1e84c081f0",
+      "identity": "transfer-every-project-state:67fa635ea2e532bdcc0709c546dfee6442650f69935fc39aee97825c44201a26"
     }
   ],
   "consumedIntentIds": [
