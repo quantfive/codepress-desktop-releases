@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "528a4e860cfd28c14470f0c91a3ffb3ec1139d9a",
-  "highWaterVersion": "1.392.7",
+  "highWaterVersion": "1.392.8",
   "rows": [
     {
       "schemaVersion": 1,
@@ -63322,6 +63322,50 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:528a4e860cfd28c14470f0c91a3ffb3ec1139d9a",
+      "kind": "main",
+      "sequence": 1858,
+      "sourceSha": "528a4e860cfd28c14470f0c91a3ffb3ec1139d9a",
+      "sourcePackageVersion": "1.393.6",
+      "version": "1.392.8",
+      "publicationDate": "2026-10-31T20:14:17.533Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-all-new-follows-open-conversation:7a27487f2bc0a90ece67c8c064b0bbbab695e54fa5a9cb7604893f6abded1e75"
+        ],
+        "notesIntentIds": [
+          "curved-full-screen-phone-drawers:cb8689bfcb88621d9b7aa5fa8d192b622c50b4259d1b3ee8dc9950bb1ff19a37",
+          "terminal-all-new-follows-open-conversation:7a27487f2bc0a90ece67c8c064b0bbbab695e54fa5a9cb7604893f6abded1e75"
+        ],
+        "throughSourceSha": "528a4e860cfd28c14470f0c91a3ffb3ec1139d9a",
+        "previousThroughSourceSha": "e736a8692be270e0e072e85a2e34acf797079b43",
+        "baselineVersion": "1.392.7",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41237838795",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-01T20:13:52.272Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -126341,7 +126385,8 @@
     "web-project-placeholder:222628c4983d9c704d603cdf56b615976ebcfb6495852d8d6aebefcfb10802b5",
     "terminal-compact-search-pill:f308c07b6c480ec3d041405b38bdbca0e2eb72ba9cb8ba78a456658697fa8b5a",
     "terminal-selected-project-loading:3e2d871381ea5b10d489d58ae41ee3517b0ce09f081e1abf1250d5a45815e614",
-    "curved-full-screen-phone-drawers:cb8689bfcb88621d9b7aa5fa8d192b622c50b4259d1b3ee8dc9950bb1ff19a37"
+    "curved-full-screen-phone-drawers:cb8689bfcb88621d9b7aa5fa8d192b622c50b4259d1b3ee8dc9950bb1ff19a37",
+    "terminal-all-new-follows-open-conversation:7a27487f2bc0a90ece67c8c064b0bbbab695e54fa5a9cb7604893f6abded1e75"
   ],
-  "consumedThroughSha": "e736a8692be270e0e072e85a2e34acf797079b43"
+  "consumedThroughSha": "528a4e860cfd28c14470f0c91a3ffb3ec1139d9a"
 }
