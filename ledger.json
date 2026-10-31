@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b1296f324e56ff6f0d1f5400a51d3cd0e87018b6",
+  "cursorSha": "49bf886960c4a9b40c210aeb76c7b49d86efb921",
   "highWaterVersion": "1.392.5",
   "rows": [
     {
@@ -122066,6 +122066,13 @@
       "sourceSha": "b1296f324e56ff6f0d1f5400a51d3cd0e87018b6",
       "sourcePackageVersion": "1.393.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "49bf886960c4a9b40c210aeb76c7b49d86efb921",
+      "sourcePackageVersion": "1.393.4",
+      "intentIds": [
+        "terminal-selected-project-loading:3e2d871381ea5b10d489d58ae41ee3517b0ce09f081e1abf1250d5a45815e614"
+      ]
     }
   ],
   "intents": [
@@ -125652,6 +125659,14 @@
       "summary": "The title-bar search is now a small \"Search ⌘⇧L\" pill beside the update button, so it no longer covers the Agent project toolbar. It also finds project files: with an Agent project open, matching files appear under Files and open in the Files view. The separate file-search icon beside the Thread and Files tabs is gone; Cmd/Ctrl+P still opens file search.",
       "sourceSha": "68503c33b95086267fbdf0f5571921b2fd8fdacc",
       "identity": "terminal-compact-search-pill:f308c07b6c480ec3d041405b38bdbca0e2eb72ba9cb8ba78a456658697fa8b5a"
+    },
+    {
+      "id": "terminal-selected-project-loading",
+      "digest": "3e2d871381ea5b10d489d58ae41ee3517b0ce09f081e1abf1250d5a45815e614",
+      "type": "patch",
+      "summary": "Show the selected project's known title, status and machine while its thread loads, without displaying another project's thread.",
+      "sourceSha": "49bf886960c4a9b40c210aeb76c7b49d86efb921",
+      "identity": "terminal-selected-project-loading:3e2d871381ea5b10d489d58ae41ee3517b0ce09f081e1abf1250d5a45815e614"
     }
   ],
   "consumedIntentIds": [
