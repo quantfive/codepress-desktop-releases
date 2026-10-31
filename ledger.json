@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ac9e479157089577f2e9941d039b32b7f2044e5a",
+  "cursorSha": "b1c87fd7161104b018e45e61cd83195dbb8803b4",
   "highWaterVersion": "1.390.0",
   "rows": [
     {
@@ -120955,6 +120955,13 @@
       "sourceSha": "ac9e479157089577f2e9941d039b32b7f2044e5a",
       "sourcePackageVersion": "1.391.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b1c87fd7161104b018e45e61cd83195dbb8803b4",
+      "sourcePackageVersion": "1.391.1",
+      "intentIds": [
+        "orchestrator-panels-slide:aa49d9c69ca09a5e2a76d3efc3329d841c35b69cfd2cf0db972972bc1295b82a"
+      ]
     }
   ],
   "intents": [
@@ -124381,6 +124388,14 @@
       "summary": "Folding the unified shell's list with ⌘\\ now eases it shut and open over 200ms instead of snapping, and dragging the sidebar's resize handle follows the cursor without lagging behind it.",
       "sourceSha": "b71c2a73d57b017e8529370af92b8e91bd07c3f6",
       "identity": "shell-list-fold-slide:e4029fc719d7fac289cf8a2073553ccf9cd5da86e570ce5fd9b0e46f66208455"
+    },
+    {
+      "id": "orchestrator-panels-slide",
+      "digest": "aa49d9c69ca09a5e2a76d3efc3329d841c35b69cfd2cf0db972972bc1295b82a",
+      "type": "patch",
+      "summary": "The Orchestrator's chat rail and Details panel now slide in and out over 200ms on desktop instead of snapping. The drawer terminal resizes once, at the final width, rather than on every frame of the slide.",
+      "sourceSha": "b1c87fd7161104b018e45e61cd83195dbb8803b4",
+      "identity": "orchestrator-panels-slide:aa49d9c69ca09a5e2a76d3efc3329d841c35b69cfd2cf0db972972bc1295b82a"
     }
   ],
   "consumedIntentIds": [
