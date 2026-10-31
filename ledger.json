@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "e736a8692be270e0e072e85a2e34acf797079b43",
-  "highWaterVersion": "1.392.6",
+  "highWaterVersion": "1.392.7",
   "rows": [
     {
       "schemaVersion": 1,
@@ -63270,6 +63270,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:e736a8692be270e0e072e85a2e34acf797079b43",
+      "kind": "main",
+      "sequence": 1857,
+      "sourceSha": "e736a8692be270e0e072e85a2e34acf797079b43",
+      "sourcePackageVersion": "1.393.5",
+      "version": "1.392.7",
+      "publicationDate": "2026-10-31T19:02:31.448Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "curved-full-screen-phone-drawers:cb8689bfcb88621d9b7aa5fa8d192b622c50b4259d1b3ee8dc9950bb1ff19a37"
+        ],
+        "notesIntentIds": [
+          "curved-full-screen-phone-drawers:cb8689bfcb88621d9b7aa5fa8d192b622c50b4259d1b3ee8dc9950bb1ff19a37"
+        ],
+        "throughSourceSha": "e736a8692be270e0e072e85a2e34acf797079b43",
+        "previousThroughSourceSha": "49bf886960c4a9b40c210aeb76c7b49d86efb921",
+        "baselineVersion": "1.392.6",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41232176793",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-01T19:02:05.233Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -126223,7 +126266,8 @@
     "project-import-fixture:467833c6b92c85f6d8c5914c07c2c57952118607cc42a55e11cebf83039f96cd",
     "web-project-placeholder:222628c4983d9c704d603cdf56b615976ebcfb6495852d8d6aebefcfb10802b5",
     "terminal-compact-search-pill:f308c07b6c480ec3d041405b38bdbca0e2eb72ba9cb8ba78a456658697fa8b5a",
-    "terminal-selected-project-loading:3e2d871381ea5b10d489d58ae41ee3517b0ce09f081e1abf1250d5a45815e614"
+    "terminal-selected-project-loading:3e2d871381ea5b10d489d58ae41ee3517b0ce09f081e1abf1250d5a45815e614",
+    "curved-full-screen-phone-drawers:cb8689bfcb88621d9b7aa5fa8d192b622c50b4259d1b3ee8dc9950bb1ff19a37"
   ],
-  "consumedThroughSha": "49bf886960c4a9b40c210aeb76c7b49d86efb921"
+  "consumedThroughSha": "e736a8692be270e0e072e85a2e34acf797079b43"
 }
