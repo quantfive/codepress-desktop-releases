@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c7a191bc386f36602ac6be82c35ec30da5c90fd5",
+  "cursorSha": "ed044c53ebc2aff485f21cc1f75a5d65784b5402",
   "highWaterVersion": "1.392.12",
   "rows": [
     {
@@ -122650,6 +122650,13 @@
       "sourceSha": "c7a191bc386f36602ac6be82c35ec30da5c90fd5",
       "sourcePackageVersion": "1.393.12",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ed044c53ebc2aff485f21cc1f75a5d65784b5402",
+      "sourcePackageVersion": "1.393.12",
+      "intentIds": [
+        "quiet-new-chat-composer:7ffb3ddd06d23b5a3a9d2f9d289bd4f64a9d3e1754f1aa33a401e500f3f0e17c"
+      ]
     }
   ],
   "intents": [
@@ -126300,6 +126307,14 @@
       "summary": "Apps keeps each card's loaded preview when you come back to it in the same session, instead of blanking every card and reloading every preview. A kept preview link is never reused once it has expired.",
       "sourceSha": "ae3e9df341b912d8f29c6b066d547f5e892ca3fb",
       "identity": "apps-kept-previews:4c0bb5d36a890f115ed8268451c484be78f2c992f817217a29bfca77514aacab"
+    },
+    {
+      "id": "quiet-new-chat-composer",
+      "digest": "7ffb3ddd06d23b5a3a9d2f9d289bd4f64a9d3e1754f1aa33a401e500f3f0e17c",
+      "type": "patch",
+      "summary": "Keep new-chat controls in one row and support host options in the shared + menu, with one model and effort chip.",
+      "sourceSha": "ed044c53ebc2aff485f21cc1f75a5d65784b5402",
+      "identity": "quiet-new-chat-composer:7ffb3ddd06d23b5a3a9d2f9d289bd4f64a9d3e1754f1aa33a401e500f3f0e17c"
     }
   ],
   "consumedIntentIds": [
