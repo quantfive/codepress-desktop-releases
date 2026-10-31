@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "b16428198f3f67f93e0862cc5b6092bd39c26e6f",
-  "highWaterVersion": "1.392.14",
+  "highWaterVersion": "1.392.15",
   "rows": [
     {
       "schemaVersion": 1,
@@ -63709,6 +63709,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:b16428198f3f67f93e0862cc5b6092bd39c26e6f",
+      "kind": "main",
+      "sequence": 1865,
+      "sourceSha": "b16428198f3f67f93e0862cc5b6092bd39c26e6f",
+      "sourcePackageVersion": "1.393.15",
+      "version": "1.392.15",
+      "publicationDate": "2026-10-31T23:08:45.920Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "lighter-terminal-delivery:0b4c576f4ed60e58c6f594a996b36b8006acaeafc316f7f5f69ade2b1ad85dd5",
+          "patient-intel-daemon-launch:e855cca79cba24ab3a7b1150f2928f4da89eeb076ce256aef3ae9c77a3f66f89"
+        ],
+        "notesIntentIds": [
+          "lighter-terminal-delivery:0b4c576f4ed60e58c6f594a996b36b8006acaeafc316f7f5f69ade2b1ad85dd5",
+          "patient-intel-daemon-launch:e855cca79cba24ab3a7b1150f2928f4da89eeb076ce256aef3ae9c77a3f66f89"
+        ],
+        "throughSourceSha": "b16428198f3f67f93e0862cc5b6092bd39c26e6f",
+        "previousThroughSourceSha": "5f46bfbbc61a2cf9f5fbbff0260e02557cb91001",
+        "baselineVersion": "1.392.14",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41251242573",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-01T23:08:41.373Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -126986,7 +127031,9 @@
     "shared-auto-machine-router:d8231c987aac1d5295f0a1012218b89f30dd4fce58766bbea53c9d369da0cbc5",
     "apps-kept-previews:4c0bb5d36a890f115ed8268451c484be78f2c992f817217a29bfca77514aacab",
     "quiet-new-chat-composer:7ffb3ddd06d23b5a3a9d2f9d289bd4f64a9d3e1754f1aa33a401e500f3f0e17c",
-    "tidy-chat-auto:0705d5d64abd172d178d7d47a2a8d295ec1096686b67ee6e3f9a9df11ceacbbc"
+    "tidy-chat-auto:0705d5d64abd172d178d7d47a2a8d295ec1096686b67ee6e3f9a9df11ceacbbc",
+    "lighter-terminal-delivery:0b4c576f4ed60e58c6f594a996b36b8006acaeafc316f7f5f69ade2b1ad85dd5",
+    "patient-intel-daemon-launch:e855cca79cba24ab3a7b1150f2928f4da89eeb076ce256aef3ae9c77a3f66f89"
   ],
-  "consumedThroughSha": "5f46bfbbc61a2cf9f5fbbff0260e02557cb91001"
+  "consumedThroughSha": "b16428198f3f67f93e0862cc5b6092bd39c26e6f"
 }
