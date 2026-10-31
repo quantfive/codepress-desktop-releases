@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "877d28e405d9e9683d695d9dd10e0d9c9e51d828",
+  "cursorSha": "ca0fdfbc1a108b23876bbb1530bd489491183cf3",
   "highWaterVersion": "1.391.3",
   "rows": [
     {
@@ -121503,6 +121503,13 @@
       "sourceSha": "877d28e405d9e9683d695d9dd10e0d9c9e51d828",
       "sourcePackageVersion": "1.392.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ca0fdfbc1a108b23876bbb1530bd489491183cf3",
+      "sourcePackageVersion": "1.392.5",
+      "intentIds": [
+        "phone-shell-work-slide:65d575be403129b9a5043d9314fc412a570d2f2dfb1d66b7acfe14fbb8c7be48"
+      ]
     }
   ],
   "intents": [
@@ -125025,6 +125032,14 @@
       "summary": "Carry attachments and conversation mentions when starting projects on shared computers. Older computers receive signed file links and conversation references in the brief without blocking Send or showing a carry notice.",
       "sourceSha": "5076acba917095501c716d921b6318780ad38bd2",
       "identity": "green-computers-carry:1cdb9155c07ffeb861a7fc410b6c70bb157364c37c042355b1b269d0aa568320"
+    },
+    {
+      "id": "phone-shell-work-slide",
+      "digest": "65d575be403129b9a5043d9314fc412a570d2f2dfb1d66b7acfe14fbb8c7be48",
+      "type": "patch",
+      "summary": "Make Work push the complete unified phone shell left with the shared phone panel animation, including the header and tabs.",
+      "sourceSha": "ca0fdfbc1a108b23876bbb1530bd489491183cf3",
+      "identity": "phone-shell-work-slide:65d575be403129b9a5043d9314fc412a570d2f2dfb1d66b7acfe14fbb8c7be48"
     }
   ],
   "consumedIntentIds": [
