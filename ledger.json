@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e2c7768b2c352a53751bcd7505db06106a5ec68c",
+  "cursorSha": "0a9b9b86c1b53e1ae5fcf30255b0d35184747973",
   "highWaterVersion": "1.391.1",
   "rows": [
     {
@@ -121300,6 +121300,13 @@
       "sourceSha": "e2c7768b2c352a53751bcd7505db06106a5ec68c",
       "sourcePackageVersion": "1.392.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0a9b9b86c1b53e1ae5fcf30255b0d35184747973",
+      "sourcePackageVersion": "1.392.1",
+      "intentIds": [
+        "mac-arches-build-in-parallel:d92984ff5e728365dd4d648edd896a354748bfa57be273266ca3c9e0f7f66fb8"
+      ]
     }
   ],
   "intents": [
@@ -124774,6 +124781,14 @@
       "summary": "A Cloud handoff the backend refuses now shows the backend's reason, such as the organization's concurrent session limit, instead of only a status code.",
       "sourceSha": "55d4b940423842026cbf5b3eace55e12652a867f",
       "identity": "cloud-handoff-refusal-visible:0b89e44f181bc4f8e13a0c0237321a19af5323eb37e742e2721fad7dbfa421f2"
+    },
+    {
+      "id": "mac-arches-build-in-parallel",
+      "digest": "d92984ff5e728365dd4d648edd896a354748bfa57be273266ca3c9e0f7f66fb8",
+      "type": "patch",
+      "summary": "Let the Mac arm64 and Intel release builds run at the same time on one machine.",
+      "sourceSha": "0a9b9b86c1b53e1ae5fcf30255b0d35184747973",
+      "identity": "mac-arches-build-in-parallel:d92984ff5e728365dd4d648edd896a354748bfa57be273266ca3c9e0f7f66fb8"
     }
   ],
   "consumedIntentIds": [
