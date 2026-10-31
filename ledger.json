@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "704cc0555d4a865852119dae46f506c79d3b8eaf",
+  "cursorSha": "f25d52751cae99cf9f99ed729b3a5088e1f9bc0e",
   "highWaterVersion": "1.391.1",
   "rows": [
     {
@@ -121329,6 +121329,20 @@
       "sourceSha": "704cc0555d4a865852119dae46f506c79d3b8eaf",
       "sourcePackageVersion": "1.392.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d69b54ac8d96d8b3210641aeb4dcfc26dc126d9e",
+      "sourcePackageVersion": "1.392.2",
+      "intentIds": [
+        "return-copy-follows-tab:a9fdca470eec9102e3c7ddb5a58f12db6bbf618554d18af6e7d44cc3309054fd"
+      ]
+    },
+    {
+      "sourceSha": "f25d52751cae99cf9f99ed729b3a5088e1f9bc0e",
+      "sourcePackageVersion": "1.392.2",
+      "intentIds": [
+        "phone-agent-search:ae76f0088358279f4c1de1cd904716c5a9bd98ffa85c4d26a815aa32e08faa3f"
+      ]
     }
   ],
   "intents": [
@@ -124819,6 +124833,22 @@
       "summary": "Linux releases build faster by restoring the Rust cache and skipping work on unchanged layers.",
       "sourceSha": "bc4c715ceab5c7cb253ccae2b968918f2ffdfe36",
       "identity": "linux-lane-faster-delivery:800dce2c936dfe95eaacefbba3d9f137e4bd8290aa1cdb652b89f369cee00074"
+    },
+    {
+      "id": "return-copy-follows-tab",
+      "digest": "a9fdca470eec9102e3c7ddb5a58f12db6bbf618554d18af6e7d44cc3309054fd",
+      "type": "patch",
+      "summary": "A Claude task brought back from Cloud into its tab keeps syncing to its cloud chat.",
+      "sourceSha": "d69b54ac8d96d8b3210641aeb4dcfc26dc126d9e",
+      "identity": "return-copy-follows-tab:a9fdca470eec9102e3c7ddb5a58f12db6bbf618554d18af6e7d44cc3309054fd"
+    },
+    {
+      "id": "phone-agent-search",
+      "digest": "ae76f0088358279f4c1de1cd904716c5a9bd98ffa85c4d26a815aa32e08faa3f",
+      "type": "patch",
+      "summary": "Track the shared phone viewport helper in Terminal's UI dependency closure.",
+      "sourceSha": "f25d52751cae99cf9f99ed729b3a5088e1f9bc0e",
+      "identity": "phone-agent-search:ae76f0088358279f4c1de1cd904716c5a9bd98ffa85c4d26a815aa32e08faa3f"
     }
   ],
   "consumedIntentIds": [
