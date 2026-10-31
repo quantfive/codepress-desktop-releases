@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "3c422ddc7b473693a6b7e5cf5edeb140670c639c",
-  "highWaterVersion": "1.391.2",
+  "highWaterVersion": "1.391.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -62771,6 +62771,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:3c422ddc7b473693a6b7e5cf5edeb140670c639c",
+      "kind": "main",
+      "sequence": 1848,
+      "sourceSha": "3c422ddc7b473693a6b7e5cf5edeb140670c639c",
+      "sourcePackageVersion": "1.392.4",
+      "version": "1.391.3",
+      "publicationDate": "2026-10-31T10:10:27.832Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "shared-terminal-motion:dbc96d4ba64ec68a4c6bc767e5dfc64969cb0e43cbb7adb97155fa7018576570"
+        ],
+        "notesIntentIds": [
+          "shared-terminal-motion:dbc96d4ba64ec68a4c6bc767e5dfc64969cb0e43cbb7adb97155fa7018576570"
+        ],
+        "throughSourceSha": "3c422ddc7b473693a6b7e5cf5edeb140670c639c",
+        "previousThroughSourceSha": "e8ae16a81bc939d64966beb8f7a9d8371f9eaa84",
+        "baselineVersion": "1.391.2",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41191569190",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-01T10:10:00.935Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -125393,7 +125436,8 @@
     "mac-arches-build-in-parallel:d92984ff5e728365dd4d648edd896a354748bfa57be273266ca3c9e0f7f66fb8",
     "linux-lane-faster-delivery:800dce2c936dfe95eaacefbba3d9f137e4bd8290aa1cdb652b89f369cee00074",
     "return-copy-follows-tab:a9fdca470eec9102e3c7ddb5a58f12db6bbf618554d18af6e7d44cc3309054fd",
-    "phone-agent-search:ae76f0088358279f4c1de1cd904716c5a9bd98ffa85c4d26a815aa32e08faa3f"
+    "phone-agent-search:ae76f0088358279f4c1de1cd904716c5a9bd98ffa85c4d26a815aa32e08faa3f",
+    "shared-terminal-motion:dbc96d4ba64ec68a4c6bc767e5dfc64969cb0e43cbb7adb97155fa7018576570"
   ],
-  "consumedThroughSha": "e8ae16a81bc939d64966beb8f7a9d8371f9eaa84"
+  "consumedThroughSha": "3c422ddc7b473693a6b7e5cf5edeb140670c639c"
 }
