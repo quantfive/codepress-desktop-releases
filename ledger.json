@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "32428f1d645447f1782c6706531944c05ddae398",
+  "cursorSha": "5f46bfbbc61a2cf9f5fbbff0260e02557cb91001",
   "highWaterVersion": "1.392.13",
   "rows": [
     {
@@ -122736,6 +122736,13 @@
       "sourceSha": "32428f1d645447f1782c6706531944c05ddae398",
       "sourcePackageVersion": "1.393.13",
       "intentIds": []
+    },
+    {
+      "sourceSha": "5f46bfbbc61a2cf9f5fbbff0260e02557cb91001",
+      "sourcePackageVersion": "1.393.13",
+      "intentIds": [
+        "tidy-chat-auto:0705d5d64abd172d178d7d47a2a8d295ec1096686b67ee6e3f9a9df11ceacbbc"
+      ]
     }
   ],
   "intents": [
@@ -126394,6 +126401,14 @@
       "summary": "Keep new-chat controls in one row and support host options in the shared + menu, with one model and effort chip.",
       "sourceSha": "ed044c53ebc2aff485f21cc1f75a5d65784b5402",
       "identity": "quiet-new-chat-composer:7ffb3ddd06d23b5a3a9d2f9d289bd4f64a9d3e1754f1aa33a401e500f3f0e17c"
+    },
+    {
+      "id": "tidy-chat-auto",
+      "digest": "0705d5d64abd172d178d7d47a2a8d295ec1096686b67ee6e3f9a9df11ceacbbc",
+      "type": "patch",
+      "summary": "Default Terminal Chat kickoff to Auto, using the existing owned-machine routing and This machine fallback.",
+      "sourceSha": "5f46bfbbc61a2cf9f5fbbff0260e02557cb91001",
+      "identity": "tidy-chat-auto:0705d5d64abd172d178d7d47a2a8d295ec1096686b67ee6e3f9a9df11ceacbbc"
     }
   ],
   "consumedIntentIds": [
