@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3f0bbc5d80453834414db908943fc3f22f35d265",
+  "cursorSha": "2053a901da489025b54e213cf7d20d36be444c26",
   "highWaterVersion": "1.390.1",
   "rows": [
     {
@@ -121053,6 +121053,13 @@
       "sourceSha": "3f0bbc5d80453834414db908943fc3f22f35d265",
       "sourcePackageVersion": "1.391.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2053a901da489025b54e213cf7d20d36be444c26",
+      "sourcePackageVersion": "1.391.3",
+      "intentIds": [
+        "mac-cli-running-lane:c95380fd365b6c981f936a7ea5c38e78f2b79f73e7620a7197c376427bde58cc"
+      ]
     }
   ],
   "intents": [
@@ -124495,6 +124502,14 @@
       "summary": "Open a task handed off to the cloud in the Agent tab from its retained card.",
       "sourceSha": "acb612ec948e6bb0ef414279b0ccb1c3318c9fca",
       "identity": "cloud-card-open-chat:22e890de2a76c8e92870ba0ee07f561d1b6a011afe6084103a001c82d6715fb6"
+    },
+    {
+      "id": "mac-cli-running-lane",
+      "digest": "c95380fd365b6c981f936a7ea5c38e78f2b79f73e7620a7197c376427bde58cc",
+      "type": "patch",
+      "summary": "Restore the Mac CLI publish, which refused every delivery because the ledger records a release ID only after the macOS lane completes.",
+      "sourceSha": "2053a901da489025b54e213cf7d20d36be444c26",
+      "identity": "mac-cli-running-lane:c95380fd365b6c981f936a7ea5c38e78f2b79f73e7620a7197c376427bde58cc"
     }
   ],
   "consumedIntentIds": [
