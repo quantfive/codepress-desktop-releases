@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "45ec2ad74123e2e444af41274a520ea247b3b8dd",
+  "cursorSha": "b4c33682685a5a7d585d579f52b20e7cac874f81",
   "highWaterVersion": "1.392.9",
   "rows": [
     {
@@ -122423,6 +122423,13 @@
       "sourceSha": "45ec2ad74123e2e444af41274a520ea247b3b8dd",
       "sourcePackageVersion": "1.393.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b4c33682685a5a7d585d579f52b20e7cac874f81",
+      "sourcePackageVersion": "1.393.8",
+      "intentIds": [
+        "project-tabs-all-there-on-load:7bd30664e291056afe0956fb665cea93809ba88458de84b3ca6f9f68495d4a63"
+      ]
     }
   ],
   "intents": [
@@ -126041,6 +126048,14 @@
       "summary": "A headless Terminal home now answers a synced copy's project actions, so Dismiss on a question works from your phone or another machine instead of failing with \"didn't answer\".",
       "sourceSha": "9a0ecfb514e021ff7962e7311f8840126c9a033f",
       "identity": "headless-home-project-actions:70cd0dfcf0c44f36acac4e66b5948e9d292bec1af9c2584bba9a35054ca059af"
+    },
+    {
+      "id": "project-tabs-all-there-on-load",
+      "digest": "7bd30664e291056afe0956fb665cea93809ba88458de84b3ca6f9f68495d4a63",
+      "type": "patch",
+      "summary": "A project's tab row is complete from the moment it opens: Plans is there in every phase and says \"No plan yet\" until there is one, and a project on another Mac shows Files and Terminal straight away, each saying why while the Mac is offline or still connecting.",
+      "sourceSha": "b4c33682685a5a7d585d579f52b20e7cac874f81",
+      "identity": "project-tabs-all-there-on-load:7bd30664e291056afe0956fb665cea93809ba88458de84b3ca6f9f68495d4a63"
     }
   ],
   "consumedIntentIds": [
