@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7a4188e23660008934e6cba676220623f49ffba0",
+  "cursorSha": "f640eb1e43887b71571d719eb33733a58018f202",
   "highWaterVersion": "1.392.14",
   "rows": [
     {
@@ -122797,6 +122797,13 @@
       "sourceSha": "7a4188e23660008934e6cba676220623f49ffba0",
       "sourcePackageVersion": "1.393.14",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f640eb1e43887b71571d719eb33733a58018f202",
+      "sourcePackageVersion": "1.393.14",
+      "intentIds": [
+        "lighter-terminal-delivery:0b4c576f4ed60e58c6f594a996b36b8006acaeafc316f7f5f69ade2b1ad85dd5"
+      ]
     }
   ],
   "intents": [
@@ -126463,6 +126470,14 @@
       "summary": "Default Terminal Chat kickoff to Auto, using the existing owned-machine routing and This machine fallback.",
       "sourceSha": "5f46bfbbc61a2cf9f5fbbff0260e02557cb91001",
       "identity": "tidy-chat-auto:0705d5d64abd172d178d7d47a2a8d295ec1096686b67ee6e3f9a9df11ceacbbc"
+    },
+    {
+      "id": "lighter-terminal-delivery",
+      "digest": "0b4c576f4ed60e58c6f594a996b36b8006acaeafc316f7f5f69ade2b1ad85dd5",
+      "type": "patch",
+      "summary": "Terminal releases reach users faster: admission and publishing take less time, CLI packaging no longer holds up the desktop build, and each delivery reports how long every lane took.",
+      "sourceSha": "f640eb1e43887b71571d719eb33733a58018f202",
+      "identity": "lighter-terminal-delivery:0b4c576f4ed60e58c6f594a996b36b8006acaeafc316f7f5f69ade2b1ad85dd5"
     }
   ],
   "consumedIntentIds": [
