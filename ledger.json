@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4f06e21bd84c45e2ada78b42fe2e993a2bcedcf8",
+  "cursorSha": "99b89bbb7288fbf70df54bd381ec6d101b8fabbf",
   "highWaterVersion": "1.388.0",
   "rows": [
     {
@@ -120662,6 +120662,18 @@
       "sourceSha": "4f06e21bd84c45e2ada78b42fe2e993a2bcedcf8",
       "sourcePackageVersion": "1.389.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "6f8c29255b4a0da7432f2fccdef014a37fb952b0",
+      "sourcePackageVersion": "1.389.1",
+      "intentIds": [
+        "terminal-account-pages-regroup:8df57167685edb8920cff60b0f4e8cef16867c724d81d5b06501f7a88d6112c4"
+      ]
+    },
+    {
+      "sourceSha": "99b89bbb7288fbf70df54bd381ec6d101b8fabbf",
+      "sourcePackageVersion": "1.389.1",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -124056,6 +124068,14 @@
       "summary": "Automations no longer reads the whole automation list again every time its activity summary refreshes. A running workflow's agent log now loads only its newest messages, and its step list leaves out the step inputs and outputs it never shows.",
       "sourceSha": "0d45bab14b047c47190ec3ec300152d9569ca9bd",
       "identity": "automations-visit-trim:4fc9f9cfecf6c586e9bbb2eb0cdb10031bc53d2d094f1bfbf397c1962ef3a0f5"
+    },
+    {
+      "id": "terminal-account-pages-regroup",
+      "digest": "8df57167685edb8920cff60b0f4e8cef16867c724d81d5b06501f7a88d6112c4",
+      "type": "minor",
+      "summary": "Settings → Account in Terminal draws the same Orchestrator, Agent accounts, Agents, Notifications and My computers pages as the web and the phone, in the shell's Settings modal and in the Settings dialog. The Computer tabs keep only what belongs to this computer: model defaults, the agent feed, the cloud copy, the step check, working hours, feature flags, compaction windows, the automation and pull-request switches, failover, keep-updated and each repository rule's merge choice now live on the Account page, and each leaves one line that opens it. The Computer group is named \"Computer · <this computer>\".",
+      "sourceSha": "6f8c29255b4a0da7432f2fccdef014a37fb952b0",
+      "identity": "terminal-account-pages-regroup:8df57167685edb8920cff60b0f4e8cef16867c724d81d5b06501f7a88d6112c4"
     }
   ],
   "consumedIntentIds": [
