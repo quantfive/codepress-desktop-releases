@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "acb612ec948e6bb0ef414279b0ccb1c3318c9fca",
+  "cursorSha": "3f0bbc5d80453834414db908943fc3f22f35d265",
   "highWaterVersion": "1.390.1",
   "rows": [
     {
@@ -121043,6 +121043,16 @@
       "intentIds": [
         "cloud-card-open-chat:22e890de2a76c8e92870ba0ee07f561d1b6a011afe6084103a001c82d6715fb6"
       ]
+    },
+    {
+      "sourceSha": "fd755cb477fa953216b0f3c1e04962303f2e16e1",
+      "sourcePackageVersion": "1.391.2",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "3f0bbc5d80453834414db908943fc3f22f35d265",
+      "sourcePackageVersion": "1.391.3",
+      "intentIds": []
     }
   ],
   "intents": [
