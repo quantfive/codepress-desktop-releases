@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4b1bac91a2db157e02fc73aedcb3515b7a4228ca",
+  "cursorSha": "e736a8692be270e0e072e85a2e34acf797079b43",
   "highWaterVersion": "1.392.6",
   "rows": [
     {
@@ -122158,6 +122158,18 @@
       "sourceSha": "4b1bac91a2db157e02fc73aedcb3515b7a4228ca",
       "sourcePackageVersion": "1.393.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "629c99102be427b79b95754ec75a60b2d2dcda50",
+      "sourcePackageVersion": "1.393.5",
+      "intentIds": [
+        "curved-full-screen-phone-drawers:cb8689bfcb88621d9b7aa5fa8d192b622c50b4259d1b3ee8dc9950bb1ff19a37"
+      ]
+    },
+    {
+      "sourceSha": "e736a8692be270e0e072e85a2e34acf797079b43",
+      "sourcePackageVersion": "1.393.5",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -125752,6 +125764,14 @@
       "summary": "Show the selected project's known title, status and machine while its thread loads, without displaying another project's thread.",
       "sourceSha": "49bf886960c4a9b40c210aeb76c7b49d86efb921",
       "identity": "terminal-selected-project-loading:3e2d871381ea5b10d489d58ae41ee3517b0ce09f081e1abf1250d5a45815e614"
+    },
+    {
+      "id": "curved-full-screen-phone-drawers",
+      "digest": "cb8689bfcb88621d9b7aa5fa8d192b622c50b4259d1b3ee8dc9950bb1ff19a37",
+      "type": "patch",
+      "summary": "Round edge-to-edge phone drawer cards and extend both drawers and shell lists to the screen bottom while keeping controls clear of the home indicator. Animate their slide using translation and opacity with static edge and shadow paint.",
+      "sourceSha": "629c99102be427b79b95754ec75a60b2d2dcda50",
+      "identity": "curved-full-screen-phone-drawers:cb8689bfcb88621d9b7aa5fa8d192b622c50b4259d1b3ee8dc9950bb1ff19a37"
     }
   ],
   "consumedIntentIds": [
