@@ -62925,10 +62925,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41199494318",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-01T12:06:16.793Z",
         "dispatch": null,
         "failures": []
       }
