@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "c37d364ac654a1656fb63c0f6c54549e5529249c",
-  "highWaterVersion": "1.389.1",
+  "highWaterVersion": "1.390.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -62482,6 +62482,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:c37d364ac654a1656fb63c0f6c54549e5529249c",
+      "kind": "main",
+      "sequence": 1843,
+      "sourceSha": "c37d364ac654a1656fb63c0f6c54549e5529249c",
+      "sourcePackageVersion": "1.391.0",
+      "version": "1.390.0",
+      "publicationDate": "2026-10-31T05:36:19.179Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "live-terminal-fit-size:750127c3bc0e2f65d337f044092da7f653bb1b0b0cf553dbe6a563b5b8b3d014"
+        ],
+        "notesIntentIds": [
+          "live-terminal-fit-size:750127c3bc0e2f65d337f044092da7f653bb1b0b0cf553dbe6a563b5b8b3d014"
+        ],
+        "throughSourceSha": "c37d364ac654a1656fb63c0f6c54549e5529249c",
+        "previousThroughSourceSha": "4ff18dfa560c40c62f0ae79c962d7df79e90764b",
+        "baselineVersion": "1.389.1",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41173158645",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-01T05:35:49.454Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -124732,7 +124775,8 @@
     "settings-modal-draws-web-pages:3052622d01d05a47ebc5874770b27ee6a45f6836e95a5fa8429e55dae7b1c287",
     "automations-visit-trim:4fc9f9cfecf6c586e9bbb2eb0cdb10031bc53d2d094f1bfbf397c1962ef3a0f5",
     "terminal-account-pages-regroup:8df57167685edb8920cff60b0f4e8cef16867c724d81d5b06501f7a88d6112c4",
-    "pinned-one-feed-rail:6d0cb77f7f43a4a794cfec6e513a1b74d54143a64b56aae11c9e383a81f2a9b4"
+    "pinned-one-feed-rail:6d0cb77f7f43a4a794cfec6e513a1b74d54143a64b56aae11c9e383a81f2a9b4",
+    "live-terminal-fit-size:750127c3bc0e2f65d337f044092da7f653bb1b0b0cf553dbe6a563b5b8b3d014"
   ],
-  "consumedThroughSha": "4ff18dfa560c40c62f0ae79c962d7df79e90764b"
+  "consumedThroughSha": "c37d364ac654a1656fb63c0f6c54549e5529249c"
 }
