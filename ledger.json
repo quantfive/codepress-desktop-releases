@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f85be3bd57f483017dc68e475852cd9ff782c0e3",
+  "cursorSha": "d62ce4849bced924d4fc01b9014749645dd0bc0f",
   "highWaterVersion": "1.391.4",
   "rows": [
     {
@@ -121609,6 +121609,13 @@
       "sourceSha": "f85be3bd57f483017dc68e475852cd9ff782c0e3",
       "sourcePackageVersion": "1.392.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d62ce4849bced924d4fc01b9014749645dd0bc0f",
+      "sourcePackageVersion": "1.392.7",
+      "intentIds": [
+        "terminal-stops-reading-retired-flags:bf85f7a073ae769fe343e9e7b0c12f3cb92ca71f8cfd31d6af28356a54ff1151"
+      ]
     }
   ],
   "intents": [
@@ -125147,6 +125154,14 @@
       "summary": "Track the shared shell search field in Terminal's UI dependency closure so shared shell changes receive browser verification. Terminal's own search bar remains a separate change.",
       "sourceSha": "a4227fdaca1e28846b198447bc406790181ae898",
       "identity": "desktop-shell-search:a8dceb9af947af38797ba195d22699683789a02614583cdd3675f0e7b476af53"
+    },
+    {
+      "id": "terminal-stops-reading-retired-flags",
+      "digest": "bf85f7a073ae769fe343e9e7b0c12f3cb92ca71f8cfd31d6af28356a54ff1151",
+      "type": "minor",
+      "summary": "The one agent feed, the unified shell and Orchestrator prompt customization are on for everyone: Terminal no longer reads the retired feed, shell, sync and instructions flags, and Settings → Orchestrator drops the Agent feed switches. Cards always sync; transcripts, snapshots, checkpoints and machine load follow only the admin's copies setting, and a copy endpoint that answers 404 is read quietly as copies off.",
+      "sourceSha": "d62ce4849bced924d4fc01b9014749645dd0bc0f",
+      "identity": "terminal-stops-reading-retired-flags:bf85f7a073ae769fe343e9e7b0c12f3cb92ca71f8cfd31d6af28356a54ff1151"
     }
   ],
   "consumedIntentIds": [
