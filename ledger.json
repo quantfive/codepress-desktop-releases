@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "f3e7cfe6dcbc1e87bb6b8e798559881c07991e67",
-  "highWaterVersion": "1.386.2",
+  "highWaterVersion": "1.387.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -62250,6 +62250,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:f3e7cfe6dcbc1e87bb6b8e798559881c07991e67",
+      "kind": "main",
+      "sequence": 1839,
+      "sourceSha": "f3e7cfe6dcbc1e87bb6b8e798559881c07991e67",
+      "sourcePackageVersion": "1.387.9",
+      "version": "1.387.0",
+      "publicationDate": "2026-10-31T02:14:24.854Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "remote-terminal-any-stream:92818263003277e9ca8e478db4ff4951228b665575cb9eef3d9892245106b195",
+          "terminal-live-stream-home:612ee5e6227376de6f38ca374db6d71b35bb0273c93d240a7ab9135bf76d3610"
+        ],
+        "notesIntentIds": [
+          "remote-terminal-any-stream:92818263003277e9ca8e478db4ff4951228b665575cb9eef3d9892245106b195",
+          "terminal-live-stream-home:612ee5e6227376de6f38ca374db6d71b35bb0273c93d240a7ab9135bf76d3610"
+        ],
+        "throughSourceSha": "f3e7cfe6dcbc1e87bb6b8e798559881c07991e67",
+        "previousThroughSourceSha": "51fdc59a51df38943c509f61d67f728fb5c268fc",
+        "baselineVersion": "1.386.2",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41158974196",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-01T02:13:59.107Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -124269,7 +124314,9 @@
     "warm-every-section-first-page:5c7d2d50c43b95ea471e784e78f37c993a49699813e336eafd3b7e10ea5463ce",
     "repositories-open-from-managed-clone:d2a0e80040522cb8e02fe1ea9bd598bf8e9b63b5208a6abdd1f468b82da6858a",
     "phone-drawer-pending-section:efd19f1028d3172b1910f98454e4338b206c493259c6ac7e63db4a175dc0ee79",
-    "section-cache-guard:3ad155b476a369246fff3800b1b6306333b8d8ee7018d053a7770c2809e5cf0c"
+    "section-cache-guard:3ad155b476a369246fff3800b1b6306333b8d8ee7018d053a7770c2809e5cf0c",
+    "remote-terminal-any-stream:92818263003277e9ca8e478db4ff4951228b665575cb9eef3d9892245106b195",
+    "terminal-live-stream-home:612ee5e6227376de6f38ca374db6d71b35bb0273c93d240a7ab9135bf76d3610"
   ],
-  "consumedThroughSha": "51fdc59a51df38943c509f61d67f728fb5c268fc"
+  "consumedThroughSha": "f3e7cfe6dcbc1e87bb6b8e798559881c07991e67"
 }
