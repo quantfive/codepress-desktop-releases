@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ed11889458f59c5a77062ef437e4ce1aae0a4d81",
+  "cursorSha": "ae3e9df341b912d8f29c6b066d547f5e892ca3fb",
   "highWaterVersion": "1.392.12",
   "rows": [
     {
@@ -122625,6 +122625,13 @@
       "sourceSha": "ed11889458f59c5a77062ef437e4ce1aae0a4d81",
       "sourcePackageVersion": "1.393.11",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ae3e9df341b912d8f29c6b066d547f5e892ca3fb",
+      "sourcePackageVersion": "1.393.11",
+      "intentIds": [
+        "apps-kept-previews:4c0bb5d36a890f115ed8268451c484be78f2c992f817217a29bfca77514aacab"
+      ]
     }
   ],
   "intents": [
@@ -126267,6 +126274,14 @@
       "summary": "Share Terminal's Auto device mapping with web and phone while preserving Terminal's existing router behavior.",
       "sourceSha": "3a3b0687c4fad614afec31c054fd809d625f80eb",
       "identity": "shared-auto-machine-router:d8231c987aac1d5295f0a1012218b89f30dd4fce58766bbea53c9d369da0cbc5"
+    },
+    {
+      "id": "apps-kept-previews",
+      "digest": "4c0bb5d36a890f115ed8268451c484be78f2c992f817217a29bfca77514aacab",
+      "type": "patch",
+      "summary": "Apps keeps each card's loaded preview when you come back to it in the same session, instead of blanking every card and reloading every preview. A kept preview link is never reused once it has expired.",
+      "sourceSha": "ae3e9df341b912d8f29c6b066d547f5e892ca3fb",
+      "identity": "apps-kept-previews:4c0bb5d36a890f115ed8268451c484be78f2c992f817217a29bfca77514aacab"
     }
   ],
   "consumedIntentIds": [
