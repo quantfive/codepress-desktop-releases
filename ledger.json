@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1cc201d0c92dc75f2cb301f52da1a1a9c83a5fbe",
+  "cursorSha": "58e9723fc0f0f865e0d198897add3daca464553e",
   "highWaterVersion": "1.395.6",
   "rows": [
     {
@@ -124455,6 +124455,18 @@
       "sourceSha": "1cc201d0c92dc75f2cb301f52da1a1a9c83a5fbe",
       "sourcePackageVersion": "1.395.9",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e6372273c7a9a7f633b49536fe990c2d9d16d508",
+      "sourcePackageVersion": "1.395.9",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "58e9723fc0f0f865e0d198897add3daca464553e",
+      "sourcePackageVersion": "1.395.9",
+      "intentIds": [
+        "kickoff-saved-model-defaults:6dfbb9f39bfc08ad8ae299e78826d994674ee1a3ad1e9f30a47823e6201d09e3"
+      ]
     }
   ],
   "intents": [
@@ -128329,6 +128341,14 @@
       "summary": "Orchestrators start sooner: the instructions refresh, MCP status, runtime preparation, Platform MCP preparation and the account env now run while the project's session worktree is prepared, a new session worktree is made with one fetch of origin instead of four, and each start logs a `pm start timing` line.",
       "sourceSha": "e5cbc2ede9a1a613d571ef93d65742338a1ac4ce",
       "identity": "parallel-pm-start:b1a3f7c6b6089dc5dccf86a551cdda8472ff189cf872f899bbcd44c8efcc17b2"
+    },
+    {
+      "id": "kickoff-saved-model-defaults",
+      "digest": "6dfbb9f39bfc08ad8ae299e78826d994674ee1a3ad1e9f30a47823e6201d09e3",
+      "type": "patch",
+      "summary": "Use saved personal Orchestrator and Workers models for kickoffs without explicit model picks.",
+      "sourceSha": "58e9723fc0f0f865e0d198897add3daca464553e",
+      "identity": "kickoff-saved-model-defaults:6dfbb9f39bfc08ad8ae299e78826d994674ee1a3ad1e9f30a47823e6201d09e3"
     }
   ],
   "consumedIntentIds": [
