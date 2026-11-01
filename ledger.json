@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "fd3720064f077478fb4b9343cf8c544078fef810",
+  "cursorSha": "461685c4178f07a26feb4b90b7d26550c2576793",
   "highWaterVersion": "1.399.4",
   "rows": [
     {
@@ -126580,6 +126580,13 @@
       "sourceSha": "fd3720064f077478fb4b9343cf8c544078fef810",
       "sourcePackageVersion": "1.400.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "461685c4178f07a26feb4b90b7d26550c2576793",
+      "sourcePackageVersion": "1.400.0",
+      "intentIds": [
+        "honest-account-switch-results:1c2afdc8eb6ed282732744fa6b9059833ca7bc7396381ca11cf56d8c51f08506"
+      ]
     }
   ],
   "intents": [
@@ -130766,6 +130773,14 @@
       "summary": "A new install opens the real Terminal window as soon as the server runtime is downloaded, instead of after every runtime layer. The agent runtime and the computer-use Driver keep downloading in parallel behind it, with an install banner that shows progress, a failed attempt and a Retry button. Terminals work right away, and local agents and computer use report that they are still installing and start once their layer lands, without a restart.",
       "sourceSha": "de2e5851076845f24f0a8fa37db70be85deec34a",
       "identity": "first-install-real-window:41c24cc7f2811d2b683df0e0bc6eece4cc1b0c8d597c43d659242de36e87ae63"
+    },
+    {
+      "id": "honest-account-switch-results",
+      "digest": "1c2afdc8eb6ed282732744fa6b9059833ca7bc7396381ca11cf56d8c51f08506",
+      "type": "patch",
+      "summary": "An account switch now tells you what happened: switched, still switching, replaced by a newer choice, or failed with the real reason. Accounts and the agent tools use the same words.",
+      "sourceSha": "461685c4178f07a26feb4b90b7d26550c2576793",
+      "identity": "honest-account-switch-results:1c2afdc8eb6ed282732744fa6b9059833ca7bc7396381ca11cf56d8c51f08506"
     }
   ],
   "consumedIntentIds": [
