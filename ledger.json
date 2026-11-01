@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "2f039789e27b884280845e81dd9434c2d76dc5fa",
-  "highWaterVersion": "1.395.7",
+  "highWaterVersion": "1.396.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -64814,6 +64814,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:2f039789e27b884280845e81dd9434c2d76dc5fa",
+      "kind": "main",
+      "sequence": 1885,
+      "sourceSha": "2f039789e27b884280845e81dd9434c2d76dc5fa",
+      "sourcePackageVersion": "1.396.0",
+      "version": "1.396.0",
+      "publicationDate": "2026-11-01T08:35:48.941Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "picker-remote-access-machines:9d2725c0ec7389b7f887a690b78613bb5a12330e9e4e046ce19b867ac0558be9"
+        ],
+        "notesIntentIds": [
+          "picker-remote-access-machines:9d2725c0ec7389b7f887a690b78613bb5a12330e9e4e046ce19b867ac0558be9"
+        ],
+        "throughSourceSha": "2f039789e27b884280845e81dd9434c2d76dc5fa",
+        "previousThroughSourceSha": "953cb663b45de93257bfa50dff3dcf8785ff2bca",
+        "baselineVersion": "1.395.7",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41289507137",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-02T08:35:44.648Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -128938,7 +128981,8 @@
     "bring-moved-project-back:48f0ceff79fe7a74c1d66d82fdfac81e7ada052175c8a05c6e825600f73d15cf",
     "git-identity-warm-invalidations:bf1d30cc1a617799ec07a00f9511db01241e51f4993994b567945df142cd19ce",
     "parallel-pm-start:b1a3f7c6b6089dc5dccf86a551cdda8472ff189cf872f899bbcd44c8efcc17b2",
-    "kickoff-saved-model-defaults:6dfbb9f39bfc08ad8ae299e78826d994674ee1a3ad1e9f30a47823e6201d09e3"
+    "kickoff-saved-model-defaults:6dfbb9f39bfc08ad8ae299e78826d994674ee1a3ad1e9f30a47823e6201d09e3",
+    "picker-remote-access-machines:9d2725c0ec7389b7f887a690b78613bb5a12330e9e4e046ce19b867ac0558be9"
   ],
-  "consumedThroughSha": "953cb663b45de93257bfa50dff3dcf8785ff2bca"
+  "consumedThroughSha": "2f039789e27b884280845e81dd9434c2d76dc5fa"
 }
