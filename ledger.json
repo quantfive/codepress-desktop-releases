@@ -66255,10 +66255,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41363785277",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-02T23:47:39.563Z",
         "dispatch": null,
         "failures": []
       }
