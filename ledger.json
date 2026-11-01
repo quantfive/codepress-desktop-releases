@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e010240316cd25717f9144af4b186764bac96fcf",
+  "cursorSha": "9997e0ad88055dd4465261e27336a174d942906e",
   "highWaterVersion": "1.399.0",
   "rows": [
     {
@@ -126238,6 +126238,13 @@
       "sourceSha": "e010240316cd25717f9144af4b186764bac96fcf",
       "sourcePackageVersion": "1.399.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9997e0ad88055dd4465261e27336a174d942906e",
+      "sourcePackageVersion": "1.399.2",
+      "intentIds": [
+        "copy-answers-carry-mentions:c84a5db38dd286d8f4215b570dfb4927e4c9f414153ebc2c9a8905b40f6bb3f5"
+      ]
     }
   ],
   "intents": [
@@ -130360,6 +130367,14 @@
       "summary": "Secure Access now covers the git, pull request, workflow and agent hook routes, so a tunnel URL alone can no longer merge a pull request or change hooks. A teammate's Diff tab says whose files these are instead of showing a status code.",
       "sourceSha": "36737b3bd5bc70e9723ff8f42e0dd8afe10616a4",
       "identity": "api-auth-before-every-route:92ded3a387f9bf6913182b2c0686af2f461f3a1f00229dd196c75c4f727aa197"
+    },
+    {
+      "id": "copy-answers-carry-mentions",
+      "digest": "c84a5db38dd286d8f4215b570dfb4927e4c9f414153ebc2c9a8905b40f6bb3f5",
+      "type": "patch",
+      "summary": "On a synced copy, `@` now lists the same chats whatever the home runs, and answers and blocker replies carry their picks to the home. A home too old to take them refuses at send with the draft kept.",
+      "sourceSha": "9997e0ad88055dd4465261e27336a174d942906e",
+      "identity": "copy-answers-carry-mentions:c84a5db38dd286d8f4215b570dfb4927e4c9f414153ebc2c9a8905b40f6bb3f5"
     }
   ],
   "consumedIntentIds": [
