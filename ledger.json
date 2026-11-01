@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "34295bfbf373133e01e605b5871ab4ac9bb44308",
+  "cursorSha": "9ee65d1d2f301991d822b9c2ee2f2e06132f991d",
   "highWaterVersion": "1.396.3",
   "rows": [
     {
@@ -124876,6 +124876,11 @@
       "intentIds": [
         "warm-session-worktree:db926093028fec6e897851a9db44cd113741985b5d8037a31ee09cf0df06f787"
       ]
+    },
+    {
+      "sourceSha": "9ee65d1d2f301991d822b9c2ee2f2e06132f991d",
+      "sourcePackageVersion": "1.396.4",
+      "intentIds": []
     }
   ],
   "intents": [
