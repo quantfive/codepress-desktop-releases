@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "59420aac027ae8b5969b0e70e582a88614dbc558",
+  "cursorSha": "6bf9326bff2455710d01704a1421201d007d12bb",
   "highWaterVersion": "1.393.7",
   "rows": [
     {
@@ -123709,6 +123709,13 @@
       "sourceSha": "59420aac027ae8b5969b0e70e582a88614dbc558",
       "sourcePackageVersion": "1.394.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "6bf9326bff2455710d01704a1421201d007d12bb",
+      "sourcePackageVersion": "1.394.8",
+      "intentIds": [
+        "orchestrator-edge-case-matrix:de28dfa19c9b5ed951629290d2f7abd0a35e8285cbbe628b7d6d50089f6793c2"
+      ]
     }
   ],
   "intents": [
@@ -127479,6 +127486,14 @@
       "summary": "Let local Orchestrators post HTML from a file path and reuse mockups without repeating their markup in the transcript.",
       "sourceSha": "0f66820375d13df1816a041df81ba9945582a11b",
       "identity": "tidy-post-html-path:6c8d59b70ae012e9e1f872bb44fc6183c48178f414203ff41204c43e9d22ec34"
+    },
+    {
+      "id": "orchestrator-edge-case-matrix",
+      "digest": "de28dfa19c9b5ed951629290d2f7abd0a35e8285cbbe628b7d6d50089f6793c2",
+      "type": "patch",
+      "summary": "The Orchestrator now plans an edge-case inventory for every change and a layout matrix for UI work, and views each screen's screenshots itself before reporting a UI pull request, building the layout matrix from the diff when the plan has none or misses a screen.",
+      "sourceSha": "6bf9326bff2455710d01704a1421201d007d12bb",
+      "identity": "orchestrator-edge-case-matrix:de28dfa19c9b5ed951629290d2f7abd0a35e8285cbbe628b7d6d50089f6793c2"
     }
   ],
   "consumedIntentIds": [
