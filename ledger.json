@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "016926855f1f6aa9ac7209325e8f39bdfba39954",
-  "highWaterVersion": "1.393.2",
+  "highWaterVersion": "1.393.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -63996,6 +63996,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:016926855f1f6aa9ac7209325e8f39bdfba39954",
+      "kind": "main",
+      "sequence": 1870,
+      "sourceSha": "016926855f1f6aa9ac7209325e8f39bdfba39954",
+      "sourcePackageVersion": "1.394.4",
+      "version": "1.393.3",
+      "publicationDate": "2026-11-01T02:01:10.708Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "kickoff-send-spinner:3ef6077bdafe81e8c40335501083998fe658bf809cf833a1bea6655aa3ac17ce"
+        ],
+        "notesIntentIds": [
+          "kickoff-send-spinner:3ef6077bdafe81e8c40335501083998fe658bf809cf833a1bea6655aa3ac17ce"
+        ],
+        "throughSourceSha": "016926855f1f6aa9ac7209325e8f39bdfba39954",
+        "previousThroughSourceSha": "b294ad247cc63d7bbd630a80a5960402f096f61f",
+        "baselineVersion": "1.393.2",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41263393454",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-02T02:01:04.830Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -127506,7 +127549,8 @@
     "cli-lane-alongside-mac:2a57111f56c78e3cd17b59cf4438e59746210f0d6e938d1a5be0c5e8bb675548",
     "slim-rail-one-selected:b8de1946723c7cb7b3c256bec90c2119e442169df534af3612413ec9cb1dc2e5",
     "friendly-machines-discovery:81383172abbbf001bf1c2772b3f0a7c08c4c3accc68c37b299af79e6d658a3b1",
-    "terminal-all-organizations:07dba1735b5142da45b40d5a8a40673b5520be990dd8166dd72a5c0d9d140b95"
+    "terminal-all-organizations:07dba1735b5142da45b40d5a8a40673b5520be990dd8166dd72a5c0d9d140b95",
+    "kickoff-send-spinner:3ef6077bdafe81e8c40335501083998fe658bf809cf833a1bea6655aa3ac17ce"
   ],
-  "consumedThroughSha": "b294ad247cc63d7bbd630a80a5960402f096f61f"
+  "consumedThroughSha": "016926855f1f6aa9ac7209325e8f39bdfba39954"
 }
