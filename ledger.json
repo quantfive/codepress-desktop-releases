@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "209b9f9d3f72d435ca9a60bce413e17f3d09db38",
-  "highWaterVersion": "1.396.10",
+  "highWaterVersion": "1.396.11",
   "rows": [
     {
       "schemaVersion": 1,
@@ -65423,6 +65423,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:209b9f9d3f72d435ca9a60bce413e17f3d09db38",
+      "kind": "main",
+      "sequence": 1896,
+      "sourceSha": "209b9f9d3f72d435ca9a60bce413e17f3d09db38",
+      "sourcePackageVersion": "1.396.12",
+      "version": "1.396.11",
+      "publicationDate": "2026-11-01T18:35:35.811Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "handoff-dialog-dot-divider:d62035ab037d4427e9ad6c7055f237982bd00ed47c320f55bb171fff9f9a9958"
+        ],
+        "notesIntentIds": [
+          "handoff-dialog-dot-divider:d62035ab037d4427e9ad6c7055f237982bd00ed47c320f55bb171fff9f9a9958"
+        ],
+        "throughSourceSha": "209b9f9d3f72d435ca9a60bce413e17f3d09db38",
+        "previousThroughSourceSha": "26c22fd158dbd43cb25a1e44d77ffd3ecd3d9b86",
+        "baselineVersion": "1.396.10",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41337385172",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-02T18:35:31.053Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -129930,7 +129973,8 @@
     "open-timing-first-row:9fc8d4a74fda06f912106730ac818221cba2725dc392f87a72dcdd70608b25a4",
     "kimi-relay-transient-hardening:36f469e7ae1d0b37da24ad20a74dd49f0b9e9f09813030bb8ebccfc8476109db",
     "channel-gap-headless-refusals:ee727a05f45ac203024482c96be8ed123ca83d600ca35d88433ddaaf5f21f8af",
-    "rail-row-draws-at-once:3ff44e8455b6228aa77020315867391d6c044d48eb552ad4328c68cfaed16ab6"
+    "rail-row-draws-at-once:3ff44e8455b6228aa77020315867391d6c044d48eb552ad4328c68cfaed16ab6",
+    "handoff-dialog-dot-divider:d62035ab037d4427e9ad6c7055f237982bd00ed47c320f55bb171fff9f9a9958"
   ],
-  "consumedThroughSha": "26c22fd158dbd43cb25a1e44d77ffd3ecd3d9b86"
+  "consumedThroughSha": "209b9f9d3f72d435ca9a60bce413e17f3d09db38"
 }
