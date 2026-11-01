@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "9997e0ad88055dd4465261e27336a174d942906e",
-  "highWaterVersion": "1.399.0",
+  "highWaterVersion": "1.399.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -65983,6 +65983,53 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:9997e0ad88055dd4465261e27336a174d942906e",
+      "kind": "main",
+      "sequence": 1906,
+      "sourceSha": "9997e0ad88055dd4465261e27336a174d942906e",
+      "sourcePackageVersion": "1.399.2",
+      "version": "1.399.1",
+      "publicationDate": "2026-11-01T22:13:30.211Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "google-consumer-disclosure:f47572c533d976269a9e12f4ae61a157e3c6a601a789e0972f8b32b42957a205",
+          "api-auth-before-every-route:92ded3a387f9bf6913182b2c0686af2f461f3a1f00229dd196c75c4f727aa197",
+          "copy-answers-carry-mentions:c84a5db38dd286d8f4215b570dfb4927e4c9f414153ebc2c9a8905b40f6bb3f5"
+        ],
+        "notesIntentIds": [
+          "google-consumer-disclosure:f47572c533d976269a9e12f4ae61a157e3c6a601a789e0972f8b32b42957a205",
+          "api-auth-before-every-route:92ded3a387f9bf6913182b2c0686af2f461f3a1f00229dd196c75c4f727aa197",
+          "copy-answers-carry-mentions:c84a5db38dd286d8f4215b570dfb4927e4c9f414153ebc2c9a8905b40f6bb3f5"
+        ],
+        "throughSourceSha": "9997e0ad88055dd4465261e27336a174d942906e",
+        "previousThroughSourceSha": "223ef2f101555828dc1e0dc1dcc0cb82152311cf",
+        "baselineVersion": "1.399.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41355997678",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-02T22:13:25.689Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -130890,7 +130937,10 @@
     "terminal-paint-first:256b15216a3eea33e53eb9ed4f90a5b8f15c99d7607d1fac0541001bff20b608",
     "copy-model-chips:4455a25564f628cf73c1279ab1edaf8dc8f287265c470b96df0a160eea188527",
     "sessions-before-socket:376c7319d58041114b4eb2a187a0c04dbfa229c2d1c71556de4813bf76c47f79",
-    "every-machine-reports-load:dbffceccfa3569d05593cb1722b5efb90f1b56c69dc6b569916aca88294843f8"
+    "every-machine-reports-load:dbffceccfa3569d05593cb1722b5efb90f1b56c69dc6b569916aca88294843f8",
+    "google-consumer-disclosure:f47572c533d976269a9e12f4ae61a157e3c6a601a789e0972f8b32b42957a205",
+    "api-auth-before-every-route:92ded3a387f9bf6913182b2c0686af2f461f3a1f00229dd196c75c4f727aa197",
+    "copy-answers-carry-mentions:c84a5db38dd286d8f4215b570dfb4927e4c9f414153ebc2c9a8905b40f6bb3f5"
   ],
-  "consumedThroughSha": "223ef2f101555828dc1e0dc1dcc0cb82152311cf"
+  "consumedThroughSha": "9997e0ad88055dd4465261e27336a174d942906e"
 }
