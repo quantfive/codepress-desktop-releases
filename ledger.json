@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "f62bfd0cd0af14ef8a50c6148442a12d5e8a0a12",
-  "highWaterVersion": "1.396.5",
+  "highWaterVersion": "1.396.6",
   "rows": [
     {
       "schemaVersion": 1,
@@ -65146,6 +65146,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:f62bfd0cd0af14ef8a50c6148442a12d5e8a0a12",
+      "kind": "main",
+      "sequence": 1891,
+      "sourceSha": "f62bfd0cd0af14ef8a50c6148442a12d5e8a0a12",
+      "sourcePackageVersion": "1.396.6",
+      "version": "1.396.6",
+      "publicationDate": "2026-11-01T15:43:24.046Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "chat-managed-repository-worktrees:a3ef8cb2ba4e8c87b1a977c98fa02811dcedef038c8f20c6cfd3440b3ef2da8a"
+        ],
+        "notesIntentIds": [
+          "chat-managed-repository-worktrees:a3ef8cb2ba4e8c87b1a977c98fa02811dcedef038c8f20c6cfd3440b3ef2da8a"
+        ],
+        "throughSourceSha": "f62bfd0cd0af14ef8a50c6148442a12d5e8a0a12",
+        "previousThroughSourceSha": "55456da561f976e0774bfdea9a806b50dd00450b",
+        "baselineVersion": "1.396.5",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41322610094",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-02T15:43:19.140Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -129482,7 +129525,8 @@
     "kickoff-early-answer:3d80d40cb0bf0718f4e7dd8e76e71584f24a3a4a90ff5970ba00ae19d48950a4",
     "ghostty-runtime-engine-manifest:c60d274303c601319e15c5440ee95bb0be1b1a01ddb59a1f0bdd6602f5544454",
     "warm-session-worktree:db926093028fec6e897851a9db44cd113741985b5d8037a31ee09cf0df06f787",
-    "terminal-linux-frontend-handoff:6f67449f04cfe429952322f857ac4ae763aa131241f5afe06c0ebc4b9c8f67b4"
+    "terminal-linux-frontend-handoff:6f67449f04cfe429952322f857ac4ae763aa131241f5afe06c0ebc4b9c8f67b4",
+    "chat-managed-repository-worktrees:a3ef8cb2ba4e8c87b1a977c98fa02811dcedef038c8f20c6cfd3440b3ef2da8a"
   ],
-  "consumedThroughSha": "55456da561f976e0774bfdea9a806b50dd00450b"
+  "consumedThroughSha": "f62bfd0cd0af14ef8a50c6148442a12d5e8a0a12"
 }
