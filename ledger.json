@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f277ae2ef8dbc3931264253a430278a3a3ef82c7",
+  "cursorSha": "9d3a5eca096671d5caa7d056000cc7c96a57f887",
   "highWaterVersion": "1.395.3",
   "rows": [
     {
@@ -124175,6 +124175,13 @@
       "sourceSha": "f277ae2ef8dbc3931264253a430278a3a3ef82c7",
       "sourcePackageVersion": "1.395.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9d3a5eca096671d5caa7d056000cc7c96a57f887",
+      "sourcePackageVersion": "1.395.5",
+      "intentIds": [
+        "e2e-layout-helper:7b83fbfd153097b7ae1ede62da3f8c6c10294b50e32367188113f8953e69efb2"
+      ]
     }
   ],
   "intents": [
@@ -128017,6 +128024,14 @@
       "summary": "Show synced project HTML posts from CodePress storage, including while the home computer sleeps, with text fallback while loading.",
       "sourceSha": "66abc96416a73ee4d1bac775baf8e6101eab5e7d",
       "identity": "synced-post-html-readers:a045a7d0b9c91215e60d8808c8a2d3b49ad7195834daa64855f6a3d0f66a2d6b"
+    },
+    {
+      "id": "e2e-layout-helper",
+      "digest": "7b83fbfd153097b7ae1ede62da3f8c6c10294b50e32367188113f8953e69efb2",
+      "type": "patch",
+      "summary": "Test tooling only: Terminal's title-bar layout test uses the shared `@codepress/e2e-layout` collision helper, and its e2e selector selects the specs that import it. No change to the app.",
+      "sourceSha": "9d3a5eca096671d5caa7d056000cc7c96a57f887",
+      "identity": "e2e-layout-helper:7b83fbfd153097b7ae1ede62da3f8c6c10294b50e32367188113f8953e69efb2"
     }
   ],
   "consumedIntentIds": [
