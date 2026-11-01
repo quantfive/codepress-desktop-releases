@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "73c32f41de975d90840914826239bcf4e21f8bf0",
+  "cursorSha": "dceb27e3fe41bee2a02f31f3ec29ec0b32bfebdb",
   "highWaterVersion": "1.397.3",
   "rows": [
     {
@@ -125823,6 +125823,13 @@
       "sourceSha": "73c32f41de975d90840914826239bcf4e21f8bf0",
       "sourcePackageVersion": "1.398.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "dceb27e3fe41bee2a02f31f3ec29ec0b32bfebdb",
+      "sourcePackageVersion": "1.398.0",
+      "intentIds": [
+        "terminal-list-once-at-launch:044deb10624537a9dcce9adfd38adf9b917cedc4b59352c4fcc16304796e20c8"
+      ]
     }
   ],
   "intents": [
@@ -129881,6 +129888,14 @@
       "summary": "Kimi usage left now shows wherever it does for Claude and Codex. A Local Kimi account's card shows its 5-hour and weekly bars with reset times and Refresh usage, and a selected Kimi model shows the active account's weekly usage in the Orchestrator and worker pickers, whichever scope the account has. Terminal reads Kimi only for Local accounts; Personal and Team usage comes from CodePress. If a usage check fails, the last reading stays and is marked out of date.",
       "sourceSha": "8041c911efb4f94c35ce205946d55bbc4faf338a",
       "identity": "kimi-usage-left:f9caff0454b5c67c558946c188b245ba0801a4e84a6df0298101afdb387ad53d"
+    },
+    {
+      "id": "terminal-list-once-at-launch",
+      "digest": "044deb10624537a9dcce9adfd38adf9b917cedc4b59352c4fcc16304796e20c8",
+      "type": "patch",
+      "summary": "Read this Mac's Orchestrator project list once at launch: the list keys its store by the cached organization while access loads, and the first account restore keeps the read in flight instead of starting over.",
+      "sourceSha": "dceb27e3fe41bee2a02f31f3ec29ec0b32bfebdb",
+      "identity": "terminal-list-once-at-launch:044deb10624537a9dcce9adfd38adf9b917cedc4b59352c4fcc16304796e20c8"
     }
   ],
   "consumedIntentIds": [
