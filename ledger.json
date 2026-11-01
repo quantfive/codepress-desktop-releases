@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6bf9326bff2455710d01704a1421201d007d12bb",
+  "cursorSha": "faf5b39b3f377dad0ede816e94e84c4e89508d16",
   "highWaterVersion": "1.393.7",
   "rows": [
     {
@@ -123716,6 +123716,13 @@
       "intentIds": [
         "orchestrator-edge-case-matrix:de28dfa19c9b5ed951629290d2f7abd0a35e8285cbbe628b7d6d50089f6793c2"
       ]
+    },
+    {
+      "sourceSha": "faf5b39b3f377dad0ede816e94e84c4e89508d16",
+      "sourcePackageVersion": "1.394.8",
+      "intentIds": [
+        "central-post-render-pointers:6f4ceeb538427c4f13403f134f0f54393e0ddfa7f4af89973657bbad5c8fbacd"
+      ]
     }
   ],
   "intents": [
@@ -127494,6 +127501,14 @@
       "summary": "The Orchestrator now plans an edge-case inventory for every change and a layout matrix for UI work, and views each screen's screenshots itself before reporting a UI pull request, building the layout matrix from the diff when the plan has none or misses a screen.",
       "sourceSha": "6bf9326bff2455710d01704a1421201d007d12bb",
       "identity": "orchestrator-edge-case-matrix:de28dfa19c9b5ed951629290d2f7abd0a35e8285cbbe628b7d6d50089f6793c2"
+    },
+    {
+      "id": "central-post-render-pointers",
+      "digest": "6f4ceeb538427c4f13403f134f0f54393e0ddfa7f4af89973657bbad5c8fbacd",
+      "type": "patch",
+      "summary": "Upload synced Orchestrator HTML posts to CodePress and include render pointers in synced thread reads.",
+      "sourceSha": "faf5b39b3f377dad0ede816e94e84c4e89508d16",
+      "identity": "central-post-render-pointers:6f4ceeb538427c4f13403f134f0f54393e0ddfa7f4af89973657bbad5c8fbacd"
     }
   ],
   "consumedIntentIds": [
