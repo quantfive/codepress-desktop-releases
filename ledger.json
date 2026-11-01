@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "fece3341e9a0444a482f3eeed6650923577ab51e",
+  "cursorSha": "277ee4fb651c8797fc9f95a8ada97ff20758ade3",
   "highWaterVersion": "1.395.0",
   "rows": [
     {
@@ -123921,6 +123921,13 @@
       "intentIds": [
         "terminal-git-reads-no-optional-locks:0f1abd6edc8735e0070634eeedc230f492105a8c04e0427657a0dd78d5ce0523"
       ]
+    },
+    {
+      "sourceSha": "277ee4fb651c8797fc9f95a8ada97ff20758ade3",
+      "sourcePackageVersion": "1.395.0",
+      "intentIds": [
+        "sandbox-docs-iframe-guard:5e262da7c577e868937ca8103d1c0d348459ce4e97644c1632c3e181fe61ed8d"
+      ]
     }
   ],
   "intents": [
@@ -127723,6 +127730,14 @@
       "summary": "Terminal's read-only git calls (status, repository discovery, the editor gutter, checkout inspection, project session worktree reads, handoff dirty checks, the dirty check before a worktree is removed, managed preview checkouts) no longer take git's optional `.git/index.lock`, so a read killed by its timeout can no longer leave a stale lock that blocks commits.",
       "sourceSha": "fece3341e9a0444a482f3eeed6650923577ab51e",
       "identity": "terminal-git-reads-no-optional-locks:0f1abd6edc8735e0070634eeedc230f492105a8c04e0427657a0dd78d5ce0523"
+    },
+    {
+      "id": "sandbox-docs-iframe-guard",
+      "digest": "5e262da7c577e868937ca8103d1c0d348459ce4e97644c1632c3e181fe61ed8d",
+      "type": "patch",
+      "summary": "Orchestrator thread posts with an HTML render show their page again instead of an \"origin is not allowed\" error.",
+      "sourceSha": "277ee4fb651c8797fc9f95a8ada97ff20758ade3",
+      "identity": "sandbox-docs-iframe-guard:5e262da7c577e868937ca8103d1c0d348459ce4e97644c1632c3e181fe61ed8d"
     }
   ],
   "consumedIntentIds": [
