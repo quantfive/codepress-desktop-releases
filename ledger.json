@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4bad78e11ff333599f22bf81f3d369f70ccc2405",
+  "cursorSha": "66abc96416a73ee4d1bac775baf8e6101eab5e7d",
   "highWaterVersion": "1.395.3",
   "rows": [
     {
@@ -124158,6 +124158,13 @@
       "sourceSha": "4bad78e11ff333599f22bf81f3d369f70ccc2405",
       "sourcePackageVersion": "1.395.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "66abc96416a73ee4d1bac775baf8e6101eab5e7d",
+      "sourcePackageVersion": "1.395.4",
+      "intentIds": [
+        "synced-post-html-readers:a045a7d0b9c91215e60d8808c8a2d3b49ad7195834daa64855f6a3d0f66a2d6b"
+      ]
     }
   ],
   "intents": [
@@ -127992,6 +127999,14 @@
       "summary": "Use the shared feed open target decision across Terminal and web, preserving\nTerminal card lookup and handoff behavior. Recognize org-root cloud chat links\nand handle malformed chat URLs with the shared web parser.",
       "sourceSha": "dfae6117b43df79ed5bab888eb3f680cb30b2f35",
       "identity": "shared-feed-open-target:555eee4ab53e2ddcf134a5b75c5b49696af6e5cb4149baabe6cd757cd59a487d"
+    },
+    {
+      "id": "synced-post-html-readers",
+      "digest": "a045a7d0b9c91215e60d8808c8a2d3b49ad7195834daa64855f6a3d0f66a2d6b",
+      "type": "patch",
+      "summary": "Show synced project HTML posts from CodePress storage, including while the home computer sleeps, with text fallback while loading.",
+      "sourceSha": "66abc96416a73ee4d1bac775baf8e6101eab5e7d",
+      "identity": "synced-post-html-readers:a045a7d0b9c91215e60d8808c8a2d3b49ad7195834daa64855f6a3d0f66a2d6b"
     }
   ],
   "consumedIntentIds": [
