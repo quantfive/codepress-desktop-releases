@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "69694d97e3609af7efc4cd363e70cb8e37a49072",
+  "cursorSha": "af5f55cb1a358f1f937ecefc275581278d128b0b",
   "highWaterVersion": "1.397.2",
   "rows": [
     {
@@ -125728,6 +125728,13 @@
       "intentIds": [
         "terminal-local-first-routing-flag:19717d6f0a54a9cdf7588bd7f4c8a95deb964e825303f744fb65370da40b1021"
       ]
+    },
+    {
+      "sourceSha": "af5f55cb1a358f1f937ecefc275581278d128b0b",
+      "sourcePackageVersion": "1.397.3",
+      "intentIds": [
+        "one-at-menu-answers-carry:ba120acdcfa5b43f568b6baf52ad06a36079ce83fa96e5650aac757595f0f337"
+      ]
     }
   ],
   "intents": [
@@ -129762,6 +129769,14 @@
       "summary": "Settings reads the organization's new Local-first routing flag, ready for the routing sections that follow.",
       "sourceSha": "69694d97e3609af7efc4cd363e70cb8e37a49072",
       "identity": "terminal-local-first-routing-flag:19717d6f0a54a9cdf7588bd7f4c8a95deb964e825303f744fb65370da40b1021"
+    },
+    {
+      "id": "one-at-menu-answers-carry",
+      "digest": "ba120acdcfa5b43f568b6baf52ad06a36079ce83fa96e5650aac757595f0f337",
+      "type": "patch",
+      "summary": "`@` opens the same menu in every Orchestrator composer mode, and answers and blocker replies carry the picks to the Orchestrator as a message does. A pick that can't be delivered is refused at send with the draft kept.",
+      "sourceSha": "af5f55cb1a358f1f937ecefc275581278d128b0b",
+      "identity": "one-at-menu-answers-carry:ba120acdcfa5b43f568b6baf52ad06a36079ce83fa96e5650aac757595f0f337"
     }
   ],
   "consumedIntentIds": [
