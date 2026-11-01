@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4b5bcaf1af8ca175a84242671c4e8d76f561183b",
+  "cursorSha": "caeebc30bd907fe54685888f3f9ac1d1cde70057",
   "highWaterVersion": "1.396.0",
   "rows": [
     {
@@ -124621,6 +124621,13 @@
       "sourceSha": "4b5bcaf1af8ca175a84242671c4e8d76f561183b",
       "sourcePackageVersion": "1.396.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "caeebc30bd907fe54685888f3f9ac1d1cde70057",
+      "sourcePackageVersion": "1.396.0",
+      "intentIds": [
+        "shared-kickoff-repository-folder-chips:f88f4365e63f429bcbecfe2de9e749738ad490543302c3542231bb63d9434bda"
+      ]
     }
   ],
   "intents": [
@@ -128511,6 +128518,14 @@
       "summary": "The unified shell's machine picker now lists your Remote Access computers, and each online one opens from its own row: a terminal icon connects it in this window and the window icon opens it in a new window. The \"Open another computer…\" row is gone.",
       "sourceSha": "979b6eb10bcd2db8959b140d37cffc3eeda1f8f9",
       "identity": "picker-remote-access-machines:9d2725c0ec7389b7f887a690b78613bb5a12330e9e4e046ce19b867ac0558be9"
+    },
+    {
+      "id": "shared-kickoff-repository-folder-chips",
+      "digest": "f88f4365e63f429bcbecfe2de9e749738ad490543302c3542231bb63d9434bda",
+      "type": "patch",
+      "summary": "Use the shared repository and optional folder chips for Chat and Project kickoff. Start with up to ten repositories on a computer, preserve the single-repository Cloud payload, and offer a compatible folder path with an update message on older Terminals. Retire the repository kickoff toggle.",
+      "sourceSha": "caeebc30bd907fe54685888f3f9ac1d1cde70057",
+      "identity": "shared-kickoff-repository-folder-chips:f88f4365e63f429bcbecfe2de9e749738ad490543302c3542231bb63d9434bda"
     }
   ],
   "consumedIntentIds": [
