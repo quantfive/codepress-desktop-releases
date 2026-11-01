@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "51be927e6055f8b5127bf4f73f06343fce38a2f1",
+  "cursorSha": "5967bc2d54bfc1bc742de436c99a274afd36c6ab",
   "highWaterVersion": "1.400.0",
   "rows": [
     {
@@ -126663,6 +126663,13 @@
       "sourceSha": "51be927e6055f8b5127bf4f73f06343fce38a2f1",
       "sourcePackageVersion": "1.400.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "5967bc2d54bfc1bc742de436c99a274afd36c6ab",
+      "sourcePackageVersion": "1.400.1",
+      "intentIds": [
+        "rail-rows-first-second:67f9a0220ad1c1ddcc837d2d6bdf2292c223e73f6c1787ad45d7f7b6e1312542"
+      ]
     }
   ],
   "intents": [
@@ -130857,6 +130864,14 @@
       "summary": "An account switch now tells you what happened: switched, still switching, replaced by a newer choice, or failed with the real reason. Accounts and the agent tools use the same words.",
       "sourceSha": "461685c4178f07a26feb4b90b7d26550c2576793",
       "identity": "honest-account-switch-results:1c2afdc8eb6ed282732744fa6b9059833ca7bc7396381ca11cf56d8c51f08506"
+    },
+    {
+      "id": "rail-rows-first-second",
+      "digest": "67f9a0220ad1c1ddcc837d2d6bdf2292c223e73f6c1787ad45d7f7b6e1312542",
+      "type": "patch",
+      "summary": "The Orchestrator rail's remembered rows draw on a relaunch again, even though the auth broker renumbers the credential at launch, and each organization's preferences are read once per launch instead of twice. The launch line now also says when the feed's headers came back, when access answered, and how long the main thread stalled before the first rows.",
+      "sourceSha": "5967bc2d54bfc1bc742de436c99a274afd36c6ab",
+      "identity": "rail-rows-first-second:67f9a0220ad1c1ddcc837d2d6bdf2292c223e73f6c1787ad45d7f7b6e1312542"
     }
   ],
   "consumedIntentIds": [
