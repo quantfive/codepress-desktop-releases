@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "ba960985cf81ddc9b5ebdd55171c94a4c2eaff12",
-  "highWaterVersion": "1.395.1",
+  "highWaterVersion": "1.395.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -64478,6 +64478,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:ba960985cf81ddc9b5ebdd55171c94a4c2eaff12",
+      "kind": "main",
+      "sequence": 1879,
+      "sourceSha": "ba960985cf81ddc9b5ebdd55171c94a4c2eaff12",
+      "sourcePackageVersion": "1.395.2",
+      "version": "1.395.2",
+      "publicationDate": "2026-11-01T05:41:50.483Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "instant-phone-drawer:952f9cfc7dfb3a3ce79e3d2b6d3dc8d8e7b3c6f2ae33917b03e509bcc91989aa",
+          "remote-computer-unified-shell:03696410a41082ac0acc901de438b90f7e5569ecff72d27bf86428f7d0903e1d"
+        ],
+        "notesIntentIds": [
+          "instant-phone-drawer:952f9cfc7dfb3a3ce79e3d2b6d3dc8d8e7b3c6f2ae33917b03e509bcc91989aa",
+          "remote-computer-unified-shell:03696410a41082ac0acc901de438b90f7e5569ecff72d27bf86428f7d0903e1d"
+        ],
+        "throughSourceSha": "ba960985cf81ddc9b5ebdd55171c94a4c2eaff12",
+        "previousThroughSourceSha": "4240f3ae3f3d0f22cc9d2d686da01b3c00c45068",
+        "baselineVersion": "1.395.1",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41277893956",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-02T05:41:46.131Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -128328,7 +128373,9 @@
     "central-post-render-pointers:6f4ceeb538427c4f13403f134f0f54393e0ddfa7f4af89973657bbad5c8fbacd",
     "project-move-to-cloud:cfa72ed6b2280d686fa8014976f0d208d3d4fe1bfda72d545f82dbff9aa08f0e",
     "terminal-git-reads-no-optional-locks:0f1abd6edc8735e0070634eeedc230f492105a8c04e0427657a0dd78d5ce0523",
-    "sandbox-docs-iframe-guard:5e262da7c577e868937ca8103d1c0d348459ce4e97644c1632c3e181fe61ed8d"
+    "sandbox-docs-iframe-guard:5e262da7c577e868937ca8103d1c0d348459ce4e97644c1632c3e181fe61ed8d",
+    "instant-phone-drawer:952f9cfc7dfb3a3ce79e3d2b6d3dc8d8e7b3c6f2ae33917b03e509bcc91989aa",
+    "remote-computer-unified-shell:03696410a41082ac0acc901de438b90f7e5569ecff72d27bf86428f7d0903e1d"
   ],
-  "consumedThroughSha": "4240f3ae3f3d0f22cc9d2d686da01b3c00c45068"
+  "consumedThroughSha": "ba960985cf81ddc9b5ebdd55171c94a4c2eaff12"
 }
