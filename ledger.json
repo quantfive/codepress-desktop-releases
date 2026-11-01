@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2443ade950190e5830834c687c6b562eb34c96e5",
+  "cursorSha": "0f66820375d13df1816a041df81ba9945582a11b",
   "highWaterVersion": "1.393.6",
   "rows": [
     {
@@ -123637,6 +123637,13 @@
       "sourceSha": "2443ade950190e5830834c687c6b562eb34c96e5",
       "sourcePackageVersion": "1.394.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0f66820375d13df1816a041df81ba9945582a11b",
+      "sourcePackageVersion": "1.394.7",
+      "intentIds": [
+        "tidy-post-html-path:6c8d59b70ae012e9e1f872bb44fc6183c48178f414203ff41204c43e9d22ec34"
+      ]
     }
   ],
   "intents": [
@@ -127399,6 +127406,14 @@
       "summary": "Publish Linux CLI updates sooner after a release, with the same contents, signing and verification.",
       "sourceSha": "9bee1aa59aa71dde824fefb13736e8d3c15aa473",
       "identity": "cli-budget-linux:5c827b7259459ae8fe5ff3c21bbb72efb6b249e4261a007f3b4639c32a47cba7"
+    },
+    {
+      "id": "tidy-post-html-path",
+      "digest": "6c8d59b70ae012e9e1f872bb44fc6183c48178f414203ff41204c43e9d22ec34",
+      "type": "patch",
+      "summary": "Let local Orchestrators post HTML from a file path and reuse mockups without repeating their markup in the transcript.",
+      "sourceSha": "0f66820375d13df1816a041df81ba9945582a11b",
+      "identity": "tidy-post-html-path:6c8d59b70ae012e9e1f872bb44fc6183c48178f414203ff41204c43e9d22ec34"
     }
   ],
   "consumedIntentIds": [
