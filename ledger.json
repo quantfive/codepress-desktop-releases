@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "2516d412f7b4cc16974ec361e86fee7f552312ce",
-  "highWaterVersion": "1.392.16",
+  "highWaterVersion": "1.393.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -63821,6 +63821,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:2516d412f7b4cc16974ec361e86fee7f552312ce",
+      "kind": "main",
+      "sequence": 1867,
+      "sourceSha": "2516d412f7b4cc16974ec361e86fee7f552312ce",
+      "sourcePackageVersion": "1.393.16",
+      "version": "1.393.0",
+      "publicationDate": "2026-11-01T00:57:02.052Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "kimi-local-orchestrator-relay:95f1874f3c1a741d6e1d8c7089ebb69dd52de3c1fe887c27764a8424d421aae0"
+        ],
+        "notesIntentIds": [
+          "kimi-local-orchestrator-relay:95f1874f3c1a741d6e1d8c7089ebb69dd52de3c1fe887c27764a8424d421aae0"
+        ],
+        "throughSourceSha": "2516d412f7b4cc16974ec361e86fee7f552312ce",
+        "previousThroughSourceSha": "f3d716dde185fc74b4be71387a754448b457a7e1",
+        "baselineVersion": "1.392.16",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41258943189",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-02T00:56:57.750Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -127181,7 +127224,8 @@
     "tidy-chat-auto:0705d5d64abd172d178d7d47a2a8d295ec1096686b67ee6e3f9a9df11ceacbbc",
     "lighter-terminal-delivery:0b4c576f4ed60e58c6f594a996b36b8006acaeafc316f7f5f69ade2b1ad85dd5",
     "patient-intel-daemon-launch:e855cca79cba24ab3a7b1150f2928f4da89eeb076ce256aef3ae9c77a3f66f89",
-    "bright-org-avatar-thumbnails:568f15590b663ae1719db005a5a0aa102e09dd42e3ab820d455db7b692c786b2"
+    "bright-org-avatar-thumbnails:568f15590b663ae1719db005a5a0aa102e09dd42e3ab820d455db7b692c786b2",
+    "kimi-local-orchestrator-relay:95f1874f3c1a741d6e1d8c7089ebb69dd52de3c1fe887c27764a8424d421aae0"
   ],
-  "consumedThroughSha": "f3d716dde185fc74b4be71387a754448b457a7e1"
+  "consumedThroughSha": "2516d412f7b4cc16974ec361e86fee7f552312ce"
 }
