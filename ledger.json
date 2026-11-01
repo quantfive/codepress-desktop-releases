@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "26c22fd158dbd43cb25a1e44d77ffd3ecd3d9b86",
-  "highWaterVersion": "1.396.9",
+  "highWaterVersion": "1.396.10",
   "rows": [
     {
       "schemaVersion": 1,
@@ -65368,6 +65368,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:26c22fd158dbd43cb25a1e44d77ffd3ecd3d9b86",
+      "kind": "main",
+      "sequence": 1895,
+      "sourceSha": "26c22fd158dbd43cb25a1e44d77ffd3ecd3d9b86",
+      "sourcePackageVersion": "1.396.10",
+      "version": "1.396.10",
+      "publicationDate": "2026-11-01T18:13:41.801Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "rail-row-draws-at-once:3ff44e8455b6228aa77020315867391d6c044d48eb552ad4328c68cfaed16ab6"
+        ],
+        "notesIntentIds": [
+          "rail-row-draws-at-once:3ff44e8455b6228aa77020315867391d6c044d48eb552ad4328c68cfaed16ab6"
+        ],
+        "throughSourceSha": "26c22fd158dbd43cb25a1e44d77ffd3ecd3d9b86",
+        "previousThroughSourceSha": "de06b962e9bba4cbe66abeb0ce2991ec4d029b32",
+        "baselineVersion": "1.396.9",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41335463698",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-02T18:13:37.103Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -129849,7 +129892,8 @@
     "rail-search-button:5d823f9679c68eb14ffdcc3204819b53479bdb20c9338eaf9b4c3314861aa0b8",
     "open-timing-first-row:9fc8d4a74fda06f912106730ac818221cba2725dc392f87a72dcdd70608b25a4",
     "kimi-relay-transient-hardening:36f469e7ae1d0b37da24ad20a74dd49f0b9e9f09813030bb8ebccfc8476109db",
-    "channel-gap-headless-refusals:ee727a05f45ac203024482c96be8ed123ca83d600ca35d88433ddaaf5f21f8af"
+    "channel-gap-headless-refusals:ee727a05f45ac203024482c96be8ed123ca83d600ca35d88433ddaaf5f21f8af",
+    "rail-row-draws-at-once:3ff44e8455b6228aa77020315867391d6c044d48eb552ad4328c68cfaed16ab6"
   ],
-  "consumedThroughSha": "de06b962e9bba4cbe66abeb0ce2991ec4d029b32"
+  "consumedThroughSha": "26c22fd158dbd43cb25a1e44d77ffd3ecd3d9b86"
 }
