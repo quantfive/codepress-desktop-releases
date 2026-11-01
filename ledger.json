@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6182c95fb912c207626872749fcd45c00e345f20",
+  "cursorSha": "c42276c48b4b867b852000baa085c1dfb8bc991d",
   "highWaterVersion": "1.399.4",
   "rows": [
     {
@@ -126531,6 +126531,13 @@
       "intentIds": [
         "terminal-launch-marks:17a6f985839d770a0c2c5a865cc453cdfddd7ae8bc4ab31fa01b28cb3c0a0d36"
       ]
+    },
+    {
+      "sourceSha": "c42276c48b4b867b852000baa085c1dfb8bc991d",
+      "sourcePackageVersion": "1.399.5",
+      "intentIds": [
+        "subscription-provider-contract:7e741c0c43f0caf181a9dd998836f96a64360457d8e5fa3190adeb86d4b591dd"
+      ]
     }
   ],
   "intents": [
@@ -130693,6 +130700,14 @@
       "summary": "Measure every step of a cold launch: the app's own marks since its process started, the window's page, script, first commit, first paint, chrome and session marks, and the kind of launch (first run, relaunch, attach, after an update), shown in Terminal diagnostics. An update restart's stages now reach the new process's diagnostics.",
       "sourceSha": "6182c95fb912c207626872749fcd45c00e345f20",
       "identity": "terminal-launch-marks:17a6f985839d770a0c2c5a865cc453cdfddd7ae8bc4ab31fa01b28cb3c0a0d36"
+    },
+    {
+      "id": "subscription-provider-contract",
+      "digest": "7e741c0c43f0caf181a9dd998836f96a64360457d8e5fa3190adeb86d4b591dd",
+      "type": "patch",
+      "summary": "Keep one checked record of what each subscription provider supports, so new provider work starts from what the code does today. Nothing changes in Terminal.",
+      "sourceSha": "c42276c48b4b867b852000baa085c1dfb8bc991d",
+      "identity": "subscription-provider-contract:7e741c0c43f0caf181a9dd998836f96a64360457d8e5fa3190adeb86d4b591dd"
     }
   ],
   "consumedIntentIds": [
