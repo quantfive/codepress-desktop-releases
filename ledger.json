@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "06cdad676260efdb9a7d5a00aebe87ee7f04e4bd",
+  "cursorSha": "4f52ca89758899aded119519922a588c176bc06d",
   "highWaterVersion": "1.393.1",
   "rows": [
     {
@@ -123164,6 +123164,23 @@
       "sourceSha": "06cdad676260efdb9a7d5a00aebe87ee7f04e4bd",
       "sourcePackageVersion": "1.394.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "945ed4a2d0be14bc22f9a1c554242a1a5a96fe39",
+      "sourcePackageVersion": "1.394.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "66ac917caeba9d872e113e6e63b5975de6b2afa6",
+      "sourcePackageVersion": "1.394.1",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "4f52ca89758899aded119519922a588c176bc06d",
+      "sourcePackageVersion": "1.394.1",
+      "intentIds": [
+        "friendly-machines-discovery:81383172abbbf001bf1c2772b3f0a7c08c4c3accc68c37b299af79e6d658a3b1"
+      ]
     }
   ],
   "intents": [
@@ -126878,6 +126895,14 @@
       "summary": "The Orchestrator rail and feed share one selected colour, the phone rail marks the active item with a slim pill, count pills are slimmer, tabs and cards share one left edge, and the Search field fills the feed's top row.",
       "sourceSha": "eb694167f59beb76327811a4e5f5e00b0abc6f6b",
       "identity": "slim-rail-one-selected:b8de1946723c7cb7b3c256bec90c2119e442169df534af3612413ec9cb1dc2e5"
+    },
+    {
+      "id": "friendly-machines-discovery",
+      "digest": "81383172abbbf001bf1c2772b3f0a7c08c4c3accc68c37b299af79e6d658a3b1",
+      "type": "patch",
+      "summary": "Keep list_machines available when control discovery fails, and recover missing controls on partial discovery pages.",
+      "sourceSha": "4f52ca89758899aded119519922a588c176bc06d",
+      "identity": "friendly-machines-discovery:81383172abbbf001bf1c2772b3f0a7c08c4c3accc68c37b299af79e6d658a3b1"
     }
   ],
   "consumedIntentIds": [
