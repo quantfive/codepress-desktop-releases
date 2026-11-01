@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0f38929af3c8bb1c87dc8b9c2f9ef111cbe04732",
+  "cursorSha": "2b7aa655ab3d7b138556e9c4b7d8004d907ce4c4",
   "highWaterVersion": "1.399.4",
   "rows": [
     {
@@ -126556,6 +126556,13 @@
       "sourceSha": "0f38929af3c8bb1c87dc8b9c2f9ef111cbe04732",
       "sourcePackageVersion": "1.399.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2b7aa655ab3d7b138556e9c4b7d8004d907ce4c4",
+      "sourcePackageVersion": "1.399.6",
+      "intentIds": [
+        "kimi-cli-tabs-chosen-account:3b2e3a745cc615d4f293a2d0c75227a110516199572258b38be14a1a294a4013"
+      ]
     }
   ],
   "intents": [
@@ -130726,6 +130733,14 @@
       "summary": "Keep one checked record of what each subscription provider supports, so new provider work starts from what the code does today. Nothing changes in Terminal.",
       "sourceSha": "c42276c48b4b867b852000baa085c1dfb8bc991d",
       "identity": "subscription-provider-contract:7e741c0c43f0caf181a9dd998836f96a64360457d8e5fa3190adeb86d4b591dd"
+    },
+    {
+      "id": "kimi-cli-tabs-chosen-account",
+      "digest": "3b2e3a745cc615d4f293a2d0c75227a110516199572258b38be14a1a294a4013",
+      "type": "minor",
+      "summary": "`kimi` in a Terminal tab now runs on this computer's chosen Kimi account (Local, Personal or Team) without `kimi login`, whether typed in a shell tab or started with the tab. Each tab gets a private Kimi Code home that reaches Kimi through Terminal's loopback relay on a local token revoked when the tab closes, and conversation history stays shared with your own `~/.kimi-code`. With no account chosen, `kimi` runs as it always did. Kimi Orchestrators share the same relay.",
+      "sourceSha": "2b7aa655ab3d7b138556e9c4b7d8004d907ce4c4",
+      "identity": "kimi-cli-tabs-chosen-account:3b2e3a745cc615d4f293a2d0c75227a110516199572258b38be14a1a294a4013"
     }
   ],
   "consumedIntentIds": [
