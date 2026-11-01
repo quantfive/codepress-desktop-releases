@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "209b9f9d3f72d435ca9a60bce413e17f3d09db38",
+  "cursorSha": "2d88d89a750a4450ab530b9980c7736fded9c390",
   "highWaterVersion": "1.396.11",
   "rows": [
     {
@@ -125491,6 +125491,13 @@
       "sourceSha": "209b9f9d3f72d435ca9a60bce413e17f3d09db38",
       "sourcePackageVersion": "1.396.12",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2d88d89a750a4450ab530b9980c7736fded9c390",
+      "sourcePackageVersion": "1.396.12",
+      "intentIds": [
+        "kimi-local-accounts:0a01b21f8ae8e1efd2d7cb20269416dbb12b760d9532f6660e2d0b68ff35dfd6"
+      ]
     }
   ],
   "intents": [
@@ -129485,6 +129492,14 @@
       "summary": "Handoff progress dialog: the current-step dot now pulses and is no longer clipped, and the footer divider is gone.",
       "sourceSha": "2bf8a291cae9b23fcb8e86170a5b4bfbfcd7575f",
       "identity": "handoff-dialog-dot-divider:d62035ab037d4427e9ad6c7055f237982bd00ed47c320f55bb171fff9f9a9958"
+    },
+    {
+      "id": "kimi-local-accounts",
+      "digest": "0a01b21f8ae8e1efd2d7cb20269416dbb12b760d9532f6660e2d0b68ff35dfd6",
+      "type": "minor",
+      "summary": "Kimi accounts can now be saved On this machine: Settings → Agents → Add account → Kimi → On this machine signs in with Kimi's device code. The account is stored in Terminal's encrypted pool, refreshed locally, and can be paused, removed or chosen as this computer's Kimi account. A chosen Local account serves Kimi Orchestrators directly, with no CodePress lease.",
+      "sourceSha": "2d88d89a750a4450ab530b9980c7736fded9c390",
+      "identity": "kimi-local-accounts:0a01b21f8ae8e1efd2d7cb20269416dbb12b760d9532f6660e2d0b68ff35dfd6"
     }
   ],
   "consumedIntentIds": [
