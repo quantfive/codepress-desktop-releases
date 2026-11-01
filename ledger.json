@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d1868e2b6410d3127ca04fe7a2abc6dbe494b62d",
+  "cursorSha": "6182c95fb912c207626872749fcd45c00e345f20",
   "highWaterVersion": "1.399.3",
   "rows": [
     {
@@ -126477,6 +126477,13 @@
       "sourceSha": "d1868e2b6410d3127ca04fe7a2abc6dbe494b62d",
       "sourcePackageVersion": "1.399.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "6182c95fb912c207626872749fcd45c00e345f20",
+      "sourcePackageVersion": "1.399.5",
+      "intentIds": [
+        "terminal-launch-marks:17a6f985839d770a0c2c5a865cc453cdfddd7ae8bc4ab31fa01b28cb3c0a0d36"
+      ]
     }
   ],
   "intents": [
@@ -130631,6 +130638,14 @@
       "summary": "Remote access: a page on another `*.codepress.dev` host can no longer use a visitor's tunnel cookie to read files or open previews.",
       "sourceSha": "beeb778c843095c2f71984701c7dda07a0eda6dd",
       "identity": "cookie-boundary-cross-origin:b82374e5e6502ca6948e9e4a1c92d14a1e01b59b119d545a272f9d2262195eae"
+    },
+    {
+      "id": "terminal-launch-marks",
+      "digest": "17a6f985839d770a0c2c5a865cc453cdfddd7ae8bc4ab31fa01b28cb3c0a0d36",
+      "type": "patch",
+      "summary": "Measure every step of a cold launch: the app's own marks since its process started, the window's page, script, first commit, first paint, chrome and session marks, and the kind of launch (first run, relaunch, attach, after an update), shown in Terminal diagnostics. An update restart's stages now reach the new process's diagnostics.",
+      "sourceSha": "6182c95fb912c207626872749fcd45c00e345f20",
+      "identity": "terminal-launch-marks:17a6f985839d770a0c2c5a865cc453cdfddd7ae8bc4ab31fa01b28cb3c0a0d36"
     }
   ],
   "consumedIntentIds": [
