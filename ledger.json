@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1372d3ec4b83d863ee5b83f1dc9a2c9f3a117cea",
+  "cursorSha": "18ec1a704900ee754a82f067370f8297dccc1875",
   "highWaterVersion": "1.399.1",
   "rows": [
     {
@@ -126321,6 +126321,13 @@
       "sourceSha": "1372d3ec4b83d863ee5b83f1dc9a2c9f3a117cea",
       "sourcePackageVersion": "1.399.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "18ec1a704900ee754a82f067370f8297dccc1875",
+      "sourcePackageVersion": "1.399.3",
+      "intentIds": [
+        "validate-auth-return-url:8a6ae4cbb514be49d82979982c4bd198e858d6162abe3f6376651a3a3e9208e2"
+      ]
     }
   ],
   "intents": [
@@ -130459,6 +130466,14 @@
       "summary": "Remote Browser Tabs refuse malformed preview ports and always sandbox hostile preview responses.",
       "sourceSha": "45cb7f6c203adf51f8ec7a16db0bd3b7da5ada35",
       "identity": "strict-browse-ports:281dd7851a72ae7dc13f15ad156a1c5be8ce5e1b5869741a16da5d4cecabf8a8"
+    },
+    {
+      "id": "validate-auth-return-url",
+      "digest": "8a6ae4cbb514be49d82979982c4bd198e858d6162abe3f6376651a3a3e9208e2",
+      "type": "patch",
+      "summary": "Sign-in on a tunnel now only returns to a path on the same machine, so a crafted `/auth` link can no longer run script or send you to another site. Deep links keep their path, query and hash through sign-in.",
+      "sourceSha": "18ec1a704900ee754a82f067370f8297dccc1875",
+      "identity": "validate-auth-return-url:8a6ae4cbb514be49d82979982c4bd198e858d6162abe3f6376651a3a3e9208e2"
     }
   ],
   "consumedIntentIds": [
