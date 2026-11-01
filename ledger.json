@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "96443f1347a402abd136ee700afcc6893c87b935",
+  "cursorSha": "0bfad6a3e84f27d7c48e45eb55d02d6308f0782c",
   "highWaterVersion": "1.396.7",
   "rows": [
     {
@@ -125184,6 +125184,13 @@
       "sourceSha": "96443f1347a402abd136ee700afcc6893c87b935",
       "sourcePackageVersion": "1.396.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0bfad6a3e84f27d7c48e45eb55d02d6308f0782c",
+      "sourcePackageVersion": "1.396.8",
+      "intentIds": [
+        "open-timing-first-row:9fc8d4a74fda06f912106730ac818221cba2725dc392f87a72dcdd70608b25a4"
+      ]
     }
   ],
   "intents": [
@@ -129138,6 +129145,14 @@
       "summary": "The icon rail has a Search button under the org logo that opens global search (⌘⇧L); the title-bar search pill stays.",
       "sourceSha": "63b0c4ae27f3aeca0dcdcf644169aada24aaeda1",
       "identity": "rail-search-button:5d823f9679c68eb14ffdcc3204819b53479bdb20c9338eaf9b4c3314861aa0b8"
+    },
+    {
+      "id": "open-timing-first-row",
+      "digest": "9fc8d4a74fda06f912106730ac818221cba2725dc392f87a72dcdd70608b25a4",
+      "type": "patch",
+      "summary": "Time the first project opened after launch as one `[Renderer:Open]` log line, reported as `open` in `get_terminal_diagnostics`.",
+      "sourceSha": "0bfad6a3e84f27d7c48e45eb55d02d6308f0782c",
+      "identity": "open-timing-first-row:9fc8d4a74fda06f912106730ac818221cba2725dc392f87a72dcdd70608b25a4"
     }
   ],
   "consumedIntentIds": [
