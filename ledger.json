@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0e5765cc4e9e4ccae6f15d57f5c49d5b8c401797",
+  "cursorSha": "72e1b61dbde1013141e66c76c26a4f11244dee9b",
   "highWaterVersion": "1.396.3",
   "rows": [
     {
@@ -124852,6 +124852,13 @@
       "sourceSha": "0e5765cc4e9e4ccae6f15d57f5c49d5b8c401797",
       "sourcePackageVersion": "1.396.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "72e1b61dbde1013141e66c76c26a4f11244dee9b",
+      "sourcePackageVersion": "1.396.3",
+      "intentIds": [
+        "ghostty-runtime-engine-manifest:c60d274303c601319e15c5440ee95bb0be1b1a01ddb59a1f0bdd6602f5544454"
+      ]
     }
   ],
   "intents": [
@@ -128766,6 +128773,14 @@
       "summary": "Pressing Send on a local Orchestrator kickoff opens the project thread right away, showing \"Starting the Orchestrator…\" while the PM launches in the background. A launch that fails still leaves the project open with the Orchestrator recovery ask. Your agent defaults are cached for a minute so the kickoff no longer waits on that read.",
       "sourceSha": "cd2d3e048325d75446ea52b2c32b1e2038fc59b5",
       "identity": "kickoff-early-answer:3d80d40cb0bf0718f4e7dd8e76e71584f24a3a4a90ff5970ba00ae19d48950a4"
+    },
+    {
+      "id": "ghostty-runtime-engine-manifest",
+      "digest": "c60d274303c601319e15c5440ee95bb0be1b1a01ddb59a1f0bdd6602f5544454",
+      "type": "patch",
+      "summary": "Terminal now reads the Ghostty engine's build record from the installed app at runtime instead of baking it into the frontend, so Apple Silicon and Intel Macs ship the same frontend and macOS releases build it once. Ghostty stays available on Apple Silicon and unavailable on Intel (xterm renders), as before.",
+      "sourceSha": "72e1b61dbde1013141e66c76c26a4f11244dee9b",
+      "identity": "ghostty-runtime-engine-manifest:c60d274303c601319e15c5440ee95bb0be1b1a01ddb59a1f0bdd6602f5544454"
     }
   ],
   "consumedIntentIds": [
