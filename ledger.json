@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "186e63b7165d95aaa86a3b27c22ff25fe4e8ae1b",
+  "cursorSha": "ba960985cf81ddc9b5ebdd55171c94a4c2eaff12",
   "highWaterVersion": "1.395.1",
   "rows": [
     {
@@ -124017,6 +124017,13 @@
       "sourceSha": "186e63b7165d95aaa86a3b27c22ff25fe4e8ae1b",
       "sourcePackageVersion": "1.395.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ba960985cf81ddc9b5ebdd55171c94a4c2eaff12",
+      "sourcePackageVersion": "1.395.2",
+      "intentIds": [
+        "remote-computer-unified-shell:03696410a41082ac0acc901de438b90f7e5569ecff72d27bf86428f7d0903e1d"
+      ]
     }
   ],
   "intents": [
@@ -127835,6 +127842,14 @@
       "summary": "Warm the phone drawer and its list after idle so opening avoids mounting them during the slide, while preserving closed-state accessibility, focus and native reporting.",
       "sourceSha": "d4bbc4c31181fb35633194bbcecdf89adf81f89b",
       "identity": "instant-phone-drawer:952f9cfc7dfb3a3ce79e3d2b6d3dc8d8e7b3c6f2ae33917b03e509bcc91989aa"
+    },
+    {
+      "id": "remote-computer-unified-shell",
+      "digest": "03696410a41082ac0acc901de438b90f7e5569ecff72d27bf86428f7d0903e1d",
+      "type": "patch",
+      "summary": "Show the unified shell in signed-in computer windows and open web-only pages in the browser when the window has no web pane.",
+      "sourceSha": "ba960985cf81ddc9b5ebdd55171c94a4c2eaff12",
+      "identity": "remote-computer-unified-shell:03696410a41082ac0acc901de438b90f7e5569ecff72d27bf86428f7d0903e1d"
     }
   ],
   "consumedIntentIds": [
