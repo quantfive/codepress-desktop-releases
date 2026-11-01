@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "caae6a1e50ed341f18fb2b5b5199fa56895ba419",
+  "cursorSha": "eb694167f59beb76327811a4e5f5e00b0abc6f6b",
   "highWaterVersion": "1.393.0",
   "rows": [
     {
@@ -123092,6 +123092,13 @@
       "intentIds": [
         "cli-lane-alongside-mac:2a57111f56c78e3cd17b59cf4438e59746210f0d6e938d1a5be0c5e8bb675548"
       ]
+    },
+    {
+      "sourceSha": "eb694167f59beb76327811a4e5f5e00b0abc6f6b",
+      "sourcePackageVersion": "1.394.0",
+      "intentIds": [
+        "slim-rail-one-selected:b8de1946723c7cb7b3c256bec90c2119e442169df534af3612413ec9cb1dc2e5"
+      ]
     }
   ],
   "intents": [
@@ -126798,6 +126805,14 @@
       "summary": "Linux builds and CLIs now ship alongside Mac instead of after it, and CLI publishing is faster.",
       "sourceSha": "caae6a1e50ed341f18fb2b5b5199fa56895ba419",
       "identity": "cli-lane-alongside-mac:2a57111f56c78e3cd17b59cf4438e59746210f0d6e938d1a5be0c5e8bb675548"
+    },
+    {
+      "id": "slim-rail-one-selected",
+      "digest": "b8de1946723c7cb7b3c256bec90c2119e442169df534af3612413ec9cb1dc2e5",
+      "type": "patch",
+      "summary": "The Orchestrator rail and feed share one selected colour, the phone rail marks the active item with a slim pill, count pills are slimmer, tabs and cards share one left edge, and the Search field fills the feed's top row.",
+      "sourceSha": "eb694167f59beb76327811a4e5f5e00b0abc6f6b",
+      "identity": "slim-rail-one-selected:b8de1946723c7cb7b3c256bec90c2119e442169df534af3612413ec9cb1dc2e5"
     }
   ],
   "consumedIntentIds": [
