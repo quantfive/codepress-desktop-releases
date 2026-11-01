@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "37b4ed789f6a5b8c1c9fee39ea38b688509c5f33",
+  "cursorSha": "69694d97e3609af7efc4cd363e70cb8e37a49072",
   "highWaterVersion": "1.397.2",
   "rows": [
     {
@@ -125721,6 +125721,13 @@
       "sourceSha": "37b4ed789f6a5b8c1c9fee39ea38b688509c5f33",
       "sourcePackageVersion": "1.397.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "69694d97e3609af7efc4cd363e70cb8e37a49072",
+      "sourcePackageVersion": "1.397.3",
+      "intentIds": [
+        "terminal-local-first-routing-flag:19717d6f0a54a9cdf7588bd7f4c8a95deb964e825303f744fb65370da40b1021"
+      ]
     }
   ],
   "intents": [
@@ -129747,6 +129754,14 @@
       "summary": "Keep the Orchestrator and Workers chips when a settings read fails or you switch projects: failed reads retry by themselves, a synced copy re-reads when it comes back live, and each project's last settings show at once on return.",
       "sourceSha": "2b80ee05366e68b4b886c14a45b228f3cb265169",
       "identity": "settings-reads-recover:0c98d03451f12fe3a899f1b13ebef0e342061175a96826da777cfdada1bd5e61"
+    },
+    {
+      "id": "terminal-local-first-routing-flag",
+      "digest": "19717d6f0a54a9cdf7588bd7f4c8a95deb964e825303f744fb65370da40b1021",
+      "type": "patch",
+      "summary": "Settings reads the organization's new Local-first routing flag, ready for the routing sections that follow.",
+      "sourceSha": "69694d97e3609af7efc4cd363e70cb8e37a49072",
+      "identity": "terminal-local-first-routing-flag:19717d6f0a54a9cdf7588bd7f4c8a95deb964e825303f744fb65370da40b1021"
     }
   ],
   "consumedIntentIds": [
