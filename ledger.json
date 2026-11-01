@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "fc7f410fb4cdc81b5f7b59318e0980ba3db2d4a8",
+  "cursorSha": "69a5bbfce038d15a1ace493ea43da03e174b7197",
   "highWaterVersion": "1.393.4",
   "rows": [
     {
@@ -123493,6 +123493,13 @@
       "sourceSha": "fc7f410fb4cdc81b5f7b59318e0980ba3db2d4a8",
       "sourcePackageVersion": "1.394.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "69a5bbfce038d15a1ace493ea43da03e174b7197",
+      "sourcePackageVersion": "1.394.5",
+      "intentIds": [
+        "quiet-replica-loading:2930be09b35b4df1fac6cfdcf4bb5c4415f4a12b29a049a068afe02c1272b39a"
+      ]
     }
   ],
   "intents": [
@@ -127239,6 +127246,14 @@
       "summary": "Let the owner browse recent folders and directories on this computer from the web app through the read-only device folder protocol.",
       "sourceSha": "2f0667730301885b911fe90590ec9829c853f56e",
       "identity": "device-folder-owner-reads:3909d053f9fb26e6911a9537087325028e1220749876cfe04b9bcd589821766d"
+    },
+    {
+      "id": "quiet-replica-loading",
+      "digest": "2930be09b35b4df1fac6cfdcf4bb5c4415f4a12b29a049a068afe02c1272b39a",
+      "type": "patch",
+      "summary": "Keep synced project composers quiet while loading, then enable replies normally. Name the home machine when a Local only project cannot accept replies.",
+      "sourceSha": "69a5bbfce038d15a1ace493ea43da03e174b7197",
+      "identity": "quiet-replica-loading:2930be09b35b4df1fac6cfdcf4bb5c4415f4a12b29a049a068afe02c1272b39a"
     }
   ],
   "consumedIntentIds": [
