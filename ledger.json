@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "69a5bbfce038d15a1ace493ea43da03e174b7197",
-  "highWaterVersion": "1.393.4",
+  "highWaterVersion": "1.393.5",
   "rows": [
     {
       "schemaVersion": 1,
@@ -64112,6 +64112,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:69a5bbfce038d15a1ace493ea43da03e174b7197",
+      "kind": "main",
+      "sequence": 1872,
+      "sourceSha": "69a5bbfce038d15a1ace493ea43da03e174b7197",
+      "sourcePackageVersion": "1.394.5",
+      "version": "1.393.5",
+      "publicationDate": "2026-11-01T03:43:23.231Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "quiet-replica-loading:2930be09b35b4df1fac6cfdcf4bb5c4415f4a12b29a049a068afe02c1272b39a"
+        ],
+        "notesIntentIds": [
+          "quiet-replica-loading:2930be09b35b4df1fac6cfdcf4bb5c4415f4a12b29a049a068afe02c1272b39a"
+        ],
+        "throughSourceSha": "69a5bbfce038d15a1ace493ea43da03e174b7197",
+        "previousThroughSourceSha": "f0789d70461ad9e9d1dd3ebaf245865f11ca35ab",
+        "baselineVersion": "1.393.4",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41270256831",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-02T03:43:17.897Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -127724,7 +127767,8 @@
     "friendly-machines-discovery:81383172abbbf001bf1c2772b3f0a7c08c4c3accc68c37b299af79e6d658a3b1",
     "terminal-all-organizations:07dba1735b5142da45b40d5a8a40673b5520be990dd8166dd72a5c0d9d140b95",
     "kickoff-send-spinner:3ef6077bdafe81e8c40335501083998fe658bf809cf833a1bea6655aa3ac17ce",
-    "device-folder-owner-reads:3909d053f9fb26e6911a9537087325028e1220749876cfe04b9bcd589821766d"
+    "device-folder-owner-reads:3909d053f9fb26e6911a9537087325028e1220749876cfe04b9bcd589821766d",
+    "quiet-replica-loading:2930be09b35b4df1fac6cfdcf4bb5c4415f4a12b29a049a068afe02c1272b39a"
   ],
-  "consumedThroughSha": "f0789d70461ad9e9d1dd3ebaf245865f11ca35ab"
+  "consumedThroughSha": "69a5bbfce038d15a1ace493ea43da03e174b7197"
 }
