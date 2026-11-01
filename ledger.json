@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "a308fbdd633f50668a67e8d60411cbc997048746",
-  "highWaterVersion": "1.395.5",
+  "highWaterVersion": "1.395.6",
   "rows": [
     {
       "schemaVersion": 1,
@@ -64702,6 +64702,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:a308fbdd633f50668a67e8d60411cbc997048746",
+      "kind": "main",
+      "sequence": 1883,
+      "sourceSha": "a308fbdd633f50668a67e8d60411cbc997048746",
+      "sourcePackageVersion": "1.395.8",
+      "version": "1.395.6",
+      "publicationDate": "2026-11-01T07:35:33.439Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "git-identity-warm-invalidations:bf1d30cc1a617799ec07a00f9511db01241e51f4993994b567945df142cd19ce"
+        ],
+        "notesIntentIds": [
+          "git-identity-warm-invalidations:bf1d30cc1a617799ec07a00f9511db01241e51f4993994b567945df142cd19ce"
+        ],
+        "throughSourceSha": "a308fbdd633f50668a67e8d60411cbc997048746",
+        "previousThroughSourceSha": "7843d993fce3fdc089587799661a1927c4d80604",
+        "baselineVersion": "1.395.5",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41285375587",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-02T07:35:28.460Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -128738,7 +128781,8 @@
     "shared-feed-open-target:555eee4ab53e2ddcf134a5b75c5b49696af6e5cb4149baabe6cd757cd59a487d",
     "synced-post-html-readers:a045a7d0b9c91215e60d8808c8a2d3b49ad7195834daa64855f6a3d0f66a2d6b",
     "e2e-layout-helper:7b83fbfd153097b7ae1ede62da3f8c6c10294b50e32367188113f8953e69efb2",
-    "bring-moved-project-back:48f0ceff79fe7a74c1d66d82fdfac81e7ada052175c8a05c6e825600f73d15cf"
+    "bring-moved-project-back:48f0ceff79fe7a74c1d66d82fdfac81e7ada052175c8a05c6e825600f73d15cf",
+    "git-identity-warm-invalidations:bf1d30cc1a617799ec07a00f9511db01241e51f4993994b567945df142cd19ce"
   ],
-  "consumedThroughSha": "7843d993fce3fdc089587799661a1927c4d80604"
+  "consumedThroughSha": "a308fbdd633f50668a67e8d60411cbc997048746"
 }
