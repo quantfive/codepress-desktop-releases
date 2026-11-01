@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "66c7e9bca1a688a0d45ba0e71dd45ab8adc63435",
+  "cursorSha": "f62bfd0cd0af14ef8a50c6148442a12d5e8a0a12",
   "highWaterVersion": "1.396.5",
   "rows": [
     {
@@ -125035,6 +125035,13 @@
       "sourceSha": "66c7e9bca1a688a0d45ba0e71dd45ab8adc63435",
       "sourcePackageVersion": "1.396.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f62bfd0cd0af14ef8a50c6148442a12d5e8a0a12",
+      "sourcePackageVersion": "1.396.6",
+      "intentIds": [
+        "chat-managed-repository-worktrees:a3ef8cb2ba4e8c87b1a977c98fa02811dcedef038c8f20c6cfd3440b3ef2da8a"
+      ]
     }
   ],
   "intents": [
@@ -128973,6 +128980,14 @@
       "summary": "Hosted macOS Terminal releases now install one frontend built on Linux instead of building it on each slow Mac runner, after checking it was built from the same commit, version and Node. If that build is missing or does not match, the Mac builds the frontend itself as before.",
       "sourceSha": "55456da561f976e0774bfdea9a806b50dd00450b",
       "identity": "terminal-linux-frontend-handoff:6f67449f04cfe429952322f857ac4ae763aa131241f5afe06c0ebc4b9c8f67b4"
+    },
+    {
+      "id": "chat-managed-repository-worktrees",
+      "digest": "a3ef8cb2ba4e8c87b1a977c98fa02811dcedef038c8f20c6cfd3440b3ef2da8a",
+      "type": "patch",
+      "summary": "Let computer chats use connected repositories through managed per-chat worktrees, with an optional git folder and safe worktree cleanup.",
+      "sourceSha": "f62bfd0cd0af14ef8a50c6148442a12d5e8a0a12",
+      "identity": "chat-managed-repository-worktrees:a3ef8cb2ba4e8c87b1a977c98fa02811dcedef038c8f20c6cfd3440b3ef2da8a"
     }
   ],
   "consumedIntentIds": [
