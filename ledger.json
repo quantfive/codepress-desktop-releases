@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "953cb663b45de93257bfa50dff3dcf8785ff2bca",
+  "cursorSha": "979b6eb10bcd2db8959b140d37cffc3eeda1f8f9",
   "highWaterVersion": "1.395.7",
   "rows": [
     {
@@ -124539,6 +124539,13 @@
       "sourceSha": "953cb663b45de93257bfa50dff3dcf8785ff2bca",
       "sourcePackageVersion": "1.395.10",
       "intentIds": []
+    },
+    {
+      "sourceSha": "979b6eb10bcd2db8959b140d37cffc3eeda1f8f9",
+      "sourcePackageVersion": "1.395.10",
+      "intentIds": [
+        "picker-remote-access-machines:9d2725c0ec7389b7f887a690b78613bb5a12330e9e4e046ce19b867ac0558be9"
+      ]
     }
   ],
   "intents": [
@@ -128421,6 +128428,14 @@
       "summary": "Use saved personal Orchestrator and Workers models for kickoffs without explicit model picks.",
       "sourceSha": "58e9723fc0f0f865e0d198897add3daca464553e",
       "identity": "kickoff-saved-model-defaults:6dfbb9f39bfc08ad8ae299e78826d994674ee1a3ad1e9f30a47823e6201d09e3"
+    },
+    {
+      "id": "picker-remote-access-machines",
+      "digest": "9d2725c0ec7389b7f887a690b78613bb5a12330e9e4e046ce19b867ac0558be9",
+      "type": "minor",
+      "summary": "The unified shell's machine picker now lists your Remote Access computers, and each online one opens from its own row: a terminal icon connects it in this window and the window icon opens it in a new window. The \"Open another computer…\" row is gone.",
+      "sourceSha": "979b6eb10bcd2db8959b140d37cffc3eeda1f8f9",
+      "identity": "picker-remote-access-machines:9d2725c0ec7389b7f887a690b78613bb5a12330e9e4e046ce19b867ac0558be9"
     }
   ],
   "consumedIntentIds": [
