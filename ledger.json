@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3df6cb64df7fe6db0a159e4963d1c96f5b02e54d",
+  "cursorSha": "76194ce5ab63ed825941c88a2290e4d5b211e7c2",
   "highWaterVersion": "1.399.0",
   "rows": [
     {
@@ -126204,6 +126204,18 @@
       "sourceSha": "3df6cb64df7fe6db0a159e4963d1c96f5b02e54d",
       "sourcePackageVersion": "1.399.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9182118111cb542ba044dc74ec69177de86f2684",
+      "sourcePackageVersion": "1.399.1",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "76194ce5ab63ed825941c88a2290e4d5b211e7c2",
+      "sourcePackageVersion": "1.399.1",
+      "intentIds": [
+        "google-consumer-disclosure:f47572c533d976269a9e12f4ae61a157e3c6a601a789e0972f8b32b42957a205"
+      ]
     }
   ],
   "intents": [
@@ -130310,6 +130322,14 @@
       "summary": "Every online machine, desktop or headless, now reports its CPU, RAM and power for Auto on every heartbeat, with no organization setting in the way. A failed checkout or probe read costs only that field. A machine that stops reporting reads \"Not reporting load · last seen 4m ago\" (or \"· never\") in Runs on instead of a plain \"Online\", one on an outdated Terminal reads \"Update Terminal to route here\", and `get_terminal_diagnostics` shows `load_reporting`.",
       "sourceSha": "8f0ef2318d8709dff041927ea564c71f53d02b43",
       "identity": "every-machine-reports-load:dbffceccfa3569d05593cb1722b5efb90f1b56c69dc6b569916aca88294843f8"
+    },
+    {
+      "id": "google-consumer-disclosure",
+      "digest": "f47572c533d976269a9e12f4ae61a157e3c6a601a789e0972f8b32b42957a205",
+      "type": "patch",
+      "summary": "Gemini workers now say plainly what Google allows on a personal account: one warning at sign-in, at first pick and in the project thread, linking Google's FAQ and steering to an API key. A dead `agy` login shows Reconnect, and agents can read worker sign-in status.",
+      "sourceSha": "76194ce5ab63ed825941c88a2290e4d5b211e7c2",
+      "identity": "google-consumer-disclosure:f47572c533d976269a9e12f4ae61a157e3c6a601a789e0972f8b32b42957a205"
     }
   ],
   "consumedIntentIds": [
