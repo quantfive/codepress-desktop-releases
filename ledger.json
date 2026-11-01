@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "beeb778c843095c2f71984701c7dda07a0eda6dd",
-  "highWaterVersion": "1.399.2",
+  "highWaterVersion": "1.399.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -66099,6 +66099,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:beeb778c843095c2f71984701c7dda07a0eda6dd",
+      "kind": "main",
+      "sequence": 1908,
+      "sourceSha": "beeb778c843095c2f71984701c7dda07a0eda6dd",
+      "sourcePackageVersion": "1.399.4",
+      "version": "1.399.3",
+      "publicationDate": "2026-11-01T23:03:54.927Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "cookie-boundary-cross-origin:b82374e5e6502ca6948e9e4a1c92d14a1e01b59b119d545a272f9d2262195eae"
+        ],
+        "notesIntentIds": [
+          "cookie-boundary-cross-origin:b82374e5e6502ca6948e9e4a1c92d14a1e01b59b119d545a272f9d2262195eae"
+        ],
+        "throughSourceSha": "beeb778c843095c2f71984701c7dda07a0eda6dd",
+        "previousThroughSourceSha": "09842ace09d0b4f7aa38cca2f5ee52bc1d6e1ab9",
+        "baselineVersion": "1.399.2",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41360179168",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-02T23:03:50.261Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -131081,7 +131124,8 @@
     "api-auth-before-every-route:92ded3a387f9bf6913182b2c0686af2f461f3a1f00229dd196c75c4f727aa197",
     "copy-answers-carry-mentions:c84a5db38dd286d8f4215b570dfb4927e4c9f414153ebc2c9a8905b40f6bb3f5",
     "strict-browse-ports:281dd7851a72ae7dc13f15ad156a1c5be8ce5e1b5869741a16da5d4cecabf8a8",
-    "validate-auth-return-url:8a6ae4cbb514be49d82979982c4bd198e858d6162abe3f6376651a3a3e9208e2"
+    "validate-auth-return-url:8a6ae4cbb514be49d82979982c4bd198e858d6162abe3f6376651a3a3e9208e2",
+    "cookie-boundary-cross-origin:b82374e5e6502ca6948e9e4a1c92d14a1e01b59b119d545a272f9d2262195eae"
   ],
-  "consumedThroughSha": "09842ace09d0b4f7aa38cca2f5ee52bc1d6e1ab9"
+  "consumedThroughSha": "beeb778c843095c2f71984701c7dda07a0eda6dd"
 }
