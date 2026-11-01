@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "caeebc30bd907fe54685888f3f9ac1d1cde70057",
-  "highWaterVersion": "1.396.0",
+  "highWaterVersion": "1.396.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -64869,6 +64869,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:caeebc30bd907fe54685888f3f9ac1d1cde70057",
+      "kind": "main",
+      "sequence": 1886,
+      "sourceSha": "caeebc30bd907fe54685888f3f9ac1d1cde70057",
+      "sourcePackageVersion": "1.396.0",
+      "version": "1.396.1",
+      "publicationDate": "2026-11-01T10:21:12.751Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "shared-kickoff-repository-folder-chips:f88f4365e63f429bcbecfe2de9e749738ad490543302c3542231bb63d9434bda"
+        ],
+        "notesIntentIds": [
+          "shared-kickoff-repository-folder-chips:f88f4365e63f429bcbecfe2de9e749738ad490543302c3542231bb63d9434bda"
+        ],
+        "throughSourceSha": "caeebc30bd907fe54685888f3f9ac1d1cde70057",
+        "previousThroughSourceSha": "2f039789e27b884280845e81dd9434c2d76dc5fa",
+        "baselineVersion": "1.396.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41297074648",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-02T10:21:07.735Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -129014,7 +129057,8 @@
     "git-identity-warm-invalidations:bf1d30cc1a617799ec07a00f9511db01241e51f4993994b567945df142cd19ce",
     "parallel-pm-start:b1a3f7c6b6089dc5dccf86a551cdda8472ff189cf872f899bbcd44c8efcc17b2",
     "kickoff-saved-model-defaults:6dfbb9f39bfc08ad8ae299e78826d994674ee1a3ad1e9f30a47823e6201d09e3",
-    "picker-remote-access-machines:9d2725c0ec7389b7f887a690b78613bb5a12330e9e4e046ce19b867ac0558be9"
+    "picker-remote-access-machines:9d2725c0ec7389b7f887a690b78613bb5a12330e9e4e046ce19b867ac0558be9",
+    "shared-kickoff-repository-folder-chips:f88f4365e63f429bcbecfe2de9e749738ad490543302c3542231bb63d9434bda"
   ],
-  "consumedThroughSha": "2f039789e27b884280845e81dd9434c2d76dc5fa"
+  "consumedThroughSha": "caeebc30bd907fe54685888f3f9ac1d1cde70057"
 }
