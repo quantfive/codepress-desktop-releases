@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d9386b031248826046306068aa86e0a5f517d9ab",
+  "cursorSha": "8041c911efb4f94c35ce205946d55bbc4faf338a",
   "highWaterVersion": "1.397.3",
   "rows": [
     {
@@ -125811,6 +125811,13 @@
       "sourceSha": "d9386b031248826046306068aa86e0a5f517d9ab",
       "sourcePackageVersion": "1.397.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "8041c911efb4f94c35ce205946d55bbc4faf338a",
+      "sourcePackageVersion": "1.397.5",
+      "intentIds": [
+        "kimi-usage-left:f9caff0454b5c67c558946c188b245ba0801a4e84a6df0298101afdb387ad53d"
+      ]
     }
   ],
   "intents": [
@@ -129861,6 +129868,14 @@
       "summary": "A notification alone no longer cancels an account switch, and a switch that has landed is never reported as failed. Every stopped switch now says why in the log.",
       "sourceSha": "27546d8df305d0f45fdbdde46df5fa059efa0b35",
       "identity": "false-supersede-account-switch:6f952e3012e6111670cdf0771a90b978b1f5af1af2d5c395f62b67c84cfedd20"
+    },
+    {
+      "id": "kimi-usage-left",
+      "digest": "f9caff0454b5c67c558946c188b245ba0801a4e84a6df0298101afdb387ad53d",
+      "type": "minor",
+      "summary": "Kimi usage left now shows wherever it does for Claude and Codex. A Local Kimi account's card shows its 5-hour and weekly bars with reset times and Refresh usage, and a selected Kimi model shows the active account's weekly usage in the Orchestrator and worker pickers, whichever scope the account has. Terminal reads Kimi only for Local accounts; Personal and Team usage comes from CodePress. If a usage check fails, the last reading stays and is marked out of date.",
+      "sourceSha": "8041c911efb4f94c35ce205946d55bbc4faf338a",
+      "identity": "kimi-usage-left:f9caff0454b5c67c558946c188b245ba0801a4e84a6df0298101afdb387ad53d"
     }
   ],
   "consumedIntentIds": [
