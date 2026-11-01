@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5742d8dc6ec3a3b68982bceaf21b0f2485cc3cc4",
+  "cursorSha": "5d0efcc02122351ba156728780a1ea3698571e81",
   "highWaterVersion": "1.395.5",
   "rows": [
     {
@@ -124346,6 +124346,13 @@
       "sourceSha": "5742d8dc6ec3a3b68982bceaf21b0f2485cc3cc4",
       "sourcePackageVersion": "1.395.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "5d0efcc02122351ba156728780a1ea3698571e81",
+      "sourcePackageVersion": "1.395.7",
+      "intentIds": [
+        "git-identity-warm-invalidations:bf1d30cc1a617799ec07a00f9511db01241e51f4993994b567945df142cd19ce"
+      ]
     }
   ],
   "intents": [
@@ -128204,6 +128211,14 @@
       "summary": "Offer Hand off on a project this Mac moved to the cloud, so its Orchestrator can come back here, and deliver messages sent to its old address to the cloud project.",
       "sourceSha": "7843d993fce3fdc089587799661a1927c4d80604",
       "identity": "bring-moved-project-back:48f0ceff79fe7a74c1d66d82fdfac81e7ada052175c8a05c6e825600f73d15cf"
+    },
+    {
+      "id": "git-identity-warm-invalidations",
+      "digest": "bf1d30cc1a617799ec07a00f9511db01241e51f4993994b567945df142cd19ce",
+      "type": "patch",
+      "summary": "Terminal keeps each tab folder's branch and origin answer warm when another repository's refs change, follows `[include]` and `includeIf \"gitdir:\"` config files instead of re-running Git, and stops re-reading folders that are not repositories, so the server spawns far fewer `git branch` / `git remote get-url` processes.",
+      "sourceSha": "5d0efcc02122351ba156728780a1ea3698571e81",
+      "identity": "git-identity-warm-invalidations:bf1d30cc1a617799ec07a00f9511db01241e51f4993994b567945df142cd19ce"
     }
   ],
   "consumedIntentIds": [
