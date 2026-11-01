@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "06cdad676260efdb9a7d5a00aebe87ee7f04e4bd",
-  "highWaterVersion": "1.393.0",
+  "highWaterVersion": "1.393.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -63881,6 +63881,52 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:06cdad676260efdb9a7d5a00aebe87ee7f04e4bd",
+      "kind": "main",
+      "sequence": 1868,
+      "sourceSha": "06cdad676260efdb9a7d5a00aebe87ee7f04e4bd",
+      "sourcePackageVersion": "1.394.1",
+      "version": "1.393.1",
+      "publicationDate": "2026-11-01T01:16:42.469Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "cli-lane-alongside-mac:2a57111f56c78e3cd17b59cf4438e59746210f0d6e938d1a5be0c5e8bb675548",
+          "slim-rail-one-selected:b8de1946723c7cb7b3c256bec90c2119e442169df534af3612413ec9cb1dc2e5"
+        ],
+        "notesIntentIds": [
+          "kimi-local-orchestrator-relay:95f1874f3c1a741d6e1d8c7089ebb69dd52de3c1fe887c27764a8424d421aae0",
+          "cli-lane-alongside-mac:2a57111f56c78e3cd17b59cf4438e59746210f0d6e938d1a5be0c5e8bb675548",
+          "slim-rail-one-selected:b8de1946723c7cb7b3c256bec90c2119e442169df534af3612413ec9cb1dc2e5"
+        ],
+        "throughSourceSha": "06cdad676260efdb9a7d5a00aebe87ee7f04e4bd",
+        "previousThroughSourceSha": "2516d412f7b4cc16974ec361e86fee7f552312ce",
+        "baselineVersion": "1.393.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41260323921",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-02T01:16:38.466Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -127292,7 +127338,9 @@
     "lighter-terminal-delivery:0b4c576f4ed60e58c6f594a996b36b8006acaeafc316f7f5f69ade2b1ad85dd5",
     "patient-intel-daemon-launch:e855cca79cba24ab3a7b1150f2928f4da89eeb076ce256aef3ae9c77a3f66f89",
     "bright-org-avatar-thumbnails:568f15590b663ae1719db005a5a0aa102e09dd42e3ab820d455db7b692c786b2",
-    "kimi-local-orchestrator-relay:95f1874f3c1a741d6e1d8c7089ebb69dd52de3c1fe887c27764a8424d421aae0"
+    "kimi-local-orchestrator-relay:95f1874f3c1a741d6e1d8c7089ebb69dd52de3c1fe887c27764a8424d421aae0",
+    "cli-lane-alongside-mac:2a57111f56c78e3cd17b59cf4438e59746210f0d6e938d1a5be0c5e8bb675548",
+    "slim-rail-one-selected:b8de1946723c7cb7b3c256bec90c2119e442169df534af3612413ec9cb1dc2e5"
   ],
-  "consumedThroughSha": "2516d412f7b4cc16974ec361e86fee7f552312ce"
+  "consumedThroughSha": "06cdad676260efdb9a7d5a00aebe87ee7f04e4bd"
 }
