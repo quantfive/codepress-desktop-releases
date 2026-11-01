@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9b9cd33418a3998443c358a9547079324945c681",
+  "cursorSha": "45989a265228a8c28effc69d6182b36d3042d309",
   "highWaterVersion": "1.398.3",
   "rows": [
     {
@@ -126115,6 +126115,11 @@
       "intentIds": [
         "sessions-before-socket:376c7319d58041114b4eb2a187a0c04dbfa229c2d1c71556de4813bf76c47f79"
       ]
+    },
+    {
+      "sourceSha": "45989a265228a8c28effc69d6182b36d3042d309",
+      "sourcePackageVersion": "1.399.0",
+      "intentIds": []
     }
   ],
   "intents": [
