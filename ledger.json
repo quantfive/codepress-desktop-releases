@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4aca20d9ff4469bfbfc89af803e6d83b2d02d9c6",
+  "cursorSha": "9e7461559aeb6518217b75c5dd59b790448865b6",
   "highWaterVersion": "1.398.2",
   "rows": [
     {
@@ -126046,6 +126046,13 @@
       "sourceSha": "4aca20d9ff4469bfbfc89af803e6d83b2d02d9c6",
       "sourcePackageVersion": "1.398.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9e7461559aeb6518217b75c5dd59b790448865b6",
+      "sourcePackageVersion": "1.398.3",
+      "intentIds": [
+        "copy-model-chips:4455a25564f628cf73c1279ab1edaf8dc8f287265c470b96df0a160eea188527"
+      ]
     }
   ],
   "intents": [
@@ -130128,6 +130135,14 @@
       "summary": "Terminal windows now paint their chrome outline in your theme before any script runs, and the app renders without waiting on IPC or the network.",
       "sourceSha": "961ad26fc2337910f50c6c1ff1ecab0104697ef8",
       "identity": "terminal-paint-first:256b15216a3eea33e53eb9ed4f90a5b8f15c99d7607d1fac0541001bff20b608"
+    },
+    {
+      "id": "copy-model-chips",
+      "digest": "4455a25564f628cf73c1279ab1edaf8dc8f287265c470b96df0a160eea188527",
+      "type": "patch",
+      "summary": "Synced copies keep their Orchestrator and Workers chips while the home is away; pressing one says which computer needs to be awake.",
+      "sourceSha": "9e7461559aeb6518217b75c5dd59b790448865b6",
+      "identity": "copy-model-chips:4455a25564f628cf73c1279ab1edaf8dc8f287265c470b96df0a160eea188527"
     }
   ],
   "consumedIntentIds": [
