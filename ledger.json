@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "2443ade950190e5830834c687c6b562eb34c96e5",
-  "highWaterVersion": "1.393.5",
+  "highWaterVersion": "1.393.6",
   "rows": [
     {
       "schemaVersion": 1,
@@ -64167,6 +64167,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:2443ade950190e5830834c687c6b562eb34c96e5",
+      "kind": "main",
+      "sequence": 1873,
+      "sourceSha": "2443ade950190e5830834c687c6b562eb34c96e5",
+      "sourcePackageVersion": "1.394.7",
+      "version": "1.393.6",
+      "publicationDate": "2026-11-01T04:12:42.782Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "cli-budget-linux:5c827b7259459ae8fe5ff3c21bbb72efb6b249e4261a007f3b4639c32a47cba7"
+        ],
+        "notesIntentIds": [
+          "cli-budget-linux:5c827b7259459ae8fe5ff3c21bbb72efb6b249e4261a007f3b4639c32a47cba7"
+        ],
+        "throughSourceSha": "2443ade950190e5830834c687c6b562eb34c96e5",
+        "previousThroughSourceSha": "69a5bbfce038d15a1ace493ea43da03e174b7197",
+        "baselineVersion": "1.393.5",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41272166344",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-02T04:12:38.155Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -127815,7 +127858,8 @@
     "terminal-all-organizations:07dba1735b5142da45b40d5a8a40673b5520be990dd8166dd72a5c0d9d140b95",
     "kickoff-send-spinner:3ef6077bdafe81e8c40335501083998fe658bf809cf833a1bea6655aa3ac17ce",
     "device-folder-owner-reads:3909d053f9fb26e6911a9537087325028e1220749876cfe04b9bcd589821766d",
-    "quiet-replica-loading:2930be09b35b4df1fac6cfdcf4bb5c4415f4a12b29a049a068afe02c1272b39a"
+    "quiet-replica-loading:2930be09b35b4df1fac6cfdcf4bb5c4415f4a12b29a049a068afe02c1272b39a",
+    "cli-budget-linux:5c827b7259459ae8fe5ff3c21bbb72efb6b249e4261a007f3b4639c32a47cba7"
   ],
-  "consumedThroughSha": "69a5bbfce038d15a1ace493ea43da03e174b7197"
+  "consumedThroughSha": "2443ade950190e5830834c687c6b562eb34c96e5"
 }
