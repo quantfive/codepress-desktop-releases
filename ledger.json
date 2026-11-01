@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b139ebfa4982e46666163e8c1983a74b89aa0416",
+  "cursorSha": "2bf8a291cae9b23fcb8e86170a5b4bfbfcd7575f",
   "highWaterVersion": "1.396.10",
   "rows": [
     {
@@ -125424,6 +125424,13 @@
       "sourceSha": "b139ebfa4982e46666163e8c1983a74b89aa0416",
       "sourcePackageVersion": "1.396.11",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2bf8a291cae9b23fcb8e86170a5b4bfbfcd7575f",
+      "sourcePackageVersion": "1.396.11",
+      "intentIds": [
+        "handoff-dialog-dot-divider:d62035ab037d4427e9ad6c7055f237982bd00ed47c320f55bb171fff9f9a9958"
+      ]
     }
   ],
   "intents": [
@@ -129410,6 +129417,14 @@
       "summary": "Clicking a rail row right after a restart draws the project's header (name, machine, phase) and its loading rows at once, and this Mac's projects show their posts as soon as the daemon answers their snapshot, without waiting for the project list or the organization list.",
       "sourceSha": "26c22fd158dbd43cb25a1e44d77ffd3ecd3d9b86",
       "identity": "rail-row-draws-at-once:3ff44e8455b6228aa77020315867391d6c044d48eb552ad4328c68cfaed16ab6"
+    },
+    {
+      "id": "handoff-dialog-dot-divider",
+      "digest": "d62035ab037d4427e9ad6c7055f237982bd00ed47c320f55bb171fff9f9a9958",
+      "type": "patch",
+      "summary": "Handoff progress dialog: the current-step dot now pulses and is no longer clipped, and the footer divider is gone.",
+      "sourceSha": "2bf8a291cae9b23fcb8e86170a5b4bfbfcd7575f",
+      "identity": "handoff-dialog-dot-divider:d62035ab037d4427e9ad6c7055f237982bd00ed47c320f55bb171fff9f9a9958"
     }
   ],
   "consumedIntentIds": [
