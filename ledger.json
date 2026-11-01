@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f708bfaa8bdf0ff14565a52e5eaa646b85249a93",
+  "cursorSha": "26c22fd158dbd43cb25a1e44d77ffd3ecd3d9b86",
   "highWaterVersion": "1.396.9",
   "rows": [
     {
@@ -125357,6 +125357,13 @@
       "sourceSha": "f708bfaa8bdf0ff14565a52e5eaa646b85249a93",
       "sourcePackageVersion": "1.396.10",
       "intentIds": []
+    },
+    {
+      "sourceSha": "26c22fd158dbd43cb25a1e44d77ffd3ecd3d9b86",
+      "sourcePackageVersion": "1.396.10",
+      "intentIds": [
+        "rail-row-draws-at-once:3ff44e8455b6228aa77020315867391d6c044d48eb552ad4328c68cfaed16ab6"
+      ]
     }
   ],
   "intents": [
@@ -129335,6 +129342,14 @@
       "summary": "Headless Terminal: cross-machine tools now wait (up to 15 s, `CODEPRESS_MACHINE_CHANNEL_WAIT_MS`) for a device-channel reconnect instead of failing at once, retry read-only machine operations once after a reconnect, and name the real refusal code instead of asking you to sign in. Terminal's own Computer Use entry from an earlier headless-CLI install is now refreshed to the current install.",
       "sourceSha": "5948c4d4abeefe5767a0f4019fd7c79f052163ce",
       "identity": "channel-gap-headless-refusals:ee727a05f45ac203024482c96be8ed123ca83d600ca35d88433ddaaf5f21f8af"
+    },
+    {
+      "id": "rail-row-draws-at-once",
+      "digest": "3ff44e8455b6228aa77020315867391d6c044d48eb552ad4328c68cfaed16ab6",
+      "type": "patch",
+      "summary": "Clicking a rail row right after a restart draws the project's header (name, machine, phase) and its loading rows at once, and this Mac's projects show their posts as soon as the daemon answers their snapshot, without waiting for the project list or the organization list.",
+      "sourceSha": "26c22fd158dbd43cb25a1e44d77ffd3ecd3d9b86",
+      "identity": "rail-row-draws-at-once:3ff44e8455b6228aa77020315867391d6c044d48eb552ad4328c68cfaed16ab6"
     }
   ],
   "consumedIntentIds": [
