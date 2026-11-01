@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "183d7cbb2390a6c6db7a2f3e89b83257586d37ef",
+  "cursorSha": "7843d993fce3fdc089587799661a1927c4d80604",
   "highWaterVersion": "1.395.4",
   "rows": [
     {
@@ -124274,6 +124274,13 @@
       "sourceSha": "183d7cbb2390a6c6db7a2f3e89b83257586d37ef",
       "sourcePackageVersion": "1.395.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7843d993fce3fdc089587799661a1927c4d80604",
+      "sourcePackageVersion": "1.395.6",
+      "intentIds": [
+        "bring-moved-project-back:48f0ceff79fe7a74c1d66d82fdfac81e7ada052175c8a05c6e825600f73d15cf"
+      ]
     }
   ],
   "intents": [
@@ -128124,6 +128131,14 @@
       "summary": "Test tooling only: Terminal's title-bar layout test uses the shared `@codepress/e2e-layout` collision helper, and its e2e selector selects the specs that import it. No change to the app.",
       "sourceSha": "9d3a5eca096671d5caa7d056000cc7c96a57f887",
       "identity": "e2e-layout-helper:7b83fbfd153097b7ae1ede62da3f8c6c10294b50e32367188113f8953e69efb2"
+    },
+    {
+      "id": "bring-moved-project-back",
+      "digest": "48f0ceff79fe7a74c1d66d82fdfac81e7ada052175c8a05c6e825600f73d15cf",
+      "type": "patch",
+      "summary": "Offer Hand off on a project this Mac moved to the cloud, so its Orchestrator can come back here, and deliver messages sent to its old address to the cloud project.",
+      "sourceSha": "7843d993fce3fdc089587799661a1927c4d80604",
+      "identity": "bring-moved-project-back:48f0ceff79fe7a74c1d66d82fdfac81e7ada052175c8a05c6e825600f73d15cf"
     }
   ],
   "consumedIntentIds": [
