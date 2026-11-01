@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "8ef8920fc09895f8de91a13d6cb5d746ed847dd2",
-  "highWaterVersion": "1.395.3",
+  "highWaterVersion": "1.395.4",
   "rows": [
     {
       "schemaVersion": 1,
@@ -64590,6 +64590,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:8ef8920fc09895f8de91a13d6cb5d746ed847dd2",
+      "kind": "main",
+      "sequence": 1881,
+      "sourceSha": "8ef8920fc09895f8de91a13d6cb5d746ed847dd2",
+      "sourcePackageVersion": "1.395.5",
+      "version": "1.395.4",
+      "publicationDate": "2026-11-01T06:31:36.170Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "synced-post-html-readers:a045a7d0b9c91215e60d8808c8a2d3b49ad7195834daa64855f6a3d0f66a2d6b",
+          "e2e-layout-helper:7b83fbfd153097b7ae1ede62da3f8c6c10294b50e32367188113f8953e69efb2"
+        ],
+        "notesIntentIds": [
+          "synced-post-html-readers:a045a7d0b9c91215e60d8808c8a2d3b49ad7195834daa64855f6a3d0f66a2d6b",
+          "e2e-layout-helper:7b83fbfd153097b7ae1ede62da3f8c6c10294b50e32367188113f8953e69efb2"
+        ],
+        "throughSourceSha": "8ef8920fc09895f8de91a13d6cb5d746ed847dd2",
+        "previousThroughSourceSha": "4923b480d3ad81a465afdfc600cdd7ce44d725ff",
+        "baselineVersion": "1.395.3",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41281144027",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-02T06:31:31.403Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -128518,7 +128563,9 @@
     "sandbox-docs-iframe-guard:5e262da7c577e868937ca8103d1c0d348459ce4e97644c1632c3e181fe61ed8d",
     "instant-phone-drawer:952f9cfc7dfb3a3ce79e3d2b6d3dc8d8e7b3c6f2ae33917b03e509bcc91989aa",
     "remote-computer-unified-shell:03696410a41082ac0acc901de438b90f7e5569ecff72d27bf86428f7d0903e1d",
-    "shared-feed-open-target:555eee4ab53e2ddcf134a5b75c5b49696af6e5cb4149baabe6cd757cd59a487d"
+    "shared-feed-open-target:555eee4ab53e2ddcf134a5b75c5b49696af6e5cb4149baabe6cd757cd59a487d",
+    "synced-post-html-readers:a045a7d0b9c91215e60d8808c8a2d3b49ad7195834daa64855f6a3d0f66a2d6b",
+    "e2e-layout-helper:7b83fbfd153097b7ae1ede62da3f8c6c10294b50e32367188113f8953e69efb2"
   ],
-  "consumedThroughSha": "4923b480d3ad81a465afdfc600cdd7ce44d725ff"
+  "consumedThroughSha": "8ef8920fc09895f8de91a13d6cb5d746ed847dd2"
 }
