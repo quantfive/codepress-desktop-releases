@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "65624aae38072152be1dc3d0a1e6400a115681fd",
+  "cursorSha": "b294ad247cc63d7bbd630a80a5960402f096f61f",
   "highWaterVersion": "1.393.1",
   "rows": [
     {
@@ -123194,6 +123194,13 @@
       "sourceSha": "65624aae38072152be1dc3d0a1e6400a115681fd",
       "sourcePackageVersion": "1.394.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b294ad247cc63d7bbd630a80a5960402f096f61f",
+      "sourcePackageVersion": "1.394.2",
+      "intentIds": [
+        "terminal-all-organizations:07dba1735b5142da45b40d5a8a40673b5520be990dd8166dd72a5c0d9d140b95"
+      ]
     }
   ],
   "intents": [
@@ -126916,6 +126923,14 @@
       "summary": "Keep list_machines available when control discovery fails, and recover missing controls on partial discovery pages.",
       "sourceSha": "4f52ca89758899aded119519922a588c176bc06d",
       "identity": "friendly-machines-discovery:81383172abbbf001bf1c2772b3f0a7c08c4c3accc68c37b299af79e6d658a3b1"
+    },
+    {
+      "id": "terminal-all-organizations",
+      "digest": "07dba1735b5142da45b40d5a8a40673b5520be990dd8166dd72a5c0d9d140b95",
+      "type": "patch",
+      "summary": "Always cover all CodePress organizations in personal Terminal MCP connections and show coverage read-only in Settings.",
+      "sourceSha": "b294ad247cc63d7bbd630a80a5960402f096f61f",
+      "identity": "terminal-all-organizations:07dba1735b5142da45b40d5a8a40673b5520be990dd8166dd72a5c0d9d140b95"
     }
   ],
   "consumedIntentIds": [
