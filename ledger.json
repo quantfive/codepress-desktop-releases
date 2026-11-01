@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e71ce1190feac922a3cebf98b13c26943c821f41",
+  "cursorSha": "34295bfbf373133e01e605b5871ab4ac9bb44308",
   "highWaterVersion": "1.396.3",
   "rows": [
     {
@@ -124864,6 +124864,18 @@
       "sourceSha": "e71ce1190feac922a3cebf98b13c26943c821f41",
       "sourcePackageVersion": "1.396.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9260f0e654bce49f07b824737df895e85e56db8e",
+      "sourcePackageVersion": "1.396.4",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "34295bfbf373133e01e605b5871ab4ac9bb44308",
+      "sourcePackageVersion": "1.396.4",
+      "intentIds": [
+        "warm-session-worktree:db926093028fec6e897851a9db44cd113741985b5d8037a31ee09cf0df06f787"
+      ]
     }
   ],
   "intents": [
@@ -128786,6 +128798,14 @@
       "summary": "Terminal now reads the Ghostty engine's build record from the installed app at runtime instead of baking it into the frontend, so Apple Silicon and Intel Macs ship the same frontend and macOS releases build it once. Ghostty stays available on Apple Silicon and unavailable on Intel (xterm renders), as before.",
       "sourceSha": "72e1b61dbde1013141e66c76c26a4f11244dee9b",
       "identity": "ghostty-runtime-engine-manifest:c60d274303c601319e15c5440ee95bb0be1b1a01ddb59a1f0bdd6602f5544454"
+    },
+    {
+      "id": "warm-session-worktree",
+      "digest": "db926093028fec6e897851a9db44cd113741985b5d8037a31ee09cf0df06f787",
+      "type": "patch",
+      "summary": "New Orchestrator projects start sooner: while the kickoff composer is open, Terminal prepares a spare worktree of the Project folder's repository, and the project's start claims it instead of running `git worktree add`. Unused spares are removed after 30 minutes, on Terminal start and by storage cleanup.",
+      "sourceSha": "34295bfbf373133e01e605b5871ab4ac9bb44308",
+      "identity": "warm-session-worktree:db926093028fec6e897851a9db44cd113741985b5d8037a31ee09cf0df06f787"
     }
   ],
   "consumedIntentIds": [
