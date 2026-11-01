@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c7ec73a0b6d5d3bcb07e9f50293d93778894f571",
+  "cursorSha": "f9420129ccb6e80896efef4a7c07ff4a5c1ac9bd",
   "highWaterVersion": "1.393.2",
   "rows": [
     {
@@ -123283,6 +123283,13 @@
       "sourceSha": "c7ec73a0b6d5d3bcb07e9f50293d93778894f571",
       "sourcePackageVersion": "1.394.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f9420129ccb6e80896efef4a7c07ff4a5c1ac9bd",
+      "sourcePackageVersion": "1.394.3",
+      "intentIds": [
+        "kickoff-send-spinner:3ef6077bdafe81e8c40335501083998fe658bf809cf833a1bea6655aa3ac17ce"
+      ]
     }
   ],
   "intents": [
@@ -127013,6 +127020,14 @@
       "summary": "Always cover all CodePress organizations in personal Terminal MCP connections and show coverage read-only in Settings.",
       "sourceSha": "b294ad247cc63d7bbd630a80a5960402f096f61f",
       "identity": "terminal-all-organizations:07dba1735b5142da45b40d5a8a40673b5520be990dd8166dd72a5c0d9d140b95"
+    },
+    {
+      "id": "kickoff-send-spinner",
+      "digest": "3ef6077bdafe81e8c40335501083998fe658bf809cf833a1bea6655aa3ac17ce",
+      "type": "patch",
+      "summary": "Show kickoff sending progress in the send button instead of a separate starting-project row.",
+      "sourceSha": "f9420129ccb6e80896efef4a7c07ff4a5c1ac9bd",
+      "identity": "kickoff-send-spinner:3ef6077bdafe81e8c40335501083998fe658bf809cf833a1bea6655aa3ac17ce"
     }
   ],
   "consumedIntentIds": [
