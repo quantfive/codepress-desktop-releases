@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "698ea2b3b9cde6d8843f5079ca5435d6673e1815",
-  "highWaterVersion": "1.394.9",
+  "highWaterVersion": "1.395.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -64366,6 +64366,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:698ea2b3b9cde6d8843f5079ca5435d6673e1815",
+      "kind": "main",
+      "sequence": 1877,
+      "sourceSha": "698ea2b3b9cde6d8843f5079ca5435d6673e1815",
+      "sourcePackageVersion": "1.394.9",
+      "version": "1.395.0",
+      "publicationDate": "2026-11-01T05:09:18.627Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "project-move-to-cloud:cfa72ed6b2280d686fa8014976f0d208d3d4fe1bfda72d545f82dbff9aa08f0e"
+        ],
+        "notesIntentIds": [
+          "project-move-to-cloud:cfa72ed6b2280d686fa8014976f0d208d3d4fe1bfda72d545f82dbff9aa08f0e"
+        ],
+        "throughSourceSha": "698ea2b3b9cde6d8843f5079ca5435d6673e1815",
+        "previousThroughSourceSha": "f32f44b2ba6232764dcb3bfc43166f94136dfd9b",
+        "baselineVersion": "1.394.9",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41275777833",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-02T05:09:13.325Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -128118,7 +128161,8 @@
     "cli-budget-linux:5c827b7259459ae8fe5ff3c21bbb72efb6b249e4261a007f3b4639c32a47cba7",
     "tidy-post-html-path:6c8d59b70ae012e9e1f872bb44fc6183c48178f414203ff41204c43e9d22ec34",
     "orchestrator-edge-case-matrix:de28dfa19c9b5ed951629290d2f7abd0a35e8285cbbe628b7d6d50089f6793c2",
-    "central-post-render-pointers:6f4ceeb538427c4f13403f134f0f54393e0ddfa7f4af89973657bbad5c8fbacd"
+    "central-post-render-pointers:6f4ceeb538427c4f13403f134f0f54393e0ddfa7f4af89973657bbad5c8fbacd",
+    "project-move-to-cloud:cfa72ed6b2280d686fa8014976f0d208d3d4fe1bfda72d545f82dbff9aa08f0e"
   ],
-  "consumedThroughSha": "f32f44b2ba6232764dcb3bfc43166f94136dfd9b"
+  "consumedThroughSha": "698ea2b3b9cde6d8843f5079ca5435d6673e1815"
 }
