@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "09842ace09d0b4f7aa38cca2f5ee52bc1d6e1ab9",
+  "cursorSha": "beeb778c843095c2f71984701c7dda07a0eda6dd",
   "highWaterVersion": "1.399.2",
   "rows": [
     {
@@ -126400,6 +126400,13 @@
       "sourceSha": "09842ace09d0b4f7aa38cca2f5ee52bc1d6e1ab9",
       "sourcePackageVersion": "1.399.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "beeb778c843095c2f71984701c7dda07a0eda6dd",
+      "sourcePackageVersion": "1.399.4",
+      "intentIds": [
+        "cookie-boundary-cross-origin:b82374e5e6502ca6948e9e4a1c92d14a1e01b59b119d545a272f9d2262195eae"
+      ]
     }
   ],
   "intents": [
@@ -130546,6 +130553,14 @@
       "summary": "Sign-in on a tunnel now only returns to a path on the same machine, so a crafted `/auth` link can no longer run script or send you to another site. Deep links keep their path, query and hash through sign-in.",
       "sourceSha": "18ec1a704900ee754a82f067370f8297dccc1875",
       "identity": "validate-auth-return-url:8a6ae4cbb514be49d82979982c4bd198e858d6162abe3f6376651a3a3e9208e2"
+    },
+    {
+      "id": "cookie-boundary-cross-origin",
+      "digest": "b82374e5e6502ca6948e9e4a1c92d14a1e01b59b119d545a272f9d2262195eae",
+      "type": "patch",
+      "summary": "Remote access: a page on another `*.codepress.dev` host can no longer use a visitor's tunnel cookie to read files or open previews.",
+      "sourceSha": "beeb778c843095c2f71984701c7dda07a0eda6dd",
+      "identity": "cookie-boundary-cross-origin:b82374e5e6502ca6948e9e4a1c92d14a1e01b59b119d545a272f9d2262195eae"
     }
   ],
   "consumedIntentIds": [
