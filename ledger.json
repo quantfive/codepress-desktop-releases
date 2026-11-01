@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4b764d9e8ab4f05a78574f7d4aeb0d3600650c98",
+  "cursorSha": "5948c4d4abeefe5767a0f4019fd7c79f052163ce",
   "highWaterVersion": "1.396.8",
   "rows": [
     {
@@ -125268,6 +125268,13 @@
       "intentIds": [
         "kimi-relay-transient-hardening:36f469e7ae1d0b37da24ad20a74dd49f0b9e9f09813030bb8ebccfc8476109db"
       ]
+    },
+    {
+      "sourceSha": "5948c4d4abeefe5767a0f4019fd7c79f052163ce",
+      "sourcePackageVersion": "1.396.9",
+      "intentIds": [
+        "channel-gap-headless-refusals:ee727a05f45ac203024482c96be8ed123ca83d600ca35d88433ddaaf5f21f8af"
+      ]
     }
   ],
   "intents": [
@@ -129238,6 +129245,14 @@
       "summary": "Kimi Orchestrators keep working through brief CodePress outages and token rotation. A slow or failed account or settings check no longer ends a turn with \"401 The selected Kimi account is unavailable\": the held token stays in use until it expires, renewals happen ahead of rotation and expiry, and the relay answers 503 (\"CodePress unreachable; retrying\") for a temporary gap or 401 with the specific reason when access is really withdrawn.",
       "sourceSha": "4b764d9e8ab4f05a78574f7d4aeb0d3600650c98",
       "identity": "kimi-relay-transient-hardening:36f469e7ae1d0b37da24ad20a74dd49f0b9e9f09813030bb8ebccfc8476109db"
+    },
+    {
+      "id": "channel-gap-headless-refusals",
+      "digest": "ee727a05f45ac203024482c96be8ed123ca83d600ca35d88433ddaaf5f21f8af",
+      "type": "patch",
+      "summary": "Headless Terminal: cross-machine tools now wait (up to 15 s, `CODEPRESS_MACHINE_CHANNEL_WAIT_MS`) for a device-channel reconnect instead of failing at once, retry read-only machine operations once after a reconnect, and name the real refusal code instead of asking you to sign in. Terminal's own Computer Use entry from an earlier headless-CLI install is now refreshed to the current install.",
+      "sourceSha": "5948c4d4abeefe5767a0f4019fd7c79f052163ce",
+      "identity": "channel-gap-headless-refusals:ee727a05f45ac203024482c96be8ed123ca83d600ca35d88433ddaaf5f21f8af"
     }
   ],
   "consumedIntentIds": [
