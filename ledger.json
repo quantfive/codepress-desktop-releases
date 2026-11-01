@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "223ef2f101555828dc1e0dc1dcc0cb82152311cf",
-  "highWaterVersion": "1.398.3",
+  "highWaterVersion": "1.399.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -65926,6 +65926,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:223ef2f101555828dc1e0dc1dcc0cb82152311cf",
+      "kind": "main",
+      "sequence": 1905,
+      "sourceSha": "223ef2f101555828dc1e0dc1dcc0cb82152311cf",
+      "sourcePackageVersion": "1.399.1",
+      "version": "1.399.0",
+      "publicationDate": "2026-11-01T21:53:54.300Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "sessions-before-socket:376c7319d58041114b4eb2a187a0c04dbfa229c2d1c71556de4813bf76c47f79",
+          "every-machine-reports-load:dbffceccfa3569d05593cb1722b5efb90f1b56c69dc6b569916aca88294843f8"
+        ],
+        "notesIntentIds": [
+          "sessions-before-socket:376c7319d58041114b4eb2a187a0c04dbfa229c2d1c71556de4813bf76c47f79",
+          "every-machine-reports-load:dbffceccfa3569d05593cb1722b5efb90f1b56c69dc6b569916aca88294843f8"
+        ],
+        "throughSourceSha": "223ef2f101555828dc1e0dc1dcc0cb82152311cf",
+        "previousThroughSourceSha": "9e7461559aeb6518217b75c5dd59b790448865b6",
+        "baselineVersion": "1.398.3",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41354292224",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-02T21:53:50.125Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -130761,7 +130806,9 @@
     "terminal-list-once-at-launch:044deb10624537a9dcce9adfd38adf9b917cedc4b59352c4fcc16304796e20c8",
     "phone-row-menu-one-tap:ec946423f46fad67186a282a54492859ae06da9ad4a27ce15c5ceee6965d7598",
     "terminal-paint-first:256b15216a3eea33e53eb9ed4f90a5b8f15c99d7607d1fac0541001bff20b608",
-    "copy-model-chips:4455a25564f628cf73c1279ab1edaf8dc8f287265c470b96df0a160eea188527"
+    "copy-model-chips:4455a25564f628cf73c1279ab1edaf8dc8f287265c470b96df0a160eea188527",
+    "sessions-before-socket:376c7319d58041114b4eb2a187a0c04dbfa229c2d1c71556de4813bf76c47f79",
+    "every-machine-reports-load:dbffceccfa3569d05593cb1722b5efb90f1b56c69dc6b569916aca88294843f8"
   ],
-  "consumedThroughSha": "9e7461559aeb6518217b75c5dd59b790448865b6"
+  "consumedThroughSha": "223ef2f101555828dc1e0dc1dcc0cb82152311cf"
 }
