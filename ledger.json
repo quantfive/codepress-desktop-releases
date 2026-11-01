@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4d24a909f79c52393e96ec51f518acdb0ec8b8ff",
+  "cursorSha": "36737b3bd5bc70e9723ff8f42e0dd8afe10616a4",
   "highWaterVersion": "1.399.0",
   "rows": [
     {
@@ -126221,6 +126221,13 @@
       "sourceSha": "4d24a909f79c52393e96ec51f518acdb0ec8b8ff",
       "sourcePackageVersion": "1.399.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "36737b3bd5bc70e9723ff8f42e0dd8afe10616a4",
+      "sourcePackageVersion": "1.399.1",
+      "intentIds": [
+        "api-auth-before-every-route:92ded3a387f9bf6913182b2c0686af2f461f3a1f00229dd196c75c4f727aa197"
+      ]
     }
   ],
   "intents": [
@@ -130335,6 +130342,14 @@
       "summary": "Gemini workers now say plainly what Google allows on a personal account: one warning at sign-in, at first pick and in the project thread, linking Google's FAQ and steering to an API key. A dead `agy` login shows Reconnect, and agents can read worker sign-in status.",
       "sourceSha": "76194ce5ab63ed825941c88a2290e4d5b211e7c2",
       "identity": "google-consumer-disclosure:f47572c533d976269a9e12f4ae61a157e3c6a601a789e0972f8b32b42957a205"
+    },
+    {
+      "id": "api-auth-before-every-route",
+      "digest": "92ded3a387f9bf6913182b2c0686af2f461f3a1f00229dd196c75c4f727aa197",
+      "type": "patch",
+      "summary": "Secure Access now covers the git, pull request, workflow and agent hook routes, so a tunnel URL alone can no longer merge a pull request or change hooks. A teammate's Diff tab says whose files these are instead of showing a status code.",
+      "sourceSha": "36737b3bd5bc70e9723ff8f42e0dd8afe10616a4",
+      "identity": "api-auth-before-every-route:92ded3a387f9bf6913182b2c0686af2f461f3a1f00229dd196c75c4f727aa197"
     }
   ],
   "consumedIntentIds": [
