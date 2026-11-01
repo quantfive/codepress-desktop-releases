@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c82dbdc5c24b2818f472278ea39d474d62b898e2",
+  "cursorSha": "2516d412f7b4cc16974ec361e86fee7f552312ce",
   "highWaterVersion": "1.392.16",
   "rows": [
     {
@@ -123013,6 +123013,13 @@
       "sourceSha": "c82dbdc5c24b2818f472278ea39d474d62b898e2",
       "sourcePackageVersion": "1.393.16",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2516d412f7b4cc16974ec361e86fee7f552312ce",
+      "sourcePackageVersion": "1.393.16",
+      "intentIds": [
+        "kimi-local-orchestrator-relay:95f1874f3c1a741d6e1d8c7089ebb69dd52de3c1fe887c27764a8424d421aae0"
+      ]
     }
   ],
   "intents": [
@@ -126703,6 +126710,14 @@
       "summary": "Show organization icons through authenticated cached thumbnails in the switcher and General settings. Load visible rows on demand and reuse images when the switcher reopens.",
       "sourceSha": "347b1f0411bd52b8212510924a0bbc5aef505d32",
       "identity": "bright-org-avatar-thumbnails:568f15590b663ae1719db005a5a0aa102e09dd42e3ab820d455db7b692c786b2"
+    },
+    {
+      "id": "kimi-local-orchestrator-relay",
+      "digest": "95f1874f3c1a741d6e1d8c7089ebb69dd52de3c1fe887c27764a8424d421aae0",
+      "type": "minor",
+      "summary": "Launch Terminal-local Kimi Orchestrators through a renewable loopback relay with explicit account choice and provider-aware recovery.",
+      "sourceSha": "2516d412f7b4cc16974ec361e86fee7f552312ce",
+      "identity": "kimi-local-orchestrator-relay:95f1874f3c1a741d6e1d8c7089ebb69dd52de3c1fe887c27764a8424d421aae0"
     }
   ],
   "consumedIntentIds": [
