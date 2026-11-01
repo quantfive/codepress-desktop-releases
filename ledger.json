@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "4240f3ae3f3d0f22cc9d2d686da01b3c00c45068",
-  "highWaterVersion": "1.395.0",
+  "highWaterVersion": "1.395.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -64421,6 +64421,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:4240f3ae3f3d0f22cc9d2d686da01b3c00c45068",
+      "kind": "main",
+      "sequence": 1878,
+      "sourceSha": "4240f3ae3f3d0f22cc9d2d686da01b3c00c45068",
+      "sourcePackageVersion": "1.395.1",
+      "version": "1.395.1",
+      "publicationDate": "2026-11-01T05:23:02.297Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-git-reads-no-optional-locks:0f1abd6edc8735e0070634eeedc230f492105a8c04e0427657a0dd78d5ce0523",
+          "sandbox-docs-iframe-guard:5e262da7c577e868937ca8103d1c0d348459ce4e97644c1632c3e181fe61ed8d"
+        ],
+        "notesIntentIds": [
+          "terminal-git-reads-no-optional-locks:0f1abd6edc8735e0070634eeedc230f492105a8c04e0427657a0dd78d5ce0523",
+          "sandbox-docs-iframe-guard:5e262da7c577e868937ca8103d1c0d348459ce4e97644c1632c3e181fe61ed8d"
+        ],
+        "throughSourceSha": "4240f3ae3f3d0f22cc9d2d686da01b3c00c45068",
+        "previousThroughSourceSha": "698ea2b3b9cde6d8843f5079ca5435d6673e1815",
+        "baselineVersion": "1.395.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41276626928",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-02T05:22:58.100Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -128229,7 +128274,9 @@
     "tidy-post-html-path:6c8d59b70ae012e9e1f872bb44fc6183c48178f414203ff41204c43e9d22ec34",
     "orchestrator-edge-case-matrix:de28dfa19c9b5ed951629290d2f7abd0a35e8285cbbe628b7d6d50089f6793c2",
     "central-post-render-pointers:6f4ceeb538427c4f13403f134f0f54393e0ddfa7f4af89973657bbad5c8fbacd",
-    "project-move-to-cloud:cfa72ed6b2280d686fa8014976f0d208d3d4fe1bfda72d545f82dbff9aa08f0e"
+    "project-move-to-cloud:cfa72ed6b2280d686fa8014976f0d208d3d4fe1bfda72d545f82dbff9aa08f0e",
+    "terminal-git-reads-no-optional-locks:0f1abd6edc8735e0070634eeedc230f492105a8c04e0427657a0dd78d5ce0523",
+    "sandbox-docs-iframe-guard:5e262da7c577e868937ca8103d1c0d348459ce4e97644c1632c3e181fe61ed8d"
   ],
-  "consumedThroughSha": "698ea2b3b9cde6d8843f5079ca5435d6673e1815"
+  "consumedThroughSha": "4240f3ae3f3d0f22cc9d2d686da01b3c00c45068"
 }
