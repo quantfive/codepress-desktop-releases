@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c1ce378e8a7640282ae3d007d4f3d2a4d6d7ba95",
+  "cursorSha": "088d8cec1e96adca1e12db0c0cc06ef7832dce54",
   "highWaterVersion": "1.417.1",
   "rows": [
     {
@@ -130178,6 +130178,20 @@
       "sourceSha": "c1ce378e8a7640282ae3d007d4f3d2a4d6d7ba95",
       "sourcePackageVersion": "1.417.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "84ed3186d270fa778e053a097ef388e8ae91f645",
+      "sourcePackageVersion": "1.417.1",
+      "intentIds": [
+        "limit-strip-every-agent:4a7e4b8eaaf51087f591d8dc46ce0b7fdfa27ae2dca14f0922e22237124f9d73"
+      ]
+    },
+    {
+      "sourceSha": "088d8cec1e96adca1e12db0c0cc06ef7832dce54",
+      "sourcePackageVersion": "1.417.1",
+      "intentIds": [
+        "device-rehome-own-projects:97390f9a29700afed867a76b1aeaef99c8abff535c615a29eec422518eae62ba"
+      ]
     }
   ],
   "intents": [
@@ -134948,6 +134962,22 @@
       "summary": "Signed out, the Agent screen now says what the Orchestrator does and offers sign-in right there, instead of one line of text. While a browser sign-in is in progress, the sign-in options now show which provider is waiting and a Cancel button, instead of an email form.",
       "sourceSha": "41a71562eacff19f79ae39fc2b14221bd833d55e",
       "identity": "agent-signed-out-screen:0be7c59cf2ea1a8f5c35e09db7cb99845dd1a29b7d20a87293f9ab87d457c33e"
+    },
+    {
+      "id": "limit-strip-every-agent",
+      "digest": "4a7e4b8eaaf51087f591d8dc46ce0b7fdfa27ae2dca14f0922e22237124f9d73",
+      "type": "minor",
+      "summary": "Show the usage-limit strip on any Claude or Codex agent stopped at its limit, not only rule-bound ones. A limit that automatic account switching is handling still shows nothing.",
+      "sourceSha": "84ed3186d270fa778e053a097ef388e8ae91f645",
+      "identity": "limit-strip-every-agent:4a7e4b8eaaf51087f591d8dc46ce0b7fdfa27ae2dca14f0922e22237124f9d73"
+    },
+    {
+      "id": "device-rehome-own-projects",
+      "digest": "97390f9a29700afed867a76b1aeaef99c8abff535c615a29eec422518eae62ba",
+      "type": "patch",
+      "summary": "Orchestrator projects stay usable after a Terminal's own machine id changes, and Open live browser now works on Linux hosts.",
+      "sourceSha": "088d8cec1e96adca1e12db0c0cc06ef7832dce54",
+      "identity": "device-rehome-own-projects:97390f9a29700afed867a76b1aeaef99c8abff535c615a29eec422518eae62ba"
     }
   ],
   "consumedIntentIds": [
