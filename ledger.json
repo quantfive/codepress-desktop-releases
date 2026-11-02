@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "784dc7b694bc1ced0704ac34e9c22c05207db9fb",
+  "cursorSha": "3c2e0e5dccf89b74ea5fcd9fa1a1f6f9ef792018",
   "highWaterVersion": "1.419.1",
   "rows": [
     {
@@ -130814,6 +130814,13 @@
       "sourceSha": "784dc7b694bc1ced0704ac34e9c22c05207db9fb",
       "sourcePackageVersion": "1.419.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3c2e0e5dccf89b74ea5fcd9fa1a1f6f9ef792018",
+      "sourcePackageVersion": "1.419.2",
+      "intentIds": [
+        "muse-accounts-everywhere:76b73535b18ea998bbd76a4b52f5db4784c80f095b6246d8cb45303810e8aa38"
+      ]
     }
   ],
   "intents": [
@@ -135680,6 +135687,14 @@
       "summary": "A job in the macOS sandbox shows its output as it prints it, keeps stdout and stderr lines whole, and keeps its exit code when it writes to stderr. Nothing sends work to the sandbox yet.",
       "sourceSha": "fbab20d5fc431ce4b2239e7c35126886ff2a76ab",
       "identity": "sandbox-job-output:606a8817f709ba0d6704daccea0a0e51f72368c8949816b5bca2029e6c5c2cf1"
+    },
+    {
+      "id": "muse-accounts-everywhere",
+      "digest": "76b73535b18ea998bbd76a4b52f5db4784c80f095b6246d8cb45303810e8aa38",
+      "type": "minor",
+      "summary": "Muse Personal and Team accounts now appear in Settings → Agents → Accounts, marked Cloud agents only, with usage, Refresh usage, Reconnect and Remove, and they can be added from Add account → Cloud agents. A Local Muse account can be restricted to repositories, as Claude and Codex accounts can. New MCP tools list, switch, pause, restrict, remove and sign in Muse accounts; an agent cannot switch accounts while the active one is at its usage limit.",
+      "sourceSha": "3c2e0e5dccf89b74ea5fcd9fa1a1f6f9ef792018",
+      "identity": "muse-accounts-everywhere:76b73535b18ea998bbd76a4b52f5db4784c80f095b6246d8cb45303810e8aa38"
     }
   ],
   "consumedIntentIds": [
