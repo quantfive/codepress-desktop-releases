@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "111d68eb8f5f53f5a3d8fdf5bf23ffd2dd3d0cd5",
+  "cursorSha": "6ec0469030268f6ed0041d0d327d11d883619d7d",
   "highWaterVersion": "1.400.8",
   "rows": [
     {
@@ -127301,6 +127301,13 @@
       "sourceSha": "111d68eb8f5f53f5a3d8fdf5bf23ffd2dd3d0cd5",
       "sourcePackageVersion": "1.400.10",
       "intentIds": []
+    },
+    {
+      "sourceSha": "6ec0469030268f6ed0041d0d327d11d883619d7d",
+      "sourcePackageVersion": "1.400.10",
+      "intentIds": [
+        "host-add-checkout-op:8a00b4dfea30209b871f261992bb283edca606e59948161a43365ec4084f5df7"
+      ]
     }
   ],
   "intents": [
@@ -131591,6 +131598,14 @@
       "summary": "Settings → Local checkouts now shows a working \"Choose folder…\" on remote machines and in the browser, listing the viewed machine's folders; hosts without the browse endpoint keep the typed path input.",
       "sourceSha": "99b823b653f54b9e9b5512b4a7fa40acbf5229e8",
       "identity": "settings-choose-folder-any-machine:8cc406393bf4d88229dd21893ba2b5b46aaedc12395c0790413d2b800bec0ab1"
+    },
+    {
+      "id": "host-add-checkout-op",
+      "digest": "8a00b4dfea30209b871f261992bb283edca606e59948161a43365ec4084f5df7",
+      "type": "patch",
+      "summary": "Terminal can add a folder to its local checkout allowlist when its owner asks over the device-folders channel.",
+      "sourceSha": "6ec0469030268f6ed0041d0d327d11d883619d7d",
+      "identity": "host-add-checkout-op:8a00b4dfea30209b871f261992bb283edca606e59948161a43365ec4084f5df7"
     }
   ],
   "consumedIntentIds": [
