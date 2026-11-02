@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "0e221894ea321c52f2a05a8e3a6f8925315df759",
-  "highWaterVersion": "1.415.1",
+  "highWaterVersion": "1.416.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -68533,6 +68533,57 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:0e221894ea321c52f2a05a8e3a6f8925315df759",
+      "kind": "main",
+      "sequence": 1951,
+      "sourceSha": "0e221894ea321c52f2a05a8e3a6f8925315df759",
+      "sourcePackageVersion": "1.416.0",
+      "version": "1.416.0",
+      "publicationDate": "2026-11-02T17:39:45.330Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "owner-signin-settings-write:65eb0ef5ed9a06639f44e4818dbb40050b3ced0628ce856b957574f6400f83c3",
+          "socket-revocation:e954ca81be3d5ba8e010f96040484c8be50300a137188b81d73a79a10738f475",
+          "cloud-session-handoff-other-macs:434344d4da59b3a45e1b79cfe74b4a4c26503db83cfeecbd35bd7128c6411191",
+          "usage-chart-tap-before-effects:6c33fbfe1a72c6b1358043b8f23d5161470919194610fa37160e0d02a540bffb",
+          "handoff-display-noreset:8c624fc36111f025d141283407966b36b7fec3e7a60d1bb0cce2f5e28186b225"
+        ],
+        "notesIntentIds": [
+          "owner-signin-settings-write:65eb0ef5ed9a06639f44e4818dbb40050b3ced0628ce856b957574f6400f83c3",
+          "socket-revocation:e954ca81be3d5ba8e010f96040484c8be50300a137188b81d73a79a10738f475",
+          "cloud-session-handoff-other-macs:434344d4da59b3a45e1b79cfe74b4a4c26503db83cfeecbd35bd7128c6411191",
+          "usage-chart-tap-before-effects:6c33fbfe1a72c6b1358043b8f23d5161470919194610fa37160e0d02a540bffb",
+          "handoff-display-noreset:8c624fc36111f025d141283407966b36b7fec3e7a60d1bb0cce2f5e28186b225"
+        ],
+        "throughSourceSha": "0e221894ea321c52f2a05a8e3a6f8925315df759",
+        "previousThroughSourceSha": "ac110e296a7a2de2b4908d41cbdf8d32112e8904",
+        "baselineVersion": "1.415.1",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41492775096",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-03T17:39:39.410Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -135237,7 +135288,12 @@
     "control-device-signature:40f9c09f0b8f339a56c4c1fa1bd7be82b87353f01a786da2c0d6422660c2c2ee",
     "secret-loopback-address:0918aaa4471ac2b575d810ddd81ecc2f7258ec60121311604c4db79672c50f88",
     "stop-all-work:ff908ad8717b0e4903b12c60eb2f71fa6fcf589fe66c02bad698e340db071dfb",
-    "drive-route-list:0aed52ffbc4d96c15beb24229b28b5eb6d4bd4b94ec2c69cbbed345ff655dbc8"
+    "drive-route-list:0aed52ffbc4d96c15beb24229b28b5eb6d4bd4b94ec2c69cbbed345ff655dbc8",
+    "owner-signin-settings-write:65eb0ef5ed9a06639f44e4818dbb40050b3ced0628ce856b957574f6400f83c3",
+    "socket-revocation:e954ca81be3d5ba8e010f96040484c8be50300a137188b81d73a79a10738f475",
+    "cloud-session-handoff-other-macs:434344d4da59b3a45e1b79cfe74b4a4c26503db83cfeecbd35bd7128c6411191",
+    "usage-chart-tap-before-effects:6c33fbfe1a72c6b1358043b8f23d5161470919194610fa37160e0d02a540bffb",
+    "handoff-display-noreset:8c624fc36111f025d141283407966b36b7fec3e7a60d1bb0cce2f5e28186b225"
   ],
-  "consumedThroughSha": "ac110e296a7a2de2b4908d41cbdf8d32112e8904"
+  "consumedThroughSha": "0e221894ea321c52f2a05a8e3a6f8925315df759"
 }
