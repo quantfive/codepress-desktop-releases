@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "031135b2a970dccc9b17d1a73a4aeae196e03591",
+  "cursorSha": "0f5b5ea407393333b2490b56a6d94fafb5fc1ec6",
   "highWaterVersion": "1.413.1",
   "rows": [
     {
@@ -129577,6 +129577,13 @@
       "sourceSha": "031135b2a970dccc9b17d1a73a4aeae196e03591",
       "sourcePackageVersion": "1.413.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0f5b5ea407393333b2490b56a6d94fafb5fc1ec6",
+      "sourcePackageVersion": "1.413.3",
+      "intentIds": [
+        "kimi-tool-search:e1e5c9577c40c35bd58aef5897c24ab8873701d729b776af6dd7c6ad63467107"
+      ]
     }
   ],
   "intents": [
@@ -134227,6 +134234,14 @@
       "summary": "With the organization's Local-first routing flag on, a test run sized from past measurements now gets only the workers memory supports, instead of every core it wants because an earlier smaller run fit.",
       "sourceSha": "1e18cd125190a1a47aeaddf36db2324e955f12c4",
       "identity": "test-forecast-per-worker:8d1999189295fbc946d14f2c638c018bd764cc09817a06cee717022f8646c102"
+    },
+    {
+      "id": "kimi-tool-search",
+      "digest": "e1e5c9577c40c35bd58aef5897c24ab8873701d729b776af6dd7c6ad63467107",
+      "type": "patch",
+      "summary": "Kimi Orchestrators and workers no longer send every MCP tool schema on every call, which could reach hundreds of thousands of tokens per call on a machine with many connected tools.",
+      "sourceSha": "0f5b5ea407393333b2490b56a6d94fafb5fc1ec6",
+      "identity": "kimi-tool-search:e1e5c9577c40c35bd58aef5897c24ab8873701d729b776af6dd7c6ad63467107"
     }
   ],
   "consumedIntentIds": [
