@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a10fdf12af201869a2b65d44048bc9b642f91018",
+  "cursorSha": "366b0b43f65280e546a3807cb77fa1ade6e67ccf",
   "highWaterVersion": "1.400.1",
   "rows": [
     {
@@ -126742,6 +126742,13 @@
       "sourceSha": "a10fdf12af201869a2b65d44048bc9b642f91018",
       "sourcePackageVersion": "1.400.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "366b0b43f65280e546a3807cb77fa1ade6e67ccf",
+      "sourcePackageVersion": "1.400.3",
+      "intentIds": [
+        "owner-identity-local-token:4f9bf7c7efb8cad9bfbc83b6021d874567351fca3424d5f960da08a6d88a5c39"
+      ]
     }
   ],
   "intents": [
@@ -130952,6 +130959,14 @@
       "summary": "On a synced copy, `@` now lists files from the home's Project folder, and a picked file reaches the home's Orchestrator from a message, an answer or a blocker reply. A home too old to take them refuses at send with the draft kept. When a file search can't answer, the menu says so instead of showing nothing.",
       "sourceSha": "daff93964fb3698df8c6245966949d92501bc665",
       "identity": "copy-file-mentions:2412ec5d006810eb93f641ab91d214e292601e2b61b09141d14356d26920b0a3"
+    },
+    {
+      "id": "owner-identity-local-token",
+      "digest": "4f9bf7c7efb8cad9bfbc83b6021d874567351fca3424d5f960da08a6d88a5c39",
+      "type": "patch",
+      "summary": "Quick tunnels: owner access now uses a real secret that signing out of the desktop revokes, and only the desktop's own account can claim the machine. Quick-tunnel owners sign in once more after updating.",
+      "sourceSha": "366b0b43f65280e546a3807cb77fa1ade6e67ccf",
+      "identity": "owner-identity-local-token:4f9bf7c7efb8cad9bfbc83b6021d874567351fca3424d5f960da08a6d88a5c39"
     }
   ],
   "consumedIntentIds": [
