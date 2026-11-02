@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1ce6527380a412c76e7ecfd882c53e4edd37e63f",
+  "cursorSha": "45b76b1ef36645e7a2566983bd20b896da554c50",
   "highWaterVersion": "1.415.1",
   "rows": [
     {
@@ -129876,6 +129876,13 @@
       "sourceSha": "1ce6527380a412c76e7ecfd882c53e4edd37e63f",
       "sourcePackageVersion": "1.415.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "45b76b1ef36645e7a2566983bd20b896da554c50",
+      "sourcePackageVersion": "1.415.1",
+      "intentIds": [
+        "socket-revocation:e954ca81be3d5ba8e010f96040484c8be50300a137188b81d73a79a10738f475"
+      ]
     }
   ],
   "intents": [
@@ -134574,6 +134581,14 @@
       "summary": "A remote owner's sign-in no longer fails when an unrelated setting is saved during it. If the computer still can't confirm the sign-in, the page asks again a few times, then shows a plain message with a way to try again.",
       "sourceSha": "4d5c2c6a3eb01f5315fe08a37ce5f5b6ff12b4ad",
       "identity": "owner-signin-settings-write:65eb0ef5ed9a06639f44e4818dbb40050b3ced0628ce856b957574f6400f83c3"
+    },
+    {
+      "id": "socket-revocation",
+      "digest": "e954ca81be3d5ba8e010f96040484c8be50300a137188b81d73a79a10738f475",
+      "type": "patch",
+      "summary": "Revoking a share link, retiring an owner session or turning on Secure Access now ends connections that are already open. A backend outage never closes one, and an owner who's signed out this way reconnects without a sign-in prompt. Only the desktop can send screen frames and WebRTC offers, and only the owner can restart a machine for an update.",
+      "sourceSha": "45b76b1ef36645e7a2566983bd20b896da554c50",
+      "identity": "socket-revocation:e954ca81be3d5ba8e010f96040484c8be50300a137188b81d73a79a10738f475"
     }
   ],
   "consumedIntentIds": [
