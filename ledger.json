@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3fd1f41260eced22c50daa22d190f1ce357ad880",
+  "cursorSha": "f55038114ab68bea5b5025b288b7c8e5b24ce59b",
   "highWaterVersion": "1.418.4",
   "rows": [
     {
@@ -130651,6 +130651,13 @@
       "sourceSha": "3fd1f41260eced22c50daa22d190f1ce357ad880",
       "sourcePackageVersion": "1.419.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f55038114ab68bea5b5025b288b7c8e5b24ce59b",
+      "sourcePackageVersion": "1.419.0",
+      "intentIds": [
+        "muse-token-accounting:61629e21cfa55d4c830ea95aa6d77598c4beec2f865d17de5d9b6e92b1dd91cb"
+      ]
     }
   ],
   "intents": [
@@ -135501,6 +135508,14 @@
       "summary": "With local-first routing on, Auto reserves room on one of your machines when a project starts, goes to Cloud and says why when none has room, and reports what the work actually uses.",
       "sourceSha": "072f71e881c9a4b5e5f62d25207566876ead665d",
       "identity": "auto-kickoff-places-through-ledger:93f424b0decff1c66d6c7b1a59fdeda7b4bdd590e95d36d5835801cfe3f8cef4"
+    },
+    {
+      "id": "muse-token-accounting",
+      "digest": "61629e21cfa55d4c830ea95aa6d77598c4beec2f865d17de5d9b6e92b1dd91cb",
+      "type": "patch",
+      "summary": "Settings → Usage now counts Muse tokens. Models Meta publishes rates for (Muse Wonder 1.0, Spark 1.1–1.3 and the Spark contributor models) are priced at those rates. Models Meta doesn't list, like `muse-wonder-full-1.0-contributor`, show as Unpriced rather than free.",
+      "sourceSha": "f55038114ab68bea5b5025b288b7c8e5b24ce59b",
+      "identity": "muse-token-accounting:61629e21cfa55d4c830ea95aa6d77598c4beec2f865d17de5d9b6e92b1dd91cb"
     }
   ],
   "consumedIntentIds": [
