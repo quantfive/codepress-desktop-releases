@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "3fdf83ca1f17bf4641217ec0008db650f65d0e25",
-  "highWaterVersion": "1.404.0",
+  "highWaterVersion": "1.405.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -67350,6 +67350,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:3fdf83ca1f17bf4641217ec0008db650f65d0e25",
+      "kind": "main",
+      "sequence": 1930,
+      "sourceSha": "3fdf83ca1f17bf4641217ec0008db650f65d0e25",
+      "sourcePackageVersion": "1.404.0",
+      "version": "1.405.0",
+      "publicationDate": "2026-11-02T08:12:00.017Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "any-file-from-another-computer:c1bfcc8683458d590fa299c84ea66a528e43275cc1d656f7ec37bcf674ec5634"
+        ],
+        "notesIntentIds": [
+          "any-file-from-another-computer:c1bfcc8683458d590fa299c84ea66a528e43275cc1d656f7ec37bcf674ec5634"
+        ],
+        "throughSourceSha": "3fdf83ca1f17bf4641217ec0008db650f65d0e25",
+        "previousThroughSourceSha": "f05b8fa9ad8b7482fd5a51f87de6aacbd502ff4f",
+        "baselineVersion": "1.404.0",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41411214157",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-03T08:11:54.640Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -133254,7 +133297,8 @@
     "org-reads-one-pool:c2698033fd9d66f9768a0a1a1992d4f982bb7f09d9bd838ee71676b288de74cc",
     "remote-project-worker-terminals:1b401a0d6b7e120c5abce9bcf0326ad24d6815cb2831be795d3e08b3cba4f44b",
     "runs-on-every-machine-load:57e57ecb5a3aace69514ccc8a1e5bc7287b8a1160736ddeed74f4e52478e6d6d",
-    "cloud-session-hand-off-to-this-mac:25ff526a17c9b869730d2125930943b60c388f4ab769d5d00ecd8fe40478654d"
+    "cloud-session-hand-off-to-this-mac:25ff526a17c9b869730d2125930943b60c388f4ab769d5d00ecd8fe40478654d",
+    "any-file-from-another-computer:c1bfcc8683458d590fa299c84ea66a528e43275cc1d656f7ec37bcf674ec5634"
   ],
-  "consumedThroughSha": "f05b8fa9ad8b7482fd5a51f87de6aacbd502ff4f"
+  "consumedThroughSha": "3fdf83ca1f17bf4641217ec0008db650f65d0e25"
 }
