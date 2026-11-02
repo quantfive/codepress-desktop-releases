@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "0f5b5ea407393333b2490b56a6d94fafb5fc1ec6",
-  "highWaterVersion": "1.413.1",
+  "highWaterVersion": "1.413.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -68311,6 +68311,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:0f5b5ea407393333b2490b56a6d94fafb5fc1ec6",
+      "kind": "main",
+      "sequence": 1947,
+      "sourceSha": "0f5b5ea407393333b2490b56a6d94fafb5fc1ec6",
+      "sourcePackageVersion": "1.413.3",
+      "version": "1.413.2",
+      "publicationDate": "2026-11-02T16:21:29.358Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "kimi-tool-search:e1e5c9577c40c35bd58aef5897c24ab8873701d729b776af6dd7c6ad63467107"
+        ],
+        "notesIntentIds": [
+          "kimi-tool-search:e1e5c9577c40c35bd58aef5897c24ab8873701d729b776af6dd7c6ad63467107"
+        ],
+        "throughSourceSha": "0f5b5ea407393333b2490b56a6d94fafb5fc1ec6",
+        "previousThroughSourceSha": "031135b2a970dccc9b17d1a73a4aeae196e03591",
+        "baselineVersion": "1.413.1",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41480504900",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-03T16:21:23.105Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -134825,7 +134868,8 @@
     "native-frames-gate:c5409da8f9a02e3ce7f59d5349e0b1fe31f8004dd72dbcfe626c2bc75a6528aa",
     "kimi-usage-usages-map:ca91a054329fde5b76e39a7c5e431fcadb952af5e22d8f647fe35596d8399070",
     "native-tabs-stay-attached:97fc196036d1330f6de02a416a54188a581d87cdc3162144a25001560fa54c9b",
-    "test-forecast-per-worker:8d1999189295fbc946d14f2c638c018bd764cc09817a06cee717022f8646c102"
+    "test-forecast-per-worker:8d1999189295fbc946d14f2c638c018bd764cc09817a06cee717022f8646c102",
+    "kimi-tool-search:e1e5c9577c40c35bd58aef5897c24ab8873701d729b776af6dd7c6ad63467107"
   ],
-  "consumedThroughSha": "031135b2a970dccc9b17d1a73a4aeae196e03591"
+  "consumedThroughSha": "0f5b5ea407393333b2490b56a6d94fafb5fc1ec6"
 }
