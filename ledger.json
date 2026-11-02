@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d2d0f232307f5d1d476a50d929e85d6a751295cf",
+  "cursorSha": "c8a9baa86524e2495c98ae0b08622b542414be24",
   "highWaterVersion": "1.407.0",
   "rows": [
     {
@@ -128610,6 +128610,13 @@
       "sourceSha": "d2d0f232307f5d1d476a50d929e85d6a751295cf",
       "sourcePackageVersion": "1.407.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c8a9baa86524e2495c98ae0b08622b542414be24",
+      "sourcePackageVersion": "1.407.0",
+      "intentIds": [
+        "device-reservation-heartbeat:a6867d29b9761a935de136f943928eabc4934183dbce6f688c1d8272408175f2"
+      ]
     }
   ],
   "intents": [
@@ -133092,6 +133099,14 @@
       "summary": "Terminal issues a credential to its window, tabs, hooks and helpers, and logs any local call without one. For an organization with local-first routing on, reaching the loopback port is no longer enough: a caller with no credential is refused unless the kernel shows it descends from a live tab, an agent can't change consent or reach another machine without a grant in project settings, and another account's process is demoted on every machine.",
       "sourceSha": "01f0c8d30121fb92134a8d1689c827399469f98d",
       "identity": "local-client-credentials:84a4f22fd7f8f57a9b8a42f69211a5ed8e68be1ec7ec4ec0a40a6a37acd7a608"
+    },
+    {
+      "id": "device-reservation-heartbeat",
+      "digest": "a6867d29b9761a935de136f943928eabc4934183dbce6f688c1d8272408175f2",
+      "type": "patch",
+      "summary": "Report running placement reservations on each heartbeat, and claim a sandbox only after its canary has passed for this runtime version.",
+      "sourceSha": "c8a9baa86524e2495c98ae0b08622b542414be24",
+      "identity": "device-reservation-heartbeat:a6867d29b9761a935de136f943928eabc4934183dbce6f688c1d8272408175f2"
     }
   ],
   "consumedIntentIds": [
