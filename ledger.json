@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b86e5d32c45538f336482951dc5cf0c528e2f404",
+  "cursorSha": "99b823b653f54b9e9b5512b4a7fa40acbf5229e8",
   "highWaterVersion": "1.400.7",
   "rows": [
     {
@@ -127219,6 +127219,13 @@
       "sourceSha": "b86e5d32c45538f336482951dc5cf0c528e2f404",
       "sourcePackageVersion": "1.400.9",
       "intentIds": []
+    },
+    {
+      "sourceSha": "99b823b653f54b9e9b5512b4a7fa40acbf5229e8",
+      "sourcePackageVersion": "1.400.9",
+      "intentIds": [
+        "settings-choose-folder-any-machine:8cc406393bf4d88229dd21893ba2b5b46aaedc12395c0790413d2b800bec0ab1"
+      ]
     }
   ],
   "intents": [
@@ -131501,6 +131508,14 @@
       "summary": "Keep Settings open when the window crosses the phone width, so a sign-in in progress keeps its device code or pasted code.",
       "sourceSha": "a82f06f6b9aaeb6015e763b9853ee1d1c5b7307e",
       "identity": "settings-survive-resize:39523062caa78e9043c49326b8e0c4c1f2704aa3c9372c5b48044d332f844cff"
+    },
+    {
+      "id": "settings-choose-folder-any-machine",
+      "digest": "8cc406393bf4d88229dd21893ba2b5b46aaedc12395c0790413d2b800bec0ab1",
+      "type": "patch",
+      "summary": "Settings → Local checkouts now shows a working \"Choose folder…\" on remote machines and in the browser, listing the viewed machine's folders; hosts without the browse endpoint keep the typed path input.",
+      "sourceSha": "99b823b653f54b9e9b5512b4a7fa40acbf5229e8",
+      "identity": "settings-choose-folder-any-machine:8cc406393bf4d88229dd21893ba2b5b46aaedc12395c0790413d2b800bec0ab1"
     }
   ],
   "consumedIntentIds": [
