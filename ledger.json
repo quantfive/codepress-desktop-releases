@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e795bed78bd260e6bf5a422820b8dcd650bb0762",
+  "cursorSha": "857c60097f3b215555aadd214b8e2d2a7865930a",
   "highWaterVersion": "1.409.0",
   "rows": [
     {
@@ -129051,6 +129051,13 @@
       "sourceSha": "e795bed78bd260e6bf5a422820b8dcd650bb0762",
       "sourcePackageVersion": "1.409.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "857c60097f3b215555aadd214b8e2d2a7865930a",
+      "sourcePackageVersion": "1.409.0",
+      "intentIds": [
+        "consent-gate:e18177233598ab11c366e6f786ab63ca0052173d197b1ce7f555e078f02ffc95"
+      ]
     }
   ],
   "intents": [
@@ -133589,6 +133596,14 @@
       "summary": "Workers can now run on a Kimi model. Choosing Kimi K3.1 Pro as the worker model launches Claude Code on this computer's chosen Kimi account through Terminal's local relay, with its own worktree, hooks and token. With no account chosen, the org toggle off, or this computer not approved, the assignment is refused with that reason. A Kimi worker stays on the account it started on, and Claude account failover never applies to it.",
       "sourceSha": "32e042dc3df96846d2fedc68a24488f97faa2e3b",
       "identity": "kimi-workers:b0d898e0c696c528fb3070789f32820fedc6b17ac923a6725c531bf2e9b4beb5"
+    },
+    {
+      "id": "consent-gate",
+      "digest": "e18177233598ab11c366e6f786ab63ca0052173d197b1ce7f555e078f02ffc95",
+      "type": "minor",
+      "summary": "For an organization with local-first routing on, Settings shows \"What can run on this Mac\". Turning on \"Accept workers\", \"Accept jobs\", \"Run my automations\" or a personal-data grant takes the macOS administrator dialog. Agents can read these and ask for them, but can't set them, and turning one off never needs a password.",
+      "sourceSha": "857c60097f3b215555aadd214b8e2d2a7865930a",
+      "identity": "consent-gate:e18177233598ab11c366e6f786ab63ca0052173d197b1ce7f555e078f02ffc95"
     }
   ],
   "consumedIntentIds": [
