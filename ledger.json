@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e42d6b8b3bb450d562289ef53688c927f6f8b6a3",
+  "cursorSha": "28d0ba9d2e212bad0f4d08e8aefa52aa981a6479",
   "highWaterVersion": "1.418.3",
   "rows": [
     {
@@ -130543,6 +130543,13 @@
       "sourceSha": "e42d6b8b3bb450d562289ef53688c927f6f8b6a3",
       "sourcePackageVersion": "1.418.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "28d0ba9d2e212bad0f4d08e8aefa52aa981a6479",
+      "sourcePackageVersion": "1.418.5",
+      "intentIds": [
+        "new-chat-attachments-above-controls:e33de88952bbeff1f1c83e56ec3c4363dbe8aa7c8ff1b200a7ccd0bbadae226b"
+      ]
     }
   ],
   "intents": [
@@ -135369,6 +135376,14 @@
       "summary": "First run now tells you whether git and a signed-in GitHub CLI are ready for workers' pull requests, with the one command that fixes each, and never blocks Next.",
       "sourceSha": "de8da1d6323018028f45f4f0612d3be4a4aeb062",
       "identity": "first-run-git-and-gh:3748706768f40c4b2932240025e7c44c83d34bec29116f6c6a8374f34825fe54"
+    },
+    {
+      "id": "new-chat-attachments-above-controls",
+      "digest": "e33de88952bbeff1f1c83e56ec3c4363dbe8aa7c8ff1b200a7ccd0bbadae226b",
+      "type": "patch",
+      "summary": "New chat and Project kickoff: files you attach now show above the repository, folder and Runs on row instead of between that row and the input box.",
+      "sourceSha": "28d0ba9d2e212bad0f4d08e8aefa52aa981a6479",
+      "identity": "new-chat-attachments-above-controls:e33de88952bbeff1f1c83e56ec3c4363dbe8aa7c8ff1b200a7ccd0bbadae226b"
     }
   ],
   "consumedIntentIds": [
