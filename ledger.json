@@ -68681,7 +68681,7 @@
         "type": "patch"
       },
       "mac": {
-        "status": "dispatching",
+        "status": "running",
         "generation": 1,
         "owner": {
           "ownerId": "terminal-macos-delivery",
@@ -68691,7 +68691,7 @@
         "leaseUntil": "2026-11-03T18:51:53.136Z",
         "dispatch": {
           "intentId": "same-run:fcdefdd4494834b2a4e5ef47a6c3158d3153050dd8f5067a7e65b64e21a87f3a",
-          "runId": null,
+          "runId": "41504481390",
           "terminal": false
         },
         "failures": []
