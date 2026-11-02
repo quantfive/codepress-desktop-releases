@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c0b127c3145f9486ce4c8226b8a6a4e01d66838f",
+  "cursorSha": "0e221894ea321c52f2a05a8e3a6f8925315df759",
   "highWaterVersion": "1.415.1",
   "rows": [
     {
@@ -129912,6 +129912,13 @@
       "intentIds": [
         "usage-chart-tap-before-effects:6c33fbfe1a72c6b1358043b8f23d5161470919194610fa37160e0d02a540bffb"
       ]
+    },
+    {
+      "sourceSha": "0e221894ea321c52f2a05a8e3a6f8925315df759",
+      "sourcePackageVersion": "1.416.0",
+      "intentIds": [
+        "handoff-display-noreset:8c624fc36111f025d141283407966b36b7fec3e7a60d1bb0cce2f5e28186b225"
+      ]
     }
   ],
   "intents": [
@@ -134634,6 +134641,14 @@
       "summary": "Settings > Usage on a phone-width window: a bar tapped just as the chart first appears keeps its breakdown instead of being cleared a moment later.",
       "sourceSha": "c0b127c3145f9486ce4c8226b8a6a4e01d66838f",
       "identity": "usage-chart-tap-before-effects:6c33fbfe1a72c6b1358043b8f23d5161470919194610fa37160e0d02a540bffb"
+    },
+    {
+      "id": "handoff-display-noreset",
+      "digest": "8c624fc36111f025d141283407966b36b7fec3e7a60d1bb0cce2f5e28186b225",
+      "type": "patch",
+      "summary": "On a Linux host with no screen, the private display behind the live browser view no longer resets when its browser closes, so the next browser can connect to it right away instead of being refused.",
+      "sourceSha": "0e221894ea321c52f2a05a8e3a6f8925315df759",
+      "identity": "handoff-display-noreset:8c624fc36111f025d141283407966b36b7fec3e7a60d1bb0cce2f5e28186b225"
     }
   ],
   "consumedIntentIds": [
