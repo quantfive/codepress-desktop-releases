@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f5bb10a7ea68187fddd8046e566dc31b38910323",
+  "cursorSha": "f08b38ae9ab3f1988b0aeb4a2a097a2233a423a3",
   "highWaterVersion": "1.418.1",
   "rows": [
     {
@@ -130348,6 +130348,13 @@
       "sourceSha": "f5bb10a7ea68187fddd8046e566dc31b38910323",
       "sourcePackageVersion": "1.418.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f08b38ae9ab3f1988b0aeb4a2a097a2233a423a3",
+      "sourcePackageVersion": "1.418.2",
+      "intentIds": [
+        "device-audit-what-ran-here:3fec7be6da836093a8f0307446cab3d206c2d699d4472c117b61d5bc4bfb84da"
+      ]
     }
   ],
   "intents": [
@@ -135150,6 +135157,14 @@
       "summary": "Orchestrator: the New chat screen (and feed tabs and the automation pane) now shows Collapse sidebar in the rail toolbar, like an open chat, so the toolbar no longer shifts. Collapsing shows the same slim strip, and the open/closed choice is shared with the thread screen.",
       "sourceSha": "ce2dd19f143394ad15868ab2a6a00eb1d2e1bb7d",
       "identity": "kickoff-collapse-sidebar:20ded5b9c9c0c775624c97e37b172bffc3bf0923abdf76bce61bcd456275e93b"
+    },
+    {
+      "id": "device-audit-what-ran-here",
+      "digest": "3fec7be6da836093a8f0307446cab3d206c2d699d4472c117b61d5bc4bfb84da",
+      "type": "patch",
+      "summary": "Add \"What ran here\" to a computer's row in Settings, listing what reached that computer and who sent it, when its organization has local-first routing on. Each consent change on this Mac is reported to that list, and a failed report never changes the consent. A heartbeat now names every recent stop of all work, not only the last, so stops made offline all reach that list.",
+      "sourceSha": "f08b38ae9ab3f1988b0aeb4a2a097a2233a423a3",
+      "identity": "device-audit-what-ran-here:3fec7be6da836093a8f0307446cab3d206c2d699d4472c117b61d5bc4bfb84da"
     }
   ],
   "consumedIntentIds": [
