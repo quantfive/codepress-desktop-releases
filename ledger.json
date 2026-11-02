@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2df24c5f0b558c53a08fbe6a22aee4d420fb6908",
+  "cursorSha": "23948688025da77808f9f6651cd3bab891e47870",
   "highWaterVersion": "1.413.0",
   "rows": [
     {
@@ -129485,6 +129485,18 @@
       "intentIds": [
         "native-tabs-stay-attached:97fc196036d1330f6de02a416a54188a581d87cdc3162144a25001560fa54c9b"
       ]
+    },
+    {
+      "sourceSha": "1e18cd125190a1a47aeaddf36db2324e955f12c4",
+      "sourcePackageVersion": "1.413.2",
+      "intentIds": [
+        "test-forecast-per-worker:8d1999189295fbc946d14f2c638c018bd764cc09817a06cee717022f8646c102"
+      ]
+    },
+    {
+      "sourceSha": "23948688025da77808f9f6651cd3bab891e47870",
+      "sourcePackageVersion": "1.413.3",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -134127,6 +134139,14 @@
       "summary": "Keep native Claude and Codex tabs attached to their running agents after an update or relaunch, and restore a native tab that must start a new shell once its account is ready instead of leaving it without one.",
       "sourceSha": "2df24c5f0b558c53a08fbe6a22aee4d420fb6908",
       "identity": "native-tabs-stay-attached:97fc196036d1330f6de02a416a54188a581d87cdc3162144a25001560fa54c9b"
+    },
+    {
+      "id": "test-forecast-per-worker",
+      "digest": "8d1999189295fbc946d14f2c638c018bd764cc09817a06cee717022f8646c102",
+      "type": "patch",
+      "summary": "With the organization's Local-first routing flag on, a test run sized from past measurements now gets only the workers memory supports, instead of every core it wants because an earlier smaller run fit.",
+      "sourceSha": "1e18cd125190a1a47aeaddf36db2324e955f12c4",
+      "identity": "test-forecast-per-worker:8d1999189295fbc946d14f2c638c018bd764cc09817a06cee717022f8646c102"
     }
   ],
   "consumedIntentIds": [
