@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "203125569580cb4b101791174d7fd71b9312bc27",
+  "cursorSha": "e496a8d5d843316d16cc21dd84625d05a2a960e2",
   "highWaterVersion": "1.403.4",
   "rows": [
     {
@@ -128018,6 +128018,13 @@
       "sourceSha": "203125569580cb4b101791174d7fd71b9312bc27",
       "sourcePackageVersion": "1.403.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e496a8d5d843316d16cc21dd84625d05a2a960e2",
+      "sourcePackageVersion": "1.403.7",
+      "intentIds": [
+        "remote-project-worker-terminals:1b401a0d6b7e120c5abce9bcf0326ad24d6815cb2831be795d3e08b3cba4f44b"
+      ]
     }
   ],
   "intents": [
@@ -132436,6 +132443,14 @@
       "summary": "A launch on an account in hundreds of organizations no longer reads every organization at once: the open organization reads first, the rest wait for the first rows and go out a few at a time, and a row that needs an answer still on its way shows as loading, not off.",
       "sourceSha": "d9ae3f43d4c3046a9a276b1ba224efe37f2ab44b",
       "identity": "org-reads-one-pool:c2698033fd9d66f9768a0a1a1992d4f982bb7f09d9bd838ee71676b288de74cc"
+    },
+    {
+      "id": "remote-project-worker-terminals",
+      "digest": "1b401a0d6b7e120c5abce9bcf0326ad24d6815cb2831be795d3e08b3cba4f44b",
+      "type": "patch",
+      "summary": "A project opened from another machine lists its workers' terminals on the Terminal tab again, and its Work rows can open them.",
+      "sourceSha": "e496a8d5d843316d16cc21dd84625d05a2a960e2",
+      "identity": "remote-project-worker-terminals:1b401a0d6b7e120c5abce9bcf0326ad24d6815cb2831be795d3e08b3cba4f44b"
     }
   ],
   "consumedIntentIds": [
