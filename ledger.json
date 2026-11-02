@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "f05b8fa9ad8b7482fd5a51f87de6aacbd502ff4f",
-  "highWaterVersion": "1.403.6",
+  "highWaterVersion": "1.404.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -67295,6 +67295,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:f05b8fa9ad8b7482fd5a51f87de6aacbd502ff4f",
+      "kind": "main",
+      "sequence": 1929,
+      "sourceSha": "f05b8fa9ad8b7482fd5a51f87de6aacbd502ff4f",
+      "sourcePackageVersion": "1.403.9",
+      "version": "1.404.0",
+      "publicationDate": "2026-11-02T07:52:03.775Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "cloud-session-hand-off-to-this-mac:25ff526a17c9b869730d2125930943b60c388f4ab769d5d00ecd8fe40478654d"
+        ],
+        "notesIntentIds": [
+          "cloud-session-hand-off-to-this-mac:25ff526a17c9b869730d2125930943b60c388f4ab769d5d00ecd8fe40478654d"
+        ],
+        "throughSourceSha": "f05b8fa9ad8b7482fd5a51f87de6aacbd502ff4f",
+        "previousThroughSourceSha": "b641507c4b5b7448e729db894c2a75317a3068dd",
+        "baselineVersion": "1.403.6",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41408995024",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-03T07:51:55.629Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -133173,7 +133216,8 @@
     "restore-saved-workflow:3a4f27d6aaff17a0fd280b5f45daa5a3d54f9a1c992d31d257e9b37145b04322",
     "org-reads-one-pool:c2698033fd9d66f9768a0a1a1992d4f982bb7f09d9bd838ee71676b288de74cc",
     "remote-project-worker-terminals:1b401a0d6b7e120c5abce9bcf0326ad24d6815cb2831be795d3e08b3cba4f44b",
-    "runs-on-every-machine-load:57e57ecb5a3aace69514ccc8a1e5bc7287b8a1160736ddeed74f4e52478e6d6d"
+    "runs-on-every-machine-load:57e57ecb5a3aace69514ccc8a1e5bc7287b8a1160736ddeed74f4e52478e6d6d",
+    "cloud-session-hand-off-to-this-mac:25ff526a17c9b869730d2125930943b60c388f4ab769d5d00ecd8fe40478654d"
   ],
-  "consumedThroughSha": "b641507c4b5b7448e729db894c2a75317a3068dd"
+  "consumedThroughSha": "f05b8fa9ad8b7482fd5a51f87de6aacbd502ff4f"
 }
