@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "26a97b8d522ab4615e7c9f91d258a78de0c283e3",
-  "highWaterVersion": "1.406.1",
+  "highWaterVersion": "1.406.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -67515,6 +67515,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:26a97b8d522ab4615e7c9f91d258a78de0c283e3",
+      "kind": "main",
+      "sequence": 1933,
+      "sourceSha": "26a97b8d522ab4615e7c9f91d258a78de0c283e3",
+      "sourcePackageVersion": "1.406.1",
+      "version": "1.406.2",
+      "publicationDate": "2026-11-02T10:05:49.204Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "phone-kickoff-owner-sign-in:6db4312df7ae4089b3011fe55ffef270388c6afe6cb77f2d1b6044dff3545451"
+        ],
+        "notesIntentIds": [
+          "phone-kickoff-owner-sign-in:6db4312df7ae4089b3011fe55ffef270388c6afe6cb77f2d1b6044dff3545451"
+        ],
+        "throughSourceSha": "26a97b8d522ab4615e7c9f91d258a78de0c283e3",
+        "previousThroughSourceSha": "ddeb38bd3d38be884a1d16c157d17c565603787b",
+        "baselineVersion": "1.406.1",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41425877707",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-03T10:05:42.873Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -133517,7 +133560,8 @@
     "cloud-session-hand-off-to-this-mac:25ff526a17c9b869730d2125930943b60c388f4ab769d5d00ecd8fe40478654d",
     "any-file-from-another-computer:c1bfcc8683458d590fa299c84ea66a528e43275cc1d656f7ec37bcf674ec5634",
     "accounts-provider-tabs:fd3c6d227e73d2eeef0b5d94d0fcbdc15578274f35591c1b8f3cd2acfd7c05a8",
-    "secure-tunnels-by-default:8f295c332c5966a12ff18d793b4a6f6301297463bc16b294d803a395c8fed6d4"
+    "secure-tunnels-by-default:8f295c332c5966a12ff18d793b4a6f6301297463bc16b294d803a395c8fed6d4",
+    "phone-kickoff-owner-sign-in:6db4312df7ae4089b3011fe55ffef270388c6afe6cb77f2d1b6044dff3545451"
   ],
-  "consumedThroughSha": "ddeb38bd3d38be884a1d16c157d17c565603787b"
+  "consumedThroughSha": "26a97b8d522ab4615e7c9f91d258a78de0c283e3"
 }
