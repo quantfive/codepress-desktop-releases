@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "159317e0f4ccebe2fef7b76022e6ea4026b7e20d",
+  "cursorSha": "f8dfdea3bf72d788406ec86b88f1f871c602421c",
   "highWaterVersion": "1.403.2",
   "rows": [
     {
@@ -127843,6 +127843,13 @@
       "sourceSha": "159317e0f4ccebe2fef7b76022e6ea4026b7e20d",
       "sourcePackageVersion": "1.403.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f8dfdea3bf72d788406ec86b88f1f871c602421c",
+      "sourcePackageVersion": "1.403.3",
+      "intentIds": [
+        "phone-header-seamless:b3da79ba68b62df7a735e765db2cc74ec6525d722575e6c94ac0b9da0799910e"
+      ]
     }
   ],
   "intents": [
@@ -132221,6 +132228,14 @@
       "summary": "Terminal windows, phones and browsers start faster: the code every window downloads before drawing drops from 10.8 MB to 5.2 MB, and its main script to 4.3 MB. The code editor, Settings, the file explorer, the diff view and other panes not on the first screen now load the first time you open them. If one can't be fetched, for example on an offline phone, the pane says so and offers Retry, and the rest of the app keeps working.",
       "sourceSha": "8ba3493511b148783053d11847fc01089b7318d0",
       "identity": "boot-bundle-split:4bbdad9124b4e7c2312bda84d53b9b1c36a36356938e2a8bec2f10f2355bcd7e"
+    },
+    {
+      "id": "phone-header-seamless",
+      "digest": "b3da79ba68b62df7a735e765db2cc74ec6525d722575e6c94ac0b9da0799910e",
+      "type": "patch",
+      "summary": "Shared phone header code gains a borderless option and keeps header order by mount. Terminal does not draw this header, so nothing changes on screen.",
+      "sourceSha": "f8dfdea3bf72d788406ec86b88f1f871c602421c",
+      "identity": "phone-header-seamless:b3da79ba68b62df7a735e765db2cc74ec6525d722575e6c94ac0b9da0799910e"
     }
   ],
   "consumedIntentIds": [
