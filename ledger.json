@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ee4d00d5c348503b04b77ac371eebc21cc9c0c31",
+  "cursorSha": "7fbb6334f60404d6faa993a1c530fb473305b3b9",
   "highWaterVersion": "1.420.0",
   "rows": [
     {
@@ -130907,6 +130907,13 @@
       "intentIds": [
         "terminal-signin-handoff:5520af4604d467285254fadbc55fd3a3e22dfdbb73cc913b4410a24a693e5719"
       ]
+    },
+    {
+      "sourceSha": "7fbb6334f60404d6faa993a1c530fb473305b3b9",
+      "sourcePackageVersion": "1.420.1",
+      "intentIds": [
+        "codepress-app-name:5bc929bf4a6b40539b3109c6fd4dffb173273fc88a3e0f840df2a741f212756e"
+      ]
     }
   ],
   "intents": [
@@ -135797,6 +135804,14 @@
       "summary": "Signing in with Google, GitHub or Apple now opens your browser or says why it couldn't: the button reads \"Opening Google…\" until the browser opens, each step fails with a named error within its deadline instead of waiting forever, a \"Copy sign-in link\" fallback is always there while you wait, and a finished sign-in still reaches a window whose connection to Terminal's local service is down.",
       "sourceSha": "ee4d00d5c348503b04b77ac371eebc21cc9c0c31",
       "identity": "terminal-signin-handoff:5520af4604d467285254fadbc55fd3a3e22dfdbb73cc913b4410a24a693e5719"
+    },
+    {
+      "id": "codepress-app-name",
+      "digest": "5bc929bf4a6b40539b3109c6fd4dffb173273fc88a3e0f840df2a741f212756e",
+      "type": "patch",
+      "summary": "The app now calls itself CodePress. Onboarding says \"Welcome to CodePress\", and the settings, update and error messages, the menu-bar and quit prompts, the window title and the update notices say \"CodePress\" or \"the CodePress app\" where they used to say \"CodePress Terminal\" or \"Terminal\". Only the words change: the data folder, bundle ID, update feed and `codepress-terminal` tool names stay as they were.",
+      "sourceSha": "7fbb6334f60404d6faa993a1c530fb473305b3b9",
+      "identity": "codepress-app-name:5bc929bf4a6b40539b3109c6fd4dffb173273fc88a3e0f840df2a741f212756e"
     }
   ],
   "consumedIntentIds": [
