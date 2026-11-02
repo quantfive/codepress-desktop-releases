@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3d7f9b9d4757b62946a02f0d645f5a9187cbab53",
+  "cursorSha": "17698160dd400ae425e95f79a45098676c7194ce",
   "highWaterVersion": "1.411.0",
   "rows": [
     {
@@ -129273,6 +129273,13 @@
       "sourceSha": "3d7f9b9d4757b62946a02f0d645f5a9187cbab53",
       "sourcePackageVersion": "1.411.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "17698160dd400ae425e95f79a45098676c7194ce",
+      "sourcePackageVersion": "1.411.0",
+      "intentIds": [
+        "sandbox-qualify-19084:da39a4cbd4ab791ca23dcdd4325a210d2dc75af9d60880ba71d9aa130bdfc3c0"
+      ]
     }
   ],
   "intents": [
@@ -133851,6 +133858,14 @@
       "summary": "Video, audio, PDFs, Browser Tab files and plan pages load with a short-lived capability from the window when the org's local-first routing flag is on, so a process that forges browser headers can no longer read a file through the daemon's loopback port.",
       "sourceSha": "c8a029e62be0caba27434cd6b558e039cb96d780",
       "identity": "media-capability-19154:4717c637957fa36a22852ecabc09fb6dac3f0b7c1df3e71b83906e831806431b"
+    },
+    {
+      "id": "sandbox-qualify-19084",
+      "digest": "da39a4cbd4ab791ca23dcdd4325a210d2dc75af9d60880ba71d9aa130bdfc3c0",
+      "type": "patch",
+      "summary": "Keep the Mac sandbox's caches per owner, repo and branch, stop jobs at their disk limit, destroy leftover sandbox VMs on start, and fail fast when a stored registry login does not answer.",
+      "sourceSha": "17698160dd400ae425e95f79a45098676c7194ce",
+      "identity": "sandbox-qualify-19084:da39a4cbd4ab791ca23dcdd4325a210d2dc75af9d60880ba71d9aa130bdfc3c0"
     }
   ],
   "consumedIntentIds": [
