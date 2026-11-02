@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5816771a03850095c9f9ff48ab477027db8d6d57",
+  "cursorSha": "3fdf83ca1f17bf4641217ec0008db650f65d0e25",
   "highWaterVersion": "1.404.0",
   "rows": [
     {
@@ -128240,6 +128240,13 @@
       "sourceSha": "5816771a03850095c9f9ff48ab477027db8d6d57",
       "sourcePackageVersion": "1.404.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3fdf83ca1f17bf4641217ec0008db650f65d0e25",
+      "sourcePackageVersion": "1.404.0",
+      "intentIds": [
+        "any-file-from-another-computer:c1bfcc8683458d590fa299c84ea66a528e43275cc1d656f7ec37bcf674ec5634"
+      ]
     }
   ],
   "intents": [
@@ -132682,6 +132689,14 @@
       "summary": "Hand off… a session the cloud holds to this Mac, from its tab's card, the Agent tab or the handoff tools. Claude resumes in a new tab at the cloud's latest confirmed code; Codex continues in this Mac's Agent tab. A tab whose session moved shows one card that names where it runs now (the cloud, a tab on a Mac, or a Mac's local runtime) with the way to reach it. Bring back here is gone.",
       "sourceSha": "f05b8fa9ad8b7482fd5a51f87de6aacbd502ff4f",
       "identity": "cloud-session-hand-off-to-this-mac:25ff526a17c9b869730d2125930943b60c388f4ab769d5d00ecd8fe40478654d"
+    },
+    {
+      "id": "any-file-from-another-computer",
+      "digest": "c1bfcc8683458d590fa299c84ea66a528e43275cc1d656f7ec37bcf674ec5634",
+      "type": "minor",
+      "summary": "A project on another computer now shows any file, not only text. Images, video, audio and PDFs open in the Files view, and every other file gets a card with its size and a Download button. Files over 25 MB wait for Load or Download, and files over 500 MB are refused with their size. Viewing needs the Terminal on the other computer to be updated too; until it is, the file says so.",
+      "sourceSha": "3fdf83ca1f17bf4641217ec0008db650f65d0e25",
+      "identity": "any-file-from-another-computer:c1bfcc8683458d590fa299c84ea66a528e43275cc1d656f7ec37bcf674ec5634"
     }
   ],
   "consumedIntentIds": [
