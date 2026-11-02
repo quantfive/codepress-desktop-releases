@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "dd7d838897b893d952059acbdb7706defc5a1cab",
+  "cursorSha": "2918a93aef8875e6ab7d40eecc0bd3b1852025d2",
   "highWaterVersion": "1.416.0",
   "rows": [
     {
@@ -130028,6 +130028,13 @@
       "sourceSha": "dd7d838897b893d952059acbdb7706defc5a1cab",
       "sourcePackageVersion": "1.416.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2918a93aef8875e6ab7d40eecc0bd3b1852025d2",
+      "sourcePackageVersion": "1.416.3",
+      "intentIds": [
+        "muse-usage-every-account:b1d8ce37ae5613a2422fad1a794422379778db5e584fd0b40de6c4c2442fcc2b"
+      ]
     }
   ],
   "intents": [
@@ -134782,6 +134789,14 @@
       "summary": "A headless Terminal reads its organization's Local-first routing flag and uploads usage samples over its device channel. With the flag on it measures its tasks and enforces local-client credentials like a signed-in Mac; off, nothing changes.",
       "sourceSha": "abe0df43f8ea10062424affd60cd24d0dc02c74a",
       "identity": "headless-routing-flag-usage:4ca77fc0dfb15de1f4b8465ce5e078d8b9cbe1e029579b98816fb6288d8dcef8"
+    },
+    {
+      "id": "muse-usage-every-account",
+      "digest": "b1d8ce37ae5613a2422fad1a794422379778db5e584fd0b40de6c4c2442fcc2b",
+      "type": "minor",
+      "summary": "Muse accounts now show 5-hour and weekly usage on each card, from the last reading taken while that account was active, \"Usage unknown\" when there is none, and a Reconnect button when a login stops working.",
+      "sourceSha": "2918a93aef8875e6ab7d40eecc0bd3b1852025d2",
+      "identity": "muse-usage-every-account:b1d8ce37ae5613a2422fad1a794422379778db5e584fd0b40de6c4c2442fcc2b"
     }
   ],
   "consumedIntentIds": [
