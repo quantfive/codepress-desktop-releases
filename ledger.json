@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "0482a4479604dca038f98ed876d9f6fed206a28f",
-  "highWaterVersion": "1.421.0",
+  "highWaterVersion": "1.421.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -69239,6 +69239,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:0482a4479604dca038f98ed876d9f6fed206a28f",
+      "kind": "main",
+      "sequence": 1963,
+      "sourceSha": "0482a4479604dca038f98ed876d9f6fed206a28f",
+      "sourcePackageVersion": "1.421.2",
+      "version": "1.421.1",
+      "publicationDate": "2026-11-02T23:06:59.455Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "remote-window-native-bridges:b169ed3338e3542a6ca2651f5503402eecc344463c7821d5b2e24b2e5f2801fe"
+        ],
+        "notesIntentIds": [
+          "remote-window-native-bridges:b169ed3338e3542a6ca2651f5503402eecc344463c7821d5b2e24b2e5f2801fe"
+        ],
+        "throughSourceSha": "0482a4479604dca038f98ed876d9f6fed206a28f",
+        "previousThroughSourceSha": "be1ff9a9a7d1e418f282459ce50aff1767458cac",
+        "baselineVersion": "1.421.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41542765516",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-03T23:06:52.187Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -136626,7 +136669,8 @@
     "terminal-signin-handoff:5520af4604d467285254fadbc55fd3a3e22dfdbb73cc913b4410a24a693e5719",
     "codepress-app-name:5bc929bf4a6b40539b3109c6fd4dffb173273fc88a3e0f840df2a741f212756e",
     "limit-continue-other-provider:37d6959884da784be40fddeb08691817c59be8ca6541c20f9d240f6046a5dec9",
-    "app-name-tidy-leftovers:943055f4333e41e1258614b26577e646e769ca8fb1009ea4c77bf2c6ebc706b6"
+    "app-name-tidy-leftovers:943055f4333e41e1258614b26577e646e769ca8fb1009ea4c77bf2c6ebc706b6",
+    "remote-window-native-bridges:b169ed3338e3542a6ca2651f5503402eecc344463c7821d5b2e24b2e5f2801fe"
   ],
-  "consumedThroughSha": "be1ff9a9a7d1e418f282459ce50aff1767458cac"
+  "consumedThroughSha": "0482a4479604dca038f98ed876d9f6fed206a28f"
 }
