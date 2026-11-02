@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "de7929489ca318f0745731fbba55528efc60bb5f",
-  "highWaterVersion": "1.402.0",
+  "highWaterVersion": "1.403.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -66900,6 +66900,53 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:de7929489ca318f0745731fbba55528efc60bb5f",
+      "kind": "main",
+      "sequence": 1922,
+      "sourceSha": "de7929489ca318f0745731fbba55528efc60bb5f",
+      "sourcePackageVersion": "1.403.1",
+      "version": "1.403.0",
+      "publicationDate": "2026-11-02T04:23:31.957Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-capacity-command-forecast:43153762524fb0849f5925a4f7218dc3e61d51d9ee2b532594f5be08b3ee7ff3",
+          "auto-own-shared-computer:28380765fa0c5edb0e0cfb467b453f37a90dd14a5fdadfaa46b024b452c357ab",
+          "grok-stop-the-sharp-edges:04728e25967ed172eb8caea8d65c7fc7c84fceda506365585136f5896d15c958"
+        ],
+        "notesIntentIds": [
+          "terminal-capacity-command-forecast:43153762524fb0849f5925a4f7218dc3e61d51d9ee2b532594f5be08b3ee7ff3",
+          "auto-own-shared-computer:28380765fa0c5edb0e0cfb467b453f37a90dd14a5fdadfaa46b024b452c357ab",
+          "grok-stop-the-sharp-edges:04728e25967ed172eb8caea8d65c7fc7c84fceda506365585136f5896d15c958"
+        ],
+        "throughSourceSha": "de7929489ca318f0745731fbba55528efc60bb5f",
+        "previousThroughSourceSha": "22fe393ee0c3de7d07b63b2994f984af1611e3f0",
+        "baselineVersion": "1.402.0",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41388149007",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-03T04:23:27.243Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -132501,7 +132548,10 @@
     "google-limit-recovery:7ae31315a31bd8270b7804be4a37d6ca3ce45a8689bbd2976ae1a8bfe99e1e69",
     "launch-report-after-swap:d084cf2a7b05d9fd62e2157339af5fa7d8f20f98863a6809ed28b483d24c6077",
     "any-folder-chats:aeb6cff0ee97689b93631c46f33162931d70449270325a8107852bff79a3bc50",
-    "mac-sandbox-for-sent-work:77eefb6e2160f1dc235b2715e639caee5b80447b0c46031a1906d3ac5ac34676"
+    "mac-sandbox-for-sent-work:77eefb6e2160f1dc235b2715e639caee5b80447b0c46031a1906d3ac5ac34676",
+    "terminal-capacity-command-forecast:43153762524fb0849f5925a4f7218dc3e61d51d9ee2b532594f5be08b3ee7ff3",
+    "auto-own-shared-computer:28380765fa0c5edb0e0cfb467b453f37a90dd14a5fdadfaa46b024b452c357ab",
+    "grok-stop-the-sharp-edges:04728e25967ed172eb8caea8d65c7fc7c84fceda506365585136f5896d15c958"
   ],
-  "consumedThroughSha": "22fe393ee0c3de7d07b63b2994f984af1611e3f0"
+  "consumedThroughSha": "de7929489ca318f0745731fbba55528efc60bb5f"
 }
