@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b04fba0705ac0d828b454ec8acb142f666868490",
+  "cursorSha": "57fd0d07e08b37ed7f041b9c937ab0440b117744",
   "highWaterVersion": "1.421.0",
   "rows": [
     {
@@ -131071,6 +131071,13 @@
       "sourceSha": "b04fba0705ac0d828b454ec8acb142f666868490",
       "sourcePackageVersion": "1.421.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "57fd0d07e08b37ed7f041b9c937ab0440b117744",
+      "sourcePackageVersion": "1.421.1",
+      "intentIds": [
+        "remote-window-native-bridges:b169ed3338e3542a6ca2651f5503402eecc344463c7821d5b2e24b2e5f2801fe"
+      ]
     }
   ],
   "intents": [
@@ -135985,6 +135992,14 @@
       "summary": "Three leftover messages now say \"the CodePress app\" instead of \"Terminal\": the note about a computer running an older version, the local-connections message, and the installed web app's short name.",
       "sourceSha": "be1ff9a9a7d1e418f282459ce50aff1767458cac",
       "identity": "app-name-tidy-leftovers:943055f4333e41e1258614b26577e646e769ca8fb1009ea4c77bf2c6ebc706b6"
+    },
+    {
+      "id": "remote-window-native-bridges",
+      "digest": "b169ed3338e3542a6ca2651f5503402eecc344463c7821d5b2e24b2e5f2801fe",
+      "type": "patch",
+      "summary": "Opening a teammate's computer no longer gives it your clipboard or browser. Its window now asks you first, every remote window needs a recent click or key press to open a link, and remote windows only load CodePress and tailnet hosts.",
+      "sourceSha": "57fd0d07e08b37ed7f041b9c937ab0440b117744",
+      "identity": "remote-window-native-bridges:b169ed3338e3542a6ca2651f5503402eecc344463c7821d5b2e24b2e5f2801fe"
     }
   ],
   "consumedIntentIds": [
