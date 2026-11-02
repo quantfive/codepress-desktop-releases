@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "8932db70ee3e4681d9b3289385c6d92d6feb1686",
+  "cursorSha": "4cb34a9f9eab7fc276beb66ae8a57d041164469a",
   "highWaterVersion": "1.400.9",
   "rows": [
     {
@@ -127368,6 +127368,13 @@
       "sourceSha": "8932db70ee3e4681d9b3289385c6d92d6feb1686",
       "sourcePackageVersion": "1.400.11",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4cb34a9f9eab7fc276beb66ae8a57d041164469a",
+      "sourcePackageVersion": "1.400.11",
+      "intentIds": [
+        "device-channel-wait:3e988a7ed8fad307b7749551359f405bb97721cb495f07abd57badedab756b62"
+      ]
     }
   ],
   "intents": [
@@ -131666,6 +131673,14 @@
       "summary": "Terminal can add a folder to its local checkout allowlist when its owner asks over the device-folders channel.",
       "sourceSha": "6ec0469030268f6ed0041d0d327d11d883619d7d",
       "identity": "host-add-checkout-op:8a00b4dfea30209b871f261992bb283edca606e59948161a43365ec4084f5df7"
+    },
+    {
+      "id": "device-channel-wait",
+      "digest": "3e988a7ed8fad307b7749551359f405bb97721cb495f07abd57badedab756b62",
+      "type": "patch",
+      "summary": "Terminal updates no longer wait on a slow checkout read before connecting, and PR events no longer run `git remote get-url` for every directory of a repository that uses `extensions.worktreeConfig`, or for tabs in deleted folders.",
+      "sourceSha": "4cb34a9f9eab7fc276beb66ae8a57d041164469a",
+      "identity": "device-channel-wait:3e988a7ed8fad307b7749551359f405bb97721cb495f07abd57badedab756b62"
     }
   ],
   "consumedIntentIds": [
