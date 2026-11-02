@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "641d8158cde2befe159138f5416947cc3edcc2aa",
+  "cursorSha": "c2d112dcb0c7202f81aaada01d67d853c66f0dd8",
   "highWaterVersion": "1.400.6",
   "rows": [
     {
@@ -127115,6 +127115,13 @@
       "intentIds": [
         "restore-yield-window-connects:77aebd2ff6f17048abc5b91691c0faef0cc5bd0288b4d54e1c7d276c8191664c"
       ]
+    },
+    {
+      "sourceSha": "c2d112dcb0c7202f81aaada01d67d853c66f0dd8",
+      "sourcePackageVersion": "1.400.7",
+      "intentIds": [
+        "forwarded-traffic-never-local:ffdeb544d456edc29892a605b13f96d17855425ee122a571706bd0210256a2d8"
+      ]
     }
   ],
   "intents": [
@@ -131381,6 +131388,14 @@
       "summary": "Terminal relaunch connects the window while saved tabs restore: tabs are created in slices with the window's last tab first, and requests for a tab that is still restoring wait for it instead of failing.",
       "sourceSha": "641d8158cde2befe159138f5416947cc3edcc2aa",
       "identity": "restore-yield-window-connects:77aebd2ff6f17048abc5b91691c0faef0cc5bd0288b4d54e1c7d276c8191664c"
+    },
+    {
+      "id": "forwarded-traffic-never-local",
+      "digest": "ffdeb544d456edc29892a605b13f96d17855425ee122a571706bd0210256a2d8",
+      "type": "patch",
+      "summary": "Forwarded traffic is never local: a loopback request with forwarding headers needs a credential, and while Tailscale serves, every loopback caller's account is checked.",
+      "sourceSha": "c2d112dcb0c7202f81aaada01d67d853c66f0dd8",
+      "identity": "forwarded-traffic-never-local:ffdeb544d456edc29892a605b13f96d17855425ee122a571706bd0210256a2d8"
     }
   ],
   "consumedIntentIds": [
