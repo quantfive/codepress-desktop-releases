@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "e496a8d5d843316d16cc21dd84625d05a2a960e2",
-  "highWaterVersion": "1.403.4",
+  "highWaterVersion": "1.403.5",
   "rows": [
     {
       "schemaVersion": 1,
@@ -67179,6 +67179,55 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:e496a8d5d843316d16cc21dd84625d05a2a960e2",
+      "kind": "main",
+      "sequence": 1927,
+      "sourceSha": "e496a8d5d843316d16cc21dd84625d05a2a960e2",
+      "sourcePackageVersion": "1.403.7",
+      "version": "1.403.5",
+      "publicationDate": "2026-11-02T06:45:12.181Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "feed-answers-without-flags-wait:6dc3e4c23a8c097dd01846bb839b2f8580a89f2c0aef5c0b39bf38cf9d1299d2",
+          "restore-saved-workflow:3a4f27d6aaff17a0fd280b5f45daa5a3d54f9a1c992d31d257e9b37145b04322",
+          "org-reads-one-pool:c2698033fd9d66f9768a0a1a1992d4f982bb7f09d9bd838ee71676b288de74cc",
+          "remote-project-worker-terminals:1b401a0d6b7e120c5abce9bcf0326ad24d6815cb2831be795d3e08b3cba4f44b"
+        ],
+        "notesIntentIds": [
+          "feed-answers-without-flags-wait:6dc3e4c23a8c097dd01846bb839b2f8580a89f2c0aef5c0b39bf38cf9d1299d2",
+          "restore-saved-workflow:3a4f27d6aaff17a0fd280b5f45daa5a3d54f9a1c992d31d257e9b37145b04322",
+          "org-reads-one-pool:c2698033fd9d66f9768a0a1a1992d4f982bb7f09d9bd838ee71676b288de74cc",
+          "remote-project-worker-terminals:1b401a0d6b7e120c5abce9bcf0326ad24d6815cb2831be795d3e08b3cba4f44b"
+        ],
+        "throughSourceSha": "e496a8d5d843316d16cc21dd84625d05a2a960e2",
+        "previousThroughSourceSha": "c838bbaf79105204dc3590eb7f9b5ad17b2b46a7",
+        "baselineVersion": "1.403.4",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41401832173",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-03T06:45:05.433Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -133002,7 +133051,11 @@
     "share-links-view-only:6439a593b6fe3917a6cfca2fbf437bef153d54094e15ec0bbce0658023507624",
     "boot-bundle-split:4bbdad9124b4e7c2312bda84d53b9b1c36a36356938e2a8bec2f10f2355bcd7e",
     "phone-header-seamless:b3da79ba68b62df7a735e765db2cc74ec6525d722575e6c94ac0b9da0799910e",
-    "pool-forecast-envelopes:cde63a2f643bad8dab8ef977e43359bdeeae42a6412c85f83e14bef3fe1f8ec1"
+    "pool-forecast-envelopes:cde63a2f643bad8dab8ef977e43359bdeeae42a6412c85f83e14bef3fe1f8ec1",
+    "feed-answers-without-flags-wait:6dc3e4c23a8c097dd01846bb839b2f8580a89f2c0aef5c0b39bf38cf9d1299d2",
+    "restore-saved-workflow:3a4f27d6aaff17a0fd280b5f45daa5a3d54f9a1c992d31d257e9b37145b04322",
+    "org-reads-one-pool:c2698033fd9d66f9768a0a1a1992d4f982bb7f09d9bd838ee71676b288de74cc",
+    "remote-project-worker-terminals:1b401a0d6b7e120c5abce9bcf0326ad24d6815cb2831be795d3e08b3cba4f44b"
   ],
-  "consumedThroughSha": "c838bbaf79105204dc3590eb7f9b5ad17b2b46a7"
+  "consumedThroughSha": "e496a8d5d843316d16cc21dd84625d05a2a960e2"
 }
