@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "de39e6431f50ce0ac86dfdc8e1e13184dddf4b48",
+  "cursorSha": "76c8af285aeddadeecbe64d58d81ab17cee8bb35",
   "highWaterVersion": "1.410.1",
   "rows": [
     {
@@ -129185,6 +129185,13 @@
       "sourceSha": "de39e6431f50ce0ac86dfdc8e1e13184dddf4b48",
       "sourcePackageVersion": "1.410.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "76c8af285aeddadeecbe64d58d81ab17cee8bb35",
+      "sourcePackageVersion": "1.410.1",
+      "intentIds": [
+        "teammate-shared-mac-launch:f16730ff2bf4fd41d396bef8834f648420913786d10d782081bd83448f52d39a"
+      ]
     }
   ],
   "intents": [
@@ -133739,6 +133746,14 @@
       "summary": "A packaged window, popout or file viewer now sends its secret to its own daemon, so it keeps working when local-first routing is turned on.",
       "sourceSha": "d2bf9b2986ca396f83f1096128d6c5fbc18e9a10",
       "identity": "window-daemon-base:8c3744e3ff41049a239556df0b1ad77869cde1e0eec7a8fc502bcd3d19a4b1e3"
+    },
+    {
+      "id": "teammate-shared-mac-launch",
+      "digest": "f16730ff2bf4fd41d396bef8834f648420913786d10d782081bd83448f52d39a",
+      "type": "patch",
+      "summary": "A teammate using a shared computer can start agents again: New Workflow types its start command in their tab without the owner's Computer Use launch, and `claude` or `codex` falls back to the copy Terminal staged for teammates when they have none of their own.",
+      "sourceSha": "76c8af285aeddadeecbe64d58d81ab17cee8bb35",
+      "identity": "teammate-shared-mac-launch:f16730ff2bf4fd41d396bef8834f648420913786d10d782081bd83448f52d39a"
     }
   ],
   "consumedIntentIds": [
