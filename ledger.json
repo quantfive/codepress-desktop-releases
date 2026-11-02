@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "a004753edfa552d6c3cbb2f4322c565a3cf24145",
-  "highWaterVersion": "1.413.2",
+  "highWaterVersion": "1.414.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -68366,6 +68366,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:a004753edfa552d6c3cbb2f4322c565a3cf24145",
+      "kind": "main",
+      "sequence": 1948,
+      "sourceSha": "a004753edfa552d6c3cbb2f4322c565a3cf24145",
+      "sourcePackageVersion": "1.414.0",
+      "version": "1.414.0",
+      "publicationDate": "2026-11-02T16:36:56.783Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "control-device-signature:40f9c09f0b8f339a56c4c1fa1bd7be82b87353f01a786da2c0d6422660c2c2ee"
+        ],
+        "notesIntentIds": [
+          "control-device-signature:40f9c09f0b8f339a56c4c1fa1bd7be82b87353f01a786da2c0d6422660c2c2ee"
+        ],
+        "throughSourceSha": "a004753edfa552d6c3cbb2f4322c565a3cf24145",
+        "previousThroughSourceSha": "0f5b5ea407393333b2490b56a6d94fafb5fc1ec6",
+        "baselineVersion": "1.413.2",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41483109903",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-03T16:36:51.101Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -134911,7 +134954,8 @@
     "kimi-usage-usages-map:ca91a054329fde5b76e39a7c5e431fcadb952af5e22d8f647fe35596d8399070",
     "native-tabs-stay-attached:97fc196036d1330f6de02a416a54188a581d87cdc3162144a25001560fa54c9b",
     "test-forecast-per-worker:8d1999189295fbc946d14f2c638c018bd764cc09817a06cee717022f8646c102",
-    "kimi-tool-search:e1e5c9577c40c35bd58aef5897c24ab8873701d729b776af6dd7c6ad63467107"
+    "kimi-tool-search:e1e5c9577c40c35bd58aef5897c24ab8873701d729b776af6dd7c6ad63467107",
+    "control-device-signature:40f9c09f0b8f339a56c4c1fa1bd7be82b87353f01a786da2c0d6422660c2c2ee"
   ],
-  "consumedThroughSha": "0f5b5ea407393333b2490b56a6d94fafb5fc1ec6"
+  "consumedThroughSha": "a004753edfa552d6c3cbb2f4322c565a3cf24145"
 }
