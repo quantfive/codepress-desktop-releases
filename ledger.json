@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "8fc33fbaea2a2f929eb5f2430b66621bf3ad0555",
+  "cursorSha": "b641507c4b5b7448e729db894c2a75317a3068dd",
   "highWaterVersion": "1.403.5",
   "rows": [
     {
@@ -128101,6 +128101,13 @@
       "sourceSha": "8fc33fbaea2a2f929eb5f2430b66621bf3ad0555",
       "sourcePackageVersion": "1.403.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b641507c4b5b7448e729db894c2a75317a3068dd",
+      "sourcePackageVersion": "1.403.8",
+      "intentIds": [
+        "runs-on-every-machine-load:57e57ecb5a3aace69514ccc8a1e5bc7287b8a1160736ddeed74f4e52478e6d6d"
+      ]
     }
   ],
   "intents": [
@@ -132527,6 +132534,14 @@
       "summary": "A project opened from another machine lists its workers' terminals on the Terminal tab again, and its Work rows can open them.",
       "sourceSha": "e496a8d5d843316d16cc21dd84625d05a2a960e2",
       "identity": "remote-project-worker-terminals:1b401a0d6b7e120c5abce9bcf0326ad24d6815cb2831be795d3e08b3cba4f44b"
+    },
+    {
+      "id": "runs-on-every-machine-load",
+      "digest": "57e57ecb5a3aace69514ccc8a1e5bc7287b8a1160736ddeed74f4e52478e6d6d",
+      "type": "patch",
+      "summary": "Runs on: a machine that stopped reporting load never shows a percentage, and machine rows keep their load when Auto falls back or an attempt is held.",
+      "sourceSha": "b641507c4b5b7448e729db894c2a75317a3068dd",
+      "identity": "runs-on-every-machine-load:57e57ecb5a3aace69514ccc8a1e5bc7287b8a1160736ddeed74f4e52478e6d6d"
     }
   ],
   "consumedIntentIds": [
