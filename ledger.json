@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5716dfff4879efcceb0974bba61d5b20f43dddb1",
+  "cursorSha": "2c017b6850bc52b6c7932fd97b553d0744a51191",
   "highWaterVersion": "1.419.1",
   "rows": [
     {
@@ -130831,6 +130831,13 @@
       "sourceSha": "5716dfff4879efcceb0974bba61d5b20f43dddb1",
       "sourcePackageVersion": "1.420.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2c017b6850bc52b6c7932fd97b553d0744a51191",
+      "sourcePackageVersion": "1.420.0",
+      "intentIds": [
+        "kimi-relay-tool-addition:ad78b519eebe4af4a981ef456d1e29ebe93ac87f600230f578e4236b49336d01"
+      ]
     }
   ],
   "intents": [
@@ -135705,6 +135712,14 @@
       "summary": "Muse Personal and Team accounts now appear in Settings → Agents → Accounts, marked Cloud agents only, with usage, Refresh usage, Reconnect and Remove, and they can be added from Add account → Cloud agents. A Local Muse account can be restricted to repositories, as Claude and Codex accounts can. New MCP tools list, switch, pause, restrict, remove and sign in Muse accounts; an agent cannot switch accounts while the active one is at its usage limit.",
       "sourceSha": "3c2e0e5dccf89b74ea5fcd9fa1a1f6f9ef792018",
       "identity": "muse-accounts-everywhere:76b73535b18ea998bbd76a4b52f5db4784c80f095b6246d8cb45303810e8aa38"
+    },
+    {
+      "id": "kimi-relay-tool-addition",
+      "digest": "ad78b519eebe4af4a981ef456d1e29ebe93ac87f600230f578e4236b49336d01",
+      "type": "patch",
+      "summary": "Kimi workers and Orchestrators keep Claude Code's tool search on when MCP servers connect mid-conversation: the Kimi relay rewrites the `tool_addition` blocks Kimi refuses into tools declared in full, so calls no longer fall back to sending every tool schema.",
+      "sourceSha": "2c017b6850bc52b6c7932fd97b553d0744a51191",
+      "identity": "kimi-relay-tool-addition:ad78b519eebe4af4a981ef456d1e29ebe93ac87f600230f578e4236b49336d01"
     }
   ],
   "consumedIntentIds": [
