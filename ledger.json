@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "22fe393ee0c3de7d07b63b2994f984af1611e3f0",
+  "cursorSha": "d0bf99e57ef9f864de66c196ecddd77b0d728cfc",
   "highWaterVersion": "1.402.0",
   "rows": [
     {
@@ -127559,6 +127559,13 @@
       "sourceSha": "22fe393ee0c3de7d07b63b2994f984af1611e3f0",
       "sourcePackageVersion": "1.402.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d0bf99e57ef9f864de66c196ecddd77b0d728cfc",
+      "sourcePackageVersion": "1.402.0",
+      "intentIds": [
+        "terminal-capacity-command-forecast:43153762524fb0849f5925a4f7218dc3e61d51d9ee2b532594f5be08b3ee7ff3"
+      ]
     }
   ],
   "intents": [
@@ -131897,6 +131904,14 @@
       "summary": "Add a macOS sandbox for work sent to a machine. Each job runs in its own Linux VM that sees only its repo, with Apple's `container` on macOS 26 and Lima on older Macs. Nothing routes to it yet; machines report whether they can run it.",
       "sourceSha": "c30646b4a43694792faac7108270d168cfeb5b71",
       "identity": "mac-sandbox-for-sent-work:77eefb6e2160f1dc235b2715e639caee5b80447b0c46031a1906d3ac5ac34676"
+    },
+    {
+      "id": "terminal-capacity-command-forecast",
+      "digest": "43153762524fb0849f5925a4f7218dc3e61d51d9ee2b532594f5be08b3ee7ff3",
+      "type": "minor",
+      "summary": "With Local-first routing on, a wrapped command now waits for the room its own history says it needs, and a command that needs little reserves only what it uses.",
+      "sourceSha": "d0bf99e57ef9f864de66c196ecddd77b0d728cfc",
+      "identity": "terminal-capacity-command-forecast:43153762524fb0849f5925a4f7218dc3e61d51d9ee2b532594f5be08b3ee7ff3"
     }
   ],
   "consumedIntentIds": [
