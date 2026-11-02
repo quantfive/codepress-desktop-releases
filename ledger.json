@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d88d083a80ff889cc0eb8b87f5abb05d675f8f78",
+  "cursorSha": "eb22f06b255123477a9ae8dfaf91c18fdde66d13",
   "highWaterVersion": "1.415.1",
   "rows": [
     {
@@ -129895,6 +129895,16 @@
       "intentIds": [
         "cloud-session-handoff-other-macs:434344d4da59b3a45e1b79cfe74b4a4c26503db83cfeecbd35bd7128c6411191"
       ]
+    },
+    {
+      "sourceSha": "e301de4593f6d3f6abc2ebd3b28226f686944543",
+      "sourcePackageVersion": "1.415.2",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "eb22f06b255123477a9ae8dfaf91c18fdde66d13",
+      "sourcePackageVersion": "1.416.0",
+      "intentIds": []
     }
   ],
   "intents": [
