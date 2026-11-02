@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5dc99d07403760c095b4843972a585087746cac1",
+  "cursorSha": "615975ae1ac01b862717b601022dc8d25c725b5d",
   "highWaterVersion": "1.412.0",
   "rows": [
     {
@@ -129383,6 +129383,18 @@
       "intentIds": [
         "native-frames-gate:c5409da8f9a02e3ce7f59d5349e0b1fe31f8004dd72dbcfe626c2bc75a6528aa"
       ]
+    },
+    {
+      "sourceSha": "86fc0e695e406171f62c9e91cab36c66154437b5",
+      "sourcePackageVersion": "1.413.1",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "615975ae1ac01b862717b601022dc8d25c725b5d",
+      "sourcePackageVersion": "1.413.1",
+      "intentIds": [
+        "kimi-usage-usages-map:ca91a054329fde5b76e39a7c5e431fcadb952af5e22d8f647fe35596d8399070"
+      ]
     }
   ],
   "intents": [
@@ -134009,6 +134021,14 @@
       "summary": "With local-first routing on, a Mac's Remote Desktop frames reach the daemon over the direct channel again, so desktop use on a locked session keeps working.",
       "sourceSha": "5dc99d07403760c095b4843972a585087746cac1",
       "identity": "native-frames-gate:c5409da8f9a02e3ce7f59d5349e0b1fe31f8004dd72dbcfe626c2bc75a6528aa"
+    },
+    {
+      "id": "kimi-usage-usages-map",
+      "digest": "ca91a054329fde5b76e39a7c5e431fcadb952af5e22d8f647fe35596d8399070",
+      "type": "patch",
+      "summary": "Local Kimi account cards show the account's current usage again: Terminal now reads the `usages` windows that Kimi's own client reads, and a window with no use yet reads as 0% instead of leaving the card on its last reading.",
+      "sourceSha": "615975ae1ac01b862717b601022dc8d25c725b5d",
+      "identity": "kimi-usage-usages-map:ca91a054329fde5b76e39a7c5e431fcadb952af5e22d8f647fe35596d8399070"
     }
   ],
   "consumedIntentIds": [
