@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0b8fc357a0dd0e8b56269707c1cfc89f887645d8",
+  "cursorSha": "a58e4f0fdeb20839f2ec08be5fb45abad1275554",
   "highWaterVersion": "1.401.0",
   "rows": [
     {
@@ -127446,6 +127446,13 @@
       "intentIds": [
         "google-limit-recovery:7ae31315a31bd8270b7804be4a37d6ca3ce45a8689bbd2976ae1a8bfe99e1e69"
       ]
+    },
+    {
+      "sourceSha": "a58e4f0fdeb20839f2ec08be5fb45abad1275554",
+      "sourcePackageVersion": "1.400.12",
+      "intentIds": [
+        "launch-report-after-swap:d084cf2a7b05d9fd62e2157339af5fa7d8f20f98863a6809ed28b483d24c6077"
+      ]
     }
   ],
   "intents": [
@@ -131760,6 +131767,14 @@
       "summary": "Gemini workers now notice a Google quota limit: the Orchestrator hears it, a strip offers another provider's model, and the same login resumes at its reset when the time is known. `agy` conversations resume on relaunch, and a Stop hook reports turn ends where `agy` runs hooks. Terminal never switches Google accounts.",
       "sourceSha": "0b8fc357a0dd0e8b56269707c1cfc89f887645d8",
       "identity": "google-limit-recovery:7ae31315a31bd8270b7804be4a37d6ca3ce45a8689bbd2976ae1a8bfe99e1e69"
+    },
+    {
+      "id": "launch-report-after-swap",
+      "digest": "d084cf2a7b05d9fd62e2157339af5fa7d8f20f98863a6809ed28b483d24c6077",
+      "type": "patch",
+      "summary": "Keep the launch report when an update moves the window to a new background server, and restart the feed's startup backoff on the new server.",
+      "sourceSha": "a58e4f0fdeb20839f2ec08be5fb45abad1275554",
+      "identity": "launch-report-after-swap:d084cf2a7b05d9fd62e2157339af5fa7d8f20f98863a6809ed28b483d24c6077"
     }
   ],
   "consumedIntentIds": [
