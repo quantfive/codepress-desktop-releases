@@ -68809,10 +68809,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41511700496",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-03T19:38:05.271Z",
         "dispatch": null,
         "failures": []
       }
