@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "14d8c70c41b811253b472c463e6b78201ee4be56",
+  "cursorSha": "962e649131bc9ce53deb3161ca1a3f295fad3e1c",
   "highWaterVersion": "1.400.4",
   "rows": [
     {
@@ -126970,6 +126970,13 @@
       "intentIds": [
         "service-machine-open-actions:26d0994636f34a9690feeb6deb6ce8d138890ae3c4035d3f36ba5dac891b6c1a"
       ]
+    },
+    {
+      "sourceSha": "962e649131bc9ce53deb3161ca1a3f295fad3e1c",
+      "sourcePackageVersion": "1.400.6",
+      "intentIds": [
+        "terminal-native-boot:2faa4550fe224550da58d5f70f6dac386921074c53ea0f71851b272e4f1a2612"
+      ]
     }
   ],
   "intents": [
@@ -131220,6 +131227,14 @@
       "summary": "Machine picker: a headless CLI service machine now shows the terminal and new-window icons instead of Open CodePress, and `list_machines` no longer says CodePress is closed on it.",
       "sourceSha": "14d8c70c41b811253b472c463e6b78201ee4be56",
       "identity": "service-machine-open-actions:26d0994636f34a9690feeb6deb6ce8d138890ae3c4035d3f36ba5dac891b6c1a"
+    },
+    {
+      "id": "terminal-native-boot",
+      "digest": "2faa4550fe224550da58d5f70f6dac386921074c53ea0f71851b272e4f1a2612",
+      "type": "patch",
+      "summary": "Draw the desktop window right away, in the person's theme, while the PTY broker and daemon start behind it, and stop repeating login-shell Node discovery and the server bundle hash on every launch.",
+      "sourceSha": "962e649131bc9ce53deb3161ca1a3f295fad3e1c",
+      "identity": "terminal-native-boot:2faa4550fe224550da58d5f70f6dac386921074c53ea0f71851b272e4f1a2612"
     }
   ],
   "consumedIntentIds": [
