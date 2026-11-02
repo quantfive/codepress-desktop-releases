@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6ec0469030268f6ed0041d0d327d11d883619d7d",
+  "cursorSha": "8932db70ee3e4681d9b3289385c6d92d6feb1686",
   "highWaterVersion": "1.400.9",
   "rows": [
     {
@@ -127363,6 +127363,11 @@
       "intentIds": [
         "host-add-checkout-op:8a00b4dfea30209b871f261992bb283edca606e59948161a43365ec4084f5df7"
       ]
+    },
+    {
+      "sourceSha": "8932db70ee3e4681d9b3289385c6d92d6feb1686",
+      "sourcePackageVersion": "1.400.11",
+      "intentIds": []
     }
   ],
   "intents": [
