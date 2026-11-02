@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "0b8fc357a0dd0e8b56269707c1cfc89f887645d8",
-  "highWaterVersion": "1.400.9",
+  "highWaterVersion": "1.401.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -66784,6 +66784,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:0b8fc357a0dd0e8b56269707c1cfc89f887645d8",
+      "kind": "main",
+      "sequence": 1920,
+      "sourceSha": "0b8fc357a0dd0e8b56269707c1cfc89f887645d8",
+      "sourcePackageVersion": "1.400.12",
+      "version": "1.401.0",
+      "publicationDate": "2026-11-02T03:47:01.465Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "device-channel-wait:3e988a7ed8fad307b7749551359f405bb97721cb495f07abd57badedab756b62",
+          "google-limit-recovery:7ae31315a31bd8270b7804be4a37d6ca3ce45a8689bbd2976ae1a8bfe99e1e69"
+        ],
+        "notesIntentIds": [
+          "device-channel-wait:3e988a7ed8fad307b7749551359f405bb97721cb495f07abd57badedab756b62",
+          "google-limit-recovery:7ae31315a31bd8270b7804be4a37d6ca3ce45a8689bbd2976ae1a8bfe99e1e69"
+        ],
+        "throughSourceSha": "0b8fc357a0dd0e8b56269707c1cfc89f887645d8",
+        "previousThroughSourceSha": "6ec0469030268f6ed0041d0d327d11d883619d7d",
+        "baselineVersion": "1.400.9",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41384834321",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-03T03:46:55.515Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -132250,7 +132295,9 @@
     "forwarded-traffic-never-local:ffdeb544d456edc29892a605b13f96d17855425ee122a571706bd0210256a2d8",
     "settings-survive-resize:39523062caa78e9043c49326b8e0c4c1f2704aa3c9372c5b48044d332f844cff",
     "settings-choose-folder-any-machine:8cc406393bf4d88229dd21893ba2b5b46aaedc12395c0790413d2b800bec0ab1",
-    "host-add-checkout-op:8a00b4dfea30209b871f261992bb283edca606e59948161a43365ec4084f5df7"
+    "host-add-checkout-op:8a00b4dfea30209b871f261992bb283edca606e59948161a43365ec4084f5df7",
+    "device-channel-wait:3e988a7ed8fad307b7749551359f405bb97721cb495f07abd57badedab756b62",
+    "google-limit-recovery:7ae31315a31bd8270b7804be4a37d6ca3ce45a8689bbd2976ae1a8bfe99e1e69"
   ],
-  "consumedThroughSha": "6ec0469030268f6ed0041d0d327d11d883619d7d"
+  "consumedThroughSha": "0b8fc357a0dd0e8b56269707c1cfc89f887645d8"
 }
