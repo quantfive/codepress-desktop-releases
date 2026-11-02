@@ -67445,10 +67445,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41415651746",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-03T08:48:02.186Z",
         "dispatch": null,
         "failures": []
       }
