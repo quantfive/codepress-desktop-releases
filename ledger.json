@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7e8aadd033d64b76e2c177e5d2481f8dc3bf8b97",
+  "cursorSha": "c8a029e62be0caba27434cd6b558e039cb96d780",
   "highWaterVersion": "1.411.0",
   "rows": [
     {
@@ -129261,6 +129261,13 @@
       "intentIds": [
         "measure-every-task:dbc768190012ab0d94ed0702cab5af42d5aced94115ff0be6219431c00121257"
       ]
+    },
+    {
+      "sourceSha": "c8a029e62be0caba27434cd6b558e039cb96d780",
+      "sourcePackageVersion": "1.410.2",
+      "intentIds": [
+        "media-capability-19154:4717c637957fa36a22852ecabc09fb6dac3f0b7c1df3e71b83906e831806431b"
+      ]
     }
   ],
   "intents": [
@@ -133831,6 +133838,14 @@
       "summary": "Measure what each task costs in CPU and RAM, including servers, deploys, workers and Orchestrators, and report it while the organization's Local-first routing flag is on. `pnpm heavy` accepts the `deploy`, `server` and `install` classes.",
       "sourceSha": "7e8aadd033d64b76e2c177e5d2481f8dc3bf8b97",
       "identity": "measure-every-task:dbc768190012ab0d94ed0702cab5af42d5aced94115ff0be6219431c00121257"
+    },
+    {
+      "id": "media-capability-19154",
+      "digest": "4717c637957fa36a22852ecabc09fb6dac3f0b7c1df3e71b83906e831806431b",
+      "type": "patch",
+      "summary": "Video, audio, PDFs, Browser Tab files and plan pages load with a short-lived capability from the window when the org's local-first routing flag is on, so a process that forges browser headers can no longer read a file through the daemon's loopback port.",
+      "sourceSha": "c8a029e62be0caba27434cd6b558e039cb96d780",
+      "identity": "media-capability-19154:4717c637957fa36a22852ecabc09fb6dac3f0b7c1df3e71b83906e831806431b"
     }
   ],
   "consumedIntentIds": [
