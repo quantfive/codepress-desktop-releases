@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9469f9249baa28da1b123afc4beface0f8c797cb",
+  "cursorSha": "26a97b8d522ab4615e7c9f91d258a78de0c283e3",
   "highWaterVersion": "1.406.1",
   "rows": [
     {
@@ -128476,6 +128476,13 @@
       "sourceSha": "9469f9249baa28da1b123afc4beface0f8c797cb",
       "sourcePackageVersion": "1.406.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "26a97b8d522ab4615e7c9f91d258a78de0c283e3",
+      "sourcePackageVersion": "1.406.1",
+      "intentIds": [
+        "phone-kickoff-owner-sign-in:6db4312df7ae4089b3011fe55ffef270388c6afe6cb77f2d1b6044dff3545451"
+      ]
     }
   ],
   "intents": [
@@ -132942,6 +132949,14 @@
       "summary": "Remote access now requires sign-in by default. A quick tunnel starts only while you're signed in on this computer and belongs to that account, and turning Secure Access off is an explicit choice with a warning.",
       "sourceSha": "ddeb38bd3d38be884a1d16c157d17c565603787b",
       "identity": "secure-tunnels-by-default:8f295c332c5966a12ff18d793b4a6f6301297463bc16b294d803a395c8fed6d4"
+    },
+    {
+      "id": "phone-kickoff-owner-sign-in",
+      "digest": "6db4312df7ae4089b3011fe55ffef270388c6afe6cb77f2d1b6044dff3545451",
+      "type": "patch",
+      "summary": "A phone or browser on a tunnel whose local projects are refused now gets the owner sign-in on New chat, and stays there when the feed falls back. The mobile app's loader also waits for the launch screen to settle, up to 5 seconds.",
+      "sourceSha": "26a97b8d522ab4615e7c9f91d258a78de0c283e3",
+      "identity": "phone-kickoff-owner-sign-in:6db4312df7ae4089b3011fe55ffef270388c6afe6cb77f2d1b6044dff3545451"
     }
   ],
   "consumedIntentIds": [
