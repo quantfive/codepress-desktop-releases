@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9263f2a075c0522a4576c1bdd78c8a3c483075c0",
+  "cursorSha": "2a039c5c19872f28100f1074bf897788bf5f8f0a",
   "highWaterVersion": "1.416.0",
   "rows": [
     {
@@ -129994,6 +129994,13 @@
       "intentIds": [
         "rendered-tab-output-blank-rows:b3b98339ed00f4e6c9899d5a8ed76d386bdbb6faafc19a4611b19a477e43307c"
       ]
+    },
+    {
+      "sourceSha": "2a039c5c19872f28100f1074bf897788bf5f8f0a",
+      "sourcePackageVersion": "1.416.1",
+      "intentIds": [
+        "limit-terms-record:408215ed1fe2c1e2257ff2853763d72d103b8be0ed17b10e8cfe090c34725797"
+      ]
     }
   ],
   "intents": [
@@ -134732,6 +134739,14 @@
       "summary": "Rendered tab output reads the lines that have text again: a tab whose output did not fill its screen, such as a fresh shell or a TUI drawn at the top of a tall window, no longer reads as empty on codepress.dev's Terminal page or in an Orchestrator's worker reads. If a render ever comes back empty for a tab with output, the read answers the raw tail and logs a warning.",
       "sourceSha": "9263f2a075c0522a4576c1bdd78c8a3c483075c0",
       "identity": "rendered-tab-output-blank-rows:b3b98339ed00f4e6c9899d5a8ed76d386bdbb6faafc19a4611b19a477e43307c"
+    },
+    {
+      "id": "limit-terms-record",
+      "digest": "408215ed1fe2c1e2257ff2853763d72d103b8be0ed17b10e8cfe090c34725797",
+      "type": "patch",
+      "summary": "Record each subscription provider's terms on limits, and require a `failover` row to cite its terms. No behaviour change.",
+      "sourceSha": "2a039c5c19872f28100f1074bf897788bf5f8f0a",
+      "identity": "limit-terms-record:408215ed1fe2c1e2257ff2853763d72d103b8be0ed17b10e8cfe090c34725797"
     }
   ],
   "consumedIntentIds": [
