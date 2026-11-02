@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a63cd072797f7084b8ebd036eb20f6f375179a5c",
+  "cursorSha": "5dc99d07403760c095b4843972a585087746cac1",
   "highWaterVersion": "1.412.0",
   "rows": [
     {
@@ -129376,6 +129376,13 @@
       "sourceSha": "a63cd072797f7084b8ebd036eb20f6f375179a5c",
       "sourcePackageVersion": "1.413.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "5dc99d07403760c095b4843972a585087746cac1",
+      "sourcePackageVersion": "1.413.0",
+      "intentIds": [
+        "native-frames-gate:c5409da8f9a02e3ce7f59d5349e0b1fe31f8004dd72dbcfe626c2bc75a6528aa"
+      ]
     }
   ],
   "intents": [
@@ -133994,6 +134001,14 @@
       "summary": "Gemini workers can run on a Gemini API key from Settings → Agents → Accounts → Google, with a Local, Personal or Team key. Workers run through a relay on this computer, so the key stays out of their environment, settings and logs, and your own `agy` keeps its login. Usage shows at per-token billing, and repository rules can pin a key.\n\nA chosen key that can't serve refuses the launch rather than falling back to your Google sign-in. If you downgrade to a release without this feature, workers go back to `agy`'s own config, which may be your Google sign-in. Personal and Team keys need the matching CodePress update; Local keys work without it. Windows isn't supported yet.",
       "sourceSha": "d99960af4b90632d12b3a7f423e7f569e9ae7741",
       "identity": "gemini-worker-keys:b04e83fc685224da44833a79b1b38a7d6f04219709e9aa45f079f22d2b7ff63c"
+    },
+    {
+      "id": "native-frames-gate",
+      "digest": "c5409da8f9a02e3ce7f59d5349e0b1fe31f8004dd72dbcfe626c2bc75a6528aa",
+      "type": "patch",
+      "summary": "With local-first routing on, a Mac's Remote Desktop frames reach the daemon over the direct channel again, so desktop use on a locked session keeps working.",
+      "sourceSha": "5dc99d07403760c095b4843972a585087746cac1",
+      "identity": "native-frames-gate:c5409da8f9a02e3ce7f59d5349e0b1fe31f8004dd72dbcfe626c2bc75a6528aa"
     }
   ],
   "consumedIntentIds": [
