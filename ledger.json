@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2b224563166f8f0000a4d238ec4b03fe9cbeadb0",
+  "cursorSha": "cc1b8b3e814eda792063b1e88349e8b37f9b0194",
   "highWaterVersion": "1.408.0",
   "rows": [
     {
@@ -128821,6 +128821,13 @@
       "sourceSha": "2b224563166f8f0000a4d238ec4b03fe9cbeadb0",
       "sourcePackageVersion": "1.408.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "cc1b8b3e814eda792063b1e88349e8b37f9b0194",
+      "sourcePackageVersion": "1.408.0",
+      "intentIds": [
+        "agents-cannot-widen-exposure:79ac70d0188c9f3b132d77bef03101885dd24af14d9c89c9e845091804117349"
+      ]
     }
   ],
   "intents": [
@@ -133327,6 +133334,14 @@
       "summary": "Save several Grok accounts in Settings → Agents → Accounts: Add account → On this machine on the Grok tab shows a link and a code you can approve from any device, and you can cancel it or come back to it after a reload. Your `~/.grok` is never read or written. Saved accounts can be paused, removed and reconnected. Nothing runs on a saved account yet.",
       "sourceSha": "2c7d024480ca885c934838146afa9cff9edafb99",
       "identity": "grok-local-accounts:0ffaf23dc1be0b3d531772da70707f5d1605f4c7703709686d067b6986267052"
+    },
+    {
+      "id": "agents-cannot-widen-exposure",
+      "digest": "79ac70d0188c9f3b132d77bef03101885dd24af14d9c89c9e845091804117349",
+      "type": "patch",
+      "summary": "Agents can no longer widen a machine's exposure over MCP. `update_terminal_agent_settings` refuses turning on remote desktop, terminal from web and phone, Computer Use and other consent settings, or adding folders; `set_network_access` refuses loosening the IP allowlist; and `set_tailscale_enabled` refuses turning the tailnet address on. Each refusal names the Settings screen a person uses instead. Turning these off or tightening them still works, and `update_terminal_agent_settings` now accepts only a local agent or a verified call from your own device.",
+      "sourceSha": "cc1b8b3e814eda792063b1e88349e8b37f9b0194",
+      "identity": "agents-cannot-widen-exposure:79ac70d0188c9f3b132d77bef03101885dd24af14d9c89c9e845091804117349"
     }
   ],
   "consumedIntentIds": [
