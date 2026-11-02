@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b75c1756c38773b56b33d879d43b5a4624d62ea5",
+  "cursorSha": "a63cd072797f7084b8ebd036eb20f6f375179a5c",
   "highWaterVersion": "1.412.0",
   "rows": [
     {
@@ -129364,6 +129364,18 @@
         "lru-reveal-no-doubled-history:b2a49d03d4d83ab89a2761110efe775fe8aed2619127067f81d2252acfc94607",
         "mention-pick-keeps-typed-order:ff4c9a56cd4bb228ef2649e030ce7afc7a891bea70b972b1a357f9918e0cacae"
       ]
+    },
+    {
+      "sourceSha": "d99960af4b90632d12b3a7f423e7f569e9ae7741",
+      "sourcePackageVersion": "1.412.0",
+      "intentIds": [
+        "gemini-worker-keys:b04e83fc685224da44833a79b1b38a7d6f04219709e9aa45f079f22d2b7ff63c"
+      ]
+    },
+    {
+      "sourceSha": "a63cd072797f7084b8ebd036eb20f6f375179a5c",
+      "sourcePackageVersion": "1.413.0",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -133974,6 +133986,14 @@
       "summary": "Letters typed right after picking an @ mention stay in the order you typed them.",
       "sourceSha": "b75c1756c38773b56b33d879d43b5a4624d62ea5",
       "identity": "mention-pick-keeps-typed-order:ff4c9a56cd4bb228ef2649e030ce7afc7a891bea70b972b1a357f9918e0cacae"
+    },
+    {
+      "id": "gemini-worker-keys",
+      "digest": "b04e83fc685224da44833a79b1b38a7d6f04219709e9aa45f079f22d2b7ff63c",
+      "type": "minor",
+      "summary": "Gemini workers can run on a Gemini API key from Settings → Agents → Accounts → Google, with a Local, Personal or Team key. Workers run through a relay on this computer, so the key stays out of their environment, settings and logs, and your own `agy` keeps its login. Usage shows at per-token billing, and repository rules can pin a key.\n\nA chosen key that can't serve refuses the launch rather than falling back to your Google sign-in. If you downgrade to a release without this feature, workers go back to `agy`'s own config, which may be your Google sign-in. Personal and Team keys need the matching CodePress update; Local keys work without it. Windows isn't supported yet.",
+      "sourceSha": "d99960af4b90632d12b3a7f423e7f569e9ae7741",
+      "identity": "gemini-worker-keys:b04e83fc685224da44833a79b1b38a7d6f04219709e9aa45f079f22d2b7ff63c"
     }
   ],
   "consumedIntentIds": [
