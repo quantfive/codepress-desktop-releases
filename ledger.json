@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "92258b1ea467ef87d1f5c3d025edbf8eb42262fc",
+  "cursorSha": "2571b83eb8a732f5fa9ddb49cb8c0fbf00415640",
   "highWaterVersion": "1.418.0",
   "rows": [
     {
@@ -130269,6 +130269,13 @@
       "sourceSha": "92258b1ea467ef87d1f5c3d025edbf8eb42262fc",
       "sourcePackageVersion": "1.418.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2571b83eb8a732f5fa9ddb49cb8c0fbf00415640",
+      "sourcePackageVersion": "1.418.0",
+      "intentIds": [
+        "setup-can-recover:de6d03d77faf7001902cc6b5d9773dcc5452ddd022d70681c88898ceedcbde9e"
+      ]
     }
   ],
   "intents": [
@@ -135055,6 +135062,14 @@
       "summary": "Orchestrator projects stay usable after a Terminal's own machine id changes, and Open live browser now works on Linux hosts.",
       "sourceSha": "088d8cec1e96adca1e12db0c0cc06ef7832dce54",
       "identity": "device-rehome-own-projects:97390f9a29700afed867a76b1aeaef99c8abff535c615a29eec422518eae62ba"
+    },
+    {
+      "id": "setup-can-recover",
+      "digest": "de6d03d77faf7001902cc6b5d9773dcc5452ddd022d70681c88898ceedcbde9e",
+      "type": "patch",
+      "summary": "A failed first-launch download now says what went wrong and offers Try again and Install Node.js, so it recovers without restarting the app. A runtime download that makes no progress for a while says so and keeps trying. A Node.js download whose connection goes silent now fails with Try again instead of hanging.",
+      "sourceSha": "2571b83eb8a732f5fa9ddb49cb8c0fbf00415640",
+      "identity": "setup-can-recover:de6d03d77faf7001902cc6b5d9773dcc5452ddd022d70681c88898ceedcbde9e"
     }
   ],
   "consumedIntentIds": [
