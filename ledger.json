@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3ee0b9840abe0961024a7110d6c55e920af23e92",
+  "cursorSha": "d2dda87147c11fe96288593c28edacbf30fced43",
   "highWaterVersion": "1.414.0",
   "rows": [
     {
@@ -129735,6 +129735,16 @@
       "intentIds": [
         "stop-all-work:ff908ad8717b0e4903b12c60eb2f71fa6fcf589fe66c02bad698e340db071dfb"
       ]
+    },
+    {
+      "sourceSha": "78518caf5065d2d49f2ea6ac154e8b2ec5f8dddc",
+      "sourcePackageVersion": "1.414.1",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "d2dda87147c11fe96288593c28edacbf30fced43",
+      "sourcePackageVersion": "1.415.0",
+      "intentIds": []
     }
   ],
   "intents": [
