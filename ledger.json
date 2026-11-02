@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c838bbaf79105204dc3590eb7f9b5ad17b2b46a7",
+  "cursorSha": "93224ee88909627df0f4bbcc3ad7256628807aa9",
   "highWaterVersion": "1.403.4",
   "rows": [
     {
@@ -127972,6 +127972,13 @@
       "intentIds": [
         "pool-forecast-envelopes:cde63a2f643bad8dab8ef977e43359bdeeae42a6412c85f83e14bef3fe1f8ec1"
       ]
+    },
+    {
+      "sourceSha": "93224ee88909627df0f4bbcc3ad7256628807aa9",
+      "sourcePackageVersion": "1.403.4",
+      "intentIds": [
+        "feed-answers-without-flags-wait:6dc3e4c23a8c097dd01846bb839b2f8580a89f2c0aef5c0b39bf38cf9d1299d2"
+      ]
     }
   ],
   "intents": [
@@ -132366,6 +132373,14 @@
       "summary": "Capacity hosts size automation jobs from the backend's forecast envelope when it sends one, advertise their own budget so placement stops sending work they would refuse, and report overrun kills so the forecast learns.",
       "sourceSha": "c838bbaf79105204dc3590eb7f9b5ad17b2b46a7",
       "identity": "pool-forecast-envelopes:cde63a2f643bad8dab8ef977e43359bdeeae42a6412c85f83e14bef3fe1f8ec1"
+    },
+    {
+      "id": "feed-answers-without-flags-wait",
+      "digest": "6dc3e4c23a8c097dd01846bb839b2f8580a89f2c0aef5c0b39bf38cf9d1299d2",
+      "type": "patch",
+      "summary": "The Orchestrator feed appears sooner after a restart or update when the backend is slow: once the cloud's list is in hand, the feed no longer waits for a separate check of whether the cloud is reachable.",
+      "sourceSha": "93224ee88909627df0f4bbcc3ad7256628807aa9",
+      "identity": "feed-answers-without-flags-wait:6dc3e4c23a8c097dd01846bb839b2f8580a89f2c0aef5c0b39bf38cf9d1299d2"
     }
   ],
   "consumedIntentIds": [
