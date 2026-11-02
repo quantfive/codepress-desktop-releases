@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "6ec0469030268f6ed0041d0d327d11d883619d7d",
-  "highWaterVersion": "1.400.8",
+  "highWaterVersion": "1.400.9",
   "rows": [
     {
       "schemaVersion": 1,
@@ -66729,6 +66729,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:6ec0469030268f6ed0041d0d327d11d883619d7d",
+      "kind": "main",
+      "sequence": 1919,
+      "sourceSha": "6ec0469030268f6ed0041d0d327d11d883619d7d",
+      "sourcePackageVersion": "1.400.10",
+      "version": "1.400.9",
+      "publicationDate": "2026-11-02T03:30:26.297Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "host-add-checkout-op:8a00b4dfea30209b871f261992bb283edca606e59948161a43365ec4084f5df7"
+        ],
+        "notesIntentIds": [
+          "host-add-checkout-op:8a00b4dfea30209b871f261992bb283edca606e59948161a43365ec4084f5df7"
+        ],
+        "throughSourceSha": "6ec0469030268f6ed0041d0d327d11d883619d7d",
+        "previousThroughSourceSha": "99b823b653f54b9e9b5512b4a7fa40acbf5229e8",
+        "baselineVersion": "1.400.8",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41383417204",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-03T03:30:20.661Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -132144,7 +132187,8 @@
     "restore-yield-window-connects:77aebd2ff6f17048abc5b91691c0faef0cc5bd0288b4d54e1c7d276c8191664c",
     "forwarded-traffic-never-local:ffdeb544d456edc29892a605b13f96d17855425ee122a571706bd0210256a2d8",
     "settings-survive-resize:39523062caa78e9043c49326b8e0c4c1f2704aa3c9372c5b48044d332f844cff",
-    "settings-choose-folder-any-machine:8cc406393bf4d88229dd21893ba2b5b46aaedc12395c0790413d2b800bec0ab1"
+    "settings-choose-folder-any-machine:8cc406393bf4d88229dd21893ba2b5b46aaedc12395c0790413d2b800bec0ab1",
+    "host-add-checkout-op:8a00b4dfea30209b871f261992bb283edca606e59948161a43365ec4084f5df7"
   ],
-  "consumedThroughSha": "99b823b653f54b9e9b5512b4a7fa40acbf5229e8"
+  "consumedThroughSha": "6ec0469030268f6ed0041d0d327d11d883619d7d"
 }
