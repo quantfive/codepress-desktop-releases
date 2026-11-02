@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b7e1bad3015d18a660222c668874e516aabb3489",
+  "cursorSha": "7bfff50ac8be6b6c5d55ff598abe4a0dbf3aa26c",
   "highWaterVersion": "1.401.0",
   "rows": [
     {
@@ -127478,6 +127478,18 @@
       "intentIds": [
         "any-folder-chats:aeb6cff0ee97689b93631c46f33162931d70449270325a8107852bff79a3bc50"
       ]
+    },
+    {
+      "sourceSha": "c30646b4a43694792faac7108270d168cfeb5b71",
+      "sourcePackageVersion": "1.401.0",
+      "intentIds": [
+        "mac-sandbox-for-sent-work:77eefb6e2160f1dc235b2715e639caee5b80447b0c46031a1906d3ac5ac34676"
+      ]
+    },
+    {
+      "sourceSha": "7bfff50ac8be6b6c5d55ff598abe4a0dbf3aa26c",
+      "sourcePackageVersion": "1.402.0",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -131808,6 +131820,14 @@
       "summary": "Chats can run in any folder on this computer, git checkout or not. Add the folder to Local checkouts in Settings; your home folder and Terminal's data folder are still refused.",
       "sourceSha": "b7e1bad3015d18a660222c668874e516aabb3489",
       "identity": "any-folder-chats:aeb6cff0ee97689b93631c46f33162931d70449270325a8107852bff79a3bc50"
+    },
+    {
+      "id": "mac-sandbox-for-sent-work",
+      "digest": "77eefb6e2160f1dc235b2715e639caee5b80447b0c46031a1906d3ac5ac34676",
+      "type": "minor",
+      "summary": "Add a macOS sandbox for work sent to a machine. Each job runs in its own Linux VM that sees only its repo, with Apple's `container` on macOS 26 and Lima on older Macs. Nothing routes to it yet; machines report whether they can run it.",
+      "sourceSha": "c30646b4a43694792faac7108270d168cfeb5b71",
+      "identity": "mac-sandbox-for-sent-work:77eefb6e2160f1dc235b2715e639caee5b80447b0c46031a1906d3ac5ac34676"
     }
   ],
   "consumedIntentIds": [
