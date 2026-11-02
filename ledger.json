@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "641d8158cde2befe159138f5416947cc3edcc2aa",
-  "highWaterVersion": "1.400.5",
+  "highWaterVersion": "1.400.6",
   "rows": [
     {
       "schemaVersion": 1,
@@ -66561,6 +66561,50 @@
           }
         ]
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:641d8158cde2befe159138f5416947cc3edcc2aa",
+      "kind": "main",
+      "sequence": 1916,
+      "sourceSha": "641d8158cde2befe159138f5416947cc3edcc2aa",
+      "sourcePackageVersion": "1.400.7",
+      "version": "1.400.6",
+      "publicationDate": "2026-11-02T01:51:36.799Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "restore-yield-window-connects:77aebd2ff6f17048abc5b91691c0faef0cc5bd0288b4d54e1c7d276c8191664c"
+        ],
+        "notesIntentIds": [
+          "terminal-native-boot:2faa4550fe224550da58d5f70f6dac386921074c53ea0f71851b272e4f1a2612",
+          "restore-yield-window-connects:77aebd2ff6f17048abc5b91691c0faef0cc5bd0288b4d54e1c7d276c8191664c"
+        ],
+        "throughSourceSha": "641d8158cde2befe159138f5416947cc3edcc2aa",
+        "previousThroughSourceSha": "4dc13ff5f36aab1907e3b2b37ea1396c86aba248",
+        "baselineVersion": "1.400.5",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41374603832",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-03T01:51:32.038Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -131867,7 +131911,8 @@
     "update-relaunch-faster:fa0b27cb2e07f4d20991af074bce0514c994170ce64103640da5692aff72f4b9",
     "feed-notice-shared:b3259b51f81159327a75f81fa6b8018685d16fc1fbe98b38db20e5a133b30e98",
     "service-machine-open-actions:26d0994636f34a9690feeb6deb6ce8d138890ae3c4035d3f36ba5dac891b6c1a",
-    "terminal-native-boot:2faa4550fe224550da58d5f70f6dac386921074c53ea0f71851b272e4f1a2612"
+    "terminal-native-boot:2faa4550fe224550da58d5f70f6dac386921074c53ea0f71851b272e4f1a2612",
+    "restore-yield-window-connects:77aebd2ff6f17048abc5b91691c0faef0cc5bd0288b4d54e1c7d276c8191664c"
   ],
-  "consumedThroughSha": "4dc13ff5f36aab1907e3b2b37ea1396c86aba248"
+  "consumedThroughSha": "641d8158cde2befe159138f5416947cc3edcc2aa"
 }
