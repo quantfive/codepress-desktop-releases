@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "32e042dc3df96846d2fedc68a24488f97faa2e3b",
-  "highWaterVersion": "1.408.2",
+  "highWaterVersion": "1.409.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -67900,6 +67900,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:32e042dc3df96846d2fedc68a24488f97faa2e3b",
+      "kind": "main",
+      "sequence": 1940,
+      "sourceSha": "32e042dc3df96846d2fedc68a24488f97faa2e3b",
+      "sourcePackageVersion": "1.408.2",
+      "version": "1.409.0",
+      "publicationDate": "2026-11-02T13:29:03.717Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "rotated-connector-token:6e7ed445bf14d32f1f4c71ad62632c0efad62f57dd27a5143fa895285ea48c5a",
+          "kimi-workers:b0d898e0c696c528fb3070789f32820fedc6b17ac923a6725c531bf2e9b4beb5"
+        ],
+        "notesIntentIds": [
+          "rotated-connector-token:6e7ed445bf14d32f1f4c71ad62632c0efad62f57dd27a5143fa895285ea48c5a",
+          "kimi-workers:b0d898e0c696c528fb3070789f32820fedc6b17ac923a6725c531bf2e9b4beb5"
+        ],
+        "throughSourceSha": "32e042dc3df96846d2fedc68a24488f97faa2e3b",
+        "previousThroughSourceSha": "08e56aed674807319298be063d4d2965fee5d1ab",
+        "baselineVersion": "1.408.2",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41453287761",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-03T13:28:58.313Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -134089,7 +134134,9 @@
     "browse-relay-window-token:90abaea4b5ec19d15d05ee98fd7187fe8d42a036720c9f866979a4ba67df7f06",
     "grok-local-accounts:0ffaf23dc1be0b3d531772da70707f5d1605f4c7703709686d067b6986267052",
     "agents-cannot-widen-exposure:79ac70d0188c9f3b132d77bef03101885dd24af14d9c89c9e845091804117349",
-    "terminal-shell-ignores-feed-health:b7f276f423a223c5f359a8f1950ac1c1bf32ccd8696ab66893ddb2b2d901a52a"
+    "terminal-shell-ignores-feed-health:b7f276f423a223c5f359a8f1950ac1c1bf32ccd8696ab66893ddb2b2d901a52a",
+    "rotated-connector-token:6e7ed445bf14d32f1f4c71ad62632c0efad62f57dd27a5143fa895285ea48c5a",
+    "kimi-workers:b0d898e0c696c528fb3070789f32820fedc6b17ac923a6725c531bf2e9b4beb5"
   ],
-  "consumedThroughSha": "08e56aed674807319298be063d4d2965fee5d1ab"
+  "consumedThroughSha": "32e042dc3df96846d2fedc68a24488f97faa2e3b"
 }
