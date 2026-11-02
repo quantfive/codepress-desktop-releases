@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "514bf9c5c140f8d6b15b800169a3c5a0a733819b",
+  "cursorSha": "d2bf9b2986ca396f83f1096128d6c5fbc18e9a10",
   "highWaterVersion": "1.410.0",
   "rows": [
     {
@@ -129118,6 +129118,13 @@
       "sourceSha": "514bf9c5c140f8d6b15b800169a3c5a0a733819b",
       "sourcePackageVersion": "1.410.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d2bf9b2986ca396f83f1096128d6c5fbc18e9a10",
+      "sourcePackageVersion": "1.410.0",
+      "intentIds": [
+        "window-daemon-base:8c3744e3ff41049a239556df0b1ad77869cde1e0eec7a8fc502bcd3d19a4b1e3"
+      ]
     }
   ],
   "intents": [
@@ -133664,6 +133671,14 @@
       "summary": "For an organization with local-first routing on, Settings shows \"What can run on this Mac\". Turning on \"Accept workers\", \"Accept jobs\", \"Run my automations\" or a personal-data grant takes the macOS administrator dialog. Agents can read these and ask for them, but can't set them, and turning one off never needs a password.",
       "sourceSha": "857c60097f3b215555aadd214b8e2d2a7865930a",
       "identity": "consent-gate:e18177233598ab11c366e6f786ab63ca0052173d197b1ce7f555e078f02ffc95"
+    },
+    {
+      "id": "window-daemon-base",
+      "digest": "8c3744e3ff41049a239556df0b1ad77869cde1e0eec7a8fc502bcd3d19a4b1e3",
+      "type": "patch",
+      "summary": "A packaged window, popout or file viewer now sends its secret to its own daemon, so it keeps working when local-first routing is turned on.",
+      "sourceSha": "d2bf9b2986ca396f83f1096128d6c5fbc18e9a10",
+      "identity": "window-daemon-base:8c3744e3ff41049a239556df0b1ad77869cde1e0eec7a8fc502bcd3d19a4b1e3"
     }
   ],
   "consumedIntentIds": [
