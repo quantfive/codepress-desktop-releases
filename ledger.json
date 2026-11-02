@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "14d8c70c41b811253b472c463e6b78201ee4be56",
-  "highWaterVersion": "1.400.3",
+  "highWaterVersion": "1.400.4",
   "rows": [
     {
       "schemaVersion": 1,
@@ -66441,6 +66441,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:14d8c70c41b811253b472c463e6b78201ee4be56",
+      "kind": "main",
+      "sequence": 1914,
+      "sourceSha": "14d8c70c41b811253b472c463e6b78201ee4be56",
+      "sourcePackageVersion": "1.400.6",
+      "version": "1.400.4",
+      "publicationDate": "2026-11-02T00:55:41.219Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "service-machine-open-actions:26d0994636f34a9690feeb6deb6ce8d138890ae3c4035d3f36ba5dac891b6c1a"
+        ],
+        "notesIntentIds": [
+          "service-machine-open-actions:26d0994636f34a9690feeb6deb6ce8d138890ae3c4035d3f36ba5dac891b6c1a"
+        ],
+        "throughSourceSha": "14d8c70c41b811253b472c463e6b78201ee4be56",
+        "previousThroughSourceSha": "88312baf9dbbd2d9d059a7011c6f2f25f4484e22",
+        "baselineVersion": "1.400.3",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41369715719",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-03T00:55:35.249Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -131705,7 +131748,8 @@
     "owner-identity-local-token:4f9bf7c7efb8cad9bfbc83b6021d874567351fca3424d5f960da08a6d88a5c39",
     "preview-sessions-one-port:90a42c67022535696815fea86a5d13499772b1866abc7e44163a4f932a1244d7",
     "update-relaunch-faster:fa0b27cb2e07f4d20991af074bce0514c994170ce64103640da5692aff72f4b9",
-    "feed-notice-shared:b3259b51f81159327a75f81fa6b8018685d16fc1fbe98b38db20e5a133b30e98"
+    "feed-notice-shared:b3259b51f81159327a75f81fa6b8018685d16fc1fbe98b38db20e5a133b30e98",
+    "service-machine-open-actions:26d0994636f34a9690feeb6deb6ce8d138890ae3c4035d3f36ba5dac891b6c1a"
   ],
-  "consumedThroughSha": "88312baf9dbbd2d9d059a7011c6f2f25f4484e22"
+  "consumedThroughSha": "14d8c70c41b811253b472c463e6b78201ee4be56"
 }
