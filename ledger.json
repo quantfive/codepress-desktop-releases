@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9b51f9193f86b4c35f6c0f0bb3bc4fbfd731d26c",
+  "cursorSha": "d9ae3f43d4c3046a9a276b1ba224efe37f2ab44b",
   "highWaterVersion": "1.403.4",
   "rows": [
     {
@@ -128001,6 +128001,13 @@
       "sourceSha": "9b51f9193f86b4c35f6c0f0bb3bc4fbfd731d26c",
       "sourcePackageVersion": "1.403.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d9ae3f43d4c3046a9a276b1ba224efe37f2ab44b",
+      "sourcePackageVersion": "1.403.6",
+      "intentIds": [
+        "org-reads-one-pool:c2698033fd9d66f9768a0a1a1992d4f982bb7f09d9bd838ee71676b288de74cc"
+      ]
     }
   ],
   "intents": [
@@ -132411,6 +132418,14 @@
       "summary": "Reloading right after switching workflows now comes back to that workflow.",
       "sourceSha": "9e61af94f538f935e198be3d7a316d6b439cb7c2",
       "identity": "restore-saved-workflow:3a4f27d6aaff17a0fd280b5f45daa5a3d54f9a1c992d31d257e9b37145b04322"
+    },
+    {
+      "id": "org-reads-one-pool",
+      "digest": "c2698033fd9d66f9768a0a1a1992d4f982bb7f09d9bd838ee71676b288de74cc",
+      "type": "patch",
+      "summary": "A launch on an account in hundreds of organizations no longer reads every organization at once: the open organization reads first, the rest wait for the first rows and go out a few at a time, and a row that needs an answer still on its way shows as loading, not off.",
+      "sourceSha": "d9ae3f43d4c3046a9a276b1ba224efe37f2ab44b",
+      "identity": "org-reads-one-pool:c2698033fd9d66f9768a0a1a1992d4f982bb7f09d9bd838ee71676b288de74cc"
     }
   ],
   "consumedIntentIds": [
