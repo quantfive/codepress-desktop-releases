@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "18d67e8bd8c337450412776cc8f38982bcfaa652",
+  "cursorSha": "41a71562eacff19f79ae39fc2b14221bd833d55e",
   "highWaterVersion": "1.417.0",
   "rows": [
     {
@@ -130101,6 +130101,13 @@
       "sourceSha": "18d67e8bd8c337450412776cc8f38982bcfaa652",
       "sourcePackageVersion": "1.417.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "41a71562eacff19f79ae39fc2b14221bd833d55e",
+      "sourcePackageVersion": "1.417.0",
+      "intentIds": [
+        "agent-signed-out-screen:0be7c59cf2ea1a8f5c35e09db7cb99845dd1a29b7d20a87293f9ab87d457c33e"
+      ]
     }
   ],
   "intents": [
@@ -134863,6 +134870,14 @@
       "summary": "Muse accounts now show 5-hour and weekly usage on each card, from the last reading taken while that account was active, \"Usage unknown\" when there is none, and a Reconnect button when a login stops working.",
       "sourceSha": "2918a93aef8875e6ab7d40eecc0bd3b1852025d2",
       "identity": "muse-usage-every-account:b1d8ce37ae5613a2422fad1a794422379778db5e584fd0b40de6c4c2442fcc2b"
+    },
+    {
+      "id": "agent-signed-out-screen",
+      "digest": "0be7c59cf2ea1a8f5c35e09db7cb99845dd1a29b7d20a87293f9ab87d457c33e",
+      "type": "patch",
+      "summary": "Signed out, the Agent screen now says what the Orchestrator does and offers sign-in right there, instead of one line of text. While a browser sign-in is in progress, the sign-in options now show which provider is waiting and a Cancel button, instead of an email form.",
+      "sourceSha": "41a71562eacff19f79ae39fc2b14221bd833d55e",
+      "identity": "agent-signed-out-screen:0be7c59cf2ea1a8f5c35e09db7cb99845dd1a29b7d20a87293f9ab87d457c33e"
     }
   ],
   "consumedIntentIds": [
