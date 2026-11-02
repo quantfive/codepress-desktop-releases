@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f377f38789efdf927e762fdf048e58bdec66d11d",
+  "cursorSha": "ed2209d4093a32b80d6fbb4c94da49d14badc7f9",
   "highWaterVersion": "1.421.2",
   "rows": [
     {
@@ -131249,6 +131249,18 @@
       "sourceSha": "f377f38789efdf927e762fdf048e58bdec66d11d",
       "sourcePackageVersion": "1.421.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c3bdfbc27a3386bfb759fb9f7f7e3a2284a5e3b0",
+      "sourcePackageVersion": "1.421.4",
+      "intentIds": [
+        "grok-active-account:eff958fe931f4363c3fe83714504dbe8f4c80b9114f3e5c448ae2e9669f17183"
+      ]
+    },
+    {
+      "sourceSha": "ed2209d4093a32b80d6fbb4c94da49d14badc7f9",
+      "sourcePackageVersion": "1.421.4",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -136187,6 +136199,14 @@
       "summary": "Hand off… is listed on every cloud project you can move; the picker says why no Mac can take it.",
       "sourceSha": "7b35c2ee60def39cf0e8562d1fb00cc87384b971",
       "identity": "terminal-pm-handoff-always-listed:ff1e372e9fe80a7e6f0bd74804ddc3b716886c9b5114a8b454d5416592f3e140"
+    },
+    {
+      "id": "grok-active-account",
+      "digest": "eff958fe931f4363c3fe83714504dbe8f4c80b9114f3e5c448ae2e9669f17183",
+      "type": "minor",
+      "summary": "Pick the Grok account `grok` runs on, in any tab and for any worker: choose one in Settings → Agents → Accounts, and Terminal writes it into `~/.grok`, keeps any tokens the CLI rotates, restarts open conversations one at a time, and puts your own login back when you clear it. A repository rule can bind a repository to an account without moving the rest of the computer, an account can be restricted to repositories, and another computer can show and change this one's choice. With no account chosen, `~/.grok` is never touched.",
+      "sourceSha": "c3bdfbc27a3386bfb759fb9f7f7e3a2284a5e3b0",
+      "identity": "grok-active-account:eff958fe931f4363c3fe83714504dbe8f4c80b9114f3e5c448ae2e9669f17183"
     }
   ],
   "consumedIntentIds": [
