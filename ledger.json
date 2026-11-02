@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "43e762a92d147bc1bb42df01651eb66e6b9adb9b",
-  "highWaterVersion": "1.405.0",
+  "highWaterVersion": "1.406.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -67405,6 +67405,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:43e762a92d147bc1bb42df01651eb66e6b9adb9b",
+      "kind": "main",
+      "sequence": 1931,
+      "sourceSha": "43e762a92d147bc1bb42df01651eb66e6b9adb9b",
+      "sourcePackageVersion": "1.405.0",
+      "version": "1.406.0",
+      "publicationDate": "2026-11-02T08:47:14.488Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "accounts-provider-tabs:fd3c6d227e73d2eeef0b5d94d0fcbdc15578274f35591c1b8f3cd2acfd7c05a8"
+        ],
+        "notesIntentIds": [
+          "accounts-provider-tabs:fd3c6d227e73d2eeef0b5d94d0fcbdc15578274f35591c1b8f3cd2acfd7c05a8"
+        ],
+        "throughSourceSha": "43e762a92d147bc1bb42df01651eb66e6b9adb9b",
+        "previousThroughSourceSha": "3fdf83ca1f17bf4641217ec0008db650f65d0e25",
+        "baselineVersion": "1.405.0",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41415526941",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-03T08:47:07.860Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -133330,7 +133373,8 @@
     "remote-project-worker-terminals:1b401a0d6b7e120c5abce9bcf0326ad24d6815cb2831be795d3e08b3cba4f44b",
     "runs-on-every-machine-load:57e57ecb5a3aace69514ccc8a1e5bc7287b8a1160736ddeed74f4e52478e6d6d",
     "cloud-session-hand-off-to-this-mac:25ff526a17c9b869730d2125930943b60c388f4ab769d5d00ecd8fe40478654d",
-    "any-file-from-another-computer:c1bfcc8683458d590fa299c84ea66a528e43275cc1d656f7ec37bcf674ec5634"
+    "any-file-from-another-computer:c1bfcc8683458d590fa299c84ea66a528e43275cc1d656f7ec37bcf674ec5634",
+    "accounts-provider-tabs:fd3c6d227e73d2eeef0b5d94d0fcbdc15578274f35591c1b8f3cd2acfd7c05a8"
   ],
-  "consumedThroughSha": "3fdf83ca1f17bf4641217ec0008db650f65d0e25"
+  "consumedThroughSha": "43e762a92d147bc1bb42df01651eb66e6b9adb9b"
 }
