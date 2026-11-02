@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4499bcb2a42e8b96a081dbc4c24486eafe220c88",
+  "cursorSha": "d88d083a80ff889cc0eb8b87f5abb05d675f8f78",
   "highWaterVersion": "1.415.1",
   "rows": [
     {
@@ -129888,6 +129888,13 @@
       "sourceSha": "4499bcb2a42e8b96a081dbc4c24486eafe220c88",
       "sourcePackageVersion": "1.415.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d88d083a80ff889cc0eb8b87f5abb05d675f8f78",
+      "sourcePackageVersion": "1.415.2",
+      "intentIds": [
+        "cloud-session-handoff-other-macs:434344d4da59b3a45e1b79cfe74b4a4c26503db83cfeecbd35bd7128c6411191"
+      ]
     }
   ],
   "intents": [
@@ -134594,6 +134601,14 @@
       "summary": "Revoking a share link, retiring an owner session or turning on Secure Access now ends connections that are already open. A backend outage never closes one, and an owner who's signed out this way reconnects without a sign-in prompt. Only the desktop can send screen frames and WebRTC offers, and only the owner can restart a machine for an update.",
       "sourceSha": "45b76b1ef36645e7a2566983bd20b896da554c50",
       "identity": "socket-revocation:e954ca81be3d5ba8e010f96040484c8be50300a137188b81d73a79a10738f475"
+    },
+    {
+      "id": "cloud-session-handoff-other-macs",
+      "digest": "434344d4da59b3a45e1b79cfe74b4a4c26503db83cfeecbd35bd7128c6411191",
+      "type": "minor",
+      "summary": "Hand off a session the cloud holds to any of your Macs. Hand off… on a cloud session now lists This Mac first, then your other Macs: online ones you can pick, and asleep, offline or out-of-date ones greyed out with the reason. Picking another Mac asks it to take the session over and shows its steps here until it resumes there. This Mac now also receives sessions handed to it from another Mac or the web.",
+      "sourceSha": "d88d083a80ff889cc0eb8b87f5abb05d675f8f78",
+      "identity": "cloud-session-handoff-other-macs:434344d4da59b3a45e1b79cfe74b4a4c26503db83cfeecbd35bd7128c6411191"
     }
   ],
   "consumedIntentIds": [
