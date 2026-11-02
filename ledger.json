@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "c838bbaf79105204dc3590eb7f9b5ad17b2b46a7",
-  "highWaterVersion": "1.403.3",
+  "highWaterVersion": "1.403.4",
   "rows": [
     {
       "schemaVersion": 1,
@@ -67124,6 +67124,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:c838bbaf79105204dc3590eb7f9b5ad17b2b46a7",
+      "kind": "main",
+      "sequence": 1926,
+      "sourceSha": "c838bbaf79105204dc3590eb7f9b5ad17b2b46a7",
+      "sourcePackageVersion": "1.403.4",
+      "version": "1.403.4",
+      "publicationDate": "2026-11-02T06:26:42.342Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "pool-forecast-envelopes:cde63a2f643bad8dab8ef977e43359bdeeae42a6412c85f83e14bef3fe1f8ec1"
+        ],
+        "notesIntentIds": [
+          "pool-forecast-envelopes:cde63a2f643bad8dab8ef977e43359bdeeae42a6412c85f83e14bef3fe1f8ec1"
+        ],
+        "throughSourceSha": "c838bbaf79105204dc3590eb7f9b5ad17b2b46a7",
+        "previousThroughSourceSha": "f8dfdea3bf72d788406ec86b88f1f871c602421c",
+        "baselineVersion": "1.403.3",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41399885656",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-03T06:26:37.073Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -132861,7 +132904,8 @@
     "grok-stop-the-sharp-edges:04728e25967ed172eb8caea8d65c7fc7c84fceda506365585136f5896d15c958",
     "share-links-view-only:6439a593b6fe3917a6cfca2fbf437bef153d54094e15ec0bbce0658023507624",
     "boot-bundle-split:4bbdad9124b4e7c2312bda84d53b9b1c36a36356938e2a8bec2f10f2355bcd7e",
-    "phone-header-seamless:b3da79ba68b62df7a735e765db2cc74ec6525d722575e6c94ac0b9da0799910e"
+    "phone-header-seamless:b3da79ba68b62df7a735e765db2cc74ec6525d722575e6c94ac0b9da0799910e",
+    "pool-forecast-envelopes:cde63a2f643bad8dab8ef977e43359bdeeae42a6412c85f83e14bef3fe1f8ec1"
   ],
-  "consumedThroughSha": "f8dfdea3bf72d788406ec86b88f1f871c602421c"
+  "consumedThroughSha": "c838bbaf79105204dc3590eb7f9b5ad17b2b46a7"
 }
