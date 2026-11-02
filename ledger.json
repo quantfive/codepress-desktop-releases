@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a50b92302d014a1700edf7a1cb8b2184342ea774",
+  "cursorSha": "cceaf88980ca021631a101398a076652cac71702",
   "highWaterVersion": "1.413.2",
   "rows": [
     {
@@ -129646,6 +129646,16 @@
       "intentIds": [
         "control-device-signature:40f9c09f0b8f339a56c4c1fa1bd7be82b87353f01a786da2c0d6422660c2c2ee"
       ]
+    },
+    {
+      "sourceSha": "9d4b94de0bfe2c1190246f321688116e0a8a2da3",
+      "sourcePackageVersion": "1.413.3",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "cceaf88980ca021631a101398a076652cac71702",
+      "sourcePackageVersion": "1.414.0",
+      "intentIds": []
     }
   ],
   "intents": [
