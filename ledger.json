@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "80f87fe150de9e0a1ba33f2d448d068885dbdf6f",
+  "cursorSha": "3ee0b9840abe0961024a7110d6c55e920af23e92",
   "highWaterVersion": "1.414.0",
   "rows": [
     {
@@ -129728,6 +129728,13 @@
       "sourceSha": "80f87fe150de9e0a1ba33f2d448d068885dbdf6f",
       "sourcePackageVersion": "1.414.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3ee0b9840abe0961024a7110d6c55e920af23e92",
+      "sourcePackageVersion": "1.414.1",
+      "intentIds": [
+        "stop-all-work:ff908ad8717b0e4903b12c60eb2f71fa6fcf589fe66c02bad698e340db071dfb"
+      ]
     }
   ],
   "intents": [
@@ -134402,6 +134409,14 @@
       "summary": "Terminal now holds its port on both `127.0.0.1` and `[::1]`, so a `localhost` connection from the window can't reach another process listening on the other address.",
       "sourceSha": "0e50e458123da5ee39897bf0f5c89e16031ab2f8",
       "identity": "secret-loopback-address:0918aaa4471ac2b575d810ddd81ecc2f7258ec60121311604c4db79672c50f88"
+    },
+    {
+      "id": "stop-all-work",
+      "digest": "ff908ad8717b0e4903b12c60eb2f71fa6fcf589fe66c02bad698e340db071dfb",
+      "type": "minor",
+      "summary": "For an organization with local-first routing on, the menu bar and Settings offer \"Stop all work sent to this Mac\". It destroys the sandboxes of work your other machines sent here and refuses anything new, with no password and no backend, and it survives a restart. Turning it off asks for this Mac's password, and stopped jobs don't come back. Agents can read it but can't change it.",
+      "sourceSha": "3ee0b9840abe0961024a7110d6c55e920af23e92",
+      "identity": "stop-all-work:ff908ad8717b0e4903b12c60eb2f71fa6fcf589fe66c02bad698e340db071dfb"
     }
   ],
   "consumedIntentIds": [
