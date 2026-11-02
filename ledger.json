@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "2c7d024480ca885c934838146afa9cff9edafb99",
-  "highWaterVersion": "1.407.2",
+  "highWaterVersion": "1.408.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -67735,6 +67735,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:2c7d024480ca885c934838146afa9cff9edafb99",
+      "kind": "main",
+      "sequence": 1937,
+      "sourceSha": "2c7d024480ca885c934838146afa9cff9edafb99",
+      "sourcePackageVersion": "1.407.2",
+      "version": "1.408.0",
+      "publicationDate": "2026-11-02T12:03:48.222Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "grok-local-accounts:0ffaf23dc1be0b3d531772da70707f5d1605f4c7703709686d067b6986267052"
+        ],
+        "notesIntentIds": [
+          "grok-local-accounts:0ffaf23dc1be0b3d531772da70707f5d1605f4c7703709686d067b6986267052"
+        ],
+        "throughSourceSha": "2c7d024480ca885c934838146afa9cff9edafb99",
+        "previousThroughSourceSha": "f53550fa636fbec15b370c72e0613ae6c186384d",
+        "baselineVersion": "1.407.2",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41441572055",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-03T12:03:41.831Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -133826,7 +133869,8 @@
     "phone-kickoff-owner-sign-in:6db4312df7ae4089b3011fe55ffef270388c6afe6cb77f2d1b6044dff3545451",
     "local-client-credentials:84a4f22fd7f8f57a9b8a42f69211a5ed8e68be1ec7ec4ec0a40a6a37acd7a608",
     "device-reservation-heartbeat:a6867d29b9761a935de136f943928eabc4934183dbce6f688c1d8272408175f2",
-    "browse-relay-window-token:90abaea4b5ec19d15d05ee98fd7187fe8d42a036720c9f866979a4ba67df7f06"
+    "browse-relay-window-token:90abaea4b5ec19d15d05ee98fd7187fe8d42a036720c9f866979a4ba67df7f06",
+    "grok-local-accounts:0ffaf23dc1be0b3d531772da70707f5d1605f4c7703709686d067b6986267052"
   ],
-  "consumedThroughSha": "f53550fa636fbec15b370c72e0613ae6c186384d"
+  "consumedThroughSha": "2c7d024480ca885c934838146afa9cff9edafb99"
 }
