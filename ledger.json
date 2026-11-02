@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "ddeb38bd3d38be884a1d16c157d17c565603787b",
-  "highWaterVersion": "1.406.0",
+  "highWaterVersion": "1.406.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -67460,6 +67460,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:ddeb38bd3d38be884a1d16c157d17c565603787b",
+      "kind": "main",
+      "sequence": 1932,
+      "sourceSha": "ddeb38bd3d38be884a1d16c157d17c565603787b",
+      "sourcePackageVersion": "1.406.0",
+      "version": "1.406.1",
+      "publicationDate": "2026-11-02T09:17:11.517Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "secure-tunnels-by-default:8f295c332c5966a12ff18d793b4a6f6301297463bc16b294d803a395c8fed6d4"
+        ],
+        "notesIntentIds": [
+          "secure-tunnels-by-default:8f295c332c5966a12ff18d793b4a6f6301297463bc16b294d803a395c8fed6d4"
+        ],
+        "throughSourceSha": "ddeb38bd3d38be884a1d16c157d17c565603787b",
+        "previousThroughSourceSha": "43e762a92d147bc1bb42df01651eb66e6b9adb9b",
+        "baselineVersion": "1.406.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41419269004",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-03T09:17:06.423Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -133421,7 +133464,8 @@
     "runs-on-every-machine-load:57e57ecb5a3aace69514ccc8a1e5bc7287b8a1160736ddeed74f4e52478e6d6d",
     "cloud-session-hand-off-to-this-mac:25ff526a17c9b869730d2125930943b60c388f4ab769d5d00ecd8fe40478654d",
     "any-file-from-another-computer:c1bfcc8683458d590fa299c84ea66a528e43275cc1d656f7ec37bcf674ec5634",
-    "accounts-provider-tabs:fd3c6d227e73d2eeef0b5d94d0fcbdc15578274f35591c1b8f3cd2acfd7c05a8"
+    "accounts-provider-tabs:fd3c6d227e73d2eeef0b5d94d0fcbdc15578274f35591c1b8f3cd2acfd7c05a8",
+    "secure-tunnels-by-default:8f295c332c5966a12ff18d793b4a6f6301297463bc16b294d803a395c8fed6d4"
   ],
-  "consumedThroughSha": "43e762a92d147bc1bb42df01651eb66e6b9adb9b"
+  "consumedThroughSha": "ddeb38bd3d38be884a1d16c157d17c565603787b"
 }
