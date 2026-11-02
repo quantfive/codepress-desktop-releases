@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "236e4bfaa7e8bbf7b7210d7c263574c517b7a916",
+  "cursorSha": "f05b8fa9ad8b7482fd5a51f87de6aacbd502ff4f",
   "highWaterVersion": "1.403.6",
   "rows": [
     {
@@ -128168,6 +128168,13 @@
       "sourceSha": "236e4bfaa7e8bbf7b7210d7c263574c517b7a916",
       "sourcePackageVersion": "1.403.9",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f05b8fa9ad8b7482fd5a51f87de6aacbd502ff4f",
+      "sourcePackageVersion": "1.403.9",
+      "intentIds": [
+        "cloud-session-hand-off-to-this-mac:25ff526a17c9b869730d2125930943b60c388f4ab769d5d00ecd8fe40478654d"
+      ]
     }
   ],
   "intents": [
@@ -132602,6 +132609,14 @@
       "summary": "Runs on: a machine that stopped reporting load never shows a percentage, and machine rows keep their load when Auto falls back or an attempt is held.",
       "sourceSha": "b641507c4b5b7448e729db894c2a75317a3068dd",
       "identity": "runs-on-every-machine-load:57e57ecb5a3aace69514ccc8a1e5bc7287b8a1160736ddeed74f4e52478e6d6d"
+    },
+    {
+      "id": "cloud-session-hand-off-to-this-mac",
+      "digest": "25ff526a17c9b869730d2125930943b60c388f4ab769d5d00ecd8fe40478654d",
+      "type": "minor",
+      "summary": "Hand off… a session the cloud holds to this Mac, from its tab's card, the Agent tab or the handoff tools. Claude resumes in a new tab at the cloud's latest confirmed code; Codex continues in this Mac's Agent tab. A tab whose session moved shows one card that names where it runs now (the cloud, a tab on a Mac, or a Mac's local runtime) with the way to reach it. Bring back here is gone.",
+      "sourceSha": "f05b8fa9ad8b7482fd5a51f87de6aacbd502ff4f",
+      "identity": "cloud-session-hand-off-to-this-mac:25ff526a17c9b869730d2125930943b60c388f4ab769d5d00ecd8fe40478654d"
     }
   ],
   "consumedIntentIds": [
