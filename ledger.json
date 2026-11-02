@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "26a97b8d522ab4615e7c9f91d258a78de0c283e3",
+  "cursorSha": "01f0c8d30121fb92134a8d1689c827399469f98d",
   "highWaterVersion": "1.406.2",
   "rows": [
     {
@@ -128530,6 +128530,13 @@
       "intentIds": [
         "phone-kickoff-owner-sign-in:6db4312df7ae4089b3011fe55ffef270388c6afe6cb77f2d1b6044dff3545451"
       ]
+    },
+    {
+      "sourceSha": "01f0c8d30121fb92134a8d1689c827399469f98d",
+      "sourcePackageVersion": "1.406.1",
+      "intentIds": [
+        "local-client-credentials:84a4f22fd7f8f57a9b8a42f69211a5ed8e68be1ec7ec4ec0a40a6a37acd7a608"
+      ]
     }
   ],
   "intents": [
@@ -133004,6 +133011,14 @@
       "summary": "A phone or browser on a tunnel whose local projects are refused now gets the owner sign-in on New chat, and stays there when the feed falls back. The mobile app's loader also waits for the launch screen to settle, up to 5 seconds.",
       "sourceSha": "26a97b8d522ab4615e7c9f91d258a78de0c283e3",
       "identity": "phone-kickoff-owner-sign-in:6db4312df7ae4089b3011fe55ffef270388c6afe6cb77f2d1b6044dff3545451"
+    },
+    {
+      "id": "local-client-credentials",
+      "digest": "84a4f22fd7f8f57a9b8a42f69211a5ed8e68be1ec7ec4ec0a40a6a37acd7a608",
+      "type": "minor",
+      "summary": "Terminal issues a credential to its window, tabs, hooks and helpers, and logs any local call without one. For an organization with local-first routing on, reaching the loopback port is no longer enough: a caller with no credential is refused unless the kernel shows it descends from a live tab, an agent can't change consent or reach another machine without a grant in project settings, and another account's process is demoted on every machine.",
+      "sourceSha": "01f0c8d30121fb92134a8d1689c827399469f98d",
+      "identity": "local-client-credentials:84a4f22fd7f8f57a9b8a42f69211a5ed8e68be1ec7ec4ec0a40a6a37acd7a608"
     }
   ],
   "consumedIntentIds": [
