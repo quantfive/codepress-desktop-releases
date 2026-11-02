@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4dc13ff5f36aab1907e3b2b37ea1396c86aba248",
+  "cursorSha": "641d8158cde2befe159138f5416947cc3edcc2aa",
   "highWaterVersion": "1.400.5",
   "rows": [
     {
@@ -127060,6 +127060,13 @@
       "sourceSha": "4dc13ff5f36aab1907e3b2b37ea1396c86aba248",
       "sourcePackageVersion": "1.400.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "641d8158cde2befe159138f5416947cc3edcc2aa",
+      "sourcePackageVersion": "1.400.7",
+      "intentIds": [
+        "restore-yield-window-connects:77aebd2ff6f17048abc5b91691c0faef0cc5bd0288b4d54e1c7d276c8191664c"
+      ]
     }
   ],
   "intents": [
@@ -131318,6 +131325,14 @@
       "summary": "Draw the desktop window right away, in the person's theme, while the PTY broker and daemon start behind it, and stop repeating login-shell Node discovery and the server bundle hash on every launch.",
       "sourceSha": "962e649131bc9ce53deb3161ca1a3f295fad3e1c",
       "identity": "terminal-native-boot:2faa4550fe224550da58d5f70f6dac386921074c53ea0f71851b272e4f1a2612"
+    },
+    {
+      "id": "restore-yield-window-connects",
+      "digest": "77aebd2ff6f17048abc5b91691c0faef0cc5bd0288b4d54e1c7d276c8191664c",
+      "type": "patch",
+      "summary": "Terminal relaunch connects the window while saved tabs restore: tabs are created in slices with the window's last tab first, and requests for a tab that is still restoring wait for it instead of failing.",
+      "sourceSha": "641d8158cde2befe159138f5416947cc3edcc2aa",
+      "identity": "restore-yield-window-connects:77aebd2ff6f17048abc5b91691c0faef0cc5bd0288b4d54e1c7d276c8191664c"
     }
   ],
   "consumedIntentIds": [
