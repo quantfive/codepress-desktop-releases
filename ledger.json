@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c26d223f63854883d1bfd89cd2340147f828612a",
+  "cursorSha": "abe0df43f8ea10062424affd60cd24d0dc02c74a",
   "highWaterVersion": "1.416.0",
   "rows": [
     {
@@ -130011,6 +130011,13 @@
       "sourceSha": "c26d223f63854883d1bfd89cd2340147f828612a",
       "sourcePackageVersion": "1.416.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "abe0df43f8ea10062424affd60cd24d0dc02c74a",
+      "sourcePackageVersion": "1.416.2",
+      "intentIds": [
+        "headless-routing-flag-usage:4ca77fc0dfb15de1f4b8465ce5e078d8b9cbe1e029579b98816fb6288d8dcef8"
+      ]
     }
   ],
   "intents": [
@@ -134757,6 +134764,14 @@
       "summary": "Record each subscription provider's terms on limits, and require a `failover` row to cite its terms. No behaviour change.",
       "sourceSha": "2a039c5c19872f28100f1074bf897788bf5f8f0a",
       "identity": "limit-terms-record:408215ed1fe2c1e2257ff2853763d72d103b8be0ed17b10e8cfe090c34725797"
+    },
+    {
+      "id": "headless-routing-flag-usage",
+      "digest": "4ca77fc0dfb15de1f4b8465ce5e078d8b9cbe1e029579b98816fb6288d8dcef8",
+      "type": "patch",
+      "summary": "A headless Terminal reads its organization's Local-first routing flag and uploads usage samples over its device channel. With the flag on it measures its tasks and enforces local-client credentials like a signed-in Mac; off, nothing changes.",
+      "sourceSha": "abe0df43f8ea10062424affd60cd24d0dc02c74a",
+      "identity": "headless-routing-flag-usage:4ca77fc0dfb15de1f4b8465ce5e078d8b9cbe1e029579b98816fb6288d8dcef8"
     }
   ],
   "consumedIntentIds": [
