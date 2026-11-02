@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "d2dda87147c11fe96288593c28edacbf30fced43",
-  "highWaterVersion": "1.414.0",
+  "highWaterVersion": "1.415.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -68421,6 +68421,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:d2dda87147c11fe96288593c28edacbf30fced43",
+      "kind": "main",
+      "sequence": 1949,
+      "sourceSha": "d2dda87147c11fe96288593c28edacbf30fced43",
+      "sourcePackageVersion": "1.415.0",
+      "version": "1.415.0",
+      "publicationDate": "2026-11-02T17:07:16.645Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "secret-loopback-address:0918aaa4471ac2b575d810ddd81ecc2f7258ec60121311604c4db79672c50f88",
+          "stop-all-work:ff908ad8717b0e4903b12c60eb2f71fa6fcf589fe66c02bad698e340db071dfb"
+        ],
+        "notesIntentIds": [
+          "secret-loopback-address:0918aaa4471ac2b575d810ddd81ecc2f7258ec60121311604c4db79672c50f88",
+          "stop-all-work:ff908ad8717b0e4903b12c60eb2f71fa6fcf589fe66c02bad698e340db071dfb"
+        ],
+        "throughSourceSha": "d2dda87147c11fe96288593c28edacbf30fced43",
+        "previousThroughSourceSha": "a004753edfa552d6c3cbb2f4322c565a3cf24145",
+        "baselineVersion": "1.414.0",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41487994770",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-03T17:07:10.491Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -135012,7 +135057,9 @@
     "native-tabs-stay-attached:97fc196036d1330f6de02a416a54188a581d87cdc3162144a25001560fa54c9b",
     "test-forecast-per-worker:8d1999189295fbc946d14f2c638c018bd764cc09817a06cee717022f8646c102",
     "kimi-tool-search:e1e5c9577c40c35bd58aef5897c24ab8873701d729b776af6dd7c6ad63467107",
-    "control-device-signature:40f9c09f0b8f339a56c4c1fa1bd7be82b87353f01a786da2c0d6422660c2c2ee"
+    "control-device-signature:40f9c09f0b8f339a56c4c1fa1bd7be82b87353f01a786da2c0d6422660c2c2ee",
+    "secret-loopback-address:0918aaa4471ac2b575d810ddd81ecc2f7258ec60121311604c4db79672c50f88",
+    "stop-all-work:ff908ad8717b0e4903b12c60eb2f71fa6fcf589fe66c02bad698e340db071dfb"
   ],
-  "consumedThroughSha": "a004753edfa552d6c3cbb2f4322c565a3cf24145"
+  "consumedThroughSha": "d2dda87147c11fe96288593c28edacbf30fced43"
 }
