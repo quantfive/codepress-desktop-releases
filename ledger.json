@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3d2357261ede82236ef21780d66f5f9fd255c8e1",
+  "cursorSha": "a83f641712a18dc3201ca7653dc872cc13b58448",
   "highWaterVersion": "1.403.0",
   "rows": [
     {
@@ -127679,6 +127679,13 @@
       "sourceSha": "3d2357261ede82236ef21780d66f5f9fd255c8e1",
       "sourcePackageVersion": "1.403.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a83f641712a18dc3201ca7653dc872cc13b58448",
+      "sourcePackageVersion": "1.403.2",
+      "intentIds": [
+        "share-links-view-only:6439a593b6fe3917a6cfca2fbf437bef153d54094e15ec0bbce0658023507624"
+      ]
     }
   ],
   "intents": [
@@ -132041,6 +132048,14 @@
       "summary": "Grok is refused as a local Orchestrator with a sentence saying why, before any session opens. A project already saved on a Grok Orchestrator keeps its record, thread and worker settings, and its start fails with that sentence. A Grok organization default moves to a signed-in Orchestrator provider.\n\nRepository rules can now block Grok on its own, and a Grok worker is no longer owned by the Codex rule. So a rule with `subscriptions.codex: blocked` stops blocking Grok workers, and a rule with `subscriptions.codex: {kind: \"account\"}` stops attaching Codex pool flags to one. Set a `grok` entry to block Grok.\n\nGrok model pickers now say a model runs on a Grok subscription or an xAI API key, and Terminal's managed Grok runtime moves to 1.0.70.",
       "sourceSha": "de7929489ca318f0745731fbba55528efc60bb5f",
       "identity": "grok-stop-the-sharp-edges:04728e25967ed172eb8caea8d65c7fc7c84fceda506365585136f5896d15c958"
+    },
+    {
+      "id": "share-links-view-only",
+      "digest": "6439a593b6fe3917a6cfca2fbf437bef153d54094e15ec0bbce0658023507624",
+      "type": "patch",
+      "summary": "Share links are now view-only: they follow the terminal's output, cannot type, and can't reach files, previews or desktop capture. The shared window shows a View only label, and the share settings say what a link allows.",
+      "sourceSha": "a83f641712a18dc3201ca7653dc872cc13b58448",
+      "identity": "share-links-view-only:6439a593b6fe3917a6cfca2fbf437bef153d54094e15ec0bbce0658023507624"
     }
   ],
   "consumedIntentIds": [
