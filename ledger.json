@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "2044ead1c1f654aa3efc74cf264256b5f461f71c",
-  "highWaterVersion": "1.435.6",
+  "highWaterVersion": "1.435.7",
   "rows": [
     {
       "schemaVersion": 1,
@@ -70816,6 +70816,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:2044ead1c1f654aa3efc74cf264256b5f461f71c",
+      "kind": "main",
+      "sequence": 1990,
+      "sourceSha": "2044ead1c1f654aa3efc74cf264256b5f461f71c",
+      "sourcePackageVersion": "1.439.12",
+      "version": "1.435.7",
+      "publicationDate": "2026-11-03T20:10:45.920Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "launching-thread-on-send:6fb6efa05a8f125da2cc10f29bc95d6740d228f176ab7f7633ce48b68f6169e2",
+          "media-signing-settles:618b9abd884b4b781c483448b4346da0cc8ef6a05e955fd2f0840e4933bc12bd"
+        ],
+        "notesIntentIds": [
+          "launching-thread-on-send:6fb6efa05a8f125da2cc10f29bc95d6740d228f176ab7f7633ce48b68f6169e2",
+          "media-signing-settles:618b9abd884b4b781c483448b4346da0cc8ef6a05e955fd2f0840e4933bc12bd"
+        ],
+        "throughSourceSha": "2044ead1c1f654aa3efc74cf264256b5f461f71c",
+        "previousThroughSourceSha": "05a2ecf06c512e393e43157fbaf2ab5bbed35693",
+        "baselineVersion": "1.435.6",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41710036862",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-04T20:10:39.123Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -140122,7 +140167,9 @@
     "ghostty-render-polish:031e54b4a04e74bbfbc5d08d9168f36527cd4bb4a9baa86b22cf5fdfa0d807ac",
     "worker-gets-plan-pages:7aa6e972387152a14b71c2cbb6cd0cf1bad8096205aa6c33627581f064576788",
     "rail-open-resync:d31b81055279b1e07558b86baa356fc7cbd82b503704af16b56626b6be62b1bb",
-    "onboarding-mode-signin-gated:d75f59ac3d17f6cb9e10fd74b2d9e52c515e86edfa18a3ef874708a76b786296"
+    "onboarding-mode-signin-gated:d75f59ac3d17f6cb9e10fd74b2d9e52c515e86edfa18a3ef874708a76b786296",
+    "launching-thread-on-send:6fb6efa05a8f125da2cc10f29bc95d6740d228f176ab7f7633ce48b68f6169e2",
+    "media-signing-settles:618b9abd884b4b781c483448b4346da0cc8ef6a05e955fd2f0840e4933bc12bd"
   ],
-  "consumedThroughSha": "05a2ecf06c512e393e43157fbaf2ab5bbed35693"
+  "consumedThroughSha": "2044ead1c1f654aa3efc74cf264256b5f461f71c"
 }
