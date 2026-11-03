@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "74817b0a1ffb30afda70f952167f4376d5ed4c3b",
+  "cursorSha": "87a1c38b9dd982db75a37e633f724ce603983378",
   "highWaterVersion": "1.430.0",
   "rows": [
     {
@@ -132801,6 +132801,13 @@
       "sourceSha": "74817b0a1ffb30afda70f952167f4376d5ed4c3b",
       "sourcePackageVersion": "1.434.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "87a1c38b9dd982db75a37e633f724ce603983378",
+      "sourcePackageVersion": "1.434.0",
+      "intentIds": [
+        "automatic-switching-opt-in:5af43b210558884b7cc56dfcd74e2afcbd46ad60c86f647bf6bd92613f417b72"
+      ]
     }
   ],
   "intents": [
@@ -138043,6 +138050,14 @@
       "summary": "Every empty or closed Terminal tab now has a Start a terminal button. On another computer's project it opens a shell on that computer, in the selected worktree; a closed or landed local session starts a new one; and \"+\" opens one more remotely too.",
       "sourceSha": "94741c46a7d7cdc88c02f02d73147b8537d0a321",
       "identity": "start-a-terminal-button:dbdff70622dd36867ca3f5b015cea5fae025ef29c44f48dc9763ad45d0fd9c11"
+    },
+    {
+      "id": "automatic-switching-opt-in",
+      "digest": "5af43b210558884b7cc56dfcd74e2afcbd46ad60c86f647bf6bd92613f417b72",
+      "type": "minor",
+      "summary": "Automatic account switching at a usage limit is now a choice, off by default. Agents wait at the limit and resume at their account's reset. You can turn on \"Always switch accounts automatically\" from the limit strip or Settings → Agent accounts, after reading the provider's terms. On a tab that uses this computer's active account, a healthy account in the strip now reads \"Switch this computer to <account>\".",
+      "sourceSha": "87a1c38b9dd982db75a37e633f724ce603983378",
+      "identity": "automatic-switching-opt-in:5af43b210558884b7cc56dfcd74e2afcbd46ad60c86f647bf6bd92613f417b72"
     }
   ],
   "consumedIntentIds": [
