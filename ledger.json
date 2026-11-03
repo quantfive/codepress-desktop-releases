@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f83557a3bc0acecb871e8f8018532d9992491511",
+  "cursorSha": "47f8aa2b4b9c418ad9ed04b741e47b99d92ae7be",
   "highWaterVersion": "1.435.9",
   "rows": [
     {
@@ -134379,6 +134379,13 @@
       "sourceSha": "f83557a3bc0acecb871e8f8018532d9992491511",
       "sourcePackageVersion": "1.439.19",
       "intentIds": []
+    },
+    {
+      "sourceSha": "47f8aa2b4b9c418ad9ed04b741e47b99d92ae7be",
+      "sourcePackageVersion": "1.439.19",
+      "intentIds": [
+        "relink-recopies-designs:e1558fc3026b8d483b560b1ff7360061d84e76a70cbdd9187081ff412999f17a"
+      ]
     }
   ],
   "intents": [
@@ -139853,6 +139860,14 @@
       "summary": "A window's live-update streams to its daemon (cards, the PM thread, talk, subagent transcripts) now share one connection, so plan pages, media signing and API calls no longer wait behind them when several Orchestrator views or windows are open. A daemon without the shared stream keeps a connection per stream.",
       "sourceSha": "b0df11979d20c750824dcea8772bfa2bd8c1650b",
       "identity": "terminal-stream-pool:d2b035ef6f6ad5d69aa3b0ee59c0781937d6ba0b75a0173b5e049d5e2096b389"
+    },
+    {
+      "id": "relink-recopies-designs",
+      "digest": "e1558fc3026b8d483b560b1ff7360061d84e76a70cbdd9187081ff412999f17a",
+      "type": "patch",
+      "summary": "When the Orchestrator relinks a design issue with a reason, Terminal now re-copies the project's plan pages for the item's running workers and the update names the folder (and any page that could not be copied). The Orchestrator's standing prompt now has it name each item's pages in its child issue and treat mockups as an approximate guide, reviewed against intent rather than pixels.",
+      "sourceSha": "47f8aa2b4b9c418ad9ed04b741e47b99d92ae7be",
+      "identity": "relink-recopies-designs:e1558fc3026b8d483b560b1ff7360061d84e76a70cbdd9187081ff412999f17a"
     }
   ],
   "consumedIntentIds": [
