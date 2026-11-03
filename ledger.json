@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "6168d4df34d42364aa7fea8d2655697a8068b3ff",
-  "highWaterVersion": "1.425.0",
+  "highWaterVersion": "1.426.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -69767,6 +69767,55 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:6168d4df34d42364aa7fea8d2655697a8068b3ff",
+      "kind": "main",
+      "sequence": 1972,
+      "sourceSha": "6168d4df34d42364aa7fea8d2655697a8068b3ff",
+      "sourcePackageVersion": "1.428.2",
+      "version": "1.426.0",
+      "publicationDate": "2026-11-03T09:12:11.377Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-worktree-rows:4faa6145d36b2fed5ac9b7c13c48b42616e9909216769a2d3df6412c7eab6593",
+          "mac-skip-leaves-permissions-off:abe73fc953d92e3d0a86503c790ba2ba0dc4d855a3cb9451f8bca00b68f7718e",
+          "staged-node-libraries:fcd031ba3f92d5d526e611046d822d77a30486b1da2b374d5facce5d9922d1de",
+          "ready-phone-handoff:5c130f6e93c79dda9dfad16d6e4dd3f3ec733bac50b4ee0d50de0910145e034e"
+        ],
+        "notesIntentIds": [
+          "terminal-worktree-rows:4faa6145d36b2fed5ac9b7c13c48b42616e9909216769a2d3df6412c7eab6593",
+          "mac-skip-leaves-permissions-off:abe73fc953d92e3d0a86503c790ba2ba0dc4d855a3cb9451f8bca00b68f7718e",
+          "staged-node-libraries:fcd031ba3f92d5d526e611046d822d77a30486b1da2b374d5facce5d9922d1de",
+          "ready-phone-handoff:5c130f6e93c79dda9dfad16d6e4dd3f3ec733bac50b4ee0d50de0910145e034e"
+        ],
+        "throughSourceSha": "6168d4df34d42364aa7fea8d2655697a8068b3ff",
+        "previousThroughSourceSha": "5c4f5cefc9b846de52b4e6b7ce908698ab255401",
+        "baselineVersion": "1.425.0",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41609026332",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-04T09:12:04.477Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -137891,7 +137940,11 @@
     "speech-helper-sign-retry:89416a8de85236526f0d0e1d1e87d7a586b8ff9b07bdc86d6a5f25eb1b622b7e",
     "sign-in-first-device-url:d3e34c027c093aae36c4a44a03c168a890e8bc9ef00b18b3019510b728e63346",
     "signed-out-no-bar:9a969f5b841ca2b44b42e0ff34186c87480c805236d784b47da2eb6402b8d4fb",
-    "live-browser-network-route:33f42ae63b33707de284d3c000890b1e27007cfc07a2a5860c33cefd41299862"
+    "live-browser-network-route:33f42ae63b33707de284d3c000890b1e27007cfc07a2a5860c33cefd41299862",
+    "terminal-worktree-rows:4faa6145d36b2fed5ac9b7c13c48b42616e9909216769a2d3df6412c7eab6593",
+    "mac-skip-leaves-permissions-off:abe73fc953d92e3d0a86503c790ba2ba0dc4d855a3cb9451f8bca00b68f7718e",
+    "staged-node-libraries:fcd031ba3f92d5d526e611046d822d77a30486b1da2b374d5facce5d9922d1de",
+    "ready-phone-handoff:5c130f6e93c79dda9dfad16d6e4dd3f3ec733bac50b4ee0d50de0910145e034e"
   ],
-  "consumedThroughSha": "5c4f5cefc9b846de52b4e6b7ce908698ab255401"
+  "consumedThroughSha": "6168d4df34d42364aa7fea8d2655697a8068b3ff"
 }
