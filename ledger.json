@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "c8353bdce82375ecf0030331e3d3bad90413b272",
-  "highWaterVersion": "1.434.0",
+  "highWaterVersion": "1.435.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -70408,6 +70408,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:c8353bdce82375ecf0030331e3d3bad90413b272",
+      "kind": "main",
+      "sequence": 1983,
+      "sourceSha": "c8353bdce82375ecf0030331e3d3bad90413b272",
+      "sourcePackageVersion": "1.439.0",
+      "version": "1.435.0",
+      "publicationDate": "2026-11-03T15:50:12.477Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "ffmpeg-source-fetch-retry:378ddaba58fcd1ab03c62ad48c0e2798174c677210411ca758ef49f92c654841",
+          "terminal-remote-tab-artifacts:07f12983af2dbba3d4939259c223dab0eb9121cdd6b94060259b3655f896b581"
+        ],
+        "notesIntentIds": [
+          "ffmpeg-source-fetch-retry:378ddaba58fcd1ab03c62ad48c0e2798174c677210411ca758ef49f92c654841",
+          "terminal-remote-tab-artifacts:07f12983af2dbba3d4939259c223dab0eb9121cdd6b94060259b3655f896b581"
+        ],
+        "throughSourceSha": "c8353bdce82375ecf0030331e3d3bad90413b272",
+        "previousThroughSourceSha": "92777fea6cecb9b7abc6bebe854d0f3d6ed4de42",
+        "baselineVersion": "1.434.0",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41667894996",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-04T15:50:05.032Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -139277,7 +139322,9 @@
     "terminal-local-chat-artifacts-tab:539e7c9f73d0faf61006a372c5fd77fa87dda248ffd4dd3daff461c618def81b",
     "pro-checkout-watch-survives:207fec8e6655a70f5ef05b2f3ced0ffc6262a8550044b8b84617833682d0494f",
     "device-url-sign-in-seam:692b459c378070940ad0ecef1e0d99b558e95f5565046cf65a626795ba297aa1",
-    "kimi-automatic-switching:b5e7c1d2eb9cafb628df113655dcea568b5e8c15946784c940ab61ec3a796e66"
+    "kimi-automatic-switching:b5e7c1d2eb9cafb628df113655dcea568b5e8c15946784c940ab61ec3a796e66",
+    "ffmpeg-source-fetch-retry:378ddaba58fcd1ab03c62ad48c0e2798174c677210411ca758ef49f92c654841",
+    "terminal-remote-tab-artifacts:07f12983af2dbba3d4939259c223dab0eb9121cdd6b94060259b3655f896b581"
   ],
-  "consumedThroughSha": "92777fea6cecb9b7abc6bebe854d0f3d6ed4de42"
+  "consumedThroughSha": "c8353bdce82375ecf0030331e3d3bad90413b272"
 }
