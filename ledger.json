@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f6d45a815cea410807fe6ea652fd94806bb64987",
+  "cursorSha": "452437246262ab87965ff1e6ee87b60b10feb888",
   "highWaterVersion": "1.431.0",
   "rows": [
     {
@@ -132878,6 +132878,13 @@
       "sourceSha": "f6d45a815cea410807fe6ea652fd94806bb64987",
       "sourcePackageVersion": "1.435.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "452437246262ab87965ff1e6ee87b60b10feb888",
+      "sourcePackageVersion": "1.435.0",
+      "intentIds": [
+        "workspace-step-first-run:b6d5340043c21b2514535e5424dcd2a11b74e553bc0d65145fc3f0e1f17bdeff"
+      ]
     }
   ],
   "intents": [
@@ -138128,6 +138135,14 @@
       "summary": "Automatic account switching at a usage limit is now a choice, off by default. Agents wait at the limit and resume at their account's reset. You can turn on \"Always switch accounts automatically\" from the limit strip or Settings → Agent accounts, after reading the provider's terms. On a tab that uses this computer's active account, a healthy account in the strip now reads \"Switch this computer to <account>\".",
       "sourceSha": "87a1c38b9dd982db75a37e633f724ce603983378",
       "identity": "automatic-switching-opt-in:5af43b210558884b7cc56dfcd74e2afcbd46ad60c86f647bf6bd92613f417b72"
+    },
+    {
+      "id": "workspace-step-first-run",
+      "digest": "b6d5340043c21b2514535e5424dcd2a11b74e553bc0d65145fc3f0e1f17bdeff",
+      "type": "minor",
+      "summary": "First run, with device URLs on: signing in lands on \"Set up your workspace\", which joins a workspace you were invited to (or whose email domain is yours) or creates \"<First name>'s workspace\", so the side nav works from the first minute. This computer's URL moved onto that step. Signing in later from Settings with no workspace shows the step once per account, as a dialog. Local Orchestrator projects made before you had a workspace stay in the feed.",
+      "sourceSha": "452437246262ab87965ff1e6ee87b60b10feb888",
+      "identity": "workspace-step-first-run:b6d5340043c21b2514535e5424dcd2a11b74e553bc0d65145fc3f0e1f17bdeff"
     }
   ],
   "consumedIntentIds": [
