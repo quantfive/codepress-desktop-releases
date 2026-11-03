@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "62bd85b3abb6cb4b64bb9f9493ba63cd6cdf83e2",
-  "highWaterVersion": "1.423.1",
+  "highWaterVersion": "1.423.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -69584,6 +69584,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:62bd85b3abb6cb4b64bb9f9493ba63cd6cdf83e2",
+      "kind": "main",
+      "sequence": 1969,
+      "sourceSha": "62bd85b3abb6cb4b64bb9f9493ba63cd6cdf83e2",
+      "sourcePackageVersion": "1.423.4",
+      "version": "1.423.2",
+      "publicationDate": "2026-11-03T03:59:23.417Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "kickoff-signed-out-start-hold:f9b1305f9acd2e6e1480a6f0099aa6407b4806856e28aa3607a8f75b47e06a85"
+        ],
+        "notesIntentIds": [
+          "arm64-cli-cross-build:866f10f67e56a9c428d66fa016309c861f65cc76ba0c6a3e28e695b9d788641c",
+          "land-answers-at-commit:edb276b9dd181c7a0bee7fba902713e2a10f4e92ef10054a9d4683177dffa836",
+          "kickoff-signed-out-start-hold:f9b1305f9acd2e6e1480a6f0099aa6407b4806856e28aa3607a8f75b47e06a85"
+        ],
+        "throughSourceSha": "62bd85b3abb6cb4b64bb9f9493ba63cd6cdf83e2",
+        "previousThroughSourceSha": "f5f179fc4a43bcf46a76865b289b8338a7aaa84d",
+        "baselineVersion": "1.423.1",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41575365954",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-04T03:59:18.192Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -137317,7 +137362,8 @@
     "phone-link-open-outside-tauri:ba47f558429b237584aed609885718f3479e0e75914402facfefcca234cbdd74",
     "plan-issue-not-planned:053984f667aefd06216296f8526859672f338035e8085c3d031400d2ba461cf1",
     "arm64-cli-cross-build:866f10f67e56a9c428d66fa016309c861f65cc76ba0c6a3e28e695b9d788641c",
-    "land-answers-at-commit:edb276b9dd181c7a0bee7fba902713e2a10f4e92ef10054a9d4683177dffa836"
+    "land-answers-at-commit:edb276b9dd181c7a0bee7fba902713e2a10f4e92ef10054a9d4683177dffa836",
+    "kickoff-signed-out-start-hold:f9b1305f9acd2e6e1480a6f0099aa6407b4806856e28aa3607a8f75b47e06a85"
   ],
-  "consumedThroughSha": "f5f179fc4a43bcf46a76865b289b8338a7aaa84d"
+  "consumedThroughSha": "62bd85b3abb6cb4b64bb9f9493ba63cd6cdf83e2"
 }
