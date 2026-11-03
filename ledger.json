@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "42baacb8e3d59ba0570e05773cb6f860ceb54930",
-  "highWaterVersion": "1.421.2",
+  "highWaterVersion": "1.422.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -69351,6 +69351,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:42baacb8e3d59ba0570e05773cb6f860ceb54930",
+      "kind": "main",
+      "sequence": 1965,
+      "sourceSha": "42baacb8e3d59ba0570e05773cb6f860ceb54930",
+      "sourcePackageVersion": "1.422.0",
+      "version": "1.422.0",
+      "publicationDate": "2026-11-03T00:06:45.402Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "grok-active-account:eff958fe931f4363c3fe83714504dbe8f4c80b9114f3e5c448ae2e9669f17183"
+        ],
+        "notesIntentIds": [
+          "grok-active-account:eff958fe931f4363c3fe83714504dbe8f4c80b9114f3e5c448ae2e9669f17183"
+        ],
+        "throughSourceSha": "42baacb8e3d59ba0570e05773cb6f860ceb54930",
+        "previousThroughSourceSha": "f377f38789efdf927e762fdf048e58bdec66d11d",
+        "baselineVersion": "1.421.2",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41550383852",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-04T00:06:38.855Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -136841,7 +136884,8 @@
     "app-name-tidy-leftovers:943055f4333e41e1258614b26577e646e769ca8fb1009ea4c77bf2c6ebc706b6",
     "remote-window-native-bridges:b169ed3338e3542a6ca2651f5503402eecc344463c7821d5b2e24b2e5f2801fe",
     "cloud-plan-pages-local-route:fb84b83138b748ed2a453a0c4323ae3d9d4c6de40946f8c0e323c2d320072501",
-    "terminal-pm-handoff-always-listed:ff1e372e9fe80a7e6f0bd74804ddc3b716886c9b5114a8b454d5416592f3e140"
+    "terminal-pm-handoff-always-listed:ff1e372e9fe80a7e6f0bd74804ddc3b716886c9b5114a8b454d5416592f3e140",
+    "grok-active-account:eff958fe931f4363c3fe83714504dbe8f4c80b9114f3e5c448ae2e9669f17183"
   ],
-  "consumedThroughSha": "f377f38789efdf927e762fdf048e58bdec66d11d"
+  "consumedThroughSha": "42baacb8e3d59ba0570e05773cb6f860ceb54930"
 }
