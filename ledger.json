@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "be951b2ba0c93d1a770b7274c2bbd0b3b97c5769",
+  "cursorSha": "c59e42ae3cc4837cb88d4949225f45fd11bfac51",
   "highWaterVersion": "1.423.2",
   "rows": [
     {
@@ -131742,6 +131742,13 @@
       "sourceSha": "be951b2ba0c93d1a770b7274c2bbd0b3b97c5769",
       "sourcePackageVersion": "1.423.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c59e42ae3cc4837cb88d4949225f45fd11bfac51",
+      "sourcePackageVersion": "1.423.5",
+      "intentIds": [
+        "synced-copy-map-lists-every-prompt:9e09b38dc42da437fe2fae62485ee0a0466f6a62633867a3d6bab9d85bc1fba1"
+      ]
     }
   ],
   "intents": [
@@ -136752,6 +136759,14 @@
       "summary": "Kickoff: with the device URLs flag on, Start and Talk wait while the Orchestrator's model is on a provider this computer is signed out of, beside the note and Open Accounts. Picking a signed-in model or signing in clears it at once.",
       "sourceSha": "62bd85b3abb6cb4b64bb9f9493ba63cd6cdf83e2",
       "identity": "kickoff-signed-out-start-hold:f9b1305f9acd2e6e1480a6f0099aa6407b4806856e28aa3607a8f75b47e06a85"
+    },
+    {
+      "id": "synced-copy-map-lists-every-prompt",
+      "digest": "9e09b38dc42da437fe2fae62485ee0a0466f6a62633867a3d6bab9d85bc1fba1",
+      "type": "patch",
+      "summary": "A synced copy of another Mac's Orchestrator project now shows one conversation-map dash per prompt you sent as soon as the thread opens, and clicking a dash for an older message jumps straight to it in one read, instead of waiting for you to scroll up to the page that holds it. Both Macs need this release, and the backend must support it.",
+      "sourceSha": "c59e42ae3cc4837cb88d4949225f45fd11bfac51",
+      "identity": "synced-copy-map-lists-every-prompt:9e09b38dc42da437fe2fae62485ee0a0466f6a62633867a3d6bab9d85bc1fba1"
     }
   ],
   "consumedIntentIds": [
