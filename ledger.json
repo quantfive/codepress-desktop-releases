@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6b00fbd65fa87caab51ae3b7072fac829049ca75",
+  "cursorSha": "33ff6be80776b64fa174455d694e7d00802e659c",
   "highWaterVersion": "1.429.0",
   "rows": [
     {
@@ -132627,6 +132627,18 @@
       "sourceSha": "6b00fbd65fa87caab51ae3b7072fac829049ca75",
       "sourcePackageVersion": "1.433.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "78c80c9e68fe39a481def9d1bbd717e615a953f3",
+      "sourcePackageVersion": "1.433.2",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "33ff6be80776b64fa174455d694e7d00802e659c",
+      "sourcePackageVersion": "1.433.2",
+      "intentIds": [
+        "actor-helper-sshd-keyword-case:d94eabb40caab1e3a1c30b77a25a2155cda8d0225809552acf7f9f1f0d4d09b2"
+      ]
     }
   ],
   "intents": [
@@ -137837,6 +137849,14 @@
       "summary": "Add the local per-chat artifact store and its owner-only list and content routes. Nothing is visible yet: no tool or Artifacts tab publishes into it until a later release.",
       "sourceSha": "d057cebdd1a399fa4ac4cff765672f9743f34b3a",
       "identity": "terminal-local-chat-artifact-store:33a757c85848895e7cdc7f9e161f026f8ea2f2ff892ad66361104d93a92230e5"
+    },
+    {
+      "id": "actor-helper-sshd-keyword-case",
+      "digest": "d94eabb40caab1e3a1c30b77a25a2155cda8d0225809552acf7f9f1f0d4d09b2",
+      "type": "patch",
+      "summary": "Test-only: the macOS actor-helper root test now reads `sshd -T` keywords case-insensitively, because the OpenSSH in macOS 27 prints `DenyUsers` where macOS 15 printed `denyusers`. The installed helper is unchanged.",
+      "sourceSha": "33ff6be80776b64fa174455d694e7d00802e659c",
+      "identity": "actor-helper-sshd-keyword-case:d94eabb40caab1e3a1c30b77a25a2155cda8d0225809552acf7f9f1f0d4d09b2"
     }
   ],
   "consumedIntentIds": [
