@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c58092daef91fad7dfa64cd7ee1ecfeb83950d95",
+  "cursorSha": "99b1d578e84c5c1eafefda2d11333a39413044ea",
   "highWaterVersion": "1.428.0",
   "rows": [
     {
@@ -132527,6 +132527,18 @@
       "sourceSha": "c58092daef91fad7dfa64cd7ee1ecfeb83950d95",
       "sourcePackageVersion": "1.432.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4552577f1ee0874b844c4f3d399ad163cd6a5588",
+      "sourcePackageVersion": "1.432.0",
+      "intentIds": [
+        "terminal-pro-upgrade:63a027b6605f112d3d8327d4d50d19faf0aeeb0a49ca59c3ccd1faf48017280e"
+      ]
+    },
+    {
+      "sourceSha": "99b1d578e84c5c1eafefda2d11333a39413044ea",
+      "sourcePackageVersion": "1.433.0",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -137713,6 +137725,14 @@
       "summary": "A cloud Orchestrator project that could not start now says why in its thread and header, for example \"Add a card to start…\" with an Open Billing button, instead of reading only as failed.",
       "sourceSha": "53886f720f642b73be6e0b750fced9684da5abd2",
       "identity": "cloud-launch-refusal:a6af029a96c4bfe8d3fb746dc5fd357b3ccfe966efde0a15a0475c6e8e1febfd"
+    },
+    {
+      "id": "terminal-pro-upgrade",
+      "digest": "63a027b6605f112d3d8327d4d50d19faf0aeeb0a49ca59c3ccd1faf48017280e",
+      "type": "minor",
+      "summary": "CodePress Pro upgrade: when the Pro wall is on, Settings, Remote Access and the tunnel window offer Pro ($20/month for 10 computers and custom URLs) to people at the free limit or asking for a custom URL. The mobile app shows no purchase flow, and once checkout completes the app notices without a restart.",
+      "sourceSha": "4552577f1ee0874b844c4f3d399ad163cd6a5588",
+      "identity": "terminal-pro-upgrade:63a027b6605f112d3d8327d4d50d19faf0aeeb0a49ca59c3ccd1faf48017280e"
     }
   ],
   "consumedIntentIds": [
