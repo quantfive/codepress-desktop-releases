@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a8445b0033aa0fb544fee0d4e0c87919eea9165f",
+  "cursorSha": "fdb84c5ad672667806da0e02ed1ade4a2bdaa3d8",
   "highWaterVersion": "1.422.1",
   "rows": [
     {
@@ -131430,6 +131430,13 @@
       "sourceSha": "a8445b0033aa0fb544fee0d4e0c87919eea9165f",
       "sourcePackageVersion": "1.422.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "fdb84c5ad672667806da0e02ed1ade4a2bdaa3d8",
+      "sourcePackageVersion": "1.422.2",
+      "intentIds": [
+        "terminal-unified-view-preference:1a53c1a4223b5a43b3e8ca8c021b236e02c4d6f45a8458a4f1af5e67bb27a59f"
+      ]
     }
   ],
   "intents": [
@@ -136392,6 +136399,14 @@
       "summary": "The Land dialog can be closed while a land is in flight: Cancel reads Close, Escape and the backdrop dismiss, and the land keeps going in the background.",
       "sourceSha": "e7a57d9846b8b2261895c2e4ef326d18fd2dedc5",
       "identity": "land-dialog-close-while-landing:dd9377c8f451dfe2d69506733620612a316b2d20182f1db129158a8a2f947c16"
+    },
+    {
+      "id": "terminal-unified-view-preference",
+      "digest": "1a53c1a4223b5a43b3e8ca8c021b236e02c4d6f45a8458a4f1af5e67bb27a59f",
+      "type": "minor",
+      "summary": "Preferences → General → Appearance has a Unified view switch. Off opens Terminal's classic title bar and sidebar on this account, and it follows the same choice as the web.",
+      "sourceSha": "fdb84c5ad672667806da0e02ed1ade4a2bdaa3d8",
+      "identity": "terminal-unified-view-preference:1a53c1a4223b5a43b3e8ca8c021b236e02c4d6f45a8458a4f1af5e67bb27a59f"
     }
   ],
   "consumedIntentIds": [
