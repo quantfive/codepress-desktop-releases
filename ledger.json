@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e6a5835e3f623ac20845cf94f48a3fe60347e6c6",
+  "cursorSha": "5c1d192ddae036c5638032102688da7d9aee3fdc",
   "highWaterVersion": "1.435.0",
   "rows": [
     {
@@ -133411,6 +133411,13 @@
       "sourceSha": "e6a5835e3f623ac20845cf94f48a3fe60347e6c6",
       "sourcePackageVersion": "1.439.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "5c1d192ddae036c5638032102688da7d9aee3fdc",
+      "sourcePackageVersion": "1.439.0",
+      "intentIds": [
+        "terminal-chat-artifacts-cloud-mirror:7d6eb02469b3400595fd1e3b08dbfb5f62e84f95f31fe582d42f82a2240ea866"
+      ]
     }
   ],
   "intents": [
@@ -138725,6 +138732,14 @@
       "summary": "An agent tab on another of your machines now shows that machine's Artifacts. In the other-machine agent view the switch gains Artifacts, and a live tab from another Mac gets the same Terminal | Artifacts switch as this Mac's tabs. Files up to 10 MB open full size; larger ones say to open them on that machine. A machine on an older CodePress says to update it.",
       "sourceSha": "406c02baf291f645a48edacba68565303a9466c4",
       "identity": "terminal-remote-tab-artifacts:07f12983af2dbba3d4939259c223dab0eb9121cdd6b94060259b3655f896b581"
+    },
+    {
+      "id": "terminal-chat-artifacts-cloud-mirror",
+      "digest": "7d6eb02469b3400595fd1e3b08dbfb5f62e84f95f31fe582d42f82a2240ea866",
+      "type": "patch",
+      "summary": "Copy files an agent publishes in a cloud-synced tab to that tab's CodePress Cloud chat, so the web chat's Artifacts tab lists them.",
+      "sourceSha": "5c1d192ddae036c5638032102688da7d9aee3fdc",
+      "identity": "terminal-chat-artifacts-cloud-mirror:7d6eb02469b3400595fd1e3b08dbfb5f62e84f95f31fe582d42f82a2240ea866"
     }
   ],
   "consumedIntentIds": [
