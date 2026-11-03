@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "88394c2c33157ad366031eb042bbcd7b62e34e3a",
+  "cursorSha": "1107670a461ab2f6ee478c449e5e45803a24c175",
   "highWaterVersion": "1.424.0",
   "rows": [
     {
@@ -131922,6 +131922,13 @@
       "sourceSha": "88394c2c33157ad366031eb042bbcd7b62e34e3a",
       "sourcePackageVersion": "1.426.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "1107670a461ab2f6ee478c449e5e45803a24c175",
+      "sourcePackageVersion": "1.426.0",
+      "intentIds": [
+        "speech-helper-sign-retry:89416a8de85236526f0d0e1d1e87d7a586b8ff9b07bdc86d6a5f25eb1b622b7e"
+      ]
     }
   ],
   "intents": [
@@ -136980,6 +136987,14 @@
       "summary": "The MCP sign-in card and its composer chip now show on every device that reads a project or chat. On another device they list the servers and their states and say to sign in from Terminal on the home computer, or that it is offline; Not now works from there too.",
       "sourceSha": "b568bc120f570d6de02a92baa03c058fb90e37a1",
       "identity": "mcp-sign-in-every-device:ad44fa60fde6bcbfa7b7c9094d3749d56f8f7534934c9352e789ceb581c2b832"
+    },
+    {
+      "id": "speech-helper-sign-retry",
+      "digest": "89416a8de85236526f0d0e1d1e87d7a586b8ff9b07bdc86d6a5f25eb1b622b7e",
+      "type": "patch",
+      "summary": "Make Terminal's macOS release signing of the dictation helper try again when Apple's timestamp service briefly refuses a request, instead of failing the whole arm64 release build.",
+      "sourceSha": "1107670a461ab2f6ee478c449e5e45803a24c175",
+      "identity": "speech-helper-sign-retry:89416a8de85236526f0d0e1d1e87d7a586b8ff9b07bdc86d6a5f25eb1b622b7e"
     }
   ],
   "consumedIntentIds": [
