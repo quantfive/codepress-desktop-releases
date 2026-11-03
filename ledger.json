@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d7dc3216aa501a348d28c2eb8ab475bffa09ddc3",
+  "cursorSha": "8d9934cf3a514a366cbcfe4e9bad6c30d8e0f399",
   "highWaterVersion": "1.435.7",
   "rows": [
     {
@@ -134154,6 +134154,18 @@
       "sourceSha": "d7dc3216aa501a348d28c2eb8ab475bffa09ddc3",
       "sourcePackageVersion": "1.439.15",
       "intentIds": []
+    },
+    {
+      "sourceSha": "867b2d122a3d3b3861f1e5383264f7cb6b204cb5",
+      "sourcePackageVersion": "1.439.15",
+      "intentIds": [
+        "feed-filter-section-search:9e2628693d7b2c91b8ac1764fcc8308ce631132cebbc10d4e6d4bb90adf33aa8"
+      ]
+    },
+    {
+      "sourceSha": "8d9934cf3a514a366cbcfe4e9bad6c30d8e0f399",
+      "sourcePackageVersion": "1.439.15",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -139588,6 +139600,14 @@
       "summary": "Each plan page copied for a local Orchestrator worker now gets a PNG screenshot next to it, rendered at the page's declared width in viewport-height tiles, so a worker with image support sees the intended screen without starting a browser.",
       "sourceSha": "fdedba9bc79f923211b96db422f726f53045d5d2",
       "identity": "worker-plan-page-screenshots:3cd97145d98ffa5b5891dae165856438e7ce79c0b71118ceccc9b40efab65290"
+    },
+    {
+      "id": "feed-filter-section-search",
+      "digest": "9e2628693d7b2c91b8ac1764fcc8308ce631132cebbc10d4e6d4bb90adf33aa8",
+      "type": "patch",
+      "summary": "Feed filter menu: each section with entries behind Show all (Machine with Workspaces, Agent, Repository) now has its own search box, so you can find and tick a match in place.",
+      "sourceSha": "867b2d122a3d3b3861f1e5383264f7cb6b204cb5",
+      "identity": "feed-filter-section-search:9e2628693d7b2c91b8ac1764fcc8308ce631132cebbc10d4e6d4bb90adf33aa8"
     }
   ],
   "consumedIntentIds": [
