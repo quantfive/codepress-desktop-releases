@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "44dd49d44ad17a44e040e2762c23139174b6931a",
+  "cursorSha": "8baf8998ca4765960a2a78bbed9ece10de6b6f15",
   "highWaterVersion": "1.435.3",
   "rows": [
     {
@@ -133677,6 +133677,13 @@
       "sourceSha": "44dd49d44ad17a44e040e2762c23139174b6931a",
       "sourcePackageVersion": "1.439.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "8baf8998ca4765960a2a78bbed9ece10de6b6f15",
+      "sourcePackageVersion": "1.439.5",
+      "intentIds": [
+        "rail-owns-agent-list-fold:ab82260bd0391368acb6b16ff5f50220a5166e838a8fe61406fd0874cb6550c8"
+      ]
     }
   ],
   "intents": [
@@ -139031,6 +139038,14 @@
       "summary": "Handing a project off to another Mac now shows why that Mac refused, even when the retry replays the stored result. When the reason was not kept, the dialog says so instead of showing the raw receipt.",
       "sourceSha": "2229c5b231d4bdc34696730cdec4e8c6117f450c",
       "identity": "remote-error-reason:80a00acd20f750f3660f11813451da96003a879b8c3370b1733fe04d6ce234dc"
+    },
+    {
+      "id": "rail-owns-agent-list-fold",
+      "digest": "ab82260bd0391368acb6b16ff5f50220a5166e838a8fe61406fd0874cb6550c8",
+      "type": "patch",
+      "summary": "With the unified view on, the icon rail's Hide list button and ⌘\\ now fold the Agent list too, so every section folds its list from the same place. The Agent list's header no longer has its own Collapse sidebar button, and a folded Agent list is hidden completely instead of leaving a slim strip.",
+      "sourceSha": "8baf8998ca4765960a2a78bbed9ece10de6b6f15",
+      "identity": "rail-owns-agent-list-fold:ab82260bd0391368acb6b16ff5f50220a5166e838a8fe61406fd0874cb6550c8"
     }
   ],
   "consumedIntentIds": [
