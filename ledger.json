@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "700f1f7a90d656a7f3ada14c376bae1545e84634",
+  "cursorSha": "28360bb0adf79601a7a2028ee0dff4052af472b7",
   "highWaterVersion": "1.432.1",
   "rows": [
     {
@@ -133069,6 +133069,18 @@
       "sourceSha": "700f1f7a90d656a7f3ada14c376bae1545e84634",
       "sourcePackageVersion": "1.437.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2b18546890f87f29c8c6170e79f3824ef2fc4555",
+      "sourcePackageVersion": "1.437.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "28360bb0adf79601a7a2028ee0dff4052af472b7",
+      "sourcePackageVersion": "1.437.0",
+      "intentIds": [
+        "pro-checkout-watch-survives:207fec8e6655a70f5ef05b2f3ced0ffc6262a8550044b8b84617833682d0494f"
+      ]
     }
   ],
   "intents": [
@@ -138343,6 +138355,14 @@
       "summary": "Agent tabs and Chat-mode chats get an Artifacts tab. A local agent publishes a report, screenshot, CSV, PDF or HTML mockup with the new `publish_artifact` tool, and it shows as a preview card that opens full size, without a reload. The tab is always there; before anything is published it says how artifacts get there.",
       "sourceSha": "fcde3aad417443d9f37304a55dde94640d510837",
       "identity": "terminal-local-chat-artifacts-tab:539e7c9f73d0faf61006a372c5fd77fa87dda248ffd4dd3daff461c618def81b"
+    },
+    {
+      "id": "pro-checkout-watch-survives",
+      "digest": "207fec8e6655a70f5ef05b2f3ced0ffc6262a8550044b8b84617833682d0494f",
+      "type": "patch",
+      "summary": "Pro upgrade: the checkout watch now keeps running when Settings reloads, so a computer refused at the plan's limit connects on its own once Pro is active. Settings → Network shows one Pro card, under the computer-limit notice, and drops the Quick Tunnel copy while Connect my devices is on.",
+      "sourceSha": "28360bb0adf79601a7a2028ee0dff4052af472b7",
+      "identity": "pro-checkout-watch-survives:207fec8e6655a70f5ef05b2f3ced0ffc6262a8550044b8b84617833682d0494f"
     }
   ],
   "consumedIntentIds": [
