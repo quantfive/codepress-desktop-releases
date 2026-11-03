@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "fab72c2c242979a2a21364562580dfe817282a8b",
+  "cursorSha": "74f5622dc3563217161b7b0cbac78092df8d5694",
   "highWaterVersion": "1.437.0",
   "rows": [
     {
@@ -134651,6 +134651,13 @@
       "sourceSha": "fab72c2c242979a2a21364562580dfe817282a8b",
       "sourcePackageVersion": "1.441.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "74f5622dc3563217161b7b0cbac78092df8d5694",
+      "sourcePackageVersion": "1.441.0",
+      "intentIds": [
+        "signed-out-no-cloud:8fd45d05e6913911f8544f7fdc7a35cfed9afe7e8669314aa72f39df0e880fcf"
+      ]
     }
   ],
   "intents": [
@@ -140157,6 +140164,14 @@
       "summary": "Ghostty tabs now support mouse selection: drag, double-click for a word and triple-click for a line, with the selection highlighted. ⌘C, Ctrl+Shift+C, the Copy menu item and the browser copy event copy the selected text with wrapped lines joined. Right-click Paste types into Ghostty tabs, bracketed when the app asks for it. When an app turns on mouse reporting (vim, Claude's TUI), clicks, drags and movement are reported to it, and Shift+drag still selects.",
       "sourceSha": "dd47958596e4b571053e601d75247fc65173a780",
       "identity": "ghostty-mouse-selection:a59df563c0bcced2ffa1b087655f7fb1dc811987c85d3c0556a0c17d9d2b6639"
+    },
+    {
+      "id": "signed-out-no-cloud",
+      "digest": "8fd45d05e6913911f8544f7fdc7a35cfed9afe7e8669314aa72f39df0e880fcf",
+      "type": "patch",
+      "summary": "A signed-out window no longer opens on codepress.dev's embedded login page: it lands on Terminal, and a link or Cloud page asked for while signed out opens Terminal's own sign-in prompt instead.",
+      "sourceSha": "74f5622dc3563217161b7b0cbac78092df8d5694",
+      "identity": "signed-out-no-cloud:8fd45d05e6913911f8544f7fdc7a35cfed9afe7e8669314aa72f39df0e880fcf"
     }
   ],
   "consumedIntentIds": [
