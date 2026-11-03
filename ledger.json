@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3b2dc635728a6d2113a4aa95dad7f70b0bf29ee5",
+  "cursorSha": "bb37913eb38d9b0e8aad267e4adc8a99e1fe5146",
   "highWaterVersion": "1.435.6",
   "rows": [
     {
@@ -133982,6 +133982,18 @@
       "sourceSha": "3b2dc635728a6d2113a4aa95dad7f70b0bf29ee5",
       "sourcePackageVersion": "1.439.10",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c44758bf56ba14469f2cd6327b10c995dc4a81d4",
+      "sourcePackageVersion": "1.439.10",
+      "intentIds": [
+        "launching-thread-on-send:6fb6efa05a8f125da2cc10f29bc95d6740d228f176ab7f7633ce48b68f6169e2"
+      ]
+    },
+    {
+      "sourceSha": "bb37913eb38d9b0e8aad267e4adc8a99e1fe5146",
+      "sourcePackageVersion": "1.439.10",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -139376,6 +139388,14 @@
       "summary": "Onboarding's Welcome now shows only the selected Mode card as selected (focus starts on Get Started, and the cards are a radiogroup with arrow keys), and the sign-in step lists what needs a CodePress account and what works without one.",
       "sourceSha": "3667097722c213a4355ad1a522351f75cb3081ff",
       "identity": "onboarding-mode-signin-gated:d75f59ac3d17f6cb9e10fd74b2d9e52c515e86edfa18a3ef874708a76b786296"
+    },
+    {
+      "id": "launching-thread-on-send",
+      "digest": "6fb6efa05a8f125da2cc10f29bc95d6740d228f176ab7f7633ce48b68f6169e2",
+      "type": "patch",
+      "summary": "Send in the Orchestrator or Chat kickoff now opens the new thread right away, with your brief as its first message and where it is starting, and the real thread takes over in place once it syncs. No more Sending spinner, \"Opening its thread…\" or \"It is in the agent list.\"",
+      "sourceSha": "c44758bf56ba14469f2cd6327b10c995dc4a81d4",
+      "identity": "launching-thread-on-send:6fb6efa05a8f125da2cc10f29bc95d6740d228f176ab7f7633ce48b68f6169e2"
     }
   ],
   "consumedIntentIds": [
