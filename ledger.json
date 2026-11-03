@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "c58092daef91fad7dfa64cd7ee1ecfeb83950d95",
-  "highWaterVersion": "1.427.1",
+  "highWaterVersion": "1.428.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -69944,6 +69944,53 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:c58092daef91fad7dfa64cd7ee1ecfeb83950d95",
+      "kind": "main",
+      "sequence": 1975,
+      "sourceSha": "c58092daef91fad7dfa64cd7ee1ecfeb83950d95",
+      "sourcePackageVersion": "1.432.0",
+      "version": "1.428.0",
+      "publicationDate": "2026-11-03T11:31:14.790Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "shell-no-account:6f6dd4e10a7b72a13170ad891eaa13498f011862b456e765188170f96990c5f7",
+          "mcp-sign-in-from-any-device:f01042e84b77fcd6305f8b3f603dfd8730963a7ced02fa3f4ea810a5045d7791",
+          "cloud-launch-refusal:a6af029a96c4bfe8d3fb746dc5fd357b3ccfe966efde0a15a0475c6e8e1febfd"
+        ],
+        "notesIntentIds": [
+          "shell-no-account:6f6dd4e10a7b72a13170ad891eaa13498f011862b456e765188170f96990c5f7",
+          "mcp-sign-in-from-any-device:f01042e84b77fcd6305f8b3f603dfd8730963a7ced02fa3f4ea810a5045d7791",
+          "cloud-launch-refusal:a6af029a96c4bfe8d3fb746dc5fd357b3ccfe966efde0a15a0475c6e8e1febfd"
+        ],
+        "throughSourceSha": "c58092daef91fad7dfa64cd7ee1ecfeb83950d95",
+        "previousThroughSourceSha": "3d733a7a0ab70a1c37686c6f40438d39afce8d24",
+        "baselineVersion": "1.427.1",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41628002909",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-04T11:31:09.021Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -138301,7 +138348,10 @@
     "restart-tabs-after-broker-loss:7b0a5106086f2ff897884d3ec4b5c34603adec0c87034f2a135bf099ca8d51f5",
     "connect-my-devices:d9ea125482b8292ca052743be7e9ce706d99262530213bdecd4b6ea53171e41e",
     "build-panel-menu-default:cf5189ea61ba06694a02114d1686230382136a88ea41589992969292c5422dac",
-    "handoff-header-steady:a9d66407726286fd5629fea5da8ac1e384e003dd676bfb710d3553e647f55946"
+    "handoff-header-steady:a9d66407726286fd5629fea5da8ac1e384e003dd676bfb710d3553e647f55946",
+    "shell-no-account:6f6dd4e10a7b72a13170ad891eaa13498f011862b456e765188170f96990c5f7",
+    "mcp-sign-in-from-any-device:f01042e84b77fcd6305f8b3f603dfd8730963a7ced02fa3f4ea810a5045d7791",
+    "cloud-launch-refusal:a6af029a96c4bfe8d3fb746dc5fd357b3ccfe966efde0a15a0475c6e8e1febfd"
   ],
-  "consumedThroughSha": "3d733a7a0ab70a1c37686c6f40438d39afce8d24"
+  "consumedThroughSha": "c58092daef91fad7dfa64cd7ee1ecfeb83950d95"
 }
