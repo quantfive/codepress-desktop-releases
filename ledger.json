@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4c44a7d4d6e08db0e376c6eb3c95bb5c9dd1b780",
+  "cursorSha": "fdedba9bc79f923211b96db422f726f53045d5d2",
   "highWaterVersion": "1.435.7",
   "rows": [
     {
@@ -134132,6 +134132,13 @@
       "sourceSha": "4c44a7d4d6e08db0e376c6eb3c95bb5c9dd1b780",
       "sourcePackageVersion": "1.439.14",
       "intentIds": []
+    },
+    {
+      "sourceSha": "fdedba9bc79f923211b96db422f726f53045d5d2",
+      "sourcePackageVersion": "1.439.14",
+      "intentIds": [
+        "worker-plan-page-screenshots:3cd97145d98ffa5b5891dae165856438e7ce79c0b71118ceccc9b40efab65290"
+      ]
     }
   ],
   "intents": [
@@ -139558,6 +139565,14 @@
       "summary": "A project handoff no longer stays stuck on a failed worker. A failed worker with nothing running in its tab moves as failed history. One whose tab still runs a process blocks with a message naming it and saying how to clear it, and `project_worker_stop` now stops that process and records the worker stopped. A failed worker whose tab is in another Terminal window, or not yet restored, blocks until it can be checked. A handoff refused by an in-flight worker message or restart now says so, instead of listing finished workers.",
       "sourceSha": "2d5e38a2e26066a978740b3196ee28e363428319",
       "identity": "failed-worker-handoff-blocker:37bf0ffa56d8b11eae99d703de2830f6e6164227619effd8000591c2c6d5c1a3"
+    },
+    {
+      "id": "worker-plan-page-screenshots",
+      "digest": "3cd97145d98ffa5b5891dae165856438e7ce79c0b71118ceccc9b40efab65290",
+      "type": "patch",
+      "summary": "Each plan page copied for a local Orchestrator worker now gets a PNG screenshot next to it, rendered at the page's declared width in viewport-height tiles, so a worker with image support sees the intended screen without starting a browser.",
+      "sourceSha": "fdedba9bc79f923211b96db422f726f53045d5d2",
+      "identity": "worker-plan-page-screenshots:3cd97145d98ffa5b5891dae165856438e7ce79c0b71118ceccc9b40efab65290"
     }
   ],
   "consumedIntentIds": [
