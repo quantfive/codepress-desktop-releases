@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "25d9777bab7afae4112b20634bdc18b2de7d5ae2",
+  "cursorSha": "6f95aca0b4616f3b9c7205efaf44a3e08d2ac17b",
   "highWaterVersion": "1.423.2",
   "rows": [
     {
@@ -131764,6 +131764,20 @@
       "sourceSha": "25d9777bab7afae4112b20634bdc18b2de7d5ae2",
       "sourcePackageVersion": "1.423.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "581209cafb25197cde65002b3f83277e0d27b392",
+      "sourcePackageVersion": "1.423.6",
+      "intentIds": [
+        "retire-terminal-sections:aaf125aa38631374487d777a1b2ea4a5d5bd78093f34d7f69dfd36ed1bd5f171"
+      ]
+    },
+    {
+      "sourceSha": "6f95aca0b4616f3b9c7205efaf44a3e08d2ac17b",
+      "sourcePackageVersion": "1.423.6",
+      "intentIds": [
+        "kimi-limit-recovery:0f2d9ffe2e644560273b9c272ef1ef3888665cb68dcacf4ae1ea659e78653440"
+      ]
     }
   ],
   "intents": [
@@ -136782,6 +136796,22 @@
       "summary": "A synced copy of another Mac's Orchestrator project now shows one conversation-map dash per prompt you sent as soon as the thread opens, and clicking a dash for an older message jumps straight to it in one read, instead of waiting for you to scroll up to the page that holds it. Both Macs need this release, and the backend must support it.",
       "sourceSha": "c59e42ae3cc4837cb88d4949225f45fd11bfac51",
       "identity": "synced-copy-map-lists-every-prompt:9e09b38dc42da437fe2fae62485ee0a0466f6a62633867a3d6bab9d85bc1fba1"
+    },
+    {
+      "id": "retire-terminal-sections",
+      "digest": "aaf125aa38631374487d777a1b2ea4a5d5bd78093f34d7f69dfd36ed1bd5f171",
+      "type": "patch",
+      "summary": "Retire My Work, Design and Servers in Terminal: the rail shortcuts follow the visible rail (Agent ⌃1, Terminal ⌃2, Apps ⌃3, Automations ⌃4, Media ⌃5, Evals ⌃6; Alt+digit off macOS), and links, notifications and in-page navigation to those sections, Coordination or Done open Agent. A custom shortcut saved for a retired section is kept but does nothing.",
+      "sourceSha": "581209cafb25197cde65002b3f83277e0d27b392",
+      "identity": "retire-terminal-sections:aaf125aa38631374487d777a1b2ea4a5d5bd78093f34d7f69dfd36ed1bd5f171"
+    },
+    {
+      "id": "kimi-limit-recovery",
+      "digest": "0f2d9ffe2e644560273b9c272ef1ef3888665cb68dcacf4ae1ea659e78653440",
+      "type": "minor",
+      "summary": "A Kimi agent at its usage limit now says which limit it hit (5-hour, weekly, or monthly) and when it resets. It waits on the same account and resumes by itself at the reset. A person can switch this computer to another Kimi account from the limit strip. Kimi's concurrent-request, too-many-requests and overload errors are not treated as limits.",
+      "sourceSha": "6f95aca0b4616f3b9c7205efaf44a3e08d2ac17b",
+      "identity": "kimi-limit-recovery:0f2d9ffe2e644560273b9c272ef1ef3888665cb68dcacf4ae1ea659e78653440"
     }
   ],
   "consumedIntentIds": [
