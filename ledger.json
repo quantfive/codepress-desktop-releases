@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5287867b5088fe6b4511596916e96eedfe6a0dbd",
+  "cursorSha": "dd47958596e4b571053e601d75247fc65173a780",
   "highWaterVersion": "1.436.1",
   "rows": [
     {
@@ -134554,6 +134554,13 @@
       "sourceSha": "5287867b5088fe6b4511596916e96eedfe6a0dbd",
       "sourcePackageVersion": "1.440.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "dd47958596e4b571053e601d75247fc65173a780",
+      "sourcePackageVersion": "1.440.1",
+      "intentIds": [
+        "ghostty-mouse-selection:a59df563c0bcced2ffa1b087655f7fb1dc811987c85d3c0556a0c17d9d2b6639"
+      ]
     }
   ],
   "intents": [
@@ -140052,6 +140059,14 @@
       "summary": "Ghostty tabs scroll like xterm tabs: an overlay scrollbar you can click or drag (hidden in full-screen apps), the \"New output below ↓\" button, the Scroll Speed setting with Alt for fast scroll, and mouse-wheel scrolling in `less` and `man`. Ghostty tabs also keep the full scrollback depth you set, apply Scrollback changes live, show the full-screen-app indicator in the tab bar, and mark background tabs with new output.",
       "sourceSha": "82608415dfd6b2e6d14e6d6ec024676d3be90051",
       "identity": "ghostty-scrolling-parity:cff43623c6302c9ffd4314ecb42586bfbf35ecbb729514afc9066ac2caa32aa3"
+    },
+    {
+      "id": "ghostty-mouse-selection",
+      "digest": "a59df563c0bcced2ffa1b087655f7fb1dc811987c85d3c0556a0c17d9d2b6639",
+      "type": "minor",
+      "summary": "Ghostty tabs now support mouse selection: drag, double-click for a word and triple-click for a line, with the selection highlighted. ⌘C, Ctrl+Shift+C, the Copy menu item and the browser copy event copy the selected text with wrapped lines joined. Right-click Paste types into Ghostty tabs, bracketed when the app asks for it. When an app turns on mouse reporting (vim, Claude's TUI), clicks, drags and movement are reported to it, and Shift+drag still selects.",
+      "sourceSha": "dd47958596e4b571053e601d75247fc65173a780",
+      "identity": "ghostty-mouse-selection:a59df563c0bcced2ffa1b087655f7fb1dc811987c85d3c0556a0c17d9d2b6639"
     }
   ],
   "consumedIntentIds": [
