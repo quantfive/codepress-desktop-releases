@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ffd7d8ca79206f553c363494d214ba12f65a4e78",
+  "cursorSha": "658c18996e37f0e4e1292c00955b87d288e641e6",
   "highWaterVersion": "1.423.0",
   "rows": [
     {
@@ -131574,6 +131574,18 @@
       "sourceSha": "ffd7d8ca79206f553c363494d214ba12f65a4e78",
       "sourcePackageVersion": "1.423.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "754fcc39d5f4d7ecccbea3fd4c2b671d06b0c8ef",
+      "sourcePackageVersion": "1.423.3",
+      "intentIds": [
+        "land-answers-at-commit:edb276b9dd181c7a0bee7fba902713e2a10f4e92ef10054a9d4683177dffa836"
+      ]
+    },
+    {
+      "sourceSha": "658c18996e37f0e4e1292c00955b87d288e641e6",
+      "sourcePackageVersion": "1.423.3",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -136568,6 +136580,14 @@
       "summary": "The Linux arm64 CLI can now be built on an x86 machine: its release build cross-compiles the native parts and checks the packaged arm64 binaries under emulation, with the same glibc requirement as before.",
       "sourceSha": "decf1a6cbf8f127a3befb8041f584e40fcd77437",
       "identity": "arm64-cli-cross-build:866f10f67e56a9c428d66fa016309c861f65cc76ba0c6a3e28e695b9d788641c"
+    },
+    {
+      "id": "land-answers-at-commit",
+      "digest": "edb276b9dd181c7a0bee7fba902713e2a10f4e92ef10054a9d4683177dffa836",
+      "type": "patch",
+      "summary": "Landing a project, from the Land dialog or the Land answer, now answers as soon as the land commits. Stopping the Orchestrator and workers, closing tabs, removing worktrees and closing issues continue in the background and report in the cleanup post.",
+      "sourceSha": "754fcc39d5f4d7ecccbea3fd4c2b671d06b0c8ef",
+      "identity": "land-answers-at-commit:edb276b9dd181c7a0bee7fba902713e2a10f4e92ef10054a9d4683177dffa836"
     }
   ],
   "consumedIntentIds": [
