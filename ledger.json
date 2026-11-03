@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "33ff6be80776b64fa174455d694e7d00802e659c",
+  "cursorSha": "91472c637272358b0156ac14e827027814e47d78",
   "highWaterVersion": "1.429.0",
   "rows": [
     {
@@ -132639,6 +132639,13 @@
       "intentIds": [
         "actor-helper-sshd-keyword-case:d94eabb40caab1e3a1c30b77a25a2155cda8d0225809552acf7f9f1f0d4d09b2"
       ]
+    },
+    {
+      "sourceSha": "91472c637272358b0156ac14e827027814e47d78",
+      "sourcePackageVersion": "1.433.2",
+      "intentIds": [
+        "terminal-handoff-lists-this-mac:4b6487faa6f9fe0409b086fb69228c3a16c1f27c291c0a0e47ddf49882508727"
+      ]
     }
   ],
   "intents": [
@@ -137857,6 +137864,14 @@
       "summary": "Test-only: the macOS actor-helper root test now reads `sshd -T` keywords case-insensitively, because the OpenSSH in macOS 27 prints `DenyUsers` where macOS 15 printed `denyusers`. The installed helper is unchanged.",
       "sourceSha": "33ff6be80776b64fa174455d694e7d00802e659c",
       "identity": "actor-helper-sshd-keyword-case:d94eabb40caab1e3a1c30b77a25a2155cda8d0225809552acf7f9f1f0d4d09b2"
+    },
+    {
+      "id": "terminal-handoff-lists-this-mac",
+      "digest": "4b6487faa6f9fe0409b086fb69228c3a16c1f27c291c0a0e47ddf49882508727",
+      "type": "patch",
+      "summary": "A cloud project's Hand off picker now lists the Mac you are using (This Mac) the way the web does; it was missing because Terminal's own feed dropped the fields the picker needs.",
+      "sourceSha": "91472c637272358b0156ac14e827027814e47d78",
+      "identity": "terminal-handoff-lists-this-mac:4b6487faa6f9fe0409b086fb69228c3a16c1f27c291c0a0e47ddf49882508727"
     }
   ],
   "consumedIntentIds": [
