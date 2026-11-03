@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "507c3f5021e54a3750040bb9884d1cf25906b6e2",
-  "highWaterVersion": "1.426.0",
+  "highWaterVersion": "1.427.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -69828,6 +69828,53 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:507c3f5021e54a3750040bb9884d1cf25906b6e2",
+      "kind": "main",
+      "sequence": 1973,
+      "sourceSha": "507c3f5021e54a3750040bb9884d1cf25906b6e2",
+      "sourcePackageVersion": "1.429.0",
+      "version": "1.427.0",
+      "publicationDate": "2026-11-03T10:31:43.273Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "limit-fallback-model:94a05a38e917b7fa10fbfab39253db19ca1440c34b1b19e9a39ade68a5715ca6",
+          "restart-tabs-after-broker-loss:7b0a5106086f2ff897884d3ec4b5c34603adec0c87034f2a135bf099ca8d51f5",
+          "connect-my-devices:d9ea125482b8292ca052743be7e9ce706d99262530213bdecd4b6ea53171e41e"
+        ],
+        "notesIntentIds": [
+          "limit-fallback-model:94a05a38e917b7fa10fbfab39253db19ca1440c34b1b19e9a39ade68a5715ca6",
+          "restart-tabs-after-broker-loss:7b0a5106086f2ff897884d3ec4b5c34603adec0c87034f2a135bf099ca8d51f5",
+          "connect-my-devices:d9ea125482b8292ca052743be7e9ce706d99262530213bdecd4b6ea53171e41e"
+        ],
+        "throughSourceSha": "507c3f5021e54a3750040bb9884d1cf25906b6e2",
+        "previousThroughSourceSha": "6168d4df34d42364aa7fea8d2655697a8068b3ff",
+        "baselineVersion": "1.426.0",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41619898922",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-04T10:31:37.789Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -138046,7 +138093,10 @@
     "terminal-worktree-rows:4faa6145d36b2fed5ac9b7c13c48b42616e9909216769a2d3df6412c7eab6593",
     "mac-skip-leaves-permissions-off:abe73fc953d92e3d0a86503c790ba2ba0dc4d855a3cb9451f8bca00b68f7718e",
     "staged-node-libraries:fcd031ba3f92d5d526e611046d822d77a30486b1da2b374d5facce5d9922d1de",
-    "ready-phone-handoff:5c130f6e93c79dda9dfad16d6e4dd3f3ec733bac50b4ee0d50de0910145e034e"
+    "ready-phone-handoff:5c130f6e93c79dda9dfad16d6e4dd3f3ec733bac50b4ee0d50de0910145e034e",
+    "limit-fallback-model:94a05a38e917b7fa10fbfab39253db19ca1440c34b1b19e9a39ade68a5715ca6",
+    "restart-tabs-after-broker-loss:7b0a5106086f2ff897884d3ec4b5c34603adec0c87034f2a135bf099ca8d51f5",
+    "connect-my-devices:d9ea125482b8292ca052743be7e9ce706d99262530213bdecd4b6ea53171e41e"
   ],
-  "consumedThroughSha": "6168d4df34d42364aa7fea8d2655697a8068b3ff"
+  "consumedThroughSha": "507c3f5021e54a3750040bb9884d1cf25906b6e2"
 }
