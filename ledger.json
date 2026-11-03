@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "bf1449a8d665814dbae1dc966d92373b60a3ade6",
+  "cursorSha": "d057cebdd1a399fa4ac4cff765672f9743f34b3a",
   "highWaterVersion": "1.428.0",
   "rows": [
     {
@@ -132556,6 +132556,13 @@
       "sourceSha": "bf1449a8d665814dbae1dc966d92373b60a3ade6",
       "sourcePackageVersion": "1.433.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d057cebdd1a399fa4ac4cff765672f9743f34b3a",
+      "sourcePackageVersion": "1.433.1",
+      "intentIds": [
+        "terminal-local-chat-artifact-store:33a757c85848895e7cdc7f9e161f026f8ea2f2ff892ad66361104d93a92230e5"
+      ]
     }
   ],
   "intents": [
@@ -137758,6 +137765,14 @@
       "summary": "Another device can ask this computer to open a terminal in an Orchestrator project, in a chosen worktree. The project's terminals list now says which worktree each one belongs to.",
       "sourceSha": "c2ee0fcea429455c415d443ade7179493f1a7761",
       "identity": "open-terminal-remote-pane:df0ea5761b098dadf9a2e55c3ab23d0e22beadcea6889e19133710c148550bb7"
+    },
+    {
+      "id": "terminal-local-chat-artifact-store",
+      "digest": "33a757c85848895e7cdc7f9e161f026f8ea2f2ff892ad66361104d93a92230e5",
+      "type": "patch",
+      "summary": "Add the local per-chat artifact store and its owner-only list and content routes. Nothing is visible yet: no tool or Artifacts tab publishes into it until a later release.",
+      "sourceSha": "d057cebdd1a399fa4ac4cff765672f9743f34b3a",
+      "identity": "terminal-local-chat-artifact-store:33a757c85848895e7cdc7f9e161f026f8ea2f2ff892ad66361104d93a92230e5"
     }
   ],
   "consumedIntentIds": [
