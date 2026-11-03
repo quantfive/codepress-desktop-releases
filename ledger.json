@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "fd37f529567c93b5b9aaa0f832cbc4833e4b7a47",
+  "cursorSha": "0068c7f71d1e78bd6443a8104b0c0906ed5f0127",
   "highWaterVersion": "1.435.7",
   "rows": [
     {
@@ -134178,6 +134178,13 @@
       "sourceSha": "fd37f529567c93b5b9aaa0f832cbc4833e4b7a47",
       "sourcePackageVersion": "1.439.16",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0068c7f71d1e78bd6443a8104b0c0906ed5f0127",
+      "sourcePackageVersion": "1.439.16",
+      "intentIds": [
+        "ghostty-tabs-move-between-panes:6413c4de7ab70a09ad90f06a4c1d75c97a021b58af5b2251dd7a25effc242c90"
+      ]
     }
   ],
   "intents": [
@@ -139628,6 +139635,14 @@
       "summary": "Terminal no longer carries test coverage for the retired `*.vercel.codepress.dev` web previews: the CodePress web app now runs only on CodePress Apps, so cloud sign-in tokens go to the codepress.dev origin the view opened, as before.",
       "sourceSha": "9363a4f40c537c4f41335c95726dc7e2311bc37a",
       "identity": "retire-vercel-preview-trust:2eff3febccc67cfab33dcc106c7498394be014706b4d1a4540ddd689aca8a41e"
+    },
+    {
+      "id": "ghostty-tabs-move-between-panes",
+      "digest": "6413c4de7ab70a09ad90f06a4c1d75c97a021b58af5b2251dd7a25effc242c90",
+      "type": "patch",
+      "summary": "Ghostty tabs now show in split panes, the Orchestrator's quick terminal pane and a work item's Terminal view. Before, their terminal stayed put and those surfaces were empty.",
+      "sourceSha": "0068c7f71d1e78bd6443a8104b0c0906ed5f0127",
+      "identity": "ghostty-tabs-move-between-panes:6413c4de7ab70a09ad90f06a4c1d75c97a021b58af5b2251dd7a25effc242c90"
     }
   ],
   "consumedIntentIds": [
