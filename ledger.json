@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "641db649315d5bf7f7738001a975e4b08b230f8c",
+  "cursorSha": "bb5d6ed9f2e60d15f66f52ea1b7892b6fdab51ad",
   "highWaterVersion": "1.435.1",
   "rows": [
     {
@@ -133478,6 +133478,13 @@
       "sourceSha": "641db649315d5bf7f7738001a975e4b08b230f8c",
       "sourcePackageVersion": "1.439.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "bb5d6ed9f2e60d15f66f52ea1b7892b6fdab51ad",
+      "sourcePackageVersion": "1.439.1",
+      "intentIds": [
+        "drop-handover-thread-line:8c1588de47501d7b291e76d7cc381dad012465f53a9c69d39907ae7d78bc09d1"
+      ]
     }
   ],
   "intents": [
@@ -138800,6 +138807,14 @@
       "summary": "Copy files an agent publishes in a cloud-synced tab to that tab's CodePress Cloud chat, so the web chat's Artifacts tab lists them.",
       "sourceSha": "5c1d192ddae036c5638032102688da7d9aee3fdc",
       "identity": "terminal-chat-artifacts-cloud-mirror:7d6eb02469b3400595fd1e3b08dbfb5f62e84f95f31fe582d42f82a2240ea866"
+    },
+    {
+      "id": "drop-handover-thread-line",
+      "digest": "8c1588de47501d7b291e76d7cc381dad012465f53a9c69d39907ae7d78bc09d1",
+      "type": "patch",
+      "summary": "A Terminal update that hands a local Orchestrator session to the new runtime no longer writes a thread line announcing the move. The conversation still resumes with its history.",
+      "sourceSha": "bb5d6ed9f2e60d15f66f52ea1b7892b6fdab51ad",
+      "identity": "drop-handover-thread-line:8c1588de47501d7b291e76d7cc381dad012465f53a9c69d39907ae7d78bc09d1"
     }
   ],
   "consumedIntentIds": [
