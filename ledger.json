@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "826c5eddab2a481f8c50d5f81da99b2ab192e33d",
+  "cursorSha": "be5ddd7a9d835d7e29fc5e063b377ed92e6df304",
   "highWaterVersion": "1.424.0",
   "rows": [
     {
@@ -131978,6 +131978,18 @@
       "sourceSha": "826c5eddab2a481f8c50d5f81da99b2ab192e33d",
       "sourcePackageVersion": "1.427.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "1453ed381c9aad9e0a3d65ead79b1091d3837e37",
+      "sourcePackageVersion": "1.427.1",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "be5ddd7a9d835d7e29fc5e063b377ed92e6df304",
+      "sourcePackageVersion": "1.427.1",
+      "intentIds": [
+        "live-browser-network-route:33f42ae63b33707de284d3c000890b1e27007cfc07a2a5860c33cefd41299862"
+      ]
     }
   ],
   "intents": [
@@ -137060,6 +137072,14 @@
       "summary": "A signed-out window no longer shows the Agent · Cloud · Terminal switcher or the status bar around the sign-in page. \"Use Terminal without signing in\" opens Terminal, and its title bar has a Sign in button. Signing in now opens the unified view on Agent, including for an account with no organization, which gets Agent, Terminal and Settings.",
       "sourceSha": "7ac7cac4ccef62301a59dc77ae4b746c98293256",
       "identity": "signed-out-no-bar:9a969f5b841ca2b44b42e0ff34186c87480c805236d784b47da2eb6402b8d4fb"
+    },
+    {
+      "id": "live-browser-network-route",
+      "digest": "33f42ae63b33707de284d3c000890b1e27007cfc07a2a5860c33cefd41299862",
+      "type": "patch",
+      "summary": "Keep Terminal's shared browser network status labels aligned with the live browser route button and refresh its UI dependency manifest.",
+      "sourceSha": "be5ddd7a9d835d7e29fc5e063b377ed92e6df304",
+      "identity": "live-browser-network-route:33f42ae63b33707de284d3c000890b1e27007cfc07a2a5860c33cefd41299862"
     }
   ],
   "consumedIntentIds": [
