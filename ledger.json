@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "8e2963048934645e7885bcc4e52cbb081758fd18",
+  "cursorSha": "ce4b5b4a875a629639f94f94b2c03b60f9c172f7",
   "highWaterVersion": "1.423.2",
   "rows": [
     {
@@ -131808,6 +131808,13 @@
       "sourceSha": "8e2963048934645e7885bcc4e52cbb081758fd18",
       "sourcePackageVersion": "1.424.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ce4b5b4a875a629639f94f94b2c03b60f9c172f7",
+      "sourcePackageVersion": "1.424.0",
+      "intentIds": [
+        "keep-apps-preview-frames:b91e92fb5f93a5b411c95ba59996f9ff58a3b7f004fa527ecd525e0a54241147"
+      ]
     }
   ],
   "intents": [
@@ -136842,6 +136849,14 @@
       "summary": "A Kimi agent at its usage limit now says which limit it hit (5-hour, weekly, or monthly) and when it resets. It waits on the same account and resumes by itself at the reset. A person can switch this computer to another Kimi account from the limit strip. Kimi's concurrent-request, too-many-requests and overload errors are not treated as limits.",
       "sourceSha": "6f95aca0b4616f3b9c7205efaf44a3e08d2ac17b",
       "identity": "kimi-limit-recovery:0f2d9ffe2e644560273b9c272ef1ef3888665cb68dcacf4ae1ea659e78653440"
+    },
+    {
+      "id": "keep-apps-preview-frames",
+      "digest": "b91e92fb5f93a5b411c95ba59996f9ff58a3b7f004fa527ecd525e0a54241147",
+      "type": "patch",
+      "summary": "Apps page (collections view): an App's preview or widget card no longer reloads when the collections, a collection's members or Loose apps are read again; a card still reloads for a new build, a readiness change or a link near expiry.",
+      "sourceSha": "ce4b5b4a875a629639f94f94b2c03b60f9c172f7",
+      "identity": "keep-apps-preview-frames:b91e92fb5f93a5b411c95ba59996f9ff58a3b7f004fa527ecd525e0a54241147"
     }
   ],
   "consumedIntentIds": [
