@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2c4cab450ff491a6f85a95e23a92fecf0ab5c2a6",
+  "cursorSha": "5deb976abd00f3131f7f57f4eb3b6856d967c2a9",
   "highWaterVersion": "1.434.0",
   "rows": [
     {
@@ -133272,6 +133272,11 @@
       "intentIds": [
         "ffmpeg-source-fetch-retry:378ddaba58fcd1ab03c62ad48c0e2798174c677210411ca758ef49f92c654841"
       ]
+    },
+    {
+      "sourceSha": "5deb976abd00f3131f7f57f4eb3b6856d967c2a9",
+      "sourcePackageVersion": "1.438.1",
+      "intentIds": []
     }
   ],
   "intents": [
