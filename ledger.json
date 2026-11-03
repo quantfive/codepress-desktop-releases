@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7b59412eda7a644ae4cb0824c8aff8994967d9b5",
+  "cursorSha": "0ae542a3bba9f12b63dace57c077f7baed13b4fd",
   "highWaterVersion": "1.435.6",
   "rows": [
     {
@@ -134014,6 +134014,18 @@
       "sourceSha": "7b59412eda7a644ae4cb0824c8aff8994967d9b5",
       "sourcePackageVersion": "1.439.11",
       "intentIds": []
+    },
+    {
+      "sourceSha": "23221d65a8e2676afdf59c10b15b3839a0b0032c",
+      "sourcePackageVersion": "1.439.11",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "0ae542a3bba9f12b63dace57c077f7baed13b4fd",
+      "sourcePackageVersion": "1.439.11",
+      "intentIds": [
+        "media-signing-settles:618b9abd884b4b781c483448b4346da0cc8ef6a05e955fd2f0840e4933bc12bd"
+      ]
     }
   ],
   "intents": [
@@ -139416,6 +139428,14 @@
       "summary": "Send in the Orchestrator or Chat kickoff now opens the new thread right away, with your brief as its first message and where it is starting, and the real thread takes over in place once it syncs. No more Sending spinner, \"Opening its thread…\" or \"It is in the agent list.\"",
       "sourceSha": "c44758bf56ba14469f2cd6327b10c995dc4a81d4",
       "identity": "launching-thread-on-send:6fb6efa05a8f125da2cc10f29bc95d6740d228f176ab7f7633ce48b68f6169e2"
+    },
+    {
+      "id": "media-signing-settles",
+      "digest": "618b9abd884b4b781c483448b4346da0cc8ef6a05e955fd2f0840e4933bc12bd",
+      "type": "patch",
+      "summary": "Plan pages, videos, images and PDFs no longer stay blank when the media signing request never answers: signing gives up after 3 seconds and loads the plain URL, and windows whose daemon isn't enforcing media capabilities stop asking for a signature on every frame.",
+      "sourceSha": "0ae542a3bba9f12b63dace57c077f7baed13b4fd",
+      "identity": "media-signing-settles:618b9abd884b4b781c483448b4346da0cc8ef6a05e955fd2f0840e4933bc12bd"
     }
   ],
   "consumedIntentIds": [
