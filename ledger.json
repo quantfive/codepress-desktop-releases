@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "603cdfbc2eda251c48011dd7a8b2c66ed9d6de10",
+  "cursorSha": "b568bc120f570d6de02a92baa03c058fb90e37a1",
   "highWaterVersion": "1.424.0",
   "rows": [
     {
@@ -131892,6 +131892,13 @@
       "sourceSha": "603cdfbc2eda251c48011dd7a8b2c66ed9d6de10",
       "sourcePackageVersion": "1.425.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b568bc120f570d6de02a92baa03c058fb90e37a1",
+      "sourcePackageVersion": "1.425.0",
+      "intentIds": [
+        "mcp-sign-in-every-device:ad44fa60fde6bcbfa7b7c9094d3749d56f8f7534934c9352e789ceb581c2b832"
+      ]
     }
   ],
   "intents": [
@@ -136942,6 +136949,14 @@
       "summary": "Cloud chats in Terminal have an Artifacts view next to Thread: the chat's files, design packets and attachments as a preview-card grid, each opening full size in place. Design packets run in a sandbox that cannot reach the network. A file the agent uploads shows in the thread as a card whose Open jumps to it in Artifacts.",
       "sourceSha": "84afaeb3da76c1d4e5ab056585847afdbb8b38ad",
       "identity": "terminal-cloud-chat-artifacts:304f9068279a2ad3903f6da2ec4cb9b187a8f943aa763a1190becb4113e2a159"
+    },
+    {
+      "id": "mcp-sign-in-every-device",
+      "digest": "ad44fa60fde6bcbfa7b7c9094d3749d56f8f7534934c9352e789ceb581c2b832",
+      "type": "minor",
+      "summary": "The MCP sign-in card and its composer chip now show on every device that reads a project or chat. On another device they list the servers and their states and say to sign in from Terminal on the home computer, or that it is offline; Not now works from there too.",
+      "sourceSha": "b568bc120f570d6de02a92baa03c058fb90e37a1",
+      "identity": "mcp-sign-in-every-device:ad44fa60fde6bcbfa7b7c9094d3749d56f8f7534934c9352e789ceb581c2b832"
     }
   ],
   "consumedIntentIds": [
