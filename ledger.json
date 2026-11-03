@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2300bc3ac3a70fbdda6b91b9ef3dfd4c9d507644",
+  "cursorSha": "e12454cd963a0f07c3fcbfceca70a365a1a5b960",
   "highWaterVersion": "1.426.0",
   "rows": [
     {
@@ -132197,6 +132197,13 @@
       "sourceSha": "2300bc3ac3a70fbdda6b91b9ef3dfd4c9d507644",
       "sourcePackageVersion": "1.428.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e12454cd963a0f07c3fcbfceca70a365a1a5b960",
+      "sourcePackageVersion": "1.428.2",
+      "intentIds": [
+        "limit-fallback-model:94a05a38e917b7fa10fbfab39253db19ca1440c34b1b19e9a39ade68a5715ca6"
+      ]
     }
   ],
   "intents": [
@@ -137319,6 +137326,14 @@
       "summary": "First run with device URLs on: once you're signed in, the You're Ready step shows how to open this computer on your phone. In the desktop app it shows a QR code of this computer's URL once the URL is connected, plus the CodePress Mobile App Store link. While the URL is still connecting, the step shows the link and says the computer appears in the app once it connects. Off by default behind `terminal_device_urls`.",
       "sourceSha": "ef3af7180c65e29f1db830da3f80b537bb1acefe",
       "identity": "ready-phone-handoff:5c130f6e93c79dda9dfad16d6e4dd3f3ec733bac50b4ee0d50de0910145e034e"
+    },
+    {
+      "id": "limit-fallback-model",
+      "digest": "94a05a38e917b7fa10fbfab39253db19ca1440c34b1b19e9a39ade68a5715ca6",
+      "type": "minor",
+      "summary": "A worker that hits a limit Terminal can't switch accounts past can now continue by itself on one model you pick ahead of time. Settings → Accounts → \"Continue on another provider at a limit\" is off by default. Nothing moves to another account, and a destination that is also at its limit, or that a repository rule refuses, means the worker waits, with the reason in the Orchestrator's inbox. The project composer shows \"continued on <model>\", with Back once the limit resets. Gemini is offered only on an API key, marked per token, never on your own `agy` sign-in.",
+      "sourceSha": "e12454cd963a0f07c3fcbfceca70a365a1a5b960",
+      "identity": "limit-fallback-model:94a05a38e917b7fa10fbfab39253db19ca1440c34b1b19e9a39ade68a5715ca6"
     }
   ],
   "consumedIntentIds": [
