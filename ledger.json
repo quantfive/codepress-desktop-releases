@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "dbf13e5d4160f66b5380a35ca6f170c71a2dd6c0",
+  "cursorSha": "406c02baf291f645a48edacba68565303a9466c4",
   "highWaterVersion": "1.434.0",
   "rows": [
     {
@@ -133282,6 +133282,13 @@
       "sourceSha": "dbf13e5d4160f66b5380a35ca6f170c71a2dd6c0",
       "sourcePackageVersion": "1.438.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "406c02baf291f645a48edacba68565303a9466c4",
+      "sourcePackageVersion": "1.438.1",
+      "intentIds": [
+        "terminal-remote-tab-artifacts:07f12983af2dbba3d4939259c223dab0eb9121cdd6b94060259b3655f896b581"
+      ]
     }
   ],
   "intents": [
@@ -138588,6 +138595,14 @@
       "summary": "The macOS release builds retry the FFmpeg source download when ffmpeg.org resets the connection, instead of failing the build on the first reset.",
       "sourceSha": "2c4cab450ff491a6f85a95e23a92fecf0ab5c2a6",
       "identity": "ffmpeg-source-fetch-retry:378ddaba58fcd1ab03c62ad48c0e2798174c677210411ca758ef49f92c654841"
+    },
+    {
+      "id": "terminal-remote-tab-artifacts",
+      "digest": "07f12983af2dbba3d4939259c223dab0eb9121cdd6b94060259b3655f896b581",
+      "type": "minor",
+      "summary": "An agent tab on another of your machines now shows that machine's Artifacts. In the other-machine agent view the switch gains Artifacts, and a live tab from another Mac gets the same Terminal | Artifacts switch as this Mac's tabs. Files up to 10 MB open full size; larger ones say to open them on that machine. A machine on an older CodePress says to update it.",
+      "sourceSha": "406c02baf291f645a48edacba68565303a9466c4",
+      "identity": "terminal-remote-tab-artifacts:07f12983af2dbba3d4939259c223dab0eb9121cdd6b94060259b3655f896b581"
     }
   ],
   "consumedIntentIds": [
