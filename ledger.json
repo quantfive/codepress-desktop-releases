@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a051c47af95a93b53805a527cd2233643931bea0",
+  "cursorSha": "4d73c2bddf3a9b2cb9da20aba12a9ec96aa00896",
   "highWaterVersion": "1.422.0",
   "rows": [
     {
@@ -131351,6 +131351,13 @@
       "sourceSha": "a051c47af95a93b53805a527cd2233643931bea0",
       "sourcePackageVersion": "1.422.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4d73c2bddf3a9b2cb9da20aba12a9ec96aa00896",
+      "sourcePackageVersion": "1.422.0",
+      "intentIds": [
+        "auto-kickoff-fixes:ac75716227905aa2e6b4386aeb5cf74ee6bdef2c5cd605c2660cfb436a044b55"
+      ]
     }
   ],
   "intents": [
@@ -136297,6 +136304,14 @@
       "summary": "Pick the Grok account `grok` runs on, in any tab and for any worker: choose one in Settings → Agents → Accounts, and Terminal writes it into `~/.grok`, keeps any tokens the CLI rotates, restarts open conversations one at a time, and puts your own login back when you clear it. A repository rule can bind a repository to an account without moving the rest of the computer, an account can be restricted to repositories, and another computer can show and change this one's choice. With no account chosen, `~/.grok` is never touched.",
       "sourceSha": "c3bdfbc27a3386bfb759fb9f7f7e3a2284a5e3b0",
       "identity": "grok-active-account:eff958fe931f4363c3fe83714504dbe8f4c80b9114f3e5c448ae2e9669f17183"
+    },
+    {
+      "id": "auto-kickoff-fixes",
+      "digest": "ac75716227905aa2e6b4386aeb5cf74ee6bdef2c5cd605c2660cfb436a044b55",
+      "type": "patch",
+      "summary": "With local-first routing on, a project with two repositories stays on this machine when your Macs are full instead of going to Cloud with only the first one, and a retried start no longer leaves a second reservation held until the sweep.",
+      "sourceSha": "4d73c2bddf3a9b2cb9da20aba12a9ec96aa00896",
+      "identity": "auto-kickoff-fixes:ac75716227905aa2e6b4386aeb5cf74ee6bdef2c5cd605c2660cfb436a044b55"
     }
   ],
   "consumedIntentIds": [
