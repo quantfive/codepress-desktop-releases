@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1c7b7c3e866754a7f8b7a96fda5267e5bd9d2cc2",
+  "cursorSha": "b0df11979d20c750824dcea8772bfa2bd8c1650b",
   "highWaterVersion": "1.435.9",
   "rows": [
     {
@@ -134352,6 +134352,13 @@
       "sourceSha": "1c7b7c3e866754a7f8b7a96fda5267e5bd9d2cc2",
       "sourcePackageVersion": "1.439.18",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b0df11979d20c750824dcea8772bfa2bd8c1650b",
+      "sourcePackageVersion": "1.439.18",
+      "intentIds": [
+        "terminal-stream-pool:d2b035ef6f6ad5d69aa3b0ee59c0781937d6ba0b75a0173b5e049d5e2096b389"
+      ]
     }
   ],
   "intents": [
@@ -139818,6 +139825,14 @@
       "summary": "Skip Terminal's integration CI job when its selected plan contains no tests.",
       "sourceSha": "81da58d86ca4cea5c0d16c057125de269618a271",
       "identity": "empty-terminal-integration:758c1eee267433c21d50508301fcfc4208f191c8051f3596ab8c75e26ff0c65b"
+    },
+    {
+      "id": "terminal-stream-pool",
+      "digest": "d2b035ef6f6ad5d69aa3b0ee59c0781937d6ba0b75a0173b5e049d5e2096b389",
+      "type": "patch",
+      "summary": "A window's live-update streams to its daemon (cards, the PM thread, talk, subagent transcripts) now share one connection, so plan pages, media signing and API calls no longer wait behind them when several Orchestrator views or windows are open. A daemon without the shared stream keeps a connection per stream.",
+      "sourceSha": "b0df11979d20c750824dcea8772bfa2bd8c1650b",
+      "identity": "terminal-stream-pool:d2b035ef6f6ad5d69aa3b0ee59c0781937d6ba0b75a0173b5e049d5e2096b389"
     }
   ],
   "consumedIntentIds": [
