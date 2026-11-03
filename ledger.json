@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "5c1d192ddae036c5638032102688da7d9aee3fdc",
-  "highWaterVersion": "1.435.0",
+  "highWaterVersion": "1.435.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -70465,6 +70465,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:5c1d192ddae036c5638032102688da7d9aee3fdc",
+      "kind": "main",
+      "sequence": 1984,
+      "sourceSha": "5c1d192ddae036c5638032102688da7d9aee3fdc",
+      "sourcePackageVersion": "1.439.0",
+      "version": "1.435.1",
+      "publicationDate": "2026-11-03T16:50:12.109Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-chat-artifacts-cloud-mirror:7d6eb02469b3400595fd1e3b08dbfb5f62e84f95f31fe582d42f82a2240ea866"
+        ],
+        "notesIntentIds": [
+          "terminal-chat-artifacts-cloud-mirror:7d6eb02469b3400595fd1e3b08dbfb5f62e84f95f31fe582d42f82a2240ea866"
+        ],
+        "throughSourceSha": "5c1d192ddae036c5638032102688da7d9aee3fdc",
+        "previousThroughSourceSha": "c8353bdce82375ecf0030331e3d3bad90413b272",
+        "baselineVersion": "1.435.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41678124643",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-04T16:50:06.082Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -139406,7 +139449,8 @@
     "device-url-sign-in-seam:692b459c378070940ad0ecef1e0d99b558e95f5565046cf65a626795ba297aa1",
     "kimi-automatic-switching:b5e7c1d2eb9cafb628df113655dcea568b5e8c15946784c940ab61ec3a796e66",
     "ffmpeg-source-fetch-retry:378ddaba58fcd1ab03c62ad48c0e2798174c677210411ca758ef49f92c654841",
-    "terminal-remote-tab-artifacts:07f12983af2dbba3d4939259c223dab0eb9121cdd6b94060259b3655f896b581"
+    "terminal-remote-tab-artifacts:07f12983af2dbba3d4939259c223dab0eb9121cdd6b94060259b3655f896b581",
+    "terminal-chat-artifacts-cloud-mirror:7d6eb02469b3400595fd1e3b08dbfb5f62e84f95f31fe582d42f82a2240ea866"
   ],
-  "consumedThroughSha": "c8353bdce82375ecf0030331e3d3bad90413b272"
+  "consumedThroughSha": "5c1d192ddae036c5638032102688da7d9aee3fdc"
 }
