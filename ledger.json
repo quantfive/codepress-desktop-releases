@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e042e6f35b852716e7f4231069e6a7770f3bd611",
+  "cursorSha": "decf1a6cbf8f127a3befb8041f584e40fcd77437",
   "highWaterVersion": "1.423.0",
   "rows": [
     {
@@ -131557,6 +131557,13 @@
       "sourceSha": "e042e6f35b852716e7f4231069e6a7770f3bd611",
       "sourcePackageVersion": "1.423.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "decf1a6cbf8f127a3befb8041f584e40fcd77437",
+      "sourcePackageVersion": "1.423.2",
+      "intentIds": [
+        "arm64-cli-cross-build:866f10f67e56a9c428d66fa016309c861f65cc76ba0c6a3e28e695b9d788641c"
+      ]
     }
   ],
   "intents": [
@@ -136543,6 +136550,14 @@
       "summary": "Landing an Orchestrator project with nothing done (no work items, or every item cancelled) now closes its plan issue as not planned instead of completed.",
       "sourceSha": "058fe6c1cf4f28421dc5ab037428c7c8b78fe905",
       "identity": "plan-issue-not-planned:053984f667aefd06216296f8526859672f338035e8085c3d031400d2ba461cf1"
+    },
+    {
+      "id": "arm64-cli-cross-build",
+      "digest": "866f10f67e56a9c428d66fa016309c861f65cc76ba0c6a3e28e695b9d788641c",
+      "type": "patch",
+      "summary": "The Linux arm64 CLI can now be built on an x86 machine: its release build cross-compiles the native parts and checks the packaged arm64 binaries under emulation, with the same glibc requirement as before.",
+      "sourceSha": "decf1a6cbf8f127a3befb8041f584e40fcd77437",
+      "identity": "arm64-cli-cross-build:866f10f67e56a9c428d66fa016309c861f65cc76ba0c6a3e28e695b9d788641c"
     }
   ],
   "consumedIntentIds": [
