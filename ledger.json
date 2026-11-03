@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "08c4e662bc12d17382b72a31e411ef1c61118432",
+  "cursorSha": "507c3f5021e54a3750040bb9884d1cf25906b6e2",
   "highWaterVersion": "1.426.0",
   "rows": [
     {
@@ -132246,6 +132246,18 @@
       "sourceSha": "08c4e662bc12d17382b72a31e411ef1c61118432",
       "sourcePackageVersion": "1.429.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "fd75890328be1c8d60343d17142e83f56844c4b3",
+      "sourcePackageVersion": "1.429.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "507c3f5021e54a3750040bb9884d1cf25906b6e2",
+      "sourcePackageVersion": "1.429.0",
+      "intentIds": [
+        "connect-my-devices:d9ea125482b8292ca052743be7e9ce706d99262530213bdecd4b6ea53171e41e"
+      ]
     }
   ],
   "intents": [
@@ -137384,6 +137396,14 @@
       "summary": "Tabs whose terminal broker dies while Terminal keeps running (for example, killed by the system when memory runs out) now restart with a fresh shell in place, in their saved folder, with their Claude Code or Codex conversation resumed. Ghostty tabs come back as Ghostty when the setting allows. Before, those tabs stayed stuck until the app was restarted.",
       "sourceSha": "e9de6e1825192f4524fbd0586f99af24ed99899e",
       "identity": "restart-tabs-after-broker-loss:7b0a5106086f2ff897884d3ec4b5c34603adec0c87034f2a135bf099ca8d51f5"
+    },
+    {
+      "id": "connect-my-devices",
+      "digest": "d9ea125482b8292ca052743be7e9ce706d99262530213bdecd4b6ea53171e41e",
+      "type": "minor",
+      "summary": "Connect my devices: when Device URLs are turned on for your account, Terminal starts no public tunnel until you turn on Connect my devices in Remote Access. With it on, this computer keeps one URL and comes back to it after sleep or a restart. Remote Access shows when you are at your plan's computer limit, when your plan doesn't include a URL for this computer, or when Device URLs are full and Terminal is retrying. With Device URLs off, Remote Access works as before.",
+      "sourceSha": "507c3f5021e54a3750040bb9884d1cf25906b6e2",
+      "identity": "connect-my-devices:d9ea125482b8292ca052743be7e9ce706d99262530213bdecd4b6ea53171e41e"
     }
   ],
   "consumedIntentIds": [
