@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c00947a3a28721a3bbf5a1c67bdf99a3e532c4cd",
+  "cursorSha": "7ac7cac4ccef62301a59dc77ae4b746c98293256",
   "highWaterVersion": "1.424.0",
   "rows": [
     {
@@ -131966,6 +131966,13 @@
       "sourceSha": "c00947a3a28721a3bbf5a1c67bdf99a3e532c4cd",
       "sourcePackageVersion": "1.427.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7ac7cac4ccef62301a59dc77ae4b746c98293256",
+      "sourcePackageVersion": "1.427.0",
+      "intentIds": [
+        "signed-out-no-bar:9a969f5b841ca2b44b42e0ff34186c87480c805236d784b47da2eb6402b8d4fb"
+      ]
     }
   ],
   "intents": [
@@ -137040,6 +137047,14 @@
       "summary": "First run with device URLs on: in the desktop app, signing in to CodePress is the first step (with Continue locally as the way past it), and the signed-in step shows this computer's URL. Signing in on a desktop turns the URL on by itself unless the person turned it off. Off by default behind `terminal_device_urls`.",
       "sourceSha": "3717cbc8a2cb0457a5011ca902e370dc99fb5f6d",
       "identity": "sign-in-first-device-url:d3e34c027c093aae36c4a44a03c168a890e8bc9ef00b18b3019510b728e63346"
+    },
+    {
+      "id": "signed-out-no-bar",
+      "digest": "9a969f5b841ca2b44b42e0ff34186c87480c805236d784b47da2eb6402b8d4fb",
+      "type": "patch",
+      "summary": "A signed-out window no longer shows the Agent · Cloud · Terminal switcher or the status bar around the sign-in page. \"Use Terminal without signing in\" opens Terminal, and its title bar has a Sign in button. Signing in now opens the unified view on Agent, including for an account with no organization, which gets Agent, Terminal and Settings.",
+      "sourceSha": "7ac7cac4ccef62301a59dc77ae4b746c98293256",
+      "identity": "signed-out-no-bar:9a969f5b841ca2b44b42e0ff34186c87480c805236d784b47da2eb6402b8d4fb"
     }
   ],
   "consumedIntentIds": [
