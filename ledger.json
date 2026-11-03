@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "74f5622dc3563217161b7b0cbac78092df8d5694",
+  "cursorSha": "53d80628126971ed7798facbb23daadb618fb60b",
   "highWaterVersion": "1.437.1",
   "rows": [
     {
@@ -134713,6 +134713,18 @@
       "intentIds": [
         "signed-out-no-cloud:8fd45d05e6913911f8544f7fdc7a35cfed9afe7e8669314aa72f39df0e880fcf"
       ]
+    },
+    {
+      "sourceSha": "7863520ace48f5a90cfc4625885ed235b6018e6f",
+      "sourcePackageVersion": "1.441.1",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "53d80628126971ed7798facbb23daadb618fb60b",
+      "sourcePackageVersion": "1.441.1",
+      "intentIds": [
+        "local-project-artifacts:69df08500a4a4b4d9309c757874c9d351984706c684f10b16a96de35079ba814"
+      ]
     }
   ],
   "intents": [
@@ -140227,6 +140239,14 @@
       "summary": "A signed-out window no longer opens on codepress.dev's embedded login page: it lands on Terminal, and a link or Cloud page asked for while signed out opens Terminal's own sign-in prompt instead.",
       "sourceSha": "74f5622dc3563217161b7b0cbac78092df8d5694",
       "identity": "signed-out-no-cloud:8fd45d05e6913911f8544f7fdc7a35cfed9afe7e8669314aa72f39df0e880fcf"
+    },
+    {
+      "id": "local-project-artifacts",
+      "digest": "69df08500a4a4b4d9309c757874c9d351984706c684f10b16a96de35079ba814",
+      "type": "minor",
+      "summary": "Every local Orchestrator project now has an Artifacts tab from its first frame. It lists what the project's Orchestrator and each of its workers publish, closed workers included, with each card labelled \"Orchestrator\" or \"<work item> · worker\". The project's Orchestrator can publish deliverables with `publish_artifact`.",
+      "sourceSha": "53d80628126971ed7798facbb23daadb618fb60b",
+      "identity": "local-project-artifacts:69df08500a4a4b4d9309c757874c9d351984706c684f10b16a96de35079ba814"
     }
   ],
   "consumedIntentIds": [
