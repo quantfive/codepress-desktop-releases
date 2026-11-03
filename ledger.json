@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "8d48a8b9d8071e87b1048d46933b78960fa60998",
+  "cursorSha": "3671f398a3a49f0f6d8a2e42f61edb60cc353b33",
   "highWaterVersion": "1.425.0",
   "rows": [
     {
@@ -132090,6 +132090,13 @@
       "sourceSha": "8d48a8b9d8071e87b1048d46933b78960fa60998",
       "sourcePackageVersion": "1.428.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3671f398a3a49f0f6d8a2e42f61edb60cc353b33",
+      "sourcePackageVersion": "1.428.0",
+      "intentIds": [
+        "mac-skip-leaves-permissions-off:abe73fc953d92e3d0a86503c790ba2ba0dc4d855a3cb9451f8bca00b68f7718e"
+      ]
     }
   ],
   "intents": [
@@ -137188,6 +137195,14 @@
       "summary": "The Orchestrator's Terminal view now shows the project's worktrees in a row of their own (the session's, then one per worker, named after its work item) above the selected worktree's tabs, on this Mac's projects and on another Mac's. Each worktree remembers the tab you left it on, a worker's terminal link opens on that worker's worktree, and **+** opens a tab in the selected worktree.",
       "sourceSha": "a8abb9191d9ae56c8c5e393c28aa8578a8d9e394",
       "identity": "terminal-worktree-rows:4faa6145d36b2fed5ac9b7c13c48b42616e9909216769a2d3df6412c7eab6593"
+    },
+    {
+      "id": "mac-skip-leaves-permissions-off",
+      "digest": "abe73fc953d92e3d0a86503c790ba2ba0dc4d855a3cb9451f8bca00b68f7718e",
+      "type": "patch",
+      "summary": "With device URLs on, Skip on a Mac permission step (first run or What changed) no longer turns on Computer Use, Remote Desktop or Keep Awake: stored values stay as they are, and What changed does not come back. Finish still saves the switches shown. Off by default behind `terminal_device_urls`.",
+      "sourceSha": "3671f398a3a49f0f6d8a2e42f61edb60cc353b33",
+      "identity": "mac-skip-leaves-permissions-off:abe73fc953d92e3d0a86503c790ba2ba0dc4d855a3cb9451f8bca00b68f7718e"
     }
   ],
   "consumedIntentIds": [
