@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e32c8f6bd18333bb81f1791619a88adb29e00462",
+  "cursorSha": "59bf61e57e8c82edc97449798a6d56f1f2c0738e",
   "highWaterVersion": "1.422.1",
   "rows": [
     {
@@ -131447,6 +131447,13 @@
       "sourceSha": "e32c8f6bd18333bb81f1791619a88adb29e00462",
       "sourcePackageVersion": "1.423.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "59bf61e57e8c82edc97449798a6d56f1f2c0738e",
+      "sourcePackageVersion": "1.423.0",
+      "intentIds": [
+        "phone-link-open-outside-tauri:ba47f558429b237584aed609885718f3479e0e75914402facfefcca234cbdd74"
+      ]
     }
   ],
   "intents": [
@@ -136417,6 +136424,14 @@
       "summary": "Preferences → General → Appearance has a Unified view switch. Off opens Terminal's classic title bar and sidebar on this account, and it follows the same choice as the web.",
       "sourceSha": "fdb84c5ad672667806da0e02ed1ade4a2bdaa3d8",
       "identity": "terminal-unified-view-preference:1a53c1a4223b5a43b3e8ca8c021b236e02c4d6f45a8458a4f1af5e67bb27a59f"
+    },
+    {
+      "id": "phone-link-open-outside-tauri",
+      "digest": "ba47f558429b237584aed609885718f3479e0e75914402facfefcca234cbdd74",
+      "type": "patch",
+      "summary": "Links open again from an \"open another machine\" window: outside the desktop app's own window, an external link opens through the window's browser handoff instead of doing nothing.",
+      "sourceSha": "59bf61e57e8c82edc97449798a6d56f1f2c0738e",
+      "identity": "phone-link-open-outside-tauri:ba47f558429b237584aed609885718f3479e0e75914402facfefcca234cbdd74"
     }
   ],
   "consumedIntentIds": [
