@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2044ead1c1f654aa3efc74cf264256b5f461f71c",
+  "cursorSha": "268c9ef9512c6be08ffe05e284e9c8865b5640ea",
   "highWaterVersion": "1.435.7",
   "rows": [
     {
@@ -134085,6 +134085,13 @@
       "sourceSha": "2044ead1c1f654aa3efc74cf264256b5f461f71c",
       "sourcePackageVersion": "1.439.12",
       "intentIds": []
+    },
+    {
+      "sourceSha": "268c9ef9512c6be08ffe05e284e9c8865b5640ea",
+      "sourcePackageVersion": "1.439.12",
+      "intentIds": [
+        "ghostty-bell-clipboard:efb22284925e6a2c6abad382a3c8cd5c97d4969793c5445aa9eb569ae94d9302"
+      ]
     }
   ],
   "intents": [
@@ -139495,6 +139502,14 @@
       "summary": "Plan pages, videos, images and PDFs no longer stay blank when the media signing request never answers: signing gives up after 3 seconds and loads the plain URL, and windows whose daemon isn't enforcing media capabilities stop asking for a signature on every frame.",
       "sourceSha": "0ae542a3bba9f12b63dace57c077f7baed13b4fd",
       "identity": "media-signing-settles:618b9abd884b4b781c483448b4346da0cc8ef6a05e955fd2f0840e4933bc12bd"
+    },
+    {
+      "id": "ghostty-bell-clipboard",
+      "digest": "efb22284925e6a2c6abad382a3c8cd5c97d4969793c5445aa9eb569ae94d9302",
+      "type": "patch",
+      "summary": "Ghostty tabs now play the terminal bell and honor OSC 52 clipboard writes and reads, matching xterm tabs. Each effect fires once for live output and never on reload, reattach or history.",
+      "sourceSha": "268c9ef9512c6be08ffe05e284e9c8865b5640ea",
+      "identity": "ghostty-bell-clipboard:efb22284925e6a2c6abad382a3c8cd5c97d4969793c5445aa9eb569ae94d9302"
     }
   ],
   "consumedIntentIds": [
