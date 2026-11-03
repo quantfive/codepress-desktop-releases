@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "839a43c7525ad6e5a976e7bc671a9cdaf1952397",
+  "cursorSha": "94741c46a7d7cdc88c02f02d73147b8537d0a321",
   "highWaterVersion": "1.429.0",
   "rows": [
     {
@@ -132693,6 +132693,13 @@
       "sourceSha": "839a43c7525ad6e5a976e7bc671a9cdaf1952397",
       "sourcePackageVersion": "1.433.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "94741c46a7d7cdc88c02f02d73147b8537d0a321",
+      "sourcePackageVersion": "1.433.4",
+      "intentIds": [
+        "start-a-terminal-button:dbdff70622dd36867ca3f5b015cea5fae025ef29c44f48dc9763ad45d0fd9c11"
+      ]
     }
   ],
   "intents": [
@@ -137927,6 +137934,14 @@
       "summary": "A computer chat started from the web can carry its referenced context and the app it came from as data. The first message keeps exactly what was typed and shows a \"From <app>\" chip, and the Orchestrator reads the context as reference data. Terminal advertises `kickoff_context` so the web sends these fields only to a Terminal that takes them.",
       "sourceSha": "e260b9b38336acb0e72a3024a04f3dfab4666f6e",
       "identity": "kickoff-context-origin:3ff906dc7af2249559c41e9953832df4abe9a6ffef8dad8efd61bd91835ce103"
+    },
+    {
+      "id": "start-a-terminal-button",
+      "digest": "dbdff70622dd36867ca3f5b015cea5fae025ef29c44f48dc9763ad45d0fd9c11",
+      "type": "minor",
+      "summary": "Every empty or closed Terminal tab now has a Start a terminal button. On another computer's project it opens a shell on that computer, in the selected worktree; a closed or landed local session starts a new one; and \"+\" opens one more remotely too.",
+      "sourceSha": "94741c46a7d7cdc88c02f02d73147b8537d0a321",
+      "identity": "start-a-terminal-button:dbdff70622dd36867ca3f5b015cea5fae025ef29c44f48dc9763ad45d0fd9c11"
     }
   ],
   "consumedIntentIds": [
