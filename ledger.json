@@ -69548,7 +69548,7 @@
         "type": "patch"
       },
       "mac": {
-        "status": "claimed",
+        "status": "dispatching",
         "generation": 1,
         "owner": {
           "ownerId": "terminal-macos-delivery",
@@ -69556,7 +69556,11 @@
           "attempt": 1
         },
         "leaseUntil": "2026-11-04T03:04:42.158Z",
-        "dispatch": null,
+        "dispatch": {
+          "intentId": "same-run:e193bd0efbde700ee0329a331b5e3c7056fe1ae6a2b1365b45a5e565676c540b",
+          "runId": null,
+          "terminal": false
+        },
         "failures": []
       },
       "linux": {
