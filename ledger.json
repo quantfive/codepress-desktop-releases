@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "05a2ecf06c512e393e43157fbaf2ab5bbed35693",
-  "highWaterVersion": "1.435.5",
+  "highWaterVersion": "1.435.6",
   "rows": [
     {
       "schemaVersion": 1,
@@ -70757,6 +70757,53 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:05a2ecf06c512e393e43157fbaf2ab5bbed35693",
+      "kind": "main",
+      "sequence": 1989,
+      "sourceSha": "05a2ecf06c512e393e43157fbaf2ab5bbed35693",
+      "sourcePackageVersion": "1.439.9",
+      "version": "1.435.6",
+      "publicationDate": "2026-11-03T19:40:07.278Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "rail-open-resync:d31b81055279b1e07558b86baa356fc7cbd82b503704af16b56626b6be62b1bb",
+          "onboarding-mode-signin-gated:d75f59ac3d17f6cb9e10fd74b2d9e52c515e86edfa18a3ef874708a76b786296"
+        ],
+        "notesIntentIds": [
+          "ghostty-render-polish:031e54b4a04e74bbfbc5d08d9168f36527cd4bb4a9baa86b22cf5fdfa0d807ac",
+          "worker-gets-plan-pages:7aa6e972387152a14b71c2cbb6cd0cf1bad8096205aa6c33627581f064576788",
+          "rail-open-resync:d31b81055279b1e07558b86baa356fc7cbd82b503704af16b56626b6be62b1bb",
+          "onboarding-mode-signin-gated:d75f59ac3d17f6cb9e10fd74b2d9e52c515e86edfa18a3ef874708a76b786296"
+        ],
+        "throughSourceSha": "05a2ecf06c512e393e43157fbaf2ab5bbed35693",
+        "previousThroughSourceSha": "6207dcd2ca9c064e8cc246e01979a85aae9a9a57",
+        "baselineVersion": "1.435.5",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41705162276",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-04T19:40:01.821Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -139981,7 +140028,9 @@
     "remote-error-reason:80a00acd20f750f3660f11813451da96003a879b8c3370b1733fe04d6ce234dc",
     "rail-owns-agent-list-fold:ab82260bd0391368acb6b16ff5f50220a5166e838a8fe61406fd0874cb6550c8",
     "ghostty-render-polish:031e54b4a04e74bbfbc5d08d9168f36527cd4bb4a9baa86b22cf5fdfa0d807ac",
-    "worker-gets-plan-pages:7aa6e972387152a14b71c2cbb6cd0cf1bad8096205aa6c33627581f064576788"
+    "worker-gets-plan-pages:7aa6e972387152a14b71c2cbb6cd0cf1bad8096205aa6c33627581f064576788",
+    "rail-open-resync:d31b81055279b1e07558b86baa356fc7cbd82b503704af16b56626b6be62b1bb",
+    "onboarding-mode-signin-gated:d75f59ac3d17f6cb9e10fd74b2d9e52c515e86edfa18a3ef874708a76b786296"
   ],
-  "consumedThroughSha": "6207dcd2ca9c064e8cc246e01979a85aae9a9a57"
+  "consumedThroughSha": "05a2ecf06c512e393e43157fbaf2ab5bbed35693"
 }
