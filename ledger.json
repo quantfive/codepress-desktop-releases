@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "955c5606003953821f1d1d7e7f40c307ebdb21b4",
+  "cursorSha": "62bd85b3abb6cb4b64bb9f9493ba63cd6cdf83e2",
   "highWaterVersion": "1.423.1",
   "rows": [
     {
@@ -131673,6 +131673,13 @@
       "sourceSha": "955c5606003953821f1d1d7e7f40c307ebdb21b4",
       "sourcePackageVersion": "1.423.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "62bd85b3abb6cb4b64bb9f9493ba63cd6cdf83e2",
+      "sourcePackageVersion": "1.423.4",
+      "intentIds": [
+        "kickoff-signed-out-start-hold:f9b1305f9acd2e6e1480a6f0099aa6407b4806856e28aa3607a8f75b47e06a85"
+      ]
     }
   ],
   "intents": [
@@ -136675,6 +136682,14 @@
       "summary": "Landing a project, from the Land dialog or the Land answer, now answers as soon as the land commits. Stopping the Orchestrator and workers, closing tabs, removing worktrees and closing issues continue in the background and report in the cleanup post.",
       "sourceSha": "754fcc39d5f4d7ecccbea3fd4c2b671d06b0c8ef",
       "identity": "land-answers-at-commit:edb276b9dd181c7a0bee7fba902713e2a10f4e92ef10054a9d4683177dffa836"
+    },
+    {
+      "id": "kickoff-signed-out-start-hold",
+      "digest": "f9b1305f9acd2e6e1480a6f0099aa6407b4806856e28aa3607a8f75b47e06a85",
+      "type": "patch",
+      "summary": "Kickoff: with the device URLs flag on, Start and Talk wait while the Orchestrator's model is on a provider this computer is signed out of, beside the note and Open Accounts. Picking a signed-in model or signing in clears it at once.",
+      "sourceSha": "62bd85b3abb6cb4b64bb9f9493ba63cd6cdf83e2",
+      "identity": "kickoff-signed-out-start-hold:f9b1305f9acd2e6e1480a6f0099aa6407b4806856e28aa3607a8f75b47e06a85"
     }
   ],
   "consumedIntentIds": [
