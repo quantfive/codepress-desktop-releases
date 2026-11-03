@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6694847f340a89ddc121a53f4ec354a993b0500f",
+  "cursorSha": "4177f75439c3c9f9f9b5ae98af1a506a5093e6ed",
   "highWaterVersion": "1.435.2",
   "rows": [
     {
@@ -133555,6 +133555,13 @@
       "sourceSha": "6694847f340a89ddc121a53f4ec354a993b0500f",
       "sourcePackageVersion": "1.439.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4177f75439c3c9f9f9b5ae98af1a506a5093e6ed",
+      "sourcePackageVersion": "1.439.2",
+      "intentIds": [
+        "stale-failed-review-frame:6bec2dc195b542487886f998c0bc3b270fe35104f1d955f31b53be7d54f3de8f"
+      ]
     }
   ],
   "intents": [
@@ -138885,6 +138892,14 @@
       "summary": "A Terminal update that hands a local Orchestrator session to the new runtime no longer writes a thread line announcing the move. The conversation still resumes with its history.",
       "sourceSha": "bb5d6ed9f2e60d15f66f52ea1b7892b6fdab51ad",
       "identity": "drop-handover-thread-line:8c1588de47501d7b291e76d7cc381dad012465f53a9c69d39907ae7d78bc09d1"
+    },
+    {
+      "id": "stale-failed-review-frame",
+      "digest": "6bec2dc195b542487886f998c0bc3b270fe35104f1d955f31b53be7d54f3de8f",
+      "type": "patch",
+      "summary": "A failed managed-review notice for a PR head the branch has already moved past is now shown as informational, without telling the agent to run `retry-review`, so an outdated failure no longer spends the automatic retry.",
+      "sourceSha": "4177f75439c3c9f9f9b5ae98af1a506a5093e6ed",
+      "identity": "stale-failed-review-frame:6bec2dc195b542487886f998c0bc3b270fe35104f1d955f31b53be7d54f3de8f"
     }
   ],
   "consumedIntentIds": [
