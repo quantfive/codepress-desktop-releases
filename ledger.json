@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "8328176218893be55d9efa9c0248fc822d7508bd",
-  "highWaterVersion": "1.432.1",
+  "highWaterVersion": "1.433.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -70293,6 +70293,52 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:8328176218893be55d9efa9c0248fc822d7508bd",
+      "kind": "main",
+      "sequence": 1981,
+      "sourceSha": "8328176218893be55d9efa9c0248fc822d7508bd",
+      "sourcePackageVersion": "1.437.1",
+      "version": "1.433.0",
+      "publicationDate": "2026-11-03T14:49:53.018Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-local-chat-artifacts-tab:539e7c9f73d0faf61006a372c5fd77fa87dda248ffd4dd3daff461c618def81b",
+          "pro-checkout-watch-survives:207fec8e6655a70f5ef05b2f3ced0ffc6262a8550044b8b84617833682d0494f"
+        ],
+        "notesIntentIds": [
+          "review-failures-reach-factory:7442d493788df7e3b14e292ab5c8855f097b992f3895c0b7202cc968a09589dd",
+          "terminal-local-chat-artifacts-tab:539e7c9f73d0faf61006a372c5fd77fa87dda248ffd4dd3daff461c618def81b",
+          "pro-checkout-watch-survives:207fec8e6655a70f5ef05b2f3ced0ffc6262a8550044b8b84617833682d0494f"
+        ],
+        "throughSourceSha": "8328176218893be55d9efa9c0248fc822d7508bd",
+        "previousThroughSourceSha": "a5adf9bc9284b55cf22ce874a2a651699a1c60aa",
+        "baselineVersion": "1.432.1",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41657492339",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-04T14:49:45.186Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -139048,7 +139094,9 @@
     "start-a-terminal-button:dbdff70622dd36867ca3f5b015cea5fae025ef29c44f48dc9763ad45d0fd9c11",
     "automatic-switching-opt-in:5af43b210558884b7cc56dfcd74e2afcbd46ad60c86f647bf6bd92613f417b72",
     "workspace-step-first-run:b6d5340043c21b2514535e5424dcd2a11b74e553bc0d65145fc3f0e1f17bdeff",
-    "review-failures-reach-factory:7442d493788df7e3b14e292ab5c8855f097b992f3895c0b7202cc968a09589dd"
+    "review-failures-reach-factory:7442d493788df7e3b14e292ab5c8855f097b992f3895c0b7202cc968a09589dd",
+    "terminal-local-chat-artifacts-tab:539e7c9f73d0faf61006a372c5fd77fa87dda248ffd4dd3daff461c618def81b",
+    "pro-checkout-watch-survives:207fec8e6655a70f5ef05b2f3ced0ffc6262a8550044b8b84617833682d0494f"
   ],
-  "consumedThroughSha": "a5adf9bc9284b55cf22ce874a2a651699a1c60aa"
+  "consumedThroughSha": "8328176218893be55d9efa9c0248fc822d7508bd"
 }
