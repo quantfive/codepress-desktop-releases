@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "4d73c2bddf3a9b2cb9da20aba12a9ec96aa00896",
-  "highWaterVersion": "1.422.0",
+  "highWaterVersion": "1.422.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -69406,6 +69406,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:4d73c2bddf3a9b2cb9da20aba12a9ec96aa00896",
+      "kind": "main",
+      "sequence": 1966,
+      "sourceSha": "4d73c2bddf3a9b2cb9da20aba12a9ec96aa00896",
+      "sourcePackageVersion": "1.422.0",
+      "version": "1.422.1",
+      "publicationDate": "2026-11-03T00:57:46.111Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "auto-kickoff-fixes:ac75716227905aa2e6b4386aeb5cf74ee6bdef2c5cd605c2660cfb436a044b55"
+        ],
+        "notesIntentIds": [
+          "auto-kickoff-fixes:ac75716227905aa2e6b4386aeb5cf74ee6bdef2c5cd605c2660cfb436a044b55"
+        ],
+        "throughSourceSha": "4d73c2bddf3a9b2cb9da20aba12a9ec96aa00896",
+        "previousThroughSourceSha": "42baacb8e3d59ba0570e05773cb6f860ceb54930",
+        "baselineVersion": "1.422.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41556465010",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-04T00:57:41.537Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -136932,7 +136975,8 @@
     "remote-window-native-bridges:b169ed3338e3542a6ca2651f5503402eecc344463c7821d5b2e24b2e5f2801fe",
     "cloud-plan-pages-local-route:fb84b83138b748ed2a453a0c4323ae3d9d4c6de40946f8c0e323c2d320072501",
     "terminal-pm-handoff-always-listed:ff1e372e9fe80a7e6f0bd74804ddc3b716886c9b5114a8b454d5416592f3e140",
-    "grok-active-account:eff958fe931f4363c3fe83714504dbe8f4c80b9114f3e5c448ae2e9669f17183"
+    "grok-active-account:eff958fe931f4363c3fe83714504dbe8f4c80b9114f3e5c448ae2e9669f17183",
+    "auto-kickoff-fixes:ac75716227905aa2e6b4386aeb5cf74ee6bdef2c5cd605c2660cfb436a044b55"
   ],
-  "consumedThroughSha": "42baacb8e3d59ba0570e05773cb6f860ceb54930"
+  "consumedThroughSha": "4d73c2bddf3a9b2cb9da20aba12a9ec96aa00896"
 }
