@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "bb2f3998f913b7001169e9a58cdb97e394f7ebf5",
+  "cursorSha": "84afaeb3da76c1d4e5ab056585847afdbb8b38ad",
   "highWaterVersion": "1.423.2",
   "rows": [
     {
@@ -131820,6 +131820,13 @@
       "sourceSha": "bb2f3998f913b7001169e9a58cdb97e394f7ebf5",
       "sourcePackageVersion": "1.424.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "84afaeb3da76c1d4e5ab056585847afdbb8b38ad",
+      "sourcePackageVersion": "1.424.1",
+      "intentIds": [
+        "terminal-cloud-chat-artifacts:304f9068279a2ad3903f6da2ec4cb9b187a8f943aa763a1190becb4113e2a159"
+      ]
     }
   ],
   "intents": [
@@ -136862,6 +136869,14 @@
       "summary": "Apps page (collections view): an App's preview or widget card no longer reloads when the collections, a collection's members or Loose apps are read again; a card still reloads for a new build, a readiness change or a link near expiry.",
       "sourceSha": "ce4b5b4a875a629639f94f94b2c03b60f9c172f7",
       "identity": "keep-apps-preview-frames:b91e92fb5f93a5b411c95ba59996f9ff58a3b7f004fa527ecd525e0a54241147"
+    },
+    {
+      "id": "terminal-cloud-chat-artifacts",
+      "digest": "304f9068279a2ad3903f6da2ec4cb9b187a8f943aa763a1190becb4113e2a159",
+      "type": "minor",
+      "summary": "Cloud chats in Terminal have an Artifacts view next to Thread: the chat's files, design packets and attachments as a preview-card grid, each opening full size in place. Design packets run in a sandbox that cannot reach the network. A file the agent uploads shows in the thread as a card whose Open jumps to it in Artifacts.",
+      "sourceSha": "84afaeb3da76c1d4e5ab056585847afdbb8b38ad",
+      "identity": "terminal-cloud-chat-artifacts:304f9068279a2ad3903f6da2ec4cb9b187a8f943aa763a1190becb4113e2a159"
     }
   ],
   "consumedIntentIds": [
