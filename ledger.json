@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3671f398a3a49f0f6d8a2e42f61edb60cc353b33",
+  "cursorSha": "1e8cac0ad418e6de019ccfde0b0024f1e5a24b7e",
   "highWaterVersion": "1.425.0",
   "rows": [
     {
@@ -132097,6 +132097,13 @@
       "intentIds": [
         "mac-skip-leaves-permissions-off:abe73fc953d92e3d0a86503c790ba2ba0dc4d855a3cb9451f8bca00b68f7718e"
       ]
+    },
+    {
+      "sourceSha": "1e8cac0ad418e6de019ccfde0b0024f1e5a24b7e",
+      "sourcePackageVersion": "1.428.0",
+      "intentIds": [
+        "staged-node-libraries:fcd031ba3f92d5d526e611046d822d77a30486b1da2b374d5facce5d9922d1de"
+      ]
     }
   ],
   "intents": [
@@ -137203,6 +137210,14 @@
       "summary": "With device URLs on, Skip on a Mac permission step (first run or What changed) no longer turns on Computer Use, Remote Desktop or Keep Awake: stored values stay as they are, and What changed does not come back. Finish still saves the switches shown. Off by default behind `terminal_device_urls`.",
       "sourceSha": "3671f398a3a49f0f6d8a2e42f61edb60cc353b33",
       "identity": "mac-skip-leaves-permissions-off:abe73fc953d92e3d0a86503c790ba2ba0dc4d855a3cb9451f8bca00b68f7718e"
+    },
+    {
+      "id": "staged-node-libraries",
+      "digest": "fcd031ba3f92d5d526e611046d822d77a30486b1da2b374d5facce5d9922d1de",
+      "type": "patch",
+      "summary": "Shared computers: a teammate's Orchestrator and agents now start when this Mac's Terminal runs on a dynamically linked Node such as Homebrew's. The root helper (version 6) stages the libraries that Node loads from beside itself, and checks the staged Node runs before publishing it. Such a computer is asked to prepare again once.",
+      "sourceSha": "1e8cac0ad418e6de019ccfde0b0024f1e5a24b7e",
+      "identity": "staged-node-libraries:fcd031ba3f92d5d526e611046d822d77a30486b1da2b374d5facce5d9922d1de"
     }
   ],
   "consumedIntentIds": [
