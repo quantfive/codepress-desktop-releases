@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "3d733a7a0ab70a1c37686c6f40438d39afce8d24",
-  "highWaterVersion": "1.427.0",
+  "highWaterVersion": "1.427.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -69887,6 +69887,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:3d733a7a0ab70a1c37686c6f40438d39afce8d24",
+      "kind": "main",
+      "sequence": 1974,
+      "sourceSha": "3d733a7a0ab70a1c37686c6f40438d39afce8d24",
+      "sourcePackageVersion": "1.430.1",
+      "version": "1.427.1",
+      "publicationDate": "2026-11-03T11:11:20.460Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "build-panel-menu-default:cf5189ea61ba06694a02114d1686230382136a88ea41589992969292c5422dac",
+          "handoff-header-steady:a9d66407726286fd5629fea5da8ac1e384e003dd676bfb710d3553e647f55946"
+        ],
+        "notesIntentIds": [
+          "build-panel-menu-default:cf5189ea61ba06694a02114d1686230382136a88ea41589992969292c5422dac",
+          "handoff-header-steady:a9d66407726286fd5629fea5da8ac1e384e003dd676bfb710d3553e647f55946"
+        ],
+        "throughSourceSha": "3d733a7a0ab70a1c37686c6f40438d39afce8d24",
+        "previousThroughSourceSha": "507c3f5021e54a3750040bb9884d1cf25906b6e2",
+        "baselineVersion": "1.427.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41625328319",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-04T11:11:14.085Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -138162,7 +138207,9 @@
     "ready-phone-handoff:5c130f6e93c79dda9dfad16d6e4dd3f3ec733bac50b4ee0d50de0910145e034e",
     "limit-fallback-model:94a05a38e917b7fa10fbfab39253db19ca1440c34b1b19e9a39ade68a5715ca6",
     "restart-tabs-after-broker-loss:7b0a5106086f2ff897884d3ec4b5c34603adec0c87034f2a135bf099ca8d51f5",
-    "connect-my-devices:d9ea125482b8292ca052743be7e9ce706d99262530213bdecd4b6ea53171e41e"
+    "connect-my-devices:d9ea125482b8292ca052743be7e9ce706d99262530213bdecd4b6ea53171e41e",
+    "build-panel-menu-default:cf5189ea61ba06694a02114d1686230382136a88ea41589992969292c5422dac",
+    "handoff-header-steady:a9d66407726286fd5629fea5da8ac1e384e003dd676bfb710d3553e647f55946"
   ],
-  "consumedThroughSha": "507c3f5021e54a3750040bb9884d1cf25906b6e2"
+  "consumedThroughSha": "3d733a7a0ab70a1c37686c6f40438d39afce8d24"
 }
