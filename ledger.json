@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0add69103caf772c28c830cb7496c51832efe609",
+  "cursorSha": "b95db7ad2d0ad40c8a1aaa0a449f43fe8b2ea9b8",
   "highWaterVersion": "1.435.5",
   "rows": [
     {
@@ -133879,6 +133879,13 @@
       "sourceSha": "0add69103caf772c28c830cb7496c51832efe609",
       "sourcePackageVersion": "1.439.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b95db7ad2d0ad40c8a1aaa0a449f43fe8b2ea9b8",
+      "sourcePackageVersion": "1.439.8",
+      "intentIds": [
+        "rail-open-resync:d31b81055279b1e07558b86baa356fc7cbd82b503704af16b56626b6be62b1bb"
+      ]
     }
   ],
   "intents": [
@@ -139257,6 +139264,14 @@
       "summary": "Local Orchestrator workers now get the project's plan pages: at launch and relaunch Terminal copies each live page into the worker's own temp folder and lists them in its brief under a Designs section, with each page's title, key, size and viewport.",
       "sourceSha": "6207dcd2ca9c064e8cc246e01979a85aae9a9a57",
       "identity": "worker-gets-plan-pages:7aa6e972387152a14b71c2cbb6cd0cf1bad8096205aa6c33627581f064576788"
+    },
+    {
+      "id": "rail-open-resync",
+      "digest": "d31b81055279b1e07558b86baa356fc7cbd82b503704af16b56626b6be62b1bb",
+      "type": "patch",
+      "summary": "Orchestrator rail: a clicked row is highlighted at once, and a project on another computer opens even when Terminal restored its sign-in at launch. A failed open resyncs and retries once by itself, then says why with Retry, and every click logs how its open ended.",
+      "sourceSha": "b95db7ad2d0ad40c8a1aaa0a449f43fe8b2ea9b8",
+      "identity": "rail-open-resync:d31b81055279b1e07558b86baa356fc7cbd82b503704af16b56626b6be62b1bb"
     }
   ],
   "consumedIntentIds": [
