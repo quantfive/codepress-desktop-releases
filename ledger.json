@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "74f5622dc3563217161b7b0cbac78092df8d5694",
-  "highWaterVersion": "1.437.0",
+  "highWaterVersion": "1.437.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -71162,6 +71162,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:74f5622dc3563217161b7b0cbac78092df8d5694",
+      "kind": "main",
+      "sequence": 1996,
+      "sourceSha": "74f5622dc3563217161b7b0cbac78092df8d5694",
+      "sourcePackageVersion": "1.441.0",
+      "version": "1.437.1",
+      "publicationDate": "2026-11-03T23:16:58.578Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "signed-out-no-cloud:8fd45d05e6913911f8544f7fdc7a35cfed9afe7e8669314aa72f39df0e880fcf"
+        ],
+        "notesIntentIds": [
+          "signed-out-no-cloud:8fd45d05e6913911f8544f7fdc7a35cfed9afe7e8669314aa72f39df0e880fcf"
+        ],
+        "throughSourceSha": "74f5622dc3563217161b7b0cbac78092df8d5694",
+        "previousThroughSourceSha": "dd47958596e4b571053e601d75247fc65173a780",
+        "baselineVersion": "1.437.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41737823558",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-04T23:16:53.052Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -140862,7 +140905,8 @@
     "relink-recopies-designs:e1558fc3026b8d483b560b1ff7360061d84e76a70cbdd9187081ff412999f17a",
     "individual-computer-limit:2cd1437342477852d3b6ca067a5bea7ec7c70c4885ac12b90510beabf216c3dd",
     "ghostty-scrolling-parity:cff43623c6302c9ffd4314ecb42586bfbf35ecbb729514afc9066ac2caa32aa3",
-    "ghostty-mouse-selection:a59df563c0bcced2ffa1b087655f7fb1dc811987c85d3c0556a0c17d9d2b6639"
+    "ghostty-mouse-selection:a59df563c0bcced2ffa1b087655f7fb1dc811987c85d3c0556a0c17d9d2b6639",
+    "signed-out-no-cloud:8fd45d05e6913911f8544f7fdc7a35cfed9afe7e8669314aa72f39df0e880fcf"
   ],
-  "consumedThroughSha": "dd47958596e4b571053e601d75247fc65173a780"
+  "consumedThroughSha": "74f5622dc3563217161b7b0cbac78092df8d5694"
 }
