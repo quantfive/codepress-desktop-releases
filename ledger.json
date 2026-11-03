@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ee73ac2a70857bd8df1755f11c85aa45c6398b4f",
+  "cursorSha": "e00cb177fb4e7bc70aaf67f1db2057178123f8bd",
   "highWaterVersion": "1.433.0",
   "rows": [
     {
@@ -133181,6 +133181,13 @@
       "sourceSha": "ee73ac2a70857bd8df1755f11c85aa45c6398b4f",
       "sourcePackageVersion": "1.437.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e00cb177fb4e7bc70aaf67f1db2057178123f8bd",
+      "sourcePackageVersion": "1.437.2",
+      "intentIds": [
+        "kimi-automatic-switching:b5e7c1d2eb9cafb628df113655dcea568b5e8c15946784c940ab61ec3a796e66"
+      ]
     }
   ],
   "intents": [
@@ -138471,6 +138478,14 @@
       "summary": "With Device URLs on, signing in to Terminal on a desktop now turns this computer's URL on by itself when you have never chosen, as first-run intended. An explicit off still stays off. First run no longer falls back to the old order when your plan doesn't include a URL: the panel says so, in the same words as Settings.",
       "sourceSha": "3134f6ec98ff671a6fb1c66d46b160c4ec246929",
       "identity": "device-url-sign-in-seam:692b459c378070940ad0ecef1e0d99b558e95f5565046cf65a626795ba297aa1"
+    },
+    {
+      "id": "kimi-automatic-switching",
+      "digest": "b5e7c1d2eb9cafb628df113655dcea568b5e8c15946784c940ab61ec3a796e66",
+      "type": "minor",
+      "summary": "Kimi can now switch accounts automatically at a usage limit, if you choose it. Off by default. Turn on \"Always switch Kimi accounts automatically\" in Settings → Agent accounts or from a Kimi worker's limit strip, after reading Kimi's guideline. Kimi's account is chosen for the whole computer, so a switch moves every Kimi agent on it; the worker restarts on the new account and resumes its session. With no other usable Kimi account it waits for the reset, as before. Kimi accounts restricted to some repositories, or set to cloud agents only, are no longer offered as this computer's Kimi account.",
+      "sourceSha": "e00cb177fb4e7bc70aaf67f1db2057178123f8bd",
+      "identity": "kimi-automatic-switching:b5e7c1d2eb9cafb628df113655dcea568b5e8c15946784c940ab61ec3a796e66"
     }
   ],
   "consumedIntentIds": [
