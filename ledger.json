@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9dd741dac04254b8f874d8352f049071d1f46030",
+  "cursorSha": "a1c03618f4885fa8dc3b4e26e5f52172b9838552",
   "highWaterVersion": "1.438.1",
   "rows": [
     {
@@ -134889,6 +134889,13 @@
       "sourceSha": "9dd741dac04254b8f874d8352f049071d1f46030",
       "sourcePackageVersion": "1.443.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a1c03618f4885fa8dc3b4e26e5f52172b9838552",
+      "sourcePackageVersion": "1.443.0",
+      "intentIds": [
+        "remote-project-artifacts-relay:3737cc5a0797f733a46cb0d89797472def26968c5131f3894fb2d0adac43b79e"
+      ]
     }
   ],
   "intents": [
@@ -140427,6 +140434,14 @@
       "summary": "Ghostty tabs show inline images from the Kitty graphics protocol (`kitten icat`), keep them through scrolling, reattach and window reload, and follow the pointer shape apps set with OSC 22. The Ghostty engine moves to upstream 6fba0873 on Zig 0.17. Pilot Ghostty tabs opened before this update reopen once as a fresh shell in the same folder, with their agent resumed.",
       "sourceSha": "5412ec4e7877c3b9128369484dfa9968eec842c1",
       "identity": "ghostty-kitty-images:5efac9d33f22a3bd12a6d443a5f65a2a7ada6edd328df13bccfa10f3f0ee2296"
+    },
+    {
+      "id": "remote-project-artifacts-relay",
+      "digest": "3737cc5a0797f733a46cb0d89797472def26968c5131f3894fb2d0adac43b79e",
+      "type": "patch",
+      "summary": "A synced project's artifacts can now be listed and read from its home Mac over the pane relay, the same path its Files use, so another machine can show them once its view lands.",
+      "sourceSha": "a1c03618f4885fa8dc3b4e26e5f52172b9838552",
+      "identity": "remote-project-artifacts-relay:3737cc5a0797f733a46cb0d89797472def26968c5131f3894fb2d0adac43b79e"
     }
   ],
   "consumedIntentIds": [
