@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "06b38402d598d60a3385541b0206385225910ca5",
+  "cursorSha": "f8b2848acc4e4a0a01a62e813bfff293dd0f5547",
   "highWaterVersion": "1.446.1",
   "rows": [
     {
@@ -136843,6 +136843,13 @@
       "sourceSha": "06b38402d598d60a3385541b0206385225910ca5",
       "sourcePackageVersion": "1.450.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f8b2848acc4e4a0a01a62e813bfff293dd0f5547",
+      "sourcePackageVersion": "1.450.1",
+      "intentIds": [
+        "connect-accounts-signed-in:03265d091ef64c1d1f33921932e8fb2cbc7aeb5b20f936d933b7726c4376857c"
+      ]
     }
   ],
   "intents": [
@@ -142653,6 +142660,14 @@
       "summary": "Cloud chat tells you to open the web app when an agent asks for a secret.",
       "sourceSha": "32cc7d377fee22196fea27c3e96847a55e99b67a",
       "identity": "secret-card-open-in-web:f5145b0e4c367cb90a5358ee750f220deb69e9cd3a4714a1c701c12a7c9b61eb"
+    },
+    {
+      "id": "connect-accounts-signed-in",
+      "digest": "03265d091ef64c1d1f33921932e8fb2cbc7aeb5b20f936d933b7726c4376857c",
+      "type": "minor",
+      "summary": "Connect your accounts: signed in, onboarding's Link Claude and Link Codex sign in, then link the account to your CodePress account as a Personal account in the same press, so your other computers and cloud agents can use it. Accounts already linked show as linked with no press on a second computer. If linking fails the account still works on this computer, with Retry link; a workspace that doesn't sync AI accounts keeps them on this Mac and says so. Gemini, Grok and Muse stay in Other connections, on this computer only.",
+      "sourceSha": "f8b2848acc4e4a0a01a62e813bfff293dd0f5547",
+      "identity": "connect-accounts-signed-in:03265d091ef64c1d1f33921932e8fb2cbc7aeb5b20f936d933b7726c4376857c"
     }
   ],
   "consumedIntentIds": [
