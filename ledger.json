@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f37753ccd86e1b366186b6972b7a87a8ebb7c790",
+  "cursorSha": "a6944bd20cfe2bcc9023466c7537cdfaf02f77f2",
   "highWaterVersion": "1.450.7",
   "rows": [
     {
@@ -138014,6 +138014,16 @@
       "intentIds": [
         "terminal-plan-issue-sync:d0bf4156bd14d6d04ede47595812cf222cd1c55ec7f825d4a67460f44ed31009"
       ]
+    },
+    {
+      "sourceSha": "55da4294b6e0506521b364e6e4bbe5e89088c0fd",
+      "sourcePackageVersion": "1.454.10",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "a6944bd20cfe2bcc9023466c7537cdfaf02f77f2",
+      "sourcePackageVersion": "1.454.10",
+      "intentIds": []
     }
   ],
   "intents": [
