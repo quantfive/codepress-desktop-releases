@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "683ae8e33c097f56a11f8f97620948e25fd7bc4c",
+  "cursorSha": "0c70cf40e7c29ecb05a9da2ca96a65f99ce8d761",
   "highWaterVersion": "1.439.1",
   "rows": [
     {
@@ -135079,6 +135079,13 @@
       "sourceSha": "683ae8e33c097f56a11f8f97620948e25fd7bc4c",
       "sourcePackageVersion": "1.443.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0c70cf40e7c29ecb05a9da2ca96a65f99ce8d761",
+      "sourcePackageVersion": "1.443.3",
+      "intentIds": [
+        "ghostty-touch-selection:649b98fffa65f6e9a09ff0260cc7fec4f785f32088ba57e6f042cea11d0968f4"
+      ]
     }
   ],
   "intents": [
@@ -140641,6 +140648,14 @@
       "summary": "On a Mac, onboarding's git row offers Install, which opens Apple's Command Line Tools dialog, and then says to finish in Apple's window and Check again.",
       "sourceSha": "f03ef0b1deac0e63ae31a06dee14b99225664e70",
       "identity": "terminal-git-install-button:e51fe810f0edabd93f6f910130acd27f697bd4580af310f7af7d5b6d7eebd04e"
+    },
+    {
+      "id": "ghostty-touch-selection",
+      "digest": "649b98fffa65f6e9a09ff0260cc7fec4f785f32088ba57e6f042cea11d0968f4",
+      "type": "minor",
+      "summary": "Ghostty tabs on phones now support touch selection: a long press selects a word, drag handles extend the selection in either direction, and the touch Copy and Paste bar works on it. Copied text has wrapped lines joined. A quick swipe still scrolls and a tap still opens the keyboard.",
+      "sourceSha": "0c70cf40e7c29ecb05a9da2ca96a65f99ce8d761",
+      "identity": "ghostty-touch-selection:649b98fffa65f6e9a09ff0260cc7fec4f785f32088ba57e6f042cea11d0968f4"
     }
   ],
   "consumedIntentIds": [
