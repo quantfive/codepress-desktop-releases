@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "92dfa7366c5c5e263d1eae3e7c39cefba6dd04fe",
-  "highWaterVersion": "1.453.0",
+  "highWaterVersion": "1.454.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -73745,6 +73745,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:92dfa7366c5c5e263d1eae3e7c39cefba6dd04fe",
+      "kind": "main",
+      "sequence": 2041,
+      "sourceSha": "92dfa7366c5c5e263d1eae3e7c39cefba6dd04fe",
+      "sourcePackageVersion": "1.458.0",
+      "version": "1.454.0",
+      "publicationDate": "2026-11-04T20:25:19.100Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "many-launches-per-scope:9e8c923e726c9d4992694d3db7834fc42a6990ecc8f42cf775cf576850f19e2e",
+          "composer-secret-paste-warning:19ceeef24594f5d2733a7ceacc8cff287c3412e3dc22aba4f29798da229758c6"
+        ],
+        "notesIntentIds": [
+          "many-launches-per-scope:9e8c923e726c9d4992694d3db7834fc42a6990ecc8f42cf775cf576850f19e2e",
+          "composer-secret-paste-warning:19ceeef24594f5d2733a7ceacc8cff287c3412e3dc22aba4f29798da229758c6"
+        ],
+        "throughSourceSha": "92dfa7366c5c5e263d1eae3e7c39cefba6dd04fe",
+        "previousThroughSourceSha": "5c6bc32212dddc88f7456bb339af1e48ed459567",
+        "baselineVersion": "1.453.0",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41906348944",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-05T20:25:12.479Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -145522,7 +145567,9 @@
     "agent-accounts-picker-everywhere:8c07104e114194d699e41544b6cc7f1f69aa276691e3564490317514cbb38fdd",
     "codex-launch-file:c4197180ffad725153804a11d7b42c9d6dd2fe774a4b7525644ea5036f126d99",
     "chat-promotion-live-view:e7f6d2e878f4fc001555c0a822b829b38835f9dc5b307ae20a1f36706ddc3daa",
-    "chat-becomes-project:a1614516b8514881b381e0ab839300d26c92e85bfd756c02627dd700d18f817f"
+    "chat-becomes-project:a1614516b8514881b381e0ab839300d26c92e85bfd756c02627dd700d18f817f",
+    "many-launches-per-scope:9e8c923e726c9d4992694d3db7834fc42a6990ecc8f42cf775cf576850f19e2e",
+    "composer-secret-paste-warning:19ceeef24594f5d2733a7ceacc8cff287c3412e3dc22aba4f29798da229758c6"
   ],
-  "consumedThroughSha": "5c6bc32212dddc88f7456bb339af1e48ed459567"
+  "consumedThroughSha": "92dfa7366c5c5e263d1eae3e7c39cefba6dd04fe"
 }
