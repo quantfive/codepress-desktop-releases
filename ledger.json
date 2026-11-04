@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "dc3085308eb9bac1878a2fe1e5e2adf17254d183",
+  "cursorSha": "0e5430786d66b5d4062c3ef8d4d70e9fa5c15fb2",
   "highWaterVersion": "1.443.1",
   "rows": [
     {
@@ -135951,6 +135951,13 @@
       "sourceSha": "dc3085308eb9bac1878a2fe1e5e2adf17254d183",
       "sourcePackageVersion": "1.447.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0e5430786d66b5d4062c3ef8d4d70e9fa5c15fb2",
+      "sourcePackageVersion": "1.447.2",
+      "intentIds": [
+        "ghostty-xterm-parity-tune:0288fbd07ab2f850432fca3edc425e2e3c35cac4e881a040891324127d196e42"
+      ]
     }
   ],
   "intents": [
@@ -141657,6 +141664,14 @@
       "summary": "Focus rings now appear only after keyboard input. Closing a menu, popover or select with the mouse leaves its trigger focused without a ring; Tab, the arrow keys, Enter, Space and Escape still show it.",
       "sourceSha": "35fcd6d49c9a0ae03e30f7791bfe4851ce320c1f",
       "identity": "keyboard-only-focus-rings:cd0162956db5007a8fa8449832f1d2e41affee3723c5957b99886b6bb763c83f"
+    },
+    {
+      "id": "ghostty-xterm-parity-tune",
+      "digest": "0288fbd07ab2f850432fca3edc425e2e3c35cac4e881a040891324127d196e42",
+      "type": "patch",
+      "summary": "Ghostty tabs now match xterm on mouse-wheel distance, row height and row count, and send one CR per line break in a bracketed paste.",
+      "sourceSha": "0e5430786d66b5d4062c3ef8d4d70e9fa5c15fb2",
+      "identity": "ghostty-xterm-parity-tune:0288fbd07ab2f850432fca3edc425e2e3c35cac4e881a040891324127d196e42"
     }
   ],
   "consumedIntentIds": [
