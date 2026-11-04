@@ -1,7 +1,7 @@
 {
-  "version": "1.443.0",
+  "version": "1.443.1",
   "notes": "See the release notes on GitHub",
-  "pub_date": "2026-11-04T03:50:04.930Z",
+  "pub_date": "2026-11-04T04:12:47.876Z",
   "codepress": {
     "brokerRuntimeIdentity": "bundle=bcca4ba9e28debc9;launch-env=4",
     "brokerGenerationProtocolVersion": 1,
@@ -11,9 +11,9 @@
     "layers": {
       "linux-x86_64": {
         "app": {
-          "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.443.0/CodePress_1.443.0_amd64-update.AppImage",
+          "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.443.1/CodePress_1.443.1_amd64-update.AppImage",
           "size": 142506488,
-          "sha256": "75de87c0d45b79f1cb5939ae5af1a5ceb2b553ca0d157d1e3e5f96b8e9edea41"
+          "sha256": "04ef481bfc441494d3ddf68caf430888978049079434e59d586871a897157baa"
         },
         "layers": [
           {
@@ -46,8 +46,8 @@
   },
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMUhLaXVFZHU3VVFLM08wNGFndXNaU1g0Z0g0ZDVJMVJ3bFNIYkNMSW03ejZuY3kxNCtpYWNNZjBKYStuOHJrZVJRTHM2RDBsb2prZGhCaUM0MVpJSkZHWlBHT0JpbmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzY0NzE0CWZpbGU6Q29kZVByZXNzXzEuNDQzLjBfYW1kNjQuQXBwSW1hZ2UKMndoL1pZNVpycmpmM1d5ZW1ZMi80ZG8zcll6eEVxd2JvUXhBMDJzdERyVExWTzBOamRhQXJmQ1RPWUhVdllFSDJ6S0QxUUk4NmpSZWxrQWU5Y2dIRHc9PQo=",
-      "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.443.0/CodePress_1.443.0_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMUhLaXVFZHU3VVZxUVNtdlMvbFVub2p1VDhWbmd6azVGZE1mSlFUeFcyMndwdG95NEcwakdocjRQNGhYRmwyR3J4MENjVzB2YlN0cCtvZEZPcEhjWk9Vc0VTaGloSlFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzY1OTc4CWZpbGU6Q29kZVByZXNzXzEuNDQzLjFfYW1kNjQuQXBwSW1hZ2UKWTJNeDlxb2RLbzJ1UkM4RFZPb3dyZklnaS92dlpmS3AzUmFNLzJkUFNMbm5rVGFzMGhxUEhGT2cySmd1TGV0aDh4dTlERFhRUUFlT0ZRMzQ1NTdFQUE9PQo=",
+      "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.443.1/CodePress_1.443.1_amd64.AppImage"
     }
   }
 }
