@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "47b32d0da3176e58f8c8940c4bec8dce4c9ea3da",
+  "cursorSha": "9a30631644a19ee70cc28302d9931803efa306f5",
   "highWaterVersion": "1.453.0",
   "rows": [
     {
@@ -138645,6 +138645,13 @@
       "sourceSha": "47b32d0da3176e58f8c8940c4bec8dce4c9ea3da",
       "sourcePackageVersion": "1.457.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9a30631644a19ee70cc28302d9931803efa306f5",
+      "sourcePackageVersion": "1.457.0",
+      "intentIds": [
+        "composer-secret-paste-warning:19ceeef24594f5d2733a7ceacc8cff287c3412e3dc22aba4f29798da229758c6"
+      ]
     }
   ],
   "intents": [
@@ -144735,6 +144742,14 @@
       "summary": "New chat in the Orchestrator now always opens a fresh composer, even while an earlier start is still waiting for its computer. Each launch keeps its own row in the list until its project appears. If a start fails, its row stays with the reason, and you can retry it, edit the brief, or dismiss it. Launches are kept across a reload.",
       "sourceSha": "1551dcad10333cd815c91a233aade5484079e6c8",
       "identity": "many-launches-per-scope:9e8c923e726c9d4992694d3db7834fc42a6990ecc8f42cf775cf576850f19e2e"
+    },
+    {
+      "id": "composer-secret-paste-warning",
+      "digest": "19ceeef24594f5d2733a7ceacc8cff287c3412e3dc22aba4f29798da229758c6",
+      "type": "minor",
+      "summary": "Pasting or typing what looks like an API key into an Orchestrator thread now warns you before it's sent, and you can save it as a secret instead. There's also a lock button in the composer to add a secret at any time.",
+      "sourceSha": "9a30631644a19ee70cc28302d9931803efa306f5",
+      "identity": "composer-secret-paste-warning:19ceeef24594f5d2733a7ceacc8cff287c3412e3dc22aba4f29798da229758c6"
     }
   ],
   "consumedIntentIds": [
