@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ba89acca8d60457bc3df2ea972fac1c85b604c0f",
+  "cursorSha": "659af687bf9ce39ab9170d33a5d394b74d672e12",
   "highWaterVersion": "1.449.1",
   "rows": [
     {
@@ -137144,6 +137144,23 @@
       "intentIds": [
         "ghostty-burst-flow-control:9b2d634b07433e04404b630d49985291b146135d6041e9fbae44d52e6a0416dc"
       ]
+    },
+    {
+      "sourceSha": "25cc3c7c9ef899ff9d59a096ba5fc90374b79e85",
+      "sourcePackageVersion": "1.453.1",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "dca39dbbff45d916d711d21d0c65dc5daf136dc6",
+      "sourcePackageVersion": "1.453.1",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "659af687bf9ce39ab9170d33a5d394b74d672e12",
+      "sourcePackageVersion": "1.453.1",
+      "intentIds": [
+        "agent-accounts-text-cleanup:810e18c54ee986af55978266387be9b4f30d6ad7014c95efa44a5dc77b0b706e"
+      ]
     }
   ],
   "intents": [
@@ -142986,6 +143003,14 @@
       "summary": "Ghostty tabs now survive fast output. Running `yes` or `cat bigfile` no longer freezes the tab behind the attach banner: the terminal slows the program down instead of losing output, Ctrl+C works during the burst, and other tabs keep updating. A tab whose rendering worker restarts now recovers on its own.",
       "sourceSha": "ba89acca8d60457bc3df2ea972fac1c85b604c0f",
       "identity": "ghostty-burst-flow-control:9b2d634b07433e04404b630d49985291b146135d6041e9fbae44d52e6a0416dc"
+    },
+    {
+      "id": "agent-accounts-text-cleanup",
+      "digest": "810e18c54ee986af55978266387be9b4f30d6ad7014c95efa44a5dc77b0b706e",
+      "type": "patch",
+      "summary": "Onboarding's Connect step and the signed-out Agent accounts page now use today's names: a Personal account needing reconnect points to Settings → Account → Agent accounts, and the signed-out hint says \"Sign in to connect provider accounts for CodePress agent sessions.\"",
+      "sourceSha": "659af687bf9ce39ab9170d33a5d394b74d672e12",
+      "identity": "agent-accounts-text-cleanup:810e18c54ee986af55978266387be9b4f30d6ad7014c95efa44a5dc77b0b706e"
     }
   ],
   "consumedIntentIds": [
