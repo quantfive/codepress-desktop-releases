@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6936391106fa5f32c928fcaaea36df2fa7b058b7",
+  "cursorSha": "46270d0f39540f243b418eb8649a907e42a11aee",
   "highWaterVersion": "1.456.0",
   "rows": [
     {
@@ -139004,6 +139004,13 @@
       "sourceSha": "6936391106fa5f32c928fcaaea36df2fa7b058b7",
       "sourcePackageVersion": "1.460.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "46270d0f39540f243b418eb8649a907e42a11aee",
+      "sourcePackageVersion": "1.460.1",
+      "intentIds": [
+        "terminal-settings-slider:d194c3b3e4836f0c26cedde73b027de69f99e3c86598a48a78be3be86ba67550"
+      ]
     }
   ],
   "intents": [
@@ -145134,6 +145141,14 @@
       "summary": "A local chat that opens a pull request without first becoming a project is now promoted to one when that turn ends, and the pull request goes on a work item, so it is never left untracked in the chat.",
       "sourceSha": "ecd92102eadfea1aefccbc5b044eabfca3fca1f0",
       "identity": "chat-pr-backstop:37ff5421c46fd6e41e1aba7cb8da67a6ee55d181d05203cd765eccba1f6a9f2d"
+    },
+    {
+      "id": "terminal-settings-slider",
+      "digest": "d194c3b3e4836f0c26cedde73b027de69f99e3c86598a48a78be3be86ba67550",
+      "type": "patch",
+      "summary": "Settings and the setup guide now use a Terminal-styled slider for Font Size, Scroll Speed and the Code Editor font size: a slim accent-filled track, the toggle's white knob and an editable value field, replacing the macOS system slider and number spinner.",
+      "sourceSha": "46270d0f39540f243b418eb8649a907e42a11aee",
+      "identity": "terminal-settings-slider:d194c3b3e4836f0c26cedde73b027de69f99e3c86598a48a78be3be86ba67550"
     }
   ],
   "consumedIntentIds": [
