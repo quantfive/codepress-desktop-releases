@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "90fd9cc9ee856ab51a6e8ec52326d02337d94471",
+  "cursorSha": "6846b96bfd095027d39a835ca8aa1ba0efc68644",
   "highWaterVersion": "1.450.2",
   "rows": [
     {
@@ -137567,6 +137567,13 @@
       "sourceSha": "90fd9cc9ee856ab51a6e8ec52326d02337d94471",
       "sourcePackageVersion": "1.454.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "6846b96bfd095027d39a835ca8aa1ba0efc68644",
+      "sourcePackageVersion": "1.454.3",
+      "intentIds": [
+        "pm-idle-clock-restart:e5c763f376801fd4b41261571abc6a73a0eb8e2344c922ddbaf009267ec76f3c"
+      ]
     }
   ],
   "intents": [
@@ -143473,6 +143480,14 @@
       "summary": "Starting a project from a teammate's window on a shared computer: a repository you type now reaches your Orchestrator, and the window says folders on that computer aren't available. Disabled repository and folder pickers now stay closed.",
       "sourceSha": "c87398bf1a961789f335664f3afc594ed9b14778",
       "identity": "teammate-kickoff-repositories:7eaf5e218bbe3911132b4ee80a0da9c22d25366e73dad626c6aefa9e63e4e173"
+    },
+    {
+      "id": "pm-idle-clock-restart",
+      "digest": "e5c763f376801fd4b41261571abc6a73a0eb8e2344c922ddbaf009267ec76f3c",
+      "type": "patch",
+      "summary": "An idle Orchestrator now keeps its provider process for a full idle window after its last turn or release, instead of being released again a minute or two after a short wake.",
+      "sourceSha": "6846b96bfd095027d39a835ca8aa1ba0efc68644",
+      "identity": "pm-idle-clock-restart:e5c763f376801fd4b41261571abc6a73a0eb8e2344c922ddbaf009267ec76f3c"
     }
   ],
   "consumedIntentIds": [
