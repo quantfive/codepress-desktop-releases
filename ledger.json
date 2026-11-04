@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a02522b2c764193328ee65e7865e3f2d834d312b",
+  "cursorSha": "e30347a3b1e448c04b9a1cd0c8aa0b799a8d1f97",
   "highWaterVersion": "1.441.1",
   "rows": [
     {
@@ -135358,6 +135358,13 @@
       "intentIds": [
         "headless-teammate-frames:1fa97d733d6c0ebb034c25a99f7815aa7857063e8995a46377fe9c70b02dcf28"
       ]
+    },
+    {
+      "sourceSha": "e30347a3b1e448c04b9a1cd0c8aa0b799a8d1f97",
+      "sourcePackageVersion": "1.445.1",
+      "intentIds": [
+        "readable-dark-provider-logos:56ef1e8bc392465ade9f06216c82dfe0a379b0b9c6831a058c5a16e616338353"
+      ]
     }
   ],
   "intents": [
@@ -140968,6 +140975,14 @@
       "summary": "A headless Terminal (`codepress-terminal serve`) now starts, reads and takes messages for a teammate's project on a shared computer, instead of refusing it as `orchestrator_authorization_refused`.",
       "sourceSha": "a02522b2c764193328ee65e7865e3f2d834d312b",
       "identity": "headless-teammate-frames:1fa97d733d6c0ebb034c25a99f7815aa7857063e8995a46377fe9c70b02dcf28"
+    },
+    {
+      "id": "readable-dark-provider-logos",
+      "digest": "56ef1e8bc392465ade9f06216c82dfe0a379b0b9c6831a058c5a16e616338353",
+      "type": "patch",
+      "summary": "Make provider logos readable in dark mode on brand tiles and on Account → Orchestrator's model pickers.",
+      "sourceSha": "e30347a3b1e448c04b9a1cd0c8aa0b799a8d1f97",
+      "identity": "readable-dark-provider-logos:56ef1e8bc392465ade9f06216c82dfe0a379b0b9c6831a058c5a16e616338353"
     }
   ],
   "consumedIntentIds": [
