@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "ecd69a87affe0e86ccda36cafaab10c9fd172276",
-  "highWaterVersion": "1.456.2",
+  "highWaterVersion": "1.456.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -74081,6 +74081,53 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:ecd69a87affe0e86ccda36cafaab10c9fd172276",
+      "kind": "main",
+      "sequence": 2047,
+      "sourceSha": "ecd69a87affe0e86ccda36cafaab10c9fd172276",
+      "sourcePackageVersion": "1.460.6",
+      "version": "1.456.3",
+      "publicationDate": "2026-11-04T22:59:04.755Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "landing-triaged-could-not-verify:9ed8f2180f9d63bb9c99244b44f9e3cfb217447ef092453102ec452ea0b279b1",
+          "land-without-no-competing-card:33a30e8ef2a3dc435ce280a621c03903162a5fe2e662904241c97c167746b833",
+          "handoff-moves-live-workers:6f4154233787523bc52d58a5ccccd946b19df0b1bde7538abbbc8176927e7e4d"
+        ],
+        "notesIntentIds": [
+          "landing-triaged-could-not-verify:9ed8f2180f9d63bb9c99244b44f9e3cfb217447ef092453102ec452ea0b279b1",
+          "land-without-no-competing-card:33a30e8ef2a3dc435ce280a621c03903162a5fe2e662904241c97c167746b833",
+          "handoff-moves-live-workers:6f4154233787523bc52d58a5ccccd946b19df0b1bde7538abbbc8176927e7e4d"
+        ],
+        "throughSourceSha": "ecd69a87affe0e86ccda36cafaab10c9fd172276",
+        "previousThroughSourceSha": "63e15c15531d4e2215bedfd0915ac29c2578f126",
+        "baselineVersion": "1.456.2",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41929864164",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-05T22:58:59.639Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -146227,7 +146274,10 @@
     "chat-pr-backstop:37ff5421c46fd6e41e1aba7cb8da67a6ee55d181d05203cd765eccba1f6a9f2d",
     "terminal-settings-slider:d194c3b3e4836f0c26cedde73b027de69f99e3c86598a48a78be3be86ba67550",
     "honest-could-not-verify:3b251cca3aae36f5d51870df1f0ca04374b59ec63b9b453e05d9ed469900482f",
-    "auto-machine-order:b95b3229d098e59b317212aec844de03cb6805e64864679363523e2beb85a98a"
+    "auto-machine-order:b95b3229d098e59b317212aec844de03cb6805e64864679363523e2beb85a98a",
+    "landing-triaged-could-not-verify:9ed8f2180f9d63bb9c99244b44f9e3cfb217447ef092453102ec452ea0b279b1",
+    "land-without-no-competing-card:33a30e8ef2a3dc435ce280a621c03903162a5fe2e662904241c97c167746b833",
+    "handoff-moves-live-workers:6f4154233787523bc52d58a5ccccd946b19df0b1bde7538abbbc8176927e7e4d"
   ],
-  "consumedThroughSha": "63e15c15531d4e2215bedfd0915ac29c2578f126"
+  "consumedThroughSha": "ecd69a87affe0e86ccda36cafaab10c9fd172276"
 }
