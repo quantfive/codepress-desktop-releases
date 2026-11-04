@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "e20c5347b80566d9fbaa4c76c994e336bbe5dfa0",
-  "highWaterVersion": "1.450.9",
+  "highWaterVersion": "1.451.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -73511,6 +73511,53 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:e20c5347b80566d9fbaa4c76c994e336bbe5dfa0",
+      "kind": "main",
+      "sequence": 2037,
+      "sourceSha": "e20c5347b80566d9fbaa4c76c994e336bbe5dfa0",
+      "sourcePackageVersion": "1.455.0",
+      "version": "1.451.0",
+      "publicationDate": "2026-11-04T18:44:55.529Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "shared-accounts-computer-bar:a8dd2f8ce8d8b92883b22e8eeaa3d7f4b6b1fe4b2d991e7f3a55e65f51a38fec",
+          "terminal-secret-request-card:41a17fb059338ed953a7c881c70bb7238ca026cc82f2655aa675b81528814301",
+          "launch-opens-on-holding-tab:5416b25f3663b2f731c98bb6b519f84b2ae7a78742be5de6d1b6b9e8cb1495b4"
+        ],
+        "notesIntentIds": [
+          "shared-accounts-computer-bar:a8dd2f8ce8d8b92883b22e8eeaa3d7f4b6b1fe4b2d991e7f3a55e65f51a38fec",
+          "terminal-secret-request-card:41a17fb059338ed953a7c881c70bb7238ca026cc82f2655aa675b81528814301",
+          "launch-opens-on-holding-tab:5416b25f3663b2f731c98bb6b519f84b2ae7a78742be5de6d1b6b9e8cb1495b4"
+        ],
+        "throughSourceSha": "e20c5347b80566d9fbaa4c76c994e336bbe5dfa0",
+        "previousThroughSourceSha": "4c4cc11112c10c53d367c51c53219b0ccac1dbc9",
+        "baselineVersion": "1.450.9",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41889405625",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-05T18:44:47.496Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -144997,7 +145044,10 @@
     "onboarding-linked-never-link:66a5ce2f6fa35af07a91395ddde7aa2c3c09b3e49594e9dd102e31a5d39e0a06",
     "terminal-plan-issue-sync:d0bf4156bd14d6d04ede47595812cf222cd1c55ec7f825d4a67460f44ed31009",
     "bundled-cli-startup-precheck:55f39c4ba0331ec93224b7092c1674f57f475771c6cea39630a4f7c0aefde01d",
-    "terminal-hardware-binding-register:060be451075729fc5aea40274f6dc3e17e91c6c4e76d19b14dec789e6f79f0f0"
+    "terminal-hardware-binding-register:060be451075729fc5aea40274f6dc3e17e91c6c4e76d19b14dec789e6f79f0f0",
+    "shared-accounts-computer-bar:a8dd2f8ce8d8b92883b22e8eeaa3d7f4b6b1fe4b2d991e7f3a55e65f51a38fec",
+    "terminal-secret-request-card:41a17fb059338ed953a7c881c70bb7238ca026cc82f2655aa675b81528814301",
+    "launch-opens-on-holding-tab:5416b25f3663b2f731c98bb6b519f84b2ae7a78742be5de6d1b6b9e8cb1495b4"
   ],
-  "consumedThroughSha": "4c4cc11112c10c53d367c51c53219b0ccac1dbc9"
+  "consumedThroughSha": "e20c5347b80566d9fbaa4c76c994e336bbe5dfa0"
 }
