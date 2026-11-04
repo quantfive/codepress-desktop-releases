@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "5c6bc32212dddc88f7456bb339af1e48ed459567",
-  "highWaterVersion": "1.452.1",
+  "highWaterVersion": "1.453.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -73684,6 +73684,55 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:5c6bc32212dddc88f7456bb339af1e48ed459567",
+      "kind": "main",
+      "sequence": 2040,
+      "sourceSha": "5c6bc32212dddc88f7456bb339af1e48ed459567",
+      "sourcePackageVersion": "1.456.3",
+      "version": "1.453.0",
+      "publicationDate": "2026-11-04T20:01:34.747Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "agent-accounts-picker-everywhere:8c07104e114194d699e41544b6cc7f1f69aa276691e3564490317514cbb38fdd",
+          "codex-launch-file:c4197180ffad725153804a11d7b42c9d6dd2fe774a4b7525644ea5036f126d99",
+          "chat-promotion-live-view:e7f6d2e878f4fc001555c0a822b829b38835f9dc5b307ae20a1f36706ddc3daa",
+          "chat-becomes-project:a1614516b8514881b381e0ab839300d26c92e85bfd756c02627dd700d18f817f"
+        ],
+        "notesIntentIds": [
+          "agent-accounts-picker-everywhere:8c07104e114194d699e41544b6cc7f1f69aa276691e3564490317514cbb38fdd",
+          "codex-launch-file:c4197180ffad725153804a11d7b42c9d6dd2fe774a4b7525644ea5036f126d99",
+          "chat-promotion-live-view:e7f6d2e878f4fc001555c0a822b829b38835f9dc5b307ae20a1f36706ddc3daa",
+          "chat-becomes-project:a1614516b8514881b381e0ab839300d26c92e85bfd756c02627dd700d18f817f"
+        ],
+        "throughSourceSha": "5c6bc32212dddc88f7456bb339af1e48ed459567",
+        "previousThroughSourceSha": "8ce254adbf9df22ef531ca9fb8b7d8ec28726426",
+        "baselineVersion": "1.452.1",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41902194216",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-05T20:01:29.209Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -145397,7 +145446,11 @@
     "sign-out-slow-daemon:e2124ee7c456a723521dae937f6eb53b3e37cd1f1a2e66badb8cecdc5b4f86cf",
     "orchestrator-design-kit-section:0711df6caf233b8c14015898ebd3f16d9311062789e3a592c60ca850b7061d1e",
     "org-artifacts-canvas:62096a2e39ceae209448908bf5d59eac20f25487e21c3cd79512384f03d49f14",
-    "broker-reads-older-exec-image:20eaa0f9e3dcdf238c051557bfefb55b9ec57998a626aaa4e16296a28d40efd7"
+    "broker-reads-older-exec-image:20eaa0f9e3dcdf238c051557bfefb55b9ec57998a626aaa4e16296a28d40efd7",
+    "agent-accounts-picker-everywhere:8c07104e114194d699e41544b6cc7f1f69aa276691e3564490317514cbb38fdd",
+    "codex-launch-file:c4197180ffad725153804a11d7b42c9d6dd2fe774a4b7525644ea5036f126d99",
+    "chat-promotion-live-view:e7f6d2e878f4fc001555c0a822b829b38835f9dc5b307ae20a1f36706ddc3daa",
+    "chat-becomes-project:a1614516b8514881b381e0ab839300d26c92e85bfd756c02627dd700d18f817f"
   ],
-  "consumedThroughSha": "8ce254adbf9df22ef531ca9fb8b7d8ec28726426"
+  "consumedThroughSha": "5c6bc32212dddc88f7456bb339af1e48ed459567"
 }
