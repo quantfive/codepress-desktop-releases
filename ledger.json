@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ca83ad961ae779686ca09c3fd1a523be01e48131",
+  "cursorSha": "2125c9e8df13462812c52ad7b1ba23c6aa2d7ae6",
   "highWaterVersion": "1.450.4",
   "rows": [
     {
@@ -137754,6 +137754,13 @@
       "sourceSha": "ca83ad961ae779686ca09c3fd1a523be01e48131",
       "sourcePackageVersion": "1.454.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2125c9e8df13462812c52ad7b1ba23c6aa2d7ae6",
+      "sourcePackageVersion": "1.454.6",
+      "intentIds": [
+        "unreachable-tabs-say-so:dd1b9b1eb0902131df434bcca3bd5495cb954915df8cd2d2774f73a66e3b083e"
+      ]
     }
   ],
   "intents": [
@@ -143692,6 +143699,14 @@
       "summary": "Size selected CI unit-test shard counts by measured file weight while retaining full-run capacity.",
       "sourceSha": "9e4d4abac4bedd49a85da364d9b40e545377faa8",
       "identity": "terminal-selected-shard-capacity:02c9187152f2fb58433f1fe9b962787a106fca9d310ba27a25b8e240b4c9cb3b"
+    },
+    {
+      "id": "unreachable-tabs-say-so",
+      "digest": "dd1b9b1eb0902131df434bcca3bd5495cb954915df8cd2d2774f73a66e3b083e",
+      "type": "patch",
+      "summary": "A tab Terminal can't write to now says so instead of looking like an agent waiting. It shows a notice with what to do, `list_tabs` and diagnostics report it, a worker's Orchestrator hears once per incident, and reclaim sweeps stop trying to quit it.",
+      "sourceSha": "2125c9e8df13462812c52ad7b1ba23c6aa2d7ae6",
+      "identity": "unreachable-tabs-say-so:dd1b9b1eb0902131df434bcca3bd5495cb954915df8cd2d2774f73a66e3b083e"
     }
   ],
   "consumedIntentIds": [
