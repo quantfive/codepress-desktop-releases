@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e6f1e1b38ce3665ebc91d0c7a7d5640429419c65",
+  "cursorSha": "5bac3564e1db3e71ddc9796447831ab24498fa21",
   "highWaterVersion": "1.452.0",
   "rows": [
     {
@@ -138397,6 +138397,13 @@
       "sourceSha": "e6f1e1b38ce3665ebc91d0c7a7d5640429419c65",
       "sourcePackageVersion": "1.456.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "5bac3564e1db3e71ddc9796447831ab24498fa21",
+      "sourcePackageVersion": "1.456.0",
+      "intentIds": [
+        "broker-reads-older-exec-image:20eaa0f9e3dcdf238c051557bfefb55b9ec57998a626aaa4e16296a28d40efd7"
+      ]
     }
   ],
   "intents": [
@@ -144439,6 +144446,14 @@
       "summary": "Artifact cards that group a project's pages now have Share, Copy link and Open canvas. Share opens the plan page's own link, worded for all of its pages, on the web app's address.",
       "sourceSha": "a0824e0d34a6977591c7dc918767f54c7846a7cc",
       "identity": "org-artifacts-canvas:62096a2e39ceae209448908bf5d59eac20f25487e21c3cd79512384f03d49f14"
+    },
+    {
+      "id": "broker-reads-older-exec-image",
+      "digest": "20eaa0f9e3dcdf238c051557bfefb55b9ec57998a626aaa4e16296a28d40efd7",
+      "type": "patch",
+      "summary": "A broker from before the SIGTERM fix can again be replaced in place. The new shutdown deadline was required when reading its state, so replacing it was refused and a second broker was started instead.",
+      "sourceSha": "5bac3564e1db3e71ddc9796447831ab24498fa21",
+      "identity": "broker-reads-older-exec-image:20eaa0f9e3dcdf238c051557bfefb55b9ec57998a626aaa4e16296a28d40efd7"
     }
   ],
   "consumedIntentIds": [
