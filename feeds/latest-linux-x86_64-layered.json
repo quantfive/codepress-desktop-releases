@@ -1,19 +1,19 @@
 {
-  "version": "1.452.0",
+  "version": "1.452.1",
   "notes": "See the release notes on GitHub",
-  "pub_date": "2026-11-04T19:09:28.218Z",
+  "pub_date": "2026-11-04T19:36:23.757Z",
   "codepress": {
-    "brokerRuntimeIdentity": "bundle=3ccc8b65ad976fdb;launch-env=4",
+    "brokerRuntimeIdentity": "bundle=46766414c3347ec2;launch-env=4",
     "brokerGenerationProtocolVersion": 1,
     "brokerRuntimeIdentities": {
-      "linux-x86_64": "bundle=3ccc8b65ad976fdb;launch-env=4"
+      "linux-x86_64": "bundle=46766414c3347ec2;launch-env=4"
     },
     "layers": {
       "linux-x86_64": {
         "app": {
-          "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.452.0/CodePress_1.452.0_amd64-update.AppImage",
+          "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.452.1/CodePress_1.452.1_amd64-update.AppImage",
           "size": 142756344,
-          "sha256": "87a1d7d2a143d96538780727d76023f8ccbd77278862b50d2628e90f507dc317"
+          "sha256": "f626fba44dfca2c579c614e5bd2e11f644aecb428f689b3123f3636fd35c347c"
         },
         "layers": [
           {
@@ -46,8 +46,8 @@
   },
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMUhLaXVFZHU3VWIweHpWTENKQVcyWjNBUHNLYy9oWWRVQnRvR1hOYlFmS2FrN0IwTktqdlNhbHJ4bTRrWjl4aEdWOXdROWVWOWROZTUvOFNMVXJyd1RFKzZOdW9tQndnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODE5OTg2CWZpbGU6Q29kZVByZXNzXzEuNDUyLjBfYW1kNjQuQXBwSW1hZ2UKUWpnMWlCT281RUs4aXhtQkhKUmR2aVFWaXFVZUZObUNncHdkSDBSL1dob1dDVlZraXdiTTRzV0NidGdBSUxyTThtd29GanBCNnhEdm1ueExVL0duRFE9PQo=",
-      "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.452.0/CodePress_1.452.0_amd64-update.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMUhLaXVFZHU3VWY1RnUyMjZuUlhRUUVtMnpucXd1Rmg0MGVTVitQd3VPZEZWZ3RjSi9yTm1KeEgwcEtPWHExcCtVSzMxWVdxMk5YTXZvdGtpR0t3eHBLWlhlWjJsTEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODIxNzA3CWZpbGU6Q29kZVByZXNzXzEuNDUyLjFfYW1kNjQuQXBwSW1hZ2UKZkFIMGQ5bHhwUHJkZ3BwZ3QySXBNY2N6YU44NFM3a01yYm50OHpvSGN3TXBhd2lyN3U3K1d0WTBWRXc5bmMxd2pVZjFXZnExUlhWMGg3ZjNxZjB1QlE9PQo=",
+      "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.452.1/CodePress_1.452.1_amd64-update.AppImage"
     }
   }
 }
