@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "74d38d761a8ea5891ecd91b5fb35a7ca5c2b3b7c",
+  "cursorSha": "32cc7d377fee22196fea27c3e96847a55e99b67a",
   "highWaterVersion": "1.446.0",
   "rows": [
     {
@@ -136755,6 +136755,13 @@
       "sourceSha": "74d38d761a8ea5891ecd91b5fb35a7ca5c2b3b7c",
       "sourcePackageVersion": "1.450.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "32cc7d377fee22196fea27c3e96847a55e99b67a",
+      "sourcePackageVersion": "1.450.0",
+      "intentIds": [
+        "secret-card-open-in-web:f5145b0e4c367cb90a5358ee750f220deb69e9cd3a4714a1c701c12a7c9b61eb"
+      ]
     }
   ],
   "intents": [
@@ -142557,6 +142564,14 @@
       "summary": "GitHub through your CodePress account: signed in, the GitHub row in onboarding's Connect step and Settings → AI Agents writes your account's own GitHub login into gh (installing Terminal's gh first if needed), so gh and git work with no separate GitHub sign-in. A gh already signed in to github.com is never touched. An account with no GitHub login gets Link GitHub; anything else falls back to Set up GitHub with the reason, and \"Use a separate gh login\" stays on offer.",
       "sourceSha": "6c0b3c036d27cac5660449f44948111c02e42916",
       "identity": "github-through-codepress-account:27839e03d5d275c63c29f9d50434f73ad45d82474d8953404e95340b8a413f06"
+    },
+    {
+      "id": "secret-card-open-in-web",
+      "digest": "f5145b0e4c367cb90a5358ee750f220deb69e9cd3a4714a1c701c12a7c9b61eb",
+      "type": "patch",
+      "summary": "Cloud chat tells you to open the web app when an agent asks for a secret.",
+      "sourceSha": "32cc7d377fee22196fea27c3e96847a55e99b67a",
+      "identity": "secret-card-open-in-web:f5145b0e4c367cb90a5358ee750f220deb69e9cd3a4714a1c701c12a7c9b61eb"
     }
   ],
   "consumedIntentIds": [
