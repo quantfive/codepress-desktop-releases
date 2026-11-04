@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4f1f1db17bf1fa08098f1b157a880725dc0cfbb8",
+  "cursorSha": "4bc49cb7565a0fc01f6144e83faa534abdcf47ba",
   "highWaterVersion": "1.450.7",
   "rows": [
     {
@@ -137990,6 +137990,13 @@
       "sourceSha": "4f1f1db17bf1fa08098f1b157a880725dc0cfbb8",
       "sourcePackageVersion": "1.454.9",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4bc49cb7565a0fc01f6144e83faa534abdcf47ba",
+      "sourcePackageVersion": "1.454.9",
+      "intentIds": [
+        "onboarding-linked-never-link:66a5ce2f6fa35af07a91395ddde7aa2c3c09b3e49594e9dd102e31a5d39e0a06"
+      ]
     }
   ],
   "intents": [
@@ -143952,6 +143959,14 @@
       "summary": "The Orchestrator rail now takes a list of launching rows, and a launch can show that it failed to start. Terminal still shows one launch at a time, so nothing changes yet.",
       "sourceSha": "0248343a660b8b509272e097bbee8af7588f915c",
       "identity": "launching-rail-rows:a2b9c16a13bdc76dcde034cf7a5fe88c4a2806ab12471209387c4ffe6715733e"
+    },
+    {
+      "id": "onboarding-linked-never-link",
+      "digest": "66a5ce2f6fa35af07a91395ddde7aa2c3c09b3e49594e9dd102e31a5d39e0a06",
+      "type": "patch",
+      "summary": "Onboarding's signed-in Connect step shows a Claude or Codex account that is already a Personal account as \"Linked\", never offering Link: it reads the Personal listing fresh, shows \"Checking…\" or \"Couldn't check your CodePress account · Retry\" until it knows, and the daemon no longer answers the listing from a poll made before the current sign-in.",
+      "sourceSha": "4bc49cb7565a0fc01f6144e83faa534abdcf47ba",
+      "identity": "onboarding-linked-never-link:66a5ce2f6fa35af07a91395ddde7aa2c3c09b3e49594e9dd102e31a5d39e0a06"
     }
   ],
   "consumedIntentIds": [
