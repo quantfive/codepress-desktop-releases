@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "38579e283b7ee79ab3affae55ee95576594b17dd",
+  "cursorSha": "bc793f81da489e6a8c645fab41d4ced9aaaf688e",
   "highWaterVersion": "1.442.1",
   "rows": [
     {
@@ -135549,6 +135549,13 @@
       "intentIds": [
         "artifacts-theme-tokens:fae9e2141be8d5c85ccd7c098c3d1039b9a10e75184b33cc38fcb19f42a019e9"
       ]
+    },
+    {
+      "sourceSha": "bc793f81da489e6a8c645fab41d4ced9aaaf688e",
+      "sourcePackageVersion": "1.446.0",
+      "intentIds": [
+        "cli-update-survive:ebe8b4faa4552e6861a18b854ec4d040950b1897b767b5c7c723abe1ad72cdb2"
+      ]
     }
   ],
   "intents": [
@@ -141191,6 +141198,14 @@
       "summary": "The Artifacts gallery and viewer now use the app's theme colours instead of bright blue, in light and dark. The active filter chip matches the rail's selected tab, and an HTML artifact with no background of its own now shows dark text on white in dark mode.",
       "sourceSha": "38579e283b7ee79ab3affae55ee95576594b17dd",
       "identity": "artifacts-theme-tokens:fae9e2141be8d5c85ccd7c098c3d1039b9a10e75184b33cc38fcb19f42a019e9"
+    },
+    {
+      "id": "cli-update-survive",
+      "digest": "ebe8b4faa4552e6861a18b854ec4d040950b1897b767b5c7c723abe1ad72cdb2",
+      "type": "patch",
+      "summary": "An Orchestrator or reclaimed worker now keeps going when its provider CLI updates itself. Its next process runs the new version at the same path and resumes the same conversation, instead of stopping with \"The provider runtime changed while sign-in was starting\". If the CLI is removed, the session stops with a message naming the CLI and path, and a CLI that changes during a first start now says to start again rather than mentioning sign-in.",
+      "sourceSha": "bc793f81da489e6a8c645fab41d4ced9aaaf688e",
+      "identity": "cli-update-survive:ebe8b4faa4552e6861a18b854ec4d040950b1897b767b5c7c723abe1ad72cdb2"
     }
   ],
   "consumedIntentIds": [
