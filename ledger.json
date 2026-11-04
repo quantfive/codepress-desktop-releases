@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "754865bfcdb9f7dab4fb25587d5b941fe38846ff",
+  "cursorSha": "e0aac7ff6b30799dd42251ad5b67a5ff10779a80",
   "highWaterVersion": "1.449.3",
   "rows": [
     {
@@ -137320,6 +137320,13 @@
       "sourceSha": "754865bfcdb9f7dab4fb25587d5b941fe38846ff",
       "sourcePackageVersion": "1.453.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e0aac7ff6b30799dd42251ad5b67a5ff10779a80",
+      "sourcePackageVersion": "1.453.4",
+      "intentIds": [
+        "artifacts-in-collections:80e33ea4d73ec5a028c07765beade0d7aeb3ae6086355ecb57b8f0964fddfb98"
+      ]
     }
   ],
   "intents": [
@@ -143186,6 +143193,14 @@
       "summary": "Agent account rows keep the account's name on a narrow window, and a phone-sized Remove dialog's Close is easier to reach.",
       "sourceSha": "28a26f89894aa2c027df3f6bb43b64a1e793188e",
       "identity": "web-accounts-panel:07f05802a93963c7ba83c54858adcb4dc1c991fdfdbf8c41ae5d3807faf693c9"
+    },
+    {
+      "id": "artifacts-in-collections",
+      "digest": "80e33ea4d73ec5a028c07765beade0d7aeb3ae6086355ecb57b8f0964fddfb98",
+      "type": "minor",
+      "summary": "With collections on, file artifacts in collections beside Apps, from a collection's Add picker or an artifact's card.",
+      "sourceSha": "e0aac7ff6b30799dd42251ad5b67a5ff10779a80",
+      "identity": "artifacts-in-collections:80e33ea4d73ec5a028c07765beade0d7aeb3ae6086355ecb57b8f0964fddfb98"
     }
   ],
   "consumedIntentIds": [
