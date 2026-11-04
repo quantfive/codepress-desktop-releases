@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "34776292a79dd0c252209c5d44489e0a043eb576",
+  "cursorSha": "a9d862eda80b408465fdb18fa3d966c78f2c99d0",
   "highWaterVersion": "1.441.1",
   "rows": [
     {
@@ -135397,6 +135397,18 @@
       "sourceSha": "34776292a79dd0c252209c5d44489e0a043eb576",
       "sourcePackageVersion": "1.445.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "bf2b73461ae6d4a929aaece2ed96ace84e8c6d5d",
+      "sourcePackageVersion": "1.445.3",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "a9d862eda80b408465fdb18fa3d966c78f2c99d0",
+      "sourcePackageVersion": "1.445.3",
+      "intentIds": [
+        "sign-in-first-paths:b245c0fc512e78b3c21073804be261dc7986c36d550ec64b31f0dc8263d02044"
+      ]
     }
   ],
   "intents": [
@@ -141023,6 +141035,14 @@
       "summary": "Synced copies and cloud-run projects now have an Artifacts tab: a copy lists what its home Mac's Orchestrator and workers published, a cloud project what its Orchestrator and workers uploaded. While the home can't answer, the tab says why (\"Connecting to…\", \"… is offline\", \"Update CodePress Terminal on …\").",
       "sourceSha": "cd5e4b4b28f66c7399efe95ad1b48eb8836c9c3e",
       "identity": "remote-project-artifacts-tab:36bb2828c6c66b073dcd51014ce4b119d9be29038b58f3d40ca1cd14622e36b1"
+    },
+    {
+      "id": "sign-in-first-paths",
+      "digest": "b245c0fc512e78b3c21073804be261dc7986c36d550ec64b31f0dc8263d02044",
+      "type": "minor",
+      "summary": "First run in the desktop app now asks everyone to sign in to CodePress right after Welcome, with Continue locally in the footer, and the two answers lead to different screens. Signed in: set up your workspace, connect your accounts, the permission steps, then Start a project. Continue locally: connect your AI and GitHub on this Mac, the permission steps without the remote-access ones, then Let's Go. The Connect step puts pull-request setup first, moves Gemini, Grok and Muse into an Other connections dialog, and says Codex instead of ChatGPT. Every middle step's button reads Continue.",
+      "sourceSha": "a9d862eda80b408465fdb18fa3d966c78f2c99d0",
+      "identity": "sign-in-first-paths:b245c0fc512e78b3c21073804be261dc7986c36d550ec64b31f0dc8263d02044"
     }
   ],
   "consumedIntentIds": [
