@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "fb0adf10d68fbd6be8f5acd470bdc21ec40d75d9",
+  "cursorSha": "ba89acca8d60457bc3df2ea972fac1c85b604c0f",
   "highWaterVersion": "1.449.0",
   "rows": [
     {
@@ -137082,6 +137082,13 @@
       "sourceSha": "fb0adf10d68fbd6be8f5acd470bdc21ec40d75d9",
       "sourcePackageVersion": "1.453.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ba89acca8d60457bc3df2ea972fac1c85b604c0f",
+      "sourcePackageVersion": "1.453.0",
+      "intentIds": [
+        "ghostty-burst-flow-control:9b2d634b07433e04404b630d49985291b146135d6041e9fbae44d52e6a0416dc"
+      ]
     }
   ],
   "intents": [
@@ -142916,6 +142923,14 @@
       "summary": "Move Computer → Agents → Accounts to Account → Agent accounts. There is now one account page, and it opens signed out too.",
       "sourceSha": "5b3d1ea18fa44d3bdb230a98d9fd8a6c7607ba78",
       "identity": "one-agent-accounts-page:e98dec3886043ed4c58dcf5e6c1f5679dfa461a6585aae0a64c7883e3d815a78"
+    },
+    {
+      "id": "ghostty-burst-flow-control",
+      "digest": "9b2d634b07433e04404b630d49985291b146135d6041e9fbae44d52e6a0416dc",
+      "type": "patch",
+      "summary": "Ghostty tabs now survive fast output. Running `yes` or `cat bigfile` no longer freezes the tab behind the attach banner: the terminal slows the program down instead of losing output, Ctrl+C works during the burst, and other tabs keep updating. A tab whose rendering worker restarts now recovers on its own.",
+      "sourceSha": "ba89acca8d60457bc3df2ea972fac1c85b604c0f",
+      "identity": "ghostty-burst-flow-control:9b2d634b07433e04404b630d49985291b146135d6041e9fbae44d52e6a0416dc"
     }
   ],
   "consumedIntentIds": [
