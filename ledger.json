@@ -72496,10 +72496,14 @@
         "type": "minor"
       },
       "mac": {
-        "status": "pending",
-        "generation": 1,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 2,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41816757897",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-05T10:50:54.675Z",
         "dispatch": null,
         "failures": [
           {
