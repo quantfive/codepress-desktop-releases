@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9247899b196ee39c8b16b9c079477ffe57270b38",
+  "cursorSha": "9afebb9fd7b9ca69e73de64b7bc99a0424c8e3cd",
   "highWaterVersion": "1.454.0",
   "rows": [
     {
@@ -138744,6 +138744,13 @@
       "sourceSha": "9247899b196ee39c8b16b9c079477ffe57270b38",
       "sourcePackageVersion": "1.458.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9afebb9fd7b9ca69e73de64b7bc99a0424c8e3cd",
+      "sourcePackageVersion": "1.458.0",
+      "intentIds": [
+        "rail-reorder-drag:d66ec783629d110a6c1633543f4f2bed391a59f278f6290335f5203c3a623e7c"
+      ]
     }
   ],
   "intents": [
@@ -144842,6 +144849,14 @@
       "summary": "Pasting or typing what looks like an API key into an Orchestrator thread now warns you before it's sent, and you can save it as a secret instead. There's also a lock button in the composer to add a secret at any time.",
       "sourceSha": "9a30631644a19ee70cc28302d9931803efa306f5",
       "identity": "composer-secret-paste-warning:19ceeef24594f5d2733a7ceacc8cff287c3412e3dc22aba4f29798da229758c6"
+    },
+    {
+      "id": "rail-reorder-drag",
+      "digest": "d66ec783629d110a6c1633543f4f2bed391a59f278f6290335f5203c3a623e7c",
+      "type": "minor",
+      "summary": "Reorder the left rail: drag a section icon to a new place (the others slide aside and an empty slot opens where it lands) or right-click it for Move up, Move down and Reset rail order. The order is saved to your account and shared by every Terminal and the web.",
+      "sourceSha": "9afebb9fd7b9ca69e73de64b7bc99a0424c8e3cd",
+      "identity": "rail-reorder-drag:d66ec783629d110a6c1633543f4f2bed391a59f278f6290335f5203c3a623e7c"
     }
   ],
   "consumedIntentIds": [
