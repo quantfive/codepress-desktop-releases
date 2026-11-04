@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "cbc50fe13136762686e79b21e62331937e20937e",
+  "cursorSha": "f945c061dd1c4cf6885a119d6cf647b4e9610a68",
   "highWaterVersion": "1.450.5",
   "rows": [
     {
@@ -137831,6 +137831,13 @@
       "sourceSha": "cbc50fe13136762686e79b21e62331937e20937e",
       "sourcePackageVersion": "1.454.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f945c061dd1c4cf6885a119d6cf647b4e9610a68",
+      "sourcePackageVersion": "1.454.7",
+      "intentIds": [
+        "ghostty-history-depth:92850d1ea6538ca92330e4bda60a8c1dbcdde07bac03aed6697b39e268d565b1"
+      ]
     }
   ],
   "intents": [
@@ -143777,6 +143784,14 @@
       "summary": "A tab Terminal can't write to now says so instead of looking like an agent waiting. It shows a notice with what to do, `list_tabs` and diagnostics report it, a worker's Orchestrator hears once per incident, and reclaim sweeps stop trying to quit it.",
       "sourceSha": "2125c9e8df13462812c52ad7b1ba23c6aa2d7ae6",
       "identity": "unreachable-tabs-say-so:dd1b9b1eb0902131df434bcca3bd5495cb954915df8cd2d2774f73a66e3b083e"
+    },
+    {
+      "id": "ghostty-history-depth",
+      "digest": "92850d1ea6538ca92330e4bda60a8c1dbcdde07bac03aed6697b39e268d565b1",
+      "type": "patch",
+      "summary": "Ghostty tabs keep the history depth your Scrollback setting asks for through a reload, and a steady stream no longer makes a tab reload its history.",
+      "sourceSha": "f945c061dd1c4cf6885a119d6cf647b4e9610a68",
+      "identity": "ghostty-history-depth:92850d1ea6538ca92330e4bda60a8c1dbcdde07bac03aed6697b39e268d565b1"
     }
   ],
   "consumedIntentIds": [
