@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1f5be05162361cf38d08a36fd2f9e3ba705f62b4",
+  "cursorSha": "38579e283b7ee79ab3affae55ee95576594b17dd",
   "highWaterVersion": "1.442.0",
   "rows": [
     {
@@ -135487,6 +135487,13 @@
       "sourceSha": "1f5be05162361cf38d08a36fd2f9e3ba705f62b4",
       "sourcePackageVersion": "1.446.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "38579e283b7ee79ab3affae55ee95576594b17dd",
+      "sourcePackageVersion": "1.446.0",
+      "intentIds": [
+        "artifacts-theme-tokens:fae9e2141be8d5c85ccd7c098c3d1039b9a10e75184b33cc38fcb19f42a019e9"
+      ]
     }
   ],
   "intents": [
@@ -141121,6 +141128,14 @@
       "summary": "First run in the desktop app now asks everyone to sign in to CodePress right after Welcome, with Continue locally in the footer, and the two answers lead to different screens. Signed in: set up your workspace, connect your accounts, the permission steps, then Start a project. Continue locally: connect your AI and GitHub on this Mac, the permission steps without the remote-access ones, then Let's Go. The Connect step puts pull-request setup first, moves Gemini, Grok and Muse into an Other connections dialog, and says Codex instead of ChatGPT. Every middle step's button reads Continue.",
       "sourceSha": "a9d862eda80b408465fdb18fa3d966c78f2c99d0",
       "identity": "sign-in-first-paths:b245c0fc512e78b3c21073804be261dc7986c36d550ec64b31f0dc8263d02044"
+    },
+    {
+      "id": "artifacts-theme-tokens",
+      "digest": "fae9e2141be8d5c85ccd7c098c3d1039b9a10e75184b33cc38fcb19f42a019e9",
+      "type": "patch",
+      "summary": "The Artifacts gallery and viewer now use the app's theme colours instead of bright blue, in light and dark. The active filter chip matches the rail's selected tab, and an HTML artifact with no background of its own now shows dark text on white in dark mode.",
+      "sourceSha": "38579e283b7ee79ab3affae55ee95576594b17dd",
+      "identity": "artifacts-theme-tokens:fae9e2141be8d5c85ccd7c098c3d1039b9a10e75184b33cc38fcb19f42a019e9"
     }
   ],
   "consumedIntentIds": [
