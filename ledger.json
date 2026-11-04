@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "abb5b819e4b4d0ca1e1b5da46178803b3356bb9f",
+  "cursorSha": "9e4d4abac4bedd49a85da364d9b40e545377faa8",
   "highWaterVersion": "1.450.3",
   "rows": [
     {
@@ -137668,6 +137668,13 @@
       "intentIds": [
         "reclaim-never-quit-over-owed-work:5ed103ad548074f3a61c425475eb4d92f167f5e5ff2c0164d506f007af2748e6"
       ]
+    },
+    {
+      "sourceSha": "9e4d4abac4bedd49a85da364d9b40e545377faa8",
+      "sourcePackageVersion": "1.454.5",
+      "intentIds": [
+        "terminal-selected-shard-capacity:02c9187152f2fb58433f1fe9b962787a106fca9d310ba27a25b8e240b4c9cb3b"
+      ]
     }
   ],
   "intents": [
@@ -143598,6 +143605,14 @@
       "summary": "Reclaim Idle Agents no longer quits a worker with a background agent or shell running, or a finished result it has not received yet, at the idle window or under critical memory pressure. If a quit does open Claude Code's \"Background work is running\" panel, Terminal closes it with Esc instead of leaving the worker frozen behind it, never presses Enter on it, and tells the Orchestrator if Esc doesn't work.",
       "sourceSha": "abb5b819e4b4d0ca1e1b5da46178803b3356bb9f",
       "identity": "reclaim-never-quit-over-owed-work:5ed103ad548074f3a61c425475eb4d92f167f5e5ff2c0164d506f007af2748e6"
+    },
+    {
+      "id": "terminal-selected-shard-capacity",
+      "digest": "02c9187152f2fb58433f1fe9b962787a106fca9d310ba27a25b8e240b4c9cb3b",
+      "type": "patch",
+      "summary": "Size selected CI unit-test shard counts by measured file weight while retaining full-run capacity.",
+      "sourceSha": "9e4d4abac4bedd49a85da364d9b40e545377faa8",
+      "identity": "terminal-selected-shard-capacity:02c9187152f2fb58433f1fe9b962787a106fca9d310ba27a25b8e240b4c9cb3b"
     }
   ],
   "consumedIntentIds": [
