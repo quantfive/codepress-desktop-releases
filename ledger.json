@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "dcc50f584c62583e113b9d5d4320ea5e2e0e33ad",
-  "highWaterVersion": "1.443.4",
+  "highWaterVersion": "1.443.5",
   "rows": [
     {
       "schemaVersion": 1,
@@ -72129,6 +72129,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:dcc50f584c62583e113b9d5d4320ea5e2e0e33ad",
+      "kind": "main",
+      "sequence": 2013,
+      "sourceSha": "dcc50f584c62583e113b9d5d4320ea5e2e0e33ad",
+      "sourcePackageVersion": "1.447.7",
+      "version": "1.443.5",
+      "publicationDate": "2026-11-04T06:17:29.290Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "bundled-provider-clis:b9402a2bc97454eedb2fe807fa0abad060beca769caa2fa1aa7ae563b3338a4b"
+        ],
+        "notesIntentIds": [
+          "bundled-provider-clis:b9402a2bc97454eedb2fe807fa0abad060beca769caa2fa1aa7ae563b3338a4b"
+        ],
+        "throughSourceSha": "dcc50f584c62583e113b9d5d4320ea5e2e0e33ad",
+        "previousThroughSourceSha": "f632153aebd4db6fcd798b64ea015b143b50280b",
+        "baselineVersion": "1.443.4",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41784484612",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-05T06:17:23.154Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -142678,7 +142721,8 @@
     "ghostty-xterm-parity-tune:0288fbd07ab2f850432fca3edc425e2e3c35cac4e881a040891324127d196e42",
     "processes-rail-button:66569ce52b43b8c0a385de02a88487f6539def28b4e6d09fa3b5a93ddaeb7045",
     "readmit-kills-old-pty:f170ac8508dc4470c1b2f14a1c31f309a484a0ce0ee70f39c69ba4107a15368c",
-    "ghostty-broker-sockets:857e52f927e5ccb8efa81f9ad955a932c96f91199344ab912bd61870e6679ea1"
+    "ghostty-broker-sockets:857e52f927e5ccb8efa81f9ad955a932c96f91199344ab912bd61870e6679ea1",
+    "bundled-provider-clis:b9402a2bc97454eedb2fe807fa0abad060beca769caa2fa1aa7ae563b3338a4b"
   ],
-  "consumedThroughSha": "f632153aebd4db6fcd798b64ea015b143b50280b"
+  "consumedThroughSha": "dcc50f584c62583e113b9d5d4320ea5e2e0e33ad"
 }
