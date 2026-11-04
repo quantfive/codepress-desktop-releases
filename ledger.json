@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0c0939e4dc0136058feba0d22a839698a3fe9ab3",
+  "cursorSha": "f632153aebd4db6fcd798b64ea015b143b50280b",
   "highWaterVersion": "1.443.3",
   "rows": [
     {
@@ -136119,6 +136119,13 @@
       "sourceSha": "0c0939e4dc0136058feba0d22a839698a3fe9ab3",
       "sourcePackageVersion": "1.447.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f632153aebd4db6fcd798b64ea015b143b50280b",
+      "sourcePackageVersion": "1.447.5",
+      "intentIds": [
+        "ghostty-broker-sockets:857e52f927e5ccb8efa81f9ad955a932c96f91199344ab912bd61870e6679ea1"
+      ]
     }
   ],
   "intents": [
@@ -141849,6 +141856,14 @@
       "summary": "Upgrading no longer leaves a Ghostty tab's old shell and agent running beside the new ones. Re-admission now ends the old process itself and only starts the new shell once it is gone; otherwise the tab stays on its old owner.",
       "sourceSha": "9a577666332d8ab80c5599d7f40e072c20af92d0",
       "identity": "readmit-kills-old-pty:f170ac8508dc4470c1b2f14a1c31f309a484a0ce0ee70f39c69ba4107a15368c"
+    },
+    {
+      "id": "ghostty-broker-sockets",
+      "digest": "857e52f927e5ccb8efa81f9ad955a932c96f91199344ab912bd61870e6679ea1",
+      "type": "patch",
+      "summary": "Closing a Ghostty tab now releases its connections right away, so a long session can no longer use up the terminal's connection limit and block new tabs of any kind. Each computer now has room for about 120 Ghostty tabs on two windows. If you pass that limit, the tab you open says so and your other tabs keep working.",
+      "sourceSha": "f632153aebd4db6fcd798b64ea015b143b50280b",
+      "identity": "ghostty-broker-sockets:857e52f927e5ccb8efa81f9ad955a932c96f91199344ab912bd61870e6679ea1"
     }
   ],
   "consumedIntentIds": [
