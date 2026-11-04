@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e114149ef3667dc71b5b91ed324f12b32a520a40",
+  "cursorSha": "c87398bf1a961789f335664f3afc594ed9b14778",
   "highWaterVersion": "1.450.1",
   "rows": [
     {
@@ -137493,6 +137493,13 @@
       "intentIds": [
         "member-window-keybindings:a5aa1d2f3b31d6c7a01b6b5212e57f79211a3ec7546b960cff3b6ec52abfd31a"
       ]
+    },
+    {
+      "sourceSha": "c87398bf1a961789f335664f3afc594ed9b14778",
+      "sourcePackageVersion": "1.454.2",
+      "intentIds": [
+        "teammate-kickoff-repositories:7eaf5e218bbe3911132b4ee80a0da9c22d25366e73dad626c6aefa9e63e4e173"
+      ]
     }
   ],
   "intents": [
@@ -143391,6 +143398,14 @@
       "summary": "Shared-computer windows now use your own keyboard shortcuts, including prefix mode.",
       "sourceSha": "e114149ef3667dc71b5b91ed324f12b32a520a40",
       "identity": "member-window-keybindings:a5aa1d2f3b31d6c7a01b6b5212e57f79211a3ec7546b960cff3b6ec52abfd31a"
+    },
+    {
+      "id": "teammate-kickoff-repositories",
+      "digest": "7eaf5e218bbe3911132b4ee80a0da9c22d25366e73dad626c6aefa9e63e4e173",
+      "type": "patch",
+      "summary": "Starting a project from a teammate's window on a shared computer: a repository you type now reaches your Orchestrator, and the window says folders on that computer aren't available. Disabled repository and folder pickers now stay closed.",
+      "sourceSha": "c87398bf1a961789f335664f3afc594ed9b14778",
+      "identity": "teammate-kickoff-repositories:7eaf5e218bbe3911132b4ee80a0da9c22d25366e73dad626c6aefa9e63e4e173"
     }
   ],
   "consumedIntentIds": [
