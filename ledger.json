@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "09ee493796455835088b58c851fa0a1a1cafa5c3",
+  "cursorSha": "1736516da54fc64ec32031f01faf4d1181ede391",
   "highWaterVersion": "1.450.0",
   "rows": [
     {
@@ -137390,6 +137390,18 @@
       "sourceSha": "09ee493796455835088b58c851fa0a1a1cafa5c3",
       "sourcePackageVersion": "1.454.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a8388f3201ce03da69af04cf36d8a6062ce99d92",
+      "sourcePackageVersion": "1.454.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "1736516da54fc64ec32031f01faf4d1181ede391",
+      "sourcePackageVersion": "1.454.0",
+      "intentIds": [
+        "broker-sigterm-bash-tab:a38e9dc09536ebf2eff2538daa4c88608b49da8bfbc0a4b5c37b235dcf5fcb57"
+      ]
     }
   ],
   "intents": [
@@ -143264,6 +143276,14 @@
       "summary": "With collections on, file artifacts in collections beside Apps, from a collection's Add picker or an artifact's card.",
       "sourceSha": "e0aac7ff6b30799dd42251ad5b67a5ff10779a80",
       "identity": "artifacts-in-collections:80e33ea4d73ec5a028c07765beade0d7aeb3ae6086355ecb57b8f0964fddfb98"
+    },
+    {
+      "id": "broker-sigterm-bash-tab",
+      "digest": "a38e9dc09536ebf2eff2538daa4c88608b49da8bfbc0a4b5c37b235dcf5fcb57",
+      "type": "patch",
+      "summary": "A native PTY broker now stops on SIGTERM with a bash tab open instead of hanging and then spinning at 100% CPU. It no longer treats a tab as Terminal's own process because a path in its arguments contains `codepress-terminal`.",
+      "sourceSha": "1736516da54fc64ec32031f01faf4d1181ede391",
+      "identity": "broker-sigterm-bash-tab:a38e9dc09536ebf2eff2538daa4c88608b49da8bfbc0a4b5c37b235dcf5fcb57"
     }
   ],
   "consumedIntentIds": [
