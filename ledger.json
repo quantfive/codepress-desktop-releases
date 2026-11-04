@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "be79b5fdf92597987b5e1dbed07fb24b65e17730",
+  "cursorSha": "f03ef0b1deac0e63ae31a06dee14b99225664e70",
   "highWaterVersion": "1.439.0",
   "rows": [
     {
@@ -134985,6 +134985,13 @@
       "sourceSha": "be79b5fdf92597987b5e1dbed07fb24b65e17730",
       "sourcePackageVersion": "1.443.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f03ef0b1deac0e63ae31a06dee14b99225664e70",
+      "sourcePackageVersion": "1.443.2",
+      "intentIds": [
+        "terminal-git-install-button:e51fe810f0edabd93f6f910130acd27f697bd4580af310f7af7d5b6d7eebd04e"
+      ]
     }
   ],
   "intents": [
@@ -140539,6 +140546,14 @@
       "summary": "Ghostty tabs get a working ⌘F: the find bar searches the whole scrollback, scrolls to and highlights matches, and shows \"n of m\" in the main window, the popout and the quick terminal pane.",
       "sourceSha": "3d7ea86eaf597f8703a13ee29049c1234b4bad8e",
       "identity": "ghostty-find-bar:d2ef174672d305c55ace9f6dbdaf03dbe761a277b8662c4d3c6e38815fa671b5"
+    },
+    {
+      "id": "terminal-git-install-button",
+      "digest": "e51fe810f0edabd93f6f910130acd27f697bd4580af310f7af7d5b6d7eebd04e",
+      "type": "patch",
+      "summary": "On a Mac, onboarding's git row offers Install, which opens Apple's Command Line Tools dialog, and then says to finish in Apple's window and Check again.",
+      "sourceSha": "f03ef0b1deac0e63ae31a06dee14b99225664e70",
+      "identity": "terminal-git-install-button:e51fe810f0edabd93f6f910130acd27f697bd4580af310f7af7d5b6d7eebd04e"
     }
   ],
   "consumedIntentIds": [
