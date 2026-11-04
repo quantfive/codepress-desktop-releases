@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "607cad4c846d89f74e6854b78fcfe54943fc682f",
+  "cursorSha": "5c6bc32212dddc88f7456bb339af1e48ed459567",
   "highWaterVersion": "1.452.1",
   "rows": [
     {
@@ -138550,6 +138550,13 @@
       "intentIds": [
         "chat-promotion-live-view:e7f6d2e878f4fc001555c0a822b829b38835f9dc5b307ae20a1f36706ddc3daa"
       ]
+    },
+    {
+      "sourceSha": "5c6bc32212dddc88f7456bb339af1e48ed459567",
+      "sourcePackageVersion": "1.456.3",
+      "intentIds": [
+        "chat-becomes-project:a1614516b8514881b381e0ab839300d26c92e85bfd756c02627dd700d18f817f"
+      ]
     }
   ],
   "intents": [
@@ -144624,6 +144631,14 @@
       "summary": "An open chat that becomes an Orchestrator project now turns into the project view in place: the status header, the Work and Plans tabs, and the row moving from Chats to Projects in the feed, without a reload and keeping any typed draft. The thread shows the \"This chat is now a project\" line as one quiet record.",
       "sourceSha": "607cad4c846d89f74e6854b78fcfe54943fc682f",
       "identity": "chat-promotion-live-view:e7f6d2e878f4fc001555c0a822b829b38835f9dc5b307ae20a1f36706ddc3daa"
+    },
+    {
+      "id": "chat-becomes-project",
+      "digest": "a1614516b8514881b381e0ab839300d26c92e85bfd756c02627dd700d18f817f",
+      "type": "minor",
+      "summary": "A local chat that is about to change a git repository now becomes an Orchestrator project in the same conversation (`become_project`), with its history kept and the build already started on your request, so the pull request it opens is tracked on a work item.",
+      "sourceSha": "5c6bc32212dddc88f7456bb339af1e48ed459567",
+      "identity": "chat-becomes-project:a1614516b8514881b381e0ab839300d26c92e85bfd756c02627dd700d18f817f"
     }
   ],
   "consumedIntentIds": [
