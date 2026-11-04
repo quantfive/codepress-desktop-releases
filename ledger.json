@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6706c26402fee9d5d30fc0f6ec20e6d04c5a20bc",
+  "cursorSha": "5b3d1ea18fa44d3bdb230a98d9fd8a6c7607ba78",
   "highWaterVersion": "1.448.0",
   "rows": [
     {
@@ -137000,6 +137000,13 @@
       "sourceSha": "6706c26402fee9d5d30fc0f6ec20e6d04c5a20bc",
       "sourcePackageVersion": "1.452.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "5b3d1ea18fa44d3bdb230a98d9fd8a6c7607ba78",
+      "sourcePackageVersion": "1.452.0",
+      "intentIds": [
+        "one-agent-accounts-page:e98dec3886043ed4c58dcf5e6c1f5679dfa461a6585aae0a64c7883e3d815a78"
+      ]
     }
   ],
   "intents": [
@@ -142826,6 +142833,14 @@
       "summary": "A computer the backend puts on the edge relay now serves its same device URL through the relay: Terminal attaches to the relay, serves each request against its own local server with every existing sign-in and network-access check, and leaves its tunnel up as the fallback, which the URL uses whenever the relay is unreachable. Nothing changes while the relay is off for the computer. Settings shows one diagnostics line under Tunnel Diagnostics while the relay is assigned.",
       "sourceSha": "80519ed92549e743aa60260e59d741ba4b032e1e",
       "identity": "terminal-edge-relay-client:25a2cce2ee74f6789d3c05a7c96574a508419157a5ff339f171571587b4053b4"
+    },
+    {
+      "id": "one-agent-accounts-page",
+      "digest": "e98dec3886043ed4c58dcf5e6c1f5679dfa461a6585aae0a64c7883e3d815a78",
+      "type": "minor",
+      "summary": "Move Computer → Agents → Accounts to Account → Agent accounts. There is now one account page, and it opens signed out too.",
+      "sourceSha": "5b3d1ea18fa44d3bdb230a98d9fd8a6c7607ba78",
+      "identity": "one-agent-accounts-page:e98dec3886043ed4c58dcf5e6c1f5679dfa461a6585aae0a64c7883e3d815a78"
     }
   ],
   "consumedIntentIds": [
