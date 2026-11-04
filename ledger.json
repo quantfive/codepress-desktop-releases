@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ad2fb79f0c34a1af8cc18c2fdd15419b22775e58",
+  "cursorSha": "0248343a660b8b509272e097bbee8af7588f915c",
   "highWaterVersion": "1.450.6",
   "rows": [
     {
@@ -137908,6 +137908,13 @@
       "sourceSha": "ad2fb79f0c34a1af8cc18c2fdd15419b22775e58",
       "sourcePackageVersion": "1.454.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0248343a660b8b509272e097bbee8af7588f915c",
+      "sourcePackageVersion": "1.454.8",
+      "intentIds": [
+        "launching-rail-rows:a2b9c16a13bdc76dcde034cf7a5fe88c4a2806ab12471209387c4ffe6715733e"
+      ]
     }
   ],
   "intents": [
@@ -143862,6 +143869,14 @@
       "summary": "Ghostty tabs keep the history depth your Scrollback setting asks for through a reload, and a steady stream no longer makes a tab reload its history.",
       "sourceSha": "f945c061dd1c4cf6885a119d6cf647b4e9610a68",
       "identity": "ghostty-history-depth:92850d1ea6538ca92330e4bda60a8c1dbcdde07bac03aed6697b39e268d565b1"
+    },
+    {
+      "id": "launching-rail-rows",
+      "digest": "a2b9c16a13bdc76dcde034cf7a5fe88c4a2806ab12471209387c4ffe6715733e",
+      "type": "patch",
+      "summary": "The Orchestrator rail now takes a list of launching rows, and a launch can show that it failed to start. Terminal still shows one launch at a time, so nothing changes yet.",
+      "sourceSha": "0248343a660b8b509272e097bbee8af7588f915c",
+      "identity": "launching-rail-rows:a2b9c16a13bdc76dcde034cf7a5fe88c4a2806ab12471209387c4ffe6715733e"
     }
   ],
   "consumedIntentIds": [
