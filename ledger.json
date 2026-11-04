@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "50d176ceb8e223cb2cc0c5bf6385845fbc2d8186",
+  "cursorSha": "5c36eb5b89ec863e705261efca564f5fbf22ca77",
   "highWaterVersion": "1.451.0",
   "rows": [
     {
@@ -138311,6 +138311,18 @@
       "sourceSha": "50d176ceb8e223cb2cc0c5bf6385845fbc2d8186",
       "sourcePackageVersion": "1.455.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a0824e0d34a6977591c7dc918767f54c7846a7cc",
+      "sourcePackageVersion": "1.455.1",
+      "intentIds": [
+        "org-artifacts-canvas:62096a2e39ceae209448908bf5d59eac20f25487e21c3cd79512384f03d49f14"
+      ]
+    },
+    {
+      "sourceSha": "5c36eb5b89ec863e705261efca564f5fbf22ca77",
+      "sourcePackageVersion": "1.455.1",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -144345,6 +144357,14 @@
       "summary": "A local Orchestrator working in a repository with a design kit is told where the kit is when it opens, and composes its mockups from it instead of copying tokens by hand.",
       "sourceSha": "d4b40a3bdf87384c72a7e18954c8e39e09385a58",
       "identity": "orchestrator-design-kit-section:0711df6caf233b8c14015898ebd3f16d9311062789e3a592c60ca850b7061d1e"
+    },
+    {
+      "id": "org-artifacts-canvas",
+      "digest": "62096a2e39ceae209448908bf5d59eac20f25487e21c3cd79512384f03d49f14",
+      "type": "minor",
+      "summary": "Artifact cards that group a project's pages now have Share, Copy link and Open canvas. Share opens the plan page's own link, worded for all of its pages, on the web app's address.",
+      "sourceSha": "a0824e0d34a6977591c7dc918767f54c7846a7cc",
+      "identity": "org-artifacts-canvas:62096a2e39ceae209448908bf5d59eac20f25487e21c3cd79512384f03d49f14"
     }
   ],
   "consumedIntentIds": [
