@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "3b6b03652f0bc1477bd1f3f96d9a511f143ad159",
-  "highWaterVersion": "1.442.2",
+  "highWaterVersion": "1.442.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -71790,6 +71790,52 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:3b6b03652f0bc1477bd1f3f96d9a511f143ad159",
+      "kind": "main",
+      "sequence": 2007,
+      "sourceSha": "3b6b03652f0bc1477bd1f3f96d9a511f143ad159",
+      "sourcePackageVersion": "1.446.4",
+      "version": "1.442.3",
+      "publicationDate": "2026-11-04T03:20:28.477Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "shared-with-you-every-teammate:e533d82ecf326fc9020f993cfc6be75fee3de6e20ccb6db4ccbc827dd46b709f"
+        ],
+        "notesIntentIds": [
+          "cli-update-survive:ebe8b4faa4552e6861a18b854ec4d040950b1897b767b5c7c723abe1ad72cdb2",
+          "live-browser-follows-popups:7c1ec412aa6fbbc3cb6c010c63ae176583d5e400ac5c1466f6d3aea6e49b79c2",
+          "one-permission-screen:0cfa761799a8401c08610c9893c179305dc9d2ca27545c6e0c586d5701cdfee9",
+          "shared-with-you-every-teammate:e533d82ecf326fc9020f993cfc6be75fee3de6e20ccb6db4ccbc827dd46b709f"
+        ],
+        "throughSourceSha": "3b6b03652f0bc1477bd1f3f96d9a511f143ad159",
+        "previousThroughSourceSha": "af1e201bb7aff83e66410dd192a2214bc10a8e21",
+        "baselineVersion": "1.442.2",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41766346076",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-05T03:20:23.007Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -142080,7 +142126,8 @@
     "artifacts-theme-tokens:fae9e2141be8d5c85ccd7c098c3d1039b9a10e75184b33cc38fcb19f42a019e9",
     "cli-update-survive:ebe8b4faa4552e6861a18b854ec4d040950b1897b767b5c7c723abe1ad72cdb2",
     "live-browser-follows-popups:7c1ec412aa6fbbc3cb6c010c63ae176583d5e400ac5c1466f6d3aea6e49b79c2",
-    "one-permission-screen:0cfa761799a8401c08610c9893c179305dc9d2ca27545c6e0c586d5701cdfee9"
+    "one-permission-screen:0cfa761799a8401c08610c9893c179305dc9d2ca27545c6e0c586d5701cdfee9",
+    "shared-with-you-every-teammate:e533d82ecf326fc9020f993cfc6be75fee3de6e20ccb6db4ccbc827dd46b709f"
   ],
-  "consumedThroughSha": "af1e201bb7aff83e66410dd192a2214bc10a8e21"
+  "consumedThroughSha": "3b6b03652f0bc1477bd1f3f96d9a511f143ad159"
 }
