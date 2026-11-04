@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "4f1f1db17bf1fa08098f1b157a880725dc0cfbb8",
-  "highWaterVersion": "1.450.6",
+  "highWaterVersion": "1.450.7",
   "rows": [
     {
       "schemaVersion": 1,
@@ -73342,6 +73342,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:4f1f1db17bf1fa08098f1b157a880725dc0cfbb8",
+      "kind": "main",
+      "sequence": 2034,
+      "sourceSha": "4f1f1db17bf1fa08098f1b157a880725dc0cfbb8",
+      "sourcePackageVersion": "1.454.9",
+      "version": "1.450.7",
+      "publicationDate": "2026-11-04T17:36:14.226Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "launching-rail-rows:a2b9c16a13bdc76dcde034cf7a5fe88c4a2806ab12471209387c4ffe6715733e"
+        ],
+        "notesIntentIds": [
+          "launching-rail-rows:a2b9c16a13bdc76dcde034cf7a5fe88c4a2806ab12471209387c4ffe6715733e"
+        ],
+        "throughSourceSha": "4f1f1db17bf1fa08098f1b157a880725dc0cfbb8",
+        "previousThroughSourceSha": "ad2fb79f0c34a1af8cc18c2fdd15419b22775e58",
+        "baselineVersion": "1.450.6",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41878827484",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-05T17:36:07.499Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -144643,7 +144686,8 @@
     "reclaim-never-quit-over-owed-work:5ed103ad548074f3a61c425475eb4d92f167f5e5ff2c0164d506f007af2748e6",
     "terminal-selected-shard-capacity:02c9187152f2fb58433f1fe9b962787a106fca9d310ba27a25b8e240b4c9cb3b",
     "unreachable-tabs-say-so:dd1b9b1eb0902131df434bcca3bd5495cb954915df8cd2d2774f73a66e3b083e",
-    "ghostty-history-depth:92850d1ea6538ca92330e4bda60a8c1dbcdde07bac03aed6697b39e268d565b1"
+    "ghostty-history-depth:92850d1ea6538ca92330e4bda60a8c1dbcdde07bac03aed6697b39e268d565b1",
+    "launching-rail-rows:a2b9c16a13bdc76dcde034cf7a5fe88c4a2806ab12471209387c4ffe6715733e"
   ],
-  "consumedThroughSha": "ad2fb79f0c34a1af8cc18c2fdd15419b22775e58"
+  "consumedThroughSha": "4f1f1db17bf1fa08098f1b157a880725dc0cfbb8"
 }
