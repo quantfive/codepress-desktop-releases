@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "4e30ca1a3e7c4e05e77b6ae22c94811d4776cf64",
-  "highWaterVersion": "1.450.7",
+  "highWaterVersion": "1.450.8",
   "rows": [
     {
       "schemaVersion": 1,
@@ -73397,6 +73397,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:4e30ca1a3e7c4e05e77b6ae22c94811d4776cf64",
+      "kind": "main",
+      "sequence": 2035,
+      "sourceSha": "4e30ca1a3e7c4e05e77b6ae22c94811d4776cf64",
+      "sourcePackageVersion": "1.454.11",
+      "version": "1.450.8",
+      "publicationDate": "2026-11-04T18:00:48.550Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "onboarding-linked-never-link:66a5ce2f6fa35af07a91395ddde7aa2c3c09b3e49594e9dd102e31a5d39e0a06",
+          "terminal-plan-issue-sync:d0bf4156bd14d6d04ede47595812cf222cd1c55ec7f825d4a67460f44ed31009"
+        ],
+        "notesIntentIds": [
+          "onboarding-linked-never-link:66a5ce2f6fa35af07a91395ddde7aa2c3c09b3e49594e9dd102e31a5d39e0a06",
+          "terminal-plan-issue-sync:d0bf4156bd14d6d04ede47595812cf222cd1c55ec7f825d4a67460f44ed31009"
+        ],
+        "throughSourceSha": "4e30ca1a3e7c4e05e77b6ae22c94811d4776cf64",
+        "previousThroughSourceSha": "4f1f1db17bf1fa08098f1b157a880725dc0cfbb8",
+        "baselineVersion": "1.450.7",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41882257056",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-05T18:00:41.215Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -144754,7 +144799,9 @@
     "terminal-selected-shard-capacity:02c9187152f2fb58433f1fe9b962787a106fca9d310ba27a25b8e240b4c9cb3b",
     "unreachable-tabs-say-so:dd1b9b1eb0902131df434bcca3bd5495cb954915df8cd2d2774f73a66e3b083e",
     "ghostty-history-depth:92850d1ea6538ca92330e4bda60a8c1dbcdde07bac03aed6697b39e268d565b1",
-    "launching-rail-rows:a2b9c16a13bdc76dcde034cf7a5fe88c4a2806ab12471209387c4ffe6715733e"
+    "launching-rail-rows:a2b9c16a13bdc76dcde034cf7a5fe88c4a2806ab12471209387c4ffe6715733e",
+    "onboarding-linked-never-link:66a5ce2f6fa35af07a91395ddde7aa2c3c09b3e49594e9dd102e31a5d39e0a06",
+    "terminal-plan-issue-sync:d0bf4156bd14d6d04ede47595812cf222cd1c55ec7f825d4a67460f44ed31009"
   ],
-  "consumedThroughSha": "4f1f1db17bf1fa08098f1b157a880725dc0cfbb8"
+  "consumedThroughSha": "4e30ca1a3e7c4e05e77b6ae22c94811d4776cf64"
 }
