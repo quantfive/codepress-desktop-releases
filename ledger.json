@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3af06a66a29fc2c0732275cce2a1f30c5876770a",
+  "cursorSha": "6cf89704eb3a978f3929098990e2c4940f5ccaf8",
   "highWaterVersion": "1.456.2",
   "rows": [
     {
@@ -139217,6 +139217,13 @@
       "sourceSha": "3af06a66a29fc2c0732275cce2a1f30c5876770a",
       "sourcePackageVersion": "1.460.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "6cf89704eb3a978f3929098990e2c4940f5ccaf8",
+      "sourcePackageVersion": "1.460.4",
+      "intentIds": [
+        "landing-triaged-could-not-verify:9ed8f2180f9d63bb9c99244b44f9e3cfb217447ef092453102ec452ea0b279b1"
+      ]
     }
   ],
   "intents": [
@@ -145371,6 +145378,14 @@
       "summary": "Runs on → Auto honors a saved machine order: it stays on the first ranked computer that can run the work and is under the busy limit (85% by default), and ranks by load only when every ranked computer is busy or unavailable. With no order saved, Auto is unchanged. Agents can read and set the order with `get/update_terminal_agent_settings` (`autoMachineOrder`).",
       "sourceSha": "25abc5661661e7ec412821b6ad07f8e8dfd2e53e",
       "identity": "auto-machine-order:b95b3229d098e59b317212aec844de03cb6805e64864679363523e2beb85a98a"
+    },
+    {
+      "id": "landing-triaged-could-not-verify",
+      "digest": "9ed8f2180f9d63bb9c99244b44f9e3cfb217447ef092453102ec452ea0b279b1",
+      "type": "patch",
+      "summary": "A landing with a draft now keeps the Orchestrator's own sorted \"Could not verify\" list, and the landed card counts only that list. Each merged pull request's raw list stays on the record behind \"As the pull requests reported it\".",
+      "sourceSha": "6cf89704eb3a978f3929098990e2c4940f5ccaf8",
+      "identity": "landing-triaged-could-not-verify:9ed8f2180f9d63bb9c99244b44f9e3cfb217447ef092453102ec452ea0b279b1"
     }
   ],
   "consumedIntentIds": [
