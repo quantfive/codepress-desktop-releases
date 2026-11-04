@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d9930869c33e6f6098ef8873e465418e9eda37dd",
+  "cursorSha": "a84a285e33b4f24c2e0a8bb4cb9d7cc689eacfbe",
   "highWaterVersion": "1.452.1",
   "rows": [
     {
@@ -138516,6 +138516,13 @@
       "sourceSha": "d9930869c33e6f6098ef8873e465418e9eda37dd",
       "sourcePackageVersion": "1.456.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a84a285e33b4f24c2e0a8bb4cb9d7cc689eacfbe",
+      "sourcePackageVersion": "1.456.2",
+      "intentIds": [
+        "codex-launch-file:c4197180ffad725153804a11d7b42c9d6dd2fe774a4b7525644ea5036f126d99"
+      ]
     }
   ],
   "intents": [
@@ -144574,6 +144581,14 @@
       "summary": "Agent accounts is now first under Settings → Account, and the \"Which account each computer uses\" block at the bottom of the page is gone: the \"Accounts on\" picker above the accounts chooses each computer's account. A long \"Running on <computer>\" label now stays inside its account card.",
       "sourceSha": "d4c908e51d2e9a8dcf5a1922c1cab3f6e8041e07",
       "identity": "agent-accounts-picker-everywhere:8c07104e114194d699e41544b6cc7f1f69aa276691e3564490317514cbb38fdd"
+    },
+    {
+      "id": "codex-launch-file",
+      "digest": "c4197180ffad725153804a11d7b42c9d6dd2fe774a4b7525644ea5036f126d99",
+      "type": "patch",
+      "summary": "Codex workers keep their MCP servers and both trust folders however long their paths are: the launch's command now rides in a private file instead of the typed line.",
+      "sourceSha": "a84a285e33b4f24c2e0a8bb4cb9d7cc689eacfbe",
+      "identity": "codex-launch-file:c4197180ffad725153804a11d7b42c9d6dd2fe774a4b7525644ea5036f126d99"
     }
   ],
   "consumedIntentIds": [
