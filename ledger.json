@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "796525ae321e1d59cf3fd1350cf9c6b45196c8db",
+  "cursorSha": "65fcc931507a4a27ec1191994b60336326424f28",
   "highWaterVersion": "1.443.4",
   "rows": [
     {
@@ -136191,6 +136191,13 @@
       "sourceSha": "796525ae321e1d59cf3fd1350cf9c6b45196c8db",
       "sourcePackageVersion": "1.447.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "65fcc931507a4a27ec1191994b60336326424f28",
+      "sourcePackageVersion": "1.447.6",
+      "intentIds": [
+        "bundled-provider-clis:b9402a2bc97454eedb2fe807fa0abad060beca769caa2fa1aa7ae563b3338a4b"
+      ]
     }
   ],
   "intents": [
@@ -141929,6 +141936,14 @@
       "summary": "Closing a Ghostty tab now releases its connections right away, so a long session can no longer use up the terminal's connection limit and block new tabs of any kind. Each computer now has room for about 120 Ghostty tabs on two windows. If you pass that limit, the tab you open says so and your other tabs keep working.",
       "sourceSha": "f632153aebd4db6fcd798b64ea015b143b50280b",
       "identity": "ghostty-broker-sockets:857e52f927e5ccb8efa81f9ad955a932c96f91199344ab912bd61870e6679ea1"
+    },
+    {
+      "id": "bundled-provider-clis",
+      "digest": "b9402a2bc97454eedb2fe807fa0abad060beca769caa2fa1aa7ae563b3338a4b",
+      "type": "patch",
+      "summary": "Claude and Codex workers, local Orchestrators, kickoffs and sign-ins on a computer with no compatible `claude` or `codex` installed now run the native CLI Terminal already ships, and handing a worker to such a computer no longer fails as unavailable. A compatible CLI you installed yourself still comes first. The _Automatically set up connected providers_ setting is gone: setup is always on, a saved value is ignored, and older windows or agents that still send it get a success with a note that it was removed.",
+      "sourceSha": "65fcc931507a4a27ec1191994b60336326424f28",
+      "identity": "bundled-provider-clis:b9402a2bc97454eedb2fe807fa0abad060beca769caa2fa1aa7ae563b3338a4b"
     }
   ],
   "consumedIntentIds": [
