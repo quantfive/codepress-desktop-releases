@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0b7f2cea10c9aff4ef910d94b64559dd2b3c12f9",
+  "cursorSha": "35e8969c315b2847bd1a902211f736a7f40f778a",
   "highWaterVersion": "1.442.3",
   "rows": [
     {
@@ -135783,6 +135783,13 @@
       "intentIds": [
         "relay-actor-grant:2f714b3d4e11c401987bbe4b1bfee119f46563f3ab1c81b0b89ef2f6ed7633e3"
       ]
+    },
+    {
+      "sourceSha": "35e8969c315b2847bd1a902211f736a7f40f778a",
+      "sourcePackageVersion": "1.447.0",
+      "intentIds": [
+        "ghostty-popout-scrollback:fccb968e4b572e666975b8d1e60969980b6018f0ed45916a95e62b2d5fa9d6c8"
+      ]
     }
   ],
   "intents": [
@@ -141473,6 +141480,14 @@
       "summary": "A teammate's Runs on start, project reads and messages now work on a shared computer whose Terminal just restarted: the relay frame carries their actor grant, which Terminal checks (their own, for this computer, not expired, never for someone whose access ended) before starting their Orchestrator host.",
       "sourceSha": "0b7f2cea10c9aff4ef910d94b64559dd2b3c12f9",
       "identity": "relay-actor-grant:2f714b3d4e11c401987bbe4b1bfee119f46563f3ab1c81b0b89ef2f6ed7633e3"
+    },
+    {
+      "id": "ghostty-popout-scrollback",
+      "digest": "fccb968e4b572e666975b8d1e60969980b6018f0ed45916a95e62b2d5fa9d6c8",
+      "type": "patch",
+      "summary": "Ghostty tabs render in popout windows, and keep the scrollback depth from your Scrollback setting instead of the native worker's 1000 lines.",
+      "sourceSha": "35e8969c315b2847bd1a902211f736a7f40f778a",
+      "identity": "ghostty-popout-scrollback:fccb968e4b572e666975b8d1e60969980b6018f0ed45916a95e62b2d5fa9d6c8"
     }
   ],
   "consumedIntentIds": [
