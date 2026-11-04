@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e4541c1099fced736af42ff9bb02ee5993089877",
+  "cursorSha": "848f9d9893231835de4f417d032a38ffa8f53ae9",
   "highWaterVersion": "1.444.2",
   "rows": [
     {
@@ -136580,6 +136580,13 @@
       "sourceSha": "e4541c1099fced736af42ff9bb02ee5993089877",
       "sourcePackageVersion": "1.448.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "848f9d9893231835de4f417d032a38ffa8f53ae9",
+      "sourcePackageVersion": "1.448.3",
+      "intentIds": [
+        "github-cli-setup:ad9a0acbb6a4a6a9c9dfebc1f7b451f5d8bca860677811706f9e5ef3588b8198"
+      ]
     }
   ],
   "intents": [
@@ -142366,6 +142373,14 @@
       "summary": "The Orchestrator Hand off dialog shows the step tracker (stopped → starting → running) from the real hand-off states, waits for a running turn and then hands off by itself instead of asking you to try again, and on reopen shows a start that is still under way or one that failed, with Try again on that Mac or Hand off to the cloud. After a failed start it says the project is assigned to that Mac, which hasn't started it, rather than still on the old one, and at 800×600 the list never shows a group heading without its first row.",
       "sourceSha": "14ada114d007de28ad56ffa8be294e94b88351ef",
       "identity": "pm-handoff-step-tracker:5da3f60fffd24a885f5478e9c19d85f45a88a87d61b6b110deda0823550fd071"
+    },
+    {
+      "id": "github-cli-setup",
+      "digest": "ad9a0acbb6a4a6a9c9dfebc1f7b451f5d8bca860677811706f9e5ef3588b8198",
+      "type": "minor",
+      "summary": "Set up GitHub: with no GitHub CLI on this computer, the GitHub row in onboarding and in Settings → AI Agents installs a pinned `gh` (2.103.3, checked against GitHub's published SHA-256), signs it in through GitHub's device flow with the code shown in the row, and runs `gh auth setup-git` so `git push` to github.com uses that login. A `gh` already signed in is left alone. Workers and the Orchestrator find the installed `gh` through Terminal's managed command folder. Windows keeps the cli.github.com link.",
+      "sourceSha": "848f9d9893231835de4f417d032a38ffa8f53ae9",
+      "identity": "github-cli-setup:ad9a0acbb6a4a6a9c9dfebc1f7b451f5d8bca860677811706f9e5ef3588b8198"
     }
   ],
   "consumedIntentIds": [
