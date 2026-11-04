@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1f71ee199242932d68691b533909218161a91b92",
+  "cursorSha": "25abc5661661e7ec412821b6ad07f8e8dfd2e53e",
   "highWaterVersion": "1.456.1",
   "rows": [
     {
@@ -139133,6 +139133,13 @@
       "sourceSha": "1f71ee199242932d68691b533909218161a91b92",
       "sourcePackageVersion": "1.460.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "25abc5661661e7ec412821b6ad07f8e8dfd2e53e",
+      "sourcePackageVersion": "1.460.3",
+      "intentIds": [
+        "auto-machine-order:b95b3229d098e59b317212aec844de03cb6805e64864679363523e2beb85a98a"
+      ]
     }
   ],
   "intents": [
@@ -145279,6 +145286,14 @@
       "summary": "A merged PR's \"Could not verify\" entries are now only the worker's unverified behaviours: the attribution footer and Merge safety lines end the section, sub-bullets fold into their lead, and worker briefs define Could not verify and offer an optional Notes section that is never copied into the landing.",
       "sourceSha": "2ab0f52f03e5170b2359760322a9f69f45d62cdb",
       "identity": "honest-could-not-verify:3b251cca3aae36f5d51870df1f0ca04374b59ec63b9b453e05d9ed469900482f"
+    },
+    {
+      "id": "auto-machine-order",
+      "digest": "b95b3229d098e59b317212aec844de03cb6805e64864679363523e2beb85a98a",
+      "type": "patch",
+      "summary": "Runs on → Auto honors a saved machine order: it stays on the first ranked computer that can run the work and is under the busy limit (85% by default), and ranks by load only when every ranked computer is busy or unavailable. With no order saved, Auto is unchanged. Agents can read and set the order with `get/update_terminal_agent_settings` (`autoMachineOrder`).",
+      "sourceSha": "25abc5661661e7ec412821b6ad07f8e8dfd2e53e",
+      "identity": "auto-machine-order:b95b3229d098e59b317212aec844de03cb6805e64864679363523e2beb85a98a"
     }
   ],
   "consumedIntentIds": [
