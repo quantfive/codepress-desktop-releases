@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9835e5eae5b05eac3c7981ef14e869ea31e78b6b",
+  "cursorSha": "378a8e3fb49567b031c6cb97468f33ee568160f2",
   "highWaterVersion": "1.444.0",
   "rows": [
     {
@@ -136407,6 +136407,13 @@
       "sourceSha": "9835e5eae5b05eac3c7981ef14e869ea31e78b6b",
       "sourcePackageVersion": "1.448.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "378a8e3fb49567b031c6cb97468f33ee568160f2",
+      "sourcePackageVersion": "1.448.0",
+      "intentIds": [
+        "managed-bin-claude-codex:d0c9df1175491a7047e4d3966a44abe245d42c39572f1334c059519ab7b1d947"
+      ]
     }
   ],
   "intents": [
@@ -142169,6 +142176,14 @@
       "summary": "Added an Artifacts section to the rail, with search, person, date and type filters over your organization's artifacts. It replaces the Apps page's Agent artifacts view; an old link to that view opens the new section.",
       "sourceSha": "523590306a386375c02a29adf827a5d015d0a096",
       "identity": "org-artifacts-tab:0bb28279b614437d5ae0e93a5be22cc6991897e64715b92789bdd67049256c8c"
+    },
+    {
+      "id": "managed-bin-claude-codex",
+      "digest": "d0c9df1175491a7047e4d3966a44abe245d42c39572f1334c059519ab7b1d947",
+      "type": "patch",
+      "summary": "Typing `claude` or `codex` in any Terminal tab now works on a computer with neither installed: it runs the copy Terminal ships. Workers and the Orchestrator find them the same way. Terminal's copies are last on PATH, so a `claude` or `codex` you install yourself always runs instead, even when your `~/.zshrc` rebuilds PATH. Settings → AI Agents → Accounts says \"Using the built-in Codex 0.165.0\" (or Claude Code) while the built-in copy is the one in use.",
+      "sourceSha": "378a8e3fb49567b031c6cb97468f33ee568160f2",
+      "identity": "managed-bin-claude-codex:d0c9df1175491a7047e4d3966a44abe245d42c39572f1334c059519ab7b1d947"
     }
   ],
   "consumedIntentIds": [
