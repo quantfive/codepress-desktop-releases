@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "8ce254adbf9df22ef531ca9fb8b7d8ec28726426",
+  "cursorSha": "d4c908e51d2e9a8dcf5a1922c1cab3f6e8041e07",
   "highWaterVersion": "1.452.1",
   "rows": [
     {
@@ -138494,6 +138494,13 @@
       "sourceSha": "8ce254adbf9df22ef531ca9fb8b7d8ec28726426",
       "sourcePackageVersion": "1.456.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d4c908e51d2e9a8dcf5a1922c1cab3f6e8041e07",
+      "sourcePackageVersion": "1.456.1",
+      "intentIds": [
+        "agent-accounts-picker-everywhere:8c07104e114194d699e41544b6cc7f1f69aa276691e3564490317514cbb38fdd"
+      ]
     }
   ],
   "intents": [
@@ -144544,6 +144551,14 @@
       "summary": "A broker from before the SIGTERM fix can again be replaced in place. The new shutdown deadline was required when reading its state, so replacing it was refused and a second broker was started instead.",
       "sourceSha": "5bac3564e1db3e71ddc9796447831ab24498fa21",
       "identity": "broker-reads-older-exec-image:20eaa0f9e3dcdf238c051557bfefb55b9ec57998a626aaa4e16296a28d40efd7"
+    },
+    {
+      "id": "agent-accounts-picker-everywhere",
+      "digest": "8c07104e114194d699e41544b6cc7f1f69aa276691e3564490317514cbb38fdd",
+      "type": "patch",
+      "summary": "Agent accounts is now first under Settings → Account, and the \"Which account each computer uses\" block at the bottom of the page is gone: the \"Accounts on\" picker above the accounts chooses each computer's account. A long \"Running on <computer>\" label now stays inside its account card.",
+      "sourceSha": "d4c908e51d2e9a8dcf5a1922c1cab3f6e8041e07",
+      "identity": "agent-accounts-picker-everywhere:8c07104e114194d699e41544b6cc7f1f69aa276691e3564490317514cbb38fdd"
     }
   ],
   "consumedIntentIds": [
