@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "8ce254adbf9df22ef531ca9fb8b7d8ec28726426",
-  "highWaterVersion": "1.452.0",
+  "highWaterVersion": "1.452.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -73629,6 +73629,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:8ce254adbf9df22ef531ca9fb8b7d8ec28726426",
+      "kind": "main",
+      "sequence": 2039,
+      "sourceSha": "8ce254adbf9df22ef531ca9fb8b7d8ec28726426",
+      "sourcePackageVersion": "1.456.1",
+      "version": "1.452.1",
+      "publicationDate": "2026-11-04T19:36:23.757Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "broker-reads-older-exec-image:20eaa0f9e3dcdf238c051557bfefb55b9ec57998a626aaa4e16296a28d40efd7"
+        ],
+        "notesIntentIds": [
+          "broker-reads-older-exec-image:20eaa0f9e3dcdf238c051557bfefb55b9ec57998a626aaa4e16296a28d40efd7"
+        ],
+        "throughSourceSha": "8ce254adbf9df22ef531ca9fb8b7d8ec28726426",
+        "previousThroughSourceSha": "e6f1e1b38ce3665ebc91d0c7a7d5640429419c65",
+        "baselineVersion": "1.452.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41898476905",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-05T19:36:18.281Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -145246,7 +145289,8 @@
     "launch-opens-on-holding-tab:5416b25f3663b2f731c98bb6b519f84b2ae7a78742be5de6d1b6b9e8cb1495b4",
     "sign-out-slow-daemon:e2124ee7c456a723521dae937f6eb53b3e37cd1f1a2e66badb8cecdc5b4f86cf",
     "orchestrator-design-kit-section:0711df6caf233b8c14015898ebd3f16d9311062789e3a592c60ca850b7061d1e",
-    "org-artifacts-canvas:62096a2e39ceae209448908bf5d59eac20f25487e21c3cd79512384f03d49f14"
+    "org-artifacts-canvas:62096a2e39ceae209448908bf5d59eac20f25487e21c3cd79512384f03d49f14",
+    "broker-reads-older-exec-image:20eaa0f9e3dcdf238c051557bfefb55b9ec57998a626aaa4e16296a28d40efd7"
   ],
-  "consumedThroughSha": "e6f1e1b38ce3665ebc91d0c7a7d5640429419c65"
+  "consumedThroughSha": "8ce254adbf9df22ef531ca9fb8b7d8ec28726426"
 }
