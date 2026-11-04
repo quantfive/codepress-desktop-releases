@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "fda53167143cc901080b04b05dd14b4a4d277eed",
+  "cursorSha": "91fdafb82840276da4670ca1e6c0358df2c7eeec",
   "highWaterVersion": "1.450.9",
   "rows": [
     {
@@ -138186,6 +138186,13 @@
       "intentIds": [
         "terminal-secret-request-card:41a17fb059338ed953a7c881c70bb7238ca026cc82f2655aa675b81528814301"
       ]
+    },
+    {
+      "sourceSha": "91fdafb82840276da4670ca1e6c0358df2c7eeec",
+      "sourcePackageVersion": "1.454.13",
+      "intentIds": [
+        "launch-opens-on-holding-tab:5416b25f3663b2f731c98bb6b519f84b2ae7a78742be5de6d1b6b9e8cb1495b4"
+      ]
     }
   ],
   "intents": [
@@ -144196,6 +144203,14 @@
       "summary": "Your Orchestrator and its Claude and Codex workers can now use stored secrets without ever seeing them. When one is missing or needs a new host, a card in the Dock asks you, and the value goes straight to CodePress.",
       "sourceSha": "fda53167143cc901080b04b05dd14b4a4d277eed",
       "identity": "terminal-secret-request-card:41a17fb059338ed953a7c881c70bb7238ca026cc82f2655aa675b81528814301"
+    },
+    {
+      "id": "launch-opens-on-holding-tab",
+      "digest": "5416b25f3663b2f731c98bb6b519f84b2ae7a78742be5de6d1b6b9e8cb1495b4",
+      "type": "patch",
+      "summary": "A new launch opens on the tab that holds it: sending an Orchestrator project from Chats switches the rail to Projects, and sending a chat from Projects switches it to Chats, where its starting row reads \"New chat\". A starting row no longer shows on a list that won't hold it.",
+      "sourceSha": "91fdafb82840276da4670ca1e6c0358df2c7eeec",
+      "identity": "launch-opens-on-holding-tab:5416b25f3663b2f731c98bb6b519f84b2ae7a78742be5de6d1b6b9e8cb1495b4"
     }
   ],
   "consumedIntentIds": [
