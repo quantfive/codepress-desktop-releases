@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e62b07e6cd36087e92a90d4c8939b875663a4a97",
+  "cursorSha": "607cad4c846d89f74e6854b78fcfe54943fc682f",
   "highWaterVersion": "1.452.1",
   "rows": [
     {
@@ -138543,6 +138543,13 @@
       "sourceSha": "e62b07e6cd36087e92a90d4c8939b875663a4a97",
       "sourcePackageVersion": "1.456.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "607cad4c846d89f74e6854b78fcfe54943fc682f",
+      "sourcePackageVersion": "1.456.3",
+      "intentIds": [
+        "chat-promotion-live-view:e7f6d2e878f4fc001555c0a822b829b38835f9dc5b307ae20a1f36706ddc3daa"
+      ]
     }
   ],
   "intents": [
@@ -144609,6 +144616,14 @@
       "summary": "Codex workers keep their MCP servers and both trust folders however long their paths are: the launch's command now rides in a private file instead of the typed line.",
       "sourceSha": "a84a285e33b4f24c2e0a8bb4cb9d7cc689eacfbe",
       "identity": "codex-launch-file:c4197180ffad725153804a11d7b42c9d6dd2fe774a4b7525644ea5036f126d99"
+    },
+    {
+      "id": "chat-promotion-live-view",
+      "digest": "e7f6d2e878f4fc001555c0a822b829b38835f9dc5b307ae20a1f36706ddc3daa",
+      "type": "patch",
+      "summary": "An open chat that becomes an Orchestrator project now turns into the project view in place: the status header, the Work and Plans tabs, and the row moving from Chats to Projects in the feed, without a reload and keeping any typed draft. The thread shows the \"This chat is now a project\" line as one quiet record.",
+      "sourceSha": "607cad4c846d89f74e6854b78fcfe54943fc682f",
+      "identity": "chat-promotion-live-view:e7f6d2e878f4fc001555c0a822b829b38835f9dc5b307ae20a1f36706ddc3daa"
     }
   ],
   "consumedIntentIds": [
