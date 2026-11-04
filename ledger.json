@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a535fe5cc6c8fd074bc936a01510f66ddbf1f811",
+  "cursorSha": "ee8ef74837f754a8ac07db6e374a1eca3f1f2d05",
   "highWaterVersion": "1.447.0",
   "rows": [
     {
@@ -136923,6 +136923,18 @@
       "sourceSha": "a535fe5cc6c8fd074bc936a01510f66ddbf1f811",
       "sourcePackageVersion": "1.451.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "80519ed92549e743aa60260e59d741ba4b032e1e",
+      "sourcePackageVersion": "1.451.0",
+      "intentIds": [
+        "terminal-edge-relay-client:25a2cce2ee74f6789d3c05a7c96574a508419157a5ff339f171571587b4053b4"
+      ]
+    },
+    {
+      "sourceSha": "ee8ef74837f754a8ac07db6e374a1eca3f1f2d05",
+      "sourcePackageVersion": "1.451.0",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -142741,6 +142753,14 @@
       "summary": "Connect your accounts: signed in, onboarding's Link Claude and Link Codex sign in, then link the account to your CodePress account as a Personal account in the same press, so your other computers and cloud agents can use it. Accounts already linked show as linked with no press on a second computer. If linking fails the account still works on this computer, with Retry link; a workspace that doesn't sync AI accounts keeps them on this Mac and says so. Gemini, Grok and Muse stay in Other connections, on this computer only.",
       "sourceSha": "f8b2848acc4e4a0a01a62e813bfff293dd0f5547",
       "identity": "connect-accounts-signed-in:03265d091ef64c1d1f33921932e8fb2cbc7aeb5b20f936d933b7726c4376857c"
+    },
+    {
+      "id": "terminal-edge-relay-client",
+      "digest": "25a2cce2ee74f6789d3c05a7c96574a508419157a5ff339f171571587b4053b4",
+      "type": "minor",
+      "summary": "A computer the backend puts on the edge relay now serves its same device URL through the relay: Terminal attaches to the relay, serves each request against its own local server with every existing sign-in and network-access check, and leaves its tunnel up as the fallback, which the URL uses whenever the relay is unreachable. Nothing changes while the relay is off for the computer. Settings shows one diagnostics line under Tunnel Diagnostics while the relay is assigned.",
+      "sourceSha": "80519ed92549e743aa60260e59d741ba4b032e1e",
+      "identity": "terminal-edge-relay-client:25a2cce2ee74f6789d3c05a7c96574a508419157a5ff339f171571587b4053b4"
     }
   ],
   "consumedIntentIds": [
