@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "8d36125ae750f3d5d2783b022d28bdf5eeb057ef",
+  "cursorSha": "e008603822f693a4536c4e22fffc007ef68798fb",
   "highWaterVersion": "1.450.8",
   "rows": [
     {
@@ -138098,6 +138098,13 @@
       "sourceSha": "8d36125ae750f3d5d2783b022d28bdf5eeb057ef",
       "sourcePackageVersion": "1.454.12",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e008603822f693a4536c4e22fffc007ef68798fb",
+      "sourcePackageVersion": "1.454.12",
+      "intentIds": [
+        "terminal-hardware-binding-register:060be451075729fc5aea40274f6dc3e17e91c6c4e76d19b14dec789e6f79f0f0"
+      ]
     }
   ],
   "intents": [
@@ -144084,6 +144091,14 @@
       "summary": "Check the bundled Claude and Codex CLIs when Terminal and the Orchestrator host start, and remember what was found, so the first Orchestrator or worker launch no longer waits several seconds to find a CLI.",
       "sourceSha": "91ac72889bb5e61133170a2b5c7c4d12a3db0ee1",
       "identity": "bundled-cli-startup-precheck:55f39c4ba0331ec93224b7092c1674f57f475771c6cea39630a4f7c0aefde01d"
+    },
+    {
+      "id": "terminal-hardware-binding-register",
+      "digest": "060be451075729fc5aea40274f6dc3e17e91c6c4e76d19b14dec789e6f79f0f0",
+      "type": "patch",
+      "summary": "Send this computer's hardware binding when it registers with CodePress, so the account picker lists each computer once instead of once per old device id.",
+      "sourceSha": "e008603822f693a4536c4e22fffc007ef68798fb",
+      "identity": "terminal-hardware-binding-register:060be451075729fc5aea40274f6dc3e17e91c6c4e76d19b14dec789e6f79f0f0"
     }
   ],
   "consumedIntentIds": [
