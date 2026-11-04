@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ee855fda21bf969e144291076008edddbc5fabc2",
+  "cursorSha": "212e2bb83b74337535d0ef228e425b399527e546",
   "highWaterVersion": "1.440.0",
   "rows": [
     {
@@ -135156,6 +135156,13 @@
       "sourceSha": "ee855fda21bf969e144291076008edddbc5fabc2",
       "sourcePackageVersion": "1.444.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "212e2bb83b74337535d0ef228e425b399527e546",
+      "sourcePackageVersion": "1.444.0",
+      "intentIds": [
+        "remote-session-create:247d0f2b1f154ce086ccc042401c6c94145ab5e236b0d5f8d72e04c81e84f7ab"
+      ]
     }
   ],
   "intents": [
@@ -140726,6 +140733,14 @@
       "summary": "Ghostty tabs on phones now support touch selection: a long press selects a word, drag handles extend the selection in either direction, and the touch Copy and Paste bar works on it. Copied text has wrapped lines joined. A quick swipe still scrolls and a tap still opens the keyboard.",
       "sourceSha": "0c70cf40e7c29ecb05a9da2ca96a65f99ce8d761",
       "identity": "ghostty-touch-selection:649b98fffa65f6e9a09ff0260cc7fec4f785f32088ba57e6f042cea11d0968f4"
+    },
+    {
+      "id": "remote-session-create",
+      "digest": "247d0f2b1f154ce086ccc042401c6c94145ab5e236b0d5f8d72e04c81e84f7ab",
+      "type": "patch",
+      "summary": "Terminal can now create a session on another connected computer, one of yours or a teammate's shared with you, for the computer picker coming next.",
+      "sourceSha": "212e2bb83b74337535d0ef228e425b399527e546",
+      "identity": "remote-session-create:247d0f2b1f154ce086ccc042401c6c94145ab5e236b0d5f8d72e04c81e84f7ab"
     }
   ],
   "consumedIntentIds": [
