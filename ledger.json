@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4c4cc11112c10c53d367c51c53219b0ccac1dbc9",
+  "cursorSha": "fda53167143cc901080b04b05dd14b4a4d277eed",
   "highWaterVersion": "1.450.9",
   "rows": [
     {
@@ -138172,6 +138172,20 @@
       "sourceSha": "4c4cc11112c10c53d367c51c53219b0ccac1dbc9",
       "sourcePackageVersion": "1.454.13",
       "intentIds": []
+    },
+    {
+      "sourceSha": "cc3d8a5e1897d6e9de9ebbe374fee7f957c58d58",
+      "sourcePackageVersion": "1.454.13",
+      "intentIds": [
+        "shared-accounts-computer-bar:a8dd2f8ce8d8b92883b22e8eeaa3d7f4b6b1fe4b2d991e7f3a55e65f51a38fec"
+      ]
+    },
+    {
+      "sourceSha": "fda53167143cc901080b04b05dd14b4a4d277eed",
+      "sourcePackageVersion": "1.454.13",
+      "intentIds": [
+        "terminal-secret-request-card:41a17fb059338ed953a7c881c70bb7238ca026cc82f2655aa675b81528814301"
+      ]
     }
   ],
   "intents": [
@@ -144166,6 +144180,22 @@
       "summary": "Send this computer's hardware binding when it registers with CodePress, so the account picker lists each computer once instead of once per old device id.",
       "sourceSha": "e008603822f693a4536c4e22fffc007ef68798fb",
       "identity": "terminal-hardware-binding-register:060be451075729fc5aea40274f6dc3e17e91c6c4e76d19b14dec789e6f79f0f0"
+    },
+    {
+      "id": "shared-accounts-computer-bar",
+      "digest": "a8dd2f8ce8d8b92883b22e8eeaa3d7f4b6b1fe4b2d991e7f3a55e65f51a38fec",
+      "type": "patch",
+      "summary": "Agent accounts: the computer picker's trigger now reads \"Accounts on\" before the computer's name on every width, and only the name truncates. The picker is now the shared `@codepress/ui` component so the web can use the same one.",
+      "sourceSha": "cc3d8a5e1897d6e9de9ebbe374fee7f957c58d58",
+      "identity": "shared-accounts-computer-bar:a8dd2f8ce8d8b92883b22e8eeaa3d7f4b6b1fe4b2d991e7f3a55e65f51a38fec"
+    },
+    {
+      "id": "terminal-secret-request-card",
+      "digest": "41a17fb059338ed953a7c881c70bb7238ca026cc82f2655aa675b81528814301",
+      "type": "minor",
+      "summary": "Your Orchestrator and its Claude and Codex workers can now use stored secrets without ever seeing them. When one is missing or needs a new host, a card in the Dock asks you, and the value goes straight to CodePress.",
+      "sourceSha": "fda53167143cc901080b04b05dd14b4a4d277eed",
+      "identity": "terminal-secret-request-card:41a17fb059338ed953a7c881c70bb7238ca026cc82f2655aa675b81528814301"
     }
   ],
   "consumedIntentIds": [
