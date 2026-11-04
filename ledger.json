@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "a1c2a870959fa214e2eaf50766146e4b48b1139b",
-  "highWaterVersion": "1.455.0",
+  "highWaterVersion": "1.455.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -73857,6 +73857,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:a1c2a870959fa214e2eaf50766146e4b48b1139b",
+      "kind": "main",
+      "sequence": 2043,
+      "sourceSha": "a1c2a870959fa214e2eaf50766146e4b48b1139b",
+      "sourcePackageVersion": "1.459.1",
+      "version": "1.455.1",
+      "publicationDate": "2026-11-04T21:11:21.473Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-folder-binding-register:223f6e40e4f7455984322c44a77578c1dfce583e5fefffc5ba2ac313c6dd76fa"
+        ],
+        "notesIntentIds": [
+          "terminal-folder-binding-register:223f6e40e4f7455984322c44a77578c1dfce583e5fefffc5ba2ac313c6dd76fa"
+        ],
+        "throughSourceSha": "a1c2a870959fa214e2eaf50766146e4b48b1139b",
+        "previousThroughSourceSha": "9afebb9fd7b9ca69e73de64b7bc99a0424c8e3cd",
+        "baselineVersion": "1.455.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41913449896",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-05T21:11:15.826Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -145727,7 +145770,8 @@
     "chat-becomes-project:a1614516b8514881b381e0ab839300d26c92e85bfd756c02627dd700d18f817f",
     "many-launches-per-scope:9e8c923e726c9d4992694d3db7834fc42a6990ecc8f42cf775cf576850f19e2e",
     "composer-secret-paste-warning:19ceeef24594f5d2733a7ceacc8cff287c3412e3dc22aba4f29798da229758c6",
-    "rail-reorder-drag:d66ec783629d110a6c1633543f4f2bed391a59f278f6290335f5203c3a623e7c"
+    "rail-reorder-drag:d66ec783629d110a6c1633543f4f2bed391a59f278f6290335f5203c3a623e7c",
+    "terminal-folder-binding-register:223f6e40e4f7455984322c44a77578c1dfce583e5fefffc5ba2ac313c6dd76fa"
   ],
-  "consumedThroughSha": "9afebb9fd7b9ca69e73de64b7bc99a0424c8e3cd"
+  "consumedThroughSha": "a1c2a870959fa214e2eaf50766146e4b48b1139b"
 }
