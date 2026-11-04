@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "453b71183418f14a67538541638214974d8347f4",
+  "cursorSha": "d4cdfe4e992b4e124d1359c0c3f00bfd4a79b14c",
   "highWaterVersion": "1.441.1",
   "rows": [
     {
@@ -135329,6 +135329,13 @@
       "sourceSha": "453b71183418f14a67538541638214974d8347f4",
       "sourcePackageVersion": "1.445.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d4cdfe4e992b4e124d1359c0c3f00bfd4a79b14c",
+      "sourcePackageVersion": "1.445.0",
+      "intentIds": [
+        "section-cache-build-define:9b37a420e537dd44983137dadde761663d3fb4006fafb1ed0bf45a839c60615a"
+      ]
     }
   ],
   "intents": [
@@ -140923,6 +140930,14 @@
       "summary": "The headless Linux CLI's bundled Node now searches its own directory for libraries too (RUNPATH `$ORIGIN:$ORIGIN/../lib`), so a teammate's runtime copy stages with its libatomic and their Orchestrator and tabs start on a shared Linux server.",
       "sourceSha": "3dabcf8132fa735ddd8189046f3ea01eaaf8a8f1",
       "identity": "linux-cli-node-origin-runpath:f86c78907a65f7f3f63d78f2c1696ecb1e283a5e56943acaaf9d7a8a163fdcbb"
+    },
+    {
+      "id": "section-cache-build-define",
+      "digest": "9b37a420e537dd44983137dadde761663d3fb4006fafb1ed0bf45a839c60615a",
+      "type": "patch",
+      "summary": "Stamp the stored section cache through its own build define, so web deploys stop renaming about 100 shared chunks. Terminal's cache behavior is unchanged.",
+      "sourceSha": "d4cdfe4e992b4e124d1359c0c3f00bfd4a79b14c",
+      "identity": "section-cache-build-define:9b37a420e537dd44983137dadde761663d3fb4006fafb1ed0bf45a839c60615a"
     }
   ],
   "consumedIntentIds": [
