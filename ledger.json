@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6cf89704eb3a978f3929098990e2c4940f5ccaf8",
+  "cursorSha": "1855ca2162867747f8a367344c7a9a528f0957c5",
   "highWaterVersion": "1.456.2",
   "rows": [
     {
@@ -139224,6 +139224,13 @@
       "intentIds": [
         "landing-triaged-could-not-verify:9ed8f2180f9d63bb9c99244b44f9e3cfb217447ef092453102ec452ea0b279b1"
       ]
+    },
+    {
+      "sourceSha": "1855ca2162867747f8a367344c7a9a528f0957c5",
+      "sourcePackageVersion": "1.460.4",
+      "intentIds": [
+        "land-without-no-competing-card:33a30e8ef2a3dc435ce280a621c03903162a5fe2e662904241c97c167746b833"
+      ]
     }
   ],
   "intents": [
@@ -145386,6 +145393,14 @@
       "summary": "A landing with a draft now keeps the Orchestrator's own sorted \"Could not verify\" list, and the landed card counts only that list. Each merged pull request's raw list stays on the record behind \"As the pull requests reported it\".",
       "sourceSha": "6cf89704eb3a978f3929098990e2c4940f5ccaf8",
       "identity": "landing-triaged-could-not-verify:9ed8f2180f9d63bb9c99244b44f9e3cfb217447ef092453102ec452ea0b279b1"
+    },
+    {
+      "id": "land-without-no-competing-card",
+      "digest": "33a30e8ef2a3dc435ce280a621c03903162a5fe2e662904241c97c167746b833",
+      "type": "patch",
+      "summary": "Answering the Orchestrator's \"Land without it\" now lets the Orchestrator land the project with its own summary: the platform's \"Land the project\" card stays hidden while the Orchestrator's turn is queued or running, and a stale card pressed on another device is refused instead of landing.",
+      "sourceSha": "1855ca2162867747f8a367344c7a9a528f0957c5",
+      "identity": "land-without-no-competing-card:33a30e8ef2a3dc435ce280a621c03903162a5fe2e662904241c97c167746b833"
     }
   ],
   "consumedIntentIds": [
