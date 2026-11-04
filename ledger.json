@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9f624004fbea464e5262fccd8ce8023cb208f74b",
+  "cursorSha": "da33608774cc8556e6eb3c4e1ff4d034d0be90cd",
   "highWaterVersion": "1.455.0",
   "rows": [
     {
@@ -138826,6 +138826,13 @@
       "sourceSha": "9f624004fbea464e5262fccd8ce8023cb208f74b",
       "sourcePackageVersion": "1.459.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "da33608774cc8556e6eb3c4e1ff4d034d0be90cd",
+      "sourcePackageVersion": "1.459.0",
+      "intentIds": [
+        "terminal-folder-binding-register:223f6e40e4f7455984322c44a77578c1dfce583e5fefffc5ba2ac313c6dd76fa"
+      ]
     }
   ],
   "intents": [
@@ -144932,6 +144939,14 @@
       "summary": "Reorder the left rail: drag a section icon to a new place (the others slide aside and an empty slot opens where it lands) or right-click it for Move up, Move down and Reset rail order. The order is saved to your account and shared by every Terminal and the web.",
       "sourceSha": "9afebb9fd7b9ca69e73de64b7bc99a0424c8e3cd",
       "identity": "rail-reorder-drag:d66ec783629d110a6c1633543f4f2bed391a59f278f6290335f5203c3a623e7c"
+    },
+    {
+      "id": "terminal-folder-binding-register",
+      "digest": "223f6e40e4f7455984322c44a77578c1dfce583e5fefffc5ba2ac313c6dd76fa",
+      "type": "patch",
+      "summary": "Send this data folder's fingerprint (`folder_binding`) when Terminal registers with CodePress, and retry a slow hardware id read once before falling back to a random device id.",
+      "sourceSha": "da33608774cc8556e6eb3c4e1ff4d034d0be90cd",
+      "identity": "terminal-folder-binding-register:223f6e40e4f7455984322c44a77578c1dfce583e5fefffc5ba2ac313c6dd76fa"
     }
   ],
   "consumedIntentIds": [
