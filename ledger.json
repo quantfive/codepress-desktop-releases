@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5fa96f7c73d7d34f9e818bdcdd25c169f324b204",
+  "cursorSha": "208750e4f32ba1f8c532441e8fbdcaebe88b3ef3",
   "highWaterVersion": "1.456.3",
   "rows": [
     {
@@ -139359,6 +139359,13 @@
       "intentIds": [
         "auto-order-settings:1b9d906f1c3cdcfaccf086f39d0b625997ebb95c6c8661678f59615c5654c914"
       ]
+    },
+    {
+      "sourceSha": "208750e4f32ba1f8c532441e8fbdcaebe88b3ef3",
+      "sourcePackageVersion": "1.460.6",
+      "intentIds": [
+        "orchestrator-kickoff-hello:fb476c42ed4047c58f12fad48581a53775f86f156d75e7d75442f2d846bcf558"
+      ]
     }
   ],
   "intents": [
@@ -145545,6 +145552,14 @@
       "summary": "Settings → My computers has an Auto order: rank your computers for Runs on → Auto by dragging or with the up and down buttons, add or remove them, and choose when a computer counts as busy (85% by default). Each computer shows its live usage, which one is over the limit and which one Auto would pick now. The order saves to your account, so it applies on every computer and on the web.",
       "sourceSha": "5fa96f7c73d7d34f9e818bdcdd25c169f324b204",
       "identity": "auto-order-settings:1b9d906f1c3cdcfaccf086f39d0b625997ebb95c6c8661678f59615c5654c914"
+    },
+    {
+      "id": "orchestrator-kickoff-hello",
+      "digest": "fb476c42ed4047c58f12fad48581a53775f86f156d75e7d75442f2d846bcf558",
+      "type": "patch",
+      "summary": "The empty Orchestrator kickoff now greets you like Chat does: the coloured \"Hello, {name}!\" with \"What should the Orchestrator get done?\" under it.",
+      "sourceSha": "208750e4f32ba1f8c532441e8fbdcaebe88b3ef3",
+      "identity": "orchestrator-kickoff-hello:fb476c42ed4047c58f12fad48581a53775f86f156d75e7d75442f2d846bcf558"
     }
   ],
   "consumedIntentIds": [
