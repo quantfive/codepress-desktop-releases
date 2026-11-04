@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e20c5347b80566d9fbaa4c76c994e336bbe5dfa0",
+  "cursorSha": "ee761383039090e55fb827f2329f2933ee79d907",
   "highWaterVersion": "1.451.0",
   "rows": [
     {
@@ -138287,6 +138287,13 @@
       "sourceSha": "e20c5347b80566d9fbaa4c76c994e336bbe5dfa0",
       "sourcePackageVersion": "1.455.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ee761383039090e55fb827f2329f2933ee79d907",
+      "sourcePackageVersion": "1.455.0",
+      "intentIds": [
+        "sign-out-slow-daemon:e2124ee7c456a723521dae937f6eb53b3e37cd1f1a2e66badb8cecdc5b4f86cf"
+      ]
     }
   ],
   "intents": [
@@ -144305,6 +144312,14 @@
       "summary": "A new launch opens on the tab that holds it: sending an Orchestrator project from Chats switches the rail to Projects, and sending a chat from Projects switches it to Chats, where its starting row reads \"New chat\". A starting row no longer shows on a list that won't hold it.",
       "sourceSha": "91fdafb82840276da4670ca1e6c0358df2c7eeec",
       "identity": "launch-opens-on-holding-tab:5416b25f3663b2f731c98bb6b519f84b2ae7a78742be5de6d1b6b9e8cb1495b4"
+    },
+    {
+      "id": "sign-out-slow-daemon",
+      "digest": "e2124ee7c456a723521dae937f6eb53b3e37cd1f1a2e66badb8cecdc5b4f86cf",
+      "type": "patch",
+      "summary": "Signing out no longer leaves Terminal with no service when the old background daemon takes more than 20 seconds to stop. Sign-out keeps watching it for up to a minute, then finishes removing the service and starts window 1's own daemon, so signing back in works without relaunching the app.",
+      "sourceSha": "ee761383039090e55fb827f2329f2933ee79d907",
+      "identity": "sign-out-slow-daemon:e2124ee7c456a723521dae937f6eb53b3e37cd1f1a2e66badb8cecdc5b4f86cf"
     }
   ],
   "consumedIntentIds": [
