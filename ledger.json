@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "186f59f5d05811c8ba98e22e1a82591e1d91059e",
-  "highWaterVersion": "1.443.1",
+  "highWaterVersion": "1.443.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -71962,6 +71962,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:186f59f5d05811c8ba98e22e1a82591e1d91059e",
+      "kind": "main",
+      "sequence": 2010,
+      "sourceSha": "186f59f5d05811c8ba98e22e1a82591e1d91059e",
+      "sourcePackageVersion": "1.447.3",
+      "version": "1.443.2",
+      "publicationDate": "2026-11-04T04:34:32.181Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "ghostty-xterm-parity-tune:0288fbd07ab2f850432fca3edc425e2e3c35cac4e881a040891324127d196e42",
+          "processes-rail-button:66569ce52b43b8c0a385de02a88487f6539def28b4e6d09fa3b5a93ddaeb7045"
+        ],
+        "notesIntentIds": [
+          "ghostty-xterm-parity-tune:0288fbd07ab2f850432fca3edc425e2e3c35cac4e881a040891324127d196e42",
+          "processes-rail-button:66569ce52b43b8c0a385de02a88487f6539def28b4e6d09fa3b5a93ddaeb7045"
+        ],
+        "throughSourceSha": "186f59f5d05811c8ba98e22e1a82591e1d91059e",
+        "previousThroughSourceSha": "70e029ace5c09868d7ce538b65a79e7d6e623632",
+        "baselineVersion": "1.443.1",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41773974054",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-05T04:34:27.281Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -142412,7 +142457,9 @@
     "terminal-computer-selector:21f21e53be58e463c7e915fc9fef26d953294807bd8104651caee67aa5f466da",
     "relay-actor-grant:2f714b3d4e11c401987bbe4b1bfee119f46563f3ab1c81b0b89ef2f6ed7633e3",
     "ghostty-popout-scrollback:fccb968e4b572e666975b8d1e60969980b6018f0ed45916a95e62b2d5fa9d6c8",
-    "keyboard-only-focus-rings:cd0162956db5007a8fa8449832f1d2e41affee3723c5957b99886b6bb763c83f"
+    "keyboard-only-focus-rings:cd0162956db5007a8fa8449832f1d2e41affee3723c5957b99886b6bb763c83f",
+    "ghostty-xterm-parity-tune:0288fbd07ab2f850432fca3edc425e2e3c35cac4e881a040891324127d196e42",
+    "processes-rail-button:66569ce52b43b8c0a385de02a88487f6539def28b4e6d09fa3b5a93ddaeb7045"
   ],
-  "consumedThroughSha": "70e029ace5c09868d7ce538b65a79e7d6e623632"
+  "consumedThroughSha": "186f59f5d05811c8ba98e22e1a82591e1d91059e"
 }
