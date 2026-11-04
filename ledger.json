@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ef95cad93dc5e1f58c95bdf5023a040cb4c90811",
+  "cursorSha": "28a26f89894aa2c027df3f6bb43b64a1e793188e",
   "highWaterVersion": "1.449.3",
   "rows": [
     {
@@ -137293,6 +137293,13 @@
       "sourceSha": "ef95cad93dc5e1f58c95bdf5023a040cb4c90811",
       "sourcePackageVersion": "1.453.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "28a26f89894aa2c027df3f6bb43b64a1e793188e",
+      "sourcePackageVersion": "1.453.3",
+      "intentIds": [
+        "web-accounts-panel:07f05802a93963c7ba83c54858adcb4dc1c991fdfdbf8c41ae5d3807faf693c9"
+      ]
     }
   ],
   "intents": [
@@ -143151,6 +143158,14 @@
       "summary": "The Ghostty Terminal Engine setting moved from Settings → Agents to Settings → CodePress app, beside the other terminal rendering settings. It works the same way and your saved choice is kept.",
       "sourceSha": "848a37a8c16054c6dce045fc32c710046ba94ba1",
       "identity": "ghostty-setting-codepress-app:5712057739ed3da22667c73feb8c9de0d04cd2688dcb42d83c5a2b60700f987e"
+    },
+    {
+      "id": "web-accounts-panel",
+      "digest": "07f05802a93963c7ba83c54858adcb4dc1c991fdfdbf8c41ae5d3807faf693c9",
+      "type": "patch",
+      "summary": "Agent account rows keep the account's name on a narrow window, and a phone-sized Remove dialog's Close is easier to reach.",
+      "sourceSha": "28a26f89894aa2c027df3f6bb43b64a1e793188e",
+      "identity": "web-accounts-panel:07f05802a93963c7ba83c54858adcb4dc1c991fdfdbf8c41ae5d3807faf693c9"
     }
   ],
   "consumedIntentIds": [
