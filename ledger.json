@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "e07a79be8d6c52efed7c438f85c3a7ba96a00044",
-  "highWaterVersion": "1.440.0",
+  "highWaterVersion": "1.441.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -71496,6 +71496,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:e07a79be8d6c52efed7c438f85c3a7ba96a00044",
+      "kind": "main",
+      "sequence": 2002,
+      "sourceSha": "e07a79be8d6c52efed7c438f85c3a7ba96a00044",
+      "sourcePackageVersion": "1.444.1",
+      "version": "1.441.0",
+      "publicationDate": "2026-11-04T01:33:58.476Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "remote-session-create:247d0f2b1f154ce086ccc042401c6c94145ab5e236b0d5f8d72e04c81e84f7ab",
+          "ghostty-clickable-links:c2a216ac1726f835d8d67f9219d40f3e636e71582b93de838409471bf4ce9bac"
+        ],
+        "notesIntentIds": [
+          "remote-session-create:247d0f2b1f154ce086ccc042401c6c94145ab5e236b0d5f8d72e04c81e84f7ab",
+          "ghostty-clickable-links:c2a216ac1726f835d8d67f9219d40f3e636e71582b93de838409471bf4ce9bac"
+        ],
+        "throughSourceSha": "e07a79be8d6c52efed7c438f85c3a7ba96a00044",
+        "previousThroughSourceSha": "ee855fda21bf969e144291076008edddbc5fabc2",
+        "baselineVersion": "1.440.0",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41754849061",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-05T01:33:52.257Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -141469,7 +141514,9 @@
     "remote-project-artifacts-relay:3737cc5a0797f733a46cb0d89797472def26968c5131f3894fb2d0adac43b79e",
     "ghostty-find-bar:d2ef174672d305c55ace9f6dbdaf03dbe761a277b8662c4d3c6e38815fa671b5",
     "terminal-git-install-button:e51fe810f0edabd93f6f910130acd27f697bd4580af310f7af7d5b6d7eebd04e",
-    "ghostty-touch-selection:649b98fffa65f6e9a09ff0260cc7fec4f785f32088ba57e6f042cea11d0968f4"
+    "ghostty-touch-selection:649b98fffa65f6e9a09ff0260cc7fec4f785f32088ba57e6f042cea11d0968f4",
+    "remote-session-create:247d0f2b1f154ce086ccc042401c6c94145ab5e236b0d5f8d72e04c81e84f7ab",
+    "ghostty-clickable-links:c2a216ac1726f835d8d67f9219d40f3e636e71582b93de838409471bf4ce9bac"
   ],
-  "consumedThroughSha": "ee855fda21bf969e144291076008edddbc5fabc2"
+  "consumedThroughSha": "e07a79be8d6c52efed7c438f85c3a7ba96a00044"
 }
