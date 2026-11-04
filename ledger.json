@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1740b8e55095c143609f17abec0415d906a1e073",
+  "cursorSha": "6c0b3c036d27cac5660449f44948111c02e42916",
   "highWaterVersion": "1.445.0",
   "rows": [
     {
@@ -136667,6 +136667,13 @@
       "sourceSha": "1740b8e55095c143609f17abec0415d906a1e073",
       "sourcePackageVersion": "1.449.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "6c0b3c036d27cac5660449f44948111c02e42916",
+      "sourcePackageVersion": "1.449.0",
+      "intentIds": [
+        "github-through-codepress-account:27839e03d5d275c63c29f9d50434f73ad45d82474d8953404e95340b8a413f06"
+      ]
     }
   ],
   "intents": [
@@ -142461,6 +142468,14 @@
       "summary": "Set up GitHub: with no GitHub CLI on this computer, the GitHub row in onboarding and in Settings → AI Agents installs a pinned `gh` (2.103.3, checked against GitHub's published SHA-256), signs it in through GitHub's device flow with the code shown in the row, and runs `gh auth setup-git` so `git push` to github.com uses that login. A `gh` already signed in is left alone. Workers and the Orchestrator find the installed `gh` through Terminal's managed command folder. Windows keeps the cli.github.com link.",
       "sourceSha": "848f9d9893231835de4f417d032a38ffa8f53ae9",
       "identity": "github-cli-setup:ad9a0acbb6a4a6a9c9dfebc1f7b451f5d8bca860677811706f9e5ef3588b8198"
+    },
+    {
+      "id": "github-through-codepress-account",
+      "digest": "27839e03d5d275c63c29f9d50434f73ad45d82474d8953404e95340b8a413f06",
+      "type": "minor",
+      "summary": "GitHub through your CodePress account: signed in, the GitHub row in onboarding's Connect step and Settings → AI Agents writes your account's own GitHub login into gh (installing Terminal's gh first if needed), so gh and git work with no separate GitHub sign-in. A gh already signed in to github.com is never touched. An account with no GitHub login gets Link GitHub; anything else falls back to Set up GitHub with the reason, and \"Use a separate gh login\" stays on offer.",
+      "sourceSha": "6c0b3c036d27cac5660449f44948111c02e42916",
+      "identity": "github-through-codepress-account:27839e03d5d275c63c29f9d50434f73ad45d82474d8953404e95340b8a413f06"
     }
   ],
   "consumedIntentIds": [
