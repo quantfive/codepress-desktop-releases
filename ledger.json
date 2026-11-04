@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3406dc5905503c9614e21b085f4e16a1e7f17974",
+  "cursorSha": "bea5eab35c59d41ae21b5bf3aea8ea1bd1665a62",
   "highWaterVersion": "1.456.2",
   "rows": [
     {
@@ -139236,6 +139236,13 @@
       "sourceSha": "3406dc5905503c9614e21b085f4e16a1e7f17974",
       "sourcePackageVersion": "1.460.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "bea5eab35c59d41ae21b5bf3aea8ea1bd1665a62",
+      "sourcePackageVersion": "1.460.5",
+      "intentIds": [
+        "handoff-moves-live-workers:6f4154233787523bc52d58a5ccccd946b19df0b1bde7538abbbc8176927e7e4d"
+      ]
     }
   ],
   "intents": [
@@ -145406,6 +145413,14 @@
       "summary": "Answering the Orchestrator's \"Land without it\" now lets the Orchestrator land the project with its own summary: the platform's \"Land the project\" card stays hidden while the Orchestrator's turn is queued or running, and a stale card pressed on another device is refused instead of landing.",
       "sourceSha": "1855ca2162867747f8a367344c7a9a528f0957c5",
       "identity": "land-without-no-competing-card:33a30e8ef2a3dc435ce280a621c03903162a5fe2e662904241c97c167746b833"
+    },
+    {
+      "id": "handoff-moves-live-workers",
+      "digest": "6f4154233787523bc52d58a5ccccd946b19df0b1bde7538abbbc8176927e7e4d",
+      "type": "patch",
+      "summary": "Handing off a cloud project's Orchestrator to a Mac no longer stops at \"Stop these workers first\": its live workers move to the Mac with it, and the Hand off dialog says so.",
+      "sourceSha": "bea5eab35c59d41ae21b5bf3aea8ea1bd1665a62",
+      "identity": "handoff-moves-live-workers:6f4154233787523bc52d58a5ccccd946b19df0b1bde7538abbbc8176927e7e4d"
     }
   ],
   "consumedIntentIds": [
