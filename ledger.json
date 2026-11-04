@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b418286f994b3c82750171241b3c0b2755d8ca4f",
+  "cursorSha": "5412ec4e7877c3b9128369484dfa9968eec842c1",
   "highWaterVersion": "1.438.1",
   "rows": [
     {
@@ -134854,6 +134854,13 @@
       "intentIds": [
         "reinstall-onboarding:4ef9ed261e7daee80f95e5e4f4e4b99b0f27a20d427dd87cec9ba86d08dea94f"
       ]
+    },
+    {
+      "sourceSha": "5412ec4e7877c3b9128369484dfa9968eec842c1",
+      "sourcePackageVersion": "1.442.0",
+      "intentIds": [
+        "ghostty-kitty-images:5efac9d33f22a3bd12a6d443a5f65a2a7ada6edd328df13bccfa10f3f0ee2296"
+      ]
     }
   ],
   "intents": [
@@ -140384,6 +140391,14 @@
       "summary": "On a Mac, deleting CodePress and installing it again, then opening it signed out, now runs the first-run onboarding from Welcome even though the old app data is still there. An in-app update, moving the app, or a signed-in reinstall does not.",
       "sourceSha": "b418286f994b3c82750171241b3c0b2755d8ca4f",
       "identity": "reinstall-onboarding:4ef9ed261e7daee80f95e5e4f4e4b99b0f27a20d427dd87cec9ba86d08dea94f"
+    },
+    {
+      "id": "ghostty-kitty-images",
+      "digest": "5efac9d33f22a3bd12a6d443a5f65a2a7ada6edd328df13bccfa10f3f0ee2296",
+      "type": "minor",
+      "summary": "Ghostty tabs show inline images from the Kitty graphics protocol (`kitten icat`), keep them through scrolling, reattach and window reload, and follow the pointer shape apps set with OSC 22. The Ghostty engine moves to upstream 6fba0873 on Zig 0.17. Pilot Ghostty tabs opened before this update reopen once as a fresh shell in the same folder, with their agent resumed.",
+      "sourceSha": "5412ec4e7877c3b9128369484dfa9968eec842c1",
+      "identity": "ghostty-kitty-images:5efac9d33f22a3bd12a6d443a5f65a2a7ada6edd328df13bccfa10f3f0ee2296"
     }
   ],
   "consumedIntentIds": [
