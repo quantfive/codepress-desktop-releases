@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a1c2a870959fa214e2eaf50766146e4b48b1139b",
+  "cursorSha": "e9c305fe35d1e237025d0e8b90f2e5163cbee846",
   "highWaterVersion": "1.455.1",
   "rows": [
     {
@@ -138895,6 +138895,13 @@
       "sourceSha": "a1c2a870959fa214e2eaf50766146e4b48b1139b",
       "sourcePackageVersion": "1.459.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e9c305fe35d1e237025d0e8b90f2e5163cbee846",
+      "sourcePackageVersion": "1.459.1",
+      "intentIds": [
+        "collection-share-links:13af200f72feb199c16f2901fb5e31c1e5031c26a9f86d5dd83aca7941c6c1f7"
+      ]
     }
   ],
   "intents": [
@@ -145009,6 +145016,14 @@
       "summary": "Send this data folder's fingerprint (`folder_binding`) when Terminal registers with CodePress, and retry a slow hardware id read once before falling back to a random device id.",
       "sourceSha": "da33608774cc8556e6eb3c4e1ff4d034d0be90cd",
       "identity": "terminal-folder-binding-register:223f6e40e4f7455984322c44a77578c1dfce583e5fefffc5ba2ac313c6dd76fa"
+    },
+    {
+      "id": "collection-share-links",
+      "digest": "13af200f72feb199c16f2901fb5e31c1e5031c26a9f86d5dd83aca7941c6c1f7",
+      "type": "minor",
+      "summary": "A collection can have one share link, team only or public, drawn on one canvas. A public link shows only items that are already public on their own, and the Share dialog names what it leaves out and why.",
+      "sourceSha": "e9c305fe35d1e237025d0e8b90f2e5163cbee846",
+      "identity": "collection-share-links:13af200f72feb199c16f2901fb5e31c1e5031c26a9f86d5dd83aca7941c6c1f7"
     }
   ],
   "consumedIntentIds": [
