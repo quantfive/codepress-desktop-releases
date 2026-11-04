@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "36bc24921ee05d2892cee3bbc87f3de86676997a",
+  "cursorSha": "523590306a386375c02a29adf827a5d015d0a096",
   "highWaterVersion": "1.443.6",
   "rows": [
     {
@@ -136340,6 +136340,13 @@
       "sourceSha": "36bc24921ee05d2892cee3bbc87f3de86676997a",
       "sourcePackageVersion": "1.447.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "523590306a386375c02a29adf827a5d015d0a096",
+      "sourcePackageVersion": "1.447.8",
+      "intentIds": [
+        "org-artifacts-tab:0bb28279b614437d5ae0e93a5be22cc6991897e64715b92789bdd67049256c8c"
+      ]
     }
   ],
   "intents": [
@@ -142094,6 +142101,14 @@
       "summary": "Repair the broker upgrade QA scenarios for the current launcher layout. QA tooling only; the app does not change.",
       "sourceSha": "6988bcc68a7c60f906e861333b23cdd455397ed8",
       "identity": "broker-upgrade-qa-harness:38ad156e0124aa88951e632bd8c5f86356e23b1085832ce576d7a9f484a575fa"
+    },
+    {
+      "id": "org-artifacts-tab",
+      "digest": "0bb28279b614437d5ae0e93a5be22cc6991897e64715b92789bdd67049256c8c",
+      "type": "minor",
+      "summary": "Added an Artifacts section to the rail, with search, person, date and type filters over your organization's artifacts. It replaces the Apps page's Agent artifacts view; an old link to that view opens the new section.",
+      "sourceSha": "523590306a386375c02a29adf827a5d015d0a096",
+      "identity": "org-artifacts-tab:0bb28279b614437d5ae0e93a5be22cc6991897e64715b92789bdd67049256c8c"
     }
   ],
   "consumedIntentIds": [
