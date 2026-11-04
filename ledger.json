@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5c6bc32212dddc88f7456bb339af1e48ed459567",
+  "cursorSha": "1551dcad10333cd815c91a233aade5484079e6c8",
   "highWaterVersion": "1.453.0",
   "rows": [
     {
@@ -138610,6 +138610,13 @@
       "intentIds": [
         "chat-becomes-project:a1614516b8514881b381e0ab839300d26c92e85bfd756c02627dd700d18f817f"
       ]
+    },
+    {
+      "sourceSha": "1551dcad10333cd815c91a233aade5484079e6c8",
+      "sourcePackageVersion": "1.456.3",
+      "intentIds": [
+        "many-launches-per-scope:9e8c923e726c9d4992694d3db7834fc42a6990ecc8f42cf775cf576850f19e2e"
+      ]
     }
   ],
   "intents": [
@@ -144692,6 +144699,14 @@
       "summary": "A local chat that is about to change a git repository now becomes an Orchestrator project in the same conversation (`become_project`), with its history kept and the build already started on your request, so the pull request it opens is tracked on a work item.",
       "sourceSha": "5c6bc32212dddc88f7456bb339af1e48ed459567",
       "identity": "chat-becomes-project:a1614516b8514881b381e0ab839300d26c92e85bfd756c02627dd700d18f817f"
+    },
+    {
+      "id": "many-launches-per-scope",
+      "digest": "9e8c923e726c9d4992694d3db7834fc42a6990ecc8f42cf775cf576850f19e2e",
+      "type": "minor",
+      "summary": "New chat in the Orchestrator now always opens a fresh composer, even while an earlier start is still waiting for its computer. Each launch keeps its own row in the list until its project appears. If a start fails, its row stays with the reason, and you can retry it, edit the brief, or dismiss it. Launches are kept across a reload.",
+      "sourceSha": "1551dcad10333cd815c91a233aade5484079e6c8",
+      "identity": "many-launches-per-scope:9e8c923e726c9d4992694d3db7834fc42a6990ecc8f42cf775cf576850f19e2e"
     }
   ],
   "consumedIntentIds": [
