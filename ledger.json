@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "3785f475601bcd81fb8eb761d49d95ea8eb4b979",
-  "highWaterVersion": "1.448.0",
+  "highWaterVersion": "1.449.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -72716,6 +72716,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:3785f475601bcd81fb8eb761d49d95ea8eb4b979",
+      "kind": "main",
+      "sequence": 2023,
+      "sourceSha": "3785f475601bcd81fb8eb761d49d95ea8eb4b979",
+      "sourcePackageVersion": "1.452.0",
+      "version": "1.449.0",
+      "publicationDate": "2026-11-04T12:23:05.545Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "one-agent-accounts-page:e98dec3886043ed4c58dcf5e6c1f5679dfa461a6585aae0a64c7883e3d815a78"
+        ],
+        "notesIntentIds": [
+          "one-agent-accounts-page:e98dec3886043ed4c58dcf5e6c1f5679dfa461a6585aae0a64c7883e3d815a78"
+        ],
+        "throughSourceSha": "3785f475601bcd81fb8eb761d49d95ea8eb4b979",
+        "previousThroughSourceSha": "ee8ef74837f754a8ac07db6e374a1eca3f1f2d05",
+        "baselineVersion": "1.448.0",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41828718233",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-05T12:22:59.163Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -143576,7 +143619,8 @@
     "github-through-codepress-account:27839e03d5d275c63c29f9d50434f73ad45d82474d8953404e95340b8a413f06",
     "secret-card-open-in-web:f5145b0e4c367cb90a5358ee750f220deb69e9cd3a4714a1c701c12a7c9b61eb",
     "connect-accounts-signed-in:03265d091ef64c1d1f33921932e8fb2cbc7aeb5b20f936d933b7726c4376857c",
-    "terminal-edge-relay-client:25a2cce2ee74f6789d3c05a7c96574a508419157a5ff339f171571587b4053b4"
+    "terminal-edge-relay-client:25a2cce2ee74f6789d3c05a7c96574a508419157a5ff339f171571587b4053b4",
+    "one-agent-accounts-page:e98dec3886043ed4c58dcf5e6c1f5679dfa461a6585aae0a64c7883e3d815a78"
   ],
-  "consumedThroughSha": "ee8ef74837f754a8ac07db6e374a1eca3f1f2d05"
+  "consumedThroughSha": "3785f475601bcd81fb8eb761d49d95ea8eb4b979"
 }
