@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "26f255d449e20de40be4d6d07ade6dde1cd370b4",
-  "highWaterVersion": "1.450.2",
+  "highWaterVersion": "1.450.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -73113,6 +73113,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:26f255d449e20de40be4d6d07ade6dde1cd370b4",
+      "kind": "main",
+      "sequence": 2030,
+      "sourceSha": "26f255d449e20de40be4d6d07ade6dde1cd370b4",
+      "sourcePackageVersion": "1.454.4",
+      "version": "1.450.3",
+      "publicationDate": "2026-11-04T15:36:26.507Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "pm-idle-clock-restart:e5c763f376801fd4b41261571abc6a73a0eb8e2344c922ddbaf009267ec76f3c"
+        ],
+        "notesIntentIds": [
+          "pm-idle-clock-restart:e5c763f376801fd4b41261571abc6a73a0eb8e2344c922ddbaf009267ec76f3c"
+        ],
+        "throughSourceSha": "26f255d449e20de40be4d6d07ade6dde1cd370b4",
+        "previousThroughSourceSha": "1b5d5861511ed3bc3085d6146e7c823e233dfc18",
+        "baselineVersion": "1.450.2",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41859421677",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-05T15:36:19.565Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -144248,7 +144291,8 @@
     "broker-sigterm-bash-tab:a38e9dc09536ebf2eff2538daa4c88608b49da8bfbc0a4b5c37b235dcf5fcb57",
     "member-footer-chips:466683850155366beab66b8ccfb7f5951b493aeaf0331d03d1de537c648d496b",
     "member-window-keybindings:a5aa1d2f3b31d6c7a01b6b5212e57f79211a3ec7546b960cff3b6ec52abfd31a",
-    "teammate-kickoff-repositories:7eaf5e218bbe3911132b4ee80a0da9c22d25366e73dad626c6aefa9e63e4e173"
+    "teammate-kickoff-repositories:7eaf5e218bbe3911132b4ee80a0da9c22d25366e73dad626c6aefa9e63e4e173",
+    "pm-idle-clock-restart:e5c763f376801fd4b41261571abc6a73a0eb8e2344c922ddbaf009267ec76f3c"
   ],
-  "consumedThroughSha": "1b5d5861511ed3bc3085d6146e7c823e233dfc18"
+  "consumedThroughSha": "26f255d449e20de40be4d6d07ade6dde1cd370b4"
 }
