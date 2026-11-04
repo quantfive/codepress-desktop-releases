@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a7e247f5964e0ad6057a119a80a7008dc1c64f68",
+  "cursorSha": "5fa96f7c73d7d34f9e818bdcdd25c169f324b204",
   "highWaterVersion": "1.456.3",
   "rows": [
     {
@@ -139352,6 +139352,13 @@
       "sourceSha": "a7e247f5964e0ad6057a119a80a7008dc1c64f68",
       "sourcePackageVersion": "1.460.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "5fa96f7c73d7d34f9e818bdcdd25c169f324b204",
+      "sourcePackageVersion": "1.460.6",
+      "intentIds": [
+        "auto-order-settings:1b9d906f1c3cdcfaccf086f39d0b625997ebb95c6c8661678f59615c5654c914"
+      ]
     }
   ],
   "intents": [
@@ -145530,6 +145537,14 @@
       "summary": "Handing off a cloud project's Orchestrator to a Mac no longer stops at \"Stop these workers first\": its live workers move to the Mac with it, and the Hand off dialog says so.",
       "sourceSha": "bea5eab35c59d41ae21b5bf3aea8ea1bd1665a62",
       "identity": "handoff-moves-live-workers:6f4154233787523bc52d58a5ccccd946b19df0b1bde7538abbbc8176927e7e4d"
+    },
+    {
+      "id": "auto-order-settings",
+      "digest": "1b9d906f1c3cdcfaccf086f39d0b625997ebb95c6c8661678f59615c5654c914",
+      "type": "patch",
+      "summary": "Settings → My computers has an Auto order: rank your computers for Runs on → Auto by dragging or with the up and down buttons, add or remove them, and choose when a computer counts as busy (85% by default). Each computer shows its live usage, which one is over the limit and which one Auto would pick now. The order saves to your account, so it applies on every computer and on the web.",
+      "sourceSha": "5fa96f7c73d7d34f9e818bdcdd25c169f324b204",
+      "identity": "auto-order-settings:1b9d906f1c3cdcfaccf086f39d0b625997ebb95c6c8661678f59615c5654c914"
     }
   ],
   "consumedIntentIds": [
