@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "07dba40c68fc6b938ccb22c498c9f0df00f71f40",
-  "highWaterVersion": "1.439.0",
+  "highWaterVersion": "1.439.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -71384,6 +71384,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:07dba40c68fc6b938ccb22c498c9f0df00f71f40",
+      "kind": "main",
+      "sequence": 2000,
+      "sourceSha": "07dba40c68fc6b938ccb22c498c9f0df00f71f40",
+      "sourcePackageVersion": "1.443.3",
+      "version": "1.439.1",
+      "publicationDate": "2026-11-04T00:51:38.992Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "ghostty-find-bar:d2ef174672d305c55ace9f6dbdaf03dbe761a277b8662c4d3c6e38815fa671b5",
+          "terminal-git-install-button:e51fe810f0edabd93f6f910130acd27f697bd4580af310f7af7d5b6d7eebd04e"
+        ],
+        "notesIntentIds": [
+          "ghostty-find-bar:d2ef174672d305c55ace9f6dbdaf03dbe761a277b8662c4d3c6e38815fa671b5",
+          "terminal-git-install-button:e51fe810f0edabd93f6f910130acd27f697bd4580af310f7af7d5b6d7eebd04e"
+        ],
+        "throughSourceSha": "07dba40c68fc6b938ccb22c498c9f0df00f71f40",
+        "previousThroughSourceSha": "a1c03618f4885fa8dc3b4e26e5f52172b9838552",
+        "baselineVersion": "1.439.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41749864411",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-05T00:51:32.814Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -141254,7 +141299,9 @@
     "local-project-artifacts:69df08500a4a4b4d9309c757874c9d351984706c684f10b16a96de35079ba814",
     "reinstall-onboarding:4ef9ed261e7daee80f95e5e4f4e4b99b0f27a20d427dd87cec9ba86d08dea94f",
     "ghostty-kitty-images:5efac9d33f22a3bd12a6d443a5f65a2a7ada6edd328df13bccfa10f3f0ee2296",
-    "remote-project-artifacts-relay:3737cc5a0797f733a46cb0d89797472def26968c5131f3894fb2d0adac43b79e"
+    "remote-project-artifacts-relay:3737cc5a0797f733a46cb0d89797472def26968c5131f3894fb2d0adac43b79e",
+    "ghostty-find-bar:d2ef174672d305c55ace9f6dbdaf03dbe761a277b8662c4d3c6e38815fa671b5",
+    "terminal-git-install-button:e51fe810f0edabd93f6f910130acd27f697bd4580af310f7af7d5b6d7eebd04e"
   ],
-  "consumedThroughSha": "a1c03618f4885fa8dc3b4e26e5f52172b9838552"
+  "consumedThroughSha": "07dba40c68fc6b938ccb22c498c9f0df00f71f40"
 }
