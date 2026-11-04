@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4e30ca1a3e7c4e05e77b6ae22c94811d4776cf64",
+  "cursorSha": "91ac72889bb5e61133170a2b5c7c4d12a3db0ee1",
   "highWaterVersion": "1.450.8",
   "rows": [
     {
@@ -138086,6 +138086,13 @@
       "sourceSha": "4e30ca1a3e7c4e05e77b6ae22c94811d4776cf64",
       "sourcePackageVersion": "1.454.11",
       "intentIds": []
+    },
+    {
+      "sourceSha": "91ac72889bb5e61133170a2b5c7c4d12a3db0ee1",
+      "sourcePackageVersion": "1.454.11",
+      "intentIds": [
+        "bundled-cli-startup-precheck:55f39c4ba0331ec93224b7092c1674f57f475771c6cea39630a4f7c0aefde01d"
+      ]
     }
   ],
   "intents": [
@@ -144064,6 +144071,14 @@
       "summary": "A local Orchestrator's plan issue now reaches its shared plan page, so signed-in teammates see the link there. It is sent after the parent issue is linked and after every plan publish; an older backend only logs a warning.",
       "sourceSha": "f37753ccd86e1b366186b6972b7a87a8ebb7c790",
       "identity": "terminal-plan-issue-sync:d0bf4156bd14d6d04ede47595812cf222cd1c55ec7f825d4a67460f44ed31009"
+    },
+    {
+      "id": "bundled-cli-startup-precheck",
+      "digest": "55f39c4ba0331ec93224b7092c1674f57f475771c6cea39630a4f7c0aefde01d",
+      "type": "patch",
+      "summary": "Check the bundled Claude and Codex CLIs when Terminal and the Orchestrator host start, and remember what was found, so the first Orchestrator or worker launch no longer waits several seconds to find a CLI.",
+      "sourceSha": "91ac72889bb5e61133170a2b5c7c4d12a3db0ee1",
+      "identity": "bundled-cli-startup-precheck:55f39c4ba0331ec93224b7092c1674f57f475771c6cea39630a4f7c0aefde01d"
     }
   ],
   "consumedIntentIds": [
