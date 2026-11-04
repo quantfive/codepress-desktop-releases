@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ddf0a7d883bb1e9a1e77ea0f7f1515205d03e118",
+  "cursorSha": "cd5e4b4b28f66c7399efe95ad1b48eb8836c9c3e",
   "highWaterVersion": "1.441.1",
   "rows": [
     {
@@ -135375,6 +135375,18 @@
       "sourceSha": "ddf0a7d883bb1e9a1e77ea0f7f1515205d03e118",
       "sourcePackageVersion": "1.445.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e455071efccb209f5e41879225335aca08582dc2",
+      "sourcePackageVersion": "1.445.2",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "cd5e4b4b28f66c7399efe95ad1b48eb8836c9c3e",
+      "sourcePackageVersion": "1.445.2",
+      "intentIds": [
+        "remote-project-artifacts-tab:36bb2828c6c66b073dcd51014ce4b119d9be29038b58f3d40ca1cd14622e36b1"
+      ]
     }
   ],
   "intents": [
@@ -140993,6 +141005,14 @@
       "summary": "Make provider logos readable in dark mode on brand tiles and on Account → Orchestrator's model pickers.",
       "sourceSha": "e30347a3b1e448c04b9a1cd0c8aa0b799a8d1f97",
       "identity": "readable-dark-provider-logos:56ef1e8bc392465ade9f06216c82dfe0a379b0b9c6831a058c5a16e616338353"
+    },
+    {
+      "id": "remote-project-artifacts-tab",
+      "digest": "36bb2828c6c66b073dcd51014ce4b119d9be29038b58f3d40ca1cd14622e36b1",
+      "type": "patch",
+      "summary": "Synced copies and cloud-run projects now have an Artifacts tab: a copy lists what its home Mac's Orchestrator and workers published, a cloud project what its Orchestrator and workers uploaded. While the home can't answer, the tab says why (\"Connecting to…\", \"… is offline\", \"Update CodePress Terminal on …\").",
+      "sourceSha": "cd5e4b4b28f66c7399efe95ad1b48eb8836c9c3e",
+      "identity": "remote-project-artifacts-tab:36bb2828c6c66b073dcd51014ce4b119d9be29038b58f3d40ca1cd14622e36b1"
     }
   ],
   "consumedIntentIds": [
