@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "ad2fb79f0c34a1af8cc18c2fdd15419b22775e58",
-  "highWaterVersion": "1.450.5",
+  "highWaterVersion": "1.450.6",
   "rows": [
     {
       "schemaVersion": 1,
@@ -73287,6 +73287,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:ad2fb79f0c34a1af8cc18c2fdd15419b22775e58",
+      "kind": "main",
+      "sequence": 2033,
+      "sourceSha": "ad2fb79f0c34a1af8cc18c2fdd15419b22775e58",
+      "sourcePackageVersion": "1.454.8",
+      "version": "1.450.6",
+      "publicationDate": "2026-11-04T17:03:30.572Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "ghostty-history-depth:92850d1ea6538ca92330e4bda60a8c1dbcdde07bac03aed6697b39e268d565b1"
+        ],
+        "notesIntentIds": [
+          "ghostty-history-depth:92850d1ea6538ca92330e4bda60a8c1dbcdde07bac03aed6697b39e268d565b1"
+        ],
+        "throughSourceSha": "ad2fb79f0c34a1af8cc18c2fdd15419b22775e58",
+        "previousThroughSourceSha": "2125c9e8df13462812c52ad7b1ba23c6aa2d7ae6",
+        "baselineVersion": "1.450.5",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41873629042",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-05T17:03:24.335Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -144552,7 +144595,8 @@
     "teammate-gh-names-repo:367e7f89de246077201a08fc81534c417dec2e4d53985906fe2ba49526c32665",
     "reclaim-never-quit-over-owed-work:5ed103ad548074f3a61c425475eb4d92f167f5e5ff2c0164d506f007af2748e6",
     "terminal-selected-shard-capacity:02c9187152f2fb58433f1fe9b962787a106fca9d310ba27a25b8e240b4c9cb3b",
-    "unreachable-tabs-say-so:dd1b9b1eb0902131df434bcca3bd5495cb954915df8cd2d2774f73a66e3b083e"
+    "unreachable-tabs-say-so:dd1b9b1eb0902131df434bcca3bd5495cb954915df8cd2d2774f73a66e3b083e",
+    "ghostty-history-depth:92850d1ea6538ca92330e4bda60a8c1dbcdde07bac03aed6697b39e268d565b1"
   ],
-  "consumedThroughSha": "2125c9e8df13462812c52ad7b1ba23c6aa2d7ae6"
+  "consumedThroughSha": "ad2fb79f0c34a1af8cc18c2fdd15419b22775e58"
 }
