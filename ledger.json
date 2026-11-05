@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "465af94ee8713976b4eec5589f6fef883214c481",
+  "cursorSha": "d71bf8a332c4c5153755828f0f095830ad5e28c4",
   "highWaterVersion": "1.463.2",
   "rows": [
     {
@@ -141128,6 +141128,13 @@
       "sourceSha": "465af94ee8713976b4eec5589f6fef883214c481",
       "sourcePackageVersion": "1.468.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d71bf8a332c4c5153755828f0f095830ad5e28c4",
+      "sourcePackageVersion": "1.468.1",
+      "intentIds": [
+        "queued-message-controls-copies:3a7942c0c3c128c87461a4564482fb30432f18e94a96fc5d1c4dc6d101031f73"
+      ]
     }
   ],
   "intents": [
@@ -147530,6 +147537,14 @@
       "summary": "Session handoff now resumes Claude and Codex with the source tab's model, effort, MCP config, settings, system prompt and permission flags, so the destination keeps the provider's prompt cache. Older receivers get the unchanged handoff.",
       "sourceSha": "2d152e1a3735b27fa844d2be57e5a9eb8c7bdab3",
       "identity": "handoff-launch-flags:91a9fec5712de36d6d1834008206004a18319711a60ed170d2b58e1637ef27a5"
+    },
+    {
+      "id": "queued-message-controls-copies",
+      "digest": "3a7942c0c3c128c87461a4564482fb30432f18e94a96fc5d1c4dc6d101031f73",
+      "type": "minor",
+      "summary": "Edit and Delete on a queued message now work from a synced copy, on another Mac or on the web. A message its home hasn't picked up yet is taken back straight away, even while that home sleeps. One it has picked up goes back through the home: if the home is away you see \"Can't reach\" and the message stays, and if the Orchestrator read it first you see \"Too late\". A home on an older version shows no buttons.",
+      "sourceSha": "d71bf8a332c4c5153755828f0f095830ad5e28c4",
+      "identity": "queued-message-controls-copies:3a7942c0c3c128c87461a4564482fb30432f18e94a96fc5d1c4dc6d101031f73"
     }
   ],
   "consumedIntentIds": [
