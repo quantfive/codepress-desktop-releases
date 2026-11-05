@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "216c2391f83cf473ea8589944e5d70e73c313433",
+  "cursorSha": "e4c84e1d6112ea0feacce6567cc7ed9bb45eef73",
   "highWaterVersion": "1.464.0",
   "rows": [
     {
@@ -141282,6 +141282,13 @@
       "sourceSha": "216c2391f83cf473ea8589944e5d70e73c313433",
       "sourcePackageVersion": "1.470.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e4c84e1d6112ea0feacce6567cc7ed9bb45eef73",
+      "sourcePackageVersion": "1.470.1",
+      "intentIds": [
+        "team-chats-mac-kickoff-visibility:88a8bafcc0e8e9829b225e69be2d503b43fef7f45730eb1d2c7c4ee1fcee1c2d"
+      ]
     }
   ],
   "intents": [
@@ -147716,6 +147723,14 @@
       "summary": "Handoff status now reports whether the destination's first resumed turn kept the prompt cache (`cacheOutcome`, with `priorCoverage` as the pass line), and `scripts/handoff-cache-report.ts` prints prior coverage and the cache-read share around each handoff in a transcript.",
       "sourceSha": "c031a5c06bf91cf027e078832ffd2198d1f62782",
       "identity": "handoff-cache-outcome:263301ce6184fd80241a0e755cfc65bdee5d5d2fa4d9968223380b334d77b8e3"
+    },
+    {
+      "id": "team-chats-mac-kickoff-visibility",
+      "digest": "88a8bafcc0e8e9829b225e69be2d503b43fef7f45730eb1d2c7c4ee1fcee1c2d",
+      "type": "minor",
+      "summary": "Mac chats now start with the visibility the composer chose. With Team chats on, Terminal's new-chat composer shows the Team | Personal chip. A chat started from the web on this Mac also keeps the web chip's choice, and the chat's synced copy is created with it.",
+      "sourceSha": "e4c84e1d6112ea0feacce6567cc7ed9bb45eef73",
+      "identity": "team-chats-mac-kickoff-visibility:88a8bafcc0e8e9829b225e69be2d503b43fef7f45730eb1d2c7c4ee1fcee1c2d"
     }
   ],
   "consumedIntentIds": [
