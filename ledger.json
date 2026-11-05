@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "fa075dc07b0d233bb104c4b2c2c00dbbe8f3a55a",
+  "cursorSha": "dd560ef008cb0c53b9d831c88495da0117fa31dd",
   "highWaterVersion": "1.467.0",
   "rows": [
     {
@@ -142265,6 +142265,11 @@
       "intentIds": [
         "runner-pool-mac-ci-join:a203ffd5a3dc3b84aff2e1b77d834382a0624cf6479a18619365a19c0be9c538"
       ]
+    },
+    {
+      "sourceSha": "dd560ef008cb0c53b9d831c88495da0117fa31dd",
+      "sourcePackageVersion": "1.473.4",
+      "intentIds": []
     }
   ],
   "intents": [
