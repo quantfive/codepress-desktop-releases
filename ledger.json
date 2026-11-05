@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9f51e1713d7f4ea2ca0794426f076ab840aac69d",
+  "cursorSha": "ef554e3596062e0443f2e4348038af4529171702",
   "highWaterVersion": "1.458.0",
   "rows": [
     {
@@ -139986,6 +139986,25 @@
       "sourceSha": "9f51e1713d7f4ea2ca0794426f076ab840aac69d",
       "sourcePackageVersion": "1.462.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "65d8e26629ae01ec6305327a7b85bd835f379abb",
+      "sourcePackageVersion": "1.462.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "1e298fa210e41eeb50919ce42497b904d6aca463",
+      "sourcePackageVersion": "1.462.0",
+      "intentIds": [
+        "retracted-post-tombstone:c943f7f3350ce53cd260a53a9895c043f90c3206993dac24cf9e2517bde10629"
+      ]
+    },
+    {
+      "sourceSha": "ef554e3596062e0443f2e4348038af4529171702",
+      "sourcePackageVersion": "1.462.0",
+      "intentIds": [
+        "project-handoffs-on-kit:95c2c58e6b5ee2401bac3d477d752de248b0d5441da54acee29b13b50d3edc0a"
+      ]
     }
   ],
   "intents": [
@@ -146244,6 +146263,22 @@
       "summary": "Team chats: Preferences gains \"New chats are visible to\" (Organization default, Team or Personal) and \"Share past chats…\", and the feed rail offers a one-time \"Share your past chats with the team?\" card. All of it shows only while the organization's Team chats flag is on.",
       "sourceSha": "ea9efe665fa37da577ddb35eb95a875e201eac6d",
       "identity": "team-chats-defaults:56cff5610cc3813364ad03040857723f8a7f6703e4fa8ad7c56fa86bb5ec7c9f"
+    },
+    {
+      "id": "retracted-post-tombstone",
+      "digest": "c943f7f3350ce53cd260a53a9895c043f90c3206993dac24cf9e2517bde10629",
+      "type": "patch",
+      "summary": "Orchestrator posts can now be marked retracted, and every thread read, restart, search and project move treats a retracted post as not there. Nothing sets the mark yet.",
+      "sourceSha": "1e298fa210e41eeb50919ce42497b904d6aca463",
+      "identity": "retracted-post-tombstone:c943f7f3350ce53cd260a53a9895c043f90c3206993dac24cf9e2517bde10629"
+    },
+    {
+      "id": "project-handoffs-on-kit",
+      "digest": "95c2c58e6b5ee2401bac3d477d752de248b0d5441da54acee29b13b50d3edc0a",
+      "type": "patch",
+      "summary": "Hand off for an Orchestrator project now picks its destination from tiles (where it runs now, your other Macs, then Cloud), dims a destination that can't take it with the reason under the grid, keeps the preview behind Details, and shows the move as a ring with timed Steps and a ✓ or ! outcome.",
+      "sourceSha": "ef554e3596062e0443f2e4348038af4529171702",
+      "identity": "project-handoffs-on-kit:95c2c58e6b5ee2401bac3d477d752de248b0d5441da54acee29b13b50d3edc0a"
     }
   ],
   "consumedIntentIds": [
