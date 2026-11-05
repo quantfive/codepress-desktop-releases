@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "43e8f670cfc84c63d80f86a2f9c9f5fd22255716",
-  "highWaterVersion": "1.462.0",
+  "highWaterVersion": "1.462.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -74989,6 +74989,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:43e8f670cfc84c63d80f86a2f9c9f5fd22255716",
+      "kind": "main",
+      "sequence": 2063,
+      "sourceSha": "43e8f670cfc84c63d80f86a2f9c9f5fd22255716",
+      "sourcePackageVersion": "1.467.1",
+      "version": "1.462.1",
+      "publicationDate": "2026-11-05T07:12:40.652Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "launch-queue-visibility:0e796f7ba43215d30fbeab4a06094b6ada8787ea1b54038606d12d2a9d3a6f48"
+        ],
+        "notesIntentIds": [
+          "launch-queue-visibility:0e796f7ba43215d30fbeab4a06094b6ada8787ea1b54038606d12d2a9d3a6f48"
+        ],
+        "throughSourceSha": "43e8f670cfc84c63d80f86a2f9c9f5fd22255716",
+        "previousThroughSourceSha": "dfa6c26dfaaa9048990d6fb6dfcc8522b18fad93",
+        "baselineVersion": "1.462.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41985544266",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-06T07:12:35.593Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -147891,7 +147934,8 @@
     "queued-message-controls:4a81b9c76d0adb0dfd0a98da7ea8509b16cc308b5e6bcc1e5f2c2e0518f5c557",
     "move-renamed-worker-branch:8194e223aea0d83bab00e2bfb9403011ffec3d6a5a07014105bfab1dd6ea1486",
     "automations-on-your-macs:1edc8d866f7482b0842282f5606a3ff507f2f1c6d4f739e2387dd6f35ce54acf",
-    "team-chats-feed-rail:367ae25f002cd58b97e24bfd8c380b8ca502bc3c2cb32330026b1b262531545e"
+    "team-chats-feed-rail:367ae25f002cd58b97e24bfd8c380b8ca502bc3c2cb32330026b1b262531545e",
+    "launch-queue-visibility:0e796f7ba43215d30fbeab4a06094b6ada8787ea1b54038606d12d2a9d3a6f48"
   ],
-  "consumedThroughSha": "dfa6c26dfaaa9048990d6fb6dfcc8522b18fad93"
+  "consumedThroughSha": "43e8f670cfc84c63d80f86a2f9c9f5fd22255716"
 }
