@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "140d629dcf37025547cc46ec84759fa81be6028c",
+  "cursorSha": "bf5f3348d590b288b35532f63aa2d8b44de46549",
   "highWaterVersion": "1.470.0",
   "rows": [
     {
@@ -143110,6 +143110,18 @@
       "intentIds": [
         "codex-orchestrator-mcp-transport:6c5ee358087dee520c36f21a1085a9db996fcb6ddb76a4d5d7b22e37523bb885"
       ]
+    },
+    {
+      "sourceSha": "9a74d524f4f22778b669ced228a4be0f7a60af17",
+      "sourcePackageVersion": "1.478.0",
+      "intentIds": [
+        "lease-rate-limited-refusal:b9fc9a429a677a7c6cf96c00f91d492e4a8ffbdc4e7ea1793425d5d120fe3581"
+      ]
+    },
+    {
+      "sourceSha": "bf5f3348d590b288b35532f63aa2d8b44de46549",
+      "sourcePackageVersion": "1.478.0",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -149776,6 +149788,14 @@
       "summary": "Fix Codex Orchestrator startup when a project's MCP transport conflicts with a generated connection.",
       "sourceSha": "140d629dcf37025547cc46ec84759fa81be6028c",
       "identity": "codex-orchestrator-mcp-transport:6c5ee358087dee520c36f21a1085a9db996fcb6ddb76a4d5d7b22e37523bb885"
+    },
+    {
+      "id": "lease-rate-limited-refusal",
+      "digest": "b9fc9a429a677a7c6cf96c00f91d492e4a8ffbdc4e7ea1793425d5d120fe3581",
+      "type": "patch",
+      "summary": "An account pick refused because CodePress is rate-limiting this computer's leases now says so and when to try again, in Settings and in the remote \"Accounts on <computer>\" view. A saved choice refused by a lease 429 or 503 retries by itself (no sooner than Retry-After), and a choice skipped because the account needed reconnecting applies once it is reconnected.",
+      "sourceSha": "9a74d524f4f22778b669ced228a4be0f7a60af17",
+      "identity": "lease-rate-limited-refusal:b9fc9a429a677a7c6cf96c00f91d492e4a8ffbdc4e7ea1793425d5d120fe3581"
     }
   ],
   "consumedIntentIds": [
