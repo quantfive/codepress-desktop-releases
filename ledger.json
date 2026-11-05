@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3f5691fe42a3d9b25bd4278d789a51f204dbc477",
+  "cursorSha": "d4ede5de139b57a342dffea1b805fbb93a5df0c3",
   "highWaterVersion": "1.465.2",
   "rows": [
     {
@@ -141631,6 +141631,13 @@
       "sourceSha": "3f5691fe42a3d9b25bd4278d789a51f204dbc477",
       "sourcePackageVersion": "1.472.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d4ede5de139b57a342dffea1b805fbb93a5df0c3",
+      "sourcePackageVersion": "1.472.3",
+      "intentIds": [
+        "cache-safe-pm-prompt:789a1eb0727d6bdae24fb6b21a99f3a7d16110b650839ce34302d6d854fd4271"
+      ]
     }
   ],
   "intents": [
@@ -148105,6 +148112,14 @@
       "summary": "This Mac's own enforcement (the local-client gate, consent, request signing and the Stop all work switch) now turns on when the organization has Automations on Macs on, not only Local-first routing. A backend that predates the new flag answers as before.",
       "sourceSha": "cca73c3d2d22019f5f630aea03defca8503fc624",
       "identity": "mac-automations-flag:71056834d1b605c142ed8bbcedc9ade7994e37c121b69ef2e52876038f97ef39"
+    },
+    {
+      "id": "cache-safe-pm-prompt",
+      "digest": "789a1eb0727d6bdae24fb6b21a99f3a7d16110b650839ce34302d6d854fd4271",
+      "type": "patch",
+      "summary": "The local Orchestrator's system prompt no longer names this machine's paths, browser server or MCP connections, so it stays byte-identical when a project or chat moves to another Mac and the provider's prompt cache still applies. A \"Where you run\" message carries those values instead: on a conversation's first turn, and again as \"Where you run (updated)\" after a move or when they change. After the provider compacts the conversation, the next turn sends the message again.",
+      "sourceSha": "d4ede5de139b57a342dffea1b805fbb93a5df0c3",
+      "identity": "cache-safe-pm-prompt:789a1eb0727d6bdae24fb6b21a99f3a7d16110b650839ce34302d6d854fd4271"
     }
   ],
   "consumedIntentIds": [
