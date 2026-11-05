@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a47ba11999dcf6bf5d2379acb58aee5519b9d60b",
+  "cursorSha": "c58b7fa3077d6485ed867f5ccdeff59278cdd442",
   "highWaterVersion": "1.467.5",
   "rows": [
     {
@@ -142724,6 +142724,13 @@
       "sourceSha": "a47ba11999dcf6bf5d2379acb58aee5519b9d60b",
       "sourcePackageVersion": "1.474.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c58b7fa3077d6485ed867f5ccdeff59278cdd442",
+      "sourcePackageVersion": "1.474.6",
+      "intentIds": [
+        "project-workers-any-state:6f9f1b61f752f4bad35fb0e7ffd7edb41a8841a80361eef2b4157c230af96c13"
+      ]
     }
   ],
   "intents": [
@@ -149326,6 +149333,14 @@
       "summary": "A new chat's waiting line now says \"Starting a chat…\" (or \"Starting a chat in the cloud…\" / \"Starting a chat on <machine>…\") instead of \"Starting the Orchestrator…\" or \"Starting the agent…\".",
       "sourceSha": "679ec720df8b65818fd1d489112bf4312b9c1701",
       "identity": "starting-a-chat-wording:90cbe0572c78d49a8765d591df44922a2a5e74b63b11f31c744223c0d56d1db5"
+    },
+    {
+      "id": "project-workers-any-state",
+      "digest": "6f9f1b61f752f4bad35fb0e7ffd7edb41a8841a80361eef2b4157c230af96c13",
+      "type": "patch",
+      "summary": "Project handoff no longer refuses because of what a worker is doing. A worker waiting on a prompt or holding unsent input moves and is told so on arrival (its prompt is asked again there, never approved for it). A worker mid-launch is waited out. One whose agent exited, has no terminal or no transcript moves as stopped, with its worktree checkpointed, and starts fresh on its branch at the destination. A failed worker's leftover process is stopped first, and an in-flight worker message is waited out briefly.",
+      "sourceSha": "c58b7fa3077d6485ed867f5ccdeff59278cdd442",
+      "identity": "project-workers-any-state:6f9f1b61f752f4bad35fb0e7ffd7edb41a8841a80361eef2b4157c230af96c13"
     }
   ],
   "consumedIntentIds": [
