@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "e1261175ec7da122fd4615f7fa6f217e0ca575b1",
-  "highWaterVersion": "1.459.1",
+  "highWaterVersion": "1.460.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -74816,6 +74816,53 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:e1261175ec7da122fd4615f7fa6f217e0ca575b1",
+      "kind": "main",
+      "sequence": 2060,
+      "sourceSha": "e1261175ec7da122fd4615f7fa6f217e0ca575b1",
+      "sourcePackageVersion": "1.464.0",
+      "version": "1.460.0",
+      "publicationDate": "2026-11-05T05:56:27.645Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "chat-handoff-cloud:bc9ccdcd6952b3540784079a77eb762bddfa7be7a10a0367af6dbb5482ea1c57",
+          "team-chats-chat-view:a78e9fd18eee7fc59b38e2707376f63bc3c7ca4954fce6ddfe1017de707313f4",
+          "darwin-warning-admission:c1b039a9476f81a59cbf616448ad1564265ba6907214cd2ec3b1f29051d8a777"
+        ],
+        "notesIntentIds": [
+          "chat-handoff-cloud:bc9ccdcd6952b3540784079a77eb762bddfa7be7a10a0367af6dbb5482ea1c57",
+          "team-chats-chat-view:a78e9fd18eee7fc59b38e2707376f63bc3c7ca4954fce6ddfe1017de707313f4",
+          "darwin-warning-admission:c1b039a9476f81a59cbf616448ad1564265ba6907214cd2ec3b1f29051d8a777"
+        ],
+        "throughSourceSha": "e1261175ec7da122fd4615f7fa6f217e0ca575b1",
+        "previousThroughSourceSha": "f010981ccc9c339937f743ce8c1de3ddd8123447",
+        "baselineVersion": "1.459.1",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41977056707",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-06T05:56:22.243Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -147556,7 +147603,10 @@
     "chat-handoff-engine:6588ad8fa550dbcb2878e2185afd413d53d79bf5889f33e655d5b547f00508c0",
     "remove-deck-pages-comments:e567864da3d0d79ac2a08ab6f0d67603035305adf0530b96db69efd9be78be98",
     "chat-handoff-entry-points:d278fc02f11d2736d23bdaa37d821f7bb2090554d2375ab2a24b84e90f7e51cb",
-    "capacity-host-driver-seam:d2975cc17407e30c26cb9568672fcc385280ed0407a1b7e0dbb23b92a3490c98"
+    "capacity-host-driver-seam:d2975cc17407e30c26cb9568672fcc385280ed0407a1b7e0dbb23b92a3490c98",
+    "chat-handoff-cloud:bc9ccdcd6952b3540784079a77eb762bddfa7be7a10a0367af6dbb5482ea1c57",
+    "team-chats-chat-view:a78e9fd18eee7fc59b38e2707376f63bc3c7ca4954fce6ddfe1017de707313f4",
+    "darwin-warning-admission:c1b039a9476f81a59cbf616448ad1564265ba6907214cd2ec3b1f29051d8a777"
   ],
-  "consumedThroughSha": "f010981ccc9c339937f743ce8c1de3ddd8123447"
+  "consumedThroughSha": "e1261175ec7da122fd4615f7fa6f217e0ca575b1"
 }
