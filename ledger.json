@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e9a227e41fd89f7b787bf8f31cd8efaac62767c2",
+  "cursorSha": "76f6e58f9b5435baef9ab0298046798d2cdd551b",
   "highWaterVersion": "1.465.0",
   "rows": [
     {
@@ -141403,6 +141403,13 @@
       "sourceSha": "e9a227e41fd89f7b787bf8f31cd8efaac62767c2",
       "sourcePackageVersion": "1.472.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "76f6e58f9b5435baef9ab0298046798d2cdd551b",
+      "sourcePackageVersion": "1.472.0",
+      "intentIds": [
+        "repoless-chat-to-cloud:5be622d1b7a279afe4caec6688bfe69d310dd32ebc1fd07615daf66336708a7a"
+      ]
     }
   ],
   "intents": [
@@ -147853,6 +147860,14 @@
       "summary": "`codepress-terminal host join` now works on Apple-silicon Macs as a CI-only capacity host. It runs as the console user under a LaunchAgent and keeps its own `TART_HOME`. It fetches a short-lived host token from the backend and long-polls the CI scheduler, then runs each GitHub Actions runner in a single-use Tart VM behind the pf guest firewall. Doctor, status, drain and leave cover the Mac. Linux hosts are unchanged.",
       "sourceSha": "582a3960617d790a3327bebbc42ca896f1adb97d",
       "identity": "mac-ci-tart-host:90a9e00c8cc328822d8e038042dead4495f3351e0332d9540b232be9ca18fc44"
+    },
+    {
+      "id": "repoless-chat-to-cloud",
+      "digest": "5be622d1b7a279afe4caec6688bfe69d310dd32ebc1fd07615daf66336708a7a",
+      "type": "patch",
+      "summary": "A Local Chat with no GitHub repository (no folder, a plain folder, or a checkout whose origin isn't GitHub) can now be handed off to the cloud when your organization's cloud supports it. Only the conversation goes and continues in an empty cloud workspace; the move dialog says the folder's files stay on this Mac. Chats in a GitHub checkout move exactly as before.",
+      "sourceSha": "76f6e58f9b5435baef9ab0298046798d2cdd551b",
+      "identity": "repoless-chat-to-cloud:5be622d1b7a279afe4caec6688bfe69d310dd32ebc1fd07615daf66336708a7a"
     }
   ],
   "consumedIntentIds": [
