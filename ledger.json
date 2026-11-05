@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d1fb7f6e862f2de5ab55ff5b4a9492c12d9bd31a",
+  "cursorSha": "0c7c1770c0b2f32f6246d7a9e38f83da611b356e",
   "highWaterVersion": "1.461.0",
   "rows": [
     {
@@ -140592,6 +140592,13 @@
       "sourceSha": "d1fb7f6e862f2de5ab55ff5b4a9492c12d9bd31a",
       "sourcePackageVersion": "1.465.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0c7c1770c0b2f32f6246d7a9e38f83da611b356e",
+      "sourcePackageVersion": "1.465.0",
+      "intentIds": [
+        "move-renamed-worker-branch:8194e223aea0d83bab00e2bfb9403011ffec3d6a5a07014105bfab1dd6ea1486"
+      ]
     }
   ],
   "intents": [
@@ -146930,6 +146937,14 @@
       "summary": "A message you sent the Orchestrator mid-turn can be taken back while it waits. On a project running on this machine, each queued message has Edit, which returns its words, files and mentions to the box, and Delete, which removes it and offers Undo. If the Orchestrator read it first you see \"Too late\", and a message already handed to Codex says it can't be changed.",
       "sourceSha": "6e310d271e64003940ef770bd7c6cbddf07a8c79",
       "identity": "queued-message-controls:4a81b9c76d0adb0dfd0a98da7ea8509b16cc308b5e6bcc1e5f2c2e0518f5c557"
+    },
+    {
+      "id": "move-renamed-worker-branch",
+      "digest": "8194e223aea0d83bab00e2bfb9403011ffec3d6a5a07014105bfab1dd6ea1486",
+      "type": "patch",
+      "summary": "Moving an Orchestrator project no longer fails with \"The prepared project worker set changed\" when a live worker renamed its branch: the move records the branch the worker is really on, and a branch that changes again mid-move is refused with a message naming the worker.",
+      "sourceSha": "0c7c1770c0b2f32f6246d7a9e38f83da611b356e",
+      "identity": "move-renamed-worker-branch:8194e223aea0d83bab00e2bfb9403011ffec3d6a5a07014105bfab1dd6ea1486"
     }
   ],
   "consumedIntentIds": [
