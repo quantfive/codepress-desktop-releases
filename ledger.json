@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1b65999d80433a350fe0d824afb62a79ed3e4be6",
+  "cursorSha": "1ddcce45f0e0849a5ad23e4a9a8a6d6a789e5b11",
   "highWaterVersion": "1.467.1",
   "rows": [
     {
@@ -142387,6 +142387,13 @@
       "sourceSha": "1b65999d80433a350fe0d824afb62a79ed3e4be6",
       "sourcePackageVersion": "1.474.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "1ddcce45f0e0849a5ad23e4a9a8a6d6a789e5b11",
+      "sourcePackageVersion": "1.474.1",
+      "intentIds": [
+        "sync-teardown-race:98e05227522c47e37266b0ab0edf2ba845f1f871d3a34ae5cd9216ffc1235f97"
+      ]
     }
   ],
   "intents": [
@@ -148949,6 +148956,14 @@
       "summary": "Switching the Orchestrator feed from My feed to Team draws rows at once: Team is read ahead once after My feed loads, and a Team list kept from an earlier session is shown dimmed until the live list arrives.",
       "sourceSha": "0e7574ac1d2a53c152e5b5d9c95e13ed7cbecaee",
       "identity": "team-feed-fast-switch:14214fd4269c05641af1428701e461507ec0483da6b7df1d1993436aa3327c22"
+    },
+    {
+      "id": "sync-teardown-race",
+      "digest": "98e05227522c47e37266b0ab0edf2ba845f1f871d3a34ae5cd9216ffc1235f97",
+      "type": "patch",
+      "summary": "Quitting Terminal while a project or chat is being switched to Synced no longer reads its record after the record has closed, which logged errors on the way out.",
+      "sourceSha": "1ddcce45f0e0849a5ad23e4a9a8a6d6a789e5b11",
+      "identity": "sync-teardown-race:98e05227522c47e37266b0ab0edf2ba845f1f871d3a34ae5cd9216ffc1235f97"
     }
   ],
   "consumedIntentIds": [
