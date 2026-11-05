@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c508e520e775c54db552151d470099863ba26711",
+  "cursorSha": "5f388554da4714f1abaaa3bca69d578c1a8a63e8",
   "highWaterVersion": "1.470.1",
   "rows": [
     {
@@ -143238,6 +143238,16 @@
       "intentIds": [
         "handoff-never-run-tab-to-cloud:ab9963dc01f66c496b4def2d112c91de314772183402e2110af4d35a08d49e5b"
       ]
+    },
+    {
+      "sourceSha": "f062bf20fbadd12740183b572289b2ea00701d23",
+      "sourcePackageVersion": "1.479.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "5f388554da4714f1abaaa3bca69d578c1a8a63e8",
+      "sourcePackageVersion": "1.479.0",
+      "intentIds": []
     }
   ],
   "intents": [
