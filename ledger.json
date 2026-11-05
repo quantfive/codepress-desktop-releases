@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9771320c6da4ade03e71267cde7f67e24c038302",
+  "cursorSha": "63dbf727e5cb71165669789bde08deb1cd885b17",
   "highWaterVersion": "1.466.0",
   "rows": [
     {
@@ -141847,6 +141847,18 @@
       "intentIds": [
         "chat-cloud-pickup-point:71a9ddd5e8fe276d78e3b17909a3fdef157cfa4aecab2e765b17d93a816cab9e"
       ]
+    },
+    {
+      "sourceSha": "7a12fa6ee2709bb6a096d815b67d95ea34410547",
+      "sourcePackageVersion": "1.473.1",
+      "intentIds": [
+        "device-channel-key-proof:9a5b79ab982b5c3170fb93b583d797c3711a672595cce923eda754f64e29c584"
+      ]
+    },
+    {
+      "sourceSha": "63dbf727e5cb71165669789bde08deb1cd885b17",
+      "sourcePackageVersion": "1.473.1",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -148369,6 +148381,14 @@
       "summary": "Where the organization keeps cloud copies, a Local Chat now uploads its snapshot and conversation like a project, a new Synced project or chat uploads a snapshot as soon as it is created, and a Synced project with no snapshot in the cloud gets one at launch or wake, so any of them can be picked up while this Mac sleeps.",
       "sourceSha": "9771320c6da4ade03e71267cde7f67e24c038302",
       "identity": "chat-cloud-pickup-point:71a9ddd5e8fe276d78e3b17909a3fdef157cfa4aecab2e765b17d93a816cab9e"
+    },
+    {
+      "id": "device-channel-key-proof",
+      "digest": "9a5b79ab982b5c3170fb93b583d797c3711a672595cce923eda754f64e29c584",
+      "type": "patch",
+      "summary": "The device channel proves this computer's key when the backend asks for it, so a copied sign-in can't pose as your Mac or receive its work.",
+      "sourceSha": "7a12fa6ee2709bb6a096d815b67d95ea34410547",
+      "identity": "device-channel-key-proof:9a5b79ab982b5c3170fb93b583d797c3711a672595cce923eda754f64e29c584"
     }
   ],
   "consumedIntentIds": [
