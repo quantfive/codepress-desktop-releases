@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6904b9149f1dd6e921cce9ca897706fd7998f8bb",
+  "cursorSha": "b7194b6642809dd840e9b508a4a39b61f659d574",
   "highWaterVersion": "1.458.1",
   "rows": [
     {
@@ -140087,6 +140087,13 @@
       "sourceSha": "6904b9149f1dd6e921cce9ca897706fd7998f8bb",
       "sourcePackageVersion": "1.462.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b7194b6642809dd840e9b508a4a39b61f659d574",
+      "sourcePackageVersion": "1.462.1",
+      "intentIds": [
+        "chat-handoff-engine:6588ad8fa550dbcb2878e2185afd413d53d79bf5889f33e655d5b547f00508c0"
+      ]
     }
   ],
   "intents": [
@@ -146361,6 +146368,14 @@
       "summary": "Hand off for an Orchestrator project now picks its destination from tiles (where it runs now, your other Macs, then Cloud), dims a destination that can't take it with the reason under the grid, keeps the preview behind Details, and shows the move as a ring with timed Steps and a ✓ or ! outcome.",
       "sourceSha": "ef554e3596062e0443f2e4348038af4529171702",
       "identity": "project-handoffs-on-kit:95c2c58e6b5ee2401bac3d477d752de248b0d5441da54acee29b13b50d3edc0a"
+    },
+    {
+      "id": "chat-handoff-engine",
+      "digest": "6588ad8fa550dbcb2878e2185afd413d53d79bf5889f33e655d5b547f00508c0",
+      "type": "patch",
+      "summary": "Local Chats can move to another of your Macs through the Orchestrator handoff, and come back with Continue here. Each one arrives with its Claude or Codex conversation and its folder's uncommitted work. A Mac whose Terminal can't take a chat yet is listed as needing an update.",
+      "sourceSha": "b7194b6642809dd840e9b508a4a39b61f659d574",
+      "identity": "chat-handoff-engine:6588ad8fa550dbcb2878e2185afd413d53d79bf5889f33e655d5b547f00508c0"
     }
   ],
   "consumedIntentIds": [
