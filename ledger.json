@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "d4c79deb935df88ac33936ac5d393f17e4fa8f80",
-  "highWaterVersion": "1.467.5",
+  "highWaterVersion": "1.467.6",
   "rows": [
     {
       "schemaVersion": 1,
@@ -76131,6 +76131,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:d4c79deb935df88ac33936ac5d393f17e4fa8f80",
+      "kind": "main",
+      "sequence": 2083,
+      "sourceSha": "d4c79deb935df88ac33936ac5d393f17e4fa8f80",
+      "sourcePackageVersion": "1.474.7",
+      "version": "1.467.6",
+      "publicationDate": "2026-11-05T20:08:53.275Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "project-workers-any-state:6f9f1b61f752f4bad35fb0e7ffd7edb41a8841a80361eef2b4157c230af96c13"
+        ],
+        "notesIntentIds": [
+          "project-workers-any-state:6f9f1b61f752f4bad35fb0e7ffd7edb41a8841a80361eef2b4157c230af96c13"
+        ],
+        "throughSourceSha": "d4c79deb935df88ac33936ac5d393f17e4fa8f80",
+        "previousThroughSourceSha": "679ec720df8b65818fd1d489112bf4312b9c1701",
+        "baselineVersion": "1.467.5",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42100526456",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-06T20:08:44.872Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -150203,7 +150246,8 @@
     "team-feed-filters:7cb3caf5485dc7931db5023bc9e49a904371447e853b956cb7859a134a1e42ce",
     "handoff-any-state:c164f20b12bd8aeba5543b9ec612bfb143f212005f6c92297b9a00884960a7a0",
     "chat-takeover-from-cloud-copy:93e73424ae55a072b3fc0b8114574b99dc4ea26c674509d93642d6c451365246",
-    "starting-a-chat-wording:90cbe0572c78d49a8765d591df44922a2a5e74b63b11f31c744223c0d56d1db5"
+    "starting-a-chat-wording:90cbe0572c78d49a8765d591df44922a2a5e74b63b11f31c744223c0d56d1db5",
+    "project-workers-any-state:6f9f1b61f752f4bad35fb0e7ffd7edb41a8841a80361eef2b4157c230af96c13"
   ],
-  "consumedThroughSha": "679ec720df8b65818fd1d489112bf4312b9c1701"
+  "consumedThroughSha": "d4c79deb935df88ac33936ac5d393f17e4fa8f80"
 }
