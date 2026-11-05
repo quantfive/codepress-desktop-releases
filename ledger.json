@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "ea9efe665fa37da577ddb35eb95a875e201eac6d",
-  "highWaterVersion": "1.457.2",
+  "highWaterVersion": "1.458.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -74484,6 +74484,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:ea9efe665fa37da577ddb35eb95a875e201eac6d",
+      "kind": "main",
+      "sequence": 2054,
+      "sourceSha": "ea9efe665fa37da577ddb35eb95a875e201eac6d",
+      "sourcePackageVersion": "1.461.2",
+      "version": "1.458.0",
+      "publicationDate": "2026-11-05T02:48:30.463Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "team-chats-defaults:56cff5610cc3813364ad03040857723f8a7f6703e4fa8ad7c56fa86bb5ec7c9f"
+        ],
+        "notesIntentIds": [
+          "team-chats-defaults:56cff5610cc3813364ad03040857723f8a7f6703e4fa8ad7c56fa86bb5ec7c9f"
+        ],
+        "throughSourceSha": "ea9efe665fa37da577ddb35eb95a875e201eac6d",
+        "previousThroughSourceSha": "76cd84ae7998c2d48cf8898a8f5fa20151cb3656",
+        "baselineVersion": "1.457.2",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41957503939",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-06T02:48:23.251Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -146967,7 +147010,8 @@
     "quiet-relay-window:9b31f54756c4a24f7fbb4701e31cdb5d8d716170aea868bbfbff12284b1e9d05",
     "handoff-tiles-orchestrator:0d178ce5625c26f37a645185d05b573eae05f097b1f72cad7a1d0b2aec9ca799",
     "handoff-banner-one-look:d45f481bb108a0c1bdc3a9aecbac79726cdf544b3835cac5040e4cfecb783428",
-    "handoff-tiles-sessions:6d17be72349c1757f3f7f4220a4c56b516a5306336fa66608c88cb1ad80125f8"
+    "handoff-tiles-sessions:6d17be72349c1757f3f7f4220a4c56b516a5306336fa66608c88cb1ad80125f8",
+    "team-chats-defaults:56cff5610cc3813364ad03040857723f8a7f6703e4fa8ad7c56fa86bb5ec7c9f"
   ],
-  "consumedThroughSha": "76cd84ae7998c2d48cf8898a8f5fa20151cb3656"
+  "consumedThroughSha": "ea9efe665fa37da577ddb35eb95a875e201eac6d"
 }
