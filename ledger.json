@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "140d629dcf37025547cc46ec84759fa81be6028c",
-  "highWaterVersion": "1.469.0",
+  "highWaterVersion": "1.470.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -76298,6 +76298,55 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:140d629dcf37025547cc46ec84759fa81be6028c",
+      "kind": "main",
+      "sequence": 2086,
+      "sourceSha": "140d629dcf37025547cc46ec84759fa81be6028c",
+      "sourcePackageVersion": "1.478.0",
+      "version": "1.470.0",
+      "publicationDate": "2026-11-05T21:17:16.534Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "automatic-switching-default-on:583ecdf6b6ed26e866584725a83f018201256bb156b0337d5a4894e4c9b9d84c",
+          "kickoff-files-upload-at-send:7158b0c450a9adedabc69bdc05346692e1d488e07c5df285ca3f7c7e44d5e593",
+          "terminal-preferences-follow-you:331f68ebced6321cc2ab004b51cb6fdb23ee33cc8917113183bb5df2cbe53cb2",
+          "codex-orchestrator-mcp-transport:6c5ee358087dee520c36f21a1085a9db996fcb6ddb76a4d5d7b22e37523bb885"
+        ],
+        "notesIntentIds": [
+          "automatic-switching-default-on:583ecdf6b6ed26e866584725a83f018201256bb156b0337d5a4894e4c9b9d84c",
+          "kickoff-files-upload-at-send:7158b0c450a9adedabc69bdc05346692e1d488e07c5df285ca3f7c7e44d5e593",
+          "terminal-preferences-follow-you:331f68ebced6321cc2ab004b51cb6fdb23ee33cc8917113183bb5df2cbe53cb2",
+          "codex-orchestrator-mcp-transport:6c5ee358087dee520c36f21a1085a9db996fcb6ddb76a4d5d7b22e37523bb885"
+        ],
+        "throughSourceSha": "140d629dcf37025547cc46ec84759fa81be6028c",
+        "previousThroughSourceSha": "cf36e33057eca1c6218e80538d93126a8f3f349b",
+        "baselineVersion": "1.469.0",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42111099260",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-06T21:17:11.004Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -150554,7 +150603,11 @@
     "project-workers-any-state:6f9f1b61f752f4bad35fb0e7ffd7edb41a8841a80361eef2b4157c230af96c13",
     "team-projects-visibility:cbb4481ba871b90ecaa33a696f1a93617625cacc45eea309c6e4a1e8f989a86a",
     "actor-lease-renew-floor:aa641c1676ab0e3643bca7a6d546833f9ab2fa311780ae780e46db6bd9747b28",
-    "member-mac-ci-join:0e435d985cfa4d7a0b807641af85b0697261697d2bc7a9bf52427e0c62833ee3"
+    "member-mac-ci-join:0e435d985cfa4d7a0b807641af85b0697261697d2bc7a9bf52427e0c62833ee3",
+    "automatic-switching-default-on:583ecdf6b6ed26e866584725a83f018201256bb156b0337d5a4894e4c9b9d84c",
+    "kickoff-files-upload-at-send:7158b0c450a9adedabc69bdc05346692e1d488e07c5df285ca3f7c7e44d5e593",
+    "terminal-preferences-follow-you:331f68ebced6321cc2ab004b51cb6fdb23ee33cc8917113183bb5df2cbe53cb2",
+    "codex-orchestrator-mcp-transport:6c5ee358087dee520c36f21a1085a9db996fcb6ddb76a4d5d7b22e37523bb885"
   ],
-  "consumedThroughSha": "cf36e33057eca1c6218e80538d93126a8f3f349b"
+  "consumedThroughSha": "140d629dcf37025547cc46ec84759fa81be6028c"
 }
