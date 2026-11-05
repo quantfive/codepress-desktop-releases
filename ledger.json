@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "11b57eccd60af837f32b15b7fe49ac9eae4e2945",
-  "highWaterVersion": "1.456.5",
+  "highWaterVersion": "1.456.6",
   "rows": [
     {
       "schemaVersion": 1,
@@ -74262,6 +74262,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:11b57eccd60af837f32b15b7fe49ac9eae4e2945",
+      "kind": "main",
+      "sequence": 2050,
+      "sourceSha": "11b57eccd60af837f32b15b7fe49ac9eae4e2945",
+      "sourcePackageVersion": "1.460.9",
+      "version": "1.456.6",
+      "publicationDate": "2026-11-05T00:26:14.016Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "frozen-workers-recover:fffaf3a376d9dfcd1049a59a38de7f288980f18da2e3dc761979be6235136661"
+        ],
+        "notesIntentIds": [
+          "frozen-workers-recover:fffaf3a376d9dfcd1049a59a38de7f288980f18da2e3dc761979be6235136661"
+        ],
+        "throughSourceSha": "11b57eccd60af837f32b15b7fe49ac9eae4e2945",
+        "previousThroughSourceSha": "643bbb6c8451423156e307a5c9512dde970c7890",
+        "baselineVersion": "1.456.5",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41941232220",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-06T00:26:07.866Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -146560,7 +146603,8 @@
     "auto-order-settings:1b9d906f1c3cdcfaccf086f39d0b625997ebb95c6c8661678f59615c5654c914",
     "orchestrator-kickoff-hello:fb476c42ed4047c58f12fad48581a53775f86f156d75e7d75442f2d846bcf558",
     "returning-folder-keeps-url:b3149251d895b72aa5bcaf38339f9a0e40af1e13fad681488267a92608c1fe35",
-    "terminal-design-kit-setup-offer:317267ba9cabfbf405160d3cd3ce9a13926c1a3a8b24df76da722726f0218bcf"
+    "terminal-design-kit-setup-offer:317267ba9cabfbf405160d3cd3ce9a13926c1a3a8b24df76da722726f0218bcf",
+    "frozen-workers-recover:fffaf3a376d9dfcd1049a59a38de7f288980f18da2e3dc761979be6235136661"
   ],
-  "consumedThroughSha": "643bbb6c8451423156e307a5c9512dde970c7890"
+  "consumedThroughSha": "11b57eccd60af837f32b15b7fe49ac9eae4e2945"
 }
