@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3b43ac4e599a95b2cd77001ce64410506d9b5f91",
+  "cursorSha": "ac883fd1f8e2db800a76bf5ef4a96512b407804d",
   "highWaterVersion": "1.459.1",
   "rows": [
     {
@@ -140395,6 +140395,13 @@
       "sourceSha": "3b43ac4e599a95b2cd77001ce64410506d9b5f91",
       "sourcePackageVersion": "1.463.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ac883fd1f8e2db800a76bf5ef4a96512b407804d",
+      "sourcePackageVersion": "1.463.1",
+      "intentIds": [
+        "chat-handoff-cloud:bc9ccdcd6952b3540784079a77eb762bddfa7be7a10a0367af6dbb5482ea1c57"
+      ]
     }
   ],
   "intents": [
@@ -146701,6 +146708,14 @@
       "summary": "Capacity hosts now record which VM driver they run (`kata-qemu`, the default and only driver today). `host join --driver` refuses an unknown or reserved driver before installing anything, `host status` shows the driver, and the host reports its real OS and driver to the backend. Linux hosts behave as before.",
       "sourceSha": "f010981ccc9c339937f743ce8c1de3ddd8123447",
       "identity": "capacity-host-driver-seam:d2975cc17407e30c26cb9568672fcc385280ed0407a1b7e0dbb23b92a3490c98"
+    },
+    {
+      "id": "chat-handoff-cloud",
+      "digest": "bc9ccdcd6952b3540784079a77eb762bddfa7be7a10a0367af6dbb5482ea1c57",
+      "type": "patch",
+      "summary": "A Local Chat can now continue in the cloud. Its Claude or Codex conversation and its folder's code go with it, and the chat on this Mac reads \"Runs in the cloud\" with Open chat. A chat with no GitHub repository, or with a repository the organization hasn't connected, can't be sent and shows why. If the cloud refuses to start it, for example at the agent limit, the chat stays here with Retry and Resume here.",
+      "sourceSha": "ac883fd1f8e2db800a76bf5ef4a96512b407804d",
+      "identity": "chat-handoff-cloud:bc9ccdcd6952b3540784079a77eb762bddfa7be7a10a0367af6dbb5482ea1c57"
     }
   ],
   "consumedIntentIds": [
