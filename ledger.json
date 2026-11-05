@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "ffd65fbc3c38ec29d4291747fca02defd22bb49a",
-  "highWaterVersion": "1.464.0",
+  "highWaterVersion": "1.465.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -75341,6 +75341,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:ffd65fbc3c38ec29d4291747fca02defd22bb49a",
+      "kind": "main",
+      "sequence": 2069,
+      "sourceSha": "ffd65fbc3c38ec29d4291747fca02defd22bb49a",
+      "sourcePackageVersion": "1.472.0",
+      "version": "1.465.0",
+      "publicationDate": "2026-11-05T10:09:55.659Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "team-chats-mac-kickoff-visibility:88a8bafcc0e8e9829b225e69be2d503b43fef7f45730eb1d2c7c4ee1fcee1c2d",
+          "mac-ci-tart-host:90a9e00c8cc328822d8e038042dead4495f3351e0332d9540b232be9ca18fc44"
+        ],
+        "notesIntentIds": [
+          "team-chats-mac-kickoff-visibility:88a8bafcc0e8e9829b225e69be2d503b43fef7f45730eb1d2c7c4ee1fcee1c2d",
+          "mac-ci-tart-host:90a9e00c8cc328822d8e038042dead4495f3351e0332d9540b232be9ca18fc44"
+        ],
+        "throughSourceSha": "ffd65fbc3c38ec29d4291747fca02defd22bb49a",
+        "previousThroughSourceSha": "c031a5c06bf91cf027e078832ffd2198d1f62782",
+        "baselineVersion": "1.464.0",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42008212739",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-06T10:09:48.846Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -148577,7 +148622,9 @@
     "queued-message-controls-copies:3a7942c0c3c128c87461a4564482fb30432f18e94a96fc5d1c4dc6d101031f73",
     "drive-proof-enforcement:777095076ff259efe4166c47b0ebe41df741a6705fac31bdaa80f3e91b3b1112",
     "cloud-handoff-keeps-model:7b518b075265cae05f98a99ede238cbb33fa85ffc4afc7b58082515424fc24e7",
-    "handoff-cache-outcome:263301ce6184fd80241a0e755cfc65bdee5d5d2fa4d9968223380b334d77b8e3"
+    "handoff-cache-outcome:263301ce6184fd80241a0e755cfc65bdee5d5d2fa4d9968223380b334d77b8e3",
+    "team-chats-mac-kickoff-visibility:88a8bafcc0e8e9829b225e69be2d503b43fef7f45730eb1d2c7c4ee1fcee1c2d",
+    "mac-ci-tart-host:90a9e00c8cc328822d8e038042dead4495f3351e0332d9540b232be9ca18fc44"
   ],
-  "consumedThroughSha": "c031a5c06bf91cf027e078832ffd2198d1f62782"
+  "consumedThroughSha": "ffd65fbc3c38ec29d4291747fca02defd22bb49a"
 }
