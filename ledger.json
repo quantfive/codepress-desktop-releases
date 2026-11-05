@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4a5a9b09701c8a7087b3987c567119e68836749e",
+  "cursorSha": "2134d3a1f6ca71d2d1bc340e19f38609304f280c",
   "highWaterVersion": "1.466.0",
   "rows": [
     {
@@ -141828,6 +141828,13 @@
       "sourceSha": "4a5a9b09701c8a7087b3987c567119e68836749e",
       "sourcePackageVersion": "1.473.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2134d3a1f6ca71d2d1bc340e19f38609304f280c",
+      "sourcePackageVersion": "1.473.0",
+      "intentIds": [
+        "busy-home-direct-route:f5fd3716aad644a06d2202a9bc62c4cfc8f5b057ec933e26367ea1bdf333d924"
+      ]
     }
   ],
   "intents": [
@@ -148334,6 +148341,14 @@
       "summary": "Settings → My computers shows whether each of your Macs runs your automations: ready, needs setup and why, or off. It appears only where Automations on your Macs is turned on for the organization.",
       "sourceSha": "9fbf015fbc0419b58cc237be87fbc6dd28af3719",
       "identity": "mac-automations-status-my-computers:bbc4a35d77e1d7bd450eb1eb869568817c79e068e292db6900bf73f7c8e2e4a7"
+    },
+    {
+      "id": "busy-home-direct-route",
+      "digest": "f5fd3716aad644a06d2202a9bc62c4cfc8f5b057ec933e26367ea1bdf333d924",
+      "type": "patch",
+      "summary": "Hand off → This Mac moves directly when the home Mac is awake but slow to answer: an online home gets a second, longer probe, the press reuses the preview's direct answer, and a takeover with nothing synced asks the home once more before refusing.",
+      "sourceSha": "2134d3a1f6ca71d2d1bc340e19f38609304f280c",
+      "identity": "busy-home-direct-route:f5fd3716aad644a06d2202a9bc62c4cfc8f5b057ec933e26367ea1bdf333d924"
     }
   ],
   "consumedIntentIds": [
