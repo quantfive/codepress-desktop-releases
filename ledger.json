@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d4c79deb935df88ac33936ac5d393f17e4fa8f80",
+  "cursorSha": "377d551cb6608f040bd85b54ed5360487977dc29",
   "highWaterVersion": "1.467.6",
   "rows": [
     {
@@ -142821,6 +142821,13 @@
       "sourceSha": "d4c79deb935df88ac33936ac5d393f17e4fa8f80",
       "sourcePackageVersion": "1.474.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "377d551cb6608f040bd85b54ed5360487977dc29",
+      "sourcePackageVersion": "1.474.7",
+      "intentIds": [
+        "team-projects-visibility:cbb4481ba871b90ecaa33a696f1a93617625cacc45eea309c6e4a1e8f989a86a"
+      ]
     }
   ],
   "intents": [
@@ -149431,6 +149438,14 @@
       "summary": "Project handoff no longer refuses because of what a worker is doing. A worker waiting on a prompt or holding unsent input moves and is told so on arrival (its prompt is asked again there, never approved for it). A worker mid-launch is waited out. One whose agent exited, has no terminal or no transcript moves as stopped, with its worktree checkpointed, and starts fresh on its branch at the destination. A failed worker's leftover process is stopped first, and an in-flight worker message is waited out briefly.",
       "sourceSha": "c58b7fa3077d6485ed867f5ccdeff59278cdd442",
       "identity": "project-workers-any-state:6f9f1b61f752f4bad35fb0e7ffd7edb41a8841a80361eef2b4157c230af96c13"
+    },
+    {
+      "id": "team-projects-visibility",
+      "digest": "cbb4481ba871b90ecaa33a696f1a93617625cacc45eea309c6e4a1e8f989a86a",
+      "type": "minor",
+      "summary": "Orchestrator projects can be shared with your team: the New project form has the Team/Personal chip, a teammate's Team project opens read-only with its Work drawer, and the owner switches it from the project menu (behind team chats).",
+      "sourceSha": "377d551cb6608f040bd85b54ed5360487977dc29",
+      "identity": "team-projects-visibility:cbb4481ba871b90ecaa33a696f1a93617625cacc45eea309c6e4a1e8f989a86a"
     }
   ],
   "consumedIntentIds": [
