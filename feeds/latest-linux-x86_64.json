@@ -1,7 +1,7 @@
 {
-  "version": "1.466.3",
+  "version": "1.467.0",
   "notes": "See the release notes on GitHub",
-  "pub_date": "2026-11-05T16:25:41.240Z",
+  "pub_date": "2026-11-05T17:07:09.934Z",
   "codepress": {
     "brokerRuntimeIdentity": "bundle=46766414c3347ec2;launch-env=4",
     "brokerGenerationProtocolVersion": 1,
@@ -11,9 +11,9 @@
     "layers": {
       "linux-x86_64": {
         "app": {
-          "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.466.3/CodePress_1.466.3_amd64-update.AppImage",
-          "size": 143170040,
-          "sha256": "129a26e3d38a93d57500cc94784b16b27da1029d9c8f04847c88056af9cfd1c9"
+          "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.467.0/CodePress_1.467.0_amd64-update.AppImage",
+          "size": 143178232,
+          "sha256": "e3f8851118167fc947fcd5e8a90cb509b3ae8dea1d3eceb3b74d1b75d1707e6b"
         },
         "layers": [
           {
@@ -26,11 +26,11 @@
           },
           {
             "name": "agent-runner-deps",
-            "key": "d44bc51e26c224fcd0051b61c90257d72183c2a8fa7f99ca398959ef5dc5fcf5",
-            "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.456.0/layer-agent-runner-deps-d44bc51e26c224fcd0051b61c90257d72183c2a8fa7f99ca398959ef5dc5fcf5-linux-x86_64.tar.gz",
-            "sha256": "e886a37d2acca2cf398ba54f896bf645ed61dfaaa30bfca2026aa2fd9e334454",
-            "size": 354074878,
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMUhLaXVFZHU3VVZQeWcyTGI2K0txKy9QZ3N5WDQrb3ZvV0c4MlR3OUk3Ni9KZnlBc01pa1YxaU5Ic3BlejhlOWxPR3N4b3hBOHBha0YwcjRYL0FMak94dkxNVHljdlE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODI4NzI0CWZpbGU6bGF5ZXItYWdlbnQtcnVubmVyLWRlcHMtZDQ0YmM1MWUyNmMyMjRmY2QwMDUxYjYxYzkwMjU3ZDcyMTgzYzJhOGZhN2Y5OWNhMzk4OTU5ZWY1ZGM1ZmNmNS1saW51eC14ODZfNjQudGFyLmd6CndnTVRSVEFJK3FOZVN4MXNnOWNGZ3JGdTFHb1RYb1NhamJyejZhbnB5ZlEvclJRcG45b004VHFYY1VPanZaSEJHU0ZPdE9jekZMazlaQklXY2o5VEJ3PT0K"
+            "key": "32822eb1c6842eee755b9073429b950459ea7867c267ba2c5f7d176502c77ac3",
+            "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.467.0/layer-agent-runner-deps-32822eb1c6842eee755b9073429b950459ea7867c267ba2c5f7d176502c77ac3-linux-x86_64.tar.gz",
+            "sha256": "5572acf4973540160a4dea14a731e5e416df720570e4f4e6c739682df27bae9c",
+            "size": 354174642,
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMUhLaXVFZHU3VWFCQzZaUTV1K2xIUUxFNGgxN2NBdXVyc3IrNjFFWGFNTk5ZaUo0UTA2NE5lRDFjRFNFUVVpUEFXeG1KQllNc3MwcmY5N1lHR0tMTDlFRnJmUFN2YXdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODk5Mjg1CWZpbGU6bGF5ZXItYWdlbnQtcnVubmVyLWRlcHMtMzI4MjJlYjFjNjg0MmVlZTc1NWI5MDczNDI5Yjk1MDQ1OWVhNzg2N2MyNjdiYTJjNWY3ZDE3NjUwMmM3N2FjMy1saW51eC14ODZfNjQudGFyLmd6CnJjbVVEWVRBUDFnbG1jVGYrZjZEYmhodEljTFRCRm4yenZ6NEJrbXd1clNWTTNYTVZBZnhaRk9MNXMzRG1RS2NHcVMvUVFLQ1A0b1hqeDdMeHF6c0JBPT0K"
           },
           {
             "name": "cua-driver",
@@ -46,8 +46,8 @@
   },
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMUhLaXVFZHU3VWQrQjYvbXh4bmx2TXpKMlhidG9mUzlZWHZWbllXUjh0YW1YTUYwWC9DR054ODlKTy9HTUpUalNQQm92cGJMNzZBSVVFMEdRMHBFYnpNR2U3eUVsRmdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODk2OTcwCWZpbGU6Q29kZVByZXNzXzEuNDY2LjNfYW1kNjQuQXBwSW1hZ2UKTG5vVWVRNTYwc0hTbXR6L3hqVk44aWwzOWJieVRpTE9GRzQrMkx2V3pMbXhZSHhZcDNYWXVCSjZTdEJBWE5ZT2xPZ2t3MDJQTHp2WlIwMTI3d1RGQmc9PQo=",
-      "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.466.3/CodePress_1.466.3_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMUhLaXVFZHU3VWE3QlB1Mmo1cUdYQ05jenk3OHNrRy9zaHNSWE95VGc4VHpmbDBncGViQXMzZEYxR3dFbGdaMDE1UHc1YVVqN1VRN2FlcFBHRksrbmUwQU0yWjlPK2drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODk5MjIwCWZpbGU6Q29kZVByZXNzXzEuNDY3LjBfYW1kNjQuQXBwSW1hZ2UKZXJaYjlMbTQwcmRKV2MycUJydFl5L2I4cll1N2JHYkpoZFVZTU50c2VqQnlNeDRodUJMTTYzWVpCRTd6WGdvTm94T1ZpVVpKODlwaVArZEtpUlRKQXc9PQo=",
+      "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.467.0/CodePress_1.467.0_amd64.AppImage"
     }
   }
 }
