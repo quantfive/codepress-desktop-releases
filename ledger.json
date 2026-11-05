@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b1fb46d744d0c2d3c2d99559784f518f96c7584a",
+  "cursorSha": "d215ba7fa9190dd05e83e17d2f2b5fbb78c17539",
   "highWaterVersion": "1.469.0",
   "rows": [
     {
@@ -142984,6 +142984,13 @@
       "sourceSha": "b1fb46d744d0c2d3c2d99559784f518f96c7584a",
       "sourcePackageVersion": "1.476.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d215ba7fa9190dd05e83e17d2f2b5fbb78c17539",
+      "sourcePackageVersion": "1.476.0",
+      "intentIds": [
+        "automatic-switching-default-on:583ecdf6b6ed26e866584725a83f018201256bb156b0337d5a4894e4c9b9d84c"
+      ]
     }
   ],
   "intents": [
@@ -149618,6 +149625,14 @@
       "summary": "Any member of an organization with Self-hosted runners on can add the Mac they're using to the runner pool for CI from Settings → Computers. It takes no work until an owner or admin approves it.",
       "sourceSha": "d459f4233a33b8ed8495bd9c7bdaff269bb756a0",
       "identity": "member-mac-ci-join:0e435d985cfa4d7a0b807641af85b0697261697d2bc7a9bf52427e0c62833ee3"
+    },
+    {
+      "id": "automatic-switching-default-on",
+      "digest": "583ecdf6b6ed26e866584725a83f018201256bb156b0337d5a4894e4c9b9d84c",
+      "type": "minor",
+      "summary": "Claude and Codex agents now switch to another account at a usage limit by default. Turning it off for a provider in Settings → Agent accounts keeps it off; Kimi stays opt-in.",
+      "sourceSha": "d215ba7fa9190dd05e83e17d2f2b5fbb78c17539",
+      "identity": "automatic-switching-default-on:583ecdf6b6ed26e866584725a83f018201256bb156b0337d5a4894e4c9b9d84c"
     }
   ],
   "consumedIntentIds": [
