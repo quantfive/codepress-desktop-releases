@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "f229e0170107019ce702c99faa412df20267d6fe",
-  "highWaterVersion": "1.465.0",
+  "highWaterVersion": "1.465.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -75398,6 +75398,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:f229e0170107019ce702c99faa412df20267d6fe",
+      "kind": "main",
+      "sequence": 2070,
+      "sourceSha": "f229e0170107019ce702c99faa412df20267d6fe",
+      "sourcePackageVersion": "1.472.2",
+      "version": "1.465.1",
+      "publicationDate": "2026-11-05T10:33:26.387Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "repoless-chat-to-cloud:5be622d1b7a279afe4caec6688bfe69d310dd32ebc1fd07615daf66336708a7a",
+          "handoff-account-pin:39ac1c3aca6e89a2a6fb0c69ec2be0452dddee60d471569ac51de18281cd549c"
+        ],
+        "notesIntentIds": [
+          "repoless-chat-to-cloud:5be622d1b7a279afe4caec6688bfe69d310dd32ebc1fd07615daf66336708a7a",
+          "handoff-account-pin:39ac1c3aca6e89a2a6fb0c69ec2be0452dddee60d471569ac51de18281cd549c"
+        ],
+        "throughSourceSha": "f229e0170107019ce702c99faa412df20267d6fe",
+        "previousThroughSourceSha": "ffd65fbc3c38ec29d4291747fca02defd22bb49a",
+        "baselineVersion": "1.465.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42011604469",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-06T10:33:20.644Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -148721,7 +148766,9 @@
     "cloud-handoff-keeps-model:7b518b075265cae05f98a99ede238cbb33fa85ffc4afc7b58082515424fc24e7",
     "handoff-cache-outcome:263301ce6184fd80241a0e755cfc65bdee5d5d2fa4d9968223380b334d77b8e3",
     "team-chats-mac-kickoff-visibility:88a8bafcc0e8e9829b225e69be2d503b43fef7f45730eb1d2c7c4ee1fcee1c2d",
-    "mac-ci-tart-host:90a9e00c8cc328822d8e038042dead4495f3351e0332d9540b232be9ca18fc44"
+    "mac-ci-tart-host:90a9e00c8cc328822d8e038042dead4495f3351e0332d9540b232be9ca18fc44",
+    "repoless-chat-to-cloud:5be622d1b7a279afe4caec6688bfe69d310dd32ebc1fd07615daf66336708a7a",
+    "handoff-account-pin:39ac1c3aca6e89a2a6fb0c69ec2be0452dddee60d471569ac51de18281cd549c"
   ],
-  "consumedThroughSha": "ffd65fbc3c38ec29d4291747fca02defd22bb49a"
+  "consumedThroughSha": "f229e0170107019ce702c99faa412df20267d6fe"
 }
