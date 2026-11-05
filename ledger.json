@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "c031a5c06bf91cf027e078832ffd2198d1f62782",
-  "highWaterVersion": "1.463.2",
+  "highWaterVersion": "1.464.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -75280,6 +75280,55 @@
           }
         ]
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:c031a5c06bf91cf027e078832ffd2198d1f62782",
+      "kind": "main",
+      "sequence": 2068,
+      "sourceSha": "c031a5c06bf91cf027e078832ffd2198d1f62782",
+      "sourcePackageVersion": "1.470.0",
+      "version": "1.464.0",
+      "publicationDate": "2026-11-05T09:49:16.723Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "queued-message-controls-copies:3a7942c0c3c128c87461a4564482fb30432f18e94a96fc5d1c4dc6d101031f73",
+          "drive-proof-enforcement:777095076ff259efe4166c47b0ebe41df741a6705fac31bdaa80f3e91b3b1112",
+          "cloud-handoff-keeps-model:7b518b075265cae05f98a99ede238cbb33fa85ffc4afc7b58082515424fc24e7",
+          "handoff-cache-outcome:263301ce6184fd80241a0e755cfc65bdee5d5d2fa4d9968223380b334d77b8e3"
+        ],
+        "notesIntentIds": [
+          "queued-message-controls-copies:3a7942c0c3c128c87461a4564482fb30432f18e94a96fc5d1c4dc6d101031f73",
+          "drive-proof-enforcement:777095076ff259efe4166c47b0ebe41df741a6705fac31bdaa80f3e91b3b1112",
+          "cloud-handoff-keeps-model:7b518b075265cae05f98a99ede238cbb33fa85ffc4afc7b58082515424fc24e7",
+          "handoff-cache-outcome:263301ce6184fd80241a0e755cfc65bdee5d5d2fa4d9968223380b334d77b8e3"
+        ],
+        "throughSourceSha": "c031a5c06bf91cf027e078832ffd2198d1f62782",
+        "previousThroughSourceSha": "465af94ee8713976b4eec5589f6fef883214c481",
+        "baselineVersion": "1.463.2",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42005353800",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-06T09:49:09.918Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -148432,7 +148481,11 @@
     "quiet-window-pollers:0d361720a55ce46dcd3bcb987101017807f24b3267d11b705dd8afeb0f9e223e",
     "signed-automation-orders:9b572ec2f8910b9e9ed1a2af5433ffd10fa80477ba9d2c4ad9ecc7f71fbc0472",
     "stable-computer-use-mcp-name:1712a35ca7280fa77e24e1ce2c54f57439b141d25ce69bf751b151de73d2dc35",
-    "handoff-launch-flags:91a9fec5712de36d6d1834008206004a18319711a60ed170d2b58e1637ef27a5"
+    "handoff-launch-flags:91a9fec5712de36d6d1834008206004a18319711a60ed170d2b58e1637ef27a5",
+    "queued-message-controls-copies:3a7942c0c3c128c87461a4564482fb30432f18e94a96fc5d1c4dc6d101031f73",
+    "drive-proof-enforcement:777095076ff259efe4166c47b0ebe41df741a6705fac31bdaa80f3e91b3b1112",
+    "cloud-handoff-keeps-model:7b518b075265cae05f98a99ede238cbb33fa85ffc4afc7b58082515424fc24e7",
+    "handoff-cache-outcome:263301ce6184fd80241a0e755cfc65bdee5d5d2fa4d9968223380b334d77b8e3"
   ],
-  "consumedThroughSha": "465af94ee8713976b4eec5589f6fef883214c481"
+  "consumedThroughSha": "c031a5c06bf91cf027e078832ffd2198d1f62782"
 }
