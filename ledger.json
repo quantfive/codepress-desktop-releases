@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "d9cfe529d4c95a6a57b487ce2e2c728680f42e0c",
-  "highWaterVersion": "1.470.1",
+  "highWaterVersion": "1.471.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -76418,6 +76418,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:d9cfe529d4c95a6a57b487ce2e2c728680f42e0c",
+      "kind": "main",
+      "sequence": 2088,
+      "sourceSha": "d9cfe529d4c95a6a57b487ce2e2c728680f42e0c",
+      "sourcePackageVersion": "1.479.1",
+      "version": "1.471.0",
+      "publicationDate": "2026-11-05T22:52:03.105Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "team-projects-ask-continue:13b5841dbcfc1881ec7b4334ced2a5b15394974366c9cf6d29ce110acc8018d1"
+        ],
+        "notesIntentIds": [
+          "team-projects-ask-continue:13b5841dbcfc1881ec7b4334ced2a5b15394974366c9cf6d29ce110acc8018d1"
+        ],
+        "throughSourceSha": "d9cfe529d4c95a6a57b487ce2e2c728680f42e0c",
+        "previousThroughSourceSha": "c508e520e775c54db552151d470099863ba26711",
+        "baselineVersion": "1.470.1",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42124971073",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-06T22:51:57.230Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -150826,7 +150869,8 @@
     "codex-orchestrator-mcp-transport:6c5ee358087dee520c36f21a1085a9db996fcb6ddb76a4d5d7b22e37523bb885",
     "lease-rate-limited-refusal:b9fc9a429a677a7c6cf96c00f91d492e4a8ffbdc4e7ea1793425d5d120fe3581",
     "inherited-qa-verdict:fdfbbfe676453bd987290fd40ec2ab609cb555b9308faec74fa4bbd7a00d3513",
-    "handoff-never-run-tab-to-cloud:ab9963dc01f66c496b4def2d112c91de314772183402e2110af4d35a08d49e5b"
+    "handoff-never-run-tab-to-cloud:ab9963dc01f66c496b4def2d112c91de314772183402e2110af4d35a08d49e5b",
+    "team-projects-ask-continue:13b5841dbcfc1881ec7b4334ced2a5b15394974366c9cf6d29ce110acc8018d1"
   ],
-  "consumedThroughSha": "c508e520e775c54db552151d470099863ba26711"
+  "consumedThroughSha": "d9cfe529d4c95a6a57b487ce2e2c728680f42e0c"
 }
