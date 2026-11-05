@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "069580306790320a448abde2e183c0fdf86a68ef",
+  "cursorSha": "11b57eccd60af837f32b15b7fe49ac9eae4e2945",
   "highWaterVersion": "1.456.5",
   "rows": [
     {
@@ -139557,6 +139557,13 @@
       "sourceSha": "069580306790320a448abde2e183c0fdf86a68ef",
       "sourcePackageVersion": "1.460.9",
       "intentIds": []
+    },
+    {
+      "sourceSha": "11b57eccd60af837f32b15b7fe49ac9eae4e2945",
+      "sourcePackageVersion": "1.460.9",
+      "intentIds": [
+        "frozen-workers-recover:fffaf3a376d9dfcd1049a59a38de7f288980f18da2e3dc761979be6235136661"
+      ]
     }
   ],
   "intents": [
@@ -145767,6 +145774,14 @@
       "summary": "Local Orchestrators offer, once per project, to set up a design kit in a repository that has none when the organization turns on the \"Design kit setup offer\" feature flag.",
       "sourceSha": "643bbb6c8451423156e307a5c9512dde970c7890",
       "identity": "terminal-design-kit-setup-offer:317267ba9cabfbf405160d3cd3ce9a13926c1a3a8b24df76da722726f0218bcf"
+    },
+    {
+      "id": "frozen-workers-recover",
+      "digest": "fffaf3a376d9dfcd1049a59a38de7f288980f18da2e3dc761979be6235136661",
+      "type": "patch",
+      "summary": "Under critical memory pressure, Terminal now freezes an idle worker that still has background work running instead of leaving it to use memory, on Linux and macOS. The worker thaws by itself when pressure clears, after 8 minutes, on a message, viewer or keystroke, or on the next start, and keeps its terminal and its work. macOS tabs stopped under pressure used to stay stopped; they now thaw the same way. `get_terminal_diagnostics` reports `agent_freeze`. A worker whose turn has ended no longer counts as holding a dialog, so with Terminal's hooks installed it can now be reclaimed when idle.",
+      "sourceSha": "11b57eccd60af837f32b15b7fe49ac9eae4e2945",
+      "identity": "frozen-workers-recover:fffaf3a376d9dfcd1049a59a38de7f288980f18da2e3dc761979be6235136661"
     }
   ],
   "consumedIntentIds": [
