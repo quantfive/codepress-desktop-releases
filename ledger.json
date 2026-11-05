@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0bb617fa3e3714c87bc596660485acd6c6dbd5da",
+  "cursorSha": "140d629dcf37025547cc46ec84759fa81be6028c",
   "highWaterVersion": "1.469.0",
   "rows": [
     {
@@ -143043,6 +143043,20 @@
       "sourceSha": "0bb617fa3e3714c87bc596660485acd6c6dbd5da",
       "sourcePackageVersion": "1.478.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "5d2843fcf2bc67f26573a616d4fd09b54e08e023",
+      "sourcePackageVersion": "1.478.0",
+      "intentIds": [
+        "terminal-preferences-follow-you:331f68ebced6321cc2ab004b51cb6fdb23ee33cc8917113183bb5df2cbe53cb2"
+      ]
+    },
+    {
+      "sourceSha": "140d629dcf37025547cc46ec84759fa81be6028c",
+      "sourcePackageVersion": "1.478.0",
+      "intentIds": [
+        "codex-orchestrator-mcp-transport:6c5ee358087dee520c36f21a1085a9db996fcb6ddb76a4d5d7b22e37523bb885"
+      ]
     }
   ],
   "intents": [
@@ -149693,6 +149707,22 @@
       "summary": "The kickoff composer no longer caps files at 20 MB. It holds each dropped file and uploads it at Send by the transport of the place the project starts: Cloud takes files up to 200 MB through S3, and This machine up to 32 MB inline. A file too large for the place you picked is refused at Send with that place's limit, keeping the draft and its files, and a reload names any large file to attach again.",
       "sourceSha": "a52d2a5ea71057e8fc40a160515173aee22abcfe",
       "identity": "kickoff-files-upload-at-send:7158b0c450a9adedabc69bdc05346692e1d488e07c5df285ca3f7c7e44d5e593"
+    },
+    {
+      "id": "terminal-preferences-follow-you",
+      "digest": "331f68ebced6321cc2ab004b51cb6fdb23ee33cc8917113183bb5df2cbe53cb2",
+      "type": "minor",
+      "summary": "Your font, shortcuts, scrolling, bell, cmd-click, GitHub Actions display, quick keys and editor appearance now follow your account to every computer, phone and browser you sign in on. A remote window no longer writes them to the computer it is looking at.",
+      "sourceSha": "5d2843fcf2bc67f26573a616d4fd09b54e08e023",
+      "identity": "terminal-preferences-follow-you:331f68ebced6321cc2ab004b51cb6fdb23ee33cc8917113183bb5df2cbe53cb2"
+    },
+    {
+      "id": "codex-orchestrator-mcp-transport",
+      "digest": "6c5ee358087dee520c36f21a1085a9db996fcb6ddb76a4d5d7b22e37523bb885",
+      "type": "patch",
+      "summary": "Fix Codex Orchestrator startup when a project's MCP transport conflicts with a generated connection.",
+      "sourceSha": "140d629dcf37025547cc46ec84759fa81be6028c",
+      "identity": "codex-orchestrator-mcp-transport:6c5ee358087dee520c36f21a1085a9db996fcb6ddb76a4d5d7b22e37523bb885"
     }
   ],
   "consumedIntentIds": [
