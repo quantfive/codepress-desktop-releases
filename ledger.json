@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "025b899e2cf7e22671e1f4dbda7fdff4a06db966",
+  "cursorSha": "a6d3c35255e7e56f0cb32b0666d4f9e8cfe5ad16",
   "highWaterVersion": "1.472.0",
   "rows": [
     {
@@ -143577,6 +143577,13 @@
       "sourceSha": "025b899e2cf7e22671e1f4dbda7fdff4a06db966",
       "sourcePackageVersion": "1.481.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a6d3c35255e7e56f0cb32b0666d4f9e8cfe5ad16",
+      "sourcePackageVersion": "1.481.2",
+      "intentIds": [
+        "cpu-thermal-admission-flag:d889926fc6c7442880a1223de1b60d9c874fd8690f251503066c72fde811b134"
+      ]
     }
   ],
   "intents": [
@@ -150323,6 +150330,14 @@
       "summary": "Answering a question from another computer no longer leaves the composer or the next question locked. The card lets go once the home applies the answer, or when the question opens again (a revised plan), without switching chats. While the answer is still on its way, words you type send as an ordinary message.",
       "sourceSha": "8c0f9efb22347affeb2da84b393388ec18777e13",
       "identity": "copy-answer-unlocks-dock:927b8ee9727976b9afe0bf45889b0b5d59009d97683b762943f3761fe1ff0d29"
+    },
+    {
+      "id": "cpu-thermal-admission-flag",
+      "digest": "d889926fc6c7442880a1223de1b60d9c874fd8690f251503066c72fde811b134",
+      "type": "patch",
+      "summary": "Terminal now reads the organization's new \"CPU and thermal admission\" flag, on desktop and on headless machines, and `get_terminal_diagnostics` reports it as `cpu_thermal_admission`. Nothing obeys the flag yet.",
+      "sourceSha": "a6d3c35255e7e56f0cb32b0666d4f9e8cfe5ad16",
+      "identity": "cpu-thermal-admission-flag:d889926fc6c7442880a1223de1b60d9c874fd8690f251503066c72fde811b134"
     }
   ],
   "consumedIntentIds": [
