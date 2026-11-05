@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "659885695e41f9c2fb2142252807f580e1004d8c",
+  "cursorSha": "9f546beaca8740cc154b6caa5d6d200251bb0b44",
   "highWaterVersion": "1.465.0",
   "rows": [
     {
@@ -141435,6 +141435,13 @@
       "sourceSha": "659885695e41f9c2fb2142252807f580e1004d8c",
       "sourcePackageVersion": "1.472.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9f546beaca8740cc154b6caa5d6d200251bb0b44",
+      "sourcePackageVersion": "1.472.1",
+      "intentIds": [
+        "handoff-account-pin:39ac1c3aca6e89a2a6fb0c69ec2be0452dddee60d471569ac51de18281cd549c"
+      ]
     }
   ],
   "intents": [
@@ -147893,6 +147900,14 @@
       "summary": "A Local Chat with no GitHub repository (no folder, a plain folder, or a checkout whose origin isn't GitHub) can now be handed off to the cloud when your organization's cloud supports it. Only the conversation goes and continues in an empty cloud workspace; the move dialog says the folder's files stay on this Mac. Chats in a GitHub checkout move exactly as before.",
       "sourceSha": "76f6e58f9b5435baef9ab0298046798d2cdd551b",
       "identity": "repoless-chat-to-cloud:5be622d1b7a279afe4caec6688bfe69d310dd32ebc1fd07615daf66336708a7a"
+    },
+    {
+      "id": "handoff-account-pin",
+      "digest": "39ac1c3aca6e89a2a6fb0c69ec2be0452dddee60d471569ac51de18281cd549c",
+      "type": "patch",
+      "summary": "Handoffs keep the source's subscription account: a handed-off Claude tab, Orchestrator worker or Orchestrator starts on the same account at the destination when it is connected there and not limited, so the first turn can read the prompt cache.",
+      "sourceSha": "9f546beaca8740cc154b6caa5d6d200251bb0b44",
+      "identity": "handoff-account-pin:39ac1c3aca6e89a2a6fb0c69ec2be0452dddee60d471569ac51de18281cd549c"
     }
   ],
   "consumedIntentIds": [
