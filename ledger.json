@@ -75178,7 +75178,7 @@
         "type": "patch"
       },
       "mac": {
-        "status": "running",
+        "status": "failed",
         "generation": 1,
         "owner": {
           "ownerId": "terminal-macos-delivery",
@@ -75189,9 +75189,14 @@
         "dispatch": {
           "intentId": "same-run:b4f7f7a03cbe14b097ccc579395571218279ab4a9c84a3e8cbfaa551055a110d",
           "runId": "41998363622",
-          "terminal": false
+          "terminal": true
         },
-        "failures": []
+        "failures": [
+          {
+            "code": "run_failed",
+            "at": "2026-11-05T09:20:39.133Z"
+          }
+        ]
       },
       "linux": {
         "status": "failed",
