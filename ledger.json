@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5f4e8e5996acb2296de6e1cb5b1c4c91c48e5875",
+  "cursorSha": "fa075dc07b0d233bb104c4b2c2c00dbbe8f3a55a",
   "highWaterVersion": "1.466.3",
   "rows": [
     {
@@ -142202,6 +142202,13 @@
       "sourceSha": "5f4e8e5996acb2296de6e1cb5b1c4c91c48e5875",
       "sourcePackageVersion": "1.473.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "fa075dc07b0d233bb104c4b2c2c00dbbe8f3a55a",
+      "sourcePackageVersion": "1.473.4",
+      "intentIds": [
+        "runner-pool-mac-ci-join:a203ffd5a3dc3b84aff2e1b77d834382a0624cf6479a18619365a19c0be9c538"
+      ]
     }
   ],
   "intents": [
@@ -148748,6 +148755,14 @@
       "summary": "Record who owns every Terminal setting (follows you, this device, or set on the computer), ahead of preferences following you to other computers. Nothing visible changes.",
       "sourceSha": "eb9e795dd677796d87e7be2f7a10ba08bdf30e8f",
       "identity": "terminal-preferences-origins:ee25ecb1428fa88d4433421b6ffec70560503f0d6129afe3fc312ecf6a59a765"
+    },
+    {
+      "id": "runner-pool-mac-ci-join",
+      "digest": "a203ffd5a3dc3b84aff2e1b77d834382a0624cf6479a18619365a19c0be9c538",
+      "type": "minor",
+      "summary": "Org owners and admins can add the Mac they're using to the team runner pool from Settings → Computers, with no command line or root password. The Mac joins as a CI-only computer: you choose macOS and Linux ARM VMs and their slots, see whether the images fit on disk, and acknowledge that it becomes a team CI machine. The row then shows each step, from enrolling and building images to approval. The pool list now names each computer's OS and what it runs, so agent capacity and CI capacity are easy to tell apart.",
+      "sourceSha": "fa075dc07b0d233bb104c4b2c2c00dbbe8f3a55a",
+      "identity": "runner-pool-mac-ci-join:a203ffd5a3dc3b84aff2e1b77d834382a0624cf6479a18619365a19c0be9c538"
     }
   ],
   "consumedIntentIds": [
