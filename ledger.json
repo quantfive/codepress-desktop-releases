@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "45c3ed6ef71a0db6221be4633c99086807ef906f",
+  "cursorSha": "47263500cdbd311df7882c6244d3d0597218746a",
   "highWaterVersion": "1.471.0",
   "rows": [
     {
@@ -143377,6 +143377,13 @@
       "sourceSha": "45c3ed6ef71a0db6221be4633c99086807ef906f",
       "sourcePackageVersion": "1.480.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "47263500cdbd311df7882c6244d3d0597218746a",
+      "sourcePackageVersion": "1.480.1",
+      "intentIds": [
+        "chat-torn-transcript-pickup:2b5ad3e34a8fa131e5fc52ec856bb9c9170b711f171bd85070cba0960d727d75"
+      ]
     }
   ],
   "intents": [
@@ -150083,6 +150090,14 @@
       "summary": "A link to a page inside an App now opens that page in Terminal, instead of being treated as the App's page already on screen.",
       "sourceSha": "5fb0df55cb292867fae28b6463d6f0ce7590f356",
       "identity": "app-deep-links-open-page:1c3cc958e97824ef17d421e6875697af0623cefa6ab1c22715364c81e15b4edb"
+    },
+    {
+      "id": "chat-torn-transcript-pickup",
+      "digest": "2b5ad3e34a8fa131e5fc52ec856bb9c9170b711f171bd85070cba0960d727d75",
+      "type": "patch",
+      "summary": "A Synced chat whose home Mac stopped mid-write can now be picked up on this Mac instead of being refused. When the cloud copy of its conversation ends in an unfinished record, the chat's agent starts again from the chat's synced messages, and the arrival note says its own conversation could not be restored.",
+      "sourceSha": "47263500cdbd311df7882c6244d3d0597218746a",
+      "identity": "chat-torn-transcript-pickup:2b5ad3e34a8fa131e5fc52ec856bb9c9170b711f171bd85070cba0960d727d75"
     }
   ],
   "consumedIntentIds": [
