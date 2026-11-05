@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "45d2e3e06255cc275b3833d4dce4279f92642a04",
+  "cursorSha": "e8f639ca745197e3c7294e9c421d8641eb3eff59",
   "highWaterVersion": "1.471.1",
   "rows": [
     {
@@ -143472,6 +143472,18 @@
       "sourceSha": "45d2e3e06255cc275b3833d4dce4279f92642a04",
       "sourcePackageVersion": "1.481.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d90c85287f9886eb69584c3057e2a5caeb21d5b0",
+      "sourcePackageVersion": "1.481.0",
+      "intentIds": [
+        "slider-layout-check-skip:9867aee0d85ec998bffacab8c015aa2b73c7bb1df37307f20a3eb8c5aede3e24"
+      ]
+    },
+    {
+      "sourceSha": "e8f639ca745197e3c7294e9c421d8641eb3eff59",
+      "sourcePackageVersion": "1.481.0",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -150202,6 +150214,14 @@
       "summary": "Settings now says whose each setting is. The General tab groups its rows under Your preferences, This device and Set on this computer, and the other tabs say whose they are. A window on another computer names that computer in a banner and marks what is set there.",
       "sourceSha": "a4b7c8add9e44b113d771552d2207c7a9965b4e7",
       "identity": "origin-labels:69304dc78221e4efd17b0f78040dad1ee82ec4acc1815ba8aedce43d92a1ff04"
+    },
+    {
+      "id": "slider-layout-check-skip",
+      "digest": "9867aee0d85ec998bffacab8c015aa2b73c7bb1df37307f20a3eb8c5aede3e24",
+      "type": "patch",
+      "summary": "The font-size slider in the setup guide and Settings is marked so automated layout checks skip its track and knob, which sit on top of each other by design. Nothing changes on screen.",
+      "sourceSha": "d90c85287f9886eb69584c3057e2a5caeb21d5b0",
+      "identity": "slider-layout-check-skip:9867aee0d85ec998bffacab8c015aa2b73c7bb1df37307f20a3eb8c5aede3e24"
     }
   ],
   "consumedIntentIds": [
