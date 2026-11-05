@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0f29ca9fbacf93e6cc67e442aab5ce1204e692cf",
+  "cursorSha": "35e4ed250c5ff923637c0b766c5575191f37b29e",
   "highWaterVersion": "1.470.0",
   "rows": [
     {
@@ -143135,6 +143135,18 @@
       "sourceSha": "0f29ca9fbacf93e6cc67e442aab5ce1204e692cf",
       "sourcePackageVersion": "1.478.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "01c71189dadd5b019cb3c32d333f718b54820d42",
+      "sourcePackageVersion": "1.478.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "35e4ed250c5ff923637c0b766c5575191f37b29e",
+      "sourcePackageVersion": "1.478.0",
+      "intentIds": [
+        "inherited-qa-verdict:fdfbbfe676453bd987290fd40ec2ab609cb555b9308faec74fa4bbd7a00d3513"
+      ]
     }
   ],
   "intents": [
@@ -149809,6 +149821,14 @@
       "summary": "An account pick refused because CodePress is rate-limiting this computer's leases now says so and when to try again, in Settings and in the remote \"Accounts on <computer>\" view. A saved choice refused by a lease 429 or 503 retries by itself (no sooner than Retry-After), and a choice skipped because the account needed reconnecting applies once it is reconnected.",
       "sourceSha": "9a74d524f4f22778b669ced228a4be0f7a60af17",
       "identity": "lease-rate-limited-refusal:b9fc9a429a677a7c6cf96c00f91d492e4a8ffbdc4e7ea1793425d5d120fe3581"
+    },
+    {
+      "id": "inherited-qa-verdict",
+      "digest": "fdfbbfe676453bd987290fd40ec2ab609cb555b9308faec74fa4bbd7a00d3513",
+      "type": "patch",
+      "summary": "Read a QA report posted by someone with write access to the repository as the pull request's QA verdict, so the Orchestrator no longer reports \"no QA\" on a pull request a person inherited.",
+      "sourceSha": "35e4ed250c5ff923637c0b766c5575191f37b29e",
+      "identity": "inherited-qa-verdict:fdfbbfe676453bd987290fd40ec2ab609cb555b9308faec74fa4bbd7a00d3513"
     }
   ],
   "consumedIntentIds": [
