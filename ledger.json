@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "8cbe01d94d631120bd4a9731b8f590c452b8588f",
+  "cursorSha": "9de409139932b25ed9d15417dde071d6df96c14b",
   "highWaterVersion": "1.462.2",
   "rows": [
     {
@@ -140848,6 +140848,13 @@
       "intentIds": [
         "quiet-window-pollers:0d361720a55ce46dcd3bcb987101017807f24b3267d11b705dd8afeb0f9e223e"
       ]
+    },
+    {
+      "sourceSha": "9de409139932b25ed9d15417dde071d6df96c14b",
+      "sourcePackageVersion": "1.467.1",
+      "intentIds": [
+        "signed-automation-orders:9b572ec2f8910b9e9ed1a2af5433ffd10fa80477ba9d2c4ad9ecc7f71fbc0472"
+      ]
     }
   ],
   "intents": [
@@ -147226,6 +147233,14 @@
       "summary": "A window opened over the edge relay now stays quiet on every screen, including the Orchestrator: worker activity arrives as a push, and other reads happen when a surface opens, on reconnect and on return to visible, instead of on a timer.",
       "sourceSha": "8cbe01d94d631120bd4a9731b8f590c452b8588f",
       "identity": "quiet-window-pollers:0d361720a55ce46dcd3bcb987101017807f24b3267d11b705dd8afeb0f9e223e"
+    },
+    {
+      "id": "signed-automation-orders",
+      "digest": "9b572ec2f8910b9e9ed1a2af5433ffd10fa80477ba9d2c4ad9ecc7f71fbc0472",
+      "type": "minor",
+      "summary": "Your Mac runs only automations you allowed there: Terminal asks once per automation, signs that with the Mac's key, and refuses any order it didn't allow, including replayed or expired ones. Editing an allowed automation never asks again.",
+      "sourceSha": "9de409139932b25ed9d15417dde071d6df96c14b",
+      "identity": "signed-automation-orders:9b572ec2f8910b9e9ed1a2af5433ffd10fa80477ba9d2c4ad9ecc7f71fbc0472"
     }
   ],
   "consumedIntentIds": [
