@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2f55096649a230f736f2525974998c6bdd13e064",
+  "cursorSha": "26ce963ab62f04682afa0b32364b5eda0b3d0727",
   "highWaterVersion": "1.458.3",
   "rows": [
     {
@@ -140246,6 +140246,13 @@
       "sourceSha": "2f55096649a230f736f2525974998c6bdd13e064",
       "sourcePackageVersion": "1.462.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "26ce963ab62f04682afa0b32364b5eda0b3d0727",
+      "sourcePackageVersion": "1.462.3",
+      "intentIds": [
+        "chat-handoff-entry-points:d278fc02f11d2736d23bdaa37d821f7bb2090554d2375ab2a24b84e90f7e51cb"
+      ]
     }
   ],
   "intents": [
@@ -146536,6 +146543,14 @@
       "summary": "No user-visible change: two source comments no longer name the removed `apps/deck` app.",
       "sourceSha": "b69f515e82130f7776588a6acd71a27c819e8210",
       "identity": "remove-deck-pages-comments:e567864da3d0d79ac2a08ab6f0d67603035305adf0530b96db69efd9be78be98"
+    },
+    {
+      "id": "chat-handoff-entry-points",
+      "digest": "d278fc02f11d2736d23bdaa37d821f7bb2090554d2375ab2a24b84e90f7e51cb",
+      "type": "minor",
+      "summary": "Local Chats can be handed off to another Mac: Hand off… is on a chat's rail row ⋯, its header ⋯ and another Mac's chat row, and opens the move picker with chat wording.",
+      "sourceSha": "26ce963ab62f04682afa0b32364b5eda0b3d0727",
+      "identity": "chat-handoff-entry-points:d278fc02f11d2736d23bdaa37d821f7bb2090554d2375ab2a24b84e90f7e51cb"
     }
   ],
   "consumedIntentIds": [
