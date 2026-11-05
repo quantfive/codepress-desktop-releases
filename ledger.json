@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "80d27c29a4ba7602e1fa55304a839cc4958b20d1",
+  "cursorSha": "f5b3f1fc003870406f9aea5591e6d2d636ed99d0",
   "highWaterVersion": "1.457.0",
   "rows": [
     {
@@ -139735,6 +139735,13 @@
       "sourceSha": "80d27c29a4ba7602e1fa55304a839cc4958b20d1",
       "sourcePackageVersion": "1.461.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f5b3f1fc003870406f9aea5591e6d2d636ed99d0",
+      "sourcePackageVersion": "1.461.0",
+      "intentIds": [
+        "handoff-banner-one-look:d45f481bb108a0c1bdc3a9aecbac79726cdf544b3835cac5040e4cfecb783428"
+      ]
     }
   ],
   "intents": [
@@ -145969,6 +145976,14 @@
       "summary": "Hand off… on a cloud project's Orchestrator picks its destination from tiles: your Macs, then Cloud last. A Mac that can't take it stays dimmed and says why when it's focused, and while it moves the chosen tile shows a ring with the step it's on and a Steps list.",
       "sourceSha": "24f8568b64d83c07a40f2314d66893befadb0b79",
       "identity": "handoff-tiles-orchestrator:0d178ce5625c26f37a645185d05b573eae05f097b1f72cad7a1d0b2aec9ca799"
+    },
+    {
+      "id": "handoff-banner-one-look",
+      "digest": "d45f481bb108a0c1bdc3a9aecbac79726cdf544b3835cac5040e4cfecb783428",
+      "type": "patch",
+      "summary": "A tab's hand-off notices (moved, recovery after a failed hand-off, and set-aside transcript lines) now share one banner: a ✓, ! or ring mark, a title, a detail line and actions on the right, drawn in your theme's colours instead of a fixed red or amber card.",
+      "sourceSha": "f5b3f1fc003870406f9aea5591e6d2d636ed99d0",
+      "identity": "handoff-banner-one-look:d45f481bb108a0c1bdc3a9aecbac79726cdf544b3835cac5040e4cfecb783428"
     }
   ],
   "consumedIntentIds": [
