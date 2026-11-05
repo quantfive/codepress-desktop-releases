@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "dfa6c26dfaaa9048990d6fb6dfcc8522b18fad93",
-  "highWaterVersion": "1.461.0",
+  "highWaterVersion": "1.462.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -74930,6 +74930,53 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:dfa6c26dfaaa9048990d6fb6dfcc8522b18fad93",
+      "kind": "main",
+      "sequence": 2062,
+      "sourceSha": "dfa6c26dfaaa9048990d6fb6dfcc8522b18fad93",
+      "sourcePackageVersion": "1.466.0",
+      "version": "1.462.0",
+      "publicationDate": "2026-11-05T06:39:31.714Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "move-renamed-worker-branch:8194e223aea0d83bab00e2bfb9403011ffec3d6a5a07014105bfab1dd6ea1486",
+          "automations-on-your-macs:1edc8d866f7482b0842282f5606a3ff507f2f1c6d4f739e2387dd6f35ce54acf",
+          "team-chats-feed-rail:367ae25f002cd58b97e24bfd8c380b8ca502bc3c2cb32330026b1b262531545e"
+        ],
+        "notesIntentIds": [
+          "move-renamed-worker-branch:8194e223aea0d83bab00e2bfb9403011ffec3d6a5a07014105bfab1dd6ea1486",
+          "automations-on-your-macs:1edc8d866f7482b0842282f5606a3ff507f2f1c6d4f739e2387dd6f35ce54acf",
+          "team-chats-feed-rail:367ae25f002cd58b97e24bfd8c380b8ca502bc3c2cb32330026b1b262531545e"
+        ],
+        "throughSourceSha": "dfa6c26dfaaa9048990d6fb6dfcc8522b18fad93",
+        "previousThroughSourceSha": "ee0b4e5ca4c7730ad4a2df05b7e51c24a91fa82a",
+        "baselineVersion": "1.461.0",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "41981808850",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-06T06:39:26.640Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -147784,7 +147831,10 @@
     "chat-handoff-cloud:bc9ccdcd6952b3540784079a77eb762bddfa7be7a10a0367af6dbb5482ea1c57",
     "team-chats-chat-view:a78e9fd18eee7fc59b38e2707376f63bc3c7ca4954fce6ddfe1017de707313f4",
     "darwin-warning-admission:c1b039a9476f81a59cbf616448ad1564265ba6907214cd2ec3b1f29051d8a777",
-    "queued-message-controls:4a81b9c76d0adb0dfd0a98da7ea8509b16cc308b5e6bcc1e5f2c2e0518f5c557"
+    "queued-message-controls:4a81b9c76d0adb0dfd0a98da7ea8509b16cc308b5e6bcc1e5f2c2e0518f5c557",
+    "move-renamed-worker-branch:8194e223aea0d83bab00e2bfb9403011ffec3d6a5a07014105bfab1dd6ea1486",
+    "automations-on-your-macs:1edc8d866f7482b0842282f5606a3ff507f2f1c6d4f739e2387dd6f35ce54acf",
+    "team-chats-feed-rail:367ae25f002cd58b97e24bfd8c380b8ca502bc3c2cb32330026b1b262531545e"
   ],
-  "consumedThroughSha": "ee0b4e5ca4c7730ad4a2df05b7e51c24a91fa82a"
+  "consumedThroughSha": "dfa6c26dfaaa9048990d6fb6dfcc8522b18fad93"
 }
