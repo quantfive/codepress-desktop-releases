@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "774462be8b13741fbf6661745731c465ece7ee3b",
+  "cursorSha": "76cd84ae7998c2d48cf8898a8f5fa20151cb3656",
   "highWaterVersion": "1.457.1",
   "rows": [
     {
@@ -139837,6 +139837,13 @@
       "sourceSha": "774462be8b13741fbf6661745731c465ece7ee3b",
       "sourcePackageVersion": "1.461.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "76cd84ae7998c2d48cf8898a8f5fa20151cb3656",
+      "sourcePackageVersion": "1.461.1",
+      "intentIds": [
+        "handoff-tiles-sessions:6d17be72349c1757f3f7f4220a4c56b516a5306336fa66608c88cb1ad80125f8"
+      ]
     }
   ],
   "intents": [
@@ -146079,6 +146086,14 @@
       "summary": "A tab's hand-off notices (moved, recovery after a failed hand-off, and set-aside transcript lines) now share one banner: a ✓, ! or ring mark, a title, a detail line and actions on the right, drawn in your theme's colours instead of a fixed red or amber card.",
       "sourceSha": "f5b3f1fc003870406f9aea5591e6d2d636ed99d0",
       "identity": "handoff-banner-one-look:d45f481bb108a0c1bdc3a9aecbac79726cdf544b3835cac5040e4cfecb783428"
+    },
+    {
+      "id": "handoff-tiles-sessions",
+      "digest": "6d17be72349c1757f3f7f4220a4c56b516a5306336fa66608c88cb1ad80125f8",
+      "type": "patch",
+      "summary": "Hand off this session, a cloud session's Hand off… and the Agent tab's cloud chat strip now use the same destination tiles, step ring and outcome as the Orchestrator's picker: your Macs first and Cloud last, with asleep or unavailable Macs dimmed and their reason shown on focus. A cancelled handoff now offers Start a new handoff.",
+      "sourceSha": "76cd84ae7998c2d48cf8898a8f5fa20151cb3656",
+      "identity": "handoff-tiles-sessions:6d17be72349c1757f3f7f4220a4c56b516a5306336fa66608c88cb1ad80125f8"
     }
   ],
   "consumedIntentIds": [
