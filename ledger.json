@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ee4fcbf10339c01fef75d3cc6d55bd0ecc38186b",
+  "cursorSha": "d459f4233a33b8ed8495bd9c7bdaff269bb756a0",
   "highWaterVersion": "1.468.0",
   "rows": [
     {
@@ -142912,6 +142912,13 @@
       "sourceSha": "ee4fcbf10339c01fef75d3cc6d55bd0ecc38186b",
       "sourcePackageVersion": "1.475.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d459f4233a33b8ed8495bd9c7bdaff269bb756a0",
+      "sourcePackageVersion": "1.475.1",
+      "intentIds": [
+        "member-mac-ci-join:0e435d985cfa4d7a0b807641af85b0697261697d2bc7a9bf52427e0c62833ee3"
+      ]
     }
   ],
   "intents": [
@@ -149538,6 +149545,14 @@
       "summary": "A teammate's leased Claude or Codex subscription on a shared computer is renewed when it rotates, asking CodePress for a new token, and never more than once a minute: renewing early no longer loops until the computer's lease budget runs out.",
       "sourceSha": "8eb7094e96d0099ad6b313628c8aebb6c483ca9b",
       "identity": "actor-lease-renew-floor:aa641c1676ab0e3643bca7a6d546833f9ab2fa311780ae780e46db6bd9747b28"
+    },
+    {
+      "id": "member-mac-ci-join",
+      "digest": "0e435d985cfa4d7a0b807641af85b0697261697d2bc7a9bf52427e0c62833ee3",
+      "type": "minor",
+      "summary": "Any member of an organization with Self-hosted runners on can add the Mac they're using to the runner pool for CI from Settings → Computers. It takes no work until an owner or admin approves it.",
+      "sourceSha": "d459f4233a33b8ed8495bd9c7bdaff269bb756a0",
+      "identity": "member-mac-ci-join:0e435d985cfa4d7a0b807641af85b0697261697d2bc7a9bf52427e0c62833ee3"
     }
   ],
   "consumedIntentIds": [
