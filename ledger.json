@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a5a5dd390b1db63ba2a472e94cd32e9f4bad2843",
+  "cursorSha": "c031a5c06bf91cf027e078832ffd2198d1f62782",
   "highWaterVersion": "1.463.2",
   "rows": [
     {
@@ -141182,6 +141182,20 @@
       "sourceSha": "a5a5dd390b1db63ba2a472e94cd32e9f4bad2843",
       "sourcePackageVersion": "1.470.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "edaeefbac2679b54bf4865de2d7f7b76b93369d4",
+      "sourcePackageVersion": "1.470.0",
+      "intentIds": [
+        "cloud-handoff-keeps-model:7b518b075265cae05f98a99ede238cbb33fa85ffc4afc7b58082515424fc24e7"
+      ]
+    },
+    {
+      "sourceSha": "c031a5c06bf91cf027e078832ffd2198d1f62782",
+      "sourcePackageVersion": "1.470.0",
+      "intentIds": [
+        "handoff-cache-outcome:263301ce6184fd80241a0e755cfc65bdee5d5d2fa4d9968223380b334d77b8e3"
+      ]
     }
   ],
   "intents": [
@@ -147600,6 +147614,22 @@
       "summary": "A headless machine can now see and act on an unconfirmed key: `codepress-terminal status` says so, and `codepress-terminal confirm` emails its owner a link. Terminal also signs a computer's access change, which had been going out unsigned. It now also signs its reads of another machine's tab files (the Artifacts tab's list and content), which the backend requires in organizations that enforce drive proof.",
       "sourceSha": "84bcd4c6044444cf3eff523a9442a39fd085a532",
       "identity": "drive-proof-enforcement:777095076ff259efe4166c47b0ebe41df741a6705fac31bdaa80f3e91b3b1112"
+    },
+    {
+      "id": "cloud-handoff-keeps-model",
+      "digest": "7b518b075265cae05f98a99ede238cbb33fa85ffc4afc7b58082515424fc24e7",
+      "type": "patch",
+      "summary": "A Terminal → cloud handoff now sends the session's last model (and Codex effort), so the cloud continues on the same model.",
+      "sourceSha": "edaeefbac2679b54bf4865de2d7f7b76b93369d4",
+      "identity": "cloud-handoff-keeps-model:7b518b075265cae05f98a99ede238cbb33fa85ffc4afc7b58082515424fc24e7"
+    },
+    {
+      "id": "handoff-cache-outcome",
+      "digest": "263301ce6184fd80241a0e755cfc65bdee5d5d2fa4d9968223380b334d77b8e3",
+      "type": "patch",
+      "summary": "Handoff status now reports whether the destination's first resumed turn kept the prompt cache (`cacheOutcome`, with `priorCoverage` as the pass line), and `scripts/handoff-cache-report.ts` prints prior coverage and the cache-read share around each handoff in a transcript.",
+      "sourceSha": "c031a5c06bf91cf027e078832ffd2198d1f62782",
+      "identity": "handoff-cache-outcome:263301ce6184fd80241a0e755cfc65bdee5d5d2fa4d9968223380b334d77b8e3"
     }
   ],
   "consumedIntentIds": [
