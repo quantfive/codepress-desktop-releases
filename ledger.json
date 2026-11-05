@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e958c55f7160e67ff4f583e2cbb6f84630c44ba8",
+  "cursorSha": "638750f9f5544133398d736bc4c2708de6d08c6f",
   "highWaterVersion": "1.467.2",
   "rows": [
     {
@@ -142481,6 +142481,13 @@
       "sourceSha": "e958c55f7160e67ff4f583e2cbb6f84630c44ba8",
       "sourcePackageVersion": "1.474.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "638750f9f5544133398d736bc4c2708de6d08c6f",
+      "sourcePackageVersion": "1.474.3",
+      "intentIds": [
+        "handoff-any-state:c164f20b12bd8aeba5543b9ec612bfb143f212005f6c92297b9a00884960a7a0"
+      ]
     }
   ],
   "intents": [
@@ -149059,6 +149066,14 @@
       "summary": "The Team feed's Filter menu now offers Repository, Started from, Agent and Runs on (Cloud, Mac, Cloud VM) beside People, each counted over the Team chats you can read and narrowing cloud and Mac chats alike.",
       "sourceSha": "63423b2ea1c057dc65a9694602014b4f451f6f3f",
       "identity": "team-feed-filters:7cb3caf5485dc7931db5023bc9e49a904371447e853b956cb7859a134a1e42ce"
+    },
+    {
+      "id": "handoff-any-state",
+      "digest": "c164f20b12bd8aeba5543b9ec612bfb143f212005f6c92297b9a00884960a7a0",
+      "type": "patch",
+      "summary": "An agent tab now hands off in any state. A tab that never ran a turn, whose transcript doesn't appear within 10 seconds, or that runs Kimi moves with its folder and opens the same agent fresh on the other Mac. Text typed but not sent, all of its lines, arrives in the destination's prompt unsubmitted, once the agent there is ready for it. A tab whose shell is gone moves as stopped. Continue here resumes a copy saved mid-turn from its last whole line, and continues a copy that has no transcript as a fresh session.",
+      "sourceSha": "638750f9f5544133398d736bc4c2708de6d08c6f",
+      "identity": "handoff-any-state:c164f20b12bd8aeba5543b9ec612bfb143f212005f6c92297b9a00884960a7a0"
     }
   ],
   "consumedIntentIds": [
