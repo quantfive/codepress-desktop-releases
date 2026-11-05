@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5aa782955dd66c0efcd39dae18487eea14a9133a",
+  "cursorSha": "63423b2ea1c057dc65a9694602014b4f451f6f3f",
   "highWaterVersion": "1.467.2",
   "rows": [
     {
@@ -142459,6 +142459,13 @@
       "sourceSha": "5aa782955dd66c0efcd39dae18487eea14a9133a",
       "sourcePackageVersion": "1.474.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "63423b2ea1c057dc65a9694602014b4f451f6f3f",
+      "sourcePackageVersion": "1.474.2",
+      "intentIds": [
+        "team-feed-filters:7cb3caf5485dc7931db5023bc9e49a904371447e853b956cb7859a134a1e42ce"
+      ]
     }
   ],
   "intents": [
@@ -149029,6 +149036,14 @@
       "summary": "Quitting Terminal while a project or chat is being switched to Synced no longer reads its record after the record has closed, which logged errors on the way out.",
       "sourceSha": "1ddcce45f0e0849a5ad23e4a9a8a6d6a789e5b11",
       "identity": "sync-teardown-race:98e05227522c47e37266b0ab0edf2ba845f1f871d3a34ae5cd9216ffc1235f97"
+    },
+    {
+      "id": "team-feed-filters",
+      "digest": "7cb3caf5485dc7931db5023bc9e49a904371447e853b956cb7859a134a1e42ce",
+      "type": "patch",
+      "summary": "The Team feed's Filter menu now offers Repository, Started from, Agent and Runs on (Cloud, Mac, Cloud VM) beside People, each counted over the Team chats you can read and narrowing cloud and Mac chats alike.",
+      "sourceSha": "63423b2ea1c057dc65a9694602014b4f451f6f3f",
+      "identity": "team-feed-filters:7cb3caf5485dc7931db5023bc9e49a904371447e853b956cb7859a134a1e42ce"
     }
   ],
   "consumedIntentIds": [
