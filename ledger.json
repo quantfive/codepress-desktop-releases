@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "d4ede5de139b57a342dffea1b805fbb93a5df0c3",
-  "highWaterVersion": "1.465.2",
+  "highWaterVersion": "1.465.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -75510,6 +75510,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:d4ede5de139b57a342dffea1b805fbb93a5df0c3",
+      "kind": "main",
+      "sequence": 2072,
+      "sourceSha": "d4ede5de139b57a342dffea1b805fbb93a5df0c3",
+      "sourcePackageVersion": "1.472.3",
+      "version": "1.465.3",
+      "publicationDate": "2026-11-05T11:35:13.663Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "cache-safe-pm-prompt:789a1eb0727d6bdae24fb6b21a99f3a7d16110b650839ce34302d6d854fd4271"
+        ],
+        "notesIntentIds": [
+          "cache-safe-pm-prompt:789a1eb0727d6bdae24fb6b21a99f3a7d16110b650839ce34302d6d854fd4271"
+        ],
+        "throughSourceSha": "d4ede5de139b57a342dffea1b805fbb93a5df0c3",
+        "previousThroughSourceSha": "4c17fb2e09641735ddc8403547a1ba81002d2fc0",
+        "baselineVersion": "1.465.2",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42020059511",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-06T11:35:08.050Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -148931,7 +148974,8 @@
     "mac-ci-tart-host:90a9e00c8cc328822d8e038042dead4495f3351e0332d9540b232be9ca18fc44",
     "repoless-chat-to-cloud:5be622d1b7a279afe4caec6688bfe69d310dd32ebc1fd07615daf66336708a7a",
     "handoff-account-pin:39ac1c3aca6e89a2a6fb0c69ec2be0452dddee60d471569ac51de18281cd549c",
-    "mac-automations-flag:71056834d1b605c142ed8bbcedc9ade7994e37c121b69ef2e52876038f97ef39"
+    "mac-automations-flag:71056834d1b605c142ed8bbcedc9ade7994e37c121b69ef2e52876038f97ef39",
+    "cache-safe-pm-prompt:789a1eb0727d6bdae24fb6b21a99f3a7d16110b650839ce34302d6d854fd4271"
   ],
-  "consumedThroughSha": "4c17fb2e09641735ddc8403547a1ba81002d2fc0"
+  "consumedThroughSha": "d4ede5de139b57a342dffea1b805fbb93a5df0c3"
 }
