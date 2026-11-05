@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "93cd02e242fb070ee652aa36ed128186dcdaf034",
+  "cursorSha": "d24f0590719db7d1526ef19a71e6f673eb677164",
   "highWaterVersion": "1.463.2",
   "rows": [
     {
@@ -141155,6 +141155,18 @@
       "sourceSha": "93cd02e242fb070ee652aa36ed128186dcdaf034",
       "sourcePackageVersion": "1.469.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "84bcd4c6044444cf3eff523a9442a39fd085a532",
+      "sourcePackageVersion": "1.469.0",
+      "intentIds": [
+        "drive-proof-enforcement:777095076ff259efe4166c47b0ebe41df741a6705fac31bdaa80f3e91b3b1112"
+      ]
+    },
+    {
+      "sourceSha": "d24f0590719db7d1526ef19a71e6f673eb677164",
+      "sourcePackageVersion": "1.469.0",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -147565,6 +147577,14 @@
       "summary": "Edit and Delete on a queued message now work from a synced copy, on another Mac or on the web. A message its home hasn't picked up yet is taken back straight away, even while that home sleeps. One it has picked up goes back through the home: if the home is away you see \"Can't reach\" and the message stays, and if the Orchestrator read it first you see \"Too late\". A home on an older version shows no buttons.",
       "sourceSha": "d71bf8a332c4c5153755828f0f095830ad5e28c4",
       "identity": "queued-message-controls-copies:3a7942c0c3c128c87461a4564482fb30432f18e94a96fc5d1c4dc6d101031f73"
+    },
+    {
+      "id": "drive-proof-enforcement",
+      "digest": "777095076ff259efe4166c47b0ebe41df741a6705fac31bdaa80f3e91b3b1112",
+      "type": "minor",
+      "summary": "A headless machine can now see and act on an unconfirmed key: `codepress-terminal status` says so, and `codepress-terminal confirm` emails its owner a link. Terminal also signs a computer's access change, which had been going out unsigned. It now also signs its reads of another machine's tab files (the Artifacts tab's list and content), which the backend requires in organizations that enforce drive proof.",
+      "sourceSha": "84bcd4c6044444cf3eff523a9442a39fd085a532",
+      "identity": "drive-proof-enforcement:777095076ff259efe4166c47b0ebe41df741a6705fac31bdaa80f3e91b3b1112"
     }
   ],
   "consumedIntentIds": [
