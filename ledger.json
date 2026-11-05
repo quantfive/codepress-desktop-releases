@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6a57d71b9bc7a2c5fa7e7226d9688b1ddec93092",
+  "cursorSha": "d9cfe529d4c95a6a57b487ce2e2c728680f42e0c",
   "highWaterVersion": "1.470.1",
   "rows": [
     {
@@ -143283,6 +143283,13 @@
       "sourceSha": "6a57d71b9bc7a2c5fa7e7226d9688b1ddec93092",
       "sourcePackageVersion": "1.479.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d9cfe529d4c95a6a57b487ce2e2c728680f42e0c",
+      "sourcePackageVersion": "1.479.1",
+      "intentIds": [
+        "team-projects-ask-continue:13b5841dbcfc1881ec7b4334ced2a5b15394974366c9cf6d29ce110acc8018d1"
+      ]
     }
   ],
   "intents": [
@@ -149973,6 +149980,14 @@
       "summary": "An agent tab that never ran a turn can now be handed off to Cloud. It opens there as a new cloud chat on the tab's repository and code, and any text typed but not sent becomes that chat's first message. Before, such a tab could only go to a Mac.",
       "sourceSha": "c508e520e775c54db552151d470099863ba26711",
       "identity": "handoff-never-run-tab-to-cloud:ab9963dc01f66c496b4def2d112c91de314772183402e2110af4d35a08d49e5b"
+    },
+    {
+      "id": "team-projects-ask-continue",
+      "digest": "13b5841dbcfc1881ec7b4334ced2a5b15394974366c9cf6d29ce110acc8018d1",
+      "type": "minor",
+      "summary": "A teammate's Team project now has the Ask box (\"Ask your agent about this project\"), Continue in my own chat and Send to…, as a teammate's chat does; past projects you started yourself can be shared through \"Share your past chats and projects\"; and making a shared project or chat Local only now tells the cloud, so it leaves the Team feed (behind team chats).",
+      "sourceSha": "d9cfe529d4c95a6a57b487ce2e2c728680f42e0c",
+      "identity": "team-projects-ask-continue:13b5841dbcfc1881ec7b4334ced2a5b15394974366c9cf6d29ce110acc8018d1"
     }
   ],
   "consumedIntentIds": [
