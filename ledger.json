@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e1765d6263a9d2be3e1e77ce1d993837c4874f76",
+  "cursorSha": "a4b7c8add9e44b113d771552d2207c7a9965b4e7",
   "highWaterVersion": "1.471.1",
   "rows": [
     {
@@ -143460,6 +143460,13 @@
       "sourceSha": "e1765d6263a9d2be3e1e77ce1d993837c4874f76",
       "sourcePackageVersion": "1.480.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a4b7c8add9e44b113d771552d2207c7a9965b4e7",
+      "sourcePackageVersion": "1.480.2",
+      "intentIds": [
+        "origin-labels:69304dc78221e4efd17b0f78040dad1ee82ec4acc1815ba8aedce43d92a1ff04"
+      ]
     }
   ],
   "intents": [
@@ -150182,6 +150189,14 @@
       "summary": "A local Orchestrator on Claude now keeps its prompt cache for an hour on any account, so a turn after a long wait reads its context from cache instead of writing it again. Before, this needed a Claude subscription that was not in overage. Your own `CLAUDE_CODE_PROMPT_CACHE_TTL` still wins, and `CODEPRESS_PM_PROMPT_CACHE_TTL=5m` turns it off.",
       "sourceSha": "d5fdeffbc0b84f8789ff971fff6b6a3fa84b003a",
       "identity": "orchestrator-one-hour-cache:07c782abe9c7285202691b3ef19ab09ceb55bd3e7c9d441c80067caacc4ad293"
+    },
+    {
+      "id": "origin-labels",
+      "digest": "69304dc78221e4efd17b0f78040dad1ee82ec4acc1815ba8aedce43d92a1ff04",
+      "type": "minor",
+      "summary": "Settings now says whose each setting is. The General tab groups its rows under Your preferences, This device and Set on this computer, and the other tabs say whose they are. A window on another computer names that computer in a banner and marks what is set there.",
+      "sourceSha": "a4b7c8add9e44b113d771552d2207c7a9965b4e7",
+      "identity": "origin-labels:69304dc78221e4efd17b0f78040dad1ee82ec4acc1815ba8aedce43d92a1ff04"
     }
   ],
   "consumedIntentIds": [
