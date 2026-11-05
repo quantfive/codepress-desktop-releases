@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1c247fc500148dcc36ee66b1fcd1041bc828e173",
+  "cursorSha": "24f8568b64d83c07a40f2314d66893befadb0b79",
   "highWaterVersion": "1.456.6",
   "rows": [
     {
@@ -139634,6 +139634,20 @@
       "sourceSha": "1c247fc500148dcc36ee66b1fcd1041bc828e173",
       "sourcePackageVersion": "1.460.10",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d1c419fa32246b058f61b3de1444c09349310aec",
+      "sourcePackageVersion": "1.460.10",
+      "intentIds": [
+        "quiet-relay-window:9b31f54756c4a24f7fbb4701e31cdb5d8d716170aea868bbfbff12284b1e9d05"
+      ]
+    },
+    {
+      "sourceSha": "24f8568b64d83c07a40f2314d66893befadb0b79",
+      "sourcePackageVersion": "1.460.10",
+      "intentIds": [
+        "handoff-tiles-orchestrator:0d178ce5625c26f37a645185d05b573eae05f097b1f72cad7a1d0b2aec9ca799"
+      ]
     }
   ],
   "intents": [
@@ -145852,6 +145866,22 @@
       "summary": "Under critical memory pressure, Terminal now freezes an idle worker that still has background work running instead of leaving it to use memory, on Linux and macOS. The worker thaws by itself when pressure clears, after 8 minutes, on a message, viewer or keystroke, or on the next start, and keeps its terminal and its work. macOS tabs stopped under pressure used to stay stopped; they now thaw the same way. `get_terminal_diagnostics` reports `agent_freeze`. A worker whose turn has ended no longer counts as holding a dialog, so with Terminal's hooks installed it can now be reclaimed when idle.",
       "sourceSha": "11b57eccd60af837f32b15b7fe49ac9eae4e2945",
       "identity": "frozen-workers-recover:fffaf3a376d9dfcd1049a59a38de7f288980f18da2e3dc761979be6235136661"
+    },
+    {
+      "id": "quiet-relay-window",
+      "digest": "9b31f54756c4a24f7fbb4701e31cdb5d8d716170aea868bbfbff12284b1e9d05",
+      "type": "minor",
+      "summary": "A window opened over the edge relay and left alone no longer sends anything on a timer, so the computer's relay can sleep. Updates, cards included, arrive by push over the window's one socket, and everything else is read when needed: on first use, on a push, on reconnect, and on return to visible. Local windows, tunnel windows and older daemons keep today's polling and heartbeat.",
+      "sourceSha": "d1c419fa32246b058f61b3de1444c09349310aec",
+      "identity": "quiet-relay-window:9b31f54756c4a24f7fbb4701e31cdb5d8d716170aea868bbfbff12284b1e9d05"
+    },
+    {
+      "id": "handoff-tiles-orchestrator",
+      "digest": "0d178ce5625c26f37a645185d05b573eae05f097b1f72cad7a1d0b2aec9ca799",
+      "type": "patch",
+      "summary": "Hand off… on a cloud project's Orchestrator picks its destination from tiles: your Macs, then Cloud last. A Mac that can't take it stays dimmed and says why when it's focused, and while it moves the chosen tile shows a ring with the step it's on and a Steps list.",
+      "sourceSha": "24f8568b64d83c07a40f2314d66893befadb0b79",
+      "identity": "handoff-tiles-orchestrator:0d178ce5625c26f37a645185d05b573eae05f097b1f72cad7a1d0b2aec9ca799"
     }
   ],
   "consumedIntentIds": [
