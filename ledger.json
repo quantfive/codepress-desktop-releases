@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c4a6f8c1f40d3d10a4c516e9fac268ddea76b519",
+  "cursorSha": "8eb7094e96d0099ad6b313628c8aebb6c483ca9b",
   "highWaterVersion": "1.467.6",
   "rows": [
     {
@@ -142843,6 +142843,13 @@
       "sourceSha": "c4a6f8c1f40d3d10a4c516e9fac268ddea76b519",
       "sourcePackageVersion": "1.475.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "8eb7094e96d0099ad6b313628c8aebb6c483ca9b",
+      "sourcePackageVersion": "1.475.0",
+      "intentIds": [
+        "actor-lease-renew-floor:aa641c1676ab0e3643bca7a6d546833f9ab2fa311780ae780e46db6bd9747b28"
+      ]
     }
   ],
   "intents": [
@@ -149461,6 +149468,14 @@
       "summary": "Orchestrator projects can be shared with your team: the New project form has the Team/Personal chip, a teammate's Team project opens read-only with its Work drawer, and the owner switches it from the project menu (behind team chats).",
       "sourceSha": "377d551cb6608f040bd85b54ed5360487977dc29",
       "identity": "team-projects-visibility:cbb4481ba871b90ecaa33a696f1a93617625cacc45eea309c6e4a1e8f989a86a"
+    },
+    {
+      "id": "actor-lease-renew-floor",
+      "digest": "aa641c1676ab0e3643bca7a6d546833f9ab2fa311780ae780e46db6bd9747b28",
+      "type": "patch",
+      "summary": "A teammate's leased Claude or Codex subscription on a shared computer is renewed when it rotates, asking CodePress for a new token, and never more than once a minute: renewing early no longer loops until the computer's lease budget runs out.",
+      "sourceSha": "8eb7094e96d0099ad6b313628c8aebb6c483ca9b",
+      "identity": "actor-lease-renew-floor:aa641c1676ab0e3643bca7a6d546833f9ab2fa311780ae780e46db6bd9747b28"
     }
   ],
   "consumedIntentIds": [
