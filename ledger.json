@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4d392cc72b210edee34515345e4213fc70f0402d",
+  "cursorSha": "8b7a6838ecdda8537c0753ac945ddd04ad2ea4c0",
   "highWaterVersion": "1.466.1",
   "rows": [
     {
@@ -141938,6 +141938,13 @@
       "sourceSha": "4d392cc72b210edee34515345e4213fc70f0402d",
       "sourcePackageVersion": "1.473.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "8b7a6838ecdda8537c0753ac945ddd04ad2ea4c0",
+      "sourcePackageVersion": "1.473.2",
+      "intentIds": [
+        "handoff-worker-cwd-inside-checkout:b4cd32d820b6f4357bf19a9bca931eceaa2de02d02c2efbabce8ca4a24edd668"
+      ]
     }
   ],
   "intents": [
@@ -148468,6 +148475,14 @@
       "summary": "The device channel proves this computer's key when the backend asks for it, so a copied sign-in can't pose as your Mac or receive its work.",
       "sourceSha": "7a12fa6ee2709bb6a096d815b67d95ea34410547",
       "identity": "device-channel-key-proof:9a5b79ab982b5c3170fb93b583d797c3711a672595cce923eda754f64e29c584"
+    },
+    {
+      "id": "handoff-worker-cwd-inside-checkout",
+      "digest": "b4cd32d820b6f4357bf19a9bca931eceaa2de02d02c2efbabce8ca4a24edd668",
+      "type": "patch",
+      "summary": "Project handoffs no longer get stuck when a worker changes folders inside its own checkout during the move. The handoff checks that each worker is still in the checkout it recorded instead of the exact folder, so a cancelled move can release its workers again.",
+      "sourceSha": "8b7a6838ecdda8537c0753ac945ddd04ad2ea4c0",
+      "identity": "handoff-worker-cwd-inside-checkout:b4cd32d820b6f4357bf19a9bca931eceaa2de02d02c2efbabce8ca4a24edd668"
     }
   ],
   "consumedIntentIds": [
