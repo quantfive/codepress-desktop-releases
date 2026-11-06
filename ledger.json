@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "90e4d9c2fde15b6e4037c575227daa382530943f",
-  "highWaterVersion": "1.484.2",
+  "highWaterVersion": "1.484.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -78158,6 +78158,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:90e4d9c2fde15b6e4037c575227daa382530943f",
+      "kind": "main",
+      "sequence": 2118,
+      "sourceSha": "90e4d9c2fde15b6e4037c575227daa382530943f",
+      "sourcePackageVersion": "1.493.3",
+      "version": "1.484.3",
+      "publicationDate": "2026-11-06T13:04:43.422Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "short-project-snapshot-queue:f77f3c4818f91bfd46062e4fe7657755b08878803e17c5adb8b61056767abd6e"
+        ],
+        "notesIntentIds": [
+          "short-project-snapshot-queue:f77f3c4818f91bfd46062e4fe7657755b08878803e17c5adb8b61056767abd6e"
+        ],
+        "throughSourceSha": "90e4d9c2fde15b6e4037c575227daa382530943f",
+        "previousThroughSourceSha": "c05c8b876885d6f686dd1fcdd3e58e9554965fb2",
+        "baselineVersion": "1.484.2",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42222494667",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-07T13:04:37.392Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -154429,7 +154472,8 @@
     "project-terminal-quick-keys:0c438577e49542f9c1efe66aade25e85747ee96877bcd2458a7641fd1c03501e",
     "quick-project-cards:63d7141ec129615282ffcbadc8268df23a936fb644b8c18aceec05ceea712ec7",
     "phone-account-rows:ac73a33f299ae336f5f72d15b66b4dae4b13b203f9f2a21067e73feafd37887e",
-    "moved-chat-open-in-place:2956637c8416db38562b2d2391267680983c757827aaf7c45f061c5c41c03ac7"
+    "moved-chat-open-in-place:2956637c8416db38562b2d2391267680983c757827aaf7c45f061c5c41c03ac7",
+    "short-project-snapshot-queue:f77f3c4818f91bfd46062e4fe7657755b08878803e17c5adb8b61056767abd6e"
   ],
-  "consumedThroughSha": "c05c8b876885d6f686dd1fcdd3e58e9554965fb2"
+  "consumedThroughSha": "90e4d9c2fde15b6e4037c575227daa382530943f"
 }
