@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "de1ce94dfcfcff8e5a9e1b2be9911be260608cf4",
+  "cursorSha": "e4c4d0ece21665d430f24080ec088a4ea2b8d8b4",
   "highWaterVersion": "1.485.2",
   "rows": [
     {
@@ -146626,6 +146626,13 @@
       "sourceSha": "de1ce94dfcfcff8e5a9e1b2be9911be260608cf4",
       "sourcePackageVersion": "1.494.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e4c4d0ece21665d430f24080ec088a4ea2b8d8b4",
+      "sourcePackageVersion": "1.494.3",
+      "intentIds": [
+        "hand-off-cloud-after-move:c9cd0f7ceedf6645f8774e1eae87bd38851d929fe17cb45c16eb12dbe19576f9"
+      ]
     }
   ],
   "intents": [
@@ -153860,6 +153867,14 @@
       "summary": "Local builds now rebuild the Ghostty engine when the staged copy is from an older pin. Before, they kept reusing it, and the app then opened every new tab as xterm.",
       "sourceSha": "b0898692786c6f6d4c5f5e482da8794680bd3235",
       "identity": "ghostty-stale-engine-rebuild:aef7a841b08e458611da2e8f428ed6a4fbf78136cf8301b0a2e7fed892906d24"
+    },
+    {
+      "id": "hand-off-cloud-after-move",
+      "digest": "c9cd0f7ceedf6645f8774e1eae87bd38851d929fe17cb45c16eb12dbe19576f9",
+      "type": "patch",
+      "summary": "Hand off keeps offering Cloud after a chat or project moves to another machine: choosing it on the old machine asks the machine it now runs on to move it to the cloud, and an asleep machine leaves Cloud listed with the reason.",
+      "sourceSha": "e4c4d0ece21665d430f24080ec088a4ea2b8d8b4",
+      "identity": "hand-off-cloud-after-move:c9cd0f7ceedf6645f8774e1eae87bd38851d929fe17cb45c16eb12dbe19576f9"
     }
   ],
   "consumedIntentIds": [
