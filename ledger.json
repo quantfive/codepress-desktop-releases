@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1ce572655ac75cbef1e69b60414a160a51e39152",
+  "cursorSha": "60e9b3c66e553b07af4c6aca0052aaa72a9a13e7",
   "highWaterVersion": "1.487.5",
   "rows": [
     {
@@ -147420,6 +147420,18 @@
       "sourceSha": "1ce572655ac75cbef1e69b60414a160a51e39152",
       "sourcePackageVersion": "1.497.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7323e90abf4b635468b75a4b158178f4ab07c589",
+      "sourcePackageVersion": "1.497.7",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "60e9b3c66e553b07af4c6aca0052aaa72a9a13e7",
+      "sourcePackageVersion": "1.497.7",
+      "intentIds": [
+        "first-run-setup-steps:26b8dc05e0f4bc57dae5925c0489d8ef7d346b62962e102c8c074503b5dad7de"
+      ]
     }
   ],
   "intents": [
@@ -154766,6 +154778,14 @@
       "summary": "Auto now treats a machine in your saved order as busy when its CPU and RAM use, averaged, reaches your limit, or when either one reaches 95%, instead of when either one alone reaches the limit. The Runs on menu says why Auto passed over a ranked machine, for example \"89% combined, over your 85% limit\" or \"RAM at 96%\".",
       "sourceSha": "4de501ab6e86a230d1f37ab1d9891112fb1f7df2",
       "identity": "auto-busy-combined-score:49d93881ec290ed64bbb264dce8929edfaafcfb6647afb58c67cdf6ac774b895"
+    },
+    {
+      "id": "first-run-setup-steps",
+      "digest": "26b8dc05e0f4bc57dae5925c0489d8ef7d346b62962e102c8c074503b5dad7de",
+      "type": "patch",
+      "summary": "Report named setup steps, with timings and download progress, while a local preview starts.",
+      "sourceSha": "60e9b3c66e553b07af4c6aca0052aaa72a9a13e7",
+      "identity": "first-run-setup-steps:26b8dc05e0f4bc57dae5925c0489d8ef7d346b62962e102c8c074503b5dad7de"
     }
   ],
   "consumedIntentIds": [
