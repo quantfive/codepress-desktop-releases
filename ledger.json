@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "78ce0e3419b8e0261a6ffbf053ed66ee5b07066d",
+  "cursorSha": "c88abd7962793c5c6d480c1f8e5dfcc2b6d111df",
   "highWaterVersion": "1.479.3",
   "rows": [
     {
@@ -145148,6 +145148,13 @@
       "sourceSha": "78ce0e3419b8e0261a6ffbf053ed66ee5b07066d",
       "sourcePackageVersion": "1.488.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c88abd7962793c5c6d480c1f8e5dfcc2b6d111df",
+      "sourcePackageVersion": "1.488.5",
+      "intentIds": [
+        "replay-alt-screen:2e9096880fa7e8e19b7d7a8b9d9acc6199105a2869c48593464f1d8d8686f61e"
+      ]
     }
   ],
   "intents": [
@@ -152174,6 +152181,14 @@
       "summary": "Signing in to a machine on the edge relay now also signs its owner in to the app, so Agent mode, its badge and the cards stream work there as they do on a tunnel. Teammates see what they saw before.",
       "sourceSha": "39f1089ca2279b368ac649af7a61bd237717a848",
       "identity": "relay-sign-in-signs-the-app-in:7b46df775ac0d6c5e03c8c715e8efad7588b95e96e8d94e1934ac5d0af5223e8"
+    },
+    {
+      "id": "replay-alt-screen",
+      "digest": "2e9096880fa7e8e19b7d7a8b9d9acc6199105a2869c48593464f1d8d8686f61e",
+      "type": "patch",
+      "summary": "Opening a running full-screen tab from the web, phone or a project's Terminal tab shows its screen instead of an empty one",
+      "sourceSha": "c88abd7962793c5c6d480c1f8e5dfcc2b6d111df",
+      "identity": "replay-alt-screen:2e9096880fa7e8e19b7d7a8b9d9acc6199105a2869c48593464f1d8d8686f61e"
     }
   ],
   "consumedIntentIds": [
