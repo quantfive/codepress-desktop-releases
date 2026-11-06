@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "28349b1a3cfebd96c24a4339a647c3b3b988d4b6",
+  "cursorSha": "a64eca062d6d8f3e22b2271c9a89e5ad5bcb9c4f",
   "highWaterVersion": "1.472.1",
   "rows": [
     {
@@ -143741,6 +143741,18 @@
       "sourceSha": "28349b1a3cfebd96c24a4339a647c3b3b988d4b6",
       "sourcePackageVersion": "1.482.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "8e775e86450d5b75b1671c5df05888f6d6cf4d3a",
+      "sourcePackageVersion": "1.482.1",
+      "intentIds": [
+        "always-one-active-subscription-account:b58804e7ba150fea0389c2221aca3331d18f1a55e34632b63a6848c09656f34c"
+      ]
+    },
+    {
+      "sourceSha": "a64eca062d6d8f3e22b2271c9a89e5ad5bcb9c4f",
+      "sourcePackageVersion": "1.482.1",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -150511,6 +150523,14 @@
       "summary": "Report CPU and thermal pressure, and an estimate of sustainable cores, in diagnostics, capacity status and Orchestrator snapshots. This only reports; nothing is held or capped.",
       "sourceSha": "9b5ea05d78376a08c1cbb49850c579267a2e0395",
       "identity": "cpu-thermal-signal:1e682baf7344c715cdb835c257ae64d0b92511939835ac04518035e67b719404"
+    },
+    {
+      "id": "always-one-active-subscription-account",
+      "digest": "b58804e7ba150fea0389c2221aca3331d18f1a55e34632b63a6848c09656f34c",
+      "type": "patch",
+      "summary": "A computer's Claude and Codex accounts always have one active when one can be. The first account you add is selected for you, and removing, pausing or restricting the active account moves to the next one (the account CodePress lists as yours, else the oldest Local account). A new computer with no default account starts on your oldest Personal account. Terminal still never replaces a CLI login you made yourself or overrides a mode you chose, and never picks a Team account. An account moved to Personal stays active and is reported to CodePress, so the web shows it selected.",
+      "sourceSha": "8e775e86450d5b75b1671c5df05888f6d6cf4d3a",
+      "identity": "always-one-active-subscription-account:b58804e7ba150fea0389c2221aca3331d18f1a55e34632b63a6848c09656f34c"
     }
   ],
   "consumedIntentIds": [
