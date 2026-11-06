@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0e873733f9919a3ada054311d96217299548dd52",
+  "cursorSha": "3e53af290ff94e5a4acb594b2f65b38c4edb3cd9",
   "highWaterVersion": "1.479.7",
   "rows": [
     {
@@ -145605,6 +145605,13 @@
       "intentIds": [
         "project-terminal-fits-the-phone:f4bf07de84505c89e5bc6dd3fad3e5b8953913813cf4e674cf640a54d440b191"
       ]
+    },
+    {
+      "sourceSha": "3e53af290ff94e5a4acb594b2f65b38c4edb3cd9",
+      "sourcePackageVersion": "1.488.13",
+      "intentIds": [
+        "tunnel-routes-signed:06ba141c10050662a3374666874077983b7cea14855792456a948a8e9d9e2538"
+      ]
     }
   ],
   "intents": [
@@ -152703,6 +152710,14 @@
       "summary": "The project Terminal tab now fits a phone or tablet the way the sidebar terminal does, and the machine's window gets its size back when you leave the tab, close the stream or put the app in the background. Live terminal streams can also ask what runs in a tab to repaint.",
       "sourceSha": "0e873733f9919a3ada054311d96217299548dd52",
       "identity": "project-terminal-fits-the-phone:f4bf07de84505c89e5bc6dd3fad3e5b8953913813cf4e674cf640a54d440b191"
+    },
+    {
+      "id": "tunnel-routes-signed",
+      "digest": "06ba141c10050662a3374666874077983b7cea14855792456a948a8e9d9e2538",
+      "type": "minor",
+      "summary": "Terminal now signs its own tunnel calls (connector token, moving a tunnel, Secure Access, share links, and opening a computer or chat a teammate shared with you), so they keep working where an organization requires proof from a confirmed computer. A remote viewer's sign-in that the daemon forwards to mint an owner session is never signed by this computer.",
+      "sourceSha": "3e53af290ff94e5a4acb594b2f65b38c4edb3cd9",
+      "identity": "tunnel-routes-signed:06ba141c10050662a3374666874077983b7cea14855792456a948a8e9d9e2538"
     }
   ],
   "consumedIntentIds": [
