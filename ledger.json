@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0075a053b3c635fb1d7b43e2d7dff1c8b3865903",
+  "cursorSha": "ebff8e30c41e23f7c4275cd180e7e6d8cf0ebf73",
   "highWaterVersion": "1.474.0",
   "rows": [
     {
@@ -144094,6 +144094,13 @@
       "sourceSha": "0075a053b3c635fb1d7b43e2d7dff1c8b3865903",
       "sourcePackageVersion": "1.483.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ebff8e30c41e23f7c4275cd180e7e6d8cf0ebf73",
+      "sourcePackageVersion": "1.483.0",
+      "intentIds": [
+        "orchestrator-say-machine:1f0880b87da21d060d4f9b524c917bd7c9e05320aa8d88967392877509c85106"
+      ]
     }
   ],
   "intents": [
@@ -150944,6 +150951,14 @@
       "summary": "A teammate's message to a chat or Orchestrator project on this Mac now reaches its agent. It arrives in the inbox labelled as from a teammate, or from a teammate's agent, and shows in the thread as \"Teammate · From <name>\". It never answers an ask or approves a plan. A paused project keeps the message until you resume it, and a message sent while this Mac was offline arrives once it reconnects (behind team chats).",
       "sourceSha": "bc1c3a34b7c3257ffb4c73523f22016823803f8a",
       "identity": "teammate-messages-to-mac:9ec42e074c1b221b352e56080a7c92f2782236b5b6bfc407d415ce9fda9f1ccd"
+    },
+    {
+      "id": "orchestrator-say-machine",
+      "digest": "1f0880b87da21d060d4f9b524c917bd7c9e05320aa8d88967392877509c85106",
+      "type": "patch",
+      "summary": "The Orchestrator now calls your computers machines (\"this machine\", \"your other machines\") instead of Macs, since CodePress runs on Mac and Linux.",
+      "sourceSha": "ebff8e30c41e23f7c4275cd180e7e6d8cf0ebf73",
+      "identity": "orchestrator-say-machine:1f0880b87da21d060d4f9b524c917bd7c9e05320aa8d88967392877509c85106"
     }
   ],
   "consumedIntentIds": [
