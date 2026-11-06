@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "734c1304a5f551900af4fd1d9d33eb93daf300eb",
+  "cursorSha": "44284cfa7b23b34e9c800ceafba6a0ec92db0d19",
   "highWaterVersion": "1.485.4",
   "rows": [
     {
@@ -146780,6 +146780,13 @@
       "sourceSha": "734c1304a5f551900af4fd1d9d33eb93daf300eb",
       "sourcePackageVersion": "1.494.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "44284cfa7b23b34e9c800ceafba6a0ec92db0d19",
+      "sourcePackageVersion": "1.494.5",
+      "intentIds": [
+        "find-inside-the-document:634195706df984ff2f69b755e595414f0be18f4377607c8bdf06b7bfa47beb08"
+      ]
     }
   ],
   "intents": [
@@ -154030,6 +154037,14 @@
       "summary": "Upload project cloud copies compressed using the cloud's advertised size limit, preserve long upload deadlines, and clear outdated size refusals after a newer export is accepted.",
       "sourceSha": "2666886ec3ce542928e0edcfefa3fb3f8c31f8d4",
       "identity": "compressed-project-sync:43d4197d9b7c6ae5f86cb2b53e41ebc4c6b5b3b45403966b1eec89c6b02a6657"
+    },
+    {
+      "id": "find-inside-the-document",
+      "digest": "634195706df984ff2f69b755e595414f0be18f4377607c8bdf06b7bfa47beb08",
+      "type": "minor",
+      "summary": "Cmd/Ctrl+F now searches the Markdown document you're reading. A find bar in Read shows \"3 of 12\", steps with Enter and Shift+Enter, has a case toggle, and closes with Esc, returning you to the document. It searches the words on screen, highlights every match without touching the text, and scrolls to each one. With a terminal focused, Cmd/Ctrl+F still opens the terminal's bar, and a dialog keeps the key to itself. The Markdown toolbar has a find button and the command palette has Find in Document.",
+      "sourceSha": "44284cfa7b23b34e9c800ceafba6a0ec92db0d19",
+      "identity": "find-inside-the-document:634195706df984ff2f69b755e595414f0be18f4377607c8bdf06b7bfa47beb08"
     }
   ],
   "consumedIntentIds": [
