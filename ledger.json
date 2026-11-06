@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "bc1f0d6baa49bf408365fafc7082076904a44872",
+  "cursorSha": "bff525c1f7d7d5e5d677a0365ce3197b7b451689",
   "highWaterVersion": "1.481.0",
   "rows": [
     {
@@ -145785,6 +145785,13 @@
       "sourceSha": "bc1f0d6baa49bf408365fafc7082076904a44872",
       "sourcePackageVersion": "1.490.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "bff525c1f7d7d5e5d677a0365ce3197b7b451689",
+      "sourcePackageVersion": "1.490.0",
+      "intentIds": [
+        "unified-apps-kinds:c74269f9ec424d1e2fa5369b699aa72d5be0b015aba1e5a5f05829210621bbb0"
+      ]
     }
   ],
   "intents": [
@@ -152907,6 +152914,14 @@
       "summary": "For an organization with local-first routing on, a job in the Mac sandbox that needs the network now gets a network of its own and reaches the internet and nothing else: not this Mac's services, your network or tailnet, or another job. Turning on jobs or automations installs the guard in the same macOS password dialog, Settings shows its state and why it isn't holding, and a Mac without it refuses those jobs with a reason while jobs with no network need still run. It turns on macOS's packet filter, and other apps' virtual machines lose link-local IPv6 to this Mac.",
       "sourceSha": "640d92d11798c4d389e2b1f9f2362ef3eb0d8c12",
       "identity": "sandbox-network-guard:c03cb831bf5ca6d397e23582d9ddb1bfc35e2dd7f7da29e726d2e03e4706df9a"
+    },
+    {
+      "id": "unified-apps-kinds",
+      "digest": "c74269f9ec424d1e2fa5369b699aa72d5be0b015aba1e5a5f05829210621bbb0",
+      "type": "patch",
+      "summary": "With Unified Apps turned on, the Apps page shows where each App's code lives and who hosts it, and connected repositories can be added as Apps. The flag is off by default, so nothing changes until staff turn it on.",
+      "sourceSha": "bff525c1f7d7d5e5d677a0365ce3197b7b451689",
+      "identity": "unified-apps-kinds:c74269f9ec424d1e2fa5369b699aa72d5be0b015aba1e5a5f05829210621bbb0"
     }
   ],
   "consumedIntentIds": [
