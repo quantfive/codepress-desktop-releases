@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "925e25b254976dd78c6a146eef56eba965c15776",
+  "cursorSha": "c2e1400156f7001f4af7b85524605aaafed8dd68",
   "highWaterVersion": "1.482.1",
   "rows": [
     {
@@ -145987,6 +145987,13 @@
       "sourceSha": "925e25b254976dd78c6a146eef56eba965c15776",
       "sourcePackageVersion": "1.491.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c2e1400156f7001f4af7b85524605aaafed8dd68",
+      "sourcePackageVersion": "1.491.2",
+      "intentIds": [
+        "sandbox-lima-intel:4559b00f9d900ef39bab68ac4ba550c823dbe477d1b0ca3aa28e79de55a38199"
+      ]
     }
   ],
   "intents": [
@@ -153141,6 +153148,14 @@
       "summary": "When opening a machine from its tunnel page needs a passkey press, the page now takes you to the web sign-in to press it and brings you back, instead of repeating \"try again\".",
       "sourceSha": "29454307d280e3a55c219cf57b9118e22e10ff9f",
       "identity": "tunnel-page-web-hop:3a8d2521aaf430db1b7d2d256fb51609afedeaa9bf51624f5ac7f5665528e5b2"
+    },
+    {
+      "id": "sandbox-lima-intel",
+      "digest": "4559b00f9d900ef39bab68ac4ba550c823dbe477d1b0ca3aa28e79de55a38199",
+      "type": "minor",
+      "summary": "Intel Macs, and Apple silicon Macs on macOS 13 to 15, can now run your automations. Turning on \"Run my automations on this Mac\" downloads CodePress's sandbox runtime, with no password, and a job there reaches the public internet and nothing else: not this computer, your network or other jobs.",
+      "sourceSha": "c2e1400156f7001f4af7b85524605aaafed8dd68",
+      "identity": "sandbox-lima-intel:4559b00f9d900ef39bab68ac4ba550c823dbe477d1b0ca3aa28e79de55a38199"
     }
   ],
   "consumedIntentIds": [
