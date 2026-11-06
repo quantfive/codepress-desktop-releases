@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "752085700e6a0e3c670d441f536c77b93860e85b",
+  "cursorSha": "e1f288439b4faa5add25fd091b9344372994475b",
   "highWaterVersion": "1.487.6",
   "rows": [
     {
@@ -147532,6 +147532,13 @@
       "intentIds": [
         "codex-sdk-0164-upgrade:5a08564db03f10a524e561bd5eac38d2f07ac0d4da0a84cb19fc29d410936600"
       ]
+    },
+    {
+      "sourceSha": "e1f288439b4faa5add25fd091b9344372994475b",
+      "sourcePackageVersion": "1.498.0",
+      "intentIds": [
+        "stop-repeating-shell-startups:2864313cb131ebac7969fc864fad415e03791331c507d492d9f75c140e6a35d2"
+      ]
     }
   ],
   "intents": [
@@ -154910,6 +154917,14 @@
       "summary": "Update the bundled Codex SDK and generated app-server protocol to 0.166.0.",
       "sourceSha": "752085700e6a0e3c670d441f536c77b93860e85b",
       "identity": "codex-sdk-0164-upgrade:5a08564db03f10a524e561bd5eac38d2f07ac0d4da0a84cb19fc29d410936600"
+    },
+    {
+      "id": "stop-repeating-shell-startups",
+      "digest": "2864313cb131ebac7969fc864fad415e03791331c507d492d9f75c140e6a35d2",
+      "type": "patch",
+      "summary": "Terminal no longer starts login shells over and over to look for CLIs and PATH, which returns about a core on a busy machine. A CLI you just installed is found straight away when you press Connect, and otherwise within two minutes.",
+      "sourceSha": "e1f288439b4faa5add25fd091b9344372994475b",
+      "identity": "stop-repeating-shell-startups:2864313cb131ebac7969fc864fad415e03791331c507d492d9f75c140e6a35d2"
     }
   ],
   "consumedIntentIds": [
