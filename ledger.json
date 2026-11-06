@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "155a4c2785e8603132df6a64998692be5750b167",
+  "cursorSha": "89ac12baa8099ffacc42c9c610afcaf314c63eec",
   "highWaterVersion": "1.474.2",
   "rows": [
     {
@@ -144312,6 +144312,18 @@
       "sourceSha": "155a4c2785e8603132df6a64998692be5750b167",
       "sourcePackageVersion": "1.484.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e4bf574721f21ac528081239078ab42a6b7bf2b5",
+      "sourcePackageVersion": "1.484.0",
+      "intentIds": [
+        "relay-streams-return-to-socket:32dfbca3390a1196598c712afdf1f8ed86272a86ea15b0e8d5b64f441ae947a8"
+      ]
+    },
+    {
+      "sourceSha": "89ac12baa8099ffacc42c9c610afcaf314c63eec",
+      "sourcePackageVersion": "1.484.1",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -151210,6 +151222,14 @@
       "summary": "With the CPU-aware admission flag on, a hot machine paces or holds new worker launches with a clear reason, and the capacity broker grants only what the machine can sustain.",
       "sourceSha": "1464ed792e7525b4fc40b3c4874793802a411dae",
       "identity": "cpu-aware-launch-holds:d60dde802365a470e1ef5f8d8be3a0b8866b0014bd87afe0a6910203f8d6421e"
+    },
+    {
+      "id": "relay-streams-return-to-socket",
+      "digest": "32dfbca3390a1196598c712afdf1f8ed86272a86ea15b0e8d5b64f441ae947a8",
+      "type": "patch",
+      "summary": "A window on the edge relay no longer loses its quiet state to one transient failure: a stream the daemon refused for a moment goes back to the window's socket, and the project rail's 15 s read is bounded while a stream is stalled and stops while hidden.",
+      "sourceSha": "e4bf574721f21ac528081239078ab42a6b7bf2b5",
+      "identity": "relay-streams-return-to-socket:32dfbca3390a1196598c712afdf1f8ed86272a86ea15b0e8d5b64f441ae947a8"
     }
   ],
   "consumedIntentIds": [
