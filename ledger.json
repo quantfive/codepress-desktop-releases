@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "abade63a6bbfb9fa0095b62b9fa97a0a83cf4af0",
+  "cursorSha": "72aa5605def0f00f1773cc41d1c0a9276087cbea",
   "highWaterVersion": "1.475.0",
   "rows": [
     {
@@ -144410,6 +144410,13 @@
       "sourceSha": "abade63a6bbfb9fa0095b62b9fa97a0a83cf4af0",
       "sourcePackageVersion": "1.485.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "72aa5605def0f00f1773cc41d1c0a9276087cbea",
+      "sourcePackageVersion": "1.485.0",
+      "intentIds": [
+        "cpu-cap-running-workers:764e854661e1a5d7475e428ad91286e4304d9956dc1248cc47ba4896de5e5251"
+      ]
     }
   ],
   "intents": [
@@ -151332,6 +151339,14 @@
       "summary": "The shared Orchestrator screens (Hand off picker, feed rail, Continue on menu, kickoff notes) say \"this machine\", \"your other machines\" and \"Local machine\" instead of \"Mac\". A handoff label of \"This Mac\" from an older Terminal still reads as this machine.",
       "sourceSha": "e972214818adc1617ed92b372ed5c68b4ee0c32a",
       "identity": "shared-ui-says-machine:b871ffbe4a1f684749e3e1064e02c946e602a6f48c2b3614e523df0e2a241959"
+    },
+    {
+      "id": "cpu-cap-running-workers",
+      "digest": "764e854661e1a5d7475e428ad91286e4304d9956dc1248cc47ba4896de5e5251",
+      "type": "patch",
+      "summary": "With the CPU and thermal admission flag on, limit running workers' CPU while the machine is hot and restore it automatically as it cools: a worker CPU quota on Linux and background QoS on macOS. The cap state appears in capacity status and diagnostics.",
+      "sourceSha": "72aa5605def0f00f1773cc41d1c0a9276087cbea",
+      "identity": "cpu-cap-running-workers:764e854661e1a5d7475e428ad91286e4304d9956dc1248cc47ba4896de5e5251"
     }
   ],
   "consumedIntentIds": [
