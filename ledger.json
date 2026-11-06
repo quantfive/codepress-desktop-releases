@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6796fcbefd8689321d96e1a72ee82a02fc26971b",
+  "cursorSha": "90e4d9c2fde15b6e4037c575227daa382530943f",
   "highWaterVersion": "1.484.2",
   "rows": [
     {
@@ -146319,6 +146319,13 @@
       "sourceSha": "6796fcbefd8689321d96e1a72ee82a02fc26971b",
       "sourcePackageVersion": "1.493.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "90e4d9c2fde15b6e4037c575227daa382530943f",
+      "sourcePackageVersion": "1.493.3",
+      "intentIds": [
+        "short-project-snapshot-queue:f77f3c4818f91bfd46062e4fe7657755b08878803e17c5adb8b61056767abd6e"
+      ]
     }
   ],
   "intents": [
@@ -153513,6 +153520,14 @@
       "summary": "A chat moved to the cloud now opens as the running chat wherever it is reached, with a working composer instead of a read-only copy.",
       "sourceSha": "c05c8b876885d6f686dd1fcdd3e58e9554965fb2",
       "identity": "moved-chat-open-in-place:2956637c8416db38562b2d2391267680983c757827aaf7c45f061c5c41c03ac7"
+    },
+    {
+      "id": "short-project-snapshot-queue",
+      "digest": "f77f3c4818f91bfd46062e4fe7657755b08878803e17c5adb8b61056767abd6e",
+      "type": "patch",
+      "summary": "Replace waiting project snapshots while preserving transcripts and move checkpoints, probe retries before resending a snapshot, and allow five minutes for snapshot uploads.",
+      "sourceSha": "90e4d9c2fde15b6e4037c575227daa382530943f",
+      "identity": "short-project-snapshot-queue:f77f3c4818f91bfd46062e4fe7657755b08878803e17c5adb8b61056767abd6e"
     }
   ],
   "consumedIntentIds": [
