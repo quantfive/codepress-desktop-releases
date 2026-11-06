@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c757d23ad973696cce557551ed6f4f05f22dfe4e",
+  "cursorSha": "109b446743a21c5c99f6073ee144add14a37b0db",
   "highWaterVersion": "1.479.6",
   "rows": [
     {
@@ -145520,6 +145520,13 @@
       "sourceSha": "c757d23ad973696cce557551ed6f4f05f22dfe4e",
       "sourcePackageVersion": "1.488.12",
       "intentIds": []
+    },
+    {
+      "sourceSha": "109b446743a21c5c99f6073ee144add14a37b0db",
+      "sourcePackageVersion": "1.488.12",
+      "intentIds": [
+        "web-embed-telemetry-preference:a44e7a7445f267763c99e6015f0e109d85af6c2d37cf338edd8e7d675f8f2e71"
+      ]
     }
   ],
   "intents": [
@@ -152602,6 +152609,14 @@
       "summary": "Team chats are on for every organization: the feed's My feed / Team switch and its read-ahead, Following, the chat and project visibility chips and settings, Team projects, and the share-past-chats card no longer wait on an org flag.\n\nA kickoff sent before the visibility chip's default loaded, whose response was lost, now retries as the same attempt instead of risking a second project; changing the chip before retrying still starts a new one.",
       "sourceSha": "9a0b06977b2526f2f7e71c528caad23e723b0afb",
       "identity": "team-chats-for-every-org:6fde57d13436635c1a4b86fba9203612c2123e8e4a313199ae50ec042a1a4e79"
+    },
+    {
+      "id": "web-embed-telemetry-preference",
+      "digest": "a44e7a7445f267763c99e6015f0e109d85af6c2d37cf338edd8e7d675f8f2e71",
+      "type": "patch",
+      "summary": "The embedded CodePress web app now receives your Terminal telemetry setting, so it records interactions only when telemetry is on. The setting is now called Crash Reports and Usage Data, and a change applies after a restart.",
+      "sourceSha": "109b446743a21c5c99f6073ee144add14a37b0db",
+      "identity": "web-embed-telemetry-preference:a44e7a7445f267763c99e6015f0e109d85af6c2d37cf338edd8e7d675f8f2e71"
     }
   ],
   "consumedIntentIds": [
