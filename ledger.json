@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7076114770ecfeec4ddfbd265a0ea7bc48938241",
+  "cursorSha": "27cbe880208f168d9b7168069b93b9e897a37e60",
   "highWaterVersion": "1.487.3",
   "rows": [
     {
@@ -147238,6 +147238,13 @@
       "sourceSha": "7076114770ecfeec4ddfbd265a0ea7bc48938241",
       "sourcePackageVersion": "1.497.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "27cbe880208f168d9b7168069b93b9e897a37e60",
+      "sourcePackageVersion": "1.497.3",
+      "intentIds": [
+        "interactions-page-terminal-exclusion:6af4caed7d6cc62922dd3c27fbde50728be062b7bdcdcaf9111eec970007e63e"
+      ]
     }
   ],
   "intents": [
@@ -154544,6 +154551,14 @@
       "summary": "The kickoff composer's repository chip keeps what you picked across restarts, new windows and finished kickoffs, and its menu has a Clear all action.",
       "sourceSha": "f20b831ccd2eb9652a73de14393e6abd28985e60",
       "identity": "kickoff-repository-pick-remembered:07cb192f58b93b80ed5a611a339cc14c415ac149c3a71194936bcab1565fdc48"
+    },
+    {
+      "id": "interactions-page-terminal-exclusion",
+      "digest": "6af4caed7d6cc62922dd3c27fbde50728be062b7bdcdcaf9111eec970007e63e",
+      "type": "patch",
+      "summary": "Keep the new web-only Interactions page out of Terminal's shell: no rail entry and no page.",
+      "sourceSha": "27cbe880208f168d9b7168069b93b9e897a37e60",
+      "identity": "interactions-page-terminal-exclusion:6af4caed7d6cc62922dd3c27fbde50728be062b7bdcdcaf9111eec970007e63e"
     }
   ],
   "consumedIntentIds": [
