@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "e61b0ac761815ca06d28e8a4cf348157805ab349",
-  "highWaterVersion": "1.491.2",
+  "highWaterVersion": "1.491.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -79514,6 +79514,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:e61b0ac761815ca06d28e8a4cf348157805ab349",
+      "kind": "main",
+      "sequence": 2142,
+      "sourceSha": "e61b0ac761815ca06d28e8a4cf348157805ab349",
+      "sourcePackageVersion": "1.502.5",
+      "version": "1.491.3",
+      "publicationDate": "2026-11-06T23:19:49.672Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "same-machine-probe-guard:7a2c201feeac142a113e7569fd8dc8544c613ee3657b2ffb8e8ba094badd72a2"
+        ],
+        "notesIntentIds": [
+          "same-machine-probe-guard:7a2c201feeac142a113e7569fd8dc8544c613ee3657b2ffb8e8ba094badd72a2"
+        ],
+        "throughSourceSha": "e61b0ac761815ca06d28e8a4cf348157805ab349",
+        "previousThroughSourceSha": "453187bcfd6acab4edad7b86d615ed73e7201225",
+        "baselineVersion": "1.491.2",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42311097371",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-07T23:19:44.248Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -157067,7 +157110,8 @@
     "handoff-opens-here:dad08a252ddb4e17bb33988af86e6783bdb4550a5f012579234313ee37eaf36a",
     "automation-edits-keep-proof:780f0f92797121f1c6360afadbde9161fa7ca433bd1cec382741e06e646f8689",
     "packaged-style-policy:0ced3c195f1a4dad7abe52dcd339a8c77006e42dc55a49e800407c582ea507d4",
-    "sync-outbox-unstick:dc8e7f2b10b0c2c0190e471eb1748a0bfe82947e8c3803da9e1258598ff07f7a"
+    "sync-outbox-unstick:dc8e7f2b10b0c2c0190e471eb1748a0bfe82947e8c3803da9e1258598ff07f7a",
+    "same-machine-probe-guard:7a2c201feeac142a113e7569fd8dc8544c613ee3657b2ffb8e8ba094badd72a2"
   ],
-  "consumedThroughSha": "453187bcfd6acab4edad7b86d615ed73e7201225"
+  "consumedThroughSha": "e61b0ac761815ca06d28e8a4cf348157805ab349"
 }
