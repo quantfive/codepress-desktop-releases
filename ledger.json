@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "dffb5001c0715f3a42f0126d0c0ea375b24a9380",
+  "cursorSha": "d8db675c508f249a94e79b45f6bcdebbc09ac3d1",
   "highWaterVersion": "1.491.2",
   "rows": [
     {
@@ -148551,6 +148551,11 @@
       "intentIds": [
         "same-machine-probe-guard:7a2c201feeac142a113e7569fd8dc8544c613ee3657b2ffb8e8ba094badd72a2"
       ]
+    },
+    {
+      "sourceSha": "d8db675c508f249a94e79b45f6bcdebbc09ac3d1",
+      "sourcePackageVersion": "1.502.4",
+      "intentIds": []
     }
   ],
   "intents": [
