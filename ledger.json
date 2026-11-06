@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "982c49152f87ce30a5c4d2987a50fef8a54eec7b",
+  "cursorSha": "1464ed792e7525b4fc40b3c4874793802a411dae",
   "highWaterVersion": "1.474.2",
   "rows": [
     {
@@ -144285,6 +144285,18 @@
       "sourceSha": "982c49152f87ce30a5c4d2987a50fef8a54eec7b",
       "sourcePackageVersion": "1.483.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9771f408ee7e1ba6b59d220a6fe4d9dfa6494311",
+      "sourcePackageVersion": "1.483.3",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "1464ed792e7525b4fc40b3c4874793802a411dae",
+      "sourcePackageVersion": "1.483.3",
+      "intentIds": [
+        "cpu-aware-launch-holds:d60dde802365a470e1ef5f8d8be3a0b8866b0014bd87afe0a6910203f8d6421e"
+      ]
     }
   ],
   "intents": [
@@ -151175,6 +151187,14 @@
       "summary": "A teammate's cloud-hosted Orchestrator project on the Team feed opens read-only in Terminal, with its Work panel, and you can start your own chat or project from it (behind team chats).",
       "sourceSha": "961bdacabc3f20448bf25467a3bb87c70be81eef",
       "identity": "team-projects-cloud:5dc0dcb66b6d8d90d27c2977c068a20b7e095233cd1d70e4f199e99c7b1a095f"
+    },
+    {
+      "id": "cpu-aware-launch-holds",
+      "digest": "d60dde802365a470e1ef5f8d8be3a0b8866b0014bd87afe0a6910203f8d6421e",
+      "type": "minor",
+      "summary": "With the CPU-aware admission flag on, a hot machine paces or holds new worker launches with a clear reason, and the capacity broker grants only what the machine can sustain.",
+      "sourceSha": "1464ed792e7525b4fc40b3c4874793802a411dae",
+      "identity": "cpu-aware-launch-holds:d60dde802365a470e1ef5f8d8be3a0b8866b0014bd87afe0a6910203f8d6421e"
     }
   ],
   "consumedIntentIds": [
