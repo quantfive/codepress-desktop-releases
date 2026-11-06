@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c5dc28b4611d9f456f1a9fda401eb4e811f15734",
+  "cursorSha": "c0c3aa11faabd10c63a7069ad941ab9fcda3f453",
   "highWaterVersion": "1.482.0",
   "rows": [
     {
@@ -145871,6 +145871,13 @@
       "sourceSha": "c5dc28b4611d9f456f1a9fda401eb4e811f15734",
       "sourcePackageVersion": "1.491.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c0c3aa11faabd10c63a7069ad941ab9fcda3f453",
+      "sourcePackageVersion": "1.491.0",
+      "intentIds": [
+        "web-thread-mentions:f40a17103d4587a6ea188b57d6fd35531f1f806cf034223070fc1563490d248a"
+      ]
     }
   ],
   "intents": [
@@ -153009,6 +153016,14 @@
       "summary": "Every file now has a status bar: Saved, line and column, selection size, indentation, encoding, line endings, language and wrap, with word count and reading time for Markdown. A short \"Copied N lines\" chip confirms a real copy or cut. Line endings, indentation, language and per-file wrap change from the bar, and Ln/Col opens go to line. The breadcrumb can copy the path, and the palette adds Copy path, Copy relative path and Copy link to line. The old status rows are gone, and Monaco's find widget follows the theme.",
       "sourceSha": "11e9b4414d323bb1c4afc0f18b4ee467772b1a3c",
       "identity": "editor-status-bar:e8adb2be44648b0281d3c3a3075cc4855f4651589cd6eb8385c4ca7bb3245e59"
+    },
+    {
+      "id": "web-thread-mentions",
+      "digest": "f40a17103d4587a6ea188b57d6fd35531f1f806cf034223070fc1563490d248a",
+      "type": "patch",
+      "summary": "Share home-relative mention translation with web threads and carry conversation picks on synced messages and answers.",
+      "sourceSha": "c0c3aa11faabd10c63a7069ad941ab9fcda3f453",
+      "identity": "web-thread-mentions:f40a17103d4587a6ea188b57d6fd35531f1f806cf034223070fc1563490d248a"
     }
   ],
   "consumedIntentIds": [
