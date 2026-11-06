@@ -77103,10 +77103,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42157220274",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-07T03:33:24.462Z",
         "dispatch": null,
         "failures": []
       }
