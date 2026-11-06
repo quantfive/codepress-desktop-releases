@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "60e9b3c66e553b07af4c6aca0052aaa72a9a13e7",
-  "highWaterVersion": "1.487.5",
+  "highWaterVersion": "1.487.6",
   "rows": [
     {
       "schemaVersion": 1,
@@ -78881,6 +78881,53 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:60e9b3c66e553b07af4c6aca0052aaa72a9a13e7",
+      "kind": "main",
+      "sequence": 2131,
+      "sourceSha": "60e9b3c66e553b07af4c6aca0052aaa72a9a13e7",
+      "sourcePackageVersion": "1.497.7",
+      "version": "1.487.6",
+      "publicationDate": "2026-11-06T18:39:57.546Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "land-any-project-state:f842c46881210c3122a0657e57cf8a71cd6261e07413e30ea441da10d2902d2a",
+          "auto-busy-combined-score:49d93881ec290ed64bbb264dce8929edfaafcfb6647afb58c67cdf6ac774b895",
+          "first-run-setup-steps:26b8dc05e0f4bc57dae5925c0489d8ef7d346b62962e102c8c074503b5dad7de"
+        ],
+        "notesIntentIds": [
+          "land-any-project-state:f842c46881210c3122a0657e57cf8a71cd6261e07413e30ea441da10d2902d2a",
+          "auto-busy-combined-score:49d93881ec290ed64bbb264dce8929edfaafcfb6647afb58c67cdf6ac774b895",
+          "first-run-setup-steps:26b8dc05e0f4bc57dae5925c0489d8ef7d346b62962e102c8c074503b5dad7de"
+        ],
+        "throughSourceSha": "60e9b3c66e553b07af4c6aca0052aaa72a9a13e7",
+        "previousThroughSourceSha": "1b1167a9615e01f614fbb1672a85d6d47c2b2af2",
+        "baselineVersion": "1.487.5",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42272645573",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-07T18:39:51.634Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -155704,7 +155751,10 @@
     "kickoff-repository-pick-remembered:07cb192f58b93b80ed5a611a339cc14c415ac149c3a71194936bcab1565fdc48",
     "interactions-page-terminal-exclusion:6af4caed7d6cc62922dd3c27fbde50728be062b7bdcdcaf9111eec970007e63e",
     "unlisted-project-menu:4029e49b323cb762b0d3f24fe440d254dc4dc8a921a20f66ffea63a8d86714be",
-    "kickoff-runs-on-remembers-pick:d8ee8fe0938ccdc13fae6a9bad5cf709996fb42efa845ecf25e234e9eb2a811a"
+    "kickoff-runs-on-remembers-pick:d8ee8fe0938ccdc13fae6a9bad5cf709996fb42efa845ecf25e234e9eb2a811a",
+    "land-any-project-state:f842c46881210c3122a0657e57cf8a71cd6261e07413e30ea441da10d2902d2a",
+    "auto-busy-combined-score:49d93881ec290ed64bbb264dce8929edfaafcfb6647afb58c67cdf6ac774b895",
+    "first-run-setup-steps:26b8dc05e0f4bc57dae5925c0489d8ef7d346b62962e102c8c074503b5dad7de"
   ],
-  "consumedThroughSha": "1b1167a9615e01f614fbb1672a85d6d47c2b2af2"
+  "consumedThroughSha": "60e9b3c66e553b07af4c6aca0052aaa72a9a13e7"
 }
