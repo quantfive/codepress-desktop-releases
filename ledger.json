@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "daf0bbe57fa9587ef13d14349b33a56a6bdd3c96",
+  "cursorSha": "9c1fa8c2e21db486878e0eb58c7877157785c091",
   "highWaterVersion": "1.473.1",
   "rows": [
     {
@@ -143941,6 +143941,13 @@
       "sourceSha": "daf0bbe57fa9587ef13d14349b33a56a6bdd3c96",
       "sourcePackageVersion": "1.482.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9c1fa8c2e21db486878e0eb58c7877157785c091",
+      "sourcePackageVersion": "1.482.5",
+      "intentIds": [
+        "settings-embedded-page-padding:1ef5c0695f0ec6b1c88baf024b9c7edae2c5c00b7390b23a198762ea4e6367f5"
+      ]
     }
   ],
   "intents": [
@@ -150751,6 +150758,14 @@
       "summary": "Land a Plan-ready project by hand: \"Land project…\" now appears for a project whose plan is ready but was never built. Landing it cancels the queued work items, retires the Orchestrator and closes the plan issue, and the dialog says nothing ships.",
       "sourceSha": "0f743855ce314bd21d25951fe737537f20300cf2",
       "identity": "plan-ready-land:aa8af166826aa6d3ea5a030bc69c577be4444b6a1d61c91bfbeedffe1d2e286b"
+    },
+    {
+      "id": "settings-embedded-page-padding",
+      "digest": "1ef5c0695f0ec6b1c88baf024b9c7edae2c5c00b7390b23a198762ea4e6367f5",
+      "type": "patch",
+      "summary": "Account pages in Settings are the full width of the pane again. The line saying whose the settings are had pushed them in by 32px on each side, which narrowed Agent accounts and the Orchestrator page.",
+      "sourceSha": "9c1fa8c2e21db486878e0eb58c7877157785c091",
+      "identity": "settings-embedded-page-padding:1ef5c0695f0ec6b1c88baf024b9c7edae2c5c00b7390b23a198762ea4e6367f5"
     }
   ],
   "consumedIntentIds": [
