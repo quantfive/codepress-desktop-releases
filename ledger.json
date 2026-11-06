@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "24e84c101583c64263a75665cffd8cd421b8e1b6",
+  "cursorSha": "37088ccdb33075efd99c4d2caa5d42e252f05e4a",
   "highWaterVersion": "1.484.0",
   "rows": [
     {
@@ -146148,6 +146148,13 @@
       "sourceSha": "24e84c101583c64263a75665cffd8cd421b8e1b6",
       "sourcePackageVersion": "1.493.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "37088ccdb33075efd99c4d2caa5d42e252f05e4a",
+      "sourcePackageVersion": "1.493.1",
+      "intentIds": [
+        "phone-account-rows:ac73a33f299ae336f5f72d15b66b4dae4b13b203f9f2a21067e73feafd37887e"
+      ]
     }
   ],
   "intents": [
@@ -153326,6 +153333,14 @@
       "summary": "Sync project cards in their own lane so queued or slow uploads do not delay feed updates for existing cloud copies.",
       "sourceSha": "5d953c28fdb86664c3ca77b64b8f8c322ace759c",
       "identity": "quick-project-cards:63d7141ec129615282ffcbadc8268df23a936fb644b8c18aceec05ceea712ec7"
+    },
+    {
+      "id": "phone-account-rows",
+      "digest": "ac73a33f299ae336f5f72d15b66b4dae4b13b203f9f2a21067e73feafd37887e",
+      "type": "patch",
+      "summary": "Agent accounts on narrow panes: the first tag sits top right, Week comes first and every row's bar starts at the same point, and the Running pill sits under the usage line.",
+      "sourceSha": "37088ccdb33075efd99c4d2caa5d42e252f05e4a",
+      "identity": "phone-account-rows:ac73a33f299ae336f5f72d15b66b4dae4b13b203f9f2a21067e73feafd37887e"
     }
   ],
   "consumedIntentIds": [
