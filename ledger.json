@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e63a9496ab95e6c3559f18e7444fafbb568b74f3",
+  "cursorSha": "3a82adbcd0ff0a5b2c96b27b487dea3f7ef51421",
   "highWaterVersion": "1.491.0",
   "rows": [
     {
@@ -148313,6 +148313,13 @@
       "sourceSha": "e63a9496ab95e6c3559f18e7444fafbb568b74f3",
       "sourcePackageVersion": "1.502.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3a82adbcd0ff0a5b2c96b27b487dea3f7ef51421",
+      "sourcePackageVersion": "1.502.0",
+      "intentIds": [
+        "team-project-reader-composer-beside-work:af3655220fa7f57763be7997dab6b9f0139146ba899f73aac7cc372630556c2f"
+      ]
     }
   ],
   "intents": [
@@ -155803,6 +155810,14 @@
       "summary": "A teammate's change now shows in Team, and in a followed row under Following in My feed, within seconds and without reloading the rail, as on the web. Team keeps applying changes while you look at My feed, so switching back draws them at once with no read; after more than 45 seconds away it reads Team once. Frames for another organization are ignored, and Terminal keeps its saved Team list current too.",
       "sourceSha": "9cdc1569d468b65beabb84497127f53a614a51a0",
       "identity": "live-team-feed-terminal:0aa897bfeef2a18ef8693c9770c2687eb81064aaeba901497d47e521e014cc0f"
+    },
+    {
+      "id": "team-project-reader-composer-beside-work",
+      "digest": "af3655220fa7f57763be7997dab6b9f0139146ba899f73aac7cc372630556c2f",
+      "type": "patch",
+      "summary": "A teammate's shared Orchestrator project keeps its composer (Start my own chat, Start my own Orchestrator project, Message <owner>'s agent) under the thread while the Work panel is open, as the owner's own composer does.",
+      "sourceSha": "3a82adbcd0ff0a5b2c96b27b487dea3f7ef51421",
+      "identity": "team-project-reader-composer-beside-work:af3655220fa7f57763be7997dab6b9f0139146ba899f73aac7cc372630556c2f"
     }
   ],
   "consumedIntentIds": [
