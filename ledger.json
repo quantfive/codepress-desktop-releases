@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0ab864d8b51ad4ad32f9721f13acee1940d6d00b",
+  "cursorSha": "9b5ea05d78376a08c1cbb49850c579267a2e0395",
   "highWaterVersion": "1.472.1",
   "rows": [
     {
@@ -143719,6 +143719,13 @@
       "sourceSha": "0ab864d8b51ad4ad32f9721f13acee1940d6d00b",
       "sourcePackageVersion": "1.482.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9b5ea05d78376a08c1cbb49850c579267a2e0395",
+      "sourcePackageVersion": "1.482.0",
+      "intentIds": [
+        "cpu-thermal-signal:1e682baf7344c715cdb835c257ae64d0b92511939835ac04518035e67b719404"
+      ]
     }
   ],
   "intents": [
@@ -150481,6 +150488,14 @@
       "summary": "From a teammate's Team chat, start your own chat or Orchestrator project with the full New chat composer docked under the thread: Runs on, model and folder are yours. The chat starts where Runs on says (this Mac included), and its first message shows the teammate's chat as a chip. The agent gets that chat's recent posts. A chat that is no longer shared is refused before anything starts, and your draft is kept (behind team chats).",
       "sourceSha": "c9e4ebeb6e510fe1fa5f41d91fd2beaec7e2c337",
       "identity": "team-chat-start-my-own:f632cb2e726c7f271f6413efe7a6450a750eef2e9ccb9cbc9cf0b24698f30f85"
+    },
+    {
+      "id": "cpu-thermal-signal",
+      "digest": "1e682baf7344c715cdb835c257ae64d0b92511939835ac04518035e67b719404",
+      "type": "patch",
+      "summary": "Report CPU and thermal pressure, and an estimate of sustainable cores, in diagnostics, capacity status and Orchestrator snapshots. This only reports; nothing is held or capped.",
+      "sourceSha": "9b5ea05d78376a08c1cbb49850c579267a2e0395",
+      "identity": "cpu-thermal-signal:1e682baf7344c715cdb835c257ae64d0b92511939835ac04518035e67b719404"
     }
   ],
   "consumedIntentIds": [
