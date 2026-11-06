@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "140b4f988eaefc46bc32203cfa2fe1e30a59f67c",
+  "cursorSha": "38df451eba94baa0d8db0a223fc31501d3bbb951",
   "highWaterVersion": "1.491.3",
   "rows": [
     {
@@ -148661,6 +148661,13 @@
       "sourceSha": "140b4f988eaefc46bc32203cfa2fe1e30a59f67c",
       "sourcePackageVersion": "1.502.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "38df451eba94baa0d8db0a223fc31501d3bbb951",
+      "sourcePackageVersion": "1.502.5",
+      "intentIds": [
+        "reveal-open-file-in-file-manager:8c8f908dbe0c0c76bf5c6622de90074cbb263feab1238c900e01d5eb8b5d686b"
+      ]
     }
   ],
   "intents": [
@@ -156199,6 +156206,14 @@
       "summary": "A browser on the machine running CodePress Desktop can now prove it is on that machine, so the repo App page offers Start and shows the local preview instead of \"CodePress Desktop is on another machine\". Design's Local choice in the web app reads the same check and is fixed too.",
       "sourceSha": "dffb5001c0715f3a42f0126d0c0ea375b24a9380",
       "identity": "same-machine-probe-guard:7a2c201feeac142a113e7569fd8dc8544c613ee3657b2ffb8e8ba094badd72a2"
+    },
+    {
+      "id": "reveal-open-file-in-file-manager",
+      "digest": "8c8f908dbe0c0c76bf5c6622de90074cbb263feab1238c900e01d5eb8b5d686b",
+      "type": "patch",
+      "summary": "Show an open file in your file manager: Reveal in Finder on macOS, Show in File Explorer on Windows and Show in File Manager on Linux, from the path row, the Orchestrator Files toolbar, file tab menus and the command palette.",
+      "sourceSha": "38df451eba94baa0d8db0a223fc31501d3bbb951",
+      "identity": "reveal-open-file-in-file-manager:8c8f908dbe0c0c76bf5c6622de90074cbb263feab1238c900e01d5eb8b5d686b"
     }
   ],
   "consumedIntentIds": [
