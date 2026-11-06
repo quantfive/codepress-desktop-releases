@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f963002d11bd9453f992189c66c5ac231cacfb8c",
+  "cursorSha": "2666886ec3ce542928e0edcfefa3fb3f8c31f8d4",
   "highWaterVersion": "1.485.3",
   "rows": [
     {
@@ -146698,6 +146698,13 @@
       "sourceSha": "f963002d11bd9453f992189c66c5ac231cacfb8c",
       "sourcePackageVersion": "1.494.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2666886ec3ce542928e0edcfefa3fb3f8c31f8d4",
+      "sourcePackageVersion": "1.494.4",
+      "intentIds": [
+        "compressed-project-sync:43d4197d9b7c6ae5f86cb2b53e41ebc4c6b5b3b45403966b1eec89c6b02a6657"
+      ]
     }
   ],
   "intents": [
@@ -153940,6 +153947,14 @@
       "summary": "Hand off keeps offering Cloud after a chat or project moves to another machine: choosing it on the old machine asks the machine it now runs on to move it to the cloud, and an asleep machine leaves Cloud listed with the reason.",
       "sourceSha": "e4c4d0ece21665d430f24080ec088a4ea2b8d8b4",
       "identity": "hand-off-cloud-after-move:c9cd0f7ceedf6645f8774e1eae87bd38851d929fe17cb45c16eb12dbe19576f9"
+    },
+    {
+      "id": "compressed-project-sync",
+      "digest": "43d4197d9b7c6ae5f86cb2b53e41ebc4c6b5b3b45403966b1eec89c6b02a6657",
+      "type": "patch",
+      "summary": "Upload project cloud copies compressed using the cloud's advertised size limit, preserve long upload deadlines, and clear outdated size refusals after a newer export is accepted.",
+      "sourceSha": "2666886ec3ce542928e0edcfefa3fb3f8c31f8d4",
+      "identity": "compressed-project-sync:43d4197d9b7c6ae5f86cb2b53e41ebc4c6b5b3b45403966b1eec89c6b02a6657"
     }
   ],
   "consumedIntentIds": [
