@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "75137f768e79c3809ba7d214561ceb87ca645582",
+  "cursorSha": "eafd6dac95d03fd01e944166bbabd5c349960804",
   "highWaterVersion": "1.483.0",
   "rows": [
     {
@@ -146059,6 +146059,13 @@
       "sourceSha": "75137f768e79c3809ba7d214561ceb87ca645582",
       "sourcePackageVersion": "1.492.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "eafd6dac95d03fd01e944166bbabd5c349960804",
+      "sourcePackageVersion": "1.492.0",
+      "intentIds": [
+        "project-terminal-quick-keys:0c438577e49542f9c1efe66aade25e85747ee96877bcd2458a7641fd1c03501e"
+      ]
     }
   ],
   "intents": [
@@ -153221,6 +153228,14 @@
       "summary": "Intel Macs, and Apple silicon Macs on macOS 13 to 15, can now run your automations. Turning on \"Run my automations on this Mac\" downloads CodePress's sandbox runtime, with no password, and a job there reaches the public internet and nothing else: not this computer, your network or other jobs.",
       "sourceSha": "c2e1400156f7001f4af7b85524605aaafed8dd68",
       "identity": "sandbox-lima-intel:4559b00f9d900ef39bab68ac4ba550c823dbe477d1b0ca3aa28e79de55a38199"
+    },
+    {
+      "id": "project-terminal-quick-keys",
+      "digest": "0c438577e49542f9c1efe66aade25e85747ee96877bcd2458a7641fd1c03501e",
+      "type": "minor",
+      "summary": "The project Terminal tab now has the sidebar terminal's quick keys and menu row, with your synced custom keys, and it keeps room for the terminal while the phone keyboard is up.",
+      "sourceSha": "eafd6dac95d03fd01e944166bbabd5c349960804",
+      "identity": "project-terminal-quick-keys:0c438577e49542f9c1efe66aade25e85747ee96877bcd2458a7641fd1c03501e"
     }
   ],
   "consumedIntentIds": [
