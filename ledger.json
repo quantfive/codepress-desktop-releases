@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2c7605a8637116570fc2091d26647d36a9d56816",
+  "cursorSha": "dc63742f8ebd2d7b5aa3b42f9c9321218c6d8a5c",
   "highWaterVersion": "1.473.1",
   "rows": [
     {
@@ -143982,6 +143982,18 @@
       "sourceSha": "2c7605a8637116570fc2091d26647d36a9d56816",
       "sourcePackageVersion": "1.482.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4574460bc3959003d120f52ea98f516d249ec0e5",
+      "sourcePackageVersion": "1.482.8",
+      "intentIds": [
+        "relay-large-messages:2229385e79aba577f7afe165461f79036259c69856402ba4336060c0c33a9e17"
+      ]
+    },
+    {
+      "sourceSha": "dc63742f8ebd2d7b5aa3b42f9c9321218c6d8a5c",
+      "sourcePackageVersion": "1.482.8",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -150816,6 +150828,14 @@
       "summary": "A usage-limit wait now ends as soon as an account the run may use is free: switching the active account to one that is not limited, or turning automatic switching on while one is connected, resumes waiting Orchestrator turns and scheduled worker relaunches within 30 seconds instead of at the reset.",
       "sourceSha": "4384ba3cbb6f11ac4d2b079f0005062586e7c8c5",
       "identity": "limit-wait-release:326ceacd493478f62bbb88d89820b473f726cf3a61b06fc6fe5e0470665e78ee"
+    },
+    {
+      "id": "relay-large-messages",
+      "digest": "2229385e79aba577f7afe165461f79036259c69856402ba4336060c0c33a9e17",
+      "type": "patch",
+      "summary": "Relayed windows: say 1009 when a message is too large, stop reconnecting after a second one, and keep a relay connection whose large frame is still sending. Terminal now reports relay protocol 2, which is what the backend requires before it assigns the relay.",
+      "sourceSha": "4574460bc3959003d120f52ea98f516d249ec0e5",
+      "identity": "relay-large-messages:2229385e79aba577f7afe165461f79036259c69856402ba4336060c0c33a9e17"
     }
   ],
   "consumedIntentIds": [
