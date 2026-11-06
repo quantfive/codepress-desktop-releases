@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "961bdacabc3f20448bf25467a3bb87c70be81eef",
-  "highWaterVersion": "1.474.1",
+  "highWaterVersion": "1.474.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -76884,6 +76884,55 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:961bdacabc3f20448bf25467a3bb87c70be81eef",
+      "kind": "main",
+      "sequence": 2096,
+      "sourceSha": "961bdacabc3f20448bf25467a3bb87c70be81eef",
+      "sourcePackageVersion": "1.483.2",
+      "version": "1.474.2",
+      "publicationDate": "2026-11-06T02:26:42.353Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "moved-chat-thread-rows:106921bb8a15d031a05d0f6935deb3346f2e9f9392c8d4461c170f15a3fee8c9",
+          "team-chat-cloud-project-source:f9bb5fa6e8e89e50b3ce1218d49ac2ee371f1df5c69f802c90e68cbcc28a6386",
+          "teammate-settings-view:f805a342ff292e4ed90f241c9d20b1ed7436ee32df54e24cad28ce6f2ef1c5cc",
+          "team-projects-cloud:5dc0dcb66b6d8d90d27c2977c068a20b7e095233cd1d70e4f199e99c7b1a095f"
+        ],
+        "notesIntentIds": [
+          "moved-chat-thread-rows:106921bb8a15d031a05d0f6935deb3346f2e9f9392c8d4461c170f15a3fee8c9",
+          "team-chat-cloud-project-source:f9bb5fa6e8e89e50b3ce1218d49ac2ee371f1df5c69f802c90e68cbcc28a6386",
+          "teammate-settings-view:f805a342ff292e4ed90f241c9d20b1ed7436ee32df54e24cad28ce6f2ef1c5cc",
+          "team-projects-cloud:5dc0dcb66b6d8d90d27c2977c068a20b7e095233cd1d70e4f199e99c7b1a095f"
+        ],
+        "throughSourceSha": "961bdacabc3f20448bf25467a3bb87c70be81eef",
+        "previousThroughSourceSha": "ebff8e30c41e23f7c4275cd180e7e6d8cf0ebf73",
+        "baselineVersion": "1.474.1",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42150296939",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-07T02:26:37.202Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -151958,7 +152007,11 @@
     "limit-wait-release:326ceacd493478f62bbb88d89820b473f726cf3a61b06fc6fe5e0470665e78ee",
     "relay-large-messages:2229385e79aba577f7afe165461f79036259c69856402ba4336060c0c33a9e17",
     "teammate-messages-to-mac:9ec42e074c1b221b352e56080a7c92f2782236b5b6bfc407d415ce9fda9f1ccd",
-    "orchestrator-say-machine:1f0880b87da21d060d4f9b524c917bd7c9e05320aa8d88967392877509c85106"
+    "orchestrator-say-machine:1f0880b87da21d060d4f9b524c917bd7c9e05320aa8d88967392877509c85106",
+    "moved-chat-thread-rows:106921bb8a15d031a05d0f6935deb3346f2e9f9392c8d4461c170f15a3fee8c9",
+    "team-chat-cloud-project-source:f9bb5fa6e8e89e50b3ce1218d49ac2ee371f1df5c69f802c90e68cbcc28a6386",
+    "teammate-settings-view:f805a342ff292e4ed90f241c9d20b1ed7436ee32df54e24cad28ce6f2ef1c5cc",
+    "team-projects-cloud:5dc0dcb66b6d8d90d27c2977c068a20b7e095233cd1d70e4f199e99c7b1a095f"
   ],
-  "consumedThroughSha": "ebff8e30c41e23f7c4275cd180e7e6d8cf0ebf73"
+  "consumedThroughSha": "961bdacabc3f20448bf25467a3bb87c70be81eef"
 }
