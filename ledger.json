@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1b1167a9615e01f614fbb1672a85d6d47c2b2af2",
+  "cursorSha": "23047f1f7e94bc4909f9d0d00c5872fa79177388",
   "highWaterVersion": "1.487.5",
   "rows": [
     {
@@ -147396,6 +147396,13 @@
       "sourceSha": "1b1167a9615e01f614fbb1672a85d6d47c2b2af2",
       "sourcePackageVersion": "1.497.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "23047f1f7e94bc4909f9d0d00c5872fa79177388",
+      "sourcePackageVersion": "1.497.6",
+      "intentIds": [
+        "land-any-project-state:f842c46881210c3122a0657e57cf8a71cd6261e07413e30ea441da10d2902d2a"
+      ]
     }
   ],
   "intents": [
@@ -154726,6 +154733,14 @@
       "summary": "Orchestrator kickoff: Runs on now remembers your choice (Auto, This machine, Cloud, another machine or a shared computer) for each organization across restarts, reloads and sends, instead of resetting to Auto.",
       "sourceSha": "c5488356c62e300680d25cf9a468ba0a47fea9fc",
       "identity": "kickoff-runs-on-remembers-pick:d8ee8fe0938ccdc13fae6a9bad5cf709996fb42efa845ecf25e234e9eb2a811a"
+    },
+    {
+      "id": "land-any-project-state",
+      "digest": "f842c46881210c3122a0657e57cf8a71cd6261e07413e30ea441da10d2902d2a",
+      "type": "patch",
+      "summary": "Any Orchestrator project can land, whatever its state. A project still being briefed or planned now has Land project… in its menu, its land ask opens once its work is done, and the Orchestrator can land it itself, so a project that shipped without pressing Build is no longer stuck.",
+      "sourceSha": "23047f1f7e94bc4909f9d0d00c5872fa79177388",
+      "identity": "land-any-project-state:f842c46881210c3122a0657e57cf8a71cd6261e07413e30ea441da10d2902d2a"
     }
   ],
   "consumedIntentIds": [
