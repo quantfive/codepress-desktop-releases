@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "080e545065a08d9dc9f6ffb4501d158fcb9f9808",
+  "cursorSha": "c2cc7571e70638fb4612f80668a0919e967ac599",
   "highWaterVersion": "1.491.1",
   "rows": [
     {
@@ -148456,6 +148456,13 @@
       "sourceSha": "080e545065a08d9dc9f6ffb4501d158fcb9f9808",
       "sourcePackageVersion": "1.502.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c2cc7571e70638fb4612f80668a0919e967ac599",
+      "sourcePackageVersion": "1.502.3",
+      "intentIds": [
+        "sync-outbox-unstick:dc8e7f2b10b0c2c0190e471eb1748a0bfe82947e8c3803da9e1258598ff07f7a"
+      ]
     }
   ],
   "intents": [
@@ -155978,6 +155985,14 @@
       "summary": "Code files in the app have their theme, syntax colours, line numbers and selection highlight again. The app's own Content Security Policy was blocking every inline style, in installed builds only.",
       "sourceSha": "fbb5f79c1c747593382166688ceeb98db3a9ee69",
       "identity": "packaged-style-policy:0ced3c195f1a4dad7abe52dcd339a8c77006e42dc55a49e800407c582ea507d4"
+    },
+    {
+      "id": "sync-outbox-unstick",
+      "digest": "dc8e7f2b10b0c2c0190e471eb1748a0bfe82947e8c3803da9e1258598ff07f7a",
+      "type": "patch",
+      "summary": "Projects waiting for their first cloud copy no longer deadlock or pile up queued uploads: the card that creates the copy always goes first, other uploads wait without retrying, a refused device backs off after ten minutes, and each launch shrinks an existing backlog to one current copy.",
+      "sourceSha": "c2cc7571e70638fb4612f80668a0919e967ac599",
+      "identity": "sync-outbox-unstick:dc8e7f2b10b0c2c0190e471eb1748a0bfe82947e8c3803da9e1258598ff07f7a"
     }
   ],
   "consumedIntentIds": [
