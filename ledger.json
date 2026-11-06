@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e25c4d021a3858b7d07adcccb032e4dd21fc2626",
+  "cursorSha": "340ea14976f135840262e74f018febfe2a111b5a",
   "highWaterVersion": "1.486.0",
   "rows": [
     {
@@ -146881,6 +146881,13 @@
       "sourceSha": "e25c4d021a3858b7d07adcccb032e4dd21fc2626",
       "sourcePackageVersion": "1.496.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "340ea14976f135840262e74f018febfe2a111b5a",
+      "sourcePackageVersion": "1.496.0",
+      "intentIds": [
+        "desktop-preview-companions:cd440191a331a9c002c90015082d72fa9ab91c985c07c3d3edc97c1d0fb1aeb6"
+      ]
     }
   ],
   "intents": [
@@ -154155,6 +154162,14 @@
       "summary": "A Local Chat that moved to the cloud and is handed back to one of your machines continues there in its Local Chat row, with the cloud's turns and a \"Moved back from the cloud\" line, instead of opening as a tab. Open chat in the Hand off dialog selects the row, and the machine it left reads \"Runs on <machine>\" when it went elsewhere.",
       "sourceSha": "ff4ea446ddc7bc5ebe991d03cd388e93867114bc",
       "identity": "cloud-chat-handback-local-chat-row:bb22a0c01b5cb8e1f52d3adffbe3b7c735d500b39e758d9550e839386378bf2a"
+    },
+    {
+      "id": "desktop-preview-companions",
+      "digest": "cd440191a331a9c002c90015082d72fa9ab91c985c07c3d3edc97c1d0fb1aeb6",
+      "type": "minor",
+      "summary": "Local previews now run a recipe's companion servers, so a Storybook App works on this machine.",
+      "sourceSha": "340ea14976f135840262e74f018febfe2a111b5a",
+      "identity": "desktop-preview-companions:cd440191a331a9c002c90015082d72fa9ab91c985c07c3d3edc97c1d0fb1aeb6"
     }
   ],
   "consumedIntentIds": [
