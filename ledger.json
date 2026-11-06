@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9c2694e5f895515f172399563bd506bd04cea8b4",
+  "cursorSha": "be3f02edb604901a698b508a174c00470c9275fb",
   "highWaterVersion": "1.487.6",
   "rows": [
     {
@@ -147496,6 +147496,13 @@
       "sourceSha": "9c2694e5f895515f172399563bd506bd04cea8b4",
       "sourcePackageVersion": "1.497.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "be3f02edb604901a698b508a174c00470c9275fb",
+      "sourcePackageVersion": "1.497.7",
+      "intentIds": [
+        "account-warning-wrap:746853c0c2f19eabf112fd7920e32a0815d656b37a3f015bca52d209354c1af5"
+      ]
     }
   ],
   "intents": [
@@ -154850,6 +154857,14 @@
       "summary": "Report named setup steps, with timings and download progress, while a local preview starts.",
       "sourceSha": "60e9b3c66e553b07af4c6aca0052aaa72a9a13e7",
       "identity": "first-run-setup-steps:26b8dc05e0f4bc57dae5925c0489d8ef7d346b62962e102c8c074503b5dad7de"
+    },
+    {
+      "id": "account-warning-wrap",
+      "digest": "746853c0c2f19eabf112fd7920e32a0815d656b37a3f015bca52d209354c1af5",
+      "type": "patch",
+      "summary": "Show account-row warnings in full at narrow widths while keeping ordinary summaries compact.",
+      "sourceSha": "be3f02edb604901a698b508a174c00470c9275fb",
+      "identity": "account-warning-wrap:746853c0c2f19eabf112fd7920e32a0815d656b37a3f015bca52d209354c1af5"
     }
   ],
   "consumedIntentIds": [
