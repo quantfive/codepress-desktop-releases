@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "38df451eba94baa0d8db0a223fc31501d3bbb951",
+  "cursorSha": "afa33d65240f2ccee2c671f92a12990ef4903ec2",
   "highWaterVersion": "1.491.3",
   "rows": [
     {
@@ -148668,6 +148668,13 @@
       "intentIds": [
         "reveal-open-file-in-file-manager:8c8f908dbe0c0c76bf5c6622de90074cbb263feab1238c900e01d5eb8b5d686b"
       ]
+    },
+    {
+      "sourceSha": "afa33d65240f2ccee2c671f92a12990ef4903ec2",
+      "sourcePackageVersion": "1.502.5",
+      "intentIds": [
+        "managed-lima-short-home:90a4e417e0d34c988953d56aeda8af897b55ba4a690f377993fe5f1be5db2f8c"
+      ]
     }
   ],
   "intents": [
@@ -156214,6 +156221,14 @@
       "summary": "Show an open file in your file manager: Reveal in Finder on macOS, Show in File Explorer on Windows and Show in File Manager on Linux, from the path row, the Orchestrator Files toolbar, file tab menus and the command palette.",
       "sourceSha": "38df451eba94baa0d8db0a223fc31501d3bbb951",
       "identity": "reveal-open-file-in-file-manager:8c8f908dbe0c0c76bf5c6622de90074cbb263feab1238c900e01d5eb8b5d686b"
+    },
+    {
+      "id": "managed-lima-short-home",
+      "digest": "90a4e417e0d34c988953d56aeda8af897b55ba4a690f377993fe5f1be5db2f8c",
+      "type": "patch",
+      "summary": "A machine with no Docker or Podman can start a local preview on Desktop's managed VM: its files now live in a short folder, `~/.cp-lima`, because the old path was too long for every macOS account. A first start no longer fails on elapsed time while its download is still moving, a failed VM start shows Lima's own reason, and Storage cleanup removes a VM folder once the Terminal data folder that made it is gone.",
+      "sourceSha": "afa33d65240f2ccee2c671f92a12990ef4903ec2",
+      "identity": "managed-lima-short-home:90a4e417e0d34c988953d56aeda8af897b55ba4a690f377993fe5f1be5db2f8c"
     }
   ],
   "consumedIntentIds": [
