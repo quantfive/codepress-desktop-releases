@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "aecdd5e92b8fe26bd82c895f5d8d7a293281cf4b",
-  "highWaterVersion": "1.490.0",
+  "highWaterVersion": "1.490.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -79227,6 +79227,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:aecdd5e92b8fe26bd82c895f5d8d7a293281cf4b",
+      "kind": "main",
+      "sequence": 2137,
+      "sourceSha": "aecdd5e92b8fe26bd82c895f5d8d7a293281cf4b",
+      "sourcePackageVersion": "1.501.0",
+      "version": "1.490.1",
+      "publicationDate": "2026-11-06T21:08:38.245Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "adopted-server-restart-after-new-tabs:e0dfb69aab3a7d219804eaaf146987ec43c9baf975ac30d6c315c94f07a56d00"
+        ],
+        "notesIntentIds": [
+          "adopted-server-restart-after-new-tabs:e0dfb69aab3a7d219804eaaf146987ec43c9baf975ac30d6c315c94f07a56d00"
+        ],
+        "throughSourceSha": "aecdd5e92b8fe26bd82c895f5d8d7a293281cf4b",
+        "previousThroughSourceSha": "4d6c6609fd7f2bc846db32d4db7c891fa8b8de0b",
+        "baselineVersion": "1.490.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42294179873",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-07T21:08:32.491Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -156404,7 +156447,8 @@
     "unblock-daemon-process-reads:44840f363173587f1713ecdf05478406d68b238e12c49d166a8f2ba0ddd38082",
     "cap-terminal-logs:0233235d91874881b3d5b89b44c78bb8c4bff8fdfcd5388cf9ca42c6724e4f0f",
     "cloud-takes-asleep-machine-project:016553c0f22e1631c2753d5df41c3b418fb7be9d9ffb44e05c0533d7fe297c04",
-    "owner-chats-any-folder:de257de2d1a97cea520ad8970d86f6e81273b7cbc740d60f0d818e22a85c920c"
+    "owner-chats-any-folder:de257de2d1a97cea520ad8970d86f6e81273b7cbc740d60f0d818e22a85c920c",
+    "adopted-server-restart-after-new-tabs:e0dfb69aab3a7d219804eaaf146987ec43c9baf975ac30d6c315c94f07a56d00"
   ],
-  "consumedThroughSha": "4d6c6609fd7f2bc846db32d4db7c891fa8b8de0b"
+  "consumedThroughSha": "aecdd5e92b8fe26bd82c895f5d8d7a293281cf4b"
 }
