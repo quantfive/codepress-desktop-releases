@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "541689b33d2404ccf56abcefe6aca4b733cb75c8",
+  "cursorSha": "f20b831ccd2eb9652a73de14393e6abd28985e60",
   "highWaterVersion": "1.487.2",
   "rows": [
     {
@@ -147166,6 +147166,13 @@
       "sourceSha": "541689b33d2404ccf56abcefe6aca4b733cb75c8",
       "sourcePackageVersion": "1.497.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f20b831ccd2eb9652a73de14393e6abd28985e60",
+      "sourcePackageVersion": "1.497.2",
+      "intentIds": [
+        "kickoff-repository-pick-remembered:07cb192f58b93b80ed5a611a339cc14c415ac149c3a71194936bcab1565fdc48"
+      ]
     }
   ],
   "intents": [
@@ -154464,6 +154471,14 @@
       "summary": "New chats and projects always tell the cloud which visibility to use: a project started by another project takes its parent's Team or Personal, a chat promoted to a project keeps its visibility, and the Visibility control waits for the cloud's answer instead of reading a new copy as unlisted.",
       "sourceSha": "a10e62a017786594c80f9017ea836dd5bb375e33",
       "identity": "terminal-visibility-never-unlisted:193452848f66a6b6ed968a8efeea2140b3912d52316caf7f8b1e45285bb0e813"
+    },
+    {
+      "id": "kickoff-repository-pick-remembered",
+      "digest": "07cb192f58b93b80ed5a611a339cc14c415ac149c3a71194936bcab1565fdc48",
+      "type": "patch",
+      "summary": "The kickoff composer's repository chip keeps what you picked across restarts, new windows and finished kickoffs, and its menu has a Clear all action.",
+      "sourceSha": "f20b831ccd2eb9652a73de14393e6abd28985e60",
+      "identity": "kickoff-repository-pick-remembered:07cb192f58b93b80ed5a611a339cc14c415ac149c3a71194936bcab1565fdc48"
     }
   ],
   "consumedIntentIds": [
