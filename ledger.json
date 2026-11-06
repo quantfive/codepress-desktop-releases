@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "03ab292a647257414ca9f275d343854a1090e881",
+  "cursorSha": "08fa27270d94c55efa418a51936a1db6113ffbe5",
   "highWaterVersion": "1.490.2",
   "rows": [
     {
@@ -148193,6 +148193,18 @@
       "sourceSha": "03ab292a647257414ca9f275d343854a1090e881",
       "sourcePackageVersion": "1.501.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ca2337d2074d36d17b32fd49e77530cada3db9f4",
+      "sourcePackageVersion": "1.501.2",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "08fa27270d94c55efa418a51936a1db6113ffbe5",
+      "sourcePackageVersion": "1.501.2",
+      "intentIds": [
+        "delete-starting-project:6b4f167a3b209009b07499324d989d706864aa311c66a2d5ff2b4c1e36bed27c"
+      ]
     }
   ],
   "intents": [
@@ -155659,6 +155671,14 @@
       "summary": "Add an optional hook for a chat start refused for a passkey press to the shared chat core. Terminal doesn't set it, so its chats behave as before.",
       "sourceSha": "1715b422244e5c3ee33777c3a6af3da2d8ab6a79",
       "identity": "stepup-chat-start:04f410d352063ac365b95996f8eebdd6a0d459dabc448d71dcd5bfc31b2f229c"
+    },
+    {
+      "id": "delete-starting-project",
+      "digest": "6b4f167a3b209009b07499324d989d706864aa311c66a2d5ff2b4c1e36bed27c",
+      "type": "patch",
+      "summary": "Deleting an Orchestrator project that is still starting now cleans it up: a repeat delete no longer errors, the row stops showing, a cloud copy created mid-delete is retired, and the project's session worktree is removed.",
+      "sourceSha": "08fa27270d94c55efa418a51936a1db6113ffbe5",
+      "identity": "delete-starting-project:6b4f167a3b209009b07499324d989d706864aa311c66a2d5ff2b4c1e36bed27c"
     }
   ],
   "consumedIntentIds": [
