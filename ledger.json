@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9f5ac5620503cc2aed637ff011fa47446c0cd797",
+  "cursorSha": "961bdacabc3f20448bf25467a3bb87c70be81eef",
   "highWaterVersion": "1.474.1",
   "rows": [
     {
@@ -144202,6 +144202,13 @@
       "intentIds": [
         "teammate-settings-view:f805a342ff292e4ed90f241c9d20b1ed7436ee32df54e24cad28ce6f2ef1c5cc"
       ]
+    },
+    {
+      "sourceSha": "961bdacabc3f20448bf25467a3bb87c70be81eef",
+      "sourcePackageVersion": "1.483.2",
+      "intentIds": [
+        "team-projects-cloud:5dc0dcb66b6d8d90d27c2977c068a20b7e095233cd1d70e4f199e99c7b1a095f"
+      ]
     }
   ],
   "intents": [
@@ -151084,6 +151091,14 @@
       "summary": "A teammate on a shared computer can now open Settings and see their own preferences and what the computer's owner set, read-only and naming the owner.",
       "sourceSha": "9f5ac5620503cc2aed637ff011fa47446c0cd797",
       "identity": "teammate-settings-view:f805a342ff292e4ed90f241c9d20b1ed7436ee32df54e24cad28ce6f2ef1c5cc"
+    },
+    {
+      "id": "team-projects-cloud",
+      "digest": "5dc0dcb66b6d8d90d27c2977c068a20b7e095233cd1d70e4f199e99c7b1a095f",
+      "type": "patch",
+      "summary": "A teammate's cloud-hosted Orchestrator project on the Team feed opens read-only in Terminal, with its Work panel, and you can start your own chat or project from it (behind team chats).",
+      "sourceSha": "961bdacabc3f20448bf25467a3bb87c70be81eef",
+      "identity": "team-projects-cloud:5dc0dcb66b6d8d90d27c2977c068a20b7e095233cd1d70e4f199e99c7b1a095f"
     }
   ],
   "consumedIntentIds": [
