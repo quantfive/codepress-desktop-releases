@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "acb0af377f8080f65392289ebc8654b20d403b20",
-  "highWaterVersion": "1.479.7",
+  "highWaterVersion": "1.480.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -77708,6 +77708,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:acb0af377f8080f65392289ebc8654b20d403b20",
+      "kind": "main",
+      "sequence": 2110,
+      "sourceSha": "acb0af377f8080f65392289ebc8654b20d403b20",
+      "sourcePackageVersion": "1.489.0",
+      "version": "1.480.0",
+      "publicationDate": "2026-11-06T08:38:39.061Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "project-terminal-fits-the-phone:f4bf07de84505c89e5bc6dd3fad3e5b8953913813cf4e674cf640a54d440b191",
+          "tunnel-routes-signed:06ba141c10050662a3374666874077983b7cea14855792456a948a8e9d9e2538"
+        ],
+        "notesIntentIds": [
+          "project-terminal-fits-the-phone:f4bf07de84505c89e5bc6dd3fad3e5b8953913813cf4e674cf640a54d440b191",
+          "tunnel-routes-signed:06ba141c10050662a3374666874077983b7cea14855792456a948a8e9d9e2538"
+        ],
+        "throughSourceSha": "acb0af377f8080f65392289ebc8654b20d403b20",
+        "previousThroughSourceSha": "109b446743a21c5c99f6073ee144add14a37b0db",
+        "baselineVersion": "1.479.7",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42189042516",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-07T08:38:33.022Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -153621,7 +153666,9 @@
     "server-cli-fleet-updates:cc92712f70b7b09c20384d4ade1a1ce812fce41e8018401949308e34b7aedf9b",
     "web-kickoff-mentions:46fa1fcd10f631b7657626ff535443375ab0c77861e92d69d4c014d407947851",
     "team-chats-for-every-org:6fde57d13436635c1a4b86fba9203612c2123e8e4a313199ae50ec042a1a4e79",
-    "web-embed-telemetry-preference:a44e7a7445f267763c99e6015f0e109d85af6c2d37cf338edd8e7d675f8f2e71"
+    "web-embed-telemetry-preference:a44e7a7445f267763c99e6015f0e109d85af6c2d37cf338edd8e7d675f8f2e71",
+    "project-terminal-fits-the-phone:f4bf07de84505c89e5bc6dd3fad3e5b8953913813cf4e674cf640a54d440b191",
+    "tunnel-routes-signed:06ba141c10050662a3374666874077983b7cea14855792456a948a8e9d9e2538"
   ],
-  "consumedThroughSha": "109b446743a21c5c99f6073ee144add14a37b0db"
+  "consumedThroughSha": "acb0af377f8080f65392289ebc8654b20d403b20"
 }
