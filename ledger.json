@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "347cc9dac6ef17f3de24b22ddd4d67427a69b0c7",
+  "cursorSha": "5d953c28fdb86664c3ca77b64b8f8c322ace759c",
   "highWaterVersion": "1.484.0",
   "rows": [
     {
@@ -146131,6 +146131,13 @@
       "sourceSha": "347cc9dac6ef17f3de24b22ddd4d67427a69b0c7",
       "sourcePackageVersion": "1.493.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "5d953c28fdb86664c3ca77b64b8f8c322ace759c",
+      "sourcePackageVersion": "1.493.0",
+      "intentIds": [
+        "quick-project-cards:63d7141ec129615282ffcbadc8268df23a936fb644b8c18aceec05ceea712ec7"
+      ]
     }
   ],
   "intents": [
@@ -153301,6 +153308,14 @@
       "summary": "The project Terminal tab now has the sidebar terminal's quick keys and menu row, with your synced custom keys, and it keeps room for the terminal while the phone keyboard is up.",
       "sourceSha": "eafd6dac95d03fd01e944166bbabd5c349960804",
       "identity": "project-terminal-quick-keys:0c438577e49542f9c1efe66aade25e85747ee96877bcd2458a7641fd1c03501e"
+    },
+    {
+      "id": "quick-project-cards",
+      "digest": "63d7141ec129615282ffcbadc8268df23a936fb644b8c18aceec05ceea712ec7",
+      "type": "patch",
+      "summary": "Sync project cards in their own lane so queued or slow uploads do not delay feed updates for existing cloud copies.",
+      "sourceSha": "5d953c28fdb86664c3ca77b64b8f8c322ace759c",
+      "identity": "quick-project-cards:63d7141ec129615282ffcbadc8268df23a936fb644b8c18aceec05ceea712ec7"
     }
   ],
   "consumedIntentIds": [
