@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3a37a167a40a6938214cd223cc38b388d8196f19",
+  "cursorSha": "9134d45be9bd6d1b49d5d73c5b7a80f368d9147e",
   "highWaterVersion": "1.478.1",
   "rows": [
     {
@@ -144799,6 +144799,13 @@
       "sourceSha": "3a37a167a40a6938214cd223cc38b388d8196f19",
       "sourcePackageVersion": "1.488.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9134d45be9bd6d1b49d5d73c5b7a80f368d9147e",
+      "sourcePackageVersion": "1.488.0",
+      "intentIds": [
+        "computer-offline-in-words:35833f05e1c62714c063c427655257b20c39e145027eb78eb0697b511c46fbee"
+      ]
     }
   ],
   "intents": [
@@ -151785,6 +151792,14 @@
       "summary": "A teammate's cloud-hosted Team Orchestrator project now offers Message <owner>'s agent: the message lands in that Orchestrator's inbox, labelled as from a teammate.",
       "sourceSha": "63e126c1a0aa93100f2d61837d95086ed624d83c",
       "identity": "message-a-teammates-cloud-project:6b21d9533b659a8ae0e479cdc7375a3faa893c0c7747c31c5498e6b1f8b93ed4"
+    },
+    {
+      "id": "computer-offline-in-words",
+      "digest": "35833f05e1c62714c063c427655257b20c39e145027eb78eb0697b511c46fbee",
+      "type": "patch",
+      "summary": "A window on a computer that has quit now says the computer is offline, and its dot is no longer green, instead of reading Reconnecting… forever.",
+      "sourceSha": "9134d45be9bd6d1b49d5d73c5b7a80f368d9147e",
+      "identity": "computer-offline-in-words:35833f05e1c62714c063c427655257b20c39e145027eb78eb0697b511c46fbee"
     }
   ],
   "consumedIntentIds": [
