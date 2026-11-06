@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1ceb8533721dd77076388d32b47d6bea9e31b98f",
+  "cursorSha": "7134950d0002af6dac1a7fe320f365e18601ef32",
   "highWaterVersion": "1.477.0",
   "rows": [
     {
@@ -144577,6 +144577,13 @@
       "sourceSha": "1ceb8533721dd77076388d32b47d6bea9e31b98f",
       "sourcePackageVersion": "1.486.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7134950d0002af6dac1a7fe320f365e18601ef32",
+      "sourcePackageVersion": "1.486.1",
+      "intentIds": [
+        "agents-message-teammates-agents:715c84b9676cd9ef0987bd6d981524148aa93a565f31d8dfee4c82d7e4b9fe0e"
+      ]
     }
   ],
   "intents": [
@@ -151523,6 +151530,14 @@
       "summary": "Settings and the terminal font show what this device last knew straight away, then update when the network answers.",
       "sourceSha": "583928bd4784969601b6c9c9fdf27ed5be3156ae",
       "identity": "settings-show-last-known:53dc0ebe8d0394328ad12bc7f14d872d2c8ec2dde5078fe10d6260655c2adc84"
+    },
+    {
+      "id": "agents-message-teammates-agents",
+      "digest": "715c84b9676cd9ef0987bd6d981524148aa93a565f31d8dfee4c82d7e4b9fe0e",
+      "type": "minor",
+      "summary": "Orchestrators and chats on this machine can now coordinate with a teammate's agent. list_team_chats finds the Team chats you can read, and message_team_chat sends the agent behind one a message, labelled as from your agent. A teammate's agent can reply the same way, and its reply arrives in your inbox. An Orchestrator owned by another person now reads as teammates_orchestrator, naming that person (behind team chats).",
+      "sourceSha": "7134950d0002af6dac1a7fe320f365e18601ef32",
+      "identity": "agents-message-teammates-agents:715c84b9676cd9ef0987bd6d981524148aa93a565f31d8dfee4c82d7e4b9fe0e"
     }
   ],
   "consumedIntentIds": [
