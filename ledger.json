@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a6584340924adb3abf8dec71cd81ebd37b20148a",
+  "cursorSha": "df9aba8f618f18621a3e9002f4cada3c27a6bfa9",
   "highWaterVersion": "1.489.2",
   "rows": [
     {
@@ -147890,6 +147890,13 @@
       "intentIds": [
         "cap-terminal-logs:0233235d91874881b3d5b89b44c78bb8c4bff8fdfcd5388cf9ca42c6724e4f0f"
       ]
+    },
+    {
+      "sourceSha": "df9aba8f618f18621a3e9002f4cada3c27a6bfa9",
+      "sourcePackageVersion": "1.499.1",
+      "intentIds": [
+        "cloud-takes-asleep-machine-project:016553c0f22e1631c2753d5df41c3b418fb7be9d9ffb44e05c0533d7fe297c04"
+      ]
     }
   ],
   "intents": [
@@ -155316,6 +155323,14 @@
       "summary": "Terminal now keeps `record-session.log`, `background-service.log` and oversized rotated logs within a size limit without a restart, and stops repeating two identical sweep messages in its logs.",
       "sourceSha": "a6584340924adb3abf8dec71cd81ebd37b20148a",
       "identity": "cap-terminal-logs:0233235d91874881b3d5b89b44c78bb8c4bff8fdfcd5388cf9ca42c6724e4f0f"
+    },
+    {
+      "id": "cloud-takes-asleep-machine-project",
+      "digest": "016553c0f22e1631c2753d5df41c3b418fb7be9d9ffb44e05c0533d7fe297c04",
+      "type": "minor",
+      "summary": "Hand off → Cloud now works on a project or chat another of your machines holds while that machine is asleep or not answering: the cloud takes it from the copy saved there instead of the Cloud tile reading \"Asleep\". The machine stands down when it wakes and keeps aside what it did after that copy was saved.",
+      "sourceSha": "df9aba8f618f18621a3e9002f4cada3c27a6bfa9",
+      "identity": "cloud-takes-asleep-machine-project:016553c0f22e1631c2753d5df41c3b418fb7be9d9ffb44e05c0533d7fe297c04"
     }
   ],
   "consumedIntentIds": [
