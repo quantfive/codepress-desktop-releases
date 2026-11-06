@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6de44e0fe327fdafd8434970ecc9f4b06c7b5332",
+  "cursorSha": "3a0b86137e7fec0c9fc038f54daf7f12d1a42cde",
   "highWaterVersion": "1.491.1",
   "rows": [
     {
@@ -148417,6 +148417,13 @@
       "intentIds": [
         "handoff-opens-here:dad08a252ddb4e17bb33988af86e6783bdb4550a5f012579234313ee37eaf36a"
       ]
+    },
+    {
+      "sourceSha": "3a0b86137e7fec0c9fc038f54daf7f12d1a42cde",
+      "sourcePackageVersion": "1.502.1",
+      "intentIds": [
+        "automation-edits-keep-proof:780f0f92797121f1c6360afadbde9161fa7ca433bd1cec382741e06e646f8689"
+      ]
     }
   ],
   "intents": [
@@ -155923,6 +155930,14 @@
       "summary": "Hand off opens the project, chat or session in this window instead of sending you to another machine's window, and the picker draws the selected tile's whole border.",
       "sourceSha": "6de44e0fe327fdafd8434970ecc9f4b06c7b5332",
       "identity": "handoff-opens-here:dad08a252ddb4e17bb33988af86e6783bdb4550a5f012579234313ee37eaf36a"
+    },
+    {
+      "id": "automation-edits-keep-proof",
+      "digest": "780f0f92797121f1c6360afadbde9161fa7ca433bd1cec382741e06e646f8689",
+      "type": "patch",
+      "summary": "Sign edits to an automation, so turning one on or scheduling it from Terminal keeps its proof and it can still run on your machines.",
+      "sourceSha": "3a0b86137e7fec0c9fc038f54daf7f12d1a42cde",
+      "identity": "automation-edits-keep-proof:780f0f92797121f1c6360afadbde9161fa7ca433bd1cec382741e06e646f8689"
     }
   ],
   "consumedIntentIds": [
