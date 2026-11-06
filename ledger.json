@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5f236177eb87b97b4907cdb6eb8eb9fc8bdc5b5b",
+  "cursorSha": "9a0b06977b2526f2f7e71c528caad23e723b0afb",
   "highWaterVersion": "1.479.5",
   "rows": [
     {
@@ -145391,6 +145391,13 @@
       "sourceSha": "5f236177eb87b97b4907cdb6eb8eb9fc8bdc5b5b",
       "sourcePackageVersion": "1.488.11",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9a0b06977b2526f2f7e71c528caad23e723b0afb",
+      "sourcePackageVersion": "1.488.11",
+      "intentIds": [
+        "team-chats-for-every-org:6fde57d13436635c1a4b86fba9203612c2123e8e4a313199ae50ec042a1a4e79"
+      ]
     }
   ],
   "intents": [
@@ -152465,6 +152472,14 @@
       "summary": "Keep conversation mention menus inside the visible viewport above phone keyboards and make touch rows easier to select.",
       "sourceSha": "80d0577ab3604d91098bc507c861485f954eaace",
       "identity": "web-kickoff-mentions:46fa1fcd10f631b7657626ff535443375ab0c77861e92d69d4c014d407947851"
+    },
+    {
+      "id": "team-chats-for-every-org",
+      "digest": "6fde57d13436635c1a4b86fba9203612c2123e8e4a313199ae50ec042a1a4e79",
+      "type": "patch",
+      "summary": "Team chats are on for every organization: the feed's My feed / Team switch and its read-ahead, Following, the chat and project visibility chips and settings, Team projects, and the share-past-chats card no longer wait on an org flag.\n\nA kickoff sent before the visibility chip's default loaded, whose response was lost, now retries as the same attempt instead of risking a second project; changing the chip before retrying still starts a new one.",
+      "sourceSha": "9a0b06977b2526f2f7e71c528caad23e723b0afb",
+      "identity": "team-chats-for-every-org:6fde57d13436635c1a4b86fba9203612c2123e8e4a313199ae50ec042a1a4e79"
     }
   ],
   "consumedIntentIds": [
