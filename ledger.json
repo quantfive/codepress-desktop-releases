@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "86619c2da84129b2defa73aad44f39b41bc2c4bc",
+  "cursorSha": "35a04cbbcad0388f8e37dbb5abb500755814d8c3",
   "highWaterVersion": "1.489.2",
   "rows": [
     {
@@ -147876,6 +147876,13 @@
       "sourceSha": "86619c2da84129b2defa73aad44f39b41bc2c4bc",
       "sourcePackageVersion": "1.499.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "35a04cbbcad0388f8e37dbb5abb500755814d8c3",
+      "sourcePackageVersion": "1.499.1",
+      "intentIds": [
+        "unblock-daemon-process-reads:44840f363173587f1713ecdf05478406d68b238e12c49d166a8f2ba0ddd38082"
+      ]
     }
   ],
   "intents": [
@@ -155286,6 +155293,14 @@
       "summary": "When the updater cannot deliver a status to a daemon, the log now names the port and what actually failed (connection refused, timed out or the HTTP status), and a repeated failure is logged once until it succeeds or the cause changes.",
       "sourceSha": "4e9bd2997190ebe967d6e47cab48dd4f71421925",
       "identity": "updater-undelivered-status-cause:013859cd97c026b846f2272348df4b17a51820c542f847cc09fb6c0845b680cb"
+    },
+    {
+      "id": "unblock-daemon-process-reads",
+      "digest": "44840f363173587f1713ecdf05478406d68b238e12c49d166a8f2ba0ddd38082",
+      "type": "patch",
+      "summary": "Keep the daemon responsive with many Computer Use tabs: on Linux, process identity comes from `/proc` with no child process, and activity checks no longer read it for tabs that cannot match. Diagnostics report event-loop delay and the worktree timing line now accounts for the whole creation.",
+      "sourceSha": "35a04cbbcad0388f8e37dbb5abb500755814d8c3",
+      "identity": "unblock-daemon-process-reads:44840f363173587f1713ecdf05478406d68b238e12c49d166a8f2ba0ddd38082"
     }
   ],
   "consumedIntentIds": [
