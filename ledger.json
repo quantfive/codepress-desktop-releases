@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "bc1c3a34b7c3257ffb4c73523f22016823803f8a",
-  "highWaterVersion": "1.473.1",
+  "highWaterVersion": "1.474.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -76766,6 +76766,57 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:bc1c3a34b7c3257ffb4c73523f22016823803f8a",
+      "kind": "main",
+      "sequence": 2094,
+      "sourceSha": "bc1c3a34b7c3257ffb4c73523f22016823803f8a",
+      "sourcePackageVersion": "1.482.9",
+      "version": "1.474.0",
+      "publicationDate": "2026-11-06T01:36:00.834Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "settings-embedded-page-padding:1ef5c0695f0ec6b1c88baf024b9c7edae2c5c00b7390b23a198762ea4e6367f5",
+          "home-land-project-action:4893c9b2805fc6908532501f43dcea6a22455841e371ce68d1661ae9f312868a",
+          "limit-wait-release:326ceacd493478f62bbb88d89820b473f726cf3a61b06fc6fe5e0470665e78ee",
+          "relay-large-messages:2229385e79aba577f7afe165461f79036259c69856402ba4336060c0c33a9e17",
+          "teammate-messages-to-mac:9ec42e074c1b221b352e56080a7c92f2782236b5b6bfc407d415ce9fda9f1ccd"
+        ],
+        "notesIntentIds": [
+          "settings-embedded-page-padding:1ef5c0695f0ec6b1c88baf024b9c7edae2c5c00b7390b23a198762ea4e6367f5",
+          "home-land-project-action:4893c9b2805fc6908532501f43dcea6a22455841e371ce68d1661ae9f312868a",
+          "limit-wait-release:326ceacd493478f62bbb88d89820b473f726cf3a61b06fc6fe5e0470665e78ee",
+          "relay-large-messages:2229385e79aba577f7afe165461f79036259c69856402ba4336060c0c33a9e17",
+          "teammate-messages-to-mac:9ec42e074c1b221b352e56080a7c92f2782236b5b6bfc407d415ce9fda9f1ccd"
+        ],
+        "throughSourceSha": "bc1c3a34b7c3257ffb4c73523f22016823803f8a",
+        "previousThroughSourceSha": "daf0bbe57fa9587ef13d14349b33a56a6bdd3c96",
+        "baselineVersion": "1.473.1",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42144633240",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-07T01:35:55.674Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -151714,7 +151765,12 @@
     "sustainable-cores-hold:e4efc62ebc3495671a289b434cff9da9c20c0b91e60098e072e06c8f6d43308b",
     "html-artifacts-any-size:c80bc0a7f9a0af425a461d4ddba81e0d3c670ce50dbe537d25371f52935458a2",
     "teammate-lend-preferences:56b2a85e623d374e986edf701415d897eb6fd70a870bea07498901d47ce7bd6c",
-    "plan-ready-land:aa8af166826aa6d3ea5a030bc69c577be4444b6a1d61c91bfbeedffe1d2e286b"
+    "plan-ready-land:aa8af166826aa6d3ea5a030bc69c577be4444b6a1d61c91bfbeedffe1d2e286b",
+    "settings-embedded-page-padding:1ef5c0695f0ec6b1c88baf024b9c7edae2c5c00b7390b23a198762ea4e6367f5",
+    "home-land-project-action:4893c9b2805fc6908532501f43dcea6a22455841e371ce68d1661ae9f312868a",
+    "limit-wait-release:326ceacd493478f62bbb88d89820b473f726cf3a61b06fc6fe5e0470665e78ee",
+    "relay-large-messages:2229385e79aba577f7afe165461f79036259c69856402ba4336060c0c33a9e17",
+    "teammate-messages-to-mac:9ec42e074c1b221b352e56080a7c92f2782236b5b6bfc407d415ce9fda9f1ccd"
   ],
-  "consumedThroughSha": "daf0bbe57fa9587ef13d14349b33a56a6bdd3c96"
+  "consumedThroughSha": "bc1c3a34b7c3257ffb4c73523f22016823803f8a"
 }
