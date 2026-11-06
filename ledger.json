@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "52db32791dd10648277a540c1655f95065f1314d",
+  "cursorSha": "fbb5f79c1c747593382166688ceeb98db3a9ee69",
   "highWaterVersion": "1.491.1",
   "rows": [
     {
@@ -148444,6 +148444,13 @@
       "sourceSha": "52db32791dd10648277a540c1655f95065f1314d",
       "sourcePackageVersion": "1.502.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "fbb5f79c1c747593382166688ceeb98db3a9ee69",
+      "sourcePackageVersion": "1.502.2",
+      "intentIds": [
+        "packaged-style-policy:0ced3c195f1a4dad7abe52dcd339a8c77006e42dc55a49e800407c582ea507d4"
+      ]
     }
   ],
   "intents": [
@@ -155958,6 +155965,14 @@
       "summary": "Sign edits to an automation, so turning one on or scheduling it from Terminal keeps its proof and it can still run on your machines.",
       "sourceSha": "3a0b86137e7fec0c9fc038f54daf7f12d1a42cde",
       "identity": "automation-edits-keep-proof:780f0f92797121f1c6360afadbde9161fa7ca433bd1cec382741e06e646f8689"
+    },
+    {
+      "id": "packaged-style-policy",
+      "digest": "0ced3c195f1a4dad7abe52dcd339a8c77006e42dc55a49e800407c582ea507d4",
+      "type": "patch",
+      "summary": "Code files in the app have their theme, syntax colours, line numbers and selection highlight again. The app's own Content Security Policy was blocking every inline style, in installed builds only.",
+      "sourceSha": "fbb5f79c1c747593382166688ceeb98db3a9ee69",
+      "identity": "packaged-style-policy:0ced3c195f1a4dad7abe52dcd339a8c77006e42dc55a49e800407c582ea507d4"
     }
   ],
   "consumedIntentIds": [
