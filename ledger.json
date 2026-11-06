@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9486fb897cd08b5f873ea208a16476ed5e8ef479",
+  "cursorSha": "752085700e6a0e3c670d441f536c77b93860e85b",
   "highWaterVersion": "1.487.6",
   "rows": [
     {
@@ -147525,6 +147525,13 @@
       "sourceSha": "9486fb897cd08b5f873ea208a16476ed5e8ef479",
       "sourcePackageVersion": "1.498.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "752085700e6a0e3c670d441f536c77b93860e85b",
+      "sourcePackageVersion": "1.498.0",
+      "intentIds": [
+        "codex-sdk-0164-upgrade:5a08564db03f10a524e561bd5eac38d2f07ac0d4da0a84cb19fc29d410936600"
+      ]
     }
   ],
   "intents": [
@@ -154895,6 +154902,14 @@
       "summary": "Markdown files now open in Edit in place of Rich: the document stays rendered as you type, and saving changes only the lines you changed. Edit has find and replace, the outline, the status bar and place-keeping, and the outline now works in Source too.",
       "sourceSha": "107ddb3c8d924e581fa56b8140bb76b24af47d4c",
       "identity": "edit-replaces-rich:14516666819495e6ab1f28d657094155c67ba41ec9e092fed3fa731811747ad4"
+    },
+    {
+      "id": "codex-sdk-0164-upgrade",
+      "digest": "5a08564db03f10a524e561bd5eac38d2f07ac0d4da0a84cb19fc29d410936600",
+      "type": "patch",
+      "summary": "Update the bundled Codex SDK and generated app-server protocol to 0.166.0.",
+      "sourceSha": "752085700e6a0e3c670d441f536c77b93860e85b",
+      "identity": "codex-sdk-0164-upgrade:5a08564db03f10a524e561bd5eac38d2f07ac0d4da0a84cb19fc29d410936600"
     }
   ],
   "consumedIntentIds": [
