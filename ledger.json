@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7134950d0002af6dac1a7fe320f365e18601ef32",
+  "cursorSha": "c25626069c516432fdc9e8984f2e36a59f4f1e6b",
   "highWaterVersion": "1.477.0",
   "rows": [
     {
@@ -144584,6 +144584,13 @@
       "intentIds": [
         "agents-message-teammates-agents:715c84b9676cd9ef0987bd6d981524148aa93a565f31d8dfee4c82d7e4b9fe0e"
       ]
+    },
+    {
+      "sourceSha": "c25626069c516432fdc9e8984f2e36a59f4f1e6b",
+      "sourcePackageVersion": "1.486.1",
+      "intentIds": [
+        "message-a-teammates-agent:7ff221f3e390e0d2dd552b59ac89ea0aea29acce447a6406f32a1cab1de9ca22"
+      ]
     }
   ],
   "intents": [
@@ -151538,6 +151545,14 @@
       "summary": "Orchestrators and chats on this machine can now coordinate with a teammate's agent. list_team_chats finds the Team chats you can read, and message_team_chat sends the agent behind one a message, labelled as from your agent. A teammate's agent can reply the same way, and its reply arrives in your inbox. An Orchestrator owned by another person now reads as teammates_orchestrator, naming that person (behind team chats).",
       "sourceSha": "7134950d0002af6dac1a7fe320f365e18601ef32",
       "identity": "agents-message-teammates-agents:715c84b9676cd9ef0987bd6d981524148aa93a565f31d8dfee4c82d7e4b9fe0e"
+    },
+    {
+      "id": "message-a-teammates-agent",
+      "digest": "7ff221f3e390e0d2dd552b59ac89ea0aea29acce447a6406f32a1cab1de9ca22",
+      "type": "minor",
+      "summary": "Under a teammate's Team chat or Mac chat, Send can now message the owner's agent (\"Message <owner>'s agent\") as well as start your own chat or project. It keeps your draft across modes, says plainly when the owner's Mac is away or needs an update, and labels teammate messages with a Teammate badge in every thread. The owner sees FROM A TEAMMATE posts in their Orchestrator thread.",
+      "sourceSha": "c25626069c516432fdc9e8984f2e36a59f4f1e6b",
+      "identity": "message-a-teammates-agent:7ff221f3e390e0d2dd552b59ac89ea0aea29acce447a6406f32a1cab1de9ca22"
     }
   ],
   "consumedIntentIds": [
