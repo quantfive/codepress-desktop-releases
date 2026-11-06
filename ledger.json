@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2fff8bfbda440c244790395953113ef90d523416",
+  "cursorSha": "ffdedfda80cb0fb0d08ceb9b4011e8cd306e04a9",
   "highWaterVersion": "1.487.3",
   "rows": [
     {
@@ -147260,6 +147260,13 @@
       "sourceSha": "2fff8bfbda440c244790395953113ef90d523416",
       "sourcePackageVersion": "1.497.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ffdedfda80cb0fb0d08ceb9b4011e8cd306e04a9",
+      "sourcePackageVersion": "1.497.4",
+      "intentIds": [
+        "unlisted-project-menu:4029e49b323cb762b0d3f24fe440d254dc4dc8a921a20f66ffea63a8d86714be"
+      ]
     }
   ],
   "intents": [
@@ -154574,6 +154581,14 @@
       "summary": "Keep the new web-only Interactions page out of Terminal's shell: no rail entry and no page.",
       "sourceSha": "27cbe880208f168d9b7168069b93b9e897a37e60",
       "identity": "interactions-page-terminal-exclusion:6af4caed7d6cc62922dd3c27fbde50728be062b7bdcdcaf9111eec970007e63e"
+    },
+    {
+      "id": "unlisted-project-menu",
+      "digest": "4029e49b323cb762b0d3f24fe440d254dc4dc8a921a20f66ffea63a8d86714be",
+      "type": "patch",
+      "summary": "The owner of an Unlisted Orchestrator project can now make it Team or Personal from the project's ⋯ menu (Project actions on a phone). The menu says the project is not shared with your team yet, and Personal applies without asking because nobody could read it before. Projects kept Local only and chats are unchanged.",
+      "sourceSha": "ffdedfda80cb0fb0d08ceb9b4011e8cd306e04a9",
+      "identity": "unlisted-project-menu:4029e49b323cb762b0d3f24fe440d254dc4dc8a921a20f66ffea63a8d86714be"
     }
   ],
   "consumedIntentIds": [
