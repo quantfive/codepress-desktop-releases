@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3018bc45f331d4feaf5a313f691bf8d61bc792df",
+  "cursorSha": "f9301a562e8549d6109e23f10438605a267c34aa",
   "highWaterVersion": "1.479.5",
   "rows": [
     {
@@ -145329,6 +145329,13 @@
       "sourceSha": "3018bc45f331d4feaf5a313f691bf8d61bc792df",
       "sourcePackageVersion": "1.488.9",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f9301a562e8549d6109e23f10438605a267c34aa",
+      "sourcePackageVersion": "1.488.9",
+      "intentIds": [
+        "server-cli-fleet-updates:cc92712f70b7b09c20384d4ade1a1ce812fce41e8018401949308e34b7aedf9b"
+      ]
     }
   ],
   "intents": [
@@ -152387,6 +152394,14 @@
       "summary": "A shared computer can delete, archive and unarchive a person's own project when another of their devices asks.",
       "sourceSha": "0ba0cce559436a1030f6e5c34e016f4620c57c09",
       "identity": "teammate-project-manage:f8b00bf2f1278edaa3e666214eff51520ac716eddd89ce59c26dcc878ea53544"
+    },
+    {
+      "id": "server-cli-fleet-updates",
+      "digest": "cc92712f70b7b09c20384d4ade1a1ce812fce41e8018401949308e34b7aedf9b",
+      "type": "patch",
+      "summary": "Include eligible personal Server CLI installations in fleet updates, with signed CLI download/preflight, owner-safe scheduling, compatible older-target discovery, and explicit protected-install restrictions.",
+      "sourceSha": "f9301a562e8549d6109e23f10438605a267c34aa",
+      "identity": "server-cli-fleet-updates:cc92712f70b7b09c20384d4ade1a1ce812fce41e8018401949308e34b7aedf9b"
     }
   ],
   "consumedIntentIds": [
