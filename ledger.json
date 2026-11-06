@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "453187bcfd6acab4edad7b86d615ed73e7201225",
+  "cursorSha": "dffb5001c0715f3a42f0126d0c0ea375b24a9380",
   "highWaterVersion": "1.491.2",
   "rows": [
     {
@@ -148544,6 +148544,13 @@
       "sourceSha": "453187bcfd6acab4edad7b86d615ed73e7201225",
       "sourcePackageVersion": "1.502.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "dffb5001c0715f3a42f0126d0c0ea375b24a9380",
+      "sourcePackageVersion": "1.502.4",
+      "intentIds": [
+        "same-machine-probe-guard:7a2c201feeac142a113e7569fd8dc8544c613ee3657b2ffb8e8ba094badd72a2"
+      ]
     }
   ],
   "intents": [
@@ -156074,6 +156081,14 @@
       "summary": "Projects waiting for their first cloud copy no longer deadlock or pile up queued uploads: the card that creates the copy always goes first, other uploads wait without retrying, a refused device backs off after ten minutes, and each launch shrinks an existing backlog to one current copy.",
       "sourceSha": "c2cc7571e70638fb4612f80668a0919e967ac599",
       "identity": "sync-outbox-unstick:dc8e7f2b10b0c2c0190e471eb1748a0bfe82947e8c3803da9e1258598ff07f7a"
+    },
+    {
+      "id": "same-machine-probe-guard",
+      "digest": "7a2c201feeac142a113e7569fd8dc8544c613ee3657b2ffb8e8ba094badd72a2",
+      "type": "patch",
+      "summary": "A browser on the machine running CodePress Desktop can now prove it is on that machine, so the repo App page offers Start and shows the local preview instead of \"CodePress Desktop is on another machine\". Design's Local choice in the web app reads the same check and is fixed too.",
+      "sourceSha": "dffb5001c0715f3a42f0126d0c0ea375b24a9380",
+      "identity": "same-machine-probe-guard:7a2c201feeac142a113e7569fd8dc8544c613ee3657b2ffb8e8ba094badd72a2"
     }
   ],
   "consumedIntentIds": [
