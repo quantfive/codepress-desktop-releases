@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "75339d36e222cee8029f9c5635837d7d513d7779",
+  "cursorSha": "56f6ea3d4842a2cc1508d07c8b28ad916962f734",
   "highWaterVersion": "1.489.2",
   "rows": [
     {
@@ -147914,6 +147914,16 @@
       "intentIds": [
         "owner-chats-any-folder:de257de2d1a97cea520ad8970d86f6e81273b7cbc740d60f0d818e22a85c920c"
       ]
+    },
+    {
+      "sourceSha": "437e26d3f14ac129db6f64210961ec7aed50121a",
+      "sourcePackageVersion": "1.500.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "56f6ea3d4842a2cc1508d07c8b28ad916962f734",
+      "sourcePackageVersion": "1.501.0",
+      "intentIds": []
     }
   ],
   "intents": [
