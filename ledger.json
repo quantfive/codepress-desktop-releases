@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0adbeeade7a5a7bd1e12bbe838a9debf8d889790",
+  "cursorSha": "e7d8e54981feb7a7cf7eb06286fe53fa0ea1a860",
   "highWaterVersion": "1.490.2",
   "rows": [
     {
@@ -148220,6 +148220,13 @@
       "sourceSha": "0adbeeade7a5a7bd1e12bbe838a9debf8d889790",
       "sourcePackageVersion": "1.501.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e7d8e54981feb7a7cf7eb06286fe53fa0ea1a860",
+      "sourcePackageVersion": "1.501.3",
+      "intentIds": [
+        "choose-past-visibility:f45f1dc13a52c53f7329bc1115ff27ae319c863b7341a3c95cba3f3e0e77c09d"
+      ]
     }
   ],
   "intents": [
@@ -155694,6 +155701,14 @@
       "summary": "Deleting an Orchestrator project that is still starting now cleans it up: a repeat delete no longer errors, the row stops showing, a cloud copy created mid-delete is retired, and the project's session worktree is removed.",
       "sourceSha": "08fa27270d94c55efa418a51936a1db6113ffbe5",
       "identity": "delete-starting-project:6b4f167a3b209009b07499324d989d706864aa311c66a2d5ff2b4c1e36bed27c"
+    },
+    {
+      "id": "choose-past-visibility",
+      "digest": "f45f1dc13a52c53f7329bc1115ff27ae319c863b7341a3c95cba3f3e0e77c09d",
+      "type": "patch",
+      "summary": "Ask who should see your older chats and projects: the card at the top of the feed and the row in Preferences now offer Make Personal and Share with team for everything that isn't shared or private yet, name the date to choose by, and show progress, the result and a Retry. An older chat's own ⋯ menu offers Team or Personal too, with \"Not shared with your team yet\".",
+      "sourceSha": "e7d8e54981feb7a7cf7eb06286fe53fa0ea1a860",
+      "identity": "choose-past-visibility:f45f1dc13a52c53f7329bc1115ff27ae319c863b7341a3c95cba3f3e0e77c09d"
     }
   ],
   "consumedIntentIds": [
