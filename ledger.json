@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4cbe47a498381b8df620c01ed8cc628d263af849",
+  "cursorSha": "031c549e89712d0853cf9f739e31a3c729c95906",
   "highWaterVersion": "1.472.1",
   "rows": [
     {
@@ -143758,6 +143758,25 @@
       "sourceSha": "4cbe47a498381b8df620c01ed8cc628d263af849",
       "sourcePackageVersion": "1.482.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c6033249fa0af54e9f9a518a1a01ade8a18df1c5",
+      "sourcePackageVersion": "1.482.2",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "98af923fd14ec7bbad95e6e6ce273d488a2f5ff3",
+      "sourcePackageVersion": "1.482.2",
+      "intentIds": [
+        "sustainable-cores-hold:e4efc62ebc3495671a289b434cff9da9c20c0b91e60098e072e06c8f6d43308b"
+      ]
+    },
+    {
+      "sourceSha": "031c549e89712d0853cf9f739e31a3c729c95906",
+      "sourcePackageVersion": "1.482.2",
+      "intentIds": [
+        "html-artifacts-any-size:c80bc0a7f9a0af425a461d4ddba81e0d3c670ce50dbe537d25371f52935458a2"
+      ]
     }
   ],
   "intents": [
@@ -150536,6 +150555,22 @@
       "summary": "A computer's Claude and Codex accounts always have one active when one can be. The first account you add is selected for you, and removing, pausing or restricting the active account moves to the next one (the account CodePress lists as yours, else the oldest Local account). A new computer with no default account starts on your oldest Personal account. Terminal still never replaces a CLI login you made yourself or overrides a mode you chose, and never picks a Team account. An account moved to Personal stays active and is reported to CodePress, so the web shows it selected.",
       "sourceSha": "8e775e86450d5b75b1671c5df05888f6d6cf4d3a",
       "identity": "always-one-active-subscription-account:b58804e7ba150fea0389c2221aca3331d18f1a55e34632b63a6848c09656f34c"
+    },
+    {
+      "id": "sustainable-cores-hold",
+      "digest": "e4efc62ebc3495671a289b434cff9da9c20c0b91e60098e072e06c8f6d43308b",
+      "type": "patch",
+      "summary": "Stop the reported sustainable cores falling while the machine has not tried running within the figure, so work that was already running cannot slide it to the floor.",
+      "sourceSha": "98af923fd14ec7bbad95e6e6ce273d488a2f5ff3",
+      "identity": "sustainable-cores-hold:e4efc62ebc3495671a289b434cff9da9c20c0b91e60098e072e06c8f6d43308b"
+    },
+    {
+      "id": "html-artifacts-any-size",
+      "digest": "c80bc0a7f9a0af425a461d4ddba81e0d3c670ce50dbe537d25371f52935458a2",
+      "type": "patch",
+      "summary": "HTML artifacts of any size open in the Artifacts viewer instead of showing \"Too large to preview\". CSV, JSON, Markdown, code and text files keep the 2 MB preview limit, and gallery cards for HTML over 2 MB keep a static tile.",
+      "sourceSha": "031c549e89712d0853cf9f739e31a3c729c95906",
+      "identity": "html-artifacts-any-size:c80bc0a7f9a0af425a461d4ddba81e0d3c670ce50dbe537d25371f52935458a2"
     }
   ],
   "consumedIntentIds": [
