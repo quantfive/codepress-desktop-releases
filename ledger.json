@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "e4c4d0ece21665d430f24080ec088a4ea2b8d8b4",
-  "highWaterVersion": "1.485.2",
+  "highWaterVersion": "1.485.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -78380,6 +78380,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:e4c4d0ece21665d430f24080ec088a4ea2b8d8b4",
+      "kind": "main",
+      "sequence": 2122,
+      "sourceSha": "e4c4d0ece21665d430f24080ec088a4ea2b8d8b4",
+      "sourcePackageVersion": "1.494.3",
+      "version": "1.485.3",
+      "publicationDate": "2026-11-06T14:45:14.647Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "hand-off-cloud-after-move:c9cd0f7ceedf6645f8774e1eae87bd38851d929fe17cb45c16eb12dbe19576f9"
+        ],
+        "notesIntentIds": [
+          "hand-off-cloud-after-move:c9cd0f7ceedf6645f8774e1eae87bd38851d929fe17cb45c16eb12dbe19576f9"
+        ],
+        "throughSourceSha": "e4c4d0ece21665d430f24080ec088a4ea2b8d8b4",
+        "previousThroughSourceSha": "b0898692786c6f6d4c5f5e482da8794680bd3235",
+        "baselineVersion": "1.485.2",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42236638925",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-07T14:45:08.207Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -154781,7 +154824,8 @@
     "read-view-worth-reading:164464947fb60497bd79aeb3a0178c11a3382cb56f4f7d34d12ca5958110736c",
     "owner-exposure-wording:ab4384d04e07f4618a3aab9bf44cf753f472984d3db6527b62c23e19adb62022",
     "preview-survives-settings-save:ff9f5dc107b5125c6e67947900669bb69b4d10819ced3306eb61caba7685e921",
-    "ghostty-stale-engine-rebuild:aef7a841b08e458611da2e8f428ed6a4fbf78136cf8301b0a2e7fed892906d24"
+    "ghostty-stale-engine-rebuild:aef7a841b08e458611da2e8f428ed6a4fbf78136cf8301b0a2e7fed892906d24",
+    "hand-off-cloud-after-move:c9cd0f7ceedf6645f8774e1eae87bd38851d929fe17cb45c16eb12dbe19576f9"
   ],
-  "consumedThroughSha": "b0898692786c6f6d4c5f5e482da8794680bd3235"
+  "consumedThroughSha": "e4c4d0ece21665d430f24080ec088a4ea2b8d8b4"
 }
