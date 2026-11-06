@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "89ac12baa8099ffacc42c9c610afcaf314c63eec",
-  "highWaterVersion": "1.474.2",
+  "highWaterVersion": "1.475.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -76945,6 +76945,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:89ac12baa8099ffacc42c9c610afcaf314c63eec",
+      "kind": "main",
+      "sequence": 2097,
+      "sourceSha": "89ac12baa8099ffacc42c9c610afcaf314c63eec",
+      "sourcePackageVersion": "1.484.1",
+      "version": "1.475.0",
+      "publicationDate": "2026-11-06T02:50:07.993Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "cpu-aware-launch-holds:d60dde802365a470e1ef5f8d8be3a0b8866b0014bd87afe0a6910203f8d6421e",
+          "relay-streams-return-to-socket:32dfbca3390a1196598c712afdf1f8ed86272a86ea15b0e8d5b64f441ae947a8"
+        ],
+        "notesIntentIds": [
+          "cpu-aware-launch-holds:d60dde802365a470e1ef5f8d8be3a0b8866b0014bd87afe0a6910203f8d6421e",
+          "relay-streams-return-to-socket:32dfbca3390a1196598c712afdf1f8ed86272a86ea15b0e8d5b64f441ae947a8"
+        ],
+        "throughSourceSha": "89ac12baa8099ffacc42c9c610afcaf314c63eec",
+        "previousThroughSourceSha": "961bdacabc3f20448bf25467a3bb87c70be81eef",
+        "baselineVersion": "1.474.2",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42152761488",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-07T02:50:02.533Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -152093,7 +152138,9 @@
     "moved-chat-thread-rows:106921bb8a15d031a05d0f6935deb3346f2e9f9392c8d4461c170f15a3fee8c9",
     "team-chat-cloud-project-source:f9bb5fa6e8e89e50b3ce1218d49ac2ee371f1df5c69f802c90e68cbcc28a6386",
     "teammate-settings-view:f805a342ff292e4ed90f241c9d20b1ed7436ee32df54e24cad28ce6f2ef1c5cc",
-    "team-projects-cloud:5dc0dcb66b6d8d90d27c2977c068a20b7e095233cd1d70e4f199e99c7b1a095f"
+    "team-projects-cloud:5dc0dcb66b6d8d90d27c2977c068a20b7e095233cd1d70e4f199e99c7b1a095f",
+    "cpu-aware-launch-holds:d60dde802365a470e1ef5f8d8be3a0b8866b0014bd87afe0a6910203f8d6421e",
+    "relay-streams-return-to-socket:32dfbca3390a1196598c712afdf1f8ed86272a86ea15b0e8d5b64f441ae947a8"
   ],
-  "consumedThroughSha": "961bdacabc3f20448bf25467a3bb87c70be81eef"
+  "consumedThroughSha": "89ac12baa8099ffacc42c9c610afcaf314c63eec"
 }
