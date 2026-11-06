@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1f349d87a9d9b3e4ba1cada6e86f9e9167f97d8c",
+  "cursorSha": "75339d36e222cee8029f9c5635837d7d513d7779",
   "highWaterVersion": "1.489.2",
   "rows": [
     {
@@ -147907,6 +147907,13 @@
       "sourceSha": "1f349d87a9d9b3e4ba1cada6e86f9e9167f97d8c",
       "sourcePackageVersion": "1.500.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "75339d36e222cee8029f9c5635837d7d513d7779",
+      "sourcePackageVersion": "1.500.0",
+      "intentIds": [
+        "owner-chats-any-folder:de257de2d1a97cea520ad8970d86f6e81273b7cbc740d60f0d818e22a85c920c"
+      ]
     }
   ],
   "intents": [
@@ -155341,6 +155348,14 @@
       "summary": "Hand off → Cloud now works on a project or chat another of your machines holds while that machine is asleep or not answering: the cloud takes it from the copy saved there instead of the Cloud tile reading \"Asleep\". The machine stands down when it wakes and keeps aside what it did after that copy was saved.",
       "sourceSha": "df9aba8f618f18621a3e9002f4cada3c27a6bfa9",
       "identity": "cloud-takes-asleep-machine-project:016553c0f22e1631c2753d5df41c3b418fb7be9d9ffb44e05c0533d7fe297c04"
+    },
+    {
+      "id": "owner-chats-any-folder",
+      "digest": "de257de2d1a97cea520ad8970d86f6e81273b7cbc740d60f0d818e22a85c920c",
+      "type": "minor",
+      "summary": "A chat on your own machine can now work in any folder you pick, git or not, without adding it to Local checkouts first. Your home folder and the app's data folder are still excluded, and teammates on a shared machine are limited as before. In the kickoff, a machine picked under Runs on now offers its folders for Chat instead of asking for an app update, and you can browse to any folder on it.",
+      "sourceSha": "75339d36e222cee8029f9c5635837d7d513d7779",
+      "identity": "owner-chats-any-folder:de257de2d1a97cea520ad8970d86f6e81273b7cbc740d60f0d818e22a85c920c"
     }
   ],
   "consumedIntentIds": [
