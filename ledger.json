@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4eec726876e04c59793c6eb1a7262e908cadad4f",
+  "cursorSha": "b84f20ff8a3593f6d1c61f770a70bbc0022e0cc8",
   "highWaterVersion": "1.476.0",
   "rows": [
     {
@@ -144486,6 +144486,13 @@
       "sourceSha": "4eec726876e04c59793c6eb1a7262e908cadad4f",
       "sourcePackageVersion": "1.485.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b84f20ff8a3593f6d1c61f770a70bbc0022e0cc8",
+      "sourcePackageVersion": "1.485.1",
+      "intentIds": [
+        "local-attachments-stream-to-daemon:579bbdc38454d6bf39c07207aecb2f9f705535bbdbd04be84ef553e22bc63537"
+      ]
     }
   ],
   "intents": [
@@ -151416,6 +151423,14 @@
       "summary": "With the CPU and thermal admission flag on, limit running workers' CPU while the machine is hot and restore it automatically as it cools: a worker CPU quota on Linux and background QoS on macOS. The cap state appears in capacity status and diagnostics.",
       "sourceSha": "72aa5605def0f00f1773cc41d1c0a9276087cbea",
       "identity": "cpu-cap-running-workers:764e854661e1a5d7475e428ad91286e4304d9956dc1248cc47ba4896de5e5251"
+    },
+    {
+      "id": "local-attachments-stream-to-daemon",
+      "digest": "579bbdc38454d6bf39c07207aecb2f9f705535bbdbd04be84ef553e22bc63537",
+      "type": "minor",
+      "summary": "Projects and chats on this computer now take files up to 2 GB, 4 GB per message, at kickoff and in the thread. A file streams to Terminal instead of travelling as base64, so a long screen recording no longer costs memory. A refusal at Send clears once you change the files. A file too large to move with a project is named in the handoff, and the rest of the project's folder still moves.",
+      "sourceSha": "b84f20ff8a3593f6d1c61f770a70bbc0022e0cc8",
+      "identity": "local-attachments-stream-to-daemon:579bbdc38454d6bf39c07207aecb2f9f705535bbdbd04be84ef553e22bc63537"
     }
   ],
   "consumedIntentIds": [
