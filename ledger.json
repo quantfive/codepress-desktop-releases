@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c71bdb771be2d952697bc4858535632a1612c5ec",
+  "cursorSha": "c05c8b876885d6f686dd1fcdd3e58e9554965fb2",
   "highWaterVersion": "1.484.1",
   "rows": [
     {
@@ -146237,6 +146237,13 @@
       "sourceSha": "c71bdb771be2d952697bc4858535632a1612c5ec",
       "sourcePackageVersion": "1.493.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c05c8b876885d6f686dd1fcdd3e58e9554965fb2",
+      "sourcePackageVersion": "1.493.2",
+      "intentIds": [
+        "moved-chat-open-in-place:2956637c8416db38562b2d2391267680983c757827aaf7c45f061c5c41c03ac7"
+      ]
     }
   ],
   "intents": [
@@ -153423,6 +153430,14 @@
       "summary": "Agent accounts on narrow panes: the first tag sits top right, Week comes first and every row's bar starts at the same point, and the Running pill sits under the usage line.",
       "sourceSha": "37088ccdb33075efd99c4d2caa5d42e252f05e4a",
       "identity": "phone-account-rows:ac73a33f299ae336f5f72d15b66b4dae4b13b203f9f2a21067e73feafd37887e"
+    },
+    {
+      "id": "moved-chat-open-in-place",
+      "digest": "2956637c8416db38562b2d2391267680983c757827aaf7c45f061c5c41c03ac7",
+      "type": "patch",
+      "summary": "A chat moved to the cloud now opens as the running chat wherever it is reached, with a working composer instead of a read-only copy.",
+      "sourceSha": "c05c8b876885d6f686dd1fcdd3e58e9554965fb2",
+      "identity": "moved-chat-open-in-place:2956637c8416db38562b2d2391267680983c757827aaf7c45f061c5c41c03ac7"
     }
   ],
   "consumedIntentIds": [
