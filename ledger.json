@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "984961ea8655a33e5fd8f44d30b4a0b4ba4def28",
-  "highWaterVersion": "1.479.2",
+  "highWaterVersion": "1.479.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -77399,6 +77399,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:984961ea8655a33e5fd8f44d30b4a0b4ba4def28",
+      "kind": "main",
+      "sequence": 2105,
+      "sourceSha": "984961ea8655a33e5fd8f44d30b4a0b4ba4def28",
+      "sourcePackageVersion": "1.488.4",
+      "version": "1.479.3",
+      "publicationDate": "2026-11-06T06:23:31.358Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-mac-ok-sweep:93d0d052db79e827e75eb6dc7b5b71332786b2520058dd88d28ebb14cb9dda0d"
+        ],
+        "notesIntentIds": [
+          "terminal-mac-ok-sweep:93d0d052db79e827e75eb6dc7b5b71332786b2520058dd88d28ebb14cb9dda0d"
+        ],
+        "throughSourceSha": "984961ea8655a33e5fd8f44d30b4a0b4ba4def28",
+        "previousThroughSourceSha": "3c6a4acf00e35a5432f981ccb8e9c34535936247",
+        "baselineVersion": "1.479.2",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42174056909",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-07T06:23:23.055Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -152962,7 +153005,8 @@
     "message-a-teammates-cloud-project:6b21d9533b659a8ae0e479cdc7375a3faa893c0c7747c31c5498e6b1f8b93ed4",
     "computer-offline-in-words:35833f05e1c62714c063c427655257b20c39e145027eb78eb0697b511c46fbee",
     "visible-rich-selection:3edc16006827c66bf38d805f74d5fa79b2efaa50c61c986f7ddb3b7b21c0d4b5",
-    "owner-feed-teammate-line:0d38982b937c75e39a877498b6fa19fb9484f582dae57578bf35e674dd40a6c5"
+    "owner-feed-teammate-line:0d38982b937c75e39a877498b6fa19fb9484f582dae57578bf35e674dd40a6c5",
+    "terminal-mac-ok-sweep:93d0d052db79e827e75eb6dc7b5b71332786b2520058dd88d28ebb14cb9dda0d"
   ],
-  "consumedThroughSha": "3c6a4acf00e35a5432f981ccb8e9c34535936247"
+  "consumedThroughSha": "984961ea8655a33e5fd8f44d30b4a0b4ba4def28"
 }
