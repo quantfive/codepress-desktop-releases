@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1464ed792e7525b4fc40b3c4874793802a411dae",
+  "cursorSha": "84fe7fe83b0ef7692aa980b53d7ea17274fbf749",
   "highWaterVersion": "1.474.2",
   "rows": [
     {
@@ -144297,6 +144297,11 @@
       "intentIds": [
         "cpu-aware-launch-holds:d60dde802365a470e1ef5f8d8be3a0b8866b0014bd87afe0a6910203f8d6421e"
       ]
+    },
+    {
+      "sourceSha": "84fe7fe83b0ef7692aa980b53d7ea17274fbf749",
+      "sourcePackageVersion": "1.484.0",
+      "intentIds": []
     }
   ],
   "intents": [
