@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ae82962fd53a212a7b7a739ce2988acc7391e066",
+  "cursorSha": "ff4ea446ddc7bc5ebe991d03cd388e93867114bc",
   "highWaterVersion": "1.486.0",
   "rows": [
     {
@@ -146854,6 +146854,13 @@
       "intentIds": [
         "cloud-queued-message-controls:38dfcb85baaa365e0716b9791679e58dc5215dfe737df298f8cd8551645897b0"
       ]
+    },
+    {
+      "sourceSha": "ff4ea446ddc7bc5ebe991d03cd388e93867114bc",
+      "sourcePackageVersion": "1.495.0",
+      "intentIds": [
+        "cloud-chat-handback-local-chat-row:bb22a0c01b5cb8e1f52d3adffbe3b7c735d500b39e758d9550e839386378bf2a"
+      ]
     }
   ],
   "intents": [
@@ -154120,6 +154127,14 @@
       "summary": "Edit and Delete on a queued message now work on cloud-run Orchestrator projects too. If the Orchestrator read it first, or a Codex Orchestrator already holds it, the message stays and you are told so.",
       "sourceSha": "ae82962fd53a212a7b7a739ce2988acc7391e066",
       "identity": "cloud-queued-message-controls:38dfcb85baaa365e0716b9791679e58dc5215dfe737df298f8cd8551645897b0"
+    },
+    {
+      "id": "cloud-chat-handback-local-chat-row",
+      "digest": "bb22a0c01b5cb8e1f52d3adffbe3b7c735d500b39e758d9550e839386378bf2a",
+      "type": "minor",
+      "summary": "A Local Chat that moved to the cloud and is handed back to one of your machines continues there in its Local Chat row, with the cloud's turns and a \"Moved back from the cloud\" line, instead of opening as a tab. Open chat in the Hand off dialog selects the row, and the machine it left reads \"Runs on <machine>\" when it went elsewhere.",
+      "sourceSha": "ff4ea446ddc7bc5ebe991d03cd388e93867114bc",
+      "identity": "cloud-chat-handback-local-chat-row:bb22a0c01b5cb8e1f52d3adffbe3b7c735d500b39e758d9550e839386378bf2a"
     }
   ],
   "consumedIntentIds": [
