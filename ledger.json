@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6be37b6adb53ec03662f5effb5f11ba6dc991074",
+  "cursorSha": "4ce585e04ec79ecc8e1918adc407f22b2e0d976e",
   "highWaterVersion": "1.478.0",
   "rows": [
     {
@@ -144688,6 +144688,13 @@
       "sourceSha": "6be37b6adb53ec03662f5effb5f11ba6dc991074",
       "sourcePackageVersion": "1.487.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4ce585e04ec79ecc8e1918adc407f22b2e0d976e",
+      "sourcePackageVersion": "1.487.0",
+      "intentIds": [
+        "terminal-says-machine:4ea90d9b6adc93b9fa6d9f49eca29233a5c4cf651093d477fe320e31c717a3cd"
+      ]
     }
   ],
   "intents": [
@@ -151650,6 +151657,14 @@
       "summary": "Under a teammate's Team chat or Mac chat, Send can now message the owner's agent (\"Message <owner>'s agent\") as well as start your own chat or project. It keeps your draft across modes, says plainly when the owner's Mac is away or needs an update, and labels teammate messages with a Teammate badge in every thread. The owner sees FROM A TEAMMATE posts in their Orchestrator thread.",
       "sourceSha": "c25626069c516432fdc9e8984f2e36a59f4f1e6b",
       "identity": "message-a-teammates-agent:7ff221f3e390e0d2dd552b59ac89ea0aea29acce447a6406f32a1cab1de9ca22"
+    },
+    {
+      "id": "terminal-says-machine",
+      "digest": "4ea90d9b6adc93b9fa6d9f49eca29233a5c4cf651093d477fe320e31c717a3cd",
+      "type": "patch",
+      "summary": "Terminal calls your computers machines, not Macs: the Hand off picker reads \"This machine\" and \"Your other machines\", Settings reads \"Stop all work sent to this machine\" and \"Run my automations on this machine\", and onboarding, move and handoff messages, and the tool descriptions and results agents read say machine too. Only features that need macOS (keep awake, server mode, the automation sandbox, Apple Speech, the macOS permission rows) still say Mac. A handoff tile an older Terminal labels \"This Mac\" is still read as this machine.",
+      "sourceSha": "4ce585e04ec79ecc8e1918adc407f22b2e0d976e",
+      "identity": "terminal-says-machine:4ea90d9b6adc93b9fa6d9f49eca29233a5c4cf651093d477fe320e31c717a3cd"
     }
   ],
   "consumedIntentIds": [
