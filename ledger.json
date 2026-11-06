@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "bff525c1f7d7d5e5d677a0365ce3197b7b451689",
+  "cursorSha": "11e9b4414d323bb1c4afc0f18b4ee467772b1a3c",
   "highWaterVersion": "1.481.0",
   "rows": [
     {
@@ -145792,6 +145792,13 @@
       "intentIds": [
         "unified-apps-kinds:c74269f9ec424d1e2fa5369b699aa72d5be0b015aba1e5a5f05829210621bbb0"
       ]
+    },
+    {
+      "sourceSha": "11e9b4414d323bb1c4afc0f18b4ee467772b1a3c",
+      "sourcePackageVersion": "1.490.0",
+      "intentIds": [
+        "editor-status-bar:e8adb2be44648b0281d3c3a3075cc4855f4651589cd6eb8385c4ca7bb3245e59"
+      ]
     }
   ],
   "intents": [
@@ -152922,6 +152929,14 @@
       "summary": "With Unified Apps turned on, the Apps page shows where each App's code lives and who hosts it, and connected repositories can be added as Apps. The flag is off by default, so nothing changes until staff turn it on.",
       "sourceSha": "bff525c1f7d7d5e5d677a0365ce3197b7b451689",
       "identity": "unified-apps-kinds:c74269f9ec424d1e2fa5369b699aa72d5be0b015aba1e5a5f05829210621bbb0"
+    },
+    {
+      "id": "editor-status-bar",
+      "digest": "e8adb2be44648b0281d3c3a3075cc4855f4651589cd6eb8385c4ca7bb3245e59",
+      "type": "minor",
+      "summary": "Every file now has a status bar: Saved, line and column, selection size, indentation, encoding, line endings, language and wrap, with word count and reading time for Markdown. A short \"Copied N lines\" chip confirms a real copy or cut. Line endings, indentation, language and per-file wrap change from the bar, and Ln/Col opens go to line. The breadcrumb can copy the path, and the palette adds Copy path, Copy relative path and Copy link to line. The old status rows are gone, and Monaco's find widget follows the theme.",
+      "sourceSha": "11e9b4414d323bb1c4afc0f18b4ee467772b1a3c",
+      "identity": "editor-status-bar:e8adb2be44648b0281d3c3a3075cc4855f4651589cd6eb8385c4ca7bb3245e59"
     }
   ],
   "consumedIntentIds": [
