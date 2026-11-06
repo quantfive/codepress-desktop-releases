@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "44cc1096da688de5a68a2fad21670320e9c711ce",
+  "cursorSha": "29454307d280e3a55c219cf57b9118e22e10ff9f",
   "highWaterVersion": "1.482.0",
   "rows": [
     {
@@ -145888,6 +145888,13 @@
       "sourceSha": "44cc1096da688de5a68a2fad21670320e9c711ce",
       "sourcePackageVersion": "1.491.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "29454307d280e3a55c219cf57b9118e22e10ff9f",
+      "sourcePackageVersion": "1.491.1",
+      "intentIds": [
+        "tunnel-page-web-hop:3a8d2521aaf430db1b7d2d256fb51609afedeaa9bf51624f5ac7f5665528e5b2"
+      ]
     }
   ],
   "intents": [
@@ -153034,6 +153041,14 @@
       "summary": "Share home-relative mention translation with web threads and carry conversation picks on synced messages and answers.",
       "sourceSha": "c0c3aa11faabd10c63a7069ad941ab9fcda3f453",
       "identity": "web-thread-mentions:f40a17103d4587a6ea188b57d6fd35531f1f806cf034223070fc1563490d248a"
+    },
+    {
+      "id": "tunnel-page-web-hop",
+      "digest": "3a8d2521aaf430db1b7d2d256fb51609afedeaa9bf51624f5ac7f5665528e5b2",
+      "type": "patch",
+      "summary": "When opening a machine from its tunnel page needs a passkey press, the page now takes you to the web sign-in to press it and brings you back, instead of repeating \"try again\".",
+      "sourceSha": "29454307d280e3a55c219cf57b9118e22e10ff9f",
+      "identity": "tunnel-page-web-hop:3a8d2521aaf430db1b7d2d256fb51609afedeaa9bf51624f5ac7f5665528e5b2"
     }
   ],
   "consumedIntentIds": [
