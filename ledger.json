@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a9e5675fee4d56539ad23bcf20ca33026a74a6b6",
+  "cursorSha": "9fec23bde7a6d039042f21252ccf57e674b7453f",
   "highWaterVersion": "1.484.3",
   "rows": [
     {
@@ -146386,6 +146386,13 @@
       "sourceSha": "a9e5675fee4d56539ad23bcf20ca33026a74a6b6",
       "sourcePackageVersion": "1.493.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9fec23bde7a6d039042f21252ccf57e674b7453f",
+      "sourcePackageVersion": "1.493.4",
+      "intentIds": [
+        "read-view-worth-reading:164464947fb60497bd79aeb3a0178c11a3382cb56f4f7d34d12ca5958110736c"
+      ]
     }
   ],
   "intents": [
@@ -153588,6 +153595,14 @@
       "summary": "Replace waiting project snapshots while preserving transcripts and move checkpoints, probe retries before resending a snapshot, and allow five minutes for snapshot uploads.",
       "sourceSha": "90e4d9c2fde15b6e4037c575227daa382530943f",
       "identity": "short-project-snapshot-queue:f77f3c4818f91bfd46062e4fe7657755b08878803e17c5adb8b61056767abd6e"
+    },
+    {
+      "id": "read-view-worth-reading",
+      "digest": "164464947fb60497bd79aeb3a0178c11a3382cb56f4f7d34d12ca5958110736c",
+      "type": "minor",
+      "summary": "Markdown's Read view now reads like a document: a sans-serif column about 700px wide with a clear heading scale, images that load from the document's own machine, a labelled placeholder for a missing image, code blocks with a language label and Copy, heading links on hover, tables that scroll inside themselves, and an outline that follows your place. Copy Markdown copies the whole file, and switching between Read and Source keeps the same section on screen. The mode control moved into the path row, so no surface draws a separate Markdown row, and hidden Read no longer re-renders on every edit.",
+      "sourceSha": "9fec23bde7a6d039042f21252ccf57e674b7453f",
+      "identity": "read-view-worth-reading:164464947fb60497bd79aeb3a0178c11a3382cb56f4f7d34d12ca5958110736c"
     }
   ],
   "consumedIntentIds": [
