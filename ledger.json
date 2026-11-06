@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "74d402e3776bd7a0410ed3941f7fd587864ec2a6",
+  "cursorSha": "46e1ce845bc8a0b40f4cb10989ef6b2289d942dc",
   "highWaterVersion": "1.473.1",
   "rows": [
     {
@@ -143953,6 +143953,13 @@
       "sourceSha": "74d402e3776bd7a0410ed3941f7fd587864ec2a6",
       "sourcePackageVersion": "1.482.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "46e1ce845bc8a0b40f4cb10989ef6b2289d942dc",
+      "sourcePackageVersion": "1.482.6",
+      "intentIds": [
+        "home-land-project-action:4893c9b2805fc6908532501f43dcea6a22455841e371ce68d1661ae9f312868a"
+      ]
     }
   ],
   "intents": [
@@ -150771,6 +150778,14 @@
       "summary": "Account pages in Settings are the full width of the pane again. The line saying whose the settings are had pushed them in by 32px on each side, which narrowed Agent accounts and the Orchestrator page.",
       "sourceSha": "9c1fa8c2e21db486878e0eb58c7877157785c091",
       "identity": "settings-embedded-page-padding:1ef5c0695f0ec6b1c88baf024b9c7edae2c5c00b7390b23a198762ea4e6367f5"
+    },
+    {
+      "id": "home-land-project-action",
+      "digest": "4893c9b2805fc6908532501f43dcea6a22455841e371ce68d1661ae9f312868a",
+      "type": "patch",
+      "summary": "A project's home can now show its land preview and land the project when its owner asks from a synced copy, through the same land sequence as the home's own Land.",
+      "sourceSha": "46e1ce845bc8a0b40f4cb10989ef6b2289d942dc",
+      "identity": "home-land-project-action:4893c9b2805fc6908532501f43dcea6a22455841e371ce68d1661ae9f312868a"
     }
   ],
   "consumedIntentIds": [
