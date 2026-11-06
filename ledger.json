@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "35a04cbbcad0388f8e37dbb5abb500755814d8c3",
+  "cursorSha": "a6584340924adb3abf8dec71cd81ebd37b20148a",
   "highWaterVersion": "1.489.2",
   "rows": [
     {
@@ -147883,6 +147883,13 @@
       "intentIds": [
         "unblock-daemon-process-reads:44840f363173587f1713ecdf05478406d68b238e12c49d166a8f2ba0ddd38082"
       ]
+    },
+    {
+      "sourceSha": "a6584340924adb3abf8dec71cd81ebd37b20148a",
+      "sourcePackageVersion": "1.499.1",
+      "intentIds": [
+        "cap-terminal-logs:0233235d91874881b3d5b89b44c78bb8c4bff8fdfcd5388cf9ca42c6724e4f0f"
+      ]
     }
   ],
   "intents": [
@@ -155301,6 +155308,14 @@
       "summary": "Keep the daemon responsive with many Computer Use tabs: on Linux, process identity comes from `/proc` with no child process, and activity checks no longer read it for tabs that cannot match. Diagnostics report event-loop delay and the worktree timing line now accounts for the whole creation.",
       "sourceSha": "35a04cbbcad0388f8e37dbb5abb500755814d8c3",
       "identity": "unblock-daemon-process-reads:44840f363173587f1713ecdf05478406d68b238e12c49d166a8f2ba0ddd38082"
+    },
+    {
+      "id": "cap-terminal-logs",
+      "digest": "0233235d91874881b3d5b89b44c78bb8c4bff8fdfcd5388cf9ca42c6724e4f0f",
+      "type": "patch",
+      "summary": "Terminal now keeps `record-session.log`, `background-service.log` and oversized rotated logs within a size limit without a restart, and stops repeating two identical sweep messages in its logs.",
+      "sourceSha": "a6584340924adb3abf8dec71cd81ebd37b20148a",
+      "identity": "cap-terminal-logs:0233235d91874881b3d5b89b44c78bb8c4bff8fdfcd5388cf9ca42c6724e4f0f"
     }
   ],
   "consumedIntentIds": [
