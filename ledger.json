@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ce12b09970968c7268541a8bcbd7461c160cd512",
+  "cursorSha": "9cdc1569d468b65beabb84497127f53a614a51a0",
   "highWaterVersion": "1.490.2",
   "rows": [
     {
@@ -148237,6 +148237,13 @@
       "sourceSha": "ce12b09970968c7268541a8bcbd7461c160cd512",
       "sourcePackageVersion": "1.501.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9cdc1569d468b65beabb84497127f53a614a51a0",
+      "sourcePackageVersion": "1.501.4",
+      "intentIds": [
+        "live-team-feed-terminal:0aa897bfeef2a18ef8693c9770c2687eb81064aaeba901497d47e521e014cc0f"
+      ]
     }
   ],
   "intents": [
@@ -155719,6 +155726,14 @@
       "summary": "Ask who should see your older chats and projects: the card at the top of the feed and the row in Preferences now offer Make Personal and Share with team for everything that isn't shared or private yet, name the date to choose by, and show progress, the result and a Retry. An older chat's own ⋯ menu offers Team or Personal too, with \"Not shared with your team yet\".",
       "sourceSha": "e7d8e54981feb7a7cf7eb06286fe53fa0ea1a860",
       "identity": "choose-past-visibility:f45f1dc13a52c53f7329bc1115ff27ae319c863b7341a3c95cba3f3e0e77c09d"
+    },
+    {
+      "id": "live-team-feed-terminal",
+      "digest": "0aa897bfeef2a18ef8693c9770c2687eb81064aaeba901497d47e521e014cc0f",
+      "type": "minor",
+      "summary": "A teammate's change now shows in Team, and in a followed row under Following in My feed, within seconds and without reloading the rail, as on the web. Team keeps applying changes while you look at My feed, so switching back draws them at once with no read; after more than 45 seconds away it reads Team once. Frames for another organization are ignored, and Terminal keeps its saved Team list current too.",
+      "sourceSha": "9cdc1569d468b65beabb84497127f53a614a51a0",
+      "identity": "live-team-feed-terminal:0aa897bfeef2a18ef8693c9770c2687eb81064aaeba901497d47e521e014cc0f"
     }
   ],
   "consumedIntentIds": [
