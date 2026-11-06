@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "dd757872655c9edbd21aa273d07da12c6e0e4828",
-  "highWaterVersion": "1.472.1",
+  "highWaterVersion": "1.473.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -76646,6 +76646,57 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:dd757872655c9edbd21aa273d07da12c6e0e4828",
+      "kind": "main",
+      "sequence": 2092,
+      "sourceSha": "dd757872655c9edbd21aa273d07da12c6e0e4828",
+      "sourcePackageVersion": "1.482.3",
+      "version": "1.473.0",
+      "publicationDate": "2026-11-06T00:47:26.463Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "team-chat-start-my-own:f632cb2e726c7f271f6413efe7a6450a750eef2e9ccb9cbc9cf0b24698f30f85",
+          "cpu-thermal-signal:1e682baf7344c715cdb835c257ae64d0b92511939835ac04518035e67b719404",
+          "always-one-active-subscription-account:b58804e7ba150fea0389c2221aca3331d18f1a55e34632b63a6848c09656f34c",
+          "sustainable-cores-hold:e4efc62ebc3495671a289b434cff9da9c20c0b91e60098e072e06c8f6d43308b",
+          "html-artifacts-any-size:c80bc0a7f9a0af425a461d4ddba81e0d3c670ce50dbe537d25371f52935458a2"
+        ],
+        "notesIntentIds": [
+          "team-chat-start-my-own:f632cb2e726c7f271f6413efe7a6450a750eef2e9ccb9cbc9cf0b24698f30f85",
+          "cpu-thermal-signal:1e682baf7344c715cdb835c257ae64d0b92511939835ac04518035e67b719404",
+          "always-one-active-subscription-account:b58804e7ba150fea0389c2221aca3331d18f1a55e34632b63a6848c09656f34c",
+          "sustainable-cores-hold:e4efc62ebc3495671a289b434cff9da9c20c0b91e60098e072e06c8f6d43308b",
+          "html-artifacts-any-size:c80bc0a7f9a0af425a461d4ddba81e0d3c670ce50dbe537d25371f52935458a2"
+        ],
+        "throughSourceSha": "dd757872655c9edbd21aa273d07da12c6e0e4828",
+        "previousThroughSourceSha": "49b504adf51e7e0e705b960b7ce0b422bb1e65af",
+        "baselineVersion": "1.472.1",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42139235293",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-07T00:47:20.940Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -151427,7 +151478,12 @@
     "origin-labels:69304dc78221e4efd17b0f78040dad1ee82ec4acc1815ba8aedce43d92a1ff04",
     "slider-layout-check-skip:9867aee0d85ec998bffacab8c015aa2b73c7bb1df37307f20a3eb8c5aede3e24",
     "copy-answer-unlocks-dock:927b8ee9727976b9afe0bf45889b0b5d59009d97683b762943f3761fe1ff0d29",
-    "cpu-thermal-admission-flag:d889926fc6c7442880a1223de1b60d9c874fd8690f251503066c72fde811b134"
+    "cpu-thermal-admission-flag:d889926fc6c7442880a1223de1b60d9c874fd8690f251503066c72fde811b134",
+    "team-chat-start-my-own:f632cb2e726c7f271f6413efe7a6450a750eef2e9ccb9cbc9cf0b24698f30f85",
+    "cpu-thermal-signal:1e682baf7344c715cdb835c257ae64d0b92511939835ac04518035e67b719404",
+    "always-one-active-subscription-account:b58804e7ba150fea0389c2221aca3331d18f1a55e34632b63a6848c09656f34c",
+    "sustainable-cores-hold:e4efc62ebc3495671a289b434cff9da9c20c0b91e60098e072e06c8f6d43308b",
+    "html-artifacts-any-size:c80bc0a7f9a0af425a461d4ddba81e0d3c670ce50dbe537d25371f52935458a2"
   ],
-  "consumedThroughSha": "49b504adf51e7e0e705b960b7ce0b422bb1e65af"
+  "consumedThroughSha": "dd757872655c9edbd21aa273d07da12c6e0e4828"
 }
