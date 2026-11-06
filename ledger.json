@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f093ef1bc9e35069a7737ba5d4fc26efcda98e25",
+  "cursorSha": "1a3ca39c3336db293aa5047373e5097382034f55",
   "highWaterVersion": "1.479.4",
   "rows": [
     {
@@ -145234,6 +145234,16 @@
       "intentIds": [
         "scratch-processes-handoff:9a36cc88f86d73416145bfcaed39fcfacf7f9b325561ec20f536eedb8d03ace2"
       ]
+    },
+    {
+      "sourceSha": "47b5dcaea73a716c48ad3c1701bab1c2838d0e73",
+      "sourcePackageVersion": "1.488.6",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "1a3ca39c3336db293aa5047373e5097382034f55",
+      "sourcePackageVersion": "1.488.7",
+      "intentIds": []
     }
   ],
   "intents": [
