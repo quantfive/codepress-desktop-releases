@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b84f20ff8a3593f6d1c61f770a70bbc0022e0cc8",
+  "cursorSha": "7dd731cf634afb8b673092bd6fbce069e2dec250",
   "highWaterVersion": "1.476.0",
   "rows": [
     {
@@ -144493,6 +144493,11 @@
       "intentIds": [
         "local-attachments-stream-to-daemon:579bbdc38454d6bf39c07207aecb2f9f705535bbdbd04be84ef553e22bc63537"
       ]
+    },
+    {
+      "sourceSha": "7dd731cf634afb8b673092bd6fbce069e2dec250",
+      "sourcePackageVersion": "1.486.0",
+      "intentIds": []
     }
   ],
   "intents": [
