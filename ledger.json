@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c1426cfc49e964916ff2ea0e0a3c0f35829bac14",
+  "cursorSha": "a10e62a017786594c80f9017ea836dd5bb375e33",
   "highWaterVersion": "1.487.1",
   "rows": [
     {
@@ -147034,6 +147034,18 @@
       "sourceSha": "c1426cfc49e964916ff2ea0e0a3c0f35829bac14",
       "sourcePackageVersion": "1.497.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "290c9fa3b18bf76204d62bedb531b9a6620089da",
+      "sourcePackageVersion": "1.497.1",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "a10e62a017786594c80f9017ea836dd5bb375e33",
+      "sourcePackageVersion": "1.497.1",
+      "intentIds": [
+        "terminal-visibility-never-unlisted:193452848f66a6b6ed968a8efeea2140b3912d52316caf7f8b1e45285bb0e813"
+      ]
     }
   ],
   "intents": [
@@ -154324,6 +154336,14 @@
       "summary": "A large preview no longer goes blank when one access check gets a gateway error from the load balancer. The check asks once more, inside the same 10 second limit.",
       "sourceSha": "76be11392d2bc7fe9d4cdbe3349ae2ef750f9bfc",
       "identity": "preview-survives-gateway-error:789caa814767368dfbccd71b0ee7bd41dda506d5b2ed72bc9bb4d3c8838d6550"
+    },
+    {
+      "id": "terminal-visibility-never-unlisted",
+      "digest": "193452848f66a6b6ed968a8efeea2140b3912d52316caf7f8b1e45285bb0e813",
+      "type": "patch",
+      "summary": "New chats and projects always tell the cloud which visibility to use: a project started by another project takes its parent's Team or Personal, a chat promoted to a project keeps its visibility, and the Visibility control waits for the cloud's answer instead of reading a new copy as unlisted.",
+      "sourceSha": "a10e62a017786594c80f9017ea836dd5bb375e33",
+      "identity": "terminal-visibility-never-unlisted:193452848f66a6b6ed968a8efeea2140b3912d52316caf7f8b1e45285bb0e813"
     }
   ],
   "consumedIntentIds": [
