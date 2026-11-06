@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c05c8b876885d6f686dd1fcdd3e58e9554965fb2",
+  "cursorSha": "c30f24bb4b32d854527bdc6a4095127150e68e66",
   "highWaterVersion": "1.484.2",
   "rows": [
     {
@@ -146299,6 +146299,16 @@
       "intentIds": [
         "moved-chat-open-in-place:2956637c8416db38562b2d2391267680983c757827aaf7c45f061c5c41c03ac7"
       ]
+    },
+    {
+      "sourceSha": "58a0b71e60221ccc5d7cd9c2a4dc32e823615dac",
+      "sourcePackageVersion": "1.493.3",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "c30f24bb4b32d854527bdc6a4095127150e68e66",
+      "sourcePackageVersion": "1.493.3",
+      "intentIds": []
     }
   ],
   "intents": [
