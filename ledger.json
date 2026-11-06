@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3099232b235dcff44a769eab8b8bb93adc9f97f8",
+  "cursorSha": "0e873733f9919a3ada054311d96217299548dd52",
   "highWaterVersion": "1.479.7",
   "rows": [
     {
@@ -145598,6 +145598,13 @@
       "sourceSha": "3099232b235dcff44a769eab8b8bb93adc9f97f8",
       "sourcePackageVersion": "1.488.13",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0e873733f9919a3ada054311d96217299548dd52",
+      "sourcePackageVersion": "1.488.13",
+      "intentIds": [
+        "project-terminal-fits-the-phone:f4bf07de84505c89e5bc6dd3fad3e5b8953913813cf4e674cf640a54d440b191"
+      ]
     }
   ],
   "intents": [
@@ -152688,6 +152695,14 @@
       "summary": "The embedded CodePress web app now receives your Terminal telemetry setting, so it records interactions only when telemetry is on. The setting is now called Crash Reports and Usage Data, and a change applies after a restart.",
       "sourceSha": "109b446743a21c5c99f6073ee144add14a37b0db",
       "identity": "web-embed-telemetry-preference:a44e7a7445f267763c99e6015f0e109d85af6c2d37cf338edd8e7d675f8f2e71"
+    },
+    {
+      "id": "project-terminal-fits-the-phone",
+      "digest": "f4bf07de84505c89e5bc6dd3fad3e5b8953913813cf4e674cf640a54d440b191",
+      "type": "minor",
+      "summary": "The project Terminal tab now fits a phone or tablet the way the sidebar terminal does, and the machine's window gets its size back when you leave the tab, close the stream or put the app in the background. Live terminal streams can also ask what runs in a tab to repaint.",
+      "sourceSha": "0e873733f9919a3ada054311d96217299548dd52",
+      "identity": "project-terminal-fits-the-phone:f4bf07de84505c89e5bc6dd3fad3e5b8953913813cf4e674cf640a54d440b191"
     }
   ],
   "consumedIntentIds": [
