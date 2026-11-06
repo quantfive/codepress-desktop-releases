@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9134d45be9bd6d1b49d5d73c5b7a80f368d9147e",
+  "cursorSha": "61c3b7cb234e77a0383a6d8030dfb9180ca00824",
   "highWaterVersion": "1.479.0",
   "rows": [
     {
@@ -144865,6 +144865,18 @@
       "intentIds": [
         "computer-offline-in-words:35833f05e1c62714c063c427655257b20c39e145027eb78eb0697b511c46fbee"
       ]
+    },
+    {
+      "sourceSha": "acf6c38ec1348b98070bc6e686ba057a4517a717",
+      "sourcePackageVersion": "1.488.1",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "61c3b7cb234e77a0383a6d8030dfb9180ca00824",
+      "sourcePackageVersion": "1.488.1",
+      "intentIds": [
+        "visible-rich-selection:3edc16006827c66bf38d805f74d5fa79b2efaa50c61c986f7ddb3b7b21c0d4b5"
+      ]
     }
   ],
   "intents": [
@@ -151859,6 +151871,14 @@
       "summary": "A window on a computer that has quit now says the computer is offline, and its dot is no longer green, instead of reading Reconnecting… forever.",
       "sourceSha": "9134d45be9bd6d1b49d5d73c5b7a80f368d9147e",
       "identity": "computer-offline-in-words:35833f05e1c62714c063c427655257b20c39e145027eb78eb0697b511c46fbee"
+    },
+    {
+      "id": "visible-rich-selection",
+      "digest": "3edc16006827c66bf38d805f74d5fa79b2efaa50c61c986f7ddb3b7b21c0d4b5",
+      "type": "patch",
+      "summary": "Make the Markdown Rich and Read selection highlight visible in dark themes, draw it across Rich code blocks, and let Rich fill its pane so list-only documents show. Select-all now follows the active surface after clicking a mode, tab or path row, works with the terminal find bar open and in remote-machine windows, and takes a Rich code block before the document. Copying a whole Read document keeps its Markdown, and Rich no longer loses the last keystrokes on save or mode switch. High Contrast Dark's selection no longer hides selected text.",
+      "sourceSha": "61c3b7cb234e77a0383a6d8030dfb9180ca00824",
+      "identity": "visible-rich-selection:3edc16006827c66bf38d805f74d5fa79b2efaa50c61c986f7ddb3b7b21c0d4b5"
     }
   ],
   "consumedIntentIds": [
