@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d24d652999ef46ec8d4c860f4aab9dee4ddfee6b",
+  "cursorSha": "bc1c3a34b7c3257ffb4c73523f22016823803f8a",
   "highWaterVersion": "1.473.1",
   "rows": [
     {
@@ -144004,6 +144004,13 @@
       "sourceSha": "d24d652999ef46ec8d4c860f4aab9dee4ddfee6b",
       "sourcePackageVersion": "1.482.9",
       "intentIds": []
+    },
+    {
+      "sourceSha": "bc1c3a34b7c3257ffb4c73523f22016823803f8a",
+      "sourcePackageVersion": "1.482.9",
+      "intentIds": [
+        "teammate-messages-to-mac:9ec42e074c1b221b352e56080a7c92f2782236b5b6bfc407d415ce9fda9f1ccd"
+      ]
     }
   ],
   "intents": [
@@ -150846,6 +150853,14 @@
       "summary": "Relayed windows: say 1009 when a message is too large, stop reconnecting after a second one, and keep a relay connection whose large frame is still sending. Terminal now reports relay protocol 2, which is what the backend requires before it assigns the relay.",
       "sourceSha": "4574460bc3959003d120f52ea98f516d249ec0e5",
       "identity": "relay-large-messages:2229385e79aba577f7afe165461f79036259c69856402ba4336060c0c33a9e17"
+    },
+    {
+      "id": "teammate-messages-to-mac",
+      "digest": "9ec42e074c1b221b352e56080a7c92f2782236b5b6bfc407d415ce9fda9f1ccd",
+      "type": "minor",
+      "summary": "A teammate's message to a chat or Orchestrator project on this Mac now reaches its agent. It arrives in the inbox labelled as from a teammate, or from a teammate's agent, and shows in the thread as \"Teammate · From <name>\". It never answers an ask or approves a plan. A paused project keeps the message until you resume it, and a message sent while this Mac was offline arrives once it reconnects (behind team chats).",
+      "sourceSha": "bc1c3a34b7c3257ffb4c73523f22016823803f8a",
+      "identity": "teammate-messages-to-mac:9ec42e074c1b221b352e56080a7c92f2782236b5b6bfc407d415ce9fda9f1ccd"
     }
   ],
   "consumedIntentIds": [
