@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "f20b831ccd2eb9652a73de14393e6abd28985e60",
-  "highWaterVersion": "1.487.2",
+  "highWaterVersion": "1.487.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -78714,6 +78714,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:f20b831ccd2eb9652a73de14393e6abd28985e60",
+      "kind": "main",
+      "sequence": 2128,
+      "sourceSha": "f20b831ccd2eb9652a73de14393e6abd28985e60",
+      "sourcePackageVersion": "1.497.2",
+      "version": "1.487.3",
+      "publicationDate": "2026-11-06T17:29:41.121Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "kickoff-repository-pick-remembered:07cb192f58b93b80ed5a611a339cc14c415ac149c3a71194936bcab1565fdc48"
+        ],
+        "notesIntentIds": [
+          "kickoff-repository-pick-remembered:07cb192f58b93b80ed5a611a339cc14c415ac149c3a71194936bcab1565fdc48"
+        ],
+        "throughSourceSha": "f20b831ccd2eb9652a73de14393e6abd28985e60",
+        "previousThroughSourceSha": "752c868c4df50efe8416d8e7784666c265c89239",
+        "baselineVersion": "1.487.2",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42261882829",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-07T17:29:33.691Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -155393,7 +155436,8 @@
     "cloud-chat-handback-local-chat-row:bb22a0c01b5cb8e1f52d3adffbe3b7c735d500b39e758d9550e839386378bf2a",
     "desktop-preview-companions:cd440191a331a9c002c90015082d72fa9ab91c985c07c3d3edc97c1d0fb1aeb6",
     "preview-survives-gateway-error:789caa814767368dfbccd71b0ee7bd41dda506d5b2ed72bc9bb4d3c8838d6550",
-    "terminal-visibility-never-unlisted:193452848f66a6b6ed968a8efeea2140b3912d52316caf7f8b1e45285bb0e813"
+    "terminal-visibility-never-unlisted:193452848f66a6b6ed968a8efeea2140b3912d52316caf7f8b1e45285bb0e813",
+    "kickoff-repository-pick-remembered:07cb192f58b93b80ed5a611a339cc14c415ac149c3a71194936bcab1565fdc48"
   ],
-  "consumedThroughSha": "752c868c4df50efe8416d8e7784666c265c89239"
+  "consumedThroughSha": "f20b831ccd2eb9652a73de14393e6abd28985e60"
 }
