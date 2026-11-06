@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1a3ca39c3336db293aa5047373e5097382034f55",
+  "cursorSha": "925a42a643e7256c0026f04d74f0c67263fc32ea",
   "highWaterVersion": "1.479.4",
   "rows": [
     {
@@ -145244,6 +145244,13 @@
       "sourceSha": "1a3ca39c3336db293aa5047373e5097382034f55",
       "sourcePackageVersion": "1.488.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "925a42a643e7256c0026f04d74f0c67263fc32ea",
+      "sourcePackageVersion": "1.488.7",
+      "intentIds": [
+        "live-markdown-blocks:4d9c3927731b99cc29034f4af22e5bb89de97547aa2c8a8fc1335ddcb1c83eda"
+      ]
     }
   ],
   "intents": [
@@ -152286,6 +152293,14 @@
       "summary": "A process a worker started with a scratch or worktree path in its arguments, such as a QA Postgres, no longer blocks handing its project off. If a handoff still cannot prove a process stopped, the message now names its pid and executable.",
       "sourceSha": "f093ef1bc9e35069a7737ba5d4fc26efcda98e25",
       "identity": "scratch-processes-handoff:9a36cc88f86d73416145bfcaed39fcfacf7f9b325561ec20f536eedb8d03ace2"
+    },
+    {
+      "id": "live-markdown-blocks",
+      "digest": "4d9c3927731b99cc29034f4af22e5bb89de97547aa2c8a8fc1335ddcb1c83eda",
+      "type": "patch",
+      "summary": "The live Markdown editor draws tables, images, code, Mermaid, front matter and task checkboxes, and adds a slash menu, a selection toolbar and writing shortcuts. It stays hidden until the Edit mode ships.",
+      "sourceSha": "925a42a643e7256c0026f04d74f0c67263fc32ea",
+      "identity": "live-markdown-blocks:4d9c3927731b99cc29034f4af22e5bb89de97547aa2c8a8fc1335ddcb1c83eda"
     }
   ],
   "consumedIntentIds": [
