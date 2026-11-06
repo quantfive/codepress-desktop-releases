@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2a41e1affeabe8a249e1d36308b0b9b460368939",
+  "cursorSha": "f093ef1bc9e35069a7737ba5d4fc26efcda98e25",
   "highWaterVersion": "1.479.4",
   "rows": [
     {
@@ -145227,6 +145227,13 @@
       "sourceSha": "2a41e1affeabe8a249e1d36308b0b9b460368939",
       "sourcePackageVersion": "1.488.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f093ef1bc9e35069a7737ba5d4fc26efcda98e25",
+      "sourcePackageVersion": "1.488.6",
+      "intentIds": [
+        "scratch-processes-handoff:9a36cc88f86d73416145bfcaed39fcfacf7f9b325561ec20f536eedb8d03ace2"
+      ]
     }
   ],
   "intents": [
@@ -152261,6 +152268,14 @@
       "summary": "Opening a running full-screen tab from the web, phone or a project's Terminal tab shows its screen instead of an empty one",
       "sourceSha": "c88abd7962793c5c6d480c1f8e5dfcc2b6d111df",
       "identity": "replay-alt-screen:2e9096880fa7e8e19b7d7a8b9d9acc6199105a2869c48593464f1d8d8686f61e"
+    },
+    {
+      "id": "scratch-processes-handoff",
+      "digest": "9a36cc88f86d73416145bfcaed39fcfacf7f9b325561ec20f536eedb8d03ace2",
+      "type": "patch",
+      "summary": "A process a worker started with a scratch or worktree path in its arguments, such as a QA Postgres, no longer blocks handing its project off. If a handoff still cannot prove a process stopped, the message now names its pid and executable.",
+      "sourceSha": "f093ef1bc9e35069a7737ba5d4fc26efcda98e25",
+      "identity": "scratch-processes-handoff:9a36cc88f86d73416145bfcaed39fcfacf7f9b325561ec20f536eedb8d03ace2"
     }
   ],
   "consumedIntentIds": [
