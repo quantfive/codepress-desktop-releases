@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2004b3a5233e566d20cd2e995921b3628016ba0d",
+  "cursorSha": "b0898692786c6f6d4c5f5e482da8794680bd3235",
   "highWaterVersion": "1.485.1",
   "rows": [
     {
@@ -146554,6 +146554,13 @@
       "sourceSha": "2004b3a5233e566d20cd2e995921b3628016ba0d",
       "sourcePackageVersion": "1.494.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b0898692786c6f6d4c5f5e482da8794680bd3235",
+      "sourcePackageVersion": "1.494.2",
+      "intentIds": [
+        "ghostty-stale-engine-rebuild:aef7a841b08e458611da2e8f428ed6a4fbf78136cf8301b0a2e7fed892906d24"
+      ]
     }
   ],
   "intents": [
@@ -153780,6 +153787,14 @@
       "summary": "A settings save that doesn't change who may reach this computer no longer cuts off a preview that's loading.",
       "sourceSha": "42900078264cd9e300a1db016a4fd94ca89904e2",
       "identity": "preview-survives-settings-save:ff9f5dc107b5125c6e67947900669bb69b4d10819ced3306eb61caba7685e921"
+    },
+    {
+      "id": "ghostty-stale-engine-rebuild",
+      "digest": "aef7a841b08e458611da2e8f428ed6a4fbf78136cf8301b0a2e7fed892906d24",
+      "type": "patch",
+      "summary": "Local builds now rebuild the Ghostty engine when the staged copy is from an older pin. Before, they kept reusing it, and the app then opened every new tab as xterm.",
+      "sourceSha": "b0898692786c6f6d4c5f5e482da8794680bd3235",
+      "identity": "ghostty-stale-engine-rebuild:aef7a841b08e458611da2e8f428ed6a4fbf78136cf8301b0a2e7fed892906d24"
     }
   ],
   "consumedIntentIds": [
