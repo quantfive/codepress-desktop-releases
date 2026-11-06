@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "ebff8e30c41e23f7c4275cd180e7e6d8cf0ebf73",
-  "highWaterVersion": "1.474.0",
+  "highWaterVersion": "1.474.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -76829,6 +76829,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:ebff8e30c41e23f7c4275cd180e7e6d8cf0ebf73",
+      "kind": "main",
+      "sequence": 2095,
+      "sourceSha": "ebff8e30c41e23f7c4275cd180e7e6d8cf0ebf73",
+      "sourcePackageVersion": "1.483.0",
+      "version": "1.474.1",
+      "publicationDate": "2026-11-06T02:03:45.952Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "orchestrator-say-machine:1f0880b87da21d060d4f9b524c917bd7c9e05320aa8d88967392877509c85106"
+        ],
+        "notesIntentIds": [
+          "orchestrator-say-machine:1f0880b87da21d060d4f9b524c917bd7c9e05320aa8d88967392877509c85106"
+        ],
+        "throughSourceSha": "ebff8e30c41e23f7c4275cd180e7e6d8cf0ebf73",
+        "previousThroughSourceSha": "bc1c3a34b7c3257ffb4c73523f22016823803f8a",
+        "baselineVersion": "1.474.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42147767298",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-07T02:03:38.174Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -151817,7 +151860,8 @@
     "home-land-project-action:4893c9b2805fc6908532501f43dcea6a22455841e371ce68d1661ae9f312868a",
     "limit-wait-release:326ceacd493478f62bbb88d89820b473f726cf3a61b06fc6fe5e0470665e78ee",
     "relay-large-messages:2229385e79aba577f7afe165461f79036259c69856402ba4336060c0c33a9e17",
-    "teammate-messages-to-mac:9ec42e074c1b221b352e56080a7c92f2782236b5b6bfc407d415ce9fda9f1ccd"
+    "teammate-messages-to-mac:9ec42e074c1b221b352e56080a7c92f2782236b5b6bfc407d415ce9fda9f1ccd",
+    "orchestrator-say-machine:1f0880b87da21d060d4f9b524c917bd7c9e05320aa8d88967392877509c85106"
   ],
-  "consumedThroughSha": "bc1c3a34b7c3257ffb4c73523f22016823803f8a"
+  "consumedThroughSha": "ebff8e30c41e23f7c4275cd180e7e6d8cf0ebf73"
 }
