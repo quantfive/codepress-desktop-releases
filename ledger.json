@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "4d6c6609fd7f2bc846db32d4db7c891fa8b8de0b",
-  "highWaterVersion": "1.489.2",
+  "highWaterVersion": "1.490.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -79166,6 +79166,55 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:4d6c6609fd7f2bc846db32d4db7c891fa8b8de0b",
+      "kind": "main",
+      "sequence": 2136,
+      "sourceSha": "4d6c6609fd7f2bc846db32d4db7c891fa8b8de0b",
+      "sourcePackageVersion": "1.501.0",
+      "version": "1.490.0",
+      "publicationDate": "2026-11-06T20:44:48.700Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "unblock-daemon-process-reads:44840f363173587f1713ecdf05478406d68b238e12c49d166a8f2ba0ddd38082",
+          "cap-terminal-logs:0233235d91874881b3d5b89b44c78bb8c4bff8fdfcd5388cf9ca42c6724e4f0f",
+          "cloud-takes-asleep-machine-project:016553c0f22e1631c2753d5df41c3b418fb7be9d9ffb44e05c0533d7fe297c04",
+          "owner-chats-any-folder:de257de2d1a97cea520ad8970d86f6e81273b7cbc740d60f0d818e22a85c920c"
+        ],
+        "notesIntentIds": [
+          "unblock-daemon-process-reads:44840f363173587f1713ecdf05478406d68b238e12c49d166a8f2ba0ddd38082",
+          "cap-terminal-logs:0233235d91874881b3d5b89b44c78bb8c4bff8fdfcd5388cf9ca42c6724e4f0f",
+          "cloud-takes-asleep-machine-project:016553c0f22e1631c2753d5df41c3b418fb7be9d9ffb44e05c0533d7fe297c04",
+          "owner-chats-any-folder:de257de2d1a97cea520ad8970d86f6e81273b7cbc740d60f0d818e22a85c920c"
+        ],
+        "throughSourceSha": "4d6c6609fd7f2bc846db32d4db7c891fa8b8de0b",
+        "previousThroughSourceSha": "86619c2da84129b2defa73aad44f39b41bc2c4bc",
+        "baselineVersion": "1.489.2",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42290843118",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-07T20:44:40.634Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -156299,7 +156348,11 @@
     "stop-repeating-shell-startups:2864313cb131ebac7969fc864fad415e03791331c507d492d9f75c140e6a35d2",
     "cpu-thermal-throttling-default:b9bc3686f7562df6b7acbd06cd44ec90b13f2154d0086db575b14898e05b1bb1",
     "remote-account-picks:2591624d6ff62ef9e97ec4e3d1cd3c2fd36cf0392ef60877e3d7098203d8915c",
-    "updater-undelivered-status-cause:013859cd97c026b846f2272348df4b17a51820c542f847cc09fb6c0845b680cb"
+    "updater-undelivered-status-cause:013859cd97c026b846f2272348df4b17a51820c542f847cc09fb6c0845b680cb",
+    "unblock-daemon-process-reads:44840f363173587f1713ecdf05478406d68b238e12c49d166a8f2ba0ddd38082",
+    "cap-terminal-logs:0233235d91874881b3d5b89b44c78bb8c4bff8fdfcd5388cf9ca42c6724e4f0f",
+    "cloud-takes-asleep-machine-project:016553c0f22e1631c2753d5df41c3b418fb7be9d9ffb44e05c0533d7fe297c04",
+    "owner-chats-any-folder:de257de2d1a97cea520ad8970d86f6e81273b7cbc740d60f0d818e22a85c920c"
   ],
-  "consumedThroughSha": "86619c2da84129b2defa73aad44f39b41bc2c4bc"
+  "consumedThroughSha": "4d6c6609fd7f2bc846db32d4db7c891fa8b8de0b"
 }
