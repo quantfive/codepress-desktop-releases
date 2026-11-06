@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ebff8e30c41e23f7c4275cd180e7e6d8cf0ebf73",
+  "cursorSha": "5ac9d09570d56636e7a6213461c6f7643b0d7487",
   "highWaterVersion": "1.474.1",
   "rows": [
     {
@@ -144148,6 +144148,18 @@
       "intentIds": [
         "orchestrator-say-machine:1f0880b87da21d060d4f9b524c917bd7c9e05320aa8d88967392877509c85106"
       ]
+    },
+    {
+      "sourceSha": "92a9dfdefcc0ffb07f93baf8110119f586794e39",
+      "sourcePackageVersion": "1.483.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "5ac9d09570d56636e7a6213461c6f7643b0d7487",
+      "sourcePackageVersion": "1.483.0",
+      "intentIds": [
+        "moved-chat-thread-rows:106921bb8a15d031a05d0f6935deb3346f2e9f9392c8d4461c170f15a3fee8c9"
+      ]
     }
   ],
   "intents": [
@@ -151006,6 +151018,14 @@
       "summary": "The Orchestrator now calls your computers machines (\"this machine\", \"your other machines\") instead of Macs, since CodePress runs on Mac and Linux.",
       "sourceSha": "ebff8e30c41e23f7c4275cd180e7e6d8cf0ebf73",
       "identity": "orchestrator-say-machine:1f0880b87da21d060d4f9b524c917bd7c9e05320aa8d88967392877509c85106"
+    },
+    {
+      "id": "moved-chat-thread-rows",
+      "digest": "106921bb8a15d031a05d0f6935deb3346f2e9f9392c8d4461c170f15a3fee8c9",
+      "type": "patch",
+      "summary": "A chat moved to the cloud keeps its name, its visibility and the thread you saw, and the move shows as one line.",
+      "sourceSha": "5ac9d09570d56636e7a6213461c6f7643b0d7487",
+      "identity": "moved-chat-thread-rows:106921bb8a15d031a05d0f6935deb3346f2e9f9392c8d4461c170f15a3fee8c9"
     }
   ],
   "consumedIntentIds": [
