@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "812a93ba302c241cce3515f6dc71163ada97b08b",
+  "cursorSha": "c5488356c62e300680d25cf9a468ba0a47fea9fc",
   "highWaterVersion": "1.487.4",
   "rows": [
     {
@@ -147329,6 +147329,13 @@
       "sourceSha": "812a93ba302c241cce3515f6dc71163ada97b08b",
       "sourcePackageVersion": "1.497.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c5488356c62e300680d25cf9a468ba0a47fea9fc",
+      "sourcePackageVersion": "1.497.5",
+      "intentIds": [
+        "kickoff-runs-on-remembers-pick:d8ee8fe0938ccdc13fae6a9bad5cf709996fb42efa845ecf25e234e9eb2a811a"
+      ]
     }
   ],
   "intents": [
@@ -154651,6 +154658,14 @@
       "summary": "The owner of an Unlisted Orchestrator project can now make it Team or Personal from the project's ⋯ menu (Project actions on a phone). The menu says the project is not shared with your team yet, and Personal applies without asking because nobody could read it before. Projects kept Local only and chats are unchanged.",
       "sourceSha": "ffdedfda80cb0fb0d08ceb9b4011e8cd306e04a9",
       "identity": "unlisted-project-menu:4029e49b323cb762b0d3f24fe440d254dc4dc8a921a20f66ffea63a8d86714be"
+    },
+    {
+      "id": "kickoff-runs-on-remembers-pick",
+      "digest": "d8ee8fe0938ccdc13fae6a9bad5cf709996fb42efa845ecf25e234e9eb2a811a",
+      "type": "patch",
+      "summary": "Orchestrator kickoff: Runs on now remembers your choice (Auto, This machine, Cloud, another machine or a shared computer) for each organization across restarts, reloads and sends, instead of resetting to Auto.",
+      "sourceSha": "c5488356c62e300680d25cf9a468ba0a47fea9fc",
+      "identity": "kickoff-runs-on-remembers-pick:d8ee8fe0938ccdc13fae6a9bad5cf709996fb42efa845ecf25e234e9eb2a811a"
     }
   ],
   "consumedIntentIds": [
