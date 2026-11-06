@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "af8436f65ce48e523e4f74d604d57e163c9a1926",
+  "cursorSha": "76be11392d2bc7fe9d4cdbe3349ae2ef750f9bfc",
   "highWaterVersion": "1.487.0",
   "rows": [
     {
@@ -146957,6 +146957,13 @@
       "sourceSha": "af8436f65ce48e523e4f74d604d57e163c9a1926",
       "sourcePackageVersion": "1.497.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "76be11392d2bc7fe9d4cdbe3349ae2ef750f9bfc",
+      "sourcePackageVersion": "1.497.0",
+      "intentIds": [
+        "preview-survives-gateway-error:789caa814767368dfbccd71b0ee7bd41dda506d5b2ed72bc9bb4d3c8838d6550"
+      ]
     }
   ],
   "intents": [
@@ -154239,6 +154246,14 @@
       "summary": "Local previews now run a recipe's companion servers, so a Storybook App works on this machine.",
       "sourceSha": "340ea14976f135840262e74f018febfe2a111b5a",
       "identity": "desktop-preview-companions:cd440191a331a9c002c90015082d72fa9ab91c985c07c3d3edc97c1d0fb1aeb6"
+    },
+    {
+      "id": "preview-survives-gateway-error",
+      "digest": "789caa814767368dfbccd71b0ee7bd41dda506d5b2ed72bc9bb4d3c8838d6550",
+      "type": "patch",
+      "summary": "A large preview no longer goes blank when one access check gets a gateway error from the load balancer. The check asks once more, inside the same 10 second limit.",
+      "sourceSha": "76be11392d2bc7fe9d4cdbe3349ae2ef750f9bfc",
+      "identity": "preview-survives-gateway-error:789caa814767368dfbccd71b0ee7bd41dda506d5b2ed72bc9bb4d3c8838d6550"
     }
   ],
   "consumedIntentIds": [
