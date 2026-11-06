@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e7d06e5255590f176915be9414c3dc61ca717e56",
+  "cursorSha": "9a199a912f8c2e3b9b574a26e4724afac5cd5655",
   "highWaterVersion": "1.475.0",
   "rows": [
     {
@@ -144386,6 +144386,13 @@
       "sourceSha": "e7d06e5255590f176915be9414c3dc61ca717e56",
       "sourcePackageVersion": "1.484.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9a199a912f8c2e3b9b574a26e4724afac5cd5655",
+      "sourcePackageVersion": "1.484.1",
+      "intentIds": [
+        "land-from-synced-copy:2b156c236d7851387a108bd61629616ca8e0170b52921b666541995b3f90efab"
+      ]
     }
   ],
   "intents": [
@@ -151292,6 +151299,14 @@
       "summary": "A window on the edge relay no longer loses its quiet state to one transient failure: a stream the daemon refused for a moment goes back to the window's socket, and the project rail's 15 s read is bounded while a stream is stalled and stops while hidden.",
       "sourceSha": "e4bf574721f21ac528081239078ab42a6b7bf2b5",
       "identity": "relay-streams-return-to-socket:32dfbca3390a1196598c712afdf1f8ed86272a86ea15b0e8d5b64f441ae947a8"
+    },
+    {
+      "id": "land-from-synced-copy",
+      "digest": "2b156c236d7851387a108bd61629616ca8e0170b52921b666541995b3f90efab",
+      "type": "minor",
+      "summary": "Land project… on another Mac's project: the ⋯ menu of a building or Plan-ready project homed on another Mac or a Cloud VM now lists Land project…, reads the preview live from the home and lands it there. An asleep home says so and offers Try again; nothing is queued.",
+      "sourceSha": "9a199a912f8c2e3b9b574a26e4724afac5cd5655",
+      "identity": "land-from-synced-copy:2b156c236d7851387a108bd61629616ca8e0170b52921b666541995b3f90efab"
     }
   ],
   "consumedIntentIds": [
