@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "aafd4aef064b69247a2ae0009bc28f12f74256c7",
+  "cursorSha": "1cb9206a08ab8c66fb9e870b21f63decc1a79654",
   "highWaterVersion": "1.496.7",
   "rows": [
     {
@@ -150256,6 +150256,16 @@
       "intentIds": [
         "this-machine-registered-name:2df0741847b1628cb82b304f9d9146ac0e71bc61bf1c99077ec99a3ad9005fe1"
       ]
+    },
+    {
+      "sourceSha": "42fc099c35aaa9adf88b75d1f115720da15d4f93",
+      "sourcePackageVersion": "1.507.6",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "1cb9206a08ab8c66fb9e870b21f63decc1a79654",
+      "sourcePackageVersion": "1.507.6",
+      "intentIds": []
     }
   ],
   "intents": [
