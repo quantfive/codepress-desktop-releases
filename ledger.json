@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "85743ee3b262f4cd59dd128b45dbd6ac0c9c390e",
-  "highWaterVersion": "1.498.0",
+  "highWaterVersion": "1.499.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -80696,6 +80696,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:85743ee3b262f4cd59dd128b45dbd6ac0c9c390e",
+      "kind": "main",
+      "sequence": 2163,
+      "sourceSha": "85743ee3b262f4cd59dd128b45dbd6ac0c9c390e",
+      "sourcePackageVersion": "1.509.1",
+      "version": "1.499.0",
+      "publicationDate": "2026-11-07T20:28:57.841Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "grok-orchestrator:6b0362fb19d98b8c9a93c450042a21027ccc68c9b7c71ea59bfc462531d68daf"
+        ],
+        "notesIntentIds": [
+          "grok-orchestrator:6b0362fb19d98b8c9a93c450042a21027ccc68c9b7c71ea59bfc462531d68daf"
+        ],
+        "throughSourceSha": "85743ee3b262f4cd59dd128b45dbd6ac0c9c390e",
+        "previousThroughSourceSha": "3840505f903dce88cf5868c4d6ad441eb9122b1c",
+        "baselineVersion": "1.498.0",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42411204571",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-08T20:28:50.437Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -159293,7 +159336,8 @@
     "handoff-one-tab-per-worker:bf59b8e407c6745182acaf7c174cd82074be83a2e1ea4057c1040c4ef39a238e",
     "grok-personal-team:fc6dc0d4cbb07b95c4b1d52f82aff548366f90dfa5b82b3814ba4e15285b4d1a",
     "orchestrator-google-workspace-default:c288b05b7700cf67529b731a48b5c24664ef309d591d4462404090fe8ac9fd13",
-    "partial-restore-unrestorable-workers:396419751ecb44fd802cbc2fe4f1bd5265e2c63120b0975f6a2501f049c51084"
+    "partial-restore-unrestorable-workers:396419751ecb44fd802cbc2fe4f1bd5265e2c63120b0975f6a2501f049c51084",
+    "grok-orchestrator:6b0362fb19d98b8c9a93c450042a21027ccc68c9b7c71ea59bfc462531d68daf"
   ],
-  "consumedThroughSha": "3840505f903dce88cf5868c4d6ad441eb9122b1c"
+  "consumedThroughSha": "85743ee3b262f4cd59dd128b45dbd6ac0c9c390e"
 }
