@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2ae7076dc13177906027c7278ff923c01c02968f",
+  "cursorSha": "0c404cc2c85c121fdc8ad869b753491b54ff244c",
   "highWaterVersion": "1.496.2",
   "rows": [
     {
@@ -149906,6 +149906,13 @@
       "sourceSha": "2ae7076dc13177906027c7278ff923c01c02968f",
       "sourcePackageVersion": "1.507.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0c404cc2c85c121fdc8ad869b753491b54ff244c",
+      "sourcePackageVersion": "1.507.2",
+      "intentIds": [
+        "relay-rollback-handoff:a0f4a0f61ab5c7121ddb018098f55c63bd1ee4f33fe1bd5a6072f83b3feae036"
+      ]
     }
   ],
   "intents": [
@@ -157580,6 +157587,14 @@
       "summary": "Split the native app into a Cargo workspace with a thin app crate, so a new commit, a version bump or a frontend edit no longer recompiles the app library.",
       "sourceSha": "4a121393abf0a91910684c52605ae9031d0d2069",
       "identity": "thin-terminal-app-crate:e7474358cb84cf958b40529af772435093fd26a9651439465ce283c873feb7dc"
+    },
+    {
+      "id": "relay-rollback-handoff",
+      "digest": "a0f4a0f61ab5c7121ddb018098f55c63bd1ee4f33fe1bd5a6072f83b3feae036",
+      "type": "patch",
+      "summary": "A computer the edge relay released keeps its relay connection when the relay is turned down for it, and closes it only once its tunnel has connected and stayed up, so its URL stays reachable through the handoff.",
+      "sourceSha": "0c404cc2c85c121fdc8ad869b753491b54ff244c",
+      "identity": "relay-rollback-handoff:a0f4a0f61ab5c7121ddb018098f55c63bd1ee4f33fe1bd5a6072f83b3feae036"
     }
   ],
   "consumedIntentIds": [
