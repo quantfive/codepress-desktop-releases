@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "aafd4aef064b69247a2ae0009bc28f12f74256c7",
-  "highWaterVersion": "1.496.6",
+  "highWaterVersion": "1.496.7",
   "rows": [
     {
       "schemaVersion": 1,
@@ -80465,6 +80465,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:aafd4aef064b69247a2ae0009bc28f12f74256c7",
+      "kind": "main",
+      "sequence": 2159,
+      "sourceSha": "aafd4aef064b69247a2ae0009bc28f12f74256c7",
+      "sourcePackageVersion": "1.507.5",
+      "version": "1.496.7",
+      "publicationDate": "2026-11-07T17:40:12.884Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "this-machine-registered-name:2df0741847b1628cb82b304f9d9146ac0e71bc61bf1c99077ec99a3ad9005fe1"
+        ],
+        "notesIntentIds": [
+          "this-machine-registered-name:2df0741847b1628cb82b304f9d9146ac0e71bc61bf1c99077ec99a3ad9005fe1"
+        ],
+        "throughSourceSha": "aafd4aef064b69247a2ae0009bc28f12f74256c7",
+        "previousThroughSourceSha": "ce7606f18c9f2a19d55b3cb7670491ca66c8cb4e",
+        "baselineVersion": "1.496.6",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42397398571",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-08T17:40:06.480Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -158880,7 +158923,8 @@
     "relay-rollback-handoff:a0f4a0f61ab5c7121ddb018098f55c63bd1ee4f33fe1bd5a6072f83b3feae036",
     "terminal-foundation-voice-crates:7717b5085206f7c9636a5f0b402f31e3b68ac9eeed460ef8d520ecae2ef369d5",
     "private-display-child-join:72eccc8f2b19826a1b8893de680c187c2d5d14d700e27c66e48a1402076ce2e5",
-    "terminal-screen-crate:db9771773715012488ac3d6c1302ee406340ec487d0dad41f03a87fc947d00a9"
+    "terminal-screen-crate:db9771773715012488ac3d6c1302ee406340ec487d0dad41f03a87fc947d00a9",
+    "this-machine-registered-name:2df0741847b1628cb82b304f9d9146ac0e71bc61bf1c99077ec99a3ad9005fe1"
   ],
-  "consumedThroughSha": "ce7606f18c9f2a19d55b3cb7670491ca66c8cb4e"
+  "consumedThroughSha": "aafd4aef064b69247a2ae0009bc28f12f74256c7"
 }
