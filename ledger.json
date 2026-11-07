@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "daaccc0f16c220fbace36a0b22cff1c08c1da135",
-  "highWaterVersion": "1.499.2",
+  "highWaterVersion": "1.500.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -80861,6 +80861,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:daaccc0f16c220fbace36a0b22cff1c08c1da135",
+      "kind": "main",
+      "sequence": 2166,
+      "sourceSha": "daaccc0f16c220fbace36a0b22cff1c08c1da135",
+      "sourcePackageVersion": "1.510.2",
+      "version": "1.500.0",
+      "publicationDate": "2026-11-07T22:19:10.412Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "grok-usage-cards-pickers:a6ca5d680a74c2830aad1d8e0d85517f06d02c8c4876439184e5e7ff5ce5a41c"
+        ],
+        "notesIntentIds": [
+          "grok-usage-cards-pickers:a6ca5d680a74c2830aad1d8e0d85517f06d02c8c4876439184e5e7ff5ce5a41c"
+        ],
+        "throughSourceSha": "daaccc0f16c220fbace36a0b22cff1c08c1da135",
+        "previousThroughSourceSha": "1d055291a4b57e6ed9a670b6b4c5645f3f52c74a",
+        "baselineVersion": "1.499.2",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42419990807",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-08T22:19:01.613Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -159541,7 +159584,8 @@
     "partial-restore-unrestorable-workers:396419751ecb44fd802cbc2fe4f1bd5265e2c63120b0975f6a2501f049c51084",
     "grok-orchestrator:6b0362fb19d98b8c9a93c450042a21027ccc68c9b7c71ea59bfc462531d68daf",
     "orphaned-delivery-handoff:e50f16d890b837bced19365c1e59f3f1069aa61b4c51d5d98520c73a881f2520",
-    "handoff-reprepare-automatically:49f2e94c30e31529c871e026dd116216ff882ef1a864c6ba7094ff7f16c67b77"
+    "handoff-reprepare-automatically:49f2e94c30e31529c871e026dd116216ff882ef1a864c6ba7094ff7f16c67b77",
+    "grok-usage-cards-pickers:a6ca5d680a74c2830aad1d8e0d85517f06d02c8c4876439184e5e7ff5ce5a41c"
   ],
-  "consumedThroughSha": "1d055291a4b57e6ed9a670b6b4c5645f3f52c74a"
+  "consumedThroughSha": "daaccc0f16c220fbace36a0b22cff1c08c1da135"
 }
