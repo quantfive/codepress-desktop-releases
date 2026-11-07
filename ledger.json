@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9e47af6bcd8e9020241819c19ac6f1853f4c83ca",
+  "cursorSha": "d323d12ff50a42602106cc3f5c3311bb3752ec65",
   "highWaterVersion": "1.500.0",
   "rows": [
     {
@@ -150842,6 +150842,13 @@
       "sourceSha": "9e47af6bcd8e9020241819c19ac6f1853f4c83ca",
       "sourcePackageVersion": "1.511.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d323d12ff50a42602106cc3f5c3311bb3752ec65",
+      "sourcePackageVersion": "1.511.0",
+      "intentIds": [
+        "handoff-copy-fallback:814a93b759efd26f0fe0d61641e6977eb48227bb9e3eb73d9ace359619562215"
+      ]
     }
   ],
   "intents": [
@@ -158636,6 +158643,14 @@
       "summary": "Grok accounts now show how much of their weekly or monthly allowance is used and when it resets, on the account card and in the Orchestrator and worker pickers. When the reading is unavailable the card says \"Usage unavailable\" instead of 0%. Every catalog Grok model now has a price in Settings → Usage.",
       "sourceSha": "daaccc0f16c220fbace36a0b22cff1c08c1da135",
       "identity": "grok-usage-cards-pickers:a6ca5d680a74c2830aad1d8e0d85517f06d02c8c4876439184e5e7ff5ce5a41c"
+    },
+    {
+      "id": "handoff-copy-fallback",
+      "digest": "814a93b759efd26f0fe0d61641e6977eb48227bb9e3eb73d9ace359619562215",
+      "type": "patch",
+      "summary": "Moving a project to this machine no longer needs its home machine to be awake. A home that isn't connected is not asked at all, and one that stops answering partway through is replaced by a takeover from the cloud copy after 30 seconds. If no cloud copy can be used, the move says the home isn't answering and nothing moved, and offers a plain Try again.",
+      "sourceSha": "d323d12ff50a42602106cc3f5c3311bb3752ec65",
+      "identity": "handoff-copy-fallback:814a93b759efd26f0fe0d61641e6977eb48227bb9e3eb73d9ace359619562215"
     }
   ],
   "consumedIntentIds": [
