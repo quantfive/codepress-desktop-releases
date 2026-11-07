@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "ce7606f18c9f2a19d55b3cb7670491ca66c8cb4e",
-  "highWaterVersion": "1.496.5",
+  "highWaterVersion": "1.496.6",
   "rows": [
     {
       "schemaVersion": 1,
@@ -80410,6 +80410,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:ce7606f18c9f2a19d55b3cb7670491ca66c8cb4e",
+      "kind": "main",
+      "sequence": 2158,
+      "sourceSha": "ce7606f18c9f2a19d55b3cb7670491ca66c8cb4e",
+      "sourcePackageVersion": "1.507.4",
+      "version": "1.496.6",
+      "publicationDate": "2026-11-07T14:32:49.054Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-screen-crate:db9771773715012488ac3d6c1302ee406340ec487d0dad41f03a87fc947d00a9"
+        ],
+        "notesIntentIds": [
+          "terminal-screen-crate:db9771773715012488ac3d6c1302ee406340ec487d0dad41f03a87fc947d00a9"
+        ],
+        "throughSourceSha": "ce7606f18c9f2a19d55b3cb7670491ca66c8cb4e",
+        "previousThroughSourceSha": "9169d34877cdf7480701446e4ca6c3ab2ba8ab6d",
+        "baselineVersion": "1.496.5",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42382033530",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-08T14:32:41.934Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -158789,7 +158832,8 @@
     "thin-terminal-app-crate:e7474358cb84cf958b40529af772435093fd26a9651439465ce283c873feb7dc",
     "relay-rollback-handoff:a0f4a0f61ab5c7121ddb018098f55c63bd1ee4f33fe1bd5a6072f83b3feae036",
     "terminal-foundation-voice-crates:7717b5085206f7c9636a5f0b402f31e3b68ac9eeed460ef8d520ecae2ef369d5",
-    "private-display-child-join:72eccc8f2b19826a1b8893de680c187c2d5d14d700e27c66e48a1402076ce2e5"
+    "private-display-child-join:72eccc8f2b19826a1b8893de680c187c2d5d14d700e27c66e48a1402076ce2e5",
+    "terminal-screen-crate:db9771773715012488ac3d6c1302ee406340ec487d0dad41f03a87fc947d00a9"
   ],
-  "consumedThroughSha": "9169d34877cdf7480701446e4ca6c3ab2ba8ab6d"
+  "consumedThroughSha": "ce7606f18c9f2a19d55b3cb7670491ca66c8cb4e"
 }
