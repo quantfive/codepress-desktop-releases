@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2a67e307fd3889e638af9f0a092d873c0972ffac",
+  "cursorSha": "85743ee3b262f4cd59dd128b45dbd6ac0c9c390e",
   "highWaterVersion": "1.498.0",
   "rows": [
     {
@@ -150544,6 +150544,13 @@
       "sourceSha": "2a67e307fd3889e638af9f0a092d873c0972ffac",
       "sourcePackageVersion": "1.509.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "85743ee3b262f4cd59dd128b45dbd6ac0c9c390e",
+      "sourcePackageVersion": "1.509.1",
+      "intentIds": [
+        "grok-orchestrator:6b0362fb19d98b8c9a93c450042a21027ccc68c9b7c71ea59bfc462531d68daf"
+      ]
     }
   ],
   "intents": [
@@ -158306,6 +158313,14 @@
       "summary": "Picking up a project from its cloud copy no longer fails when one worker cannot be restored. That worker comes across stopped, with the reason and its cloud checkpoint kept, and the Orchestrator inbox and the move dialog name it. A worker whose tree was already removed is no longer restored at all. The repository and branch are now looked up from every source the copy carries before a worker is given up on.",
       "sourceSha": "3840505f903dce88cf5868c4d6ad441eb9122b1c",
       "identity": "partial-restore-unrestorable-workers:396419751ecb44fd802cbc2fe4f1bd5265e2c63120b0975f6a2501f049c51084"
+    },
+    {
+      "id": "grok-orchestrator",
+      "digest": "6b0362fb19d98b8c9a93c450042a21027ccc68c9b7c71ea59bfc462531d68daf",
+      "type": "minor",
+      "summary": "A local Orchestrator can now run on Grok. Pick a Grok model at kickoff or in Project settings and the Orchestrator runs on Grok Build itself (`grok agent`), on the Grok account this machine uses, with the same tools, thread, resume and account rules as Claude, Codex and Muse. Projects stuck on the old \"Grok can run workers but not the Orchestrator yet\" message now start.",
+      "sourceSha": "85743ee3b262f4cd59dd128b45dbd6ac0c9c390e",
+      "identity": "grok-orchestrator:6b0362fb19d98b8c9a93c450042a21027ccc68c9b7c71ea59bfc462531d68daf"
     }
   ],
   "consumedIntentIds": [
