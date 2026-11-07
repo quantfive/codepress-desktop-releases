@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "0c404cc2c85c121fdc8ad869b753491b54ff244c",
-  "highWaterVersion": "1.496.2",
+  "highWaterVersion": "1.496.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -80245,6 +80245,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:0c404cc2c85c121fdc8ad869b753491b54ff244c",
+      "kind": "main",
+      "sequence": 2155,
+      "sourceSha": "0c404cc2c85c121fdc8ad869b753491b54ff244c",
+      "sourcePackageVersion": "1.507.2",
+      "version": "1.496.3",
+      "publicationDate": "2026-11-07T11:45:17.148Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "relay-rollback-handoff:a0f4a0f61ab5c7121ddb018098f55c63bd1ee4f33fe1bd5a6072f83b3feae036"
+        ],
+        "notesIntentIds": [
+          "relay-rollback-handoff:a0f4a0f61ab5c7121ddb018098f55c63bd1ee4f33fe1bd5a6072f83b3feae036"
+        ],
+        "throughSourceSha": "0c404cc2c85c121fdc8ad869b753491b54ff244c",
+        "previousThroughSourceSha": "4a121393abf0a91910684c52605ae9031d0d2069",
+        "baselineVersion": "1.496.2",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42369452226",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-08T11:45:10.163Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -158556,7 +158599,8 @@
     "terminal-account-spaces:ac54e4d094e823742e873de60b8479db966b0f21c5d3d59ad7195448914b759c",
     "relay-release-healthy-tunnels:be4aad4b804225cdf13dfc7db82840a5fffeb5c9b8ea214dec7891443234d4ef",
     "quiet-file-header:2b9f803982dd0a269e007cc90699ab98dbfe1c47f08f71b8423b5047d91a07d2",
-    "thin-terminal-app-crate:e7474358cb84cf958b40529af772435093fd26a9651439465ce283c873feb7dc"
+    "thin-terminal-app-crate:e7474358cb84cf958b40529af772435093fd26a9651439465ce283c873feb7dc",
+    "relay-rollback-handoff:a0f4a0f61ab5c7121ddb018098f55c63bd1ee4f33fe1bd5a6072f83b3feae036"
   ],
-  "consumedThroughSha": "4a121393abf0a91910684c52605ae9031d0d2069"
+  "consumedThroughSha": "0c404cc2c85c121fdc8ad869b753491b54ff244c"
 }
