@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "67297cc517048663a41b8a908ff6e3df5ccd1453",
+  "cursorSha": "35562f36180788e3b8c23e1a6440ccd6effcfcc0",
   "highWaterVersion": "1.497.0",
   "rows": [
     {
@@ -150439,6 +150439,13 @@
       "intentIds": [
         "grok-personal-team:fc6dc0d4cbb07b95c4b1d52f82aff548366f90dfa5b82b3814ba4e15285b4d1a"
       ]
+    },
+    {
+      "sourceSha": "35562f36180788e3b8c23e1a6440ccd6effcfcc0",
+      "sourcePackageVersion": "1.508.0",
+      "intentIds": [
+        "orchestrator-google-workspace-default:c288b05b7700cf67529b731a48b5c24664ef309d591d4462404090fe8ac9fd13"
+      ]
     }
   ],
   "intents": [
@@ -158185,6 +158192,14 @@
       "summary": "Personal and Team Grok accounts connected on CodePress now show on the Grok tab, and Add account → Grok signs a Personal or Team one in with a device code. Choose a Personal account for this computer and CodePress leases it the access token, never the refresh token: `grok` runs on it, the token is renewed while it stays chosen, and your own login comes back when you sign out, clear it or the computer is revoked. A repository rule can bind a Personal Grok account too. Team Grok accounts and xAI API keys run cloud agents only.",
       "sourceSha": "67297cc517048663a41b8a908ff6e3df5ccd1453",
       "identity": "grok-personal-team:fc6dc0d4cbb07b95c4b1d52f82aff548366f90dfa5b82b3814ba4e15285b4d1a"
+    },
+    {
+      "id": "orchestrator-google-workspace-default",
+      "digest": "c288b05b7700cf67529b731a48b5c24664ef309d591d4462404090fe8ac9fd13",
+      "type": "patch",
+      "summary": "The Orchestrator now knows that when your organization has Google Workspace connected, it can list your Google connections through its CodePress connection and use Google for the documents, spreadsheets, decks, email drafts and events you ask for. Plans and design issues still go to GitHub.",
+      "sourceSha": "35562f36180788e3b8c23e1a6440ccd6effcfcc0",
+      "identity": "orchestrator-google-workspace-default:c288b05b7700cf67529b731a48b5c24664ef309d591d4462404090fe8ac9fd13"
     }
   ],
   "consumedIntentIds": [
