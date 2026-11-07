@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "2984b9632a7d4e0aa0cb6aa26d0f565b2bd951a7",
-  "highWaterVersion": "1.495.0",
+  "highWaterVersion": "1.496.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -80080,6 +80080,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:2984b9632a7d4e0aa0cb6aa26d0f565b2bd951a7",
+      "kind": "main",
+      "sequence": 2152,
+      "sourceSha": "2984b9632a7d4e0aa0cb6aa26d0f565b2bd951a7",
+      "sourcePackageVersion": "1.506.0",
+      "version": "1.496.0",
+      "publicationDate": "2026-11-07T05:03:44.279Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "relay-release-healthy-tunnels:be4aad4b804225cdf13dfc7db82840a5fffeb5c9b8ea214dec7891443234d4ef"
+        ],
+        "notesIntentIds": [
+          "relay-release-healthy-tunnels:be4aad4b804225cdf13dfc7db82840a5fffeb5c9b8ea214dec7891443234d4ef"
+        ],
+        "throughSourceSha": "2984b9632a7d4e0aa0cb6aa26d0f565b2bd951a7",
+        "previousThroughSourceSha": "8508b1b5e30e618dd1473c465eb05f0eeaae9aea",
+        "baselineVersion": "1.495.0",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42341051263",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-08T05:03:36.735Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -158198,7 +158241,8 @@
     "team-view-workers-artifacts:63732f4466e8f945649be73d1a191d8e09523e428889e4339a6fdbc4a5ed3c8a",
     "terminal-native-build-baseline:ea460fb21cf4974779ed85d1c47c40808b27b403cc225ae9e156d82de5c72c1e",
     "kickoff-row-project-label:5dacd5703f4da5ac591e7cc52de934f1cfc44c4d2b689b4789d018dc5005c883",
-    "terminal-account-spaces:ac54e4d094e823742e873de60b8479db966b0f21c5d3d59ad7195448914b759c"
+    "terminal-account-spaces:ac54e4d094e823742e873de60b8479db966b0f21c5d3d59ad7195448914b759c",
+    "relay-release-healthy-tunnels:be4aad4b804225cdf13dfc7db82840a5fffeb5c9b8ea214dec7891443234d4ef"
   ],
-  "consumedThroughSha": "8508b1b5e30e618dd1473c465eb05f0eeaae9aea"
+  "consumedThroughSha": "2984b9632a7d4e0aa0cb6aa26d0f565b2bd951a7"
 }
