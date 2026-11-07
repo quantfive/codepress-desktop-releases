@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d47c52bbc3a298f0c5e3f9df5e248b9738c62ee9",
+  "cursorSha": "354dda3756322406e6978879c5ad1abd51634a1a",
   "highWaterVersion": "1.493.1",
   "rows": [
     {
@@ -149310,6 +149310,13 @@
       "sourceSha": "d47c52bbc3a298f0c5e3f9df5e248b9738c62ee9",
       "sourcePackageVersion": "1.504.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "354dda3756322406e6978879c5ad1abd51634a1a",
+      "sourcePackageVersion": "1.504.1",
+      "intentIds": [
+        "team-view-workers-artifacts:63732f4466e8f945649be73d1a191d8e09523e428889e4339a6fdbc4a5ed3c8a"
+      ]
     }
   ],
   "intents": [
@@ -156928,6 +156935,14 @@
       "summary": "A repository with several packages can start a local preview on Desktop's managed VM. A preview now mounts cache volumes only for the packages its frontend can install into, and only the build cache its framework uses, which also shortens the list on Docker and Podman. If a repository still has too many packages for the VM, it fails with a clear reason before any container runs, and any failed container step now shows the engine's own reason.",
       "sourceSha": "28909a8ad20710420bfa469f0c7ac001c6455616",
       "identity": "lima-mounts-label:b6a92efc7eb8d9f8c6f52349d71a786288abaa20f2e0dde4640e82c405d7c280"
+    },
+    {
+      "id": "team-view-workers-artifacts",
+      "digest": "63732f4466e8f945649be73d1a191d8e09523e428889e4339a6fdbc4a5ed3c8a",
+      "type": "minor",
+      "summary": "A teammate's Team project shows each worker's conversation on its Agent card (words and tool calls, updated at each turn end, with Full transcript), opens a cloud worker's own chat, and has an Artifacts view to list and download what the project published.",
+      "sourceSha": "354dda3756322406e6978879c5ad1abd51634a1a",
+      "identity": "team-view-workers-artifacts:63732f4466e8f945649be73d1a191d8e09523e428889e4339a6fdbc4a5ed3c8a"
     }
   ],
   "consumedIntentIds": [
