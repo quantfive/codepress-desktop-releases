@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "330d3044c8686bb87b10257adc8fb961d84f979f",
+  "cursorSha": "8508b1b5e30e618dd1473c465eb05f0eeaae9aea",
   "highWaterVersion": "1.494.1",
   "rows": [
     {
@@ -149478,6 +149478,13 @@
       "sourceSha": "330d3044c8686bb87b10257adc8fb961d84f979f",
       "sourcePackageVersion": "1.505.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "8508b1b5e30e618dd1473c465eb05f0eeaae9aea",
+      "sourcePackageVersion": "1.505.2",
+      "intentIds": [
+        "terminal-account-spaces:ac54e4d094e823742e873de60b8479db966b0f21c5d3d59ad7195448914b759c"
+      ]
     }
   ],
   "intents": [
@@ -157120,6 +157127,14 @@
       "summary": "In the New chat kickoff, a row without a folder chip now shows the project picker's label in full whenever the row has room, and Chat mode's model chip is the same shared component the web's phone New chat draws.",
       "sourceSha": "aa95303688f086af174da5310f027bd8245ed836",
       "identity": "kickoff-row-project-label:5dacd5703f4da5ac591e7cc52de934f1cfc44c4d2b689b4789d018dc5005c883"
+    },
+    {
+      "id": "terminal-account-spaces",
+      "digest": "ac54e4d094e823742e873de60b8479db966b0f21c5d3d59ad7195448914b759c",
+      "type": "minor",
+      "summary": "Each CodePress account signed in to the app on a machine now gets its own account space: a separate data folder with its own machine ID, projects, tabs, transcripts, settings and AI logins. Signing in as another account asks first, lists the agents that will stop, then reopens the app in that account's space; nothing from one account's space is shown to or uploaded under another, and nothing uploads while signed out.",
+      "sourceSha": "8508b1b5e30e618dd1473c465eb05f0eeaae9aea",
+      "identity": "terminal-account-spaces:ac54e4d094e823742e873de60b8479db966b0f21c5d3d59ad7195448914b759c"
     }
   ],
   "consumedIntentIds": [
