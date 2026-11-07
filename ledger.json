@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "80b35e4fa5121f5f06ca505ee5a6d2f12190b635",
+  "cursorSha": "f581a763214d1691f954bd81b97c5ce625e205e6",
   "highWaterVersion": "1.491.5",
   "rows": [
     {
@@ -148865,6 +148865,13 @@
       "sourceSha": "80b35e4fa5121f5f06ca505ee5a6d2f12190b635",
       "sourcePackageVersion": "1.502.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f581a763214d1691f954bd81b97c5ce625e205e6",
+      "sourcePackageVersion": "1.502.7",
+      "intentIds": [
+        "lima-homes-go-to-kept:a5de2c3ca577e15e2f6252df6156d54b54039133af3312a8886fea52caea8f6c"
+      ]
     }
   ],
   "intents": [
@@ -156427,6 +156434,14 @@
       "summary": "Selected tabs and other `dark:` styles now follow Terminal's own Light or Dark theme instead of this machine's OS appearance, so the feed rail's selected My feed and All stay readable when the two differ.",
       "sourceSha": "3a3a00da3136be816ee5a47f10b13a6a82a91e09",
       "identity": "terminal-dark-variant-follows-theme:53345df4893c1f006bf2d1f532c83169b4a3914edfa5244793e8752e43678625"
+    },
+    {
+      "id": "lima-homes-go-to-kept",
+      "digest": "a5de2c3ca577e15e2f6252df6156d54b54039133af3312a8886fea52caea8f6c",
+      "type": "patch",
+      "summary": "Storage cleanup no longer deletes a local preview VM folder by itself. Once the Terminal data folder that made it is gone, the folder is listed under Settings → Storage → Kept with its size, and only your Remove deletes it. Remove is refused while the VM is running or anything has a file open in the folder.",
+      "sourceSha": "f581a763214d1691f954bd81b97c5ce625e205e6",
+      "identity": "lima-homes-go-to-kept:a5de2c3ca577e15e2f6252df6156d54b54039133af3312a8886fea52caea8f6c"
     }
   ],
   "consumedIntentIds": [
