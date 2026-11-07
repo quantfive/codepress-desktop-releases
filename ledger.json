@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "afb7f714b63e05fc55c4ebc4c52eea7e817a4a60",
+  "cursorSha": "1d055291a4b57e6ed9a670b6b4c5645f3f52c74a",
   "highWaterVersion": "1.499.1",
   "rows": [
     {
@@ -150688,6 +150688,13 @@
       "sourceSha": "afb7f714b63e05fc55c4ebc4c52eea7e817a4a60",
       "sourcePackageVersion": "1.510.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "1d055291a4b57e6ed9a670b6b4c5645f3f52c74a",
+      "sourcePackageVersion": "1.510.1",
+      "intentIds": [
+        "handoff-reprepare-automatically:49f2e94c30e31529c871e026dd116216ff882ef1a864c6ba7094ff7f16c67b77"
+      ]
     }
   ],
   "intents": [
@@ -158466,6 +158473,14 @@
       "summary": "Moving an Orchestrator project no longer refuses with \"A worker message or restart is still being delivered\" when the process that was delivering it is gone. Those deliveries are settled as uncertain (never sent again), a restart left pending moves its worker as stopped (or, while its tab may still run an agent, the move refuses and names that tab or says it cannot be checked from this window), and Terminal start and PM session end clear such leftovers. A delivery that is still being written is waited on for up to a minute, with \"Waiting for a message to <worker> to finish…\" shown in the move.",
       "sourceSha": "40e356c4828927754489924fef6da9aa12d98719",
       "identity": "orphaned-delivery-handoff:e50f16d890b837bced19365c1e59f3f1069aa61b4c51d5d98520c73a881f2520"
+    },
+    {
+      "id": "handoff-reprepare-automatically",
+      "digest": "49f2e94c30e31529c871e026dd116216ff882ef1a864c6ba7094ff7f16c67b77",
+      "type": "patch",
+      "summary": "Handing off a project no longer fails because workers were updated in the background while the move was being prepared. If a worker really changes in that window (relaunched onto a new tab, branch renamed), the move prepares again by itself and only gives up after a few tries, naming just the workers that kept changing. A merge in flight or a merged pull request still settling now makes the move wait, with a line in the dialog saying what it waits on, instead of refusing.",
+      "sourceSha": "1d055291a4b57e6ed9a670b6b4c5645f3f52c74a",
+      "identity": "handoff-reprepare-automatically:49f2e94c30e31529c871e026dd116216ff882ef1a864c6ba7094ff7f16c67b77"
     }
   ],
   "consumedIntentIds": [
