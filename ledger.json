@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "aa819d17aefcf2b83f1dd248eb2f5d56d730a9ca",
+  "cursorSha": "dbc0f89680b1f0a94923017580de861840072850",
   "highWaterVersion": "1.496.8",
   "rows": [
     {
@@ -150348,6 +150348,13 @@
       "sourceSha": "aa819d17aefcf2b83f1dd248eb2f5d56d730a9ca",
       "sourcePackageVersion": "1.507.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "dbc0f89680b1f0a94923017580de861840072850",
+      "sourcePackageVersion": "1.507.7",
+      "intentIds": [
+        "muse-limit-recovery:67fe2315a89b4841cf8dc6eeb9e7d45217b7c33818aa660c617b97ded0cf3311"
+      ]
     }
   ],
   "intents": [
@@ -158070,6 +158077,14 @@
       "summary": "Upgrade the Codex SDK to 0.167.0 and refresh its app-server protocol.",
       "sourceSha": "1b8c5c2a3bbcbadc14adf9aa062444616b3c6ee0",
       "identity": "codex-sdk-0167:27b77e9236575c4c9a760b2a6ce99c86c34698491dc006aff973f4b40a02bf1b"
+    },
+    {
+      "id": "muse-limit-recovery",
+      "digest": "67fe2315a89b4841cf8dc6eeb9e7d45217b7c33818aa660c617b97ded0cf3311",
+      "type": "minor",
+      "summary": "A Muse agent that hits its usage limit now says so. A strip on the composer names the account and when it resets, and the agent waits on the same account and continues there at the reset. Choose **Continue on another account** on the strip to move it yourself, the same as switching in Accounts. Terminal never moves a Muse account because of a limit on its own, and agents cannot do it for you. The Orchestrator hears what happened to its Muse workers.",
+      "sourceSha": "dbc0f89680b1f0a94923017580de861840072850",
+      "identity": "muse-limit-recovery:67fe2315a89b4841cf8dc6eeb9e7d45217b7c33818aa660c617b97ded0cf3311"
     }
   ],
   "consumedIntentIds": [
