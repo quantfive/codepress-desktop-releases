@@ -80010,10 +80010,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42335200079",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-08T03:42:43.377Z",
         "dispatch": null,
         "failures": []
       }
