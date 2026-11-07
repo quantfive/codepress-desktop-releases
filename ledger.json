@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "3840505f903dce88cf5868c4d6ad441eb9122b1c",
-  "highWaterVersion": "1.497.0",
+  "highWaterVersion": "1.498.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -80635,6 +80635,55 @@
           }
         ]
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:3840505f903dce88cf5868c4d6ad441eb9122b1c",
+      "kind": "main",
+      "sequence": 2162,
+      "sourceSha": "3840505f903dce88cf5868c4d6ad441eb9122b1c",
+      "sourcePackageVersion": "1.509.0",
+      "version": "1.498.0",
+      "publicationDate": "2026-11-07T20:07:43.816Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "handoff-one-tab-per-worker:bf59b8e407c6745182acaf7c174cd82074be83a2e1ea4057c1040c4ef39a238e",
+          "grok-personal-team:fc6dc0d4cbb07b95c4b1d52f82aff548366f90dfa5b82b3814ba4e15285b4d1a",
+          "orchestrator-google-workspace-default:c288b05b7700cf67529b731a48b5c24664ef309d591d4462404090fe8ac9fd13",
+          "partial-restore-unrestorable-workers:396419751ecb44fd802cbc2fe4f1bd5265e2c63120b0975f6a2501f049c51084"
+        ],
+        "notesIntentIds": [
+          "handoff-one-tab-per-worker:bf59b8e407c6745182acaf7c174cd82074be83a2e1ea4057c1040c4ef39a238e",
+          "grok-personal-team:fc6dc0d4cbb07b95c4b1d52f82aff548366f90dfa5b82b3814ba4e15285b4d1a",
+          "orchestrator-google-workspace-default:c288b05b7700cf67529b731a48b5c24664ef309d591d4462404090fe8ac9fd13",
+          "partial-restore-unrestorable-workers:396419751ecb44fd802cbc2fe4f1bd5265e2c63120b0975f6a2501f049c51084"
+        ],
+        "throughSourceSha": "3840505f903dce88cf5868c4d6ad441eb9122b1c",
+        "previousThroughSourceSha": "dbc0f89680b1f0a94923017580de861840072850",
+        "baselineVersion": "1.497.0",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42409483858",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-08T20:07:37.392Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -159198,7 +159247,11 @@
     "terminal-screen-crate:db9771773715012488ac3d6c1302ee406340ec487d0dad41f03a87fc947d00a9",
     "this-machine-registered-name:2df0741847b1628cb82b304f9d9146ac0e71bc61bf1c99077ec99a3ad9005fe1",
     "codex-sdk-0167:27b77e9236575c4c9a760b2a6ce99c86c34698491dc006aff973f4b40a02bf1b",
-    "muse-limit-recovery:67fe2315a89b4841cf8dc6eeb9e7d45217b7c33818aa660c617b97ded0cf3311"
+    "muse-limit-recovery:67fe2315a89b4841cf8dc6eeb9e7d45217b7c33818aa660c617b97ded0cf3311",
+    "handoff-one-tab-per-worker:bf59b8e407c6745182acaf7c174cd82074be83a2e1ea4057c1040c4ef39a238e",
+    "grok-personal-team:fc6dc0d4cbb07b95c4b1d52f82aff548366f90dfa5b82b3814ba4e15285b4d1a",
+    "orchestrator-google-workspace-default:c288b05b7700cf67529b731a48b5c24664ef309d591d4462404090fe8ac9fd13",
+    "partial-restore-unrestorable-workers:396419751ecb44fd802cbc2fe4f1bd5265e2c63120b0975f6a2501f049c51084"
   ],
-  "consumedThroughSha": "dbc0f89680b1f0a94923017580de861840072850"
+  "consumedThroughSha": "3840505f903dce88cf5868c4d6ad441eb9122b1c"
 }
