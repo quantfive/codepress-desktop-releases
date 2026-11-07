@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "28909a8ad20710420bfa469f0c7ac001c6455616",
-  "highWaterVersion": "1.493.0",
+  "highWaterVersion": "1.493.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -79858,6 +79858,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:28909a8ad20710420bfa469f0c7ac001c6455616",
+      "kind": "main",
+      "sequence": 2148,
+      "sourceSha": "28909a8ad20710420bfa469f0c7ac001c6455616",
+      "sourcePackageVersion": "1.504.0",
+      "version": "1.493.1",
+      "publicationDate": "2026-11-07T02:10:46.153Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "lima-mounts-label:b6a92efc7eb8d9f8c6f52349d71a786288abaa20f2e0dde4640e82c405d7c280"
+        ],
+        "notesIntentIds": [
+          "lima-mounts-label:b6a92efc7eb8d9f8c6f52349d71a786288abaa20f2e0dde4640e82c405d7c280"
+        ],
+        "throughSourceSha": "28909a8ad20710420bfa469f0c7ac001c6455616",
+        "previousThroughSourceSha": "77bdb8b44e78bbc9ee340538d7d0e1d276de6d5f",
+        "baselineVersion": "1.493.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42327857552",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-08T02:10:40.965Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -157791,7 +157834,8 @@
     "team-view-plan-renders:cf1cc43e778579646e9c2995b93db4ec3d1f6292d7f280a75779d1f844f3bbde",
     "terminal-replica-artifacts:fdc95caf164a5ee318657c7cbd8d96584d7f05c9dc480dc1f0cdfc8468510c8c",
     "machine-lists-other-account:9c4cdc835cd80dbfd99937fb3236d54880ceda7fe6b15446f1597f30e501cd35",
-    "warm-workflow-spares:21e2535411d2bd0df9a5ce4cb2e036db40459e22fe3f882d12728d00fdced387"
+    "warm-workflow-spares:21e2535411d2bd0df9a5ce4cb2e036db40459e22fe3f882d12728d00fdced387",
+    "lima-mounts-label:b6a92efc7eb8d9f8c6f52349d71a786288abaa20f2e0dde4640e82c405d7c280"
   ],
-  "consumedThroughSha": "77bdb8b44e78bbc9ee340538d7d0e1d276de6d5f"
+  "consumedThroughSha": "28909a8ad20710420bfa469f0c7ac001c6455616"
 }
