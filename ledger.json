@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f581a763214d1691f954bd81b97c5ce625e205e6",
+  "cursorSha": "2bdb98a20680e768f47a6182836d64702c13e386",
   "highWaterVersion": "1.491.5",
   "rows": [
     {
@@ -148872,6 +148872,13 @@
       "intentIds": [
         "lima-homes-go-to-kept:a5de2c3ca577e15e2f6252df6156d54b54039133af3312a8886fea52caea8f6c"
       ]
+    },
+    {
+      "sourceSha": "2bdb98a20680e768f47a6182836d64702c13e386",
+      "sourcePackageVersion": "1.502.7",
+      "intentIds": [
+        "unlimited-chat-kickoff:e4162e77f79d9bad1658f71c45508b6c6f387ead77ddb73fef06dddcf770036e"
+      ]
     }
   ],
   "intents": [
@@ -156442,6 +156449,14 @@
       "summary": "Storage cleanup no longer deletes a local preview VM folder by itself. Once the Terminal data folder that made it is gone, the folder is listed under Settings → Storage → Kept with its size, and only your Remove deletes it. Remove is refused while the VM is running or anything has a file open in the folder.",
       "sourceSha": "f581a763214d1691f954bd81b97c5ce625e205e6",
       "identity": "lima-homes-go-to-kept:a5de2c3ca577e15e2f6252df6156d54b54039133af3312a8886fea52caea8f6c"
+    },
+    {
+      "id": "unlimited-chat-kickoff",
+      "digest": "e4162e77f79d9bad1658f71c45508b6c6f387ead77ddb73fef06dddcf770036e",
+      "type": "patch",
+      "summary": "Remove the 20,000-character brief cap from human Chat and Project kickoff. Use a best-effort BPE token budget from available Codex runtime context metadata while preserving full text, draft recovery and kickoff replay.",
+      "sourceSha": "2bdb98a20680e768f47a6182836d64702c13e386",
+      "identity": "unlimited-chat-kickoff:e4162e77f79d9bad1658f71c45508b6c6f387ead77ddb73fef06dddcf770036e"
     }
   ],
   "consumedIntentIds": [
