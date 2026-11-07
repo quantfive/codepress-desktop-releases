@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "81c82fad7789c4c6ebeabe7bb38f44d26aab0165",
+  "cursorSha": "67297cc517048663a41b8a908ff6e3df5ccd1453",
   "highWaterVersion": "1.497.0",
   "rows": [
     {
@@ -150432,6 +150432,13 @@
       "sourceSha": "81c82fad7789c4c6ebeabe7bb38f44d26aab0165",
       "sourcePackageVersion": "1.508.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "67297cc517048663a41b8a908ff6e3df5ccd1453",
+      "sourcePackageVersion": "1.508.0",
+      "intentIds": [
+        "grok-personal-team:fc6dc0d4cbb07b95c4b1d52f82aff548366f90dfa5b82b3814ba4e15285b4d1a"
+      ]
     }
   ],
   "intents": [
@@ -158170,6 +158177,14 @@
       "summary": "Moving an Orchestrator project to another machine no longer fails with \"admitted after preflight\" because of an old tab left behind by a worker relaunch. Each worker is now tracked by exactly one tab: a relaunch hands the worker's claim to its new tab, and Terminal tidies tabs left by older versions when it starts and before a move, without closing any of them. If an old tab still runs an agent, the move now refuses up front and names the tab, its session and the work item.",
       "sourceSha": "54ca8c269c5a00ca5d9854feab82d0a7c8e95db9",
       "identity": "handoff-one-tab-per-worker:bf59b8e407c6745182acaf7c174cd82074be83a2e1ea4057c1040c4ef39a238e"
+    },
+    {
+      "id": "grok-personal-team",
+      "digest": "fc6dc0d4cbb07b95c4b1d52f82aff548366f90dfa5b82b3814ba4e15285b4d1a",
+      "type": "minor",
+      "summary": "Personal and Team Grok accounts connected on CodePress now show on the Grok tab, and Add account → Grok signs a Personal or Team one in with a device code. Choose a Personal account for this computer and CodePress leases it the access token, never the refresh token: `grok` runs on it, the token is renewed while it stays chosen, and your own login comes back when you sign out, clear it or the computer is revoked. A repository rule can bind a Personal Grok account too. Team Grok accounts and xAI API keys run cloud agents only.",
+      "sourceSha": "67297cc517048663a41b8a908ff6e3df5ccd1453",
+      "identity": "grok-personal-team:fc6dc0d4cbb07b95c4b1d52f82aff548366f90dfa5b82b3814ba4e15285b4d1a"
     }
   ],
   "consumedIntentIds": [
