@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "93a452f9adb22e663ced480733070bd530afc933",
+  "cursorSha": "9169d34877cdf7480701446e4ca6c3ab2ba8ab6d",
   "highWaterVersion": "1.496.4",
   "rows": [
     {
@@ -150045,6 +150045,13 @@
       "sourceSha": "93a452f9adb22e663ced480733070bd530afc933",
       "sourcePackageVersion": "1.507.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9169d34877cdf7480701446e4ca6c3ab2ba8ab6d",
+      "sourcePackageVersion": "1.507.3",
+      "intentIds": [
+        "private-display-child-join:72eccc8f2b19826a1b8893de680c187c2d5d14d700e27c66e48a1402076ce2e5"
+      ]
     }
   ],
   "intents": [
@@ -157735,6 +157742,14 @@
       "summary": "Move settings paths, the settings lock, the display-awake owner and on-device dictation into their own Rust crates, so editing dictation no longer recompiles those lower layers and editing the app no longer recompiles dictation.",
       "sourceSha": "4385e7170ef73fe73c6b013e2c85462362645cb3",
       "identity": "terminal-foundation-voice-crates:7717b5085206f7c9636a5f0b402f31e3b68ac9eeed460ef8d520ecae2ef369d5"
+    },
+    {
+      "id": "private-display-child-join",
+      "digest": "72eccc8f2b19826a1b8893de680c187c2d5d14d700e27c66e48a1402076ce2e5",
+      "type": "patch",
+      "summary": "Wait for a private browser display's Xvfb and stdin watcher to be reaped before reporting a successful stop. Preserve private recovery files and reject when retirement cannot be established.",
+      "sourceSha": "9169d34877cdf7480701446e4ca6c3ab2ba8ab6d",
+      "identity": "private-display-child-join:72eccc8f2b19826a1b8893de680c187c2d5d14d700e27c66e48a1402076ce2e5"
     }
   ],
   "consumedIntentIds": [
