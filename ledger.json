@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "35562f36180788e3b8c23e1a6440ccd6effcfcc0",
+  "cursorSha": "95f67b20d1b2818fb45f7e2bfcd5713635c53323",
   "highWaterVersion": "1.497.0",
   "rows": [
     {
@@ -150446,6 +150446,11 @@
       "intentIds": [
         "orchestrator-google-workspace-default:c288b05b7700cf67529b731a48b5c24664ef309d591d4462404090fe8ac9fd13"
       ]
+    },
+    {
+      "sourceSha": "95f67b20d1b2818fb45f7e2bfcd5713635c53323",
+      "sourcePackageVersion": "1.508.0",
+      "intentIds": []
     }
   ],
   "intents": [
