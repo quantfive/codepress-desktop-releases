@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3f7ea6d9cf82571aa3165f276171f849762253ff",
+  "cursorSha": "3840505f903dce88cf5868c4d6ad441eb9122b1c",
   "highWaterVersion": "1.497.0",
   "rows": [
     {
@@ -150461,6 +150461,13 @@
       "sourceSha": "3f7ea6d9cf82571aa3165f276171f849762253ff",
       "sourcePackageVersion": "1.509.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3840505f903dce88cf5868c4d6ad441eb9122b1c",
+      "sourcePackageVersion": "1.509.0",
+      "intentIds": [
+        "partial-restore-unrestorable-workers:396419751ecb44fd802cbc2fe4f1bd5265e2c63120b0975f6a2501f049c51084"
+      ]
     }
   ],
   "intents": [
@@ -158215,6 +158222,14 @@
       "summary": "The Orchestrator now knows that when your organization has Google Workspace connected, it can list your Google connections through its CodePress connection and use Google for the documents, spreadsheets, decks, email drafts and events you ask for. Plans and design issues still go to GitHub.",
       "sourceSha": "35562f36180788e3b8c23e1a6440ccd6effcfcc0",
       "identity": "orchestrator-google-workspace-default:c288b05b7700cf67529b731a48b5c24664ef309d591d4462404090fe8ac9fd13"
+    },
+    {
+      "id": "partial-restore-unrestorable-workers",
+      "digest": "396419751ecb44fd802cbc2fe4f1bd5265e2c63120b0975f6a2501f049c51084",
+      "type": "patch",
+      "summary": "Picking up a project from its cloud copy no longer fails when one worker cannot be restored. That worker comes across stopped, with the reason and its cloud checkpoint kept, and the Orchestrator inbox and the move dialog name it. A worker whose tree was already removed is no longer restored at all. The repository and branch are now looked up from every source the copy carries before a worker is given up on.",
+      "sourceSha": "3840505f903dce88cf5868c4d6ad441eb9122b1c",
+      "identity": "partial-restore-unrestorable-workers:396419751ecb44fd802cbc2fe4f1bd5265e2c63120b0975f6a2501f049c51084"
     }
   ],
   "consumedIntentIds": [
