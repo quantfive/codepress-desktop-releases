@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "1d055291a4b57e6ed9a670b6b4c5645f3f52c74a",
-  "highWaterVersion": "1.499.1",
+  "highWaterVersion": "1.499.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -80806,6 +80806,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:1d055291a4b57e6ed9a670b6b4c5645f3f52c74a",
+      "kind": "main",
+      "sequence": 2165,
+      "sourceSha": "1d055291a4b57e6ed9a670b6b4c5645f3f52c74a",
+      "sourcePackageVersion": "1.510.1",
+      "version": "1.499.2",
+      "publicationDate": "2026-11-07T21:38:50.760Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "handoff-reprepare-automatically:49f2e94c30e31529c871e026dd116216ff882ef1a864c6ba7094ff7f16c67b77"
+        ],
+        "notesIntentIds": [
+          "handoff-reprepare-automatically:49f2e94c30e31529c871e026dd116216ff882ef1a864c6ba7094ff7f16c67b77"
+        ],
+        "throughSourceSha": "1d055291a4b57e6ed9a670b6b4c5645f3f52c74a",
+        "previousThroughSourceSha": "40e356c4828927754489924fef6da9aa12d98719",
+        "baselineVersion": "1.499.1",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42416797034",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-08T21:38:43.809Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -159455,7 +159498,8 @@
     "orchestrator-google-workspace-default:c288b05b7700cf67529b731a48b5c24664ef309d591d4462404090fe8ac9fd13",
     "partial-restore-unrestorable-workers:396419751ecb44fd802cbc2fe4f1bd5265e2c63120b0975f6a2501f049c51084",
     "grok-orchestrator:6b0362fb19d98b8c9a93c450042a21027ccc68c9b7c71ea59bfc462531d68daf",
-    "orphaned-delivery-handoff:e50f16d890b837bced19365c1e59f3f1069aa61b4c51d5d98520c73a881f2520"
+    "orphaned-delivery-handoff:e50f16d890b837bced19365c1e59f3f1069aa61b4c51d5d98520c73a881f2520",
+    "handoff-reprepare-automatically:49f2e94c30e31529c871e026dd116216ff882ef1a864c6ba7094ff7f16c67b77"
   ],
-  "consumedThroughSha": "40e356c4828927754489924fef6da9aa12d98719"
+  "consumedThroughSha": "1d055291a4b57e6ed9a670b6b4c5645f3f52c74a"
 }
