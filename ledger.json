@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "354dda3756322406e6978879c5ad1abd51634a1a",
-  "highWaterVersion": "1.493.1",
+  "highWaterVersion": "1.494.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -79913,6 +79913,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:354dda3756322406e6978879c5ad1abd51634a1a",
+      "kind": "main",
+      "sequence": 2149,
+      "sourceSha": "354dda3756322406e6978879c5ad1abd51634a1a",
+      "sourcePackageVersion": "1.504.1",
+      "version": "1.494.0",
+      "publicationDate": "2026-11-07T03:20:34.478Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "team-view-workers-artifacts:63732f4466e8f945649be73d1a191d8e09523e428889e4339a6fdbc4a5ed3c8a"
+        ],
+        "notesIntentIds": [
+          "team-view-workers-artifacts:63732f4466e8f945649be73d1a191d8e09523e428889e4339a6fdbc4a5ed3c8a"
+        ],
+        "throughSourceSha": "354dda3756322406e6978879c5ad1abd51634a1a",
+        "previousThroughSourceSha": "28909a8ad20710420bfa469f0c7ac001c6455616",
+        "baselineVersion": "1.493.1",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42333512260",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-08T03:20:28.394Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -157897,7 +157940,8 @@
     "terminal-replica-artifacts:fdc95caf164a5ee318657c7cbd8d96584d7f05c9dc480dc1f0cdfc8468510c8c",
     "machine-lists-other-account:9c4cdc835cd80dbfd99937fb3236d54880ceda7fe6b15446f1597f30e501cd35",
     "warm-workflow-spares:21e2535411d2bd0df9a5ce4cb2e036db40459e22fe3f882d12728d00fdced387",
-    "lima-mounts-label:b6a92efc7eb8d9f8c6f52349d71a786288abaa20f2e0dde4640e82c405d7c280"
+    "lima-mounts-label:b6a92efc7eb8d9f8c6f52349d71a786288abaa20f2e0dde4640e82c405d7c280",
+    "team-view-workers-artifacts:63732f4466e8f945649be73d1a191d8e09523e428889e4339a6fdbc4a5ed3c8a"
   ],
-  "consumedThroughSha": "28909a8ad20710420bfa469f0c7ac001c6455616"
+  "consumedThroughSha": "354dda3756322406e6978879c5ad1abd51634a1a"
 }
