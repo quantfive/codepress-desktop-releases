@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "585ff4fabe22b092acd1c7dedb2f75ea18698a4d",
+  "cursorSha": "40e356c4828927754489924fef6da9aa12d98719",
   "highWaterVersion": "1.499.0",
   "rows": [
     {
@@ -150616,6 +150616,13 @@
       "sourceSha": "585ff4fabe22b092acd1c7dedb2f75ea18698a4d",
       "sourcePackageVersion": "1.510.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "40e356c4828927754489924fef6da9aa12d98719",
+      "sourcePackageVersion": "1.510.0",
+      "intentIds": [
+        "orphaned-delivery-handoff:e50f16d890b837bced19365c1e59f3f1069aa61b4c51d5d98520c73a881f2520"
+      ]
     }
   ],
   "intents": [
@@ -158386,6 +158393,14 @@
       "summary": "A local Orchestrator can now run on Grok. Pick a Grok model at kickoff or in Project settings and the Orchestrator runs on Grok Build itself (`grok agent`), on the Grok account this machine uses, with the same tools, thread, resume and account rules as Claude, Codex and Muse. Projects stuck on the old \"Grok can run workers but not the Orchestrator yet\" message now start.",
       "sourceSha": "85743ee3b262f4cd59dd128b45dbd6ac0c9c390e",
       "identity": "grok-orchestrator:6b0362fb19d98b8c9a93c450042a21027ccc68c9b7c71ea59bfc462531d68daf"
+    },
+    {
+      "id": "orphaned-delivery-handoff",
+      "digest": "e50f16d890b837bced19365c1e59f3f1069aa61b4c51d5d98520c73a881f2520",
+      "type": "patch",
+      "summary": "Moving an Orchestrator project no longer refuses with \"A worker message or restart is still being delivered\" when the process that was delivering it is gone. Those deliveries are settled as uncertain (never sent again), a restart left pending moves its worker as stopped (or, while its tab may still run an agent, the move refuses and names that tab or says it cannot be checked from this window), and Terminal start and PM session end clear such leftovers. A delivery that is still being written is waited on for up to a minute, with \"Waiting for a message to <worker> to finish…\" shown in the move.",
+      "sourceSha": "40e356c4828927754489924fef6da9aa12d98719",
+      "identity": "orphaned-delivery-handoff:e50f16d890b837bced19365c1e59f3f1069aa61b4c51d5d98520c73a881f2520"
     }
   ],
   "consumedIntentIds": [
