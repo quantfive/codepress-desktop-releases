@@ -1,36 +1,36 @@
 {
-  "version": "1.496.7",
+  "version": "1.496.8",
   "notes": "See the release notes on GitHub",
-  "pub_date": "2026-11-07T17:40:12.884Z",
+  "pub_date": "2026-11-07T19:02:34.857Z",
   "codepress": {
-    "brokerRuntimeIdentity": "bundle=228fc5a92f2e923c;launch-env=4",
+    "brokerRuntimeIdentity": "bundle=675c73fe0761558c;launch-env=4",
     "brokerGenerationProtocolVersion": 1,
     "brokerRuntimeIdentities": {
-      "darwin-aarch64": "bundle=228fc5a92f2e923c;launch-env=4"
+      "darwin-aarch64": "bundle=675c73fe0761558c;launch-env=4"
     },
     "layers": {
       "darwin-aarch64": {
         "app": {
-          "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.496.7/CodePress.app.tar.gz",
-          "size": 68321909,
-          "sha256": "843df42cca986b8e2a002461fcb651256bebe49db30869803c79aced66b8e1fb"
+          "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.496.8/CodePress.app.tar.gz",
+          "size": 68324649,
+          "sha256": "0aa53a22aaea70ec1f717fbe38f53453dcf92a91684a11995d55857b29671580"
         },
         "layers": [
           {
             "name": "server-deps",
-            "key": "d3f32de12d7a97891d4a146dd7d0cd23cf649329073d5811adac49a7e7c7e41f",
-            "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.488.0/layer-server-deps-d3f32de12d7a97891d4a146dd7d0cd23cf649329073d5811adac49a7e7c7e41f-darwin-aarch64.tar.gz",
-            "sha256": "48e05d69ad45d938cbfd15a8fcfe5e7e6b2e4ac480870f48210407e43feadebf",
-            "size": 288390542,
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMUhLaXVFZHU3VVhSODJOS3hWWk03YU5QbFRnSzE0MGpEUk1ueXREejlzaGdZdGV6MmlWR2NsaEJyeGlnWGJGZEhlR245KzBsaE4zYjNnSlJSYmxKTkIvWHpPOXVJOHc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTkyNDQzCWZpbGU6bGF5ZXItc2VydmVyLWRlcHMtZDNmMzJkZTEyZDdhOTc4OTFkNGExNDZkZDdkMGNkMjNjZjY0OTMyOTA3M2Q1ODExYWRhYzQ5YTdlN2M3ZTQxZi1kYXJ3aW4tYWFyY2g2NC50YXIuZ3oKYjc3VWoxbFlrVWZiWXRVckpjT1BqdlFYdkN4aUtNdm5lMmxVS0dLbzBRR05ueVpSVzFUR2xmUjVLcjRDWjdydE41elM2bWcvZEFuNmpSU0IvZW5UQmc9PQo="
+            "key": "3cdd58b5ba04a977374645a8b87107266c2e89ce76c1874a41e298a29d5b27d6",
+            "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.496.8/layer-server-deps-3cdd58b5ba04a977374645a8b87107266c2e89ce76c1874a41e298a29d5b27d6-darwin-aarch64.tar.gz",
+            "sha256": "47aa416cd1e42a4e14cab23fa3789b453387a328566891c214bb06f906e71ec4",
+            "size": 289640474,
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMUhLaXVFZHU3VVFITVE3b0RGUUdjSWRhZkxNSFB3Q1ViK1k3S2gxbzVXT1AveExHZlg0SGtzZ0psbmpEWGNsM1k2VnJTVytIY24yK0x0RXZzYitVM0oyeU4xSm5LM3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDc4NzU2CWZpbGU6bGF5ZXItc2VydmVyLWRlcHMtM2NkZDU4YjViYTA0YTk3NzM3NDY0NWE4Yjg3MTA3MjY2YzJlODljZTc2YzE4NzRhNDFlMjk4YTI5ZDViMjdkNi1kYXJ3aW4tYWFyY2g2NC50YXIuZ3oKZFgwMFlLbEptbkxDMThnRzFzaVpzZkduaHhlb3dmOHpUOTZaWWt2cUs0VmRUVFV0Q01wS0w4VDdLc3BFUXNqbUtyYk0vRm5JaVBTVlZuM1FkQVRiQ1E9PQo="
           },
           {
             "name": "agent-runner-deps",
-            "key": "b6a123ac86fae3f8f36a95d96f8701d4e035b9c473c7f24c9498d0c1ff9f73b8",
-            "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.488.0/layer-agent-runner-deps-b6a123ac86fae3f8f36a95d96f8701d4e035b9c473c7f24c9498d0c1ff9f73b8-darwin-aarch64.tar.gz",
-            "sha256": "6ab0474af0b626c9c98e56e72a1aecd82f9bab054df2abcdfb3d072750bf1082",
-            "size": 321058810,
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMUhLaXVFZHU3VVFQKzdQZlhWYndGQTA1U0E5c21TQjlYVngrS3h0RDRvVDVCc3ZHczhBNklvc2JGdWI2V0ZCd1Yzc1NKS3lLMnh3T1FlTENQSUFvaFR0dklCZVZTTWdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTkyNDQzCWZpbGU6bGF5ZXItYWdlbnQtcnVubmVyLWRlcHMtYjZhMTIzYWM4NmZhZTNmOGYzNmE5NWQ5NmY4NzAxZDRlMDM1YjljNDczYzdmMjRjOTQ5OGQwYzFmZjlmNzNiOC1kYXJ3aW4tYWFyY2g2NC50YXIuZ3oKMEc0VkpvSW11elJHaVVjZDdHL0haUVFSWVZ0QVdXSlZUU3h4N1hiSzlGM1RnQkFZMHNXblViR3NFbEVxWitoTG5XVHU5NVBWcUQ4eWhOaGRhQ2xNRFE9PQo="
+            "key": "473b6cf179880932275b9f1ffca4dbf224474f76e11c2f758026abd981913984",
+            "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.496.8/layer-agent-runner-deps-473b6cf179880932275b9f1ffca4dbf224474f76e11c2f758026abd981913984-darwin-aarch64.tar.gz",
+            "sha256": "d73c7def968a992024929b2fd2895c76ec36b00db0cd1916f7414ce828292e94",
+            "size": 322300329,
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMUhLaXVFZHU3VVFoN0cvdmNRdFZzNzJzVjQ4ODdmcHNtVkt1ZkRxU2I0S2ttb0RRZGdKeWIwWjBhMmo2aUtlQkxPRngrVGpXOG11amlMa2lzY1ZFVkRjNHVISWpEbHdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDc4NzU1CWZpbGU6bGF5ZXItYWdlbnQtcnVubmVyLWRlcHMtNDczYjZjZjE3OTg4MDkzMjI3NWI5ZjFmZmNhNGRiZjIyNDQ3NGY3NmUxMWMyZjc1ODAyNmFiZDk4MTkxMzk4NC1kYXJ3aW4tYWFyY2g2NC50YXIuZ3oKa056WTJYUGRkRGNsaWZBdGsvMVBsWUtyTmVVSTZLRWV2UVQ2VnVhdFJhQnFWY1J0eERnVEtjaThrSlN0cVY5NkU3L1ZkWk45OUVSTVY4eTdMWVdURFE9PQo="
           },
           {
             "name": "cua-driver",
@@ -46,8 +46,8 @@
   },
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMUhLaXVFZHU3VVMvdUlPWDBWOVdvUFgzcmlqZG1EUzE3Vk1XeWhKM2hxK1g2WmUveDMyM2ZpOUFpSWxlVFNvZFl4WlU1TVEvUmdEV25ObE1rSG9mTmZCSW1XV3hPL1E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDczNjg0CWZpbGU6Q29kZVByZXNzLmFwcC50YXIuZ3oKaWowZlN2ODllVGVSOGk4Mk1YZEx1TjZObzVEaEdkQTFueWdBNk5BNTJYREp0Z1kzQUl4amU5NjRkQ21OamtIK2JDbDg5SFBjUUxJck5kVFBwMFl3Qnc9PQo=",
-      "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.496.7/CodePress.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMUhLaXVFZHU3VVNKRlhpK0tKeTBtL3NZTXNRRkhFaUtCV2JJRFV6ZytoOEtFNFRXTHBjYWF3RWJ2elZhUzZlMlh1NmlhVlBlSG1wZ3luT0NCbEVHSU9tNEtOcWVMNEFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDc4NzM4CWZpbGU6Q29kZVByZXNzLmFwcC50YXIuZ3oKNXQzSHUrZUx3WWROZnEwdmlueWI1VVczY2tRSHh5TGxQZURWb0FtNktPQnlPTCtKem0xUDlFbGEyVnQwTkg5c3FJRkJuZDlZQjVKeUwwaGdYc2ErQmc9PQo=",
+      "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.496.8/CodePress.app.tar.gz"
     }
   }
 }
