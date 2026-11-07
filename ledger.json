@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9ec5f31c7f283c2c4300c6b73bf54601ffb2c052",
+  "cursorSha": "3a3a00da3136be816ee5a47f10b13a6a82a91e09",
   "highWaterVersion": "1.491.4",
   "rows": [
     {
@@ -148788,6 +148788,13 @@
       "sourceSha": "9ec5f31c7f283c2c4300c6b73bf54601ffb2c052",
       "sourcePackageVersion": "1.502.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3a3a00da3136be816ee5a47f10b13a6a82a91e09",
+      "sourcePackageVersion": "1.502.6",
+      "intentIds": [
+        "terminal-dark-variant-follows-theme:53345df4893c1f006bf2d1f532c83169b4a3914edfa5244793e8752e43678625"
+      ]
     }
   ],
   "intents": [
@@ -156342,6 +156349,14 @@
       "summary": "A machine with no Docker or Podman can start a local preview on Desktop's managed VM: its files now live in a short folder, `~/.cp-lima`, because the old path was too long for every macOS account. A first start no longer fails on elapsed time while its download is still moving, a failed VM start shows Lima's own reason, and Storage cleanup removes a VM folder once the Terminal data folder that made it is gone.",
       "sourceSha": "afa33d65240f2ccee2c671f92a12990ef4903ec2",
       "identity": "managed-lima-short-home:90a4e417e0d34c988953d56aeda8af897b55ba4a690f377993fe5f1be5db2f8c"
+    },
+    {
+      "id": "terminal-dark-variant-follows-theme",
+      "digest": "53345df4893c1f006bf2d1f532c83169b4a3914edfa5244793e8752e43678625",
+      "type": "patch",
+      "summary": "Selected tabs and other `dark:` styles now follow Terminal's own Light or Dark theme instead of this machine's OS appearance, so the feed rail's selected My feed and All stay readable when the two differ.",
+      "sourceSha": "3a3a00da3136be816ee5a47f10b13a6a82a91e09",
+      "identity": "terminal-dark-variant-follows-theme:53345df4893c1f006bf2d1f532c83169b4a3914edfa5244793e8752e43678625"
     }
   ],
   "consumedIntentIds": [
