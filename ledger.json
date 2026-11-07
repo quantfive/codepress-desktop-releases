@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "8508b1b5e30e618dd1473c465eb05f0eeaae9aea",
-  "highWaterVersion": "1.494.1",
+  "highWaterVersion": "1.495.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -80025,6 +80025,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:8508b1b5e30e618dd1473c465eb05f0eeaae9aea",
+      "kind": "main",
+      "sequence": 2151,
+      "sourceSha": "8508b1b5e30e618dd1473c465eb05f0eeaae9aea",
+      "sourcePackageVersion": "1.505.2",
+      "version": "1.495.0",
+      "publicationDate": "2026-11-07T04:01:47.392Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-account-spaces:ac54e4d094e823742e873de60b8479db966b0f21c5d3d59ad7195448914b759c"
+        ],
+        "notesIntentIds": [
+          "terminal-account-spaces:ac54e4d094e823742e873de60b8479db966b0f21c5d3d59ad7195448914b759c"
+        ],
+        "throughSourceSha": "8508b1b5e30e618dd1473c465eb05f0eeaae9aea",
+        "previousThroughSourceSha": "aa95303688f086af174da5310f027bd8245ed836",
+        "baselineVersion": "1.494.1",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42336552591",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-08T04:01:39.223Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -158092,7 +158135,8 @@
     "lima-mounts-label:b6a92efc7eb8d9f8c6f52349d71a786288abaa20f2e0dde4640e82c405d7c280",
     "team-view-workers-artifacts:63732f4466e8f945649be73d1a191d8e09523e428889e4339a6fdbc4a5ed3c8a",
     "terminal-native-build-baseline:ea460fb21cf4974779ed85d1c47c40808b27b403cc225ae9e156d82de5c72c1e",
-    "kickoff-row-project-label:5dacd5703f4da5ac591e7cc52de934f1cfc44c4d2b689b4789d018dc5005c883"
+    "kickoff-row-project-label:5dacd5703f4da5ac591e7cc52de934f1cfc44c4d2b689b4789d018dc5005c883",
+    "terminal-account-spaces:ac54e4d094e823742e873de60b8479db966b0f21c5d3d59ad7195448914b759c"
   ],
-  "consumedThroughSha": "aa95303688f086af174da5310f027bd8245ed836"
+  "consumedThroughSha": "8508b1b5e30e618dd1473c465eb05f0eeaae9aea"
 }
