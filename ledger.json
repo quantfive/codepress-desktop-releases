@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "dcea606c969dfd265e093a918f1a8a78500eb12f",
+  "cursorSha": "ce7606f18c9f2a19d55b3cb7670491ca66c8cb4e",
   "highWaterVersion": "1.496.5",
   "rows": [
     {
@@ -150112,6 +150112,13 @@
       "sourceSha": "dcea606c969dfd265e093a918f1a8a78500eb12f",
       "sourcePackageVersion": "1.507.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ce7606f18c9f2a19d55b3cb7670491ca66c8cb4e",
+      "sourcePackageVersion": "1.507.4",
+      "intentIds": [
+        "terminal-screen-crate:db9771773715012488ac3d6c1302ee406340ec487d0dad41f03a87fc947d00a9"
+      ]
     }
   ],
   "intents": [
@@ -157810,6 +157817,14 @@
       "summary": "Wait for a private browser display's Xvfb and stdin watcher to be reaped before reporting a successful stop. Preserve private recovery files and reject when retirement cannot be established.",
       "sourceSha": "9169d34877cdf7480701446e4ca6c3ab2ba8ab6d",
       "identity": "private-display-child-join:72eccc8f2b19826a1b8893de680c187c2d5d14d700e27c66e48a1402076ce2e5"
+    },
+    {
+      "id": "terminal-screen-crate",
+      "digest": "db9771773715012488ac3d6c1302ee406340ec487d0dad41f03a87fc947d00a9",
+      "type": "patch",
+      "summary": "Remote Desktop and desktop use now build as their own native crate, so an app change no longer recompiles them. Nothing changes in how they work.",
+      "sourceSha": "ce7606f18c9f2a19d55b3cb7670491ca66c8cb4e",
+      "identity": "terminal-screen-crate:db9771773715012488ac3d6c1302ee406340ec487d0dad41f03a87fc947d00a9"
     }
   ],
   "consumedIntentIds": [
