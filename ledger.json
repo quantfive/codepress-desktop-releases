@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e26d287600332096f22a9d16954fd27777b0f137",
+  "cursorSha": "1b8c5c2a3bbcbadc14adf9aa062444616b3c6ee0",
   "highWaterVersion": "1.496.7",
   "rows": [
     {
@@ -150276,6 +150276,13 @@
       "sourceSha": "e26d287600332096f22a9d16954fd27777b0f137",
       "sourcePackageVersion": "1.507.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "1b8c5c2a3bbcbadc14adf9aa062444616b3c6ee0",
+      "sourcePackageVersion": "1.507.6",
+      "intentIds": [
+        "codex-sdk-0167:27b77e9236575c4c9a760b2a6ce99c86c34698491dc006aff973f4b40a02bf1b"
+      ]
     }
   ],
   "intents": [
@@ -157990,6 +157997,14 @@
       "summary": "Agents and Terminal now name this machine by the name you gave it (like \"128gb\" or \"server cli\") instead of the computer's own name, in remote-kickoff refusals, teammate failure messages, handoffs, Fleet and live-browser labels, GitHub stats, the folder browser and the desktop viewer.",
       "sourceSha": "aafd4aef064b69247a2ae0009bc28f12f74256c7",
       "identity": "this-machine-registered-name:2df0741847b1628cb82b304f9d9146ac0e71bc61bf1c99077ec99a3ad9005fe1"
+    },
+    {
+      "id": "codex-sdk-0167",
+      "digest": "27b77e9236575c4c9a760b2a6ce99c86c34698491dc006aff973f4b40a02bf1b",
+      "type": "patch",
+      "summary": "Upgrade the Codex SDK to 0.167.0 and refresh its app-server protocol.",
+      "sourceSha": "1b8c5c2a3bbcbadc14adf9aa062444616b3c6ee0",
+      "identity": "codex-sdk-0167:27b77e9236575c4c9a760b2a6ce99c86c34698491dc006aff973f4b40a02bf1b"
     }
   ],
   "consumedIntentIds": [
