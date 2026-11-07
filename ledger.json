@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2f1a9b888ed3fbfd49683dbcb67d0443f4a194d8",
+  "cursorSha": "d963feec087526a6b0dc8e0dffac80322d46e0df",
   "highWaterVersion": "1.491.6",
   "rows": [
     {
@@ -148990,6 +148990,13 @@
       "sourceSha": "2f1a9b888ed3fbfd49683dbcb67d0443f4a194d8",
       "sourcePackageVersion": "1.503.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d963feec087526a6b0dc8e0dffac80322d46e0df",
+      "sourcePackageVersion": "1.503.0",
+      "intentIds": [
+        "machine-lists-other-account:9c4cdc835cd80dbfd99937fb3236d54880ceda7fe6b15446f1597f30e501cd35"
+      ]
     }
   ],
   "intents": [
@@ -156584,6 +156591,14 @@
       "summary": "A Synced project's or chat's published artifacts (the Orchestrator's, its workers', closed worker tabs included, or a Synced chat's) are now copied once to its cloud copy, so teammates can open them while this machine is asleep. Artifacts published before the project was Synced are sent at the next start. A Local-only project sends nothing, and an older backend leaves them waiting without an error.",
       "sourceSha": "be6e58c7d8939bbc71fe365e5da5388352fcd436",
       "identity": "terminal-replica-artifacts:fdc95caf164a5ee318657c7cbd8d96584d7f05c9dc480dc1f0cdfc8468510c8c"
+    },
+    {
+      "id": "machine-lists-other-account",
+      "digest": "9c4cdc835cd80dbfd99937fb3236d54880ceda7fe6b15446f1597f30e501cd35",
+      "type": "patch",
+      "summary": "Your own machines that are signed in to another CodePress account now say \"Signed in to another account\" instead of Offline: in Settings → Computers, in the kickoff's Runs on (where they can't be picked), and in `list_machines` (status `other_account`, with a hint). Teammates still see Offline, and Terminal no longer keeps re-checking such a machine.",
+      "sourceSha": "d963feec087526a6b0dc8e0dffac80322d46e0df",
+      "identity": "machine-lists-other-account:9c4cdc835cd80dbfd99937fb3236d54880ceda7fe6b15446f1597f30e501cd35"
     }
   ],
   "consumedIntentIds": [
