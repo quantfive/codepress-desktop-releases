@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0c404cc2c85c121fdc8ad869b753491b54ff244c",
+  "cursorSha": "4385e7170ef73fe73c6b013e2c85462362645cb3",
   "highWaterVersion": "1.496.3",
   "rows": [
     {
@@ -149960,6 +149960,13 @@
       "intentIds": [
         "relay-rollback-handoff:a0f4a0f61ab5c7121ddb018098f55c63bd1ee4f33fe1bd5a6072f83b3feae036"
       ]
+    },
+    {
+      "sourceSha": "4385e7170ef73fe73c6b013e2c85462362645cb3",
+      "sourcePackageVersion": "1.507.2",
+      "intentIds": [
+        "terminal-foundation-voice-crates:7717b5085206f7c9636a5f0b402f31e3b68ac9eeed460ef8d520ecae2ef369d5"
+      ]
     }
   ],
   "intents": [
@@ -157642,6 +157649,14 @@
       "summary": "A computer the edge relay released keeps its relay connection when the relay is turned down for it, and closes it only once its tunnel has connected and stayed up, so its URL stays reachable through the handoff.",
       "sourceSha": "0c404cc2c85c121fdc8ad869b753491b54ff244c",
       "identity": "relay-rollback-handoff:a0f4a0f61ab5c7121ddb018098f55c63bd1ee4f33fe1bd5a6072f83b3feae036"
+    },
+    {
+      "id": "terminal-foundation-voice-crates",
+      "digest": "7717b5085206f7c9636a5f0b402f31e3b68ac9eeed460ef8d520ecae2ef369d5",
+      "type": "patch",
+      "summary": "Move settings paths, the settings lock, the display-awake owner and on-device dictation into their own Rust crates, so editing dictation no longer recompiles those lower layers and editing the app no longer recompiles dictation.",
+      "sourceSha": "4385e7170ef73fe73c6b013e2c85462362645cb3",
+      "identity": "terminal-foundation-voice-crates:7717b5085206f7c9636a5f0b402f31e3b68ac9eeed460ef8d520ecae2ef369d5"
     }
   ],
   "consumedIntentIds": [
