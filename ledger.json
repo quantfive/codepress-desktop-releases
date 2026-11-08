@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "7648149b11b45b7e662fe9b45e116a697f04d8d7",
-  "highWaterVersion": "1.501.4",
+  "highWaterVersion": "1.501.5",
   "rows": [
     {
       "schemaVersion": 1,
@@ -81576,6 +81576,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:7648149b11b45b7e662fe9b45e116a697f04d8d7",
+      "kind": "main",
+      "sequence": 2179,
+      "sourceSha": "7648149b11b45b7e662fe9b45e116a697f04d8d7",
+      "sourcePackageVersion": "1.512.5",
+      "version": "1.501.5",
+      "publicationDate": "2026-11-08T07:20:52.348Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "desktop-viewer-reconnect:227075fc92985336656853fa16fe2b30a7b95271222e841b3f58276156ec125e"
+        ],
+        "notesIntentIds": [
+          "desktop-viewer-reconnect:227075fc92985336656853fa16fe2b30a7b95271222e841b3f58276156ec125e"
+        ],
+        "throughSourceSha": "7648149b11b45b7e662fe9b45e116a697f04d8d7",
+        "previousThroughSourceSha": "95ab249f4c60bb28ab7c453c7d14684deeb3dd8d",
+        "baselineVersion": "1.501.4",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42458381958",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-09T07:20:44.518Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -160714,7 +160757,8 @@
     "terminal-cloud-chat-row-handoff:d9119dbd51b7be5f091e1365baf4f8589eb569359fd6eb58ada3ed001ea6346d",
     "takeover-keeps-finished-workers:6ee54c2991fd91fdd0e0dc0e2b12ccd5762b4fa9e8d852a1a53921f076c9aa73",
     "quiet-terminal-background-activity:c9d85bc6ee794abad1f7bfd1e8eaedf34aa5f53863d7e762246cdaff44393e32",
-    "remote-desktop-rate-recovery:a20f9f098232bf7c7634e49ead1d194bf1b98dec4b449e4470b76de1584bda82"
+    "remote-desktop-rate-recovery:a20f9f098232bf7c7634e49ead1d194bf1b98dec4b449e4470b76de1584bda82",
+    "desktop-viewer-reconnect:227075fc92985336656853fa16fe2b30a7b95271222e841b3f58276156ec125e"
   ],
-  "consumedThroughSha": "95ab249f4c60bb28ab7c453c7d14684deeb3dd8d"
+  "consumedThroughSha": "7648149b11b45b7e662fe9b45e116a697f04d8d7"
 }
