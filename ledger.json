@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ad800484334734aec5f24da04cb375750c278b75",
+  "cursorSha": "9184d4eac0d4611afa960fc659be23710aecf416",
   "highWaterVersion": "1.501.6",
   "rows": [
     {
@@ -151955,6 +151955,23 @@
       "sourceSha": "ad800484334734aec5f24da04cb375750c278b75",
       "sourcePackageVersion": "1.512.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "fb86e00defc0035d8450e18474043e2b41824436",
+      "sourcePackageVersion": "1.512.6",
+      "intentIds": [
+        "agent-move-from-any-machine:fc1b82bd63fff28ea962454973f8ebe6e9696bd6ad81d647d9e483a2b55e7c10"
+      ]
+    },
+    {
+      "sourceSha": "fe19bacf55ad9c1ad8b393be5ed05a10ab00dc45",
+      "sourcePackageVersion": "1.513.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "9184d4eac0d4611afa960fc659be23710aecf416",
+      "sourcePackageVersion": "1.513.0",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -159861,6 +159878,14 @@
       "summary": "Negotiate H.264 High profile with capable Desktop viewers while preserving low-latency encoding and Baseline fallback.",
       "sourceSha": "b3abe69b7903cd52ec31882f756efe068561cb3d",
       "identity": "negotiated-desktop-high:967fb384501e2a8a71ba188839a2a8d1ddea4902f69791977b9f227cb0372c6f"
+    },
+    {
+      "id": "agent-move-from-any-machine",
+      "digest": "fc1b82bd63fff28ea962454973f8ebe6e9696bd6ad81d647d9e483a2b55e7c10",
+      "type": "minor",
+      "summary": "Agents can move an Orchestrator project from any of your machines. `handoff_orchestrator_project` takes a machine name, a `list_machines` id, a target id, `this` or `cloud:<organization>`. It makes the move the Move dialog makes, finding the project's organization by itself. The move can be followed and retried by its id or operation id, and stopped with the new `cancel_orchestrator_handoff`.",
+      "sourceSha": "fb86e00defc0035d8450e18474043e2b41824436",
+      "identity": "agent-move-from-any-machine:fc1b82bd63fff28ea962454973f8ebe6e9696bd6ad81d647d9e483a2b55e7c10"
     }
   ],
   "consumedIntentIds": [
