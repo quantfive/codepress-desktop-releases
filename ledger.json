@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "da0beed642985741add1512873710462d50b5047",
-  "highWaterVersion": "1.500.4",
+  "highWaterVersion": "1.500.5",
   "rows": [
     {
       "schemaVersion": 1,
@@ -81136,6 +81136,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:da0beed642985741add1512873710462d50b5047",
+      "kind": "main",
+      "sequence": 2171,
+      "sourceSha": "da0beed642985741add1512873710462d50b5047",
+      "sourcePackageVersion": "1.511.4",
+      "version": "1.500.5",
+      "publicationDate": "2026-11-08T02:33:32.817Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "takeover-download-large-projects:f1760d25cb95565a57e2783c87b727e27072d07ac5d1c065e0a9fd630190d56b"
+        ],
+        "notesIntentIds": [
+          "takeover-download-large-projects:f1760d25cb95565a57e2783c87b727e27072d07ac5d1c065e0a9fd630190d56b"
+        ],
+        "throughSourceSha": "da0beed642985741add1512873710462d50b5047",
+        "previousThroughSourceSha": "e86201045295bf90e5e004d88254f6111fa8f3b4",
+        "baselineVersion": "1.500.4",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42439013232",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-09T02:33:25.529Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -160026,7 +160069,8 @@
     "handoff-copy-fallback:814a93b759efd26f0fe0d61641e6977eb48227bb9e3eb73d9ace359619562215",
     "authoritative-handoff-refusal:7da799f91d71c38ba47876cc53f372338e758c3325005f6246be895a440e7dd7",
     "handoff-stops-workers:9b01f29ee755e05bf1e1f8ab7491f12f52e616deefc906a193202368bcaecad9",
-    "factory-next-variant:c0c068f97a92c64fa995acdbedc000e23487871c155e74e75ae1f851b29d6b28"
+    "factory-next-variant:c0c068f97a92c64fa995acdbedc000e23487871c155e74e75ae1f851b29d6b28",
+    "takeover-download-large-projects:f1760d25cb95565a57e2783c87b727e27072d07ac5d1c065e0a9fd630190d56b"
   ],
-  "consumedThroughSha": "e86201045295bf90e5e004d88254f6111fa8f3b4"
+  "consumedThroughSha": "da0beed642985741add1512873710462d50b5047"
 }
