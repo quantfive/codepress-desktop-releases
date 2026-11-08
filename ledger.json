@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4a56fc25ae5a689689c75987d2131cbd5c189754",
+  "cursorSha": "0b2b5d33319818065a47008bd5a26592e1730c48",
   "highWaterVersion": "1.500.2",
   "rows": [
     {
@@ -151011,6 +151011,13 @@
       "sourceSha": "4a56fc25ae5a689689c75987d2131cbd5c189754",
       "sourcePackageVersion": "1.511.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0b2b5d33319818065a47008bd5a26592e1730c48",
+      "sourcePackageVersion": "1.511.2",
+      "intentIds": [
+        "handoff-stops-workers:9b01f29ee755e05bf1e1f8ab7491f12f52e616deefc906a193202368bcaecad9"
+      ]
     }
   ],
   "intents": [
@@ -158821,6 +158828,14 @@
       "summary": "Keep handoff recovery refusals visible across background reads, and reset the dialog when its transfer changes.\nCancel chooser waiting reads when their start attempt settles or closes, and keep late replies out of later attempts.",
       "sourceSha": "1fdb68c2d514d63df68af06d500796b19ab9223c",
       "identity": "authoritative-handoff-refusal:7da799f91d71c38ba47876cc53f372338e758c3325005f6246be895a440e7dd7"
+    },
+    {
+      "id": "handoff-stops-workers",
+      "digest": "9b01f29ee755e05bf1e1f8ab7491f12f52e616deefc906a193202368bcaecad9",
+      "type": "patch",
+      "summary": "Handing off an Orchestrator project no longer asks you to stop a worker, close its tab or stop a process first. The handoff stops what stands in the way itself: a worker whose agent could not be confirmed, a failed worker's leftover process, a tab-less worker's own process in its worktree, a stray tab's live agent, and the agent left running in the tab of a restart whose restarting process stopped. Tabs, worktrees, uncommitted changes, branches and pull requests are kept, and the workers move as stopped. The finished dialog, the thread and the Orchestrator say \"Stopped N workers to move them: …\" so they can be relaunched. A process in a worktree that is not the worker's is left alone. The move refuses only when a stop fails twice, naming what could not be stopped and why.",
+      "sourceSha": "0b2b5d33319818065a47008bd5a26592e1730c48",
+      "identity": "handoff-stops-workers:9b01f29ee755e05bf1e1f8ab7491f12f52e616deefc906a193202368bcaecad9"
     }
   ],
   "consumedIntentIds": [
