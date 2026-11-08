@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2739d2caf2b3309324096b6f2940316618e2db62",
+  "cursorSha": "154dbf233233b181bdebb514c0a877e9ae030d0d",
   "highWaterVersion": "1.502.2",
   "rows": [
     {
@@ -152197,6 +152197,13 @@
       "sourceSha": "2739d2caf2b3309324096b6f2940316618e2db62",
       "sourcePackageVersion": "1.513.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "154dbf233233b181bdebb514c0a877e9ae030d0d",
+      "sourcePackageVersion": "1.513.2",
+      "intentIds": [
+        "post-merge-qa-rows:5d744a63276ad4836ee40a67e76a1fe938153a301ba99260ed6eed56ca89e3be"
+      ]
     }
   ],
   "intents": [
@@ -160127,6 +160134,14 @@
       "summary": "Every answer of the Orchestrator's project handoff tools now says what to do next, and whether the agent does it itself or only the person can. Orchestrators are told they can move any project, including their own, from the machine they are on.",
       "sourceSha": "fa0c9d5ca7bcc2216081f2f5ffd69a44535e9b75",
       "identity": "orchestrator-handoff-next-steps:4263422d49dc312e7de32202227a03104cc2b92ff031e732de39abdb7daeac77"
+    },
+    {
+      "id": "post-merge-qa-rows",
+      "digest": "5d744a63276ad4836ee40a67e76a1fe938153a301ba99260ed6eed56ca89e3be",
+      "type": "patch",
+      "summary": "Verification manifests accept a justified `POST_MERGE` row for an effect that can only be observed after merge, such as the Actions tab no longer listing a deleted workflow. The row names the observation and who makes it, stays out of the derived verdict, and may only cover paths under `.github/` or `.changeset/`; `qa-stamp` refuses one that covers anything a local or staging run reaches and says how to proceed. Terminal reads the new `post_merge` count on stamped QA reports.",
+      "sourceSha": "154dbf233233b181bdebb514c0a877e9ae030d0d",
+      "identity": "post-merge-qa-rows:5d744a63276ad4836ee40a67e76a1fe938153a301ba99260ed6eed56ca89e3be"
     }
   ],
   "consumedIntentIds": [
