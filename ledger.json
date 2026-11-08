@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "413b02b5e8a09f9a593b20d49b0eaf1445ef3f93",
-  "highWaterVersion": "1.502.3",
+  "highWaterVersion": "1.502.4",
   "rows": [
     {
       "schemaVersion": 1,
@@ -81922,6 +81922,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:413b02b5e8a09f9a593b20d49b0eaf1445ef3f93",
+      "kind": "main",
+      "sequence": 2185,
+      "sourceSha": "413b02b5e8a09f9a593b20d49b0eaf1445ef3f93",
+      "sourcePackageVersion": "1.513.3",
+      "version": "1.502.4",
+      "publicationDate": "2026-11-08T12:57:00.410Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "resume-handoff-unknown-after-restart:07360fa24bdd9cc962667b30bc6d449e0c7e493c5560de411822d114b89eb886"
+        ],
+        "notesIntentIds": [
+          "resume-handoff-unknown-after-restart:07360fa24bdd9cc962667b30bc6d449e0c7e493c5560de411822d114b89eb886"
+        ],
+        "throughSourceSha": "413b02b5e8a09f9a593b20d49b0eaf1445ef3f93",
+        "previousThroughSourceSha": "154dbf233233b181bdebb514c0a877e9ae030d0d",
+        "baselineVersion": "1.502.3",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42482556598",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-09T12:56:51.354Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -161221,7 +161264,8 @@
     "agent-move-from-any-machine:fc1b82bd63fff28ea962454973f8ebe6e9696bd6ad81d647d9e483a2b55e7c10",
     "orchestrator-self-handoff:430720ee85b910c90feb1434a42f08b8dcbb456f17f7802a57928cc8e65022c4",
     "orchestrator-handoff-next-steps:4263422d49dc312e7de32202227a03104cc2b92ff031e732de39abdb7daeac77",
-    "post-merge-qa-rows:5d744a63276ad4836ee40a67e76a1fe938153a301ba99260ed6eed56ca89e3be"
+    "post-merge-qa-rows:5d744a63276ad4836ee40a67e76a1fe938153a301ba99260ed6eed56ca89e3be",
+    "resume-handoff-unknown-after-restart:07360fa24bdd9cc962667b30bc6d449e0c7e493c5560de411822d114b89eb886"
   ],
-  "consumedThroughSha": "154dbf233233b181bdebb514c0a877e9ae030d0d"
+  "consumedThroughSha": "413b02b5e8a09f9a593b20d49b0eaf1445ef3f93"
 }
