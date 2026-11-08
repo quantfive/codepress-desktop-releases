@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a172796e1ff10df6ba85230cbfc086616fbcb725",
+  "cursorSha": "0fb83024f648add3bbfc8eb22a0a1a5ffe5104fa",
   "highWaterVersion": "1.501.2",
   "rows": [
     {
@@ -151672,6 +151672,13 @@
       "sourceSha": "a172796e1ff10df6ba85230cbfc086616fbcb725",
       "sourcePackageVersion": "1.512.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0fb83024f648add3bbfc8eb22a0a1a5ffe5104fa",
+      "sourcePackageVersion": "1.512.2",
+      "intentIds": [
+        "quiet-terminal-background-activity:c9d85bc6ee794abad1f7bfd1e8eaedf34aa5f53863d7e762246cdaff44393e32"
+      ]
     }
   ],
   "intents": [
@@ -159546,6 +159553,14 @@
       "summary": "Picking a project up from its cloud copy relaunches only the workers that were running. Stopped, completed and failed workers arrive in that state with their worktree restored, and the pickup note names them.",
       "sourceSha": "852e66a62bd3da055ad005221c6e8c4649d16db6",
       "identity": "takeover-keeps-finished-workers:6ee54c2991fd91fdd0e0dc0e2b12ccd5762b4fa9e8d852a1a53921f076c9aa73"
+    },
+    {
+      "id": "quiet-terminal-background-activity",
+      "digest": "c9d85bc6ee794abad1f7bfd1e8eaedf34aa5f53863d7e762246cdaff44393e32",
+      "type": "patch",
+      "summary": "Tag automatic backend requests with X-CodePress-Activity: background so staging can distinguish background traffic from user activity.",
+      "sourceSha": "0fb83024f648add3bbfc8eb22a0a1a5ffe5104fa",
+      "identity": "quiet-terminal-background-activity:c9d85bc6ee794abad1f7bfd1e8eaedf34aa5f53863d7e762246cdaff44393e32"
     }
   ],
   "consumedIntentIds": [
