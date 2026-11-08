@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "aa41c2f1ef174e6d06e9f0de5b3ad0d8a685014a",
+  "cursorSha": "47c1d7cc4a401feca2eb2d87dae33c789012a2e6",
   "highWaterVersion": "1.502.0",
   "rows": [
     {
@@ -152037,6 +152037,13 @@
       "sourceSha": "aa41c2f1ef174e6d06e9f0de5b3ad0d8a685014a",
       "sourcePackageVersion": "1.513.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "47c1d7cc4a401feca2eb2d87dae33c789012a2e6",
+      "sourcePackageVersion": "1.513.0",
+      "intentIds": [
+        "orchestrator-self-handoff:430720ee85b910c90feb1434a42f08b8dcbb456f17f7802a57928cc8e65022c4"
+      ]
     }
   ],
   "intents": [
@@ -159951,6 +159958,14 @@
       "summary": "Agents can move an Orchestrator project from any of your machines. `handoff_orchestrator_project` takes a machine name, a `list_machines` id, a target id, `this` or `cloud:<organization>`. It makes the move the Move dialog makes, finding the project's organization by itself. The move can be followed and retried by its id or operation id, and stopped with the new `cancel_orchestrator_handoff`.",
       "sourceSha": "fb86e00defc0035d8450e18474043e2b41824436",
       "identity": "agent-move-from-any-machine:fc1b82bd63fff28ea962454973f8ebe6e9696bd6ad81d647d9e483a2b55e7c10"
+    },
+    {
+      "id": "orchestrator-self-handoff",
+      "digest": "430720ee85b910c90feb1434a42f08b8dcbb456f17f7802a57928cc8e65022c4",
+      "type": "patch",
+      "summary": "A project's own Orchestrator can now move its project to another machine: the move waits for the Orchestrator's turn to end instead of cutting it off, and its status can be read by operation id.",
+      "sourceSha": "47c1d7cc4a401feca2eb2d87dae33c789012a2e6",
+      "identity": "orchestrator-self-handoff:430720ee85b910c90feb1434a42f08b8dcbb456f17f7802a57928cc8e65022c4"
     }
   ],
   "consumedIntentIds": [
