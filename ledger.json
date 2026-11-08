@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4b47ed652dd7095621147a4c0829e2139740983e",
+  "cursorSha": "852e66a62bd3da055ad005221c6e8c4649d16db6",
   "highWaterVersion": "1.501.1",
   "rows": [
     {
@@ -151595,6 +151595,13 @@
       "sourceSha": "4b47ed652dd7095621147a4c0829e2139740983e",
       "sourcePackageVersion": "1.512.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "852e66a62bd3da055ad005221c6e8c4649d16db6",
+      "sourcePackageVersion": "1.512.1",
+      "intentIds": [
+        "takeover-keeps-finished-workers:6ee54c2991fd91fdd0e0dc0e2b12ccd5762b4fa9e8d852a1a53921f076c9aa73"
+      ]
     }
   ],
   "intents": [
@@ -159461,6 +159468,14 @@
       "summary": "Your own cloud chats in the Agent feed now list Hand off… in their ⋯ menu. Choosing it opens the chat with its Hand off picker already open, or says why the chat can't leave the cloud.",
       "sourceSha": "8be45a117c134be76cfc31e63b9a727d020a9d87",
       "identity": "terminal-cloud-chat-row-handoff:d9119dbd51b7be5f091e1365baf4f8589eb569359fd6eb58ada3ed001ea6346d"
+    },
+    {
+      "id": "takeover-keeps-finished-workers",
+      "digest": "6ee54c2991fd91fdd0e0dc0e2b12ccd5762b4fa9e8d852a1a53921f076c9aa73",
+      "type": "patch",
+      "summary": "Picking a project up from its cloud copy relaunches only the workers that were running. Stopped, completed and failed workers arrive in that state with their worktree restored, and the pickup note names them.",
+      "sourceSha": "852e66a62bd3da055ad005221c6e8c4649d16db6",
+      "identity": "takeover-keeps-finished-workers:6ee54c2991fd91fdd0e0dc0e2b12ccd5762b4fa9e8d852a1a53921f076c9aa73"
     }
   ],
   "consumedIntentIds": [
