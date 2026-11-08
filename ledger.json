@@ -81781,10 +81781,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42467416364",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-09T09:30:14.574Z",
         "dispatch": null,
         "failures": []
       }
