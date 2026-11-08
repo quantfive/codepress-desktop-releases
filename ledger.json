@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "8d780d572dcd818946720c7648bb2b1fd057dea2",
+  "cursorSha": "a70a3a3cfd0bf9267bf5ac76706fbbb9971115c3",
   "highWaterVersion": "1.501.4",
   "rows": [
     {
@@ -151811,6 +151811,13 @@
       "sourceSha": "8d780d572dcd818946720c7648bb2b1fd057dea2",
       "sourcePackageVersion": "1.512.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a70a3a3cfd0bf9267bf5ac76706fbbb9971115c3",
+      "sourcePackageVersion": "1.512.4",
+      "intentIds": [
+        "desktop-viewer-reconnect:227075fc92985336656853fa16fe2b30a7b95271222e841b3f58276156ec125e"
+      ]
     }
   ],
   "intents": [
@@ -159701,6 +159708,14 @@
       "summary": "Recover Remote Desktop bitrate and resolution after congestion, ignore idle RTT noise, and add opt-in interval diagnostics.",
       "sourceSha": "95ab249f4c60bb28ab7c453c7d14684deeb3dd8d",
       "identity": "remote-desktop-rate-recovery:a20f9f098232bf7c7634e49ead1d194bf1b98dec4b449e4470b76de1584bda82"
+    },
+    {
+      "id": "desktop-viewer-reconnect",
+      "digest": "227075fc92985336656853fa16fe2b30a7b95271222e841b3f58276156ec125e",
+      "type": "patch",
+      "summary": "Reconnect Desktop viewers after session expiry and short transport drops, preserving their display and granted control with bounded retries.",
+      "sourceSha": "a70a3a3cfd0bf9267bf5ac76706fbbb9971115c3",
+      "identity": "desktop-viewer-reconnect:227075fc92985336656853fa16fe2b30a7b95271222e841b3f58276156ec125e"
     }
   ],
   "consumedIntentIds": [
