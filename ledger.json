@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f3bf54b5f8f8008dcf42c5634cacce062048a847",
+  "cursorSha": "1fdb68c2d514d63df68af06d500796b19ab9223c",
   "highWaterVersion": "1.500.1",
   "rows": [
     {
@@ -150944,6 +150944,13 @@
       "sourceSha": "f3bf54b5f8f8008dcf42c5634cacce062048a847",
       "sourcePackageVersion": "1.511.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "1fdb68c2d514d63df68af06d500796b19ab9223c",
+      "sourcePackageVersion": "1.511.1",
+      "intentIds": [
+        "authoritative-handoff-refusal:7da799f91d71c38ba47876cc53f372338e758c3325005f6246be895a440e7dd7"
+      ]
     }
   ],
   "intents": [
@@ -158746,6 +158753,14 @@
       "summary": "Moving a project to this machine no longer needs its home machine to be awake. A home that isn't connected is not asked at all, and one that stops answering partway through is replaced by a takeover from the cloud copy after 30 seconds. If no cloud copy can be used, the move says the home isn't answering and nothing moved, and offers a plain Try again.",
       "sourceSha": "d323d12ff50a42602106cc3f5c3311bb3752ec65",
       "identity": "handoff-copy-fallback:814a93b759efd26f0fe0d61641e6977eb48227bb9e3eb73d9ace359619562215"
+    },
+    {
+      "id": "authoritative-handoff-refusal",
+      "digest": "7da799f91d71c38ba47876cc53f372338e758c3325005f6246be895a440e7dd7",
+      "type": "patch",
+      "summary": "Keep handoff recovery refusals visible across background reads, and reset the dialog when its transfer changes.\nCancel chooser waiting reads when their start attempt settles or closes, and keep late replies out of later attempts.",
+      "sourceSha": "1fdb68c2d514d63df68af06d500796b19ab9223c",
+      "identity": "authoritative-handoff-refusal:7da799f91d71c38ba47876cc53f372338e758c3325005f6246be895a440e7dd7"
     }
   ],
   "consumedIntentIds": [
