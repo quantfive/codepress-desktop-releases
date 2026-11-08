@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "47c1d7cc4a401feca2eb2d87dae33c789012a2e6",
-  "highWaterVersion": "1.502.0",
+  "highWaterVersion": "1.502.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -81741,6 +81741,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:47c1d7cc4a401feca2eb2d87dae33c789012a2e6",
+      "kind": "main",
+      "sequence": 2182,
+      "sourceSha": "47c1d7cc4a401feca2eb2d87dae33c789012a2e6",
+      "sourcePackageVersion": "1.513.0",
+      "version": "1.502.1",
+      "publicationDate": "2026-11-08T09:29:29.980Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "orchestrator-self-handoff:430720ee85b910c90feb1434a42f08b8dcbb456f17f7802a57928cc8e65022c4"
+        ],
+        "notesIntentIds": [
+          "orchestrator-self-handoff:430720ee85b910c90feb1434a42f08b8dcbb456f17f7802a57928cc8e65022c4"
+        ],
+        "throughSourceSha": "47c1d7cc4a401feca2eb2d87dae33c789012a2e6",
+        "previousThroughSourceSha": "9184d4eac0d4611afa960fc659be23710aecf416",
+        "baselineVersion": "1.502.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42467358084",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-09T09:29:24.332Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -160957,7 +161000,8 @@
     "remote-desktop-rate-recovery:a20f9f098232bf7c7634e49ead1d194bf1b98dec4b449e4470b76de1584bda82",
     "desktop-viewer-reconnect:227075fc92985336656853fa16fe2b30a7b95271222e841b3f58276156ec125e",
     "negotiated-desktop-high:967fb384501e2a8a71ba188839a2a8d1ddea4902f69791977b9f227cb0372c6f",
-    "agent-move-from-any-machine:fc1b82bd63fff28ea962454973f8ebe6e9696bd6ad81d647d9e483a2b55e7c10"
+    "agent-move-from-any-machine:fc1b82bd63fff28ea962454973f8ebe6e9696bd6ad81d647d9e483a2b55e7c10",
+    "orchestrator-self-handoff:430720ee85b910c90feb1434a42f08b8dcbb456f17f7802a57928cc8e65022c4"
   ],
-  "consumedThroughSha": "9184d4eac0d4611afa960fc659be23710aecf416"
+  "consumedThroughSha": "47c1d7cc4a401feca2eb2d87dae33c789012a2e6"
 }
