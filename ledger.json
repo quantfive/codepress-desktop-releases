@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "74557c3422d34533de03402a0836667db57f5a0d",
+  "cursorSha": "fa0c9d5ca7bcc2216081f2f5ffd69a44535e9b75",
   "highWaterVersion": "1.502.1",
   "rows": [
     {
@@ -152119,6 +152119,13 @@
       "sourceSha": "74557c3422d34533de03402a0836667db57f5a0d",
       "sourcePackageVersion": "1.513.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "fa0c9d5ca7bcc2216081f2f5ffd69a44535e9b75",
+      "sourcePackageVersion": "1.513.1",
+      "intentIds": [
+        "orchestrator-handoff-next-steps:4263422d49dc312e7de32202227a03104cc2b92ff031e732de39abdb7daeac77"
+      ]
     }
   ],
   "intents": [
@@ -160041,6 +160048,14 @@
       "summary": "A project's own Orchestrator can now move its project to another machine: the move waits for the Orchestrator's turn to end instead of cutting it off, and its status can be read by operation id.",
       "sourceSha": "47c1d7cc4a401feca2eb2d87dae33c789012a2e6",
       "identity": "orchestrator-self-handoff:430720ee85b910c90feb1434a42f08b8dcbb456f17f7802a57928cc8e65022c4"
+    },
+    {
+      "id": "orchestrator-handoff-next-steps",
+      "digest": "4263422d49dc312e7de32202227a03104cc2b92ff031e732de39abdb7daeac77",
+      "type": "patch",
+      "summary": "Every answer of the Orchestrator's project handoff tools now says what to do next, and whether the agent does it itself or only the person can. Orchestrators are told they can move any project, including their own, from the machine they are on.",
+      "sourceSha": "fa0c9d5ca7bcc2216081f2f5ffd69a44535e9b75",
+      "identity": "orchestrator-handoff-next-steps:4263422d49dc312e7de32202227a03104cc2b92ff031e732de39abdb7daeac77"
     }
   ],
   "consumedIntentIds": [
