@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "f4fb53e383f3e246a6a1007e05ea4fa8ede0ed49",
-  "highWaterVersion": "1.502.4",
+  "highWaterVersion": "1.502.5",
   "rows": [
     {
       "schemaVersion": 1,
@@ -81982,6 +81982,49 @@
           }
         ]
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:f4fb53e383f3e246a6a1007e05ea4fa8ede0ed49",
+      "kind": "main",
+      "sequence": 2186,
+      "sourceSha": "f4fb53e383f3e246a6a1007e05ea4fa8ede0ed49",
+      "sourcePackageVersion": "1.513.4",
+      "version": "1.502.5",
+      "publicationDate": "2026-11-08T15:53:08.124Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "qualify-ripgrep-cache:91ffe677425f9bcc74ddee1b24532c67b1b8839f47c6963bf75bdfe57f3cad69"
+        ],
+        "notesIntentIds": [
+          "qualify-ripgrep-cache:91ffe677425f9bcc74ddee1b24532c67b1b8839f47c6963bf75bdfe57f3cad69"
+        ],
+        "throughSourceSha": "f4fb53e383f3e246a6a1007e05ea4fa8ede0ed49",
+        "previousThroughSourceSha": "413b02b5e8a09f9a593b20d49b0eaf1445ef3f93",
+        "baselineVersion": "1.502.4",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42497003068",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-09T15:53:00.589Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -161317,7 +161360,8 @@
     "orchestrator-self-handoff:430720ee85b910c90feb1434a42f08b8dcbb456f17f7802a57928cc8e65022c4",
     "orchestrator-handoff-next-steps:4263422d49dc312e7de32202227a03104cc2b92ff031e732de39abdb7daeac77",
     "post-merge-qa-rows:5d744a63276ad4836ee40a67e76a1fe938153a301ba99260ed6eed56ca89e3be",
-    "resume-handoff-unknown-after-restart:07360fa24bdd9cc962667b30bc6d449e0c7e493c5560de411822d114b89eb886"
+    "resume-handoff-unknown-after-restart:07360fa24bdd9cc962667b30bc6d449e0c7e493c5560de411822d114b89eb886",
+    "qualify-ripgrep-cache:91ffe677425f9bcc74ddee1b24532c67b1b8839f47c6963bf75bdfe57f3cad69"
   ],
-  "consumedThroughSha": "413b02b5e8a09f9a593b20d49b0eaf1445ef3f93"
+  "consumedThroughSha": "f4fb53e383f3e246a6a1007e05ea4fa8ede0ed49"
 }
