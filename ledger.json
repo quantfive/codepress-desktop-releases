@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c097327371995605a0dcf25592c3dcd0d9502d72",
+  "cursorSha": "95ab249f4c60bb28ab7c453c7d14684deeb3dd8d",
   "highWaterVersion": "1.501.3",
   "rows": [
     {
@@ -151744,6 +151744,13 @@
       "sourceSha": "c097327371995605a0dcf25592c3dcd0d9502d72",
       "sourcePackageVersion": "1.512.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "95ab249f4c60bb28ab7c453c7d14684deeb3dd8d",
+      "sourcePackageVersion": "1.512.3",
+      "intentIds": [
+        "remote-desktop-rate-recovery:a20f9f098232bf7c7634e49ead1d194bf1b98dec4b449e4470b76de1584bda82"
+      ]
     }
   ],
   "intents": [
@@ -159626,6 +159633,14 @@
       "summary": "Tag automatic backend requests with X-CodePress-Activity: background so staging can distinguish background traffic from user activity.",
       "sourceSha": "0fb83024f648add3bbfc8eb22a0a1a5ffe5104fa",
       "identity": "quiet-terminal-background-activity:c9d85bc6ee794abad1f7bfd1e8eaedf34aa5f53863d7e762246cdaff44393e32"
+    },
+    {
+      "id": "remote-desktop-rate-recovery",
+      "digest": "a20f9f098232bf7c7634e49ead1d194bf1b98dec4b449e4470b76de1584bda82",
+      "type": "patch",
+      "summary": "Recover Remote Desktop bitrate and resolution after congestion, ignore idle RTT noise, and add opt-in interval diagnostics.",
+      "sourceSha": "95ab249f4c60bb28ab7c453c7d14684deeb3dd8d",
+      "identity": "remote-desktop-rate-recovery:a20f9f098232bf7c7634e49ead1d194bf1b98dec4b449e4470b76de1584bda82"
     }
   ],
   "consumedIntentIds": [
