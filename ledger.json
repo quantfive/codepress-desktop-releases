@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9317e932b0e0ffa1d1fdb60bba59845edd2eda74",
+  "cursorSha": "f9967add86d2961b890e66821cca47e696737870",
   "highWaterVersion": "1.502.5",
   "rows": [
     {
@@ -152483,6 +152483,13 @@
       "sourceSha": "9317e932b0e0ffa1d1fdb60bba59845edd2eda74",
       "sourcePackageVersion": "1.513.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f9967add86d2961b890e66821cca47e696737870",
+      "sourcePackageVersion": "1.513.5",
+      "intentIds": [
+        "runner-host-resume-backend-drain:9aea50f2f772d94d0d3b8c41f71f14469da4f13bbce260b842758a11059ddaee"
+      ]
     }
   ],
   "intents": [
@@ -160437,6 +160444,14 @@
       "summary": "Keep Terminal CI tests selected when the shared ripgrep setup action changes.",
       "sourceSha": "f4fb53e383f3e246a6a1007e05ea4fa8ede0ed49",
       "identity": "qualify-ripgrep-cache:91ffe677425f9bcc74ddee1b24532c67b1b8839f47c6963bf75bdfe57f3cad69"
+    },
+    {
+      "id": "runner-host-resume-backend-drain",
+      "digest": "9aea50f2f772d94d0d3b8c41f71f14469da4f13bbce260b842758a11059ddaee",
+      "type": "patch",
+      "summary": "Resume runner host capacity when Active clears a backend-requested drain, while preserving existing local/safety drains and automatic recovery after transient starts or cleanup retries.",
+      "sourceSha": "f9967add86d2961b890e66821cca47e696737870",
+      "identity": "runner-host-resume-backend-drain:9aea50f2f772d94d0d3b8c41f71f14469da4f13bbce260b842758a11059ddaee"
     }
   ],
   "consumedIntentIds": [
