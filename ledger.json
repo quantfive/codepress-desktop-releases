@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "ad800484334734aec5f24da04cb375750c278b75",
-  "highWaterVersion": "1.501.5",
+  "highWaterVersion": "1.501.6",
   "rows": [
     {
       "schemaVersion": 1,
@@ -81631,6 +81631,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:ad800484334734aec5f24da04cb375750c278b75",
+      "kind": "main",
+      "sequence": 2180,
+      "sourceSha": "ad800484334734aec5f24da04cb375750c278b75",
+      "sourcePackageVersion": "1.512.6",
+      "version": "1.501.6",
+      "publicationDate": "2026-11-08T07:49:05.509Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "negotiated-desktop-high:967fb384501e2a8a71ba188839a2a8d1ddea4902f69791977b9f227cb0372c6f"
+        ],
+        "notesIntentIds": [
+          "negotiated-desktop-high:967fb384501e2a8a71ba188839a2a8d1ddea4902f69791977b9f227cb0372c6f"
+        ],
+        "throughSourceSha": "ad800484334734aec5f24da04cb375750c278b75",
+        "previousThroughSourceSha": "7648149b11b45b7e662fe9b45e116a697f04d8d7",
+        "baselineVersion": "1.501.5",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42460287465",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-09T07:48:59.762Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -160795,7 +160838,8 @@
     "takeover-keeps-finished-workers:6ee54c2991fd91fdd0e0dc0e2b12ccd5762b4fa9e8d852a1a53921f076c9aa73",
     "quiet-terminal-background-activity:c9d85bc6ee794abad1f7bfd1e8eaedf34aa5f53863d7e762246cdaff44393e32",
     "remote-desktop-rate-recovery:a20f9f098232bf7c7634e49ead1d194bf1b98dec4b449e4470b76de1584bda82",
-    "desktop-viewer-reconnect:227075fc92985336656853fa16fe2b30a7b95271222e841b3f58276156ec125e"
+    "desktop-viewer-reconnect:227075fc92985336656853fa16fe2b30a7b95271222e841b3f58276156ec125e",
+    "negotiated-desktop-high:967fb384501e2a8a71ba188839a2a8d1ddea4902f69791977b9f227cb0372c6f"
   ],
-  "consumedThroughSha": "7648149b11b45b7e662fe9b45e116a697f04d8d7"
+  "consumedThroughSha": "ad800484334734aec5f24da04cb375750c278b75"
 }
