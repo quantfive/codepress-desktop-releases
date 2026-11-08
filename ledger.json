@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "852e66a62bd3da055ad005221c6e8c4649d16db6",
+  "cursorSha": "565ed1d88e346a711bc539825d6bde3b96be02b3",
   "highWaterVersion": "1.501.2",
   "rows": [
     {
@@ -151657,6 +151657,11 @@
       "intentIds": [
         "takeover-keeps-finished-workers:6ee54c2991fd91fdd0e0dc0e2b12ccd5762b4fa9e8d852a1a53921f076c9aa73"
       ]
+    },
+    {
+      "sourceSha": "565ed1d88e346a711bc539825d6bde3b96be02b3",
+      "sourcePackageVersion": "1.512.2",
+      "intentIds": []
     }
   ],
   "intents": [
