@@ -81726,10 +81726,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42461982603",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-09T08:13:32.199Z",
         "dispatch": null,
         "failures": []
       }
