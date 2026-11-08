@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f0378b1609fed71d3282864833610b2ed20ea48c",
+  "cursorSha": "da0beed642985741add1512873710462d50b5047",
   "highWaterVersion": "1.500.4",
   "rows": [
     {
@@ -151205,6 +151205,13 @@
       "sourceSha": "f0378b1609fed71d3282864833610b2ed20ea48c",
       "sourcePackageVersion": "1.511.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "da0beed642985741add1512873710462d50b5047",
+      "sourcePackageVersion": "1.511.4",
+      "intentIds": [
+        "takeover-download-large-projects:f1760d25cb95565a57e2783c87b727e27072d07ac5d1c065e0a9fd630190d56b"
+      ]
     }
   ],
   "intents": [
@@ -159031,6 +159038,14 @@
       "summary": "Factory: Next per-person switch. Terminal syncs the signed-in person's staff-managed Factory: Next enrollment to `<CODEPRESS_HOME>/factory/variant.json` on sign-in and on each settings read. On `next`, Stop guidance names `qa-verifier-next` and `falsifier-next`, and `codepress factory skill --name qa-verifier|falsifier` prints the `-next` prompt when this build carries it (today's role and an advisory line otherwise). `codepress factory variant next|current|auto` overrides the machine at once; with no file the machine stays on today's factory, byte for byte.",
       "sourceSha": "e86201045295bf90e5e004d88254f6111fa8f3b4",
       "identity": "factory-next-variant:c0c068f97a92c64fa995acdbedc000e23487871c155e74e75ae1f851b29d6b28"
+    },
+    {
+      "id": "takeover-download-large-projects",
+      "digest": "f1760d25cb95565a57e2783c87b727e27072d07ac5d1c065e0a9fd630190d56b",
+      "type": "patch",
+      "summary": "Picking a project up from its cloud copy now finishes for large projects. It downloads only the conversations that resume, retries dropped connections and server errors, renews expired download links, and reports which download failed and why.",
+      "sourceSha": "da0beed642985741add1512873710462d50b5047",
+      "identity": "takeover-download-large-projects:f1760d25cb95565a57e2783c87b727e27072d07ac5d1c065e0a9fd630190d56b"
     }
   ],
   "consumedIntentIds": [
