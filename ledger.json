@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1a27caa330d9c1b8b122131f92d5a7bd5ca619e5",
+  "cursorSha": "084bba0db915b4c9279cd29ce2a57d74e62d2c2d",
   "highWaterVersion": "1.500.7",
   "rows": [
     {
@@ -151431,6 +151431,13 @@
       "sourceSha": "1a27caa330d9c1b8b122131f92d5a7bd5ca619e5",
       "sourcePackageVersion": "1.511.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "084bba0db915b4c9279cd29ce2a57d74e62d2c2d",
+      "sourcePackageVersion": "1.511.7",
+      "intentIds": [
+        "grok-limit-recovery:be611f65956f8d3d4716025b43c4906683d9051edbb57efed1d41308b5eb18b8"
+      ]
     }
   ],
   "intents": [
@@ -159281,6 +159288,14 @@
       "summary": "A project whose workers Terminal restarted itself (a usage-limit failover, a restart the person approved, a handoff's worker resume) can be handed off and taken over from its cloud copy again; its bundle is no longer refused as carrying a foreign PM reference. A handoff whose bundle every destination would refuse now fails on the home machine with the same message, before it is sent; the cloud copy still uploads and Terminal logs a warning naming what a takeover would refuse.",
       "sourceSha": "2ac042cd5bf312f496e924432dea2fcb1d8eddb4",
       "identity": "bundle-platform-sessions:da68ef6a5b354cef357ed162324266029ac3af6e9eadd426f7032a1bebe38888"
+    },
+    {
+      "id": "grok-limit-recovery",
+      "digest": "be611f65956f8d3d4716025b43c4906683d9051edbb57efed1d41308b5eb18b8",
+      "type": "minor",
+      "summary": "A Grok agent at a usage limit now says so. Its composer strip names the account, which limit ran out and when it resets, and offers Wait for reset or Continue on another account. Terminal waits on the same account and continues there at the reset; it never moves a Grok account by itself, and agents can't either.",
+      "sourceSha": "084bba0db915b4c9279cd29ce2a57d74e62d2c2d",
+      "identity": "grok-limit-recovery:be611f65956f8d3d4716025b43c4906683d9051edbb57efed1d41308b5eb18b8"
     }
   ],
   "consumedIntentIds": [
