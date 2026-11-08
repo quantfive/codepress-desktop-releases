@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7dc5c32e68a9b99f9a86eae45c8c943b115be8a1",
+  "cursorSha": "d5764169fb5e69545fde8d47ca5fb847fa7ab271",
   "highWaterVersion": "1.502.6",
   "rows": [
     {
@@ -152585,6 +152585,13 @@
       "sourceSha": "7dc5c32e68a9b99f9a86eae45c8c943b115be8a1",
       "sourcePackageVersion": "1.513.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d5764169fb5e69545fde8d47ca5fb847fa7ab271",
+      "sourcePackageVersion": "1.513.6",
+      "intentIds": [
+        "linux-golden-docker-jq:332376c4519080701316b0a2ebc2a039f7d23e39e70ca461d21602cc84b735fc"
+      ]
     }
   ],
   "intents": [
@@ -160547,6 +160554,14 @@
       "summary": "Resume runner host capacity when Active clears a backend-requested drain, while preserving existing local/safety drains and automatic recovery after transient starts or cleanup retries.",
       "sourceSha": "f9967add86d2961b890e66821cca47e696737870",
       "identity": "runner-host-resume-backend-drain:9aea50f2f772d94d0d3b8c41f71f14469da4f13bbce260b842758a11059ddaee"
+    },
+    {
+      "id": "linux-golden-docker-jq",
+      "digest": "332376c4519080701316b0a2ebc2a039f7d23e39e70ca461d21602cc84b735fc",
+      "type": "patch",
+      "summary": "Install pinned Docker and jq in Linux CI goldens and advertise verified tools so service-container jobs can spill safely to updated hosts.",
+      "sourceSha": "d5764169fb5e69545fde8d47ca5fb847fa7ab271",
+      "identity": "linux-golden-docker-jq:332376c4519080701316b0a2ebc2a039f7d23e39e70ca461d21602cc84b735fc"
     }
   ],
   "consumedIntentIds": [
