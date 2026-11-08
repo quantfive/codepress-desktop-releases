@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "693d6b700872fca2b86157b28b7ddec58f491e21",
+  "cursorSha": "f4fb53e383f3e246a6a1007e05ea4fa8ede0ed49",
   "highWaterVersion": "1.502.4",
   "rows": [
     {
@@ -152361,6 +152361,13 @@
       "sourceSha": "693d6b700872fca2b86157b28b7ddec58f491e21",
       "sourcePackageVersion": "1.513.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f4fb53e383f3e246a6a1007e05ea4fa8ede0ed49",
+      "sourcePackageVersion": "1.513.4",
+      "intentIds": [
+        "qualify-ripgrep-cache:91ffe677425f9bcc74ddee1b24532c67b1b8839f47c6963bf75bdfe57f3cad69"
+      ]
     }
   ],
   "intents": [
@@ -160307,6 +160314,14 @@
       "summary": "`resume_orchestrator_handoff_here` now answers a transfer this machine has no record of as `unknown_after_restart`, with the same next step that status, retry and cancel give, instead of `not_found`.",
       "sourceSha": "413b02b5e8a09f9a593b20d49b0eaf1445ef3f93",
       "identity": "resume-handoff-unknown-after-restart:07360fa24bdd9cc962667b30bc6d449e0c7e493c5560de411822d114b89eb886"
+    },
+    {
+      "id": "qualify-ripgrep-cache",
+      "digest": "91ffe677425f9bcc74ddee1b24532c67b1b8839f47c6963bf75bdfe57f3cad69",
+      "type": "patch",
+      "summary": "Keep Terminal CI tests selected when the shared ripgrep setup action changes.",
+      "sourceSha": "f4fb53e383f3e246a6a1007e05ea4fa8ede0ed49",
+      "identity": "qualify-ripgrep-cache:91ffe677425f9bcc74ddee1b24532c67b1b8839f47c6963bf75bdfe57f3cad69"
     }
   ],
   "consumedIntentIds": [
