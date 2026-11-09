@@ -82934,10 +82934,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42717534137",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-10T23:05:57.315Z",
         "dispatch": null,
         "failures": []
       }
