@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d1e83496214a32aaebbb73fd5b711658c8c1a532",
+  "cursorSha": "183e57f1be23c6c9bb907743ed0067f8097fe582",
   "highWaterVersion": "1.502.19",
   "rows": [
     {
@@ -153897,6 +153897,13 @@
       "sourceSha": "d1e83496214a32aaebbb73fd5b711658c8c1a532",
       "sourcePackageVersion": "1.513.23",
       "intentIds": []
+    },
+    {
+      "sourceSha": "183e57f1be23c6c9bb907743ed0067f8097fe582",
+      "sourcePackageVersion": "1.513.23",
+      "intentIds": [
+        "fable-5-2-catalog:c689dc5ae520ed19d8f51d6824428c15b0a3b911f10e689b0ae29761faa6da35"
+      ]
     }
   ],
   "intents": [
@@ -162011,6 +162018,14 @@
       "summary": "Update the Claude Agent SDK to 0.3.321, shipping Claude Code 2.1.321 for local Orchestrator and local-device agent sessions. Claude Fable 5.2 runs without an unrecognized-model warning.",
       "sourceSha": "80fc318c8b5e4dda609b3d7511dfb7bbb79ad83c",
       "identity": "anthropic-sdk-0321:ae4744eb40328475118021a1e41eb82aea4a8244061a2faa6c2cddd1b8fd4ae7"
+    },
+    {
+      "id": "fable-5-2-catalog",
+      "digest": "c689dc5ae520ed19d8f51d6824428c15b0a3b911f10e689b0ae29761faa6da35",
+      "type": "patch",
+      "summary": "Offer Claude Fable 5.2 in place of Fable 5.1 in the model pickers, and price Fable 5.2 usage at $8 / $40 per million tokens ($0.20 cache reads, $10 / $16 cache writes).",
+      "sourceSha": "183e57f1be23c6c9bb907743ed0067f8097fe582",
+      "identity": "fable-5-2-catalog:c689dc5ae520ed19d8f51d6824428c15b0a3b911f10e689b0ae29761faa6da35"
     }
   ],
   "consumedIntentIds": [
