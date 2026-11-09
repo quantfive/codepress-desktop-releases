@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "32b3827b08f7fdfa013bc9f44ef323f8cbd92cc8",
-  "highWaterVersion": "1.502.13",
+  "highWaterVersion": "1.502.14",
   "rows": [
     {
       "schemaVersion": 1,
@@ -82497,6 +82497,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:32b3827b08f7fdfa013bc9f44ef323f8cbd92cc8",
+      "kind": "main",
+      "sequence": 2195,
+      "sourceSha": "32b3827b08f7fdfa013bc9f44ef323f8cbd92cc8",
+      "sourcePackageVersion": "1.513.14",
+      "version": "1.502.14",
+      "publicationDate": "2026-11-09T20:30:58.840Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "live-view-minimized-redirect:4736701b96d18a52e389f7d7929f961f521eb0a0920c3e0dddd55abac9e8a0db"
+        ],
+        "notesIntentIds": [
+          "live-view-minimized-redirect:4736701b96d18a52e389f7d7929f961f521eb0a0920c3e0dddd55abac9e8a0db"
+        ],
+        "throughSourceSha": "32b3827b08f7fdfa013bc9f44ef323f8cbd92cc8",
+        "previousThroughSourceSha": "51509d5ca74e777048c068ea160e0a53319c200c",
+        "baselineVersion": "1.502.13",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42693595952",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-10T20:30:50.912Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -162377,7 +162420,8 @@
     "team-plan-frame-origin:bbd76ce5866a78f33594bc98ed8f9b38497cabd2f67a48802c213467600e8c88",
     "team-composer-folds:967f58ce46c40b980ba7fafc50e6ab9f4955a1181407273585eedcc41e0c8e82",
     "agy-acp-pin:313cdea80957c45d50ca8e7bd2251f85b476448d3bd06bddd0d9f9cbe4557d85",
-    "muse-orchestrator-live-turns:7a219bc5c7fdf3b1017015d55f00bef937f20099a7f053e57011dfbbe332f1f8"
+    "muse-orchestrator-live-turns:7a219bc5c7fdf3b1017015d55f00bef937f20099a7f053e57011dfbbe332f1f8",
+    "live-view-minimized-redirect:4736701b96d18a52e389f7d7929f961f521eb0a0920c3e0dddd55abac9e8a0db"
   ],
-  "consumedThroughSha": "51509d5ca74e777048c068ea160e0a53319c200c"
+  "consumedThroughSha": "32b3827b08f7fdfa013bc9f44ef323f8cbd92cc8"
 }
