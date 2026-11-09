@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "76d8bcbaf5ced4bb7ebd2f0627636345a6a4a200",
+  "cursorSha": "4415e0c7e4ab76f9a7e69a18ec6d9bd98d319957",
   "highWaterVersion": "1.502.20",
   "rows": [
     {
@@ -154007,6 +154007,13 @@
       "sourceSha": "76d8bcbaf5ced4bb7ebd2f0627636345a6a4a200",
       "sourcePackageVersion": "1.513.25",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4415e0c7e4ab76f9a7e69a18ec6d9bd98d319957",
+      "sourcePackageVersion": "1.513.25",
+      "intentIds": [
+        "app-preview-path-mode-hint:071a010a62c8ab6bcd583d33e64e288bffb795d271f0bd68f84c7c7fea6ea704"
+      ]
     }
   ],
   "intents": [
@@ -162137,6 +162144,14 @@
       "summary": "Disconnect another machine automatically once no window on screen has shown any of its tabs for 5 minutes, so forgotten connections stop pinging it.",
       "sourceSha": "3b96f47e51d94f4a55e97e903796bb98d9cef4d6",
       "identity": "remote-machine-idle-disconnect:b77c98016a5fe2fb8d45126f26ad83c13839bb3f66fb05dd5cf527be9a3c5237"
+    },
+    {
+      "id": "app-preview-path-mode-hint",
+      "digest": "071a010a62c8ab6bcd583d33e64e288bffb795d271f0bd68f84c7c7fea6ea704",
+      "type": "patch",
+      "summary": "App reads ask the backend for path-mode preview URLs, so App frames load in Terminal on WebKit and when Terminal is open in a Chromium browser tab.",
+      "sourceSha": "4415e0c7e4ab76f9a7e69a18ec6d9bd98d319957",
+      "identity": "app-preview-path-mode-hint:071a010a62c8ab6bcd583d33e64e288bffb795d271f0bd68f84c7c7fea6ea704"
     }
   ],
   "consumedIntentIds": [
