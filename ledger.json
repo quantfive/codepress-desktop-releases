@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "20497a1f5c8bdc2e9715dbd5c7c8e9b8d1672a14",
+  "cursorSha": "7bfbceaf1e76be961cd45176101a3569076df963",
   "highWaterVersion": "1.502.18",
   "rows": [
     {
@@ -153777,6 +153777,13 @@
       "sourceSha": "20497a1f5c8bdc2e9715dbd5c7c8e9b8d1672a14",
       "sourcePackageVersion": "1.513.21",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7bfbceaf1e76be961cd45176101a3569076df963",
+      "sourcePackageVersion": "1.513.21",
+      "intentIds": [
+        "no-more-unlisted:55be1615c1937a0d27a7d93d57cbaf3c580e487b50243f39b6f39a7aa45f8eae"
+      ]
     }
   ],
   "intents": [
@@ -161859,6 +161866,14 @@
       "summary": "Orchestrator: a project's Terminal tab now opens on its newest running worker's agent terminal, in that worker's worktree, instead of the idle Session shell, until you pick a tab. With no worker running it opens on the Session shell as before, and a tab you pick stays picked.",
       "sourceSha": "35714ee28848d8e82cc0a146d42e4c772651de20",
       "identity": "terminal-tab-opens-on-worker:7575e54cafd71d4b388acf4ae137d0f0c47d14749caeb2e0c2fec086967c2f1b"
+    },
+    {
+      "id": "no-more-unlisted",
+      "digest": "55be1615c1937a0d27a7d93d57cbaf3c580e487b50243f39b6f39a7aa45f8eae",
+      "type": "patch",
+      "summary": "Every chat and project is now Team or Personal, so the \"Who should see your older chats and projects?\" card in the feed and the matching row in Preferences are gone, and a project's menu no longer shows a \"Not shared with your team yet\" state.",
+      "sourceSha": "7bfbceaf1e76be961cd45176101a3569076df963",
+      "identity": "no-more-unlisted:55be1615c1937a0d27a7d93d57cbaf3c580e487b50243f39b6f39a7aa45f8eae"
     }
   ],
   "consumedIntentIds": [
