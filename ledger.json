@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b7eead1f327337cd891cd1b693ee9b36bcc04d2b",
+  "cursorSha": "e4f8b1859ec730513493933b54be642fe3f08cd0",
   "highWaterVersion": "1.502.14",
   "rows": [
     {
@@ -153423,6 +153423,13 @@
       "sourceSha": "b7eead1f327337cd891cd1b693ee9b36bcc04d2b",
       "sourcePackageVersion": "1.513.15",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e4f8b1859ec730513493933b54be642fe3f08cd0",
+      "sourcePackageVersion": "1.513.15",
+      "intentIds": [
+        "teammate-chat-bar-polish:7e5aabb453b7f28f5faf0a944ad210bdd4281d6b724a1d10f760b2d0f66e7f46"
+      ]
     }
   ],
   "intents": [
@@ -161457,6 +161464,14 @@
       "summary": "Live browser: the picture no longer freezes when a sign-in redirects the tab to another site while the Chrome window on this machine is minimized.",
       "sourceSha": "32b3827b08f7fdfa013bc9f44ef323f8cbd92cc8",
       "identity": "live-view-minimized-redirect:4736701b96d18a52e389f7d7929f961f521eb0a0920c3e0dddd55abac9e8a0db"
+    },
+    {
+      "id": "teammate-chat-bar-polish",
+      "digest": "7e5aabb453b7f28f5faf0a944ad210bdd4281d6b724a1d10f760b2d0f66e7f46",
+      "type": "patch",
+      "summary": "A teammate's Team chat or project header is tidier: Add to my feed and Send to… are smaller, the Continue in my own chat button is gone (start your own chat from the composer under the thread with Start my own chat or Start my own Orchestrator project), the Read-only chip is gone (you can message the owner's agent), and the owner shows with their profile picture, or the same initials and colors they have in the Team feed.",
+      "sourceSha": "e4f8b1859ec730513493933b54be642fe3f08cd0",
+      "identity": "teammate-chat-bar-polish:7e5aabb453b7f28f5faf0a944ad210bdd4281d6b724a1d10f760b2d0f66e7f46"
     }
   ],
   "consumedIntentIds": [
