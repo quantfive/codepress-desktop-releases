@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "823e5da1a8eaea21972dee9110eba1a667489c6a",
+  "cursorSha": "3c949e888c3c37b1995f8940b04a56fc7d55ba7d",
   "highWaterVersion": "1.502.17",
   "rows": [
     {
@@ -153676,6 +153676,11 @@
       "intentIds": [
         "relay-hello-same-read:a6a993f3097af0a0d769b0a77cb665cb1d9f200c0fc2a02359da56a6f222003e"
       ]
+    },
+    {
+      "sourceSha": "3c949e888c3c37b1995f8940b04a56fc7d55ba7d",
+      "sourcePackageVersion": "1.513.19",
+      "intentIds": []
     }
   ],
   "intents": [
