@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "eccecca7053e6d53cb56609dfeb325c62dd3ec49",
+  "cursorSha": "21a48b5cc5f74cbcc03c81cc226832a2a00b229b",
   "highWaterVersion": "1.502.12",
   "rows": [
     {
@@ -153225,6 +153225,13 @@
       "sourceSha": "eccecca7053e6d53cb56609dfeb325c62dd3ec49",
       "sourcePackageVersion": "1.513.12",
       "intentIds": []
+    },
+    {
+      "sourceSha": "21a48b5cc5f74cbcc03c81cc226832a2a00b229b",
+      "sourcePackageVersion": "1.513.12",
+      "intentIds": [
+        "agy-acp-pin:313cdea80957c45d50ca8e7bd2251f85b476448d3bd06bddd0d9f9cbe4557d85"
+      ]
     }
   ],
   "intents": [
@@ -161235,6 +161242,14 @@
       "summary": "On a teammate's chat or project in the Team feed, the composer under the thread is now a one-line box while you're reading, like My feed's. Click in or start typing and it opens to the full start composer.",
       "sourceSha": "2b2e5a17c46ca64b6f7442d6ee6c324819157dd9",
       "identity": "team-composer-folds:967f58ce46c40b980ba7fafc50e6ab9f4955a1181407273585eedcc41e0c8e82"
+    },
+    {
+      "id": "agy-acp-pin",
+      "digest": "313cdea80957c45d50ca8e7bd2251f85b476448d3bd06bddd0d9f9cbe4557d85",
+      "type": "patch",
+      "summary": "The Antigravity CLI (`agy`) that Terminal installs for Gemini workers is now 1.5.3, which includes `agy acp`, the Agent Client Protocol server.",
+      "sourceSha": "21a48b5cc5f74cbcc03c81cc226832a2a00b229b",
+      "identity": "agy-acp-pin:313cdea80957c45d50ca8e7bd2251f85b476448d3bd06bddd0d9f9cbe4557d85"
     }
   ],
   "consumedIntentIds": [
