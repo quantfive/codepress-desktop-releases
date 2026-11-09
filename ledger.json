@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9c209a8936a2149ed5ad5ebb67828547575ea41e",
+  "cursorSha": "32b3827b08f7fdfa013bc9f44ef323f8cbd92cc8",
   "highWaterVersion": "1.502.13",
   "rows": [
     {
@@ -153331,6 +153331,13 @@
       "sourceSha": "9c209a8936a2149ed5ad5ebb67828547575ea41e",
       "sourcePackageVersion": "1.513.14",
       "intentIds": []
+    },
+    {
+      "sourceSha": "32b3827b08f7fdfa013bc9f44ef323f8cbd92cc8",
+      "sourcePackageVersion": "1.513.14",
+      "intentIds": [
+        "live-view-minimized-redirect:4736701b96d18a52e389f7d7929f961f521eb0a0920c3e0dddd55abac9e8a0db"
+      ]
     }
   ],
   "intents": [
@@ -161357,6 +161364,14 @@
       "summary": "A local Orchestrator running on Muse or Grok now shows its turn live in the thread (tool calls, subagent spawns and waits, text) instead of \"Starting a chat…\" for the whole turn. The window no longer checks the Orchestrator's provider against a list of names, and a running turn stays visible even when the PM status cannot be read.",
       "sourceSha": "51509d5ca74e777048c068ea160e0a53319c200c",
       "identity": "muse-orchestrator-live-turns:7a219bc5c7fdf3b1017015d55f00bef937f20099a7f053e57011dfbbe332f1f8"
+    },
+    {
+      "id": "live-view-minimized-redirect",
+      "digest": "4736701b96d18a52e389f7d7929f961f521eb0a0920c3e0dddd55abac9e8a0db",
+      "type": "patch",
+      "summary": "Live browser: the picture no longer freezes when a sign-in redirects the tab to another site while the Chrome window on this machine is minimized.",
+      "sourceSha": "32b3827b08f7fdfa013bc9f44ef323f8cbd92cc8",
+      "identity": "live-view-minimized-redirect:4736701b96d18a52e389f7d7929f961f521eb0a0920c3e0dddd55abac9e8a0db"
     }
   ],
   "consumedIntentIds": [
