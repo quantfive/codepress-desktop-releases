@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "51509d5ca74e777048c068ea160e0a53319c200c",
-  "highWaterVersion": "1.502.12",
+  "highWaterVersion": "1.502.13",
   "rows": [
     {
       "schemaVersion": 1,
@@ -82440,6 +82440,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:51509d5ca74e777048c068ea160e0a53319c200c",
+      "kind": "main",
+      "sequence": 2194,
+      "sourceSha": "51509d5ca74e777048c068ea160e0a53319c200c",
+      "sourcePackageVersion": "1.513.13",
+      "version": "1.502.13",
+      "publicationDate": "2026-11-09T19:44:48.113Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "agy-acp-pin:313cdea80957c45d50ca8e7bd2251f85b476448d3bd06bddd0d9f9cbe4557d85",
+          "muse-orchestrator-live-turns:7a219bc5c7fdf3b1017015d55f00bef937f20099a7f053e57011dfbbe332f1f8"
+        ],
+        "notesIntentIds": [
+          "agy-acp-pin:313cdea80957c45d50ca8e7bd2251f85b476448d3bd06bddd0d9f9cbe4557d85",
+          "muse-orchestrator-live-turns:7a219bc5c7fdf3b1017015d55f00bef937f20099a7f053e57011dfbbe332f1f8"
+        ],
+        "throughSourceSha": "51509d5ca74e777048c068ea160e0a53319c200c",
+        "previousThroughSourceSha": "2b2e5a17c46ca64b6f7442d6ee6c324819157dd9",
+        "baselineVersion": "1.502.12",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42686187516",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-10T19:44:41.082Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -162283,7 +162328,9 @@
     "desktop-expiry-recovery:f221165247ade73b960718b48e88ff91fd3ef36c7ab546c9371b9fd777605edd",
     "desktop-stall-diagnostics:d4b2c69a06998b2f96511e430cd6888d839b5b93cb798f75de6b5367a08f9826",
     "team-plan-frame-origin:bbd76ce5866a78f33594bc98ed8f9b38497cabd2f67a48802c213467600e8c88",
-    "team-composer-folds:967f58ce46c40b980ba7fafc50e6ab9f4955a1181407273585eedcc41e0c8e82"
+    "team-composer-folds:967f58ce46c40b980ba7fafc50e6ab9f4955a1181407273585eedcc41e0c8e82",
+    "agy-acp-pin:313cdea80957c45d50ca8e7bd2251f85b476448d3bd06bddd0d9f9cbe4557d85",
+    "muse-orchestrator-live-turns:7a219bc5c7fdf3b1017015d55f00bef937f20099a7f053e57011dfbbe332f1f8"
   ],
-  "consumedThroughSha": "2b2e5a17c46ca64b6f7442d6ee6c324819157dd9"
+  "consumedThroughSha": "51509d5ca74e777048c068ea160e0a53319c200c"
 }
