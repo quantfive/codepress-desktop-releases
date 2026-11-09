@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "cffa0c3191691a946dc0a091366651ae2bc92bc6",
+  "cursorSha": "b2d8e20d04d6d80f45a9c8811b01bf23b94ad3ff",
   "highWaterVersion": "1.502.8",
   "rows": [
     {
@@ -152754,6 +152754,13 @@
       "sourceSha": "cffa0c3191691a946dc0a091366651ae2bc92bc6",
       "sourcePackageVersion": "1.513.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b2d8e20d04d6d80f45a9c8811b01bf23b94ad3ff",
+      "sourcePackageVersion": "1.513.8",
+      "intentIds": [
+        "desktop-expiry-recovery:f221165247ade73b960718b48e88ff91fd3ef36c7ab546c9371b9fd777605edd"
+      ]
     }
   ],
   "intents": [
@@ -160732,6 +160739,14 @@
       "summary": "Preload pinned PostgreSQL/pgvector and Redis images in Linux CI goldens and use verified local content for their service-container pulls.",
       "sourceSha": "7ca74e32382cbe7fa8f851de46de0c4797f0321d",
       "identity": "calm-goldens-cache:12650bc36dbc8f8098a1e1a380df10b638f8747989714637ef75a5a67c6e7b7c"
+    },
+    {
+      "id": "desktop-expiry-recovery",
+      "digest": "f221165247ade73b960718b48e88ff91fd3ef36c7ab546c9371b9fd777605edd",
+      "type": "patch",
+      "summary": "Preserve the Remote Desktop expiry reason when a streaming session closes, and automatically reconnect with the same display and granted scope at the session cap.",
+      "sourceSha": "b2d8e20d04d6d80f45a9c8811b01bf23b94ad3ff",
+      "identity": "desktop-expiry-recovery:f221165247ade73b960718b48e88ff91fd3ef36c7ab546c9371b9fd777605edd"
     }
   ],
   "consumedIntentIds": [
