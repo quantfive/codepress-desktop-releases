@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c54f2931caf85affe9a28b3dc3a5d308afb47fe5",
+  "cursorSha": "d2c51c1c37010a209dcae698e6e939a619de1721",
   "highWaterVersion": "1.502.21",
   "rows": [
     {
@@ -154076,6 +154076,13 @@
       "sourceSha": "c54f2931caf85affe9a28b3dc3a5d308afb47fe5",
       "sourcePackageVersion": "1.513.26",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d2c51c1c37010a209dcae698e6e939a619de1721",
+      "sourcePackageVersion": "1.513.26",
+      "intentIds": [
+        "settings-hosting-computers-native:da5b5ec14de0be8cbe24ea54ea50b0dabcf22aff01f69a42ba321aad125d059a"
+      ]
     }
   ],
   "intents": [
@@ -162214,6 +162221,14 @@
       "summary": "App reads ask the backend for path-mode preview URLs, so App frames load in Terminal on WebKit and when Terminal is open in a Chromium browser tab.",
       "sourceSha": "4415e0c7e4ab76f9a7e69a18ec6d9bd98d319957",
       "identity": "app-preview-path-mode-hint:071a010a62c8ab6bcd583d33e64e288bffb795d271f0bd68f84c7c7fea6ea704"
+    },
+    {
+      "id": "settings-hosting-computers-native",
+      "digest": "da5b5ec14de0be8cbe24ea54ea50b0dabcf22aff01f69a42ba321aad125d059a",
+      "type": "patch",
+      "summary": "Settings → App hosting and Team computers now draw in Terminal's Settings pane instead of loading the web page. App hosting's billing link still opens Billing in the embedded web view.",
+      "sourceSha": "d2c51c1c37010a209dcae698e6e939a619de1721",
+      "identity": "settings-hosting-computers-native:da5b5ec14de0be8cbe24ea54ea50b0dabcf22aff01f69a42ba321aad125d059a"
     }
   ],
   "consumedIntentIds": [
