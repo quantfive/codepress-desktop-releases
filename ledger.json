@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "344264419876d7f94c50876d66f1e9fb580bdc0f",
+  "cursorSha": "1e1ff0c8eeee7f67e784d454fa1ec75a68b3e7e8",
   "highWaterVersion": "1.502.15",
   "rows": [
     {
@@ -153500,6 +153500,13 @@
       "sourceSha": "344264419876d7f94c50876d66f1e9fb580bdc0f",
       "sourcePackageVersion": "1.513.16",
       "intentIds": []
+    },
+    {
+      "sourceSha": "1e1ff0c8eeee7f67e784d454fa1ec75a68b3e7e8",
+      "sourcePackageVersion": "1.513.16",
+      "intentIds": [
+        "gemini-acp-session-engine:a553dd0aaf7f5e94b12122586ad416c4813b9614533bb1e337e8f2b27a459f56"
+      ]
     }
   ],
   "intents": [
@@ -161542,6 +161549,14 @@
       "summary": "A teammate's Team chat or project header is tidier: Add to my feed and Send to… are smaller, the Continue in my own chat button is gone (start your own chat from the composer under the thread with Start my own chat or Start my own Orchestrator project), the Read-only chip is gone (you can message the owner's agent), and the owner shows with their profile picture, or the same initials and colors they have in the Team feed.",
       "sourceSha": "e4f8b1859ec730513493933b54be642fe3f08cd0",
       "identity": "teammate-chat-bar-polish:7e5aabb453b7f28f5faf0a944ad210bdd4281d6b724a1d10f760b2d0f66e7f46"
+    },
+    {
+      "id": "gemini-acp-session-engine",
+      "digest": "a553dd0aaf7f5e94b12122586ad416c4813b9614533bb1e337e8f2b27a459f56",
+      "type": "patch",
+      "summary": "The Grok Orchestrator's ACP session is now a shared engine, with a Gemini session on `agy acp` built on it. Nothing calls the Gemini session yet, and the Grok Orchestrator behaves the same.",
+      "sourceSha": "1e1ff0c8eeee7f67e784d454fa1ec75a68b3e7e8",
+      "identity": "gemini-acp-session-engine:a553dd0aaf7f5e94b12122586ad416c4813b9614533bb1e337e8f2b27a459f56"
     }
   ],
   "consumedIntentIds": [
