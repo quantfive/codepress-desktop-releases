@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3c2b51aeea9a7fd09263c6a145c32157fabee1b3",
+  "cursorSha": "80fc318c8b5e4dda609b3d7511dfb7bbb79ad83c",
   "highWaterVersion": "1.502.19",
   "rows": [
     {
@@ -153885,6 +153885,13 @@
       "sourceSha": "3c2b51aeea9a7fd09263c6a145c32157fabee1b3",
       "sourcePackageVersion": "1.513.23",
       "intentIds": []
+    },
+    {
+      "sourceSha": "80fc318c8b5e4dda609b3d7511dfb7bbb79ad83c",
+      "sourcePackageVersion": "1.513.23",
+      "intentIds": [
+        "anthropic-sdk-0321:ae4744eb40328475118021a1e41eb82aea4a8244061a2faa6c2cddd1b8fd4ae7"
+      ]
     }
   ],
   "intents": [
@@ -161991,6 +161998,14 @@
       "summary": "Pressing a machine's green \"Connected here\" icon in the Machines picker now disconnects that machine from this Terminal. It shows a spinner until the connection closes, shows any error on the row, and sends this window back to this machine if the disconnected one was selected.",
       "sourceSha": "4cca1e34bee96173baa7e8819f9fb7c06c8d09cf",
       "identity": "machine-picker-click-disconnect:08653b1bb9d6ec64b58d5675b45b4ee6b4cbacb1e1da83c0a4c8da92085db563"
+    },
+    {
+      "id": "anthropic-sdk-0321",
+      "digest": "ae4744eb40328475118021a1e41eb82aea4a8244061a2faa6c2cddd1b8fd4ae7",
+      "type": "patch",
+      "summary": "Update the Claude Agent SDK to 0.3.321, shipping Claude Code 2.1.321 for local Orchestrator and local-device agent sessions. Claude Fable 5.2 runs without an unrecognized-model warning.",
+      "sourceSha": "80fc318c8b5e4dda609b3d7511dfb7bbb79ad83c",
+      "identity": "anthropic-sdk-0321:ae4744eb40328475118021a1e41eb82aea4a8244061a2faa6c2cddd1b8fd4ae7"
     }
   ],
   "consumedIntentIds": [
