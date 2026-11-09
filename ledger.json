@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "76e9179a93058fe721d214b7db705ee0e161301a",
+  "cursorSha": "ebbfca6229fe1b8813ed4b9746793406200104c9",
   "highWaterVersion": "1.502.10",
   "rows": [
     {
@@ -153008,6 +153008,13 @@
       "sourceSha": "76e9179a93058fe721d214b7db705ee0e161301a",
       "sourcePackageVersion": "1.513.10",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ebbfca6229fe1b8813ed4b9746793406200104c9",
+      "sourcePackageVersion": "1.513.10",
+      "intentIds": [
+        "team-plan-frame-origin:bbd76ce5866a78f33594bc98ed8f9b38497cabd2f67a48802c213467600e8c88"
+      ]
     }
   ],
   "intents": [
@@ -161002,6 +161009,14 @@
       "summary": "Speed up periodic cleanup activity reads on large stores and add numeric Remote Desktop gate, keyframe, input, decoder and interval event-loop diagnostics.",
       "sourceSha": "7e9b3f01cf6efc4909a63e02de75762abcef6875",
       "identity": "desktop-stall-diagnostics:d4b2c69a06998b2f96511e430cd6888d839b5b93cb798f75de6b5367a08f9826"
+    },
+    {
+      "id": "team-plan-frame-origin",
+      "digest": "bbd76ce5866a78f33594bc98ed8f9b38497cabd2f67a48802c213467600e8c88",
+      "type": "patch",
+      "summary": "A teammate's Team project now shows its HTML plan in the Plans tab instead of an `ORIGIN_NOT_ALLOWED` error.",
+      "sourceSha": "ebbfca6229fe1b8813ed4b9746793406200104c9",
+      "identity": "team-plan-frame-origin:bbd76ce5866a78f33594bc98ed8f9b38497cabd2f67a48802c213467600e8c88"
     }
   ],
   "consumedIntentIds": [
