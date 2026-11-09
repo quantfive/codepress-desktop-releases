@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "b2d8e20d04d6d80f45a9c8811b01bf23b94ad3ff",
-  "highWaterVersion": "1.502.8",
+  "highWaterVersion": "1.502.9",
   "rows": [
     {
       "schemaVersion": 1,
@@ -82202,6 +82202,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:b2d8e20d04d6d80f45a9c8811b01bf23b94ad3ff",
+      "kind": "main",
+      "sequence": 2190,
+      "sourceSha": "b2d8e20d04d6d80f45a9c8811b01bf23b94ad3ff",
+      "sourcePackageVersion": "1.513.8",
+      "version": "1.502.9",
+      "publicationDate": "2026-11-09T04:06:49.102Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "desktop-expiry-recovery:f221165247ade73b960718b48e88ff91fd3ef36c7ab546c9371b9fd777605edd"
+        ],
+        "notesIntentIds": [
+          "desktop-expiry-recovery:f221165247ade73b960718b48e88ff91fd3ef36c7ab546c9371b9fd777605edd"
+        ],
+        "throughSourceSha": "b2d8e20d04d6d80f45a9c8811b01bf23b94ad3ff",
+        "previousThroughSourceSha": "7ca74e32382cbe7fa8f851de46de0c4797f0321d",
+        "baselineVersion": "1.502.8",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42559917430",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-10T04:06:42.222Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -161746,7 +161789,8 @@
     "qualify-ripgrep-cache:91ffe677425f9bcc74ddee1b24532c67b1b8839f47c6963bf75bdfe57f3cad69",
     "runner-host-resume-backend-drain:9aea50f2f772d94d0d3b8c41f71f14469da4f13bbce260b842758a11059ddaee",
     "linux-golden-docker-jq:332376c4519080701316b0a2ebc2a039f7d23e39e70ca461d21602cc84b735fc",
-    "calm-goldens-cache:12650bc36dbc8f8098a1e1a380df10b638f8747989714637ef75a5a67c6e7b7c"
+    "calm-goldens-cache:12650bc36dbc8f8098a1e1a380df10b638f8747989714637ef75a5a67c6e7b7c",
+    "desktop-expiry-recovery:f221165247ade73b960718b48e88ff91fd3ef36c7ab546c9371b9fd777605edd"
   ],
-  "consumedThroughSha": "7ca74e32382cbe7fa8f851de46de0c4797f0321d"
+  "consumedThroughSha": "b2d8e20d04d6d80f45a9c8811b01bf23b94ad3ff"
 }
