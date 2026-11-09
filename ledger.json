@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "fafefbe9b9882c5c8af54d8225084fbcba02b9b6",
+  "cursorSha": "823e5da1a8eaea21972dee9110eba1a667489c6a",
   "highWaterVersion": "1.502.17",
   "rows": [
     {
@@ -153669,6 +153669,13 @@
       "sourceSha": "fafefbe9b9882c5c8af54d8225084fbcba02b9b6",
       "sourcePackageVersion": "1.513.18",
       "intentIds": []
+    },
+    {
+      "sourceSha": "823e5da1a8eaea21972dee9110eba1a667489c6a",
+      "sourcePackageVersion": "1.513.18",
+      "intentIds": [
+        "relay-hello-same-read:a6a993f3097af0a0d769b0a77cb665cb1d9f200c0fc2a02359da56a6f222003e"
+      ]
     }
   ],
   "intents": [
@@ -161727,6 +161734,14 @@
       "summary": "Edge relay: a request that reaches this computer during a short daemon freeze now gets its late answer instead of a 502 `terminal_unreachable`.",
       "sourceSha": "806d1f74761eb0e9b093852093d52488d68ceb0b",
       "identity": "edge-relay-stall-replay:10d3d43693e943825bd03644ccf2be250f367dcc9d42a5313d09301685c1576f"
+    },
+    {
+      "id": "relay-hello-same-read",
+      "digest": "a6a993f3097af0a0d769b0a77cb665cb1d9f200c0fc2a02359da56a6f222003e",
+      "type": "patch",
+      "summary": "The edge relay connection no longer stalls for 15 seconds when the relay's first message arrives together with its connection reply.",
+      "sourceSha": "823e5da1a8eaea21972dee9110eba1a667489c6a",
+      "identity": "relay-hello-same-read:a6a993f3097af0a0d769b0a77cb665cb1d9f200c0fc2a02359da56a6f222003e"
     }
   ],
   "consumedIntentIds": [
