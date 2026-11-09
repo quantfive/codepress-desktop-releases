@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3037d73caaff722c62749da7e57078c71928d4a4",
+  "cursorSha": "35714ee28848d8e82cc0a146d42e4c772651de20",
   "highWaterVersion": "1.502.18",
   "rows": [
     {
@@ -153765,6 +153765,13 @@
       "sourceSha": "3037d73caaff722c62749da7e57078c71928d4a4",
       "sourcePackageVersion": "1.513.20",
       "intentIds": []
+    },
+    {
+      "sourceSha": "35714ee28848d8e82cc0a146d42e4c772651de20",
+      "sourcePackageVersion": "1.513.20",
+      "intentIds": [
+        "terminal-tab-opens-on-worker:7575e54cafd71d4b388acf4ae137d0f0c47d14749caeb2e0c2fec086967c2f1b"
+      ]
     }
   ],
   "intents": [
@@ -161839,6 +161846,14 @@
       "summary": "Reduce Desktop stalls from periodic project cleanup by indexing reclaim reads and pruning landed history in bounded batches that yield to the daemon event loop.",
       "sourceSha": "7ec941c5270084cb809912d8a0fde0cda1593e84",
       "identity": "calm-daemon-retention:c9b61085d931af00153200a1707db1013ec443cd3285354f8972b5c63f84f0f1"
+    },
+    {
+      "id": "terminal-tab-opens-on-worker",
+      "digest": "7575e54cafd71d4b388acf4ae137d0f0c47d14749caeb2e0c2fec086967c2f1b",
+      "type": "patch",
+      "summary": "Orchestrator: a project's Terminal tab now opens on its newest running worker's agent terminal, in that worker's worktree, instead of the idle Session shell, until you pick a tab. With no worker running it opens on the Session shell as before, and a tab you pick stays picked.",
+      "sourceSha": "35714ee28848d8e82cc0a146d42e4c772651de20",
+      "identity": "terminal-tab-opens-on-worker:7575e54cafd71d4b388acf4ae137d0f0c47d14749caeb2e0c2fec086967c2f1b"
     }
   ],
   "consumedIntentIds": [
