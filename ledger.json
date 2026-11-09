@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "7bfbceaf1e76be961cd45176101a3569076df963",
-  "highWaterVersion": "1.502.18",
+  "highWaterVersion": "1.502.19",
   "rows": [
     {
       "schemaVersion": 1,
@@ -82774,6 +82774,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:7bfbceaf1e76be961cd45176101a3569076df963",
+      "kind": "main",
+      "sequence": 2200,
+      "sourceSha": "7bfbceaf1e76be961cd45176101a3569076df963",
+      "sourcePackageVersion": "1.513.21",
+      "version": "1.502.19",
+      "publicationDate": "2026-11-09T22:17:35.127Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-tab-opens-on-worker:7575e54cafd71d4b388acf4ae137d0f0c47d14749caeb2e0c2fec086967c2f1b",
+          "no-more-unlisted:55be1615c1937a0d27a7d93d57cbaf3c580e487b50243f39b6f39a7aa45f8eae"
+        ],
+        "notesIntentIds": [
+          "terminal-tab-opens-on-worker:7575e54cafd71d4b388acf4ae137d0f0c47d14749caeb2e0c2fec086967c2f1b",
+          "no-more-unlisted:55be1615c1937a0d27a7d93d57cbaf3c580e487b50243f39b6f39a7aa45f8eae"
+        ],
+        "throughSourceSha": "7bfbceaf1e76be961cd45176101a3569076df963",
+        "previousThroughSourceSha": "7ec941c5270084cb809912d8a0fde0cda1593e84",
+        "baselineVersion": "1.502.18",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42710446275",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-10T22:17:28.657Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -162885,7 +162930,9 @@
     "gemini-acp-session-engine:a553dd0aaf7f5e94b12122586ad416c4813b9614533bb1e337e8f2b27a459f56",
     "edge-relay-stall-replay:10d3d43693e943825bd03644ccf2be250f367dcc9d42a5313d09301685c1576f",
     "relay-hello-same-read:a6a993f3097af0a0d769b0a77cb665cb1d9f200c0fc2a02359da56a6f222003e",
-    "calm-daemon-retention:c9b61085d931af00153200a1707db1013ec443cd3285354f8972b5c63f84f0f1"
+    "calm-daemon-retention:c9b61085d931af00153200a1707db1013ec443cd3285354f8972b5c63f84f0f1",
+    "terminal-tab-opens-on-worker:7575e54cafd71d4b388acf4ae137d0f0c47d14749caeb2e0c2fec086967c2f1b",
+    "no-more-unlisted:55be1615c1937a0d27a7d93d57cbaf3c580e487b50243f39b6f39a7aa45f8eae"
   ],
-  "consumedThroughSha": "7ec941c5270084cb809912d8a0fde0cda1593e84"
+  "consumedThroughSha": "7bfbceaf1e76be961cd45176101a3569076df963"
 }
