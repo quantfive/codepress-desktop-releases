@@ -1,19 +1,19 @@
 {
-  "version": "1.502.9",
+  "version": "1.502.13",
   "notes": "See the release notes on GitHub",
-  "pub_date": "2026-11-09T04:06:49.102Z",
+  "pub_date": "2026-11-09T19:44:48.113Z",
   "codepress": {
-    "brokerRuntimeIdentity": "bundle=4f579be9a8928aad;launch-env=4",
+    "brokerRuntimeIdentity": "bundle=4828ccda53b0f571;launch-env=4",
     "brokerGenerationProtocolVersion": 1,
     "brokerRuntimeIdentities": {
-      "darwin-aarch64": "bundle=4f579be9a8928aad;launch-env=4"
+      "darwin-aarch64": "bundle=4828ccda53b0f571;launch-env=4"
     },
     "layers": {
       "darwin-aarch64": {
         "app": {
-          "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.502.9/CodePress.app.tar.gz",
-          "size": 68675930,
-          "sha256": "57544567b27da98beeee5102243dacc9d139d7ffde647a8cb12102eef2367f84"
+          "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.502.13/CodePress.app.tar.gz",
+          "size": 68695401,
+          "sha256": "3cb9a0dd53c5535e41fbd6864bae6559bf81b83934de757672ee3d385d45155f"
         },
         "layers": [
           {
@@ -46,8 +46,8 @@
   },
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMUhLaXVFZHU3VWNwZmdiMVdJMFlKTVd0dnN6U3BTMW9wd01kQ2FOYjRJUXdoc3lyL0dmNVl1dDNLeVMxdUN2bHBxOVk0Qk5VajZkbno1M1Y4bW1scVVNeXNVMTlZZ0FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTk4NDI3CWZpbGU6Q29kZVByZXNzLWZ1bGwuYXBwLnRhci5negpvTjFRMXJFYjJiazhYYVFOU0RYeURNTUZIdTE2QThQdmJpN0ZHWjk4L1pBQzN2M2NQRUM4YnRwUkRFQ1RhVkQxeTFtWi95bStUaVh6TzQ4UWVrTnFDZz09Cg==",
-      "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.502.9/CodePress-full.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMUhLaXVFZHU3VWFvSXJMYnFHeGh6dTJxK3UrSWpGU0hQblVpcVhpcGZzMWdFMEEzU1lGb2tBUUdPMkplTjJQL0haWUExcFQwUlJBWWZaa0VGYUpWaERML2R4dTJBYkF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjU0Nzk2CWZpbGU6Q29kZVByZXNzLWZ1bGwuYXBwLnRhci5negp3V3U4ckMwY1FQTTlEeGk0OU5neWF6dWFOdVh3U1FQZDJrc0JuaWViNFlVaG9vZVhGdjkxTUN1dzlHUDc5a3VOdExCWHB4VW1wKzZxRDE0ZnIzbWpEUT09Cg==",
+      "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.502.13/CodePress-full.app.tar.gz"
     }
   }
 }
