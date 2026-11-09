@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "2b2e5a17c46ca64b6f7442d6ee6c324819157dd9",
-  "highWaterVersion": "1.502.11",
+  "highWaterVersion": "1.502.12",
   "rows": [
     {
       "schemaVersion": 1,
@@ -82383,6 +82383,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:2b2e5a17c46ca64b6f7442d6ee6c324819157dd9",
+      "kind": "main",
+      "sequence": 2193,
+      "sourceSha": "2b2e5a17c46ca64b6f7442d6ee6c324819157dd9",
+      "sourcePackageVersion": "1.513.11",
+      "version": "1.502.12",
+      "publicationDate": "2026-11-09T19:18:12.721Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "team-composer-folds:967f58ce46c40b980ba7fafc50e6ab9f4955a1181407273585eedcc41e0c8e82"
+        ],
+        "notesIntentIds": [
+          "desktop-stall-diagnostics:d4b2c69a06998b2f96511e430cd6888d839b5b93cb798f75de6b5367a08f9826",
+          "team-plan-frame-origin:bbd76ce5866a78f33594bc98ed8f9b38497cabd2f67a48802c213467600e8c88",
+          "team-composer-folds:967f58ce46c40b980ba7fafc50e6ab9f4955a1181407273585eedcc41e0c8e82"
+        ],
+        "throughSourceSha": "2b2e5a17c46ca64b6f7442d6ee6c324819157dd9",
+        "previousThroughSourceSha": "ebbfca6229fe1b8813ed4b9746793406200104c9",
+        "baselineVersion": "1.502.11",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42681932696",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-10T19:18:04.420Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -162155,7 +162200,8 @@
     "calm-goldens-cache:12650bc36dbc8f8098a1e1a380df10b638f8747989714637ef75a5a67c6e7b7c",
     "desktop-expiry-recovery:f221165247ade73b960718b48e88ff91fd3ef36c7ab546c9371b9fd777605edd",
     "desktop-stall-diagnostics:d4b2c69a06998b2f96511e430cd6888d839b5b93cb798f75de6b5367a08f9826",
-    "team-plan-frame-origin:bbd76ce5866a78f33594bc98ed8f9b38497cabd2f67a48802c213467600e8c88"
+    "team-plan-frame-origin:bbd76ce5866a78f33594bc98ed8f9b38497cabd2f67a48802c213467600e8c88",
+    "team-composer-folds:967f58ce46c40b980ba7fafc50e6ab9f4955a1181407273585eedcc41e0c8e82"
   ],
-  "consumedThroughSha": "ebbfca6229fe1b8813ed4b9746793406200104c9"
+  "consumedThroughSha": "2b2e5a17c46ca64b6f7442d6ee6c324819157dd9"
 }
