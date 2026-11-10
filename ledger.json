@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "d35af9d104c03c2c32370a8ea43ddf3cd97b5782",
-  "highWaterVersion": "1.507.0",
+  "highWaterVersion": "1.507.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -83838,6 +83838,49 @@
           }
         ]
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:d35af9d104c03c2c32370a8ea43ddf3cd97b5782",
+      "kind": "main",
+      "sequence": 2217,
+      "sourceSha": "d35af9d104c03c2c32370a8ea43ddf3cd97b5782",
+      "sourcePackageVersion": "1.519.0",
+      "version": "1.507.1",
+      "publicationDate": "2026-11-10T05:47:06.847Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "fable-picker-context:eeef45f6354ce553d3dc1068d5c4eea1cd4c2246693b14bf4befcc6b0609e623"
+        ],
+        "notesIntentIds": [
+          "fable-picker-context:eeef45f6354ce553d3dc1068d5c4eea1cd4c2246693b14bf4befcc6b0609e623"
+        ],
+        "throughSourceSha": "d35af9d104c03c2c32370a8ea43ddf3cd97b5782",
+        "previousThroughSourceSha": "b877d24ce95e0ecb7e5c3431a4108c2d52e8f142",
+        "baselineVersion": "1.507.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42764218866",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-11T05:46:59.519Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -164995,7 +165038,8 @@
     "orchestrator-schema-fingerprint-apps-json:c5075224bd5203e3245c188c2633f07781441fe38b619b7e433ba5cfa86ffad2",
     "orchestrator-claim-no-label:6da31d61af4b3e178db2abef7f4e291f7ffe82cdaf86d2a548a7d3df256cb551",
     "settings-agent-pages-native:9556a2c26fa5c4b52ae04141562751f715a4d6a22317dc1430fccf410f9ccef7",
-    "orchestrator-app-tab:a4da6c6c488cefa8e10e715dcba56e80e7e2dc9b19b4e268652931a832716e9e"
+    "orchestrator-app-tab:a4da6c6c488cefa8e10e715dcba56e80e7e2dc9b19b4e268652931a832716e9e",
+    "fable-picker-context:eeef45f6354ce553d3dc1068d5c4eea1cd4c2246693b14bf4befcc6b0609e623"
   ],
-  "consumedThroughSha": "b877d24ce95e0ecb7e5c3431a4108c2d52e8f142"
+  "consumedThroughSha": "d35af9d104c03c2c32370a8ea43ddf3cd97b5782"
 }
