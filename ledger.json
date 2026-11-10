@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "20085d5726f6dcf2fe9f3b2f0eabf0d2f77a6e99",
+  "cursorSha": "0c21fd99719e314b03e19662db86014093526665",
   "highWaterVersion": "1.517.1",
   "rows": [
     {
@@ -157927,6 +157927,20 @@
       "sourceSha": "20085d5726f6dcf2fe9f3b2f0eabf0d2f77a6e99",
       "sourcePackageVersion": "1.529.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7fddc11cd5d96c6c1510b72ef21c097ba74f5f89",
+      "sourcePackageVersion": "1.529.3",
+      "intentIds": [
+        "orchestrator-narrow-snapshot-reads:4d1e7fce75540882b5162bbd44521e297ab57b458b4aeebf7062ddd055e2ab72"
+      ]
+    },
+    {
+      "sourceSha": "0c21fd99719e314b03e19662db86014093526665",
+      "sourcePackageVersion": "1.529.3",
+      "intentIds": [
+        "app-chat-streams-live:f6a33acc7f8e54b23c5940d74f2e787068c26be0de24f12546062c1128b3c0fc"
+      ]
     }
   ],
   "intents": [
@@ -166585,6 +166599,22 @@
       "summary": "Keep this machine connected through backend restarts: when the backend asks the device channel to move, Terminal opens a new connection and switches to it before closing the old one, so requests to this machine no longer fail during a backend worker recycle or deploy.",
       "sourceSha": "d08a2222d0741c08810d66ef763a75cfa52362df",
       "identity": "device-channel-handover:5ecc4d4cac62ee103f85675dc7fa0d1f9e82f857cd9759e919643fdc691dd37b"
+    },
+    {
+      "id": "orchestrator-narrow-snapshot-reads",
+      "digest": "4d1e7fce75540882b5162bbd44521e297ab57b458b4aeebf7062ddd055e2ab72",
+      "type": "patch",
+      "summary": "The Orchestrator reads its project record with less work: issue links, App lookups and landed conversations read only the fields they use, and each project snapshot reads post questions, open asks and merge results once per read instead of once per row.",
+      "sourceSha": "7fddc11cd5d96c6c1510b72ef21c097ba74f5f89",
+      "identity": "orchestrator-narrow-snapshot-reads:4d1e7fce75540882b5162bbd44521e297ab57b458b4aeebf7062ddd055e2ab72"
+    },
+    {
+      "id": "app-chat-streams-live",
+      "digest": "f6a33acc7f8e54b23c5940d74f2e787068c26be0de24f12546062c1128b3c0fc",
+      "type": "patch",
+      "summary": "The chat docked on an App's page now streams new messages live when the turn was started somewhere else (Agents → Chats, another machine), after the page was hidden and shown again, and when you come back to an App, instead of showing a stale transcript until you reload.",
+      "sourceSha": "0c21fd99719e314b03e19662db86014093526665",
+      "identity": "app-chat-streams-live:f6a33acc7f8e54b23c5940d74f2e787068c26be0de24f12546062c1128b3c0fc"
     }
   ],
   "consumedIntentIds": [
