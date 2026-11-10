@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b9d27eec37a25800238d057601db63a704752275",
+  "cursorSha": "8c28242e4e4b2bf5a3f261d298c50d461ac22704",
   "highWaterVersion": "1.517.1",
   "rows": [
     {
@@ -157860,6 +157860,18 @@
       "intentIds": [
         "automation-review-and-vouch:1a0296c9409fbf8d8efe51b7de43066746fcf7e315ed2d5a4acfb03c47288ae3"
       ]
+    },
+    {
+      "sourceSha": "6c9e901cdd49840fde252535e5bdef0363406d42",
+      "sourcePackageVersion": "1.529.1",
+      "intentIds": [
+        "orchestrator-flag-off-gates:94a0c616ee88010b59dbf9c394cd323f0dbdc9a5c22bb488a7cb1513cf760844"
+      ]
+    },
+    {
+      "sourceSha": "8c28242e4e4b2bf5a3f261d298c50d461ac22704",
+      "sourcePackageVersion": "1.529.1",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -166502,6 +166514,14 @@
       "summary": "An automation marked as changed without a person's sign-in now shows a Review and vouch button beside the notice in its Live And Draft panel, so the mark can be cleared even when the draft matches live.",
       "sourceSha": "b9d27eec37a25800238d057601db63a704752275",
       "identity": "automation-review-and-vouch:1a0296c9409fbf8d8efe51b7de43066746fcf7e315ed2d5a4acfb03c47288ae3"
+    },
+    {
+      "id": "orchestrator-flag-off-gates",
+      "digest": "94a0c616ee88010b59dbf9c394cd323f0dbdc9a5c22bb488a7cb1513cf760844",
+      "type": "patch",
+      "summary": "The Orchestrator's designs now list every gate a flagged change ships that ignores the flag, with its way through when the flag is off and the test that proves it, and accept the work only with a test that flag-off behavior is unchanged starting from data already in the new state.",
+      "sourceSha": "6c9e901cdd49840fde252535e5bdef0363406d42",
+      "identity": "orchestrator-flag-off-gates:94a0c616ee88010b59dbf9c394cd323f0dbdc9a5c22bb488a7cb1513cf760844"
     }
   ],
   "consumedIntentIds": [
