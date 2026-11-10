@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5150ef7cfe0c495ecccf984544607eba60169387",
+  "cursorSha": "47da79cdc2c7059e38f9e8c4d767c8a85852071b",
   "highWaterVersion": "1.515.0",
   "rows": [
     {
@@ -157319,6 +157319,13 @@
       "sourceSha": "5150ef7cfe0c495ecccf984544607eba60169387",
       "sourcePackageVersion": "1.527.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "47da79cdc2c7059e38f9e8c4d767c8a85852071b",
+      "sourcePackageVersion": "1.527.2",
+      "intentIds": [
+        "terminal-linked-builtin-apps:a61ba37673b1b2a465a6977cfdea5bbf4d600eadba7c27b3b4345c269065db2f"
+      ]
     }
   ],
   "intents": [
@@ -165905,6 +165912,14 @@
       "summary": "Auto's check for another machine's copy of a repository answers in seconds instead of timing out: only that repository's checkouts are read, from the recent scan, and remote reads no longer wait behind remote writes. A machine that is only reconnecting is no longer called outdated or left out of Auto, and a read that times out is logged as a timeout.",
       "sourceSha": "4eeeca4fe9da9446b8ecf9972d7c4d4b73f5b4df",
       "identity": "router-folders-fast-truthful:a04f41678bf37567797c2f2eccdd85b9729f0f66caa92660b3ca9f3d120fa5f5"
+    },
+    {
+      "id": "terminal-linked-builtin-apps",
+      "digest": "a61ba37673b1b2a465a6977cfdea5bbf4d600eadba7c27b3b4345c269065db2f",
+      "type": "minor",
+      "summary": "Terminal draws linked websites and default apps (Search & SEO, Redirects,\nAnalytics and the other website tools) itself, with no embedded web page, as\nwell as an App's Analytics address and the preview of a generated App's pull\nrequest. Writing a linked blog's post opens that post's editor on the web in\nyour browser; coming back to Terminal shows what you saved. A linked site on\nCodePress's own domain, which the web shows live, still opens in the embedded\nview, as do repository Apps and agent artifacts.",
+      "sourceSha": "47da79cdc2c7059e38f9e8c4d767c8a85852071b",
+      "identity": "terminal-linked-builtin-apps:a61ba37673b1b2a465a6977cfdea5bbf4d600eadba7c27b3b4345c269065db2f"
     }
   ],
   "consumedIntentIds": [
