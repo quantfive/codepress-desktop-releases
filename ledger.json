@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6568a4662e8ed75c48169293a3bda0f505790184",
+  "cursorSha": "f2919a8c523d6af24b9b124da7597c3ff99e9da1",
   "highWaterVersion": "1.517.7",
   "rows": [
     {
@@ -158666,6 +158666,13 @@
       "sourceSha": "6568a4662e8ed75c48169293a3bda0f505790184",
       "sourcePackageVersion": "1.529.13",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f2919a8c523d6af24b9b124da7597c3ff99e9da1",
+      "sourcePackageVersion": "1.529.13",
+      "intentIds": [
+        "gemini-colour-spark:1241188c6df6ffa033da0c1b92b9b77947f535e6b9efa42ded477efa229a24e3"
+      ]
     }
   ],
   "intents": [
@@ -167420,6 +167427,14 @@
       "summary": "A cloud Orchestrator refused because its personal-token repository has no usable GitHub credential now says why once, with an Open GitHub settings button, instead of retrying and reading \"It will try again shortly\".",
       "sourceSha": "ddbe69486efea4a7a3c6607ae119092c260fd807",
       "identity": "github-credential-launch-refusal:f4a7a5e507883e5b2ed87275aecb880ae664f52e4f5ad1777dfe49bd103b2c07"
+    },
+    {
+      "id": "gemini-colour-spark",
+      "digest": "1241188c6df6ffa033da0c1b92b9b77947f535e6b9efa42ded477efa229a24e3",
+      "type": "patch",
+      "summary": "Gemini now shows Google's current four-colour spark on a neutral tile in Settings → Account and the worker setup rows, instead of a white spark on a purple tile.",
+      "sourceSha": "f2919a8c523d6af24b9b124da7597c3ff99e9da1",
+      "identity": "gemini-colour-spark:1241188c6df6ffa033da0c1b92b9b77947f535e6b9efa42ded477efa229a24e3"
     }
   ],
   "consumedIntentIds": [
