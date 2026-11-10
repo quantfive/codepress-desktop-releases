@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "8025ce3994804bd6ba791480a0831bcc445fe589",
+  "cursorSha": "9e483a08ce652c6b0a58318f2881150c10e1fbd0",
   "highWaterVersion": "1.517.4",
   "rows": [
     {
@@ -158288,6 +158288,13 @@
       "sourceSha": "8025ce3994804bd6ba791480a0831bcc445fe589",
       "sourcePackageVersion": "1.529.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9e483a08ce652c6b0a58318f2881150c10e1fbd0",
+      "sourcePackageVersion": "1.529.7",
+      "intentIds": [
+        "cli-download-progress:cd7c43038226759017a16014e4a7896b11ce071d0b0fcd7000d13d72b65181a9"
+      ]
     }
   ],
   "intents": [
@@ -166994,6 +167001,14 @@
       "summary": "The local Orchestrator's project snapshot is now compact and never cut off: settings come first, then the project, open asks, open work items in full, finished items and workers in a short form, and the newest posts. A `work_item` argument reads one item in full.",
       "sourceSha": "01b1602ae41f75074ce906e54488eabca66e5c5f",
       "identity": "compact-pm-project-snapshot:7f1476392c0f2bfae7ac47c17a61645ec097afa1e6b4fcb3c8244a55602b5664"
+    },
+    {
+      "id": "cli-download-progress",
+      "digest": "cd7c43038226759017a16014e4a7896b11ce071d0b0fcd7000d13d72b65181a9",
+      "type": "patch",
+      "summary": "Show download progress while Terminal installs a worker CLI: the setup strip now reads \"Downloading Antigravity CLI · 34 of 65 MB\" with a progress bar, then \"Unpacking…\" and \"Verifying…\", instead of a plain \"Installing…\" for the whole download.",
+      "sourceSha": "9e483a08ce652c6b0a58318f2881150c10e1fbd0",
+      "identity": "cli-download-progress:cd7c43038226759017a16014e4a7896b11ce071d0b0fcd7000d13d72b65181a9"
     }
   ],
   "consumedIntentIds": [
