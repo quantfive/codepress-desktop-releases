@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b24ce6cd8c3420bdec533cd6891d36a19ef0a994",
+  "cursorSha": "35c42554e1a0a7fadf8a381a6867ee7f02df4ecf",
   "highWaterVersion": "1.508.0",
   "rows": [
     {
@@ -156269,6 +156269,13 @@
       "sourceSha": "b24ce6cd8c3420bdec533cd6891d36a19ef0a994",
       "sourcePackageVersion": "1.520.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "35c42554e1a0a7fadf8a381a6867ee7f02df4ecf",
+      "sourcePackageVersion": "1.520.0",
+      "intentIds": [
+        "remote-desktop-trust-once:ee6a40b5afdf4993e62277d98433c2fd3eacd36b1edb491526efc655b6ed04c9"
+      ]
     }
   ],
   "intents": [
@@ -164735,6 +164742,14 @@
       "summary": "Apps: Link a site and Add a blog open their dialogs in Terminal, and Migrate a site opens the web's dialog in your browser instead of the embedded web view.",
       "sourceSha": "6a81252888e04ac1bef5606115fc6361f5634f35",
       "identity": "terminal-native-apps-site-controls:f30cec980646105210ba7b8de2f4e8d029c0beb54572dcb4cf611a606b7a21f4"
+    },
+    {
+      "id": "remote-desktop-trust-once",
+      "digest": "ee6a40b5afdf4993e62277d98433c2fd3eacd36b1edb491526efc655b6ed04c9",
+      "type": "minor",
+      "summary": "Remote Desktop remembers a machine on this device the first time you connect, so there is no \"Trust this host\" checkbox or consent sheet any more, and the workbench Desktop view connects by itself when you open it. If a machine later presents a different key, the view stops with \"Couldn't confirm this is <machine>\", shows both fingerprints, and offers Try again, Pair anyway… or Not now.",
+      "sourceSha": "35c42554e1a0a7fadf8a381a6867ee7f02df4ecf",
+      "identity": "remote-desktop-trust-once:ee6a40b5afdf4993e62277d98433c2fd3eacd36b1edb491526efc655b6ed04c9"
     }
   ],
   "consumedIntentIds": [
