@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "565924c283afdd31649734e4fb32ff001c38ac5b",
+  "cursorSha": "36ba5be6661946de48a15581c398d3478cd08654",
   "highWaterVersion": "1.506.0",
   "rows": [
     {
@@ -154892,6 +154892,13 @@
       "sourceSha": "565924c283afdd31649734e4fb32ff001c38ac5b",
       "sourcePackageVersion": "1.517.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "36ba5be6661946de48a15581c398d3478cd08654",
+      "sourcePackageVersion": "1.517.2",
+      "intentIds": [
+        "orchestrator-app-links:7c6b1d1585be6851da23d2f427817a3813e0e526fb5f621e4178494a142aa794"
+      ]
     }
   ],
   "intents": [
@@ -163166,6 +163173,14 @@
       "summary": "The file editor's status bar shows the cursor line's git blame beside `Ln, Col`, with a commit card on hover or tap.",
       "sourceSha": "2c5368f42022a90e95a737c331dc2280704afeae",
       "identity": "terminal-status-bar-git-blame:9631c277aae5eaac50893c9468698236531b785442c39f515e522746ef1c7b2e"
+    },
+    {
+      "id": "orchestrator-app-links",
+      "digest": "7c6b1d1585be6851da23d2f427817a3813e0e526fb5f621e4178494a142aa794",
+      "type": "patch",
+      "summary": "Behind Orchestrator for Apps, a local Orchestrator can find the organization's Apps and link its project to the one App it changes (project_app_find, project_app_link). The project's snapshot shows that App and whether each work item takes the App flow, and the synced card tells CodePress which App the project changes.",
+      "sourceSha": "36ba5be6661946de48a15581c398d3478cd08654",
+      "identity": "orchestrator-app-links:7c6b1d1585be6851da23d2f427817a3813e0e526fb5f621e4178494a142aa794"
     }
   ],
   "consumedIntentIds": [
