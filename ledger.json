@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "8f9a29b2fe99dec6123a57c010ee80abf0a909c1",
-  "highWaterVersion": "1.504.1",
+  "highWaterVersion": "1.505.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -83244,6 +83244,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:8f9a29b2fe99dec6123a57c010ee80abf0a909c1",
+      "kind": "main",
+      "sequence": 2208,
+      "sourceSha": "8f9a29b2fe99dec6123a57c010ee80abf0a909c1",
+      "sourcePackageVersion": "1.515.1",
+      "version": "1.505.0",
+      "publicationDate": "2026-11-10T01:40:38.954Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-settings-org-pages-native:2471ec1f45106fb8b961f064074a0d32fd1a0292d49179b9946202d9e8fa640d"
+        ],
+        "notesIntentIds": [
+          "terminal-settings-org-pages-native:2471ec1f45106fb8b961f064074a0d32fd1a0292d49179b9946202d9e8fa640d"
+        ],
+        "throughSourceSha": "8f9a29b2fe99dec6123a57c010ee80abf0a909c1",
+        "previousThroughSourceSha": "6f9833680a3ac021014ee4e0c63d27fe5e1274ba",
+        "baselineVersion": "1.504.1",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42737384390",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-11T01:40:32.311Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -163843,7 +163886,8 @@
     "orchestrator-answers-plan-questions:6d919a2efd2cadb03f2a9756235b3670d10dddbaab467810472373aab2f8e48f",
     "terminal-app-chat-host:ea3f1202513176fc3089d2279b3a2e79fa602a24599a45c1217efecbbcb114b9",
     "gemini-google-sign-in:eb7b9ca4251314f7adb98db015573e02f4df5438e9565fa85bc1089f743c0478",
-    "plan-card-words-message:e59159513fd7df2d34ad61e222784205a95910c1c91d31d6d41337e816ab5656"
+    "plan-card-words-message:e59159513fd7df2d34ad61e222784205a95910c1c91d31d6d41337e816ab5656",
+    "terminal-settings-org-pages-native:2471ec1f45106fb8b961f064074a0d32fd1a0292d49179b9946202d9e8fa640d"
   ],
-  "consumedThroughSha": "6f9833680a3ac021014ee4e0c63d27fe5e1274ba"
+  "consumedThroughSha": "8f9a29b2fe99dec6123a57c010ee80abf0a909c1"
 }
