@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ad969e799996d2d0859830e80e4831336e5dd5c8",
+  "cursorSha": "dde1faa5c429a3df7d7d1ec1dcbc056585ed8d80",
   "highWaterVersion": "1.509.0",
   "rows": [
     {
@@ -156365,6 +156365,13 @@
       "sourceSha": "ad969e799996d2d0859830e80e4831336e5dd5c8",
       "sourcePackageVersion": "1.521.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "dde1faa5c429a3df7d7d1ec1dcbc056585ed8d80",
+      "sourcePackageVersion": "1.521.1",
+      "intentIds": [
+        "gemini-pm-quota-stop:decac3ed9d141b04fb6b1a0e19ebba389e0178f4224c39fbac9799d7d7c13e5f"
+      ]
     }
   ],
   "intents": [
@@ -164847,6 +164854,14 @@
       "summary": "Interactions opens in Terminal, with its rail entry wherever the organization has it on, and Automations' Set up GitHub and repository controls work in Terminal: installing a GitHub App opens your browser, and the page refreshes when you come back.",
       "sourceSha": "9eb18667aecc328d8df884718ebebe70a8981f5c",
       "identity": "terminal-native-interactions-github:f539af8a060ead5cec712b588105acd1739a72a289fe7029602e7189e2363a1e"
+    },
+    {
+      "id": "gemini-pm-quota-stop",
+      "digest": "decac3ed9d141b04fb6b1a0e19ebba389e0178f4224c39fbac9799d7d7c13e5f",
+      "type": "patch",
+      "summary": "A Gemini Orchestrator that Google stops for quota now says so: the turn fails with Google's message and when the quota resets, instead of looking as if it finished quietly.",
+      "sourceSha": "dde1faa5c429a3df7d7d1ec1dcbc056585ed8d80",
+      "identity": "gemini-pm-quota-stop:decac3ed9d141b04fb6b1a0e19ebba389e0178f4224c39fbac9799d7d7c13e5f"
     }
   ],
   "consumedIntentIds": [
