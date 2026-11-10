@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "2efbffcbfb87c59dafff1979736369f84de8ee19",
-  "highWaterVersion": "1.506.1",
+  "highWaterVersion": "1.506.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -83523,6 +83523,51 @@
           }
         ]
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:2efbffcbfb87c59dafff1979736369f84de8ee19",
+      "kind": "main",
+      "sequence": 2212,
+      "sourceSha": "2efbffcbfb87c59dafff1979736369f84de8ee19",
+      "sourcePackageVersion": "1.517.5",
+      "version": "1.506.2",
+      "publicationDate": "2026-11-10T03:12:43.309Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "container-restart-after-reboot:a217f72714e4dcad7819f480a4013f5178cc9ad4c3cddff98b8ad318d12406a8",
+          "fable-5-2-full-context:b92901af384f9804cf77a687766cf38fd62b02fc5dc1440cf103078666b73283"
+        ],
+        "notesIntentIds": [
+          "container-restart-after-reboot:a217f72714e4dcad7819f480a4013f5178cc9ad4c3cddff98b8ad318d12406a8",
+          "fable-5-2-full-context:b92901af384f9804cf77a687766cf38fd62b02fc5dc1440cf103078666b73283"
+        ],
+        "throughSourceSha": "2efbffcbfb87c59dafff1979736369f84de8ee19",
+        "previousThroughSourceSha": "84a31e82a371e60963d4de42f14398af10a386eb",
+        "baselineVersion": "1.506.1",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42747878161",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-11T03:12:37.228Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -164385,7 +164430,9 @@
     "orchestrator-claude-builtins:389048844b92dc4ad63b29891c61afb5a33c2597d2c808820d944da03267c3ef",
     "terminal-branding-panels-native:26a0b1f077b01be92e99b28976f23f1035bfad506e225c08a866241ab53d184b",
     "terminal-status-bar-git-blame:9631c277aae5eaac50893c9468698236531b785442c39f515e522746ef1c7b2e",
-    "orchestrator-app-links:7c6b1d1585be6851da23d2f427817a3813e0e526fb5f621e4178494a142aa794"
+    "orchestrator-app-links:7c6b1d1585be6851da23d2f427817a3813e0e526fb5f621e4178494a142aa794",
+    "container-restart-after-reboot:a217f72714e4dcad7819f480a4013f5178cc9ad4c3cddff98b8ad318d12406a8",
+    "fable-5-2-full-context:b92901af384f9804cf77a687766cf38fd62b02fc5dc1440cf103078666b73283"
   ],
-  "consumedThroughSha": "84a31e82a371e60963d4de42f14398af10a386eb"
+  "consumedThroughSha": "2efbffcbfb87c59dafff1979736369f84de8ee19"
 }
