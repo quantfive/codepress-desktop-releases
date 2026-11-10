@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "64039004e5dc9d7429aa456e66846225855f2123",
+  "cursorSha": "62f4b59d59b9a5f684e26bdcb178e66ac8c8f7a3",
   "highWaterVersion": "1.502.23",
   "rows": [
     {
@@ -154232,6 +154232,13 @@
       "intentIds": [
         "gemini-pm-adapter:bde3f935689d18801dc6f13187c311b936979578df35ad9994f787380bc13882"
       ]
+    },
+    {
+      "sourceSha": "62f4b59d59b9a5f684e26bdcb178e66ac8c8f7a3",
+      "sourcePackageVersion": "1.513.27",
+      "intentIds": [
+        "short-desktop-relay-blip:a9a7cb96dc3191d2589e84a71255412b75e9e4846dc75fefce15566f7c8a5599"
+      ]
     }
   ],
   "intents": [
@@ -162386,6 +162393,14 @@
       "summary": "The local Orchestrator can now run on the Antigravity CLI (`agy acp`), behind the scenes for now: Gemini is not yet offered in the Orchestrator's model picker. It runs on a repository rule's Gemini key, this machine's chosen key, agy's own API key, or your Google sign-in, in that order, and says what to do when none can serve. A key never reaches the agent: it goes through Terminal's relay. A sign-in Orchestrator never gets your Gemini key from Terminal's environment. A Google rate limit on a key fails the turn with the agent's words, and the Orchestrator is never moved to another key or account.",
       "sourceSha": "64039004e5dc9d7429aa456e66846225855f2123",
       "identity": "gemini-pm-adapter:bde3f935689d18801dc6f13187c311b936979578df35ad9994f787380bc13882"
+    },
+    {
+      "id": "short-desktop-relay-blip",
+      "digest": "a9a7cb96dc3191d2589e84a71255412b75e9e4846dc75fefce15566f7c8a5599",
+      "type": "patch",
+      "summary": "Reconnect Desktop sessions automatically after short relay outages while the host status is unavailable or its display is waking.",
+      "sourceSha": "62f4b59d59b9a5f684e26bdcb178e66ac8c8f7a3",
+      "identity": "short-desktop-relay-blip:a9a7cb96dc3191d2589e84a71255412b75e9e4846dc75fefce15566f7c8a5599"
     }
   ],
   "consumedIntentIds": [
