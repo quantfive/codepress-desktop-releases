@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5bbdb19f8d724ad5ffb8394b053cdc0538bb671a",
+  "cursorSha": "481fb3184bbbe27e1f080962a1eea2d17591681c",
   "highWaterVersion": "1.514.1",
   "rows": [
     {
@@ -156963,6 +156963,16 @@
       "intentIds": [
         "reproducible-linux-appimage:53fc7342209e0001994d639ce4397bb24e7ac25d7b6c63e135d5120bb5543267"
       ]
+    },
+    {
+      "sourceSha": "75335de22135bbb5fe775fe6edc3b9a0949f2699",
+      "sourcePackageVersion": "1.526.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "481fb3184bbbe27e1f080962a1eea2d17591681c",
+      "sourcePackageVersion": "1.526.1",
+      "intentIds": []
     }
   ],
   "intents": [
