@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "764a595d68dde664e4b5992d56880a5ab8f73d8c",
+  "cursorSha": "05bf1e994a714931e626b29dc0e912ecf3995a8f",
   "highWaterVersion": "1.516.1",
   "rows": [
     {
@@ -157572,6 +157572,13 @@
       "sourceSha": "764a595d68dde664e4b5992d56880a5ab8f73d8c",
       "sourcePackageVersion": "1.528.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "05bf1e994a714931e626b29dc0e912ecf3995a8f",
+      "sourcePackageVersion": "1.528.2",
+      "intentIds": [
+        "agent-message-dedupe:06441adc0633d35be4c736b11639a801ae0833777505872d70ba40ac6048faa5"
+      ]
     }
   ],
   "intents": [
@@ -166182,6 +166189,14 @@
       "summary": "Preserve Desktop machine-save errors after rollback and ignore failed saves for superseded selections.",
       "sourceSha": "501ab7fdcb005ab2ba36803ddcb0296a5b7325e7",
       "identity": "desktop-save-feedback:791881de7a618767385c547f460bf539ae67a57ea15e695c4e603e37e50313bc"
+    },
+    {
+      "id": "agent-message-dedupe",
+      "digest": "06441adc0633d35be4c736b11639a801ae0833777505872d70ba40ac6048faa5",
+      "type": "patch",
+      "summary": "A cross-machine message that the backend resends after a restart is typed into the tab once: a Terminal answers a repeated message id with the first delivery's result and advertises `agent_message_dedupe_v1`.",
+      "sourceSha": "05bf1e994a714931e626b29dc0e912ecf3995a8f",
+      "identity": "agent-message-dedupe:06441adc0633d35be4c736b11639a801ae0833777505872d70ba40ac6048faa5"
     }
   ],
   "consumedIntentIds": [
