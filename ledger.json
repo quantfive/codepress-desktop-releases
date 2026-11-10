@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "b877d24ce95e0ecb7e5c3431a4108c2d52e8f142",
-  "highWaterVersion": "1.506.5",
+  "highWaterVersion": "1.507.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -83776,6 +83776,51 @@
           }
         ]
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:b877d24ce95e0ecb7e5c3431a4108c2d52e8f142",
+      "kind": "main",
+      "sequence": 2216,
+      "sourceSha": "b877d24ce95e0ecb7e5c3431a4108c2d52e8f142",
+      "sourcePackageVersion": "1.519.0",
+      "version": "1.507.0",
+      "publicationDate": "2026-11-10T04:57:31.320Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "settings-agent-pages-native:9556a2c26fa5c4b52ae04141562751f715a4d6a22317dc1430fccf410f9ccef7",
+          "orchestrator-app-tab:a4da6c6c488cefa8e10e715dcba56e80e7e2dc9b19b4e268652931a832716e9e"
+        ],
+        "notesIntentIds": [
+          "settings-agent-pages-native:9556a2c26fa5c4b52ae04141562751f715a4d6a22317dc1430fccf410f9ccef7",
+          "orchestrator-app-tab:a4da6c6c488cefa8e10e715dcba56e80e7e2dc9b19b4e268652931a832716e9e"
+        ],
+        "throughSourceSha": "b877d24ce95e0ecb7e5c3431a4108c2d52e8f142",
+        "previousThroughSourceSha": "8056db7f15e407760354bdff99af649740f05a66",
+        "baselineVersion": "1.506.5",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42759003807",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-11T04:57:24.799Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -164881,7 +164926,9 @@
     "terminal-apps-json-schema-stamp:70b3b4b5cdd9b7f19a22e6754b38bdabdf361951ba7aa3ef1c3d902e94d684de",
     "terminal-synced-copy-git-blame:f104ed193d980fbb6b4fd11e5311dc87f41154123a2b095c2eb5331f34491c26",
     "orchestrator-schema-fingerprint-apps-json:c5075224bd5203e3245c188c2633f07781441fe38b619b7e433ba5cfa86ffad2",
-    "orchestrator-claim-no-label:6da31d61af4b3e178db2abef7f4e291f7ffe82cdaf86d2a548a7d3df256cb551"
+    "orchestrator-claim-no-label:6da31d61af4b3e178db2abef7f4e291f7ffe82cdaf86d2a548a7d3df256cb551",
+    "settings-agent-pages-native:9556a2c26fa5c4b52ae04141562751f715a4d6a22317dc1430fccf410f9ccef7",
+    "orchestrator-app-tab:a4da6c6c488cefa8e10e715dcba56e80e7e2dc9b19b4e268652931a832716e9e"
   ],
-  "consumedThroughSha": "8056db7f15e407760354bdff99af649740f05a66"
+  "consumedThroughSha": "b877d24ce95e0ecb7e5c3431a4108c2d52e8f142"
 }
