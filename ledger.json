@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3c82155d63eef4b7aa1d573d4532f31f1ef2b8ab",
+  "cursorSha": "e10642dbacae1749d968420178a6db74c2283e13",
   "highWaterVersion": "1.517.7",
   "rows": [
     {
@@ -158590,6 +158590,18 @@
       "sourceSha": "3c82155d63eef4b7aa1d573d4532f31f1ef2b8ab",
       "sourcePackageVersion": "1.529.10",
       "intentIds": []
+    },
+    {
+      "sourceSha": "00de7b1d2ce1197c6dd08a929c8428944d725e7e",
+      "sourcePackageVersion": "1.529.10",
+      "intentIds": [
+        "mention-cloud-chats:f1c9aee75272a44d97f040b52051fc1bfeed6aff8d11887fb2f73f6f06263e96"
+      ]
+    },
+    {
+      "sourceSha": "e10642dbacae1749d968420178a6db74c2283e13",
+      "sourcePackageVersion": "1.529.10",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -167320,6 +167332,14 @@
       "summary": "When Claude declines a request, the turn now fails with one notice that says so and names the category in plain words, instead of finishing with an empty reply.",
       "sourceSha": "920a31db34df10a09130e1d41829a288f2d04dcc",
       "identity": "claude-refusal-notice:f5d0ddd759ed736e790388bf318aaa73e7970d5e1dffc78d4b2dc07fb393d82f"
+    },
+    {
+      "id": "mention-cloud-chats",
+      "digest": "f1c9aee75272a44d97f040b52051fc1bfeed6aff8d11887fb2f73f6f06263e96",
+      "type": "patch",
+      "summary": "The `@` menu lists your own cloud and Slack chats under Chats › Cloud. Mentioning one in a message to a project gives the Orchestrator that chat's recent messages as your own words, and a chat that can't be read stops the send with your draft kept.",
+      "sourceSha": "00de7b1d2ce1197c6dd08a929c8428944d725e7e",
+      "identity": "mention-cloud-chats:f1c9aee75272a44d97f040b52051fc1bfeed6aff8d11887fb2f73f6f06263e96"
     }
   ],
   "consumedIntentIds": [
