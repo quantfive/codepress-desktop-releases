@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a45de8fbfb962779a5d0a1a8a7a04f64410b3f1f",
+  "cursorSha": "d8a4da70a56470048a145d8ad546094f778f8fe0",
   "highWaterVersion": "1.507.3",
   "rows": [
     {
@@ -155871,6 +155871,18 @@
       "sourceSha": "a45de8fbfb962779a5d0a1a8a7a04f64410b3f1f",
       "sourcePackageVersion": "1.519.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e24089ac6c246b797e72e8d635db29e67a9c622d",
+      "sourcePackageVersion": "1.519.6",
+      "intentIds": [
+        "gemini-pm-tool-gateway:0e58016887202b115c45216937300d2e104173954240c68e9deb0732ce3b090a"
+      ]
+    },
+    {
+      "sourceSha": "d8a4da70a56470048a145d8ad546094f778f8fe0",
+      "sourcePackageVersion": "1.519.6",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -164289,6 +164301,14 @@
       "summary": "Orchestrator for Apps: a local project on the organization's App repository gets an Apps section in its Orchestrator's instructions (steps open PRs into the project's feature branch, the Orchestrator checks the preview before integrating, and the person publishes). The App tab, kickoff Apps and settings App row now stay hidden while Hosted App editing is off. Behind the Orchestrator for Apps flag.",
       "sourceSha": "d134fcc0cc691279e8f39085036330fd64e0ac81",
       "identity": "orchestrator-apps-instructions:bc1419131774354a64e3be3347c08f7ae6d7bf72ea6e8c28c01ff083cec35fed"
+    },
+    {
+      "id": "gemini-pm-tool-gateway",
+      "digest": "0e58016887202b115c45216937300d2e104173954240c68e9deb0732ce3b090a",
+      "type": "patch",
+      "summary": "A Gemini Orchestrator now gets its project tools on its first turn. agy declares only a small budget of a session's tools and silently dropped the Orchestrator's core ones, so the Orchestrator now runs one server of its own per session, with the core project tools and a tool_search/tool_call gateway to every other tool, and a failed tool's own error message shows in the thread.",
+      "sourceSha": "e24089ac6c246b797e72e8d635db29e67a9c622d",
+      "identity": "gemini-pm-tool-gateway:0e58016887202b115c45216937300d2e104173954240c68e9deb0732ce3b090a"
     }
   ],
   "consumedIntentIds": [
