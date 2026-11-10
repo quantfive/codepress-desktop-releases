@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f85866563d4e6fe3a6148d69005cb23481fe5c84",
+  "cursorSha": "886d00a7739abf535e5c89739b28eadffdac7881",
   "highWaterVersion": "1.507.2",
   "rows": [
     {
@@ -155783,6 +155783,13 @@
       "sourceSha": "f85866563d4e6fe3a6148d69005cb23481fe5c84",
       "sourcePackageVersion": "1.519.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "886d00a7739abf535e5c89739b28eadffdac7881",
+      "sourcePackageVersion": "1.519.4",
+      "intentIds": [
+        "mac-automations-dogfood-fixes:a810662b8b131e6f7e4d90d5c7cc408429c0c51fcbb4c31718470117b81466bd"
+      ]
     }
   ],
   "intents": [
@@ -164185,6 +164192,14 @@
       "summary": "Repair local fast builds on Linux with a debug AppImage, retain the macOS debug app bundle, and preserve shared resource preparation without generating updater artifacts. Packaged debug builds use bundled runtime resources and production settings while retaining debug-only service and update policies.",
       "sourceSha": "7c6a89761168d7002f900b6714952ed201f39ca8",
       "identity": "repair-linux-fast-build:ea6ae57a93a3144d77499f4e9eb76a0eb12a9f6411e759659d90516145ab6a23"
+    },
+    {
+      "id": "mac-automations-dogfood-fixes",
+      "digest": "a810662b8b131e6f7e4d90d5c7cc408429c0c51fcbb4c31718470117b81466bd",
+      "type": "patch",
+      "summary": "Mac automations Settings: approving \"Run my automations\" no longer says it failed when the approval stored; the allow-once ask names the automation and says it tried to run here, not that an agent asked; Lima machines say their sandbox keeps jobs off the local network instead of offering the guard; the allow-once notice says the run goes elsewhere, not to the cloud.",
+      "sourceSha": "886d00a7739abf535e5c89739b28eadffdac7881",
+      "identity": "mac-automations-dogfood-fixes:a810662b8b131e6f7e4d90d5c7cc408429c0c51fcbb4c31718470117b81466bd"
     }
   ],
   "consumedIntentIds": [
