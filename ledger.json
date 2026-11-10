@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6210f50eb0f25f9cd74f601b1e667c0d0650242d",
+  "cursorSha": "ef64a9fb4597cb4ed0317cd62d725ac839b0a1e5",
   "highWaterVersion": "1.505.1",
   "rows": [
     {
@@ -154791,6 +154791,13 @@
       "sourceSha": "6210f50eb0f25f9cd74f601b1e667c0d0650242d",
       "sourcePackageVersion": "1.517.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ef64a9fb4597cb4ed0317cd62d725ac839b0a1e5",
+      "sourcePackageVersion": "1.517.0",
+      "intentIds": [
+        "terminal-branding-panels-native:26a0b1f077b01be92e99b28976f23f1035bfad506e225c08a866241ab53d184b"
+      ]
     }
   ],
   "intents": [
@@ -163049,6 +163056,14 @@
       "summary": "A Claude Orchestrator now gets an explicit list of Claude Code built-in tools instead of every default, and Claude's Artifact tool is off unless you turn it on in Account → Orchestrator → Tools (or ask an agent to set `orchestratorClaudeArtifacts`).",
       "sourceSha": "7f2592173d4dc53ac007c32ae16e928429165600",
       "identity": "orchestrator-claude-builtins:389048844b92dc4ad63b29891c61afb5a33c2597d2c808820d944da03267c3ef"
+    },
+    {
+      "id": "terminal-branding-panels-native",
+      "digest": "26a0b1f077b01be92e99b28976f23f1035bfad506e225c08a866241ab53d184b",
+      "type": "patch",
+      "summary": "Settings → Branding in Terminal now shows the whole section: the brand agent, the dashboard and publishing domains, the installable app with its QR code, the CodePress address, who can join, and ejecting the dashboard, instead of a note pointing to the web.",
+      "sourceSha": "ef64a9fb4597cb4ed0317cd62d725ac839b0a1e5",
+      "identity": "terminal-branding-panels-native:26a0b1f077b01be92e99b28976f23f1035bfad506e225c08a866241ab53d184b"
     }
   ],
   "consumedIntentIds": [
