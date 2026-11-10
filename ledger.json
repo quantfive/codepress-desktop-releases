@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4f19168008b68b5b3ecf194b0f60ca61e7eb40f1",
+  "cursorSha": "6a81252888e04ac1bef5606115fc6361f5634f35",
   "highWaterVersion": "1.507.6",
   "rows": [
     {
@@ -156188,6 +156188,20 @@
       "sourceSha": "4f19168008b68b5b3ecf194b0f60ca61e7eb40f1",
       "sourcePackageVersion": "1.519.10",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ab203ffe9f3d15a62b05e861fb35172e5bb27c1f",
+      "sourcePackageVersion": "1.519.10",
+      "intentIds": [
+        "gemini-orchestrator-pickers:76564b96f0fc9e4a82157b7ee18772ec0727fb06d7e52d90564b2e3260bc6b9e"
+      ]
+    },
+    {
+      "sourceSha": "6a81252888e04ac1bef5606115fc6361f5634f35",
+      "sourcePackageVersion": "1.519.10",
+      "intentIds": [
+        "terminal-native-apps-site-controls:f30cec980646105210ba7b8de2f4e8d029c0beb54572dcb4cf611a606b7a21f4"
+      ]
     }
   ],
   "intents": [
@@ -164638,6 +164652,22 @@
       "summary": "Settings no longer says \"That didn't go through\" after turning an allow off worked but its reply was lost while the admin dialog ran; it reads the state again first.",
       "sourceSha": "026861aeda1209fc99e0481e512644c2a06a7f22",
       "identity": "consent-off-lost-reply:10ff2f54b93f09eab64b20d7026c78bd326403634ece388c09936658cdd6667b"
+    },
+    {
+      "id": "gemini-orchestrator-pickers",
+      "digest": "76564b96f0fc9e4a82157b7ee18772ec0727fb06d7e52d90564b2e3260bc6b9e",
+      "type": "minor",
+      "summary": "Run a local Orchestrator on Gemini. Kickoff, Project settings and the thread composer now offer Gemini 3.8 Flash and Gemini 3.1 Pro for the Orchestrator, running Google's Antigravity agent (`agy acp`) on this machine with your own Google sign-in or a Gemini API key. Each entry says which credential it runs on, or why it can't run, and offers Sign in with Google when you're signed out. Cloud Orchestrators don't offer Gemini.",
+      "sourceSha": "ab203ffe9f3d15a62b05e861fb35172e5bb27c1f",
+      "identity": "gemini-orchestrator-pickers:76564b96f0fc9e4a82157b7ee18772ec0727fb06d7e52d90564b2e3260bc6b9e"
+    },
+    {
+      "id": "terminal-native-apps-site-controls",
+      "digest": "f30cec980646105210ba7b8de2f4e8d029c0beb54572dcb4cf611a606b7a21f4",
+      "type": "patch",
+      "summary": "Apps: Link a site and Add a blog open their dialogs in Terminal, and Migrate a site opens the web's dialog in your browser instead of the embedded web view.",
+      "sourceSha": "6a81252888e04ac1bef5606115fc6361f5634f35",
+      "identity": "terminal-native-apps-site-controls:f30cec980646105210ba7b8de2f4e8d029c0beb54572dcb4cf611a606b7a21f4"
     }
   ],
   "consumedIntentIds": [
