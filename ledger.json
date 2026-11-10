@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d08a2222d0741c08810d66ef763a75cfa52362df",
+  "cursorSha": "2bae64ae64ed55d3cdb6d56f4345c30b08822f64",
   "highWaterVersion": "1.517.1",
   "rows": [
     {
@@ -157897,6 +157897,16 @@
       "intentIds": [
         "device-channel-handover:5ecc4d4cac62ee103f85675dc7fa0d1f9e82f857cd9759e919643fdc691dd37b"
       ]
+    },
+    {
+      "sourceSha": "5183f0e09991cb3099d0e484ddc297b1b4545592",
+      "sourcePackageVersion": "1.529.2",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "2bae64ae64ed55d3cdb6d56f4345c30b08822f64",
+      "sourcePackageVersion": "1.529.2",
+      "intentIds": []
     }
   ],
   "intents": [
