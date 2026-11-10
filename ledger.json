@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2efbffcbfb87c59dafff1979736369f84de8ee19",
+  "cursorSha": "1fbb21c2c71e6065b7a6150308c260f8f57fd612",
   "highWaterVersion": "1.506.2",
   "rows": [
     {
@@ -155107,6 +155107,13 @@
       "sourceSha": "2efbffcbfb87c59dafff1979736369f84de8ee19",
       "sourcePackageVersion": "1.517.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "1fbb21c2c71e6065b7a6150308c260f8f57fd612",
+      "sourcePackageVersion": "1.517.5",
+      "intentIds": [
+        "orchestrator-agent-tool-metadata:a86f0ab4a7d670410748305ca7681811d578f49ca75c352f1f4aef417c17f7cc"
+      ]
     }
   ],
   "intents": [
@@ -163405,6 +163412,14 @@
       "summary": "Fable 5.2 now runs with a 200k context window everywhere Terminal starts it, on every Claude Code version, because Fable is expensive. To give Fable 5.2 its 1M window, turn on Fable 5.2 · 1M context in Account → Agents (or `claudeLongContext` in the agent settings). The compaction windows show Fable's range to match.",
       "sourceSha": "3ac67fea662888a6f8816aa1badb6b32c80a069e",
       "identity": "fable-5-2-full-context:b92901af384f9804cf77a687766cf38fd62b02fc5dc1440cf103078666b73283"
+    },
+    {
+      "id": "orchestrator-agent-tool-metadata",
+      "digest": "a86f0ab4a7d670410748305ca7681811d578f49ca75c352f1f4aef417c17f7cc",
+      "type": "patch",
+      "summary": "Codex, Muse and Grok Orchestrators no longer see Claude's ToolSearch instruction, and their project tools carry the same core/deferred metadata Claude's do.",
+      "sourceSha": "1fbb21c2c71e6065b7a6150308c260f8f57fd612",
+      "identity": "orchestrator-agent-tool-metadata:a86f0ab4a7d670410748305ca7681811d578f49ca75c352f1f4aef417c17f7cc"
     }
   ],
   "consumedIntentIds": [
