@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "871166e43639994721d557b43a5bf579d93cdb6c",
+  "cursorSha": "50761c1f8896ea1775668e9bb57591dbdf306a61",
   "highWaterVersion": "1.507.1",
   "rows": [
     {
@@ -155650,6 +155650,13 @@
       "sourceSha": "871166e43639994721d557b43a5bf579d93cdb6c",
       "sourcePackageVersion": "1.519.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "50761c1f8896ea1775668e9bb57591dbdf306a61",
+      "sourcePackageVersion": "1.519.1",
+      "intentIds": [
+        "rename-machines-from-menu:450ba878a99b17e0bf2aa43fc337f927af8881907cf9968afbb334f159693ed2"
+      ]
     }
   ],
   "intents": [
@@ -164028,6 +164035,14 @@
       "summary": "CI test selection: a ci.yml edit runs the Terminal Vitest and Rust suites in full only when it reaches their jobs.",
       "sourceSha": "cdb82abcb035b0dee375135a4112e4fa6e3aef74",
       "identity": "ciyml-narrow-terminal-selectors:d266f2522d3898458750a2b403a17acbf032e9aa87a8bea328f49ec6d3beb96f"
+    },
+    {
+      "id": "rename-machines-from-menu",
+      "digest": "450ba878a99b17e0bf2aa43fc337f927af8881907cf9968afbb334f159693ed2",
+      "type": "patch",
+      "summary": "Rename any of your machines from the machine menu: hover a name to see it as a field, click it (or press Enter or F2) to edit it in place, then Enter to save or Esc to cancel. Clicking a name no longer connects; the terminal icon still does, and this machine's row shows it while you are driving another machine so you can come back.",
+      "sourceSha": "50761c1f8896ea1775668e9bb57591dbdf306a61",
+      "identity": "rename-machines-from-menu:450ba878a99b17e0bf2aa43fc337f927af8881907cf9968afbb334f159693ed2"
     }
   ],
   "consumedIntentIds": [
