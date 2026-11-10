@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "65bbb280bc7e3f93dcfc256050eee98980bf9ec9",
+  "cursorSha": "f8c7cadadc43d5121cf5610abd08bb0cd509de3e",
   "highWaterVersion": "1.506.4",
   "rows": [
     {
@@ -155332,6 +155332,13 @@
       "sourceSha": "65bbb280bc7e3f93dcfc256050eee98980bf9ec9",
       "sourcePackageVersion": "1.517.9",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f8c7cadadc43d5121cf5610abd08bb0cd509de3e",
+      "sourcePackageVersion": "1.517.9",
+      "intentIds": [
+        "orchestrator-schema-fingerprint-apps-json:c5075224bd5203e3245c188c2633f07781441fe38b619b7e433ba5cfa86ffad2"
+      ]
     }
   ],
   "intents": [
@@ -163662,6 +163669,14 @@
       "summary": "A synced copy of a project homed on another machine now shows git blame in its Files editor: the status-bar item and the end-of-line annotation, asked of the home over the pane relay. An older home shows no blame, as before.",
       "sourceSha": "e9600576878421fef634d429cfb148c2b358f233",
       "identity": "terminal-synced-copy-git-blame:f104ed193d980fbb6b4fd11e5311dc87f41154123a2b095c2eb5331f34491c26"
+    },
+    {
+      "id": "orchestrator-schema-fingerprint-apps-json",
+      "digest": "c5075224bd5203e3245c188c2633f07781441fe38b619b7e433ba5cfa86ffad2",
+      "type": "patch",
+      "summary": "Orchestrator projects saved by an earlier build run the one-time schema pass once more on open, so they pick up the App link column added for Orchestrator for Apps.",
+      "sourceSha": "f8c7cadadc43d5121cf5610abd08bb0cd509de3e",
+      "identity": "orchestrator-schema-fingerprint-apps-json:c5075224bd5203e3245c188c2633f07781441fe38b619b7e433ba5cfa86ffad2"
     }
   ],
   "consumedIntentIds": [
