@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "de1ad27aa0ae5885a365865518c3e77e3579b5fe",
+  "cursorSha": "bf788370d5540fd4681094f0d98ff9e30f28db74",
   "highWaterVersion": "1.505.0",
   "rows": [
     {
@@ -154692,6 +154692,13 @@
       "sourceSha": "de1ad27aa0ae5885a365865518c3e77e3579b5fe",
       "sourcePackageVersion": "1.516.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "bf788370d5540fd4681094f0d98ff9e30f28db74",
+      "sourcePackageVersion": "1.516.2",
+      "intentIds": [
+        "terminal-chat-launch:9684937a5ac247aea88d66a5aa726a9ccc0777da120e836341326dd4042daf4c"
+      ]
     }
   ],
   "intents": [
@@ -162934,6 +162941,14 @@
       "summary": "The Claude Orchestrator now starts with only its six core project tools loaded (snapshot, update, post and the inbox) and loads the others through tool search when it first needs them, taking about 30k tokens off every request. Tool search is on for every Orchestrator launch, whatever account it signs in with.",
       "sourceSha": "a41cb59aa9ea07325011f1a15e1829dec2d01ebe",
       "identity": "orchestrator-core-deferred-tools:39fad64e08cca610cb879b12c87d591ade87a120934d69b0f8e3957032ba6a55"
+    },
+    {
+      "id": "terminal-chat-launch",
+      "digest": "9684937a5ac247aea88d66a5aa726a9ccc0777da120e836341326dd4042daf4c",
+      "type": "patch",
+      "summary": "Start chats from a launch in Terminal: Automations' New, and pages that start a chat with instructions and context, show a confirm card, create the chat in Terminal and open it in Agent instead of opening the web's chat page.",
+      "sourceSha": "bf788370d5540fd4681094f0d98ff9e30f28db74",
+      "identity": "terminal-chat-launch:9684937a5ac247aea88d66a5aa726a9ccc0777da120e836341326dd4042daf4c"
     }
   ],
   "consumedIntentIds": [
