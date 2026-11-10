@@ -84374,10 +84374,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42787270130",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-11T09:02:33.092Z",
         "dispatch": null,
         "failures": []
       }
