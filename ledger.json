@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "64039004e5dc9d7429aa456e66846225855f2123",
-  "highWaterVersion": "1.502.22",
+  "highWaterVersion": "1.502.23",
   "rows": [
     {
       "schemaVersion": 1,
@@ -83004,6 +83004,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:64039004e5dc9d7429aa456e66846225855f2123",
+      "kind": "main",
+      "sequence": 2204,
+      "sourceSha": "64039004e5dc9d7429aa456e66846225855f2123",
+      "sourcePackageVersion": "1.513.27",
+      "version": "1.502.23",
+      "publicationDate": "2026-11-10T00:13:05.196Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "gemini-pm-adapter:bde3f935689d18801dc6f13187c311b936979578df35ad9994f787380bc13882"
+        ],
+        "notesIntentIds": [
+          "gemini-pm-adapter:bde3f935689d18801dc6f13187c311b936979578df35ad9994f787380bc13882"
+        ],
+        "throughSourceSha": "64039004e5dc9d7429aa456e66846225855f2123",
+        "previousThroughSourceSha": "d2c51c1c37010a209dcae698e6e939a619de1721",
+        "baselineVersion": "1.502.22",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42726500449",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-11T00:12:56.067Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -163359,7 +163402,8 @@
     "fable-5-2-catalog:c689dc5ae520ed19d8f51d6824428c15b0a3b911f10e689b0ae29761faa6da35",
     "remote-machine-idle-disconnect:b77c98016a5fe2fb8d45126f26ad83c13839bb3f66fb05dd5cf527be9a3c5237",
     "app-preview-path-mode-hint:071a010a62c8ab6bcd583d33e64e288bffb795d271f0bd68f84c7c7fea6ea704",
-    "settings-hosting-computers-native:da5b5ec14de0be8cbe24ea54ea50b0dabcf22aff01f69a42ba321aad125d059a"
+    "settings-hosting-computers-native:da5b5ec14de0be8cbe24ea54ea50b0dabcf22aff01f69a42ba321aad125d059a",
+    "gemini-pm-adapter:bde3f935689d18801dc6f13187c311b936979578df35ad9994f787380bc13882"
   ],
-  "consumedThroughSha": "d2c51c1c37010a209dcae698e6e939a619de1721"
+  "consumedThroughSha": "64039004e5dc9d7429aa456e66846225855f2123"
 }
