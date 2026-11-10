@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4fafdcb0f8f26ce9a70e04450a36cc6470bbbed2",
+  "cursorSha": "01b1602ae41f75074ce906e54488eabca66e5c5f",
   "highWaterVersion": "1.517.3",
   "rows": [
     {
@@ -158175,6 +158175,13 @@
       "intentIds": [
         "new-app-lands-on-app-page:10c9bf68e04da85a6bc0a56efd57b112020ec914576b0bf16c09c82598e6575b"
       ]
+    },
+    {
+      "sourceSha": "01b1602ae41f75074ce906e54488eabca66e5c5f",
+      "sourcePackageVersion": "1.529.6",
+      "intentIds": [
+        "compact-pm-project-snapshot:7f1476392c0f2bfae7ac47c17a61645ec097afa1e6b4fcb3c8244a55602b5664"
+      ]
     }
   ],
   "intents": [
@@ -166873,6 +166880,14 @@
       "summary": "New app now takes you to the App it builds. When the chat started from New app in a collection creates the App, Terminal opens that App's page with the same chat docked beside the preview, instead of leaving you in the Agents chat. A reloaded transcript, a chat you have already left, or a second App made in the same chat does not move you.",
       "sourceSha": "4fafdcb0f8f26ce9a70e04450a36cc6470bbbed2",
       "identity": "new-app-lands-on-app-page:10c9bf68e04da85a6bc0a56efd57b112020ec914576b0bf16c09c82598e6575b"
+    },
+    {
+      "id": "compact-pm-project-snapshot",
+      "digest": "7f1476392c0f2bfae7ac47c17a61645ec097afa1e6b4fcb3c8244a55602b5664",
+      "type": "patch",
+      "summary": "The local Orchestrator's project snapshot is now compact and never cut off: settings come first, then the project, open asks, open work items in full, finished items and workers in a short form, and the newest posts. A `work_item` argument reads one item in full.",
+      "sourceSha": "01b1602ae41f75074ce906e54488eabca66e5c5f",
+      "identity": "compact-pm-project-snapshot:7f1476392c0f2bfae7ac47c17a61645ec097afa1e6b4fcb3c8244a55602b5664"
     }
   ],
   "consumedIntentIds": [
