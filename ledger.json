@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "198c825a5d3c90bddc1839d0eb4978cbb74f1392",
+  "cursorSha": "ec1cc464f9ba6b648c9ee9d30a49604969b0ea83",
   "highWaterVersion": "1.502.23",
   "rows": [
     {
@@ -154262,6 +154262,18 @@
       "sourceSha": "198c825a5d3c90bddc1839d0eb4978cbb74f1392",
       "sourcePackageVersion": "1.513.27",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d55fbd7bf11b72c968e796c8e77924f2ba389a87",
+      "sourcePackageVersion": "1.513.28",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "ec1cc464f9ba6b648c9ee9d30a49604969b0ea83",
+      "sourcePackageVersion": "1.513.28",
+      "intentIds": [
+        "teammate-relay-files:9e9d10fe1e2a6854833241fd1a5378a38fe81ed2d2b72e8dc922de425103a8dc"
+      ]
     }
   ],
   "intents": [
@@ -162424,6 +162436,14 @@
       "summary": "Reconnect Desktop sessions automatically after short relay outages while the host status is unavailable or its display is waking.",
       "sourceSha": "62f4b59d59b9a5f684e26bdcb178e66ac8c8f7a3",
       "identity": "short-desktop-relay-blip:a9a7cb96dc3191d2589e84a71255412b75e9e4846dc75fefce15566f7c8a5599"
+    },
+    {
+      "id": "teammate-relay-files",
+      "digest": "9e9d10fe1e2a6854833241fd1a5378a38fe81ed2d2b72e8dc922de425103a8dc",
+      "type": "patch",
+      "summary": "A teammate's message to a project or chat on this machine now brings the files they attached: Terminal downloads them, puts them on the teammate's post in the thread, saves them where the Orchestrator reads them and lists them in its inbox entry. A file that cannot be fetched is named as missing and the rest still arrive.",
+      "sourceSha": "ec1cc464f9ba6b648c9ee9d30a49604969b0ea83",
+      "identity": "teammate-relay-files:9e9d10fe1e2a6854833241fd1a5378a38fe81ed2d2b72e8dc922de425103a8dc"
     }
   ],
   "consumedIntentIds": [
