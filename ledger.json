@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3b8aa7b52dc0b4f3058d50fb959d01b2628d548f",
+  "cursorSha": "d275d2defec5c3ce24ce6814f99597c8717721a3",
   "highWaterVersion": "1.514.2",
   "rows": [
     {
@@ -157091,6 +157091,13 @@
       "sourceSha": "3b8aa7b52dc0b4f3058d50fb959d01b2628d548f",
       "sourcePackageVersion": "1.526.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d275d2defec5c3ce24ce6814f99597c8717721a3",
+      "sourcePackageVersion": "1.526.2",
+      "intentIds": [
+        "headless-broker-startup-wait:35872d0fed94aaac82cae26f9214cea7ad804145fa86044aa2491e6b9499d8f4"
+      ]
     }
   ],
   "intents": [
@@ -165645,6 +165652,14 @@
       "summary": "Reuse verified unsigned runner dependency archives for eligible local desktop builds, with fresh release files and full preparation on cache faults.",
       "sourceSha": "29b4d31981e1706933a3c5d97b7981622df17313",
       "identity": "verified-local-runner-dependencies:e119070ac37efa33c11aef57bf0c3232a0865e7bf0d8684ba8e009b5b45c810d"
+    },
+    {
+      "id": "headless-broker-startup-wait",
+      "digest": "35872d0fed94aaac82cae26f9214cea7ad804145fa86044aa2491e6b9499d8f4",
+      "type": "patch",
+      "summary": "Server CLI: after an update, the service now waits up to 60 s (`CODEPRESS_HEADLESS_BROKER_READY_WAIT_MS`) for its selected PTY broker to finish connecting, instead of exiting when the first check finds it between connections. Newly discovered broker generations no longer log a false \"Connection to broker closed\" or start an extra discovery pass.",
+      "sourceSha": "d275d2defec5c3ce24ce6814f99597c8717721a3",
+      "identity": "headless-broker-startup-wait:35872d0fed94aaac82cae26f9214cea7ad804145fa86044aa2491e6b9499d8f4"
     }
   ],
   "consumedIntentIds": [
