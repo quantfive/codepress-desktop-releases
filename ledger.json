@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "def9a5ce672225a0c2448590c4ec369d807b6a0f",
+  "cursorSha": "b688ea0034e31400fd8ec2d410f103b46aed5e97",
   "highWaterVersion": "1.506.5",
   "rows": [
     {
@@ -155457,6 +155457,13 @@
       "sourceSha": "def9a5ce672225a0c2448590c4ec369d807b6a0f",
       "sourcePackageVersion": "1.518.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b688ea0034e31400fd8ec2d410f103b46aed5e97",
+      "sourcePackageVersion": "1.518.0",
+      "intentIds": [
+        "orchestrator-app-tab:a4da6c6c488cefa8e10e715dcba56e80e7e2dc9b19b4e268652931a832716e9e"
+      ]
     }
   ],
   "intents": [
@@ -163811,6 +163818,14 @@
       "summary": "Settings → Agents (the list and each agent), Browser profiles and Browser network are drawn natively in Terminal's Settings modal when a link opens them, instead of in the embedded web view. Messaging an agent starts the chat in Terminal.",
       "sourceSha": "d429eff3714dd52f3da825d554b0cdb4988d7551",
       "identity": "settings-agent-pages-native:9556a2c26fa5c4b52ae04141562751f715a4d6a22317dc1430fccf410f9ccef7"
+    },
+    {
+      "id": "orchestrator-app-tab",
+      "digest": "a4da6c6c488cefa8e10e715dcba56e80e7e2dc9b19b4e268652931a832716e9e",
+      "type": "minor",
+      "summary": "Orchestrator for Apps: projects get an App tab listing the App they build with Open in CodePress, the kickoff repo picker lists the organization's Apps, and Project settings shows and changes the project's App. Behind the Orchestrator for Apps flag.",
+      "sourceSha": "b688ea0034e31400fd8ec2d410f103b46aed5e97",
+      "identity": "orchestrator-app-tab:a4da6c6c488cefa8e10e715dcba56e80e7e2dc9b19b4e268652931a832716e9e"
     }
   ],
   "consumedIntentIds": [
