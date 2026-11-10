@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "25df0535e4078348510dd00b251b98e016866e81",
+  "cursorSha": "a41cb59aa9ea07325011f1a15e1829dec2d01ebe",
   "highWaterVersion": "1.505.0",
   "rows": [
     {
@@ -154670,6 +154670,13 @@
       "sourceSha": "25df0535e4078348510dd00b251b98e016866e81",
       "sourcePackageVersion": "1.516.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a41cb59aa9ea07325011f1a15e1829dec2d01ebe",
+      "sourcePackageVersion": "1.516.1",
+      "intentIds": [
+        "orchestrator-core-deferred-tools:39fad64e08cca610cb879b12c87d591ade87a120934d69b0f8e3957032ba6a55"
+      ]
     }
   ],
   "intents": [
@@ -162904,6 +162911,14 @@
       "summary": "The local Orchestrator now says each answer once: after posting it no longer repeats the post in its closing reply, and a later turn no longer re-answers a question it already answered.",
       "sourceSha": "24e361305c610572f9f9ea7fdda66b1f9fb43d3d",
       "identity": "orchestrator-say-it-once:06b3b9ecd3ccaa23a5ce9398f5ca8dd04168b3511447f7016728039fa8b0a91e"
+    },
+    {
+      "id": "orchestrator-core-deferred-tools",
+      "digest": "39fad64e08cca610cb879b12c87d591ade87a120934d69b0f8e3957032ba6a55",
+      "type": "patch",
+      "summary": "The Claude Orchestrator now starts with only its six core project tools loaded (snapshot, update, post and the inbox) and loads the others through tool search when it first needs them, taking about 30k tokens off every request. Tool search is on for every Orchestrator launch, whatever account it signs in with.",
+      "sourceSha": "a41cb59aa9ea07325011f1a15e1829dec2d01ebe",
+      "identity": "orchestrator-core-deferred-tools:39fad64e08cca610cb879b12c87d591ade87a120934d69b0f8e3957032ba6a55"
     }
   ],
   "consumedIntentIds": [
