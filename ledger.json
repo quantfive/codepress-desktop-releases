@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4897e01375667b85069b135e703fa742632bad31",
+  "cursorSha": "1a42074e3869b1d31aa4645aa7df96207179bbc5",
   "highWaterVersion": "1.515.0",
   "rows": [
     {
@@ -157292,6 +157292,11 @@
       "intentIds": [
         "server-cli-update-keeps-approval:3f1456ddd183b9058a3126cf5d36b8af1c8b2cd23950d79ad8cebb82f6eb393f"
       ]
+    },
+    {
+      "sourceSha": "1a42074e3869b1d31aa4645aa7df96207179bbc5",
+      "sourcePackageVersion": "1.527.1",
+      "intentIds": []
     }
   ],
   "intents": [
