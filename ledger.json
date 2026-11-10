@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "789cabffefb848c78ba1057f9fdb734f648e42c4",
+  "cursorSha": "0406023c358c2bf03b7c1efbcbbd2daee4e953d8",
   "highWaterVersion": "1.517.2",
   "rows": [
     {
@@ -158040,6 +158040,13 @@
       "sourceSha": "789cabffefb848c78ba1057f9fdb734f648e42c4",
       "sourcePackageVersion": "1.529.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0406023c358c2bf03b7c1efbcbbd2daee4e953d8",
+      "sourcePackageVersion": "1.529.4",
+      "intentIds": [
+        "allow-lost-after-stop:849199d795bf79ba3d34680c09066ec2269fad14db48320fcfaf23ac7131f59c"
+      ]
     }
   ],
   "intents": [
@@ -166714,6 +166721,14 @@
       "summary": "The chat docked on an App's page now streams new messages live when the turn was started somewhere else (Agents → Chats, another machine), after the page was hidden and shown again, and when you come back to an App, instead of showing a stale transcript until you reload.",
       "sourceSha": "0c21fd99719e314b03e19662db86014093526665",
       "identity": "app-chat-streams-live:f6a33acc7f8e54b23c5940d74f2e787068c26be0de24f12546062c1128b3c0fc"
+    },
+    {
+      "id": "allow-lost-after-stop",
+      "digest": "849199d795bf79ba3d34680c09066ec2269fad14db48320fcfaf23ac7131f59c",
+      "type": "patch",
+      "summary": "When Terminal can't send the backend its copy of an automation you allowed (no sign-in, device id or organization), it now logs why instead of dropping it silently.",
+      "sourceSha": "0406023c358c2bf03b7c1efbcbbd2daee4e953d8",
+      "identity": "allow-lost-after-stop:849199d795bf79ba3d34680c09066ec2269fad14db48320fcfaf23ac7131f59c"
     }
   ],
   "consumedIntentIds": [
