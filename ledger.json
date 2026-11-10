@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e22b3bae47aabf06d40ddabf65eef176df45cc40",
+  "cursorSha": "ddbe69486efea4a7a3c6607ae119092c260fd807",
   "highWaterVersion": "1.517.7",
   "rows": [
     {
@@ -158629,6 +158629,13 @@
       "sourceSha": "e22b3bae47aabf06d40ddabf65eef176df45cc40",
       "sourcePackageVersion": "1.529.12",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ddbe69486efea4a7a3c6607ae119092c260fd807",
+      "sourcePackageVersion": "1.529.12",
+      "intentIds": [
+        "github-credential-launch-refusal:f4a7a5e507883e5b2ed87275aecb880ae664f52e4f5ad1777dfe49bd103b2c07"
+      ]
     }
   ],
   "intents": [
@@ -167375,6 +167382,14 @@
       "summary": "On a phone, a long `@` menu no longer slides under the \"This list may be out of date\" banner: its header and Close stay visible and the rows scroll inside it.",
       "sourceSha": "05c0774117d2a7111269ba8735232148f36d6f7a",
       "identity": "mention-menu-clip:73c8a430e7cf33558b8793dd6482819582ec6690686700f1158863638c2acc73"
+    },
+    {
+      "id": "github-credential-launch-refusal",
+      "digest": "f4a7a5e507883e5b2ed87275aecb880ae664f52e4f5ad1777dfe49bd103b2c07",
+      "type": "patch",
+      "summary": "A cloud Orchestrator refused because its personal-token repository has no usable GitHub credential now says why once, with an Open GitHub settings button, instead of retrying and reading \"It will try again shortly\".",
+      "sourceSha": "ddbe69486efea4a7a3c6607ae119092c260fd807",
+      "identity": "github-credential-launch-refusal:f4a7a5e507883e5b2ed87275aecb880ae664f52e4f5ad1777dfe49bd103b2c07"
     }
   ],
   "consumedIntentIds": [
