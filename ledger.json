@@ -83219,10 +83219,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42735113701",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-11T01:21:15.644Z",
         "dispatch": null,
         "failures": []
       }
