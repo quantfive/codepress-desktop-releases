@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "1b4ce09eb57f88bf39374117b7d8808ec5be18c9",
-  "highWaterVersion": "1.511.0",
+  "highWaterVersion": "1.511.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -84454,6 +84454,49 @@
           }
         ]
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:1b4ce09eb57f88bf39374117b7d8808ec5be18c9",
+      "kind": "main",
+      "sequence": 2227,
+      "sourceSha": "1b4ce09eb57f88bf39374117b7d8808ec5be18c9",
+      "sourcePackageVersion": "1.523.1",
+      "version": "1.511.1",
+      "publicationDate": "2026-11-10T09:49:24.736Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "gemini-pm-own-server-tool-call:cc98f3a1fa0fb014d665f6d01ef3b21528f7ac762b52d8cb045663d52cd5ff4b"
+        ],
+        "notesIntentIds": [
+          "gemini-pm-own-server-tool-call:cc98f3a1fa0fb014d665f6d01ef3b21528f7ac762b52d8cb045663d52cd5ff4b"
+        ],
+        "throughSourceSha": "1b4ce09eb57f88bf39374117b7d8808ec5be18c9",
+        "previousThroughSourceSha": "a21e02aabaf12ad2a3afe47935a1d4b4db87a96e",
+        "baselineVersion": "1.511.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42793853363",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-11T09:49:16.576Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -166144,7 +166187,8 @@
     "terminal-native-interactions-github:f539af8a060ead5cec712b588105acd1739a72a289fe7029602e7189e2363a1e",
     "gemini-pm-quota-stop:decac3ed9d141b04fb6b1a0e19ebba389e0178f4224c39fbac9799d7d7c13e5f",
     "orchestrator-time-zone-setting:6274caabe10a2e8afcca1c93cd945cbb961fd6acb9de154afbc7c16d974562e8",
-    "terminal-native-integrations:aa250b3bea6e6502b28c8725e2448b1268ac08b6cbbd9890c70327d9b0349e02"
+    "terminal-native-integrations:aa250b3bea6e6502b28c8725e2448b1268ac08b6cbbd9890c70327d9b0349e02",
+    "gemini-pm-own-server-tool-call:cc98f3a1fa0fb014d665f6d01ef3b21528f7ac762b52d8cb045663d52cd5ff4b"
   ],
-  "consumedThroughSha": "a21e02aabaf12ad2a3afe47935a1d4b4db87a96e"
+  "consumedThroughSha": "1b4ce09eb57f88bf39374117b7d8808ec5be18c9"
 }
