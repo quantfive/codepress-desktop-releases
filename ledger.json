@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1b4ce09eb57f88bf39374117b7d8808ec5be18c9",
+  "cursorSha": "5c2fa157d1e906bcc0e5b78729345eb60c8776cf",
   "highWaterVersion": "1.511.1",
   "rows": [
     {
@@ -156620,6 +156620,13 @@
       "sourceSha": "1b4ce09eb57f88bf39374117b7d8808ec5be18c9",
       "sourcePackageVersion": "1.523.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "5c2fa157d1e906bcc0e5b78729345eb60c8776cf",
+      "sourcePackageVersion": "1.523.1",
+      "intentIds": [
+        "view-desktop-entry-points:bb44e30479d14b6ae7498a59d098ca48935eee4b4dc026e91cea5848acba4375"
+      ]
     }
   ],
   "intents": [
@@ -165134,6 +165141,14 @@
       "summary": "A Gemini Orchestrator that names its own tool server when it calls a project tool (such as assigning a worker) now reaches that tool, instead of being told the server doesn't exist.",
       "sourceSha": "0866f66af1a74a0c90c864e1b1d9acd3fd82dee4",
       "identity": "gemini-pm-own-server-tool-call:cc98f3a1fa0fb014d665f6d01ef3b21528f7ac762b52d8cb045663d52cd5ff4b"
+    },
+    {
+      "id": "view-desktop-entry-points",
+      "digest": "bb44e30479d14b6ae7498a59d098ca48935eee4b4dc026e91cea5848acba4375",
+      "type": "minor",
+      "summary": "Open another machine's screen from where your machines live: \"View desktop\" on each other online machine in the rail's machines menu, and \"View desktop: <machine>\" in the command palette. Both open a Desktop tab already pointed at that machine in the current Terminal session (starting a session if none is open), or bring back the one already open. Machine rows no longer spell out \"Online\" / \"Offline\": the green or grey dot says it, and screen readers still hear it.",
+      "sourceSha": "5c2fa157d1e906bcc0e5b78729345eb60c8776cf",
+      "identity": "view-desktop-entry-points:bb44e30479d14b6ae7498a59d098ca48935eee4b4dc026e91cea5848acba4375"
     }
   ],
   "consumedIntentIds": [
