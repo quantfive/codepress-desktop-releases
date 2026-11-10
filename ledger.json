@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "d310203ff6cd2e818bfe6b82dec786063eb21f52",
-  "highWaterVersion": "1.513.0",
+  "highWaterVersion": "1.514.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -84634,6 +84634,49 @@
           }
         ]
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:d310203ff6cd2e818bfe6b82dec786063eb21f52",
+      "kind": "main",
+      "sequence": 2230,
+      "sourceSha": "d310203ff6cd2e818bfe6b82dec786063eb21f52",
+      "sourcePackageVersion": "1.525.0",
+      "version": "1.514.0",
+      "publicationDate": "2026-11-10T10:58:30.881Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "remote-desktop-one-toolbar:983bf4035bdccd20bdbc9b6ba111c9c9dc038dfafa4afb534dab79739f365b24"
+        ],
+        "notesIntentIds": [
+          "remote-desktop-one-toolbar:983bf4035bdccd20bdbc9b6ba111c9c9dc038dfafa4afb534dab79739f365b24"
+        ],
+        "throughSourceSha": "d310203ff6cd2e818bfe6b82dec786063eb21f52",
+        "previousThroughSourceSha": "a976a229cd1a79a94a0a339d312fbc147c410380",
+        "baselineVersion": "1.513.0",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42803527866",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-11T10:58:23.161Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -166397,7 +166440,8 @@
     "terminal-native-integrations:aa250b3bea6e6502b28c8725e2448b1268ac08b6cbbd9890c70327d9b0349e02",
     "gemini-pm-own-server-tool-call:cc98f3a1fa0fb014d665f6d01ef3b21528f7ac762b52d8cb045663d52cd5ff4b",
     "view-desktop-entry-points:bb44e30479d14b6ae7498a59d098ca48935eee4b4dc026e91cea5848acba4375",
-    "host-key-vouch:5970e302bd4382d64c51adc57b2937353a065a7ab2c704a53a0168f81538203b"
+    "host-key-vouch:5970e302bd4382d64c51adc57b2937353a065a7ab2c704a53a0168f81538203b",
+    "remote-desktop-one-toolbar:983bf4035bdccd20bdbc9b6ba111c9c9dc038dfafa4afb534dab79739f365b24"
   ],
-  "consumedThroughSha": "a976a229cd1a79a94a0a339d312fbc147c410380"
+  "consumedThroughSha": "d310203ff6cd2e818bfe6b82dec786063eb21f52"
 }
