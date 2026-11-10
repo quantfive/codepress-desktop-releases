@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c09d20ad3ed6e9ed8afedcc8180f64f99b48e666",
+  "cursorSha": "a1856966ebdcf330bbf71c7a0611c5852bdf4fcd",
   "highWaterVersion": "1.516.2",
   "rows": [
     {
@@ -157670,6 +157670,13 @@
       "sourceSha": "c09d20ad3ed6e9ed8afedcc8180f64f99b48e666",
       "sourcePackageVersion": "1.529.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a1856966ebdcf330bbf71c7a0611c5852bdf4fcd",
+      "sourcePackageVersion": "1.529.0",
+      "intentIds": [
+        "orchestrator-clear-reports-problems-seen:da33d589cb9c252af5ee9df0450fa209332be39ec15a98ac81f216ace81a3cf8"
+      ]
     }
   ],
   "intents": [
@@ -166296,6 +166303,14 @@
       "summary": "Terminal draws repository Apps, \"Host this repo\" and agent artifacts itself, with\nno embedded web page. A repository App's preview, Start, the change picker,\nediting, Save → PR and its chat open from Terminal's own code, and Terminal knows\na preview on this machine without asking the Desktop's loopback. An artifact that\nheads a canvas shows its pages, and a link to one page of it opens that page.\n\"Host this repo\" sets up a repository's website in Terminal; connecting a GitHub\nApp still opens in your browser. A link to another organization's artifact still\nopens in the embedded view.",
       "sourceSha": "4e86b2452c6aba88a487d31452fbc2f475f78dc5",
       "identity": "terminal-native-repo-apps-artifacts:731a700327adb87d971d0efe8eaac48d2649828b89c3b77cede17e6d610a86fa"
+    },
+    {
+      "id": "orchestrator-clear-reports-problems-seen",
+      "digest": "da33d589cb9c252af5ee9df0450fa209332be39ec15a98ac81f216ace81a3cf8",
+      "type": "patch",
+      "summary": "The Orchestrator now writes reports that someone who did not see the work can follow. A worker's brief says how to finish and offers a \"Problems seen, not fixed\" section in its pull request. The Orchestrator reads those entries from the project snapshot and suggests them as follow-ups when it lands. The bundled delegation skills name a current Codex model.",
+      "sourceSha": "a1856966ebdcf330bbf71c7a0611c5852bdf4fcd",
+      "identity": "orchestrator-clear-reports-problems-seen:da33d589cb9c252af5ee9df0450fa209332be39ec15a98ac81f216ace81a3cf8"
     }
   ],
   "consumedIntentIds": [
