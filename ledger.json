@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f05e6a8537de0efb98f4ba9b5436ab4bac3f6cba",
+  "cursorSha": "163bc581350ec81dfd49f0168d6be1925c5c6515",
   "highWaterVersion": "1.517.5",
   "rows": [
     {
@@ -158381,6 +158381,13 @@
       "sourceSha": "f05e6a8537de0efb98f4ba9b5436ab4bac3f6cba",
       "sourcePackageVersion": "1.529.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "163bc581350ec81dfd49f0168d6be1925c5c6515",
+      "sourcePackageVersion": "1.529.8",
+      "intentIds": [
+        "mention-chats-and-projects:01a8612402b777bc79bba489242461b83052eafa2563b22c37960926a1be271b"
+      ]
     }
   ],
   "intents": [
@@ -167095,6 +167102,14 @@
       "summary": "Show download progress while Terminal installs a worker CLI: the setup strip now reads \"Downloading Antigravity CLI · 34 of 65 MB\" with a progress bar, then \"Unpacking…\" and \"Verifying…\", instead of a plain \"Installing…\" for the whole download.",
       "sourceSha": "9e483a08ce652c6b0a58318f2881150c10e1fbd0",
       "identity": "cli-download-progress:cd7c43038226759017a16014e4a7896b11ce071d0b0fcd7000d13d72b65181a9"
+    },
+    {
+      "id": "mention-chats-and-projects",
+      "digest": "01a8612402b777bc79bba489242461b83052eafa2563b22c37960926a1be271b",
+      "type": "patch",
+      "summary": "Typing @ now lists Chat-mode chats under Chats and projects under Projects, on this machine and your other machines. Older chats that share words with a newer project now show up too.",
+      "sourceSha": "163bc581350ec81dfd49f0168d6be1925c5c6515",
+      "identity": "mention-chats-and-projects:01a8612402b777bc79bba489242461b83052eafa2563b22c37960926a1be271b"
     }
   ],
   "consumedIntentIds": [
