@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "04444f65c0570342fe5f9814270bcf00c941969c",
+  "cursorSha": "5bbdb19f8d724ad5ffb8394b053cdc0538bb671a",
   "highWaterVersion": "1.514.0",
   "rows": [
     {
@@ -156901,6 +156901,13 @@
       "sourceSha": "04444f65c0570342fe5f9814270bcf00c941969c",
       "sourcePackageVersion": "1.526.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "5bbdb19f8d724ad5ffb8394b053cdc0538bb671a",
+      "sourcePackageVersion": "1.526.0",
+      "intentIds": [
+        "reproducible-linux-appimage:53fc7342209e0001994d639ce4397bb24e7ac25d7b6c63e135d5120bb5543267"
+      ]
     }
   ],
   "intents": [
@@ -165439,6 +165446,14 @@
       "summary": "The Remote Desktop viewer has one toolbar: the machine (with its power and remote unlock readiness in its menu), the display when there is more than one, a status only while it isn't live, the view controls, one Expand, and a ⋯ menu with Fullscreen, Actual size, Latency HUD, Open in a tab, Connection info, Remote access settings and Disconnect. Connecting, can't reach, key not confirmed, locked, disconnected and no machine each show a centered panel, and Connection info shows the machine's fingerprint with Forget this machine. On a phone the toolbar is the machine, Fit, Keyboard and ⋯, with the rest in a sheet.",
       "sourceSha": "d310203ff6cd2e818bfe6b82dec786063eb21f52",
       "identity": "remote-desktop-one-toolbar:983bf4035bdccd20bdbc9b6ba111c9c9dc038dfafa4afb534dab79739f365b24"
+    },
+    {
+      "id": "reproducible-linux-appimage",
+      "digest": "53fc7342209e0001994d639ce4397bb24e7ac25d7b6c63e135d5120bb5543267",
+      "type": "patch",
+      "summary": "Preserve bundled SDK executables during Linux AppImage preparation, and stage node-pty runtime binaries without source-build intermediates.",
+      "sourceSha": "5bbdb19f8d724ad5ffb8394b053cdc0538bb671a",
+      "identity": "reproducible-linux-appimage:53fc7342209e0001994d639ce4397bb24e7ac25d7b6c63e135d5120bb5543267"
     }
   ],
   "consumedIntentIds": [
