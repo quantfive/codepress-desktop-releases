@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "301bb439131e6df0ae09289a5b7e55e775f2ca31",
+  "cursorSha": "ba22a2f5585632c7f75163c9a735ae170445f69b",
   "highWaterVersion": "1.506.3",
   "rows": [
     {
@@ -155241,6 +155241,18 @@
       "sourceSha": "301bb439131e6df0ae09289a5b7e55e775f2ca31",
       "sourcePackageVersion": "1.517.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "8136139f4642a56b1805834952559f3eaa818a00",
+      "sourcePackageVersion": "1.517.7",
+      "intentIds": [
+        "terminal-apps-json-schema-stamp:70b3b4b5cdd9b7f19a22e6754b38bdabdf361951ba7aa3ef1c3d902e94d684de"
+      ]
+    },
+    {
+      "sourceSha": "ba22a2f5585632c7f75163c9a735ae170445f69b",
+      "sourcePackageVersion": "1.517.7",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -163555,6 +163567,14 @@
       "summary": "The Orchestrator's project tools cost about 40% fewer tokens once loaded: each tool's description now says only what it does, its arguments and its answers, and the rules the Orchestrator's instructions already give are no longer repeated in them. No tool's name or arguments changed.",
       "sourceSha": "c05c1c5b79d04e9ac0c88b98e4fc5daf05888730",
       "identity": "orchestrator-trim-tool-descriptions:f7e885deb9c5a7acb6353ed6b04666b2173e3012bed57b10b1bdd8bf985bff0c"
+    },
+    {
+      "id": "terminal-apps-json-schema-stamp",
+      "digest": "70b3b4b5cdd9b7f19a22e6754b38bdabdf361951ba7aa3ef1c3d902e94d684de",
+      "type": "patch",
+      "summary": "Restamp the Orchestrator store's schema fingerprint for the `projects.apps_json` column added in #21458, so stores open through the one-time pass and pick it up.",
+      "sourceSha": "8136139f4642a56b1805834952559f3eaa818a00",
+      "identity": "terminal-apps-json-schema-stamp:70b3b4b5cdd9b7f19a22e6754b38bdabdf361951ba7aa3ef1c3d902e94d684de"
     }
   ],
   "consumedIntentIds": [
