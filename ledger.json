@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9f95f108cf8d01816605e492064ee2467ce39c1b",
+  "cursorSha": "9eb18667aecc328d8df884718ebebe70a8981f5c",
   "highWaterVersion": "1.508.0",
   "rows": [
     {
@@ -156286,6 +156286,13 @@
       "sourceSha": "9f95f108cf8d01816605e492064ee2467ce39c1b",
       "sourcePackageVersion": "1.521.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9eb18667aecc328d8df884718ebebe70a8981f5c",
+      "sourcePackageVersion": "1.521.0",
+      "intentIds": [
+        "terminal-native-interactions-github:f539af8a060ead5cec712b588105acd1739a72a289fe7029602e7189e2363a1e"
+      ]
     }
   ],
   "intents": [
@@ -164760,6 +164767,14 @@
       "summary": "Remote Desktop remembers a machine on this device the first time you connect, so there is no \"Trust this host\" checkbox or consent sheet any more, and the workbench Desktop view connects by itself when you open it. If a machine later presents a different key, the view stops with \"Couldn't confirm this is <machine>\", shows both fingerprints, and offers Try again, Pair anyway… or Not now.",
       "sourceSha": "35c42554e1a0a7fadf8a381a6867ee7f02df4ecf",
       "identity": "remote-desktop-trust-once:ee6a40b5afdf4993e62277d98433c2fd3eacd36b1edb491526efc655b6ed04c9"
+    },
+    {
+      "id": "terminal-native-interactions-github",
+      "digest": "f539af8a060ead5cec712b588105acd1739a72a289fe7029602e7189e2363a1e",
+      "type": "patch",
+      "summary": "Interactions opens in Terminal, with its rail entry wherever the organization has it on, and Automations' Set up GitHub and repository controls work in Terminal: installing a GitHub App opens your browser, and the page refreshes when you come back.",
+      "sourceSha": "9eb18667aecc328d8df884718ebebe70a8981f5c",
+      "identity": "terminal-native-interactions-github:f539af8a060ead5cec712b588105acd1739a72a289fe7029602e7189e2363a1e"
     }
   ],
   "consumedIntentIds": [
