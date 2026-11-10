@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "28a790a208ff0734052e116688bf5b6910fdef48",
-  "highWaterVersion": "1.514.3",
+  "highWaterVersion": "1.515.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -84877,6 +84877,52 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:28a790a208ff0734052e116688bf5b6910fdef48",
+      "kind": "main",
+      "sequence": 2234,
+      "sourceSha": "28a790a208ff0734052e116688bf5b6910fdef48",
+      "sourcePackageVersion": "1.527.0",
+      "version": "1.515.0",
+      "publicationDate": "2026-11-10T17:07:48.326Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-native-app-page:a6de55686dcfd0909349750dd2383b23f500e3215b8f421ce9bb5771592eb5bb"
+        ],
+        "notesIntentIds": [
+          "reproducible-linux-appimage:53fc7342209e0001994d639ce4397bb24e7ac25d7b6c63e135d5120bb5543267",
+          "verified-local-runner-dependencies:e119070ac37efa33c11aef57bf0c3232a0865e7bf0d8684ba8e009b5b45c810d",
+          "headless-broker-startup-wait:35872d0fed94aaac82cae26f9214cea7ad804145fa86044aa2491e6b9499d8f4",
+          "terminal-native-app-page:a6de55686dcfd0909349750dd2383b23f500e3215b8f421ce9bb5771592eb5bb"
+        ],
+        "throughSourceSha": "28a790a208ff0734052e116688bf5b6910fdef48",
+        "previousThroughSourceSha": "d275d2defec5c3ce24ce6814f99597c8717721a3",
+        "baselineVersion": "1.514.3",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42861573010",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-11T17:07:39.110Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -166854,7 +166900,8 @@
     "remote-desktop-one-toolbar:983bf4035bdccd20bdbc9b6ba111c9c9dc038dfafa4afb534dab79739f365b24",
     "reproducible-linux-appimage:53fc7342209e0001994d639ce4397bb24e7ac25d7b6c63e135d5120bb5543267",
     "verified-local-runner-dependencies:e119070ac37efa33c11aef57bf0c3232a0865e7bf0d8684ba8e009b5b45c810d",
-    "headless-broker-startup-wait:35872d0fed94aaac82cae26f9214cea7ad804145fa86044aa2491e6b9499d8f4"
+    "headless-broker-startup-wait:35872d0fed94aaac82cae26f9214cea7ad804145fa86044aa2491e6b9499d8f4",
+    "terminal-native-app-page:a6de55686dcfd0909349750dd2383b23f500e3215b8f421ce9bb5771592eb5bb"
   ],
-  "consumedThroughSha": "d275d2defec5c3ce24ce6814f99597c8717721a3"
+  "consumedThroughSha": "28a790a208ff0734052e116688bf5b6910fdef48"
 }
