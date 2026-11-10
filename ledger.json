@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d35af9d104c03c2c32370a8ea43ddf3cd97b5782",
+  "cursorSha": "018a2f38950acb5c1b22fe9a101d68db5c87ed06",
   "highWaterVersion": "1.507.1",
   "rows": [
     {
@@ -155633,6 +155633,18 @@
       "intentIds": [
         "fable-picker-context:eeef45f6354ce553d3dc1068d5c4eea1cd4c2246693b14bf4befcc6b0609e623"
       ]
+    },
+    {
+      "sourceSha": "cdb82abcb035b0dee375135a4112e4fa6e3aef74",
+      "sourcePackageVersion": "1.519.0",
+      "intentIds": [
+        "ciyml-narrow-terminal-selectors:d266f2522d3898458750a2b403a17acbf032e9aa87a8bea328f49ec6d3beb96f"
+      ]
+    },
+    {
+      "sourceSha": "018a2f38950acb5c1b22fe9a101d68db5c87ed06",
+      "sourcePackageVersion": "1.519.1",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -164003,6 +164015,14 @@
       "summary": "Model menus now have a Context section whenever Fable 5.2 is selected: choose 200k (the default) or 1M right there, and the chip shows \"· 1M\" while it is on. It is the same account setting as Account → Agents, so a change in either shows in the other, and it applies to agents started afterwards.",
       "sourceSha": "d35af9d104c03c2c32370a8ea43ddf3cd97b5782",
       "identity": "fable-picker-context:eeef45f6354ce553d3dc1068d5c4eea1cd4c2246693b14bf4befcc6b0609e623"
+    },
+    {
+      "id": "ciyml-narrow-terminal-selectors",
+      "digest": "d266f2522d3898458750a2b403a17acbf032e9aa87a8bea328f49ec6d3beb96f",
+      "type": "patch",
+      "summary": "CI test selection: a ci.yml edit runs the Terminal Vitest and Rust suites in full only when it reaches their jobs.",
+      "sourceSha": "cdb82abcb035b0dee375135a4112e4fa6e3aef74",
+      "identity": "ciyml-narrow-terminal-selectors:d266f2522d3898458750a2b403a17acbf032e9aa87a8bea328f49ec6d3beb96f"
     }
   ],
   "consumedIntentIds": [
