@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4af8888cd7a47fd6be2dad21edbcfa8b49719997",
+  "cursorSha": "29b4d31981e1706933a3c5d97b7981622df17313",
   "highWaterVersion": "1.514.1",
   "rows": [
     {
@@ -157003,6 +157003,13 @@
       "sourceSha": "4af8888cd7a47fd6be2dad21edbcfa8b49719997",
       "sourcePackageVersion": "1.526.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "29b4d31981e1706933a3c5d97b7981622df17313",
+      "sourcePackageVersion": "1.526.1",
+      "intentIds": [
+        "verified-local-runner-dependencies:e119070ac37efa33c11aef57bf0c3232a0865e7bf0d8684ba8e009b5b45c810d"
+      ]
     }
   ],
   "intents": [
@@ -165549,6 +165556,14 @@
       "summary": "Preserve bundled SDK executables during Linux AppImage preparation, and stage node-pty runtime binaries without source-build intermediates.",
       "sourceSha": "5bbdb19f8d724ad5ffb8394b053cdc0538bb671a",
       "identity": "reproducible-linux-appimage:53fc7342209e0001994d639ce4397bb24e7ac25d7b6c63e135d5120bb5543267"
+    },
+    {
+      "id": "verified-local-runner-dependencies",
+      "digest": "e119070ac37efa33c11aef57bf0c3232a0865e7bf0d8684ba8e009b5b45c810d",
+      "type": "patch",
+      "summary": "Reuse verified unsigned runner dependency archives for eligible local desktop builds, with fresh release files and full preparation on cache faults.",
+      "sourceSha": "29b4d31981e1706933a3c5d97b7981622df17313",
+      "identity": "verified-local-runner-dependencies:e119070ac37efa33c11aef57bf0c3232a0865e7bf0d8684ba8e009b5b45c810d"
     }
   ],
   "consumedIntentIds": [
