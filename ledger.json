@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "8678f04a0b633983c828268fe8843c8d7b5e8028",
-  "highWaterVersion": "1.505.1",
+  "highWaterVersion": "1.506.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -83369,6 +83369,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:8678f04a0b633983c828268fe8843c8d7b5e8028",
+      "kind": "main",
+      "sequence": 2210,
+      "sourceSha": "8678f04a0b633983c828268fe8843c8d7b5e8028",
+      "sourcePackageVersion": "1.517.0",
+      "version": "1.506.0",
+      "publicationDate": "2026-11-10T02:32:07.426Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "orchestrator-claude-builtins:389048844b92dc4ad63b29891c61afb5a33c2597d2c808820d944da03267c3ef",
+          "terminal-branding-panels-native:26a0b1f077b01be92e99b28976f23f1035bfad506e225c08a866241ab53d184b"
+        ],
+        "notesIntentIds": [
+          "orchestrator-claude-builtins:389048844b92dc4ad63b29891c61afb5a33c2597d2c808820d944da03267c3ef",
+          "terminal-branding-panels-native:26a0b1f077b01be92e99b28976f23f1035bfad506e225c08a866241ab53d184b"
+        ],
+        "throughSourceSha": "8678f04a0b633983c828268fe8843c8d7b5e8028",
+        "previousThroughSourceSha": "bf788370d5540fd4681094f0d98ff9e30f28db74",
+        "baselineVersion": "1.505.1",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42743349628",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-11T02:31:58.264Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -164102,7 +164147,9 @@
     "terminal-settings-org-pages-native:2471ec1f45106fb8b961f064074a0d32fd1a0292d49179b9946202d9e8fa640d",
     "orchestrator-say-it-once:06b3b9ecd3ccaa23a5ce9398f5ca8dd04168b3511447f7016728039fa8b0a91e",
     "orchestrator-core-deferred-tools:39fad64e08cca610cb879b12c87d591ade87a120934d69b0f8e3957032ba6a55",
-    "terminal-chat-launch:9684937a5ac247aea88d66a5aa726a9ccc0777da120e836341326dd4042daf4c"
+    "terminal-chat-launch:9684937a5ac247aea88d66a5aa726a9ccc0777da120e836341326dd4042daf4c",
+    "orchestrator-claude-builtins:389048844b92dc4ad63b29891c61afb5a33c2597d2c808820d944da03267c3ef",
+    "terminal-branding-panels-native:26a0b1f077b01be92e99b28976f23f1035bfad506e225c08a866241ab53d184b"
   ],
-  "consumedThroughSha": "bf788370d5540fd4681094f0d98ff9e30f28db74"
+  "consumedThroughSha": "8678f04a0b633983c828268fe8843c8d7b5e8028"
 }
