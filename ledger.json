@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "3c82155d63eef4b7aa1d573d4532f31f1ef2b8ab",
-  "highWaterVersion": "1.517.6",
+  "highWaterVersion": "1.517.7",
   "rows": [
     {
       "schemaVersion": 1,
@@ -85692,6 +85692,72 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:3c82155d63eef4b7aa1d573d4532f31f1ef2b8ab",
+      "kind": "main",
+      "sequence": 2245,
+      "sourceSha": "3c82155d63eef4b7aa1d573d4532f31f1ef2b8ab",
+      "sourcePackageVersion": "1.529.10",
+      "version": "1.517.7",
+      "publicationDate": "2026-11-10T22:10:29.838Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "claude-refusal-notice:f5d0ddd759ed736e790388bf318aaa73e7970d5e1dffc78d4b2dc07fb393d82f"
+        ],
+        "notesIntentIds": [
+          "reproducible-linux-appimage:53fc7342209e0001994d639ce4397bb24e7ac25d7b6c63e135d5120bb5543267",
+          "verified-local-runner-dependencies:e119070ac37efa33c11aef57bf0c3232a0865e7bf0d8684ba8e009b5b45c810d",
+          "headless-broker-startup-wait:35872d0fed94aaac82cae26f9214cea7ad804145fa86044aa2491e6b9499d8f4",
+          "terminal-native-app-page:a6de55686dcfd0909349750dd2383b23f500e3215b8f421ce9bb5771592eb5bb",
+          "server-cli-update-keeps-approval:3f1456ddd183b9058a3126cf5d36b8af1c8b2cd23950d79ad8cebb82f6eb393f",
+          "router-folders-fast-truthful:a04f41678bf37567797c2f2eccdd85b9729f0f66caa92660b3ca9f3d120fa5f5",
+          "terminal-linked-builtin-apps:a61ba37673b1b2a465a6977cfdea5bbf4d600eadba7c27b3b4345c269065db2f",
+          "device-folders-ride-out-reconnect:0a4b24bf3e08a6a8b17d3abccdbea1e1497e860d972c383d36d235050e7e9933",
+          "desktop-save-feedback:791881de7a618767385c547f460bf539ae67a57ea15e695c4e603e37e50313bc",
+          "agent-message-dedupe:06441adc0633d35be4c736b11639a801ae0833777505872d70ba40ac6048faa5",
+          "terminal-native-repo-apps-artifacts:731a700327adb87d971d0efe8eaac48d2649828b89c3b77cede17e6d610a86fa",
+          "orchestrator-clear-reports-problems-seen:da33d589cb9c252af5ee9df0450fa209332be39ec15a98ac81f216ace81a3cf8",
+          "automation-review-and-vouch:1a0296c9409fbf8d8efe51b7de43066746fcf7e315ed2d5a4acfb03c47288ae3",
+          "orchestrator-flag-off-gates:94a0c616ee88010b59dbf9c394cd323f0dbdc9a5c22bb488a7cb1513cf760844",
+          "device-channel-handover:5ecc4d4cac62ee103f85675dc7fa0d1f9e82f857cd9759e919643fdc691dd37b",
+          "orchestrator-narrow-snapshot-reads:4d1e7fce75540882b5162bbd44521e297ab57b458b4aeebf7062ddd055e2ab72",
+          "app-chat-streams-live:f6a33acc7f8e54b23c5940d74f2e787068c26be0de24f12546062c1128b3c0fc",
+          "allow-lost-after-stop:849199d795bf79ba3d34680c09066ec2269fad14db48320fcfaf23ac7131f59c",
+          "terminal-add-from-repository:5ece2af37e0fe6faa1e88953dfba654544070be9a7259d326bd0120d26547ad0",
+          "new-app-lands-on-app-page:10c9bf68e04da85a6bc0a56efd57b112020ec914576b0bf16c09c82598e6575b",
+          "compact-pm-project-snapshot:7f1476392c0f2bfae7ac47c17a61645ec097afa1e6b4fcb3c8244a55602b5664",
+          "cli-download-progress:cd7c43038226759017a16014e4a7896b11ce071d0b0fcd7000d13d72b65181a9",
+          "mention-chats-and-projects:01a8612402b777bc79bba489242461b83052eafa2563b22c37960926a1be271b",
+          "claude-refusal-notice:f5d0ddd759ed736e790388bf318aaa73e7970d5e1dffc78d4b2dc07fb393d82f"
+        ],
+        "throughSourceSha": "3c82155d63eef4b7aa1d573d4532f31f1ef2b8ab",
+        "previousThroughSourceSha": "eda1c367cc9437a3ecbd271c00b8a2b4a2a820db",
+        "baselineVersion": "1.517.6",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42911969927",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-11T22:10:22.678Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -168334,7 +168400,8 @@
     "new-app-lands-on-app-page:10c9bf68e04da85a6bc0a56efd57b112020ec914576b0bf16c09c82598e6575b",
     "compact-pm-project-snapshot:7f1476392c0f2bfae7ac47c17a61645ec097afa1e6b4fcb3c8244a55602b5664",
     "cli-download-progress:cd7c43038226759017a16014e4a7896b11ce071d0b0fcd7000d13d72b65181a9",
-    "mention-chats-and-projects:01a8612402b777bc79bba489242461b83052eafa2563b22c37960926a1be271b"
+    "mention-chats-and-projects:01a8612402b777bc79bba489242461b83052eafa2563b22c37960926a1be271b",
+    "claude-refusal-notice:f5d0ddd759ed736e790388bf318aaa73e7970d5e1dffc78d4b2dc07fb393d82f"
   ],
-  "consumedThroughSha": "eda1c367cc9437a3ecbd271c00b8a2b4a2a820db"
+  "consumedThroughSha": "3c82155d63eef4b7aa1d573d4532f31f1ef2b8ab"
 }
