@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "de49dc87bc49452084655026a560de5804a60214",
+  "cursorSha": "7f2592173d4dc53ac007c32ae16e928429165600",
   "highWaterVersion": "1.505.1",
   "rows": [
     {
@@ -154769,6 +154769,13 @@
       "sourceSha": "de49dc87bc49452084655026a560de5804a60214",
       "sourcePackageVersion": "1.516.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7f2592173d4dc53ac007c32ae16e928429165600",
+      "sourcePackageVersion": "1.516.3",
+      "intentIds": [
+        "orchestrator-claude-builtins:389048844b92dc4ad63b29891c61afb5a33c2597d2c808820d944da03267c3ef"
+      ]
     }
   ],
   "intents": [
@@ -163019,6 +163026,14 @@
       "summary": "Start chats from a launch in Terminal: Automations' New, and pages that start a chat with instructions and context, show a confirm card, create the chat in Terminal and open it in Agent instead of opening the web's chat page.",
       "sourceSha": "bf788370d5540fd4681094f0d98ff9e30f28db74",
       "identity": "terminal-chat-launch:9684937a5ac247aea88d66a5aa726a9ccc0777da120e836341326dd4042daf4c"
+    },
+    {
+      "id": "orchestrator-claude-builtins",
+      "digest": "389048844b92dc4ad63b29891c61afb5a33c2597d2c808820d944da03267c3ef",
+      "type": "minor",
+      "summary": "A Claude Orchestrator now gets an explicit list of Claude Code built-in tools instead of every default, and Claude's Artifact tool is off unless you turn it on in Account → Orchestrator → Tools (or ask an agent to set `orchestratorClaudeArtifacts`).",
+      "sourceSha": "7f2592173d4dc53ac007c32ae16e928429165600",
+      "identity": "orchestrator-claude-builtins:389048844b92dc4ad63b29891c61afb5a33c2597d2c808820d944da03267c3ef"
     }
   ],
   "consumedIntentIds": [
