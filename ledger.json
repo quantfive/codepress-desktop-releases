@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5ca389467a914986412e4d0061febcc75152bd7a",
+  "cursorSha": "d35af9d104c03c2c32370a8ea43ddf3cd97b5782",
   "highWaterVersion": "1.507.0",
   "rows": [
     {
@@ -155571,6 +155571,13 @@
       "sourceSha": "5ca389467a914986412e4d0061febcc75152bd7a",
       "sourcePackageVersion": "1.519.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d35af9d104c03c2c32370a8ea43ddf3cd97b5782",
+      "sourcePackageVersion": "1.519.0",
+      "intentIds": [
+        "fable-picker-context:eeef45f6354ce553d3dc1068d5c4eea1cd4c2246693b14bf4befcc6b0609e623"
+      ]
     }
   ],
   "intents": [
@@ -163933,6 +163940,14 @@
       "summary": "Orchestrator for Apps: projects get an App tab listing the App they build with Open in CodePress, the kickoff repo picker lists the organization's Apps, and Project settings shows and changes the project's App. Behind the Orchestrator for Apps flag.",
       "sourceSha": "b688ea0034e31400fd8ec2d410f103b46aed5e97",
       "identity": "orchestrator-app-tab:a4da6c6c488cefa8e10e715dcba56e80e7e2dc9b19b4e268652931a832716e9e"
+    },
+    {
+      "id": "fable-picker-context",
+      "digest": "eeef45f6354ce553d3dc1068d5c4eea1cd4c2246693b14bf4befcc6b0609e623",
+      "type": "patch",
+      "summary": "Model menus now have a Context section whenever Fable 5.2 is selected: choose 200k (the default) or 1M right there, and the chip shows \"· 1M\" while it is on. It is the same account setting as Account → Agents, so a change in either shows in the other, and it applies to agents started afterwards.",
+      "sourceSha": "d35af9d104c03c2c32370a8ea43ddf3cd97b5782",
+      "identity": "fable-picker-context:eeef45f6354ce553d3dc1068d5c4eea1cd4c2246693b14bf4befcc6b0609e623"
     }
   ],
   "consumedIntentIds": [
