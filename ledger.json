@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "750dde4a057d089046cc1b1cdfbca86f0b49f97c",
+  "cursorSha": "243db1cec4074a778aefb4f885801b107eb3fdce",
   "highWaterVersion": "1.507.2",
   "rows": [
     {
@@ -155734,6 +155734,13 @@
       "sourceSha": "750dde4a057d089046cc1b1cdfbca86f0b49f97c",
       "sourcePackageVersion": "1.519.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "243db1cec4074a778aefb4f885801b107eb3fdce",
+      "sourcePackageVersion": "1.519.2",
+      "intentIds": [
+        "orchestrator-app-panel:cff1259b0b5811784f0ce3a4a10ee0d2148ed281f9b117817b051bcb75237660"
+      ]
     }
   ],
   "intents": [
@@ -164120,6 +164127,14 @@
       "summary": "Rename any of your machines from the machine menu: hover a name to see it as a field, click it (or press Enter or F2) to edit it in place, then Enter to save or Esc to cancel. Clicking a name no longer connects; the terminal icon still does, and this machine's row shows it while you are driving another machine so you can come back.",
       "sourceSha": "50761c1f8896ea1775668e9bb57591dbdf306a61",
       "identity": "rename-machines-from-menu:450ba878a99b17e0bf2aa43fc337f927af8881907cf9968afbb334f159693ed2"
+    },
+    {
+      "id": "orchestrator-app-panel",
+      "digest": "cff1259b0b5811784f0ce3a4a10ee0d2148ed281f9b117817b051bcb75237660",
+      "type": "patch",
+      "summary": "Shared UI for Orchestrator for Apps on the web App page: an embedded mode for the Agents feed, a step strip, and an Open plan button on plan approval where a host offers one. Terminal draws nothing new.",
+      "sourceSha": "243db1cec4074a778aefb4f885801b107eb3fdce",
+      "identity": "orchestrator-app-panel:cff1259b0b5811784f0ce3a4a10ee0d2148ed281f9b117817b051bcb75237660"
     }
   ],
   "consumedIntentIds": [
