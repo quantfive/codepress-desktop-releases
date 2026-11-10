@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4c6c75933d850b0f56cffb3de17a2ec7d727bffa",
+  "cursorSha": "a2256330eaa2ba278e2f0536523f8a6e5964dcae",
   "highWaterVersion": "1.507.4",
   "rows": [
     {
@@ -155989,6 +155989,13 @@
       "sourceSha": "4c6c75933d850b0f56cffb3de17a2ec7d727bffa",
       "sourcePackageVersion": "1.519.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a2256330eaa2ba278e2f0536523f8a6e5964dcae",
+      "sourcePackageVersion": "1.519.8",
+      "intentIds": [
+        "orchestrator-local-time-zone:575a98bf468b5f45909c80f402e39fadb3f12b47c4c7339674eadcd88509504e"
+      ]
     }
   ],
   "intents": [
@@ -164423,6 +164430,14 @@
       "summary": "Settings → Members: Invite members opens the invite dialog in Terminal instead of sending you to the web Members page.",
       "sourceSha": "19050bcfaf98bd6f819f4c8e39d76763fef3181d",
       "identity": "terminal-native-invite-members:b1230cd80d96217f67b2ce8986c63d2a2495e87a0152b55e87d563d335cbad8c"
+    },
+    {
+      "id": "orchestrator-local-time-zone",
+      "digest": "575a98bf468b5f45909c80f402e39fadb3f12b47c4c7339674eadcd88509504e",
+      "type": "patch",
+      "summary": "The Orchestrator writes times in your time zone instead of UTC. Terminal tells it this machine's time zone (for example `America/Los_Angeles (PST)`) on each turn, so a change reaches it on the next one; on a cloud server or a machine set to UTC it names no zone and labels every time instead.",
+      "sourceSha": "a2256330eaa2ba278e2f0536523f8a6e5964dcae",
+      "identity": "orchestrator-local-time-zone:575a98bf468b5f45909c80f402e39fadb3f12b47c4c7339674eadcd88509504e"
     }
   ],
   "consumedIntentIds": [
