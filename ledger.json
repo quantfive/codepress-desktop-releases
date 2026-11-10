@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3d6dd104833b3f9faa64ae6e5859655616cfc81b",
+  "cursorSha": "7d03279b7facc24180c8acf6956f032d74fc7a58",
   "highWaterVersion": "1.503.0",
   "rows": [
     {
@@ -154400,6 +154400,13 @@
       "sourceSha": "3d6dd104833b3f9faa64ae6e5859655616cfc81b",
       "sourcePackageVersion": "1.514.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7d03279b7facc24180c8acf6956f032d74fc7a58",
+      "sourcePackageVersion": "1.514.2",
+      "intentIds": [
+        "gemini-google-sign-in:eb7b9ca4251314f7adb98db015573e02f4df5438e9565fa85bc1089f743c0478"
+      ]
     }
   ],
   "intents": [
@@ -162602,6 +162609,14 @@
       "summary": "Add Terminal's App chat host (`useTerminalAppChat`) and its launch confirm card, ready for the App page to run its chat natively. Not routed yet, so nothing changes on screen.",
       "sourceSha": "e0c4f858d5ec251c839c9351714286562a01db0f",
       "identity": "terminal-app-chat-host:ea3f1202513176fc3089d2279b3a2e79fa602a24599a45c1217efecbbcb114b9"
+    },
+    {
+      "id": "gemini-google-sign-in",
+      "digest": "eb7b9ca4251314f7adb98db015573e02f4df5438e9565fa85bc1089f743c0478",
+      "type": "minor",
+      "summary": "Connect a Google subscription to Gemini with one button. Accounts → Google, onboarding and a signed-out Gemini model entry now offer Sign in with Google, Gemini Enterprise and Sign in with a code for a machine with no browser. Google's own agent runs the sign-in, and Terminal never sees the token. A signed-in row shows the plan, and Sign out uses agy's own sign-out.",
+      "sourceSha": "7d03279b7facc24180c8acf6956f032d74fc7a58",
+      "identity": "gemini-google-sign-in:eb7b9ca4251314f7adb98db015573e02f4df5438e9565fa85bc1089f743c0478"
     }
   ],
   "consumedIntentIds": [
