@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "6a81252888e04ac1bef5606115fc6361f5634f35",
-  "highWaterVersion": "1.507.6",
+  "highWaterVersion": "1.508.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -84208,6 +84208,51 @@
           }
         ]
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:6a81252888e04ac1bef5606115fc6361f5634f35",
+      "kind": "main",
+      "sequence": 2223,
+      "sourceSha": "6a81252888e04ac1bef5606115fc6361f5634f35",
+      "sourcePackageVersion": "1.519.10",
+      "version": "1.508.0",
+      "publicationDate": "2026-11-10T08:12:43.889Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "gemini-orchestrator-pickers:76564b96f0fc9e4a82157b7ee18772ec0727fb06d7e52d90564b2e3260bc6b9e",
+          "terminal-native-apps-site-controls:f30cec980646105210ba7b8de2f4e8d029c0beb54572dcb4cf611a606b7a21f4"
+        ],
+        "notesIntentIds": [
+          "gemini-orchestrator-pickers:76564b96f0fc9e4a82157b7ee18772ec0727fb06d7e52d90564b2e3260bc6b9e",
+          "terminal-native-apps-site-controls:f30cec980646105210ba7b8de2f4e8d029c0beb54572dcb4cf611a606b7a21f4"
+        ],
+        "throughSourceSha": "6a81252888e04ac1bef5606115fc6361f5634f35",
+        "previousThroughSourceSha": "026861aeda1209fc99e0481e512644c2a06a7f22",
+        "baselineVersion": "1.507.6",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42780469650",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-11T08:12:36.359Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -165726,7 +165771,9 @@
     "gemini-pm-tool-gateway:0e58016887202b115c45216937300d2e104173954240c68e9deb0732ce3b090a",
     "terminal-native-invite-members:b1230cd80d96217f67b2ce8986c63d2a2495e87a0152b55e87d563d335cbad8c",
     "orchestrator-local-time-zone:575a98bf468b5f45909c80f402e39fadb3f12b47c4c7339674eadcd88509504e",
-    "consent-off-lost-reply:10ff2f54b93f09eab64b20d7026c78bd326403634ece388c09936658cdd6667b"
+    "consent-off-lost-reply:10ff2f54b93f09eab64b20d7026c78bd326403634ece388c09936658cdd6667b",
+    "gemini-orchestrator-pickers:76564b96f0fc9e4a82157b7ee18772ec0727fb06d7e52d90564b2e3260bc6b9e",
+    "terminal-native-apps-site-controls:f30cec980646105210ba7b8de2f4e8d029c0beb54572dcb4cf611a606b7a21f4"
   ],
-  "consumedThroughSha": "026861aeda1209fc99e0481e512644c2a06a7f22"
+  "consumedThroughSha": "6a81252888e04ac1bef5606115fc6361f5634f35"
 }
