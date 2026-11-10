@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "026861aeda1209fc99e0481e512644c2a06a7f22",
-  "highWaterVersion": "1.507.5",
+  "highWaterVersion": "1.507.6",
   "rows": [
     {
       "schemaVersion": 1,
@@ -84148,6 +84148,49 @@
           }
         ]
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:026861aeda1209fc99e0481e512644c2a06a7f22",
+      "kind": "main",
+      "sequence": 2222,
+      "sourceSha": "026861aeda1209fc99e0481e512644c2a06a7f22",
+      "sourcePackageVersion": "1.519.9",
+      "version": "1.507.6",
+      "publicationDate": "2026-11-10T07:48:31.075Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "consent-off-lost-reply:10ff2f54b93f09eab64b20d7026c78bd326403634ece388c09936658cdd6667b"
+        ],
+        "notesIntentIds": [
+          "consent-off-lost-reply:10ff2f54b93f09eab64b20d7026c78bd326403634ece388c09936658cdd6667b"
+        ],
+        "throughSourceSha": "026861aeda1209fc99e0481e512644c2a06a7f22",
+        "previousThroughSourceSha": "a2256330eaa2ba278e2f0536523f8a6e5964dcae",
+        "baselineVersion": "1.507.5",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42777767324",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-11T07:48:24.466Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -165605,7 +165648,8 @@
     "orchestrator-apps-instructions:bc1419131774354a64e3be3347c08f7ae6d7bf72ea6e8c28c01ff083cec35fed",
     "gemini-pm-tool-gateway:0e58016887202b115c45216937300d2e104173954240c68e9deb0732ce3b090a",
     "terminal-native-invite-members:b1230cd80d96217f67b2ce8986c63d2a2495e87a0152b55e87d563d335cbad8c",
-    "orchestrator-local-time-zone:575a98bf468b5f45909c80f402e39fadb3f12b47c4c7339674eadcd88509504e"
+    "orchestrator-local-time-zone:575a98bf468b5f45909c80f402e39fadb3f12b47c4c7339674eadcd88509504e",
+    "consent-off-lost-reply:10ff2f54b93f09eab64b20d7026c78bd326403634ece388c09936658cdd6667b"
   ],
-  "consumedThroughSha": "a2256330eaa2ba278e2f0536523f8a6e5964dcae"
+  "consumedThroughSha": "026861aeda1209fc99e0481e512644c2a06a7f22"
 }
