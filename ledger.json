@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b49ea82cb15663ff8777aa863de07b43dabbb4f2",
+  "cursorSha": "4d97ac0bcf525ef6d62cf26396a632bcc90d0820",
   "highWaterVersion": "1.517.2",
   "rows": [
     {
@@ -158062,6 +158062,13 @@
       "sourceSha": "b49ea82cb15663ff8777aa863de07b43dabbb4f2",
       "sourcePackageVersion": "1.529.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4d97ac0bcf525ef6d62cf26396a632bcc90d0820",
+      "sourcePackageVersion": "1.529.5",
+      "intentIds": [
+        "terminal-add-from-repository:5ece2af37e0fe6faa1e88953dfba654544070be9a7259d326bd0120d26547ad0"
+      ]
     }
   ],
   "intents": [
@@ -166744,6 +166751,14 @@
       "summary": "When Terminal can't send the backend its copy of an automation you allowed (no sign-in, device id or organization), it now logs why instead of dropping it silently.",
       "sourceSha": "0406023c358c2bf03b7c1efbcbbd2daee4e953d8",
       "identity": "allow-lost-after-stop:849199d795bf79ba3d34680c09066ec2269fad14db48320fcfaf23ac7131f59c"
+    },
+    {
+      "id": "terminal-add-from-repository",
+      "digest": "5ece2af37e0fe6faa1e88953dfba654544070be9a7259d326bd0120d26547ad0",
+      "type": "patch",
+      "summary": "Apps can now add every app found in a connected repository at once with \"Add from a repository\", and Host this repo's Folder field lists the repository's folders and checks the one you pick (behind the staff Unified Apps flag).",
+      "sourceSha": "4d97ac0bcf525ef6d62cf26396a632bcc90d0820",
+      "identity": "terminal-add-from-repository:5ece2af37e0fe6faa1e88953dfba654544070be9a7259d326bd0120d26547ad0"
     }
   ],
   "consumedIntentIds": [
