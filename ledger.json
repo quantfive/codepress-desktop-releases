@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "bf788370d5540fd4681094f0d98ff9e30f28db74",
-  "highWaterVersion": "1.505.0",
+  "highWaterVersion": "1.505.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -83309,6 +83309,54 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:bf788370d5540fd4681094f0d98ff9e30f28db74",
+      "kind": "main",
+      "sequence": 2209,
+      "sourceSha": "bf788370d5540fd4681094f0d98ff9e30f28db74",
+      "sourcePackageVersion": "1.516.2",
+      "version": "1.505.1",
+      "publicationDate": "2026-11-10T02:00:21.237Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "orchestrator-say-it-once:06b3b9ecd3ccaa23a5ce9398f5ca8dd04168b3511447f7016728039fa8b0a91e",
+          "orchestrator-core-deferred-tools:39fad64e08cca610cb879b12c87d591ade87a120934d69b0f8e3957032ba6a55",
+          "terminal-chat-launch:9684937a5ac247aea88d66a5aa726a9ccc0777da120e836341326dd4042daf4c"
+        ],
+        "notesIntentIds": [
+          "terminal-settings-org-pages-native:2471ec1f45106fb8b961f064074a0d32fd1a0292d49179b9946202d9e8fa640d",
+          "orchestrator-say-it-once:06b3b9ecd3ccaa23a5ce9398f5ca8dd04168b3511447f7016728039fa8b0a91e",
+          "orchestrator-core-deferred-tools:39fad64e08cca610cb879b12c87d591ade87a120934d69b0f8e3957032ba6a55",
+          "terminal-chat-launch:9684937a5ac247aea88d66a5aa726a9ccc0777da120e836341326dd4042daf4c"
+        ],
+        "throughSourceSha": "bf788370d5540fd4681094f0d98ff9e30f28db74",
+        "previousThroughSourceSha": "8f9a29b2fe99dec6123a57c010ee80abf0a909c1",
+        "baselineVersion": "1.505.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42739621406",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-11T02:00:10.290Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -163979,7 +164027,10 @@
     "terminal-app-chat-host:ea3f1202513176fc3089d2279b3a2e79fa602a24599a45c1217efecbbcb114b9",
     "gemini-google-sign-in:eb7b9ca4251314f7adb98db015573e02f4df5438e9565fa85bc1089f743c0478",
     "plan-card-words-message:e59159513fd7df2d34ad61e222784205a95910c1c91d31d6d41337e816ab5656",
-    "terminal-settings-org-pages-native:2471ec1f45106fb8b961f064074a0d32fd1a0292d49179b9946202d9e8fa640d"
+    "terminal-settings-org-pages-native:2471ec1f45106fb8b961f064074a0d32fd1a0292d49179b9946202d9e8fa640d",
+    "orchestrator-say-it-once:06b3b9ecd3ccaa23a5ce9398f5ca8dd04168b3511447f7016728039fa8b0a91e",
+    "orchestrator-core-deferred-tools:39fad64e08cca610cb879b12c87d591ade87a120934d69b0f8e3957032ba6a55",
+    "terminal-chat-launch:9684937a5ac247aea88d66a5aa726a9ccc0777da120e836341326dd4042daf4c"
   ],
-  "consumedThroughSha": "8f9a29b2fe99dec6123a57c010ee80abf0a909c1"
+  "consumedThroughSha": "bf788370d5540fd4681094f0d98ff9e30f28db74"
 }
