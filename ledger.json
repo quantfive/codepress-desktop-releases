@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4f7ef0aadbe006208b5633ab7460367232fad82a",
+  "cursorSha": "d371dff0af9e645fc9d16e88c3a780c5d39b1b2e",
   "highWaterVersion": "1.506.1",
   "rows": [
     {
@@ -154976,6 +154976,13 @@
       "sourceSha": "4f7ef0aadbe006208b5633ab7460367232fad82a",
       "sourcePackageVersion": "1.517.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d371dff0af9e645fc9d16e88c3a780c5d39b1b2e",
+      "sourcePackageVersion": "1.517.3",
+      "intentIds": [
+        "container-restart-after-reboot:a217f72714e4dcad7819f480a4013f5178cc9ad4c3cddff98b8ad318d12406a8"
+      ]
     }
   ],
   "intents": [
@@ -163258,6 +163265,14 @@
       "summary": "Behind Orchestrator for Apps, a local Orchestrator can find the organization's Apps and link its project to the one App it changes (project_app_find, project_app_link). The project's snapshot shows that App and whether each work item takes the App flow, and the synced card tells CodePress which App the project changes.",
       "sourceSha": "36ba5be6661946de48a15581c398d3478cd08654",
       "identity": "orchestrator-app-links:7c6b1d1585be6851da23d2f427817a3813e0e526fb5f621e4178494a142aa794"
+    },
+    {
+      "id": "container-restart-after-reboot",
+      "digest": "a217f72714e4dcad7819f480a4013f5178cc9ad4c3cddff98b8ad318d12406a8",
+      "type": "patch",
+      "summary": "A Mac that finished sandbox setup restarts Apple's `container` runtime by itself after a reboot, so it keeps taking automations without another click on \"Set up this Mac\".",
+      "sourceSha": "d371dff0af9e645fc9d16e88c3a780c5d39b1b2e",
+      "identity": "container-restart-after-reboot:a217f72714e4dcad7819f480a4013f5178cc9ad4c3cddff98b8ad318d12406a8"
     }
   ],
   "consumedIntentIds": [
