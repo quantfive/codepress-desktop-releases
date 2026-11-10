@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "620a7200c7d0f0e43656f1389ae0c6e513c7120c",
+  "cursorSha": "add81e783c57d0402aa7b65b7a2303d7b02467dd",
   "highWaterVersion": "1.514.3",
   "rows": [
     {
@@ -157165,6 +157165,13 @@
       "sourceSha": "620a7200c7d0f0e43656f1389ae0c6e513c7120c",
       "sourcePackageVersion": "1.526.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "add81e783c57d0402aa7b65b7a2303d7b02467dd",
+      "sourcePackageVersion": "1.526.3",
+      "intentIds": [
+        "terminal-native-app-page:a6de55686dcfd0909349750dd2383b23f500e3215b8f421ce9bb5771592eb5bb"
+      ]
     }
   ],
   "intents": [
@@ -165727,6 +165734,14 @@
       "summary": "Server CLI: after an update, the service now waits up to 60 s (`CODEPRESS_HEADLESS_BROKER_READY_WAIT_MS`) for its selected PTY broker to finish connecting, instead of exiting when the first check finds it between connections. Newly discovered broker generations no longer log a false \"Connection to broker closed\" or start an extra discovery pass.",
       "sourceSha": "d275d2defec5c3ce24ce6814f99597c8717721a3",
       "identity": "headless-broker-startup-wait:35872d0fed94aaac82cae26f9214cea7ad804145fa86044aa2491e6b9499d8f4"
+    },
+    {
+      "id": "terminal-native-app-page",
+      "digest": "a6de55686dcfd0909349750dd2383b23f500e3215b8f421ce9bb5771592eb5bb",
+      "type": "minor",
+      "summary": "Terminal draws a managed App's page itself, with no embedded web page: the\npreview, editing, Publish, Settings and the App's chat open at once from\nTerminal's own code. A link to a page inside an App opens that page, and the\naddress Terminal keeps for it is the web's. Hosting, billing, the GitHub\nrepository picker and a migrated site's card open on the web in your browser.\nLinked, repository and default Apps, and Apps in other organizations, still\nopen in the embedded view.",
+      "sourceSha": "add81e783c57d0402aa7b65b7a2303d7b02467dd",
+      "identity": "terminal-native-app-page:a6de55686dcfd0909349750dd2383b23f500e3215b8f421ce9bb5771592eb5bb"
     }
   ],
   "consumedIntentIds": [
