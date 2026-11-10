@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "059ea68759c467b001c131e860acd735b9726cd4",
+  "cursorSha": "05c0774117d2a7111269ba8735232148f36d6f7a",
   "highWaterVersion": "1.517.7",
   "rows": [
     {
@@ -158617,6 +158617,13 @@
       "sourceSha": "059ea68759c467b001c131e860acd735b9726cd4",
       "sourcePackageVersion": "1.529.11",
       "intentIds": []
+    },
+    {
+      "sourceSha": "05c0774117d2a7111269ba8735232148f36d6f7a",
+      "sourcePackageVersion": "1.529.11",
+      "intentIds": [
+        "mention-menu-clip:73c8a430e7cf33558b8793dd6482819582ec6690686700f1158863638c2acc73"
+      ]
     }
   ],
   "intents": [
@@ -167355,6 +167362,14 @@
       "summary": "The `@` menu lists your own cloud and Slack chats under Chats › Cloud. Mentioning one in a message to a project gives the Orchestrator that chat's recent messages as your own words, and a chat that can't be read stops the send with your draft kept.",
       "sourceSha": "00de7b1d2ce1197c6dd08a929c8428944d725e7e",
       "identity": "mention-cloud-chats:f1c9aee75272a44d97f040b52051fc1bfeed6aff8d11887fb2f73f6f06263e96"
+    },
+    {
+      "id": "mention-menu-clip",
+      "digest": "73c8a430e7cf33558b8793dd6482819582ec6690686700f1158863638c2acc73",
+      "type": "patch",
+      "summary": "On a phone, a long `@` menu no longer slides under the \"This list may be out of date\" banner: its header and Close stay visible and the rows scroll inside it.",
+      "sourceSha": "05c0774117d2a7111269ba8735232148f36d6f7a",
+      "identity": "mention-menu-clip:73c8a430e7cf33558b8793dd6482819582ec6690686700f1158863638c2acc73"
     }
   ],
   "consumedIntentIds": [
