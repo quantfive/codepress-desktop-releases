@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "a21e02aabaf12ad2a3afe47935a1d4b4db87a96e",
-  "highWaterVersion": "1.510.0",
+  "highWaterVersion": "1.511.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -84394,6 +84394,49 @@
           }
         ]
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:a21e02aabaf12ad2a3afe47935a1d4b4db87a96e",
+      "kind": "main",
+      "sequence": 2226,
+      "sourceSha": "a21e02aabaf12ad2a3afe47935a1d4b4db87a96e",
+      "sourcePackageVersion": "1.523.0",
+      "version": "1.511.0",
+      "publicationDate": "2026-11-10T09:23:22.046Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-native-integrations:aa250b3bea6e6502b28c8725e2448b1268ac08b6cbbd9890c70327d9b0349e02"
+        ],
+        "notesIntentIds": [
+          "terminal-native-integrations:aa250b3bea6e6502b28c8725e2448b1268ac08b6cbbd9890c70327d9b0349e02"
+        ],
+        "throughSourceSha": "a21e02aabaf12ad2a3afe47935a1d4b4db87a96e",
+        "previousThroughSourceSha": "1b9ac0ee01834f4f308d97c9658ca7be543f89e9",
+        "baselineVersion": "1.510.0",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42790214648",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-11T09:23:14.837Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -166063,7 +166106,8 @@
     "remote-desktop-trust-once:ee6a40b5afdf4993e62277d98433c2fd3eacd36b1edb491526efc655b6ed04c9",
     "terminal-native-interactions-github:f539af8a060ead5cec712b588105acd1739a72a289fe7029602e7189e2363a1e",
     "gemini-pm-quota-stop:decac3ed9d141b04fb6b1a0e19ebba389e0178f4224c39fbac9799d7d7c13e5f",
-    "orchestrator-time-zone-setting:6274caabe10a2e8afcca1c93cd945cbb961fd6acb9de154afbc7c16d974562e8"
+    "orchestrator-time-zone-setting:6274caabe10a2e8afcca1c93cd945cbb961fd6acb9de154afbc7c16d974562e8",
+    "terminal-native-integrations:aa250b3bea6e6502b28c8725e2448b1268ac08b6cbbd9890c70327d9b0349e02"
   ],
-  "consumedThroughSha": "1b9ac0ee01834f4f308d97c9658ca7be543f89e9"
+  "consumedThroughSha": "a21e02aabaf12ad2a3afe47935a1d4b4db87a96e"
 }
