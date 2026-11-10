@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "144b2876f4a2952e64df2eba599581129790a38a",
+  "cursorSha": "24e361305c610572f9f9ea7fdda66b1f9fb43d3d",
   "highWaterVersion": "1.505.0",
   "rows": [
     {
@@ -154658,6 +154658,13 @@
       "sourceSha": "144b2876f4a2952e64df2eba599581129790a38a",
       "sourcePackageVersion": "1.516.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "24e361305c610572f9f9ea7fdda66b1f9fb43d3d",
+      "sourcePackageVersion": "1.516.0",
+      "intentIds": [
+        "orchestrator-say-it-once:06b3b9ecd3ccaa23a5ce9398f5ca8dd04168b3511447f7016728039fa8b0a91e"
+      ]
     }
   ],
   "intents": [
@@ -162884,6 +162891,14 @@
       "summary": "Settings → Connections, Usage and Branding are drawn in Terminal's Settings modal instead of the embedded web page. Branding's logos upload from Terminal and show on white in both themes. Terminal's backend client now sends file uploads as multipart form data.",
       "sourceSha": "8f9a29b2fe99dec6123a57c010ee80abf0a909c1",
       "identity": "terminal-settings-org-pages-native:2471ec1f45106fb8b961f064074a0d32fd1a0292d49179b9946202d9e8fa640d"
+    },
+    {
+      "id": "orchestrator-say-it-once",
+      "digest": "06b3b9ecd3ccaa23a5ce9398f5ca8dd04168b3511447f7016728039fa8b0a91e",
+      "type": "patch",
+      "summary": "The local Orchestrator now says each answer once: after posting it no longer repeats the post in its closing reply, and a later turn no longer re-answers a question it already answered.",
+      "sourceSha": "24e361305c610572f9f9ea7fdda66b1f9fb43d3d",
+      "identity": "orchestrator-say-it-once:06b3b9ecd3ccaa23a5ce9398f5ca8dd04168b3511447f7016728039fa8b0a91e"
     }
   ],
   "consumedIntentIds": [
