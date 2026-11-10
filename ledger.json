@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9d1b946bec132e4dcc7f63a63f79aa76f4f5cf90",
+  "cursorSha": "7c6a89761168d7002f900b6714952ed201f39ca8",
   "highWaterVersion": "1.507.2",
   "rows": [
     {
@@ -155756,6 +155756,13 @@
       "sourceSha": "9d1b946bec132e4dcc7f63a63f79aa76f4f5cf90",
       "sourcePackageVersion": "1.519.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7c6a89761168d7002f900b6714952ed201f39ca8",
+      "sourcePackageVersion": "1.519.3",
+      "intentIds": [
+        "repair-linux-fast-build:ea6ae57a93a3144d77499f4e9eb76a0eb12a9f6411e759659d90516145ab6a23"
+      ]
     }
   ],
   "intents": [
@@ -164150,6 +164157,14 @@
       "summary": "Shared UI for Orchestrator for Apps on the web App page: an embedded mode for the Agents feed, a step strip, and an Open plan button on plan approval where a host offers one. Terminal draws nothing new.",
       "sourceSha": "243db1cec4074a778aefb4f885801b107eb3fdce",
       "identity": "orchestrator-app-panel:cff1259b0b5811784f0ce3a4a10ee0d2148ed281f9b117817b051bcb75237660"
+    },
+    {
+      "id": "repair-linux-fast-build",
+      "digest": "ea6ae57a93a3144d77499f4e9eb76a0eb12a9f6411e759659d90516145ab6a23",
+      "type": "patch",
+      "summary": "Repair local fast builds on Linux with a debug AppImage, retain the macOS debug app bundle, and preserve shared resource preparation without generating updater artifacts. Packaged debug builds use bundled runtime resources and production settings while retaining debug-only service and update policies.",
+      "sourceSha": "7c6a89761168d7002f900b6714952ed201f39ca8",
+      "identity": "repair-linux-fast-build:ea6ae57a93a3144d77499f4e9eb76a0eb12a9f6411e759659d90516145ab6a23"
     }
   ],
   "consumedIntentIds": [
