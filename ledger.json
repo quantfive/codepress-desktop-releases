@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e6b54bd9d9d3dd808830ead1c80442b3d5c77e1c",
+  "cursorSha": "b42a35bbfec13d8ed2e19bda0e5679e7afbc874f",
   "highWaterVersion": "1.516.0",
   "rows": [
     {
@@ -157391,6 +157391,18 @@
       "sourceSha": "e6b54bd9d9d3dd808830ead1c80442b3d5c77e1c",
       "sourcePackageVersion": "1.527.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d6cfbf41893579117e653dfa4488d865ee832a4d",
+      "sourcePackageVersion": "1.528.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "b42a35bbfec13d8ed2e19bda0e5679e7afbc874f",
+      "sourcePackageVersion": "1.528.0",
+      "intentIds": [
+        "device-folders-ride-out-reconnect:0a4b24bf3e08a6a8b17d3abccdbea1e1497e860d972c383d36d235050e7e9933"
+      ]
     }
   ],
   "intents": [
@@ -165985,6 +165997,14 @@
       "summary": "Terminal draws linked websites and default apps (Search & SEO, Redirects,\nAnalytics and the other website tools) itself, with no embedded web page, as\nwell as an App's Analytics address and the preview of a generated App's pull\nrequest. Writing a linked blog's post opens that post's editor on the web in\nyour browser; coming back to Terminal shows what you saved. A linked site on\nCodePress's own domain, which the web shows live, still opens in the embedded\nview, as do repository Apps and agent artifacts.",
       "sourceSha": "47da79cdc2c7059e38f9e8c4d767c8a85852071b",
       "identity": "terminal-linked-builtin-apps:a61ba37673b1b2a465a6977cfdea5bbf4d600eadba7c27b3b4345c269065db2f"
+    },
+    {
+      "id": "device-folders-ride-out-reconnect",
+      "digest": "0a4b24bf3e08a6a8b17d3abccdbea1e1497e860d972c383d36d235050e7e9933",
+      "type": "patch",
+      "summary": "Choosing a project folder on another machine now keeps working through a brief reconnect, and when that machine still can't be reached the picker says it is reconnecting or didn't answer instead of a generic error.",
+      "sourceSha": "b42a35bbfec13d8ed2e19bda0e5679e7afbc874f",
+      "identity": "device-folders-ride-out-reconnect:0a4b24bf3e08a6a8b17d3abccdbea1e1497e860d972c383d36d235050e7e9933"
     }
   ],
   "consumedIntentIds": [
