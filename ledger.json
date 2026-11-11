@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "469d2a9eb82996a7973f4e63d78c207541808a41",
+  "cursorSha": "bf550d5960a2379a7683524b450a19ba188d4d99",
   "highWaterVersion": "1.518.13",
   "rows": [
     {
@@ -160876,6 +160876,16 @@
       "intentIds": [
         "terminal-drop-boot-cloudflared-sweep:490f1324f78ae12c9b98da94334bac2f76a09f82d7a99790d86952b9310db51d"
       ]
+    },
+    {
+      "sourceSha": "374fcf3d7c39faed65dbe4af53ca4624adce75db",
+      "sourcePackageVersion": "1.530.33",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "bf550d5960a2379a7683524b450a19ba188d4d99",
+      "sourcePackageVersion": "1.530.34",
+      "intentIds": []
     }
   ],
   "intents": [
