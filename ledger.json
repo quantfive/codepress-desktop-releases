@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "35ec3c0f012b857469c3cdd598f65021ab1a0323",
+  "cursorSha": "7a42bfb509aa3f66bd55c734cf336e5b942cbfeb",
   "highWaterVersion": "1.518.5",
   "rows": [
     {
@@ -159981,6 +159981,13 @@
       "sourceSha": "35ec3c0f012b857469c3cdd598f65021ab1a0323",
       "sourcePackageVersion": "1.530.18",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7a42bfb509aa3f66bd55c734cf336e5b942cbfeb",
+      "sourcePackageVersion": "1.530.18",
+      "intentIds": [
+        "managed-app-change-preview:bfc516b32586c3639be89a413aecd83c6e33fb5564ecde349fc38687b45f627d"
+      ]
     }
   ],
   "intents": [
@@ -168951,6 +168958,14 @@
       "summary": "A computer running Terminal now accepts an update check or install request from its owner's web or phone session, through the existing remote-control relay, for the Terminal update tools only.",
       "sourceSha": "7a038bc8da98f71dc795341af2f447bffa4618bd",
       "identity": "account-update-grants:45ee1978b5e10b946ea4de1bb52b5628ad421c296a823cb3aef376daa7aff6fe"
+    },
+    {
+      "id": "managed-app-change-preview",
+      "digest": "bfc516b32586c3639be89a413aecd83c6e33fb5564ecde349fc38687b45f627d",
+      "type": "patch",
+      "summary": "A managed App's change preview in Terminal reads live data and refuses writes, as on the web.",
+      "sourceSha": "7a42bfb509aa3f66bd55c734cf336e5b942cbfeb",
+      "identity": "managed-app-change-preview:bfc516b32586c3639be89a413aecd83c6e33fb5564ecde349fc38687b45f627d"
     }
   ],
   "consumedIntentIds": [
