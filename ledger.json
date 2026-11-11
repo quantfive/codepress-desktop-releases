@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b7b4deb377e88f6c99af55fcfbf5597ff029d88b",
+  "cursorSha": "4d13219338dd4d5ab63b31d8e65c25deba0ecfce",
   "highWaterVersion": "1.518.0",
   "rows": [
     {
@@ -159335,6 +159335,11 @@
       "intentIds": [
         "supervisor-respawn-old-daemon-exit:8f503c52f99d863a1fe51ebee8ef6fe41a40362c869fb59e4d5ce7ed06d7368c"
       ]
+    },
+    {
+      "sourceSha": "4d13219338dd4d5ab63b31d8e65c25deba0ecfce",
+      "sourcePackageVersion": "1.530.12",
+      "intentIds": []
     }
   ],
   "intents": [
