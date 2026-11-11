@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0a830e8bc8f80083b99440a4c92100879d663f91",
+  "cursorSha": "469d2a9eb82996a7973f4e63d78c207541808a41",
   "highWaterVersion": "1.518.13",
   "rows": [
     {
@@ -160869,6 +160869,13 @@
       "sourceSha": "0a830e8bc8f80083b99440a4c92100879d663f91",
       "sourcePackageVersion": "1.530.33",
       "intentIds": []
+    },
+    {
+      "sourceSha": "469d2a9eb82996a7973f4e63d78c207541808a41",
+      "sourcePackageVersion": "1.530.33",
+      "intentIds": [
+        "terminal-drop-boot-cloudflared-sweep:490f1324f78ae12c9b98da94334bac2f76a09f82d7a99790d86952b9310db51d"
+      ]
     }
   ],
   "intents": [
@@ -169967,6 +169974,14 @@
       "summary": "Settings → My computers in Terminal is unchanged: the update state and Update buttons added for the web and phone (#22073) are not shown here.",
       "sourceSha": "10e13eb2f71e1daddacaa3984114759e74b58fe4",
       "identity": "my-computers-update-controls:175468eac1b1ae748ffb54be6a9fef8c63b169128e7c7c6e2064e57c03029ad6"
+    },
+    {
+      "id": "terminal-drop-boot-cloudflared-sweep",
+      "digest": "490f1324f78ae12c9b98da94334bac2f76a09f82d7a99790d86952b9310db51d",
+      "type": "patch",
+      "summary": "Terminal no longer runs a machine-wide cloudflared process sweep at startup. That sweep only matched an old checkout layout, so it never found anything in installed builds. Startup still stops a leftover tunnel through its saved process ID.",
+      "sourceSha": "469d2a9eb82996a7973f4e63d78c207541808a41",
+      "identity": "terminal-drop-boot-cloudflared-sweep:490f1324f78ae12c9b98da94334bac2f76a09f82d7a99790d86952b9310db51d"
     }
   ],
   "consumedIntentIds": [
