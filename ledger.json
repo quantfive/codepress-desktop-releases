@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f7358074cf200837708f5ca01015a48a56bcd1b2",
+  "cursorSha": "b14750da12009da8face4278ad0e5a68f40c84e1",
   "highWaterVersion": "1.518.0",
   "rows": [
     {
@@ -159304,6 +159304,13 @@
       "sourceSha": "f7358074cf200837708f5ca01015a48a56bcd1b2",
       "sourcePackageVersion": "1.530.10",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b14750da12009da8face4278ad0e5a68f40c84e1",
+      "sourcePackageVersion": "1.530.10",
+      "intentIds": [
+        "updater-swap-staging-hardening:8aff78547c70f990143f30f5c6df59926d550ce0246a3a28aa301d050b308c82"
+      ]
     }
   ],
   "intents": [
@@ -168202,6 +168209,14 @@
       "summary": "Terminal's local windows no longer hold the process, store and updater plugin permissions or the shell spawn and execute permissions, none of which they used. Opening links and installing updates work as before.",
       "sourceSha": "93925c945e894b22f83a9534f657e5a4d1c9caf8",
       "identity": "terminal-renderer-unused-plugin-grants:815881d6e32a73e2c08a2ab6a228143cf6845348c5dee71438301b77d9e429ce"
+    },
+    {
+      "id": "updater-swap-staging-hardening",
+      "digest": "8aff78547c70f990143f30f5c6df59926d550ce0246a3a28aa301d050b308c82",
+      "type": "patch",
+      "summary": "Updates: when replacing the app needs an administrator password, the installed app is moved aside rather than deleted first, and put back if the new one cannot be moved in, so a failed install no longer leaves the machine without Terminal. Installing a chosen version refuses a malformed version before downloading anything, staging an update no longer holds up other work while another Terminal stages the same version, and on Linux a leftover update download whose process id now belongs to another program is cleaned up.",
+      "sourceSha": "b14750da12009da8face4278ad0e5a68f40c84e1",
+      "identity": "updater-swap-staging-hardening:8aff78547c70f990143f30f5c6df59926d550ce0246a3a28aa301d050b308c82"
     }
   ],
   "consumedIntentIds": [
