@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9ad8640a73a66a9032f55ea9e02cbe7d55393891",
+  "cursorSha": "0da8262ff93e2cae0c365a035d5455e762c64063",
   "highWaterVersion": "1.518.21",
   "rows": [
     {
@@ -161763,6 +161763,13 @@
       "sourceSha": "9ad8640a73a66a9032f55ea9e02cbe7d55393891",
       "sourcePackageVersion": "1.530.42",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0da8262ff93e2cae0c365a035d5455e762c64063",
+      "sourcePackageVersion": "1.530.42",
+      "intentIds": [
+        "desktop-slow-host-retry:a51e3c6eed71b5db67139b29fe9b5d0fbbcd40fb10847139c9c7419ab5d756d7"
+      ]
     }
   ],
   "intents": [
@@ -170949,6 +170956,14 @@
       "summary": "Remote Desktop: each Desktop connect now writes one `[RemoteDesktop] connect timing` line to the Terminal log with the time of each step (status read, start, first frame, total) and whether it went through the native app or the webview, and the viewer's Copy stats shows its own status, ticket, handshake and first-frame times. The status-read, socket-closed and session-end lines now reach the log file too.",
       "sourceSha": "6b8f2544ac2c28b2fbf8bb16ffa566cc8a4b7bc7",
       "identity": "connect-timing-log:ee766b9b440586a1c0e98bfca49b485bcb5ed4dc40714b392bb120a33d811a4a"
+    },
+    {
+      "id": "desktop-slow-host-retry",
+      "digest": "a51e3c6eed71b5db67139b29fe9b5d0fbbcd40fb10847139c9c7419ab5d756d7",
+      "type": "patch",
+      "summary": "Desktop viewer: when you connect to a machine that is slow to answer, the viewer no longer stops at \"The machine didn't answer… then refresh\". It keeps checking every few seconds for up to 30 seconds and connects as soon as the machine answers, showing \"Waiting for {machine} to answer…\" with an attempt count and a Stop trying button. While connecting, the panel now says which step it is on: checking the machine, starting the screen, or waiting for the picture.",
+      "sourceSha": "0da8262ff93e2cae0c365a035d5455e762c64063",
+      "identity": "desktop-slow-host-retry:a51e3c6eed71b5db67139b29fe9b5d0fbbcd40fb10847139c9c7419ab5d756d7"
     }
   ],
   "consumedIntentIds": [
