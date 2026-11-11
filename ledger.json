@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d26998e29f987c8d0bed7f85b87ee46af4aa595e",
+  "cursorSha": "10e13eb2f71e1daddacaa3984114759e74b58fe4",
   "highWaterVersion": "1.518.13",
   "rows": [
     {
@@ -160857,6 +160857,13 @@
       "sourceSha": "d26998e29f987c8d0bed7f85b87ee46af4aa595e",
       "sourcePackageVersion": "1.530.32",
       "intentIds": []
+    },
+    {
+      "sourceSha": "10e13eb2f71e1daddacaa3984114759e74b58fe4",
+      "sourcePackageVersion": "1.530.32",
+      "intentIds": [
+        "my-computers-update-controls:175468eac1b1ae748ffb54be6a9fef8c63b169128e7c7c6e2064e57c03029ad6"
+      ]
     }
   ],
   "intents": [
@@ -169947,6 +169954,14 @@
       "summary": "Internal: removed unused icon sets (Android, iOS, design concepts and Windows Store logos), the unused build/entitlements.mac.plist, the tracked build/icon.iconset copy that the release scripts regenerate, and two unreferenced scripts. The app bundle icons are unchanged.",
       "sourceSha": "2083105333e57b5d7d786ae8b1016ae6f8f1b6a2",
       "identity": "terminal-remove-unused-assets:4d843a51ab7310163e0f33780a44341e91a3581680564a42f85e9f9fd909ef5a"
+    },
+    {
+      "id": "my-computers-update-controls",
+      "digest": "175468eac1b1ae748ffb54be6a9fef8c63b169128e7c7c6e2064e57c03029ad6",
+      "type": "patch",
+      "summary": "Settings → My computers in Terminal is unchanged: the update state and Update buttons added for the web and phone (#22073) are not shown here.",
+      "sourceSha": "10e13eb2f71e1daddacaa3984114759e74b58fe4",
+      "identity": "my-computers-update-controls:175468eac1b1ae748ffb54be6a9fef8c63b169128e7c7c6e2064e57c03029ad6"
     }
   ],
   "consumedIntentIds": [
