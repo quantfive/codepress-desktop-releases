@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a6a120437dfdd41a6f5113317337df77cd844c5b",
+  "cursorSha": "f588bf05057241c77aef866672a8b1935fe9575c",
   "highWaterVersion": "1.518.12",
   "rows": [
     {
@@ -160735,6 +160735,13 @@
       "sourceSha": "a6a120437dfdd41a6f5113317337df77cd844c5b",
       "sourcePackageVersion": "1.530.29",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f588bf05057241c77aef866672a8b1935fe9575c",
+      "sourcePackageVersion": "1.530.29",
+      "intentIds": [
+        "retire-agent-settings-live-spec:54940d1539000ac2c89cd7b484fbd1461ec7a7a55fb8c9456ebec6f226f323e3"
+      ]
     }
   ],
   "intents": [
@@ -169793,6 +169800,14 @@
       "summary": "Terminal's sidebar, tab and workflow lists now use the one shared drag-to-reorder list from the UI package instead of a separate copy. Dragging behaves as before.",
       "sourceSha": "42e824ae39269cec9c16d3967d9d78a41240088a",
       "identity": "terminal-shared-sortable-list:237c4a46e6b697dd57c72504ddc3ec891bb8c30f4b53dc90557af2f6630bd5ff"
+    },
+    {
+      "id": "retire-agent-settings-live-spec",
+      "digest": "54940d1539000ac2c89cd7b484fbd1461ec7a7a55fb8c9456ebec6f226f323e3",
+      "type": "patch",
+      "summary": "Test tooling only: the retired `agent-settings-live` Playwright spec (every case skipped since #18499) and its config are deleted, and Terminal's e2e selector no longer lists it. No change to the app.",
+      "sourceSha": "f588bf05057241c77aef866672a8b1935fe9575c",
+      "identity": "retire-agent-settings-live-spec:54940d1539000ac2c89cd7b484fbd1461ec7a7a55fb8c9456ebec6f226f323e3"
     }
   ],
   "consumedIntentIds": [
