@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a6e3f7d1ce18781943427e100c5a3ffa3568ae09",
+  "cursorSha": "177acd71c1edd951a669f2b5a52659978120c33d",
   "highWaterVersion": "1.518.9",
   "rows": [
     {
@@ -160404,6 +160404,13 @@
       "sourceSha": "a6e3f7d1ce18781943427e100c5a3ffa3568ae09",
       "sourcePackageVersion": "1.530.23",
       "intentIds": []
+    },
+    {
+      "sourceSha": "177acd71c1edd951a669f2b5a52659978120c33d",
+      "sourcePackageVersion": "1.530.23",
+      "intentIds": [
+        "terminal-session-saved-worktree-copy:c3c276e1269d86840d9b75775716f2ca27168c2ad15ca1f29cd46c103f27f203"
+      ]
     }
   ],
   "intents": [
@@ -169414,6 +169421,14 @@
       "summary": "Signed-out windows always have the side nav and open on the sign-in screen. Terminal stays one press away (\"Use Terminal without signing in\", or the rail), and a window where you chose Terminal keeps opening there. The Unified view switch is now in This computer → General while signed out, so you can turn the classic layout on or back off without an account.",
       "sourceSha": "0e3dc5f0639778c73b0a82d3d22233dca603f25d",
       "identity": "signed-out-side-nav-sign-in:b6880eb378ae0d16e7b869bba2577abb7a8e636cae91dd2ed317795024e4fff6"
+    },
+    {
+      "id": "terminal-session-saved-worktree-copy",
+      "digest": "c3c276e1269d86840d9b75775716f2ca27168c2ad15ca1f29cd46c103f27f203",
+      "type": "patch",
+      "summary": "Idle Orchestrator session folders are reclaimed through the shared saved-worktree module; the old session-only copy is removed.",
+      "sourceSha": "177acd71c1edd951a669f2b5a52659978120c33d",
+      "identity": "terminal-session-saved-worktree-copy:c3c276e1269d86840d9b75775716f2ca27168c2ad15ca1f29cd46c103f27f203"
     }
   ],
   "consumedIntentIds": [
