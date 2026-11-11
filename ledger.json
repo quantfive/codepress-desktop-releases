@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "dd91a8a6b9aac9b111779403b77d2c7c77348340",
+  "cursorSha": "43d376b9ef60952000bf4b20ab7bbb3290e22e3e",
   "highWaterVersion": "1.518.14",
   "rows": [
     {
@@ -160965,6 +160965,13 @@
       "sourceSha": "dd91a8a6b9aac9b111779403b77d2c7c77348340",
       "sourcePackageVersion": "1.530.34",
       "intentIds": []
+    },
+    {
+      "sourceSha": "43d376b9ef60952000bf4b20ab7bbb3290e22e3e",
+      "sourcePackageVersion": "1.530.34",
+      "intentIds": [
+        "ui-dead-exports-closure:12b82fa38b769a5b73dc2d3c4c797cd16366fd07837952ce09caca3bb810d9b6"
+      ]
     }
   ],
   "intents": [
@@ -170071,6 +170078,14 @@
       "summary": "Terminal no longer runs a machine-wide cloudflared process sweep at startup. That sweep only matched an old checkout layout, so it never found anything in installed builds. Startup still stops a leftover tunnel through its saved process ID.",
       "sourceSha": "469d2a9eb82996a7973f4e63d78c207541808a41",
       "identity": "terminal-drop-boot-cloudflared-sweep:490f1324f78ae12c9b98da94334bac2f76a09f82d7a99790d86952b9310db51d"
+    },
+    {
+      "id": "ui-dead-exports-closure",
+      "digest": "12b82fa38b769a5b73dc2d3c4c797cd16366fd07837952ce09caca3bb810d9b6",
+      "type": "patch",
+      "summary": "Remove unused shared UI code from packages/ui (the retired slim project rail, unused exports and export-map entries, and a duplicate relative-time helper). Terminal looks and behaves the same; only its build's list of shared UI source files changes.",
+      "sourceSha": "43d376b9ef60952000bf4b20ab7bbb3290e22e3e",
+      "identity": "ui-dead-exports-closure:12b82fa38b769a5b73dc2d3c4c797cd16366fd07837952ce09caca3bb810d9b6"
     }
   ],
   "consumedIntentIds": [
