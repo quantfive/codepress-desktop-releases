@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "32d2a082da1ed31fc1fa71789f7ea82eee3c3865",
+  "cursorSha": "05e33fdb631fa82b10611c11a0cfe550ed9de703",
   "highWaterVersion": "1.518.12",
   "rows": [
     {
@@ -160747,6 +160747,13 @@
       "sourceSha": "32d2a082da1ed31fc1fa71789f7ea82eee3c3865",
       "sourcePackageVersion": "1.530.30",
       "intentIds": []
+    },
+    {
+      "sourceSha": "05e33fdb631fa82b10611c11a0cfe550ed9de703",
+      "sourcePackageVersion": "1.530.30",
+      "intentIds": [
+        "branch-previews-tab:319f37b5f90c6d1bf916b324ce9eb67bc07a020dcce239f518df53eacd12a4a2"
+      ]
     }
   ],
   "intents": [
@@ -169813,6 +169820,14 @@
       "summary": "Test tooling only: the retired `agent-settings-live` Playwright spec (every case skipped since #18499) and its config are deleted, and Terminal's e2e selector no longer lists it. No change to the app.",
       "sourceSha": "f588bf05057241c77aef866672a8b1935fe9575c",
       "identity": "retire-agent-settings-live-spec:54940d1539000ac2c89cd7b484fbd1461ec7a7a55fb8c9456ebec6f226f323e3"
+    },
+    {
+      "id": "branch-previews-tab",
+      "digest": "319f37b5f90c6d1bf916b324ce9eb67bc07a020dcce239f518df53eacd12a4a2",
+      "type": "patch",
+      "summary": "Manage hosting in Terminal's shell has a Previews tab for a site with source builds on. Turn on a preview link for every pushed branch, choose whether only your team or anyone with the link can open them, and copy, open or delete each branch's link. A failed branch build shows its error and its build logs.",
+      "sourceSha": "05e33fdb631fa82b10611c11a0cfe550ed9de703",
+      "identity": "branch-previews-tab:319f37b5f90c6d1bf916b324ce9eb67bc07a020dcce239f518df53eacd12a4a2"
     }
   ],
   "consumedIntentIds": [
