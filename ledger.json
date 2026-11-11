@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e56c3ae2600898ed4d665f42e51e50cebda84f95",
+  "cursorSha": "b7b4deb377e88f6c99af55fcfbf5597ff029d88b",
   "highWaterVersion": "1.518.0",
   "rows": [
     {
@@ -159328,6 +159328,13 @@
       "intentIds": [
         "remote-visibility-chip:7b815486f343397247e37392f4b45472052f7c57c18f4c3cc088b6215dd85e1b"
       ]
+    },
+    {
+      "sourceSha": "b7b4deb377e88f6c99af55fcfbf5597ff029d88b",
+      "sourcePackageVersion": "1.530.11",
+      "intentIds": [
+        "supervisor-respawn-old-daemon-exit:8f503c52f99d863a1fe51ebee8ef6fe41a40362c869fb59e4d5ce7ed06d7368c"
+      ]
     }
   ],
   "intents": [
@@ -168242,6 +168249,14 @@
       "summary": "New project and Chat: the Team/Personal chip now also shows when Runs on is another of your machines, and the chat or project starts there with what you picked. Machines whose CodePress app is too old to keep it look and work as before.",
       "sourceSha": "e56c3ae2600898ed4d665f42e51e50cebda84f95",
       "identity": "remote-visibility-chip:7b815486f343397247e37392f4b45472052f7c57c18f4c3cc088b6215dd85e1b"
+    },
+    {
+      "id": "supervisor-respawn-old-daemon-exit",
+      "digest": "8f503c52f99d863a1fe51ebee8ef6fe41a40362c869fb59e4d5ce7ed06d7368c",
+      "type": "patch",
+      "summary": "Daemon recovery: when Terminal replaces a daemon that still answers, it now waits for that daemon to finish its own cleanup (previews, runners, the Orchestrator host) before force-stopping it, and a daemon adopted from an earlier run is stopped instead of being left running beside its replacement. An adopted daemon is stopped only once Terminal has confirmed it is this window's daemon. Its health endpoint can confirm that; when it does not answer, its command line, the window and data folder it was started for, and a start time no later than its pid file confirm it instead. A wedged daemon is still stopped at once.",
+      "sourceSha": "b7b4deb377e88f6c99af55fcfbf5597ff029d88b",
+      "identity": "supervisor-respawn-old-daemon-exit:8f503c52f99d863a1fe51ebee8ef6fe41a40362c869fb59e4d5ce7ed06d7368c"
     }
   ],
   "consumedIntentIds": [
