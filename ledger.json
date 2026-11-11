@@ -87328,10 +87328,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43109850860",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-12T22:13:18.583Z",
         "dispatch": null,
         "failures": []
       }
