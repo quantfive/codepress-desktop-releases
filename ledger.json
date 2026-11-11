@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d2ad7a426c5a05e71c3413df3a66314c2f6e4973",
+  "cursorSha": "d57230c9527438713bdb764cf408a676f9c4b0e9",
   "highWaterVersion": "1.518.18",
   "rows": [
     {
@@ -161435,6 +161435,13 @@
       "sourceSha": "d2ad7a426c5a05e71c3413df3a66314c2f6e4973",
       "sourcePackageVersion": "1.530.38",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d57230c9527438713bdb764cf408a676f9c4b0e9",
+      "sourcePackageVersion": "1.530.38",
+      "intentIds": [
+        "readable-managed-settings:877601a59639aa0ac3263a6afedeaa96f9dfdd7a579a02bd479bf7a467d53bd5"
+      ]
     }
   ],
   "intents": [
@@ -170589,6 +170596,14 @@
       "summary": "Keep the main window's traffic lights centred in the title bar on macOS 26 and later. They no longer jump to the top edge after the window redraws.",
       "sourceSha": "7964a1a8f99404b9640d97e453ae6029815d6f56",
       "identity": "main-window-traffic-lights-no-inset:9d782d8b0599f421141687e7243770853c91c51b61e2b90e85ca99426841b71d"
+    },
+    {
+      "id": "readable-managed-settings",
+      "digest": "877601a59639aa0ac3263a6afedeaa96f9dfdd7a579a02bd479bf7a467d53bd5",
+      "type": "patch",
+      "summary": "Managed automation settings show readable labels and fitting controls, and the repository policy shows the organization values it inherits.",
+      "sourceSha": "d57230c9527438713bdb764cf408a676f9c4b0e9",
+      "identity": "readable-managed-settings:877601a59639aa0ac3263a6afedeaa96f9dfdd7a579a02bd479bf7a467d53bd5"
     }
   ],
   "consumedIntentIds": [
