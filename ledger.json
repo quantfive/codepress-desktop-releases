@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "581e23e5bd2209a374ea4f40a3287de429c19db0",
+  "cursorSha": "c6b9cb78c51ca927117cd0b0ed9908b67863b8c0",
   "highWaterVersion": "1.518.11",
   "rows": [
     {
@@ -160608,6 +160608,11 @@
       "intentIds": [
         "prune-saved-worktree-type-baseline:1a89c9528f928bf4974e35b55b78b06c14270d6b8f4d408a59582c986c299390"
       ]
+    },
+    {
+      "sourceSha": "c6b9cb78c51ca927117cd0b0ed9908b67863b8c0",
+      "sourcePackageVersion": "1.530.27",
+      "intentIds": []
     }
   ],
   "intents": [
