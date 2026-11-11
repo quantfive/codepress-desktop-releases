@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "28f6d01de9789bcfaaa2dd7194cd1757e01b792a",
+  "cursorSha": "2083105333e57b5d7d786ae8b1016ae6f8f1b6a2",
   "highWaterVersion": "1.518.12",
   "rows": [
     {
@@ -160766,6 +160766,18 @@
       "intentIds": [
         "terminal-dead-context-menu-and-exports:3fd7f66cb9ba38cb09619a79cf9c7931544c40735754241a8f68caff39da849e"
       ]
+    },
+    {
+      "sourceSha": "77c4b05ac4ae924f549b10cede209bfb779baac2",
+      "sourcePackageVersion": "1.530.31",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "2083105333e57b5d7d786ae8b1016ae6f8f1b6a2",
+      "sourcePackageVersion": "1.530.31",
+      "intentIds": [
+        "terminal-remove-unused-assets:4d843a51ab7310163e0f33780a44341e91a3581680564a42f85e9f9fd909ef5a"
+      ]
     }
   ],
   "intents": [
@@ -169848,6 +169860,14 @@
       "summary": "Remove unused Terminal UI code: the duplicate terminal context menu component, three hooks and an OAuth helper nothing imported, and about thirty exports with no caller. The right-click Copy action in the terminal keeps its test. No behaviour changes.",
       "sourceSha": "28f6d01de9789bcfaaa2dd7194cd1757e01b792a",
       "identity": "terminal-dead-context-menu-and-exports:3fd7f66cb9ba38cb09619a79cf9c7931544c40735754241a8f68caff39da849e"
+    },
+    {
+      "id": "terminal-remove-unused-assets",
+      "digest": "4d843a51ab7310163e0f33780a44341e91a3581680564a42f85e9f9fd909ef5a",
+      "type": "patch",
+      "summary": "Internal: removed unused icon sets (Android, iOS, design concepts and Windows Store logos), the unused build/entitlements.mac.plist, the tracked build/icon.iconset copy that the release scripts regenerate, and two unreferenced scripts. The app bundle icons are unchanged.",
+      "sourceSha": "2083105333e57b5d7d786ae8b1016ae6f8f1b6a2",
+      "identity": "terminal-remove-unused-assets:4d843a51ab7310163e0f33780a44341e91a3581680564a42f85e9f9fd909ef5a"
     }
   ],
   "consumedIntentIds": [
