@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "8715d36f889ec56c7310a2775a212421d3347152",
-  "highWaterVersion": "1.518.7",
+  "highWaterVersion": "1.518.8",
   "rows": [
     {
       "schemaVersion": 1,
@@ -86338,6 +86338,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:8715d36f889ec56c7310a2775a212421d3347152",
+      "kind": "main",
+      "sequence": 2254,
+      "sourceSha": "8715d36f889ec56c7310a2775a212421d3347152",
+      "sourcePackageVersion": "1.530.21",
+      "version": "1.518.8",
+      "publicationDate": "2026-11-11T10:45:25.155Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-dead-browser-authority-core:c091b1ef411e0ba0b3f7c46ea8d365835ad5e82571ef116292a61bf2408c7163"
+        ],
+        "notesIntentIds": [
+          "terminal-dead-browser-authority-core:c091b1ef411e0ba0b3f7c46ea8d365835ad5e82571ef116292a61bf2408c7163"
+        ],
+        "throughSourceSha": "8715d36f889ec56c7310a2775a212421d3347152",
+        "previousThroughSourceSha": "a266706f0d1400f83627932945caa3073e51c20b",
+        "baselineVersion": "1.518.7",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43006180100",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-12T10:45:17.866Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -170354,7 +170397,8 @@
     "account-update-grants:45ee1978b5e10b946ea4de1bb52b5628ad421c296a823cb3aef376daa7aff6fe",
     "managed-app-change-preview:bfc516b32586c3639be89a413aecd83c6e33fb5564ecde349fc38687b45f627d",
     "sync-flags-one-answer-per-machine:1cd082cb2e5deec956977a0e6c44ebf715f90417d39b607e0b196744d52e24f8",
-    "terminal-dead-native-commands:efbc3b5081d861945e7e860e2ec77cb3e72e686f9f9295a7b98e1157181c98df"
+    "terminal-dead-native-commands:efbc3b5081d861945e7e860e2ec77cb3e72e686f9f9295a7b98e1157181c98df",
+    "terminal-dead-browser-authority-core:c091b1ef411e0ba0b3f7c46ea8d365835ad5e82571ef116292a61bf2408c7163"
   ],
-  "consumedThroughSha": "a266706f0d1400f83627932945caa3073e51c20b"
+  "consumedThroughSha": "8715d36f889ec56c7310a2775a212421d3347152"
 }
