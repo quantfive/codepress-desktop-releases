@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "dbf5538cdaecc397bdc481c1fe0dc70d8e49b5f0",
+  "cursorSha": "858803fdb51afbc6a3241f4935e7fe71f1859cbd",
   "highWaterVersion": "1.518.9",
   "rows": [
     {
@@ -160421,6 +160421,13 @@
       "sourceSha": "dbf5538cdaecc397bdc481c1fe0dc70d8e49b5f0",
       "sourcePackageVersion": "1.530.24",
       "intentIds": []
+    },
+    {
+      "sourceSha": "858803fdb51afbc6a3241f4935e7fe71f1859cbd",
+      "sourcePackageVersion": "1.530.24",
+      "intentIds": [
+        "evals-plain-language-setup:6d1f73054030784f7f78a1692355ec440af7d6129ddd0e450dc392604bfb745a"
+      ]
     }
   ],
   "intents": [
@@ -169439,6 +169446,14 @@
       "summary": "Idle Orchestrator session folders are reclaimed through the shared saved-worktree module; the old session-only copy is removed.",
       "sourceSha": "177acd71c1edd951a669f2b5a52659978120c33d",
       "identity": "terminal-session-saved-worktree-copy:c3c276e1269d86840d9b75775716f2ca27168c2ad15ca1f29cd46c103f27f203"
+    },
+    {
+      "id": "evals-plain-language-setup",
+      "digest": "6d1f73054030784f7f78a1692355ec440af7d6129ddd0e450dc392604bfb745a",
+      "type": "patch",
+      "summary": "Evals in Terminal's shell now set up an eval in plain words. The new-eval form offers four kinds of target (agent or skill, CodePress automation, your code, HTTP endpoint), and a kind the server cannot run says why. The suite's Review tab is now Setup and explains what runs, what each case gets and what counts as right. Runs of an automation, command or endpoint take a version, branch or base URL.",
+      "sourceSha": "858803fdb51afbc6a3241f4935e7fe71f1859cbd",
+      "identity": "evals-plain-language-setup:6d1f73054030784f7f78a1692355ec440af7d6129ddd0e450dc392604bfb745a"
     }
   ],
   "consumedIntentIds": [
