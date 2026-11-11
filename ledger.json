@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "45384d4d0b1565d5e237657412171b53384c7501",
-  "highWaterVersion": "1.518.0",
+  "highWaterVersion": "1.518.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -85897,6 +85897,99 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:45384d4d0b1565d5e237657412171b53384c7501",
+      "kind": "main",
+      "sequence": 2247,
+      "sourceSha": "45384d4d0b1565d5e237657412171b53384c7501",
+      "sourcePackageVersion": "1.530.12",
+      "version": "1.518.1",
+      "publicationDate": "2026-11-11T06:44:36.508Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-renderer-unused-plugin-grants:815881d6e32a73e2c08a2ab6a228143cf6845348c5dee71438301b77d9e429ce",
+          "updater-swap-staging-hardening:8aff78547c70f990143f30f5c6df59926d550ce0246a3a28aa301d050b308c82",
+          "remote-visibility-chip:7b815486f343397247e37392f4b45472052f7c57c18f4c3cc088b6215dd85e1b",
+          "supervisor-respawn-old-daemon-exit:8f503c52f99d863a1fe51ebee8ef6fe41a40362c869fb59e4d5ce7ed06d7368c"
+        ],
+        "notesIntentIds": [
+          "reproducible-linux-appimage:53fc7342209e0001994d639ce4397bb24e7ac25d7b6c63e135d5120bb5543267",
+          "verified-local-runner-dependencies:e119070ac37efa33c11aef57bf0c3232a0865e7bf0d8684ba8e009b5b45c810d",
+          "headless-broker-startup-wait:35872d0fed94aaac82cae26f9214cea7ad804145fa86044aa2491e6b9499d8f4",
+          "terminal-native-app-page:a6de55686dcfd0909349750dd2383b23f500e3215b8f421ce9bb5771592eb5bb",
+          "server-cli-update-keeps-approval:3f1456ddd183b9058a3126cf5d36b8af1c8b2cd23950d79ad8cebb82f6eb393f",
+          "router-folders-fast-truthful:a04f41678bf37567797c2f2eccdd85b9729f0f66caa92660b3ca9f3d120fa5f5",
+          "terminal-linked-builtin-apps:a61ba37673b1b2a465a6977cfdea5bbf4d600eadba7c27b3b4345c269065db2f",
+          "device-folders-ride-out-reconnect:0a4b24bf3e08a6a8b17d3abccdbea1e1497e860d972c383d36d235050e7e9933",
+          "desktop-save-feedback:791881de7a618767385c547f460bf539ae67a57ea15e695c4e603e37e50313bc",
+          "agent-message-dedupe:06441adc0633d35be4c736b11639a801ae0833777505872d70ba40ac6048faa5",
+          "terminal-native-repo-apps-artifacts:731a700327adb87d971d0efe8eaac48d2649828b89c3b77cede17e6d610a86fa",
+          "orchestrator-clear-reports-problems-seen:da33d589cb9c252af5ee9df0450fa209332be39ec15a98ac81f216ace81a3cf8",
+          "automation-review-and-vouch:1a0296c9409fbf8d8efe51b7de43066746fcf7e315ed2d5a4acfb03c47288ae3",
+          "orchestrator-flag-off-gates:94a0c616ee88010b59dbf9c394cd323f0dbdc9a5c22bb488a7cb1513cf760844",
+          "device-channel-handover:5ecc4d4cac62ee103f85675dc7fa0d1f9e82f857cd9759e919643fdc691dd37b",
+          "orchestrator-narrow-snapshot-reads:4d1e7fce75540882b5162bbd44521e297ab57b458b4aeebf7062ddd055e2ab72",
+          "app-chat-streams-live:f6a33acc7f8e54b23c5940d74f2e787068c26be0de24f12546062c1128b3c0fc",
+          "allow-lost-after-stop:849199d795bf79ba3d34680c09066ec2269fad14db48320fcfaf23ac7131f59c",
+          "terminal-add-from-repository:5ece2af37e0fe6faa1e88953dfba654544070be9a7259d326bd0120d26547ad0",
+          "new-app-lands-on-app-page:10c9bf68e04da85a6bc0a56efd57b112020ec914576b0bf16c09c82598e6575b",
+          "compact-pm-project-snapshot:7f1476392c0f2bfae7ac47c17a61645ec097afa1e6b4fcb3c8244a55602b5664",
+          "cli-download-progress:cd7c43038226759017a16014e4a7896b11ce071d0b0fcd7000d13d72b65181a9",
+          "mention-chats-and-projects:01a8612402b777bc79bba489242461b83052eafa2563b22c37960926a1be271b",
+          "claude-refusal-notice:f5d0ddd759ed736e790388bf318aaa73e7970d5e1dffc78d4b2dc07fb393d82f",
+          "mention-cloud-chats:f1c9aee75272a44d97f040b52051fc1bfeed6aff8d11887fb2f73f6f06263e96",
+          "mention-menu-clip:73c8a430e7cf33558b8793dd6482819582ec6690686700f1158863638c2acc73",
+          "github-credential-launch-refusal:f4a7a5e507883e5b2ed87275aecb880ae664f52e4f5ad1777dfe49bd103b2c07",
+          "gemini-colour-spark:1241188c6df6ffa033da0c1b92b9b77947f535e6b9efa42ded477efa229a24e3",
+          "terminal-unified-window-card:33cc0f8e5dd651840ec15bafd9adf1702dfa713bb5744d7db7753b521493e7fa",
+          "app-plan-card-in-chat:6f39fa60f765fe69c074f81f2305502533fa94dc484d533b03011b0b52577aa2",
+          "terminal-macos-26-sdk:c95da48573df47970933b61f1fddc741f148c1fcdbbd57a4fef6eca4178349f1",
+          "talk-from-the-web-terminal:3f27fdc70180d1ef7da28f0794d7d9577c948136ccf2c4591874b853be5bb450",
+          "web-dictation-shared-helpers:ec20d94fe75377789c076c9e5a6ca7d048a24286cb15c36b5ad60d826ff529e7",
+          "automation-needs-fixed-ip:e0e064d86bfaaddc93e7e7c445a68f56554c027f6f425a58f6ff64627041ad93",
+          "terminal-build-speed-hint:37bc42fcd298500a3e5834aef43f82608c9f75a3ce0fcacea16fc202b49f2f5a",
+          "intel-spawn-helper-executable:308788eda74886006b527a71f82a4fb7c469a3ba2273474f940c18b0f5018766",
+          "terminal-light-handoff-preview:12d75b28b041297dae9dfcddcd30ab9fcdeeabe9ebdcf948424f1725381ab9f1",
+          "handoff-picker-never-blocks:c2fc480670ea514467c0a39ec8d658a503d497ae515807f9e75ea5795627a5c4",
+          "handoff-move-efficiency:6dde30f74e04ee9cd8e48c75928f031c7848d87e695c5210d3a4817ae2d7df80",
+          "handoff-steady-states:c0bc3bea9c2ab58afe9f90437c42c785f6933e2e05da1186c08005fb8d83adf8",
+          "daemon-startup-fails-fast:179c9e26ea1b7b26613e3de908ff6887b299efbb90b2a76a316f0ec427ba2c91",
+          "fleet-admission-stop-async-remote:120c18d4ce573f4e5020f83f587e04f27fcc64e046cf4e3c9eb681c599812a39",
+          "terminal-verified-node-download:fc7f75c4a653ff46adec77f69127e6bee6ce3ce6af3b1a76d9b6ffefc6968cc9",
+          "renderer-storage-keys-one-source:d240a6113fb676c33f46ca9037736addd69bf7cae2bccb2c76a12b9e2b2a8e11",
+          "terminal-renderer-unused-plugin-grants:815881d6e32a73e2c08a2ab6a228143cf6845348c5dee71438301b77d9e429ce",
+          "updater-swap-staging-hardening:8aff78547c70f990143f30f5c6df59926d550ce0246a3a28aa301d050b308c82",
+          "remote-visibility-chip:7b815486f343397247e37392f4b45472052f7c57c18f4c3cc088b6215dd85e1b",
+          "supervisor-respawn-old-daemon-exit:8f503c52f99d863a1fe51ebee8ef6fe41a40362c869fb59e4d5ce7ed06d7368c"
+        ],
+        "throughSourceSha": "45384d4d0b1565d5e237657412171b53384c7501",
+        "previousThroughSourceSha": "810de796c8b3e0ccd4fc46b323cc6811758fda38",
+        "baselineVersion": "1.518.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42974492601",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-12T06:44:30.006Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -169410,7 +169503,11 @@
     "daemon-startup-fails-fast:179c9e26ea1b7b26613e3de908ff6887b299efbb90b2a76a316f0ec427ba2c91",
     "fleet-admission-stop-async-remote:120c18d4ce573f4e5020f83f587e04f27fcc64e046cf4e3c9eb681c599812a39",
     "terminal-verified-node-download:fc7f75c4a653ff46adec77f69127e6bee6ce3ce6af3b1a76d9b6ffefc6968cc9",
-    "renderer-storage-keys-one-source:d240a6113fb676c33f46ca9037736addd69bf7cae2bccb2c76a12b9e2b2a8e11"
+    "renderer-storage-keys-one-source:d240a6113fb676c33f46ca9037736addd69bf7cae2bccb2c76a12b9e2b2a8e11",
+    "terminal-renderer-unused-plugin-grants:815881d6e32a73e2c08a2ab6a228143cf6845348c5dee71438301b77d9e429ce",
+    "updater-swap-staging-hardening:8aff78547c70f990143f30f5c6df59926d550ce0246a3a28aa301d050b308c82",
+    "remote-visibility-chip:7b815486f343397247e37392f4b45472052f7c57c18f4c3cc088b6215dd85e1b",
+    "supervisor-respawn-old-daemon-exit:8f503c52f99d863a1fe51ebee8ef6fe41a40362c869fb59e4d5ce7ed06d7368c"
   ],
-  "consumedThroughSha": "810de796c8b3e0ccd4fc46b323cc6811758fda38"
+  "consumedThroughSha": "45384d4d0b1565d5e237657412171b53384c7501"
 }
