@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c5c45abc73641c0758285de7b28ffdd2d2235654",
+  "cursorSha": "98d5f026fa8b3c696ecec59b54f2494d4cb26b30",
   "highWaterVersion": "1.518.17",
   "rows": [
     {
@@ -161339,6 +161339,23 @@
       "intentIds": [
         "title-row-spacing:69c38c5996f0227c143da77a493933d327223810bb391cc6f54db473a171e6d9"
       ]
+    },
+    {
+      "sourceSha": "7964a1a8f99404b9640d97e453ae6029815d6f56",
+      "sourcePackageVersion": "1.530.37",
+      "intentIds": [
+        "main-window-traffic-lights-no-inset:9d782d8b0599f421141687e7243770853c91c51b61e2b90e85ca99426841b71d"
+      ]
+    },
+    {
+      "sourceSha": "d3e88c8d5286fdb8eb2230954ed9e9aa67e3c1e4",
+      "sourcePackageVersion": "1.530.38",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "98d5f026fa8b3c696ecec59b54f2494d4cb26b30",
+      "sourcePackageVersion": "1.530.38",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -170485,6 +170502,14 @@
       "summary": "The desktop title bar's first item now starts 16px clear of the macOS window controls, and the whole row (title, tabs, chips, search, update pill) centres on the same line as the controls.",
       "sourceSha": "c5c45abc73641c0758285de7b28ffdd2d2235654",
       "identity": "title-row-spacing:69c38c5996f0227c143da77a493933d327223810bb391cc6f54db473a171e6d9"
+    },
+    {
+      "id": "main-window-traffic-lights-no-inset",
+      "digest": "9d782d8b0599f421141687e7243770853c91c51b61e2b90e85ca99426841b71d",
+      "type": "patch",
+      "summary": "Keep the main window's traffic lights centred in the title bar on macOS 26 and later. They no longer jump to the top edge after the window redraws.",
+      "sourceSha": "7964a1a8f99404b9640d97e453ae6029815d6f56",
+      "identity": "main-window-traffic-lights-no-inset:9d782d8b0599f421141687e7243770853c91c51b61e2b90e85ca99426841b71d"
     }
   ],
   "consumedIntentIds": [
