@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "03dea052452f3eb3d0c37faa3c95cb221d8f738a",
+  "cursorSha": "9696c7f709b7de418df8460a7b507f6a826df67e",
   "highWaterVersion": "1.519.1",
   "rows": [
     {
@@ -162119,6 +162119,18 @@
       "sourceSha": "03dea052452f3eb3d0c37faa3c95cb221d8f738a",
       "sourcePackageVersion": "1.531.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e09b04cf4713ad31bab38ceeb11936207972379b",
+      "sourcePackageVersion": "1.531.2",
+      "intentIds": [
+        "native-start-unlocked:4ca6bdf093c3ea2e57f17e6c558e29821f77f074d370671fa19e6e2a78997039"
+      ]
+    },
+    {
+      "sourceSha": "9696c7f709b7de418df8460a7b507f6a826df67e",
+      "sourcePackageVersion": "1.531.2",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -171353,6 +171365,14 @@
       "summary": "The composer's lock button is gone from the toolbar: Add a secret is now in the + menu, right after Attach file.",
       "sourceSha": "7ee4485cc70d7188e884e4b1c71b1a7c837455c3",
       "identity": "composer-add-secret-in-plus-menu:d047d4303c82935e46a2b4a989ae7a33af0e1e6af6e7304b5c0e5a1fa95a8f16"
+    },
+    {
+      "id": "native-start-unlocked",
+      "digest": "4ca6bdf093c3ea2e57f17e6c558e29821f77f074d370671fa19e6e2a78997039",
+      "type": "patch",
+      "summary": "Opening a machine's screen while it is unlocked now starts capture in the native app instead of waiting on the app's window, which macOS can slow down for up to 10 seconds when it is minimized or in the background. Live resizing works on these sessions, and a start that sends no picture within 4 seconds, or an older app, falls back to the previous start.",
+      "sourceSha": "e09b04cf4713ad31bab38ceeb11936207972379b",
+      "identity": "native-start-unlocked:4ca6bdf093c3ea2e57f17e6c558e29821f77f074d370671fa19e6e2a78997039"
     }
   ],
   "consumedIntentIds": [
