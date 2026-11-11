@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5911a38fadb81bfb9705f0b28c7e9f14de12457a",
+  "cursorSha": "8da3dff3e228ef8934f7e755a893d9c6f4cceeaf",
   "highWaterVersion": "1.517.7",
   "rows": [
     {
@@ -158905,6 +158905,13 @@
       "sourceSha": "5911a38fadb81bfb9705f0b28c7e9f14de12457a",
       "sourcePackageVersion": "1.530.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "8da3dff3e228ef8934f7e755a893d9c6f4cceeaf",
+      "sourcePackageVersion": "1.530.2",
+      "intentIds": [
+        "terminal-build-speed-hint:37bc42fcd298500a3e5834aef43f82608c9f75a3ce0fcacea16fc202b49f2f5a"
+      ]
     }
   ],
   "intents": [
@@ -167715,6 +167722,14 @@
       "summary": "Automation settings show the \"Needs fixed IP\" card when the organization has a fixed egress IP: admins mark an automation as needing it, see the IP to allowlist, and its run location locks to Cloud.",
       "sourceSha": "5f9ed9634682551b9ea1ec5ec72de95a91fb1707",
       "identity": "automation-needs-fixed-ip:e0e064d86bfaaddc93e7e7c445a68f56554c027f6f425a58f6ff64627041ad93"
+    },
+    {
+      "id": "terminal-build-speed-hint",
+      "digest": "37bc42fcd298500a3e5834aef43f82608c9f75a3ce0fcacea16fc202b49f2f5a",
+      "type": "patch",
+      "summary": "An App's hosting view says how long its builds usually take, and when they are slow it suggests adding the folder with a dev server on this machine.",
+      "sourceSha": "8da3dff3e228ef8934f7e755a893d9c6f4cceeaf",
+      "identity": "terminal-build-speed-hint:37bc42fcd298500a3e5834aef43f82608c9f75a3ce0fcacea16fc202b49f2f5a"
     }
   ],
   "consumedIntentIds": [
