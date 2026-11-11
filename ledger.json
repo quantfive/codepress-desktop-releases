@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "6b6c9610af62271666362b8f83875b21c678dbd4",
-  "highWaterVersion": "1.518.5",
+  "highWaterVersion": "1.518.6",
   "rows": [
     {
       "schemaVersion": 1,
@@ -86226,6 +86226,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:6b6c9610af62271666362b8f83875b21c678dbd4",
+      "kind": "main",
+      "sequence": 2252,
+      "sourceSha": "6b6c9610af62271666362b8f83875b21c678dbd4",
+      "sourcePackageVersion": "1.530.19",
+      "version": "1.518.6",
+      "publicationDate": "2026-11-11T09:10:11.858Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "managed-app-change-preview:bfc516b32586c3639be89a413aecd83c6e33fb5564ecde349fc38687b45f627d"
+        ],
+        "notesIntentIds": [
+          "managed-app-change-preview:bfc516b32586c3639be89a413aecd83c6e33fb5564ecde349fc38687b45f627d"
+        ],
+        "throughSourceSha": "6b6c9610af62271666362b8f83875b21c678dbd4",
+        "previousThroughSourceSha": "7a038bc8da98f71dc795341af2f447bffa4618bd",
+        "baselineVersion": "1.518.5",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42992763031",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-12T09:10:04.201Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -170094,7 +170137,8 @@
     "feed-row-time-matches-sort:28f711e9665664c23a7706e760b4d2bb7d0798dbe391d07d9367c58ffc587b1e",
     "set-aside-one-look-per-machine:aa297e9c413d212ed72df1da0f5349990ceb6de2a0e8d811baeef46e8a76588c",
     "core-flow-e2e-wording:194ef851a00c2661139a2e933e47f69660f56351e70cac08aa9ea1283de6a13b",
-    "account-update-grants:45ee1978b5e10b946ea4de1bb52b5628ad421c296a823cb3aef376daa7aff6fe"
+    "account-update-grants:45ee1978b5e10b946ea4de1bb52b5628ad421c296a823cb3aef376daa7aff6fe",
+    "managed-app-change-preview:bfc516b32586c3639be89a413aecd83c6e33fb5564ecde349fc38687b45f627d"
   ],
-  "consumedThroughSha": "7a038bc8da98f71dc795341af2f447bffa4618bd"
+  "consumedThroughSha": "6b6c9610af62271666362b8f83875b21c678dbd4"
 }
