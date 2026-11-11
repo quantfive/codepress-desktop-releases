@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "713e0a59f8bc2fdd5f653e2ac64c23af7a5b3ebe",
-  "highWaterVersion": "1.518.16",
+  "highWaterVersion": "1.518.17",
   "rows": [
     {
       "schemaVersion": 1,
@@ -86950,6 +86950,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:713e0a59f8bc2fdd5f653e2ac64c23af7a5b3ebe",
+      "kind": "main",
+      "sequence": 2263,
+      "sourceSha": "713e0a59f8bc2fdd5f653e2ac64c23af7a5b3ebe",
+      "sourcePackageVersion": "1.530.36",
+      "version": "1.518.17",
+      "publicationDate": "2026-11-11T18:02:59.414Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "evals-setup-agent-model-and-failures:04b2b57518253eaea6567276af401c8bc5795ee9431689105ac21a3bcca64b9a"
+        ],
+        "notesIntentIds": [
+          "evals-setup-agent-model-and-failures:04b2b57518253eaea6567276af401c8bc5795ee9431689105ac21a3bcca64b9a"
+        ],
+        "throughSourceSha": "713e0a59f8bc2fdd5f653e2ac64c23af7a5b3ebe",
+        "previousThroughSourceSha": "dc25fcfc75a685909d4e9692b3a650b09ee3474a",
+        "baselineVersion": "1.518.16",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43073891099",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-12T18:02:52.229Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -171517,7 +171560,8 @@
     "my-computers-update-controls:175468eac1b1ae748ffb54be6a9fef8c63b169128e7c7c6e2064e57c03029ad6",
     "terminal-drop-boot-cloudflared-sweep:490f1324f78ae12c9b98da94334bac2f76a09f82d7a99790d86952b9310db51d",
     "ui-dead-exports-closure:12b82fa38b769a5b73dc2d3c4c797cd16366fd07837952ce09caca3bb810d9b6",
-    "post-21895-leftovers:499e3e851ebab208544314735b76712531f287b6d6fc873bd980a9911ec881e0"
+    "post-21895-leftovers:499e3e851ebab208544314735b76712531f287b6d6fc873bd980a9911ec881e0",
+    "evals-setup-agent-model-and-failures:04b2b57518253eaea6567276af401c8bc5795ee9431689105ac21a3bcca64b9a"
   ],
-  "consumedThroughSha": "dc25fcfc75a685909d4e9692b3a650b09ee3474a"
+  "consumedThroughSha": "713e0a59f8bc2fdd5f653e2ac64c23af7a5b3ebe"
 }
