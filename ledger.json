@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "d57230c9527438713bdb764cf408a676f9c4b0e9",
-  "highWaterVersion": "1.518.18",
+  "highWaterVersion": "1.518.19",
   "rows": [
     {
       "schemaVersion": 1,
@@ -87064,6 +87064,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:d57230c9527438713bdb764cf408a676f9c4b0e9",
+      "kind": "main",
+      "sequence": 2265,
+      "sourceSha": "d57230c9527438713bdb764cf408a676f9c4b0e9",
+      "sourcePackageVersion": "1.530.38",
+      "version": "1.518.19",
+      "publicationDate": "2026-11-11T18:52:36.054Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "readable-managed-settings:877601a59639aa0ac3263a6afedeaa96f9dfdd7a579a02bd479bf7a467d53bd5"
+        ],
+        "notesIntentIds": [
+          "readable-managed-settings:877601a59639aa0ac3263a6afedeaa96f9dfdd7a579a02bd479bf7a467d53bd5"
+        ],
+        "throughSourceSha": "d57230c9527438713bdb764cf408a676f9c4b0e9",
+        "previousThroughSourceSha": "98d5f026fa8b3c696ecec59b54f2494d4cb26b30",
+        "baselineVersion": "1.518.18",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43081790914",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-12T18:52:28.331Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -171750,7 +171793,8 @@
     "evals-setup-agent-model-and-failures:04b2b57518253eaea6567276af401c8bc5795ee9431689105ac21a3bcca64b9a",
     "chat-secret-ask-card:f64302c870b019793693b81564cd79c55d961d4f43bf0e3d6dffb7e3fc221934",
     "title-row-spacing:69c38c5996f0227c143da77a493933d327223810bb391cc6f54db473a171e6d9",
-    "main-window-traffic-lights-no-inset:9d782d8b0599f421141687e7243770853c91c51b61e2b90e85ca99426841b71d"
+    "main-window-traffic-lights-no-inset:9d782d8b0599f421141687e7243770853c91c51b61e2b90e85ca99426841b71d",
+    "readable-managed-settings:877601a59639aa0ac3263a6afedeaa96f9dfdd7a579a02bd479bf7a467d53bd5"
   ],
-  "consumedThroughSha": "98d5f026fa8b3c696ecec59b54f2494d4cb26b30"
+  "consumedThroughSha": "d57230c9527438713bdb764cf408a676f9c4b0e9"
 }
