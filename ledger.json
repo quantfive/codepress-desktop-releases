@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7218ceb1ce36ce98f12551c81d16787d91f8a0d0",
+  "cursorSha": "8715d36f889ec56c7310a2775a212421d3347152",
   "highWaterVersion": "1.518.7",
   "rows": [
     {
@@ -160219,6 +160219,13 @@
       "sourceSha": "7218ceb1ce36ce98f12551c81d16787d91f8a0d0",
       "sourcePackageVersion": "1.530.21",
       "intentIds": []
+    },
+    {
+      "sourceSha": "8715d36f889ec56c7310a2775a212421d3347152",
+      "sourcePackageVersion": "1.530.21",
+      "intentIds": [
+        "terminal-dead-browser-authority-core:c091b1ef411e0ba0b3f7c46ea8d365835ad5e82571ef116292a61bf2408c7163"
+      ]
     }
   ],
   "intents": [
@@ -169213,6 +169220,14 @@
       "summary": "Remove nine native commands nothing calls, four unused H.264 encoder methods and the unused process and store plugins.",
       "sourceSha": "a266706f0d1400f83627932945caa3073e51c20b",
       "identity": "terminal-dead-native-commands:efbc3b5081d861945e7e860e2ec77cb3e72e686f9f9295a7b98e1157181c98df"
+    },
+    {
+      "id": "terminal-dead-browser-authority-core",
+      "digest": "c091b1ef411e0ba0b3f7c46ea8d365835ad5e82571ef116292a61bf2408c7163",
+      "type": "patch",
+      "summary": "Remove unused Terminal server code: the unwired browser-profile authority core and journal, two synchronous git helpers, two factories with no callers, and test-only wrapper exports.",
+      "sourceSha": "8715d36f889ec56c7310a2775a212421d3347152",
+      "identity": "terminal-dead-browser-authority-core:c091b1ef411e0ba0b3f7c46ea8d365835ad5e82571ef116292a61bf2408c7163"
     }
   ],
   "consumedIntentIds": [
