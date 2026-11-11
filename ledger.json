@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "962ca88ad7e526b4bf1aaeb35f9a13cf9552d253",
+  "cursorSha": "69907c129e19d6f502f6e35b535040a2b9134c31",
   "highWaterVersion": "1.518.3",
   "rows": [
     {
@@ -159717,6 +159717,13 @@
       "sourceSha": "962ca88ad7e526b4bf1aaeb35f9a13cf9552d253",
       "sourcePackageVersion": "1.530.16",
       "intentIds": []
+    },
+    {
+      "sourceSha": "69907c129e19d6f502f6e35b535040a2b9134c31",
+      "sourcePackageVersion": "1.530.16",
+      "intentIds": [
+        "core-flow-e2e-wording:194ef851a00c2661139a2e933e47f69660f56351e70cac08aa9ea1283de6a13b"
+      ]
     }
   ],
   "intents": [
@@ -168671,6 +168678,14 @@
       "summary": "Look for set-aside work once per machine instead of once per synced project: one request a minute for the whole machine, plus an immediate look when the cloud says set-aside work arrived. Falls back to the per-project reads against a backend without the batched route.",
       "sourceSha": "38b8c1557d394189b98296a8a2d133db5e0a1ed4",
       "identity": "set-aside-one-look-per-machine:aa297e9c413d212ed72df1da0f5349990ceb6de2a0e8d811baeef46e8a76588c"
+    },
+    {
+      "id": "core-flow-e2e-wording",
+      "digest": "194ef851a00c2661139a2e933e47f69660f56351e70cac08aa9ea1283de6a13b",
+      "type": "patch",
+      "summary": "The Orchestrator's plans now prove per-screen layout and phone-width criteria with QA evidence (a screenshot and a box measurement taken in the QA run) instead of a new browser test, and ask for a browser end-to-end test only for a new or changed core user flow. The Factory init bundle's frontend-qa and qa-verifier guidance keeps layout probes outside the ordinary end-to-end suite.",
+      "sourceSha": "69907c129e19d6f502f6e35b535040a2b9134c31",
+      "identity": "core-flow-e2e-wording:194ef851a00c2661139a2e933e47f69660f56351e70cac08aa9ea1283de6a13b"
     }
   ],
   "consumedIntentIds": [
