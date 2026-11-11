@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "223effb88d8059763f44c9496410cafa85fbf305",
+  "cursorSha": "707c473005dabec175a23607495a833793699289",
   "highWaterVersion": "1.518.11",
   "rows": [
     {
@@ -160618,6 +160618,13 @@
       "sourceSha": "223effb88d8059763f44c9496410cafa85fbf305",
       "sourcePackageVersion": "1.530.27",
       "intentIds": []
+    },
+    {
+      "sourceSha": "707c473005dabec175a23607495a833793699289",
+      "sourcePackageVersion": "1.530.27",
+      "intentIds": [
+        "remove-unused-js-dependencies:754b4da37210edfbf2ed538ce57cc4035b9d94e29718edf0db9acab8a296c1aa"
+      ]
     }
   ],
   "intents": [
@@ -169660,6 +169667,14 @@
       "summary": "Drop the server-test type baseline entry for the deleted session-saved-worktree test, so the Terminal typecheck ratchet passes again.",
       "sourceSha": "581e23e5bd2209a374ea4f40a3287de429c19db0",
       "identity": "prune-saved-worktree-type-baseline:1a89c9528f928bf4974e35b55b78b06c14270d6b8f4d408a59582c986c299390"
+    },
+    {
+      "id": "remove-unused-js-dependencies",
+      "digest": "754b4da37210edfbf2ed538ce57cc4035b9d94e29718edf0db9acab8a296c1aa",
+      "type": "patch",
+      "summary": "Remove dependency declarations nothing imports. Terminal drops `@tauri-apps/plugin-process`, whose native plugin was already removed. The engine drops the devDependencies `@babel/plugin-syntax-jsx` and `supertest`, which only its own tests could have used and none do, so the published engine's code and runtime dependencies are unchanged.",
+      "sourceSha": "707c473005dabec175a23607495a833793699289",
+      "identity": "remove-unused-js-dependencies:754b4da37210edfbf2ed538ce57cc4035b9d94e29718edf0db9acab8a296c1aa"
     }
   ],
   "consumedIntentIds": [
