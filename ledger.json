@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b14750da12009da8face4278ad0e5a68f40c84e1",
+  "cursorSha": "97b54747d0933c422a14bb3803995c6ee70400a8",
   "highWaterVersion": "1.518.0",
   "rows": [
     {
@@ -159311,6 +159311,11 @@
       "intentIds": [
         "updater-swap-staging-hardening:8aff78547c70f990143f30f5c6df59926d550ce0246a3a28aa301d050b308c82"
       ]
+    },
+    {
+      "sourceSha": "97b54747d0933c422a14bb3803995c6ee70400a8",
+      "sourcePackageVersion": "1.530.11",
+      "intentIds": []
     }
   ],
   "intents": [
