@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "a266706f0d1400f83627932945caa3073e51c20b",
-  "highWaterVersion": "1.518.6",
+  "highWaterVersion": "1.518.7",
   "rows": [
     {
       "schemaVersion": 1,
@@ -86281,6 +86281,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:a266706f0d1400f83627932945caa3073e51c20b",
+      "kind": "main",
+      "sequence": 2253,
+      "sourceSha": "a266706f0d1400f83627932945caa3073e51c20b",
+      "sourcePackageVersion": "1.530.20",
+      "version": "1.518.7",
+      "publicationDate": "2026-11-11T09:35:33.802Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "sync-flags-one-answer-per-machine:1cd082cb2e5deec956977a0e6c44ebf715f90417d39b607e0b196744d52e24f8",
+          "terminal-dead-native-commands:efbc3b5081d861945e7e860e2ec77cb3e72e686f9f9295a7b98e1157181c98df"
+        ],
+        "notesIntentIds": [
+          "sync-flags-one-answer-per-machine:1cd082cb2e5deec956977a0e6c44ebf715f90417d39b607e0b196744d52e24f8",
+          "terminal-dead-native-commands:efbc3b5081d861945e7e860e2ec77cb3e72e686f9f9295a7b98e1157181c98df"
+        ],
+        "throughSourceSha": "a266706f0d1400f83627932945caa3073e51c20b",
+        "previousThroughSourceSha": "6b6c9610af62271666362b8f83875b21c678dbd4",
+        "baselineVersion": "1.518.6",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42996384824",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-12T09:35:26.465Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -170220,7 +170265,9 @@
     "set-aside-one-look-per-machine:aa297e9c413d212ed72df1da0f5349990ceb6de2a0e8d811baeef46e8a76588c",
     "core-flow-e2e-wording:194ef851a00c2661139a2e933e47f69660f56351e70cac08aa9ea1283de6a13b",
     "account-update-grants:45ee1978b5e10b946ea4de1bb52b5628ad421c296a823cb3aef376daa7aff6fe",
-    "managed-app-change-preview:bfc516b32586c3639be89a413aecd83c6e33fb5564ecde349fc38687b45f627d"
+    "managed-app-change-preview:bfc516b32586c3639be89a413aecd83c6e33fb5564ecde349fc38687b45f627d",
+    "sync-flags-one-answer-per-machine:1cd082cb2e5deec956977a0e6c44ebf715f90417d39b607e0b196744d52e24f8",
+    "terminal-dead-native-commands:efbc3b5081d861945e7e860e2ec77cb3e72e686f9f9295a7b98e1157181c98df"
   ],
-  "consumedThroughSha": "6b6c9610af62271666362b8f83875b21c678dbd4"
+  "consumedThroughSha": "a266706f0d1400f83627932945caa3073e51c20b"
 }
