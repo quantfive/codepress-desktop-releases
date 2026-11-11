@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a68dc75b0b327fd16ae1b5d3bffa1774ef97003e",
+  "cursorSha": "38b8c1557d394189b98296a8a2d133db5e0a1ed4",
   "highWaterVersion": "1.518.2",
   "rows": [
     {
@@ -159630,6 +159630,13 @@
       "sourceSha": "a68dc75b0b327fd16ae1b5d3bffa1774ef97003e",
       "sourcePackageVersion": "1.530.15",
       "intentIds": []
+    },
+    {
+      "sourceSha": "38b8c1557d394189b98296a8a2d133db5e0a1ed4",
+      "sourcePackageVersion": "1.530.15",
+      "intentIds": [
+        "set-aside-one-look-per-machine:aa297e9c413d212ed72df1da0f5349990ceb6de2a0e8d811baeef46e8a76588c"
+      ]
     }
   ],
   "intents": [
@@ -168576,6 +168583,14 @@
       "summary": "The agent feed now shows each row's latest activity time in Planning and Working, so a project still planning on this machine no longer reads hours old while its Orchestrator keeps working.",
       "sourceSha": "6d4a3b4a0df5259476065b469457a65a1e5f6295",
       "identity": "feed-row-time-matches-sort:28f711e9665664c23a7706e760b4d2bb7d0798dbe391d07d9367c58ffc587b1e"
+    },
+    {
+      "id": "set-aside-one-look-per-machine",
+      "digest": "aa297e9c413d212ed72df1da0f5349990ceb6de2a0e8d811baeef46e8a76588c",
+      "type": "patch",
+      "summary": "Look for set-aside work once per machine instead of once per synced project: one request a minute for the whole machine, plus an immediate look when the cloud says set-aside work arrived. Falls back to the per-project reads against a backend without the batched route.",
+      "sourceSha": "38b8c1557d394189b98296a8a2d133db5e0a1ed4",
+      "identity": "set-aside-one-look-per-machine:aa297e9c413d212ed72df1da0f5349990ceb6de2a0e8d811baeef46e8a76588c"
     }
   ],
   "consumedIntentIds": [
