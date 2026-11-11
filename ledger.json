@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "9696c7f709b7de418df8460a7b507f6a826df67e",
-  "highWaterVersion": "1.519.1",
+  "highWaterVersion": "1.519.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -87453,6 +87453,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:9696c7f709b7de418df8460a7b507f6a826df67e",
+      "kind": "main",
+      "sequence": 2272,
+      "sourceSha": "9696c7f709b7de418df8460a7b507f6a826df67e",
+      "sourcePackageVersion": "1.531.2",
+      "version": "1.519.2",
+      "publicationDate": "2026-11-11T23:47:59.481Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "composer-add-secret-in-plus-menu:d047d4303c82935e46a2b4a989ae7a33af0e1e6af6e7304b5c0e5a1fa95a8f16",
+          "native-start-unlocked:4ca6bdf093c3ea2e57f17e6c558e29821f77f074d370671fa19e6e2a78997039"
+        ],
+        "notesIntentIds": [
+          "composer-add-secret-in-plus-menu:d047d4303c82935e46a2b4a989ae7a33af0e1e6af6e7304b5c0e5a1fa95a8f16",
+          "native-start-unlocked:4ca6bdf093c3ea2e57f17e6c558e29821f77f074d370671fa19e6e2a78997039"
+        ],
+        "throughSourceSha": "9696c7f709b7de418df8460a7b507f6a826df67e",
+        "previousThroughSourceSha": "4da89b676d02759bae3b060a2507d5b4ab08797d",
+        "baselineVersion": "1.519.1",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43122426326",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-12T23:47:52.847Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -172528,7 +172573,9 @@
     "whatsapp-settings-redesign:5b6cdf88297a1337274125865419b82c3d3de6fc0bbc33d053c09e04b7d902ac",
     "native-status-read:1892cad0abd8cb433a2a5a0e6b2a508b4312f5a784a1b4fa0987fc82c34529f2",
     "secret-cards-checked-at-home:cf50a85ea50f80fe3bb94cfd49191424125a965517dd915e5438ec0c4e7da64d",
-    "plan-page-hand-edit-save:c9f8f4f22d032f47400304a55f0fe42d5559ed74283c8d695e0a50e30d928278"
+    "plan-page-hand-edit-save:c9f8f4f22d032f47400304a55f0fe42d5559ed74283c8d695e0a50e30d928278",
+    "composer-add-secret-in-plus-menu:d047d4303c82935e46a2b4a989ae7a33af0e1e6af6e7304b5c0e5a1fa95a8f16",
+    "native-start-unlocked:4ca6bdf093c3ea2e57f17e6c558e29821f77f074d370671fa19e6e2a78997039"
   ],
-  "consumedThroughSha": "4da89b676d02759bae3b060a2507d5b4ab08797d"
+  "consumedThroughSha": "9696c7f709b7de418df8460a7b507f6a826df67e"
 }
