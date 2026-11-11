@@ -85861,7 +85861,7 @@
         "type": "minor"
       },
       "mac": {
-        "status": "running",
+        "status": "failed",
         "generation": 1,
         "owner": {
           "ownerId": "terminal-macos-delivery",
@@ -85872,9 +85872,14 @@
         "dispatch": {
           "intentId": "same-run:38538830636c56e02f93a28dfc20fcb5178f7e49d24346da8095c5c9be93d69c",
           "runId": "42968474292",
-          "terminal": false
+          "terminal": true
         },
-        "failures": []
+        "failures": [
+          {
+            "code": "run_failed",
+            "at": "2026-11-11T06:42:49.186Z"
+          }
+        ]
       },
       "linux": {
         "status": "complete",
