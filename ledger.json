@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9d8d6af80bc2ba752fb5c54ebba16b16a4fe535a",
+  "cursorSha": "ffb1508a335d3af050ea7e0efbf1b89405b8cd28",
   "highWaterVersion": "1.518.9",
   "rows": [
     {
@@ -160433,6 +160433,13 @@
       "sourceSha": "9d8d6af80bc2ba752fb5c54ebba16b16a4fe535a",
       "sourcePackageVersion": "1.530.25",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ffb1508a335d3af050ea7e0efbf1b89405b8cd28",
+      "sourcePackageVersion": "1.530.25",
+      "intentIds": [
+        "typecheck-server-tests-rules-of-hooks:713e826fc21327fa503ea8672d7b65af3b60a991579616e667b4594e5e4f53a0"
+      ]
     }
   ],
   "intents": [
@@ -169459,6 +169466,14 @@
       "summary": "Evals in Terminal's shell now set up an eval in plain words. The new-eval form offers four kinds of target (agent or skill, CodePress automation, your code, HTTP endpoint), and a kind the server cannot run says why. The suite's Review tab is now Setup and explains what runs, what each case gets and what counts as right. Runs of an automation, command or endpoint take a version, branch or base URL.",
       "sourceSha": "858803fdb51afbc6a3241f4935e7fe71f1859cbd",
       "identity": "evals-plain-language-setup:6d1f73054030784f7f78a1692355ec440af7d6129ddd0e450dc392604bfb745a"
+    },
+    {
+      "id": "typecheck-server-tests-rules-of-hooks",
+      "digest": "713e826fc21327fa503ea8672d7b65af3b60a991579616e667b4594e5e4f53a0",
+      "type": "patch",
+      "summary": "Internal: the server tests are now typechecked in CI against a baseline that only shrinks, and React's rules of hooks are linted. Helper functions that were named like hooks were renamed; behavior is unchanged.",
+      "sourceSha": "ffb1508a335d3af050ea7e0efbf1b89405b8cd28",
+      "identity": "typecheck-server-tests-rules-of-hooks:713e826fc21327fa503ea8672d7b65af3b60a991579616e667b4594e5e4f53a0"
     }
   ],
   "consumedIntentIds": [
