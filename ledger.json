@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d575a7babe6aee332420681b472459c449928ff2",
+  "cursorSha": "fdc9cc9fc7653d867bc321d4583ea5041e3b738d",
   "highWaterVersion": "1.517.7",
   "rows": [
     {
@@ -158839,6 +158839,13 @@
       "sourceSha": "d575a7babe6aee332420681b472459c449928ff2",
       "sourcePackageVersion": "1.529.17",
       "intentIds": []
+    },
+    {
+      "sourceSha": "fdc9cc9fc7653d867bc321d4583ea5041e3b738d",
+      "sourcePackageVersion": "1.529.17",
+      "intentIds": [
+        "talk-from-the-web-terminal:3f27fdc70180d1ef7da28f0794d7d9577c948136ccf2c4591874b853be5bb450"
+      ]
     }
   ],
   "intents": [
@@ -167625,6 +167632,14 @@
       "summary": "On macOS 26 and later, CodePress shows the current window controls and window corners. The macOS app is now built with Xcode 26 or later, and the window controls sit centred in the title bar of every window.",
       "sourceSha": "5a565cc7ff3fb4a9f37816bc7bff48217f2f6386",
       "identity": "terminal-macos-26-sdk:c95da48573df47970933b61f1fddc741f148c1fcdbbd57a4fef6eca4178349f1"
+    },
+    {
+      "id": "talk-from-the-web-terminal",
+      "digest": "3f27fdc70180d1ef7da28f0794d7d9577c948136ccf2c4591874b853be5bb450",
+      "type": "minor",
+      "summary": "Take a Talk call started from the CodePress web page on this machine's Codex Orchestrator: the call joins the Orchestrator's own conversation, its events reach the browser over the live thread stream, and moving a call between a Terminal window and the browser tells the other side the call moved.",
+      "sourceSha": "fdc9cc9fc7653d867bc321d4583ea5041e3b738d",
+      "identity": "talk-from-the-web-terminal:3f27fdc70180d1ef7da28f0794d7d9577c948136ccf2c4591874b853be5bb450"
     }
   ],
   "consumedIntentIds": [
