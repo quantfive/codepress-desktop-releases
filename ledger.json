@@ -86570,10 +86570,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43019771739",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-12T12:23:32.985Z",
         "dispatch": null,
         "failures": []
       }
