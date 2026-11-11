@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7c32f764c6adadacaa9dd1c468556125fbe72269",
+  "cursorSha": "d9240d786ed3b487d5be01c8808d823382a8d9ca",
   "highWaterVersion": "1.518.6",
   "rows": [
     {
@@ -160068,6 +160068,13 @@
       "sourceSha": "7c32f764c6adadacaa9dd1c468556125fbe72269",
       "sourcePackageVersion": "1.530.19",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d9240d786ed3b487d5be01c8808d823382a8d9ca",
+      "sourcePackageVersion": "1.530.19",
+      "intentIds": [
+        "sync-flags-one-answer-per-machine:1cd082cb2e5deec956977a0e6c44ebf715f90417d39b607e0b196744d52e24f8"
+      ]
     }
   ],
   "intents": [
@@ -169046,6 +169053,14 @@
       "summary": "A managed App's change preview in Terminal reads live data and refuses writes, as on the web.",
       "sourceSha": "7a42bfb509aa3f66bd55c734cf336e5b942cbfeb",
       "identity": "managed-app-change-preview:bfc516b32586c3639be89a413aecd83c6e33fb5564ecde349fc38687b45f627d"
+    },
+    {
+      "id": "sync-flags-one-answer-per-machine",
+      "digest": "1cd082cb2e5deec956977a0e6c44ebf715f90417d39b607e0b196744d52e24f8",
+      "type": "patch",
+      "summary": "Project sync makes far fewer background requests. A machine now keeps one answer per organization for its sync settings, shared by every window, the one feed and the move picker. Callers that ask while a read is out wait for it instead of sending their own. An organization whose settings are refused (401, 403 or 404) is asked again after 30 seconds rather than on every check; any other failed read is retried on the next check, as before. The repair pass also reads and lists only the organizations where this machine has a project or a cloud copy. An account in many organizations used to read every one of them about once a minute. A settings change is still seen at once, and organizations with projects here are repaired as often as before.",
+      "sourceSha": "d9240d786ed3b487d5be01c8808d823382a8d9ca",
+      "identity": "sync-flags-one-answer-per-machine:1cd082cb2e5deec956977a0e6c44ebf715f90417d39b607e0b196744d52e24f8"
     }
   ],
   "consumedIntentIds": [
