@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "db4a892c809fd793f8bd0af5d25e580a5f5bc451",
+  "cursorSha": "50c77fa6c826040d401c19ace710d1fe7a61b6b4",
   "highWaterVersion": "1.517.7",
   "rows": [
     {
@@ -159119,6 +159119,13 @@
       "sourceSha": "db4a892c809fd793f8bd0af5d25e580a5f5bc451",
       "sourcePackageVersion": "1.530.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "50c77fa6c826040d401c19ace710d1fe7a61b6b4",
+      "sourcePackageVersion": "1.530.8",
+      "intentIds": [
+        "fleet-admission-stop-async-remote:120c18d4ce573f4e5020f83f587e04f27fcc64e046cf4e3c9eb681c599812a39"
+      ]
     }
   ],
   "intents": [
@@ -167985,6 +167992,14 @@
       "summary": "When the Terminal daemon exits during start-up, the app now reports it within a fraction of a second, with the exit status and the name of the daemon's error log, instead of waiting out the 30-second start timeout. The previous start's error log is kept as `server-<window>-stderr.log.1` so a restart no longer erases it.",
       "sourceSha": "b422690594bfccf3e97fe271f6985604ee368b2d",
       "identity": "daemon-startup-fails-fast:179c9e26ea1b7b26613e3de908ff6887b299efbb90b2a76a316f0ec427ba2c91"
+    },
+    {
+      "id": "fleet-admission-stop-async-remote",
+      "digest": "120c18d4ce573f4e5020f83f587e04f27fcc64e046cf4e3c9eb681c599812a39",
+      "type": "patch",
+      "summary": "A stopped worker launch queue no longer launches a queued worker, and attaching a pull request no longer pauses Terminal's server while it reads the repository's remote.",
+      "sourceSha": "50c77fa6c826040d401c19ace710d1fe7a61b6b4",
+      "identity": "fleet-admission-stop-async-remote:120c18d4ce573f4e5020f83f587e04f27fcc64e046cf4e3c9eb681c599812a39"
     }
   ],
   "consumedIntentIds": [
