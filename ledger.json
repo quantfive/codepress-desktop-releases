@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f2368be7a8a976d19002dbaf068909ce7a012f74",
+  "cursorSha": "0e3dc5f0639778c73b0a82d3d22233dca603f25d",
   "highWaterVersion": "1.518.8",
   "rows": [
     {
@@ -160321,6 +160321,13 @@
       "sourceSha": "f2368be7a8a976d19002dbaf068909ce7a012f74",
       "sourcePackageVersion": "1.530.22",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0e3dc5f0639778c73b0a82d3d22233dca603f25d",
+      "sourcePackageVersion": "1.530.22",
+      "intentIds": [
+        "signed-out-side-nav-sign-in:b6880eb378ae0d16e7b869bba2577abb7a8e636cae91dd2ed317795024e4fff6"
+      ]
     }
   ],
   "intents": [
@@ -169323,6 +169330,14 @@
       "summary": "Remove unused Terminal server code: the unwired browser-profile authority core and journal, two synchronous git helpers, two factories with no callers, and test-only wrapper exports.",
       "sourceSha": "8715d36f889ec56c7310a2775a212421d3347152",
       "identity": "terminal-dead-browser-authority-core:c091b1ef411e0ba0b3f7c46ea8d365835ad5e82571ef116292a61bf2408c7163"
+    },
+    {
+      "id": "signed-out-side-nav-sign-in",
+      "digest": "b6880eb378ae0d16e7b869bba2577abb7a8e636cae91dd2ed317795024e4fff6",
+      "type": "patch",
+      "summary": "Signed-out windows always have the side nav and open on the sign-in screen. Terminal stays one press away (\"Use Terminal without signing in\", or the rail), and a window where you chose Terminal keeps opening there. The Unified view switch is now in This computer → General while signed out, so you can turn the classic layout on or back off without an account.",
+      "sourceSha": "0e3dc5f0639778c73b0a82d3d22233dca603f25d",
+      "identity": "signed-out-side-nav-sign-in:b6880eb378ae0d16e7b869bba2577abb7a8e636cae91dd2ed317795024e4fff6"
     }
   ],
   "consumedIntentIds": [
