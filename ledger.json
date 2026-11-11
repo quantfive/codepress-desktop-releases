@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e39bf3dca38236d137a403b237fdbf2babc612cf",
+  "cursorSha": "5a565cc7ff3fb4a9f37816bc7bff48217f2f6386",
   "highWaterVersion": "1.517.7",
   "rows": [
     {
@@ -158762,6 +158762,13 @@
       "sourceSha": "e39bf3dca38236d137a403b237fdbf2babc612cf",
       "sourcePackageVersion": "1.529.16",
       "intentIds": []
+    },
+    {
+      "sourceSha": "5a565cc7ff3fb4a9f37816bc7bff48217f2f6386",
+      "sourcePackageVersion": "1.529.16",
+      "intentIds": [
+        "terminal-macos-26-sdk:c95da48573df47970933b61f1fddc741f148c1fcdbbd57a4fef6eca4178349f1"
+      ]
     }
   ],
   "intents": [
@@ -167540,6 +167547,14 @@
       "summary": "A chat that proposes an App plan now shows the plan card in Terminal's chat view, with Approve & build opening the project it starts (staff-only flag).",
       "sourceSha": "8245f7ed0b3c5bbdae1772fbbd49ab0408f272f0",
       "identity": "app-plan-card-in-chat:6f39fa60f765fe69c074f81f2305502533fa94dc484d533b03011b0b52577aa2"
+    },
+    {
+      "id": "terminal-macos-26-sdk",
+      "digest": "c95da48573df47970933b61f1fddc741f148c1fcdbbd57a4fef6eca4178349f1",
+      "type": "patch",
+      "summary": "On macOS 26 and later, CodePress shows the current window controls and window corners. The macOS app is now built with Xcode 26 or later, and the window controls sit centred in the title bar of every window.",
+      "sourceSha": "5a565cc7ff3fb4a9f37816bc7bff48217f2f6386",
+      "identity": "terminal-macos-26-sdk:c95da48573df47970933b61f1fddc741f148c1fcdbbd57a4fef6eca4178349f1"
     }
   ],
   "consumedIntentIds": [
