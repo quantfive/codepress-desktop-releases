@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0de1d81f5e2b99680b9a346d05b2148d92b2a6e3",
+  "cursorSha": "28f6d01de9789bcfaaa2dd7194cd1757e01b792a",
   "highWaterVersion": "1.518.12",
   "rows": [
     {
@@ -160759,6 +160759,13 @@
       "sourceSha": "0de1d81f5e2b99680b9a346d05b2148d92b2a6e3",
       "sourcePackageVersion": "1.530.30",
       "intentIds": []
+    },
+    {
+      "sourceSha": "28f6d01de9789bcfaaa2dd7194cd1757e01b792a",
+      "sourcePackageVersion": "1.530.30",
+      "intentIds": [
+        "terminal-dead-context-menu-and-exports:3fd7f66cb9ba38cb09619a79cf9c7931544c40735754241a8f68caff39da849e"
+      ]
     }
   ],
   "intents": [
@@ -169833,6 +169840,14 @@
       "summary": "Manage hosting in Terminal's shell has a Previews tab for a site with source builds on. Turn on a preview link for every pushed branch, choose whether only your team or anyone with the link can open them, and copy, open or delete each branch's link. A failed branch build shows its error and its build logs.",
       "sourceSha": "05e33fdb631fa82b10611c11a0cfe550ed9de703",
       "identity": "branch-previews-tab:319f37b5f90c6d1bf916b324ce9eb67bc07a020dcce239f518df53eacd12a4a2"
+    },
+    {
+      "id": "terminal-dead-context-menu-and-exports",
+      "digest": "3fd7f66cb9ba38cb09619a79cf9c7931544c40735754241a8f68caff39da849e",
+      "type": "patch",
+      "summary": "Remove unused Terminal UI code: the duplicate terminal context menu component, three hooks and an OAuth helper nothing imported, and about thirty exports with no caller. The right-click Copy action in the terminal keeps its test. No behaviour changes.",
+      "sourceSha": "28f6d01de9789bcfaaa2dd7194cd1757e01b792a",
+      "identity": "terminal-dead-context-menu-and-exports:3fd7f66cb9ba38cb09619a79cf9c7931544c40735754241a8f68caff39da849e"
     }
   ],
   "consumedIntentIds": [
