@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9246855cd593b0bf7eded5c71b7044854f868137",
+  "cursorSha": "6d4a3b4a0df5259476065b469457a65a1e5f6295",
   "highWaterVersion": "1.518.1",
   "rows": [
     {
@@ -159534,6 +159534,13 @@
       "sourceSha": "9246855cd593b0bf7eded5c71b7044854f868137",
       "sourcePackageVersion": "1.530.14",
       "intentIds": []
+    },
+    {
+      "sourceSha": "6d4a3b4a0df5259476065b469457a65a1e5f6295",
+      "sourcePackageVersion": "1.530.14",
+      "intentIds": [
+        "feed-row-time-matches-sort:28f711e9665664c23a7706e760b4d2bb7d0798dbe391d07d9367c58ffc587b1e"
+      ]
     }
   ],
   "intents": [
@@ -168472,6 +168479,14 @@
       "summary": "When this computer's device signing key is unavailable, Terminal now says why (for example another CodePress process was still setting the key up, or its key file is damaged), logs and reports the cause once, and retries once after a short wait when the key's lock was still held.",
       "sourceSha": "142045778fa098ea77a86996c0831c342161dd31",
       "identity": "device-signing-cause:03498f9fb9cbf9fddf5d649e625475baf52afe5ab7a283e566a26909788b2102"
+    },
+    {
+      "id": "feed-row-time-matches-sort",
+      "digest": "28f711e9665664c23a7706e760b4d2bb7d0798dbe391d07d9367c58ffc587b1e",
+      "type": "patch",
+      "summary": "The agent feed now shows each row's latest activity time in Planning and Working, so a project still planning on this machine no longer reads hours old while its Orchestrator keeps working.",
+      "sourceSha": "6d4a3b4a0df5259476065b469457a65a1e5f6295",
+      "identity": "feed-row-time-matches-sort:28f711e9665664c23a7706e760b4d2bb7d0798dbe391d07d9367c58ffc587b1e"
     }
   ],
   "consumedIntentIds": [
