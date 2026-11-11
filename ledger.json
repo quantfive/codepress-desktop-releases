@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "38b8c1557d394189b98296a8a2d133db5e0a1ed4",
-  "highWaterVersion": "1.518.2",
+  "highWaterVersion": "1.518.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -86061,6 +86061,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:38b8c1557d394189b98296a8a2d133db5e0a1ed4",
+      "kind": "main",
+      "sequence": 2249,
+      "sourceSha": "38b8c1557d394189b98296a8a2d133db5e0a1ed4",
+      "sourcePackageVersion": "1.530.15",
+      "version": "1.518.3",
+      "publicationDate": "2026-11-11T07:49:16.421Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "set-aside-one-look-per-machine:aa297e9c413d212ed72df1da0f5349990ceb6de2a0e8d811baeef46e8a76588c"
+        ],
+        "notesIntentIds": [
+          "set-aside-one-look-per-machine:aa297e9c413d212ed72df1da0f5349990ceb6de2a0e8d811baeef46e8a76588c"
+        ],
+        "throughSourceSha": "38b8c1557d394189b98296a8a2d133db5e0a1ed4",
+        "previousThroughSourceSha": "404994cd4185bb764e6b5bcb44beca8f03a70728",
+        "baselineVersion": "1.518.2",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42982210053",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-12T07:49:09.336Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -169711,7 +169754,8 @@
     "supervisor-respawn-old-daemon-exit:8f503c52f99d863a1fe51ebee8ef6fe41a40362c869fb59e4d5ce7ed06d7368c",
     "dictation-retry-keeps-clip:f012cc0802dc53c67063677b191ce07b4abeeaf22e50ca0b0471b3314c90de90",
     "device-signing-cause:03498f9fb9cbf9fddf5d649e625475baf52afe5ab7a283e566a26909788b2102",
-    "feed-row-time-matches-sort:28f711e9665664c23a7706e760b4d2bb7d0798dbe391d07d9367c58ffc587b1e"
+    "feed-row-time-matches-sort:28f711e9665664c23a7706e760b4d2bb7d0798dbe391d07d9367c58ffc587b1e",
+    "set-aside-one-look-per-machine:aa297e9c413d212ed72df1da0f5349990ceb6de2a0e8d811baeef46e8a76588c"
   ],
-  "consumedThroughSha": "404994cd4185bb764e6b5bcb44beca8f03a70728"
+  "consumedThroughSha": "38b8c1557d394189b98296a8a2d133db5e0a1ed4"
 }
