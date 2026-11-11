@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4f06902df25ef861044ddbd9aad7fc6c90f5724a",
+  "cursorSha": "07a3290719a4ebc2dfaefba669dd2f9ed774b855",
   "highWaterVersion": "1.519.0",
   "rows": [
     {
@@ -162015,6 +162015,13 @@
       "sourceSha": "4f06902df25ef861044ddbd9aad7fc6c90f5724a",
       "sourcePackageVersion": "1.531.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "07a3290719a4ebc2dfaefba669dd2f9ed774b855",
+      "sourcePackageVersion": "1.531.0",
+      "intentIds": [
+        "plan-page-hand-edit-save:c9f8f4f22d032f47400304a55f0fe42d5559ed74283c8d695e0a50e30d928278"
+      ]
     }
   ],
   "intents": [
@@ -171233,6 +171240,14 @@
       "summary": "The project owner's other devices can answer an Orchestrator's secret card: the home machine checks each answer against CodePress with its own person login before the Orchestrator hears it. Closing a card without deciding no longer tells the Orchestrator never to ask again.",
       "sourceSha": "2397ae81442e0a9d55fe9938cfc1b0fda11f4664",
       "identity": "secret-cards-checked-at-home:cf50a85ea50f80fe3bb94cfd49191424125a965517dd915e5438ec0c4e7da64d"
+    },
+    {
+      "id": "plan-page-hand-edit-save",
+      "digest": "c9f8f4f22d032f47400304a55f0fe42d5559ed74283c8d695e0a50e30d928278",
+      "type": "patch",
+      "summary": "Plan pages can now be saved after a hand edit (the Edit mode that uses this comes next): the save checks the page has not changed since the edit began, keeps its link, and tells the Orchestrator, which reads the edited page before it publishes that page again instead of overwriting it.",
+      "sourceSha": "07a3290719a4ebc2dfaefba669dd2f9ed774b855",
+      "identity": "plan-page-hand-edit-save:c9f8f4f22d032f47400304a55f0fe42d5559ed74283c8d695e0a50e30d928278"
     }
   ],
   "consumedIntentIds": [
