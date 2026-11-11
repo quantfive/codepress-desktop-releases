@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0da8262ff93e2cae0c365a035d5455e762c64063",
+  "cursorSha": "8716fd99df6d9caf4d3bcd5dba46f9a65ad4678b",
   "highWaterVersion": "1.518.21",
   "rows": [
     {
@@ -161770,6 +161770,13 @@
       "intentIds": [
         "desktop-slow-host-retry:a51e3c6eed71b5db67139b29fe9b5d0fbbcd40fb10847139c9c7419ab5d756d7"
       ]
+    },
+    {
+      "sourceSha": "8716fd99df6d9caf4d3bcd5dba46f9a65ad4678b",
+      "sourcePackageVersion": "1.530.42",
+      "intentIds": [
+        "whatsapp-settings-redesign:5b6cdf88297a1337274125865419b82c3d3de6fc0bbc33d053c09e04b7d902ac"
+      ]
     }
   ],
   "intents": [
@@ -170964,6 +170971,14 @@
       "summary": "Desktop viewer: when you connect to a machine that is slow to answer, the viewer no longer stops at \"The machine didn't answer… then refresh\". It keeps checking every few seconds for up to 30 seconds and connects as soon as the machine answers, showing \"Waiting for {machine} to answer…\" with an attempt count and a Stop trying button. While connecting, the panel now says which step it is on: checking the machine, starting the screen, or waiting for the picture.",
       "sourceSha": "0da8262ff93e2cae0c365a035d5455e762c64063",
       "identity": "desktop-slow-host-retry:a51e3c6eed71b5db67139b29fe9b5d0fbbcd40fb10847139c9c7419ab5d756d7"
+    },
+    {
+      "id": "whatsapp-settings-redesign",
+      "digest": "5b6cdf88297a1337274125865419b82c3d3de6fc0bbc33d053c09e04b7d902ac",
+      "type": "patch",
+      "summary": "The WhatsApp settings page in Terminal now shows a first-run card when your workspace has no number, lists numbers as rows with one status sentence and a ⋯ menu, and gives workspace members a read-only view with a prompt to link their phone instead of admin actions.",
+      "sourceSha": "8716fd99df6d9caf4d3bcd5dba46f9a65ad4678b",
+      "identity": "whatsapp-settings-redesign:5b6cdf88297a1337274125865419b82c3d3de6fc0bbc33d053c09e04b7d902ac"
     }
   ],
   "consumedIntentIds": [
