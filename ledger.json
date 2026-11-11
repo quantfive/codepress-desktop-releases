@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "af6cf19c7a096761190e82e9549c3be0b2a25cb2",
+  "cursorSha": "713e0a59f8bc2fdd5f653e2ac64c23af7a5b3ebe",
   "highWaterVersion": "1.518.16",
   "rows": [
     {
@@ -161238,6 +161238,13 @@
       "sourceSha": "af6cf19c7a096761190e82e9549c3be0b2a25cb2",
       "sourcePackageVersion": "1.530.36",
       "intentIds": []
+    },
+    {
+      "sourceSha": "713e0a59f8bc2fdd5f653e2ac64c23af7a5b3ebe",
+      "sourcePackageVersion": "1.530.36",
+      "intentIds": [
+        "evals-setup-agent-model-and-failures:04b2b57518253eaea6567276af401c8bc5795ee9431689105ac21a3bcca64b9a"
+      ]
     }
   ],
   "intents": [
@@ -170360,6 +170367,14 @@
       "summary": "Remove an unused helper from the subscription accounts settings code. Nothing changes for people using Terminal.",
       "sourceSha": "dc25fcfc75a685909d4e9692b3a650b09ee3474a",
       "identity": "post-21895-leftovers:499e3e851ebab208544314735b76712531f287b6d6fc873bd980a9911ec881e0"
+    },
+    {
+      "id": "evals-setup-agent-model-and-failures",
+      "digest": "04b2b57518253eaea6567276af401c8bc5795ee9431689105ac21a3bcca64b9a",
+      "type": "patch",
+      "summary": "Evals: the Setup tab shows which model the setup agent runs on. When the agent's turn fails, the tab shows the error with Try again. \"Set up with agent\" now explains why it cannot start when no Codex credential can run it, with a link to connect one.",
+      "sourceSha": "713e0a59f8bc2fdd5f653e2ac64c23af7a5b3ebe",
+      "identity": "evals-setup-agent-model-and-failures:04b2b57518253eaea6567276af401c8bc5795ee9431689105ac21a3bcca64b9a"
     }
   ],
   "consumedIntentIds": [
