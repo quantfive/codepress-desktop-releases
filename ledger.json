@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "a98db05b6a6ad93b013d170bd2e4af7f7dc0378f",
-  "highWaterVersion": "1.518.19",
+  "highWaterVersion": "1.518.20",
   "rows": [
     {
       "schemaVersion": 1,
@@ -87119,6 +87119,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:a98db05b6a6ad93b013d170bd2e4af7f7dc0378f",
+      "kind": "main",
+      "sequence": 2266,
+      "sourceSha": "a98db05b6a6ad93b013d170bd2e4af7f7dc0378f",
+      "sourcePackageVersion": "1.530.39",
+      "version": "1.518.20",
+      "publicationDate": "2026-11-11T19:37:34.650Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "edge-relay-stall-keepalive:f369276670e8274c2b29e8271c5489fa6a9fd59ce6869855160923aa9459afd6"
+        ],
+        "notesIntentIds": [
+          "edge-relay-stall-keepalive:f369276670e8274c2b29e8271c5489fa6a9fd59ce6869855160923aa9459afd6"
+        ],
+        "throughSourceSha": "a98db05b6a6ad93b013d170bd2e4af7f7dc0378f",
+        "previousThroughSourceSha": "d57230c9527438713bdb764cf408a676f9c4b0e9",
+        "baselineVersion": "1.518.19",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43088853746",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-12T19:37:27.198Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -171871,7 +171914,8 @@
     "chat-secret-ask-card:f64302c870b019793693b81564cd79c55d961d4f43bf0e3d6dffb7e3fc221934",
     "title-row-spacing:69c38c5996f0227c143da77a493933d327223810bb391cc6f54db473a171e6d9",
     "main-window-traffic-lights-no-inset:9d782d8b0599f421141687e7243770853c91c51b61e2b90e85ca99426841b71d",
-    "readable-managed-settings:877601a59639aa0ac3263a6afedeaa96f9dfdd7a579a02bd479bf7a467d53bd5"
+    "readable-managed-settings:877601a59639aa0ac3263a6afedeaa96f9dfdd7a579a02bd479bf7a467d53bd5",
+    "edge-relay-stall-keepalive:f369276670e8274c2b29e8271c5489fa6a9fd59ce6869855160923aa9459afd6"
   ],
-  "consumedThroughSha": "d57230c9527438713bdb764cf408a676f9c4b0e9"
+  "consumedThroughSha": "a98db05b6a6ad93b013d170bd2e4af7f7dc0378f"
 }
