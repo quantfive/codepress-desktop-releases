@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4b91e460488ef145bf05758c2292c37c1c013584",
+  "cursorSha": "e56c3ae2600898ed4d665f42e51e50cebda84f95",
   "highWaterVersion": "1.518.0",
   "rows": [
     {
@@ -159321,6 +159321,13 @@
       "sourceSha": "4b91e460488ef145bf05758c2292c37c1c013584",
       "sourcePackageVersion": "1.530.11",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e56c3ae2600898ed4d665f42e51e50cebda84f95",
+      "sourcePackageVersion": "1.530.11",
+      "intentIds": [
+        "remote-visibility-chip:7b815486f343397247e37392f4b45472052f7c57c18f4c3cc088b6215dd85e1b"
+      ]
     }
   ],
   "intents": [
@@ -168227,6 +168234,14 @@
       "summary": "Updates: when replacing the app needs an administrator password, the installed app is moved aside rather than deleted first, and put back if the new one cannot be moved in, so a failed install no longer leaves the machine without Terminal. Installing a chosen version refuses a malformed version before downloading anything, staging an update no longer holds up other work while another Terminal stages the same version, and on Linux a leftover update download whose process id now belongs to another program is cleaned up.",
       "sourceSha": "b14750da12009da8face4278ad0e5a68f40c84e1",
       "identity": "updater-swap-staging-hardening:8aff78547c70f990143f30f5c6df59926d550ce0246a3a28aa301d050b308c82"
+    },
+    {
+      "id": "remote-visibility-chip",
+      "digest": "7b815486f343397247e37392f4b45472052f7c57c18f4c3cc088b6215dd85e1b",
+      "type": "patch",
+      "summary": "New project and Chat: the Team/Personal chip now also shows when Runs on is another of your machines, and the chat or project starts there with what you picked. Machines whose CodePress app is too old to keep it look and work as before.",
+      "sourceSha": "e56c3ae2600898ed4d665f42e51e50cebda84f95",
+      "identity": "remote-visibility-chip:7b815486f343397247e37392f4b45472052f7c57c18f4c3cc088b6215dd85e1b"
     }
   ],
   "consumedIntentIds": [
