@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1027e9446a95ebe0ef42ee7d1645bd632bdb7c09",
+  "cursorSha": "f1ac0e398bb8b67b88f2f86ec39e7d62c6dcc056",
   "highWaterVersion": "1.518.1",
   "rows": [
     {
@@ -159490,6 +159490,13 @@
       "sourceSha": "1027e9446a95ebe0ef42ee7d1645bd632bdb7c09",
       "sourcePackageVersion": "1.530.12",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f1ac0e398bb8b67b88f2f86ec39e7d62c6dcc056",
+      "sourcePackageVersion": "1.530.12",
+      "intentIds": [
+        "dictation-retry-keeps-clip:f012cc0802dc53c67063677b191ce07b4abeeaf22e50ca0b0471b3314c90de90"
+      ]
     }
   ],
   "intents": [
@@ -168412,6 +168419,14 @@
       "summary": "Daemon recovery: when Terminal replaces a daemon that still answers, it now waits for that daemon to finish its own cleanup (previews, runners, the Orchestrator host) before force-stopping it, and a daemon adopted from an earlier run is stopped instead of being left running beside its replacement. An adopted daemon is stopped only once Terminal has confirmed it is this window's daemon. Its health endpoint can confirm that; when it does not answer, its command line, the window and data folder it was started for, and a start time no later than its pid file confirm it instead. A wedged daemon is still stopped at once.",
       "sourceSha": "b7b4deb377e88f6c99af55fcfbf5597ff029d88b",
       "identity": "supervisor-respawn-old-daemon-exit:8f503c52f99d863a1fe51ebee8ef6fe41a40362c869fb59e4d5ce7ed06d7368c"
+    },
+    {
+      "id": "dictation-retry-keeps-clip",
+      "digest": "f012cc0802dc53c67063677b191ce07b4abeeaf22e50ca0b0471b3314c90de90",
+      "type": "patch",
+      "summary": "Retry a dictation once by itself after a network or server failure, and keep the clip with a Retry button if it still fails.",
+      "sourceSha": "f1ac0e398bb8b67b88f2f86ec39e7d62c6dcc056",
+      "identity": "dictation-retry-keeps-clip:f012cc0802dc53c67063677b191ce07b4abeeaf22e50ca0b0471b3314c90de90"
     }
   ],
   "consumedIntentIds": [
