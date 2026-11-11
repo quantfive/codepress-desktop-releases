@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0ed8d80ef9452f3320f239b27b5fc9c09ad63760",
+  "cursorSha": "7a038bc8da98f71dc795341af2f447bffa4618bd",
   "highWaterVersion": "1.518.4",
   "rows": [
     {
@@ -159864,6 +159864,13 @@
       "sourceSha": "0ed8d80ef9452f3320f239b27b5fc9c09ad63760",
       "sourcePackageVersion": "1.530.17",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7a038bc8da98f71dc795341af2f447bffa4618bd",
+      "sourcePackageVersion": "1.530.17",
+      "intentIds": [
+        "account-update-grants:45ee1978b5e10b946ea4de1bb52b5628ad421c296a823cb3aef376daa7aff6fe"
+      ]
     }
   ],
   "intents": [
@@ -168826,6 +168833,14 @@
       "summary": "The Orchestrator's plans now prove per-screen layout and phone-width criteria with QA evidence (a screenshot and a box measurement taken in the QA run) instead of a new browser test, and ask for a browser end-to-end test only for a new or changed core user flow. The Factory init bundle's frontend-qa and qa-verifier guidance keeps layout probes outside the ordinary end-to-end suite.",
       "sourceSha": "69907c129e19d6f502f6e35b535040a2b9134c31",
       "identity": "core-flow-e2e-wording:194ef851a00c2661139a2e933e47f69660f56351e70cac08aa9ea1283de6a13b"
+    },
+    {
+      "id": "account-update-grants",
+      "digest": "45ee1978b5e10b946ea4de1bb52b5628ad421c296a823cb3aef376daa7aff6fe",
+      "type": "patch",
+      "summary": "A computer running Terminal now accepts an update check or install request from its owner's web or phone session, through the existing remote-control relay, for the Terminal update tools only.",
+      "sourceSha": "7a038bc8da98f71dc795341af2f447bffa4618bd",
+      "identity": "account-update-grants:45ee1978b5e10b946ea4de1bb52b5628ad421c296a823cb3aef376daa7aff6fe"
     }
   ],
   "consumedIntentIds": [
