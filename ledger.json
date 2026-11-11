@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f4124c36c1e497fb5243ff637ebe08bc1c58fafc",
+  "cursorSha": "5f9ed9634682551b9ea1ec5ec72de95a91fb1707",
   "highWaterVersion": "1.517.7",
   "rows": [
     {
@@ -158878,6 +158878,13 @@
       "sourceSha": "f4124c36c1e497fb5243ff637ebe08bc1c58fafc",
       "sourcePackageVersion": "1.530.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "5f9ed9634682551b9ea1ec5ec72de95a91fb1707",
+      "sourcePackageVersion": "1.530.1",
+      "intentIds": [
+        "automation-needs-fixed-ip:e0e064d86bfaaddc93e7e7c445a68f56554c027f6f425a58f6ff64627041ad93"
+      ]
     }
   ],
   "intents": [
@@ -167680,6 +167687,14 @@
       "summary": "Terminal's cloud dictation now uses the multipart body, refusal parsing and cloud-access rule it shares with the web app; dictation behaves as before. The new-chat model chip now truncates its label when the composer row is tight, so its sponsor badge no longer slides under the mic.",
       "sourceSha": "7ce90a070008781c81b0e447cfe03ecbb295dbcb",
       "identity": "web-dictation-shared-helpers:ec20d94fe75377789c076c9e5a6ca7d048a24286cb15c36b5ad60d826ff529e7"
+    },
+    {
+      "id": "automation-needs-fixed-ip",
+      "digest": "e0e064d86bfaaddc93e7e7c445a68f56554c027f6f425a58f6ff64627041ad93",
+      "type": "patch",
+      "summary": "Automation settings show the \"Needs fixed IP\" card when the organization has a fixed egress IP: admins mark an automation as needing it, see the IP to allowlist, and its run location locks to Cloud.",
+      "sourceSha": "5f9ed9634682551b9ea1ec5ec72de95a91fb1707",
+      "identity": "automation-needs-fixed-ip:e0e064d86bfaaddc93e7e7c445a68f56554c027f6f425a58f6ff64627041ad93"
     }
   ],
   "consumedIntentIds": [
