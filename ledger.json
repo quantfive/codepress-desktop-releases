@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "0e3dc5f0639778c73b0a82d3d22233dca603f25d",
-  "highWaterVersion": "1.518.8",
+  "highWaterVersion": "1.518.9",
   "rows": [
     {
       "schemaVersion": 1,
@@ -86398,6 +86398,50 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:0e3dc5f0639778c73b0a82d3d22233dca603f25d",
+      "kind": "main",
+      "sequence": 2255,
+      "sourceSha": "0e3dc5f0639778c73b0a82d3d22233dca603f25d",
+      "sourcePackageVersion": "1.530.22",
+      "version": "1.518.9",
+      "publicationDate": "2026-11-11T11:12:33.978Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "signed-out-side-nav-sign-in:b6880eb378ae0d16e7b869bba2577abb7a8e636cae91dd2ed317795024e4fff6"
+        ],
+        "notesIntentIds": [
+          "terminal-dead-browser-authority-core:c091b1ef411e0ba0b3f7c46ea8d365835ad5e82571ef116292a61bf2408c7163",
+          "signed-out-side-nav-sign-in:b6880eb378ae0d16e7b869bba2577abb7a8e636cae91dd2ed317795024e4fff6"
+        ],
+        "throughSourceSha": "0e3dc5f0639778c73b0a82d3d22233dca603f25d",
+        "previousThroughSourceSha": "8715d36f889ec56c7310a2775a212421d3347152",
+        "baselineVersion": "1.518.8",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43009938726",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-12T11:12:26.959Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -170465,7 +170509,8 @@
     "managed-app-change-preview:bfc516b32586c3639be89a413aecd83c6e33fb5564ecde349fc38687b45f627d",
     "sync-flags-one-answer-per-machine:1cd082cb2e5deec956977a0e6c44ebf715f90417d39b607e0b196744d52e24f8",
     "terminal-dead-native-commands:efbc3b5081d861945e7e860e2ec77cb3e72e686f9f9295a7b98e1157181c98df",
-    "terminal-dead-browser-authority-core:c091b1ef411e0ba0b3f7c46ea8d365835ad5e82571ef116292a61bf2408c7163"
+    "terminal-dead-browser-authority-core:c091b1ef411e0ba0b3f7c46ea8d365835ad5e82571ef116292a61bf2408c7163",
+    "signed-out-side-nav-sign-in:b6880eb378ae0d16e7b869bba2577abb7a8e636cae91dd2ed317795024e4fff6"
   ],
-  "consumedThroughSha": "8715d36f889ec56c7310a2775a212421d3347152"
+  "consumedThroughSha": "0e3dc5f0639778c73b0a82d3d22233dca603f25d"
 }
