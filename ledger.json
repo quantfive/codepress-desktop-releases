@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "870d20d0481922a47b2e4971e850fa91a48694e6",
+  "cursorSha": "77e7b58e0f040967941042dba754aa2feca0c7ac",
   "highWaterVersion": "1.517.7",
   "rows": [
     {
@@ -159141,6 +159141,18 @@
       "sourceSha": "870d20d0481922a47b2e4971e850fa91a48694e6",
       "sourcePackageVersion": "1.530.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c3c64af42b475fed42ea68a028afef1dafe9fb8e",
+      "sourcePackageVersion": "1.530.8",
+      "intentIds": [
+        "terminal-verified-node-download:fc7f75c4a653ff46adec77f69127e6bee6ce3ce6af3b1a76d9b6ffefc6968cc9"
+      ]
+    },
+    {
+      "sourceSha": "77e7b58e0f040967941042dba754aa2feca0c7ac",
+      "sourcePackageVersion": "1.530.9",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -168015,6 +168027,14 @@
       "summary": "A stopped worker launch queue no longer launches a queued worker, and attaching a pull request no longer pauses Terminal's server while it reads the repository's remote.",
       "sourceSha": "50c77fa6c826040d401c19ace710d1fe7a61b6b4",
       "identity": "fleet-admission-stop-async-remote:120c18d4ce573f4e5020f83f587e04f27fcc64e046cf4e3c9eb681c599812a39"
+    },
+    {
+      "id": "terminal-verified-node-download",
+      "digest": "fc7f75c4a653ff46adec77f69127e6bee6ce3ce6af3b1a76d9b6ffefc6968cc9",
+      "type": "patch",
+      "summary": "Terminal now checks the Node.js runtime it downloads against a pinned SHA-256 from nodejs.org before unpacking or running it, and refuses an archive that does not match while keeping the existing runtime. Unpacking and starting the server no longer run on the app's async worker threads, and staging folders left behind by a crashed download are cleaned up after an hour.",
+      "sourceSha": "c3c64af42b475fed42ea68a028afef1dafe9fb8e",
+      "identity": "terminal-verified-node-download:fc7f75c4a653ff46adec77f69127e6bee6ce3ce6af3b1a76d9b6ffefc6968cc9"
     }
   ],
   "consumedIntentIds": [
