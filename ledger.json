@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "810de796c8b3e0ccd4fc46b323cc6811758fda38",
+  "cursorSha": "f7358074cf200837708f5ca01015a48a56bcd1b2",
   "highWaterVersion": "1.518.0",
   "rows": [
     {
@@ -159292,6 +159292,18 @@
       "sourceSha": "810de796c8b3e0ccd4fc46b323cc6811758fda38",
       "sourcePackageVersion": "1.530.9",
       "intentIds": []
+    },
+    {
+      "sourceSha": "93925c945e894b22f83a9534f657e5a4d1c9caf8",
+      "sourcePackageVersion": "1.530.9",
+      "intentIds": [
+        "terminal-renderer-unused-plugin-grants:815881d6e32a73e2c08a2ab6a228143cf6845348c5dee71438301b77d9e429ce"
+      ]
+    },
+    {
+      "sourceSha": "f7358074cf200837708f5ca01015a48a56bcd1b2",
+      "sourcePackageVersion": "1.530.10",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -168182,6 +168194,14 @@
       "summary": "The sign-in token, signed-in user and telemetry storage keys are now defined once and shared by every part of Terminal that reads them. Nothing changes for you: the values are the same, so you stay signed in and your telemetry choice is kept after the update.",
       "sourceSha": "39c147e0b26f38c95e2e8ea0b346b54e73fa188a",
       "identity": "renderer-storage-keys-one-source:d240a6113fb676c33f46ca9037736addd69bf7cae2bccb2c76a12b9e2b2a8e11"
+    },
+    {
+      "id": "terminal-renderer-unused-plugin-grants",
+      "digest": "815881d6e32a73e2c08a2ab6a228143cf6845348c5dee71438301b77d9e429ce",
+      "type": "patch",
+      "summary": "Terminal's local windows no longer hold the process, store and updater plugin permissions or the shell spawn and execute permissions, none of which they used. Opening links and installing updates work as before.",
+      "sourceSha": "93925c945e894b22f83a9534f657e5a4d1c9caf8",
+      "identity": "terminal-renderer-unused-plugin-grants:815881d6e32a73e2c08a2ab6a228143cf6845348c5dee71438301b77d9e429ce"
     }
   ],
   "consumedIntentIds": [
