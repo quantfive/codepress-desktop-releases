@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3fac5bc9c516d647f518e52b461948812733f682",
+  "cursorSha": "c5f8eb079ea66a81fcc730e42cdc59482011b33e",
   "highWaterVersion": "1.517.7",
   "rows": [
     {
@@ -158986,6 +158986,13 @@
       "sourceSha": "3fac5bc9c516d647f518e52b461948812733f682",
       "sourcePackageVersion": "1.530.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c5f8eb079ea66a81fcc730e42cdc59482011b33e",
+      "sourcePackageVersion": "1.530.5",
+      "intentIds": [
+        "handoff-picker-never-blocks:c2fc480670ea514467c0a39ec8d658a503d497ae515807f9e75ea5795627a5c4"
+      ]
     }
   ],
   "intents": [
@@ -167820,6 +167827,14 @@
       "summary": "The Hand off dialog's check now answers in seconds, even on a busy machine with several workers running. It no longer reads every worker's conversation or opens a login shell for each one, and it stops working as soon as you close the dialog or pick another destination. The move itself runs the same checks as before.",
       "sourceSha": "c3edac1d415243d3742ff780f59d0b1c9e708f77",
       "identity": "terminal-light-handoff-preview:12d75b28b041297dae9dfcddcd30ab9fcdeeabe9ebdcf948424f1725381ab9f1"
+    },
+    {
+      "id": "handoff-picker-never-blocks",
+      "digest": "c2fc480670ea514467c0a39ec8d658a503d497ae515807f9e75ea5795627a5c4",
+      "type": "patch",
+      "summary": "Hand off: choosing a machine makes Hand off usable at once. The pre-move check fills one fixed-height line under the tiles (\"Checking the move\", a calm line for a busy machine, \"Check again\" when it gives up), a disabled button says why, tiles line up across a row, the ring starts on the Suggested machine, and arrowing across tiles asks about the last one only.",
+      "sourceSha": "c5f8eb079ea66a81fcc730e42cdc59482011b33e",
+      "identity": "handoff-picker-never-blocks:c2fc480670ea514467c0a39ec8d658a503d497ae515807f9e75ea5795627a5c4"
     }
   ],
   "consumedIntentIds": [
