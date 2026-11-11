@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "b182ab341eda080916a16f99f492e565b0c67e9b",
-  "highWaterVersion": "1.518.3",
+  "highWaterVersion": "1.518.4",
   "rows": [
     {
       "schemaVersion": 1,
@@ -86116,6 +86116,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:b182ab341eda080916a16f99f492e565b0c67e9b",
+      "kind": "main",
+      "sequence": 2250,
+      "sourceSha": "b182ab341eda080916a16f99f492e565b0c67e9b",
+      "sourcePackageVersion": "1.530.16",
+      "version": "1.518.4",
+      "publicationDate": "2026-11-11T08:16:06.441Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "core-flow-e2e-wording:194ef851a00c2661139a2e933e47f69660f56351e70cac08aa9ea1283de6a13b"
+        ],
+        "notesIntentIds": [
+          "core-flow-e2e-wording:194ef851a00c2661139a2e933e47f69660f56351e70cac08aa9ea1283de6a13b"
+        ],
+        "throughSourceSha": "b182ab341eda080916a16f99f492e565b0c67e9b",
+        "previousThroughSourceSha": "38b8c1557d394189b98296a8a2d133db5e0a1ed4",
+        "baselineVersion": "1.518.3",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "42985459712",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-12T08:15:59.268Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -169817,7 +169860,8 @@
     "dictation-retry-keeps-clip:f012cc0802dc53c67063677b191ce07b4abeeaf22e50ca0b0471b3314c90de90",
     "device-signing-cause:03498f9fb9cbf9fddf5d649e625475baf52afe5ab7a283e566a26909788b2102",
     "feed-row-time-matches-sort:28f711e9665664c23a7706e760b4d2bb7d0798dbe391d07d9367c58ffc587b1e",
-    "set-aside-one-look-per-machine:aa297e9c413d212ed72df1da0f5349990ceb6de2a0e8d811baeef46e8a76588c"
+    "set-aside-one-look-per-machine:aa297e9c413d212ed72df1da0f5349990ceb6de2a0e8d811baeef46e8a76588c",
+    "core-flow-e2e-wording:194ef851a00c2661139a2e933e47f69660f56351e70cac08aa9ea1283de6a13b"
   ],
-  "consumedThroughSha": "38b8c1557d394189b98296a8a2d133db5e0a1ed4"
+  "consumedThroughSha": "b182ab341eda080916a16f99f492e565b0c67e9b"
 }
