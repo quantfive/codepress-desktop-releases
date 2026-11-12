@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c62115937b1bfbda97da45c4e4cf8b84a16f3067",
+  "cursorSha": "b5090b503d11c4c664d95dd77160948ff691d098",
   "highWaterVersion": "1.530.0",
   "rows": [
     {
@@ -163959,6 +163959,13 @@
       "sourceSha": "c62115937b1bfbda97da45c4e4cf8b84a16f3067",
       "sourcePackageVersion": "1.543.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b5090b503d11c4c664d95dd77160948ff691d098",
+      "sourcePackageVersion": "1.543.2",
+      "intentIds": [
+        "interactions-default-app:4a550bbc08ff2840517dbd409129b67c5a8e395fe67b3655854c2d89ac9c6cf7"
+      ]
     }
   ],
   "intents": [
@@ -173417,6 +173424,14 @@
       "summary": "Managed Apps opened on an App page record content-free Interactions into the organization's Apps project when this machine's telemetry setting is on.",
       "sourceSha": "9bbbedafc5ad884a7cf2c8add667ed2bd66bfd91",
       "identity": "managed-app-interactions:06d84cdc9efb9c2e78174d5874e301fd9b439e2458e5a2c973c9758510434521"
+    },
+    {
+      "id": "interactions-default-app",
+      "digest": "4a550bbc08ff2840517dbd409129b67c5a8e395fe67b3655854c2d89ac9c6cf7",
+      "type": "patch",
+      "summary": "An App collection's Interactions App now opens on its own page: the App UI Fixer switch and runs, the findings of the App it reports on, and a link to that App's screens.",
+      "sourceSha": "b5090b503d11c4c664d95dd77160948ff691d098",
+      "identity": "interactions-default-app:4a550bbc08ff2840517dbd409129b67c5a8e395fe67b3655854c2d89ac9c6cf7"
     }
   ],
   "consumedIntentIds": [
