@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e0795c2c462539ae5b0aef9824ecff0091b2df79",
+  "cursorSha": "899061481168195299f3b7a3d9c66f40473d29f4",
   "highWaterVersion": "1.527.3",
   "rows": [
     {
@@ -163493,6 +163493,13 @@
       "sourceSha": "e0795c2c462539ae5b0aef9824ecff0091b2df79",
       "sourcePackageVersion": "1.541.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "899061481168195299f3b7a3d9c66f40473d29f4",
+      "sourcePackageVersion": "1.541.0",
+      "intentIds": [
+        "automation-jobs-running-list:a837c43f4a4a4852dea7a6d792dd9d2d37bc82b44d1546702a34a054091bc67d"
+      ]
     }
   ],
   "intents": [
@@ -172879,6 +172886,14 @@
       "summary": "Plans: while editing a plan page, a Page / HTML switch shows the page's HTML source beside a live preview (full width on a phone, with a Preview toggle), so you can add sections, fix markup or paste HTML; Save sends the source exactly as typed.",
       "sourceSha": "86a7e339edfdff9ca9fca44b9babc833b3cf84fa",
       "identity": "plan-page-html-view:f8c9dd853d703b461984dd59be03570f91a6d557f1669d910c5e32a4073506f3"
+    },
+    {
+      "id": "automation-jobs-running-list",
+      "digest": "a837c43f4a4a4852dea7a6d792dd9d2d37bc82b44d1546702a34a054091bc67d",
+      "type": "patch",
+      "summary": "Settings → CodePress app now lists the automations running on this machine under \"Run my automations on this machine\", with how long each has run and the last few that ended, each with a link to open it on the web. The CodePress app item in the Settings list shows a small dot while one runs.",
+      "sourceSha": "899061481168195299f3b7a3d9c66f40473d29f4",
+      "identity": "automation-jobs-running-list:a837c43f4a4a4852dea7a6d792dd9d2d37bc82b44d1546702a34a054091bc67d"
     }
   ],
   "consumedIntentIds": [
