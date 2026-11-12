@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "a7c938b6fb3fadbb0fb649e507dab538090e089c",
-  "highWaterVersion": "1.520.1",
+  "highWaterVersion": "1.521.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -87620,6 +87620,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:a7c938b6fb3fadbb0fb649e507dab538090e089c",
+      "kind": "main",
+      "sequence": 2275,
+      "sourceSha": "a7c938b6fb3fadbb0fb649e507dab538090e089c",
+      "sourcePackageVersion": "1.532.1",
+      "version": "1.521.0",
+      "publicationDate": "2026-11-12T01:08:43.605Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "app-add-workspace:fb1c786231bd297128568b658c598fd1bbe49136f8520368f7046afc73ba53bb"
+        ],
+        "notesIntentIds": [
+          "app-add-workspace:fb1c786231bd297128568b658c598fd1bbe49136f8520368f7046afc73ba53bb"
+        ],
+        "throughSourceSha": "a7c938b6fb3fadbb0fb649e507dab538090e089c",
+        "previousThroughSourceSha": "53245e071fe6d6122ca92d9d2135669a9ec72acb",
+        "baselineVersion": "1.520.1",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43132334021",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-13T01:08:36.795Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -172829,7 +172872,8 @@
     "composer-add-secret-in-plus-menu:d047d4303c82935e46a2b4a989ae7a33af0e1e6af6e7304b5c0e5a1fa95a8f16",
     "native-start-unlocked:4ca6bdf093c3ea2e57f17e6c558e29821f77f074d370671fa19e6e2a78997039",
     "app-onboarding-served-paths:4f92baa999283c2bb07f45af755c9e2e724bd324fd0822df17474c7e6cb0e837",
-    "whatsapp-guided-setup:a52431fad072810026071e8f2bac098a9d3700c1cbefd87c79837803c259f110"
+    "whatsapp-guided-setup:a52431fad072810026071e8f2bac098a9d3700c1cbefd87c79837803c259f110",
+    "app-add-workspace:fb1c786231bd297128568b658c598fd1bbe49136f8520368f7046afc73ba53bb"
   ],
-  "consumedThroughSha": "53245e071fe6d6122ca92d9d2135669a9ec72acb"
+  "consumedThroughSha": "a7c938b6fb3fadbb0fb649e507dab538090e089c"
 }
