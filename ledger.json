@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "6fb519d5b6da967fb82b3f11133c4d2aa5fef08c",
-  "highWaterVersion": "1.530.0",
+  "highWaterVersion": "1.530.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -88575,6 +88575,55 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:6fb519d5b6da967fb82b3f11133c4d2aa5fef08c",
+      "kind": "main",
+      "sequence": 2292,
+      "sourceSha": "6fb519d5b6da967fb82b3f11133c4d2aa5fef08c",
+      "sourcePackageVersion": "1.543.4",
+      "version": "1.530.1",
+      "publicationDate": "2026-11-12T09:28:04.045Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "mobile-app-file-save:fb99969cb6059733fbc122db61422c1aaf84232a7823361e9073ec164996542f",
+          "managed-app-interactions:06d84cdc9efb9c2e78174d5874e301fd9b439e2458e5a2c973c9758510434521",
+          "interactions-default-app:4a550bbc08ff2840517dbd409129b67c5a8e395fe67b3655854c2d89ac9c6cf7",
+          "on-this-mac-rail-tab:919be8780cbfe077efcf9653d718937cc32ea1f9df7492990f24be1e9c5c5c36"
+        ],
+        "notesIntentIds": [
+          "mobile-app-file-save:fb99969cb6059733fbc122db61422c1aaf84232a7823361e9073ec164996542f",
+          "managed-app-interactions:06d84cdc9efb9c2e78174d5874e301fd9b439e2458e5a2c973c9758510434521",
+          "interactions-default-app:4a550bbc08ff2840517dbd409129b67c5a8e395fe67b3655854c2d89ac9c6cf7",
+          "on-this-mac-rail-tab:919be8780cbfe077efcf9653d718937cc32ea1f9df7492990f24be1e9c5c5c36"
+        ],
+        "throughSourceSha": "6fb519d5b6da967fb82b3f11133c4d2aa5fef08c",
+        "previousThroughSourceSha": "b0de8e559b08379a826d958d98425d5f2b68f1b5",
+        "baselineVersion": "1.530.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43189705300",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-13T09:27:55.989Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -174667,7 +174716,11 @@
     "settings-tree-owners:f61b1b15c4693d3a6de201db3d055a8d1c55f28e250cf9f3a669d966ec480a69",
     "ci-runners-default-app:5a8ec6102b61ef61d4a63904f39769151c6e4ce836619ab4509a8d6cca73f5fc",
     "app-environment-variable-suggestions:ca17a58073c2961961edad8842ed5dbf1909365e72374934386864863ba9f32e",
-    "whatsapp-first-message:910b3337e9788de959b95a777bc7186f836f10b57c08f709265daf680d8bf11f"
+    "whatsapp-first-message:910b3337e9788de959b95a777bc7186f836f10b57c08f709265daf680d8bf11f",
+    "mobile-app-file-save:fb99969cb6059733fbc122db61422c1aaf84232a7823361e9073ec164996542f",
+    "managed-app-interactions:06d84cdc9efb9c2e78174d5874e301fd9b439e2458e5a2c973c9758510434521",
+    "interactions-default-app:4a550bbc08ff2840517dbd409129b67c5a8e395fe67b3655854c2d89ac9c6cf7",
+    "on-this-mac-rail-tab:919be8780cbfe077efcf9653d718937cc32ea1f9df7492990f24be1e9c5c5c36"
   ],
-  "consumedThroughSha": "b0de8e559b08379a826d958d98425d5f2b68f1b5"
+  "consumedThroughSha": "6fb519d5b6da967fb82b3f11133c4d2aa5fef08c"
 }
