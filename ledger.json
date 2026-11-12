@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "870beb44b79a870f66d22ac6ad0c51afe868dcae",
-  "highWaterVersion": "1.534.1",
+  "highWaterVersion": "1.535.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -89243,6 +89243,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:870beb44b79a870f66d22ac6ad0c51afe868dcae",
+      "kind": "main",
+      "sequence": 2304,
+      "sourceSha": "870beb44b79a870f66d22ac6ad0c51afe868dcae",
+      "sourcePackageVersion": "1.548.0",
+      "version": "1.535.0",
+      "publicationDate": "2026-11-12T19:09:56.009Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "personal-settings-follow-you:e69dba77e4f9df7475d68ebf7b1d37233b1909706b48378160cf16f79ce106a0"
+        ],
+        "notesIntentIds": [
+          "personal-settings-follow-you:e69dba77e4f9df7475d68ebf7b1d37233b1909706b48378160cf16f79ce106a0"
+        ],
+        "throughSourceSha": "870beb44b79a870f66d22ac6ad0c51afe868dcae",
+        "previousThroughSourceSha": "82911f5209594c9af370f35874b0e6237443fa9a",
+        "baselineVersion": "1.534.1",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43287140084",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-13T19:09:48.283Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -175851,7 +175894,8 @@
     "you-one-page-per-topic:a9cf012f7492ed6bd14e7c7559a8d3fb84193f7fe7e312b30cd4f05fcec6995f",
     "this-computer-six-tabs:40cbb3b643e5cbbe4c9b5424f119d5c741f82e71da56ca78cf3da9f725b64078",
     "artifact-share-link:5d9770de347e812a2dce6394c358b4f0b238380740936f7a28be3dcff66aca2c",
-    "shared-onboarding-shell:e8add1df715f7075f9cf1887ee746fe7d000093a998f3cdab6504e7509c18f88"
+    "shared-onboarding-shell:e8add1df715f7075f9cf1887ee746fe7d000093a998f3cdab6504e7509c18f88",
+    "personal-settings-follow-you:e69dba77e4f9df7475d68ebf7b1d37233b1909706b48378160cf16f79ce106a0"
   ],
-  "consumedThroughSha": "82911f5209594c9af370f35874b0e6237443fa9a"
+  "consumedThroughSha": "870beb44b79a870f66d22ac6ad0c51afe868dcae"
 }
