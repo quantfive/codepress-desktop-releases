@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "086493de553470a56dc386dffc3f0e81dfdf3297",
-  "highWaterVersion": "1.519.2",
+  "highWaterVersion": "1.520.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -87510,6 +87510,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:086493de553470a56dc386dffc3f0e81dfdf3297",
+      "kind": "main",
+      "sequence": 2273,
+      "sourceSha": "086493de553470a56dc386dffc3f0e81dfdf3297",
+      "sourcePackageVersion": "1.532.0",
+      "version": "1.520.0",
+      "publicationDate": "2026-11-12T00:12:33.881Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "app-onboarding-served-paths:4f92baa999283c2bb07f45af755c9e2e724bd324fd0822df17474c7e6cb0e837"
+        ],
+        "notesIntentIds": [
+          "app-onboarding-served-paths:4f92baa999283c2bb07f45af755c9e2e724bd324fd0822df17474c7e6cb0e837"
+        ],
+        "throughSourceSha": "086493de553470a56dc386dffc3f0e81dfdf3297",
+        "previousThroughSourceSha": "9696c7f709b7de418df8460a7b507f6a826df67e",
+        "baselineVersion": "1.519.2",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43125434262",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-13T00:12:27.014Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -172647,7 +172690,8 @@
     "secret-cards-checked-at-home:cf50a85ea50f80fe3bb94cfd49191424125a965517dd915e5438ec0c4e7da64d",
     "plan-page-hand-edit-save:c9f8f4f22d032f47400304a55f0fe42d5559ed74283c8d695e0a50e30d928278",
     "composer-add-secret-in-plus-menu:d047d4303c82935e46a2b4a989ae7a33af0e1e6af6e7304b5c0e5a1fa95a8f16",
-    "native-start-unlocked:4ca6bdf093c3ea2e57f17e6c558e29821f77f074d370671fa19e6e2a78997039"
+    "native-start-unlocked:4ca6bdf093c3ea2e57f17e6c558e29821f77f074d370671fa19e6e2a78997039",
+    "app-onboarding-served-paths:4f92baa999283c2bb07f45af755c9e2e724bd324fd0822df17474c7e6cb0e837"
   ],
-  "consumedThroughSha": "9696c7f709b7de418df8460a7b507f6a826df67e"
+  "consumedThroughSha": "086493de553470a56dc386dffc3f0e81dfdf3297"
 }
