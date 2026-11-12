@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "5e20d0014e2eb1910800c06e2d84ad391fa5b5e6",
-  "highWaterVersion": "1.525.1",
+  "highWaterVersion": "1.526.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -88007,6 +88007,53 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:5e20d0014e2eb1910800c06e2d84ad391fa5b5e6",
+      "kind": "main",
+      "sequence": 2282,
+      "sourceSha": "5e20d0014e2eb1910800c06e2d84ad391fa5b5e6",
+      "sourcePackageVersion": "1.538.2",
+      "version": "1.526.0",
+      "publicationDate": "2026-11-12T04:21:13.238Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "design-kit-page-sources:5b80c2f4db47a81e9d3707fa31b15d29986bee52ad4c19b69d5cc5bcda2dc980",
+          "mention-menu-opens-up:e30eae39f4d9766a2211f8d77df3f032386f04b40eac75c3ac60dfc55f16fbbc",
+          "app-environment-variables-panel:8ac16cecd232850bf32c533818903158abc3c789e34df4583f70fcc58fc5cad7"
+        ],
+        "notesIntentIds": [
+          "design-kit-page-sources:5b80c2f4db47a81e9d3707fa31b15d29986bee52ad4c19b69d5cc5bcda2dc980",
+          "mention-menu-opens-up:e30eae39f4d9766a2211f8d77df3f032386f04b40eac75c3ac60dfc55f16fbbc",
+          "app-environment-variables-panel:8ac16cecd232850bf32c533818903158abc3c789e34df4583f70fcc58fc5cad7"
+        ],
+        "throughSourceSha": "5e20d0014e2eb1910800c06e2d84ad391fa5b5e6",
+        "previousThroughSourceSha": "ceb3970e1eda9a6ab959ee5c646d851a65da061a",
+        "baselineVersion": "1.525.1",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43154170688",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-13T04:21:06.303Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -173579,7 +173626,10 @@
     "automation-allow-card:91d58b2d1a5fc15ddc9510d2e4a537603bd598839efd0f6e26c276e57dc95229",
     "plan-page-edit-mode:d130ed261af930f6270d687d363bb23f1a7ee1c39127ed0d2533122c39fb87ed",
     "app-onboarding-replay:b4cb379d8300a32cd7406ed08896b5c03984a10f222e941aadc39c4e8743ee18",
-    "add-workspace-resume-saved-step:42008f715ae6097679ca361b69aecfe58d8f88f39412b38a34710348864357e0"
+    "add-workspace-resume-saved-step:42008f715ae6097679ca361b69aecfe58d8f88f39412b38a34710348864357e0",
+    "design-kit-page-sources:5b80c2f4db47a81e9d3707fa31b15d29986bee52ad4c19b69d5cc5bcda2dc980",
+    "mention-menu-opens-up:e30eae39f4d9766a2211f8d77df3f032386f04b40eac75c3ac60dfc55f16fbbc",
+    "app-environment-variables-panel:8ac16cecd232850bf32c533818903158abc3c789e34df4583f70fcc58fc5cad7"
   ],
-  "consumedThroughSha": "ceb3970e1eda9a6ab959ee5c646d851a65da061a"
+  "consumedThroughSha": "5e20d0014e2eb1910800c06e2d84ad391fa5b5e6"
 }
