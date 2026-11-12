@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "76bd911af8566f9ad7036bc61412932940e92bd1",
+  "cursorSha": "59994304ef7db63c506d42cb7c6bbf85c8b570b7",
   "highWaterVersion": "1.527.2",
   "rows": [
     {
@@ -163409,6 +163409,18 @@
       "sourceSha": "76bd911af8566f9ad7036bc61412932940e92bd1",
       "sourcePackageVersion": "1.540.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "cfcf7a08267355955aa1dd17d5e67035ebdd86a1",
+      "sourcePackageVersion": "1.540.2",
+      "intentIds": [
+        "whatsapp-number-disconnect-release:cbf07a38fd70d09b266297c4d32be3d89a489da44c738fb1caa2b3778c7bca09"
+      ]
+    },
+    {
+      "sourceSha": "59994304ef7db63c506d42cb7c6bbf85c8b570b7",
+      "sourcePackageVersion": "1.540.2",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -172779,6 +172791,14 @@
       "summary": "Settings → My computers now sends computer updates through the shared update code that the web's machine menu also uses. Nothing changes in Terminal: its My computers page and machine menu look and behave as before, and the update badge stays in the title bar.",
       "sourceSha": "e7065e80211640db89aecc7606085f412712d87b",
       "identity": "machine-menu-update-shared-hook:82a1cf607c0fc4d83859c88327f00852d2782da0f6be036d4e21433f53ba508c"
+    },
+    {
+      "id": "whatsapp-number-disconnect-release",
+      "digest": "cbf07a38fd70d09b266297c4d32be3d89a489da44c738fb1caa2b3778c7bca09",
+      "type": "patch",
+      "summary": "WhatsApp settings: disconnecting a number now asks for confirmation and says whether the number is released for good, and paused numbers show why and how to turn them back on.",
+      "sourceSha": "cfcf7a08267355955aa1dd17d5e67035ebdd86a1",
+      "identity": "whatsapp-number-disconnect-release:cbf07a38fd70d09b266297c4d32be3d89a489da44c738fb1caa2b3778c7bca09"
     }
   ],
   "consumedIntentIds": [
