@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "65e9bd01f0dd2751c942e5cededa27191f7df585",
+  "cursorSha": "1eac36e073e5a633025aee23aa70518bd8aabe46",
   "highWaterVersion": "1.536.0",
   "rows": [
     {
@@ -165579,6 +165579,13 @@
       "sourceSha": "65e9bd01f0dd2751c942e5cededa27191f7df585",
       "sourcePackageVersion": "1.549.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "1eac36e073e5a633025aee23aa70518bd8aabe46",
+      "sourcePackageVersion": "1.549.1",
+      "intentIds": [
+        "drain-take-no-new-automations:b12dc76a35146467af9f81739f74d5c0440bc073cd8ab8e2222d2eb7b741abd6"
+      ]
     }
   ],
   "intents": [
@@ -175205,6 +175212,14 @@
       "summary": "A synced copy now offers Gemini for the Orchestrator and the workers when its home machine's Antigravity CLI (`agy`) can run it. The home sends its own Gemini status with the settings, and the copy's model menu and Project settings name the home machine, including when it must sign in there.",
       "sourceSha": "b5088a95d6ac6f1e92b0b10998cc73fb128eea71",
       "identity": "gemini-on-synced-copies:10adfe8a513f080d1fecebba0f029460ab27c14e20b694dec86fb3fd37b93dcc"
+    },
+    {
+      "id": "drain-take-no-new-automations",
+      "digest": "b12dc76a35146467af9f81739f74d5c0440bc073cd8ab8e2222d2eb7b741abd6",
+      "type": "minor",
+      "summary": "Add \"Take no new automations\" to the \"On this Mac\" tab and Settings → This computer: the machine stops taking new automation runs while what already runs there finishes, and new runs go to your other machines or the cloud.",
+      "sourceSha": "1eac36e073e5a633025aee23aa70518bd8aabe46",
+      "identity": "drain-take-no-new-automations:b12dc76a35146467af9f81739f74d5c0440bc073cd8ab8e2222d2eb7b741abd6"
     }
   ],
   "consumedIntentIds": [
