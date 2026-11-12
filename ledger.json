@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5087c7b947ba96bd48f1e36157e2465317aea9d6",
+  "cursorSha": "cc5bc74e0664b378bd21bc78686724331081d1ce",
   "highWaterVersion": "1.523.0",
   "rows": [
     {
@@ -162760,6 +162760,13 @@
       "sourceSha": "5087c7b947ba96bd48f1e36157e2465317aea9d6",
       "sourcePackageVersion": "1.535.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "cc5bc74e0664b378bd21bc78686724331081d1ce",
+      "sourcePackageVersion": "1.535.0",
+      "intentIds": [
+        "automation-allow-card:91d58b2d1a5fc15ddc9510d2e4a537603bd598839efd0f6e26c276e57dc95229"
+      ]
     }
   ],
   "intents": [
@@ -172050,6 +172057,14 @@
       "summary": "For people served web onboarding v2, the app's full setup now includes web v2's Connect GitHub, Choose a plan and Invite your team steps, between Connect your accounts and the permission screen. Team checkout opens in the browser, and the app confirms the plan when the person comes back. A draft saved on one of these steps resumes on it. Nobody outside the flag sees a change.",
       "sourceSha": "6b0bd9ea4f48398097d4ff479d632232447d208b",
       "identity": "app-onboarding-full-setup-steps:a3f4b489adb44fc41e1cb183d22b65f440e1830f2a6589da9b673f5b025e9114"
+    },
+    {
+      "id": "automation-allow-card",
+      "digest": "91d58b2d1a5fc15ddc9510d2e4a537603bd598839efd0f6e26c276e57dc95229",
+      "type": "minor",
+      "summary": "When an automation tried to run on this machine and went to the cloud, Terminal now shows a notification and a card in the main window naming it, with one Allow button that opens the password or Touch ID dialog. Notifications are limited to one per automation a day and pause for a week after Decline.",
+      "sourceSha": "cc5bc74e0664b378bd21bc78686724331081d1ce",
+      "identity": "automation-allow-card:91d58b2d1a5fc15ddc9510d2e4a537603bd598839efd0f6e26c276e57dc95229"
     }
   ],
   "consumedIntentIds": [
