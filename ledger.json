@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4fbe8e0adc9edd65cbfc175aafe7ed30cca4b52a",
+  "cursorSha": "df4acd2e10b7f58c293e2208b05e892f9241bdbf",
   "highWaterVersion": "1.520.0",
   "rows": [
     {
@@ -162305,6 +162305,13 @@
       "sourceSha": "4fbe8e0adc9edd65cbfc175aafe7ed30cca4b52a",
       "sourcePackageVersion": "1.532.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "df4acd2e10b7f58c293e2208b05e892f9241bdbf",
+      "sourcePackageVersion": "1.532.0",
+      "intentIds": [
+        "whatsapp-guided-setup:a52431fad072810026071e8f2bac098a9d3700c1cbefd87c79837803c259f110"
+      ]
     }
   ],
   "intents": [
@@ -171555,6 +171562,14 @@
       "summary": "For people served the new onboarding, the app's first run now follows their account after sign-in. Someone already in a finished workspace sees it named on Connect. Someone with an invitation joins first. Someone with no workspace names one, connects accounts, and picks what to do first; Start finishes the workspace's setup. Setup progress is saved on the workspace, so a half-done setup resumes where it stopped, on the web or in the app. Everyone else's first run is unchanged.",
       "sourceSha": "ebce81c03201daa8dd1f97c0949ba5de26a09eee",
       "identity": "app-onboarding-served-paths:4f92baa999283c2bb07f45af755c9e2e724bd324fd0822df17474c7e6cb0e837"
+    },
+    {
+      "id": "whatsapp-guided-setup",
+      "digest": "a52431fad072810026071e8f2bac098a9d3700c1cbefd87c79837803c259f110",
+      "type": "patch",
+      "summary": "WhatsApp settings: adding a number now opens a guided setup page instead of a dialog. It asks who will message the number (your team or your customers) and where the number comes from (a new number or one you already have), shows a summary with the price to check, and then connects the number on the same page. Provider and Meta terms appear only under \"Advanced options\". Back, Forward and reload keep your place.",
+      "sourceSha": "df4acd2e10b7f58c293e2208b05e892f9241bdbf",
+      "identity": "whatsapp-guided-setup:a52431fad072810026071e8f2bac098a9d3700c1cbefd87c79837803c259f110"
     }
   ],
   "consumedIntentIds": [
