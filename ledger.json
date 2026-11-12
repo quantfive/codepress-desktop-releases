@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9d14ea0653aa7a3d6e8cc3f051d49acc2fdc5bc1",
+  "cursorSha": "e4e479a017a40a4e29ee847b0266cc2a41da5636",
   "highWaterVersion": "1.522.0",
   "rows": [
     {
@@ -162546,6 +162546,13 @@
       "sourceSha": "9d14ea0653aa7a3d6e8cc3f051d49acc2fdc5bc1",
       "sourcePackageVersion": "1.534.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e4e479a017a40a4e29ee847b0266cc2a41da5636",
+      "sourcePackageVersion": "1.534.0",
+      "intentIds": [
+        "consent-settings-live:0d781a0cffd3e238916a7b976318432e05cfa620bec71a7fb54ee612bf34ba20"
+      ]
     }
   ],
   "intents": [
@@ -171820,6 +171827,14 @@
       "summary": "The project's owner can answer an Orchestrator's secret cards (Allow, Save, Use a saved secret) from a copy of the project on another machine, the web app or a phone. The change is saved to CodePress under their own login from that device, and the project's machine checks it there before telling the Orchestrator. The card says where the choice goes, what Dismiss leaves undecided, and links to the secret's access in Settings.",
       "sourceSha": "2058bdea393ca2598066beb19103fe80a2d5015c",
       "identity": "answer-secret-cards-from-any-device:447d8f57869e79747b427c8e3e7a938467ebb4c528bdd75b563892cad2ce87a1"
+    },
+    {
+      "id": "consent-settings-live",
+      "digest": "0d781a0cffd3e238916a7b976318432e05cfa620bec71a7fb54ee612bf34ba20",
+      "type": "patch",
+      "summary": "Settings now shows an automation asking to run on this machine the moment it asks: it waits at the top of the CodePress app page under \"Waiting for you\" with an Allow button, and the CodePress app item in the Settings list shows how many are waiting. An allowed automation's row keeps its name instead of turning into its id.",
+      "sourceSha": "e4e479a017a40a4e29ee847b0266cc2a41da5636",
+      "identity": "consent-settings-live:0d781a0cffd3e238916a7b976318432e05cfa620bec71a7fb54ee612bf34ba20"
     }
   ],
   "consumedIntentIds": [
