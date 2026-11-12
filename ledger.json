@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "85ea575b9d7d5aea027d03c1a7379567b49d4659",
+  "cursorSha": "8fce4548474fca68a952e29620a7ca72efc39533",
   "highWaterVersion": "1.535.1",
   "rows": [
     {
@@ -165212,6 +165212,13 @@
       "intentIds": [
         "terminal-vitest-vm-pool:5e35bf72a8fdcd5607ee384a64d907a96ee331b6da5aafd4e3ce956b1de44233"
       ]
+    },
+    {
+      "sourceSha": "8fce4548474fca68a952e29620a7ca72efc39533",
+      "sourcePackageVersion": "1.548.0",
+      "intentIds": [
+        "app-onboarding-shell:87f0586038fc61e4c4fe57eafd7ef7f65359233bcd73e84e7662688accdb22c3"
+      ]
     }
   ],
   "intents": [
@@ -174798,6 +174805,14 @@
       "summary": "Terminal's isolated Vitest projects run on the vmForks pool, so CI spends less CPU starting a process for every test file.",
       "sourceSha": "85ea575b9d7d5aea027d03c1a7379567b49d4659",
       "identity": "terminal-vitest-vm-pool:5e35bf72a8fdcd5607ee384a64d907a96ee331b6da5aafd4e3ce956b1de44233"
+    },
+    {
+      "id": "app-onboarding-shell",
+      "digest": "87f0586038fc61e4c4fe57eafd7ef7f65359233bcd73e84e7662688accdb22c3",
+      "type": "patch",
+      "summary": "People served web onboarding v2 now see the app's onboarding in the same two-column frame as the web after they sign in: a step rail with the workspace and \"Step N of M\", a large title and the web's footer buttons. First run, Add workspace and Replay onboarding all use it; Welcome, Sign in and everyone else's onboarding are unchanged.",
+      "sourceSha": "8fce4548474fca68a952e29620a7ca72efc39533",
+      "identity": "app-onboarding-shell:87f0586038fc61e4c4fe57eafd7ef7f65359233bcd73e84e7662688accdb22c3"
     }
   ],
   "consumedIntentIds": [
