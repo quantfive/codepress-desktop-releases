@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "42c2bcded0478bec48627440a8132dd7520d180a",
+  "cursorSha": "c589553254854f725d627210d79804285e0b5495",
   "highWaterVersion": "1.530.0",
   "rows": [
     {
@@ -163984,6 +163984,13 @@
       "sourceSha": "42c2bcded0478bec48627440a8132dd7520d180a",
       "sourcePackageVersion": "1.543.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c589553254854f725d627210d79804285e0b5495",
+      "sourcePackageVersion": "1.543.3",
+      "intentIds": [
+        "on-this-mac-rail-tab:919be8780cbfe077efcf9653d718937cc32ea1f9df7492990f24be1e9c5c5c36"
+      ]
     }
   ],
   "intents": [
@@ -173450,6 +173457,14 @@
       "summary": "An App collection's Interactions App now opens on its own page: the App UI Fixer switch and runs, the findings of the App it reports on, and a link to that App's screens.",
       "sourceSha": "b5090b503d11c4c664d95dd77160948ff691d098",
       "identity": "interactions-default-app:4a550bbc08ff2840517dbd409129b67c5a8e395fe67b3655854c2d89ac9c6cf7"
+    },
+    {
+      "id": "on-this-mac-rail-tab",
+      "digest": "919be8780cbfe077efcf9653d718937cc32ea1f9df7492990f24be1e9c5c5c36",
+      "type": "patch",
+      "summary": "The unified shell's Agent rail has an \"On this Mac\" tab right after Projects that lists the automations running on this machine and the ones that just ended, with a running dot on the tab.",
+      "sourceSha": "c589553254854f725d627210d79804285e0b5495",
+      "identity": "on-this-mac-rail-tab:919be8780cbfe077efcf9653d718937cc32ea1f9df7492990f24be1e9c5c5c36"
     }
   ],
   "consumedIntentIds": [
