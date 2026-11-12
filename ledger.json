@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4dd3d09bb354dc3ee710c6acacabb414f2587fde",
+  "cursorSha": "84890b973c272d15a827aafbe4465ae52563d8dc",
   "highWaterVersion": "1.535.3",
   "rows": [
     {
@@ -165371,6 +165371,13 @@
       "sourceSha": "4dd3d09bb354dc3ee710c6acacabb414f2587fde",
       "sourcePackageVersion": "1.548.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "84890b973c272d15a827aafbe4465ae52563d8dc",
+      "sourcePackageVersion": "1.548.2",
+      "intentIds": [
+        "agent-card-paced-reads:0f6b4e31054e2e9dc64c23a0aa28e65ee91ac3fb36845dce3d3294a936c3df48"
+      ]
     }
   ],
   "intents": [
@@ -174973,6 +174980,14 @@
       "summary": "The thread composer's model menu offers Gemini 3.8 Flash and Gemini 3.1 Pro under Workers on a project on this machine, as Project settings and the kickoff already do, and the Gemini rows in every model menu drop their extra description line.",
       "sourceSha": "232ad5be38f6ca1618f09063f33654b85833e352",
       "identity": "workers-gemini-thread-menu:24a5bb56ce2f4373b9d2441ef7ffb1456c03d84de5d2d5e27312159db4cd4425"
+    },
+    {
+      "id": "agent-card-paced-reads",
+      "digest": "0f6b4e31054e2e9dc64c23a0aa28e65ee91ac3fb36845dce3d3294a936c3df48",
+      "type": "patch",
+      "summary": "A synced copy's open Agent card reads its worker only when the worker moved, at most once every 15 seconds, and a rate-limit refusal shows a quiet \"Updated … · refreshing again shortly\" line instead of the red banner.",
+      "sourceSha": "84890b973c272d15a827aafbe4465ae52563d8dc",
+      "identity": "agent-card-paced-reads:0f6b4e31054e2e9dc64c23a0aa28e65ee91ac3fb36845dce3d3294a936c3df48"
     }
   ],
   "consumedIntentIds": [
