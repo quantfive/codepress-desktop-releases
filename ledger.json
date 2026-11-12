@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "303785bae01960988d3d22fdafbd4a088768f6ee",
-  "highWaterVersion": "1.531.0",
+  "highWaterVersion": "1.531.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -88748,6 +88748,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:303785bae01960988d3d22fdafbd4a088768f6ee",
+      "kind": "main",
+      "sequence": 2295,
+      "sourceSha": "303785bae01960988d3d22fdafbd4a088768f6ee",
+      "sourcePackageVersion": "1.544.2",
+      "version": "1.531.1",
+      "publicationDate": "2026-11-12T10:32:28.157Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "owner-cloud-copy-artifacts:5e1eaa0047e9505d1852bbde40addbe8be3f9477b94e626b3e83c9b2583d10dc"
+        ],
+        "notesIntentIds": [
+          "owner-cloud-copy-artifacts:5e1eaa0047e9505d1852bbde40addbe8be3f9477b94e626b3e83c9b2583d10dc"
+        ],
+        "throughSourceSha": "303785bae01960988d3d22fdafbd4a088768f6ee",
+        "previousThroughSourceSha": "6055dccf5b4bf95699ba4d110b43a15f0ba776f0",
+        "baselineVersion": "1.531.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43201142146",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-13T10:32:15.919Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -174962,7 +175005,8 @@
     "on-this-mac-rail-tab:919be8780cbfe077efcf9653d718937cc32ea1f9df7492990f24be1e9c5c5c36",
     "terminal-script-test-selection:b09f67e3930ba87cfa63fe78d01327cafde03b35a11c454456e4dbdc4342d977",
     "settings-organization-six:e7c8023ffceb6ed6f2c136b2955f6549c072541a130995898bae953816cb4c81",
-    "terminal-integration-coverage-shadow:9b7dccc539eb93bca2d8ce81375f49dd99d6137c4b285048e8d2970e03222d27"
+    "terminal-integration-coverage-shadow:9b7dccc539eb93bca2d8ce81375f49dd99d6137c4b285048e8d2970e03222d27",
+    "owner-cloud-copy-artifacts:5e1eaa0047e9505d1852bbde40addbe8be3f9477b94e626b3e83c9b2583d10dc"
   ],
-  "consumedThroughSha": "6055dccf5b4bf95699ba4d110b43a15f0ba776f0"
+  "consumedThroughSha": "303785bae01960988d3d22fdafbd4a088768f6ee"
 }
