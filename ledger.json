@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "de054ec4c3bc163415699e5026ba0cf3d90e84ab",
+  "cursorSha": "a7c938b6fb3fadbb0fb649e507dab538090e089c",
   "highWaterVersion": "1.520.1",
   "rows": [
     {
@@ -162392,6 +162392,18 @@
       "sourceSha": "de054ec4c3bc163415699e5026ba0cf3d90e84ab",
       "sourcePackageVersion": "1.532.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ebfe0f87dcff4f64ee0e8ac210fe36e2851734ef",
+      "sourcePackageVersion": "1.532.1",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "a7c938b6fb3fadbb0fb649e507dab538090e089c",
+      "sourcePackageVersion": "1.532.1",
+      "intentIds": [
+        "app-add-workspace:fb1c786231bd297128568b658c598fd1bbe49136f8520368f7046afc73ba53bb"
+      ]
     }
   ],
   "intents": [
@@ -171650,6 +171662,14 @@
       "summary": "WhatsApp settings: adding a number now opens a guided setup page instead of a dialog. It asks who will message the number (your team or your customers) and where the number comes from (a new number or one you already have), shows a summary with the price to check, and then connects the number on the same page. Provider and Meta terms appear only under \"Advanced options\". Back, Forward and reload keep your place.",
       "sourceSha": "df4acd2e10b7f58c293e2208b05e892f9241bdbf",
       "identity": "whatsapp-guided-setup:a52431fad072810026071e8f2bac098a9d3700c1cbefd87c79837803c259f110"
+    },
+    {
+      "id": "app-add-workspace",
+      "digest": "fb1c786231bd297128568b658c598fd1bbe49136f8520368f7046afc73ba53bb",
+      "type": "minor",
+      "summary": "For people served the new onboarding, Add workspace in the app's workspace switcher now creates another workspace right in the app and walks you through its setup: name it, check your accounts, then pick what to do first. The app switches to the new workspace as soon as it exists. Close the setup at any step with ✕ or Escape; the workspace then shows \"Setup not finished\" in the switcher, and picking it reopens the setup where you left off. Everyone else's switcher and Add workspace are unchanged.",
+      "sourceSha": "a7c938b6fb3fadbb0fb649e507dab538090e089c",
+      "identity": "app-add-workspace:fb1c786231bd297128568b658c598fd1bbe49136f8520368f7046afc73ba53bb"
     }
   ],
   "consumedIntentIds": [
