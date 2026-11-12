@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7451dc8f8595b155a981420aaa4f3e35ade07ad1",
+  "cursorSha": "08a8477ee42ec07696f9d0010b2e6c89ba8f25f5",
   "highWaterVersion": "1.529.0",
   "rows": [
     {
@@ -163721,6 +163721,13 @@
       "sourceSha": "7451dc8f8595b155a981420aaa4f3e35ade07ad1",
       "sourcePackageVersion": "1.542.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "08a8477ee42ec07696f9d0010b2e6c89ba8f25f5",
+      "sourcePackageVersion": "1.542.0",
+      "intentIds": [
+        "settings-tree-owners:f61b1b15c4693d3a6de201db3d055a8d1c55f28e250cf9f3a669d966ec480a69"
+      ]
     }
   ],
   "intents": [
@@ -173131,6 +173138,14 @@
       "summary": "Plan canvas: in Edit mode, drag a plan page by its label to a new spot. The move is saved at once, shows on the plan's share link, and the Orchestrator's later publishes keep the person's position.",
       "sourceSha": "b2fd74703cd22d4d85430ddba2ca4516d452b636",
       "identity": "plan-canvas-drag-pages:2a8cff6d92baf88f6625eed7a497cebe8b6e3caaaa1cef5ed80319c551e12768"
+    },
+    {
+      "id": "settings-tree-owners",
+      "digest": "f61b1b15c4693d3a6de201db3d055a8d1c55f28e250cf9f3a669d966ec480a69",
+      "type": "patch",
+      "summary": "Settings groups now read You, Organization and \"This computer · <name>\", and every Settings page shows who owns it with a chip beside its title (\"You · follows you\", \"Organization · set by admins\", \"This computer · <name>\"), with each page's title shown once. The note on Agent accounts saying which choices follow you is readable again in light and dark themes. Messages that pointed to Settings → Account or Computer now name the new groups. Long machine names truncate in the Settings rail.",
+      "sourceSha": "08a8477ee42ec07696f9d0010b2e6c89ba8f25f5",
+      "identity": "settings-tree-owners:f61b1b15c4693d3a6de201db3d055a8d1c55f28e250cf9f3a669d966ec480a69"
     }
   ],
   "consumedIntentIds": [
