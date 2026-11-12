@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "22930821a3914fb9abe057f2a4a2d186f312e697",
-  "highWaterVersion": "1.522.0",
+  "highWaterVersion": "1.522.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -87730,6 +87730,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:22930821a3914fb9abe057f2a4a2d186f312e697",
+      "kind": "main",
+      "sequence": 2277,
+      "sourceSha": "22930821a3914fb9abe057f2a4a2d186f312e697",
+      "sourcePackageVersion": "1.534.1",
+      "version": "1.522.1",
+      "publicationDate": "2026-11-12T01:53:51.752Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "consent-settings-live:0d781a0cffd3e238916a7b976318432e05cfa620bec71a7fb54ee612bf34ba20"
+        ],
+        "notesIntentIds": [
+          "consent-settings-live:0d781a0cffd3e238916a7b976318432e05cfa620bec71a7fb54ee612bf34ba20"
+        ],
+        "throughSourceSha": "22930821a3914fb9abe057f2a4a2d186f312e697",
+        "previousThroughSourceSha": "2058bdea393ca2598066beb19103fe80a2d5015c",
+        "baselineVersion": "1.522.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43137567820",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-13T01:53:45.140Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -173036,7 +173079,8 @@
     "app-onboarding-served-paths:4f92baa999283c2bb07f45af755c9e2e724bd324fd0822df17474c7e6cb0e837",
     "whatsapp-guided-setup:a52431fad072810026071e8f2bac098a9d3700c1cbefd87c79837803c259f110",
     "app-add-workspace:fb1c786231bd297128568b658c598fd1bbe49136f8520368f7046afc73ba53bb",
-    "answer-secret-cards-from-any-device:447d8f57869e79747b427c8e3e7a938467ebb4c528bdd75b563892cad2ce87a1"
+    "answer-secret-cards-from-any-device:447d8f57869e79747b427c8e3e7a938467ebb4c528bdd75b563892cad2ce87a1",
+    "consent-settings-live:0d781a0cffd3e238916a7b976318432e05cfa620bec71a7fb54ee612bf34ba20"
   ],
-  "consumedThroughSha": "2058bdea393ca2598066beb19103fe80a2d5015c"
+  "consumedThroughSha": "22930821a3914fb9abe057f2a4a2d186f312e697"
 }
