@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ceb3970e1eda9a6ab959ee5c646d851a65da061a",
+  "cursorSha": "4d556d200a161ba7338461af21456b6d72d381c6",
   "highWaterVersion": "1.525.1",
   "rows": [
     {
@@ -163027,6 +163027,20 @@
       "sourceSha": "ceb3970e1eda9a6ab959ee5c646d851a65da061a",
       "sourcePackageVersion": "1.538.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2691fe75e782815d114dc96c8758a81d546eb178",
+      "sourcePackageVersion": "1.538.1",
+      "intentIds": [
+        "design-kit-page-sources:5b80c2f4db47a81e9d3707fa31b15d29986bee52ad4c19b69d5cc5bcda2dc980"
+      ]
+    },
+    {
+      "sourceSha": "4d556d200a161ba7338461af21456b6d72d381c6",
+      "sourcePackageVersion": "1.538.1",
+      "intentIds": [
+        "mention-menu-opens-up:e30eae39f4d9766a2211f8d77df3f032386f04b40eac75c3ac60dfc55f16fbbc"
+      ]
     }
   ],
   "intents": [
@@ -172349,6 +172363,22 @@
       "summary": "Add workspace: reopening an unfinished workspace from the switcher now always opens on the step its setup was saved on, instead of sometimes going back to Name.",
       "sourceSha": "b38800d8d8362372713324710acc1747b738aa59",
       "identity": "add-workspace-resume-saved-step:42008f715ae6097679ca361b69aecfe58d8f88f39412b38a34710348864357e0"
+    },
+    {
+      "id": "design-kit-page-sources",
+      "digest": "5b80c2f4db47a81e9d3707fa31b15d29986bee52ad4c19b69d5cc5bcda2dc980",
+      "type": "patch",
+      "summary": "Design kit: page sources. A `pages.source` name lets two configs capture pages into one kit without erasing each other: a capture rewrites only its own source's frames, rows and gap rows, writes its stylesheet to `css/routes--<source>.css`, and fails with exit 2 naming both sources when a page name is already captured by another. Page hooks can return `beforeReady`, which runs once the shell shows and before the page's ready selector. Terminal's own windows (workspace, Settings, an Orchestrator project) are now captured into CodePress's kit with `pnpm design-kit:pages`; nothing in Terminal's app changes.",
+      "sourceSha": "2691fe75e782815d114dc96c8758a81d546eb178",
+      "identity": "design-kit-page-sources:5b80c2f4db47a81e9d3707fa31b15d29986bee52ad4c19b69d5cc5bcda2dc980"
+    },
+    {
+      "id": "mention-menu-opens-up",
+      "digest": "e30eae39f4d9766a2211f8d77df3f032386f04b40eac75c3ac60dfc55f16fbbc",
+      "type": "patch",
+      "summary": "The `@` menu opens above the line on a phone while the keyboard is up, instead of two rows tall under the input.",
+      "sourceSha": "4d556d200a161ba7338461af21456b6d72d381c6",
+      "identity": "mention-menu-opens-up:e30eae39f4d9766a2211f8d77df3f032386f04b40eac75c3ac60dfc55f16fbbc"
     }
   ],
   "consumedIntentIds": [
