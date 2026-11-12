@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "bf9340b9c0ca14243d991ab035ae61d86e3604bc",
+  "cursorSha": "2c433ded73685932bbd9d54d4ee7f96595a887f6",
   "highWaterVersion": "1.531.4",
   "rows": [
     {
@@ -164653,6 +164653,13 @@
       "sourceSha": "bf9340b9c0ca14243d991ab035ae61d86e3604bc",
       "sourcePackageVersion": "1.544.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2c433ded73685932bbd9d54d4ee7f96595a887f6",
+      "sourcePackageVersion": "1.544.5",
+      "intentIds": [
+        "ci-runners-refresh-when-allowed:2cfa7f3071fd42c3210f1c18dd033b53063a2bde0f46b79d154c6388c67c5da4"
+      ]
     }
   ],
   "intents": [
@@ -174183,6 +174190,14 @@
       "summary": "Test tooling only, with no change to the app: Terminal's `isolate: false` Vitest guard now restores env, working directory and exit code through the shared `scripts/vitest-process-state.mjs`, and the network guard contract also runs in a vmForks worker.",
       "sourceSha": "4072b204f0b9648d44f2436a4591da48803c8bfc",
       "identity": "ui-vitest-vm-pool:c313ed71baed04b2ba050cd59297eeebfd5da42334c370ad2e15ec7a8418878d"
+    },
+    {
+      "id": "ci-runners-refresh-when-allowed",
+      "digest": "2cfa7f3071fd42c3210f1c18dd033b53063a2bde0f46b79d154c6388c67c5da4",
+      "type": "patch",
+      "summary": "CI runners: admins can ask a CI machine to refresh its golden VM image (\"Refresh when allowed\") from the Images tab, which lists each request with who asked, when and what came of it. The App also loads its first read when it is opened in a background window.",
+      "sourceSha": "2c433ded73685932bbd9d54d4ee7f96595a887f6",
+      "identity": "ci-runners-refresh-when-allowed:2cfa7f3071fd42c3210f1c18dd033b53063a2bde0f46b79d154c6388c67c5da4"
     }
   ],
   "consumedIntentIds": [
