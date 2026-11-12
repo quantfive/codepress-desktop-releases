@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1eac36e073e5a633025aee23aa70518bd8aabe46",
+  "cursorSha": "940f0a1692fb229f6854994865395f46fc8cd14e",
   "highWaterVersion": "1.537.0",
   "rows": [
     {
@@ -165633,6 +165633,13 @@
       "intentIds": [
         "drain-take-no-new-automations:b12dc76a35146467af9f81739f74d5c0440bc073cd8ab8e2222d2eb7b741abd6"
       ]
+    },
+    {
+      "sourceSha": "940f0a1692fb229f6854994865395f46fc8cd14e",
+      "sourcePackageVersion": "1.549.1",
+      "intentIds": [
+        "hidden-desktop-host-liveness:9530624d00cdce2853baaf5c46a663c99300d27184f4bf7249d7926c31988730"
+      ]
     }
   ],
   "intents": [
@@ -175267,6 +175274,14 @@
       "summary": "Add \"Take no new automations\" to the \"On this Mac\" tab and Settings → This computer: the machine stops taking new automation runs while what already runs there finishes, and new runs go to your other machines or the cloud.",
       "sourceSha": "1eac36e073e5a633025aee23aa70518bd8aabe46",
       "identity": "drain-take-no-new-automations:b12dc76a35146467af9f81739f74d5c0440bc073cd8ab8e2222d2eb7b741abd6"
+    },
+    {
+      "id": "hidden-desktop-host-liveness",
+      "digest": "9530624d00cdce2853baaf5c46a663c99300d27184f4bf7249d7926c31988730",
+      "type": "patch",
+      "summary": "Keep active Desktop sessions streaming while the host window is hidden or its renderer stalls, using bounded native capture liveness, and let viewers retry host connection drops.",
+      "sourceSha": "940f0a1692fb229f6854994865395f46fc8cd14e",
+      "identity": "hidden-desktop-host-liveness:9530624d00cdce2853baaf5c46a663c99300d27184f4bf7249d7926c31988730"
     }
   ],
   "consumedIntentIds": [
