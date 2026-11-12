@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "59994304ef7db63c506d42cb7c6bbf85c8b570b7",
-  "highWaterVersion": "1.527.2",
+  "highWaterVersion": "1.527.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -88239,6 +88239,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:59994304ef7db63c506d42cb7c6bbf85c8b570b7",
+      "kind": "main",
+      "sequence": 2286,
+      "sourceSha": "59994304ef7db63c506d42cb7c6bbf85c8b570b7",
+      "sourcePackageVersion": "1.540.2",
+      "version": "1.527.3",
+      "publicationDate": "2026-11-12T05:56:32.202Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "whatsapp-number-disconnect-release:cbf07a38fd70d09b266297c4d32be3d89a489da44c738fb1caa2b3778c7bca09"
+        ],
+        "notesIntentIds": [
+          "whatsapp-number-disconnect-release:cbf07a38fd70d09b266297c4d32be3d89a489da44c738fb1caa2b3778c7bca09"
+        ],
+        "throughSourceSha": "59994304ef7db63c506d42cb7c6bbf85c8b570b7",
+        "previousThroughSourceSha": "573b24f060eb6eaae62537877fd4bdb04902c2b4",
+        "baselineVersion": "1.527.2",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43164608589",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-13T05:56:24.865Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -173972,7 +174015,8 @@
     "app-environment-variables-panel:8ac16cecd232850bf32c533818903158abc3c789e34df4583f70fcc58fc5cad7",
     "plan-page-drag-elements:d6a28b2a1d6f4dbe61a559a11e2013ff41a8ec5f97dad11a2d6cca7138595784",
     "whatsapp-setup-connect-checklist:e565b1c7345a168db84a79fd10afd18ea8be5f922bd30c03963c32dee45e0c6d",
-    "machine-menu-update-shared-hook:82a1cf607c0fc4d83859c88327f00852d2782da0f6be036d4e21433f53ba508c"
+    "machine-menu-update-shared-hook:82a1cf607c0fc4d83859c88327f00852d2782da0f6be036d4e21433f53ba508c",
+    "whatsapp-number-disconnect-release:cbf07a38fd70d09b266297c4d32be3d89a489da44c738fb1caa2b3778c7bca09"
   ],
-  "consumedThroughSha": "573b24f060eb6eaae62537877fd4bdb04902c2b4"
+  "consumedThroughSha": "59994304ef7db63c506d42cb7c6bbf85c8b570b7"
 }
