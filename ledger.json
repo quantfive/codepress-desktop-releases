@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "df01c7ae49f05cc9f49623cb6ce2e2c520b7eb33",
+  "cursorSha": "ddeace571c90200fa4c7f2ce2394a81dea3b8f11",
   "highWaterVersion": "1.531.2",
   "rows": [
     {
@@ -164479,6 +164479,13 @@
       "sourceSha": "df01c7ae49f05cc9f49623cb6ce2e2c520b7eb33",
       "sourcePackageVersion": "1.544.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ddeace571c90200fa4c7f2ce2394a81dea3b8f11",
+      "sourcePackageVersion": "1.544.3",
+      "intentIds": [
+        "managed-app-variables-panel:82202df148986f7d7d999fe37ddcca5eccbd65e87ae10b777a7934350f5c6a9b"
+      ]
     }
   ],
   "intents": [
@@ -173993,6 +174000,14 @@
       "summary": "CI runners: a new Jobs tab lists every finished job in your repositories, with where it ran, whether it passed (and the step it failed at), how long it waited and how long it took. Filter by result, where it ran, workflow, branch or PR and time range; select a job to see its step timeline, and compare each job's runs on your machines against Blacksmith. A finished job in Queue opens in Jobs.",
       "sourceSha": "77cb834f0f65e396128c09db49b0a7441b5f1283",
       "identity": "ci-runners-jobs-tab:f450348e9d200b2c5d2e337fe02951a0719d9d6f80bb313c162b1e46d4de962a"
+    },
+    {
+      "id": "managed-app-variables-panel",
+      "digest": "82202df148986f7d7d999fe37ddcca5eccbd65e87ae10b777a7934350f5c6a9b",
+      "type": "patch",
+      "summary": "A CodePress-managed App's Settings now has an Environment variables panel: public values are built into the App and Redeploy now applies them; secrets are the workspace's shared Backend secrets.",
+      "sourceSha": "ddeace571c90200fa4c7f2ce2394a81dea3b8f11",
+      "identity": "managed-app-variables-panel:82202df148986f7d7d999fe37ddcca5eccbd65e87ae10b777a7934350f5c6a9b"
     }
   ],
   "consumedIntentIds": [
