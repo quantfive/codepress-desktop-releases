@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "8c40efd96de80f8750d822168d005458d8a1fd1c",
-  "highWaterVersion": "1.526.0",
+  "highWaterVersion": "1.527.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -88071,6 +88071,52 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:8c40efd96de80f8750d822168d005458d8a1fd1c",
+      "kind": "main",
+      "sequence": 2283,
+      "sourceSha": "8c40efd96de80f8750d822168d005458d8a1fd1c",
+      "sourcePackageVersion": "1.539.0",
+      "version": "1.527.0",
+      "publicationDate": "2026-11-12T04:34:19.207Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "plan-page-drag-elements:d6a28b2a1d6f4dbe61a559a11e2013ff41a8ec5f97dad11a2d6cca7138595784"
+        ],
+        "notesIntentIds": [
+          "design-kit-page-sources:5b80c2f4db47a81e9d3707fa31b15d29986bee52ad4c19b69d5cc5bcda2dc980",
+          "mention-menu-opens-up:e30eae39f4d9766a2211f8d77df3f032386f04b40eac75c3ac60dfc55f16fbbc",
+          "app-environment-variables-panel:8ac16cecd232850bf32c533818903158abc3c789e34df4583f70fcc58fc5cad7",
+          "plan-page-drag-elements:d6a28b2a1d6f4dbe61a559a11e2013ff41a8ec5f97dad11a2d6cca7138595784"
+        ],
+        "throughSourceSha": "8c40efd96de80f8750d822168d005458d8a1fd1c",
+        "previousThroughSourceSha": "5e20d0014e2eb1910800c06e2d84ad391fa5b5e6",
+        "baselineVersion": "1.526.0",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43155573439",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-13T04:34:11.030Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -173676,7 +173722,8 @@
     "add-workspace-resume-saved-step:42008f715ae6097679ca361b69aecfe58d8f88f39412b38a34710348864357e0",
     "design-kit-page-sources:5b80c2f4db47a81e9d3707fa31b15d29986bee52ad4c19b69d5cc5bcda2dc980",
     "mention-menu-opens-up:e30eae39f4d9766a2211f8d77df3f032386f04b40eac75c3ac60dfc55f16fbbc",
-    "app-environment-variables-panel:8ac16cecd232850bf32c533818903158abc3c789e34df4583f70fcc58fc5cad7"
+    "app-environment-variables-panel:8ac16cecd232850bf32c533818903158abc3c789e34df4583f70fcc58fc5cad7",
+    "plan-page-drag-elements:d6a28b2a1d6f4dbe61a559a11e2013ff41a8ec5f97dad11a2d6cca7138595784"
   ],
-  "consumedThroughSha": "5e20d0014e2eb1910800c06e2d84ad391fa5b5e6"
+  "consumedThroughSha": "8c40efd96de80f8750d822168d005458d8a1fd1c"
 }
