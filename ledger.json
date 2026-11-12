@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "51e8d8c17815c5f1b8b554e50105b0cadbb640bf",
+  "cursorSha": "0c5161a71081940c5060faef2bc03b31ac737f81",
   "highWaterVersion": "1.524.0",
   "rows": [
     {
@@ -162871,6 +162871,13 @@
       "sourceSha": "51e8d8c17815c5f1b8b554e50105b0cadbb640bf",
       "sourcePackageVersion": "1.537.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0c5161a71081940c5060faef2bc03b31ac737f81",
+      "sourcePackageVersion": "1.537.0",
+      "intentIds": [
+        "app-onboarding-replay:b4cb379d8300a32cd7406ed08896b5c03984a10f222e941aadc39c4e8743ee18"
+      ]
     }
   ],
   "intents": [
@@ -172177,6 +172184,14 @@
       "summary": "Plans: an Edit toggle on the plan canvas lets you change a plan page's text, duplicate, move or delete its blocks, and save the page, with a prompt when the Orchestrator published a newer version meanwhile.",
       "sourceSha": "9260d4bea435fdcc0d3112728fecba4b747e6a99",
       "identity": "plan-page-edit-mode:d130ed261af930f6270d687d363bb23f1a7ee1c39127ed0d2533122c39fb87ed"
+    },
+    {
+      "id": "app-onboarding-replay",
+      "digest": "b4cb379d8300a32cd7406ed08896b5c03984a10f222e941aadc39c4e8743ee18",
+      "type": "minor",
+      "summary": "Replay onboarding: people served the new onboarding can walk the app's onboarding again from Settings → General (full setup on a test workspace, already set up, or invited), as often as they like, without changing their real first run. Test workspaces are listed in the chooser and can be deleted.",
+      "sourceSha": "0c5161a71081940c5060faef2bc03b31ac737f81",
+      "identity": "app-onboarding-replay:b4cb379d8300a32cd7406ed08896b5c03984a10f222e941aadc39c4e8743ee18"
     }
   ],
   "consumedIntentIds": [
