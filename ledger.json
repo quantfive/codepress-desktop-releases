@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "968098799de8ff8cc89b231a4fc9f7e84ae24a59",
-  "highWaterVersion": "1.528.0",
+  "highWaterVersion": "1.528.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -88351,6 +88351,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:968098799de8ff8cc89b231a4fc9f7e84ae24a59",
+      "kind": "main",
+      "sequence": 2288,
+      "sourceSha": "968098799de8ff8cc89b231a4fc9f7e84ae24a59",
+      "sourcePackageVersion": "1.541.1",
+      "version": "1.528.1",
+      "publicationDate": "2026-11-12T06:45:01.150Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "large-artifact-download:4c0b2b637e4033b69611ca3d09c114b2a39c3418f60428f9c09ba056adcb6f82"
+        ],
+        "notesIntentIds": [
+          "large-artifact-download:4c0b2b637e4033b69611ca3d09c114b2a39c3418f60428f9c09ba056adcb6f82"
+        ],
+        "throughSourceSha": "968098799de8ff8cc89b231a4fc9f7e84ae24a59",
+        "previousThroughSourceSha": "4c54ba515df6ac8a8e90ca7d696267b97149e4b8",
+        "baselineVersion": "1.528.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43170252239",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-13T06:44:54.649Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -174162,7 +174205,8 @@
     "machine-menu-update-shared-hook:82a1cf607c0fc4d83859c88327f00852d2782da0f6be036d4e21433f53ba508c",
     "whatsapp-number-disconnect-release:cbf07a38fd70d09b266297c4d32be3d89a489da44c738fb1caa2b3778c7bca09",
     "plan-page-html-view:f8c9dd853d703b461984dd59be03570f91a6d557f1669d910c5e32a4073506f3",
-    "automation-jobs-running-list:a837c43f4a4a4852dea7a6d792dd9d2d37bc82b44d1546702a34a054091bc67d"
+    "automation-jobs-running-list:a837c43f4a4a4852dea7a6d792dd9d2d37bc82b44d1546702a34a054091bc67d",
+    "large-artifact-download:4c0b2b637e4033b69611ca3d09c114b2a39c3418f60428f9c09ba056adcb6f82"
   ],
-  "consumedThroughSha": "4c54ba515df6ac8a8e90ca7d696267b97149e4b8"
+  "consumedThroughSha": "968098799de8ff8cc89b231a4fc9f7e84ae24a59"
 }
