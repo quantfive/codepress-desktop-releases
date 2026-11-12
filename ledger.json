@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "ceb3970e1eda9a6ab959ee5c646d851a65da061a",
-  "highWaterVersion": "1.525.0",
+  "highWaterVersion": "1.525.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -87952,6 +87952,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:ceb3970e1eda9a6ab959ee5c646d851a65da061a",
+      "kind": "main",
+      "sequence": 2281,
+      "sourceSha": "ceb3970e1eda9a6ab959ee5c646d851a65da061a",
+      "sourcePackageVersion": "1.538.1",
+      "version": "1.525.1",
+      "publicationDate": "2026-11-12T03:44:34.849Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "add-workspace-resume-saved-step:42008f715ae6097679ca361b69aecfe58d8f88f39412b38a34710348864357e0"
+        ],
+        "notesIntentIds": [
+          "add-workspace-resume-saved-step:42008f715ae6097679ca361b69aecfe58d8f88f39412b38a34710348864357e0"
+        ],
+        "throughSourceSha": "ceb3970e1eda9a6ab959ee5c646d851a65da061a",
+        "previousThroughSourceSha": "0c5161a71081940c5060faef2bc03b31ac737f81",
+        "baselineVersion": "1.525.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43150148146",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-13T03:44:28.083Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -173468,7 +173511,8 @@
     "app-onboarding-full-setup-steps:a3f4b489adb44fc41e1cb183d22b65f440e1830f2a6589da9b673f5b025e9114",
     "automation-allow-card:91d58b2d1a5fc15ddc9510d2e4a537603bd598839efd0f6e26c276e57dc95229",
     "plan-page-edit-mode:d130ed261af930f6270d687d363bb23f1a7ee1c39127ed0d2533122c39fb87ed",
-    "app-onboarding-replay:b4cb379d8300a32cd7406ed08896b5c03984a10f222e941aadc39c4e8743ee18"
+    "app-onboarding-replay:b4cb379d8300a32cd7406ed08896b5c03984a10f222e941aadc39c4e8743ee18",
+    "add-workspace-resume-saved-step:42008f715ae6097679ca361b69aecfe58d8f88f39412b38a34710348864357e0"
   ],
-  "consumedThroughSha": "0c5161a71081940c5060faef2bc03b31ac737f81"
+  "consumedThroughSha": "ceb3970e1eda9a6ab959ee5c646d851a65da061a"
 }
