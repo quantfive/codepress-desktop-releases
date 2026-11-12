@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "14a62038659509378e21d405af79e7b6223fbdcc",
-  "highWaterVersion": "1.527.0",
+  "highWaterVersion": "1.527.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -88129,6 +88129,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:14a62038659509378e21d405af79e7b6223fbdcc",
+      "kind": "main",
+      "sequence": 2284,
+      "sourceSha": "14a62038659509378e21d405af79e7b6223fbdcc",
+      "sourcePackageVersion": "1.540.0",
+      "version": "1.527.1",
+      "publicationDate": "2026-11-12T04:59:06.987Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "whatsapp-setup-connect-checklist:e565b1c7345a168db84a79fd10afd18ea8be5f922bd30c03963c32dee45e0c6d"
+        ],
+        "notesIntentIds": [
+          "whatsapp-setup-connect-checklist:e565b1c7345a168db84a79fd10afd18ea8be5f922bd30c03963c32dee45e0c6d"
+        ],
+        "throughSourceSha": "14a62038659509378e21d405af79e7b6223fbdcc",
+        "previousThroughSourceSha": "8c40efd96de80f8750d822168d005458d8a1fd1c",
+        "baselineVersion": "1.527.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43158247252",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-13T04:59:00.747Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -173760,7 +173803,8 @@
     "design-kit-page-sources:5b80c2f4db47a81e9d3707fa31b15d29986bee52ad4c19b69d5cc5bcda2dc980",
     "mention-menu-opens-up:e30eae39f4d9766a2211f8d77df3f032386f04b40eac75c3ac60dfc55f16fbbc",
     "app-environment-variables-panel:8ac16cecd232850bf32c533818903158abc3c789e34df4583f70fcc58fc5cad7",
-    "plan-page-drag-elements:d6a28b2a1d6f4dbe61a559a11e2013ff41a8ec5f97dad11a2d6cca7138595784"
+    "plan-page-drag-elements:d6a28b2a1d6f4dbe61a559a11e2013ff41a8ec5f97dad11a2d6cca7138595784",
+    "whatsapp-setup-connect-checklist:e565b1c7345a168db84a79fd10afd18ea8be5f922bd30c03963c32dee45e0c6d"
   ],
-  "consumedThroughSha": "8c40efd96de80f8750d822168d005458d8a1fd1c"
+  "consumedThroughSha": "14a62038659509378e21d405af79e7b6223fbdcc"
 }
