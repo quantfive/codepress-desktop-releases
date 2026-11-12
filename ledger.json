@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e8b6657eeb8691d9bb3fdc8a532e0891794b5e04",
+  "cursorSha": "2058bdea393ca2598066beb19103fe80a2d5015c",
   "highWaterVersion": "1.521.0",
   "rows": [
     {
@@ -162469,6 +162469,13 @@
       "sourceSha": "e8b6657eeb8691d9bb3fdc8a532e0891794b5e04",
       "sourcePackageVersion": "1.533.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2058bdea393ca2598066beb19103fe80a2d5015c",
+      "sourcePackageVersion": "1.533.0",
+      "intentIds": [
+        "answer-secret-cards-from-any-device:447d8f57869e79747b427c8e3e7a938467ebb4c528bdd75b563892cad2ce87a1"
+      ]
     }
   ],
   "intents": [
@@ -171735,6 +171742,14 @@
       "summary": "For people served the new onboarding, Add workspace in the app's workspace switcher now creates another workspace right in the app and walks you through its setup: name it, check your accounts, then pick what to do first. The app switches to the new workspace as soon as it exists. Close the setup at any step with ✕ or Escape; the workspace then shows \"Setup not finished\" in the switcher, and picking it reopens the setup where you left off. Everyone else's switcher and Add workspace are unchanged.",
       "sourceSha": "a7c938b6fb3fadbb0fb649e507dab538090e089c",
       "identity": "app-add-workspace:fb1c786231bd297128568b658c598fd1bbe49136f8520368f7046afc73ba53bb"
+    },
+    {
+      "id": "answer-secret-cards-from-any-device",
+      "digest": "447d8f57869e79747b427c8e3e7a938467ebb4c528bdd75b563892cad2ce87a1",
+      "type": "minor",
+      "summary": "The project's owner can answer an Orchestrator's secret cards (Allow, Save, Use a saved secret) from a copy of the project on another machine, the web app or a phone. The change is saved to CodePress under their own login from that device, and the project's machine checks it there before telling the Orchestrator. The card says where the choice goes, what Dismiss leaves undecided, and links to the secret's access in Settings.",
+      "sourceSha": "2058bdea393ca2598066beb19103fe80a2d5015c",
+      "identity": "answer-secret-cards-from-any-device:447d8f57869e79747b427c8e3e7a938467ebb4c528bdd75b563892cad2ce87a1"
     }
   ],
   "consumedIntentIds": [
