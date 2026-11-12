@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "76de2b28a9329b60ae29c04f1c0c8a4bbc6b8f1d",
+  "cursorSha": "3d6dfbd4ba4848821342f582c61b676ff355ba16",
   "highWaterVersion": "1.533.0",
   "rows": [
     {
@@ -164894,6 +164894,13 @@
       "sourceSha": "76de2b28a9329b60ae29c04f1c0c8a4bbc6b8f1d",
       "sourcePackageVersion": "1.546.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3d6dfbd4ba4848821342f582c61b676ff355ba16",
+      "sourcePackageVersion": "1.546.0",
+      "intentIds": [
+        "artifact-share-link:5d9770de347e812a2dce6394c358b4f0b238380740936f7a28be3dcff66aca2c"
+      ]
     }
   ],
   "intents": [
@@ -174448,6 +174455,14 @@
       "summary": "Settings → This computer has six tabs: General, Agents, Editor, Network & remote access, Storage and Activity. Voice is a section of General. Agent MCPs is Agents → MCPs, beside Behavior and Detection. File Viewer is named Editor and keeps its machine rows apart from its display rows. Local usage and GitHub Stats are Activity's two tabs. General's rarely changed switches (terminal compatibility, background management, Per-Tab History, Stop Leftover Processes on Tab Close and Reload Unresponsive Windows Quietly) sit in an Advanced fold, which opens by itself when one of them is not at its default. Every switch still saves and works as before, and links to the old tabs open their new place.",
       "sourceSha": "165363d67aa9d2a68608da7a8dc71402b1e536e5",
       "identity": "this-computer-six-tabs:40cbb3b643e5cbbe4c9b5424f119d5c741f82e71da56ca78cf3da9f725b64078"
+    },
+    {
+      "id": "artifact-share-link",
+      "digest": "5d9770de347e812a2dce6394c358b4f0b238380740936f7a28be3dcff66aca2c",
+      "type": "minor",
+      "summary": "Artifacts that have a cloud copy now have a Link button beside Download. It copies a link that teammates open after signing in. The artifact's owner can also switch the link to Public, so anyone with it can open the file, or revoke it. A project or chat that isn't synced shows Link disabled with \"Turn on sync to share a link\". An Orchestrator now gets the link back from `publish_artifact` once the file has uploaded. It can also ask for it with the new `artifact_share_link` tool, and makes a link public only when you ask.",
+      "sourceSha": "3d6dfbd4ba4848821342f582c61b676ff355ba16",
+      "identity": "artifact-share-link:5d9770de347e812a2dce6394c358b4f0b238380740936f7a28be3dcff66aca2c"
     }
   ],
   "consumedIntentIds": [
