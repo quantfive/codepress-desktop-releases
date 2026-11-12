@@ -88717,7 +88717,7 @@
         "type": "minor"
       },
       "mac": {
-        "status": "dispatching",
+        "status": "running",
         "generation": 1,
         "owner": {
           "ownerId": "terminal-macos-delivery",
@@ -88727,7 +88727,7 @@
         "leaseUntil": "2026-11-13T10:08:55.666Z",
         "dispatch": {
           "intentId": "same-run:29c855d6a56cd5700b1215cb91d2fb9ae22109516c07248179223424fcabc25a",
-          "runId": null,
+          "runId": "43197640250",
           "terminal": false
         },
         "failures": []
