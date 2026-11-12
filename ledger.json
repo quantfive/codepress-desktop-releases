@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4d28aa89d5479273060321bcb15ff3e1d16e98e3",
+  "cursorSha": "b38800d8d8362372713324710acc1747b738aa59",
   "highWaterVersion": "1.525.0",
   "rows": [
     {
@@ -162948,6 +162948,13 @@
       "sourceSha": "4d28aa89d5479273060321bcb15ff3e1d16e98e3",
       "sourcePackageVersion": "1.538.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b38800d8d8362372713324710acc1747b738aa59",
+      "sourcePackageVersion": "1.538.0",
+      "intentIds": [
+        "add-workspace-resume-saved-step:42008f715ae6097679ca361b69aecfe58d8f88f39412b38a34710348864357e0"
+      ]
     }
   ],
   "intents": [
@@ -172262,6 +172269,14 @@
       "summary": "Replay onboarding: people served the new onboarding can walk the app's onboarding again from Settings → General (full setup on a test workspace, already set up, or invited), as often as they like, without changing their real first run. Test workspaces are listed in the chooser and can be deleted.",
       "sourceSha": "0c5161a71081940c5060faef2bc03b31ac737f81",
       "identity": "app-onboarding-replay:b4cb379d8300a32cd7406ed08896b5c03984a10f222e941aadc39c4e8743ee18"
+    },
+    {
+      "id": "add-workspace-resume-saved-step",
+      "digest": "42008f715ae6097679ca361b69aecfe58d8f88f39412b38a34710348864357e0",
+      "type": "patch",
+      "summary": "Add workspace: reopening an unfinished workspace from the switcher now always opens on the step its setup was saved on, instead of sometimes going back to Name.",
+      "sourceSha": "b38800d8d8362372713324710acc1747b738aa59",
+      "identity": "add-workspace-resume-saved-step:42008f715ae6097679ca361b69aecfe58d8f88f39412b38a34710348864357e0"
     }
   ],
   "consumedIntentIds": [
