@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4625df25911e807462943db4a0f08510d458d393",
+  "cursorSha": "14a62038659509378e21d405af79e7b6223fbdcc",
   "highWaterVersion": "1.527.0",
   "rows": [
     {
@@ -163220,6 +163220,13 @@
       "sourceSha": "4625df25911e807462943db4a0f08510d458d393",
       "sourcePackageVersion": "1.540.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "14a62038659509378e21d405af79e7b6223fbdcc",
+      "sourcePackageVersion": "1.540.0",
+      "intentIds": [
+        "whatsapp-setup-connect-checklist:e565b1c7345a168db84a79fd10afd18ea8be5f922bd30c03963c32dee45e0c6d"
+      ]
     }
   ],
   "intents": [
@@ -172574,6 +172581,14 @@
       "summary": "Plan pages in Edit mode: drag any element by its handle to a new place in the page, shown by a drop line, or hold Alt/Option (or use Place freely) to put it at an exact spot. Reset position takes a placement back, and each move undoes like any other edit.",
       "sourceSha": "8c40efd96de80f8750d822168d005458d8a1fd1c",
       "identity": "plan-page-drag-elements:d6a28b2a1d6f4dbe61a559a11e2013ff41a8ec5f97dad11a2d6cca7138595784"
+    },
+    {
+      "id": "whatsapp-setup-connect-checklist",
+      "digest": "e565b1c7345a168db84a79fd10afd18ea8be5f922bd30c03963c32dee45e0c6d",
+      "type": "patch",
+      "summary": "WhatsApp settings: the last step of adding a number is now a checklist that shows where setup is (reserved, verified, connected to WhatsApp, able to send) with the buttons for the current step, such as Sign in with Facebook, Try again or Cancel setup. Errors stay in their row until you dismiss them. You can leave the page while setup carries on: a \"Finish setting up\" card above your numbers takes you back. If you back out of the Facebook sign-up, the page says so and keeps your setup.",
+      "sourceSha": "14a62038659509378e21d405af79e7b6223fbdcc",
+      "identity": "whatsapp-setup-connect-checklist:e565b1c7345a168db84a79fd10afd18ea8be5f922bd30c03963c32dee45e0c6d"
     }
   ],
   "consumedIntentIds": [
