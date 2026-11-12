@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "79d0724ae4cfeb23a58282a9f3f6aea3157475ab",
+  "cursorSha": "4072b204f0b9648d44f2436a4591da48803c8bfc",
   "highWaterVersion": "1.531.3",
   "rows": [
     {
@@ -164566,6 +164566,13 @@
       "sourceSha": "79d0724ae4cfeb23a58282a9f3f6aea3157475ab",
       "sourcePackageVersion": "1.544.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4072b204f0b9648d44f2436a4591da48803c8bfc",
+      "sourcePackageVersion": "1.544.4",
+      "intentIds": [
+        "ui-vitest-vm-pool:c313ed71baed04b2ba050cd59297eeebfd5da42334c370ad2e15ec7a8418878d"
+      ]
     }
   ],
   "intents": [
@@ -174088,6 +174095,14 @@
       "summary": "A CodePress-managed App's Settings now has an Environment variables panel: public values are built into the App and Redeploy now applies them; secrets are the workspace's shared Backend secrets.",
       "sourceSha": "ddeace571c90200fa4c7f2ce2394a81dea3b8f11",
       "identity": "managed-app-variables-panel:82202df148986f7d7d999fe37ddcca5eccbd65e87ae10b777a7934350f5c6a9b"
+    },
+    {
+      "id": "ui-vitest-vm-pool",
+      "digest": "c313ed71baed04b2ba050cd59297eeebfd5da42334c370ad2e15ec7a8418878d",
+      "type": "patch",
+      "summary": "Test tooling only, with no change to the app: Terminal's `isolate: false` Vitest guard now restores env, working directory and exit code through the shared `scripts/vitest-process-state.mjs`, and the network guard contract also runs in a vmForks worker.",
+      "sourceSha": "4072b204f0b9648d44f2436a4591da48803c8bfc",
+      "identity": "ui-vitest-vm-pool:c313ed71baed04b2ba050cd59297eeebfd5da42334c370ad2e15ec7a8418878d"
     }
   ],
   "consumedIntentIds": [
