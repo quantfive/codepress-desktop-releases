@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "b5088a95d6ac6f1e92b0b10998cc73fb128eea71",
-  "highWaterVersion": "1.535.4",
+  "highWaterVersion": "1.536.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -89518,6 +89518,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:b5088a95d6ac6f1e92b0b10998cc73fb128eea71",
+      "kind": "main",
+      "sequence": 2309,
+      "sourceSha": "b5088a95d6ac6f1e92b0b10998cc73fb128eea71",
+      "sourcePackageVersion": "1.549.0",
+      "version": "1.536.0",
+      "publicationDate": "2026-11-12T22:02:16.607Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "automation-budget-setting:116f31f89b709f87b666241c0c3319f46d56bfb93426466dcdede2166dc5060b",
+          "gemini-on-synced-copies:10adfe8a513f080d1fecebba0f029460ab27c14e20b694dec86fb3fd37b93dcc"
+        ],
+        "notesIntentIds": [
+          "automation-budget-setting:116f31f89b709f87b666241c0c3319f46d56bfb93426466dcdede2166dc5060b",
+          "gemini-on-synced-copies:10adfe8a513f080d1fecebba0f029460ab27c14e20b694dec86fb3fd37b93dcc"
+        ],
+        "throughSourceSha": "b5088a95d6ac6f1e92b0b10998cc73fb128eea71",
+        "previousThroughSourceSha": "1fb8fd25bdf4a4a88d17a88b636f3dfa4847b01e",
+        "baselineVersion": "1.535.4",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43315975650",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-13T22:02:08.170Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -176311,7 +176356,9 @@
     "terminal-vitest-vm-pool:5e35bf72a8fdcd5607ee384a64d907a96ee331b6da5aafd4e3ce956b1de44233",
     "app-onboarding-shell:87f0586038fc61e4c4fe57eafd7ef7f65359233bcd73e84e7662688accdb22c3",
     "workers-gemini-thread-menu:24a5bb56ce2f4373b9d2441ef7ffb1456c03d84de5d2d5e27312159db4cd4425",
-    "agent-card-paced-reads:0f6b4e31054e2e9dc64c23a0aa28e65ee91ac3fb36845dce3d3294a936c3df48"
+    "agent-card-paced-reads:0f6b4e31054e2e9dc64c23a0aa28e65ee91ac3fb36845dce3d3294a936c3df48",
+    "automation-budget-setting:116f31f89b709f87b666241c0c3319f46d56bfb93426466dcdede2166dc5060b",
+    "gemini-on-synced-copies:10adfe8a513f080d1fecebba0f029460ab27c14e20b694dec86fb3fd37b93dcc"
   ],
-  "consumedThroughSha": "1fb8fd25bdf4a4a88d17a88b636f3dfa4847b01e"
+  "consumedThroughSha": "b5088a95d6ac6f1e92b0b10998cc73fb128eea71"
 }
