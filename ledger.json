@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "b0de8e559b08379a826d958d98425d5f2b68f1b5",
-  "highWaterVersion": "1.529.1",
+  "highWaterVersion": "1.530.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -88516,6 +88516,53 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:b0de8e559b08379a826d958d98425d5f2b68f1b5",
+      "kind": "main",
+      "sequence": 2291,
+      "sourceSha": "b0de8e559b08379a826d958d98425d5f2b68f1b5",
+      "sourcePackageVersion": "1.543.1",
+      "version": "1.530.0",
+      "publicationDate": "2026-11-12T09:06:24.389Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "ci-runners-default-app:5a8ec6102b61ef61d4a63904f39769151c6e4ce836619ab4509a8d6cca73f5fc",
+          "app-environment-variable-suggestions:ca17a58073c2961961edad8842ed5dbf1909365e72374934386864863ba9f32e",
+          "whatsapp-first-message:910b3337e9788de959b95a777bc7186f836f10b57c08f709265daf680d8bf11f"
+        ],
+        "notesIntentIds": [
+          "ci-runners-default-app:5a8ec6102b61ef61d4a63904f39769151c6e4ce836619ab4509a8d6cca73f5fc",
+          "app-environment-variable-suggestions:ca17a58073c2961961edad8842ed5dbf1909365e72374934386864863ba9f32e",
+          "whatsapp-first-message:910b3337e9788de959b95a777bc7186f836f10b57c08f709265daf680d8bf11f"
+        ],
+        "throughSourceSha": "b0de8e559b08379a826d958d98425d5f2b68f1b5",
+        "previousThroughSourceSha": "f6db71be9916cf6cc95b6e78eccf1e031fe3e95a",
+        "baselineVersion": "1.529.1",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43180656046",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-13T09:06:16.999Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -174510,7 +174557,10 @@
     "automation-jobs-running-list:a837c43f4a4a4852dea7a6d792dd9d2d37bc82b44d1546702a34a054091bc67d",
     "large-artifact-download:4c0b2b637e4033b69611ca3d09c114b2a39c3418f60428f9c09ba056adcb6f82",
     "plan-canvas-drag-pages:2a8cff6d92baf88f6625eed7a497cebe8b6e3caaaa1cef5ed80319c551e12768",
-    "settings-tree-owners:f61b1b15c4693d3a6de201db3d055a8d1c55f28e250cf9f3a669d966ec480a69"
+    "settings-tree-owners:f61b1b15c4693d3a6de201db3d055a8d1c55f28e250cf9f3a669d966ec480a69",
+    "ci-runners-default-app:5a8ec6102b61ef61d4a63904f39769151c6e4ce836619ab4509a8d6cca73f5fc",
+    "app-environment-variable-suggestions:ca17a58073c2961961edad8842ed5dbf1909365e72374934386864863ba9f32e",
+    "whatsapp-first-message:910b3337e9788de959b95a777bc7186f836f10b57c08f709265daf680d8bf11f"
   ],
-  "consumedThroughSha": "f6db71be9916cf6cc95b6e78eccf1e031fe3e95a"
+  "consumedThroughSha": "b0de8e559b08379a826d958d98425d5f2b68f1b5"
 }
