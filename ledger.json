@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "3d6dfbd4ba4848821342f582c61b676ff355ba16",
-  "highWaterVersion": "1.533.0",
+  "highWaterVersion": "1.534.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -89133,6 +89133,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:3d6dfbd4ba4848821342f582c61b676ff355ba16",
+      "kind": "main",
+      "sequence": 2302,
+      "sourceSha": "3d6dfbd4ba4848821342f582c61b676ff355ba16",
+      "sourcePackageVersion": "1.546.0",
+      "version": "1.534.0",
+      "publicationDate": "2026-11-12T16:15:31.156Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "artifact-share-link:5d9770de347e812a2dce6394c358b4f0b238380740936f7a28be3dcff66aca2c"
+        ],
+        "notesIntentIds": [
+          "artifact-share-link:5d9770de347e812a2dce6394c358b4f0b238380740936f7a28be3dcff66aca2c"
+        ],
+        "throughSourceSha": "3d6dfbd4ba4848821342f582c61b676ff355ba16",
+        "previousThroughSourceSha": "165363d67aa9d2a68608da7a8dc71402b1e536e5",
+        "baselineVersion": "1.533.0",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43256517238",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-13T16:15:22.092Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -175659,7 +175702,8 @@
     "ui-vitest-vm-pool:c313ed71baed04b2ba050cd59297eeebfd5da42334c370ad2e15ec7a8418878d",
     "ci-runners-refresh-when-allowed:2cfa7f3071fd42c3210f1c18dd033b53063a2bde0f46b79d154c6388c67c5da4",
     "you-one-page-per-topic:a9cf012f7492ed6bd14e7c7559a8d3fb84193f7fe7e312b30cd4f05fcec6995f",
-    "this-computer-six-tabs:40cbb3b643e5cbbe4c9b5424f119d5c741f82e71da56ca78cf3da9f725b64078"
+    "this-computer-six-tabs:40cbb3b643e5cbbe4c9b5424f119d5c741f82e71da56ca78cf3da9f725b64078",
+    "artifact-share-link:5d9770de347e812a2dce6394c358b4f0b238380740936f7a28be3dcff66aca2c"
   ],
-  "consumedThroughSha": "165363d67aa9d2a68608da7a8dc71402b1e536e5"
+  "consumedThroughSha": "3d6dfbd4ba4848821342f582c61b676ff355ba16"
 }
