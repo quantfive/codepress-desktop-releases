@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a2fbba4ec3594c43da00896a838f85b0ae9d3cf1",
+  "cursorSha": "79ee1d1ff45a4ff7ab695d5e6168b8a626eb7c7b",
   "highWaterVersion": "1.534.1",
   "rows": [
     {
@@ -165058,6 +165058,13 @@
       "sourceSha": "a2fbba4ec3594c43da00896a838f85b0ae9d3cf1",
       "sourcePackageVersion": "1.547.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "79ee1d1ff45a4ff7ab695d5e6168b8a626eb7c7b",
+      "sourcePackageVersion": "1.547.1",
+      "intentIds": [
+        "personal-settings-follow-you:e69dba77e4f9df7475d68ebf7b1d37233b1909706b48378160cf16f79ce106a0"
+      ]
     }
   ],
   "intents": [
@@ -174628,6 +174635,14 @@
       "summary": "Onboarding's two-column frame is now a shared component the app can use; the app does not show it yet.",
       "sourceSha": "82911f5209594c9af370f35874b0e6237443fa9a",
       "identity": "shared-onboarding-shell:e8add1df715f7075f9cf1887ee746fe7d000093a998f3cdab6504e7509c18f88"
+    },
+    {
+      "id": "personal-settings-follow-you",
+      "digest": "e69dba77e4f9df7475d68ebf7b1d37233b1909706b48378160cf16f79ce106a0",
+      "type": "minor",
+      "summary": "Personal settings now follow you to every computer you sign in on. That covers the editor's font, options and themes, the terminal theme you chose, Start with Agent, the sidebar filter and floating dashboard, whether you want desktop and completion notifications, your custom agent patterns, and the Orchestrator's 24-hour clock and build panel. You change them under You → Preferences → Terminal and You → Orchestrator. Imported themes, the agent command, linters and the OS notification permission stay on each computer. On a shared computer, each person keeps their own values.",
+      "sourceSha": "79ee1d1ff45a4ff7ab695d5e6168b8a626eb7c7b",
+      "identity": "personal-settings-follow-you:e69dba77e4f9df7475d68ebf7b1d37233b1909706b48378160cf16f79ce106a0"
     }
   ],
   "consumedIntentIds": [
