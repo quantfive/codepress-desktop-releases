@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "674e4c5a78a63d5a61ef2062defc446eac54befc",
+  "cursorSha": "86a7e339edfdff9ca9fca44b9babc833b3cf84fa",
   "highWaterVersion": "1.527.3",
   "rows": [
     {
@@ -163481,6 +163481,13 @@
       "sourceSha": "674e4c5a78a63d5a61ef2062defc446eac54befc",
       "sourcePackageVersion": "1.540.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "86a7e339edfdff9ca9fca44b9babc833b3cf84fa",
+      "sourcePackageVersion": "1.540.3",
+      "intentIds": [
+        "plan-page-html-view:f8c9dd853d703b461984dd59be03570f91a6d557f1669d910c5e32a4073506f3"
+      ]
     }
   ],
   "intents": [
@@ -172859,6 +172866,14 @@
       "summary": "WhatsApp settings: disconnecting a number now asks for confirmation and says whether the number is released for good, and paused numbers show why and how to turn them back on.",
       "sourceSha": "cfcf7a08267355955aa1dd17d5e67035ebdd86a1",
       "identity": "whatsapp-number-disconnect-release:cbf07a38fd70d09b266297c4d32be3d89a489da44c738fb1caa2b3778c7bca09"
+    },
+    {
+      "id": "plan-page-html-view",
+      "digest": "f8c9dd853d703b461984dd59be03570f91a6d557f1669d910c5e32a4073506f3",
+      "type": "minor",
+      "summary": "Plans: while editing a plan page, a Page / HTML switch shows the page's HTML source beside a live preview (full width on a phone, with a Preview toggle), so you can add sections, fix markup or paste HTML; Save sends the source exactly as typed.",
+      "sourceSha": "86a7e339edfdff9ca9fca44b9babc833b3cf84fa",
+      "identity": "plan-page-html-view:f8c9dd853d703b461984dd59be03570f91a6d557f1669d910c5e32a4073506f3"
     }
   ],
   "consumedIntentIds": [
