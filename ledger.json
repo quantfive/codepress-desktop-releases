@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "961e88c0a4cd4dd80774e78abfb6c07010c3085a",
+  "cursorSha": "6b0bd9ea4f48398097d4ff479d632232447d208b",
   "highWaterVersion": "1.522.1",
   "rows": [
     {
@@ -162678,6 +162678,13 @@
       "sourceSha": "961e88c0a4cd4dd80774e78abfb6c07010c3085a",
       "sourcePackageVersion": "1.534.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "6b0bd9ea4f48398097d4ff479d632232447d208b",
+      "sourcePackageVersion": "1.534.1",
+      "intentIds": [
+        "app-onboarding-full-setup-steps:a3f4b489adb44fc41e1cb183d22b65f440e1830f2a6589da9b673f5b025e9114"
+      ]
     }
   ],
   "intents": [
@@ -171960,6 +171967,14 @@
       "summary": "Settings now shows an automation asking to run on this machine the moment it asks: it waits at the top of the CodePress app page under \"Waiting for you\" with an Allow button, and the CodePress app item in the Settings list shows how many are waiting. An allowed automation's row keeps its name instead of turning into its id.",
       "sourceSha": "e4e479a017a40a4e29ee847b0266cc2a41da5636",
       "identity": "consent-settings-live:0d781a0cffd3e238916a7b976318432e05cfa620bec71a7fb54ee612bf34ba20"
+    },
+    {
+      "id": "app-onboarding-full-setup-steps",
+      "digest": "a3f4b489adb44fc41e1cb183d22b65f440e1830f2a6589da9b673f5b025e9114",
+      "type": "minor",
+      "summary": "For people served web onboarding v2, the app's full setup now includes web v2's Connect GitHub, Choose a plan and Invite your team steps, between Connect your accounts and the permission screen. Team checkout opens in the browser, and the app confirms the plan when the person comes back. A draft saved on one of these steps resumes on it. Nobody outside the flag sees a change.",
+      "sourceSha": "6b0bd9ea4f48398097d4ff479d632232447d208b",
+      "identity": "app-onboarding-full-setup-steps:a3f4b489adb44fc41e1cb183d22b65f440e1830f2a6589da9b673f5b025e9114"
     }
   ],
   "consumedIntentIds": [
