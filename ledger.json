@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b0de8e559b08379a826d958d98425d5f2b68f1b5",
+  "cursorSha": "9bbbedafc5ad884a7cf2c8add667ed2bd66bfd91",
   "highWaterVersion": "1.530.0",
   "rows": [
     {
@@ -163940,6 +163940,20 @@
       "sourceSha": "b0de8e559b08379a826d958d98425d5f2b68f1b5",
       "sourcePackageVersion": "1.543.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "1ce8d033611115599830fda47ba72391ead08274",
+      "sourcePackageVersion": "1.543.1",
+      "intentIds": [
+        "mobile-app-file-save:fb99969cb6059733fbc122db61422c1aaf84232a7823361e9073ec164996542f"
+      ]
+    },
+    {
+      "sourceSha": "9bbbedafc5ad884a7cf2c8add667ed2bd66bfd91",
+      "sourcePackageVersion": "1.543.1",
+      "intentIds": [
+        "managed-app-interactions:06d84cdc9efb9c2e78174d5874e301fd9b439e2458e5a2c973c9758510434521"
+      ]
     }
   ],
   "intents": [
@@ -173382,6 +173396,22 @@
       "summary": "WhatsApp settings now end setup with a Try it step: a QR code, a link to open the chat and a few prompts to send. The same card opens from a number's menu. Link my phone shows a QR code and a tap-to-open link with the code, and it closes once the phone is linked. Try it is not offered for a paused number or one being released.",
       "sourceSha": "105d2a261034a4ac1db059bece33dfc9e457eec2",
       "identity": "whatsapp-first-message:910b3337e9788de959b95a777bc7186f836f10b57c08f709265daf680d8bf11f"
+    },
+    {
+      "id": "mobile-app-file-save",
+      "digest": "fb99969cb6059733fbc122db61422c1aaf84232a7823361e9073ec164996542f",
+      "type": "patch",
+      "summary": "Saving a usage card inside the CodePress mobile app now opens the phone's share sheet with the image, on app builds that can save files.",
+      "sourceSha": "1ce8d033611115599830fda47ba72391ead08274",
+      "identity": "mobile-app-file-save:fb99969cb6059733fbc122db61422c1aaf84232a7823361e9073ec164996542f"
+    },
+    {
+      "id": "managed-app-interactions",
+      "digest": "06d84cdc9efb9c2e78174d5874e301fd9b439e2458e5a2c973c9758510434521",
+      "type": "patch",
+      "summary": "Managed Apps opened on an App page record content-free Interactions into the organization's Apps project when this machine's telemetry setting is on.",
+      "sourceSha": "9bbbedafc5ad884a7cf2c8add667ed2bd66bfd91",
+      "identity": "managed-app-interactions:06d84cdc9efb9c2e78174d5874e301fd9b439e2458e5a2c973c9758510434521"
     }
   ],
   "consumedIntentIds": [
