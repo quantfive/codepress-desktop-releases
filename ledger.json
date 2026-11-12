@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6fb519d5b6da967fb82b3f11133c4d2aa5fef08c",
+  "cursorSha": "78cc97cce5857c099e23899ce0bdc22caad08cc9",
   "highWaterVersion": "1.530.1",
   "rows": [
     {
@@ -164072,6 +164072,13 @@
       "sourceSha": "6fb519d5b6da967fb82b3f11133c4d2aa5fef08c",
       "sourcePackageVersion": "1.543.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "78cc97cce5857c099e23899ce0bdc22caad08cc9",
+      "sourcePackageVersion": "1.543.4",
+      "intentIds": [
+        "terminal-script-test-selection:b09f67e3930ba87cfa63fe78d01327cafde03b35a11c454456e4dbdc4342d977"
+      ]
     }
   ],
   "intents": [
@@ -173546,6 +173553,14 @@
       "summary": "The unified shell's Agent rail has an \"On this Mac\" tab right after Projects that lists the automations running on this machine and the ones that just ended, with a running dot on the tab.",
       "sourceSha": "c589553254854f725d627210d79804285e0b5495",
       "identity": "on-this-mac-rail-tab:919be8780cbfe077efcf9653d718937cc32ea1f9df7492990f24be1e9c5c5c36"
+    },
+    {
+      "id": "terminal-script-test-selection",
+      "digest": "b09f67e3930ba87cfa63fe78d01327cafde03b35a11c454456e4dbdc4342d977",
+      "type": "patch",
+      "summary": "CI only: pull requests run just the Terminal script tests (`test:scripts`) a change can reach, and a descriptive `package.json` edit or an unused tooling file no longer runs every Terminal test. Nothing in the app changes.",
+      "sourceSha": "78cc97cce5857c099e23899ce0bdc22caad08cc9",
+      "identity": "terminal-script-test-selection:b09f67e3930ba87cfa63fe78d01327cafde03b35a11c454456e4dbdc4342d977"
     }
   ],
   "consumedIntentIds": [
