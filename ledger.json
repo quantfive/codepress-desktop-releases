@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3b7b86f185911923de171404f926b7289ce72629",
+  "cursorSha": "232ad5be38f6ca1618f09063f33654b85833e352",
   "highWaterVersion": "1.535.2",
   "rows": [
     {
@@ -165299,6 +165299,13 @@
       "sourceSha": "3b7b86f185911923de171404f926b7289ce72629",
       "sourcePackageVersion": "1.548.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "232ad5be38f6ca1618f09063f33654b85833e352",
+      "sourcePackageVersion": "1.548.1",
+      "intentIds": [
+        "workers-gemini-thread-menu:24a5bb56ce2f4373b9d2441ef7ffb1456c03d84de5d2d5e27312159db4cd4425"
+      ]
     }
   ],
   "intents": [
@@ -174893,6 +174900,14 @@
       "summary": "People served web onboarding v2 now see the app's onboarding in the same two-column frame as the web after they sign in: a step rail with the workspace and \"Step N of M\", a large title and the web's footer buttons. First run, Add workspace and Replay onboarding all use it; Welcome, Sign in and everyone else's onboarding are unchanged.",
       "sourceSha": "8fce4548474fca68a952e29620a7ca72efc39533",
       "identity": "app-onboarding-shell:87f0586038fc61e4c4fe57eafd7ef7f65359233bcd73e84e7662688accdb22c3"
+    },
+    {
+      "id": "workers-gemini-thread-menu",
+      "digest": "24a5bb56ce2f4373b9d2441ef7ffb1456c03d84de5d2d5e27312159db4cd4425",
+      "type": "patch",
+      "summary": "The thread composer's model menu offers Gemini 3.8 Flash and Gemini 3.1 Pro under Workers on a project on this machine, as Project settings and the kickoff already do, and the Gemini rows in every model menu drop their extra description line.",
+      "sourceSha": "232ad5be38f6ca1618f09063f33654b85833e352",
+      "identity": "workers-gemini-thread-menu:24a5bb56ce2f4373b9d2441ef7ffb1456c03d84de5d2d5e27312159db4cd4425"
     }
   ],
   "consumedIntentIds": [
