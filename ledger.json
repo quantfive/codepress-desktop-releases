@@ -88430,7 +88430,7 @@
         "type": "minor"
       },
       "mac": {
-        "status": "claimed",
+        "status": "dispatching",
         "generation": 1,
         "owner": {
           "ownerId": "terminal-macos-delivery",
@@ -88438,7 +88438,11 @@
           "attempt": 1
         },
         "leaseUntil": "2026-11-13T07:08:32.348Z",
-        "dispatch": null,
+        "dispatch": {
+          "intentId": "same-run:d377b8f8ec07b2632e0745ae037a2bd71d3ed9493d6195c65fb4dc8bd2fb3a16",
+          "runId": null,
+          "terminal": false
+        },
         "failures": []
       },
       "linux": {
