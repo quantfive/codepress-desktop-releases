@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b119729ed77399db85f98c31af5c45130b90fcff",
+  "cursorSha": "9d811b5cc89c879b70187066d4108ef9999c344d",
   "highWaterVersion": "1.530.2",
   "rows": [
     {
@@ -164139,6 +164139,13 @@
       "sourceSha": "b119729ed77399db85f98c31af5c45130b90fcff",
       "sourcePackageVersion": "1.543.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9d811b5cc89c879b70187066d4108ef9999c344d",
+      "sourcePackageVersion": "1.543.5",
+      "intentIds": [
+        "settings-organization-six:e7c8023ffceb6ed6f2c136b2955f6549c072541a130995898bae953816cb4c81"
+      ]
     }
   ],
   "intents": [
@@ -173621,6 +173628,14 @@
       "summary": "CI only: pull requests run just the Terminal script tests (`test:scripts`) a change can reach, and a descriptive `package.json` edit or an unused tooling file no longer runs every Terminal test. Nothing in the app changes.",
       "sourceSha": "78cc97cce5857c099e23899ce0bdc22caad08cc9",
       "identity": "terminal-script-test-selection:b09f67e3930ba87cfa63fe78d01327cafde03b35a11c454456e4dbdc4342d977"
+    },
+    {
+      "id": "settings-organization-six",
+      "digest": "e7c8023ffceb6ed6f2c136b2955f6549c072541a130995898bae953816cb4c81",
+      "type": "minor",
+      "summary": "Settings → Organization now has six entries: General, People (Members, Teams, Connections), Integrations (Integrations, Platform MCP), Branding & dashboard (Branding, Dashboard, Navigation, Quicklinks), Billing & usage (Billing, Usage, Capacity, App hosting) and Audit. Each combined page shows its tabs under the title; Billing and Capacity still open the web page inside Settings, under the same tabs. The organization's default model is set on General (\"Agent defaults\") and your own on Agents (\"Your default model\"); LLM Provider Keys links to both. On General, members now see the admin-only controls disabled with a note instead of a save that fails. Old links to the previous pages still open the right tab.",
+      "sourceSha": "9d811b5cc89c879b70187066d4108ef9999c344d",
+      "identity": "settings-organization-six:e7c8023ffceb6ed6f2c136b2955f6549c072541a130995898bae953816cb4c81"
     }
   ],
   "consumedIntentIds": [
