@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "5a74be010bfcafd763a53117903a6fa4e6145f80",
-  "highWaterVersion": "1.537.1",
+  "highWaterVersion": "1.537.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -89690,6 +89690,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:5a74be010bfcafd763a53117903a6fa4e6145f80",
+      "kind": "main",
+      "sequence": 2312,
+      "sourceSha": "5a74be010bfcafd763a53117903a6fa4e6145f80",
+      "sourcePackageVersion": "1.550.0",
+      "version": "1.537.2",
+      "publicationDate": "2026-11-12T23:49:42.954Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "run-handoff-dialog:09eaf0bee835a02d1055d03e1fc554ad49fba4da96213990eab859756b333974"
+        ],
+        "notesIntentIds": [
+          "run-handoff-dialog:09eaf0bee835a02d1055d03e1fc554ad49fba4da96213990eab859756b333974"
+        ],
+        "throughSourceSha": "5a74be010bfcafd763a53117903a6fa4e6145f80",
+        "previousThroughSourceSha": "803c626ec0d2c991f7cb5caf39511ca8d0effa5f",
+        "baselineVersion": "1.537.1",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43331998607",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-13T23:49:34.591Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -176572,7 +176615,8 @@
     "automation-budget-setting:116f31f89b709f87b666241c0c3319f46d56bfb93426466dcdede2166dc5060b",
     "gemini-on-synced-copies:10adfe8a513f080d1fecebba0f029460ab27c14e20b694dec86fb3fd37b93dcc",
     "drain-take-no-new-automations:b12dc76a35146467af9f81739f74d5c0440bc073cd8ab8e2222d2eb7b741abd6",
-    "hidden-desktop-host-liveness:9530624d00cdce2853baaf5c46a663c99300d27184f4bf7249d7926c31988730"
+    "hidden-desktop-host-liveness:9530624d00cdce2853baaf5c46a663c99300d27184f4bf7249d7926c31988730",
+    "run-handoff-dialog:09eaf0bee835a02d1055d03e1fc554ad49fba4da96213990eab859756b333974"
   ],
-  "consumedThroughSha": "803c626ec0d2c991f7cb5caf39511ca8d0effa5f"
+  "consumedThroughSha": "5a74be010bfcafd763a53117903a6fa4e6145f80"
 }
