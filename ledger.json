@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "b2fd74703cd22d4d85430ddba2ca4516d452b636",
-  "highWaterVersion": "1.528.1",
+  "highWaterVersion": "1.529.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -88406,6 +88406,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:b2fd74703cd22d4d85430ddba2ca4516d452b636",
+      "kind": "main",
+      "sequence": 2289,
+      "sourceSha": "b2fd74703cd22d4d85430ddba2ca4516d452b636",
+      "sourcePackageVersion": "1.541.2",
+      "version": "1.529.0",
+      "publicationDate": "2026-11-12T07:08:39.478Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "plan-canvas-drag-pages:2a8cff6d92baf88f6625eed7a497cebe8b6e3caaaa1cef5ed80319c551e12768"
+        ],
+        "notesIntentIds": [
+          "plan-canvas-drag-pages:2a8cff6d92baf88f6625eed7a497cebe8b6e3caaaa1cef5ed80319c551e12768"
+        ],
+        "throughSourceSha": "b2fd74703cd22d4d85430ddba2ca4516d452b636",
+        "previousThroughSourceSha": "968098799de8ff8cc89b231a4fc9f7e84ae24a59",
+        "baselineVersion": "1.528.1",
+        "type": "minor"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43173021071",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-13T07:08:32.348Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -174248,7 +174291,8 @@
     "whatsapp-number-disconnect-release:cbf07a38fd70d09b266297c4d32be3d89a489da44c738fb1caa2b3778c7bca09",
     "plan-page-html-view:f8c9dd853d703b461984dd59be03570f91a6d557f1669d910c5e32a4073506f3",
     "automation-jobs-running-list:a837c43f4a4a4852dea7a6d792dd9d2d37bc82b44d1546702a34a054091bc67d",
-    "large-artifact-download:4c0b2b637e4033b69611ca3d09c114b2a39c3418f60428f9c09ba056adcb6f82"
+    "large-artifact-download:4c0b2b637e4033b69611ca3d09c114b2a39c3418f60428f9c09ba056adcb6f82",
+    "plan-canvas-drag-pages:2a8cff6d92baf88f6625eed7a497cebe8b6e3caaaa1cef5ed80319c551e12768"
   ],
-  "consumedThroughSha": "968098799de8ff8cc89b231a4fc9f7e84ae24a59"
+  "consumedThroughSha": "b2fd74703cd22d4d85430ddba2ca4516d452b636"
 }
