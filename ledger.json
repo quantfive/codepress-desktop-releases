@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4385e4bc2fa48bd589d408a64e2c4b6f271468bd",
+  "cursorSha": "6d94638897f339f0e61660e5f6a1642bae1440a1",
   "highWaterVersion": "1.529.1",
   "rows": [
     {
@@ -163815,6 +163815,13 @@
       "sourceSha": "4385e4bc2fa48bd589d408a64e2c4b6f271468bd",
       "sourcePackageVersion": "1.542.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "6d94638897f339f0e61660e5f6a1642bae1440a1",
+      "sourcePackageVersion": "1.542.2",
+      "intentIds": [
+        "app-environment-variable-suggestions:ca17a58073c2961961edad8842ed5dbf1909365e72374934386864863ba9f32e"
+      ]
     }
   ],
   "intents": [
@@ -173241,6 +173248,14 @@
       "summary": "Apps: a new default app, CI runners, can be added from Default apps. It shows your CI machines, the live queue, where each job ran and why, and what running on your own machines saved. Organizations that have not connected a CI machine see how to connect one, and admins can create a reporter token and enter prices there. An app this version does not know now reads \"This app isn't available\" instead of a blank page.",
       "sourceSha": "27a88694bcade1b347f5147f18d515a33a47b2fb",
       "identity": "ci-runners-default-app:5a8ec6102b61ef61d4a63904f39769151c6e4ce836619ab4509a8d6cca73f5fc"
+    },
+    {
+      "id": "app-environment-variable-suggestions",
+      "digest": "ca17a58073c2961961edad8842ed5dbf1909365e72374934386864863ba9f32e",
+      "type": "minor",
+      "summary": "An App's Environment variables section now suggests the variable names its repository expects but that are not set yet, read from files such as `.env.example` and `vite-env.d.ts`, each with an Add button that fills in the name.",
+      "sourceSha": "6d94638897f339f0e61660e5f6a1642bae1440a1",
+      "identity": "app-environment-variable-suggestions:ca17a58073c2961961edad8842ed5dbf1909365e72374934386864863ba9f32e"
     }
   ],
   "consumedIntentIds": [
