@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "58c814eb5af52d821d66cc2394b5a89a8664bc61",
+  "cursorSha": "968098799de8ff8cc89b231a4fc9f7e84ae24a59",
   "highWaterVersion": "1.528.0",
   "rows": [
     {
@@ -163577,6 +163577,13 @@
       "sourceSha": "58c814eb5af52d821d66cc2394b5a89a8664bc61",
       "sourcePackageVersion": "1.541.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "968098799de8ff8cc89b231a4fc9f7e84ae24a59",
+      "sourcePackageVersion": "1.541.1",
+      "intentIds": [
+        "large-artifact-download:4c0b2b637e4033b69611ca3d09c114b2a39c3418f60428f9c09ba056adcb6f82"
+      ]
     }
   ],
   "intents": [
@@ -172971,6 +172978,14 @@
       "summary": "Settings → CodePress app now lists the automations running on this machine under \"Run my automations on this machine\", with how long each has run and the last few that ended, each with a link to open it on the web. The CodePress app item in the Settings list shows a small dot while one runs.",
       "sourceSha": "899061481168195299f3b7a3d9c66f40473d29f4",
       "identity": "automation-jobs-running-list:a837c43f4a4a4852dea7a6d792dd9d2d37bc82b44d1546702a34a054091bc67d"
+    },
+    {
+      "id": "large-artifact-download",
+      "digest": "4c0b2b637e4033b69611ca3d09c114b2a39c3418f60428f9c09ba056adcb6f82",
+      "type": "patch",
+      "summary": "Download is offered for a project's large artifacts again, with progress, a failure and Retry, and a ⋯ menu for previous, next and full screen on a narrow gallery.",
+      "sourceSha": "968098799de8ff8cc89b231a4fc9f7e84ae24a59",
+      "identity": "large-artifact-download:4c0b2b637e4033b69611ca3d09c114b2a39c3418f60428f9c09ba056adcb6f82"
     }
   ],
   "consumedIntentIds": [
