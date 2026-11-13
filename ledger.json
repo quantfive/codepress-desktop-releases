@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "7bc474fcfa6cfd7800f0ecd3516e9553ba348a41",
-  "highWaterVersion": "1.538.3",
+  "highWaterVersion": "1.539.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -90138,6 +90138,53 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:7bc474fcfa6cfd7800f0ecd3516e9553ba348a41",
+      "kind": "main",
+      "sequence": 2320,
+      "sourceSha": "7bc474fcfa6cfd7800f0ecd3516e9553ba348a41",
+      "sourcePackageVersion": "1.551.4",
+      "version": "1.539.0",
+      "batch": {
+        "intentIds": [
+          "terminal-version-follows-releases:386bffb1dd7c8dc00fe68f3d4910f2180ed8cf313f4ea412d94f2783a651f7d4",
+          "gemini-installs-agy:7b39cc88f4d58f826746d2b67fce20d2e3fce59f940747dc356207d6afd138a8",
+          "orchestrator-prompt-every-machine-settings:502692d72f17ccae12f0321154627a387e3587eb6742468c722fd700355c1f7a"
+        ],
+        "notesIntentIds": [
+          "terminal-version-follows-releases:386bffb1dd7c8dc00fe68f3d4910f2180ed8cf313f4ea412d94f2783a651f7d4",
+          "gemini-installs-agy:7b39cc88f4d58f826746d2b67fce20d2e3fce59f940747dc356207d6afd138a8",
+          "orchestrator-prompt-every-machine-settings:502692d72f17ccae12f0321154627a387e3587eb6742468c722fd700355c1f7a"
+        ],
+        "throughSourceSha": "7bc474fcfa6cfd7800f0ecd3516e9553ba348a41",
+        "previousThroughSourceSha": "fdfee3e62539c9105c6e889bb5222c8d03a3d201",
+        "baselineVersion": "1.538.3",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-13T03:30:29.243Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43359348037",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-14T03:30:21.045Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -177377,7 +177424,10 @@
     "terminal-shared-orchestrator-links:a1ed42c833d5cb45782b469c432f351ba17917a680496d9b01e49542cd3336af",
     "orchestrator-one-off-prompt-handoff:9286233a07fde9c81ee18c172f51a498addb385a9bc60db4847a0d12c31f0142",
     "gemini-menu-says-why-once:6bedf5e3fdf85882fa64cc9a1d9de074905fa092ade31f892a9dab5b4a2e32f4",
-    "notice-every-organization:235a349aefb325ecbd5c02caefbf334b43125b80aab5857342fd49501723bb6b"
+    "notice-every-organization:235a349aefb325ecbd5c02caefbf334b43125b80aab5857342fd49501723bb6b",
+    "terminal-version-follows-releases:386bffb1dd7c8dc00fe68f3d4910f2180ed8cf313f4ea412d94f2783a651f7d4",
+    "gemini-installs-agy:7b39cc88f4d58f826746d2b67fce20d2e3fce59f940747dc356207d6afd138a8",
+    "orchestrator-prompt-every-machine-settings:502692d72f17ccae12f0321154627a387e3587eb6742468c722fd700355c1f7a"
   ],
-  "consumedThroughSha": "fdfee3e62539c9105c6e889bb5222c8d03a3d201"
+  "consumedThroughSha": "7bc474fcfa6cfd7800f0ecd3516e9553ba348a41"
 }
