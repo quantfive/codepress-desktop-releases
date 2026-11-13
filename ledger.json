@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f9e785efd648db654ad3000e288445b62a5a178a",
+  "cursorSha": "e5883248d3b975757eab47e84a374136b20d1941",
   "highWaterVersion": "1.542.1",
   "rows": [
     {
@@ -167292,6 +167292,13 @@
       "sourceSha": "f9e785efd648db654ad3000e288445b62a5a178a",
       "sourcePackageVersion": "1.541.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e5883248d3b975757eab47e84a374136b20d1941",
+      "sourcePackageVersion": "1.541.1",
+      "intentIds": [
+        "worker-launch-single-base-fetch:1929394faa33f71bd292d69f586c650276328199681c1f54368cda6b73cb2daf"
+      ]
     }
   ],
   "intents": [
@@ -177142,6 +177149,14 @@
       "summary": "Removing a Codex account in Settings → Agent accounts now removes it and keeps it removed. A Personal or Team account leaves this computer at once rather than at the next lease sync, and a lease sync already in flight can't add it back. Removing the active account takes its login out of the Codex CLI's auth.json, so the next account activates after a restart. A remove that matched nothing now shows an error on the card, for Claude and Codex, instead of looking like it worked.",
       "sourceSha": "9f6c96e249be7f53ff2e982e7243d45833321d19",
       "identity": "codex-remove-keeps-removed:6864297e31ec8480559bb8d603135e2a9b326202dd454f3417fd4f4c0f58f63a"
+    },
+    {
+      "id": "worker-launch-single-base-fetch",
+      "digest": "1929394faa33f71bd292d69f586c650276328199681c1f54368cda6b73cb2daf",
+      "type": "patch",
+      "summary": "Workers start faster: a worker launch fetches its base branch once instead of twice, and a base fetched successfully in the last two minutes is not fetched again. Each worker launch now logs one `worker launch timing` line naming how long admission, the worktree, the tab, the agent command and the agent's first output took.",
+      "sourceSha": "e5883248d3b975757eab47e84a374136b20d1941",
+      "identity": "worker-launch-single-base-fetch:1929394faa33f71bd292d69f586c650276328199681c1f54368cda6b73cb2daf"
     }
   ],
   "consumedIntentIds": [
