@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3e6c7002a1fd9149eda51ab6b221c10b58daecd4",
+  "cursorSha": "ca576622944340a76656b799b0dd647865f5eb47",
   "highWaterVersion": "1.547.0",
   "rows": [
     {
@@ -168452,6 +168452,13 @@
       "sourceSha": "3e6c7002a1fd9149eda51ab6b221c10b58daecd4",
       "sourcePackageVersion": "1.541.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ca576622944340a76656b799b0dd647865f5eb47",
+      "sourcePackageVersion": "1.541.1",
+      "intentIds": [
+        "storage-cleans-rust-test-folders:130c210e8bf39ed7540e5dde740c3553c87252a0bffcffa88f76e328efaff157"
+      ]
     }
   ],
   "intents": [
@@ -178486,6 +178493,14 @@
       "summary": "macOS releases ship again after Apple's notarization passes. The launch check run on each built app now expects the exact commit the app was built from, so it no longer rejects a correctly built, notarized app as a source mismatch.",
       "sourceSha": "8efdd0838f030664eb7d290358f61e73f47b8890",
       "identity": "macos-launch-check-release-commit:44a2758105962de37729dca2e0f7c68d7fd9d5e7b3a28a0060c41e87243d6160"
+    },
+    {
+      "id": "storage-cleans-rust-test-folders",
+      "digest": "130c210e8bf39ed7540e5dde740c3553c87252a0bffcffa88f76e328efaff157",
+      "type": "patch",
+      "summary": "Storage cleanup can now remove the temporary folders that Terminal's own Rust broker tests leave behind, once they pass the test-fixture age cutoff, when the test-fixtures cleanup target is turned on.",
+      "sourceSha": "ca576622944340a76656b799b0dd647865f5eb47",
+      "identity": "storage-cleans-rust-test-folders:130c210e8bf39ed7540e5dde740c3553c87252a0bffcffa88f76e328efaff157"
     }
   ],
   "consumedIntentIds": [
