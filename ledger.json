@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "92b1dd62d524e62b313efeba466d6f00ea9a7244",
+  "cursorSha": "31874ce5d1edbc157e569bb773ec8e5928a8d199",
   "highWaterVersion": "1.537.3",
   "rows": [
     {
@@ -165876,6 +165876,13 @@
       "sourceSha": "92b1dd62d524e62b313efeba466d6f00ea9a7244",
       "sourcePackageVersion": "1.550.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "31874ce5d1edbc157e569bb773ec8e5928a8d199",
+      "sourcePackageVersion": "1.550.3",
+      "intentIds": [
+        "onboarding-helper-hints:f0b153e1630b11459a39443d1400d318307ee04ccf06bba08a6d607cde45a5d6"
+      ]
     }
   ],
   "intents": [
@@ -175550,6 +175557,14 @@
       "summary": "Terminal tabs and split panes no longer draw glyph fragments instead of letters after another tab or pane rebuilds the shared WebGL glyph cache (a new split pane, or long colourful output). Terminal also checks for a stale glyph cache and repaints it, without needing a resize.",
       "sourceSha": "a6543cbf54f9108abc12493c65a2e0ebd646fe8b",
       "identity": "terminal-shared-glyph-atlas:d6906e9fd69628e8f97027aa62e19748cee68a4729efbc2f4e251fde9de1d001"
+    },
+    {
+      "id": "onboarding-helper-hints",
+      "digest": "f0b153e1630b11459a39443d1400d318307ee04ccf06bba08a6d607cde45a5d6",
+      "type": "patch",
+      "summary": "Bundle the shared onboarding helper hints (No AI subscription?, Not sure? and the invite line), ready for the app's onboarding steps to use.",
+      "sourceSha": "31874ce5d1edbc157e569bb773ec8e5928a8d199",
+      "identity": "onboarding-helper-hints:f0b153e1630b11459a39443d1400d318307ee04ccf06bba08a6d607cde45a5d6"
     }
   ],
   "consumedIntentIds": [
