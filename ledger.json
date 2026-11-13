@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d2c62b23ca852827c7f54ba1e17108e628f62f27",
+  "cursorSha": "7bc474fcfa6cfd7800f0ecd3516e9553ba348a41",
   "highWaterVersion": "1.538.3",
   "rows": [
     {
@@ -166389,6 +166389,13 @@
       "sourceSha": "d2c62b23ca852827c7f54ba1e17108e628f62f27",
       "sourcePackageVersion": "1.551.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7bc474fcfa6cfd7800f0ecd3516e9553ba348a41",
+      "sourcePackageVersion": "1.551.4",
+      "intentIds": [
+        "orchestrator-prompt-every-machine-settings:502692d72f17ccae12f0321154627a387e3587eb6742468c722fd700355c1f7a"
+      ]
     }
   ],
   "intents": [
@@ -176143,6 +176150,14 @@
       "summary": "Gemini workers and Gemini Orchestrators now work on a machine without the Antigravity CLI. On macOS and Linux (x64 and arm64), Terminal downloads its pinned `agy` into its own data folder at the first Gemini launch, and the model menus let you pick Gemini there with no install line. Your own `agy` is still used when you have one. If the download fails, the launch says so with the manual install command and no other agent starts. When agy's first-run setup is still unanswered, the message now also points to Sign in with Google in Settings → You → Agent accounts → Google, which opens that setup in a tab, since Terminal's copy is not on your PATH. It also fixes a bug where, once Terminal had installed a Muse, Grok or Gemini CLI, a later launch that found it could be reported as interrupted.",
       "sourceSha": "66f7c1e3866e917f4ebd6bea54b7d4625b05590c",
       "identity": "gemini-installs-agy:7b39cc88f4d58f826746d2b67fce20d2e3fce59f940747dc356207d6afd138a8"
+    },
+    {
+      "id": "orchestrator-prompt-every-machine-settings",
+      "digest": "502692d72f17ccae12f0321154627a387e3587eb6742468c722fd700355c1f7a",
+      "type": "patch",
+      "summary": "Settings → Repositories shows a repository's Orchestrator instructions above the \"On this computer\" pins and says a saved prompt is kept on your account, used on every machine you sign in to and by Cloud Orchestrators. The instructions editor and a project's own editor say where their prompt is used.",
+      "sourceSha": "7bc474fcfa6cfd7800f0ecd3516e9553ba348a41",
+      "identity": "orchestrator-prompt-every-machine-settings:502692d72f17ccae12f0321154627a387e3587eb6742468c722fd700355c1f7a"
     }
   ],
   "consumedIntentIds": [
