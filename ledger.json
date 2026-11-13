@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "566a8a5ace07fd1d5a8700431c73b24b9be3fb68",
+  "cursorSha": "9301bbc446d24bda30bba51341811ac34e588b94",
   "highWaterVersion": "1.546.0",
   "rows": [
     {
@@ -168309,6 +168309,13 @@
       "intentIds": [
         "terminal-select-cache:7105a54f824db8ef3965a48d6fea96d104225e5752d7668ba7454d4c87035617"
       ]
+    },
+    {
+      "sourceSha": "9301bbc446d24bda30bba51341811ac34e588b94",
+      "sourcePackageVersion": "1.541.1",
+      "intentIds": [
+        "minimax-coding-plan-keys:d3b31c1de61f0c65e7226d303aa3b7a2f2e5337595b6c097d1019994680282d9"
+      ]
     }
   ],
   "intents": [
@@ -178303,6 +178310,14 @@
       "summary": "CI plans which Terminal tests to run faster: the test selector reuses what it learned about each unchanged file on an earlier run. The selected tests are unchanged.",
       "sourceSha": "566a8a5ace07fd1d5a8700431c73b24b9be3fb68",
       "identity": "terminal-select-cache:7105a54f824db8ef3965a48d6fea96d104225e5752d7668ba7454d4c87035617"
+    },
+    {
+      "id": "minimax-coding-plan-keys",
+      "digest": "d3b31c1de61f0c65e7226d303aa3b7a2f2e5337595b6c097d1019994680282d9",
+      "type": "minor",
+      "summary": "Workers and Claude Code tabs can now run on a MiniMax Coding Plan. Add your MiniMax key once in Settings → Agent accounts → MiniMax; it stays encrypted on this machine. Orchestrator workers given a MiniMax-M3.1-Flash or MiniMax-M3 model then run Claude Code against MiniMax through the same local relay as Z.ai's GLM, holding only a one-tab token, never the key. The New tab menu offers Claude Code on MiniMax once a key is added. With no MiniMax key, a MiniMax launch is refused and points to Agent accounts → MiniMax; a Z.ai key is never used for it, nor a MiniMax key for GLM, and nothing starts on your Claude login.",
+      "sourceSha": "9301bbc446d24bda30bba51341811ac34e588b94",
+      "identity": "minimax-coding-plan-keys:d3b31c1de61f0c65e7226d303aa3b7a2f2e5337595b6c097d1019994680282d9"
     }
   ],
   "consumedIntentIds": [
