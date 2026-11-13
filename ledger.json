@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "950f41c0f6c153938accd3ecaa7ef707430e7349",
+  "cursorSha": "20b4d2f7d3dd35042a165d9bfbefd77ab2684ce6",
   "highWaterVersion": "1.540.0",
   "rows": [
     {
@@ -166671,6 +166671,13 @@
       "sourceSha": "950f41c0f6c153938accd3ecaa7ef707430e7349",
       "sourcePackageVersion": "1.551.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "20b4d2f7d3dd35042a165d9bfbefd77ab2684ce6",
+      "sourcePackageVersion": "1.538.3",
+      "intentIds": [
+        "bright-seas-align:ea59dddcf65b93ae4aeb7be6a4255c94e85ec30746768b012e7e990fc8748b4e"
+      ]
     }
   ],
   "intents": [
@@ -176457,6 +176464,14 @@
       "summary": "Machines can run team automations their owner allows. \"Also run team automations I allow\" saves the owner's passkeys on the machine; a team automation then runs once allowed on the machine or with one of those passkeys from another device, and the allow card names its creator and secrets.",
       "sourceSha": "7929827b53e79e9e6acc11243f4aa596a651fee1",
       "identity": "team-orders-passkey-allows:92aa3f3d7b713769a00df52cd001156d46885feaa54f4c1b22ffbd9b6585d442"
+    },
+    {
+      "id": "bright-seas-align",
+      "digest": "ea59dddcf65b93ae4aeb7be6a4255c94e85ec30746768b012e7e990fc8748b4e",
+      "type": "patch",
+      "summary": "Align the repository Terminal version and changelog with published releases.",
+      "sourceSha": "20b4d2f7d3dd35042a165d9bfbefd77ab2684ce6",
+      "identity": "bright-seas-align:ea59dddcf65b93ae4aeb7be6a4255c94e85ec30746768b012e7e990fc8748b4e"
     }
   ],
   "consumedIntentIds": [
