@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "f28e1d55635a62e64d6b695302af653ffc36f48a",
-  "highWaterVersion": "1.540.0",
+  "highWaterVersion": "1.540.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -90362,6 +90362,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:f28e1d55635a62e64d6b695302af653ffc36f48a",
+      "kind": "main",
+      "sequence": 2324,
+      "sourceSha": "f28e1d55635a62e64d6b695302af653ffc36f48a",
+      "sourcePackageVersion": "1.540.0",
+      "version": "1.540.1",
+      "batch": {
+        "intentIds": [
+          "bright-seas-align:ea59dddcf65b93ae4aeb7be6a4255c94e85ec30746768b012e7e990fc8748b4e"
+        ],
+        "notesIntentIds": [
+          "bright-seas-align:ea59dddcf65b93ae4aeb7be6a4255c94e85ec30746768b012e7e990fc8748b4e"
+        ],
+        "throughSourceSha": "f28e1d55635a62e64d6b695302af653ffc36f48a",
+        "previousThroughSourceSha": "7929827b53e79e9e6acc11243f4aa596a651fee1",
+        "baselineVersion": "1.540.0",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-13T05:32:20.948Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43372611363",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-14T05:32:14.443Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -177712,7 +177755,8 @@
     "orchestrator-prompt-every-machine-settings:502692d72f17ccae12f0321154627a387e3587eb6742468c722fd700355c1f7a",
     "terminal-vitest-vm-pool-collection:23d86eb907fccbcdfd1e37d19bcfb2750d6ca0000c84c114654cd68ef7d74d23",
     "later-prompt-update-every-machine:91e45a3da8104ecb09ebabd8a37d1bf54d10337a70129fe6fb8c840b1e16c179",
-    "team-orders-passkey-allows:92aa3f3d7b713769a00df52cd001156d46885feaa54f4c1b22ffbd9b6585d442"
+    "team-orders-passkey-allows:92aa3f3d7b713769a00df52cd001156d46885feaa54f4c1b22ffbd9b6585d442",
+    "bright-seas-align:ea59dddcf65b93ae4aeb7be6a4255c94e85ec30746768b012e7e990fc8748b4e"
   ],
-  "consumedThroughSha": "7929827b53e79e9e6acc11243f4aa596a651fee1"
+  "consumedThroughSha": "f28e1d55635a62e64d6b695302af653ffc36f48a"
 }
