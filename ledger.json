@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7343db5b5c9b8629109c175ca943cf3eaedd48b0",
+  "cursorSha": "d14f9ea1b4b3221d2f7316bf3e2b4d17b0c5f438",
   "highWaterVersion": "1.537.2",
   "rows": [
     {
@@ -165780,6 +165780,13 @@
       "sourceSha": "7343db5b5c9b8629109c175ca943cf3eaedd48b0",
       "sourcePackageVersion": "1.550.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d14f9ea1b4b3221d2f7316bf3e2b4d17b0c5f438",
+      "sourcePackageVersion": "1.550.1",
+      "intentIds": [
+        "restore-terminal-first-party-preview:7ce9cb3c8c2188f3b6fcc712541767b9d1fe2bae28f4823a3e05dad5cadcb1c4"
+      ]
     }
   ],
   "intents": [
@@ -175430,6 +175437,14 @@
       "summary": "Bundle the shared Hand off dialog for a run on one of your machines, ready for the Automations screens to use.",
       "sourceSha": "5a74be010bfcafd763a53117903a6fa4e6145f80",
       "identity": "run-handoff-dialog:09eaf0bee835a02d1055d03e1fc554ad49fba4da96213990eab859756b333974"
+    },
+    {
+      "id": "restore-terminal-first-party-preview",
+      "digest": "7ce9cb3c8c2188f3b6fcc712541767b9d1fe2bae28f4823a3e05dad5cadcb1c4",
+      "type": "patch",
+      "summary": "Restore first-party hosted App previews inside Terminal by opening eligible Apps in the existing embedded web page while preserving their address and selected chat. Return to the saved Apps folder or collection from either native or embedded App detail. Preserve existing chat drafts and editor mode when an App is hidden and shown again, including reattaching its editor after a hidden iframe reload and preserving newer unsaved inserts in a surviving editor.\n\nKeep the Linux shell full-size while positioning embedded App/Cloud webviews over their placeholders, and dispatch copied-auth worker events to the main thread before protected writes.\n\nSynchronize the selected chat address before the first preview handoff so its later native address mirror cannot hide the embedded App.\n\nRecover control of a surviving embedded App/Cloud child after the parent reloads, preserving its document while restoring bounds and independent overlay visibility. A newer native destination cancels an obsolete queued web navigation.",
+      "sourceSha": "d14f9ea1b4b3221d2f7316bf3e2b4d17b0c5f438",
+      "identity": "restore-terminal-first-party-preview:7ce9cb3c8c2188f3b6fcc712541767b9d1fe2bae28f4823a3e05dad5cadcb1c4"
     }
   ],
   "consumedIntentIds": [
