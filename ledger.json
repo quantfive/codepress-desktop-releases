@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6467f70f3d13bbea5ef22215966e340a14cdb294",
+  "cursorSha": "2f5909d933e8db097da34ec038f792bcd8b8f8ad",
   "highWaterVersion": "1.541.2",
   "rows": [
     {
@@ -167106,6 +167106,13 @@
       "sourceSha": "6467f70f3d13bbea5ef22215966e340a14cdb294",
       "sourcePackageVersion": "1.541.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2f5909d933e8db097da34ec038f792bcd8b8f8ad",
+      "sourcePackageVersion": "1.541.1",
+      "intentIds": [
+        "plain-google-sign-in-window:d0e2b5679e976ed4a1e4659368d615f48af0f5b490d9b11e95b49370c5a5380c"
+      ]
     }
   ],
   "intents": [
@@ -176932,6 +176939,14 @@
       "summary": "Plans: Edit starts from each page instead of the top bar. An editable page's canvas label has a pencil, or double-click the page, to edit it. The edit bar at the canvas's foot holds Page / HTML, the unsaved count, Discard, Save and Done, so the top bar no longer shifts while editing.",
       "sourceSha": "7a76659b406b5e1b688b48aaa54d15c93004629b",
       "identity": "plan-edit-on-each-page:5250667d81929991f47e6c807db891870a006dae12719f12b1dc28aeae8b552c"
+    },
+    {
+      "id": "plain-google-sign-in-window",
+      "digest": "d0e2b5679e976ed4a1e4659368d615f48af0f5b490d9b11e95b49370c5a5380c",
+      "type": "minor",
+      "summary": "Google sign-in now works in the agent's browser. `browser_human_interaction` can open a plain window on this machine (`plain_window: true`, and picked automatically for an accounts.google.com page when the machine has a display). It has no debugging port, which Google refuses, and so no live view. The person signs in there and closes the window, and the agent's own browser keeps the Google sign-in for \"Sign in with Google\" on other sites. On macOS Terminal quits a window the person left open the way Cmd+Q does, so the sign-in is saved.",
+      "sourceSha": "2f5909d933e8db097da34ec038f792bcd8b8f8ad",
+      "identity": "plain-google-sign-in-window:d0e2b5679e976ed4a1e4659368d615f48af0f5b490d9b11e95b49370c5a5380c"
     }
   ],
   "consumedIntentIds": [
