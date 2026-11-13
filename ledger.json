@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "8d4ac91e7dca4e2e3ce9405285b07b8783808617",
+  "cursorSha": "a13091b11a166b280865b7f19fe0dc3cf1f4375e",
   "highWaterVersion": "1.547.1",
   "rows": [
     {
@@ -168516,6 +168516,13 @@
       "sourceSha": "8d4ac91e7dca4e2e3ce9405285b07b8783808617",
       "sourcePackageVersion": "1.547.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a13091b11a166b280865b7f19fe0dc3cf1f4375e",
+      "sourcePackageVersion": "1.547.0",
+      "intentIds": [
+        "terminal-records-interactions:5b9476092963d3d1610a0e30836ccbafa9fd0238cfb76845f52b966b9160202b"
+      ]
     }
   ],
   "intents": [
@@ -178558,6 +178565,14 @@
       "summary": "Storage cleanup can now remove the temporary folders that Terminal's own Rust broker tests leave behind, once they pass the test-fixture age cutoff, when the test-fixtures cleanup target is turned on.",
       "sourceSha": "ca576622944340a76656b799b0dd647865f5eb47",
       "identity": "storage-cleans-rust-test-folders:130c210e8bf39ed7540e5dde740c3553c87252a0bffcffa88f76e328efaff157"
+    },
+    {
+      "id": "terminal-records-interactions",
+      "digest": "5b9476092963d3d1610a0e30836ccbafa9fd0238cfb76845f52b966b9160202b",
+      "type": "minor",
+      "summary": "Terminal records its own screens, clicks and how long each call to its local server takes into Interactions, content-free and only while the machine's telemetry setting is on; turning the setting off stops it at once. Remove actions and switches in Settings declare what they must leave behind, so a remove that leaves its row is caught.",
+      "sourceSha": "a13091b11a166b280865b7f19fe0dc3cf1f4375e",
+      "identity": "terminal-records-interactions:5b9476092963d3d1610a0e30836ccbafa9fd0238cfb76845f52b966b9160202b"
     }
   ],
   "consumedIntentIds": [
