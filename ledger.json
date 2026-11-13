@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b050651fca454aa3ff48f06b057f2d0374e8b30d",
+  "cursorSha": "f9c85479f95115a14d6fb0b2e58416c91852c0b2",
   "highWaterVersion": "1.538.3",
   "rows": [
     {
@@ -166355,6 +166355,13 @@
       "sourceSha": "b050651fca454aa3ff48f06b057f2d0374e8b30d",
       "sourcePackageVersion": "1.551.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f9c85479f95115a14d6fb0b2e58416c91852c0b2",
+      "sourcePackageVersion": "1.551.4",
+      "intentIds": [
+        "terminal-version-follows-releases:386bffb1dd7c8dc00fe68f3d4910f2180ed8cf313f4ea412d94f2783a651f7d4"
+      ]
     }
   ],
   "intents": [
@@ -176093,6 +176100,14 @@
       "summary": "The \"Orchestrator prompt updated\" notice now checks every organization you belong to, so it shows on each of your machines whichever organization the prompt is saved in. With more than one organization it names the organization, and Review opens the prompt there.",
       "sourceSha": "fdfee3e62539c9105c6e889bb5222c8d03a3d201",
       "identity": "notice-every-organization:235a349aefb325ecbd5c02caefbf334b43125b80aab5857342fd49501723bb6b"
+    },
+    {
+      "id": "terminal-version-follows-releases",
+      "digest": "386bffb1dd7c8dc00fe68f3d4910f2180ed8cf313f4ea412d94f2783a651f7d4",
+      "type": "patch",
+      "summary": "The Terminal version on main is now the published release version, and its CHANGELOG lists each published Terminal release with the notes that release shipped. Merging a Terminal change no longer bumps the version; the release that ships it does.",
+      "sourceSha": "f9c85479f95115a14d6fb0b2e58416c91852c0b2",
+      "identity": "terminal-version-follows-releases:386bffb1dd7c8dc00fe68f3d4910f2180ed8cf313f4ea412d94f2783a651f7d4"
     }
   ],
   "consumedIntentIds": [
