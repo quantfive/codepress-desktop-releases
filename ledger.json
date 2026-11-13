@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "5388b44dd33f2e8ce7c2cc7114086df44817ae18",
-  "highWaterVersion": "1.542.3",
+  "highWaterVersion": "1.542.4",
   "rows": [
     {
       "schemaVersion": 1,
@@ -90896,6 +90896,55 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:5388b44dd33f2e8ce7c2cc7114086df44817ae18",
+      "kind": "main",
+      "sequence": 2333,
+      "sourceSha": "5388b44dd33f2e8ce7c2cc7114086df44817ae18",
+      "sourcePackageVersion": "1.541.1",
+      "version": "1.542.4",
+      "batch": {
+        "intentIds": [
+          "land-cleanup-absent-tree:0d3d4dbd43535d8e867b72bc5c9b43c15a35515507d4e5a67cbb1f05d9f25c31"
+        ],
+        "notesIntentIds": [
+          "plan-edit-on-each-page:5250667d81929991f47e6c807db891870a006dae12719f12b1dc28aeae8b552c",
+          "plain-google-sign-in-window:d0e2b5679e976ed4a1e4659368d615f48af0f5b490d9b11e95b49370c5a5380c",
+          "janitor-idle-shell-tabs:42bafb78454fbe5f4d2759e42c9ce1f918f6ae693833b8896fd04aa72d3ea841",
+          "codex-remove-keeps-removed:6864297e31ec8480559bb8d603135e2a9b326202dd454f3417fd4f4c0f58f63a",
+          "worker-launch-single-base-fetch:1929394faa33f71bd292d69f586c650276328199681c1f54368cda6b73cb2daf",
+          "subscription-move-shared-ui:d9442dce1cf4cad66c27749c35db7caa1d13d9e21e4ffebaf79dd49215f9a4c7",
+          "land-cleanup-absent-tree:0d3d4dbd43535d8e867b72bc5c9b43c15a35515507d4e5a67cbb1f05d9f25c31"
+        ],
+        "throughSourceSha": "5388b44dd33f2e8ce7c2cc7114086df44817ae18",
+        "previousThroughSourceSha": "ae9b88731705cf5fa026f59439a0b2d811dfec70",
+        "baselineVersion": "1.542.3",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-13T10:01:09.055Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43405766943",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-14T10:01:01.626Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -178581,7 +178630,8 @@
     "janitor-idle-shell-tabs:42bafb78454fbe5f4d2759e42c9ce1f918f6ae693833b8896fd04aa72d3ea841",
     "codex-remove-keeps-removed:6864297e31ec8480559bb8d603135e2a9b326202dd454f3417fd4f4c0f58f63a",
     "worker-launch-single-base-fetch:1929394faa33f71bd292d69f586c650276328199681c1f54368cda6b73cb2daf",
-    "subscription-move-shared-ui:d9442dce1cf4cad66c27749c35db7caa1d13d9e21e4ffebaf79dd49215f9a4c7"
+    "subscription-move-shared-ui:d9442dce1cf4cad66c27749c35db7caa1d13d9e21e4ffebaf79dd49215f9a4c7",
+    "land-cleanup-absent-tree:0d3d4dbd43535d8e867b72bc5c9b43c15a35515507d4e5a67cbb1f05d9f25c31"
   ],
-  "consumedThroughSha": "ae9b88731705cf5fa026f59439a0b2d811dfec70"
+  "consumedThroughSha": "5388b44dd33f2e8ce7c2cc7114086df44817ae18"
 }
