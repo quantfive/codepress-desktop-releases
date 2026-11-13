@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "7929827b53e79e9e6acc11243f4aa596a651fee1",
-  "highWaterVersion": "1.539.2",
+  "highWaterVersion": "1.540.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -90307,6 +90307,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:7929827b53e79e9e6acc11243f4aa596a651fee1",
+      "kind": "main",
+      "sequence": 2323,
+      "sourceSha": "7929827b53e79e9e6acc11243f4aa596a651fee1",
+      "sourcePackageVersion": "1.551.4",
+      "version": "1.540.0",
+      "batch": {
+        "intentIds": [
+          "team-orders-passkey-allows:92aa3f3d7b713769a00df52cd001156d46885feaa54f4c1b22ffbd9b6585d442"
+        ],
+        "notesIntentIds": [
+          "team-orders-passkey-allows:92aa3f3d7b713769a00df52cd001156d46885feaa54f4c1b22ffbd9b6585d442"
+        ],
+        "throughSourceSha": "7929827b53e79e9e6acc11243f4aa596a651fee1",
+        "previousThroughSourceSha": "f4e9630bfbe12d1d62abdeca778dce4dee99145c",
+        "baselineVersion": "1.539.2",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-13T05:11:04.543Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43370245850",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-14T05:10:57.243Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -177616,7 +177659,8 @@
     "gemini-installs-agy:7b39cc88f4d58f826746d2b67fce20d2e3fce59f940747dc356207d6afd138a8",
     "orchestrator-prompt-every-machine-settings:502692d72f17ccae12f0321154627a387e3587eb6742468c722fd700355c1f7a",
     "terminal-vitest-vm-pool-collection:23d86eb907fccbcdfd1e37d19bcfb2750d6ca0000c84c114654cd68ef7d74d23",
-    "later-prompt-update-every-machine:91e45a3da8104ecb09ebabd8a37d1bf54d10337a70129fe6fb8c840b1e16c179"
+    "later-prompt-update-every-machine:91e45a3da8104ecb09ebabd8a37d1bf54d10337a70129fe6fb8c840b1e16c179",
+    "team-orders-passkey-allows:92aa3f3d7b713769a00df52cd001156d46885feaa54f4c1b22ffbd9b6585d442"
   ],
-  "consumedThroughSha": "f4e9630bfbe12d1d62abdeca778dce4dee99145c"
+  "consumedThroughSha": "7929827b53e79e9e6acc11243f4aa596a651fee1"
 }
