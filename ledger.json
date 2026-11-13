@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "640408bbc2d2d21c508bd7f3d99c1979e875e9a2",
-  "highWaterVersion": "1.542.0",
+  "highWaterVersion": "1.542.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -90703,6 +90703,53 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:640408bbc2d2d21c508bd7f3d99c1979e875e9a2",
+      "kind": "main",
+      "sequence": 2330,
+      "sourceSha": "640408bbc2d2d21c508bd7f3d99c1979e875e9a2",
+      "sourcePackageVersion": "1.541.1",
+      "version": "1.542.1",
+      "batch": {
+        "intentIds": [
+          "janitor-idle-shell-tabs:42bafb78454fbe5f4d2759e42c9ce1f918f6ae693833b8896fd04aa72d3ea841",
+          "codex-remove-keeps-removed:6864297e31ec8480559bb8d603135e2a9b326202dd454f3417fd4f4c0f58f63a"
+        ],
+        "notesIntentIds": [
+          "plan-edit-on-each-page:5250667d81929991f47e6c807db891870a006dae12719f12b1dc28aeae8b552c",
+          "plain-google-sign-in-window:d0e2b5679e976ed4a1e4659368d615f48af0f5b490d9b11e95b49370c5a5380c",
+          "janitor-idle-shell-tabs:42bafb78454fbe5f4d2759e42c9ce1f918f6ae693833b8896fd04aa72d3ea841",
+          "codex-remove-keeps-removed:6864297e31ec8480559bb8d603135e2a9b326202dd454f3417fd4f4c0f58f63a"
+        ],
+        "throughSourceSha": "640408bbc2d2d21c508bd7f3d99c1979e875e9a2",
+        "previousThroughSourceSha": "af853e1f0512b6d0e3e45ec7f29954587e2601a1",
+        "baselineVersion": "1.542.0",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-13T08:46:27.002Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43395771044",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-14T08:46:19.111Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -178299,7 +178346,9 @@
     "gemini-4-hydrogen-carbon-argon:f41ef40a28fbcda798e32677dcb447d448820cebd74754b4d5ca87a46a89a789",
     "machine-allows-in-computers:a7fed50ec2f4c896ed47973fccb18ea00981ce56274407adda5bd1fb6d480355",
     "plan-edit-on-each-page:5250667d81929991f47e6c807db891870a006dae12719f12b1dc28aeae8b552c",
-    "plain-google-sign-in-window:d0e2b5679e976ed4a1e4659368d615f48af0f5b490d9b11e95b49370c5a5380c"
+    "plain-google-sign-in-window:d0e2b5679e976ed4a1e4659368d615f48af0f5b490d9b11e95b49370c5a5380c",
+    "janitor-idle-shell-tabs:42bafb78454fbe5f4d2759e42c9ce1f918f6ae693833b8896fd04aa72d3ea841",
+    "codex-remove-keeps-removed:6864297e31ec8480559bb8d603135e2a9b326202dd454f3417fd4f4c0f58f63a"
   ],
-  "consumedThroughSha": "af853e1f0512b6d0e3e45ec7f29954587e2601a1"
+  "consumedThroughSha": "640408bbc2d2d21c508bd7f3d99c1979e875e9a2"
 }
