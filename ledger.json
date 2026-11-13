@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "f63182049d019a42b590a23f70bc147164a98f79",
-  "highWaterVersion": "1.547.1",
+  "highWaterVersion": "1.548.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -91669,6 +91669,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:f63182049d019a42b590a23f70bc147164a98f79",
+      "kind": "main",
+      "sequence": 2345,
+      "sourceSha": "f63182049d019a42b590a23f70bc147164a98f79",
+      "sourcePackageVersion": "1.547.0",
+      "version": "1.548.0",
+      "batch": {
+        "intentIds": [
+          "terminal-records-interactions:5b9476092963d3d1610a0e30836ccbafa9fd0238cfb76845f52b966b9160202b"
+        ],
+        "notesIntentIds": [
+          "terminal-records-interactions:5b9476092963d3d1610a0e30836ccbafa9fd0238cfb76845f52b966b9160202b"
+        ],
+        "throughSourceSha": "f63182049d019a42b590a23f70bc147164a98f79",
+        "previousThroughSourceSha": "ca576622944340a76656b799b0dd647865f5eb47",
+        "baselineVersion": "1.547.1",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-13T20:45:11.710Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43504338085",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-14T20:45:02.275Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -179835,7 +179878,8 @@
     "served-welcome-shell:fd3e758dc00e3822a0a55c6b385e5b7ac7bef27af87441dff2dd65674bba468a",
     "land-closes-owned-tabs:6d6bcbeaae614b49a3af51c255095d28f8f389359fed57257c573c77f6f4427b",
     "macos-launch-check-release-commit:44a2758105962de37729dca2e0f7c68d7fd9d5e7b3a28a0060c41e87243d6160",
-    "storage-cleans-rust-test-folders:130c210e8bf39ed7540e5dde740c3553c87252a0bffcffa88f76e328efaff157"
+    "storage-cleans-rust-test-folders:130c210e8bf39ed7540e5dde740c3553c87252a0bffcffa88f76e328efaff157",
+    "terminal-records-interactions:5b9476092963d3d1610a0e30836ccbafa9fd0238cfb76845f52b966b9160202b"
   ],
-  "consumedThroughSha": "ca576622944340a76656b799b0dd647865f5eb47"
+  "consumedThroughSha": "f63182049d019a42b590a23f70bc147164a98f79"
 }
