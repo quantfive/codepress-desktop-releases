@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "fdfee3e62539c9105c6e889bb5222c8d03a3d201",
-  "highWaterVersion": "1.538.2",
+  "highWaterVersion": "1.538.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -90083,6 +90083,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:fdfee3e62539c9105c6e889bb5222c8d03a3d201",
+      "kind": "main",
+      "sequence": 2319,
+      "sourceSha": "fdfee3e62539c9105c6e889bb5222c8d03a3d201",
+      "sourcePackageVersion": "1.551.3",
+      "version": "1.538.3",
+      "publicationDate": "2026-11-13T03:07:41.208Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "notice-every-organization:235a349aefb325ecbd5c02caefbf334b43125b80aab5857342fd49501723bb6b"
+        ],
+        "notesIntentIds": [
+          "notice-every-organization:235a349aefb325ecbd5c02caefbf334b43125b80aab5857342fd49501723bb6b"
+        ],
+        "throughSourceSha": "fdfee3e62539c9105c6e889bb5222c8d03a3d201",
+        "previousThroughSourceSha": "dc5a4ef95fedc019fbec8fd22a0f5c54b561baa2",
+        "baselineVersion": "1.538.2",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43356778484",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-14T03:07:34.669Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -177251,7 +177294,8 @@
     "hand-off-on-this-machine:ec51ae67379a5f4bc39c9e7ccc1d05b6f8bfbcbf73e597ecad074fda52d7f5ff",
     "terminal-shared-orchestrator-links:a1ed42c833d5cb45782b469c432f351ba17917a680496d9b01e49542cd3336af",
     "orchestrator-one-off-prompt-handoff:9286233a07fde9c81ee18c172f51a498addb385a9bc60db4847a0d12c31f0142",
-    "gemini-menu-says-why-once:6bedf5e3fdf85882fa64cc9a1d9de074905fa092ade31f892a9dab5b4a2e32f4"
+    "gemini-menu-says-why-once:6bedf5e3fdf85882fa64cc9a1d9de074905fa092ade31f892a9dab5b4a2e32f4",
+    "notice-every-organization:235a349aefb325ecbd5c02caefbf334b43125b80aab5857342fd49501723bb6b"
   ],
-  "consumedThroughSha": "dc5a4ef95fedc019fbec8fd22a0f5c54b561baa2"
+  "consumedThroughSha": "fdfee3e62539c9105c6e889bb5222c8d03a3d201"
 }
