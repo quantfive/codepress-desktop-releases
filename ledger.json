@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9dd8ed9c9c285d298118d61f21185615463131f4",
+  "cursorSha": "a1c044e09941c780b306255dc75121594886c778",
   "highWaterVersion": "1.546.0",
   "rows": [
     {
@@ -168323,6 +168323,13 @@
       "intentIds": [
         "linux-agents-permission-step:bb6485c9e507dd16d27b52bd4ec5ba56335019e4467d8d715bf7232189e4c31c"
       ]
+    },
+    {
+      "sourceSha": "a1c044e09941c780b306255dc75121594886c778",
+      "sourcePackageVersion": "1.541.1",
+      "intentIds": [
+        "served-welcome-shell:fd3e758dc00e3822a0a55c6b385e5b7ac7bef27af87441dff2dd65674bba468a"
+      ]
     }
   ],
   "intents": [
@@ -178333,6 +178340,14 @@
       "summary": "On Linux, Terminal's first run now shows **Let agents use this machine** with the Agents switches (Computer Use, Desktop Notifications, Notify on Completion), so you can choose them without finding Settings → Agents. Linux asks apps for no permissions, so the step has no grant rows; on a Wayland session it says that agents can take screenshots only through your desktop's screenshot prompt and can't click or type in most apps yet. Nothing is preset, Skip turns nothing on, and Settings → General → System → Review permissions now opens the same screen on Linux.",
       "sourceSha": "9dd8ed9c9c285d298118d61f21185615463131f4",
       "identity": "linux-agents-permission-step:bb6485c9e507dd16d27b52bd4ec5ba56335019e4467d8d715bf7232189e4c31c"
+    },
+    {
+      "id": "served-welcome-shell",
+      "digest": "fd3e758dc00e3822a0a55c6b385e5b7ac7bef27af87441dff2dd65674bba468a",
+      "type": "patch",
+      "summary": "Onboarding: in Replay onboarding and in a first run that opens signed in, Welcome and the Sign in preview now draw the same onboarding frame as the steps after them. Before sign-in the step list shows only Welcome and Sign in. The \"Needs a CodePress account\" box now lists four shorter, full sentences.",
+      "sourceSha": "a1c044e09941c780b306255dc75121594886c778",
+      "identity": "served-welcome-shell:fd3e758dc00e3822a0a55c6b385e5b7ac7bef27af87441dff2dd65674bba468a"
     }
   ],
   "consumedIntentIds": [
