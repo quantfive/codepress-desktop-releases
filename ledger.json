@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9301bbc446d24bda30bba51341811ac34e588b94",
+  "cursorSha": "9dd8ed9c9c285d298118d61f21185615463131f4",
   "highWaterVersion": "1.546.0",
   "rows": [
     {
@@ -168316,6 +168316,13 @@
       "intentIds": [
         "minimax-coding-plan-keys:d3b31c1de61f0c65e7226d303aa3b7a2f2e5337595b6c097d1019994680282d9"
       ]
+    },
+    {
+      "sourceSha": "9dd8ed9c9c285d298118d61f21185615463131f4",
+      "sourcePackageVersion": "1.541.1",
+      "intentIds": [
+        "linux-agents-permission-step:bb6485c9e507dd16d27b52bd4ec5ba56335019e4467d8d715bf7232189e4c31c"
+      ]
     }
   ],
   "intents": [
@@ -178318,6 +178325,14 @@
       "summary": "Workers and Claude Code tabs can now run on a MiniMax Coding Plan. Add your MiniMax key once in Settings → Agent accounts → MiniMax; it stays encrypted on this machine. Orchestrator workers given a MiniMax-M3.1-Flash or MiniMax-M3 model then run Claude Code against MiniMax through the same local relay as Z.ai's GLM, holding only a one-tab token, never the key. The New tab menu offers Claude Code on MiniMax once a key is added. With no MiniMax key, a MiniMax launch is refused and points to Agent accounts → MiniMax; a Z.ai key is never used for it, nor a MiniMax key for GLM, and nothing starts on your Claude login.",
       "sourceSha": "9301bbc446d24bda30bba51341811ac34e588b94",
       "identity": "minimax-coding-plan-keys:d3b31c1de61f0c65e7226d303aa3b7a2f2e5337595b6c097d1019994680282d9"
+    },
+    {
+      "id": "linux-agents-permission-step",
+      "digest": "bb6485c9e507dd16d27b52bd4ec5ba56335019e4467d8d715bf7232189e4c31c",
+      "type": "patch",
+      "summary": "On Linux, Terminal's first run now shows **Let agents use this machine** with the Agents switches (Computer Use, Desktop Notifications, Notify on Completion), so you can choose them without finding Settings → Agents. Linux asks apps for no permissions, so the step has no grant rows; on a Wayland session it says that agents can take screenshots only through your desktop's screenshot prompt and can't click or type in most apps yet. Nothing is preset, Skip turns nothing on, and Settings → General → System → Review permissions now opens the same screen on Linux.",
+      "sourceSha": "9dd8ed9c9c285d298118d61f21185615463131f4",
+      "identity": "linux-agents-permission-step:bb6485c9e507dd16d27b52bd4ec5ba56335019e4467d8d715bf7232189e4c31c"
     }
   ],
   "consumedIntentIds": [
