@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c63d00109b04dc7c64659580ea021edc73e3ce0c",
+  "cursorSha": "fdfee3e62539c9105c6e889bb5222c8d03a3d201",
   "highWaterVersion": "1.538.2",
   "rows": [
     {
@@ -166288,6 +166288,13 @@
       "sourceSha": "c63d00109b04dc7c64659580ea021edc73e3ce0c",
       "sourcePackageVersion": "1.551.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "fdfee3e62539c9105c6e889bb5222c8d03a3d201",
+      "sourcePackageVersion": "1.551.3",
+      "intentIds": [
+        "notice-every-organization:235a349aefb325ecbd5c02caefbf334b43125b80aab5857342fd49501723bb6b"
+      ]
     }
   ],
   "intents": [
@@ -176018,6 +176025,14 @@
       "summary": "The model menu's Gemini section no longer shows the notice box (what agy runs on, the suspension-risk line, \"Signs in with\" and the terms link). When Gemini can't run, the section shows one reason line worded for a picker, with Sign in with Google when signing in is the fix, and each Gemini row says why in a few words instead of repeating the worker-launch refusal.",
       "sourceSha": "dc5a4ef95fedc019fbec8fd22a0f5c54b561baa2",
       "identity": "gemini-menu-says-why-once:6bedf5e3fdf85882fa64cc9a1d9de074905fa092ade31f892a9dab5b4a2e32f4"
+    },
+    {
+      "id": "notice-every-organization",
+      "digest": "235a349aefb325ecbd5c02caefbf334b43125b80aab5857342fd49501723bb6b",
+      "type": "patch",
+      "summary": "The \"Orchestrator prompt updated\" notice now checks every organization you belong to, so it shows on each of your machines whichever organization the prompt is saved in. With more than one organization it names the organization, and Review opens the prompt there.",
+      "sourceSha": "fdfee3e62539c9105c6e889bb5222c8d03a3d201",
+      "identity": "notice-every-organization:235a349aefb325ecbd5c02caefbf334b43125b80aab5857342fd49501723bb6b"
     }
   ],
   "consumedIntentIds": [
