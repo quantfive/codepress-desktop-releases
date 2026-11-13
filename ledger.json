@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d0aa535f98cd5633a5539424168977dda26e487a",
+  "cursorSha": "22b379ca125f8b8c44bf5cdbbeeb5e226496356f",
   "highWaterVersion": "1.544.0",
   "rows": [
     {
@@ -168106,6 +168106,13 @@
       "sourceSha": "d0aa535f98cd5633a5539424168977dda26e487a",
       "sourcePackageVersion": "1.541.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "22b379ca125f8b8c44bf5cdbbeeb5e226496356f",
+      "sourcePackageVersion": "1.541.1",
+      "intentIds": [
+        "standing-warm-spares:eda13be5520595d84034805ee1fd7e829d1840a02cc0628ae93e05940c8caf21"
+      ]
     }
   ],
   "intents": [
@@ -178060,6 +178067,14 @@
       "summary": "The Gemini rows in every model menu now follow the models this machine's Antigravity CLI (agy) lists for its sign-in. A Gemini model agy doesn't serve there is greyed out with a short reason, such as \"Not on this sign-in\", and a newer Gemini model agy lists that Terminal doesn't know yet appears under agy's own name and can be picked. Gemini 3 models are never offered again, even when agy lists them. A worker or Orchestrator set to a Gemini model agy doesn't serve on that machine is stopped before agy starts, with a message naming the models it does serve. Synced copies show their home machine's list.",
       "sourceSha": "41fd69e0f111d47b38376a05ca74178977fa5843",
       "identity": "gemini-menu-from-agy-list:e6b437d9f41d1f65b84f1379166db6e9d2b31824daf0657a8b1bbc265a0319c6"
+    },
+    {
+      "id": "standing-warm-spares",
+      "digest": "eda13be5520595d84034805ee1fd7e829d1840a02cc0628ae93e05940c8caf21",
+      "type": "minor",
+      "summary": "With Warm spares for new workflows on, Terminal keeps a ready worktree for each of your most recently used repositories, so new projects (including ones started from MCP or automations) and Orchestrator workers start without waiting for a checkout. Spares are never built under CPU or memory pressure or with less than 20 GB free, and an unused one is removed after a day.",
+      "sourceSha": "22b379ca125f8b8c44bf5cdbbeeb5e226496356f",
+      "identity": "standing-warm-spares:eda13be5520595d84034805ee1fd7e829d1840a02cc0628ae93e05940c8caf21"
     }
   ],
   "consumedIntentIds": [
