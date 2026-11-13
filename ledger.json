@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0afb01c417746c3dab2c2b8730907bc8e82210f9",
+  "cursorSha": "fdd1d17509df83d469d0b61ba6492f675051d52e",
   "highWaterVersion": "1.541.0",
   "rows": [
     {
@@ -166947,6 +166947,13 @@
       "sourceSha": "0afb01c417746c3dab2c2b8730907bc8e82210f9",
       "sourcePackageVersion": "1.540.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "fdd1d17509df83d469d0b61ba6492f675051d52e",
+      "sourcePackageVersion": "1.540.2",
+      "intentIds": [
+        "machine-allows-in-computers:a7fed50ec2f4c896ed47973fccb18ea00981ce56274407adda5bd1fb6d480355"
+      ]
     }
   ],
   "intents": [
@@ -176757,6 +176764,14 @@
       "summary": "Gemini 4 Hydrogen, Gemini 4 Carbon and Gemini 4 Argon can now be picked wherever Terminal offers Gemini, for the Orchestrator and for workers, and Gemini 4 Hydrogen is the new Gemini default. Gemini 3.8 Flash and Gemini 3.1 Pro are no longer offered in the menus; a project or worker already on one keeps running it, and a model chosen for a worker at a usage limit still works on them. Terminal's own copy of the Antigravity CLI moves to agy 1.5.8, and token usage on the Gemini 4 models is now priced.",
       "sourceSha": "92d6a0dfb16ea83a30059cc8996658aa1101310e",
       "identity": "gemini-4-hydrogen-carbon-argon:f41ef40a28fbcda798e32677dcb447d448820cebd74754b4d5ca87a46a89a789"
+    },
+    {
+      "id": "machine-allows-in-computers",
+      "digest": "a7fed50ec2f4c896ed47973fccb18ea00981ce56274407adda5bd1fb6d480355",
+      "type": "patch",
+      "summary": "Settings → You → Computers now lists the requests to run team automations on your machines and the automations allowed there, with Take off, while machine automations are on for your organization. Allowing with a passkey happens on the web or your phone.",
+      "sourceSha": "fdd1d17509df83d469d0b61ba6492f675051d52e",
+      "identity": "machine-allows-in-computers:a7fed50ec2f4c896ed47973fccb18ea00981ce56274407adda5bd1fb6d480355"
     }
   ],
   "consumedIntentIds": [
