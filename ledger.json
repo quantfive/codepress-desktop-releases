@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "20378d55cb647976308b40662a4ffc72da00918f",
+  "cursorSha": "a6543cbf54f9108abc12493c65a2e0ebd646fe8b",
   "highWaterVersion": "1.537.3",
   "rows": [
     {
@@ -165864,6 +165864,13 @@
       "intentIds": [
         "handoff-graceful-stop:9a9005fa009186dde0f5451dd2fa919c6879be68ed25b92628ccc8ec14ee1712"
       ]
+    },
+    {
+      "sourceSha": "a6543cbf54f9108abc12493c65a2e0ebd646fe8b",
+      "sourcePackageVersion": "1.550.2",
+      "intentIds": [
+        "terminal-shared-glyph-atlas:d6906e9fd69628e8f97027aa62e19748cee68a4729efbc2f4e251fde9de1d001"
+      ]
     }
   ],
   "intents": [
@@ -175530,6 +175537,14 @@
       "summary": "Handing off an automation running on this machine now asks it to stop first, so the steps it already finished are saved and only the step it was on runs again elsewhere. It is stopped for good after 20 seconds.",
       "sourceSha": "20378d55cb647976308b40662a4ffc72da00918f",
       "identity": "handoff-graceful-stop:9a9005fa009186dde0f5451dd2fa919c6879be68ed25b92628ccc8ec14ee1712"
+    },
+    {
+      "id": "terminal-shared-glyph-atlas",
+      "digest": "d6906e9fd69628e8f97027aa62e19748cee68a4729efbc2f4e251fde9de1d001",
+      "type": "patch",
+      "summary": "Terminal tabs and split panes no longer draw glyph fragments instead of letters after another tab or pane rebuilds the shared WebGL glyph cache (a new split pane, or long colourful output). Terminal also checks for a stale glyph cache and repaints it, without needing a resize.",
+      "sourceSha": "a6543cbf54f9108abc12493c65a2e0ebd646fe8b",
+      "identity": "terminal-shared-glyph-atlas:d6906e9fd69628e8f97027aa62e19748cee68a4729efbc2f4e251fde9de1d001"
     }
   ],
   "consumedIntentIds": [
