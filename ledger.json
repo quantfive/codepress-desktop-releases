@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "3868e3e92cdbe97411cb050f3fee8a35c14dd1f4",
-  "highWaterVersion": "1.538.0",
+  "highWaterVersion": "1.538.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -89971,6 +89971,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:3868e3e92cdbe97411cb050f3fee8a35c14dd1f4",
+      "kind": "main",
+      "sequence": 2317,
+      "sourceSha": "3868e3e92cdbe97411cb050f3fee8a35c14dd1f4",
+      "sourcePackageVersion": "1.551.0",
+      "version": "1.538.1",
+      "publicationDate": "2026-11-13T01:54:46.610Z",
+      "releaseId": null,
+      "batch": {
+        "intentIds": [
+          "terminal-shared-orchestrator-links:a1ed42c833d5cb45782b469c432f351ba17917a680496d9b01e49542cd3336af"
+        ],
+        "notesIntentIds": [
+          "terminal-shared-orchestrator-links:a1ed42c833d5cb45782b469c432f351ba17917a680496d9b01e49542cd3336af"
+        ],
+        "throughSourceSha": "3868e3e92cdbe97411cb050f3fee8a35c14dd1f4",
+        "previousThroughSourceSha": "dc156f8b1e72f472508a8ca75d033c572a25bce9",
+        "baselineVersion": "1.538.0",
+        "type": "patch"
+      },
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43348285110",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-14T01:54:39.123Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -177056,7 +177099,8 @@
     "onboarding-helper-hints:f0b153e1630b11459a39443d1400d318307ee04ccf06bba08a6d607cde45a5d6",
     "modal-links-open-once:3655d2d6c85a3f377e330e0b5ab23c1aa8a16e2ddcb8fe92a49f1d3c092c0fda",
     "app-onboarding-helper-hints-app:67927dc1e47ffa3fafb448baf9dbb72347b100ba36890cbf672da64b7f0046cc",
-    "hand-off-on-this-machine:ec51ae67379a5f4bc39c9e7ccc1d05b6f8bfbcbf73e597ecad074fda52d7f5ff"
+    "hand-off-on-this-machine:ec51ae67379a5f4bc39c9e7ccc1d05b6f8bfbcbf73e597ecad074fda52d7f5ff",
+    "terminal-shared-orchestrator-links:a1ed42c833d5cb45782b469c432f351ba17917a680496d9b01e49542cd3336af"
   ],
-  "consumedThroughSha": "dc156f8b1e72f472508a8ca75d033c572a25bce9"
+  "consumedThroughSha": "3868e3e92cdbe97411cb050f3fee8a35c14dd1f4"
 }
