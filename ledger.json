@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7ab68753021839b0dff92c6429dac9b9303af611",
+  "cursorSha": "9703444a42e1bd16dac6d83862e9d77f55ed539c",
   "highWaterVersion": "1.543.2",
   "rows": [
     {
@@ -167923,6 +167923,13 @@
       "sourceSha": "7ab68753021839b0dff92c6429dac9b9303af611",
       "sourcePackageVersion": "1.541.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9703444a42e1bd16dac6d83862e9d77f55ed539c",
+      "sourcePackageVersion": "1.541.1",
+      "intentIds": [
+        "prompt-update-notice-gentle-reads:3eab2831cf3b4b8dc125cad53c6e21672533a09f785279edfbf67335a38043f6"
+      ]
     }
   ],
   "intents": [
@@ -177837,6 +177844,14 @@
       "summary": "Terminal's `typecheck` script runs its three type-check passes together and prints each pass's output as one block; the checks themselves are unchanged.",
       "sourceSha": "daa374cec29f62b88ca5aeba818ff9d1f72da4ce",
       "identity": "terminal-typecheck-parallel:078c41ab8eff47f3a0f3e78ee33dd6444ffcaa5d5f0723cdd2b6d3492f6ca90a"
+    },
+    {
+      "id": "prompt-update-notice-gentle-reads",
+      "digest": "3eab2831cf3b4b8dc125cad53c6e21672533a09f785279edfbf67335a38043f6",
+      "type": "patch",
+      "summary": "The \"Orchestrator prompt updated\" notice no longer reads every organization you belong to at once on each window focus. Organizations with no project on this machine are read in the background, a few at a time and at most hourly, so a person in hundreds of organizations no longer slows CodePress for everyone.",
+      "sourceSha": "9703444a42e1bd16dac6d83862e9d77f55ed539c",
+      "identity": "prompt-update-notice-gentle-reads:3eab2831cf3b4b8dc125cad53c6e21672533a09f785279edfbf67335a38043f6"
     }
   ],
   "consumedIntentIds": [
