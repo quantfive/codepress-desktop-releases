@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "409bf3124864e5b7b5196257720c8339a3449db9",
+  "cursorSha": "e1ee70befa30dff1b3a7463acff81d38e6a230ef",
   "highWaterVersion": "1.548.2",
   "rows": [
     {
@@ -168776,6 +168776,18 @@
       "sourceSha": "409bf3124864e5b7b5196257720c8339a3449db9",
       "sourcePackageVersion": "1.548.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "28a212458b5d1d4733cac04786ceae3d7037faee",
+      "sourcePackageVersion": "1.548.2",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "e1ee70befa30dff1b3a7463acff81d38e6a230ef",
+      "sourcePackageVersion": "1.548.2",
+      "intentIds": [
+        "github-copilot-workers:630f71b9966d55dbe60cecff0ee40ed67fc18e707dc6d193480d311c24a9adc7"
+      ]
     }
   ],
   "intents": [
@@ -178858,6 +178870,14 @@
       "summary": "Sessions, workflows and tabs a local Orchestrator worker opens through the Terminal tools (for example a QA session from `create_session`, or a workflow from `create_workflow`) now carry that worker's project and worker, so landing the project, or settling the worker's merged pull request, closes them while they are idle. A tab still running something stays open and the cleanup post says why. Sessions, workflows and tabs a person, another app or another machine opens stay unowned and are never closed. `create_tab` and `create_workflow` now pass the calling worker's lineage on even when `fromTabId` is left out.",
       "sourceSha": "4f48960df7c8082db8f93050e1c0bf1387589b95",
       "identity": "worker-sessions-carry-creator:042c7e56d36263cf1fb6de39b9f3fc5f24cafcc66bfc57a38194dfd787bc15b8"
+    },
+    {
+      "id": "github-copilot-workers",
+      "digest": "630f71b9966d55dbe60cecff0ee40ed67fc18e707dc6d193480d311c24a9adc7",
+      "type": "minor",
+      "summary": "Run Orchestrator workers on GitHub Copilot. A worker on a Copilot model (Auto, Claude Sonnet 5.5, Claude Opus 5.5 or GPT-6.1 Sol) runs your own `copilot` CLI in its worktree, on your Copilot login, and its Orchestrator hears when each turn ends. A missing, outdated (below 1.0.85), signed-out or plan-less `copilot` is refused with the fix, and no other agent starts in its place. Settings → Agent accounts has a Copilot tab: your signed-in account, Sign in (a tab running `copilot login`), or the install command to copy. A `copilot` tab you open yourself shows as GitHub Copilot.",
+      "sourceSha": "e1ee70befa30dff1b3a7463acff81d38e6a230ef",
+      "identity": "github-copilot-workers:630f71b9966d55dbe60cecff0ee40ed67fc18e707dc6d193480d311c24a9adc7"
     }
   ],
   "consumedIntentIds": [
