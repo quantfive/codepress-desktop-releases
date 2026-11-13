@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "bb5ee40c49dc5f57c22ef00a564683cc32913a47",
+  "cursorSha": "59f9e17110ad6fdc5e02d078bc5ba15e5ac58f86",
   "highWaterVersion": "1.543.0",
   "rows": [
     {
@@ -167754,6 +167754,13 @@
       "sourceSha": "bb5ee40c49dc5f57c22ef00a564683cc32913a47",
       "sourcePackageVersion": "1.541.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "59f9e17110ad6fdc5e02d078bc5ba15e5ac58f86",
+      "sourcePackageVersion": "1.541.1",
+      "intentIds": [
+        "reclaim-leftovers:ca6784a3c5cee411d0e2a310c821b52fcdbd5d173f643f93bf8458a2e66911ff"
+      ]
     }
   ],
   "intents": [
@@ -177652,6 +177659,14 @@
       "summary": "Workers and Claude Code tabs can now run on a Z.ai GLM Coding Plan. Add your Z.ai API key once in Settings → Agent accounts → Z.ai; it stays encrypted on this machine. Orchestrator workers given a GLM-5.3 or GLM-5.3-Flash model then run Claude Code against Z.ai through a local relay, holding only a one-tab token, never the key. The New tab menu offers Claude Code on GLM once a key is added. With no key, a GLM launch is refused and points to Agent accounts → Z.ai; it never starts on your Claude login.",
       "sourceSha": "2ba0d0730b63c3742d4a846c5e04bccdec4b8eab",
       "identity": "zai-glm-coding-plan-keys:1e306f34c6611cf485c054393fcb7b249e979d78983c498141d986f023b28dfb"
+    },
+    {
+      "id": "reclaim-leftovers",
+      "digest": "ca6784a3c5cee411d0e2a310c821b52fcdbd5d173f643f93bf8458a2e66911ff",
+      "type": "patch",
+      "summary": "Storage cleanup now finishes what an interrupted cleanup left. A `.codepress-reclaim-…` folder inside a finished project's folder is removed on the next run when it is a clean Git worktree. One that is in use or holds unsaved work is moved back to its original name when that name is free, and kept with its reason when not. The same goes for a leftover project temp folder under `ptmp`. Leftover `storage-janitor-lock-*.tmp` folders that are empty or hold only their token are removed after an hour, and a failed lock write no longer leaves one behind.",
+      "sourceSha": "59f9e17110ad6fdc5e02d078bc5ba15e5ac58f86",
+      "identity": "reclaim-leftovers:ca6784a3c5cee411d0e2a310c821b52fcdbd5d173f643f93bf8458a2e66911ff"
     }
   ],
   "consumedIntentIds": [
