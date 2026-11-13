@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4da9476be016cae7da87198cea8786f5fc62c707",
+  "cursorSha": "d0aa535f98cd5633a5539424168977dda26e487a",
   "highWaterVersion": "1.544.0",
   "rows": [
     {
@@ -168094,6 +168094,18 @@
       "sourceSha": "4da9476be016cae7da87198cea8786f5fc62c707",
       "sourcePackageVersion": "1.541.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "41fd69e0f111d47b38376a05ca74178977fa5843",
+      "sourcePackageVersion": "1.541.1",
+      "intentIds": [
+        "gemini-menu-from-agy-list:e6b437d9f41d1f65b84f1379166db6e9d2b31824daf0657a8b1bbc265a0319c6"
+      ]
+    },
+    {
+      "sourceSha": "d0aa535f98cd5633a5539424168977dda26e487a",
+      "sourcePackageVersion": "1.541.1",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -178040,6 +178052,14 @@
       "summary": "Settings → Agent accounts can now move an account between Personal and Team. A Personal account's ••• menu has Move to Team, and a Team account you added has Move to Personal, each after a confirm dialog. Team accounts say who added them (\"Added by you\" or \"Added by <name>\"). When CodePress refuses a move, the dialog shows why and the lists stay as they were. After a move, this machine re-reads its leased accounts and its account choice, so the account shows in its new group and the active account is right. Local accounts keep their Move to Personal and get no Move to Team.",
       "sourceSha": "75377dadb3fb72c253ff81bdb94fe5419b8f630d",
       "identity": "agent-accounts-move-scope:a80450404ff566d7c1aa491465b943a9d62857e4ba0c5a9f7b9ad24211bd36a4"
+    },
+    {
+      "id": "gemini-menu-from-agy-list",
+      "digest": "e6b437d9f41d1f65b84f1379166db6e9d2b31824daf0657a8b1bbc265a0319c6",
+      "type": "patch",
+      "summary": "The Gemini rows in every model menu now follow the models this machine's Antigravity CLI (agy) lists for its sign-in. A Gemini model agy doesn't serve there is greyed out with a short reason, such as \"Not on this sign-in\", and a newer Gemini model agy lists that Terminal doesn't know yet appears under agy's own name and can be picked. Gemini 3 models are never offered again, even when agy lists them. A worker or Orchestrator set to a Gemini model agy doesn't serve on that machine is stopped before agy starts, with a message naming the models it does serve. Synced copies show their home machine's list.",
+      "sourceSha": "41fd69e0f111d47b38376a05ca74178977fa5843",
+      "identity": "gemini-menu-from-agy-list:e6b437d9f41d1f65b84f1379166db6e9d2b31824daf0657a8b1bbc265a0319c6"
     }
   ],
   "consumedIntentIds": [
