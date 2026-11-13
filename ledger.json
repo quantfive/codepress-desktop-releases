@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2c666c9c2c8f2f7c43676f2f9ee6f4e544a2f499",
+  "cursorSha": "75377dadb3fb72c253ff81bdb94fe5419b8f630d",
   "highWaterVersion": "1.543.3",
   "rows": [
     {
@@ -168008,6 +168008,13 @@
       "sourceSha": "2c666c9c2c8f2f7c43676f2f9ee6f4e544a2f499",
       "sourcePackageVersion": "1.541.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "75377dadb3fb72c253ff81bdb94fe5419b8f630d",
+      "sourcePackageVersion": "1.541.1",
+      "intentIds": [
+        "agent-accounts-move-scope:a80450404ff566d7c1aa491465b943a9d62857e4ba0c5a9f7b9ad24211bd36a4"
+      ]
     }
   ],
   "intents": [
@@ -177946,6 +177953,14 @@
       "summary": "Removing a Claude account in Settings → Agent accounts now removes it and keeps it removed. A Personal or Team account leaves this machine at once rather than at the next lease sync, and a lease sync already in flight can't add it back. Removing the active account takes its login out of Claude Code's credential store, so the next account activates after a restart. A Claude login you made yourself is left alone.",
       "sourceSha": "930cb2713aa4f85be854d9fd5c3163adf0437021",
       "identity": "claude-remove-keeps-removed:020bdcf9a05469ce39a78827109fbc44fd9d5b7c57b30a1972d4aed9b9ef94d5"
+    },
+    {
+      "id": "agent-accounts-move-scope",
+      "digest": "a80450404ff566d7c1aa491465b943a9d62857e4ba0c5a9f7b9ad24211bd36a4",
+      "type": "minor",
+      "summary": "Settings → Agent accounts can now move an account between Personal and Team. A Personal account's ••• menu has Move to Team, and a Team account you added has Move to Personal, each after a confirm dialog. Team accounts say who added them (\"Added by you\" or \"Added by <name>\"). When CodePress refuses a move, the dialog shows why and the lists stay as they were. After a move, this machine re-reads its leased accounts and its account choice, so the account shows in its new group and the active account is right. Local accounts keep their Move to Personal and get no Move to Team.",
+      "sourceSha": "75377dadb3fb72c253ff81bdb94fe5419b8f630d",
+      "identity": "agent-accounts-move-scope:a80450404ff566d7c1aa491465b943a9d62857e4ba0c5a9f7b9ad24211bd36a4"
     }
   ],
   "consumedIntentIds": [
