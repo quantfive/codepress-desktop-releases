@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7f94c149decec6fc1830109d0b33a5e682427b8f",
+  "cursorSha": "2ab0d08f82245b5ed3c19a77129bab972398e9fa",
   "highWaterVersion": "1.549.0",
   "rows": [
     {
@@ -168855,6 +168855,13 @@
       "sourceSha": "7f94c149decec6fc1830109d0b33a5e682427b8f",
       "sourcePackageVersion": "1.548.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2ab0d08f82245b5ed3c19a77129bab972398e9fa",
+      "sourcePackageVersion": "1.548.2",
+      "intentIds": [
+        "terminal-recover-lost-automation-jobs:98e8cf71d9568e9332704f53613b3064f7cdddde8e7a9934bbc30e9fd1cfd715"
+      ]
     }
   ],
   "intents": [
@@ -178945,6 +178952,14 @@
       "summary": "Run Orchestrator workers on GitHub Copilot. A worker on a Copilot model (Auto, Claude Sonnet 5.5, Claude Opus 5.5 or GPT-6.1 Sol) runs your own `copilot` CLI in its worktree, on your Copilot login, and its Orchestrator hears when each turn ends. A missing, outdated (below 1.0.85), signed-out or plan-less `copilot` is refused with the fix, and no other agent starts in its place. Settings → Agent accounts has a Copilot tab: your signed-in account, Sign in (a tab running `copilot login`), or the install command to copy. A `copilot` tab you open yourself shows as GitHub Copilot.",
       "sourceSha": "e1ee70befa30dff1b3a7463acff81d38e6a230ef",
       "identity": "github-copilot-workers:630f71b9966d55dbe60cecff0ee40ed67fc18e707dc6d193480d311c24a9adc7"
+    },
+    {
+      "id": "terminal-recover-lost-automation-jobs",
+      "digest": "98e8cf71d9568e9332704f53613b3064f7cdddde8e7a9934bbc30e9fd1cfd715",
+      "type": "patch",
+      "summary": "A machine automation run no longer stays Running for up to 20 minutes after Terminal restarts mid-run: on its next start, Terminal tells the backend about each job it lost, so the run ends or is placed again within about a minute.",
+      "sourceSha": "2ab0d08f82245b5ed3c19a77129bab972398e9fa",
+      "identity": "terminal-recover-lost-automation-jobs:98e8cf71d9568e9332704f53613b3064f7cdddde8e7a9934bbc30e9fd1cfd715"
     }
   ],
   "consumedIntentIds": [
