@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a1c044e09941c780b306255dc75121594886c778",
+  "cursorSha": "73139b067cd934cc01553ee2488df90d622402b0",
   "highWaterVersion": "1.546.0",
   "rows": [
     {
@@ -168330,6 +168330,13 @@
       "intentIds": [
         "served-welcome-shell:fd3e758dc00e3822a0a55c6b385e5b7ac7bef27af87441dff2dd65674bba468a"
       ]
+    },
+    {
+      "sourceSha": "73139b067cd934cc01553ee2488df90d622402b0",
+      "sourcePackageVersion": "1.541.1",
+      "intentIds": [
+        "land-closes-owned-tabs:6d6bcbeaae614b49a3af51c255095d28f8f389359fed57257c573c77f6f4427b"
+      ]
     }
   ],
   "intents": [
@@ -178348,6 +178355,14 @@
       "summary": "Onboarding: in Replay onboarding and in a first run that opens signed in, Welcome and the Sign in preview now draw the same onboarding frame as the steps after them. Before sign-in the step list shows only Welcome and Sign in. The \"Needs a CodePress account\" box now lists four shorter, full sentences.",
       "sourceSha": "a1c044e09941c780b306255dc75121594886c778",
       "identity": "served-welcome-shell:fd3e758dc00e3822a0a55c6b385e5b7ac7bef27af87441dff2dd65674bba468a"
+    },
+    {
+      "id": "land-closes-owned-tabs",
+      "digest": "6d6bcbeaae614b49a3af51c255095d28f8f389359fed57257c573c77f6f4427b",
+      "type": "patch",
+      "summary": "Landing a local project, a worker's merged pull request and the landed-cleanup sweep now close the project's own tabs by who owns them. A worker's tab is found even when the delegation recorded a different tab id, and its helper tabs and the project session's first shell are closed too, while they are idle. A tab you opened yourself is never closed, and a tab still running something is kept and named in the cleanup post. A project session kept open by your own tab no longer keeps the land's cleanup owed. Projects landed earlier get the same close from the next sweep.",
+      "sourceSha": "73139b067cd934cc01553ee2488df90d622402b0",
+      "identity": "land-closes-owned-tabs:6d6bcbeaae614b49a3af51c255095d28f8f389359fed57257c573c77f6f4427b"
     }
   ],
   "consumedIntentIds": [
