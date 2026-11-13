@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "33b02e60b598959e4973002e647bcdc7dc3627c1",
-  "highWaterVersion": "1.549.2",
+  "highWaterVersion": "1.549.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -91963,6 +91963,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:33b02e60b598959e4973002e647bcdc7dc3627c1",
+      "kind": "main",
+      "sequence": 2351,
+      "sourceSha": "33b02e60b598959e4973002e647bcdc7dc3627c1",
+      "sourcePackageVersion": "1.549.1",
+      "version": "1.549.3",
+      "batch": {
+        "intentIds": [
+          "sandbox-route-listener-log-first:af2ea0f0c65796c6b11c773551b14d6f2ef46525a5574b553a31e51299c36295"
+        ],
+        "notesIntentIds": [
+          "sandbox-route-listener-log-first:af2ea0f0c65796c6b11c773551b14d6f2ef46525a5574b553a31e51299c36295"
+        ],
+        "throughSourceSha": "33b02e60b598959e4973002e647bcdc7dc3627c1",
+        "previousThroughSourceSha": "e5f65ce203685e87b9f3e38fd283eac851e0d6a5",
+        "baselineVersion": "1.549.2",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-13T23:16:27.861Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43525795313",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-14T23:16:20.129Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -180392,7 +180435,8 @@
     "worker-sessions-carry-creator:042c7e56d36263cf1fb6de39b9f3fc5f24cafcc66bfc57a38194dfd787bc15b8",
     "github-copilot-workers:630f71b9966d55dbe60cecff0ee40ed67fc18e707dc6d193480d311c24a9adc7",
     "terminal-recover-lost-automation-jobs:98e8cf71d9568e9332704f53613b3064f7cdddde8e7a9934bbc30e9fd1cfd715",
-    "public-whatsapp-agent-settings:09f2bcc3e7d27f2e2962bf8bec0f3c83ec658c370f4fb855c515d6e9c39bc7dd"
+    "public-whatsapp-agent-settings:09f2bcc3e7d27f2e2962bf8bec0f3c83ec658c370f4fb855c515d6e9c39bc7dd",
+    "sandbox-route-listener-log-first:af2ea0f0c65796c6b11c773551b14d6f2ef46525a5574b553a31e51299c36295"
   ],
-  "consumedThroughSha": "e5f65ce203685e87b9f3e38fd283eac851e0d6a5"
+  "consumedThroughSha": "33b02e60b598959e4973002e647bcdc7dc3627c1"
 }
