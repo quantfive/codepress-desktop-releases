@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "17d7d784a84b49514216161a8f2002b04c8e1a84",
+  "cursorSha": "566a8a5ace07fd1d5a8700431c73b24b9be3fb68",
   "highWaterVersion": "1.546.0",
   "rows": [
     {
@@ -168302,6 +168302,13 @@
       "sourceSha": "17d7d784a84b49514216161a8f2002b04c8e1a84",
       "sourcePackageVersion": "1.541.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "566a8a5ace07fd1d5a8700431c73b24b9be3fb68",
+      "sourcePackageVersion": "1.541.1",
+      "intentIds": [
+        "terminal-select-cache:7105a54f824db8ef3965a48d6fea96d104225e5752d7668ba7454d4c87035617"
+      ]
     }
   ],
   "intents": [
@@ -178288,6 +178295,14 @@
       "summary": "The Activity icon in Terminal's left rail now shows when this machine is under load: an amber dot while its CPU or memory is at the warning level, a red dot at the critical level, and none when it is normal. The tooltip names the cause, for example `Processes · 25 agents · CPU busy (load 16 on 16 cores)`. On a phone, the Machine sheet's Processes row shows the same dot and label, and the menu button carries the dot. The window reads the levels every 15 seconds while it is visible; an older Terminal on the other end shows no dot.",
       "sourceSha": "44399bd8f495a97bc13a5623624f2cf2269f92f4",
       "identity": "machine-load-dot:d104c6c1e67d6758f501e5706840ae45fae634254fb509af5d1515ffd82de7e7"
+    },
+    {
+      "id": "terminal-select-cache",
+      "digest": "7105a54f824db8ef3965a48d6fea96d104225e5752d7668ba7454d4c87035617",
+      "type": "patch",
+      "summary": "CI plans which Terminal tests to run faster: the test selector reuses what it learned about each unchanged file on an earlier run. The selected tests are unchanged.",
+      "sourceSha": "566a8a5ace07fd1d5a8700431c73b24b9be3fb68",
+      "identity": "terminal-select-cache:7105a54f824db8ef3965a48d6fea96d104225e5752d7668ba7454d4c87035617"
     }
   ],
   "consumedIntentIds": [
