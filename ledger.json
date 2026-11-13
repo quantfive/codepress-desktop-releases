@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "76b601dbe8ae48c88a0db31fdfb3ab3eafb80de1",
+  "cursorSha": "20378d55cb647976308b40662a4ffc72da00918f",
   "highWaterVersion": "1.537.3",
   "rows": [
     {
@@ -165857,6 +165857,13 @@
       "sourceSha": "76b601dbe8ae48c88a0db31fdfb3ab3eafb80de1",
       "sourcePackageVersion": "1.550.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "20378d55cb647976308b40662a4ffc72da00918f",
+      "sourcePackageVersion": "1.550.2",
+      "intentIds": [
+        "handoff-graceful-stop:9a9005fa009186dde0f5451dd2fa919c6879be68ed25b92628ccc8ec14ee1712"
+      ]
     }
   ],
   "intents": [
@@ -175515,6 +175522,14 @@
       "summary": "Restore first-party hosted App previews inside Terminal by opening eligible Apps in the existing embedded web page while preserving their address and selected chat. Return to the saved Apps folder or collection from either native or embedded App detail. Preserve existing chat drafts and editor mode when an App is hidden and shown again, including reattaching its editor after a hidden iframe reload and preserving newer unsaved inserts in a surviving editor.\n\nKeep the Linux shell full-size while positioning embedded App/Cloud webviews over their placeholders, and dispatch copied-auth worker events to the main thread before protected writes.\n\nSynchronize the selected chat address before the first preview handoff so its later native address mirror cannot hide the embedded App.\n\nRecover control of a surviving embedded App/Cloud child after the parent reloads, preserving its document while restoring bounds and independent overlay visibility. A newer native destination cancels an obsolete queued web navigation.",
       "sourceSha": "d14f9ea1b4b3221d2f7316bf3e2b4d17b0c5f438",
       "identity": "restore-terminal-first-party-preview:7ce9cb3c8c2188f3b6fcc712541767b9d1fe2bae28f4823a3e05dad5cadcb1c4"
+    },
+    {
+      "id": "handoff-graceful-stop",
+      "digest": "9a9005fa009186dde0f5451dd2fa919c6879be68ed25b92628ccc8ec14ee1712",
+      "type": "patch",
+      "summary": "Handing off an automation running on this machine now asks it to stop first, so the steps it already finished are saved and only the step it was on runs again elsewhere. It is stopped for good after 20 seconds.",
+      "sourceSha": "20378d55cb647976308b40662a4ffc72da00918f",
+      "identity": "handoff-graceful-stop:9a9005fa009186dde0f5451dd2fa919c6879be68ed25b92628ccc8ec14ee1712"
     }
   ],
   "consumedIntentIds": [
