@@ -92003,10 +92003,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43528661078",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-14T23:39:31.510Z",
         "dispatch": null,
         "failures": []
       }
