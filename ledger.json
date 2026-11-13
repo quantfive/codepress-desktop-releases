@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "efcd2ca097fbbfbb5ac2966650547fb979cbd625",
+  "cursorSha": "6b5e8aae450e9b54c0d7d5fa7b215ad64156532a",
   "highWaterVersion": "1.537.4",
   "rows": [
     {
@@ -165974,6 +165974,13 @@
       "sourceSha": "efcd2ca097fbbfbb5ac2966650547fb979cbd625",
       "sourcePackageVersion": "1.550.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "6b5e8aae450e9b54c0d7d5fa7b215ad64156532a",
+      "sourcePackageVersion": "1.550.5",
+      "intentIds": [
+        "app-onboarding-helper-hints-app:67927dc1e47ffa3fafb448baf9dbb72347b100ba36890cbf672da64b7f0046cc"
+      ]
     }
   ],
   "intents": [
@@ -175664,6 +175671,14 @@
       "summary": "Links opened from a dialog, such as Settings → Accounts → Open sign-in page, now open one browser tab instead of two.",
       "sourceSha": "8c5f9c21361cd1e3a0e5020fe5e6c0a5f5719363",
       "identity": "modal-links-open-once:3655d2d6c85a3f377e330e0b5ab23c1aa8a16e2ddcb8fe92a49f1d3c092c0fda"
+    },
+    {
+      "id": "app-onboarding-helper-hints-app",
+      "digest": "67927dc1e47ffa3fafb448baf9dbb72347b100ba36890cbf672da64b7f0046cc",
+      "type": "patch",
+      "summary": "Served onboarding now shows web onboarding v2's helper hints: a \"No AI subscription?\" box under the AI accounts on Connect your accounts while neither Claude nor Codex is linked and the workspace has no plan (owners and admins can add a card on the web's Billing page; members are told to ask an owner), a \"Not sure?\" hint on Connect GitHub, and an invite line on Invite your team.",
+      "sourceSha": "6b5e8aae450e9b54c0d7d5fa7b215ad64156532a",
+      "identity": "app-onboarding-helper-hints-app:67927dc1e47ffa3fafb448baf9dbb72347b100ba36890cbf672da64b7f0046cc"
     }
   ],
   "consumedIntentIds": [
