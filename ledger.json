@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0947e1ec3dc8e584b0aa1bde1d2e47760953816c",
+  "cursorSha": "44399bd8f495a97bc13a5623624f2cf2269f92f4",
   "highWaterVersion": "1.545.0",
   "rows": [
     {
@@ -168205,6 +168205,14 @@
       "intentIds": [
         "welcome-logo-theme-grid:22b479d9fae8872443b9d785ecce4365046cbb23e49f36fd5be69c5743c3c737"
       ]
+    },
+    {
+      "sourceSha": "44399bd8f495a97bc13a5623624f2cf2269f92f4",
+      "sourcePackageVersion": "1.541.1",
+      "intentIds": [
+        "agent-mcp-warm-tool-catalog:7bfed9f3ca2cacaaa4a4523d1a3f6707764bce3e0da0a6cd8a55043165e9e2a5",
+        "machine-load-dot:d104c6c1e67d6758f501e5706840ae45fae634254fb509af5d1515ffd82de7e7"
+      ]
     }
   ],
   "intents": [
@@ -178175,6 +178183,22 @@
       "summary": "Welcome to CodePress now shows the CodePress logo instead of the terminal icon, and the Terminal theme dropdowns are a grid of tiles, one colour swatch and the name per theme, that you can pick with the mouse or keyboard. In System mode the Dark and Light themes are two labelled groups.",
       "sourceSha": "0947e1ec3dc8e584b0aa1bde1d2e47760953816c",
       "identity": "welcome-logo-theme-grid:22b479d9fae8872443b9d785ecce4365046cbb23e49f36fd5be69c5743c3c737"
+    },
+    {
+      "id": "agent-mcp-warm-tool-catalog",
+      "digest": "7bfed9f3ca2cacaaa4a4523d1a3f6707764bce3e0da0a6cd8a55043165e9e2a5",
+      "type": "patch",
+      "summary": "Local agents get their CodePress tools faster and more reliably. Terminal keeps each tool list warm on this machine, so an agent's list is answered at once, even right after Terminal restarts, and refreshed in the background. When the CodePress backend cannot be reached, agents still get the last tool list Terminal read, for up to a day, instead of no CodePress tools at all. The saved lists live in Terminal's data folder, hold no sign-in tokens, and are removed when you sign out or switch accounts.",
+      "sourceSha": "44399bd8f495a97bc13a5623624f2cf2269f92f4",
+      "identity": "agent-mcp-warm-tool-catalog:7bfed9f3ca2cacaaa4a4523d1a3f6707764bce3e0da0a6cd8a55043165e9e2a5"
+    },
+    {
+      "id": "machine-load-dot",
+      "digest": "d104c6c1e67d6758f501e5706840ae45fae634254fb509af5d1515ffd82de7e7",
+      "type": "minor",
+      "summary": "The Activity icon in Terminal's left rail now shows when this machine is under load: an amber dot while its CPU or memory is at the warning level, a red dot at the critical level, and none when it is normal. The tooltip names the cause, for example `Processes · 25 agents · CPU busy (load 16 on 16 cores)`. On a phone, the Machine sheet's Processes row shows the same dot and label, and the menu button carries the dot. The window reads the levels every 15 seconds while it is visible; an older Terminal on the other end shows no dot.",
+      "sourceSha": "44399bd8f495a97bc13a5623624f2cf2269f92f4",
+      "identity": "machine-load-dot:d104c6c1e67d6758f501e5706840ae45fae634254fb509af5d1515ffd82de7e7"
     }
   ],
   "consumedIntentIds": [
