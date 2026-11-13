@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7e19c60d12dd29e7f53560f2739de0b74c9a7b7e",
+  "cursorSha": "8c382127ca2e500a017223c8f1c2a546411f3bb0",
   "highWaterVersion": "1.542.0",
   "rows": [
     {
@@ -167189,6 +167189,13 @@
       "sourceSha": "7e19c60d12dd29e7f53560f2739de0b74c9a7b7e",
       "sourcePackageVersion": "1.541.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "8c382127ca2e500a017223c8f1c2a546411f3bb0",
+      "sourcePackageVersion": "1.541.1",
+      "intentIds": [
+        "janitor-idle-shell-tabs:42bafb78454fbe5f4d2759e42c9ce1f918f6ae693833b8896fd04aa72d3ea841"
+      ]
     }
   ],
   "intents": [
@@ -177023,6 +177030,14 @@
       "summary": "Google sign-in now works in the agent's browser. `browser_human_interaction` can open a plain window on this machine (`plain_window: true`, and picked automatically for an accounts.google.com page when the machine has a display). It has no debugging port, which Google refuses, and so no live view. The person signs in there and closes the window, and the agent's own browser keeps the Google sign-in for \"Sign in with Google\" on other sites. On macOS Terminal quits a window the person left open the way Cmd+Q does, so the sign-in is saved.",
       "sourceSha": "2f5909d933e8db097da34ec038f792bcd8b8f8ad",
       "identity": "plain-google-sign-in-window:d0e2b5679e976ed4a1e4659368d615f48af0f5b490d9b11e95b49370c5a5380c"
+    },
+    {
+      "id": "janitor-idle-shell-tabs",
+      "digest": "42bafb78454fbe5f4d2759e42c9ce1f918f6ae693833b8896fd04aa72d3ea841",
+      "type": "patch",
+      "summary": "Storage cleanup now removes a finished project's temp, worktree and session folders when the only thing holding them is a tab with an idle shell, including a tab that exists only in a closed window's saved snapshot. Agents, child processes and open files still keep them. Discovery past its 500-folder limit now rotates between runs, so folders that are kept every run no longer stop the rest from being looked at.",
+      "sourceSha": "8c382127ca2e500a017223c8f1c2a546411f3bb0",
+      "identity": "janitor-idle-shell-tabs:42bafb78454fbe5f4d2759e42c9ce1f918f6ae693833b8896fd04aa72d3ea841"
     }
   ],
   "consumedIntentIds": [
