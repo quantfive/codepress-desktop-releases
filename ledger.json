@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7a7d77d7343426a9bd41b6171a0cee0de3166a69",
+  "cursorSha": "2ba0d0730b63c3742d4a846c5e04bccdec4b8eab",
   "highWaterVersion": "1.542.6",
   "rows": [
     {
@@ -167676,6 +167676,13 @@
       "intentIds": [
         "agent-mcp-complete-tool-catalog:32a7b7d55af74155d6ef592176d574ab00cc334de40303e7cd0cfa03a4e5fc4f"
       ]
+    },
+    {
+      "sourceSha": "2ba0d0730b63c3742d4a846c5e04bccdec4b8eab",
+      "sourcePackageVersion": "1.541.1",
+      "intentIds": [
+        "zai-glm-coding-plan-keys:1e306f34c6611cf485c054393fcb7b249e979d78983c498141d986f023b28dfb"
+      ]
     }
   ],
   "intents": [
@@ -177566,6 +177573,14 @@
       "summary": "Local agents (the Orchestrator and workers, on Claude, Codex and the other providers) now get every CodePress tool on their first turn. Terminal reads the whole CodePress tool list itself and hands it to the agent in a few large pages, so an agent that follows only a limited number of pages (Claude stopped at twenty) no longer misses the connected-integration tools that sort last. The Orchestrator's `pm start timing` log line also shows `first-output`, the time from opening the agent to its first reply, which includes the wait for its tools to load.",
       "sourceSha": "7a7d77d7343426a9bd41b6171a0cee0de3166a69",
       "identity": "agent-mcp-complete-tool-catalog:32a7b7d55af74155d6ef592176d574ab00cc334de40303e7cd0cfa03a4e5fc4f"
+    },
+    {
+      "id": "zai-glm-coding-plan-keys",
+      "digest": "1e306f34c6611cf485c054393fcb7b249e979d78983c498141d986f023b28dfb",
+      "type": "minor",
+      "summary": "Workers and Claude Code tabs can now run on a Z.ai GLM Coding Plan. Add your Z.ai API key once in Settings → Agent accounts → Z.ai; it stays encrypted on this machine. Orchestrator workers given a GLM-5.3 or GLM-5.3-Flash model then run Claude Code against Z.ai through a local relay, holding only a one-tab token, never the key. The New tab menu offers Claude Code on GLM once a key is added. With no key, a GLM launch is refused and points to Agent accounts → Z.ai; it never starts on your Claude login.",
+      "sourceSha": "2ba0d0730b63c3742d4a846c5e04bccdec4b8eab",
+      "identity": "zai-glm-coding-plan-keys:1e306f34c6611cf485c054393fcb7b249e979d78983c498141d986f023b28dfb"
     }
   ],
   "consumedIntentIds": [
