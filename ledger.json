@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "04bbcf0ca5f798b91df4539627195474678a4e54",
+  "cursorSha": "d6a7bf23ae9da713b7bba9b367ac4b10cc35b91b",
   "highWaterVersion": "1.540.1",
   "rows": [
     {
@@ -166753,6 +166753,13 @@
       "sourceSha": "04bbcf0ca5f798b91df4539627195474678a4e54",
       "sourcePackageVersion": "1.540.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d6a7bf23ae9da713b7bba9b367ac4b10cc35b91b",
+      "sourcePackageVersion": "1.540.0",
+      "intentIds": [
+        "landed-orchestrator-model:9c95d5737388775fcf23e62bd067666f059e13d5bdeed9ea0ca0345db62571ec"
+      ]
     }
   ],
   "intents": [
@@ -176547,6 +176554,14 @@
       "summary": "Align the repository Terminal version and changelog with published releases.",
       "sourceSha": "20b4d2f7d3dd35042a165d9bfbefd77ab2684ce6",
       "identity": "bright-seas-align:ea59dddcf65b93ae4aeb7be6a4255c94e85ec30746768b012e7e990fc8748b4e"
+    },
+    {
+      "id": "landed-orchestrator-model",
+      "digest": "9c95d5737388775fcf23e62bd067666f059e13d5bdeed9ea0ca0345db62571ec",
+      "type": "patch",
+      "summary": "A landed local project's Orchestrator model can be changed again from the composer, on this machine and from a synced copy, and applies from the next message. The \"Landed. The Orchestrator is still here.\" line under a synced copy's composer is gone.",
+      "sourceSha": "d6a7bf23ae9da713b7bba9b367ac4b10cc35b91b",
+      "identity": "landed-orchestrator-model:9c95d5737388775fcf23e62bd067666f059e13d5bdeed9ea0ca0345db62571ec"
     }
   ],
   "consumedIntentIds": [
