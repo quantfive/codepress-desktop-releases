@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "21cc8141b214b77250460b525844682cac208ed5",
+  "cursorSha": "930cb2713aa4f85be854d9fd5c3163adf0437021",
   "highWaterVersion": "1.543.3",
   "rows": [
     {
@@ -167996,6 +167996,13 @@
       "intentIds": [
         "agent-proposal-card:b2121532be4ba2cec8b09e67667be6e859ef954606aa7d3f970f81e6f2a24072"
       ]
+    },
+    {
+      "sourceSha": "930cb2713aa4f85be854d9fd5c3163adf0437021",
+      "sourcePackageVersion": "1.541.1",
+      "intentIds": [
+        "claude-remove-keeps-removed:020bdcf9a05469ce39a78827109fbc44fd9d5b7c57b30a1972d4aed9b9ef94d5"
+      ]
     }
   ],
   "intents": [
@@ -177926,6 +177933,14 @@
       "summary": "An agent's proposal now shows as a card in its team feed chat: what the agent is asking, why, before and after pictures, who was asked, and Fix it, It's intended and Not now. Answering records it once; the card then says who answered and what happens next, and another reader sees that it was already answered. Settings → Preferences → Notifications gains an Agent proposals section, for staff and workspaces with Interactions, where you choose Terminal, Slack and Linear (with a team) besides the feed.",
       "sourceSha": "21cc8141b214b77250460b525844682cac208ed5",
       "identity": "agent-proposal-card:b2121532be4ba2cec8b09e67667be6e859ef954606aa7d3f970f81e6f2a24072"
+    },
+    {
+      "id": "claude-remove-keeps-removed",
+      "digest": "020bdcf9a05469ce39a78827109fbc44fd9d5b7c57b30a1972d4aed9b9ef94d5",
+      "type": "patch",
+      "summary": "Removing a Claude account in Settings → Agent accounts now removes it and keeps it removed. A Personal or Team account leaves this machine at once rather than at the next lease sync, and a lease sync already in flight can't add it back. Removing the active account takes its login out of Claude Code's credential store, so the next account activates after a restart. A Claude login you made yourself is left alone.",
+      "sourceSha": "930cb2713aa4f85be854d9fd5c3163adf0437021",
+      "identity": "claude-remove-keeps-removed:020bdcf9a05469ce39a78827109fbc44fd9d5b7c57b30a1972d4aed9b9ef94d5"
     }
   ],
   "consumedIntentIds": [
