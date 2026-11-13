@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "62ce7b4f24ee0abd9293046404d791378239462e",
+  "cursorSha": "dc5a4ef95fedc019fbec8fd22a0f5c54b561baa2",
   "highWaterVersion": "1.538.1",
   "rows": [
     {
@@ -166204,6 +166204,13 @@
       "sourceSha": "62ce7b4f24ee0abd9293046404d791378239462e",
       "sourcePackageVersion": "1.551.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "dc5a4ef95fedc019fbec8fd22a0f5c54b561baa2",
+      "sourcePackageVersion": "1.551.2",
+      "intentIds": [
+        "gemini-menu-says-why-once:6bedf5e3fdf85882fa64cc9a1d9de074905fa092ade31f892a9dab5b4a2e32f4"
+      ]
     }
   ],
   "intents": [
@@ -175926,6 +175933,14 @@
       "summary": "A project's own Orchestrator instructions now move with it when it is handed to another machine, and they apply there even before that machine has read the account's repository instructions.",
       "sourceSha": "c7a3308351dcd2355caf9777a237f2ed619a43a5",
       "identity": "orchestrator-one-off-prompt-handoff:9286233a07fde9c81ee18c172f51a498addb385a9bc60db4847a0d12c31f0142"
+    },
+    {
+      "id": "gemini-menu-says-why-once",
+      "digest": "6bedf5e3fdf85882fa64cc9a1d9de074905fa092ade31f892a9dab5b4a2e32f4",
+      "type": "patch",
+      "summary": "The model menu's Gemini section no longer shows the notice box (what agy runs on, the suspension-risk line, \"Signs in with\" and the terms link). When Gemini can't run, the section shows one reason line worded for a picker, with Sign in with Google when signing in is the fix, and each Gemini row says why in a few words instead of repeating the worker-launch refusal.",
+      "sourceSha": "dc5a4ef95fedc019fbec8fd22a0f5c54b561baa2",
+      "identity": "gemini-menu-says-why-once:6bedf5e3fdf85882fa64cc9a1d9de074905fa092ade31f892a9dab5b4a2e32f4"
     }
   ],
   "consumedIntentIds": [
