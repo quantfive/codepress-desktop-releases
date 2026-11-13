@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f9c85479f95115a14d6fb0b2e58416c91852c0b2",
+  "cursorSha": "66f7c1e3866e917f4ebd6bea54b7d4625b05590c",
   "highWaterVersion": "1.538.3",
   "rows": [
     {
@@ -166362,6 +166362,18 @@
       "intentIds": [
         "terminal-version-follows-releases:386bffb1dd7c8dc00fe68f3d4910f2180ed8cf313f4ea412d94f2783a651f7d4"
       ]
+    },
+    {
+      "sourceSha": "e26c5a9271433b4ff8ef83866821d74f91df77a4",
+      "sourcePackageVersion": "1.551.4",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "66f7c1e3866e917f4ebd6bea54b7d4625b05590c",
+      "sourcePackageVersion": "1.551.4",
+      "intentIds": [
+        "gemini-installs-agy:7b39cc88f4d58f826746d2b67fce20d2e3fce59f940747dc356207d6afd138a8"
+      ]
     }
   ],
   "intents": [
@@ -176108,6 +176120,14 @@
       "summary": "The Terminal version on main is now the published release version, and its CHANGELOG lists each published Terminal release with the notes that release shipped. Merging a Terminal change no longer bumps the version; the release that ships it does.",
       "sourceSha": "f9c85479f95115a14d6fb0b2e58416c91852c0b2",
       "identity": "terminal-version-follows-releases:386bffb1dd7c8dc00fe68f3d4910f2180ed8cf313f4ea412d94f2783a651f7d4"
+    },
+    {
+      "id": "gemini-installs-agy",
+      "digest": "7b39cc88f4d58f826746d2b67fce20d2e3fce59f940747dc356207d6afd138a8",
+      "type": "minor",
+      "summary": "Gemini workers and Gemini Orchestrators now work on a machine without the Antigravity CLI. On macOS and Linux (x64 and arm64), Terminal downloads its pinned `agy` into its own data folder at the first Gemini launch, and the model menus let you pick Gemini there with no install line. Your own `agy` is still used when you have one. If the download fails, the launch says so with the manual install command and no other agent starts. When agy's first-run setup is still unanswered, the message now also points to Sign in with Google in Settings → You → Agent accounts → Google, which opens that setup in a tab, since Terminal's copy is not on your PATH. It also fixes a bug where, once Terminal had installed a Muse, Grok or Gemini CLI, a later launch that found it could be reported as interrupted.",
+      "sourceSha": "66f7c1e3866e917f4ebd6bea54b7d4625b05590c",
+      "identity": "gemini-installs-agy:7b39cc88f4d58f826746d2b67fce20d2e3fce59f940747dc356207d6afd138a8"
     }
   ],
   "consumedIntentIds": [
