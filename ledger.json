@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "71095e6983332eb1d926dffe34f0965fa0936f73",
+  "cursorSha": "dc156f8b1e72f472508a8ca75d033c572a25bce9",
   "highWaterVersion": "1.537.5",
   "rows": [
     {
@@ -166048,6 +166048,13 @@
       "sourceSha": "71095e6983332eb1d926dffe34f0965fa0936f73",
       "sourcePackageVersion": "1.550.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "dc156f8b1e72f472508a8ca75d033c572a25bce9",
+      "sourcePackageVersion": "1.550.6",
+      "intentIds": [
+        "hand-off-on-this-machine:ec51ae67379a5f4bc39c9e7ccc1d05b6f8bfbcbf73e597ecad074fda52d7f5ff"
+      ]
     }
   ],
   "intents": [
@@ -175746,6 +175753,14 @@
       "summary": "Served onboarding now shows web onboarding v2's helper hints: a \"No AI subscription?\" box under the AI accounts on Connect your accounts while neither Claude nor Codex is linked and the workspace has no plan (owners and admins can add a card on the web's Billing page; members are told to ask an owner), a \"Not sure?\" hint on Connect GitHub, and an invite line on Invite your team.",
       "sourceSha": "6b5e8aae450e9b54c0d7d5fa7b215ad64156532a",
       "identity": "app-onboarding-helper-hints-app:67927dc1e47ffa3fafb448baf9dbb72347b100ba36890cbf672da64b7f0046cc"
+    },
+    {
+      "id": "hand-off-on-this-machine",
+      "digest": "ec51ae67379a5f4bc39c9e7ccc1d05b6f8bfbcbf73e597ecad074fda52d7f5ff",
+      "type": "minor",
+      "summary": "Hand off a running automation from the \"On this Mac\" list and Settings → This computer, or hand off all of them at once. A run that is moving says where it is going, and Recent says where a handed-off run went.",
+      "sourceSha": "dc156f8b1e72f472508a8ca75d033c572a25bce9",
+      "identity": "hand-off-on-this-machine:ec51ae67379a5f4bc39c9e7ccc1d05b6f8bfbcbf73e597ecad074fda52d7f5ff"
     }
   ],
   "consumedIntentIds": [
