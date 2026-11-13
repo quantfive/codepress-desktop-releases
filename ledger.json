@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "af853e1f0512b6d0e3e45ec7f29954587e2601a1",
-  "highWaterVersion": "1.541.2",
+  "highWaterVersion": "1.542.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -90642,6 +90642,50 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:af853e1f0512b6d0e3e45ec7f29954587e2601a1",
+      "kind": "main",
+      "sequence": 2329,
+      "sourceSha": "af853e1f0512b6d0e3e45ec7f29954587e2601a1",
+      "sourcePackageVersion": "1.541.1",
+      "version": "1.542.0",
+      "batch": {
+        "intentIds": [
+          "plain-google-sign-in-window:d0e2b5679e976ed4a1e4659368d615f48af0f5b490d9b11e95b49370c5a5380c"
+        ],
+        "notesIntentIds": [
+          "plan-edit-on-each-page:5250667d81929991f47e6c807db891870a006dae12719f12b1dc28aeae8b552c",
+          "plain-google-sign-in-window:d0e2b5679e976ed4a1e4659368d615f48af0f5b490d9b11e95b49370c5a5380c"
+        ],
+        "throughSourceSha": "af853e1f0512b6d0e3e45ec7f29954587e2601a1",
+        "previousThroughSourceSha": "3fb7acff30d45fa2d9d691964764ef854b5a1514",
+        "baselineVersion": "1.541.2",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-13T08:26:34.932Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43393195040",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-14T08:26:27.733Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -178187,7 +178231,8 @@
     "landed-orchestrator-model:9c95d5737388775fcf23e62bd067666f059e13d5bdeed9ea0ca0345db62571ec",
     "gemini-4-hydrogen-carbon-argon:f41ef40a28fbcda798e32677dcb447d448820cebd74754b4d5ca87a46a89a789",
     "machine-allows-in-computers:a7fed50ec2f4c896ed47973fccb18ea00981ce56274407adda5bd1fb6d480355",
-    "plan-edit-on-each-page:5250667d81929991f47e6c807db891870a006dae12719f12b1dc28aeae8b552c"
+    "plan-edit-on-each-page:5250667d81929991f47e6c807db891870a006dae12719f12b1dc28aeae8b552c",
+    "plain-google-sign-in-window:d0e2b5679e976ed4a1e4659368d615f48af0f5b490d9b11e95b49370c5a5380c"
   ],
-  "consumedThroughSha": "3fb7acff30d45fa2d9d691964764ef854b5a1514"
+  "consumedThroughSha": "af853e1f0512b6d0e3e45ec7f29954587e2601a1"
 }
