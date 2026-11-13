@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e1479cdbcbe765cfe33f3ea4e12ed1ce2757fae8",
+  "cursorSha": "7a7d77d7343426a9bd41b6171a0cee0de3166a69",
   "highWaterVersion": "1.542.5",
   "rows": [
     {
@@ -167614,6 +167614,13 @@
       "sourceSha": "e1479cdbcbe765cfe33f3ea4e12ed1ce2757fae8",
       "sourcePackageVersion": "1.541.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7a7d77d7343426a9bd41b6171a0cee0de3166a69",
+      "sourcePackageVersion": "1.541.1",
+      "intentIds": [
+        "agent-mcp-complete-tool-catalog:32a7b7d55af74155d6ef592176d574ab00cc334de40303e7cd0cfa03a4e5fc4f"
+      ]
     }
   ],
   "intents": [
@@ -177496,6 +177503,14 @@
       "summary": "Terminal releases now include their version and changelog entry in the tagged release source.",
       "sourceSha": "0fb132d7d5699f37fa27fcfdf7eaa0408a460566",
       "identity": "funny-papers-push:8735238e042c26841d44818ce18d8d9d9ce374a7d471bbde66da6e4f28bdbd8d"
+    },
+    {
+      "id": "agent-mcp-complete-tool-catalog",
+      "digest": "32a7b7d55af74155d6ef592176d574ab00cc334de40303e7cd0cfa03a4e5fc4f",
+      "type": "patch",
+      "summary": "Local agents (the Orchestrator and workers, on Claude, Codex and the other providers) now get every CodePress tool on their first turn. Terminal reads the whole CodePress tool list itself and hands it to the agent in a few large pages, so an agent that follows only a limited number of pages (Claude stopped at twenty) no longer misses the connected-integration tools that sort last. The Orchestrator's `pm start timing` log line also shows `first-output`, the time from opening the agent to its first reply, which includes the wait for its tools to load.",
+      "sourceSha": "7a7d77d7343426a9bd41b6171a0cee0de3166a69",
+      "identity": "agent-mcp-complete-tool-catalog:32a7b7d55af74155d6ef592176d574ab00cc334de40303e7cd0cfa03a4e5fc4f"
     }
   ],
   "consumedIntentIds": [
