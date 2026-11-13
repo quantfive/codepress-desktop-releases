@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4c44eab65f4bc7a6399fdf0c99501fae5c000e04",
+  "cursorSha": "2370381c9df016b72cce3dffc07fd2af1e8b23a3",
   "highWaterVersion": "1.548.0",
   "rows": [
     {
@@ -168614,6 +168614,13 @@
       "sourceSha": "4c44eab65f4bc7a6399fdf0c99501fae5c000e04",
       "sourcePackageVersion": "1.547.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2370381c9df016b72cce3dffc07fd2af1e8b23a3",
+      "sourcePackageVersion": "1.547.0",
+      "intentIds": [
+        "recent-runs-hand-off:4476ed945c07a98580c8e8c18a2802d09b51b63da7e4fe6ab109d692ea397148"
+      ]
     }
   ],
   "intents": [
@@ -178680,6 +178687,14 @@
       "summary": "Type checks run on TypeScript 7's native compiler. The shipped code is unchanged: builds still emit with TypeScript 5.9.3.",
       "sourceSha": "eacf418ad43568fe3e9606f4eba842347d15ceb7",
       "identity": "typescript-7-typecheck:e1da3240c2bbf1872924c8c59591b7d733baec0dbc360a94cadf80ac67cc1266"
+    },
+    {
+      "id": "recent-runs-hand-off",
+      "digest": "4476ed945c07a98580c8e8c18a2802d09b51b63da7e4fe6ab109d692ea397148",
+      "type": "patch",
+      "summary": "Hand off a live run from its automation's Recent runs in Orchestrator mode. Settings' \"Running on this machine\" now lists runs without Hand off buttons.",
+      "sourceSha": "2370381c9df016b72cce3dffc07fd2af1e8b23a3",
+      "identity": "recent-runs-hand-off:4476ed945c07a98580c8e8c18a2802d09b51b63da7e4fe6ab109d692ea397148"
     }
   ],
   "consumedIntentIds": [
