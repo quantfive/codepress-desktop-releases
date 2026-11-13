@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f7b4409bd2181877311dd47dacd61402ae53275c",
+  "cursorSha": "3868e3e92cdbe97411cb050f3fee8a35c14dd1f4",
   "highWaterVersion": "1.538.0",
   "rows": [
     {
@@ -166120,6 +166120,13 @@
       "sourceSha": "f7b4409bd2181877311dd47dacd61402ae53275c",
       "sourcePackageVersion": "1.551.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3868e3e92cdbe97411cb050f3fee8a35c14dd1f4",
+      "sourcePackageVersion": "1.551.0",
+      "intentIds": [
+        "terminal-shared-orchestrator-links:a1ed42c833d5cb45782b469c432f351ba17917a680496d9b01e49542cd3336af"
+      ]
     }
   ],
   "intents": [
@@ -175826,6 +175833,14 @@
       "summary": "Hand off a running automation from the \"On this Mac\" list and Settings → This computer, or hand off all of them at once. A run that is moving says where it is going, and Recent says where a handed-off run went.",
       "sourceSha": "dc156f8b1e72f472508a8ca75d033c572a25bce9",
       "identity": "hand-off-on-this-machine:ec51ae67379a5f4bc39c9e7ccc1d05b6f8bfbcbf73e597ecad074fda52d7f5ff"
+    },
+    {
+      "id": "terminal-shared-orchestrator-links",
+      "digest": "a1ed42c833d5cb45782b469c432f351ba17917a680496d9b01e49542cd3336af",
+      "type": "patch",
+      "summary": "A shared Orchestrator link to a teammate's project or synced chat now opens in its read-only Team view, as the Team feed row does. Your own projects, and any link the Team lookup does not answer for, open as before.",
+      "sourceSha": "3868e3e92cdbe97411cb050f3fee8a35c14dd1f4",
+      "identity": "terminal-shared-orchestrator-links:a1ed42c833d5cb45782b469c432f351ba17917a680496d9b01e49542cd3336af"
     }
   ],
   "consumedIntentIds": [
