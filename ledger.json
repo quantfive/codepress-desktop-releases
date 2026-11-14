@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "3348e221ce9b5367128f67794d53c68600d46786",
-  "highWaterVersion": "1.552.0",
+  "highWaterVersion": "1.552.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -92284,6 +92284,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:3348e221ce9b5367128f67794d53c68600d46786",
+      "kind": "main",
+      "sequence": 2357,
+      "sourceSha": "3348e221ce9b5367128f67794d53c68600d46786",
+      "sourcePackageVersion": "1.552.0",
+      "version": "1.552.1",
+      "batch": {
+        "intentIds": [
+          "static-tool-state-tsconfig:0c100a26cd2512007f48e9d8fd2adc076ccbce7734df90b792851347d4037475"
+        ],
+        "notesIntentIds": [
+          "static-tool-state-tsconfig:0c100a26cd2512007f48e9d8fd2adc076ccbce7734df90b792851347d4037475"
+        ],
+        "throughSourceSha": "3348e221ce9b5367128f67794d53c68600d46786",
+        "previousThroughSourceSha": "2871cd442d27e0a60318dc9a525b608eac6aa910",
+        "baselineVersion": "1.552.0",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-14T02:42:17.908Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43547706903",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-15T02:42:10.220Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -180945,7 +180988,8 @@
     "team-share-links:e915e9c0cc21b45c68d028e5771451da986cdb19e563575670cfad36264e0cc7",
     "managed-named-instances-ui:aa887eb987d9556d264c828977d7e69248a98ddfa9567c63b48badc947e9c04c",
     "orchestrator-hook-review-attention:2c8ffae231371ab77cce0923e9ee5a7317e218f47658067e64aecb0704dcdf6c",
-    "qwen-workers:0bf93a6829c9985f746f8f77f663c5859d30479a5bf1ea4d116e537731c88767"
+    "qwen-workers:0bf93a6829c9985f746f8f77f663c5859d30479a5bf1ea4d116e537731c88767",
+    "static-tool-state-tsconfig:0c100a26cd2512007f48e9d8fd2adc076ccbce7734df90b792851347d4037475"
   ],
-  "consumedThroughSha": "2871cd442d27e0a60318dc9a525b608eac6aa910"
+  "consumedThroughSha": "3348e221ce9b5367128f67794d53c68600d46786"
 }
