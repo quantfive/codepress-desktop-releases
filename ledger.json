@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "693016e8771660e0fdac702fc0ba664b2ea75f19",
-  "highWaterVersion": "1.550.0",
+  "highWaterVersion": "1.551.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -92125,6 +92125,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:693016e8771660e0fdac702fc0ba664b2ea75f19",
+      "kind": "main",
+      "sequence": 2354,
+      "sourceSha": "693016e8771660e0fdac702fc0ba664b2ea75f19",
+      "sourcePackageVersion": "1.549.4",
+      "version": "1.551.0",
+      "batch": {
+        "intentIds": [
+          "team-share-links:e915e9c0cc21b45c68d028e5771451da986cdb19e563575670cfad36264e0cc7"
+        ],
+        "notesIntentIds": [
+          "team-share-links:e915e9c0cc21b45c68d028e5771451da986cdb19e563575670cfad36264e0cc7"
+        ],
+        "throughSourceSha": "693016e8771660e0fdac702fc0ba664b2ea75f19",
+        "previousThroughSourceSha": "c269a025a11713d4097d5778eca5ac8714470225",
+        "baselineVersion": "1.550.0",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-14T01:25:09.411Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43540408097",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-15T01:25:02.310Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -180682,7 +180725,8 @@
     "public-whatsapp-agent-settings:09f2bcc3e7d27f2e2962bf8bec0f3c83ec658c370f4fb855c515d6e9c39bc7dd",
     "sandbox-route-listener-log-first:af2ea0f0c65796c6b11c773551b14d6f2ef46525a5574b553a31e51299c36295",
     "claude-mcp-cold-walk-timeout:62b5a74ff372e231c5a9b6129fb5ba225ff979403165adcba44971787883d51c",
-    "cursor-workers:ae5262b8a2b3f75fe7e0de6a2454f1233300dd5b7652b42176cfa7843965a7ef"
+    "cursor-workers:ae5262b8a2b3f75fe7e0de6a2454f1233300dd5b7652b42176cfa7843965a7ef",
+    "team-share-links:e915e9c0cc21b45c68d028e5771451da986cdb19e563575670cfad36264e0cc7"
   ],
-  "consumedThroughSha": "c269a025a11713d4097d5778eca5ac8714470225"
+  "consumedThroughSha": "693016e8771660e0fdac702fc0ba664b2ea75f19"
 }
