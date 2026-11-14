@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "34ff1dd1edc7096e173760582f20f22837472dbd",
+  "cursorSha": "3449918cdd15e3e03b811b816bc7665d91a1a31a",
   "highWaterVersion": "1.561.0",
   "rows": [
     {
@@ -171856,6 +171856,18 @@
       "sourceSha": "34ff1dd1edc7096e173760582f20f22837472dbd",
       "sourcePackageVersion": "1.560.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "98c3b9c27eb9f7b8c8c0936f14f2a9a817e3abb6",
+      "sourcePackageVersion": "1.560.2",
+      "intentIds": [
+        "feed-rail-nested-child-projects:7dc0017eb1e4004f4750a2bb02df09e7264b66980adf8deb1b044979edbd8a07"
+      ]
+    },
+    {
+      "sourceSha": "3449918cdd15e3e03b811b816bc7665d91a1a31a",
+      "sourcePackageVersion": "1.560.2",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -182514,6 +182526,14 @@
       "summary": "A tall ask in the Orchestrator's Dock no longer slides under the thread header: the card stops just below it, the ask scrolls inside the card, and the composer stays whole at the bottom.",
       "sourceSha": "34a4c7d5903c43316d38d293e0b7e346da9c7405",
       "identity": "dock-card-under-header:e92ac80fc2a61e838ac7387b501bacb6ff13817e212cae37f9a59d70c2ea4f32"
+    },
+    {
+      "id": "feed-rail-nested-child-projects",
+      "digest": "7dc0017eb1e4004f4750a2bb02df09e7264b66980adf8deb1b044979edbd8a07",
+      "type": "minor",
+      "summary": "The sidebar draws each project another project started as an indented card under its parent, with \"N started\" on the parent. Grandchildren indent one more step, up to three; deeper ones stay at the third step and say which project started them.",
+      "sourceSha": "98c3b9c27eb9f7b8c8c0936f14f2a9a817e3abb6",
+      "identity": "feed-rail-nested-child-projects:7dc0017eb1e4004f4750a2bb02df09e7264b66980adf8deb1b044979edbd8a07"
     }
   ],
   "consumedIntentIds": [
