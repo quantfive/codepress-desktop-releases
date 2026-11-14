@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "29ae1937ceb38a8bf86d67f6bcf5fb5f4b675d67",
+  "cursorSha": "3c801dd749df6dcd267c99fa791d74c896da6c24",
   "highWaterVersion": "1.557.1",
   "rows": [
     {
@@ -170639,6 +170639,13 @@
       "sourceSha": "29ae1937ceb38a8bf86d67f6bcf5fb5f4b675d67",
       "sourcePackageVersion": "1.557.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3c801dd749df6dcd267c99fa791d74c896da6c24",
+      "sourcePackageVersion": "1.557.0",
+      "intentIds": [
+        "orchestrator-native-cli-groundwork:cf920d6f4705fc577f2c10661eef8fc9266153db4262d90f259ce2f252aab4c6"
+      ]
     }
   ],
   "intents": [
@@ -180977,6 +180984,14 @@
       "summary": "CI runners: a new Pull requests tab answers \"why was my PR's CI slow?\". Search a pull request by number or branch and pick a run to see every job: where it ran (your machines or Blacksmith), how long it waited and took, and its timeline. The tab also shows the critical path, the split between your machines and paid cloud with Blacksmith dollars, and a plain-English explanation built from the data. A job's branch or pull request in Jobs opens the tab, and so does the Overview's \"Ask why\" when one pull request holds most of the queue.",
       "sourceSha": "86fcc23224d25d053c3d22820fc35be07003b7f9",
       "identity": "ci-runners-pull-requests:e83fdb8d25f3ff12fd2b077a58663c0673267e13085fad20e3f6c7e67a51088a"
+    },
+    {
+      "id": "orchestrator-native-cli-groundwork",
+      "digest": "cf920d6f4705fc577f2c10661eef8fc9266153db4262d90f259ce2f252aab4c6",
+      "type": "patch",
+      "summary": "Groundwork for running the Orchestrator on GitHub Copilot, Cursor, Kiro, Mistral Vibe, Qwen Code, GLM and MiniMax. Nothing changes yet: each of them is still refused for the Orchestrator until its own update. An Orchestrator no longer inherits the tab or worker-launch identity of the window Terminal was started from.",
+      "sourceSha": "3c801dd749df6dcd267c99fa791d74c896da6c24",
+      "identity": "orchestrator-native-cli-groundwork:cf920d6f4705fc577f2c10661eef8fc9266153db4262d90f259ce2f252aab4c6"
     }
   ],
   "consumedIntentIds": [
