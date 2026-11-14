@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "48d1e05a1a2f9eb9c0762b7fd4bf995cd0b43668",
+  "cursorSha": "a0bf24bf0b28f5fe06c03e1d0573545d1e8323a1",
   "highWaterVersion": "1.559.2",
   "rows": [
     {
@@ -171386,6 +171386,13 @@
       "sourceSha": "48d1e05a1a2f9eb9c0762b7fd4bf995cd0b43668",
       "sourcePackageVersion": "1.559.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a0bf24bf0b28f5fe06c03e1d0573545d1e8323a1",
+      "sourcePackageVersion": "1.559.0",
+      "intentIds": [
+        "agent-proposal-options-note:b4ab245b2a99b6fb837eb81ff91cbca893234b66f9d0df7ac4e89d30c1adfb19"
+      ]
     }
   ],
   "intents": [
@@ -181972,6 +181979,14 @@
       "summary": "Count native computer-use output once across successive calls so valid observation and input sequences do not exhaust their output budget early.",
       "sourceSha": "e87d7527e3c7f8b972a8758dba75e6a3c3c4f626",
       "identity": "fair-native-output-budget:5cc74b6469f1f446fee6c2207578b9f50224394ddfe7670cdf435703797b794e"
+    },
+    {
+      "id": "agent-proposal-options-note",
+      "digest": "b4ab245b2a99b6fb837eb81ff91cbca893234b66f9d0df7ac4e89d30c1adfb19",
+      "type": "patch",
+      "summary": "Agent proposal cards in the cloud chat show a proposal's own answers, open a \"What should change?\" note box for answers that ask for one, and show the note (or \"from Slack\") on the answered line.",
+      "sourceSha": "a0bf24bf0b28f5fe06c03e1d0573545d1e8323a1",
+      "identity": "agent-proposal-options-note:b4ab245b2a99b6fb837eb81ff91cbca893234b66f9d0df7ac4e89d30c1adfb19"
     }
   ],
   "consumedIntentIds": [
