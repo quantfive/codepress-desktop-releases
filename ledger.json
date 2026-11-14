@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3eb3658d90b023cf0323635f6e38e432584ddd1a",
+  "cursorSha": "cbcd04a0a4dba1700e99325e7954145a55f2523d",
   "highWaterVersion": "1.561.0",
   "rows": [
     {
@@ -171892,6 +171892,23 @@
       "sourceSha": "3eb3658d90b023cf0323635f6e38e432584ddd1a",
       "sourcePackageVersion": "1.560.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "bd074a9a1938618906d6a108d21d1c616562eada",
+      "sourcePackageVersion": "1.560.2",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "a73a1cc1cf68f94c0aae9dc9ea30adf6331c22f6",
+      "sourcePackageVersion": "1.560.2",
+      "intentIds": [
+        "workers-get-orchestrator-scopes:ea75a5e3f1c6aaf22edac534a280af57d6ad94399badc039d50cb1fa5d150eb0"
+      ]
+    },
+    {
+      "sourceSha": "cbcd04a0a4dba1700e99325e7954145a55f2523d",
+      "sourcePackageVersion": "1.560.2",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -182574,6 +182591,14 @@
       "summary": "GitHub Copilot in the cloud on a Personal token: Settings → Agent accounts → GitHub Copilot now has a Personal section where you add or remove your own fine-grained GitHub token (with the Copilot Requests permission) for your web chats, automations and cloud Orchestrators. It is placed inside your cloud runs as Copilot's own COPILOT_GITHUB_TOKEN; revoke it on GitHub any time. A classic token (ghp\\_…) is refused, since Copilot does not accept one. This machine's Copilot workers and Orchestrators keep using the copilot CLI's own login for now. Team tokens are not offered: GitHub allows one person per Copilot login. A cloud Orchestrator's model picker also offers GitHub Copilot's models.",
       "sourceSha": "fd0098f8710edc9aee9ed4a7a6051c23da9abf1a",
       "identity": "copilot-personal-token-cloud:9bd37f7a3e1d4d8cdf0084036c30267c4b530e76f5fe8c2a8635f4bf6d65738d"
+    },
+    {
+      "id": "workers-get-orchestrator-scopes",
+      "digest": "ea75a5e3f1c6aaf22edac534a280af57d6ad94399badc039d50cb1fa5d150eb0",
+      "type": "patch",
+      "summary": "Fleet workers now get the same CodePress access as their Orchestrator: with agent tools on, a worker's CodePress connection asks for the full set (including organization admin, integration admin, stored secrets and the full CodePress API) and covers all of the person's organizations, with the project's organization as the default. The backend still checks the person's role and permissions on every call. Workers pick this up at their next launch.",
+      "sourceSha": "a73a1cc1cf68f94c0aae9dc9ea30adf6331c22f6",
+      "identity": "workers-get-orchestrator-scopes:ea75a5e3f1c6aaf22edac534a280af57d6ad94399badc039d50cb1fa5d150eb0"
     }
   ],
   "consumedIntentIds": [
