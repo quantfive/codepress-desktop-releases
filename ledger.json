@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "bb75516526072fa67f76450ea387b8c42d0ee88d",
+  "cursorSha": "2871cd442d27e0a60318dc9a525b608eac6aa910",
   "highWaterVersion": "1.551.1",
   "rows": [
     {
@@ -169411,6 +169411,13 @@
       "sourceSha": "bb75516526072fa67f76450ea387b8c42d0ee88d",
       "sourcePackageVersion": "1.551.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2871cd442d27e0a60318dc9a525b608eac6aa910",
+      "sourcePackageVersion": "1.551.1",
+      "intentIds": [
+        "qwen-workers:0bf93a6829c9985f746f8f77f663c5859d30479a5bf1ea4d116e537731c88767"
+      ]
     }
   ],
   "intents": [
@@ -179565,6 +179572,14 @@
       "summary": "Notify an Orchestrator when its managed Codex child shows a hook-review startup dialog, while preserving prompt approval and digest-bound input protection.",
       "sourceSha": "ab09ec4d79a01c509de74fb935fbce89d1e0f558",
       "identity": "orchestrator-hook-review-attention:2c8ffae231371ab77cce0923e9ee5a7317e218f47658067e64aecb0704dcdf6c"
+    },
+    {
+      "id": "qwen-workers",
+      "digest": "0bf93a6829c9985f746f8f77f663c5859d30479a5bf1ea4d116e537731c88767",
+      "type": "minor",
+      "summary": "Orchestrator workers and Terminal tabs can run on Qwen Code's own CLI (`qwen`), on the login it holds. Settings → Agent accounts has a Qwen tab showing this computer's login, a Sign in that opens a tab running `qwen -i /auth`, or the install command. A worker refuses with the fix, and never starts another provider, when `qwen` is missing, older than 0.26.8, signed out, or still on Qwen OAuth's ended free tier.",
+      "sourceSha": "2871cd442d27e0a60318dc9a525b608eac6aa910",
+      "identity": "qwen-workers:0bf93a6829c9985f746f8f77f663c5859d30479a5bf1ea4d116e537731c88767"
     }
   ],
   "consumedIntentIds": [
