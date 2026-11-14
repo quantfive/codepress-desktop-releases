@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "2871cd442d27e0a60318dc9a525b608eac6aa910",
-  "highWaterVersion": "1.551.1",
+  "highWaterVersion": "1.552.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -92229,6 +92229,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:2871cd442d27e0a60318dc9a525b608eac6aa910",
+      "kind": "main",
+      "sequence": 2356,
+      "sourceSha": "2871cd442d27e0a60318dc9a525b608eac6aa910",
+      "sourcePackageVersion": "1.551.1",
+      "version": "1.552.0",
+      "batch": {
+        "intentIds": [
+          "qwen-workers:0bf93a6829c9985f746f8f77f663c5859d30479a5bf1ea4d116e537731c88767"
+        ],
+        "notesIntentIds": [
+          "qwen-workers:0bf93a6829c9985f746f8f77f663c5859d30479a5bf1ea4d116e537731c88767"
+        ],
+        "throughSourceSha": "2871cd442d27e0a60318dc9a525b608eac6aa910",
+        "previousThroughSourceSha": "ab09ec4d79a01c509de74fb935fbce89d1e0f558",
+        "baselineVersion": "1.551.1",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-14T02:10:12.627Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43544665458",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-15T02:10:05.726Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -180859,7 +180902,8 @@
     "cursor-workers:ae5262b8a2b3f75fe7e0de6a2454f1233300dd5b7652b42176cfa7843965a7ef",
     "team-share-links:e915e9c0cc21b45c68d028e5771451da986cdb19e563575670cfad36264e0cc7",
     "managed-named-instances-ui:aa887eb987d9556d264c828977d7e69248a98ddfa9567c63b48badc947e9c04c",
-    "orchestrator-hook-review-attention:2c8ffae231371ab77cce0923e9ee5a7317e218f47658067e64aecb0704dcdf6c"
+    "orchestrator-hook-review-attention:2c8ffae231371ab77cce0923e9ee5a7317e218f47658067e64aecb0704dcdf6c",
+    "qwen-workers:0bf93a6829c9985f746f8f77f663c5859d30479a5bf1ea4d116e537731c88767"
   ],
-  "consumedThroughSha": "ab09ec4d79a01c509de74fb935fbce89d1e0f558"
+  "consumedThroughSha": "2871cd442d27e0a60318dc9a525b608eac6aa910"
 }
