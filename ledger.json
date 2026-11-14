@@ -92681,10 +92681,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43567191423",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-15T06:37:06.051Z",
         "dispatch": null,
         "failures": []
       }
