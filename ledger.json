@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ec0f278dee5d24948efa6c9bb7585b422839ff62",
+  "cursorSha": "3ceec4e7113fe4e60c5ee7b9fc74b8aa9241db74",
   "highWaterVersion": "1.552.1",
   "rows": [
     {
@@ -169583,6 +169583,13 @@
       "sourceSha": "ec0f278dee5d24948efa6c9bb7585b422839ff62",
       "sourcePackageVersion": "1.552.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3ceec4e7113fe4e60c5ee7b9fc74b8aa9241db74",
+      "sourcePackageVersion": "1.552.1",
+      "intentIds": [
+        "kiro-workers:bb7d7a991e86d4b7e2b251a1fc0b634990b5c4ad46f6571be229760d095e4b35"
+      ]
     }
   ],
   "intents": [
@@ -179753,6 +179760,14 @@
       "summary": "Terminal's type-check configs no longer set `incremental` or a `tsBuildInfoFile` under `node_modules/.cache/tsc`; every check already ran fresh, so nothing read that file. No change to the app.",
       "sourceSha": "3348e221ce9b5367128f67794d53c68600d46786",
       "identity": "static-tool-state-tsconfig:0c100a26cd2512007f48e9d8fd2adc076ccbce7734df90b792851347d4037475"
+    },
+    {
+      "id": "kiro-workers",
+      "digest": "bb7d7a991e86d4b7e2b251a1fc0b634990b5c4ad46f6571be229760d095e4b35",
+      "type": "minor",
+      "summary": "Run Orchestrator workers on Kiro. A worker on a Kiro model (Auto, Claude Sonnet 5.5, Claude Opus 5.5 or GPT-5.6 Sol) runs your own `kiro-cli` in its worktree, on your Kiro login, and its Orchestrator hears when each turn ends. A missing, outdated (below 3.0.0), signed-out or out-of-credits `kiro-cli` is refused with the fix, and no other agent starts in its place. Settings → Agent accounts has a Kiro tab: your signed-in account, Sign in (a tab running `kiro-cli login`), or the install command to copy. A `kiro-cli` tab you open yourself shows as Kiro CLI.",
+      "sourceSha": "3ceec4e7113fe4e60c5ee7b9fc74b8aa9241db74",
+      "identity": "kiro-workers:bb7d7a991e86d4b7e2b251a1fc0b634990b5c4ad46f6571be229760d095e4b35"
     }
   ],
   "consumedIntentIds": [
