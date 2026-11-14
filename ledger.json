@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "3c24a90e7e8aaa2345d3fdb3de334d6ea9cbc0d0",
-  "highWaterVersion": "1.560.2",
+  "highWaterVersion": "1.561.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -93603,6 +93603,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:3c24a90e7e8aaa2345d3fdb3de334d6ea9cbc0d0",
+      "kind": "main",
+      "sequence": 2381,
+      "sourceSha": "3c24a90e7e8aaa2345d3fdb3de334d6ea9cbc0d0",
+      "sourcePackageVersion": "1.560.2",
+      "version": "1.561.0",
+      "batch": {
+        "intentIds": [
+          "vibe-qwen-personal-team-keys:0b53116fefc4eeb4ee959572272e8f782b09e50f0a44ea3bc6a6a67f388ca728"
+        ],
+        "notesIntentIds": [
+          "vibe-qwen-personal-team-keys:0b53116fefc4eeb4ee959572272e8f782b09e50f0a44ea3bc6a6a67f388ca728"
+        ],
+        "throughSourceSha": "3c24a90e7e8aaa2345d3fdb3de334d6ea9cbc0d0",
+        "previousThroughSourceSha": "cb548f61cbd172ea406b14cb0619e6c7ece719b5",
+        "baselineVersion": "1.560.2",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-14T23:25:04.066Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43653089977",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-15T23:24:56.113Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -183769,7 +183812,8 @@
     "terminal-token-reuse-through-refused-mint:2ee38eb5ffa2a2c25ae3fd6100da7986d81ce05d38e979cce2107b288ee5d997",
     "feed-spawned-by-project-id:787acb7c396bcc3b3a8e295716fe43ac607fc0db522442edbe597dd1a3c3c5c1",
     "unlimited-nested-child-projects:ea8f849aa97bdcb9f03a813b38bfb8367b8e4cde709a2a2505966782182e8823",
-    "cloud-qwen-keys:b09a2584bcd6e84c6be34d86fba3eedd9b72f09366cdcd8ce1a794321470fbf1"
+    "cloud-qwen-keys:b09a2584bcd6e84c6be34d86fba3eedd9b72f09366cdcd8ce1a794321470fbf1",
+    "vibe-qwen-personal-team-keys:0b53116fefc4eeb4ee959572272e8f782b09e50f0a44ea3bc6a6a67f388ca728"
   ],
-  "consumedThroughSha": "cb548f61cbd172ea406b14cb0619e6c7ece719b5"
+  "consumedThroughSha": "3c24a90e7e8aaa2345d3fdb3de334d6ea9cbc0d0"
 }
