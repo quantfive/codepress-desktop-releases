@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3ceec4e7113fe4e60c5ee7b9fc74b8aa9241db74",
+  "cursorSha": "1e54b30327cd716d2fe3f5c2597c0a8aad664036",
   "highWaterVersion": "1.553.0",
   "rows": [
     {
@@ -169637,6 +169637,13 @@
       "intentIds": [
         "kiro-workers:bb7d7a991e86d4b7e2b251a1fc0b634990b5c4ad46f6571be229760d095e4b35"
       ]
+    },
+    {
+      "sourceSha": "1e54b30327cd716d2fe3f5c2597c0a8aad664036",
+      "sourcePackageVersion": "1.552.1",
+      "intentIds": [
+        "project-terminal-desktop-fit:250d759396eb8aa93bf68b6f0a17ce75f3161781e75b5a55b172271ee9b37a1d"
+      ]
     }
   ],
   "intents": [
@@ -179815,6 +179822,14 @@
       "summary": "Run Orchestrator workers on Kiro. A worker on a Kiro model (Auto, Claude Sonnet 5.5, Claude Opus 5.5 or GPT-5.6 Sol) runs your own `kiro-cli` in its worktree, on your Kiro login, and its Orchestrator hears when each turn ends. A missing, outdated (below 3.0.0), signed-out or out-of-credits `kiro-cli` is refused with the fix, and no other agent starts in its place. Settings → Agent accounts has a Kiro tab: your signed-in account, Sign in (a tab running `kiro-cli login`), or the install command to copy. A `kiro-cli` tab you open yourself shows as Kiro CLI.",
       "sourceSha": "3ceec4e7113fe4e60c5ee7b9fc74b8aa9241db74",
       "identity": "kiro-workers:bb7d7a991e86d4b7e2b251a1fc0b634990b5c4ad46f6571be229760d095e4b35"
+    },
+    {
+      "id": "project-terminal-desktop-fit",
+      "digest": "250d759396eb8aa93bf68b6f0a17ce75f3161781e75b5a55b172271ee9b37a1d",
+      "type": "patch",
+      "summary": "A project's Terminal tab now fills its pane on a desktop too, and follows window resizes, whenever the project's home machine can resize its terminal.",
+      "sourceSha": "1e54b30327cd716d2fe3f5c2597c0a8aad664036",
+      "identity": "project-terminal-desktop-fit:250d759396eb8aa93bf68b6f0a17ce75f3161781e75b5a55b172271ee9b37a1d"
     }
   ],
   "consumedIntentIds": [
