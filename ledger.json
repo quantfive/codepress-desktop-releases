@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ef820e49862564e99248b749851b6c2b751c2882",
+  "cursorSha": "2bf0b850de8938601a6afb09f32cbcdf23c96928",
   "highWaterVersion": "1.559.0",
   "rows": [
     {
@@ -171254,6 +171254,13 @@
       "sourceSha": "ef820e49862564e99248b749851b6c2b751c2882",
       "sourcePackageVersion": "1.559.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2bf0b850de8938601a6afb09f32cbcdf23c96928",
+      "sourcePackageVersion": "1.559.0",
+      "intentIds": [
+        "revert-plan-canvas-phone-snapshots:bf6f9e57e5c6c92c332e13edb75820eb15446abf442b3c2504bccc0e36a7479e"
+      ]
     }
   ],
   "intents": [
@@ -181824,6 +181831,14 @@
       "summary": "Cursor in the cloud on a Personal or Team key: Settings → Agent accounts → Cursor now has Personal and Team sections where you add or remove a Cursor API key (a user key from cursor.com/dashboard) for your web chats and automations, and an organization admin adds a Team Enterprise service-account key, which uses the team's usage pool. The key is placed inside each cloud run as Cursor's own CURSOR_API_KEY and nowhere else. This machine's Cursor workers and Orchestrators keep using the Cursor CLI's own login for now. Cursor can't run a cloud Orchestrator.",
       "sourceSha": "bf8122d46f0b082add6100522687f26321870db3",
       "identity": "cursor-cloud-keys:a0fc2f5dd12dcad54012ee65d3fcf9989c33ab2691193d793c8b3a907e5fa88e"
+    },
+    {
+      "id": "revert-plan-canvas-phone-snapshots",
+      "digest": "bf6f9e57e5c6c92c332e13edb75820eb15446abf442b3c2504bccc0e36a7479e",
+      "type": "patch",
+      "summary": "Plan canvas on a phone: back to live pages with a 50% zoom floor. Reverts the snapshot images below 50% and the local Plans tab's snapshot signing until the live-pages fix ships.",
+      "sourceSha": "2bf0b850de8938601a6afb09f32cbcdf23c96928",
+      "identity": "revert-plan-canvas-phone-snapshots:bf6f9e57e5c6c92c332e13edb75820eb15446abf442b3c2504bccc0e36a7479e"
     }
   ],
   "consumedIntentIds": [
