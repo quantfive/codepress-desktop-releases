@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f775cfb726f05eb3742a65256a9a7aa54ea4451d",
+  "cursorSha": "20dcdc58505f13b87bd10e427233dcf9d81ffff7",
   "highWaterVersion": "1.559.4",
   "rows": [
     {
@@ -171504,6 +171504,13 @@
       "sourceSha": "f775cfb726f05eb3742a65256a9a7aa54ea4451d",
       "sourcePackageVersion": "1.559.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "20dcdc58505f13b87bd10e427233dcf9d81ffff7",
+      "sourcePackageVersion": "1.559.0",
+      "intentIds": [
+        "coding-plan-personal-team-keys:e65ee5ba482410395aaf6ceea0955d8f0f8d253da3c5c243b0abff3a0f92ffe2"
+      ]
     }
   ],
   "intents": [
@@ -182106,6 +182113,14 @@
       "summary": "Load compact collection navigation and only the selected 24-card page in Apps. Add collection and member search, Previous/Next paging, and atomic moves while preserving cached cards and mounted previews during refresh.",
       "sourceSha": "fccf5ca89e4d95be3bb980b1c04f17989421fc35",
       "identity": "collections-paginated-browsing:1dce11ebb1d1268e9f289f41eb823dbf3f72370a7b1f6e3e6a89fa8ed1f6e2b0"
+    },
+    {
+      "id": "coding-plan-personal-team-keys",
+      "digest": "e65ee5ba482410395aaf6ceea0955d8f0f8d253da3c5c243b0abff3a0f92ffe2",
+      "type": "minor",
+      "summary": "Z.ai and MiniMax workers and Orchestrators can run on a Personal or Team key from your CodePress account. Agent accounts → Z.ai and → MiniMax list This machine, Personal and Team keys and let you choose which one this machine's workers use; a Personal or Team key goes through CodePress, so it never reaches this machine.",
+      "sourceSha": "20dcdc58505f13b87bd10e427233dcf9d81ffff7",
+      "identity": "coding-plan-personal-team-keys:e65ee5ba482410395aaf6ceea0955d8f0f8d253da3c5c243b0abff3a0f92ffe2"
     }
   ],
   "consumedIntentIds": [
