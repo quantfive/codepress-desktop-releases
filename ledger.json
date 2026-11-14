@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "a77d43e7e6e3d29dbc5c7e971026d33f3abd5757",
-  "highWaterVersion": "1.557.0",
+  "highWaterVersion": "1.557.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -92994,6 +92994,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:a77d43e7e6e3d29dbc5c7e971026d33f3abd5757",
+      "kind": "main",
+      "sequence": 2371,
+      "sourceSha": "a77d43e7e6e3d29dbc5c7e971026d33f3abd5757",
+      "sourcePackageVersion": "1.557.0",
+      "version": "1.557.1",
+      "batch": {
+        "intentIds": [
+          "segmented-tabs-main-column:62fcec3e5ae69c992039f6c9f76132c97f96633fcc970caa065435313b611e1a",
+          "ci-runners-pull-requests:e83fdb8d25f3ff12fd2b077a58663c0673267e13085fad20e3f6c7e67a51088a"
+        ],
+        "notesIntentIds": [
+          "segmented-tabs-main-column:62fcec3e5ae69c992039f6c9f76132c97f96633fcc970caa065435313b611e1a",
+          "ci-runners-pull-requests:e83fdb8d25f3ff12fd2b077a58663c0673267e13085fad20e3f6c7e67a51088a"
+        ],
+        "throughSourceSha": "a77d43e7e6e3d29dbc5c7e971026d33f3abd5757",
+        "previousThroughSourceSha": "6c695d853f7e24e9f1d38d478f3fce4edc8836b1",
+        "baselineVersion": "1.557.0",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-14T10:01:23.255Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43583217535",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-15T10:01:16.460Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -182210,7 +182255,9 @@
     "seven-providers-cloud-groundwork:f15e61ee9a32ba97663686c108dce7780f787ed7bdf85bb43ce7d16f6e213204",
     "read-orchestrator-chat-search:2a452b3ac5fcececdaa82f1039813a6ee3555432800bacc3df52b348d8c46baa",
     "phone-app-header:f43bc537b63bfcd439849dd1b7a0227734c100c2c8a5f3142ce61f26c3f5eadf",
-    "document-tabs-file-viewer-workflows:95bc659e602081668602c5ece648ba84c3c61d103fc31537bf9611c1a844452f"
+    "document-tabs-file-viewer-workflows:95bc659e602081668602c5ece648ba84c3c61d103fc31537bf9611c1a844452f",
+    "segmented-tabs-main-column:62fcec3e5ae69c992039f6c9f76132c97f96633fcc970caa065435313b611e1a",
+    "ci-runners-pull-requests:e83fdb8d25f3ff12fd2b077a58663c0673267e13085fad20e3f6c7e67a51088a"
   ],
-  "consumedThroughSha": "6c695d853f7e24e9f1d38d478f3fce4edc8836b1"
+  "consumedThroughSha": "a77d43e7e6e3d29dbc5c7e971026d33f3abd5757"
 }
