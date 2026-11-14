@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "69b8cf746103d7b4d9a2e43de6eabbafd2bd6864",
+  "cursorSha": "bf8122d46f0b082add6100522687f26321870db3",
   "highWaterVersion": "1.558.0",
   "rows": [
     {
@@ -171149,6 +171149,13 @@
       "sourceSha": "69b8cf746103d7b4d9a2e43de6eabbafd2bd6864",
       "sourcePackageVersion": "1.557.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "bf8122d46f0b082add6100522687f26321870db3",
+      "sourcePackageVersion": "1.557.1",
+      "intentIds": [
+        "cursor-cloud-keys:a0fc2f5dd12dcad54012ee65d3fcf9989c33ab2691193d793c8b3a907e5fa88e"
+      ]
     }
   ],
   "intents": [
@@ -181711,6 +181718,14 @@
       "summary": "Kiro in the cloud on a Personal key: Settings → Agent accounts → Kiro now has a Personal section where you add or remove your own Kiro API key (ksk\\_…, Kiro Pro and above) for your web chats, automations and cloud Orchestrators. The key is placed inside each cloud run as Kiro's own KIRO_API_KEY and nowhere else. This machine's Kiro workers and Orchestrators keep using kiro-cli's own login for now. Team keys are not offered: Kiro needs a subscription per developer. A cloud Orchestrator's model picker also offers Kiro's models.",
       "sourceSha": "82ac2a6525b2ce59c34b75e96095cf929a513181",
       "identity": "kiro-personal-key-cloud:f630470c3d3bb86a3cc559bd938fd19ffa69a6bca9eb6547017000ef08f19982"
+    },
+    {
+      "id": "cursor-cloud-keys",
+      "digest": "a0fc2f5dd12dcad54012ee65d3fcf9989c33ab2691193d793c8b3a907e5fa88e",
+      "type": "minor",
+      "summary": "Cursor in the cloud on a Personal or Team key: Settings → Agent accounts → Cursor now has Personal and Team sections where you add or remove a Cursor API key (a user key from cursor.com/dashboard) for your web chats and automations, and an organization admin adds a Team Enterprise service-account key, which uses the team's usage pool. The key is placed inside each cloud run as Cursor's own CURSOR_API_KEY and nowhere else. This machine's Cursor workers and Orchestrators keep using the Cursor CLI's own login for now. Cursor can't run a cloud Orchestrator.",
+      "sourceSha": "bf8122d46f0b082add6100522687f26321870db3",
+      "identity": "cursor-cloud-keys:a0fc2f5dd12dcad54012ee65d3fcf9989c33ab2691193d793c8b3a907e5fa88e"
     }
   ],
   "consumedIntentIds": [
