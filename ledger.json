@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "df9223490fceba08b59960c53ab2af1c781768b2",
-  "highWaterVersion": "1.559.4",
+  "highWaterVersion": "1.560.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -93442,6 +93442,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:df9223490fceba08b59960c53ab2af1c781768b2",
+      "kind": "main",
+      "sequence": 2378,
+      "sourceSha": "df9223490fceba08b59960c53ab2af1c781768b2",
+      "sourcePackageVersion": "1.559.4",
+      "version": "1.560.0",
+      "batch": {
+        "intentIds": [
+          "coding-plan-personal-team-keys:e65ee5ba482410395aaf6ceea0955d8f0f8d253da3c5c243b0abff3a0f92ffe2",
+          "terminal-token-reuse-through-refused-mint:2ee38eb5ffa2a2c25ae3fd6100da7986d81ce05d38e979cce2107b288ee5d997"
+        ],
+        "notesIntentIds": [
+          "coding-plan-personal-team-keys:e65ee5ba482410395aaf6ceea0955d8f0f8d253da3c5c243b0abff3a0f92ffe2",
+          "terminal-token-reuse-through-refused-mint:2ee38eb5ffa2a2c25ae3fd6100da7986d81ce05d38e979cce2107b288ee5d997"
+        ],
+        "throughSourceSha": "df9223490fceba08b59960c53ab2af1c781768b2",
+        "previousThroughSourceSha": "f775cfb726f05eb3742a65256a9a7aa54ea4451d",
+        "baselineVersion": "1.559.4",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-14T21:14:50.056Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43641730189",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-15T21:14:43.473Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -183483,7 +183528,9 @@
     "revert-plan-canvas-phone-snapshots:bf6f9e57e5c6c92c332e13edb75820eb15446abf442b3c2504bccc0e36a7479e",
     "fair-native-output-budget:5cc74b6469f1f446fee6c2207578b9f50224394ddfe7670cdf435703797b794e",
     "agent-proposal-options-note:b4ab245b2a99b6fb837eb81ff91cbca893234b66f9d0df7ac4e89d30c1adfb19",
-    "collections-paginated-browsing:1dce11ebb1d1268e9f289f41eb823dbf3f72370a7b1f6e3e6a89fa8ed1f6e2b0"
+    "collections-paginated-browsing:1dce11ebb1d1268e9f289f41eb823dbf3f72370a7b1f6e3e6a89fa8ed1f6e2b0",
+    "coding-plan-personal-team-keys:e65ee5ba482410395aaf6ceea0955d8f0f8d253da3c5c243b0abff3a0f92ffe2",
+    "terminal-token-reuse-through-refused-mint:2ee38eb5ffa2a2c25ae3fd6100da7986d81ce05d38e979cce2107b288ee5d997"
   ],
-  "consumedThroughSha": "f775cfb726f05eb3742a65256a9a7aa54ea4451d"
+  "consumedThroughSha": "df9223490fceba08b59960c53ab2af1c781768b2"
 }
