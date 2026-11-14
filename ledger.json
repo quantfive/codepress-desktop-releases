@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "1f7e9ad0e1545a88186fe2c37b07c6edb1d18dff",
-  "highWaterVersion": "1.553.1",
+  "highWaterVersion": "1.554.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -92443,6 +92443,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:1f7e9ad0e1545a88186fe2c37b07c6edb1d18dff",
+      "kind": "main",
+      "sequence": 2360,
+      "sourceSha": "1f7e9ad0e1545a88186fe2c37b07c6edb1d18dff",
+      "sourcePackageVersion": "1.553.1",
+      "version": "1.554.0",
+      "batch": {
+        "intentIds": [
+          "mistral-vibe-workers:0482a809de4dd983c5233600a08b8c6b0db59c386118b9d1968938fd6581de9a"
+        ],
+        "notesIntentIds": [
+          "mistral-vibe-workers:0482a809de4dd983c5233600a08b8c6b0db59c386118b9d1968938fd6581de9a"
+        ],
+        "throughSourceSha": "1f7e9ad0e1545a88186fe2c37b07c6edb1d18dff",
+        "previousThroughSourceSha": "39134128e083c165ef3dbfa9a6c1b5cee716308f",
+        "baselineVersion": "1.553.1",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-14T04:22:31.210Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43556277789",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-15T04:22:23.615Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -181228,7 +181271,8 @@
     "static-tool-state-tsconfig:0c100a26cd2512007f48e9d8fd2adc076ccbce7734df90b792851347d4037475",
     "kiro-workers:bb7d7a991e86d4b7e2b251a1fc0b634990b5c4ad46f6571be229760d095e4b35",
     "project-terminal-desktop-fit:250d759396eb8aa93bf68b6f0a17ce75f3161781e75b5a55b172271ee9b37a1d",
-    "rail-hidden-links:65636329dd385ff7ee48f629c6433e52ad07f1473c386577af66d62d3d273223"
+    "rail-hidden-links:65636329dd385ff7ee48f629c6433e52ad07f1473c386577af66d62d3d273223",
+    "mistral-vibe-workers:0482a809de4dd983c5233600a08b8c6b0db59c386118b9d1968938fd6581de9a"
   ],
-  "consumedThroughSha": "39134128e083c165ef3dbfa9a6c1b5cee716308f"
+  "consumedThroughSha": "1f7e9ad0e1545a88186fe2c37b07c6edb1d18dff"
 }
