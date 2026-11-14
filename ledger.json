@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d8404a9a7a86fe0fc83f8d35200fce38be42453c",
+  "cursorSha": "5d2d68d21d2ecdfde75be54bb365d04075a8246e",
   "highWaterVersion": "1.555.0",
   "rows": [
     {
@@ -170241,6 +170241,13 @@
       "intentIds": [
         "ci-runners-v2-overview:a51c080981b7e7e012164dab41ac6fad536447ecfeeb9a757b0f9cbe718d7e1f"
       ]
+    },
+    {
+      "sourceSha": "5d2d68d21d2ecdfde75be54bb365d04075a8246e",
+      "sourcePackageVersion": "1.554.3",
+      "intentIds": [
+        "sidebar-step-resume:54f014ebce545b3b5f47804315599e3811002f9a335ae20380832f3dbd650c37"
+      ]
     }
   ],
   "intents": [
@@ -180507,6 +180514,14 @@
       "summary": "CI runners: the Overview now answers whether CI is slow and why, what your machines saved (estimated from Blacksmith's list price until you add your server's cost), and how much ran on your machines versus Blacksmith, with a chart of why waits spike. Numbers across every tab read as people say them, and times show in your own zone.",
       "sourceSha": "d8404a9a7a86fe0fc83f8d35200fce38be42453c",
       "identity": "ci-runners-v2-overview:a51c080981b7e7e012164dab41ac6fad536447ecfeeb9a757b0f9cbe718d7e1f"
+    },
+    {
+      "id": "sidebar-step-resume",
+      "digest": "54f014ebce545b3b5f47804315599e3811002f9a335ae20380832f3dbd650c37",
+      "type": "minor",
+      "summary": "Settings → Navigation shows the sidebar editor: turn sections on or off, reorder them, pin apps you made and manage your links. A workspace draft saved on web onboarding's new Sidebar step resumes on the app's own last step instead of Connect.",
+      "sourceSha": "5d2d68d21d2ecdfde75be54bb365d04075a8246e",
+      "identity": "sidebar-step-resume:54f014ebce545b3b5f47804315599e3811002f9a335ae20380832f3dbd650c37"
     }
   ],
   "consumedIntentIds": [
