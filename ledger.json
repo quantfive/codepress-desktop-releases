@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d04825c86b9b2560f605b5d85b38ab1c581cacaa",
+  "cursorSha": "363672512e7e8a27fb0ad0d236177a4cf7d4411c",
   "highWaterVersion": "1.551.0",
   "rows": [
     {
@@ -169333,6 +169333,13 @@
       "sourceSha": "d04825c86b9b2560f605b5d85b38ab1c581cacaa",
       "sourcePackageVersion": "1.550.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "363672512e7e8a27fb0ad0d236177a4cf7d4411c",
+      "sourcePackageVersion": "1.550.0",
+      "intentIds": [
+        "managed-named-instances-ui:aa887eb987d9556d264c828977d7e69248a98ddfa9567c63b48badc947e9c04c"
+      ]
     }
   ],
   "intents": [
@@ -179471,6 +179478,14 @@
       "summary": "Team chats and projects get a link to share: a teammate reading one sees Share beside Add to my feed and Send to…, and the owner's ⋯ menu shows Copy link while the item is Team.",
       "sourceSha": "693016e8771660e0fdac702fc0ba664b2ea75f19",
       "identity": "team-share-links:e915e9c0cc21b45c68d028e5771451da986cdb19e563575670cfad36264e0cc7"
+    },
+    {
+      "id": "managed-named-instances-ui",
+      "digest": "aa887eb987d9556d264c828977d7e69248a98ddfa9567c63b48badc947e9c04c",
+      "type": "patch",
+      "summary": "Managed automations: a product that installs as named instances lists them on its card with Manage and \"Add a bot\", and its setup shows the request URL with Copy, write-only secret fields and a teammate picker.",
+      "sourceSha": "363672512e7e8a27fb0ad0d236177a4cf7d4411c",
+      "identity": "managed-named-instances-ui:aa887eb987d9556d264c828977d7e69248a98ddfa9567c63b48badc947e9c04c"
     }
   ],
   "consumedIntentIds": [
