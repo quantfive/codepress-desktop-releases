@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a14147fe70306e70d81dbc61124abe882213a23b",
+  "cursorSha": "c355275570735ab0784fa91a07973cfdc4e820ae",
   "highWaterVersion": "1.554.3",
   "rows": [
     {
@@ -170019,6 +170019,13 @@
       "intentIds": [
         "remote-tool-machine-search:182b2e9c2667003c191c6029c6c5a6abcb9403b3218848ab5cf4188767ccb1a7"
       ]
+    },
+    {
+      "sourceSha": "c355275570735ab0784fa91a07973cfdc4e820ae",
+      "sourcePackageVersion": "1.554.2",
+      "intentIds": [
+        "app-rail-pinned-links:0f0adf891855675f19de80444088b73ebf61ad0c602bf0a5fdfdfa5e20db08dd"
+      ]
     }
   ],
   "intents": [
@@ -180253,6 +180260,14 @@
       "summary": "Agents can search another machine's tools and their machines: `list_remote_tools` takes `query` (matching tools with full schemas, read across the whole catalog in one call) and `detail: \"names\"` (every tool name in one reply), and `list_machines` takes `query` and `online_only`, applied before `limit`.",
       "sourceSha": "a14147fe70306e70d81dbc61124abe882213a23b",
       "identity": "remote-tool-machine-search:182b2e9c2667003c191c6029c6c5a6abcb9403b3218848ab5cf4188767ccb1a7"
+    },
+    {
+      "id": "app-rail-pinned-links",
+      "digest": "0f0adf891855675f19de80444088b73ebf61ad0c602bf0a5fdfdfa5e20db08dd",
+      "type": "patch",
+      "summary": "The app's sidebar shows the workspace's pinned Apps and links, as the web's does. Each is an icon you can drag, move or hide like a section; an App or a CodePress page opens in the app, and a web address opens in your browser. Signed out, or when the links can't be read, the sidebar stays as it was.",
+      "sourceSha": "c355275570735ab0784fa91a07973cfdc4e820ae",
+      "identity": "app-rail-pinned-links:0f0adf891855675f19de80444088b73ebf61ad0c602bf0a5fdfdfa5e20db08dd"
     }
   ],
   "consumedIntentIds": [
