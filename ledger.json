@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "2b945569ec359b403d01cdf2ff8790237fa32988",
-  "highWaterVersion": "1.556.0",
+  "highWaterVersion": "1.556.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -92847,6 +92847,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:2b945569ec359b403d01cdf2ff8790237fa32988",
+      "kind": "main",
+      "sequence": 2368,
+      "sourceSha": "2b945569ec359b403d01cdf2ff8790237fa32988",
+      "sourcePackageVersion": "1.554.3",
+      "version": "1.556.1",
+      "batch": {
+        "intentIds": [
+          "gemini-on-other-machine-kickoff:3cc218cd7d76b969c73e43eecfe0102e2821eace0e632e771987fa4cc9d46f5a",
+          "orchestrator-asks-for-resets:a7ac28b64b3f4907215715162113bee93bcec7f5335c04a7be7ff914ae406059"
+        ],
+        "notesIntentIds": [
+          "gemini-on-other-machine-kickoff:3cc218cd7d76b969c73e43eecfe0102e2821eace0e632e771987fa4cc9d46f5a",
+          "orchestrator-asks-for-resets:a7ac28b64b3f4907215715162113bee93bcec7f5335c04a7be7ff914ae406059"
+        ],
+        "throughSourceSha": "2b945569ec359b403d01cdf2ff8790237fa32988",
+        "previousThroughSourceSha": "4c2016902d786efecd6aa56a7066cfe8f7410743",
+        "baselineVersion": "1.556.0",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-14T07:59:02.750Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43573564749",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-15T07:58:55.199Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -181892,7 +181937,9 @@
     "continue-here-local-chat:bee48bc64820c6c13bb001cd4f220ce096dfce54efa69e89c023519c534cd237",
     "list-orchestrators-search:672db7afaf159b62ad9e4a5399ebc0fcfa8a771e2ca89107b33c0b243b95f23d",
     "ci-runners-v2-overview:a51c080981b7e7e012164dab41ac6fad536447ecfeeb9a757b0f9cbe718d7e1f",
-    "sidebar-step-resume:54f014ebce545b3b5f47804315599e3811002f9a335ae20380832f3dbd650c37"
+    "sidebar-step-resume:54f014ebce545b3b5f47804315599e3811002f9a335ae20380832f3dbd650c37",
+    "gemini-on-other-machine-kickoff:3cc218cd7d76b969c73e43eecfe0102e2821eace0e632e771987fa4cc9d46f5a",
+    "orchestrator-asks-for-resets:a7ac28b64b3f4907215715162113bee93bcec7f5335c04a7be7ff914ae406059"
   ],
-  "consumedThroughSha": "4c2016902d786efecd6aa56a7066cfe8f7410743"
+  "consumedThroughSha": "2b945569ec359b403d01cdf2ff8790237fa32988"
 }
