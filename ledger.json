@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "da2af127bf0412589b41c1dbd81819d5d3dc6d2d",
-  "highWaterVersion": "1.554.2",
+  "highWaterVersion": "1.554.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -92592,6 +92592,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:da2af127bf0412589b41c1dbd81819d5d3dc6d2d",
+      "kind": "main",
+      "sequence": 2363,
+      "sourceSha": "da2af127bf0412589b41c1dbd81819d5d3dc6d2d",
+      "sourcePackageVersion": "1.554.2",
+      "version": "1.554.3",
+      "batch": {
+        "intentIds": [
+          "search-tab-listings:fe1faf147115c71b97ffe08443aa7a9439acc8b8926351467bd0a1becd866c33"
+        ],
+        "notesIntentIds": [
+          "search-tab-listings:fe1faf147115c71b97ffe08443aa7a9439acc8b8926351467bd0a1becd866c33"
+        ],
+        "throughSourceSha": "da2af127bf0412589b41c1dbd81819d5d3dc6d2d",
+        "previousThroughSourceSha": "c5b2b1b885b0ed393693ac7d9f72941f14af06b0",
+        "baselineVersion": "1.554.2",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-14T05:44:34.157Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43562942184",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-15T05:44:27.921Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -181465,7 +181508,8 @@
     "rail-hidden-links:65636329dd385ff7ee48f629c6433e52ad07f1473c386577af66d62d3d273223",
     "mistral-vibe-workers:0482a809de4dd983c5233600a08b8c6b0db59c386118b9d1968938fd6581de9a",
     "tidy-checker-budget:32827cca12a13c76ea7b00240521f458bde742fce2c25cf347a60966e79ce758",
-    "orchestrator-never-spends-resets:46b36f24a3caa8afc62ce0d3a03ab4c8eefef82b2c569e30992b1e5ee3655e59"
+    "orchestrator-never-spends-resets:46b36f24a3caa8afc62ce0d3a03ab4c8eefef82b2c569e30992b1e5ee3655e59",
+    "search-tab-listings:fe1faf147115c71b97ffe08443aa7a9439acc8b8926351467bd0a1becd866c33"
   ],
-  "consumedThroughSha": "c5b2b1b885b0ed393693ac7d9f72941f14af06b0"
+  "consumedThroughSha": "da2af127bf0412589b41c1dbd81819d5d3dc6d2d"
 }
