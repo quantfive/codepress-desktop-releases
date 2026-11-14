@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "d916d2f2ab21936230f950dcd26aa51395c81366",
-  "highWaterVersion": "1.554.4",
+  "highWaterVersion": "1.554.5",
   "rows": [
     {
       "schemaVersion": 1,
@@ -92696,6 +92696,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:d916d2f2ab21936230f950dcd26aa51395c81366",
+      "kind": "main",
+      "sequence": 2365,
+      "sourceSha": "d916d2f2ab21936230f950dcd26aa51395c81366",
+      "sourcePackageVersion": "1.554.3",
+      "version": "1.554.5",
+      "batch": {
+        "intentIds": [
+          "continue-here-local-chat:bee48bc64820c6c13bb001cd4f220ce096dfce54efa69e89c023519c534cd237"
+        ],
+        "notesIntentIds": [
+          "continue-here-local-chat:bee48bc64820c6c13bb001cd4f220ce096dfce54efa69e89c023519c534cd237"
+        ],
+        "throughSourceSha": "d916d2f2ab21936230f950dcd26aa51395c81366",
+        "previousThroughSourceSha": "879c47b13a4971363f460195203dafb94cfa2aeb",
+        "baselineVersion": "1.554.4",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-14T06:38:10.593Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43567258152",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-15T06:38:03.626Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -181642,7 +181685,8 @@
     "orchestrator-never-spends-resets:46b36f24a3caa8afc62ce0d3a03ab4c8eefef82b2c569e30992b1e5ee3655e59",
     "search-tab-listings:fe1faf147115c71b97ffe08443aa7a9439acc8b8926351467bd0a1becd866c33",
     "remote-tool-machine-search:182b2e9c2667003c191c6029c6c5a6abcb9403b3218848ab5cf4188767ccb1a7",
-    "app-rail-pinned-links:0f0adf891855675f19de80444088b73ebf61ad0c602bf0a5fdfdfa5e20db08dd"
+    "app-rail-pinned-links:0f0adf891855675f19de80444088b73ebf61ad0c602bf0a5fdfdfa5e20db08dd",
+    "continue-here-local-chat:bee48bc64820c6c13bb001cd4f220ce096dfce54efa69e89c023519c534cd237"
   ],
-  "consumedThroughSha": "879c47b13a4971363f460195203dafb94cfa2aeb"
+  "consumedThroughSha": "d916d2f2ab21936230f950dcd26aa51395c81366"
 }
