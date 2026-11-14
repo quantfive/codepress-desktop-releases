@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1d7d2a3d843c0d7e3521b1d57dc9893c4fd39044",
+  "cursorSha": "3c24a90e7e8aaa2345d3fdb3de334d6ea9cbc0d0",
   "highWaterVersion": "1.560.2",
   "rows": [
     {
@@ -171780,6 +171780,13 @@
       "sourceSha": "1d7d2a3d843c0d7e3521b1d57dc9893c4fd39044",
       "sourcePackageVersion": "1.560.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3c24a90e7e8aaa2345d3fdb3de334d6ea9cbc0d0",
+      "sourcePackageVersion": "1.560.2",
+      "intentIds": [
+        "vibe-qwen-personal-team-keys:0b53116fefc4eeb4ee959572272e8f782b09e50f0a44ea3bc6a6a67f388ca728"
+      ]
     }
   ],
   "intents": [
@@ -182422,6 +182429,14 @@
       "summary": "Qwen runs web chats, automations and cloud Orchestrators on a Personal or Team Alibaba Model Studio key, which stays in CodePress's AI proxy. Terminal's provider contract lists Qwen's Personal and Team scopes; this machine's Qwen tab and workers are unchanged.",
       "sourceSha": "533c624598f090b26cacf5430464886cf9e2c586",
       "identity": "cloud-qwen-keys:b09a2584bcd6e84c6be34d86fba3eedd9b72f09366cdcd8ce1a794321470fbf1"
+    },
+    {
+      "id": "vibe-qwen-personal-team-keys",
+      "digest": "0b53116fefc4eeb4ee959572272e8f782b09e50f0a44ea3bc6a6a67f388ca728",
+      "type": "minor",
+      "summary": "Mistral Vibe and Qwen workers and Orchestrators can run on a Personal or Team key from your CodePress account. Agent accounts → Mistral Vibe and → Qwen list Personal and Team keys under This machine's own login and let you choose which one this machine's workers use. The key goes through CodePress, so it never reaches this machine; This machine's login stays the default.",
+      "sourceSha": "3c24a90e7e8aaa2345d3fdb3de334d6ea9cbc0d0",
+      "identity": "vibe-qwen-personal-team-keys:0b53116fefc4eeb4ee959572272e8f782b09e50f0a44ea3bc6a6a67f388ca728"
     }
   ],
   "consumedIntentIds": [
