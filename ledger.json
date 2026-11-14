@@ -92577,10 +92577,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43561739135",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-15T05:29:23.487Z",
         "dispatch": null,
         "failures": []
       }
