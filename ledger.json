@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "e87d7527e3c7f8b972a8758dba75e6a3c3c4f626",
-  "highWaterVersion": "1.559.1",
+  "highWaterVersion": "1.559.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -93292,6 +93292,50 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:e87d7527e3c7f8b972a8758dba75e6a3c3c4f626",
+      "kind": "main",
+      "sequence": 2375,
+      "sourceSha": "e87d7527e3c7f8b972a8758dba75e6a3c3c4f626",
+      "sourcePackageVersion": "1.559.0",
+      "version": "1.559.2",
+      "batch": {
+        "intentIds": [
+          "fair-native-output-budget:5cc74b6469f1f446fee6c2207578b9f50224394ddfe7670cdf435703797b794e"
+        ],
+        "notesIntentIds": [
+          "revert-plan-canvas-phone-snapshots:bf6f9e57e5c6c92c332e13edb75820eb15446abf442b3c2504bccc0e36a7479e",
+          "fair-native-output-budget:5cc74b6469f1f446fee6c2207578b9f50224394ddfe7670cdf435703797b794e"
+        ],
+        "throughSourceSha": "e87d7527e3c7f8b972a8758dba75e6a3c3c4f626",
+        "previousThroughSourceSha": "2bf0b850de8938601a6afb09f32cbcdf23c96928",
+        "baselineVersion": "1.559.1",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-14T19:53:21.183Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43634470474",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-15T19:53:14.397Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -183230,7 +183274,8 @@
     "ci-runners-ask-why:a557adf1da40c63b173a27ea13eb82526db1fa758a4fc3474da5586f0d65dfa5",
     "kiro-personal-key-cloud:f630470c3d3bb86a3cc559bd938fd19ffa69a6bca9eb6547017000ef08f19982",
     "cursor-cloud-keys:a0fc2f5dd12dcad54012ee65d3fcf9989c33ab2691193d793c8b3a907e5fa88e",
-    "revert-plan-canvas-phone-snapshots:bf6f9e57e5c6c92c332e13edb75820eb15446abf442b3c2504bccc0e36a7479e"
+    "revert-plan-canvas-phone-snapshots:bf6f9e57e5c6c92c332e13edb75820eb15446abf442b3c2504bccc0e36a7479e",
+    "fair-native-output-budget:5cc74b6469f1f446fee6c2207578b9f50224394ddfe7670cdf435703797b794e"
   ],
-  "consumedThroughSha": "2bf0b850de8938601a6afb09f32cbcdf23c96928"
+  "consumedThroughSha": "e87d7527e3c7f8b972a8758dba75e6a3c3c4f626"
 }
