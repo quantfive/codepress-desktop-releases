@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "687fac683fe238375a70476e3479c699ab3cb9f5",
+  "cursorSha": "4237474fc6a6d0193df15f65d9e1574d6796effe",
   "highWaterVersion": "1.554.1",
   "rows": [
     {
@@ -169881,6 +169881,13 @@
       "sourceSha": "687fac683fe238375a70476e3479c699ab3cb9f5",
       "sourcePackageVersion": "1.554.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4237474fc6a6d0193df15f65d9e1574d6796effe",
+      "sourcePackageVersion": "1.554.0",
+      "intentIds": [
+        "orchestrator-never-spends-resets:46b36f24a3caa8afc62ce0d3a03ab4c8eefef82b2c569e30992b1e5ee3655e59"
+      ]
     }
   ],
   "intents": [
@@ -180091,6 +180098,14 @@
       "summary": "Bound repository Stop checks across admission, validation and owned cleanup, with explicit incomplete results when the shared deadline expires.",
       "sourceSha": "9e491d81ba219ef4c6e1afb9f445ed130bdb9973",
       "identity": "tidy-checker-budget:32827cca12a13c76ea7b00240521f458bde742fce2c25cf347a60966e79ce758"
+    },
+    {
+      "id": "orchestrator-never-spends-resets",
+      "digest": "46b36f24a3caa8afc62ce0d3a03ab4c8eefef82b2c569e30992b1e5ee3655e59",
+      "type": "patch",
+      "summary": "Orchestrators and their workers can no longer spend your Claude reset grants or Codex reset credits. Terminal's reset tool now refuses any caller that is not your own agent tab, including calls from another machine, and tells an Orchestrator to ask you instead, naming the account and the reset. You can still spend a reset yourself in Settings → Accounts or from your own agent tab.",
+      "sourceSha": "4237474fc6a6d0193df15f65d9e1574d6796effe",
+      "identity": "orchestrator-never-spends-resets:46b36f24a3caa8afc62ce0d3a03ab4c8eefef82b2c569e30992b1e5ee3655e59"
     }
   ],
   "consumedIntentIds": [
