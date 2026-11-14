@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d916d2f2ab21936230f950dcd26aa51395c81366",
+  "cursorSha": "ac518e0812b012acdf5f984178f4d55868849dab",
   "highWaterVersion": "1.554.5",
   "rows": [
     {
@@ -170165,6 +170165,13 @@
       "sourceSha": "d916d2f2ab21936230f950dcd26aa51395c81366",
       "sourcePackageVersion": "1.554.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ac518e0812b012acdf5f984178f4d55868849dab",
+      "sourcePackageVersion": "1.554.3",
+      "intentIds": [
+        "list-orchestrators-search:672db7afaf159b62ad9e4a5399ebc0fcfa8a771e2ca89107b33c0b243b95f23d"
+      ]
     }
   ],
   "intents": [
@@ -180415,6 +180422,14 @@
       "summary": "Handing a Local Chat to another machine no longer fails with \"This tab's saved copy could not be read\": the receiving machine now takes the chat over the way it takes a project over.",
       "sourceSha": "df85a41dc47de5cecb70393cadea308e458f4c2d",
       "identity": "continue-here-local-chat:bee48bc64820c6c13bb001cd4f220ce096dfce54efa69e89c023519c534cd237"
+    },
+    {
+      "id": "list-orchestrators-search",
+      "digest": "672db7afaf159b62ad9e4a5399ebc0fcfa8a771e2ca89107b33c0b243b95f23d",
+      "type": "minor",
+      "summary": "Agents can find an Orchestrator project on any of your machines in one call: `list_orchestrators` now lists newest first, searches names, descriptions and goals with `query`, filters by `state`, and shows each project's description and last activity. Against a machine on an older Terminal, or the cloud, this machine pages its list and filters it, and the answer says which machine did the search.",
+      "sourceSha": "ac518e0812b012acdf5f984178f4d55868849dab",
+      "identity": "list-orchestrators-search:672db7afaf159b62ad9e4a5399ebc0fcfa8a771e2ca89107b33c0b243b95f23d"
     }
   ],
   "consumedIntentIds": [
