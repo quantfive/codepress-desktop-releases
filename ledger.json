@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4c2016902d786efecd6aa56a7066cfe8f7410743",
+  "cursorSha": "39311d71a044876adbfd5a94780af9e680a0bcf4",
   "highWaterVersion": "1.556.0",
   "rows": [
     {
@@ -170302,6 +170302,13 @@
       "sourceSha": "4c2016902d786efecd6aa56a7066cfe8f7410743",
       "sourcePackageVersion": "1.554.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "39311d71a044876adbfd5a94780af9e680a0bcf4",
+      "sourcePackageVersion": "1.554.3",
+      "intentIds": [
+        "gemini-on-other-machine-kickoff:3cc218cd7d76b969c73e43eecfe0102e2821eace0e632e771987fa4cc9d46f5a"
+      ]
     }
   ],
   "intents": [
@@ -180576,6 +180583,14 @@
       "summary": "Settings → Navigation shows the sidebar editor: turn sections on or off, reorder them, pin apps you made and manage your links. A workspace draft saved on web onboarding's new Sidebar step resumes on the app's own last step instead of Connect.",
       "sourceSha": "5d2d68d21d2ecdfde75be54bb365d04075a8246e",
       "identity": "sidebar-step-resume:54f014ebce545b3b5f47804315599e3811002f9a335ae20380832f3dbd650c37"
+    },
+    {
+      "id": "gemini-on-other-machine-kickoff",
+      "digest": "3cc218cd7d76b969c73e43eecfe0102e2821eace0e632e771987fa4cc9d46f5a",
+      "type": "patch",
+      "summary": "When a new project runs on another of your machines, the Orchestrator and Workers model menus offer Gemini as that machine's own Antigravity CLI sees it: the models its sign-in serves, the rest greyed, and any sign-in or setup step worded for that machine. A machine on an older version of the app shows no Gemini until it updates.",
+      "sourceSha": "39311d71a044876adbfd5a94780af9e680a0bcf4",
+      "identity": "gemini-on-other-machine-kickoff:3cc218cd7d76b969c73e43eecfe0102e2821eace0e632e771987fa4cc9d46f5a"
     }
   ],
   "consumedIntentIds": [
