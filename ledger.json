@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f79e8e2821c3cbe283697ef207724c49d4c34486",
+  "cursorSha": "a14147fe70306e70d81dbc61124abe882213a23b",
   "highWaterVersion": "1.554.3",
   "rows": [
     {
@@ -170012,6 +170012,13 @@
       "sourceSha": "f79e8e2821c3cbe283697ef207724c49d4c34486",
       "sourcePackageVersion": "1.554.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a14147fe70306e70d81dbc61124abe882213a23b",
+      "sourcePackageVersion": "1.554.2",
+      "intentIds": [
+        "remote-tool-machine-search:182b2e9c2667003c191c6029c6c5a6abcb9403b3218848ab5cf4188767ccb1a7"
+      ]
     }
   ],
   "intents": [
@@ -180238,6 +180245,14 @@
       "summary": "Agents can search and page tabs, sessions and workflows on this machine or another one. `list_tabs`, `list_sessions` and `list_workflows` take `query` (name, folder, branch, agent, title or last command), `limit` and `cursor`, and `list_tabs` takes `agent_only`, so an agent finds one tab among many instead of reading a list cut short at the relay's size limit. A machine on an older Terminal is filtered on the asking machine, and every answer says which machine applied the search. Without the new arguments the listings are unchanged; `list_tabs` adds the tab count.",
       "sourceSha": "da2af127bf0412589b41c1dbd81819d5d3dc6d2d",
       "identity": "search-tab-listings:fe1faf147115c71b97ffe08443aa7a9439acc8b8926351467bd0a1becd866c33"
+    },
+    {
+      "id": "remote-tool-machine-search",
+      "digest": "182b2e9c2667003c191c6029c6c5a6abcb9403b3218848ab5cf4188767ccb1a7",
+      "type": "patch",
+      "summary": "Agents can search another machine's tools and their machines: `list_remote_tools` takes `query` (matching tools with full schemas, read across the whole catalog in one call) and `detail: \"names\"` (every tool name in one reply), and `list_machines` takes `query` and `online_only`, applied before `limit`.",
+      "sourceSha": "a14147fe70306e70d81dbc61124abe882213a23b",
+      "identity": "remote-tool-machine-search:182b2e9c2667003c191c6029c6c5a6abcb9403b3218848ab5cf4188767ccb1a7"
     }
   ],
   "consumedIntentIds": [
