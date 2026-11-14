@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6c695d853f7e24e9f1d38d478f3fce4edc8836b1",
+  "cursorSha": "bb01d53f43582a82e923c676aa76ccb8880d6a8e",
   "highWaterVersion": "1.557.0",
   "rows": [
     {
@@ -170541,6 +170541,18 @@
       "intentIds": [
         "document-tabs-file-viewer-workflows:95bc659e602081668602c5ece648ba84c3c61d103fc31537bf9611c1a844452f"
       ]
+    },
+    {
+      "sourceSha": "0c604c1b86d68b9f16b2f6a990d5cb94ad9b4b00",
+      "sourcePackageVersion": "1.556.0",
+      "intentIds": [
+        "segmented-tabs-main-column:62fcec3e5ae69c992039f6c9f76132c97f96633fcc970caa065435313b611e1a"
+      ]
+    },
+    {
+      "sourceSha": "bb01d53f43582a82e923c676aa76ccb8880d6a8e",
+      "sourcePackageVersion": "1.556.0",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -180863,6 +180875,14 @@
       "summary": "The file viewer's tabs and the workflow bar are drawn by the shared document tab component and look as before. The arrow keys, Home and End now move between their tabs, Tab reaches only the selected tab and its close button, the file viewer keeps the open file's tab in view, and on a touch screen a file tab's close button always shows and is easier to tap.",
       "sourceSha": "6c695d853f7e24e9f1d38d478f3fce4edc8836b1",
       "identity": "document-tabs-file-viewer-workflows:95bc659e602081668602c5ece648ba84c3c61d103fc31537bf9611c1a844452f"
+    },
+    {
+      "id": "segmented-tabs-main-column",
+      "digest": "62fcec3e5ae69c992039f6c9f76132c97f96633fcc970caa065435313b611e1a",
+      "type": "patch",
+      "summary": "The Orchestrator's main column switch (Thread, Plans, Files, Terminal…) now moves with the arrow keys, Home and End, and Tab leaves it in one step. It looks the same as before; it is now built on the shared segmented tabs component.",
+      "sourceSha": "0c604c1b86d68b9f16b2f6a990d5cb94ad9b4b00",
+      "identity": "segmented-tabs-main-column:62fcec3e5ae69c992039f6c9f76132c97f96633fcc970caa065435313b611e1a"
     }
   ],
   "consumedIntentIds": [
