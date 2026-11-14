@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3c801dd749df6dcd267c99fa791d74c896da6c24",
+  "cursorSha": "210a80586ba6208bd78460716219a844dfd50c1e",
   "highWaterVersion": "1.557.1",
   "rows": [
     {
@@ -170646,6 +170646,18 @@
       "intentIds": [
         "orchestrator-native-cli-groundwork:cf920d6f4705fc577f2c10661eef8fc9266153db4262d90f259ce2f252aab4c6"
       ]
+    },
+    {
+      "sourceSha": "52d1308398d48fad6e414ca89cb6d0103e4ce148",
+      "sourcePackageVersion": "1.557.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "210a80586ba6208bd78460716219a844dfd50c1e",
+      "sourcePackageVersion": "1.557.0",
+      "intentIds": [
+        "underline-tabs:38182042c83026f50d367f58a6f5aac6233655effa323850d51d2bb4e34749df"
+      ]
     }
   ],
   "intents": [
@@ -180992,6 +181004,14 @@
       "summary": "Groundwork for running the Orchestrator on GitHub Copilot, Cursor, Kiro, Mistral Vibe, Qwen Code, GLM and MiniMax. Nothing changes yet: each of them is still refused for the Orchestrator until its own update. An Orchestrator no longer inherits the tab or worker-launch identity of the window Terminal was started from.",
       "sourceSha": "3c801dd749df6dcd267c99fa791d74c896da6c24",
       "identity": "orchestrator-native-cli-groundwork:cf920d6f4705fc577f2c10661eef8fc9266153db4262d90f259ce2f252aab4c6"
+    },
+    {
+      "id": "underline-tabs",
+      "digest": "38182042c83026f50d367f58a6f5aac6233655effa323850d51d2bb4e34749df",
+      "type": "patch",
+      "summary": "The plan's tabs, the provider tabs in Accounts, the quick terminal's tabs, the eval suite's tabs and an agent's settings tabs now share one underline tab strip. The arrow keys, Home and End move between tabs everywhere, and a strip with more tabs than fit scrolls sideways and keeps the selected tab in view.",
+      "sourceSha": "210a80586ba6208bd78460716219a844dfd50c1e",
+      "identity": "underline-tabs:38182042c83026f50d367f58a6f5aac6233655effa323850d51d2bb4e34749df"
     }
   ],
   "consumedIntentIds": [
