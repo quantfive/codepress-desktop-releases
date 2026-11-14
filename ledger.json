@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "34df1acc1b8f4aa232c6c31b5e1ccd680357468c",
+  "cursorSha": "7d502c0c03163c4cea21cef4a7588ad3887c5d21",
   "highWaterVersion": "1.556.1",
   "rows": [
     {
@@ -170370,6 +170370,48 @@
       "sourceSha": "34df1acc1b8f4aa232c6c31b5e1ccd680357468c",
       "sourcePackageVersion": "1.556.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "092122edb5c08daffe044364d07d29c92857b178",
+      "sourcePackageVersion": "1.556.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "7f6001927a6ca2ed1e36e4a391037f730ee16942",
+      "sourcePackageVersion": "1.556.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "5267330d38d675695860ad612deef981c73e95b1",
+      "sourcePackageVersion": "1.556.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "c04b18c049a22e2c9ed6c1c48ba3d2ce42b398bd",
+      "sourcePackageVersion": "1.556.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "91e13e764308c0192620be23086ed0dec4c7d028",
+      "sourcePackageVersion": "1.556.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "2cb17f407f90afc429cda4fd988ca37dae246d10",
+      "sourcePackageVersion": "1.556.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "413cdd220f2eefdaab3d80cf336997242086607e",
+      "sourcePackageVersion": "1.556.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "7d502c0c03163c4cea21cef4a7588ad3887c5d21",
+      "sourcePackageVersion": "1.556.0",
+      "intentIds": [
+        "seven-providers-cloud-groundwork:f15e61ee9a32ba97663686c108dce7780f787ed7bdf85bb43ce7d16f6e213204"
+      ]
     }
   ],
   "intents": [
@@ -180660,6 +180702,14 @@
       "summary": "When a usage limit blocks the work, an Orchestrator can now ask you to spend one of your Claude reset grants or Codex reset credits. The ask names the account and the reset, says what it clears, how many are left and when it expires, and shows the account's usage. Use 1 reset spends exactly one, even if you press it twice or answer from another machine, and the thread says what happened. Wait for the reset spends nothing.",
       "sourceSha": "2b945569ec359b403d01cdf2ff8790237fa32988",
       "identity": "orchestrator-asks-for-resets:a7ac28b64b3f4907215715162113bee93bcec7f5335c04a7be7ff914ae406059"
+    },
+    {
+      "id": "seven-providers-cloud-groundwork",
+      "digest": "f15e61ee9a32ba97663686c108dce7780f787ed7bdf85bb43ce7d16f6e213204",
+      "type": "patch",
+      "summary": "The provider contract can now say a Personal or Team credential is added with an API key. Nothing changes in the app yet: GLM, MiniMax, GitHub Copilot, Cursor, Kiro, Mistral Vibe and Qwen stay on this machine until each provider's own release.",
+      "sourceSha": "7d502c0c03163c4cea21cef4a7588ad3887c5d21",
+      "identity": "seven-providers-cloud-groundwork:f15e61ee9a32ba97663686c108dce7780f787ed7bdf85bb43ce7d16f6e213204"
     }
   ],
   "consumedIntentIds": [
