@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "df9223490fceba08b59960c53ab2af1c781768b2",
+  "cursorSha": "6885a85e544f5d7198e2766dcc0daffbc9206fcf",
   "highWaterVersion": "1.560.0",
   "rows": [
     {
@@ -171587,6 +171587,13 @@
       "sourceSha": "df9223490fceba08b59960c53ab2af1c781768b2",
       "sourcePackageVersion": "1.559.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "6885a85e544f5d7198e2766dcc0daffbc9206fcf",
+      "sourcePackageVersion": "1.559.4",
+      "intentIds": [
+        "feed-spawned-by-project-id:787acb7c396bcc3b3a8e295716fe43ac607fc0db522442edbe597dd1a3c3c5c1"
+      ]
     }
   ],
   "intents": [
@@ -182205,6 +182212,14 @@
       "summary": "The CodePress connection keeps working when a token refresh is rate limited or fails: Terminal keeps using the token it has until shortly before it expires, waits as long as the backend's Retry-After says before asking again, and spreads each connection's refresh time so windows do not all refresh at once.",
       "sourceSha": "9c7e1d6784bf832a7cc10c3fc5d7b4a5ccde1c6a",
       "identity": "terminal-token-reuse-through-refused-mint:2ee38eb5ffa2a2c25ae3fd6100da7986d81ce05d38e979cce2107b288ee5d997"
+    },
+    {
+      "id": "feed-spawned-by-project-id",
+      "digest": "787acb7c396bcc3b3a8e295716fe43ac607fc0db522442edbe597dd1a3c3c5c1",
+      "type": "patch",
+      "summary": "Feed rows for projects now say which project started them, and synced project copies tell the cloud their parent, so the rail can later show child projects under their parent.",
+      "sourceSha": "6885a85e544f5d7198e2766dcc0daffbc9206fcf",
+      "identity": "feed-spawned-by-project-id:787acb7c396bcc3b3a8e295716fe43ac607fc0db522442edbe597dd1a3c3c5c1"
     }
   ],
   "consumedIntentIds": [
