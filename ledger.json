@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "32c85c3976fd89c9a472b8162900900cfa6029e4",
+  "cursorSha": "c269a025a11713d4097d5778eca5ac8714470225",
   "highWaterVersion": "1.549.4",
   "rows": [
     {
@@ -169200,6 +169200,13 @@
       "sourceSha": "32c85c3976fd89c9a472b8162900900cfa6029e4",
       "sourcePackageVersion": "1.549.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c269a025a11713d4097d5778eca5ac8714470225",
+      "sourcePackageVersion": "1.549.4",
+      "intentIds": [
+        "cursor-workers:ae5262b8a2b3f75fe7e0de6a2454f1233300dd5b7652b42176cfa7843965a7ef"
+      ]
     }
   ],
   "intents": [
@@ -179322,6 +179329,14 @@
       "summary": "Claude agents started by Terminal (Orchestrators, workers and your own tabs) now wait up to one minute for the CodePress tool list instead of 30 seconds, so a slow first load no longer starts them with no CodePress tools. The wait applies to every MCP server Claude starts, so a server that hangs can now hold Claude's start for up to a minute. If you set a longer `MCP_TIMEOUT` yourself, it is kept. Set `CODEPRESS_CLAUDE_MCP_TIMEOUT_MS` to change the wait, or to `0` to turn it off.",
       "sourceSha": "287ef2979029b36c9ebe5d90e737bfba2d149854",
       "identity": "claude-mcp-cold-walk-timeout:62b5a74ff372e231c5a9b6129fb5ba225ff979403165adcba44971787883d51c"
+    },
+    {
+      "id": "cursor-workers",
+      "digest": "ae5262b8a2b3f75fe7e0de6a2454f1233300dd5b7652b42176cfa7843965a7ef",
+      "type": "minor",
+      "summary": "Run Orchestrator workers on Cursor. A worker on a Cursor model (Auto, Composer 2.5, GPT-5.5 or Claude Opus 4.8) runs your own Cursor CLI (`agent`) in its worktree, on your Cursor login, and its Orchestrator hears its reply when each turn ends. A missing, outdated, signed-out or no-agent-access `agent` is refused with the fix, and no other agent starts in its place. Settings → Agent accounts has a Cursor tab: your signed-in account, Sign in (a tab running `agent login`), or the install command to copy. An `agent` or `cursor-agent` tab you open yourself shows as Cursor Agent, and the Cursor editor's own `cursor` command no longer does.",
+      "sourceSha": "c269a025a11713d4097d5778eca5ac8714470225",
+      "identity": "cursor-workers:ae5262b8a2b3f75fe7e0de6a2454f1233300dd5b7652b42176cfa7843965a7ef"
     }
   ],
   "consumedIntentIds": [
