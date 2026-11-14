@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d92f40f7fb521b5390db861e2cbb03634e4c636e",
+  "cursorSha": "da2af127bf0412589b41c1dbd81819d5d3dc6d2d",
   "highWaterVersion": "1.554.2",
   "rows": [
     {
@@ -169953,6 +169953,13 @@
       "sourceSha": "d92f40f7fb521b5390db861e2cbb03634e4c636e",
       "sourcePackageVersion": "1.554.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "da2af127bf0412589b41c1dbd81819d5d3dc6d2d",
+      "sourcePackageVersion": "1.554.2",
+      "intentIds": [
+        "search-tab-listings:fe1faf147115c71b97ffe08443aa7a9439acc8b8926351467bd0a1becd866c33"
+      ]
     }
   ],
   "intents": [
@@ -180171,6 +180178,14 @@
       "summary": "Orchestrators and their workers can no longer spend your Claude reset grants or Codex reset credits. Terminal's reset tool now refuses any caller that is not your own agent tab, including calls from another machine, and tells an Orchestrator to ask you instead, naming the account and the reset. You can still spend a reset yourself in Settings → Accounts or from your own agent tab.",
       "sourceSha": "4237474fc6a6d0193df15f65d9e1574d6796effe",
       "identity": "orchestrator-never-spends-resets:46b36f24a3caa8afc62ce0d3a03ab4c8eefef82b2c569e30992b1e5ee3655e59"
+    },
+    {
+      "id": "search-tab-listings",
+      "digest": "fe1faf147115c71b97ffe08443aa7a9439acc8b8926351467bd0a1becd866c33",
+      "type": "patch",
+      "summary": "Agents can search and page tabs, sessions and workflows on this machine or another one. `list_tabs`, `list_sessions` and `list_workflows` take `query` (name, folder, branch, agent, title or last command), `limit` and `cursor`, and `list_tabs` takes `agent_only`, so an agent finds one tab among many instead of reading a list cut short at the relay's size limit. A machine on an older Terminal is filtered on the asking machine, and every answer says which machine applied the search. Without the new arguments the listings are unchanged; `list_tabs` adds the tab count.",
+      "sourceSha": "da2af127bf0412589b41c1dbd81819d5d3dc6d2d",
+      "identity": "search-tab-listings:fe1faf147115c71b97ffe08443aa7a9439acc8b8926351467bd0a1becd866c33"
     }
   ],
   "consumedIntentIds": [
