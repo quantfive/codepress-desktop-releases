@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "879c47b13a4971363f460195203dafb94cfa2aeb",
-  "highWaterVersion": "1.554.3",
+  "highWaterVersion": "1.554.4",
   "rows": [
     {
       "schemaVersion": 1,
@@ -92639,6 +92639,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:879c47b13a4971363f460195203dafb94cfa2aeb",
+      "kind": "main",
+      "sequence": 2364,
+      "sourceSha": "879c47b13a4971363f460195203dafb94cfa2aeb",
+      "sourcePackageVersion": "1.554.3",
+      "version": "1.554.4",
+      "batch": {
+        "intentIds": [
+          "remote-tool-machine-search:182b2e9c2667003c191c6029c6c5a6abcb9403b3218848ab5cf4188767ccb1a7",
+          "app-rail-pinned-links:0f0adf891855675f19de80444088b73ebf61ad0c602bf0a5fdfdfa5e20db08dd"
+        ],
+        "notesIntentIds": [
+          "remote-tool-machine-search:182b2e9c2667003c191c6029c6c5a6abcb9403b3218848ab5cf4188767ccb1a7",
+          "app-rail-pinned-links:0f0adf891855675f19de80444088b73ebf61ad0c602bf0a5fdfdfa5e20db08dd"
+        ],
+        "throughSourceSha": "879c47b13a4971363f460195203dafb94cfa2aeb",
+        "previousThroughSourceSha": "da2af127bf0412589b41c1dbd81819d5d3dc6d2d",
+        "baselineVersion": "1.554.3",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-14T06:11:02.840Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43565030403",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-15T06:10:56.149Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -181553,7 +181598,9 @@
     "mistral-vibe-workers:0482a809de4dd983c5233600a08b8c6b0db59c386118b9d1968938fd6581de9a",
     "tidy-checker-budget:32827cca12a13c76ea7b00240521f458bde742fce2c25cf347a60966e79ce758",
     "orchestrator-never-spends-resets:46b36f24a3caa8afc62ce0d3a03ab4c8eefef82b2c569e30992b1e5ee3655e59",
-    "search-tab-listings:fe1faf147115c71b97ffe08443aa7a9439acc8b8926351467bd0a1becd866c33"
+    "search-tab-listings:fe1faf147115c71b97ffe08443aa7a9439acc8b8926351467bd0a1becd866c33",
+    "remote-tool-machine-search:182b2e9c2667003c191c6029c6c5a6abcb9403b3218848ab5cf4188767ccb1a7",
+    "app-rail-pinned-links:0f0adf891855675f19de80444088b73ebf61ad0c602bf0a5fdfdfa5e20db08dd"
   ],
-  "consumedThroughSha": "da2af127bf0412589b41c1dbd81819d5d3dc6d2d"
+  "consumedThroughSha": "879c47b13a4971363f460195203dafb94cfa2aeb"
 }
