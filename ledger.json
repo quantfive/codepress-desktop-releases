@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "c269a025a11713d4097d5778eca5ac8714470225",
-  "highWaterVersion": "1.549.4",
+  "highWaterVersion": "1.550.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -92078,6 +92078,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:c269a025a11713d4097d5778eca5ac8714470225",
+      "kind": "main",
+      "sequence": 2353,
+      "sourceSha": "c269a025a11713d4097d5778eca5ac8714470225",
+      "sourcePackageVersion": "1.549.4",
+      "version": "1.550.0",
+      "batch": {
+        "intentIds": [
+          "cursor-workers:ae5262b8a2b3f75fe7e0de6a2454f1233300dd5b7652b42176cfa7843965a7ef"
+        ],
+        "notesIntentIds": [
+          "cursor-workers:ae5262b8a2b3f75fe7e0de6a2454f1233300dd5b7652b42176cfa7843965a7ef"
+        ],
+        "throughSourceSha": "c269a025a11713d4097d5778eca5ac8714470225",
+        "previousThroughSourceSha": "57d4014943292d1a07fe9b5798fffc3aae26df5e",
+        "baselineVersion": "1.549.4",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-14T01:02:20.240Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43537980590",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-15T01:02:13.661Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -180604,7 +180647,8 @@
     "terminal-recover-lost-automation-jobs:98e8cf71d9568e9332704f53613b3064f7cdddde8e7a9934bbc30e9fd1cfd715",
     "public-whatsapp-agent-settings:09f2bcc3e7d27f2e2962bf8bec0f3c83ec658c370f4fb855c515d6e9c39bc7dd",
     "sandbox-route-listener-log-first:af2ea0f0c65796c6b11c773551b14d6f2ef46525a5574b553a31e51299c36295",
-    "claude-mcp-cold-walk-timeout:62b5a74ff372e231c5a9b6129fb5ba225ff979403165adcba44971787883d51c"
+    "claude-mcp-cold-walk-timeout:62b5a74ff372e231c5a9b6129fb5ba225ff979403165adcba44971787883d51c",
+    "cursor-workers:ae5262b8a2b3f75fe7e0de6a2454f1233300dd5b7652b42176cfa7843965a7ef"
   ],
-  "consumedThroughSha": "57d4014943292d1a07fe9b5798fffc3aae26df5e"
+  "consumedThroughSha": "c269a025a11713d4097d5778eca5ac8714470225"
 }
