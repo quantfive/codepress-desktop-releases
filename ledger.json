@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6885a85e544f5d7198e2766dcc0daffbc9206fcf",
+  "cursorSha": "165ca09fd536011396bbdc7c28ae3cd739eeac47",
   "highWaterVersion": "1.560.0",
   "rows": [
     {
@@ -171602,6 +171602,13 @@
       "intentIds": [
         "feed-spawned-by-project-id:787acb7c396bcc3b3a8e295716fe43ac607fc0db522442edbe597dd1a3c3c5c1"
       ]
+    },
+    {
+      "sourceSha": "165ca09fd536011396bbdc7c28ae3cd739eeac47",
+      "sourcePackageVersion": "1.559.4",
+      "intentIds": [
+        "unlimited-nested-child-projects:ea8f849aa97bdcb9f03a813b38bfb8367b8e4cde709a2a2505966782182e8823"
+      ]
     }
   ],
   "intents": [
@@ -182228,6 +182235,14 @@
       "summary": "Feed rows for projects now say which project started them, and synced project copies tell the cloud their parent, so the rail can later show child projects under their parent.",
       "sourceSha": "6885a85e544f5d7198e2766dcc0daffbc9206fcf",
       "identity": "feed-spawned-by-project-id:787acb7c396bcc3b3a8e295716fe43ac607fc0db522442edbe597dd1a3c3c5c1"
+    },
+    {
+      "id": "unlimited-nested-child-projects",
+      "digest": "ea8f849aa97bdcb9f03a813b38bfb8367b8e4cde709a2a2505966782182e8823",
+      "type": "patch",
+      "summary": "An Orchestrator, or a worker tab through `start_orchestrator`, can now start any number of live child projects, and a child Orchestrator can start children of its own to any depth. The `too_many_live_children` and `spawn_depth_exceeded` refusals are gone.",
+      "sourceSha": "165ca09fd536011396bbdc7c28ae3cd739eeac47",
+      "identity": "unlimited-nested-child-projects:ea8f849aa97bdcb9f03a813b38bfb8367b8e4cde709a2a2505966782182e8823"
     }
   ],
   "consumedIntentIds": [
