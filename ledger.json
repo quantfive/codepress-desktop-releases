@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9f16859580ba107e2561e2e8dc037e10e7e799ea",
+  "cursorSha": "34a4c7d5903c43316d38d293e0b7e346da9c7405",
   "highWaterVersion": "1.561.0",
   "rows": [
     {
@@ -171839,6 +171839,13 @@
       "sourceSha": "9f16859580ba107e2561e2e8dc037e10e7e799ea",
       "sourcePackageVersion": "1.560.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "34a4c7d5903c43316d38d293e0b7e346da9c7405",
+      "sourcePackageVersion": "1.560.2",
+      "intentIds": [
+        "dock-card-under-header:e92ac80fc2a61e838ac7387b501bacb6ff13817e212cae37f9a59d70c2ea4f32"
+      ]
     }
   ],
   "intents": [
@@ -182489,6 +182496,14 @@
       "summary": "Mistral Vibe and Qwen workers and Orchestrators can run on a Personal or Team key from your CodePress account. Agent accounts → Mistral Vibe and → Qwen list Personal and Team keys under This machine's own login and let you choose which one this machine's workers use. The key goes through CodePress, so it never reaches this machine; This machine's login stays the default.",
       "sourceSha": "3c24a90e7e8aaa2345d3fdb3de334d6ea9cbc0d0",
       "identity": "vibe-qwen-personal-team-keys:0b53116fefc4eeb4ee959572272e8f782b09e50f0a44ea3bc6a6a67f388ca728"
+    },
+    {
+      "id": "dock-card-under-header",
+      "digest": "e92ac80fc2a61e838ac7387b501bacb6ff13817e212cae37f9a59d70c2ea4f32",
+      "type": "patch",
+      "summary": "A tall ask in the Orchestrator's Dock no longer slides under the thread header: the card stops just below it, the ask scrolls inside the card, and the composer stays whole at the bottom.",
+      "sourceSha": "34a4c7d5903c43316d38d293e0b7e346da9c7405",
+      "identity": "dock-card-under-header:e92ac80fc2a61e838ac7387b501bacb6ff13817e212cae37f9a59d70c2ea4f32"
     }
   ],
   "consumedIntentIds": [
