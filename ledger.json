@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "46f50212f1f7e9ea3d264d7fdb1d3e6a57ce2ed9",
-  "highWaterVersion": "1.561.0",
+  "highWaterVersion": "1.562.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -93650,6 +93650,57 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:46f50212f1f7e9ea3d264d7fdb1d3e6a57ce2ed9",
+      "kind": "main",
+      "sequence": 2382,
+      "sourceSha": "46f50212f1f7e9ea3d264d7fdb1d3e6a57ce2ed9",
+      "sourcePackageVersion": "1.560.2",
+      "version": "1.562.0",
+      "batch": {
+        "intentIds": [
+          "dock-card-under-header:e92ac80fc2a61e838ac7387b501bacb6ff13817e212cae37f9a59d70c2ea4f32",
+          "feed-rail-nested-child-projects:7dc0017eb1e4004f4750a2bb02df09e7264b66980adf8deb1b044979edbd8a07",
+          "no-silent-model-fallback:36884a62e81de38c96ef676a20db1d40c65eb6a29496ccb83bc7f1de17aa913b",
+          "copilot-personal-token-cloud:9bd37f7a3e1d4d8cdf0084036c30267c4b530e76f5fe8c2a8635f4bf6d65738d",
+          "workers-get-orchestrator-scopes:ea75a5e3f1c6aaf22edac534a280af57d6ad94399badc039d50cb1fa5d150eb0"
+        ],
+        "notesIntentIds": [
+          "dock-card-under-header:e92ac80fc2a61e838ac7387b501bacb6ff13817e212cae37f9a59d70c2ea4f32",
+          "feed-rail-nested-child-projects:7dc0017eb1e4004f4750a2bb02df09e7264b66980adf8deb1b044979edbd8a07",
+          "no-silent-model-fallback:36884a62e81de38c96ef676a20db1d40c65eb6a29496ccb83bc7f1de17aa913b",
+          "copilot-personal-token-cloud:9bd37f7a3e1d4d8cdf0084036c30267c4b530e76f5fe8c2a8635f4bf6d65738d",
+          "workers-get-orchestrator-scopes:ea75a5e3f1c6aaf22edac534a280af57d6ad94399badc039d50cb1fa5d150eb0"
+        ],
+        "throughSourceSha": "46f50212f1f7e9ea3d264d7fdb1d3e6a57ce2ed9",
+        "previousThroughSourceSha": "3c24a90e7e8aaa2345d3fdb3de334d6ea9cbc0d0",
+        "baselineVersion": "1.561.0",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-14T23:49:20.798Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43655097888",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-15T23:49:13.767Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -183937,7 +183988,12 @@
     "feed-spawned-by-project-id:787acb7c396bcc3b3a8e295716fe43ac607fc0db522442edbe597dd1a3c3c5c1",
     "unlimited-nested-child-projects:ea8f849aa97bdcb9f03a813b38bfb8367b8e4cde709a2a2505966782182e8823",
     "cloud-qwen-keys:b09a2584bcd6e84c6be34d86fba3eedd9b72f09366cdcd8ce1a794321470fbf1",
-    "vibe-qwen-personal-team-keys:0b53116fefc4eeb4ee959572272e8f782b09e50f0a44ea3bc6a6a67f388ca728"
+    "vibe-qwen-personal-team-keys:0b53116fefc4eeb4ee959572272e8f782b09e50f0a44ea3bc6a6a67f388ca728",
+    "dock-card-under-header:e92ac80fc2a61e838ac7387b501bacb6ff13817e212cae37f9a59d70c2ea4f32",
+    "feed-rail-nested-child-projects:7dc0017eb1e4004f4750a2bb02df09e7264b66980adf8deb1b044979edbd8a07",
+    "no-silent-model-fallback:36884a62e81de38c96ef676a20db1d40c65eb6a29496ccb83bc7f1de17aa913b",
+    "copilot-personal-token-cloud:9bd37f7a3e1d4d8cdf0084036c30267c4b530e76f5fe8c2a8635f4bf6d65738d",
+    "workers-get-orchestrator-scopes:ea75a5e3f1c6aaf22edac534a280af57d6ad94399badc039d50cb1fa5d150eb0"
   ],
-  "consumedThroughSha": "3c24a90e7e8aaa2345d3fdb3de334d6ea9cbc0d0"
+  "consumedThroughSha": "46f50212f1f7e9ea3d264d7fdb1d3e6a57ce2ed9"
 }
