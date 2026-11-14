@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "7d502c0c03163c4cea21cef4a7588ad3887c5d21",
-  "highWaterVersion": "1.556.1",
+  "highWaterVersion": "1.556.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -92896,6 +92896,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:7d502c0c03163c4cea21cef4a7588ad3887c5d21",
+      "kind": "main",
+      "sequence": 2369,
+      "sourceSha": "7d502c0c03163c4cea21cef4a7588ad3887c5d21",
+      "sourcePackageVersion": "1.556.0",
+      "version": "1.556.2",
+      "batch": {
+        "intentIds": [
+          "seven-providers-cloud-groundwork:f15e61ee9a32ba97663686c108dce7780f787ed7bdf85bb43ce7d16f6e213204"
+        ],
+        "notesIntentIds": [
+          "seven-providers-cloud-groundwork:f15e61ee9a32ba97663686c108dce7780f787ed7bdf85bb43ce7d16f6e213204"
+        ],
+        "throughSourceSha": "7d502c0c03163c4cea21cef4a7588ad3887c5d21",
+        "previousThroughSourceSha": "2b945569ec359b403d01cdf2ff8790237fa32988",
+        "baselineVersion": "1.556.1",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-14T09:06:25.433Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43578862343",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-15T09:06:18.422Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -181998,7 +182041,8 @@
     "ci-runners-v2-overview:a51c080981b7e7e012164dab41ac6fad536447ecfeeb9a757b0f9cbe718d7e1f",
     "sidebar-step-resume:54f014ebce545b3b5f47804315599e3811002f9a335ae20380832f3dbd650c37",
     "gemini-on-other-machine-kickoff:3cc218cd7d76b969c73e43eecfe0102e2821eace0e632e771987fa4cc9d46f5a",
-    "orchestrator-asks-for-resets:a7ac28b64b3f4907215715162113bee93bcec7f5335c04a7be7ff914ae406059"
+    "orchestrator-asks-for-resets:a7ac28b64b3f4907215715162113bee93bcec7f5335c04a7be7ff914ae406059",
+    "seven-providers-cloud-groundwork:f15e61ee9a32ba97663686c108dce7780f787ed7bdf85bb43ce7d16f6e213204"
   ],
-  "consumedThroughSha": "2b945569ec359b403d01cdf2ff8790237fa32988"
+  "consumedThroughSha": "7d502c0c03163c4cea21cef4a7588ad3887c5d21"
 }
