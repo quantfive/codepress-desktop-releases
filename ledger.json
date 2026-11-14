@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "c5b2b1b885b0ed393693ac7d9f72941f14af06b0",
-  "highWaterVersion": "1.554.1",
+  "highWaterVersion": "1.554.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -92537,6 +92537,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:c5b2b1b885b0ed393693ac7d9f72941f14af06b0",
+      "kind": "main",
+      "sequence": 2362,
+      "sourceSha": "c5b2b1b885b0ed393693ac7d9f72941f14af06b0",
+      "sourcePackageVersion": "1.554.1",
+      "version": "1.554.2",
+      "batch": {
+        "intentIds": [
+          "orchestrator-never-spends-resets:46b36f24a3caa8afc62ce0d3a03ab4c8eefef82b2c569e30992b1e5ee3655e59"
+        ],
+        "notesIntentIds": [
+          "orchestrator-never-spends-resets:46b36f24a3caa8afc62ce0d3a03ab4c8eefef82b2c569e30992b1e5ee3655e59"
+        ],
+        "throughSourceSha": "c5b2b1b885b0ed393693ac7d9f72941f14af06b0",
+        "previousThroughSourceSha": "66c3bb7a82585781b335428d2f73cf9a2ef2ece2",
+        "baselineVersion": "1.554.1",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-14T05:06:58.704Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43559896554",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-15T05:06:52.441Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -181389,7 +181432,8 @@
     "project-terminal-desktop-fit:250d759396eb8aa93bf68b6f0a17ce75f3161781e75b5a55b172271ee9b37a1d",
     "rail-hidden-links:65636329dd385ff7ee48f629c6433e52ad07f1473c386577af66d62d3d273223",
     "mistral-vibe-workers:0482a809de4dd983c5233600a08b8c6b0db59c386118b9d1968938fd6581de9a",
-    "tidy-checker-budget:32827cca12a13c76ea7b00240521f458bde742fce2c25cf347a60966e79ce758"
+    "tidy-checker-budget:32827cca12a13c76ea7b00240521f458bde742fce2c25cf347a60966e79ce758",
+    "orchestrator-never-spends-resets:46b36f24a3caa8afc62ce0d3a03ab4c8eefef82b2c569e30992b1e5ee3655e59"
   ],
-  "consumedThroughSha": "66c3bb7a82585781b335428d2f73cf9a2ef2ece2"
+  "consumedThroughSha": "c5b2b1b885b0ed393693ac7d9f72941f14af06b0"
 }
