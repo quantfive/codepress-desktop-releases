@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "fd7c6d97930b007f5de2f82874f22bcb865099be",
-  "highWaterVersion": "1.558.0",
+  "highWaterVersion": "1.559.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -93157,6 +93157,77 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:fd7c6d97930b007f5de2f82874f22bcb865099be",
+      "kind": "main",
+      "sequence": 2373,
+      "sourceSha": "fd7c6d97930b007f5de2f82874f22bcb865099be",
+      "sourcePackageVersion": "1.557.1",
+      "version": "1.559.0",
+      "batch": {
+        "intentIds": [
+          "cursor-cloud-keys:a0fc2f5dd12dcad54012ee65d3fcf9989c33ab2691193d793c8b3a907e5fa88e"
+        ],
+        "notesIntentIds": [
+          "orchestrator-native-cli-groundwork:cf920d6f4705fc577f2c10661eef8fc9266153db4262d90f259ce2f252aab4c6",
+          "underline-tabs:38182042c83026f50d367f58a6f5aac6233655effa323850d51d2bb4e34749df",
+          "pill-tabs-ghost-strips:3578c79d92cda31cac9d0df7c8dcacbd35db5dd978fb69ae4ac680574b73974a",
+          "plan-page-snapshots:9f724cbc957cf4dc9a4bd44ca0d48c1389bc15859fbee2e126cfccef89e870ac",
+          "segmented-pickers-on-settings-pages:7aef2303500a4c208983b871d00ef22c13b2436ed365f93dd79a13cff257de3b",
+          "segmented-tabs-feed-chat:a6de07d518a55f1bd7e540d5087c28d74f348a1e4c03b1964a7e4f668c39c641",
+          "machines-run-every-automation-keep-off:ead12a18034bf71aee69320bd6ac9a2e331cd86f56d86bc9aea611df84b30bc8",
+          "ci-runners-jobs-to-look-at:0cb8c7a081608f9b3bc56692172d133f197fef7ff52cf9b2adddadc5adb50442",
+          "orchestrator-glm-minimax:5cc8d0a1ae0382888afaddf1ae3f9906201f2b0da6d2b06cbdde0b78a37719d8",
+          "segmented-tabs-terminal-settings:e1794f33fc3ae198c27dc6581a1b707c24e658b764eb0cbdf0486edf146ecd54",
+          "cloud-orchestrator-search:874c94c78e1e585baf1605bf29a5edd1906f3a67b38482c051ba0d0f292f065b",
+          "segmented-tabs-toggle-groups:c556e40ec545d0943a16b2a3ea81721f29aa0d500efaed84649bbdcb8b901796",
+          "settings-tabs-segmented:fb8a1cca2be4b8f4e2a2219b68e13e6abdd804641bff71e34ddd7096cac18c85",
+          "pill-tabs-page-strips:f3c1890a21f5c46d89086e606b7bf832ce211b28f165e74e24ce9d47f418b4d8",
+          "vibe-orchestrator-acp:649b84db34bc73089691c784aca46eb3dbb6640c8d2bc2805cd18cf2f9c1da21",
+          "orchestrator-on-kiro:f8683bd71bfb848a28c965a876cecf20d7f10a54b430f384c930446ef825376e",
+          "qwen-orchestrator:02e41d77c3eb3328aec4f8675bac446f3fceed52cc665b2e5f623bcb520add95",
+          "local-plans-tab-snapshots:a7cda18a04f8ce2c4c74f7b5086c3fbb23318684fa068076633e83d7eb879548",
+          "pill-tabs-solid-strips:799be2851cc7b2a8cf3de2c522385b596f4381019df0976c7044754471849ffd",
+          "ci-runners-slack-alerts:c4a094b23ac2c757624b016f162def3cd1e03f8c7991ca4bb1bb2fbe9db2c459",
+          "orchestrator-on-github-copilot:407a90577fe05bb268d9538c223ceabf889413d13f218da815fe734053012f91",
+          "terminal-tab-bar-document-tabs:dd9bec27ca8468da669158b98696d0048e59fe3d9146ea45043fc0e7ef122ee9",
+          "orchestrator-on-cursor:6a8d1b4f4b001ebe285c3ea54a51808104bdbc1ce3a76c92391f34b42cc97893",
+          "child-turn-inbox-reconciliation:b5365a797de78c17f23c296e787d4b5a51868c28a01b6a911ecd465f039f1c7b",
+          "ci-runners-v2-live:46101de79deed267dd500a06a83dde8ce54430460c4cb77e552787bae66b7d7f",
+          "cloud-vibe-keys:a29f4762bd1f65f3e7106acfd3718f2b7ad0e7ec624baa3953e5344e9ea4aff8",
+          "ci-runners-ask-why:a557adf1da40c63b173a27ea13eb82526db1fa758a4fc3474da5586f0d65dfa5",
+          "kiro-personal-key-cloud:f630470c3d3bb86a3cc559bd938fd19ffa69a6bca9eb6547017000ef08f19982",
+          "cursor-cloud-keys:a0fc2f5dd12dcad54012ee65d3fcf9989c33ab2691193d793c8b3a907e5fa88e"
+        ],
+        "throughSourceSha": "fd7c6d97930b007f5de2f82874f22bcb865099be",
+        "previousThroughSourceSha": "69b8cf746103d7b4d9a2e43de6eabbafd2bd6864",
+        "baselineVersion": "1.558.0",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-14T19:00:14.880Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43626100792",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-15T19:00:07.109Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -183053,7 +183124,8 @@
     "ci-runners-v2-live:46101de79deed267dd500a06a83dde8ce54430460c4cb77e552787bae66b7d7f",
     "cloud-vibe-keys:a29f4762bd1f65f3e7106acfd3718f2b7ad0e7ec624baa3953e5344e9ea4aff8",
     "ci-runners-ask-why:a557adf1da40c63b173a27ea13eb82526db1fa758a4fc3474da5586f0d65dfa5",
-    "kiro-personal-key-cloud:f630470c3d3bb86a3cc559bd938fd19ffa69a6bca9eb6547017000ef08f19982"
+    "kiro-personal-key-cloud:f630470c3d3bb86a3cc559bd938fd19ffa69a6bca9eb6547017000ef08f19982",
+    "cursor-cloud-keys:a0fc2f5dd12dcad54012ee65d3fcf9989c33ab2691193d793c8b3a907e5fa88e"
   ],
-  "consumedThroughSha": "69b8cf746103d7b4d9a2e43de6eabbafd2bd6864"
+  "consumedThroughSha": "fd7c6d97930b007f5de2f82874f22bcb865099be"
 }
