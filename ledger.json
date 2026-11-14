@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "501bdb795ef335561a72d855418e21f1cf305ba1",
+  "cursorSha": "ab09ec4d79a01c509de74fb935fbce89d1e0f558",
   "highWaterVersion": "1.551.0",
   "rows": [
     {
@@ -169345,6 +169345,13 @@
       "sourceSha": "501bdb795ef335561a72d855418e21f1cf305ba1",
       "sourcePackageVersion": "1.550.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ab09ec4d79a01c509de74fb935fbce89d1e0f558",
+      "sourcePackageVersion": "1.550.0",
+      "intentIds": [
+        "orchestrator-hook-review-attention:2c8ffae231371ab77cce0923e9ee5a7317e218f47658067e64aecb0704dcdf6c"
+      ]
     }
   ],
   "intents": [
@@ -179491,6 +179498,14 @@
       "summary": "Managed automations: a product that installs as named instances lists them on its card with Manage and \"Add a bot\", and its setup shows the request URL with Copy, write-only secret fields and a teammate picker.",
       "sourceSha": "363672512e7e8a27fb0ad0d236177a4cf7d4411c",
       "identity": "managed-named-instances-ui:aa887eb987d9556d264c828977d7e69248a98ddfa9567c63b48badc947e9c04c"
+    },
+    {
+      "id": "orchestrator-hook-review-attention",
+      "digest": "2c8ffae231371ab77cce0923e9ee5a7317e218f47658067e64aecb0704dcdf6c",
+      "type": "patch",
+      "summary": "Notify an Orchestrator when its managed Codex child shows a hook-review startup dialog, while preserving prompt approval and digest-bound input protection.",
+      "sourceSha": "ab09ec4d79a01c509de74fb935fbce89d1e0f558",
+      "identity": "orchestrator-hook-review-attention:2c8ffae231371ab77cce0923e9ee5a7317e218f47658067e64aecb0704dcdf6c"
     }
   ],
   "consumedIntentIds": [
