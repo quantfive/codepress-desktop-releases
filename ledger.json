@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "868c368b9f409832be3a0f7f1e3a686611e3fbe7",
-  "highWaterVersion": "1.564.0",
+  "highWaterVersion": "1.564.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -93815,6 +93815,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:868c368b9f409832be3a0f7f1e3a686611e3fbe7",
+      "kind": "main",
+      "sequence": 2385,
+      "sourceSha": "868c368b9f409832be3a0f7f1e3a686611e3fbe7",
+      "sourcePackageVersion": "1.564.0",
+      "version": "1.564.1",
+      "batch": {
+        "intentIds": [
+          "codex-daemon-keeps-mcp-servers:8f01bdbe8306cd85df5dd74340f6297a5cf01e2d5af66748b690f95dc18537b7"
+        ],
+        "notesIntentIds": [
+          "codex-daemon-keeps-mcp-servers:8f01bdbe8306cd85df5dd74340f6297a5cf01e2d5af66748b690f95dc18537b7"
+        ],
+        "throughSourceSha": "868c368b9f409832be3a0f7f1e3a686611e3fbe7",
+        "previousThroughSourceSha": "d28db157792b881e78ca958b0acfd9313a0d72ef",
+        "baselineVersion": "1.564.0",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-15T02:05:49.723Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43666091281",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-16T02:05:42.247Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -184239,7 +184282,8 @@
     "copilot-personal-token-cloud:9bd37f7a3e1d4d8cdf0084036c30267c4b530e76f5fe8c2a8635f4bf6d65738d",
     "workers-get-orchestrator-scopes:ea75a5e3f1c6aaf22edac534a280af57d6ad94399badc039d50cb1fa5d150eb0",
     "orchestrator-models-on-one-computer:b2d6b6edf66bb522449dc7ec245f623ab27d4169ddfb7d4ecbc80c523d42836d",
-    "copilot-cursor-kiro-machine-keys:0fdf928e7cb28427410f6a1573530774935a82f34da10ea90f32d7b273542a95"
+    "copilot-cursor-kiro-machine-keys:0fdf928e7cb28427410f6a1573530774935a82f34da10ea90f32d7b273542a95",
+    "codex-daemon-keeps-mcp-servers:8f01bdbe8306cd85df5dd74340f6297a5cf01e2d5af66748b690f95dc18537b7"
   ],
-  "consumedThroughSha": "d28db157792b881e78ca958b0acfd9313a0d72ef"
+  "consumedThroughSha": "868c368b9f409832be3a0f7f1e3a686611e3fbe7"
 }
