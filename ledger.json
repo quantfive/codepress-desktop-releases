@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "92497aa02aafdb4cf536d1fa09a11bad91b16e32",
+  "cursorSha": "341f95bb82cb6e1b174ce00c89c8a6f24feb7124",
   "highWaterVersion": "1.564.2",
   "rows": [
     {
@@ -172327,6 +172327,13 @@
       "sourceSha": "92497aa02aafdb4cf536d1fa09a11bad91b16e32",
       "sourcePackageVersion": "1.564.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "341f95bb82cb6e1b174ce00c89c8a6f24feb7124",
+      "sourcePackageVersion": "1.564.2",
+      "intentIds": [
+        "autocompact-launch-owner:b35873bb7c52a62447eb7f1c9e7e1911823c94ea573b6eeccc519df39ba8fb44"
+      ]
     }
   ],
   "intents": [
@@ -183049,6 +183056,14 @@
       "summary": "CI: the Terminal test selector's cache now survives tsconfig option changes and other packages' Vite configs, keys tool versions on the lockfile, names the key input that differed when it rejects a cache, and is refreshed from main on any runner through a key-named artifact.",
       "sourceSha": "7561dac324bd4a5597ebb8f6a650bd40da2b741a",
       "identity": "terminal-select-cache-key:638d57ce4f5bfdd17ad585d8d2a071260db092903b1fdaccba64ccf13a3c35e7"
+    },
+    {
+      "id": "autocompact-launch-owner",
+      "digest": "b35873bb7c52a62447eb7f1c9e7e1911823c94ea573b6eeccc519df39ba8fb44",
+      "type": "patch",
+      "summary": "A saved compaction window now reaches the Orchestrator, workers and resumes of a project started on this machine, which previously used the agent's own limit. Each managed launch logs the window it applied or why it applied none, and Settings → Agents shows each agent's last launch and when this machine last read the account.",
+      "sourceSha": "341f95bb82cb6e1b174ce00c89c8a6f24feb7124",
+      "identity": "autocompact-launch-owner:b35873bb7c52a62447eb7f1c9e7e1911823c94ea573b6eeccc519df39ba8fb44"
     }
   ],
   "consumedIntentIds": [
