@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0d592ea48b598625be7f25f707003582a8866ae6",
+  "cursorSha": "5ed400c9c53adb6a4aa65450268965a535e734ac",
   "highWaterVersion": "1.566.3",
   "rows": [
     {
@@ -173022,6 +173022,13 @@
       "sourceSha": "0d592ea48b598625be7f25f707003582a8866ae6",
       "sourcePackageVersion": "1.566.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "5ed400c9c53adb6a4aa65450268965a535e734ac",
+      "sourcePackageVersion": "1.566.3",
+      "intentIds": [
+        "browse-loopback-attempt-timeout:f640fee4286089bc83a7ee0cc1f9d18556f6b10ba197c2468c2d0f26c9e830d8"
+      ]
     }
   ],
   "intents": [
@@ -183824,6 +183831,14 @@
       "summary": "Orchestrator launch compaction (behind the Launch compaction feature flag) now covers every local provider: Muse, Gemini and Copilot compact in place, and Codex exec, Grok, Cursor, Kiro, Qwen and Vibe write a handoff summary and continue in a new conversation that starts from it, keeping the old one whenever the move fails.",
       "sourceSha": "cd74a269ec97ecec76bb7da33ae12a74998e38c2",
       "identity": "launch-compaction-remaining-providers:d623715ba9ce81d08b92f35480e325aa0a261766d2912dfbf410d787309d76c1"
+    },
+    {
+      "id": "browse-loopback-attempt-timeout",
+      "digest": "f640fee4286089bc83a7ee0cc1f9d18556f6b10ba197c2468c2d0f26c9e830d8",
+      "type": "patch",
+      "summary": "A Browser Tab preview of a dev server on this machine no longer answers 502 when the machine is too busy to read the connection in time. Terminal gave up on the IPv4 address after Node's 500 ms per-address timer, tried `::1`, where nothing listens, and failed. It now waits up to 5 s per address (`CODEPRESS_BROWSE_ATTEMPT_TIMEOUT_MS`), which costs nothing when the server is bound to `::1` only, since a closed loopback port refuses at once.",
+      "sourceSha": "5ed400c9c53adb6a4aa65450268965a535e734ac",
+      "identity": "browse-loopback-attempt-timeout:f640fee4286089bc83a7ee0cc1f9d18556f6b10ba197c2468c2d0f26c9e830d8"
     }
   ],
   "consumedIntentIds": [
