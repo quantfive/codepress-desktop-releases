@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e67fc4551f9a3600cbcde6f62e3c4549a9ff07df",
+  "cursorSha": "c9e03d80aa970e3acb8ca6b6ffb21dba76ba8b9c",
   "highWaterVersion": "1.567.0",
   "rows": [
     {
@@ -173188,6 +173188,13 @@
       "sourceSha": "e67fc4551f9a3600cbcde6f62e3c4549a9ff07df",
       "sourcePackageVersion": "1.567.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c9e03d80aa970e3acb8ca6b6ffb21dba76ba8b9c",
+      "sourcePackageVersion": "1.567.0",
+      "intentIds": [
+        "launch-compaction-trial-record:63516406924139568472a447ce91010a4b76857c5955dde961359cdf82143960"
+      ]
     }
   ],
   "intents": [
@@ -184006,6 +184013,14 @@
       "summary": "In a local Orchestrator, `/compact` (or `/compact <what to keep>`) now always compacts the conversation instead of being sent as chat, from Terminal, the web, a phone or another machine. The composer's `/` menu lists only the Orchestrator's own commands, your message shows the command as a chip, and a provider that cannot compact says so in the thread.",
       "sourceSha": "f67ecfdce68e8ff38ea9fb55977cc57a762e5393",
       "identity": "orchestrator-compact-command:c7c5f9fb4f724f6d8014cda9239aac265734eb2b8478b7073f4c2a07da5225be"
+    },
+    {
+      "id": "launch-compaction-trial-record",
+      "digest": "63516406924139568472a447ce91010a4b76857c5955dde961359cdf82143960",
+      "type": "patch",
+      "summary": "A local Orchestrator now keeps a metadata-only record of each compaction of its conversation (after launching workers, at the provider's context window, or on `/compact`) on this machine, and `node apps/terminal/scripts/launch-compaction-report.ts` compares a trial period with a baseline from those records and the usage ledger. No conversation text is stored or printed, and nothing is uploaded.",
+      "sourceSha": "c9e03d80aa970e3acb8ca6b6ffb21dba76ba8b9c",
+      "identity": "launch-compaction-trial-record:63516406924139568472a447ce91010a4b76857c5955dde961359cdf82143960"
     }
   ],
   "consumedIntentIds": [
