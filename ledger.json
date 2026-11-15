@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "17ec345f049ddf83f5cf58667493e874c8fc4d47",
+  "cursorSha": "675d00631f8c208ee7a0a03118561f63a59de75a",
   "highWaterVersion": "1.565.1",
   "rows": [
     {
@@ -172566,6 +172566,13 @@
       "sourceSha": "17ec345f049ddf83f5cf58667493e874c8fc4d47",
       "sourcePackageVersion": "1.565.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "675d00631f8c208ee7a0a03118561f63a59de75a",
+      "sourcePackageVersion": "1.565.1",
+      "intentIds": [
+        "steady-seals-sign:3d0e1f7db3499272cca3003872f8369d03b8c26bd4401b237bfb8bbde8d19226"
+      ]
     }
   ],
   "intents": [
@@ -183312,6 +183319,14 @@
       "summary": "Plan pages on a phone or tablet stay live and usable at 25% zoom: the pages near the view load as real HTML within a memory budget, one at a time once you stop scrolling, and any page left out shows its title with \"Tap to load\", which loads it in place without changing the zoom.",
       "sourceSha": "67d1b6d0928d3f68ad6128a6332e3426228c7dee",
       "identity": "plan-canvas-live-at-25:af25fc929c507c3a9f6b5133802d65f0d9677444cdde3f892d4d805efc142256"
+    },
+    {
+      "id": "steady-seals-sign",
+      "digest": "3d0e1f7db3499272cca3003872f8369d03b8c26bd4401b237bfb8bbde8d19226",
+      "type": "patch",
+      "summary": "Make Terminal's macOS release signing retry when Apple's timestamp service briefly refuses a request, instead of failing the whole release build.",
+      "sourceSha": "675d00631f8c208ee7a0a03118561f63a59de75a",
+      "identity": "steady-seals-sign:3d0e1f7db3499272cca3003872f8369d03b8c26bd4401b237bfb8bbde8d19226"
     }
   ],
   "consumedIntentIds": [
