@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "cd74a269ec97ecec76bb7da33ae12a74998e38c2",
-  "highWaterVersion": "1.566.2",
+  "highWaterVersion": "1.566.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -94355,6 +94355,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:cd74a269ec97ecec76bb7da33ae12a74998e38c2",
+      "kind": "main",
+      "sequence": 2395,
+      "sourceSha": "cd74a269ec97ecec76bb7da33ae12a74998e38c2",
+      "sourcePackageVersion": "1.566.2",
+      "version": "1.566.3",
+      "batch": {
+        "intentIds": [
+          "launch-compaction-remaining-providers:d623715ba9ce81d08b92f35480e325aa0a261766d2912dfbf410d787309d76c1"
+        ],
+        "notesIntentIds": [
+          "launch-compaction-remaining-providers:d623715ba9ce81d08b92f35480e325aa0a261766d2912dfbf410d787309d76c1"
+        ],
+        "throughSourceSha": "cd74a269ec97ecec76bb7da33ae12a74998e38c2",
+        "previousThroughSourceSha": "6335c2dabc147e9dcbd28437313299583396c94f",
+        "baselineVersion": "1.566.2",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-15T11:20:57.532Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43708437355",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-16T11:20:50.013Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -185090,7 +185133,8 @@
     "orchestrator-launch-compaction-flag:0fd5c04a03b8e3c72cbbbf2fdb7f0bc3ef9888401c257afc30bb980b10fd841e",
     "orchestrator-compaction-card:294000aa5f973aa7328b3ea744ee88f68225ddfc9718cc5a1159d470f93e0578",
     "orchestrator-launch-compaction:10f543725769ca6fcaa2610b6f80a25fd84c9f122a34fbf1d35accea4074fbc4",
-    "qa-verifier-next:e76d0ebe01866b7159ad94ca7046ada905a023983de14b81ac27eca1e499f8e2"
+    "qa-verifier-next:e76d0ebe01866b7159ad94ca7046ada905a023983de14b81ac27eca1e499f8e2",
+    "launch-compaction-remaining-providers:d623715ba9ce81d08b92f35480e325aa0a261766d2912dfbf410d787309d76c1"
   ],
-  "consumedThroughSha": "6335c2dabc147e9dcbd28437313299583396c94f"
+  "consumedThroughSha": "cd74a269ec97ecec76bb7da33ae12a74998e38c2"
 }
