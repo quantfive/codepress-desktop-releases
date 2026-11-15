@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f634b62bb828032d9943f4b29b41b49c49c94f1d",
+  "cursorSha": "42c5eb680f3aa0227269a69d8965cd6138150bb9",
   "highWaterVersion": "1.568.1",
   "rows": [
     {
@@ -173924,6 +173924,13 @@
       "sourceSha": "f634b62bb828032d9943f4b29b41b49c49c94f1d",
       "sourcePackageVersion": "1.568.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "42c5eb680f3aa0227269a69d8965cd6138150bb9",
+      "sourcePackageVersion": "1.568.0",
+      "intentIds": [
+        "feed-run-card-menu:b9b62728e5578106e8d4960dcd00c1670f04907f78040100c78f1dff6d46637e"
+      ]
     }
   ],
   "intents": [
@@ -184838,6 +184845,14 @@
       "summary": "The once-a-minute power-profile sample now runs `ps` through the spawn host with a 15 second timeout after which it is force-killed, and a new sample no longer starts while the previous one is still running, so a stuck `ps` can no longer pile up behind the Terminal server.",
       "sourceSha": "c7d0816942dcea9f512e5868999be26c05baa3db",
       "identity": "power-profile-bounded-ps:093158377bc21e03cddcb8b47dfd6cc1cc4af2b4d231f0bcaf962aece88c2f3c"
+    },
+    {
+      "id": "feed-run-card-menu",
+      "digest": "b9b62728e5578106e8d4960dcd00c1670f04907f78040100c78f1dff6d46637e",
+      "type": "patch",
+      "summary": "Orchestrator feed: an automation run card in Needs you opens the run's chat in the app (or the run itself in the Cloud view when it has no chat) instead of a browser, and its ⋯ menu offers Open run chat, Open automation and Mark as handled with Undo. Mark all as handled now clears automation runs too.",
+      "sourceSha": "42c5eb680f3aa0227269a69d8965cd6138150bb9",
+      "identity": "feed-run-card-menu:b9b62728e5578106e8d4960dcd00c1670f04907f78040100c78f1dff6d46637e"
     }
   ],
   "consumedIntentIds": [
