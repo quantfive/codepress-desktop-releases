@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "fed718430b264605798920e25997f5c915fe66f2",
+  "cursorSha": "36bfe7b6e864bd8f2fbd153f2b32d2386c984fc5",
   "highWaterVersion": "1.568.2",
   "rows": [
     {
@@ -174053,6 +174053,13 @@
       "sourceSha": "fed718430b264605798920e25997f5c915fe66f2",
       "sourcePackageVersion": "1.568.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "36bfe7b6e864bd8f2fbd153f2b32d2386c984fc5",
+      "sourcePackageVersion": "1.568.1",
+      "intentIds": [
+        "linux-cli-release-commit-qualify:64e96831e2299fecb776d1122face3d49c7ef8d575153a64a8877bac4cbeaa28"
+      ]
     }
   ],
   "intents": [
@@ -184999,6 +185006,14 @@
       "summary": "CI only: a pull request whose changes cannot reach the Terminal app at run time (docs, unit tests, CI-only scripts, type-only declaration files) no longer runs the Terminal Playwright job, and main pushes run the selected specs instead of the full suite. Nothing in the app changes.",
       "sourceSha": "3a3ab1ef2a551f4cb694fc0907c77377b69b297f",
       "identity": "terminal-e2e-affected-only:43f7557a2dae269ca1bf0700e7833b93c05ade7eae884a7eb59cd3a4152c6ef4"
+    },
+    {
+      "id": "linux-cli-release-commit-qualify",
+      "digest": "64e96831e2299fecb776d1122face3d49c7ef8d575153a64a8877bac4cbeaa28",
+      "type": "patch",
+      "summary": "Linux Server CLI releases publish again: the Linux CLI build accepts the release commit it checks out when that commit sits directly on the release's source commit, and a failed Linux CLI build now names its cause in the release run summary.",
+      "sourceSha": "36bfe7b6e864bd8f2fbd153f2b32d2386c984fc5",
+      "identity": "linux-cli-release-commit-qualify:64e96831e2299fecb776d1122face3d49c7ef8d575153a64a8877bac4cbeaa28"
     }
   ],
   "consumedIntentIds": [
