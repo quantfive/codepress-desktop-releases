@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4ad7ea0ed237549587a64ec9d8c0f108653f0d71",
+  "cursorSha": "d04e013eaa024ecacb84e9de00bd26da92972278",
   "highWaterVersion": "1.565.2",
   "rows": [
     {
@@ -172632,6 +172632,13 @@
       "sourceSha": "4ad7ea0ed237549587a64ec9d8c0f108653f0d71",
       "sourcePackageVersion": "1.565.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d04e013eaa024ecacb84e9de00bd26da92972278",
+      "sourcePackageVersion": "1.565.1",
+      "intentIds": [
+        "orchestrator-launch-compaction-flag:0fd5c04a03b8e3c72cbbbf2fdb7f0bc3ef9888401c257afc30bb980b10fd841e"
+      ]
     }
   ],
   "intents": [
@@ -183394,6 +183401,14 @@
       "summary": "New chats and projects now start on exactly the model the Orchestrator and Workers chips show. A line under the chips says where that model came from and which computer it runs on. When the shown model can't start on that computer, Send waits with the reason and offers Sign in, Choose another model, Run on another computer or Update Terminal, and your draft and attachments stay put.",
       "sourceSha": "db65f7a802e4c7474ae355c54c54e6c38cb59d8c",
       "identity": "composer-sends-shown-model:93e5a306c35b21eefd723b21852fae163994e7cf6ce1ac01171b2bfda4d739b1"
+    },
+    {
+      "id": "orchestrator-launch-compaction-flag",
+      "digest": "0fd5c04a03b8e3c72cbbbf2fdb7f0bc3ef9888401c257afc30bb980b10fd841e",
+      "type": "patch",
+      "summary": "Terminal now reads each organization's \"Orchestrator launch compaction\" setting from the Feature Flags menu into its settings cache, ready for the local Orchestrator to use. Nothing acts on it yet, and it is off by default.",
+      "sourceSha": "d04e013eaa024ecacb84e9de00bd26da92972278",
+      "identity": "orchestrator-launch-compaction-flag:0fd5c04a03b8e3c72cbbbf2fdb7f0bc3ef9888401c257afc30bb980b10fd841e"
     }
   ],
   "consumedIntentIds": [
