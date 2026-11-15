@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4c3a5ce8083151f06a1b376df33662c20d5329b7",
+  "cursorSha": "31587522a5671ba018222f22d241c8ebcf0af633",
   "highWaterVersion": "1.568.0",
   "rows": [
     {
@@ -173849,6 +173849,13 @@
       "sourceSha": "4c3a5ce8083151f06a1b376df33662c20d5329b7",
       "sourcePackageVersion": "1.567.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "31587522a5671ba018222f22d241c8ebcf0af633",
+      "sourcePackageVersion": "1.567.7",
+      "intentIds": [
+        "codex-worker-mcp-survives-restart:e17b59df24763e9dcb0b7e5c65e8485786ad4879e01b53c75cf06f1e2985b7e3"
+      ]
     }
   ],
   "intents": [
@@ -184747,6 +184754,14 @@
       "summary": "A new Orchestrator chat or project opens on the brief and the Orchestrator's reply: the default start line and the kickoff's merge and prompt-approval cards are kept in the record but no longer drawn. A start on last-known models and every later setting change still show their card.",
       "sourceSha": "d9afc110cfcf0de62456ecc87cca0730539f5f0a",
       "identity": "quiet-orchestrator-chat-start:42564a1680fe1f10d4b5794e1e4936e423507ffd8cecede1bfeb6e43933190b4"
+    },
+    {
+      "id": "codex-worker-mcp-survives-restart",
+      "digest": "e17b59df24763e9dcb0b7e5c65e8485786ad4879e01b53c75cf06f1e2985b7e3",
+      "type": "patch",
+      "summary": "Codex workers keep their CodePress MCP across a Terminal update or background-server restart: their URL names the Orchestrator host's stable relay, and the restarted server takes back each running worker's credential from the digest kept on its fleet row. A worker from before this change is told to relaunch.",
+      "sourceSha": "31587522a5671ba018222f22d241c8ebcf0af633",
+      "identity": "codex-worker-mcp-survives-restart:e17b59df24763e9dcb0b7e5c65e8485786ad4879e01b53c75cf06f1e2985b7e3"
     }
   ],
   "consumedIntentIds": [
