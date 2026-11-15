@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9b4386041e3a95e5c7899dd20a50ff63ca3a4299",
+  "cursorSha": "7dd6f28df1af48c58424c13f63be71e0c0e5b892",
   "highWaterVersion": "1.566.0",
   "rows": [
     {
@@ -172788,6 +172788,13 @@
       "sourceSha": "9b4386041e3a95e5c7899dd20a50ff63ca3a4299",
       "sourcePackageVersion": "1.566.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7dd6f28df1af48c58424c13f63be71e0c0e5b892",
+      "sourcePackageVersion": "1.566.0",
+      "intentIds": [
+        "orchestrator-launch-compaction:10f543725769ca6fcaa2610b6f80a25fd84c9f122a34fbf1d35accea4074fbc4"
+      ]
     }
   ],
   "intents": [
@@ -183566,6 +183573,14 @@
       "summary": "The Orchestrator thread now shows a Context compacted card each time a local Orchestrator's conversation is compacted (by /compact, automatically, or inferred from a shrinking context), with the tokens before and after, how long it took and, for Claude, the summary it now works from. A \"Compacting the Orchestrator's context…\" line shows while it runs.",
       "sourceSha": "8fb080e5e237ca823b1df1d9905db2e38c70e50c",
       "identity": "orchestrator-compaction-card:294000aa5f973aa7328b3ea744ee88f68225ddfc9718cc5a1159d470f93e0578"
+    },
+    {
+      "id": "orchestrator-launch-compaction",
+      "digest": "10f543725769ca6fcaa2610b6f80a25fd84c9f122a34fbf1d35accea4074fbc4",
+      "type": "patch",
+      "summary": "A local Orchestrator on Claude or Codex app-server compacts its conversation after a turn that launched workers, when the organization's launch-compaction flag is on.",
+      "sourceSha": "7dd6f28df1af48c58424c13f63be71e0c0e5b892",
+      "identity": "orchestrator-launch-compaction:10f543725769ca6fcaa2610b6f80a25fd84c9f122a34fbf1d35accea4074fbc4"
     }
   ],
   "consumedIntentIds": [
