@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7f0f0eac16baeb22e0e8db9500f34ea3f159bccb",
+  "cursorSha": "72df5599ac3e2cec323a969e595857df97a5382c",
   "highWaterVersion": "1.567.5",
   "rows": [
     {
@@ -173563,6 +173563,13 @@
       "sourceSha": "7f0f0eac16baeb22e0e8db9500f34ea3f159bccb",
       "sourcePackageVersion": "1.567.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "72df5599ac3e2cec323a969e595857df97a5382c",
+      "sourcePackageVersion": "1.567.5",
+      "intentIds": [
+        "machine-name-build-line:c1b24c46a1cca7aa64ffc5c82f0e6ab8f3835a6427a3b244fad72de557ab5919"
+      ]
     }
   ],
   "intents": [
@@ -184421,6 +184428,14 @@
       "summary": "Stop the Orchestrator's server from spinning at full CPU when a worker's ended turn could not be recorded: each event now gets one retry chain with backoff and a cap, and an ending already in the PM's inbox counts as delivered.",
       "sourceSha": "39f006ca6c27ade43154eb71455ff6774e9481a7",
       "identity": "bounded-worker-event-retry:a3d6abb1cf6e4ce12ea9c6be2c173ce0fa52a5cf961b51db682e82f14054bbf9"
+    },
+    {
+      "id": "machine-name-build-line",
+      "digest": "c1b24c46a1cca7aa64ffc5c82f0e6ab8f3835a6427a3b244fad72de557ab5919",
+      "type": "patch",
+      "summary": "The Orchestrator's build line, the worker sign-in refusal and the Activity Monitor header name this machine by the name you gave it, falling back to the computer's own name.",
+      "sourceSha": "72df5599ac3e2cec323a969e595857df97a5382c",
+      "identity": "machine-name-build-line:c1b24c46a1cca7aa64ffc5c82f0e6ab8f3835a6427a3b244fad72de557ab5919"
     }
   ],
   "consumedIntentIds": [
