@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "31587522a5671ba018222f22d241c8ebcf0af633",
+  "cursorSha": "c7d0816942dcea9f512e5868999be26c05baa3db",
   "highWaterVersion": "1.568.0",
   "rows": [
     {
@@ -173856,6 +173856,13 @@
       "intentIds": [
         "codex-worker-mcp-survives-restart:e17b59df24763e9dcb0b7e5c65e8485786ad4879e01b53c75cf06f1e2985b7e3"
       ]
+    },
+    {
+      "sourceSha": "c7d0816942dcea9f512e5868999be26c05baa3db",
+      "sourcePackageVersion": "1.567.7",
+      "intentIds": [
+        "power-profile-bounded-ps:093158377bc21e03cddcb8b47dfd6cc1cc4af2b4d231f0bcaf962aece88c2f3c"
+      ]
     }
   ],
   "intents": [
@@ -184762,6 +184769,14 @@
       "summary": "Codex workers keep their CodePress MCP across a Terminal update or background-server restart: their URL names the Orchestrator host's stable relay, and the restarted server takes back each running worker's credential from the digest kept on its fleet row. A worker from before this change is told to relaunch.",
       "sourceSha": "31587522a5671ba018222f22d241c8ebcf0af633",
       "identity": "codex-worker-mcp-survives-restart:e17b59df24763e9dcb0b7e5c65e8485786ad4879e01b53c75cf06f1e2985b7e3"
+    },
+    {
+      "id": "power-profile-bounded-ps",
+      "digest": "093158377bc21e03cddcb8b47dfd6cc1cc4af2b4d231f0bcaf962aece88c2f3c",
+      "type": "patch",
+      "summary": "The once-a-minute power-profile sample now runs `ps` through the spawn host with a 15 second timeout after which it is force-killed, and a new sample no longer starts while the previous one is still running, so a stuck `ps` can no longer pile up behind the Terminal server.",
+      "sourceSha": "c7d0816942dcea9f512e5868999be26c05baa3db",
+      "identity": "power-profile-bounded-ps:093158377bc21e03cddcb8b47dfd6cc1cc4af2b4d231f0bcaf962aece88c2f3c"
     }
   ],
   "consumedIntentIds": [
