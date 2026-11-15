@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "25f27678f0395cbcae03ffb29038e610bfa813e8",
-  "highWaterVersion": "1.564.3",
+  "highWaterVersion": "1.565.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -93980,6 +93980,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:25f27678f0395cbcae03ffb29038e610bfa813e8",
+      "kind": "main",
+      "sequence": 2388,
+      "sourceSha": "25f27678f0395cbcae03ffb29038e610bfa813e8",
+      "sourcePackageVersion": "1.564.3",
+      "version": "1.565.0",
+      "batch": {
+        "intentIds": [
+          "compact-default-400k:5c56dcd8317aa987aade9b7c8647f7f5b0c55fd5fc2aa4f6eda616b4def0c5bb"
+        ],
+        "notesIntentIds": [
+          "compact-default-400k:5c56dcd8317aa987aade9b7c8647f7f5b0c55fd5fc2aa4f6eda616b4def0c5bb"
+        ],
+        "throughSourceSha": "25f27678f0395cbcae03ffb29038e610bfa813e8",
+        "previousThroughSourceSha": "341f95bb82cb6e1b174ce00c89c8a6f24feb7124",
+        "baselineVersion": "1.564.3",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-15T06:12:17.754Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43684326411",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-16T06:12:11.001Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -184497,7 +184540,8 @@
     "copilot-cursor-kiro-machine-keys:0fdf928e7cb28427410f6a1573530774935a82f34da10ea90f32d7b273542a95",
     "codex-daemon-keeps-mcp-servers:8f01bdbe8306cd85df5dd74340f6297a5cf01e2d5af66748b690f95dc18537b7",
     "terminal-select-cache-key:638d57ce4f5bfdd17ad585d8d2a071260db092903b1fdaccba64ccf13a3c35e7",
-    "autocompact-launch-owner:b35873bb7c52a62447eb7f1c9e7e1911823c94ea573b6eeccc519df39ba8fb44"
+    "autocompact-launch-owner:b35873bb7c52a62447eb7f1c9e7e1911823c94ea573b6eeccc519df39ba8fb44",
+    "compact-default-400k:5c56dcd8317aa987aade9b7c8647f7f5b0c55fd5fc2aa4f6eda616b4def0c5bb"
   ],
-  "consumedThroughSha": "341f95bb82cb6e1b174ce00c89c8a6f24feb7124"
+  "consumedThroughSha": "25f27678f0395cbcae03ffb29038e610bfa813e8"
 }
