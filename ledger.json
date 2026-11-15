@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "bb8b64b9819f3124524ea7ac9b1b02df1444c637",
+  "cursorSha": "5d4adcf9b4701ea7d7497441b52131c436397f8d",
   "highWaterVersion": "1.567.2",
   "rows": [
     {
@@ -173324,6 +173324,13 @@
       "intentIds": [
         "name-three-settings-switches:48902d0a03274b48ef6249e8f88192087c3fce5654e2bf977b1ecbc918e31fe3"
       ]
+    },
+    {
+      "sourceSha": "5d4adcf9b4701ea7d7497441b52131c436397f8d",
+      "sourcePackageVersion": "1.567.1",
+      "intentIds": [
+        "relayed-window-stays-quiet:00ead41f0b48c809fbd0ac3fa00594e7f6f013530c5508552bea92c5bfe1267c"
+      ]
     }
   ],
   "intents": [
@@ -184158,6 +184165,14 @@
       "summary": "Settings: the Capacity coordination, Attention Tracking and Enable Tunnel switches now have names a screen reader can announce, so they no longer read as an unlabelled button.",
       "sourceSha": "bb8b64b9819f3124524ea7ac9b1b02df1444c637",
       "identity": "name-three-settings-switches:48902d0a03274b48ef6249e8f88192087c3fce5654e2bf977b1ecbc918e31fe3"
+    },
+    {
+      "id": "relayed-window-stays-quiet",
+      "digest": "00ead41f0b48c809fbd0ac3fa00594e7f6f013530c5508552bea92c5bfe1267c",
+      "type": "patch",
+      "summary": "A window opened over the edge relay no longer polls. The machine load dot now reads when the window opens and when it comes back into view, and the telemetry setting is re-read when the machine announces a settings change, instead of every 15 and 60 seconds. A window left alone on the relay sends nothing again.",
+      "sourceSha": "5d4adcf9b4701ea7d7497441b52131c436397f8d",
+      "identity": "relayed-window-stays-quiet:00ead41f0b48c809fbd0ac3fa00594e7f6f013530c5508552bea92c5bfe1267c"
     }
   ],
   "consumedIntentIds": [
