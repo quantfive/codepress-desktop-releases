@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5f0d7e5b6192f89a3d82dac1591a35f8b12115a4",
+  "cursorSha": "640803971c1d330efab603f8bed7e3a6f56cfdd8",
   "highWaterVersion": "1.562.0",
   "rows": [
     {
@@ -171974,6 +171974,13 @@
       "sourceSha": "5f0d7e5b6192f89a3d82dac1591a35f8b12115a4",
       "sourcePackageVersion": "1.561.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "640803971c1d330efab603f8bed7e3a6f56cfdd8",
+      "sourcePackageVersion": "1.561.0",
+      "intentIds": [
+        "orchestrator-models-on-one-computer:b2d6b6edf66bb522449dc7ec245f623ab27d4169ddfb7d4ecbc80c523d42836d"
+      ]
     }
   ],
   "intents": [
@@ -182664,6 +182671,14 @@
       "summary": "Fleet workers now get the same CodePress access as their Orchestrator: with agent tools on, a worker's CodePress connection asks for the full set (including organization admin, integration admin, stored secrets and the full CodePress API) and covers all of the person's organizations, with the project's organization as the default. The backend still checks the person's role and permissions on every call. Workers pick this up at their next launch.",
       "sourceSha": "a73a1cc1cf68f94c0aae9dc9ea30adf6331c22f6",
       "identity": "workers-get-orchestrator-scopes:ea75a5e3f1c6aaf22edac534a280af57d6ad94399badc039d50cb1fa5d150eb0"
+    },
+    {
+      "id": "orchestrator-models-on-one-computer",
+      "digest": "b2d6b6edf66bb522449dc7ec245f623ab27d4169ddfb7d4ecbc80c523d42836d",
+      "type": "minor",
+      "summary": "Settings → Orchestrator says the saved Orchestrator and Workers models apply to your whole account in every organization, names a saved model that has been retired, and adds On one computer: give any of your computers its own Orchestrator or Workers model, or send it back to your account's, from Terminal, the web or the phone.",
+      "sourceSha": "640803971c1d330efab603f8bed7e3a6f56cfdd8",
+      "identity": "orchestrator-models-on-one-computer:b2d6b6edf66bb522449dc7ec245f623ab27d4169ddfb7d4ecbc80c523d42836d"
     }
   ],
   "consumedIntentIds": [
