@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c35b6934196262c4c088f788931751e32e57d250",
+  "cursorSha": "1c6ec703bdb71e15b2b202cc90ab06c26ba6cb52",
   "highWaterVersion": "1.567.3",
   "rows": [
     {
@@ -173417,6 +173417,13 @@
       "sourceSha": "c35b6934196262c4c088f788931751e32e57d250",
       "sourcePackageVersion": "1.567.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "1c6ec703bdb71e15b2b202cc90ab06c26ba6cb52",
+      "sourcePackageVersion": "1.567.3",
+      "intentIds": [
+        "relaunch-first-call:12bcbd5503a00e96cb4635514cb12df45d7026709e880e8d968736ca239fe5d6"
+      ]
     }
   ],
   "intents": [
@@ -184259,6 +184266,14 @@
       "summary": "A window opened over the edge relay no longer polls. The machine load dot now reads when the window opens and when it comes back into view, and the telemetry setting is re-read when the machine announces a settings change, instead of every 15 and 60 seconds. A window left alone on the relay sends nothing again.",
       "sourceSha": "5d4adcf9b4701ea7d7497441b52131c436397f8d",
       "identity": "relayed-window-stays-quiet:00ead41f0b48c809fbd0ac3fa00594e7f6f013530c5508552bea92c5bfe1267c"
+    },
+    {
+      "id": "relaunch-first-call",
+      "digest": "12bcbd5503a00e96cb4635514cb12df45d7026709e880e8d968736ca239fe5d6",
+      "type": "patch",
+      "summary": "Relaunching a worker whose turn ended now works on the first call when the Orchestrator passes the state token it just read. A stale token is refused as `worker_observation_changed` before the old agent is stopped.",
+      "sourceSha": "1c6ec703bdb71e15b2b202cc90ab06c26ba6cb52",
+      "identity": "relaunch-first-call:12bcbd5503a00e96cb4635514cb12df45d7026709e880e8d968736ca239fe5d6"
     }
   ],
   "consumedIntentIds": [
