@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "640803971c1d330efab603f8bed7e3a6f56cfdd8",
-  "highWaterVersion": "1.562.0",
+  "highWaterVersion": "1.563.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -93705,6 +93705,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:640803971c1d330efab603f8bed7e3a6f56cfdd8",
+      "kind": "main",
+      "sequence": 2383,
+      "sourceSha": "640803971c1d330efab603f8bed7e3a6f56cfdd8",
+      "sourcePackageVersion": "1.561.0",
+      "version": "1.563.0",
+      "batch": {
+        "intentIds": [
+          "orchestrator-models-on-one-computer:b2d6b6edf66bb522449dc7ec245f623ab27d4169ddfb7d4ecbc80c523d42836d"
+        ],
+        "notesIntentIds": [
+          "orchestrator-models-on-one-computer:b2d6b6edf66bb522449dc7ec245f623ab27d4169ddfb7d4ecbc80c523d42836d"
+        ],
+        "throughSourceSha": "640803971c1d330efab603f8bed7e3a6f56cfdd8",
+        "previousThroughSourceSha": "46f50212f1f7e9ea3d264d7fdb1d3e6a57ce2ed9",
+        "baselineVersion": "1.562.0",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-15T00:11:22.702Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43656881223",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-16T00:11:15.251Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -184017,7 +184060,8 @@
     "feed-rail-nested-child-projects:7dc0017eb1e4004f4750a2bb02df09e7264b66980adf8deb1b044979edbd8a07",
     "no-silent-model-fallback:36884a62e81de38c96ef676a20db1d40c65eb6a29496ccb83bc7f1de17aa913b",
     "copilot-personal-token-cloud:9bd37f7a3e1d4d8cdf0084036c30267c4b530e76f5fe8c2a8635f4bf6d65738d",
-    "workers-get-orchestrator-scopes:ea75a5e3f1c6aaf22edac534a280af57d6ad94399badc039d50cb1fa5d150eb0"
+    "workers-get-orchestrator-scopes:ea75a5e3f1c6aaf22edac534a280af57d6ad94399badc039d50cb1fa5d150eb0",
+    "orchestrator-models-on-one-computer:b2d6b6edf66bb522449dc7ec245f623ab27d4169ddfb7d4ecbc80c523d42836d"
   ],
-  "consumedThroughSha": "46f50212f1f7e9ea3d264d7fdb1d3e6a57ce2ed9"
+  "consumedThroughSha": "640803971c1d330efab603f8bed7e3a6f56cfdd8"
 }
