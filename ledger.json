@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "690a2b742f19683c53dabb274bfe2dee4ebfbba4",
+  "cursorSha": "87ef7dd07c599af494c94a090bb135e48b47734c",
   "highWaterVersion": "1.567.6",
   "rows": [
     {
@@ -173672,6 +173672,18 @@
       "intentIds": [
         "capability-call-deadlines:24ac6e3bfda15ac3cc9136df54aa32d78b25820c05696c9863525772aada696f"
       ]
+    },
+    {
+      "sourceSha": "a386bed5ccb6babb324bd03a7edec303507af09f",
+      "sourcePackageVersion": "1.567.6",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "87ef7dd07c599af494c94a090bb135e48b47734c",
+      "sourcePackageVersion": "1.567.6",
+      "intentIds": [
+        "orchestrator-plans-requests:ad183b0a145ce56f90ac799511c34eaa97545d374c58eb5c9edc20f06cd281ce"
+      ]
     }
   ],
   "intents": [
@@ -184546,6 +184558,14 @@
       "summary": "Orchestrator reads of a stalled or restarted Terminal window now fail within seconds with an error naming the window, instead of waiting 10 minutes.",
       "sourceSha": "690a2b742f19683c53dabb274bfe2dee4ebfbba4",
       "identity": "capability-call-deadlines:24ac6e3bfda15ac3cc9136df54aa32d78b25820c05696c9863525772aada696f"
+    },
+    {
+      "id": "orchestrator-plans-requests",
+      "digest": "ad183b0a145ce56f90ac799511c34eaa97545d374c58eb5c9edc20f06cd281ce",
+      "type": "patch",
+      "summary": "The Orchestrator now plans a brief that describes problems or lists things to fix straight away, instead of answering with a diagnosis and asking whether to write the plan. It still answers a genuine \"should we…?\" question first and offers to plan, and the plan still needs your approval before anything is built.",
+      "sourceSha": "87ef7dd07c599af494c94a090bb135e48b47734c",
+      "identity": "orchestrator-plans-requests:ad183b0a145ce56f90ac799511c34eaa97545d374c58eb5c9edc20f06cd281ce"
     }
   ],
   "consumedIntentIds": [
