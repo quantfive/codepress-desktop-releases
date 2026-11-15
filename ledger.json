@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0c887ba584e63f95264d47c9d6a65ba7adabaa44",
+  "cursorSha": "da803d2111f69bebeda5241d9149656f34d18bce",
   "highWaterVersion": "1.567.7",
   "rows": [
     {
@@ -173753,6 +173753,13 @@
       "sourceSha": "0c887ba584e63f95264d47c9d6a65ba7adabaa44",
       "sourcePackageVersion": "1.567.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "da803d2111f69bebeda5241d9149656f34d18bce",
+      "sourcePackageVersion": "1.567.6",
+      "intentIds": [
+        "feed-row-share-menu:8d8686c5dfa0fe5acfe7530406647048e86bbe6284e091db8012bca4ae3cbf37"
+      ]
     }
   ],
   "intents": [
@@ -184635,6 +184642,14 @@
       "summary": "The Orchestrator now plans a brief that describes problems or lists things to fix straight away, instead of answering with a diagnosis and asking whether to write the plan. It still answers a genuine \"should we…?\" question first and offers to plan, and the plan still needs your approval before anything is built.",
       "sourceSha": "87ef7dd07c599af494c94a090bb135e48b47734c",
       "identity": "orchestrator-plans-requests:ad183b0a145ce56f90ac799511c34eaa97545d374c58eb5c9edc20f06cd281ce"
+    },
+    {
+      "id": "feed-row-share-menu",
+      "digest": "8d8686c5dfa0fe5acfe7530406647048e86bbe6284e091db8012bca4ae3cbf37",
+      "type": "minor",
+      "summary": "Share chats and projects from the feed: every row's ⋯ now starts with Share… and Copy link, a teammate's row in Team gets a ⋯ with just those two, and right-click or Ctrl+click on a row opens its menu where you clicked.",
+      "sourceSha": "da803d2111f69bebeda5241d9149656f34d18bce",
+      "identity": "feed-row-share-menu:8d8686c5dfa0fe5acfe7530406647048e86bbe6284e091db8012bca4ae3cbf37"
     }
   ],
   "consumedIntentIds": [
