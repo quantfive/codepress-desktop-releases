@@ -94660,10 +94660,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43739874978",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-16T17:13:36.963Z",
         "dispatch": null,
         "failures": []
       }
