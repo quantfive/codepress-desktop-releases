@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e12207f7cd76cb89870763ce690c090ca97e83fe",
+  "cursorSha": "0aa2f1f7ee20141397829bee3eb12ede6ae29e35",
   "highWaterVersion": "1.568.1",
   "rows": [
     {
@@ -173941,6 +173941,13 @@
       "sourceSha": "e12207f7cd76cb89870763ce690c090ca97e83fe",
       "sourcePackageVersion": "1.568.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0aa2f1f7ee20141397829bee3eb12ede6ae29e35",
+      "sourcePackageVersion": "1.568.0",
+      "intentIds": [
+        "kickoff-opens-on-defaults:4d3bc54d3dbed7ec558b6af656754b0061adbc284e6c2a1407781bd3d582cb8e"
+      ]
     }
   ],
   "intents": [
@@ -184863,6 +184870,14 @@
       "summary": "Orchestrator feed: an automation run card in Needs you opens the run's chat in the app (or the run itself in the Cloud view when it has no chat) instead of a browser, and its ⋯ menu offers Open run chat, Open automation and Mark as handled with Undo. Mark all as handled now clears automation runs too.",
       "sourceSha": "42c5eb680f3aa0227269a69d8965cd6138150bb9",
       "identity": "feed-run-card-menu:b9b62728e5578106e8d4960dcd00c1670f04907f78040100c78f1dff6d46637e"
+    },
+    {
+      "id": "kickoff-opens-on-defaults",
+      "digest": "4d3bc54d3dbed7ec558b6af656754b0061adbc284e6c2a1407781bd3d582cb8e",
+      "type": "patch",
+      "summary": "Orchestrator: a new project's kickoff always opens on your saved Orchestrator and Workers models. A model you pick applies only to the kickoff you send it with, so the next kickoff no longer flashes your last pick before your saved models load. Chats still remember their model.",
+      "sourceSha": "0aa2f1f7ee20141397829bee3eb12ede6ae29e35",
+      "identity": "kickoff-opens-on-defaults:4d3bc54d3dbed7ec558b6af656754b0061adbc284e6c2a1407781bd3d582cb8e"
     }
   ],
   "consumedIntentIds": [
