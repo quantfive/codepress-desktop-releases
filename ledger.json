@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "47bde5e4256b0d067d29332343dea8c69fa99e3e",
-  "highWaterVersion": "1.565.2",
+  "highWaterVersion": "1.565.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -94135,6 +94135,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:47bde5e4256b0d067d29332343dea8c69fa99e3e",
+      "kind": "main",
+      "sequence": 2391,
+      "sourceSha": "47bde5e4256b0d067d29332343dea8c69fa99e3e",
+      "sourcePackageVersion": "1.565.2",
+      "version": "1.565.3",
+      "batch": {
+        "intentIds": [
+          "composer-sends-shown-model:93e5a306c35b21eefd723b21852fae163994e7cf6ce1ac01171b2bfda4d739b1",
+          "orchestrator-launch-compaction-flag:0fd5c04a03b8e3c72cbbbf2fdb7f0bc3ef9888401c257afc30bb980b10fd841e"
+        ],
+        "notesIntentIds": [
+          "composer-sends-shown-model:93e5a306c35b21eefd723b21852fae163994e7cf6ce1ac01171b2bfda4d739b1",
+          "orchestrator-launch-compaction-flag:0fd5c04a03b8e3c72cbbbf2fdb7f0bc3ef9888401c257afc30bb980b10fd841e"
+        ],
+        "throughSourceSha": "47bde5e4256b0d067d29332343dea8c69fa99e3e",
+        "previousThroughSourceSha": "675d00631f8c208ee7a0a03118561f63a59de75a",
+        "baselineVersion": "1.565.2",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-15T07:35:29.229Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43690585673",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-16T07:35:22.289Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -184765,7 +184810,9 @@
     "autocompact-launch-owner:b35873bb7c52a62447eb7f1c9e7e1911823c94ea573b6eeccc519df39ba8fb44",
     "compact-default-400k:5c56dcd8317aa987aade9b7c8647f7f5b0c55fd5fc2aa4f6eda616b4def0c5bb",
     "plan-canvas-live-at-25:af25fc929c507c3a9f6b5133802d65f0d9677444cdde3f892d4d805efc142256",
-    "steady-seals-sign:3d0e1f7db3499272cca3003872f8369d03b8c26bd4401b237bfb8bbde8d19226"
+    "steady-seals-sign:3d0e1f7db3499272cca3003872f8369d03b8c26bd4401b237bfb8bbde8d19226",
+    "composer-sends-shown-model:93e5a306c35b21eefd723b21852fae163994e7cf6ce1ac01171b2bfda4d739b1",
+    "orchestrator-launch-compaction-flag:0fd5c04a03b8e3c72cbbbf2fdb7f0bc3ef9888401c257afc30bb980b10fd841e"
   ],
-  "consumedThroughSha": "675d00631f8c208ee7a0a03118561f63a59de75a"
+  "consumedThroughSha": "47bde5e4256b0d067d29332343dea8c69fa99e3e"
 }
