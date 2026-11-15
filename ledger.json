@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "675d00631f8c208ee7a0a03118561f63a59de75a",
+  "cursorSha": "db65f7a802e4c7474ae355c54c54e6c38cb59d8c",
   "highWaterVersion": "1.565.2",
   "rows": [
     {
@@ -172620,6 +172620,13 @@
       "intentIds": [
         "steady-seals-sign:3d0e1f7db3499272cca3003872f8369d03b8c26bd4401b237bfb8bbde8d19226"
       ]
+    },
+    {
+      "sourceSha": "db65f7a802e4c7474ae355c54c54e6c38cb59d8c",
+      "sourcePackageVersion": "1.565.1",
+      "intentIds": [
+        "composer-sends-shown-model:93e5a306c35b21eefd723b21852fae163994e7cf6ce1ac01171b2bfda4d739b1"
+      ]
     }
   ],
   "intents": [
@@ -183374,6 +183381,14 @@
       "summary": "Make Terminal's macOS release signing retry when Apple's timestamp service briefly refuses a request, instead of failing the whole release build.",
       "sourceSha": "675d00631f8c208ee7a0a03118561f63a59de75a",
       "identity": "steady-seals-sign:3d0e1f7db3499272cca3003872f8369d03b8c26bd4401b237bfb8bbde8d19226"
+    },
+    {
+      "id": "composer-sends-shown-model",
+      "digest": "93e5a306c35b21eefd723b21852fae163994e7cf6ce1ac01171b2bfda4d739b1",
+      "type": "patch",
+      "summary": "New chats and projects now start on exactly the model the Orchestrator and Workers chips show. A line under the chips says where that model came from and which computer it runs on. When the shown model can't start on that computer, Send waits with the reason and offers Sign in, Choose another model, Run on another computer or Update Terminal, and your draft and attachments stay put.",
+      "sourceSha": "db65f7a802e4c7474ae355c54c54e6c38cb59d8c",
+      "identity": "composer-sends-shown-model:93e5a306c35b21eefd723b21852fae163994e7cf6ce1ac01171b2bfda4d739b1"
     }
   ],
   "consumedIntentIds": [
