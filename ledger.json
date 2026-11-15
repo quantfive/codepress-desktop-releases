@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d7f057ffc84c87bdff86312519dd7aef0f6b705a",
+  "cursorSha": "8fb080e5e237ca823b1df1d9905db2e38c70e50c",
   "highWaterVersion": "1.565.3",
   "rows": [
     {
@@ -172711,6 +172711,13 @@
       "sourceSha": "d7f057ffc84c87bdff86312519dd7aef0f6b705a",
       "sourcePackageVersion": "1.565.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "8fb080e5e237ca823b1df1d9905db2e38c70e50c",
+      "sourcePackageVersion": "1.565.3",
+      "intentIds": [
+        "orchestrator-compaction-card:294000aa5f973aa7328b3ea744ee88f68225ddfc9718cc5a1159d470f93e0578"
+      ]
     }
   ],
   "intents": [
@@ -183481,6 +183488,14 @@
       "summary": "Terminal now reads each organization's \"Orchestrator launch compaction\" setting from the Feature Flags menu into its settings cache, ready for the local Orchestrator to use. Nothing acts on it yet, and it is off by default.",
       "sourceSha": "d04e013eaa024ecacb84e9de00bd26da92972278",
       "identity": "orchestrator-launch-compaction-flag:0fd5c04a03b8e3c72cbbbf2fdb7f0bc3ef9888401c257afc30bb980b10fd841e"
+    },
+    {
+      "id": "orchestrator-compaction-card",
+      "digest": "294000aa5f973aa7328b3ea744ee88f68225ddfc9718cc5a1159d470f93e0578",
+      "type": "minor",
+      "summary": "The Orchestrator thread now shows a Context compacted card each time a local Orchestrator's conversation is compacted (by /compact, automatically, or inferred from a shrinking context), with the tokens before and after, how long it took and, for Claude, the summary it now works from. A \"Compacting the Orchestrator's context…\" line shows while it runs.",
+      "sourceSha": "8fb080e5e237ca823b1df1d9905db2e38c70e50c",
+      "identity": "orchestrator-compaction-card:294000aa5f973aa7328b3ea744ee88f68225ddfc9718cc5a1159d470f93e0578"
     }
   ],
   "consumedIntentIds": [
