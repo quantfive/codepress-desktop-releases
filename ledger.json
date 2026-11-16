@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e92d480a79c32c8ca7a2a10f2791173557a00cb7",
+  "cursorSha": "c37b0189842c4346656a46276a1ef0e8fa5ea196",
   "highWaterVersion": "1.570.3",
   "rows": [
     {
@@ -175919,6 +175919,13 @@
       "intentIds": [
         "app-toolbar-option-c:fe8dc05db639c8484a5039deb4c895db99e459c954e298b506e25e43a2aed6c5"
       ]
+    },
+    {
+      "sourceSha": "c37b0189842c4346656a46276a1ef0e8fa5ea196",
+      "sourcePackageVersion": "1.570.2",
+      "intentIds": [
+        "answer-proposal-leaves-needs-you:8dfeb672703f4f06a43dd7db277d5f89222ca1d591d3e2483f3e5d64adc56b87"
+      ]
     }
   ],
   "intents": [
@@ -187129,6 +187136,14 @@
       "summary": "App page toolbar: the Live site picker is the line under the App's name, the preview tools sit together in the middle of the bar and stay inline at 1280 with the chat open, and Select an element moves into the App chat's composer beside Tools.",
       "sourceSha": "e92d480a79c32c8ca7a2a10f2791173557a00cb7",
       "identity": "app-toolbar-option-c:fe8dc05db639c8484a5039deb4c895db99e459c954e298b506e25e43a2aed6c5"
+    },
+    {
+      "id": "answer-proposal-leaves-needs-you",
+      "digest": "8dfeb672703f4f06a43dd7db277d5f89222ca1d591d3e2483f3e5d64adc56b87",
+      "type": "patch",
+      "summary": "Answering an agent's proposal in a cloud chat, on its card or in the Answer Dock, takes the chat out of Needs you at once; a failed answer puts it back.",
+      "sourceSha": "c37b0189842c4346656a46276a1ef0e8fa5ea196",
+      "identity": "answer-proposal-leaves-needs-you:8dfeb672703f4f06a43dd7db277d5f89222ca1d591d3e2483f3e5d64adc56b87"
     }
   ],
   "consumedIntentIds": [
