@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "ade98f5a1f2bb461ec52e5a6117eed353e6487b3",
-  "highWaterVersion": "1.570.3",
+  "highWaterVersion": "1.570.4",
   "rows": [
     {
       "schemaVersion": 1,
@@ -96145,6 +96145,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:ade98f5a1f2bb461ec52e5a6117eed353e6487b3",
+      "kind": "main",
+      "sequence": 2429,
+      "sourceSha": "ade98f5a1f2bb461ec52e5a6117eed353e6487b3",
+      "sourcePackageVersion": "1.570.2",
+      "version": "1.570.4",
+      "batch": {
+        "intentIds": [
+          "app-toolbar-option-c:fe8dc05db639c8484a5039deb4c895db99e459c954e298b506e25e43a2aed6c5",
+          "answer-proposal-leaves-needs-you:8dfeb672703f4f06a43dd7db277d5f89222ca1d591d3e2483f3e5d64adc56b87"
+        ],
+        "notesIntentIds": [
+          "app-toolbar-option-c:fe8dc05db639c8484a5039deb4c895db99e459c954e298b506e25e43a2aed6c5",
+          "answer-proposal-leaves-needs-you:8dfeb672703f4f06a43dd7db277d5f89222ca1d591d3e2483f3e5d64adc56b87"
+        ],
+        "throughSourceSha": "ade98f5a1f2bb461ec52e5a6117eed353e6487b3",
+        "previousThroughSourceSha": "1beca70180ced2d62752f9b3a5fa0e83f069a4c3",
+        "baselineVersion": "1.570.3",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-16T23:20:47.651Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43978308382",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-17T23:20:32.921Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -188556,7 +188601,9 @@
     "feed-hides-confirming-read:064518a715f850661abd6aae5752149cf1064758d2770eed67f7b4a84dbddd48",
     "app-build-your-first-app:cea041c8d92a7f4f08b4076926626da348aa82bf8527ff55279431c68c20d142",
     "terminal-app-project-panel:858828c20284c78696acb4fa9737054794385eb8e7eb35dfc5d5a0373ff3eae3",
-    "plan-website-hosting:528423fd93d39601e76f3a590d6c14663c0d95e504e302902c7b674721839962"
+    "plan-website-hosting:528423fd93d39601e76f3a590d6c14663c0d95e504e302902c7b674721839962",
+    "app-toolbar-option-c:fe8dc05db639c8484a5039deb4c895db99e459c954e298b506e25e43a2aed6c5",
+    "answer-proposal-leaves-needs-you:8dfeb672703f4f06a43dd7db277d5f89222ca1d591d3e2483f3e5d64adc56b87"
   ],
-  "consumedThroughSha": "1beca70180ced2d62752f9b3a5fa0e83f069a4c3"
+  "consumedThroughSha": "ade98f5a1f2bb461ec52e5a6117eed353e6487b3"
 }
