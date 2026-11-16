@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4cffb682cc706a7e329fbb8941c34bb3bb17bcc1",
+  "cursorSha": "3ae4676a6ad04547271b89ba640057ca9b5195bf",
   "highWaterVersion": "1.569.9",
   "rows": [
     {
@@ -175328,6 +175328,13 @@
       "sourceSha": "4cffb682cc706a7e329fbb8941c34bb3bb17bcc1",
       "sourcePackageVersion": "1.569.9",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3ae4676a6ad04547271b89ba640057ca9b5195bf",
+      "sourcePackageVersion": "1.569.9",
+      "intentIds": [
+        "terminal-automation-budget-admission:31740a7f8c2e3af76a6ee43092622792cbe978195231d3fc86a2c1d968488080"
+      ]
     }
   ],
   "intents": [
@@ -186434,6 +186441,14 @@
       "summary": "Settings has a new Automations tab under This computer. Running your automations, team automations, sandbox setup, the automation budget, \"Take no new automations\", running automations, team passkeys and the asks waiting for you moved there from General. The tab shows only when this computer can run automations.",
       "sourceSha": "0a011a022a7be7103f3e35f95f536e08691c6108",
       "identity": "terminal-automations-settings-tab:831392330d31bfd076c75970acf5acb2ffca1e29d148fcdc0611d3b1e4ec1add"
+    },
+    {
+      "id": "terminal-automation-budget-admission",
+      "digest": "31740a7f8c2e3af76a6ee43092622792cbe978195231d3fc86a2c1d968488080",
+      "type": "patch",
+      "summary": "A machine now runs as many automations at once as fit the memory and cores you allot to them, instead of at most 1 to 4. Anything that doesn't fit goes to another machine or the cloud. The \"Runs at once\" setting is gone; Settings → Automations shows how many run now and about how many more fit.",
+      "sourceSha": "3ae4676a6ad04547271b89ba640057ca9b5195bf",
+      "identity": "terminal-automation-budget-admission:31740a7f8c2e3af76a6ee43092622792cbe978195231d3fc86a2c1d968488080"
     }
   ],
   "consumedIntentIds": [
