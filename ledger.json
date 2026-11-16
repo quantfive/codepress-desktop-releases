@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c9fc17234c020a6fff5ada41f896b9ceff7b6871",
+  "cursorSha": "e363b801748d111d46e3719925a998c5b61327f1",
   "highWaterVersion": "1.569.7",
   "rows": [
     {
@@ -175024,6 +175024,13 @@
       "sourceSha": "c9fc17234c020a6fff5ada41f896b9ceff7b6871",
       "sourcePackageVersion": "1.569.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e363b801748d111d46e3719925a998c5b61327f1",
+      "sourcePackageVersion": "1.569.7",
+      "intentIds": [
+        "agent-sync-poller-stop:cda5d7dc9c176610841aff4ed3070952a2ba091c582424e78aaccfd54921f449"
+      ]
     }
   ],
   "intents": [
@@ -186114,6 +186121,14 @@
       "summary": "Claude and Codex account pools no longer act on an outdated copy of the pool file when another Terminal process rewrites it twice in quick succession: each write now dates the new file after the one it replaces, so the cached copy is always re-read. The superseded Ghostty tab close takes its read deadline from an injectable clock, with no change in behaviour.",
       "sourceSha": "038d2d054243c5703d9ef3c91efb863239e4b065",
       "identity": "pool-stamp-and-superseded-clock:e7b8f894d30be065b509dad54e1a24c631e7affcd3060ea3e31b4e295991fa61"
+    },
+    {
+      "id": "agent-sync-poller-stop",
+      "digest": "cda5d7dc9c176610841aff4ed3070952a2ba091c582424e78aaccfd54921f449",
+      "type": "patch",
+      "summary": "Agent sync's cloud lock and handoff pollers can now be stopped. The running app is unchanged: the daemon still starts them once and keeps them for its life. Server tests stop them when they finish, so more of those tests can run in a shared test worker.\n\nThe memory pressure service gets the same kind of stop, which also clears the level the load dot reads. The daemon still stops it when its server closes; a server test that starts it without a server now stops it too.",
+      "sourceSha": "e363b801748d111d46e3719925a998c5b61327f1",
+      "identity": "agent-sync-poller-stop:cda5d7dc9c176610841aff4ed3070952a2ba091c582424e78aaccfd54921f449"
     }
   ],
   "consumedIntentIds": [
