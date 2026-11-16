@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e657dc043853108edebfaaab98c5f323b880dfd6",
+  "cursorSha": "d6d8e5860b6fa2770628f4fcd8119de080cb661b",
   "highWaterVersion": "1.569.13",
   "rows": [
     {
@@ -175624,6 +175624,13 @@
       "intentIds": [
         "plan-fits-without-scrolling:ff1d5419a5afd64fc3128b0ca38234eac436ef51ad9b4fec358662c29ffc9beb"
       ]
+    },
+    {
+      "sourceSha": "d6d8e5860b6fa2770628f4fcd8119de080cb661b",
+      "sourcePackageVersion": "1.569.12",
+      "intentIds": [
+        "feed-hides-confirming-read:064518a715f850661abd6aae5752149cf1064758d2770eed67f7b4a84dbddd48"
+      ]
     }
   ],
   "intents": [
@@ -186794,6 +186801,14 @@
       "summary": "Choose a plan in the app's onboarding now fits the dialog without scrolling: Free and Team sit side by side with three short points each, Team's points start \"Everything in Free, plus:\", Team shows a Hosting included tag, and Team's size is a dropdown.",
       "sourceSha": "e657dc043853108edebfaaab98c5f323b880dfd6",
       "identity": "plan-fits-without-scrolling:ff1d5419a5afd64fc3128b0ca38234eac436ef51ad9b4fec358662c29ffc9beb"
+    },
+    {
+      "id": "feed-hides-confirming-read",
+      "digest": "064518a715f850661abd6aae5752149cf1064758d2770eed67f7b4a84dbddd48",
+      "type": "patch",
+      "summary": "Archived and deleted feed rows no longer flicker back: a hide ends only on a server read of the same query asked after the write, and an older feed read that lands late is discarded.",
+      "sourceSha": "d6d8e5860b6fa2770628f4fcd8119de080cb661b",
+      "identity": "feed-hides-confirming-read:064518a715f850661abd6aae5752149cf1064758d2770eed67f7b4a84dbddd48"
     }
   ],
   "consumedIntentIds": [
