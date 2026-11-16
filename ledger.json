@@ -95907,10 +95907,14 @@
       "publicationDate": "2026-11-16T21:09:12.818Z",
       "releaseId": null,
       "mac": {
-        "status": "pending",
-        "generation": 1,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 2,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43957193090",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-17T21:10:19.097Z",
         "dispatch": null,
         "failures": [
           {
