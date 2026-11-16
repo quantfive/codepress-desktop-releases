@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "83582b9cf64111de8678d7a1320468adedb89805",
+  "cursorSha": "6ed7d135496dff9edc9db191ff4c7cee30fbf0bf",
   "highWaterVersion": "1.569.8",
   "rows": [
     {
@@ -175196,6 +175196,18 @@
       "sourceSha": "83582b9cf64111de8678d7a1320468adedb89805",
       "sourcePackageVersion": "1.569.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0a011a022a7be7103f3e35f95f536e08691c6108",
+      "sourcePackageVersion": "1.569.8",
+      "intentIds": [
+        "terminal-automations-settings-tab:831392330d31bfd076c75970acf5acb2ffca1e29d148fcdc0611d3b1e4ec1add"
+      ]
+    },
+    {
+      "sourceSha": "6ed7d135496dff9edc9db191ff4c7cee30fbf0bf",
+      "sourcePackageVersion": "1.569.8",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -186294,6 +186306,14 @@
       "summary": "Agent sync's cloud lock and handoff pollers can now be stopped. The running app is unchanged: the daemon still starts them once and keeps them for its life. Server tests stop them when they finish, so more of those tests can run in a shared test worker.\n\nThe memory pressure service gets the same kind of stop, which also clears the level the load dot reads. The daemon still stops it when its server closes; a server test that starts it without a server now stops it too.",
       "sourceSha": "e363b801748d111d46e3719925a998c5b61327f1",
       "identity": "agent-sync-poller-stop:cda5d7dc9c176610841aff4ed3070952a2ba091c582424e78aaccfd54921f449"
+    },
+    {
+      "id": "terminal-automations-settings-tab",
+      "digest": "831392330d31bfd076c75970acf5acb2ffca1e29d148fcdc0611d3b1e4ec1add",
+      "type": "patch",
+      "summary": "Settings has a new Automations tab under This computer. Running your automations, team automations, sandbox setup, the automation budget, \"Take no new automations\", running automations, team passkeys and the asks waiting for you moved there from General. The tab shows only when this computer can run automations.",
+      "sourceSha": "0a011a022a7be7103f3e35f95f536e08691c6108",
+      "identity": "terminal-automations-settings-tab:831392330d31bfd076c75970acf5acb2ffca1e29d148fcdc0611d3b1e4ec1add"
     }
   ],
   "consumedIntentIds": [
