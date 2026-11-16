@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "966073b69c250854c6cda10a5827bb285d10edd8",
+  "cursorSha": "729c5ddef34ef462404972cda1e00b97110273a2",
   "highWaterVersion": "1.568.5",
   "rows": [
     {
@@ -174344,6 +174344,13 @@
       "intentIds": [
         "agents-know-this-machine:24574ceda0178380a97730bd3f47ba405ed2ebfe09f9ada9befa530c1472ab38"
       ]
+    },
+    {
+      "sourceSha": "729c5ddef34ef462404972cda1e00b97110273a2",
+      "sourcePackageVersion": "1.568.4",
+      "intentIds": [
+        "chat-answer-dock:989eef0faca261c09a0e7fe9de56d359df671d4d1ea7ae56354893cdb762a27b"
+      ]
     }
   ],
   "intents": [
@@ -185346,6 +185353,14 @@
       "summary": "Agents know which machine they run on: `list_machines` now lists the machine that answers first, marked `is_this_machine: true` under the name the person gave it (a headless CLI machine's enrolled name, else the computer's own name), so a query like \"128gb\" run on 128gb finds it. Every Orchestrator's \"Where you run\" message now names this machine.",
       "sourceSha": "966073b69c250854c6cda10a5827bb285d10edd8",
       "identity": "agents-know-this-machine:24574ceda0178380a97730bd3f47ba405ed2ebfe09f9ada9befa530c1472ab38"
+    },
+    {
+      "id": "chat-answer-dock",
+      "digest": "989eef0faca261c09a0e7fe9de56d359df671d4d1ea7ae56354893cdb762a27b",
+      "type": "minor",
+      "summary": "Cloud chats show an agent's open proposal and open question in the Answer Dock above the message box, one at a time with the pager, while the transcript card says \"Answer it below.\" A Team reader gets the proposal above their own composer.",
+      "sourceSha": "729c5ddef34ef462404972cda1e00b97110273a2",
+      "identity": "chat-answer-dock:989eef0faca261c09a0e7fe9de56d359df671d4d1ea7ae56354893cdb762a27b"
     }
   ],
   "consumedIntentIds": [
