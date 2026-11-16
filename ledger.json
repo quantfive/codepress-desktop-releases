@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "bb9ddcb9ca7174cef5923fb7f4ac9a5c095a1518",
+  "cursorSha": "25c00691bde591042c1cf28e5a7d0578ce2a786c",
   "highWaterVersion": "1.569.1",
   "rows": [
     {
@@ -174561,6 +174561,13 @@
       "sourceSha": "bb9ddcb9ca7174cef5923fb7f4ac9a5c095a1518",
       "sourcePackageVersion": "1.569.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "25c00691bde591042c1cf28e5a7d0578ce2a786c",
+      "sourcePackageVersion": "1.569.0",
+      "intentIds": [
+        "terminal-vitest-cache-warm-up:6795bfa75ada856cb7f4e7469791e6ad0c7329a534c51f768744e67d96d60121"
+      ]
     }
   ],
   "intents": [
@@ -185595,6 +185602,14 @@
       "summary": "Machines menu: the shared machine picker can now fold older machines under an \"Older machines (N)\" row that opens in place, and offers a Remove button on rows the host marks as removable. Terminal does not supply older machines or Remove yet, so its menu looks the same, except that teammates' shared computers are always listed together after your own.",
       "sourceSha": "2c8994c13804db655aac38d42efa9d93f94cfe2f",
       "identity": "machine-menu-older-group:487cdfadc23d233ced19402603d5364ceb9c6370a48f4d3f0c52bea5d51922b0"
+    },
+    {
+      "id": "terminal-vitest-cache-warm-up",
+      "digest": "6795bfa75ada856cb7f4e7469791e6ad0c7329a534c51f768744e67d96d60121",
+      "type": "patch",
+      "summary": "CI only: every Terminal unit shard now restores one warm Vitest transform cache, whatever the shard count, and a 6-hourly warm-up on main is the only thing that saves it. Nothing in the app changes.",
+      "sourceSha": "25c00691bde591042c1cf28e5a7d0578ce2a786c",
+      "identity": "terminal-vitest-cache-warm-up:6795bfa75ada856cb7f4e7469791e6ad0c7329a534c51f768744e67d96d60121"
     }
   ],
   "consumedIntentIds": [
