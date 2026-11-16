@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b6eb51cc92150538cfba56112b513c5fee805cfe",
+  "cursorSha": "5c9e6be7ed883de3cc09486c1ce423a982661963",
   "highWaterVersion": "1.570.2",
   "rows": [
     {
@@ -175848,6 +175848,18 @@
       "intentIds": [
         "terminal-app-project-panel:858828c20284c78696acb4fa9737054794385eb8e7eb35dfc5d5a0373ff3eae3"
       ]
+    },
+    {
+      "sourceSha": "82bb853c88ce90f53da92d40d47388b36dc332e3",
+      "sourcePackageVersion": "1.570.1",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "5c9e6be7ed883de3cc09486c1ce423a982661963",
+      "sourcePackageVersion": "1.570.1",
+      "intentIds": [
+        "plan-website-hosting:528423fd93d39601e76f3a590d6c14663c0d95e504e302902c7b674721839962"
+      ]
     }
   ],
   "intents": [
@@ -187042,6 +187054,14 @@
       "summary": "With Orchestrator for Apps on, an App's page lists the Orchestrator projects changing it in its chat list, and opens one (from the list or a `?chat=` link) in the chat column with the Agents tab's project header, its steps, thread, Dock and composer; Open plan shows its plans over the App.",
       "sourceSha": "b6eb51cc92150538cfba56112b513c5fee805cfe",
       "identity": "terminal-app-project-panel:858828c20284c78696acb4fa9737054794385eb8e7eb35dfc5d5a0373ff3eae3"
+    },
+    {
+      "id": "plan-website-hosting",
+      "digest": "528423fd93d39601e76f3a590d6c14663c0d95e504e302902c7b674721839962",
+      "type": "patch",
+      "summary": "Choose a plan in onboarding offers Website hosting at $20/month between Free and Team. Picking it opens hosting checkout in the browser, keeps the workspace on Free, and moves on once hosting is active.",
+      "sourceSha": "5c9e6be7ed883de3cc09486c1ce423a982661963",
+      "identity": "plan-website-hosting:528423fd93d39601e76f3a590d6c14663c0d95e504e302902c7b674721839962"
     }
   ],
   "consumedIntentIds": [
