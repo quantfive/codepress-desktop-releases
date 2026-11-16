@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "21bd72ec40f9ea2eab3bebfca666178db785821b",
+  "cursorSha": "7ea7dda709371135ad25b6d62a3076ee73039578",
   "highWaterVersion": "1.569.13",
   "rows": [
     {
@@ -175610,6 +175610,13 @@
       "sourceSha": "21bd72ec40f9ea2eab3bebfca666178db785821b",
       "sourcePackageVersion": "1.569.12",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7ea7dda709371135ad25b6d62a3076ee73039578",
+      "sourcePackageVersion": "1.569.12",
+      "intentIds": [
+        "terminal-machine-allowance:470d5d9e4e6751c0c7773de9b5085979bededccfb10ea919859cfd9177f31193"
+      ]
     }
   ],
   "intents": [
@@ -186764,6 +186771,14 @@
       "summary": "The App page's views (Preview, Analytics, Quality, Health, Forms, Settings) are one dropdown right after the App's name, labelled with the view you are on, at every width; the tab pills and the tab rows are gone.",
       "sourceSha": "a552eb587c79f648b4ad92d1b074817b223e0eb5",
       "identity": "app-view-switcher:9c6f802022b2e7c954139a246a5f3b2f8fa49899dc49a4a801e889638865092f"
+    },
+    {
+      "id": "terminal-machine-allowance",
+      "digest": "470d5d9e4e6751c0c7773de9b5085979bededccfb10ea919859cfd9177f31193",
+      "type": "minor",
+      "summary": "Settings → Automations: Use this machine for all automations. Allow your automations, and team automations you can run, once with the admin password, and they run here without asking each time. You can keep any one automation off this machine and undo it.",
+      "sourceSha": "7ea7dda709371135ad25b6d62a3076ee73039578",
+      "identity": "terminal-machine-allowance:470d5d9e4e6751c0c7773de9b5085979bededccfb10ea919859cfd9177f31193"
     }
   ],
   "consumedIntentIds": [
