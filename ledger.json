@@ -95907,7 +95907,7 @@
       "publicationDate": "2026-11-16T21:09:12.818Z",
       "releaseId": null,
       "mac": {
-        "status": "claimed",
+        "status": "failed",
         "generation": 1,
         "owner": {
           "ownerId": "terminal-macos-delivery",
@@ -95916,7 +95916,12 @@
         },
         "leaseUntil": "2026-11-17T21:09:52.564Z",
         "dispatch": null,
-        "failures": []
+        "failures": [
+          {
+            "code": "dispatch_failed",
+            "at": "2026-11-16T21:09:56.631Z"
+          }
+        ]
       },
       "linux": {
         "status": "pending",
