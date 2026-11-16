@@ -95725,10 +95725,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43923446147",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-17T17:55:57.506Z",
         "dispatch": null,
         "failures": []
       }
