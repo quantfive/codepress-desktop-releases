@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "ebf196cafcc1b846269c51e3240ec0106cd833eb",
-  "highWaterVersion": "1.568.2",
+  "highWaterVersion": "1.568.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -95030,6 +95030,53 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:ebf196cafcc1b846269c51e3240ec0106cd833eb",
+      "kind": "main",
+      "sequence": 2408,
+      "sourceSha": "ebf196cafcc1b846269c51e3240ec0106cd833eb",
+      "sourcePackageVersion": "1.568.1",
+      "version": "1.568.3",
+      "batch": {
+        "intentIds": [
+          "terminal-e2e-affected-only:43f7557a2dae269ca1bf0700e7833b93c05ade7eae884a7eb59cd3a4152c6ef4",
+          "linux-cli-release-commit-qualify:64e96831e2299fecb776d1122face3d49c7ef8d575153a64a8877bac4cbeaa28",
+          "async-process-identity:98634c8fd274da46af41317128261423228e69579a66d9bf63eb645525b88ec2"
+        ],
+        "notesIntentIds": [
+          "terminal-e2e-affected-only:43f7557a2dae269ca1bf0700e7833b93c05ade7eae884a7eb59cd3a4152c6ef4",
+          "linux-cli-release-commit-qualify:64e96831e2299fecb776d1122face3d49c7ef8d575153a64a8877bac4cbeaa28",
+          "async-process-identity:98634c8fd274da46af41317128261423228e69579a66d9bf63eb645525b88ec2"
+        ],
+        "throughSourceSha": "ebf196cafcc1b846269c51e3240ec0106cd833eb",
+        "previousThroughSourceSha": "1261a2fc712956dc7e43ab4ceecf842bd9bd196e",
+        "baselineVersion": "1.568.2",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-16T00:04:47.943Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43778181042",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-17T00:04:40.724Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -186403,7 +186450,10 @@
     "power-profile-bounded-ps:093158377bc21e03cddcb8b47dfd6cc1cc4af2b4d231f0bcaf962aece88c2f3c",
     "feed-run-card-menu:b9b62728e5578106e8d4960dcd00c1670f04907f78040100c78f1dff6d46637e",
     "kickoff-opens-on-defaults:4d3bc54d3dbed7ec558b6af656754b0061adbc284e6c2a1407781bd3d582cb8e",
-    "honest-up-to-date-fleet:db3f7e3880c16ef8d37619fb94ad863b85a6243bbb3fb2c201c50b7ad36e4213"
+    "honest-up-to-date-fleet:db3f7e3880c16ef8d37619fb94ad863b85a6243bbb3fb2c201c50b7ad36e4213",
+    "terminal-e2e-affected-only:43f7557a2dae269ca1bf0700e7833b93c05ade7eae884a7eb59cd3a4152c6ef4",
+    "linux-cli-release-commit-qualify:64e96831e2299fecb776d1122face3d49c7ef8d575153a64a8877bac4cbeaa28",
+    "async-process-identity:98634c8fd274da46af41317128261423228e69579a66d9bf63eb645525b88ec2"
   ],
-  "consumedThroughSha": "1261a2fc712956dc7e43ab4ceecf842bd9bd196e"
+  "consumedThroughSha": "ebf196cafcc1b846269c51e3240ec0106cd833eb"
 }
