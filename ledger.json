@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b6d1bfc48971ec699e17b194ade63f9b8260055e",
+  "cursorSha": "cd97faeb875cd7dbb6d7b82a985eb4601eb20b3d",
   "highWaterVersion": "1.569.11",
   "rows": [
     {
@@ -175441,6 +175441,13 @@
       "sourceSha": "b6d1bfc48971ec699e17b194ade63f9b8260055e",
       "sourcePackageVersion": "1.569.10",
       "intentIds": []
+    },
+    {
+      "sourceSha": "cd97faeb875cd7dbb6d7b82a985eb4601eb20b3d",
+      "sourcePackageVersion": "1.569.10",
+      "intentIds": [
+        "bigger-onboarding-dialog:fe9d09a25ea237d9a3ee421e15667c614fa59e4a795279cf888ba2424cfdf4a9"
+      ]
     }
   ],
   "intents": [
@@ -186563,6 +186570,14 @@
       "summary": "Let agents use this machine now shows this machine's own permissions first: the macOS permissions on a Mac, and the Linux line (with the Wayland note) on Linux, above the Agents switches.",
       "sourceSha": "bd603d8b8584b4a9abf24b00a6cf07d69b0e8589",
       "identity": "permissions-own-first:109ad214d3fa4573cd12b37eaee0248c97e339eacc06276d26aa06c1af22a3db"
+    },
+    {
+      "id": "bigger-onboarding-dialog",
+      "digest": "fe9d09a25ea237d9a3ee421e15667c614fa59e4a795279cf888ba2424cfdf4a9",
+      "type": "patch",
+      "summary": "The app's onboarding dialog (first run, Replay onboarding and Add workspace) now grows with the window, 24px from each edge, up to 1280×900, so each step has more room.",
+      "sourceSha": "cd97faeb875cd7dbb6d7b82a985eb4601eb20b3d",
+      "identity": "bigger-onboarding-dialog:fe9d09a25ea237d9a3ee421e15667c614fa59e4a795279cf888ba2424cfdf4a9"
     }
   ],
   "consumedIntentIds": [
