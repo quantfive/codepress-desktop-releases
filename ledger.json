@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1beca70180ced2d62752f9b3a5fa0e83f069a4c3",
+  "cursorSha": "e92d480a79c32c8ca7a2a10f2791173557a00cb7",
   "highWaterVersion": "1.570.3",
   "rows": [
     {
@@ -175912,6 +175912,13 @@
       "sourceSha": "1beca70180ced2d62752f9b3a5fa0e83f069a4c3",
       "sourcePackageVersion": "1.570.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e92d480a79c32c8ca7a2a10f2791173557a00cb7",
+      "sourcePackageVersion": "1.570.2",
+      "intentIds": [
+        "app-toolbar-option-c:fe8dc05db639c8484a5039deb4c895db99e459c954e298b506e25e43a2aed6c5"
+      ]
     }
   ],
   "intents": [
@@ -187114,6 +187121,14 @@
       "summary": "Choose a plan in onboarding offers Website hosting at $20/month between Free and Team. Picking it opens hosting checkout in the browser, keeps the workspace on Free, and moves on once hosting is active.",
       "sourceSha": "5c9e6be7ed883de3cc09486c1ce423a982661963",
       "identity": "plan-website-hosting:528423fd93d39601e76f3a590d6c14663c0d95e504e302902c7b674721839962"
+    },
+    {
+      "id": "app-toolbar-option-c",
+      "digest": "fe8dc05db639c8484a5039deb4c895db99e459c954e298b506e25e43a2aed6c5",
+      "type": "patch",
+      "summary": "App page toolbar: the Live site picker is the line under the App's name, the preview tools sit together in the middle of the bar and stay inline at 1280 with the chat open, and Select an element moves into the App chat's composer beside Tools.",
+      "sourceSha": "e92d480a79c32c8ca7a2a10f2791173557a00cb7",
+      "identity": "app-toolbar-option-c:fe8dc05db639c8484a5039deb4c895db99e459c954e298b506e25e43a2aed6c5"
     }
   ],
   "consumedIntentIds": [
