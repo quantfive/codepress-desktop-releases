@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "b6d1bfc48971ec699e17b194ade63f9b8260055e",
-  "highWaterVersion": "1.569.10",
+  "highWaterVersion": "1.569.11",
   "rows": [
     {
       "schemaVersion": 1,
@@ -95787,6 +95787,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:b6d1bfc48971ec699e17b194ade63f9b8260055e",
+      "kind": "main",
+      "sequence": 2422,
+      "sourceSha": "b6d1bfc48971ec699e17b194ade63f9b8260055e",
+      "sourcePackageVersion": "1.569.10",
+      "version": "1.569.11",
+      "batch": {
+        "intentIds": [
+          "permissions-own-first:109ad214d3fa4573cd12b37eaee0248c97e339eacc06276d26aa06c1af22a3db"
+        ],
+        "notesIntentIds": [
+          "permissions-own-first:109ad214d3fa4573cd12b37eaee0248c97e339eacc06276d26aa06c1af22a3db"
+        ],
+        "throughSourceSha": "b6d1bfc48971ec699e17b194ade63f9b8260055e",
+        "previousThroughSourceSha": "3ae4676a6ad04547271b89ba640057ca9b5195bf",
+        "baselineVersion": "1.569.10",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-16T20:19:09.485Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43948425761",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-17T20:19:00.588Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -187907,7 +187950,8 @@
     "pool-stamp-and-superseded-clock:e7b8f894d30be065b509dad54e1a24c631e7affcd3060ea3e31b4e295991fa61",
     "agent-sync-poller-stop:cda5d7dc9c176610841aff4ed3070952a2ba091c582424e78aaccfd54921f449",
     "terminal-automations-settings-tab:831392330d31bfd076c75970acf5acb2ffca1e29d148fcdc0611d3b1e4ec1add",
-    "terminal-automation-budget-admission:31740a7f8c2e3af76a6ee43092622792cbe978195231d3fc86a2c1d968488080"
+    "terminal-automation-budget-admission:31740a7f8c2e3af76a6ee43092622792cbe978195231d3fc86a2c1d968488080",
+    "permissions-own-first:109ad214d3fa4573cd12b37eaee0248c97e339eacc06276d26aa06c1af22a3db"
   ],
-  "consumedThroughSha": "3ae4676a6ad04547271b89ba640057ca9b5195bf"
+  "consumedThroughSha": "b6d1bfc48971ec699e17b194ade63f9b8260055e"
 }
