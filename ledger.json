@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "637cc4883cfb138ce3b3451a4425b34b8fa71979",
+  "cursorSha": "afc2e5fbc7aa84cd997f1110b4898eadeb757b76",
   "highWaterVersion": "1.568.3",
   "rows": [
     {
@@ -174128,6 +174128,13 @@
       "sourceSha": "637cc4883cfb138ce3b3451a4425b34b8fa71979",
       "sourcePackageVersion": "1.568.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "afc2e5fbc7aa84cd997f1110b4898eadeb757b76",
+      "sourcePackageVersion": "1.568.1",
+      "intentIds": [
+        "launch-compaction-report-rows:11a9693b08f588aac1020617ae9641cf13b2369ac240ec4cd31b2b7dc2250fb3"
+      ]
     }
   ],
   "intents": [
@@ -185090,6 +185097,14 @@
       "summary": "Process cleanup no longer freezes Terminal on a busy machine: before signalling, Terminal checks that each process is still the one it chose with one quick read instead of a slow check per process, and a terminal broker whose process number was reused by another program is now recognised as gone.",
       "sourceSha": "ebf196cafcc1b846269c51e3240ec0106cd833eb",
       "identity": "async-process-identity:98634c8fd274da46af41317128261423228e69579a66d9bf63eb645525b88ec2"
+    },
+    {
+      "id": "launch-compaction-report-rows",
+      "digest": "11a9693b08f588aac1020617ae9641cf13b2369ac240ec4cd31b2b7dc2250fb3",
+      "type": "patch",
+      "summary": "The local launch-compaction trial report now lists every compaction in the period, one row each, after its totals.",
+      "sourceSha": "afc2e5fbc7aa84cd997f1110b4898eadeb757b76",
+      "identity": "launch-compaction-report-rows:11a9693b08f588aac1020617ae9641cf13b2369ac240ec4cd31b2b7dc2250fb3"
     }
   ],
   "consumedIntentIds": [
