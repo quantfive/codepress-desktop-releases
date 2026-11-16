@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c8ae2ce68a91dd9a2c4c6aabdb7edc54897bea02",
+  "cursorSha": "46e210d935009e969cb4272c59fdfbe3cddc9db0",
   "highWaterVersion": "1.569.3",
   "rows": [
     {
@@ -174715,6 +174715,13 @@
       "sourceSha": "c8ae2ce68a91dd9a2c4c6aabdb7edc54897bea02",
       "sourcePackageVersion": "1.569.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "46e210d935009e969cb4272c59fdfbe3cddc9db0",
+      "sourcePackageVersion": "1.569.2",
+      "intentIds": [
+        "terminal-machines-menu-list:8ddc035e1b270c87523d0a979e04bddcca33bbb910621542ca6cdc3d34c97980"
+      ]
     }
   ],
   "intents": [
@@ -185773,6 +185780,14 @@
       "summary": "New macOS installs keep Terminal's data in `~/.codepress.noindex/.codepress-terminal`, with `~/.codepress-terminal` as a symlink to it. Spotlight skips folders whose name ends in `.noindex`, so it no longer re-indexes worker worktrees, scratch space and logs. Existing installs are not moved.",
       "sourceSha": "2a85a2103f97a454d392cac6185f3640e3f645b3",
       "identity": "terminal-noindex-data-folder:df9417cbf38f83b28c1d13718d66529800afd3c1dc375babbdc2e38c6cd0bb12"
+    },
+    {
+      "id": "terminal-machines-menu-list",
+      "digest": "8ddc035e1b270c87523d0a979e04bddcca33bbb910621542ca6cdc3d34c97980",
+      "type": "patch",
+      "summary": "The Machines menu lists the same computers, in the same order and with the same Older machines group, as the phone and the web. This machine comes first, tagged \"This machine\" under its given name; each row keeps its desktop, terminal and new-window buttons; an offline computer can be removed, with Undo. If the list cannot be read, the menu shows the Remote Access computers as before.",
+      "sourceSha": "46e210d935009e969cb4272c59fdfbe3cddc9db0",
+      "identity": "terminal-machines-menu-list:8ddc035e1b270c87523d0a979e04bddcca33bbb910621542ca6cdc3d34c97980"
     }
   ],
   "consumedIntentIds": [
