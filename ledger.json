@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5f255a4d126d3d9b194f9735e2462fcf06477763",
+  "cursorSha": "cd0937eb0d28e77433cf810d1586491975c01d31",
   "highWaterVersion": "1.568.4",
   "rows": [
     {
@@ -174254,6 +174254,18 @@
       "sourceSha": "5f255a4d126d3d9b194f9735e2462fcf06477763",
       "sourcePackageVersion": "1.568.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d7e821e3b46761563ff29a68e3644a5262ab06e5",
+      "sourcePackageVersion": "1.568.1",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "cd0937eb0d28e77433cf810d1586491975c01d31",
+      "sourcePackageVersion": "1.568.1",
+      "intentIds": [
+        "plan-ask-open-thread-refresh:2e2d58b654e41f28ac289f46507f05a23c9e43490bff39c7b6fffe2e4910a84d"
+      ]
     }
   ],
   "intents": [
@@ -185232,6 +185244,14 @@
       "summary": "A remote request no longer gets a spurious \"Security status unavailable\" (503) when the cached secure-access status expires in the instant between reading it and admitting the request. Every admission now reads the status once more in that case, as remote previews already did.",
       "sourceSha": "3f366a30c39b94b0cface1f715cb40382a086a9a",
       "identity": "admission-status-reread:b723f13de6970eccfc455e2d84e9c621f2ab899b10ba2d49c2e317b3e4f73be6"
+    },
+    {
+      "id": "plan-ask-open-thread-refresh",
+      "digest": "2e2d58b654e41f28ac289f46507f05a23c9e43490bff39c7b6fffe2e4910a84d",
+      "type": "patch",
+      "summary": "The \"Start the build\" plan approval now appears in the project you already have open as soon as the Orchestrator's turn ends, without switching projects and back.",
+      "sourceSha": "cd0937eb0d28e77433cf810d1586491975c01d31",
+      "identity": "plan-ask-open-thread-refresh:2e2d58b654e41f28ac289f46507f05a23c9e43490bff39c7b6fffe2e4910a84d"
     }
   ],
   "consumedIntentIds": [
