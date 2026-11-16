@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c6ad3a7a6073d0cb0a5310d09ae3f60738ec7588",
+  "cursorSha": "ebf196cafcc1b846269c51e3240ec0106cd833eb",
   "highWaterVersion": "1.568.2",
   "rows": [
     {
@@ -174065,6 +174065,13 @@
       "sourceSha": "c6ad3a7a6073d0cb0a5310d09ae3f60738ec7588",
       "sourcePackageVersion": "1.568.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ebf196cafcc1b846269c51e3240ec0106cd833eb",
+      "sourcePackageVersion": "1.568.1",
+      "intentIds": [
+        "async-process-identity:98634c8fd274da46af41317128261423228e69579a66d9bf63eb645525b88ec2"
+      ]
     }
   ],
   "intents": [
@@ -185019,6 +185026,14 @@
       "summary": "Linux Server CLI releases publish again: the Linux CLI build accepts the release commit it checks out when that commit sits directly on the release's source commit, and a failed Linux CLI build now names its cause in the release run summary.",
       "sourceSha": "36bfe7b6e864bd8f2fbd153f2b32d2386c984fc5",
       "identity": "linux-cli-release-commit-qualify:64e96831e2299fecb776d1122face3d49c7ef8d575153a64a8877bac4cbeaa28"
+    },
+    {
+      "id": "async-process-identity",
+      "digest": "98634c8fd274da46af41317128261423228e69579a66d9bf63eb645525b88ec2",
+      "type": "patch",
+      "summary": "Process cleanup no longer freezes Terminal on a busy machine: before signalling, Terminal checks that each process is still the one it chose with one quick read instead of a slow check per process, and a terminal broker whose process number was reused by another program is now recognised as gone.",
+      "sourceSha": "ebf196cafcc1b846269c51e3240ec0106cd833eb",
+      "identity": "async-process-identity:98634c8fd274da46af41317128261423228e69579a66d9bf63eb645525b88ec2"
     }
   ],
   "consumedIntentIds": [
