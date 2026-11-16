@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "25fb34b111512769abd0eaa42b7c5125da024a26",
+  "cursorSha": "d4af82e74a4e7852a4bac6f9e85195b55c33e3f0",
   "highWaterVersion": "1.569.1",
   "rows": [
     {
@@ -174522,6 +174522,18 @@
       "intentIds": [
         "sync-probe-guard:9b36bdee8863cd24a0f3602955d9aebe9e011e4f306946170be6195431176fe6"
       ]
+    },
+    {
+      "sourceSha": "60503aa0bd6e71c1347a763da57a800778fced5c",
+      "sourcePackageVersion": "1.569.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "d4af82e74a4e7852a4bac6f9e85195b55c33e3f0",
+      "sourcePackageVersion": "1.569.0",
+      "intentIds": [
+        "design-kit-skill-core:d7b655ac0d1f52698b8cdec3ac6e3811ab4aaa29ac793dfe4a84fcfcdc37fc87"
+      ]
     }
   ],
   "intents": [
@@ -185540,6 +185552,14 @@
       "summary": "Terminal no longer pauses while it checks on processes in the background: tidying up finished workers, recovering launches a stopped Terminal had queued, pausing and resuming agents, and recording new agent processes now read process details without blocking. Restarting the tunnel also no longer stops an unrelated program that happened to reuse the old tunnel's process number after a crash.",
       "sourceSha": "25fb34b111512769abd0eaa42b7c5125da024a26",
       "identity": "sync-probe-guard:9b36bdee8863cd24a0f3602955d9aebe9e011e4f306946170be6195431176fe6"
+    },
+    {
+      "id": "design-kit-skill-core",
+      "digest": "d7b655ac0d1f52698b8cdec3ac6e3811ab4aaa29ac793dfe4a84fcfcdc37fc87",
+      "type": "patch",
+      "summary": "The Orchestrator's design kit steps now fetch the kit with `design-kit fetch --url` and put plan-page mockups on the page with `kit.mjs figure --page`, and a Project folder with no known repository is told to read its `owner/repo` from the checkout's remote.",
+      "sourceSha": "d4af82e74a4e7852a4bac6f9e85195b55c33e3f0",
+      "identity": "design-kit-skill-core:d7b655ac0d1f52698b8cdec3ac6e3811ab4aaa29ac793dfe4a84fcfcdc37fc87"
     }
   ],
   "consumedIntentIds": [
