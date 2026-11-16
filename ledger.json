@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "25fb34b111512769abd0eaa42b7c5125da024a26",
-  "highWaterVersion": "1.569.0",
+  "highWaterVersion": "1.569.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -95244,6 +95244,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:25fb34b111512769abd0eaa42b7c5125da024a26",
+      "kind": "main",
+      "sequence": 2412,
+      "sourceSha": "25fb34b111512769abd0eaa42b7c5125da024a26",
+      "sourcePackageVersion": "1.569.0",
+      "version": "1.569.1",
+      "batch": {
+        "intentIds": [
+          "sync-probe-guard:9b36bdee8863cd24a0f3602955d9aebe9e011e4f306946170be6195431176fe6"
+        ],
+        "notesIntentIds": [
+          "sync-probe-guard:9b36bdee8863cd24a0f3602955d9aebe9e011e4f306946170be6195431176fe6"
+        ],
+        "throughSourceSha": "25fb34b111512769abd0eaa42b7c5125da024a26",
+        "previousThroughSourceSha": "a91ca40044ac262cdc4448f17486a33c8a179baa",
+        "baselineVersion": "1.569.0",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-16T02:07:10.273Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43790131226",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-17T02:07:00.351Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -186871,7 +186914,8 @@
     "plan-ask-open-thread-refresh:2e2d58b654e41f28ac289f46507f05a23c9e43490bff39c7b6fffe2e4910a84d",
     "design-kit-adoption-tune:62d5bd874b12cd703e37945c187ac6c8a8655997cd3bf228d739485a2a44422c",
     "agents-know-this-machine:24574ceda0178380a97730bd3f47ba405ed2ebfe09f9ada9befa530c1472ab38",
-    "chat-answer-dock:989eef0faca261c09a0e7fe9de56d359df671d4d1ea7ae56354893cdb762a27b"
+    "chat-answer-dock:989eef0faca261c09a0e7fe9de56d359df671d4d1ea7ae56354893cdb762a27b",
+    "sync-probe-guard:9b36bdee8863cd24a0f3602955d9aebe9e011e4f306946170be6195431176fe6"
   ],
-  "consumedThroughSha": "a91ca40044ac262cdc4448f17486a33c8a179baa"
+  "consumedThroughSha": "25fb34b111512769abd0eaa42b7c5125da024a26"
 }
