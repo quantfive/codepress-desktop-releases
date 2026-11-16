@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "8646ef9b6e5c0f1309d021078cd789d8595dd122",
-  "highWaterVersion": "1.568.3",
+  "highWaterVersion": "1.568.4",
   "rows": [
     {
       "schemaVersion": 1,
@@ -95081,6 +95081,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:8646ef9b6e5c0f1309d021078cd789d8595dd122",
+      "kind": "main",
+      "sequence": 2409,
+      "sourceSha": "8646ef9b6e5c0f1309d021078cd789d8595dd122",
+      "sourcePackageVersion": "1.568.1",
+      "version": "1.568.4",
+      "batch": {
+        "intentIds": [
+          "launch-compaction-report-rows:11a9693b08f588aac1020617ae9641cf13b2369ac240ec4cd31b2b7dc2250fb3"
+        ],
+        "notesIntentIds": [
+          "launch-compaction-report-rows:11a9693b08f588aac1020617ae9641cf13b2369ac240ec4cd31b2b7dc2250fb3"
+        ],
+        "throughSourceSha": "8646ef9b6e5c0f1309d021078cd789d8595dd122",
+        "previousThroughSourceSha": "ebf196cafcc1b846269c51e3240ec0106cd833eb",
+        "baselineVersion": "1.568.3",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-16T00:32:23.033Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43780914683",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-17T00:32:15.719Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -186502,7 +186545,8 @@
     "honest-up-to-date-fleet:db3f7e3880c16ef8d37619fb94ad863b85a6243bbb3fb2c201c50b7ad36e4213",
     "terminal-e2e-affected-only:43f7557a2dae269ca1bf0700e7833b93c05ade7eae884a7eb59cd3a4152c6ef4",
     "linux-cli-release-commit-qualify:64e96831e2299fecb776d1122face3d49c7ef8d575153a64a8877bac4cbeaa28",
-    "async-process-identity:98634c8fd274da46af41317128261423228e69579a66d9bf63eb645525b88ec2"
+    "async-process-identity:98634c8fd274da46af41317128261423228e69579a66d9bf63eb645525b88ec2",
+    "launch-compaction-report-rows:11a9693b08f588aac1020617ae9641cf13b2369ac240ec4cd31b2b7dc2250fb3"
   ],
-  "consumedThroughSha": "ebf196cafcc1b846269c51e3240ec0106cd833eb"
+  "consumedThroughSha": "8646ef9b6e5c0f1309d021078cd789d8595dd122"
 }
