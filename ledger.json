@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c1025979bf1dfbd7164d56bba1bb47bf54992dbf",
+  "cursorSha": "27304a20509add6c2c7de84cf5efea8c813860b9",
   "highWaterVersion": "1.569.12",
   "rows": [
     {
@@ -175517,6 +175517,13 @@
       "sourceSha": "c1025979bf1dfbd7164d56bba1bb47bf54992dbf",
       "sourcePackageVersion": "1.569.11",
       "intentIds": []
+    },
+    {
+      "sourceSha": "27304a20509add6c2c7de84cf5efea8c813860b9",
+      "sourcePackageVersion": "1.569.11",
+      "intentIds": [
+        "app-onboarding-sidebar-step:25adc1e179de0953feed1e5f5c67b655b87d6b80074f15b3aaa44fbb3a0fcfa7"
+      ]
     }
   ],
   "intents": [
@@ -186655,6 +186662,14 @@
       "summary": "Agents running on this machine for a cloud chat or project can work in the org's App repository with no GitHub login: they read with a short-lived read-only token and push through CodePress, which pushes as the CodePress GitHub App.",
       "sourceSha": "7bb98bcd235a87ce26ea6a57d06c64939d4c0913",
       "identity": "machine-git-relay:dd09eaea9abcae5772e31459a0283c5134e19f3c2d82c45d119f0d4c37e04952"
+    },
+    {
+      "id": "app-onboarding-sidebar-step",
+      "digest": "25adc1e179de0953feed1e5f5c67b655b87d6b80074f15b3aaa44fbb3a0fcfa7",
+      "type": "patch",
+      "summary": "The app's full onboarding and Add workspace now have \"Make the sidebar yours\" after Invite your team: show or hide sections, reorder them, pin your apps and add links, as on the web. A setup saved on the Sidebar step resumes there.",
+      "sourceSha": "27304a20509add6c2c7de84cf5efea8c813860b9",
+      "identity": "app-onboarding-sidebar-step:25adc1e179de0953feed1e5f5c67b655b87d6b80074f15b3aaa44fbb3a0fcfa7"
     }
   ],
   "consumedIntentIds": [
