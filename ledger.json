@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3f366a30c39b94b0cface1f715cb40382a086a9a",
+  "cursorSha": "f08dd69e069914235f5364c371fe4ffed3ba3331",
   "highWaterVersion": "1.568.4",
   "rows": [
     {
@@ -174224,6 +174224,11 @@
       "intentIds": [
         "admission-status-reread:b723f13de6970eccfc455e2d84e9c621f2ab899b10ba2d49c2e317b3e4f73be6"
       ]
+    },
+    {
+      "sourceSha": "f08dd69e069914235f5364c371fe4ffed3ba3331",
+      "sourcePackageVersion": "1.568.1",
+      "intentIds": []
     }
   ],
   "intents": [
