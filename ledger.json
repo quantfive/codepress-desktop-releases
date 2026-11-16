@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "89eca408aefc629163c972d33d58b35e352fcc6b",
-  "highWaterVersion": "1.569.5",
+  "highWaterVersion": "1.569.6",
   "rows": [
     {
       "schemaVersion": 1,
@@ -95520,6 +95520,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:89eca408aefc629163c972d33d58b35e352fcc6b",
+      "kind": "main",
+      "sequence": 2417,
+      "sourceSha": "89eca408aefc629163c972d33d58b35e352fcc6b",
+      "sourcePackageVersion": "1.569.5",
+      "version": "1.569.6",
+      "batch": {
+        "intentIds": [
+          "terminal-integration-speed:75c07319da0823658a4e64823eb4a48fc06d2ad59ab8db10821593f8d4239d8d"
+        ],
+        "notesIntentIds": [
+          "terminal-integration-speed:75c07319da0823658a4e64823eb4a48fc06d2ad59ab8db10821593f8d4239d8d"
+        ],
+        "throughSourceSha": "89eca408aefc629163c972d33d58b35e352fcc6b",
+        "previousThroughSourceSha": "fe1dffdd8c7e5e46dbd319e49360bb59e2568494",
+        "baselineVersion": "1.569.5",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-16T05:58:53.635Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43813645304",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-17T05:58:45.911Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -187360,7 +187403,8 @@
     "proposal-chat-proposer-header:455757a6907348358c23cc351533369f36afaf83df89ca0a61bb4b26255391e9",
     "terminal-noindex-data-folder:df9417cbf38f83b28c1d13718d66529800afd3c1dc375babbdc2e38c6cd0bb12",
     "terminal-machines-menu-list:8ddc035e1b270c87523d0a979e04bddcca33bbb910621542ca6cdc3d34c97980",
-    "quiet-dialog-answer-posts:6ea644f091fc72918838180eda636267c33d20219b6e2db9093ca0ac03dc98c9"
+    "quiet-dialog-answer-posts:6ea644f091fc72918838180eda636267c33d20219b6e2db9093ca0ac03dc98c9",
+    "terminal-integration-speed:75c07319da0823658a4e64823eb4a48fc06d2ad59ab8db10821593f8d4239d8d"
   ],
-  "consumedThroughSha": "fe1dffdd8c7e5e46dbd319e49360bb59e2568494"
+  "consumedThroughSha": "89eca408aefc629163c972d33d58b35e352fcc6b"
 }
