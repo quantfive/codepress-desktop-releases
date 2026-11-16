@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "2a85a2103f97a454d392cac6185f3640e3f645b3",
-  "highWaterVersion": "1.569.2",
+  "highWaterVersion": "1.569.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -95352,6 +95352,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:2a85a2103f97a454d392cac6185f3640e3f645b3",
+      "kind": "main",
+      "sequence": 2414,
+      "sourceSha": "2a85a2103f97a454d392cac6185f3640e3f645b3",
+      "sourcePackageVersion": "1.569.2",
+      "version": "1.569.3",
+      "batch": {
+        "intentIds": [
+          "terminal-noindex-data-folder:df9417cbf38f83b28c1d13718d66529800afd3c1dc375babbdc2e38c6cd0bb12"
+        ],
+        "notesIntentIds": [
+          "terminal-noindex-data-folder:df9417cbf38f83b28c1d13718d66529800afd3c1dc375babbdc2e38c6cd0bb12"
+        ],
+        "throughSourceSha": "2a85a2103f97a454d392cac6185f3640e3f645b3",
+        "previousThroughSourceSha": "17e7da3e66e9e291ca7c084c897ec9dc7dae6e81",
+        "baselineVersion": "1.569.2",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-16T03:11:21.429Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43796583718",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-17T03:11:14.152Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -187094,7 +187137,8 @@
     "design-kit-skill-core:d7b655ac0d1f52698b8cdec3ac6e3811ab4aaa29ac793dfe4a84fcfcdc37fc87",
     "machine-menu-older-group:487cdfadc23d233ced19402603d5364ceb9c6370a48f4d3f0c52bea5d51922b0",
     "terminal-vitest-cache-warm-up:6795bfa75ada856cb7f4e7469791e6ad0c7329a534c51f768744e67d96d60121",
-    "proposal-chat-proposer-header:455757a6907348358c23cc351533369f36afaf83df89ca0a61bb4b26255391e9"
+    "proposal-chat-proposer-header:455757a6907348358c23cc351533369f36afaf83df89ca0a61bb4b26255391e9",
+    "terminal-noindex-data-folder:df9417cbf38f83b28c1d13718d66529800afd3c1dc375babbdc2e38c6cd0bb12"
   ],
-  "consumedThroughSha": "17e7da3e66e9e291ca7c084c897ec9dc7dae6e81"
+  "consumedThroughSha": "2a85a2103f97a454d392cac6185f3640e3f645b3"
 }
