@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "387735a47c710c9a9b8342d9c0568b2041cad4de",
+  "cursorSha": "a552eb587c79f648b4ad92d1b074817b223e0eb5",
   "highWaterVersion": "1.569.13",
   "rows": [
     {
@@ -175590,6 +175590,13 @@
       "sourceSha": "387735a47c710c9a9b8342d9c0568b2041cad4de",
       "sourcePackageVersion": "1.569.12",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a552eb587c79f648b4ad92d1b074817b223e0eb5",
+      "sourcePackageVersion": "1.569.12",
+      "intentIds": [
+        "app-view-switcher:9c6f802022b2e7c954139a246a5f3b2f8fa49899dc49a4a801e889638865092f"
+      ]
     }
   ],
   "intents": [
@@ -186736,6 +186743,14 @@
       "summary": "The app's full onboarding and Add workspace now have \"Make the sidebar yours\" after Invite your team: show or hide sections, reorder them, pin your apps and add links, as on the web. A setup saved on the Sidebar step resumes there.",
       "sourceSha": "27304a20509add6c2c7de84cf5efea8c813860b9",
       "identity": "app-onboarding-sidebar-step:25adc1e179de0953feed1e5f5c67b655b87d6b80074f15b3aaa44fbb3a0fcfa7"
+    },
+    {
+      "id": "app-view-switcher",
+      "digest": "9c6f802022b2e7c954139a246a5f3b2f8fa49899dc49a4a801e889638865092f",
+      "type": "patch",
+      "summary": "The App page's views (Preview, Analytics, Quality, Health, Forms, Settings) are one dropdown right after the App's name, labelled with the view you are on, at every width; the tab pills and the tab rows are gone.",
+      "sourceSha": "a552eb587c79f648b4ad92d1b074817b223e0eb5",
+      "identity": "app-view-switcher:9c6f802022b2e7c954139a246a5f3b2f8fa49899dc49a4a801e889638865092f"
     }
   ],
   "consumedIntentIds": [
