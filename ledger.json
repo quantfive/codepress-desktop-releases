@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5a539f2bde397ec20a13b33b2e1142674f230375",
+  "cursorSha": "038d2d054243c5703d9ef3c91efb863239e4b065",
   "highWaterVersion": "1.569.6",
   "rows": [
     {
@@ -174957,6 +174957,13 @@
       "sourceSha": "5a539f2bde397ec20a13b33b2e1142674f230375",
       "sourcePackageVersion": "1.569.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "038d2d054243c5703d9ef3c91efb863239e4b065",
+      "sourcePackageVersion": "1.569.6",
+      "intentIds": [
+        "pool-stamp-and-superseded-clock:e7b8f894d30be065b509dad54e1a24c631e7affcd3060ea3e31b4e295991fa61"
+      ]
     }
   ],
   "intents": [
@@ -186039,6 +186046,14 @@
       "summary": "Terminal's integration tests run faster in CI: more files boot the run's one prebuilt daemon instead of compiling the server through tsx, the host handover suite runs as two files, and tests set the existing inbox coalesce, comeback wait and PTY teardown grace seams to values no case depends on. No app behavior changes.",
       "sourceSha": "89eca408aefc629163c972d33d58b35e352fcc6b",
       "identity": "terminal-integration-speed:75c07319da0823658a4e64823eb4a48fc06d2ad59ab8db10821593f8d4239d8d"
+    },
+    {
+      "id": "pool-stamp-and-superseded-clock",
+      "digest": "e7b8f894d30be065b509dad54e1a24c631e7affcd3060ea3e31b4e295991fa61",
+      "type": "patch",
+      "summary": "Claude and Codex account pools no longer act on an outdated copy of the pool file when another Terminal process rewrites it twice in quick succession: each write now dates the new file after the one it replaces, so the cached copy is always re-read. The superseded Ghostty tab close takes its read deadline from an injectable clock, with no change in behaviour.",
+      "sourceSha": "038d2d054243c5703d9ef3c91efb863239e4b065",
+      "identity": "pool-stamp-and-superseded-clock:e7b8f894d30be065b509dad54e1a24c631e7affcd3060ea3e31b4e295991fa61"
     }
   ],
   "consumedIntentIds": [
