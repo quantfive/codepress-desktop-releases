@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "f6af50771c6eeb9c905542fbfe3fd022d66fbb4d",
-  "highWaterVersion": "1.573.4",
+  "highWaterVersion": "1.573.5",
   "rows": [
     {
       "schemaVersion": 1,
@@ -97375,6 +97375,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:f6af50771c6eeb9c905542fbfe3fd022d66fbb4d",
+      "kind": "main",
+      "sequence": 2453,
+      "sourceSha": "f6af50771c6eeb9c905542fbfe3fd022d66fbb4d",
+      "sourcePackageVersion": "1.573.3",
+      "version": "1.573.5",
+      "batch": {
+        "intentIds": [
+          "prompt-approval-travels:809b48eace4ed35f20a60e82945c1470e7b9c286d942c62c0f4ddb836b9d0b1a"
+        ],
+        "notesIntentIds": [
+          "prompt-approval-travels:809b48eace4ed35f20a60e82945c1470e7b9c286d942c62c0f4ddb836b9d0b1a"
+        ],
+        "throughSourceSha": "f6af50771c6eeb9c905542fbfe3fd022d66fbb4d",
+        "previousThroughSourceSha": "868d055dfcecf8b4c68f40acb2506f1690fc2db6",
+        "baselineVersion": "1.573.4",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-17T20:20:49.984Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44168238125",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-18T20:20:41.891Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -191095,7 +191138,8 @@
     "machine-worker-relay-clone-and-checkpoint:3a962a7f972daf8bce891f98b850f4019e2f7978815306c4165e208702bdb148",
     "machine-pm-stale-runner-replace:2d252f1efe4512ebd78cb7e9192ceaff91b4fff38097706e697544f9d3d2fb24",
     "onboarding-other-connections-inline:4315439be51cd25a88ac5f7d49ce5de8782bb79ccff082451ef80889bab76d4e",
-    "onboarding-permissions-before-sidebar:12b87921e8688a55a6de6422b5eb44d5c933959b4c6f70b95041d5dbff09d0cd"
+    "onboarding-permissions-before-sidebar:12b87921e8688a55a6de6422b5eb44d5c933959b4c6f70b95041d5dbff09d0cd",
+    "prompt-approval-travels:809b48eace4ed35f20a60e82945c1470e7b9c286d942c62c0f4ddb836b9d0b1a"
   ],
-  "consumedThroughSha": "868d055dfcecf8b4c68f40acb2506f1690fc2db6"
+  "consumedThroughSha": "f6af50771c6eeb9c905542fbfe3fd022d66fbb4d"
 }
