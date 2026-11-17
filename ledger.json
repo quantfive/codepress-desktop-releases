@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "cc47da3fdb521f89c4492c2bd72a4b6a0ba66ffa",
-  "highWaterVersion": "1.573.0",
+  "highWaterVersion": "1.573.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -97163,6 +97163,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:cc47da3fdb521f89c4492c2bd72a4b6a0ba66ffa",
+      "kind": "main",
+      "sequence": 2449,
+      "sourceSha": "cc47da3fdb521f89c4492c2bd72a4b6a0ba66ffa",
+      "sourcePackageVersion": "1.573.0",
+      "version": "1.573.1",
+      "batch": {
+        "intentIds": [
+          "machine-worker-relay-clone-and-checkpoint:3a962a7f972daf8bce891f98b850f4019e2f7978815306c4165e208702bdb148"
+        ],
+        "notesIntentIds": [
+          "machine-worker-relay-clone-and-checkpoint:3a962a7f972daf8bce891f98b850f4019e2f7978815306c4165e208702bdb148"
+        ],
+        "throughSourceSha": "cc47da3fdb521f89c4492c2bd72a4b6a0ba66ffa",
+        "previousThroughSourceSha": "bdd3857a7d3ac6542d324e35540b4f1fb055a66a",
+        "baselineVersion": "1.573.0",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-17T11:05:51.972Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44070756199",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-18T11:05:43.148Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -190499,7 +190542,8 @@
     "orchestrator-context-meter-local:145bc2dd6e8afd8bc323b5911fd1eafb917612900bf9156adb915dc20a0b5c88",
     "replicas-list-etag:80b95bf6f419ad5fe437df0ae9c83438fc58d5089196edf8c46ff60cff9ef14d",
     "feed-etag-revalidation:8880922b0040158e7b224403f7569c2d4da687850e4336b212977a75ebdfb7f2",
-    "terminal-new-app-starts-a-project:b3f7e5d892a32ec730d444d65ca82fbba1b85a3a4b21fa3e0efc1f6cc0ad1fc7"
+    "terminal-new-app-starts-a-project:b3f7e5d892a32ec730d444d65ca82fbba1b85a3a4b21fa3e0efc1f6cc0ad1fc7",
+    "machine-worker-relay-clone-and-checkpoint:3a962a7f972daf8bce891f98b850f4019e2f7978815306c4165e208702bdb148"
   ],
-  "consumedThroughSha": "bdd3857a7d3ac6542d324e35540b4f1fb055a66a"
+  "consumedThroughSha": "cc47da3fdb521f89c4492c2bd72a4b6a0ba66ffa"
 }
