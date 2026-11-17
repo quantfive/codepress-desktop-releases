@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "ca42da33b44139ee01a1b81be9397fd0b448aed7",
-  "highWaterVersion": "1.571.7",
+  "highWaterVersion": "1.571.8",
   "rows": [
     {
       "schemaVersion": 1,
@@ -96904,6 +96904,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:ca42da33b44139ee01a1b81be9397fd0b448aed7",
+      "kind": "main",
+      "sequence": 2444,
+      "sourceSha": "ca42da33b44139ee01a1b81be9397fd0b448aed7",
+      "sourcePackageVersion": "1.571.7",
+      "version": "1.571.8",
+      "batch": {
+        "intentIds": [
+          "headless-principal-readiness:c381732b0214f987383f211bdc9006391930f497543bc1bebaf12f2cb377866a"
+        ],
+        "notesIntentIds": [
+          "headless-principal-readiness:c381732b0214f987383f211bdc9006391930f497543bc1bebaf12f2cb377866a"
+        ],
+        "throughSourceSha": "ca42da33b44139ee01a1b81be9397fd0b448aed7",
+        "previousThroughSourceSha": "3eda3281eafb45fabcdef7bab99ef46fd56c8b34",
+        "baselineVersion": "1.571.7",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-17T06:22:32.239Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44030662179",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-18T06:22:24.679Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -190020,7 +190063,8 @@
     "linux-unit-keeps-broker-ptys:eafcc44e31eba141d8398b5d8f30da9ded79bbe79e5de72c276022153259101b",
     "fleet-dialog-restore:b59364cf8cc32ea6584ebfb80f11f6355b4b325a73a89a2f929a1d38f0836a62",
     "handoff-checkpoint-commit-budget:59fa06c8d077f032b52cce7be4f3f6c4d8205777216b88594936cab2b328cde3",
-    "new-app-project-card:0596d929af817f98428429f3caafcd71d1293cf90467a4b62d2da5e04d386973"
+    "new-app-project-card:0596d929af817f98428429f3caafcd71d1293cf90467a4b62d2da5e04d386973",
+    "headless-principal-readiness:c381732b0214f987383f211bdc9006391930f497543bc1bebaf12f2cb377866a"
   ],
-  "consumedThroughSha": "3eda3281eafb45fabcdef7bab99ef46fd56c8b34"
+  "consumedThroughSha": "ca42da33b44139ee01a1b81be9397fd0b448aed7"
 }
