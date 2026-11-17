@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "4bbe9404afa591ff90d7ff4ed8bbc8f676151903",
-  "highWaterVersion": "1.574.0",
+  "highWaterVersion": "1.574.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -97585,6 +97585,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:4bbe9404afa591ff90d7ff4ed8bbc8f676151903",
+      "kind": "main",
+      "sequence": 2457,
+      "sourceSha": "4bbe9404afa591ff90d7ff4ed8bbc8f676151903",
+      "sourcePackageVersion": "1.574.0",
+      "version": "1.574.1",
+      "batch": {
+        "intentIds": [
+          "terminal-feed-poll-hint:3d097d7b690ff726049e44153d00c65aeb233a2c85b0060f0a4595a4daf14d00"
+        ],
+        "notesIntentIds": [
+          "terminal-feed-poll-hint:3d097d7b690ff726049e44153d00c65aeb233a2c85b0060f0a4595a4daf14d00"
+        ],
+        "throughSourceSha": "4bbe9404afa591ff90d7ff4ed8bbc8f676151903",
+        "previousThroughSourceSha": "1f04781d470d77eda1b40f81b79240b63cb4f54a",
+        "baselineVersion": "1.574.0",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-17T22:16:46.877Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44188331891",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-18T22:16:38.766Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -191543,7 +191586,8 @@
     "pinned-app-only-active:fbc8ddffaf0cb22688879be7efa8f30c0dcf2d2b3af80383217bb32a11d06e74",
     "mention-everywhere-sources:26dac54a2ba642baa3a51c61e3604ab1ce9ddb2ddcf34f55c256f464a74240bd",
     "app-plan-pane-closure:00a0a5451bd214839b2df84d67cc8e8cb76e17dd359cead4bd06f8b8ee6ea8e2",
-    "sidebar-one-list:318e6999455874b766889f8b0c19f93b4c2b3f13e7f05e8eaa4fe2f5a0a7e6e8"
+    "sidebar-one-list:318e6999455874b766889f8b0c19f93b4c2b3f13e7f05e8eaa4fe2f5a0a7e6e8",
+    "terminal-feed-poll-hint:3d097d7b690ff726049e44153d00c65aeb233a2c85b0060f0a4595a4daf14d00"
   ],
-  "consumedThroughSha": "1f04781d470d77eda1b40f81b79240b63cb4f54a"
+  "consumedThroughSha": "4bbe9404afa591ff90d7ff4ed8bbc8f676151903"
 }
