@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "bb910b21bd329ecedba9937ebc8a7f8bb3a0bc95",
+  "cursorSha": "4b3f73ca515221ae107cd7baa4e75bd09d286dd7",
   "highWaterVersion": "1.572.1",
   "rows": [
     {
@@ -177407,6 +177407,11 @@
       "intentIds": [
         "feed-etag-revalidation:8880922b0040158e7b224403f7569c2d4da687850e4336b212977a75ebdfb7f2"
       ]
+    },
+    {
+      "sourceSha": "4b3f73ca515221ae107cd7baa4e75bd09d286dd7",
+      "sourcePackageVersion": "1.572.0",
+      "intentIds": []
     }
   ],
   "intents": [
