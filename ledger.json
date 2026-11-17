@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "122d8c6503990063d24f47d6aad46a833927d08e",
+  "cursorSha": "01a9e8d814ccc60c8f66f8391b69a69ce9c53ff7",
   "highWaterVersion": "1.573.7",
   "rows": [
     {
@@ -178429,6 +178429,13 @@
       "sourceSha": "122d8c6503990063d24f47d6aad46a833927d08e",
       "sourcePackageVersion": "1.573.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "01a9e8d814ccc60c8f66f8391b69a69ce9c53ff7",
+      "sourcePackageVersion": "1.573.6",
+      "intentIds": [
+        "app-plan-pane-closure:00a0a5451bd214839b2df84d67cc8e8cb76e17dd359cead4bd06f8b8ee6ea8e2"
+      ]
     }
   ],
   "intents": [
@@ -189959,6 +189966,14 @@
       "summary": "Every Orchestrator composer's @ menu now lists the same chats: cloud chats started in Terminal, teammates' chats you follow under Chats › Following, and, in the Team view, teammates' chats under Chats › Team. Cloud project threads offer the menu too; a pick a cloud project can't carry yet is refused at send with your draft kept.",
       "sourceSha": "6da27fb461c6fbf9ce57fbd9a3bf6dfe1f8d90d5",
       "identity": "mention-everywhere-sources:26dac54a2ba642baa3a51c61e3604ab1ce9ddb2ddcf34f55c256f464a74240bd"
+    },
+    {
+      "id": "app-plan-pane-closure",
+      "digest": "00a0a5451bd214839b2df84d67cc8e8cb76e17dd359cead4bd06f8b8ee6ea8e2",
+      "type": "patch",
+      "summary": "Terminal's shared UI import manifest now lists the App page's plan pane context, which the shared App chat plan card and project panel import. Terminal looks and behaves as before.",
+      "sourceSha": "01a9e8d814ccc60c8f66f8391b69a69ce9c53ff7",
+      "identity": "app-plan-pane-closure:00a0a5451bd214839b2df84d67cc8e8cb76e17dd359cead4bd06f8b8ee6ea8e2"
     }
   ],
   "consumedIntentIds": [
