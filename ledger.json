@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "998d1c95b4b28a9c981be05c7e1f9aadcdea21f2",
+  "cursorSha": "7fc35def9a829cd99478e1e3b238b97d9218bff3",
   "highWaterVersion": "1.570.4",
   "rows": [
     {
@@ -176003,6 +176003,13 @@
       "sourceSha": "998d1c95b4b28a9c981be05c7e1f9aadcdea21f2",
       "sourcePackageVersion": "1.570.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7fc35def9a829cd99478e1e3b238b97d9218bff3",
+      "sourcePackageVersion": "1.570.4",
+      "intentIds": [
+        "onboarding-theme-close:c89198cae7910e97c0b3ddda0a88781ecfa8877d4715efed349077351f85b5e3"
+      ]
     }
   ],
   "intents": [
@@ -187221,6 +187228,14 @@
       "summary": "Answering an agent's proposal in a cloud chat, on its card or in the Answer Dock, takes the chat out of Needs you at once; a failed answer puts it back.",
       "sourceSha": "c37b0189842c4346656a46276a1ef0e8fa5ea196",
       "identity": "answer-proposal-leaves-needs-you:8dfeb672703f4f06a43dd7db277d5f89222ca1d591d3e2483f3e5d64adc56b87"
+    },
+    {
+      "id": "onboarding-theme-close",
+      "digest": "c89198cae7910e97c0b3ddda0a88781ecfa8877d4715efed349077351f85b5e3",
+      "type": "patch",
+      "summary": "Welcome's theme picker in System mode shows only the theme group for the mode your system is in now, with one theme selected and a note pointing to Settings → Appearance for the other mode. The ✕ on a replayed onboarding now closes it: the desktop window-drag strip no longer covers it.",
+      "sourceSha": "7fc35def9a829cd99478e1e3b238b97d9218bff3",
+      "identity": "onboarding-theme-close:c89198cae7910e97c0b3ddda0a88781ecfa8877d4715efed349077351f85b5e3"
     }
   ],
   "consumedIntentIds": [
