@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6d6c0c8ab99d834c2f40289e02f41a636e15f031",
+  "cursorSha": "c09e543909d673237c62472a96ecb7ab590a6b9e",
   "highWaterVersion": "1.571.5",
   "rows": [
     {
@@ -176973,6 +176973,13 @@
       "sourceSha": "6d6c0c8ab99d834c2f40289e02f41a636e15f031",
       "sourcePackageVersion": "1.571.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c09e543909d673237c62472a96ecb7ab590a6b9e",
+      "sourcePackageVersion": "1.571.4",
+      "intentIds": [
+        "handoff-resume-prompt-status:ce62f5807437d0cf3ed737ccf3f181f2535f2008d38de03e3d30ed78e59b9eff"
+      ]
     }
   ],
   "intents": [
@@ -188343,6 +188350,14 @@
       "summary": "A headless Server CLI that a live desktop app keeps from starting now says which process holds the data folder (its pid, and its systemd unit when it can be read) and how to resolve it, instead of restart-looping silently. On Linux, `codepress-terminal doctor` prints a Service section and `status` adds a Service line from `systemctl show`, warning on restart loops, drop-ins that set `ExecStartPre`, `ExecStart` or `NODE_OPTIONS`, and enabled CodePress desktop autostart entries or desktop daemon units; it never changes anything. `codepress-terminal adopt activate` now also hides enabled CodePress desktop autostart entries, and `adopt rollback` restores them exactly.",
       "sourceSha": "8a2697af4f3097785169e53dafebea2226edc5ef",
       "identity": "headless-service-diagnostics:cf48f33dba58988dd8be28da44e031a2d7c5389f3aa530dfb1ac06247bd5fdbb"
+    },
+    {
+      "id": "handoff-resume-prompt-status",
+      "digest": "ce62f5807437d0cf3ed737ccf3f181f2535f2008d38de03e3d30ed78e59b9eff",
+      "type": "patch",
+      "summary": "Resume here status now names a prompt a resumed worker tab is waiting on (`blocked_on_prompt`, such as Claude's MCP server approval), and its wait advice says to answer it there. A move whose cloud list of copies comes back without its replicas now fails with a typed `replica_list_unreadable` error instead of a TypeError, and a status asked by operation id answers the newest transfer or move for that id.",
+      "sourceSha": "c09e543909d673237c62472a96ecb7ab590a6b9e",
+      "identity": "handoff-resume-prompt-status:ce62f5807437d0cf3ed737ccf3f181f2535f2008d38de03e3d30ed78e59b9eff"
     }
   ],
   "consumedIntentIds": [
