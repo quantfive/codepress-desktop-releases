@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "446706f2cdcc98d9039d46a63f93f0240d175f54",
+  "cursorSha": "513c8b6914ab2a4146942f7912ba617ec684e033",
   "highWaterVersion": "1.573.6",
   "rows": [
     {
@@ -178351,6 +178351,13 @@
       "sourceSha": "446706f2cdcc98d9039d46a63f93f0240d175f54",
       "sourcePackageVersion": "1.573.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "513c8b6914ab2a4146942f7912ba617ec684e033",
+      "sourcePackageVersion": "1.573.4",
+      "intentIds": [
+        "pinned-app-only-active:fbc8ddffaf0cb22688879be7efa8f30c0dcf2d2b3af80383217bb32a11d06e74"
+      ]
     }
   ],
   "intents": [
@@ -189865,6 +189872,14 @@
       "summary": "Onboarding: every step scrolls in one place with its buttons always in view, and on a wide window the Sidebar step's Your links and Sections cards scroll on their own (dragging a section near a card's edge scrolls it).",
       "sourceSha": "6414c7c6fe06fa5ceb970b58b71525d8ef67db7d",
       "identity": "onboarding-one-scroll-area:f01ff2eecf0df36d10d38e7444f930e3797d5207bf632b1c2c5fa6d5d5969ed4"
+    },
+    {
+      "id": "pinned-app-only-active",
+      "digest": "fbc8ddffaf0cb22688879be7efa8f30c0dcf2d2b3af80383217bb32a11d06e74",
+      "type": "patch",
+      "summary": "Inside an App pinned to the sidebar, only that App's icon is active; Apps no longer lights at the same time. The same holds on the phone menu and when the link is folded under More.",
+      "sourceSha": "513c8b6914ab2a4146942f7912ba617ec684e033",
+      "identity": "pinned-app-only-active:fbc8ddffaf0cb22688879be7efa8f30c0dcf2d2b3af80383217bb32a11d06e74"
     }
   ],
   "consumedIntentIds": [
