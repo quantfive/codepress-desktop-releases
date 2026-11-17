@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "76367268c5dda761758356ffe81cd4cf9e9c5b50",
+  "cursorSha": "f3a157fbe96da7700d8ca2a85d1387ab6b7de70d",
   "highWaterVersion": "1.573.2",
   "rows": [
     {
@@ -177965,6 +177965,13 @@
       "sourceSha": "76367268c5dda761758356ffe81cd4cf9e9c5b50",
       "sourcePackageVersion": "1.573.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f3a157fbe96da7700d8ca2a85d1387ab6b7de70d",
+      "sourcePackageVersion": "1.573.2",
+      "intentIds": [
+        "onboarding-other-connections-inline:4315439be51cd25a88ac5f7d49ce5de8782bb79ccff082451ef80889bab76d4e"
+      ]
     }
   ],
   "intents": [
@@ -189431,6 +189438,14 @@
       "summary": "A machine Orchestrator no longer stalls after its first run. When the backend refuses a runner's Redis tunnel for good (its run is over), Terminal ends that runner instead of letting it reconnect forever, so the next worker result or message starts a new run. A newer dispatch of the same session also stops the session's older runner before it starts.",
       "sourceSha": "714367fbfa12363b2749369686db3dc284d69e88",
       "identity": "machine-pm-stale-runner-replace:2d252f1efe4512ebd78cb7e9192ceaff91b4fff38097706e697544f9d3d2fb24"
+    },
+    {
+      "id": "onboarding-other-connections-inline",
+      "digest": "4315439be51cd25a88ac5f7d49ce5de8782bb79ccff082451ef80889bab76d4e",
+      "type": "patch",
+      "summary": "Onboarding's Other connections (Gemini, Grok and Muse) now open in the Connect step's own body as a grid of cards, keeping the left progress rail, instead of a dialog over onboarding. Replay onboarding's Plan step no longer shows the \"Checkout is real here\" banner.",
+      "sourceSha": "f3a157fbe96da7700d8ca2a85d1387ab6b7de70d",
+      "identity": "onboarding-other-connections-inline:4315439be51cd25a88ac5f7d49ce5de8782bb79ccff082451ef80889bab76d4e"
     }
   ],
   "consumedIntentIds": [
