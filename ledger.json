@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "40076f979148ed6f29a1dcedd0f7d45b4c7745bd",
+  "cursorSha": "7bb72b21bf9cd544d6f006d0543085d24a7b2fd8",
   "highWaterVersion": "1.571.3",
   "rows": [
     {
@@ -176799,6 +176799,13 @@
       "sourceSha": "40076f979148ed6f29a1dcedd0f7d45b4c7745bd",
       "sourcePackageVersion": "1.571.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7bb72b21bf9cd544d6f006d0543085d24a7b2fd8",
+      "sourcePackageVersion": "1.571.2",
+      "intentIds": [
+        "feed-scope-pill-shape:35ba1639e98c7686295f7a427e4cb836f0f3a2a73608035869f1824926ae6db4"
+      ]
     }
   ],
   "intents": [
@@ -188129,6 +188136,14 @@
       "summary": "An App chat on a machine with no GitHub login now starts. Refreshing the App repository's default branch also uses CodePress's read token, instead of failing with \"could not read Username for https://github.com\".",
       "sourceSha": "f01ae89875c1482d297491a0f28c9e3b3d397bd5",
       "identity": "machine-chat-relay-set-head:d13c0e5eb8bccfc21bfa07342125282d9e83bcbe8fdd9f9f10d0a0315fae0890"
+    },
+    {
+      "id": "feed-scope-pill-shape",
+      "digest": "35ba1639e98c7686295f7a427e4cb836f0f3a2a73608035869f1824926ae6db4",
+      "type": "patch",
+      "summary": "The feed rail's My feed / Team switch now has the Chat / Orchestrator pill's shape: a round track with a little room around a round highlight, instead of a square-cornered highlight that filled almost the whole track.",
+      "sourceSha": "7bb72b21bf9cd544d6f006d0543085d24a7b2fd8",
+      "identity": "feed-scope-pill-shape:35ba1639e98c7686295f7a427e4cb836f0f3a2a73608035869f1824926ae6db4"
     }
   ],
   "consumedIntentIds": [
