@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "4b18d05bb5712cff35e17c3be7e1d1f3ca0bdda5",
-  "highWaterVersion": "1.570.9",
+  "highWaterVersion": "1.570.10",
   "rows": [
     {
       "schemaVersion": 1,
@@ -96449,6 +96449,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:4b18d05bb5712cff35e17c3be7e1d1f3ca0bdda5",
+      "kind": "main",
+      "sequence": 2435,
+      "sourceSha": "4b18d05bb5712cff35e17c3be7e1d1f3ca0bdda5",
+      "sourcePackageVersion": "1.570.9",
+      "version": "1.570.10",
+      "batch": {
+        "intentIds": [
+          "mention-synced-copies:4fb6a9480643fc2cc185c90d04333d3c025312cd0b23378d608b06b582b6403c"
+        ],
+        "notesIntentIds": [
+          "mention-synced-copies:4fb6a9480643fc2cc185c90d04333d3c025312cd0b23378d608b06b582b6403c"
+        ],
+        "throughSourceSha": "4b18d05bb5712cff35e17c3be7e1d1f3ca0bdda5",
+        "previousThroughSourceSha": "e2789e4be4ef47132189011d9a510098719828b6",
+        "baselineVersion": "1.570.9",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-17T02:43:15.915Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44004969079",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-18T02:43:07.837Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -189114,7 +189157,8 @@
     "onboarding-sidebar-no-pin-app:d1a0e26d951e5e5aa3799beffc3b6526c97829f1642008adc7015562d5527e0f",
     "titlebar-fit:9b6d437efc73f06befc08ec402d5c5e2ed5871c2e714d9524086294659bbfdd4",
     "worker-prompt-record-restart:4b6cab29e934c0d7e36fbcb5e7ea70c4d4ba30f2822d95128c4a2172764fd31e",
-    "worker-screen-repaint-after-reattach:c6ca83017cab014a8ed8a9ef4f7cbe264003b381b2a5b1948bdfa4f3c2a48b6e"
+    "worker-screen-repaint-after-reattach:c6ca83017cab014a8ed8a9ef4f7cbe264003b381b2a5b1948bdfa4f3c2a48b6e",
+    "mention-synced-copies:4fb6a9480643fc2cc185c90d04333d3c025312cd0b23378d608b06b582b6403c"
   ],
-  "consumedThroughSha": "e2789e4be4ef47132189011d9a510098719828b6"
+  "consumedThroughSha": "4b18d05bb5712cff35e17c3be7e1d1f3ca0bdda5"
 }
