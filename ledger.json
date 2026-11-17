@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "cc47da3fdb521f89c4492c2bd72a4b6a0ba66ffa",
+  "cursorSha": "fe9d479782db09ba9136190a289badaed09d7003",
   "highWaterVersion": "1.573.1",
   "rows": [
     {
@@ -177655,6 +177655,11 @@
       "intentIds": [
         "machine-worker-relay-clone-and-checkpoint:3a962a7f972daf8bce891f98b850f4019e2f7978815306c4165e208702bdb148"
       ]
+    },
+    {
+      "sourceSha": "fe9d479782db09ba9136190a289badaed09d7003",
+      "sourcePackageVersion": "1.573.0",
+      "intentIds": []
     }
   ],
   "intents": [
