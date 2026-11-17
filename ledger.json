@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5c5ccb64ca24da51c675f24dcfc92e1bed639bce",
+  "cursorSha": "7db99058b0df0a796d8c74b6832c69715ee8f8cc",
   "highWaterVersion": "1.570.7",
   "rows": [
     {
@@ -176242,6 +176242,13 @@
       "sourceSha": "5c5ccb64ca24da51c675f24dcfc92e1bed639bce",
       "sourcePackageVersion": "1.570.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7db99058b0df0a796d8c74b6832c69715ee8f8cc",
+      "sourcePackageVersion": "1.570.6",
+      "intentIds": [
+        "titlebar-fit:9b6d437efc73f06befc08ec402d5c5e2ed5871c2e714d9524086294659bbfdd4"
+      ]
     }
   ],
   "intents": [
@@ -187492,6 +187499,14 @@
       "summary": "Onboarding's Make the sidebar yours step no longer shows Pin an app or an app target in Add a link, since no app exists yet; Settings → Navigation keeps them.",
       "sourceSha": "aed2b5420cabb134cb7ba4c797c34a4a4ec6ccd6",
       "identity": "onboarding-sidebar-no-pin-app:d1a0e26d951e5e5aa3799beffc3b6526c97829f1642008adc7015562d5527e0f"
+    },
+    {
+      "id": "titlebar-fit",
+      "digest": "9b6d437efc73f06befc08ec402d5c5e2ed5871c2e714d9524086294659bbfdd4",
+      "type": "patch",
+      "summary": "Orchestrator's toolbar in the title bar now fits itself to the room beside Search and the update button: it drops the repository, compacts the status chip, shortens the tabs and finally scrolls them, so nothing is drawn under Search or Update ready.",
+      "sourceSha": "7db99058b0df0a796d8c74b6832c69715ee8f8cc",
+      "identity": "titlebar-fit:9b6d437efc73f06befc08ec402d5c5e2ed5871c2e714d9524086294659bbfdd4"
     }
   ],
   "consumedIntentIds": [
