@@ -97203,10 +97203,14 @@
         "failures": []
       },
       "linux": {
-        "status": "pending",
-        "generation": 0,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44074653205",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-18T11:30:58.878Z",
         "dispatch": null,
         "failures": []
       }
