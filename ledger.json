@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "bfbb7e8fb66679449d127ff4ffa32fbb98d5a8c6",
+  "cursorSha": "bb910b21bd329ecedba9937ebc8a7f8bb3a0bc95",
   "highWaterVersion": "1.572.1",
   "rows": [
     {
@@ -177400,6 +177400,13 @@
       "intentIds": [
         "replicas-list-etag:80b95bf6f419ad5fe437df0ae9c83438fc58d5089196edf8c46ff60cff9ef14d"
       ]
+    },
+    {
+      "sourceSha": "bb910b21bd329ecedba9937ebc8a7f8bb3a0bc95",
+      "sourcePackageVersion": "1.572.0",
+      "intentIds": [
+        "feed-etag-revalidation:8880922b0040158e7b224403f7569c2d4da687850e4336b212977a75ebdfb7f2"
+      ]
     }
   ],
   "intents": [
@@ -188834,6 +188841,14 @@
       "summary": "Terminal sends the synced project list's ETag back, so an unchanged list costs the backend almost nothing.",
       "sourceSha": "bfbb7e8fb66679449d127ff4ffa32fbb98d5a8c6",
       "identity": "replicas-list-etag:80b95bf6f419ad5fe437df0ae9c83438fc58d5089196edf8c46ff60cff9ef14d"
+    },
+    {
+      "id": "feed-etag-revalidation",
+      "digest": "8880922b0040158e7b224403f7569c2d4da687850e4336b212977a75ebdfb7f2",
+      "type": "patch",
+      "summary": "The Orchestrator feed is revalidated with its ETag: a poll of an unchanged feed gets an empty 304 and reuses the body this machine already holds, so the cloud no longer rebuilds it on every poll.",
+      "sourceSha": "bb910b21bd329ecedba9937ebc8a7f8bb3a0bc95",
+      "identity": "feed-etag-revalidation:8880922b0040158e7b224403f7569c2d4da687850e4336b212977a75ebdfb7f2"
     }
   ],
   "consumedIntentIds": [
