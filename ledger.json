@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a379b43a8b8e8fe8eb3dfce0758f9b4e73b9f7fe",
+  "cursorSha": "3a2b2bed10f391510ed1966624a000e3f94f9e32",
   "highWaterVersion": "1.570.7",
   "rows": [
     {
@@ -176254,6 +176254,13 @@
       "sourceSha": "a379b43a8b8e8fe8eb3dfce0758f9b4e73b9f7fe",
       "sourcePackageVersion": "1.570.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3a2b2bed10f391510ed1966624a000e3f94f9e32",
+      "sourcePackageVersion": "1.570.6",
+      "intentIds": [
+        "worker-prompt-record-restart:4b6cab29e934c0d7e36fbcb5e7ea70c4d4ba30f2822d95128c4a2172764fd31e"
+      ]
     }
   ],
   "intents": [
@@ -187512,6 +187519,14 @@
       "summary": "Orchestrator's toolbar in the title bar now fits itself to the room beside Search and the update button: it drops the repository, compacts the status chip, shortens the tabs and finally scrolls them, so nothing is drawn under Search or Update ready.",
       "sourceSha": "7db99058b0df0a796d8c74b6832c69715ee8f8cc",
       "identity": "titlebar-fit:9b6d437efc73f06befc08ec402d5c5e2ed5871c2e714d9524086294659bbfdd4"
+    },
+    {
+      "id": "worker-prompt-record-restart",
+      "digest": "4b6cab29e934c0d7e36fbcb5e7ea70c4d4ba30f2822d95128c4a2172764fd31e",
+      "type": "patch",
+      "summary": "A worker's permission prompt can still be approved after Terminal restarts. Terminal keeps the prompt's tool and command across the restart, and a later reminder of the same prompt no longer replaces them. The Orchestrator then reads the same prompt the waiting message named, and `project_worker_prompt_approve` or Approve once works. When `send_keys` is refused on a worker's open dialog, the message now names the approve tool while prompt approval is on for the project.",
+      "sourceSha": "3a2b2bed10f391510ed1966624a000e3f94f9e32",
+      "identity": "worker-prompt-record-restart:4b6cab29e934c0d7e36fbcb5e7ea70c4d4ba30f2822d95128c4a2172764fd31e"
     }
   ],
   "consumedIntentIds": [
