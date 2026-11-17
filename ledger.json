@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7bb72b21bf9cd544d6f006d0543085d24a7b2fd8",
+  "cursorSha": "a13c1691d834ace07fd3578300997cfccfda30b4",
   "highWaterVersion": "1.571.3",
   "rows": [
     {
@@ -176814,6 +176814,13 @@
       "intentIds": [
         "feed-scope-pill-shape:35ba1639e98c7686295f7a427e4cb836f0f3a2a73608035869f1824926ae6db4"
       ]
+    },
+    {
+      "sourceSha": "a13c1691d834ace07fd3578300997cfccfda30b4",
+      "sourcePackageVersion": "1.571.2",
+      "intentIds": [
+        "optimistic-land:6007eccc5c6db13931d0b3809828d74395e6e505bb3facd288fc4149efbf25c8"
+      ]
     }
   ],
   "intents": [
@@ -188152,6 +188159,14 @@
       "summary": "The feed rail's My feed / Team switch now has the Chat / Orchestrator pill's shape: a round track with a little room around a round highlight, instead of a square-cornered highlight that filled almost the whole track.",
       "sourceSha": "7bb72b21bf9cd544d6f006d0543085d24a7b2fd8",
       "identity": "feed-scope-pill-shape:35ba1639e98c7686295f7a427e4cb836f0f3a2a73608035869f1824926ae6db4"
+    },
+    {
+      "id": "optimistic-land",
+      "digest": "6007eccc5c6db13931d0b3809828d74395e6e505bb3facd288fc4149efbf25c8",
+      "type": "patch",
+      "summary": "Pressing Land the project on a land ask now shows \"Landing…\" in the card and the project header at once, then Landed. On a synced copy whose machine is online, the land goes straight to that machine instead of waiting in the queue. If the land is refused, the buttons come back with the reason.",
+      "sourceSha": "a13c1691d834ace07fd3578300997cfccfda30b4",
+      "identity": "optimistic-land:6007eccc5c6db13931d0b3809828d74395e6e505bb3facd288fc4149efbf25c8"
     }
   ],
   "consumedIntentIds": [
