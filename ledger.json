@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "bfabf182a88d69dcd3280fa58d0b94125a306818",
+  "cursorSha": "062fabfe32f7b21ca1937de1cdf95296986bf4ff",
   "highWaterVersion": "1.571.5",
   "rows": [
     {
@@ -176985,6 +176985,13 @@
       "sourceSha": "bfabf182a88d69dcd3280fa58d0b94125a306818",
       "sourcePackageVersion": "1.571.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "062fabfe32f7b21ca1937de1cdf95296986bf4ff",
+      "sourcePackageVersion": "1.571.4",
+      "intentIds": [
+        "linux-unit-keeps-broker-ptys:eafcc44e31eba141d8398b5d8f30da9ded79bbe79e5de72c276022153259101b"
+      ]
     }
   ],
   "intents": [
@@ -188363,6 +188370,14 @@
       "summary": "Resume here status now names a prompt a resumed worker tab is waiting on (`blocked_on_prompt`, such as Claude's MCP server approval), and its wait advice says to answer it there. A move whose cloud list of copies comes back without its replicas now fails with a typed `replica_list_unreadable` error instead of a TypeError, and a status asked by operation id answers the newest transfer or move for that id.",
       "sourceSha": "c09e543909d673237c62472a96ecb7ab590a6b9e",
       "identity": "handoff-resume-prompt-status:ce62f5807437d0cf3ed737ccf3f181f2535f2008d38de03e3d30ed78e59b9eff"
+    },
+    {
+      "id": "linux-unit-keeps-broker-ptys",
+      "digest": "eafcc44e31eba141d8398b5d8f30da9ded79bbe79e5de72c276022153259101b",
+      "type": "patch",
+      "summary": "Stopping the Linux background service (`systemctl --user stop` or `disable --now`) no longer kills preserved terminals. The unit now uses `KillMode=process`, and an existing unit is rewritten and reloaded before the stop that applies it. The launcher still kills a daemon that never finishes its shutdown, and anything else a daemon leaves running in the unit's process group.",
+      "sourceSha": "062fabfe32f7b21ca1937de1cdf95296986bf4ff",
+      "identity": "linux-unit-keeps-broker-ptys:eafcc44e31eba141d8398b5d8f30da9ded79bbe79e5de72c276022153259101b"
     }
   ],
   "consumedIntentIds": [
