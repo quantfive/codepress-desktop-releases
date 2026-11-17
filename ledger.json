@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "e1ed889a17f0de29d4203ff502d63994d4a66515",
-  "highWaterVersion": "1.573.5",
+  "highWaterVersion": "1.573.6",
   "rows": [
     {
       "schemaVersion": 1,
@@ -97427,6 +97427,52 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:e1ed889a17f0de29d4203ff502d63994d4a66515",
+      "kind": "main",
+      "sequence": 2454,
+      "sourceSha": "e1ed889a17f0de29d4203ff502d63994d4a66515",
+      "sourcePackageVersion": "1.573.4",
+      "version": "1.573.6",
+      "batch": {
+        "intentIds": [
+          "gemini-note-no-warning-text:d21b5aa5b9e35858be2b37083231a6ad05ea29e24247456fc10e6bbbe5bc147d",
+          "home-reads-cloud-chat-mentions:67dc27734a5058fa6fcd801987eba3da8ef859aa3ab5e9739084880e91611ffa"
+        ],
+        "notesIntentIds": [
+          "prompt-approval-travels:809b48eace4ed35f20a60e82945c1470e7b9c286d942c62c0f4ddb836b9d0b1a",
+          "gemini-note-no-warning-text:d21b5aa5b9e35858be2b37083231a6ad05ea29e24247456fc10e6bbbe5bc147d",
+          "home-reads-cloud-chat-mentions:67dc27734a5058fa6fcd801987eba3da8ef859aa3ab5e9739084880e91611ffa"
+        ],
+        "throughSourceSha": "e1ed889a17f0de29d4203ff502d63994d4a66515",
+        "previousThroughSourceSha": "f6af50771c6eeb9c905542fbfe3fd022d66fbb4d",
+        "baselineVersion": "1.573.5",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-17T20:49:42.174Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44173302827",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-18T20:49:33.891Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -191198,7 +191244,9 @@
     "machine-pm-stale-runner-replace:2d252f1efe4512ebd78cb7e9192ceaff91b4fff38097706e697544f9d3d2fb24",
     "onboarding-other-connections-inline:4315439be51cd25a88ac5f7d49ce5de8782bb79ccff082451ef80889bab76d4e",
     "onboarding-permissions-before-sidebar:12b87921e8688a55a6de6422b5eb44d5c933959b4c6f70b95041d5dbff09d0cd",
-    "prompt-approval-travels:809b48eace4ed35f20a60e82945c1470e7b9c286d942c62c0f4ddb836b9d0b1a"
+    "prompt-approval-travels:809b48eace4ed35f20a60e82945c1470e7b9c286d942c62c0f4ddb836b9d0b1a",
+    "gemini-note-no-warning-text:d21b5aa5b9e35858be2b37083231a6ad05ea29e24247456fc10e6bbbe5bc147d",
+    "home-reads-cloud-chat-mentions:67dc27734a5058fa6fcd801987eba3da8ef859aa3ab5e9739084880e91611ffa"
   ],
-  "consumedThroughSha": "f6af50771c6eeb9c905542fbfe3fd022d66fbb4d"
+  "consumedThroughSha": "e1ed889a17f0de29d4203ff502d63994d4a66515"
 }
