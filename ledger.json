@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c72ef8e4874ad0ba2f25c783046f6d054d13206f",
+  "cursorSha": "aed2b5420cabb134cb7ba4c797c34a4a4ec6ccd6",
   "highWaterVersion": "1.570.6",
   "rows": [
     {
@@ -176171,6 +176171,13 @@
       "intentIds": [
         "plan-hosting-agents-full-width-hints:e99e7bfe267e42e2e46fe799a3b0d2b30ae0e25b3b390a7eed458c1a9cd5ef7b"
       ]
+    },
+    {
+      "sourceSha": "aed2b5420cabb134cb7ba4c797c34a4a4ec6ccd6",
+      "sourcePackageVersion": "1.570.5",
+      "intentIds": [
+        "onboarding-sidebar-no-pin-app:d1a0e26d951e5e5aa3799beffc3b6526c97829f1642008adc7015562d5527e0f"
+      ]
     }
   ],
   "intents": [
@@ -187413,6 +187420,14 @@
       "summary": "Onboarding: the Website hosting plan now lists cloud agents at $4/agent-hour, and the GitHub and Team steps' notes span the full width of the step.",
       "sourceSha": "c72ef8e4874ad0ba2f25c783046f6d054d13206f",
       "identity": "plan-hosting-agents-full-width-hints:e99e7bfe267e42e2e46fe799a3b0d2b30ae0e25b3b390a7eed458c1a9cd5ef7b"
+    },
+    {
+      "id": "onboarding-sidebar-no-pin-app",
+      "digest": "d1a0e26d951e5e5aa3799beffc3b6526c97829f1642008adc7015562d5527e0f",
+      "type": "patch",
+      "summary": "Onboarding's Make the sidebar yours step no longer shows Pin an app or an app target in Add a link, since no app exists yet; Settings → Navigation keeps them.",
+      "sourceSha": "aed2b5420cabb134cb7ba4c797c34a4a4ec6ccd6",
+      "identity": "onboarding-sidebar-no-pin-app:d1a0e26d951e5e5aa3799beffc3b6526c97829f1642008adc7015562d5527e0f"
     }
   ],
   "consumedIntentIds": [
