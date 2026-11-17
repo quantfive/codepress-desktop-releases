@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "9e025ed3c58e6dd1fa780f9cf7334904ef557a29",
-  "highWaterVersion": "1.571.4",
+  "highWaterVersion": "1.571.5",
   "rows": [
     {
       "schemaVersion": 1,
@@ -96753,6 +96753,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:9e025ed3c58e6dd1fa780f9cf7334904ef557a29",
+      "kind": "main",
+      "sequence": 2441,
+      "sourceSha": "9e025ed3c58e6dd1fa780f9cf7334904ef557a29",
+      "sourcePackageVersion": "1.571.4",
+      "version": "1.571.5",
+      "batch": {
+        "intentIds": [
+          "host-spawn-churn:21136635f4abe1aa2ee79e6c46a808b8678c29d54bfa3a69b0fbf2f457edccf6"
+        ],
+        "notesIntentIds": [
+          "host-spawn-churn:21136635f4abe1aa2ee79e6c46a808b8678c29d54bfa3a69b0fbf2f457edccf6"
+        ],
+        "throughSourceSha": "9e025ed3c58e6dd1fa780f9cf7334904ef557a29",
+        "previousThroughSourceSha": "a13c1691d834ace07fd3578300997cfccfda30b4",
+        "baselineVersion": "1.571.4",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-17T05:09:43.123Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44022050520",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-18T05:09:36.046Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -189681,7 +189724,8 @@
     "machine-agents-relay-checkout:63d812822276a320fe2386d5b6786b6be85b9167e4b2074e1a4f8128a0ad996f",
     "machine-chat-relay-set-head:d13c0e5eb8bccfc21bfa07342125282d9e83bcbe8fdd9f9f10d0a0315fae0890",
     "feed-scope-pill-shape:35ba1639e98c7686295f7a427e4cb836f0f3a2a73608035869f1824926ae6db4",
-    "optimistic-land:6007eccc5c6db13931d0b3809828d74395e6e505bb3facd288fc4149efbf25c8"
+    "optimistic-land:6007eccc5c6db13931d0b3809828d74395e6e505bb3facd288fc4149efbf25c8",
+    "host-spawn-churn:21136635f4abe1aa2ee79e6c46a808b8678c29d54bfa3a69b0fbf2f457edccf6"
   ],
-  "consumedThroughSha": "a13c1691d834ace07fd3578300997cfccfda30b4"
+  "consumedThroughSha": "9e025ed3c58e6dd1fa780f9cf7334904ef557a29"
 }
