@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f292da37886fa1d41c7f1b5ffc1884aaa4805e17",
+  "cursorSha": "1f04781d470d77eda1b40f81b79240b63cb4f54a",
   "highWaterVersion": "1.573.7",
   "rows": [
     {
@@ -178451,6 +178451,13 @@
       "sourceSha": "f292da37886fa1d41c7f1b5ffc1884aaa4805e17",
       "sourcePackageVersion": "1.573.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "1f04781d470d77eda1b40f81b79240b63cb4f54a",
+      "sourcePackageVersion": "1.573.6",
+      "intentIds": [
+        "sidebar-one-list:318e6999455874b766889f8b0c19f93b4c2b3f13e7f05e8eaa4fe2f5a0a7e6e8"
+      ]
     }
   ],
   "intents": [
@@ -189989,6 +189996,14 @@
       "summary": "Terminal's shared UI import manifest now lists the App page's plan pane context, which the shared App chat plan card and project panel import. Terminal looks and behaves as before.",
       "sourceSha": "01a9e8d814ccc60c8f66f8391b69a69ce9c53ff7",
       "identity": "app-plan-pane-closure:00a0a5451bd214839b2df84d67cc8e8cb76e17dd359cead4bd06f8b8ee6ea8e2"
+    },
+    {
+      "id": "sidebar-one-list",
+      "digest": "318e6999455874b766889f8b0c19f93b4c2b3f13e7f05e8eaa4fe2f5a0a7e6e8",
+      "type": "patch",
+      "summary": "Settings → Navigation and Make the sidebar yours show one \"Your sidebar\" list in the rail's order, so a link or an app can be dragged between any two sections. Links are tagged App or Link, and every row has a handle, a name, what it opens and a switch. Drag a row by its handle (hold it on a touch screen). Click one of your own links to edit it; Delete link is in that dialog and asks before deleting.",
+      "sourceSha": "1f04781d470d77eda1b40f81b79240b63cb4f54a",
+      "identity": "sidebar-one-list:318e6999455874b766889f8b0c19f93b4c2b3f13e7f05e8eaa4fe2f5a0a7e6e8"
     }
   ],
   "consumedIntentIds": [
