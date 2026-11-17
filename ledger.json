@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5ae980b59000c435a58b0d7efc2e5ed8f8a6344d",
+  "cursorSha": "e339dbba88faee15f3f98f1ba4495b8cfd6131b7",
   "highWaterVersion": "1.572.0",
   "rows": [
     {
@@ -177288,6 +177288,16 @@
       "intentIds": [
         "orchestrator-context-meter-local:145bc2dd6e8afd8bc323b5911fd1eafb917612900bf9156adb915dc20a0b5c88"
       ]
+    },
+    {
+      "sourceSha": "f2e955cfe925f717d2c70e90a1663fc1172a6369",
+      "sourcePackageVersion": "1.571.8",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "e339dbba88faee15f3f98f1ba4495b8cfd6131b7",
+      "sourcePackageVersion": "1.571.8",
+      "intentIds": []
     }
   ],
   "intents": [
