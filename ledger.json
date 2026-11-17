@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "345c2d77672fb198f8c21eeccd0445ef9b906307",
-  "highWaterVersion": "1.570.6",
+  "highWaterVersion": "1.570.7",
   "rows": [
     {
       "schemaVersion": 1,
@@ -96304,6 +96304,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:345c2d77672fb198f8c21eeccd0445ef9b906307",
+      "kind": "main",
+      "sequence": 2432,
+      "sourceSha": "345c2d77672fb198f8c21eeccd0445ef9b906307",
+      "sourcePackageVersion": "1.570.6",
+      "version": "1.570.7",
+      "batch": {
+        "intentIds": [
+          "plan-hosting-agents-full-width-hints:e99e7bfe267e42e2e46fe799a3b0d2b30ae0e25b3b390a7eed458c1a9cd5ef7b",
+          "onboarding-sidebar-no-pin-app:d1a0e26d951e5e5aa3799beffc3b6526c97829f1642008adc7015562d5527e0f"
+        ],
+        "notesIntentIds": [
+          "plan-hosting-agents-full-width-hints:e99e7bfe267e42e2e46fe799a3b0d2b30ae0e25b3b390a7eed458c1a9cd5ef7b",
+          "onboarding-sidebar-no-pin-app:d1a0e26d951e5e5aa3799beffc3b6526c97829f1642008adc7015562d5527e0f"
+        ],
+        "throughSourceSha": "345c2d77672fb198f8c21eeccd0445ef9b906307",
+        "previousThroughSourceSha": "de59bdbe8aa06256f348e4f55ebc08571b0a9548",
+        "baselineVersion": "1.570.6",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-17T01:36:04.383Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43996737895",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-18T01:35:56.962Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -188844,7 +188889,9 @@
     "app-toolbar-option-c:fe8dc05db639c8484a5039deb4c895db99e459c954e298b506e25e43a2aed6c5",
     "answer-proposal-leaves-needs-you:8dfeb672703f4f06a43dd7db277d5f89222ca1d591d3e2483f3e5d64adc56b87",
     "onboarding-theme-close:c89198cae7910e97c0b3ddda0a88781ecfa8877d4715efed349077351f85b5e3",
-    "tidy-orchestrator-event-identities:b79c997aa7c84a7e8d800a2d69b1b08dbb7fcde3579c695334d429752c9a6991"
+    "tidy-orchestrator-event-identities:b79c997aa7c84a7e8d800a2d69b1b08dbb7fcde3579c695334d429752c9a6991",
+    "plan-hosting-agents-full-width-hints:e99e7bfe267e42e2e46fe799a3b0d2b30ae0e25b3b390a7eed458c1a9cd5ef7b",
+    "onboarding-sidebar-no-pin-app:d1a0e26d951e5e5aa3799beffc3b6526c97829f1642008adc7015562d5527e0f"
   ],
-  "consumedThroughSha": "de59bdbe8aa06256f348e4f55ebc08571b0a9548"
+  "consumedThroughSha": "345c2d77672fb198f8c21eeccd0445ef9b906307"
 }
