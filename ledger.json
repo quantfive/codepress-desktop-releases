@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "5fa69e8af60828e2b37755a0daf5ae917f07f512",
-  "highWaterVersion": "1.575.0",
+  "highWaterVersion": "1.575.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -97685,6 +97685,53 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:5fa69e8af60828e2b37755a0daf5ae917f07f512",
+      "kind": "main",
+      "sequence": 2459,
+      "sourceSha": "5fa69e8af60828e2b37755a0daf5ae917f07f512",
+      "sourcePackageVersion": "1.574.0",
+      "version": "1.575.1",
+      "batch": {
+        "intentIds": [
+          "sidebar-shortcut-picker:573e34b29c7ec39b3eec7946da7a83a5e8c4e54e8205fb6d2feaf2ee63764843",
+          "calm-keys-retry:ae9e3bdebf06ced6f85b1325ba39e5003bf8c5dbc6888eaac6e6c3607943592e",
+          "plan-step-keeps-pick-releases-hosting:89e879dcd992970874d65f95c586df323bb22606d6469d8b54b7465bc8557c7d"
+        ],
+        "notesIntentIds": [
+          "sidebar-shortcut-picker:573e34b29c7ec39b3eec7946da7a83a5e8c4e54e8205fb6d2feaf2ee63764843",
+          "calm-keys-retry:ae9e3bdebf06ced6f85b1325ba39e5003bf8c5dbc6888eaac6e6c3607943592e",
+          "plan-step-keeps-pick-releases-hosting:89e879dcd992970874d65f95c586df323bb22606d6469d8b54b7465bc8557c7d"
+        ],
+        "throughSourceSha": "5fa69e8af60828e2b37755a0daf5ae917f07f512",
+        "previousThroughSourceSha": "0a1c21d0b2765aa0df5abf6e6ca9f3360d0e2b7d",
+        "baselineVersion": "1.575.0",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-17T23:28:18.897Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44199547552",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-18T23:28:07.686Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -191775,7 +191822,10 @@
     "app-plan-pane-closure:00a0a5451bd214839b2df84d67cc8e8cb76e17dd359cead4bd06f8b8ee6ea8e2",
     "sidebar-one-list:318e6999455874b766889f8b0c19f93b4c2b3f13e7f05e8eaa4fe2f5a0a7e6e8",
     "terminal-feed-poll-hint:3d097d7b690ff726049e44153d00c65aeb233a2c85b0060f0a4595a4daf14d00",
-    "cloud-project-mentions-sent:a6301bc2ac5decddb2a267321e417f12bc980c1e3dae19e42ec1b2be7e444a1f"
+    "cloud-project-mentions-sent:a6301bc2ac5decddb2a267321e417f12bc980c1e3dae19e42ec1b2be7e444a1f",
+    "sidebar-shortcut-picker:573e34b29c7ec39b3eec7946da7a83a5e8c4e54e8205fb6d2feaf2ee63764843",
+    "calm-keys-retry:ae9e3bdebf06ced6f85b1325ba39e5003bf8c5dbc6888eaac6e6c3607943592e",
+    "plan-step-keeps-pick-releases-hosting:89e879dcd992970874d65f95c586df323bb22606d6469d8b54b7465bc8557c7d"
   ],
-  "consumedThroughSha": "0a1c21d0b2765aa0df5abf6e6ca9f3360d0e2b7d"
+  "consumedThroughSha": "5fa69e8af60828e2b37755a0daf5ae917f07f512"
 }
