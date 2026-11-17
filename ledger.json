@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "cd4dc2173571e9208b356e8538d9c5cba202b4e8",
+  "cursorSha": "0a1c21d0b2765aa0df5abf6e6ca9f3360d0e2b7d",
   "highWaterVersion": "1.574.1",
   "rows": [
     {
@@ -178651,6 +178651,13 @@
       "sourceSha": "cd4dc2173571e9208b356e8538d9c5cba202b4e8",
       "sourcePackageVersion": "1.574.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0a1c21d0b2765aa0df5abf6e6ca9f3360d0e2b7d",
+      "sourcePackageVersion": "1.574.0",
+      "intentIds": [
+        "cloud-project-mentions-sent:a6301bc2ac5decddb2a267321e417f12bc980c1e3dae19e42ec1b2be7e444a1f"
+      ]
     }
   ],
   "intents": [
@@ -190205,6 +190212,14 @@
       "summary": "Terminal's My feed and Team rail poll the backend about every 60 seconds instead of every 15 while the daemon's backend stream is connected and the backend asks for it; pushed rows keep the rail live in between. A stream reconnect, a dropped connection or an older backend keeps the 15-second poll.",
       "sourceSha": "4bbe9404afa591ff90d7ff4ed8bbc8f676151903",
       "identity": "terminal-feed-poll-hint:3d097d7b690ff726049e44153d00c65aeb233a2c85b0060f0a4595a4daf14d00"
+    },
+    {
+      "id": "cloud-project-mentions-sent",
+      "digest": "a6301bc2ac5decddb2a267321e417f12bc980c1e3dae19e42ec1b2be7e444a1f",
+      "type": "minor",
+      "summary": "A cloud project's message, Dock answer and blocker reply, and a New chat started on Cloud, now carry their @ picks to the cloud Orchestrator, which reads them, instead of refusing the send. Picks of this machine's chats and tabs name this machine. If the cloud can't read a pick, the thread says why, nothing is sent, and your words and picks stay.",
+      "sourceSha": "0a1c21d0b2765aa0df5abf6e6ca9f3360d0e2b7d",
+      "identity": "cloud-project-mentions-sent:a6301bc2ac5decddb2a267321e417f12bc980c1e3dae19e42ec1b2be7e444a1f"
     }
   ],
   "consumedIntentIds": [
