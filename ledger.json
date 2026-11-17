@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e4a6243fa93cbb285e68d1e0c9dcaca793226e98",
+  "cursorSha": "4bbe9404afa591ff90d7ff4ed8bbc8f676151903",
   "highWaterVersion": "1.574.0",
   "rows": [
     {
@@ -178537,6 +178537,13 @@
       "sourceSha": "e4a6243fa93cbb285e68d1e0c9dcaca793226e98",
       "sourcePackageVersion": "1.574.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4bbe9404afa591ff90d7ff4ed8bbc8f676151903",
+      "sourcePackageVersion": "1.574.0",
+      "intentIds": [
+        "terminal-feed-poll-hint:3d097d7b690ff726049e44153d00c65aeb233a2c85b0060f0a4595a4daf14d00"
+      ]
     }
   ],
   "intents": [
@@ -190083,6 +190090,14 @@
       "summary": "Settings → Navigation and Make the sidebar yours show one \"Your sidebar\" list in the rail's order, so a link or an app can be dragged between any two sections. Links are tagged App or Link, and every row has a handle, a name, what it opens and a switch. Drag a row by its handle (hold it on a touch screen). Click one of your own links to edit it; Delete link is in that dialog and asks before deleting.",
       "sourceSha": "1f04781d470d77eda1b40f81b79240b63cb4f54a",
       "identity": "sidebar-one-list:318e6999455874b766889f8b0c19f93b4c2b3f13e7f05e8eaa4fe2f5a0a7e6e8"
+    },
+    {
+      "id": "terminal-feed-poll-hint",
+      "digest": "3d097d7b690ff726049e44153d00c65aeb233a2c85b0060f0a4595a4daf14d00",
+      "type": "patch",
+      "summary": "Terminal's My feed and Team rail poll the backend about every 60 seconds instead of every 15 while the daemon's backend stream is connected and the backend asks for it; pushed rows keep the rail live in between. A stream reconnect, a dropped connection or an older backend keeps the 15-second poll.",
+      "sourceSha": "4bbe9404afa591ff90d7ff4ed8bbc8f676151903",
+      "identity": "terminal-feed-poll-hint:3d097d7b690ff726049e44153d00c65aeb233a2c85b0060f0a4595a4daf14d00"
     }
   ],
   "consumedIntentIds": [
