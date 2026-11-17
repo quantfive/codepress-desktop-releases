@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d001e81a2fca96e14238f990e3cd440d24a799ab",
+  "cursorSha": "f01ae89875c1482d297491a0f28c9e3b3d397bd5",
   "highWaterVersion": "1.571.2",
   "rows": [
     {
@@ -176727,6 +176727,14 @@
       "sourceSha": "d001e81a2fca96e14238f990e3cd440d24a799ab",
       "sourcePackageVersion": "1.571.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f01ae89875c1482d297491a0f28c9e3b3d397bd5",
+      "sourcePackageVersion": "1.571.1",
+      "intentIds": [
+        "machine-agents-relay-checkout:63d812822276a320fe2386d5b6786b6be85b9167e4b2074e1a4f8128a0ad996f",
+        "machine-chat-relay-set-head:d13c0e5eb8bccfc21bfa07342125282d9e83bcbe8fdd9f9f10d0a0315fae0890"
+      ]
     }
   ],
   "intents": [
@@ -188041,6 +188049,22 @@
       "summary": "The home machine now pushes a project's synced copy right after it applies a reply from another device, starts a turn you asked for, or lands, instead of waiting for the copy debounce and poll. Each reply from another device also logs its relay timings.",
       "sourceSha": "9d5078862d71295751495b1512b0f55af48f9c2e",
       "identity": "sync-push-now:8c3cb09a07cc771d45725037dcfbad687c7b372ae9c5bfa1c64936d869b4409e"
+    },
+    {
+      "id": "machine-agents-relay-checkout",
+      "digest": "63d812822276a320fe2386d5b6786b6be85b9167e4b2074e1a4f8128a0ad996f",
+      "type": "patch",
+      "summary": "An App project's agents, or an App chat, running on this machine now check out the App repository with a read-only token from CodePress, so a machine with no GitHub login still works. If CodePress refuses the token, the start fails and names the machine; the machine's own GitHub login is never used instead.",
+      "sourceSha": "f01ae89875c1482d297491a0f28c9e3b3d397bd5",
+      "identity": "machine-agents-relay-checkout:63d812822276a320fe2386d5b6786b6be85b9167e4b2074e1a4f8128a0ad996f"
+    },
+    {
+      "id": "machine-chat-relay-set-head",
+      "digest": "d13c0e5eb8bccfc21bfa07342125282d9e83bcbe8fdd9f9f10d0a0315fae0890",
+      "type": "patch",
+      "summary": "An App chat on a machine with no GitHub login now starts. Refreshing the App repository's default branch also uses CodePress's read token, instead of failing with \"could not read Username for https://github.com\".",
+      "sourceSha": "f01ae89875c1482d297491a0f28c9e3b3d397bd5",
+      "identity": "machine-chat-relay-set-head:d13c0e5eb8bccfc21bfa07342125282d9e83bcbe8fdd9f9f10d0a0315fae0890"
     }
   ],
   "consumedIntentIds": [
