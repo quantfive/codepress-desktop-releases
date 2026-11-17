@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "6150eb3a54ae46afe42543bcd3823ede7f4c86a9",
-  "highWaterVersion": "1.571.5",
+  "highWaterVersion": "1.571.6",
   "rows": [
     {
       "schemaVersion": 1,
@@ -96800,6 +96800,55 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:6150eb3a54ae46afe42543bcd3823ede7f4c86a9",
+      "kind": "main",
+      "sequence": 2442,
+      "sourceSha": "6150eb3a54ae46afe42543bcd3823ede7f4c86a9",
+      "sourcePackageVersion": "1.571.5",
+      "version": "1.571.6",
+      "batch": {
+        "intentIds": [
+          "cpu-critical-needs-busy-cores:d0b0345089e79b608fa86429c295613edef51b9e878f95d52471ade6bafe9de7",
+          "headless-service-diagnostics:cf48f33dba58988dd8be28da44e031a2d7c5389f3aa530dfb1ac06247bd5fdbb",
+          "handoff-resume-prompt-status:ce62f5807437d0cf3ed737ccf3f181f2535f2008d38de03e3d30ed78e59b9eff",
+          "linux-unit-keeps-broker-ptys:eafcc44e31eba141d8398b5d8f30da9ded79bbe79e5de72c276022153259101b"
+        ],
+        "notesIntentIds": [
+          "cpu-critical-needs-busy-cores:d0b0345089e79b608fa86429c295613edef51b9e878f95d52471ade6bafe9de7",
+          "headless-service-diagnostics:cf48f33dba58988dd8be28da44e031a2d7c5389f3aa530dfb1ac06247bd5fdbb",
+          "handoff-resume-prompt-status:ce62f5807437d0cf3ed737ccf3f181f2535f2008d38de03e3d30ed78e59b9eff",
+          "linux-unit-keeps-broker-ptys:eafcc44e31eba141d8398b5d8f30da9ded79bbe79e5de72c276022153259101b"
+        ],
+        "throughSourceSha": "6150eb3a54ae46afe42543bcd3823ede7f4c86a9",
+        "previousThroughSourceSha": "9e025ed3c58e6dd1fa780f9cf7334904ef557a29",
+        "baselineVersion": "1.571.5",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-17T05:33:46.523Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44024908438",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-18T05:33:39.509Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -189804,7 +189853,11 @@
     "machine-chat-relay-set-head:d13c0e5eb8bccfc21bfa07342125282d9e83bcbe8fdd9f9f10d0a0315fae0890",
     "feed-scope-pill-shape:35ba1639e98c7686295f7a427e4cb836f0f3a2a73608035869f1824926ae6db4",
     "optimistic-land:6007eccc5c6db13931d0b3809828d74395e6e505bb3facd288fc4149efbf25c8",
-    "host-spawn-churn:21136635f4abe1aa2ee79e6c46a808b8678c29d54bfa3a69b0fbf2f457edccf6"
+    "host-spawn-churn:21136635f4abe1aa2ee79e6c46a808b8678c29d54bfa3a69b0fbf2f457edccf6",
+    "cpu-critical-needs-busy-cores:d0b0345089e79b608fa86429c295613edef51b9e878f95d52471ade6bafe9de7",
+    "headless-service-diagnostics:cf48f33dba58988dd8be28da44e031a2d7c5389f3aa530dfb1ac06247bd5fdbb",
+    "handoff-resume-prompt-status:ce62f5807437d0cf3ed737ccf3f181f2535f2008d38de03e3d30ed78e59b9eff",
+    "linux-unit-keeps-broker-ptys:eafcc44e31eba141d8398b5d8f30da9ded79bbe79e5de72c276022153259101b"
   ],
-  "consumedThroughSha": "9e025ed3c58e6dd1fa780f9cf7334904ef557a29"
+  "consumedThroughSha": "6150eb3a54ae46afe42543bcd3823ede7f4c86a9"
 }
