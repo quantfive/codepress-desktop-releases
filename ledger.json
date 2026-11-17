@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3c0b63590515e56a8478576b92821a3f8f0ccb38",
+  "cursorSha": "99f0821f672ee8c336df43a4aa8d6b438369fc57",
   "highWaterVersion": "1.571.7",
   "rows": [
     {
@@ -177152,6 +177152,13 @@
       "sourceSha": "3c0b63590515e56a8478576b92821a3f8f0ccb38",
       "sourcePackageVersion": "1.571.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "99f0821f672ee8c336df43a4aa8d6b438369fc57",
+      "sourcePackageVersion": "1.571.6",
+      "intentIds": [
+        "headless-principal-readiness:c381732b0214f987383f211bdc9006391930f497543bc1bebaf12f2cb377866a"
+      ]
     }
   ],
   "intents": [
@@ -188562,6 +188569,14 @@
       "summary": "New app's shared code learns the project path (#22863): Terminal draws no project card yet, so its New app keeps today's chat launch.",
       "sourceSha": "80ef8290264af5ab9cd2501cb333aed5c12739c3",
       "identity": "new-app-project-card:0596d929af817f98428429f3caafcd71d1293cf90467a4b62d2da5e04d386973"
+    },
+    {
+      "id": "headless-principal-readiness",
+      "digest": "c381732b0214f987383f211bdc9006391930f497543bc1bebaf12f2cb377866a",
+      "type": "patch",
+      "summary": "A headless Server CLI now serves Orchestrator replies as soon as it finishes restoring sessions. Before, when the machine bootstrap arrived before restore finished, remote reads failed with `orchestrator_channel_unavailable` for about five minutes, until the next bootstrap refresh. Orchestrator messaging now follows the machine principal's readiness, whatever order the channel, bootstrap and restore finish in. A synced copy that was refused this way now asks again within 5 seconds instead of backing off to a minute, so it shows the thread soon after the machine is ready.",
+      "sourceSha": "99f0821f672ee8c336df43a4aa8d6b438369fc57",
+      "identity": "headless-principal-readiness:c381732b0214f987383f211bdc9006391930f497543bc1bebaf12f2cb377866a"
     }
   ],
   "consumedIntentIds": [
