@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6150eb3a54ae46afe42543bcd3823ede7f4c86a9",
+  "cursorSha": "eaccf51f73b08742fe9fcded83e03b373188a4a3",
   "highWaterVersion": "1.571.6",
   "rows": [
     {
@@ -177050,6 +177050,13 @@
       "sourceSha": "6150eb3a54ae46afe42543bcd3823ede7f4c86a9",
       "sourcePackageVersion": "1.571.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "eaccf51f73b08742fe9fcded83e03b373188a4a3",
+      "sourcePackageVersion": "1.571.5",
+      "intentIds": [
+        "fleet-dialog-restore:b59364cf8cc32ea6584ebfb80f11f6355b4b325a73a89a2f929a1d38f0836a62"
+      ]
     }
   ],
   "intents": [
@@ -188436,6 +188443,14 @@
       "summary": "Stopping the Linux background service (`systemctl --user stop` or `disable --now`) no longer kills preserved terminals. The unit now uses `KillMode=process`, and an existing unit is rewritten and reloaded before the stop that applies it. The launcher still kills a daemon that never finishes its shutdown, and anything else a daemon leaves running in the unit's process group.",
       "sourceSha": "062fabfe32f7b21ca1937de1cdf95296986bf4ff",
       "identity": "linux-unit-keeps-broker-ptys:eafcc44e31eba141d8398b5d8f30da9ded79bbe79e5de72c276022153259101b"
+    },
+    {
+      "id": "fleet-dialog-restore",
+      "digest": "b59364cf8cc32ea6584ebfb80f11f6355b4b325a73a89a2f929a1d38f0836a62",
+      "type": "patch",
+      "summary": "A fleet worker waiting on a permission prompt keeps that prompt across a Terminal restart, and its Orchestrator can still approve it. Before, the saved prompt was dropped for every Orchestrator worker because Terminal's launcher hid which agent was running, and approving after a restart read the worker's blank screen and refused. Approve, the person's Approve once and Decline, and the waiting message now read the worker's screen after it is redrawn.",
+      "sourceSha": "eaccf51f73b08742fe9fcded83e03b373188a4a3",
+      "identity": "fleet-dialog-restore:b59364cf8cc32ea6584ebfb80f11f6355b4b325a73a89a2f929a1d38f0836a62"
     }
   ],
   "consumedIntentIds": [
