@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "1f04781d470d77eda1b40f81b79240b63cb4f54a",
-  "highWaterVersion": "1.573.7",
+  "highWaterVersion": "1.574.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -97526,6 +97526,53 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:1f04781d470d77eda1b40f81b79240b63cb4f54a",
+      "kind": "main",
+      "sequence": 2456,
+      "sourceSha": "1f04781d470d77eda1b40f81b79240b63cb4f54a",
+      "sourcePackageVersion": "1.573.6",
+      "version": "1.574.0",
+      "batch": {
+        "intentIds": [
+          "mention-everywhere-sources:26dac54a2ba642baa3a51c61e3604ab1ce9ddb2ddcf34f55c256f464a74240bd",
+          "app-plan-pane-closure:00a0a5451bd214839b2df84d67cc8e8cb76e17dd359cead4bd06f8b8ee6ea8e2",
+          "sidebar-one-list:318e6999455874b766889f8b0c19f93b4c2b3f13e7f05e8eaa4fe2f5a0a7e6e8"
+        ],
+        "notesIntentIds": [
+          "mention-everywhere-sources:26dac54a2ba642baa3a51c61e3604ab1ce9ddb2ddcf34f55c256f464a74240bd",
+          "app-plan-pane-closure:00a0a5451bd214839b2df84d67cc8e8cb76e17dd359cead4bd06f8b8ee6ea8e2",
+          "sidebar-one-list:318e6999455874b766889f8b0c19f93b4c2b3f13e7f05e8eaa4fe2f5a0a7e6e8"
+        ],
+        "throughSourceSha": "1f04781d470d77eda1b40f81b79240b63cb4f54a",
+        "previousThroughSourceSha": "d3e8977d9c3e165ed11dea754ce5ab3140a361a4",
+        "baselineVersion": "1.573.7",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-17T21:43:33.421Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44182676990",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-18T21:43:24.332Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -191446,7 +191493,10 @@
     "gemini-note-no-warning-text:d21b5aa5b9e35858be2b37083231a6ad05ea29e24247456fc10e6bbbe5bc147d",
     "home-reads-cloud-chat-mentions:67dc27734a5058fa6fcd801987eba3da8ef859aa3ab5e9739084880e91611ffa",
     "onboarding-one-scroll-area:f01ff2eecf0df36d10d38e7444f930e3797d5207bf632b1c2c5fa6d5d5969ed4",
-    "pinned-app-only-active:fbc8ddffaf0cb22688879be7efa8f30c0dcf2d2b3af80383217bb32a11d06e74"
+    "pinned-app-only-active:fbc8ddffaf0cb22688879be7efa8f30c0dcf2d2b3af80383217bb32a11d06e74",
+    "mention-everywhere-sources:26dac54a2ba642baa3a51c61e3604ab1ce9ddb2ddcf34f55c256f464a74240bd",
+    "app-plan-pane-closure:00a0a5451bd214839b2df84d67cc8e8cb76e17dd359cead4bd06f8b8ee6ea8e2",
+    "sidebar-one-list:318e6999455874b766889f8b0c19f93b4c2b3f13e7f05e8eaa4fe2f5a0a7e6e8"
   ],
-  "consumedThroughSha": "d3e8977d9c3e165ed11dea754ce5ab3140a361a4"
+  "consumedThroughSha": "1f04781d470d77eda1b40f81b79240b63cb4f54a"
 }
