@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4e8eb6662376b1eb327aa7d27a793bfc51724cc3",
+  "cursorSha": "11f16443aa214ed8874aacebfefe44246b4e1876",
   "highWaterVersion": "1.575.0",
   "rows": [
     {
@@ -178711,6 +178711,13 @@
       "sourceSha": "4e8eb6662376b1eb327aa7d27a793bfc51724cc3",
       "sourcePackageVersion": "1.574.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "11f16443aa214ed8874aacebfefe44246b4e1876",
+      "sourcePackageVersion": "1.574.0",
+      "intentIds": [
+        "sidebar-shortcut-picker:573e34b29c7ec39b3eec7946da7a83a5e8c4e54e8205fb6d2feaf2ee63764843"
+      ]
     }
   ],
   "intents": [
@@ -190273,6 +190280,14 @@
       "summary": "A cloud project's message, Dock answer and blocker reply, and a New chat started on Cloud, now carry their @ picks to the cloud Orchestrator, which reads them, instead of refusing the send. Picks of this machine's chats and tabs name this machine. If the cloud can't read a pick, the thread says why, nothing is sent, and your words and picks stay.",
       "sourceSha": "0a1c21d0b2765aa0df5abf6e6ca9f3360d0e2b7d",
       "identity": "cloud-project-mentions-sent:a6301bc2ac5decddb2a267321e417f12bc980c1e3dae19e42ec1b2be7e444a1f"
+    },
+    {
+      "id": "sidebar-shortcut-picker",
+      "digest": "573e34b29c7ec39b3eec7946da7a83a5e8c4e54e8205fb6d2feaf2ee63764843",
+      "type": "patch",
+      "summary": "Settings → Navigation's sidebar editor now has Add a shortcut, which lists the apps and automations you can open in the workspace (yours first, then what was shared with you) and adds one to your sidebar with one press. Add a link is for websites only, and the Workspace links editor offers an App, a team Automation or a Web address instead of a typed page. Automation shortcuts show on the app's rail and open the automation inside the app.",
+      "sourceSha": "11f16443aa214ed8874aacebfefe44246b4e1876",
+      "identity": "sidebar-shortcut-picker:573e34b29c7ec39b3eec7946da7a83a5e8c4e54e8205fb6d2feaf2ee63764843"
     }
   ],
   "consumedIntentIds": [
