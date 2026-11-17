@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "de59bdbe8aa06256f348e4f55ebc08571b0a9548",
-  "highWaterVersion": "1.570.5",
+  "highWaterVersion": "1.570.6",
   "rows": [
     {
       "schemaVersion": 1,
@@ -96257,6 +96257,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:de59bdbe8aa06256f348e4f55ebc08571b0a9548",
+      "kind": "main",
+      "sequence": 2431,
+      "sourceSha": "de59bdbe8aa06256f348e4f55ebc08571b0a9548",
+      "sourcePackageVersion": "1.570.5",
+      "version": "1.570.6",
+      "batch": {
+        "intentIds": [
+          "tidy-orchestrator-event-identities:b79c997aa7c84a7e8d800a2d69b1b08dbb7fcde3579c695334d429752c9a6991"
+        ],
+        "notesIntentIds": [
+          "tidy-orchestrator-event-identities:b79c997aa7c84a7e8d800a2d69b1b08dbb7fcde3579c695334d429752c9a6991"
+        ],
+        "throughSourceSha": "de59bdbe8aa06256f348e4f55ebc08571b0a9548",
+        "previousThroughSourceSha": "7fc35def9a829cd99478e1e3b238b97d9218bff3",
+        "baselineVersion": "1.570.5",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-17T01:09:52.334Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "43993356049",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-18T01:09:44.806Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -188756,7 +188799,8 @@
     "plan-website-hosting:528423fd93d39601e76f3a590d6c14663c0d95e504e302902c7b674721839962",
     "app-toolbar-option-c:fe8dc05db639c8484a5039deb4c895db99e459c954e298b506e25e43a2aed6c5",
     "answer-proposal-leaves-needs-you:8dfeb672703f4f06a43dd7db277d5f89222ca1d591d3e2483f3e5d64adc56b87",
-    "onboarding-theme-close:c89198cae7910e97c0b3ddda0a88781ecfa8877d4715efed349077351f85b5e3"
+    "onboarding-theme-close:c89198cae7910e97c0b3ddda0a88781ecfa8877d4715efed349077351f85b5e3",
+    "tidy-orchestrator-event-identities:b79c997aa7c84a7e8d800a2d69b1b08dbb7fcde3579c695334d429752c9a6991"
   ],
-  "consumedThroughSha": "7fc35def9a829cd99478e1e3b238b97d9218bff3"
+  "consumedThroughSha": "de59bdbe8aa06256f348e4f55ebc08571b0a9548"
 }
