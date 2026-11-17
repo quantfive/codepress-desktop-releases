@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "bfbb7e8fb66679449d127ff4ffa32fbb98d5a8c6",
-  "highWaterVersion": "1.572.0",
+  "highWaterVersion": "1.572.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -97014,6 +97014,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:bfbb7e8fb66679449d127ff4ffa32fbb98d5a8c6",
+      "kind": "main",
+      "sequence": 2446,
+      "sourceSha": "bfbb7e8fb66679449d127ff4ffa32fbb98d5a8c6",
+      "sourcePackageVersion": "1.572.0",
+      "version": "1.572.1",
+      "batch": {
+        "intentIds": [
+          "replicas-list-etag:80b95bf6f419ad5fe437df0ae9c83438fc58d5089196edf8c46ff60cff9ef14d"
+        ],
+        "notesIntentIds": [
+          "replicas-list-etag:80b95bf6f419ad5fe437df0ae9c83438fc58d5089196edf8c46ff60cff9ef14d"
+        ],
+        "throughSourceSha": "bfbb7e8fb66679449d127ff4ffa32fbb98d5a8c6",
+        "previousThroughSourceSha": "5ae980b59000c435a58b0d7efc2e5ed8f8a6344d",
+        "baselineVersion": "1.572.0",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-17T08:18:28.162Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44045507186",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-18T08:18:20.241Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -190217,7 +190260,8 @@
     "handoff-checkpoint-commit-budget:59fa06c8d077f032b52cce7be4f3f6c4d8205777216b88594936cab2b328cde3",
     "new-app-project-card:0596d929af817f98428429f3caafcd71d1293cf90467a4b62d2da5e04d386973",
     "headless-principal-readiness:c381732b0214f987383f211bdc9006391930f497543bc1bebaf12f2cb377866a",
-    "orchestrator-context-meter-local:145bc2dd6e8afd8bc323b5911fd1eafb917612900bf9156adb915dc20a0b5c88"
+    "orchestrator-context-meter-local:145bc2dd6e8afd8bc323b5911fd1eafb917612900bf9156adb915dc20a0b5c88",
+    "replicas-list-etag:80b95bf6f419ad5fe437df0ae9c83438fc58d5089196edf8c46ff60cff9ef14d"
   ],
-  "consumedThroughSha": "5ae980b59000c435a58b0d7efc2e5ed8f8a6344d"
+  "consumedThroughSha": "bfbb7e8fb66679449d127ff4ffa32fbb98d5a8c6"
 }
