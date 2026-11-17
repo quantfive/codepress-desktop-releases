@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5fa69e8af60828e2b37755a0daf5ae917f07f512",
+  "cursorSha": "054bb7d4e5436085648f15309f2d217a5bc2658a",
   "highWaterVersion": "1.575.1",
   "rows": [
     {
@@ -178793,6 +178793,11 @@
       "intentIds": [
         "plan-step-keeps-pick-releases-hosting:89e879dcd992970874d65f95c586df323bb22606d6469d8b54b7465bc8557c7d"
       ]
+    },
+    {
+      "sourceSha": "054bb7d4e5436085648f15309f2d217a5bc2658a",
+      "sourcePackageVersion": "1.575.0",
+      "intentIds": []
     }
   ],
   "intents": [
