@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "280232608389fb12d6ebf547bf8459ffea2b24d1",
+  "cursorSha": "c14fae9ca0d5d7d42bca633e47ac89e0ad806f2e",
   "highWaterVersion": "1.572.2",
   "rows": [
     {
@@ -177479,6 +177479,13 @@
       "sourceSha": "280232608389fb12d6ebf547bf8459ffea2b24d1",
       "sourcePackageVersion": "1.572.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c14fae9ca0d5d7d42bca633e47ac89e0ad806f2e",
+      "sourcePackageVersion": "1.572.1",
+      "intentIds": [
+        "terminal-new-app-starts-a-project:b3f7e5d892a32ec730d444d65ca82fbba1b85a3a4b21fa3e0efc1f6cc0ad1fc7"
+      ]
     }
   ],
   "intents": [
@@ -188921,6 +188928,14 @@
       "summary": "The Orchestrator feed is revalidated with its ETag: a poll of an unchanged feed gets an empty 304 and reuses the body this machine already holds, so the cloud no longer rebuilds it on every poll.",
       "sourceSha": "bb910b21bd329ecedba9937ebc8a7f8bb3a0bc95",
       "identity": "feed-etag-revalidation:8880922b0040158e7b224403f7569c2d4da687850e4336b212977a75ebdfb7f2"
+    },
+    {
+      "id": "terminal-new-app-starts-a-project",
+      "digest": "b3f7e5d892a32ec730d444d65ca82fbba1b85a3a4b21fa3e0efc1f6cc0ad1fc7",
+      "type": "minor",
+      "summary": "New app in Terminal can start a project. With Orchestrator for Apps on and an App repository recorded, a collection's New app opens the shared project card (Name, What should it do?, Runs on). Start project opens the new App's page in the Apps view with the project in its chat column, never the Agent tab. A refusal stays on the card, and a workspace without an App repository falls back to today's chat. An App's new chat also offers Runs on: Cloud, or one of your own machines, where the agent runs as a cloud chat that the column follows in place, with the machine named in its header.",
+      "sourceSha": "c14fae9ca0d5d7d42bca633e47ac89e0ad806f2e",
+      "identity": "terminal-new-app-starts-a-project:b3f7e5d892a32ec730d444d65ca82fbba1b85a3a4b21fa3e0efc1f6cc0ad1fc7"
     }
   ],
   "consumedIntentIds": [
