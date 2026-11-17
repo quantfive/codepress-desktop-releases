@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "714367fbfa12363b2749369686db3dc284d69e88",
-  "highWaterVersion": "1.573.1",
+  "highWaterVersion": "1.573.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -97218,6 +97218,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:714367fbfa12363b2749369686db3dc284d69e88",
+      "kind": "main",
+      "sequence": 2450,
+      "sourceSha": "714367fbfa12363b2749369686db3dc284d69e88",
+      "sourcePackageVersion": "1.573.1",
+      "version": "1.573.2",
+      "batch": {
+        "intentIds": [
+          "machine-pm-stale-runner-replace:2d252f1efe4512ebd78cb7e9192ceaff91b4fff38097706e697544f9d3d2fb24"
+        ],
+        "notesIntentIds": [
+          "machine-pm-stale-runner-replace:2d252f1efe4512ebd78cb7e9192ceaff91b4fff38097706e697544f9d3d2fb24"
+        ],
+        "throughSourceSha": "714367fbfa12363b2749369686db3dc284d69e88",
+        "previousThroughSourceSha": "cc47da3fdb521f89c4492c2bd72a4b6a0ba66ffa",
+        "baselineVersion": "1.573.1",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-17T12:54:12.110Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44087358857",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-18T12:54:00.975Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -190615,7 +190658,8 @@
     "replicas-list-etag:80b95bf6f419ad5fe437df0ae9c83438fc58d5089196edf8c46ff60cff9ef14d",
     "feed-etag-revalidation:8880922b0040158e7b224403f7569c2d4da687850e4336b212977a75ebdfb7f2",
     "terminal-new-app-starts-a-project:b3f7e5d892a32ec730d444d65ca82fbba1b85a3a4b21fa3e0efc1f6cc0ad1fc7",
-    "machine-worker-relay-clone-and-checkpoint:3a962a7f972daf8bce891f98b850f4019e2f7978815306c4165e208702bdb148"
+    "machine-worker-relay-clone-and-checkpoint:3a962a7f972daf8bce891f98b850f4019e2f7978815306c4165e208702bdb148",
+    "machine-pm-stale-runner-replace:2d252f1efe4512ebd78cb7e9192ceaff91b4fff38097706e697544f9d3d2fb24"
   ],
-  "consumedThroughSha": "cc47da3fdb521f89c4492c2bd72a4b6a0ba66ffa"
+  "consumedThroughSha": "714367fbfa12363b2749369686db3dc284d69e88"
 }
