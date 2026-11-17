@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e2789e4be4ef47132189011d9a510098719828b6",
+  "cursorSha": "cb2528280ac683752aee922e780ac16ebbcc8d06",
   "highWaterVersion": "1.570.9",
   "rows": [
     {
@@ -176394,6 +176394,13 @@
       "sourceSha": "e2789e4be4ef47132189011d9a510098719828b6",
       "sourcePackageVersion": "1.570.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "cb2528280ac683752aee922e780ac16ebbcc8d06",
+      "sourcePackageVersion": "1.570.8",
+      "intentIds": [
+        "mention-synced-copies:4fb6a9480643fc2cc185c90d04333d3c025312cd0b23378d608b06b582b6403c"
+      ]
     }
   ],
   "intents": [
@@ -187668,6 +187675,14 @@
       "summary": "A worker's screen that reads blank after Terminal reconnects to it (a swap restart or a broker reattach) is now repainted, so the Orchestrator can read and answer the dialog it is sitting on. Terminal narrows the worker's terminal by one column until the agent has redrawn something readable (at least 100 ms, at most 250 ms), then puts the size straight back. A cell the agent keeps blinking does not cut that short. Claude Code and Codex do not repaint on the same-size redraw Terminal sent before. The first read after each reconnect does the same when it shows only a fragment (text on fewer than three lines), as when Claude keeps blinking one bullet at a permission prompt. A screen that already reads as more than that is never resized, and only Orchestrator workers' tabs are: a person's own tab keeps its size.",
       "sourceSha": "a66b11a2f50b4ddc24ba09a44aeaf18a086a7362",
       "identity": "worker-screen-repaint-after-reattach:c6ca83017cab014a8ed8a9ef4f7cbe264003b381b2a5b1948bdfa4f3c2a48b6e"
+    },
+    {
+      "id": "mention-synced-copies",
+      "digest": "4fb6a9480643fc2cc185c90d04333d3c025312cd0b23378d608b06b582b6403c",
+      "type": "patch",
+      "summary": "The `@` menu now finds your chats and projects on your other machines even while those machines are asleep or quit. They list under the machine with a \"synced copy\" hint, and the Orchestrator reads the synced copy as your own words when you send.",
+      "sourceSha": "cb2528280ac683752aee922e780ac16ebbcc8d06",
+      "identity": "mention-synced-copies:4fb6a9480643fc2cc185c90d04333d3c025312cd0b23378d608b06b582b6403c"
     }
   ],
   "consumedIntentIds": [
