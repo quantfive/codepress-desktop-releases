@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "dfe81e696661f5457360cc5b89cc9d8a7dd3c3e3",
+  "cursorSha": "73998253cd2103e85893075c7bf2dc6e4bc2dbbf",
   "highWaterVersion": "1.571.4",
   "rows": [
     {
@@ -176875,6 +176875,13 @@
       "sourceSha": "dfe81e696661f5457360cc5b89cc9d8a7dd3c3e3",
       "sourcePackageVersion": "1.571.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "73998253cd2103e85893075c7bf2dc6e4bc2dbbf",
+      "sourcePackageVersion": "1.571.3",
+      "intentIds": [
+        "host-spawn-churn:21136635f4abe1aa2ee79e6c46a808b8678c29d54bfa3a69b0fbf2f457edccf6"
+      ]
     }
   ],
   "intents": [
@@ -188221,6 +188228,14 @@
       "summary": "Pressing Land the project on a land ask now shows \"Landing…\" in the card and the project header at once, then Landed. On a synced copy whose machine is online, the land goes straight to that machine instead of waiting in the queue. If the land is refused, the buttons come back with the reason.",
       "sourceSha": "a13c1691d834ace07fd3578300997cfccfda30b4",
       "identity": "optimistic-land:6007eccc5c6db13931d0b3809828d74395e6e505bb3facd288fc4149efbf25c8"
+    },
+    {
+      "id": "host-spawn-churn",
+      "digest": "21136635f4abe1aa2ee79e6c46a808b8678c29d54bfa3a69b0fbf2f457edccf6",
+      "type": "patch",
+      "summary": "Terminal starts far fewer helper processes on an idle machine. Whether GitHub CLI is signed in is checked once a minute and shared, and is checked again right after a sign-in, sign-out or account link. Repository details are read again only when the repository's git files change, and process checks that arrive together share one `ps`. A Computer Use launch checks that its agent is still running without starting a process each second, and the capacity sampler only runs every two seconds while capacity is in use.",
+      "sourceSha": "73998253cd2103e85893075c7bf2dc6e4bc2dbbf",
+      "identity": "host-spawn-churn:21136635f4abe1aa2ee79e6c46a808b8678c29d54bfa3a69b0fbf2f457edccf6"
     }
   ],
   "consumedIntentIds": [
