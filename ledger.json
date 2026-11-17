@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9673ddb0a819f34b91ecad2ed02ece457c995357",
+  "cursorSha": "6d6c0c8ab99d834c2f40289e02f41a636e15f031",
   "highWaterVersion": "1.571.5",
   "rows": [
     {
@@ -176961,6 +176961,18 @@
       "intentIds": [
         "cpu-critical-needs-busy-cores:d0b0345089e79b608fa86429c295613edef51b9e878f95d52471ade6bafe9de7"
       ]
+    },
+    {
+      "sourceSha": "8a2697af4f3097785169e53dafebea2226edc5ef",
+      "sourcePackageVersion": "1.571.4",
+      "intentIds": [
+        "headless-service-diagnostics:cf48f33dba58988dd8be28da44e031a2d7c5389f3aa530dfb1ac06247bd5fdbb"
+      ]
+    },
+    {
+      "sourceSha": "6d6c0c8ab99d834c2f40289e02f41a636e15f031",
+      "sourcePackageVersion": "1.571.4",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -188323,6 +188335,14 @@
       "summary": "\"CPU overloaded\" now shows only when the cores are actually busy. A high load average with mostly idle cores, such as Spotlight indexing across many worktrees, no longer marks the machine overloaded or holds new worker launches. Without a busy reading, a high load average still counts as overloaded.",
       "sourceSha": "9673ddb0a819f34b91ecad2ed02ece457c995357",
       "identity": "cpu-critical-needs-busy-cores:d0b0345089e79b608fa86429c295613edef51b9e878f95d52471ade6bafe9de7"
+    },
+    {
+      "id": "headless-service-diagnostics",
+      "digest": "cf48f33dba58988dd8be28da44e031a2d7c5389f3aa530dfb1ac06247bd5fdbb",
+      "type": "patch",
+      "summary": "A headless Server CLI that a live desktop app keeps from starting now says which process holds the data folder (its pid, and its systemd unit when it can be read) and how to resolve it, instead of restart-looping silently. On Linux, `codepress-terminal doctor` prints a Service section and `status` adds a Service line from `systemctl show`, warning on restart loops, drop-ins that set `ExecStartPre`, `ExecStart` or `NODE_OPTIONS`, and enabled CodePress desktop autostart entries or desktop daemon units; it never changes anything. `codepress-terminal adopt activate` now also hides enabled CodePress desktop autostart entries, and `adopt rollback` restores them exactly.",
+      "sourceSha": "8a2697af4f3097785169e53dafebea2226edc5ef",
+      "identity": "headless-service-diagnostics:cf48f33dba58988dd8be28da44e031a2d7c5389f3aa530dfb1ac06247bd5fdbb"
     }
   ],
   "consumedIntentIds": [
