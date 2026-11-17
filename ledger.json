@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b0296045159cd500e3bdf657c444e0ea9fd302e3",
+  "cursorSha": "68f5eded3cb4898804df8b9e9c86d3dbc6f9ccb1",
   "highWaterVersion": "1.571.6",
   "rows": [
     {
@@ -177069,6 +177069,16 @@
       "intentIds": [
         "handoff-checkpoint-commit-budget:59fa06c8d077f032b52cce7be4f3f6c4d8205777216b88594936cab2b328cde3"
       ]
+    },
+    {
+      "sourceSha": "6eecd88f4ae1e0e1a5fe7f2005ff54ac7e781f4c",
+      "sourcePackageVersion": "1.571.5",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "68f5eded3cb4898804df8b9e9c86d3dbc6f9ccb1",
+      "sourcePackageVersion": "1.571.5",
+      "intentIds": []
     }
   ],
   "intents": [
