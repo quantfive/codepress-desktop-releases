@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4902c1b61dd28d2fc2553db86599b6ed5ff039cb",
+  "cursorSha": "bfbb7e8fb66679449d127ff4ffa32fbb98d5a8c6",
   "highWaterVersion": "1.572.0",
   "rows": [
     {
@@ -177346,6 +177346,13 @@
       "sourceSha": "4902c1b61dd28d2fc2553db86599b6ed5ff039cb",
       "sourcePackageVersion": "1.572.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "bfbb7e8fb66679449d127ff4ffa32fbb98d5a8c6",
+      "sourcePackageVersion": "1.572.0",
+      "intentIds": [
+        "replicas-list-etag:80b95bf6f419ad5fe437df0ae9c83438fc58d5089196edf8c46ff60cff9ef14d"
+      ]
     }
   ],
   "intents": [
@@ -188772,6 +188779,14 @@
       "summary": "A local project's Details sidebar shows how much context its Orchestrator is using after its last turn, measured against where it compacts or, with no compaction point, its model's window.",
       "sourceSha": "5ae980b59000c435a58b0d7efc2e5ed8f8a6344d",
       "identity": "orchestrator-context-meter-local:145bc2dd6e8afd8bc323b5911fd1eafb917612900bf9156adb915dc20a0b5c88"
+    },
+    {
+      "id": "replicas-list-etag",
+      "digest": "80b95bf6f419ad5fe437df0ae9c83438fc58d5089196edf8c46ff60cff9ef14d",
+      "type": "patch",
+      "summary": "Terminal sends the synced project list's ETag back, so an unchanged list costs the backend almost nothing.",
+      "sourceSha": "bfbb7e8fb66679449d127ff4ffa32fbb98d5a8c6",
+      "identity": "replicas-list-etag:80b95bf6f419ad5fe437df0ae9c83438fc58d5089196edf8c46ff60cff9ef14d"
     }
   ],
   "consumedIntentIds": [
