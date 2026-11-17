@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b0ba3f9c27980cb3199aef7036a4097a9a03854e",
+  "cursorSha": "de59bdbe8aa06256f348e4f55ebc08571b0a9548",
   "highWaterVersion": "1.570.5",
   "rows": [
     {
@@ -176110,6 +176110,13 @@
       "sourceSha": "b0ba3f9c27980cb3199aef7036a4097a9a03854e",
       "sourcePackageVersion": "1.570.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "de59bdbe8aa06256f348e4f55ebc08571b0a9548",
+      "sourcePackageVersion": "1.570.5",
+      "intentIds": [
+        "tidy-orchestrator-event-identities:b79c997aa7c84a7e8d800a2d69b1b08dbb7fcde3579c695334d429752c9a6991"
+      ]
     }
   ],
   "intents": [
@@ -187336,6 +187343,14 @@
       "summary": "Welcome's theme picker in System mode shows only the theme group for the mode your system is in now, with one theme selected and a note pointing to Settings → Appearance for the other mode. The ✕ on a replayed onboarding now closes it: the desktop window-drag strip no longer covers it.",
       "sourceSha": "7fc35def9a829cd99478e1e3b238b97d9218bff3",
       "identity": "onboarding-theme-close:c89198cae7910e97c0b3ddda0a88781ecfa8877d4715efed349077351f85b5e3"
+    },
+    {
+      "id": "tidy-orchestrator-event-identities",
+      "digest": "b79c997aa7c84a7e8d800a2d69b1b08dbb7fcde3579c695334d429752c9a6991",
+      "type": "patch",
+      "summary": "Keep composed Codex and Claude event IDs within the transcript store limit so compaction and follow-up events do not interrupt the Orchestrator.",
+      "sourceSha": "de59bdbe8aa06256f348e4f55ebc08571b0a9548",
+      "identity": "tidy-orchestrator-event-identities:b79c997aa7c84a7e8d800a2d69b1b08dbb7fcde3579c695334d429752c9a6991"
     }
   ],
   "consumedIntentIds": [
