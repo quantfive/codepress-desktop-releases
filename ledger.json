@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e110b25f61e3b7cd14468903e16558d6726b145c",
+  "cursorSha": "b0296045159cd500e3bdf657c444e0ea9fd302e3",
   "highWaterVersion": "1.571.6",
   "rows": [
     {
@@ -177062,6 +177062,13 @@
       "sourceSha": "e110b25f61e3b7cd14468903e16558d6726b145c",
       "sourcePackageVersion": "1.571.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b0296045159cd500e3bdf657c444e0ea9fd302e3",
+      "sourcePackageVersion": "1.571.5",
+      "intentIds": [
+        "handoff-checkpoint-commit-budget:59fa06c8d077f032b52cce7be4f3f6c4d8205777216b88594936cab2b328cde3"
+      ]
     }
   ],
   "intents": [
@@ -188456,6 +188463,14 @@
       "summary": "A fleet worker waiting on a permission prompt keeps that prompt across a Terminal restart, and its Orchestrator can still approve it. Before, the saved prompt was dropped for every Orchestrator worker because Terminal's launcher hid which agent was running, and approving after a restart read the worker's blank screen and refused. Approve, the person's Approve once and Decline, and the waiting message now read the worker's screen after it is redrawn.",
       "sourceSha": "eaccf51f73b08742fe9fcded83e03b373188a4a3",
       "identity": "fleet-dialog-restore:b59364cf8cc32ea6584ebfb80f11f6355b4b325a73a89a2f929a1d38f0836a62"
+    },
+    {
+      "id": "handoff-checkpoint-commit-budget",
+      "digest": "59fa06c8d077f032b52cce7be4f3f6c4d8205777216b88594936cab2b328cde3",
+      "type": "patch",
+      "summary": "Moving an Orchestrator project or handing off a session no longer fails when the repository's commit hook takes longer than 30 seconds: the checkpoint commit now gets 5 minutes (`CODEPRESS_HANDOFF_COMMIT_TIMEOUT_MS`), and its hooks still run. Every other handoff Git command keeps its 30-second limit. When a handoff Git command fails, the error now says whether it timed out or which exit status it had, followed by the end of its output (a hook's own error), instead of a long command header that cut the output off; the handoff tool's error keeps that end too.",
+      "sourceSha": "b0296045159cd500e3bdf657c444e0ea9fd302e3",
+      "identity": "handoff-checkpoint-commit-budget:59fa06c8d077f032b52cce7be4f3f6c4d8205777216b88594936cab2b328cde3"
     }
   ],
   "consumedIntentIds": [
