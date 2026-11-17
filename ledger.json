@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "11f16443aa214ed8874aacebfefe44246b4e1876",
+  "cursorSha": "875f57e90cbbc2dc0fb4b11713e891a34bd6c5db",
   "highWaterVersion": "1.575.0",
   "rows": [
     {
@@ -178718,6 +178718,13 @@
       "intentIds": [
         "sidebar-shortcut-picker:573e34b29c7ec39b3eec7946da7a83a5e8c4e54e8205fb6d2feaf2ee63764843"
       ]
+    },
+    {
+      "sourceSha": "875f57e90cbbc2dc0fb4b11713e891a34bd6c5db",
+      "sourcePackageVersion": "1.574.0",
+      "intentIds": [
+        "calm-keys-retry:ae9e3bdebf06ced6f85b1325ba39e5003bf8c5dbc6888eaac6e6c3607943592e"
+      ]
     }
   ],
   "intents": [
@@ -190288,6 +190295,14 @@
       "summary": "Settings → Navigation's sidebar editor now has Add a shortcut, which lists the apps and automations you can open in the workspace (yours first, then what was shared with you) and adds one to your sidebar with one press. Add a link is for websites only, and the Workspace links editor offers an App, a team Automation or a Web address instead of a typed page. Automation shortcuts show on the app's rail and open the automation inside the app.",
       "sourceSha": "11f16443aa214ed8874aacebfefe44246b4e1876",
       "identity": "sidebar-shortcut-picker:573e34b29c7ec39b3eec7946da7a83a5e8c4e54e8205fb6d2feaf2ee63764843"
+    },
+    {
+      "id": "calm-keys-retry",
+      "digest": "ae9e3bdebf06ced6f85b1325ba39e5003bf8c5dbc6888eaac6e6c3607943592e",
+      "type": "patch",
+      "summary": "Make Terminal's macOS release build retry when the signing keychain briefly refuses a signing request, instead of failing the whole release build.",
+      "sourceSha": "875f57e90cbbc2dc0fb4b11713e891a34bd6c5db",
+      "identity": "calm-keys-retry:ae9e3bdebf06ced6f85b1325ba39e5003bf8c5dbc6888eaac6e6c3607943592e"
     }
   ],
   "consumedIntentIds": [
