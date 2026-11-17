@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "054bb7d4e5436085648f15309f2d217a5bc2658a",
+  "cursorSha": "ec4b379a1a8b27096f2a06402c4074c340bb9265",
   "highWaterVersion": "1.575.1",
   "rows": [
     {
@@ -178798,6 +178798,13 @@
       "sourceSha": "054bb7d4e5436085648f15309f2d217a5bc2658a",
       "sourcePackageVersion": "1.575.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ec4b379a1a8b27096f2a06402c4074c340bb9265",
+      "sourcePackageVersion": "1.575.0",
+      "intentIds": [
+        "app-chat-plan-card:7a1a59d7a1506bf1f138cc97ab63a745b3fe215fa0d7bc24782115d1d7c5b002"
+      ]
     }
   ],
   "intents": [
@@ -190384,6 +190391,14 @@
       "summary": "Choose a plan keeps the plan you picked after a Checkout that wasn't completed, so Continue picks it back up, and moving on without Website hosting releases an open hosting Checkout.",
       "sourceSha": "5fa69e8af60828e2b37755a0daf5ae917f07f512",
       "identity": "plan-step-keeps-pick-releases-hosting:89e879dcd992970874d65f95c586df323bb22606d6469d8b54b7465bc8557c7d"
+    },
+    {
+      "id": "app-chat-plan-card",
+      "digest": "7a1a59d7a1506bf1f138cc97ab63a745b3fe215fa0d7bc24782115d1d7c5b002",
+      "type": "patch",
+      "summary": "The App page's chat now shows a plan the agent proposes as the plan card, with Approve & build, Open plan and Ask for changes…, as the Agent tab's chat does. Approve & build opens the new project in the same column on a managed App, and in the Agent tab on a repository App. A started App chat no longer shows an empty amber box above its composer.",
+      "sourceSha": "ec4b379a1a8b27096f2a06402c4074c340bb9265",
+      "identity": "app-chat-plan-card:7a1a59d7a1506bf1f138cc97ab63a745b3fe215fa0d7bc24782115d1d7c5b002"
     }
   ],
   "consumedIntentIds": [
