@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4b18d05bb5712cff35e17c3be7e1d1f3ca0bdda5",
+  "cursorSha": "2274afc1a54a9d9c0c74b1f5cb7c2e5ec94f4c5c",
   "highWaterVersion": "1.570.10",
   "rows": [
     {
@@ -176468,6 +176468,13 @@
       "sourceSha": "4b18d05bb5712cff35e17c3be7e1d1f3ca0bdda5",
       "sourcePackageVersion": "1.570.9",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2274afc1a54a9d9c0c74b1f5cb7c2e5ec94f4c5c",
+      "sourcePackageVersion": "1.570.9",
+      "intentIds": [
+        "cloud-chat-local-layout:3a362c39186fd37ac8b5c4a9df2b219ee0cc1e4c15aaa06549449ef9631111fe"
+      ]
     }
   ],
   "intents": [
@@ -187750,6 +187757,14 @@
       "summary": "The `@` menu now finds your chats and projects on your other machines even while those machines are asleep or quit. They list under the machine with a \"synced copy\" hint, and the Orchestrator reads the synced copy as your own words when you send.",
       "sourceSha": "cb2528280ac683752aee922e780ac16ebbcc8d06",
       "identity": "mention-synced-copies:4fb6a9480643fc2cc185c90d04333d3c025312cd0b23378d608b06b582b6403c"
+    },
+    {
+      "id": "cloud-chat-local-layout",
+      "digest": "3a362c39186fd37ac8b5c4a9df2b219ee0cc1e4c15aaa06549449ef9631111fe",
+      "type": "minor",
+      "summary": "A cloud chat now has the same layout as a local chat. Its name, a Cloud tag (or the machine's name for a returned session), and the Thread and Artifacts tabs sit in the window's title bar. The chat shows its short name, and hovering it shows the summary. Hand off… is in the ⋯ menu, and its picker appears under the header only while you use it. Find in chat works, and a queued message can be taken back.",
+      "sourceSha": "2274afc1a54a9d9c0c74b1f5cb7c2e5ec94f4c5c",
+      "identity": "cloud-chat-local-layout:3a362c39186fd37ac8b5c4a9df2b219ee0cc1e4c15aaa06549449ef9631111fe"
     }
   ],
   "consumedIntentIds": [
