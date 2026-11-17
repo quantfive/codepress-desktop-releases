@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "e2789e4be4ef47132189011d9a510098719828b6",
-  "highWaterVersion": "1.570.8",
+  "highWaterVersion": "1.570.9",
   "rows": [
     {
       "schemaVersion": 1,
@@ -96402,6 +96402,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:e2789e4be4ef47132189011d9a510098719828b6",
+      "kind": "main",
+      "sequence": 2434,
+      "sourceSha": "e2789e4be4ef47132189011d9a510098719828b6",
+      "sourcePackageVersion": "1.570.8",
+      "version": "1.570.9",
+      "batch": {
+        "intentIds": [
+          "worker-screen-repaint-after-reattach:c6ca83017cab014a8ed8a9ef4f7cbe264003b381b2a5b1948bdfa4f3c2a48b6e"
+        ],
+        "notesIntentIds": [
+          "worker-screen-repaint-after-reattach:c6ca83017cab014a8ed8a9ef4f7cbe264003b381b2a5b1948bdfa4f3c2a48b6e"
+        ],
+        "throughSourceSha": "e2789e4be4ef47132189011d9a510098719828b6",
+        "previousThroughSourceSha": "3a2b2bed10f391510ed1966624a000e3f94f9e32",
+        "baselineVersion": "1.570.8",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-17T02:20:13.391Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44002143773",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-18T02:20:06.162Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -189031,7 +189074,8 @@
     "plan-hosting-agents-full-width-hints:e99e7bfe267e42e2e46fe799a3b0d2b30ae0e25b3b390a7eed458c1a9cd5ef7b",
     "onboarding-sidebar-no-pin-app:d1a0e26d951e5e5aa3799beffc3b6526c97829f1642008adc7015562d5527e0f",
     "titlebar-fit:9b6d437efc73f06befc08ec402d5c5e2ed5871c2e714d9524086294659bbfdd4",
-    "worker-prompt-record-restart:4b6cab29e934c0d7e36fbcb5e7ea70c4d4ba30f2822d95128c4a2172764fd31e"
+    "worker-prompt-record-restart:4b6cab29e934c0d7e36fbcb5e7ea70c4d4ba30f2822d95128c4a2172764fd31e",
+    "worker-screen-repaint-after-reattach:c6ca83017cab014a8ed8a9ef4f7cbe264003b381b2a5b1948bdfa4f3c2a48b6e"
   ],
-  "consumedThroughSha": "3a2b2bed10f391510ed1966624a000e3f94f9e32"
+  "consumedThroughSha": "e2789e4be4ef47132189011d9a510098719828b6"
 }
