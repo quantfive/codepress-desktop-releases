@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "de59bdbe8aa06256f348e4f55ebc08571b0a9548",
+  "cursorSha": "c72ef8e4874ad0ba2f25c783046f6d054d13206f",
   "highWaterVersion": "1.570.6",
   "rows": [
     {
@@ -176164,6 +176164,13 @@
       "intentIds": [
         "tidy-orchestrator-event-identities:b79c997aa7c84a7e8d800a2d69b1b08dbb7fcde3579c695334d429752c9a6991"
       ]
+    },
+    {
+      "sourceSha": "c72ef8e4874ad0ba2f25c783046f6d054d13206f",
+      "sourcePackageVersion": "1.570.5",
+      "intentIds": [
+        "plan-hosting-agents-full-width-hints:e99e7bfe267e42e2e46fe799a3b0d2b30ae0e25b3b390a7eed458c1a9cd5ef7b"
+      ]
     }
   ],
   "intents": [
@@ -187398,6 +187405,14 @@
       "summary": "Keep composed Codex and Claude event IDs within the transcript store limit so compaction and follow-up events do not interrupt the Orchestrator.",
       "sourceSha": "de59bdbe8aa06256f348e4f55ebc08571b0a9548",
       "identity": "tidy-orchestrator-event-identities:b79c997aa7c84a7e8d800a2d69b1b08dbb7fcde3579c695334d429752c9a6991"
+    },
+    {
+      "id": "plan-hosting-agents-full-width-hints",
+      "digest": "e99e7bfe267e42e2e46fe799a3b0d2b30ae0e25b3b390a7eed458c1a9cd5ef7b",
+      "type": "patch",
+      "summary": "Onboarding: the Website hosting plan now lists cloud agents at $4/agent-hour, and the GitHub and Team steps' notes span the full width of the step.",
+      "sourceSha": "c72ef8e4874ad0ba2f25c783046f6d054d13206f",
+      "identity": "plan-hosting-agents-full-width-hints:e99e7bfe267e42e2e46fe799a3b0d2b30ae0e25b3b390a7eed458c1a9cd5ef7b"
     }
   ],
   "consumedIntentIds": [
