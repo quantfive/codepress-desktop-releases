@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "29193821d54a15c0815402e362048ded7f926c4c",
+  "cursorSha": "ed1e0aa25f19d3ff46880621294c102ea0773cdf",
   "highWaterVersion": "1.573.4",
   "rows": [
     {
@@ -178131,6 +178131,13 @@
       "sourceSha": "29193821d54a15c0815402e362048ded7f926c4c",
       "sourcePackageVersion": "1.573.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ed1e0aa25f19d3ff46880621294c102ea0773cdf",
+      "sourcePackageVersion": "1.573.3",
+      "intentIds": [
+        "prompt-approval-travels:809b48eace4ed35f20a60e82945c1470e7b9c286d942c62c0f4ddb836b9d0b1a"
+      ]
     }
   ],
   "intents": [
@@ -189613,6 +189620,14 @@
       "summary": "Full setup now asks to let agents use this machine before you make the sidebar yours, and the Sidebar step names where to change it later: Settings → Branding & dashboard → Navigation.",
       "sourceSha": "868d055dfcecf8b4c68f40acb2506f1690fc2db6",
       "identity": "onboarding-permissions-before-sidebar:12b87921e8688a55a6de6422b5eb44d5c933959b4c6f70b95041d5dbff09d0cd"
+    },
+    {
+      "id": "prompt-approval-travels",
+      "digest": "809b48eace4ed35f20a60e82945c1470e7b9c286d942c62c0f4ddb836b9d0b1a",
+      "type": "patch",
+      "summary": "A local Orchestrator project with \"Let the Orchestrator answer its agents' prompts\" on keeps it when it moves to another of your machines, by direct handoff or by picking it up from the cloud copy, as merge authority already does. A project whose grant was withdrawn, a chat, or a move to or from an older Terminal arrives with it off, as before.",
+      "sourceSha": "ed1e0aa25f19d3ff46880621294c102ea0773cdf",
+      "identity": "prompt-approval-travels:809b48eace4ed35f20a60e82945c1470e7b9c286d942c62c0f4ddb836b9d0b1a"
     }
   ],
   "consumedIntentIds": [
