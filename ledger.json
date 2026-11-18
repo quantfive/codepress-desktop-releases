@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "e0b6ee9de69d7c349ae356da9403a77aea591ac4",
-  "highWaterVersion": "1.577.24",
+  "highWaterVersion": "1.577.25",
   "rows": [
     {
       "schemaVersion": 1,
@@ -99492,6 +99492,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:e0b6ee9de69d7c349ae356da9403a77aea591ac4",
+      "kind": "main",
+      "sequence": 2494,
+      "sourceSha": "e0b6ee9de69d7c349ae356da9403a77aea591ac4",
+      "sourcePackageVersion": "1.577.24",
+      "version": "1.577.25",
+      "batch": {
+        "intentIds": [
+          "copilot-kiro-team-keys:0549bc852fa6e100bc953d5ef8cfb3aadd2b6e5c0179f561b7aac18e7459d9a9"
+        ],
+        "notesIntentIds": [
+          "copilot-kiro-team-keys:0549bc852fa6e100bc953d5ef8cfb3aadd2b6e5c0179f561b7aac18e7459d9a9"
+        ],
+        "throughSourceSha": "e0b6ee9de69d7c349ae356da9403a77aea591ac4",
+        "previousThroughSourceSha": "14372115bd66129a3cee6c71dd5b8ea3811146f4",
+        "baselineVersion": "1.577.24",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-18T20:18:52.753Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44389568783",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-19T20:18:41.879Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -195315,7 +195358,8 @@
     "steady-context-meter:c5770ef1265f1df4881a8ea0d611dcf6c7619b2e951cf31d96e1019e002f6d91",
     "app-preview-frame-state:3301b57ce43502c73ebbf0995e8ab3b38469f6590bc08df37bfff024dfd878b7",
     "proposal-card-screenshots:8165f5860d661fe295b93b5d1b0c6eb6004f679a7490b8fc1f08e70f9d2dafb2",
-    "menus-clear-traffic-lights:c636caf7ce6f054438e0986a4feab42ee75940f2080ac938db02305235a292a9"
+    "menus-clear-traffic-lights:c636caf7ce6f054438e0986a4feab42ee75940f2080ac938db02305235a292a9",
+    "copilot-kiro-team-keys:0549bc852fa6e100bc953d5ef8cfb3aadd2b6e5c0179f561b7aac18e7459d9a9"
   ],
-  "consumedThroughSha": "14372115bd66129a3cee6c71dd5b8ea3811146f4"
+  "consumedThroughSha": "e0b6ee9de69d7c349ae356da9403a77aea591ac4"
 }
