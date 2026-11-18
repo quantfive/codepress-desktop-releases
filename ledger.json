@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0bb1bc7fc8f6319784cecef64e60cf1ab1843963",
+  "cursorSha": "32d3787addfde1575ff1be234d944c5182284dfd",
   "highWaterVersion": "1.577.12",
   "rows": [
     {
@@ -180708,6 +180708,11 @@
       "intentIds": [
         "terminal-per-org-machine-sharing:8a782b500d17bd058ba062a200cf81a227a8bec0797123c92c2c336c47d1ef57"
       ]
+    },
+    {
+      "sourceSha": "32d3787addfde1575ff1be234d944c5182284dfd",
+      "sourcePackageVersion": "1.577.11",
+      "intentIds": []
     }
   ],
   "intents": [
