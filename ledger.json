@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "04f2a7e8c660458528ab046bcf8026fc5ace5c25",
+  "cursorSha": "29e851f9ed7b77dee042ea828a365808648c86d3",
   "highWaterVersion": "1.577.14",
   "rows": [
     {
@@ -180940,6 +180940,13 @@
       "sourceSha": "04f2a7e8c660458528ab046bcf8026fc5ace5c25",
       "sourcePackageVersion": "1.577.12",
       "intentIds": []
+    },
+    {
+      "sourceSha": "29e851f9ed7b77dee042ea828a365808648c86d3",
+      "sourcePackageVersion": "1.577.12",
+      "intentIds": [
+        "windows-release-lane:638e34d7c7cf170d18f78f3352500f8b379a1ddc37278dde5d29509dcf158c4c"
+      ]
     }
   ],
   "intents": [
@@ -192822,6 +192829,14 @@
       "summary": "The GitHub row in onboarding and Settings → Agent accounts says it is busy (`aria-busy`) while it is still checking this computer's GitHub CLI or linking it through your CodePress account, so assistive technology waits for its answer.",
       "sourceSha": "a8ec4454eadb9ac268db0396a00032052119403a",
       "identity": "github-row-aria-busy:23e791cf5b485ce8d6ae896c7b3aaaf985b02817900f6e2000fcbb0ba67c9fbf"
+    },
+    {
+      "id": "windows-release-lane",
+      "digest": "638e34d7c7cf170d18f78f3352500f8b379a1ddc37278dde5d29509dcf158c4c",
+      "type": "patch",
+      "summary": "Terminal releases now include a Windows x64 installer at the same version as macOS and Linux, with its own `latest-windows-x86_64.json` update feed. Each Windows build is installed, launched, updated and uninstalled on a clean Windows machine before it ships. The Windows installer does not include the local agent runner yet, because local cloud agents are not available on Windows. A failed Windows build never holds back the macOS or Linux release.",
+      "sourceSha": "29e851f9ed7b77dee042ea828a365808648c86d3",
+      "identity": "windows-release-lane:638e34d7c7cf170d18f78f3352500f8b379a1ddc37278dde5d29509dcf158c4c"
     }
   ],
   "consumedIntentIds": [
