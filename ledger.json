@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "811abbe6b5efc70e53826c3939c00f87a518b15c",
-  "highWaterVersion": "1.575.2",
+  "highWaterVersion": "1.575.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -97791,6 +97791,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:811abbe6b5efc70e53826c3939c00f87a518b15c",
+      "kind": "main",
+      "sequence": 2461,
+      "sourceSha": "811abbe6b5efc70e53826c3939c00f87a518b15c",
+      "sourcePackageVersion": "1.575.2",
+      "version": "1.575.3",
+      "batch": {
+        "intentIds": [
+          "cloud-project-open-bounded-first-page:7020bc17d79464d2401f14013463c273491995fc5f259d6717d513a0a3378825"
+        ],
+        "notesIntentIds": [
+          "cloud-project-open-bounded-first-page:7020bc17d79464d2401f14013463c273491995fc5f259d6717d513a0a3378825"
+        ],
+        "throughSourceSha": "811abbe6b5efc70e53826c3939c00f87a518b15c",
+        "previousThroughSourceSha": "b05f21d671bd17ec129e408d760e105b65ef66ad",
+        "baselineVersion": "1.575.2",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-18T00:21:45.779Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44207060852",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-19T00:21:32.713Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -191955,7 +191998,8 @@
     "sidebar-shortcut-picker:573e34b29c7ec39b3eec7946da7a83a5e8c4e54e8205fb6d2feaf2ee63764843",
     "calm-keys-retry:ae9e3bdebf06ced6f85b1325ba39e5003bf8c5dbc6888eaac6e6c3607943592e",
     "plan-step-keeps-pick-releases-hosting:89e879dcd992970874d65f95c586df323bb22606d6469d8b54b7465bc8557c7d",
-    "app-chat-plan-card:7a1a59d7a1506bf1f138cc97ab63a745b3fe215fa0d7bc24782115d1d7c5b002"
+    "app-chat-plan-card:7a1a59d7a1506bf1f138cc97ab63a745b3fe215fa0d7bc24782115d1d7c5b002",
+    "cloud-project-open-bounded-first-page:7020bc17d79464d2401f14013463c273491995fc5f259d6717d513a0a3378825"
   ],
-  "consumedThroughSha": "b05f21d671bd17ec129e408d760e105b65ef66ad"
+  "consumedThroughSha": "811abbe6b5efc70e53826c3939c00f87a518b15c"
 }
