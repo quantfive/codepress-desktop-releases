@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "936a52ca1b464e004fa47643ff93c2017a8f0a06",
-  "highWaterVersion": "1.577.21",
+  "highWaterVersion": "1.577.22",
   "rows": [
     {
       "schemaVersion": 1,
@@ -99339,6 +99339,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:936a52ca1b464e004fa47643ff93c2017a8f0a06",
+      "kind": "main",
+      "sequence": 2491,
+      "sourceSha": "936a52ca1b464e004fa47643ff93c2017a8f0a06",
+      "sourcePackageVersion": "1.577.20",
+      "version": "1.577.22",
+      "batch": {
+        "intentIds": [
+          "limit-bypass-drift-tests-deterministic:95d13af031dcf80fa0dca6dd73c119c5a049508e8c78192ffd3757b346c5f62d"
+        ],
+        "notesIntentIds": [
+          "limit-bypass-drift-tests-deterministic:95d13af031dcf80fa0dca6dd73c119c5a049508e8c78192ffd3757b346c5f62d"
+        ],
+        "throughSourceSha": "936a52ca1b464e004fa47643ff93c2017a8f0a06",
+        "previousThroughSourceSha": "05f7ccc972c769ea0db8b5c2c50c8513e16de1f2",
+        "baselineVersion": "1.577.21",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-18T19:01:21.593Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44375872195",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-19T19:01:12.896Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -194967,7 +195010,8 @@
     "headless-updater-staging-sweep:a287c26d2b8e58e24ce37da8e245c92b2b9dea0fd6978cda85adf8d8542ed348",
     "janitor-lock-recovery:96228d1793bc0fb3fcb4141588cd506afc6977ff793144fb19a4528b8d1f81db",
     "reclaim-finished-worker-temp:e1ea7fc715ac0e96efff873f8e874a417cf8b502ac7594acc8045e29271242ce",
-    "ptmp-quarantine-attribution:1cb6b5bd87946ff40e110fa0af6d656ec77928c9fcca1d3f6ae9cf91568e0377"
+    "ptmp-quarantine-attribution:1cb6b5bd87946ff40e110fa0af6d656ec77928c9fcca1d3f6ae9cf91568e0377",
+    "limit-bypass-drift-tests-deterministic:95d13af031dcf80fa0dca6dd73c119c5a049508e8c78192ffd3757b346c5f62d"
   ],
-  "consumedThroughSha": "05f7ccc972c769ea0db8b5c2c50c8513e16de1f2"
+  "consumedThroughSha": "936a52ca1b464e004fa47643ff93c2017a8f0a06"
 }
