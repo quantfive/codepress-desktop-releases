@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b65b60c0b7f31f4305d87340b027ff56443767de",
+  "cursorSha": "961f6ef75ccd3ab6b48164c1dccba16d33349b2e",
   "highWaterVersion": "1.575.5",
   "rows": [
     {
@@ -179140,6 +179140,13 @@
       "sourceSha": "b65b60c0b7f31f4305d87340b027ff56443767de",
       "sourcePackageVersion": "1.575.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "961f6ef75ccd3ab6b48164c1dccba16d33349b2e",
+      "sourcePackageVersion": "1.575.4",
+      "intentIds": [
+        "app-chat-auto-runs-on:ff6619ad6cc554cdd13e1db71005253040f7c868aa41d50a103a7e7b385f8b8b"
+      ]
     }
   ],
   "intents": [
@@ -190766,6 +190773,14 @@
       "summary": "App page project chat now has the Agent tab's Orchestrator and Workers model chips, saved to the same project setting.",
       "sourceSha": "e64520fdd05bfdc01f77a596f6d644ecca932077",
       "identity": "app-chat-model-chips:2e85b132fc791afcd0e27349667da3a6a3a790aae42c1103ffc7cdef86e2e349"
+    },
+    {
+      "id": "app-chat-auto-runs-on",
+      "digest": "ff6619ad6cc554cdd13e1db71005253040f7c868aa41d50a103a7e7b385f8b8b",
+      "type": "patch",
+      "summary": "App chat Runs on: Auto is the default and prefers your machines over Cloud. Without a card on file, Cloud shows as \"Cloud · Needs a card\" with Add a card, and a chat with no machine to run on is held instead of starting in Cloud.",
+      "sourceSha": "961f6ef75ccd3ab6b48164c1dccba16d33349b2e",
+      "identity": "app-chat-auto-runs-on:ff6619ad6cc554cdd13e1db71005253040f7c868aa41d50a103a7e7b385f8b8b"
     }
   ],
   "consumedIntentIds": [
