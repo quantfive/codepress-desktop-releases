@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "91cf116e186641dfffaffb713eaf8519054c6b4e",
-  "highWaterVersion": "1.575.4",
+  "highWaterVersion": "1.575.5",
   "rows": [
     {
       "schemaVersion": 1,
@@ -97901,6 +97901,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:91cf116e186641dfffaffb713eaf8519054c6b4e",
+      "kind": "main",
+      "sequence": 2463,
+      "sourceSha": "91cf116e186641dfffaffb713eaf8519054c6b4e",
+      "sourcePackageVersion": "1.575.4",
+      "version": "1.575.5",
+      "batch": {
+        "intentIds": [
+          "add-to-sidebar-app-automation:b643bc0e8b5e8cf92c297aeb25e364891bb599bc85fae5e2e508a6642de0000c"
+        ],
+        "notesIntentIds": [
+          "add-to-sidebar-app-automation:b643bc0e8b5e8cf92c297aeb25e364891bb599bc85fae5e2e508a6642de0000c"
+        ],
+        "throughSourceSha": "91cf116e186641dfffaffb713eaf8519054c6b4e",
+        "previousThroughSourceSha": "b9251cb285fdf61683aebbabb28ddb0ca92e95f3",
+        "baselineVersion": "1.575.4",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-18T02:11:13.143Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44221302260",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-19T02:11:01.497Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -192152,7 +192195,8 @@
     "plan-step-keeps-pick-releases-hosting:89e879dcd992970874d65f95c586df323bb22606d6469d8b54b7465bc8557c7d",
     "app-chat-plan-card:7a1a59d7a1506bf1f138cc97ab63a745b3fe215fa0d7bc24782115d1d7c5b002",
     "cloud-project-open-bounded-first-page:7020bc17d79464d2401f14013463c273491995fc5f259d6717d513a0a3378825",
-    "sidebar-section-icons:ab607ddef47ec0bb2b297d6c6a41ea0d01154e8ddd3966b14badc6c4d5984082"
+    "sidebar-section-icons:ab607ddef47ec0bb2b297d6c6a41ea0d01154e8ddd3966b14badc6c4d5984082",
+    "add-to-sidebar-app-automation:b643bc0e8b5e8cf92c297aeb25e364891bb599bc85fae5e2e508a6642de0000c"
   ],
-  "consumedThroughSha": "b9251cb285fdf61683aebbabb28ddb0ca92e95f3"
+  "consumedThroughSha": "91cf116e186641dfffaffb713eaf8519054c6b4e"
 }
