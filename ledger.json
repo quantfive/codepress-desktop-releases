@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0af2b9a2cbae7a938e628a45519ccc8556e65f63",
+  "cursorSha": "4240e43f1af89000bc62929486b5f471761032ce",
   "highWaterVersion": "1.577.7",
   "rows": [
     {
@@ -180284,6 +180284,13 @@
       "sourceSha": "0af2b9a2cbae7a938e628a45519ccc8556e65f63",
       "sourcePackageVersion": "1.577.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4240e43f1af89000bc62929486b5f471761032ce",
+      "sourcePackageVersion": "1.577.6",
+      "intentIds": [
+        "kickoff-quiet-captions:b7145fdf8a894757ae1b870c511d3d794f76f8d7808fd99ea0f2d3ec20d7ac6c"
+      ]
     }
   ],
   "intents": [
@@ -192078,6 +192085,14 @@
       "summary": "On Windows, Terminal reads its process table, process identities and start tokens from batched Win32_Process queries served by one long-lived PowerShell child, stops a tab's processes by pid after checking each one's creation time (leaving shared Codex backends running, as on macOS and Linux), keeps its pool encryption keys in Windows Credential Manager, and shows that freezing and suspending idle agents is not available there.",
       "sourceSha": "0ef237e0901ddbb49a03b31966d073679556326a",
       "identity": "win-process-creds:cd37154e507e6bb24aea90b000c331b5a3ce817380ce8154f15c7ce1123cebe4"
+    },
+    {
+      "id": "kickoff-quiet-captions",
+      "digest": "b7145fdf8a894757ae1b870c511d3d794f76f8d7808fd99ea0f2d3ec20d7ac6c",
+      "type": "patch",
+      "summary": "The Orchestrator new chat page no longer repeats what the model and Runs on chips say (\"Starts on Opus 5.5 · Medium, your saved model…\", \"Reading your saved models…\", \"It opens here once it starts\"), and the message box stays where it first appeared while the page loads.",
+      "sourceSha": "4240e43f1af89000bc62929486b5f471761032ce",
+      "identity": "kickoff-quiet-captions:b7145fdf8a894757ae1b870c511d3d794f76f8d7808fd99ea0f2d3ec20d7ac6c"
     }
   ],
   "consumedIntentIds": [
