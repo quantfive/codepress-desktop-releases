@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e8de292542ddb6f32c41bfebc6d6d89979f1f54b",
+  "cursorSha": "1eebe7ccbab0075650fe69d62f7e0d38c78afc43",
   "highWaterVersion": "1.577.17",
   "rows": [
     {
@@ -181181,6 +181181,13 @@
       "sourceSha": "e8de292542ddb6f32c41bfebc6d6d89979f1f54b",
       "sourcePackageVersion": "1.577.12",
       "intentIds": []
+    },
+    {
+      "sourceSha": "1eebe7ccbab0075650fe69d62f7e0d38c78afc43",
+      "sourcePackageVersion": "1.577.12",
+      "intentIds": [
+        "moved-projects-storage-cleanup:2119782781223093988b7bcaf1396a424c65d8409175a95166995928186843bd"
+      ]
     }
   ],
   "intents": [
@@ -193087,6 +193094,14 @@
       "summary": "A cloud chat or Orchestrator thread whose chat no longer exists (the server answers 404) stops being re-read every few seconds. It is read again when you open it again or switch organization; a refused (403) read or a network error still retries as before.",
       "sourceSha": "f665c873247809ef1dc16b1e3dc7cc7f973136c3",
       "identity": "terminal-stop-polling-deleted-chat:d67d6d2a62d6a7d2c152084f6c5c11f475993ee9efa0c89519e8ccc424acf671"
+    },
+    {
+      "id": "moved-projects-storage-cleanup",
+      "digest": "2119782781223093988b7bcaf1396a424c65d8409175a95166995928186843bd",
+      "type": "patch",
+      "summary": "Storage cleanup now reclaims the worktrees and temp of an Orchestrator project handed off to another machine, once the receiving machine confirmed the handoff and the 24h grace has passed. In-use checks and Git safety are unchanged.",
+      "sourceSha": "1eebe7ccbab0075650fe69d62f7e0d38c78afc43",
+      "identity": "moved-projects-storage-cleanup:2119782781223093988b7bcaf1396a424c65d8409175a95166995928186843bd"
     }
   ],
   "consumedIntentIds": [
