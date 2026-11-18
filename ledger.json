@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "cee5397e7f7c8719267f29f4aba1949efa4323b1",
+  "cursorSha": "4f5d5330acb5fb6709767e343d1035913df31904",
   "highWaterVersion": "1.577.18",
   "rows": [
     {
@@ -181252,6 +181252,13 @@
       "intentIds": [
         "headless-updater-staging-sweep:a287c26d2b8e58e24ce37da8e245c92b2b9dea0fd6978cda85adf8d8542ed348"
       ]
+    },
+    {
+      "sourceSha": "4f5d5330acb5fb6709767e343d1035913df31904",
+      "sourcePackageVersion": "1.577.17",
+      "intentIds": [
+        "janitor-lock-recovery:96228d1793bc0fb3fcb4141588cd506afc6977ff793144fb19a4528b8d1f81db"
+      ]
     }
   ],
   "intents": [
@@ -193174,6 +193181,14 @@
       "summary": "The background service's self-updater no longer leaves a ~0.8 GB `<version>.partial` download folder behind after every update, and clears the ones earlier updates left.",
       "sourceSha": "cee5397e7f7c8719267f29f4aba1949efa4323b1",
       "identity": "headless-updater-staging-sweep:a287c26d2b8e58e24ce37da8e245c92b2b9dea0fd6978cda85adf8d8542ed348"
+    },
+    {
+      "id": "janitor-lock-recovery",
+      "digest": "96228d1793bc0fb3fcb4141588cd506afc6977ff793144fb19a4528b8d1f81db",
+      "type": "patch",
+      "summary": "Storage cleanup no longer stays stuck after a reboot or a wedged run: a stale cleanup lock is reclaimed (including one whose process ID was reused), a run that runs past two hours is stopped and recorded, and each run logs when it starts, finishes or is locked out.",
+      "sourceSha": "4f5d5330acb5fb6709767e343d1035913df31904",
+      "identity": "janitor-lock-recovery:96228d1793bc0fb3fcb4141588cd506afc6977ff793144fb19a4528b8d1f81db"
     }
   ],
   "consumedIntentIds": [
