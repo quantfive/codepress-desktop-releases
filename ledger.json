@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "de15f5e8d620322dca6e713882446906aff91187",
+  "cursorSha": "646b1326b227b8f3705ae723baac83bf9801e3af",
   "highWaterVersion": "1.577.21",
   "rows": [
     {
@@ -181476,6 +181476,13 @@
       "sourceSha": "de15f5e8d620322dca6e713882446906aff91187",
       "sourcePackageVersion": "1.577.20",
       "intentIds": []
+    },
+    {
+      "sourceSha": "646b1326b227b8f3705ae723baac83bf9801e3af",
+      "sourcePackageVersion": "1.577.20",
+      "intentIds": [
+        "limit-bypass-drift-tests-deterministic:95d13af031dcf80fa0dca6dd73c119c5a049508e8c78192ffd3757b346c5f62d"
+      ]
     }
   ],
   "intents": [
@@ -193422,6 +193429,14 @@
       "summary": "Storage cleanup keeps a project's temp folder attributable while removing it, so an interrupted removal is cleaned up on a later run; an older unattributable leftover is now listed in Kept as an interrupted cleanup's leftover so Remove clears it.",
       "sourceSha": "db4cadcb7c9c6ce8e4d5a5248f102ea4f488e25b",
       "identity": "ptmp-quarantine-attribution:1cb6b5bd87946ff40e110fa0af6d656ec77928c9fcca1d3f6ae9cf91568e0377"
+    },
+    {
+      "id": "limit-bypass-drift-tests-deterministic",
+      "digest": "95d13af031dcf80fa0dca6dd73c119c5a049508e8c78192ffd3757b346c5f62d",
+      "type": "patch",
+      "summary": "Test-only: the app is unchanged. The limit-bypass server test no longer drains the whole fake clock in its shared test worker, and the reaper's event-loop test checks that a callback runs while `ps` is in flight instead of timing it.",
+      "sourceSha": "646b1326b227b8f3705ae723baac83bf9801e3af",
+      "identity": "limit-bypass-drift-tests-deterministic:95d13af031dcf80fa0dca6dd73c119c5a049508e8c78192ffd3757b346c5f62d"
     }
   ],
   "consumedIntentIds": [
