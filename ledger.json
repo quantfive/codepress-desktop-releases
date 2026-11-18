@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "45f0fb64d721c5c538e732e81cad1b4db7606057",
-  "highWaterVersion": "1.577.22",
+  "highWaterVersion": "1.577.23",
   "rows": [
     {
       "schemaVersion": 1,
@@ -99386,6 +99386,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:45f0fb64d721c5c538e732e81cad1b4db7606057",
+      "kind": "main",
+      "sequence": 2492,
+      "sourceSha": "45f0fb64d721c5c538e732e81cad1b4db7606057",
+      "sourcePackageVersion": "1.577.21",
+      "version": "1.577.23",
+      "batch": {
+        "intentIds": [
+          "steady-context-meter:c5770ef1265f1df4881a8ea0d611dcf6c7619b2e951cf31d96e1019e002f6d91",
+          "app-preview-frame-state:3301b57ce43502c73ebbf0995e8ab3b38469f6590bc08df37bfff024dfd878b7"
+        ],
+        "notesIntentIds": [
+          "steady-context-meter:c5770ef1265f1df4881a8ea0d611dcf6c7619b2e951cf31d96e1019e002f6d91",
+          "app-preview-frame-state:3301b57ce43502c73ebbf0995e8ab3b38469f6590bc08df37bfff024dfd878b7"
+        ],
+        "throughSourceSha": "45f0fb64d721c5c538e732e81cad1b4db7606057",
+        "previousThroughSourceSha": "936a52ca1b464e004fa47643ff93c2017a8f0a06",
+        "baselineVersion": "1.577.22",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-18T19:26:07.469Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44380371146",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-19T19:25:56.838Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -195070,7 +195115,9 @@
     "janitor-lock-recovery:96228d1793bc0fb3fcb4141588cd506afc6977ff793144fb19a4528b8d1f81db",
     "reclaim-finished-worker-temp:e1ea7fc715ac0e96efff873f8e874a417cf8b502ac7594acc8045e29271242ce",
     "ptmp-quarantine-attribution:1cb6b5bd87946ff40e110fa0af6d656ec77928c9fcca1d3f6ae9cf91568e0377",
-    "limit-bypass-drift-tests-deterministic:95d13af031dcf80fa0dca6dd73c119c5a049508e8c78192ffd3757b346c5f62d"
+    "limit-bypass-drift-tests-deterministic:95d13af031dcf80fa0dca6dd73c119c5a049508e8c78192ffd3757b346c5f62d",
+    "steady-context-meter:c5770ef1265f1df4881a8ea0d611dcf6c7619b2e951cf31d96e1019e002f6d91",
+    "app-preview-frame-state:3301b57ce43502c73ebbf0995e8ab3b38469f6590bc08df37bfff024dfd878b7"
   ],
-  "consumedThroughSha": "936a52ca1b464e004fa47643ff93c2017a8f0a06"
+  "consumedThroughSha": "45f0fb64d721c5c538e732e81cad1b4db7606057"
 }
