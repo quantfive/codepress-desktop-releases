@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2b1f3d08a6f9daea1c40abd759faf0f079064d93",
+  "cursorSha": "b2232a576d236cecb2fb9028ec8445f3461e8cf8",
   "highWaterVersion": "1.577.25",
   "rows": [
     {
@@ -181883,6 +181883,13 @@
       "sourceSha": "2b1f3d08a6f9daea1c40abd759faf0f079064d93",
       "sourcePackageVersion": "1.577.24",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b2232a576d236cecb2fb9028ec8445f3461e8cf8",
+      "sourcePackageVersion": "1.577.24",
+      "intentIds": [
+        "app-change-calm-header:8c5b933d80c7f98cc0bc3bdad1d7e019919e6e54532424ffa05a599a35731088"
+      ]
     }
   ],
   "intents": [
@@ -193877,6 +193884,14 @@
       "summary": "GitHub Copilot and Kiro tabs in Accounts now show a Team group: admins and owners add a Team token or key, any member can choose it for their machine, and the vendor's one-person rule is shown beside Team.",
       "sourceSha": "e0b6ee9de69d7c349ae356da9403a77aea591ac4",
       "identity": "copilot-kiro-team-keys:0549bc852fa6e100bc953d5ef8cfb3aadd2b6e5c0179f561b7aac18e7459d9a9"
+    },
+    {
+      "id": "app-change-calm-header",
+      "digest": "8c5b933d80c7f98cc0bc3bdad1d7e019919e6e54532424ffa05a599a35731088",
+      "type": "patch",
+      "summary": "With an App change open, the App page's header is one calm row: the change's branch and a short status under the App's name, one Publish change button (with Saves, Open preview and Discard change in its menu) in place of the live site's Publish, and the private-preview note behind an ⓘ. The row under the toolbar shows only when something needs you, such as a build running or failing, a conflict, or a publish blocker.",
+      "sourceSha": "b2232a576d236cecb2fb9028ec8445f3461e8cf8",
+      "identity": "app-change-calm-header:8c5b933d80c7f98cc0bc3bdad1d7e019919e6e54532424ffa05a599a35731088"
     }
   ],
   "consumedIntentIds": [
