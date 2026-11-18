@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "0bb1bc7fc8f6319784cecef64e60cf1ab1843963",
-  "highWaterVersion": "1.577.11",
+  "highWaterVersion": "1.577.12",
   "rows": [
     {
       "schemaVersion": 1,
@@ -98829,6 +98829,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:0bb1bc7fc8f6319784cecef64e60cf1ab1843963",
+      "kind": "main",
+      "sequence": 2481,
+      "sourceSha": "0bb1bc7fc8f6319784cecef64e60cf1ab1843963",
+      "sourcePackageVersion": "1.577.11",
+      "version": "1.577.12",
+      "batch": {
+        "intentIds": [
+          "terminal-per-org-machine-sharing:8a782b500d17bd058ba062a200cf81a227a8bec0797123c92c2c336c47d1ef57"
+        ],
+        "notesIntentIds": [
+          "terminal-per-org-machine-sharing:8a782b500d17bd058ba062a200cf81a227a8bec0797123c92c2c336c47d1ef57"
+        ],
+        "throughSourceSha": "0bb1bc7fc8f6319784cecef64e60cf1ab1843963",
+        "previousThroughSourceSha": "046a7c50d29fac9935decbf049b805193d30ddb4",
+        "baselineVersion": "1.577.11",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-18T11:35:45.594Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44295999990",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-19T11:35:37.441Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -194011,7 +194054,8 @@
     "launch-compaction-always:6ba8a6939ad920c74fcc82bcdbf46fcd3a6ab08433f0593113a4a93370836b5e",
     "windows-node-hooks-codepress-cmd:6ab407fe0494501aa6d23d6e6e3f501aa68b608f0964989c6dc1e4b842693d53",
     "model-catalog-prices:73088679ac853c29784f4b27a4a71e74d8c94cdb2498526b941851bd3571d283",
-    "app-alert-bubbles:a71010366161660463ccfcfd8291f2b22fe3bd77fe641945cff0e0558d8bb344"
+    "app-alert-bubbles:a71010366161660463ccfcfd8291f2b22fe3bd77fe641945cff0e0558d8bb344",
+    "terminal-per-org-machine-sharing:8a782b500d17bd058ba062a200cf81a227a8bec0797123c92c2c336c47d1ef57"
   ],
-  "consumedThroughSha": "046a7c50d29fac9935decbf049b805193d30ddb4"
+  "consumedThroughSha": "0bb1bc7fc8f6319784cecef64e60cf1ab1843963"
 }
