@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3d1ce542443d4a73cc783ac0072a3d85a722e799",
+  "cursorSha": "dfa2f874a9a5c09599461f1fb5d5dd2b5e3f0e83",
   "highWaterVersion": "1.577.10",
   "rows": [
     {
@@ -180534,6 +180534,18 @@
       "sourceSha": "3d1ce542443d4a73cc783ac0072a3d85a722e799",
       "sourcePackageVersion": "1.577.9",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7873b1c34ab9310c64a952217eda33f6f4ba6c82",
+      "sourcePackageVersion": "1.577.9",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "dfa2f874a9a5c09599461f1fb5d5dd2b5e3f0e83",
+      "sourcePackageVersion": "1.577.9",
+      "intentIds": [
+        "app-alert-bubbles:a71010366161660463ccfcfd8291f2b22fe3bd77fe641945cff0e0558d8bb344"
+      ]
     }
   ],
   "intents": [
@@ -192384,6 +192396,14 @@
       "summary": "Anthropic and OpenAI usage prices now come from the shared model catalog; every price is unchanged.",
       "sourceSha": "09c711e0479dde5ba77329161ff5dcd9b20f1981",
       "identity": "model-catalog-prices:73088679ac853c29784f4b27a4a71e74d8c94cdb2498526b941851bd3571d283"
+    },
+    {
+      "id": "app-alert-bubbles",
+      "digest": "a71010366161660463ccfcfd8291f2b22fe3bd77fe641945cff0e0558d8bb344",
+      "type": "patch",
+      "summary": "Unread alerts about an App now show as a red bubble that leads to it: on the App's own icon when it is pinned to the rail, otherwise on Apps, the collection and the App's card. Opening the App clears them, and opening a Notifications app clears every alert it sent.",
+      "sourceSha": "dfa2f874a9a5c09599461f1fb5d5dd2b5e3f0e83",
+      "identity": "app-alert-bubbles:a71010366161660463ccfcfd8291f2b22fe3bd77fe641945cff0e0558d8bb344"
     }
   ],
   "consumedIntentIds": [
