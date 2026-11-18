@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "96294b441f49e305089bee606b5aa850b24585b6",
+  "cursorSha": "f49b9138477b7665ee1d108679661f6478b21ddb",
   "highWaterVersion": "1.577.3",
   "rows": [
     {
@@ -179918,6 +179918,13 @@
       "sourceSha": "96294b441f49e305089bee606b5aa850b24585b6",
       "sourcePackageVersion": "1.577.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f49b9138477b7665ee1d108679661f6478b21ddb",
+      "sourcePackageVersion": "1.577.2",
+      "intentIds": [
+        "terminal-windows-runtime:f97f19904fc0ec5dec156c77055a44044e3634731b0f6e23d63f175b6a5d80e1"
+      ]
     }
   ],
   "intents": [
@@ -191648,6 +191655,14 @@
       "summary": "Cloud now shows as disabled, \"Cloud · Needs a card\" with Add a card, in the rest of the places that send work to Cloud when the workspace has no card on file: re-opening an Orchestrator (Run on), Hand off for a project, a session or an automation run, Where automations run and the cloud fallback in Computers settings, and Start in Cloud on an app. A failed hand-off to Cloud no longer offers Retry while Cloud needs a card. Moving work away from Cloud is never blocked.",
       "sourceSha": "a6bb48299df1790f5b354ba98b83c776066f4aee",
       "identity": "cloud-needs-card-rest:dd250f377bc969266a2461d30cfb0825197db5832833b30a86bc8c80ecc3cb95"
+    },
+    {
+      "id": "terminal-windows-runtime",
+      "digest": "f97f19904fc0ec5dec156c77055a44044e3634731b0f6e23d63f175b6a5d80e1",
+      "type": "patch",
+      "summary": "On Windows, a Terminal tab now opens PowerShell 7, else Windows PowerShell, else Command Prompt (Settings can choose Git Bash when it is installed), on a direct ConPTY terminal that tracks the folder you are in. Terminal also finds `claude`, `codex` and other CLIs installed with npm in `%APPDATA%\\npm` or since you signed in, and passes arguments with spaces and quotes to them intact. macOS and Linux are unchanged.",
+      "sourceSha": "f49b9138477b7665ee1d108679661f6478b21ddb",
+      "identity": "terminal-windows-runtime:f97f19904fc0ec5dec156c77055a44044e3634731b0f6e23d63f175b6a5d80e1"
     }
   ],
   "consumedIntentIds": [
