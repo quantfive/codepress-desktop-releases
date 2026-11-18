@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "2f1993e3221e218fa10d58861052f73c6cf5723b",
-  "highWaterVersion": "1.577.4",
+  "highWaterVersion": "1.577.5",
   "rows": [
     {
       "schemaVersion": 1,
@@ -98462,6 +98462,51 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:2f1993e3221e218fa10d58861052f73c6cf5723b",
+      "kind": "main",
+      "sequence": 2474,
+      "sourceSha": "2f1993e3221e218fa10d58861052f73c6cf5723b",
+      "sourcePackageVersion": "1.577.3",
+      "version": "1.577.5",
+      "batch": {
+        "intentIds": [
+          "codex-sdk-0170:654a2981ba5f53dd4cabde4928161175d5bfba7b708781956ad56d5e9a14033f",
+          "app-plan-pane-terminal:d0779ac9ba2b79620d6bb6eab62639dc661c533095600d7cea9f93a416646383"
+        ],
+        "notesIntentIds": [
+          "codex-sdk-0170:654a2981ba5f53dd4cabde4928161175d5bfba7b708781956ad56d5e9a14033f",
+          "app-plan-pane-terminal:d0779ac9ba2b79620d6bb6eab62639dc661c533095600d7cea9f93a416646383"
+        ],
+        "throughSourceSha": "2f1993e3221e218fa10d58861052f73c6cf5723b",
+        "previousThroughSourceSha": "03f5b5dd1a1a07732b09e75d503158da7b139435",
+        "baselineVersion": "1.577.4",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-18T07:49:34.887Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44261825989",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-19T07:49:27.222Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -193275,7 +193320,9 @@
     "app-rail-badge-drops-on-write:cbda1e54f80a9851cfa01c93262cd85e432216631bc78216910627385aee4b60",
     "cloud-needs-card-rest:dd250f377bc969266a2461d30cfb0825197db5832833b30a86bc8c80ecc3cb95",
     "terminal-windows-runtime:f97f19904fc0ec5dec156c77055a44044e3634731b0f6e23d63f175b6a5d80e1",
-    "terminal-windows-app-shell:02afb3c1828b542242e95ef2d307583ef80f498f434e43facd2f8877dc762704"
+    "terminal-windows-app-shell:02afb3c1828b542242e95ef2d307583ef80f498f434e43facd2f8877dc762704",
+    "codex-sdk-0170:654a2981ba5f53dd4cabde4928161175d5bfba7b708781956ad56d5e9a14033f",
+    "app-plan-pane-terminal:d0779ac9ba2b79620d6bb6eab62639dc661c533095600d7cea9f93a416646383"
   ],
-  "consumedThroughSha": "03f5b5dd1a1a07732b09e75d503158da7b139435"
+  "consumedThroughSha": "2f1993e3221e218fa10d58861052f73c6cf5723b"
 }
