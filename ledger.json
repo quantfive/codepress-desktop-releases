@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "a7cb64daf90d245b488e7643012b755f9e6d5a72",
-  "highWaterVersion": "1.577.15",
+  "highWaterVersion": "1.577.16",
   "rows": [
     {
       "schemaVersion": 1,
@@ -99043,6 +99043,52 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:a7cb64daf90d245b488e7643012b755f9e6d5a72",
+      "kind": "main",
+      "sequence": 2485,
+      "sourceSha": "a7cb64daf90d245b488e7643012b755f9e6d5a72",
+      "sourcePackageVersion": "1.577.12",
+      "version": "1.577.16",
+      "batch": {
+        "intentIds": [
+          "settings-picker-keeps-focus:521e06d236b959814d164fc59dde8c03e608c5f5665bec9b86b70df2cf684408"
+        ],
+        "notesIntentIds": [
+          "terminal-sharing-across-orgs-ui:7aca261d256af2cac33eeefdaefb8ab749a430f8f9bcbaacb289e17041c125db",
+          "github-row-aria-busy:23e791cf5b485ce8d6ae896c7b3aaaf985b02817900f6e2000fcbb0ba67c9fbf",
+          "windows-release-lane:638e34d7c7cf170d18f78f3352500f8b379a1ddc37278dde5d29509dcf158c4c",
+          "settings-picker-keeps-focus:521e06d236b959814d164fc59dde8c03e608c5f5665bec9b86b70df2cf684408"
+        ],
+        "throughSourceSha": "a7cb64daf90d245b488e7643012b755f9e6d5a72",
+        "previousThroughSourceSha": "c125fa92f5814593f75ef3ccdf2ddf5707709eb6",
+        "baselineVersion": "1.577.15",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-18T15:53:36.390Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44340722044",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-19T15:53:26.334Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -194404,7 +194450,8 @@
     "terminal-per-org-machine-sharing:8a782b500d17bd058ba062a200cf81a227a8bec0797123c92c2c336c47d1ef57",
     "terminal-sharing-across-orgs-ui:7aca261d256af2cac33eeefdaefb8ab749a430f8f9bcbaacb289e17041c125db",
     "github-row-aria-busy:23e791cf5b485ce8d6ae896c7b3aaaf985b02817900f6e2000fcbb0ba67c9fbf",
-    "windows-release-lane:638e34d7c7cf170d18f78f3352500f8b379a1ddc37278dde5d29509dcf158c4c"
+    "windows-release-lane:638e34d7c7cf170d18f78f3352500f8b379a1ddc37278dde5d29509dcf158c4c",
+    "settings-picker-keeps-focus:521e06d236b959814d164fc59dde8c03e608c5f5665bec9b86b70df2cf684408"
   ],
-  "consumedThroughSha": "c125fa92f5814593f75ef3ccdf2ddf5707709eb6"
+  "consumedThroughSha": "a7cb64daf90d245b488e7643012b755f9e6d5a72"
 }
