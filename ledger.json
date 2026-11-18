@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "64287da677d9d2f38c4eaaf21e4e0574dd5948d9",
+  "cursorSha": "0ef237e0901ddbb49a03b31966d073679556326a",
   "highWaterVersion": "1.577.7",
   "rows": [
     {
@@ -180242,6 +180242,13 @@
       "intentIds": [
         "terminal-machine-home-org:a3740b8022970b3051f5baaabb974231ba5dccce17f9ed6b7f2bb01390fe776f"
       ]
+    },
+    {
+      "sourceSha": "0ef237e0901ddbb49a03b31966d073679556326a",
+      "sourcePackageVersion": "1.577.5",
+      "intentIds": [
+        "win-process-creds:cd37154e507e6bb24aea90b000c331b5a3ce817380ce8154f15c7ce1123cebe4"
+      ]
     }
   ],
   "intents": [
@@ -192028,6 +192035,14 @@
       "summary": "When your machine stays in its home organization while the app is signed in to another one, choosing a folder for a chat on it works again. Nothing changes for a machine in the organization the app is signed in to.",
       "sourceSha": "64287da677d9d2f38c4eaaf21e4e0574dd5948d9",
       "identity": "terminal-machine-home-org:a3740b8022970b3051f5baaabb974231ba5dccce17f9ed6b7f2bb01390fe776f"
+    },
+    {
+      "id": "win-process-creds",
+      "digest": "cd37154e507e6bb24aea90b000c331b5a3ce817380ce8154f15c7ce1123cebe4",
+      "type": "patch",
+      "summary": "On Windows, Terminal reads its process table, process identities and start tokens from batched Win32_Process queries served by one long-lived PowerShell child, stops a tab's processes by pid after checking each one's creation time (leaving shared Codex backends running, as on macOS and Linux), keeps its pool encryption keys in Windows Credential Manager, and shows that freezing and suspending idle agents is not available there.",
+      "sourceSha": "0ef237e0901ddbb49a03b31966d073679556326a",
+      "identity": "win-process-creds:cd37154e507e6bb24aea90b000c331b5a3ce817380ce8154f15c7ce1123cebe4"
     }
   ],
   "consumedIntentIds": [
