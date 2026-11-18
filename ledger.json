@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "046a7c50d29fac9935decbf049b805193d30ddb4",
-  "highWaterVersion": "1.577.10",
+  "highWaterVersion": "1.577.11",
   "rows": [
     {
       "schemaVersion": 1,
@@ -98774,6 +98774,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:046a7c50d29fac9935decbf049b805193d30ddb4",
+      "kind": "main",
+      "sequence": 2480,
+      "sourceSha": "046a7c50d29fac9935decbf049b805193d30ddb4",
+      "sourcePackageVersion": "1.577.9",
+      "version": "1.577.11",
+      "batch": {
+        "intentIds": [
+          "app-alert-bubbles:a71010366161660463ccfcfd8291f2b22fe3bd77fe641945cff0e0558d8bb344"
+        ],
+        "notesIntentIds": [
+          "app-alert-bubbles:a71010366161660463ccfcfd8291f2b22fe3bd77fe641945cff0e0558d8bb344"
+        ],
+        "throughSourceSha": "046a7c50d29fac9935decbf049b805193d30ddb4",
+        "previousThroughSourceSha": "0fd29235272a1d41e36b961fc6d20e21e44b9acb",
+        "baselineVersion": "1.577.10",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-18T10:57:48.535Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44290147471",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-19T10:57:38.864Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -193910,7 +193953,8 @@
     "app-project-title-chats:b74eaec5de8bc9f709aa7fbd3a20d409c0a5959e17bdf3f4b56a39116cb613fe",
     "launch-compaction-always:6ba8a6939ad920c74fcc82bcdbf46fcd3a6ab08433f0593113a4a93370836b5e",
     "windows-node-hooks-codepress-cmd:6ab407fe0494501aa6d23d6e6e3f501aa68b608f0964989c6dc1e4b842693d53",
-    "model-catalog-prices:73088679ac853c29784f4b27a4a71e74d8c94cdb2498526b941851bd3571d283"
+    "model-catalog-prices:73088679ac853c29784f4b27a4a71e74d8c94cdb2498526b941851bd3571d283",
+    "app-alert-bubbles:a71010366161660463ccfcfd8291f2b22fe3bd77fe641945cff0e0558d8bb344"
   ],
-  "consumedThroughSha": "0fd29235272a1d41e36b961fc6d20e21e44b9acb"
+  "consumedThroughSha": "046a7c50d29fac9935decbf049b805193d30ddb4"
 }
