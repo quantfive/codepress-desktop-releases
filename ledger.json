@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0ff7d80ac2d512b99086d31d84135ece7cba0cd5",
+  "cursorSha": "0bb1bc7fc8f6319784cecef64e60cf1ab1843963",
   "highWaterVersion": "1.577.11",
   "rows": [
     {
@@ -180654,6 +180654,13 @@
       "sourceSha": "0ff7d80ac2d512b99086d31d84135ece7cba0cd5",
       "sourcePackageVersion": "1.577.11",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0bb1bc7fc8f6319784cecef64e60cf1ab1843963",
+      "sourcePackageVersion": "1.577.11",
+      "intentIds": [
+        "terminal-per-org-machine-sharing:8a782b500d17bd058ba062a200cf81a227a8bec0797123c92c2c336c47d1ef57"
+      ]
     }
   ],
   "intents": [
@@ -192512,6 +192519,14 @@
       "summary": "Unread alerts about an App now show as a red bubble that leads to it: on the App's own icon when it is pinned to the rail, otherwise on Apps, the collection and the App's card. Opening the App clears them, and opening a Notifications app clears every alert it sent.",
       "sourceSha": "dfa2f874a9a5c09599461f1fb5d5dd2b5e3f0e83",
       "identity": "app-alert-bubbles:a71010366161660463ccfcfd8291f2b22fe3bd77fe641945cff0e0558d8bb344"
+    },
+    {
+      "id": "terminal-per-org-machine-sharing",
+      "digest": "8a782b500d17bd058ba062a200cf81a227a8bec0797123c92c2c336c47d1ef57",
+      "type": "patch",
+      "summary": "A machine's sharing settings can now be read and changed for each organization its owner belongs to, and a change to one organization's sharing rechecks everyone connected to the machine. Nothing changes for machines shared only in their own organization.",
+      "sourceSha": "0bb1bc7fc8f6319784cecef64e60cf1ab1843963",
+      "identity": "terminal-per-org-machine-sharing:8a782b500d17bd058ba062a200cf81a227a8bec0797123c92c2c336c47d1ef57"
     }
   ],
   "consumedIntentIds": [
