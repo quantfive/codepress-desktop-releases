@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "28799ce2e09a27bdc3100c7d5fedaf2c3d8986c9",
+  "cursorSha": "976d4d9b415b4571b94cf47cd05356adf96f6f6f",
   "highWaterVersion": "1.577.8",
   "rows": [
     {
@@ -180375,6 +180375,13 @@
       "sourceSha": "28799ce2e09a27bdc3100c7d5fedaf2c3d8986c9",
       "sourcePackageVersion": "1.577.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "976d4d9b415b4571b94cf47cd05356adf96f6f6f",
+      "sourcePackageVersion": "1.577.7",
+      "intentIds": [
+        "launch-compaction-always:6ba8a6939ad920c74fcc82bcdbf46fcd3a6ab08433f0593113a4a93370836b5e"
+      ]
     }
   ],
   "intents": [
@@ -192201,6 +192208,14 @@
       "summary": "App page: an open project's title now opens the App's chats and projects, with New chat at the foot, so the App toolbar's back arrow is the only one on screen.",
       "sourceSha": "bb233125a68d8a728adc15198a4f2431f8696115",
       "identity": "app-project-title-chats:b74eaec5de8bc9f709aa7fbd3a20d409c0a5959e17bdf3f4b56a39116cb613fe"
+    },
+    {
+      "id": "launch-compaction-always",
+      "digest": "6ba8a6939ad920c74fcc82bcdbf46fcd3a6ab08433f0593113a4a93370836b5e",
+      "type": "patch",
+      "summary": "Launch compaction (where the organization's flag is on) now compacts after every turn that starts workers, whatever the context size, unless the conversation was compacted within the last 3 turns, and the first launch after an Orchestrator starts waits briefly for the flag instead of reading it off.",
+      "sourceSha": "976d4d9b415b4571b94cf47cd05356adf96f6f6f",
+      "identity": "launch-compaction-always:6ba8a6939ad920c74fcc82bcdbf46fcd3a6ab08433f0593113a4a93370836b5e"
     }
   ],
   "consumedIntentIds": [
