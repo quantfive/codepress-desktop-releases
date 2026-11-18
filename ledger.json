@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "40c9e1efaf223874d867ec1f8187ba75550cfb6b",
+  "cursorSha": "cee5397e7f7c8719267f29f4aba1949efa4323b1",
   "highWaterVersion": "1.577.18",
   "rows": [
     {
@@ -181245,6 +181245,13 @@
       "sourceSha": "40c9e1efaf223874d867ec1f8187ba75550cfb6b",
       "sourcePackageVersion": "1.577.17",
       "intentIds": []
+    },
+    {
+      "sourceSha": "cee5397e7f7c8719267f29f4aba1949efa4323b1",
+      "sourcePackageVersion": "1.577.17",
+      "intentIds": [
+        "headless-updater-staging-sweep:a287c26d2b8e58e24ce37da8e245c92b2b9dea0fd6978cda85adf8d8542ed348"
+      ]
     }
   ],
   "intents": [
@@ -193159,6 +193166,14 @@
       "summary": "Storage cleanup now reclaims the worktrees and temp of an Orchestrator project handed off to another machine, once the receiving machine confirmed the handoff and the 24h grace has passed. In-use checks and Git safety are unchanged.",
       "sourceSha": "1eebe7ccbab0075650fe69d62f7e0d38c78afc43",
       "identity": "moved-projects-storage-cleanup:2119782781223093988b7bcaf1396a424c65d8409175a95166995928186843bd"
+    },
+    {
+      "id": "headless-updater-staging-sweep",
+      "digest": "a287c26d2b8e58e24ce37da8e245c92b2b9dea0fd6978cda85adf8d8542ed348",
+      "type": "patch",
+      "summary": "The background service's self-updater no longer leaves a ~0.8 GB `<version>.partial` download folder behind after every update, and clears the ones earlier updates left.",
+      "sourceSha": "cee5397e7f7c8719267f29f4aba1949efa4323b1",
+      "identity": "headless-updater-staging-sweep:a287c26d2b8e58e24ce37da8e245c92b2b9dea0fd6978cda85adf8d8542ed348"
     }
   ],
   "consumedIntentIds": [
