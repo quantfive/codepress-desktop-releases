@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6686bb54b67ab4c776514ef4779501f97fc49a70",
+  "cursorSha": "08c533c3f7364dcd26f560a8a624fdcefdc874a5",
   "highWaterVersion": "1.576.1",
   "rows": [
     {
@@ -179461,6 +179461,13 @@
       "sourceSha": "6686bb54b67ab4c776514ef4779501f97fc49a70",
       "sourcePackageVersion": "1.576.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "08c533c3f7364dcd26f560a8a624fdcefdc874a5",
+      "sourcePackageVersion": "1.576.0",
+      "intentIds": [
+        "terminal-windows-compile:6655c2c00749a2254ba212914313e7a5b9b6705c9a1b4048efda04be61f02d1a"
+      ]
     }
   ],
   "intents": [
@@ -191119,6 +191126,14 @@
       "summary": "Every place you pick where new work runs (the Orchestrator kickoff, New app, Continue on and an automation's Where this runs) now shows Cloud as disabled, \"Cloud · Needs a card\" with Add a card, when the workspace has no card on file. Auto with no computer online says so and waits instead of starting in Cloud.",
       "sourceSha": "8e6f6ebc67c2b70e037f388d5ac394878508bf4d",
       "identity": "cloud-needs-card-everywhere:495b821af4348d6551eee79a33dedeee92950c1788a3849eb1b3733c240c8da0"
+    },
+    {
+      "id": "terminal-windows-compile",
+      "digest": "6655c2c00749a2254ba212914313e7a5b9b6705c9a1b4048efda04be61f02d1a",
+      "type": "patch",
+      "summary": "Terminal now compiles for Windows: unix-only native code is gated to unix, and a Windows CI lane builds an unsigned installer. Nothing changes on macOS or Linux.",
+      "sourceSha": "08c533c3f7364dcd26f560a8a624fdcefdc874a5",
+      "identity": "terminal-windows-compile:6655c2c00749a2254ba212914313e7a5b9b6705c9a1b4048efda04be61f02d1a"
     }
   ],
   "consumedIntentIds": [
