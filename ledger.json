@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "91cf116e186641dfffaffb713eaf8519054c6b4e",
+  "cursorSha": "e64520fdd05bfdc01f77a596f6d644ecca932077",
   "highWaterVersion": "1.575.5",
   "rows": [
     {
@@ -179128,6 +179128,13 @@
       "intentIds": [
         "add-to-sidebar-app-automation:b643bc0e8b5e8cf92c297aeb25e364891bb599bc85fae5e2e508a6642de0000c"
       ]
+    },
+    {
+      "sourceSha": "e64520fdd05bfdc01f77a596f6d644ecca932077",
+      "sourcePackageVersion": "1.575.4",
+      "intentIds": [
+        "app-chat-model-chips:2e85b132fc791afcd0e27349667da3a6a3a790aae42c1103ffc7cdef86e2e349"
+      ]
     }
   ],
   "intents": [
@@ -190746,6 +190753,14 @@
       "summary": "App cards, collection cards and an automation's page now have a ⋯ menu with Add to sidebar, or Remove from sidebar once it is there, so an App or an automation can be pinned to your sidebar without opening Settings. The Apps folders' Add to my navbar now shows in the app too.",
       "sourceSha": "91cf116e186641dfffaffb713eaf8519054c6b4e",
       "identity": "add-to-sidebar-app-automation:b643bc0e8b5e8cf92c297aeb25e364891bb599bc85fae5e2e508a6642de0000c"
+    },
+    {
+      "id": "app-chat-model-chips",
+      "digest": "2e85b132fc791afcd0e27349667da3a6a3a790aae42c1103ffc7cdef86e2e349",
+      "type": "patch",
+      "summary": "App page project chat now has the Agent tab's Orchestrator and Workers model chips, saved to the same project setting.",
+      "sourceSha": "e64520fdd05bfdc01f77a596f6d644ecca932077",
+      "identity": "app-chat-model-chips:2e85b132fc791afcd0e27349667da3a6a3a790aae42c1103ffc7cdef86e2e349"
     }
   ],
   "consumedIntentIds": [
