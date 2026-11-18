@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "023939e789ce2c5eb72e86fa1341274cb27b31ad",
+  "cursorSha": "f59e4550b076bb1636d3eddb84957aa0b1ea110a",
   "highWaterVersion": "1.577.23",
   "rows": [
     {
@@ -181705,6 +181705,18 @@
       "sourceSha": "023939e789ce2c5eb72e86fa1341274cb27b31ad",
       "sourcePackageVersion": "1.577.22",
       "intentIds": []
+    },
+    {
+      "sourceSha": "384daba8ecc2b341e9642ead8e03882a97801761",
+      "sourcePackageVersion": "1.577.22",
+      "intentIds": [
+        "menus-clear-traffic-lights:c636caf7ce6f054438e0986a4feab42ee75940f2080ac938db02305235a292a9"
+      ]
+    },
+    {
+      "sourceSha": "f59e4550b076bb1636d3eddb84957aa0b1ea110a",
+      "sourcePackageVersion": "1.577.22",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -193683,6 +193695,14 @@
       "summary": "Agent proposal cards in team chat now show the UI Finding Fixer's Now and With the proposed fix screenshots instead of two empty boxes. An image that still can't load says \"Image didn't load here\" with an Open image link.",
       "sourceSha": "d49f64b4985e56e83648d955d2c7eced437a52b0",
       "identity": "proposal-card-screenshots:8165f5860d661fe295b93b5d1b0c6eb6004f679a7490b8fc1f08e70f9d2dafb2"
+    },
+    {
+      "id": "menus-clear-traffic-lights",
+      "digest": "c636caf7ce6f054438e0986a4feab42ee75940f2080ac938db02305235a292a9",
+      "type": "patch",
+      "summary": "Menus and popovers on macOS now open below the window's title band, so the traffic lights no longer cover the top of a long menu such as the organization picker.",
+      "sourceSha": "384daba8ecc2b341e9642ead8e03882a97801761",
+      "identity": "menus-clear-traffic-lights:c636caf7ce6f054438e0986a4feab42ee75940f2080ac938db02305235a292a9"
     }
   ],
   "consumedIntentIds": [
