@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "8350e16fb633ba4118534694ec9f20086bc11330",
+  "cursorSha": "5b1090e4820971e1e45643759db7e7783d0893dd",
   "highWaterVersion": "1.577.9",
   "rows": [
     {
@@ -180451,6 +180451,13 @@
       "sourceSha": "8350e16fb633ba4118534694ec9f20086bc11330",
       "sourcePackageVersion": "1.577.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "5b1090e4820971e1e45643759db7e7783d0893dd",
+      "sourcePackageVersion": "1.577.7",
+      "intentIds": [
+        "windows-node-hooks-codepress-cmd:6ab407fe0494501aa6d23d6e6e3f501aa68b608f0964989c6dc1e4b842693d53"
+      ]
     }
   ],
   "intents": [
@@ -192285,6 +192292,14 @@
       "summary": "Launch compaction (where the organization's flag is on) now compacts after every turn that starts workers, whatever the context size, unless the conversation was compacted within the last 3 turns, and the first launch after an Orchestrator starts waits briefly for the flag instead of reading it off.",
       "sourceSha": "976d4d9b415b4571b94cf47cd05356adf96f6f6f",
       "identity": "launch-compaction-always:6ba8a6939ad920c74fcc82bcdbf46fcd3a6ab08433f0593113a4a93370836b5e"
+    },
+    {
+      "id": "windows-node-hooks-codepress-cmd",
+      "digest": "6ab407fe0494501aa6d23d6e6e3f501aa68b608f0964989c6dc1e4b842693d53",
+      "type": "patch",
+      "summary": "Windows: Claude Code and Codex sessions run Terminal's session hooks as Node scripts (`node \"<path>\"`), and every PowerShell, cmd and Git Bash tab has the `codepress` command (`codepress.cmd` in Terminal's bin folder, first on PATH). macOS and Linux keep their `.sh` hooks unchanged.",
+      "sourceSha": "5b1090e4820971e1e45643759db7e7783d0893dd",
+      "identity": "windows-node-hooks-codepress-cmd:6ab407fe0494501aa6d23d6e6e3f501aa68b608f0964989c6dc1e4b842693d53"
     }
   ],
   "consumedIntentIds": [
