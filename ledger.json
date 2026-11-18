@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "6686bb54b67ab4c776514ef4779501f97fc49a70",
-  "highWaterVersion": "1.576.0",
+  "highWaterVersion": "1.576.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -98099,6 +98099,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:6686bb54b67ab4c776514ef4779501f97fc49a70",
+      "kind": "main",
+      "sequence": 2467,
+      "sourceSha": "6686bb54b67ab4c776514ef4779501f97fc49a70",
+      "sourcePackageVersion": "1.576.0",
+      "version": "1.576.1",
+      "batch": {
+        "intentIds": [
+          "cloud-needs-card-everywhere:495b821af4348d6551eee79a33dedeee92950c1788a3849eb1b3733c240c8da0"
+        ],
+        "notesIntentIds": [
+          "cloud-needs-card-everywhere:495b821af4348d6551eee79a33dedeee92950c1788a3849eb1b3733c240c8da0"
+        ],
+        "throughSourceSha": "6686bb54b67ab4c776514ef4779501f97fc49a70",
+        "previousThroughSourceSha": "11ee950a0331174984c6772e81fc6aad4bf6e3f4",
+        "baselineVersion": "1.576.0",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-18T04:40:47.906Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44238903472",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-19T04:40:39.885Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -192530,7 +192573,8 @@
     "app-chat-model-chips:2e85b132fc791afcd0e27349667da3a6a3a790aae42c1103ffc7cdef86e2e349",
     "app-chat-auto-runs-on:ff6619ad6cc554cdd13e1db71005253040f7c868aa41d50a103a7e7b385f8b8b",
     "gpt-6-2-model-successors:1e9b9a36b3fb0747be473c16b4830cdfb813265f252cf00fd4c70c57661ceeff",
-    "rail-app-badges:4b2b5eab1343c02fe7e27b4b037cb55bfc013c80761e3f91365e030518365166"
+    "rail-app-badges:4b2b5eab1343c02fe7e27b4b037cb55bfc013c80761e3f91365e030518365166",
+    "cloud-needs-card-everywhere:495b821af4348d6551eee79a33dedeee92950c1788a3849eb1b3733c240c8da0"
   ],
-  "consumedThroughSha": "11ee950a0331174984c6772e81fc6aad4bf6e3f4"
+  "consumedThroughSha": "6686bb54b67ab4c776514ef4779501f97fc49a70"
 }
