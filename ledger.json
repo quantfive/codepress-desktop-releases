@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "751e8eade9eaa9b6b659f98053d679af80989434",
+  "cursorSha": "5b9458e92f41183ad83b99916b99615137ba77fa",
   "highWaterVersion": "1.576.1",
   "rows": [
     {
@@ -179485,6 +179485,13 @@
       "intentIds": [
         "agy-managed-pin-upgrade:4543b174457deddd32b6e4802e1c09565e71fa7a61da512ba653da09afc45ba6"
       ]
+    },
+    {
+      "sourceSha": "5b9458e92f41183ad83b99916b99615137ba77fa",
+      "sourcePackageVersion": "1.576.0",
+      "intentIds": [
+        "home-accepts-cloud-project-mentions:fafef943e60a3510d4f6da4f6537e9963e143fe4d1b7bc03a0e464c5e4a46202"
+      ]
     }
   ],
   "intents": [
@@ -191159,6 +191166,14 @@
       "summary": "Terminal now moves the Antigravity CLI it installed to the pinned version (1.5.8) when an older copy is in place, so a Google AI Pro sign-in gets Gemini 4. A failed download keeps the old copy working and retries later. A person's own older `agy` is never replaced; Accounts → Google and the Gemini menu say to update it.",
       "sourceSha": "751e8eade9eaa9b6b659f98053d679af80989434",
       "identity": "agy-managed-pin-upgrade:4543b174457deddd32b6e4802e1c09565e71fa7a61da512ba653da09afc45ba6"
+    },
+    {
+      "id": "home-accepts-cloud-project-mentions",
+      "digest": "fafef943e60a3510d4f6da4f6537e9963e143fe4d1b7bc03a0e464c5e4a46202",
+      "type": "patch",
+      "summary": "A local Orchestrator project now accepts an @mention of one of your own cloud projects (`cloud:orchestrator:<id>`) on a new project's first message, a message, a Dock answer, a blocker reply or a queued item: it checks the project is yours through CodePress, records it, and its Orchestrator can read that chat. A teammate's or unknown project is refused as not found, and an unreachable cloud is refused as unavailable with the draft kept.",
+      "sourceSha": "5b9458e92f41183ad83b99916b99615137ba77fa",
+      "identity": "home-accepts-cloud-project-mentions:fafef943e60a3510d4f6da4f6537e9963e143fe4d1b7bc03a0e464c5e4a46202"
     }
   ],
   "consumedIntentIds": [
