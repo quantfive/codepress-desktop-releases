@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "719234a35af3ddbb3cb6f48775338ac475becc51",
+  "cursorSha": "d33a9c6f58ee8188de88f4f93b3e02aa7f6fa392",
   "highWaterVersion": "1.577.5",
   "rows": [
     {
@@ -180109,6 +180109,13 @@
       "sourceSha": "719234a35af3ddbb3cb6f48775338ac475becc51",
       "sourcePackageVersion": "1.577.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d33a9c6f58ee8188de88f4f93b3e02aa7f6fa392",
+      "sourcePackageVersion": "1.577.3",
+      "intentIds": [
+        "model-catalog-roles:d46f5e1eccfe4f1d97439a47ffa005ea6f5af68cb36f1db8e4c423a77351b5c9"
+      ]
     }
   ],
   "intents": [
@@ -191879,6 +191886,14 @@
       "summary": "The weekly usage bar under the Orchestrator's model chips no longer moves the composer: its space is reserved while the usage is still loading.",
       "sourceSha": "fb407b89a34c2e5218f8fdc0a2b5d089ecf575a7",
       "identity": "usage-slot-no-layout-shift:60ac0a15a9b81d8171848936e20be7fd7a86d4ed83b439278e98e3a4e93fe519"
+    },
+    {
+      "id": "model-catalog-roles",
+      "digest": "d46f5e1eccfe4f1d97439a47ffa005ea6f5af68cb36f1db8e4c423a77351b5c9",
+      "type": "patch",
+      "summary": "Terminal's local implementor model default now reads the shared Codex default, which the model catalog's `codex-frontier` role sets. The model is unchanged.",
+      "sourceSha": "d33a9c6f58ee8188de88f4f93b3e02aa7f6fa392",
+      "identity": "model-catalog-roles:d46f5e1eccfe4f1d97439a47ffa005ea6f5af68cb36f1db8e4c423a77351b5c9"
     }
   ],
   "consumedIntentIds": [
