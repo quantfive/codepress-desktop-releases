@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "42b752443778d48cb8a127cdea725856446661c1",
+  "cursorSha": "8ba45b05a21d4507df46a4e15da039bdf32d469e",
   "highWaterVersion": "1.578.2",
   "rows": [
     {
@@ -182431,6 +182431,13 @@
       "sourceSha": "42b752443778d48cb8a127cdea725856446661c1",
       "sourcePackageVersion": "1.578.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "8ba45b05a21d4507df46a4e15da039bdf32d469e",
+      "sourcePackageVersion": "1.578.2",
+      "intentIds": [
+        "copy-screenshots-load-inline:ebf359ef25aa14ce5721f73106e63821d4878702eae84882a8d613822bb4a4a8"
+      ]
     }
   ],
   "intents": [
@@ -194473,6 +194480,14 @@
       "summary": "A collection's Notifications app now has its own page in Terminal: its alerts grouped by the App each one watches, with the on/off switch, who hears it and how, Send a test, Change in chat, suggestions to set up or dismiss, and your recent alerts from it. Its card and panel widget show what is new across the collection.",
       "sourceSha": "b441edce051db090b29c8d9e665f0d8eb1707fd2",
       "identity": "notifications-app-page:47355cbd774d81e169f29752c61651d0e652ec422849fcec3cb15927bff750cf"
+    },
+    {
+      "id": "copy-screenshots-load-inline",
+      "digest": "ebf359ef25aa14ce5721f73106e63821d4878702eae84882a8d613822bb4a4a8",
+      "type": "patch",
+      "summary": "Screenshots pasted into a synced Orchestrator project now show as images on other machines by themselves, loading one at a time from the home machine as they come into view.",
+      "sourceSha": "8ba45b05a21d4507df46a4e15da039bdf32d469e",
+      "identity": "copy-screenshots-load-inline:ebf359ef25aa14ce5721f73106e63821d4878702eae84882a8d613822bb4a4a8"
     }
   ],
   "consumedIntentIds": [
