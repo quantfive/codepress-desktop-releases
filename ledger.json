@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5cebdf5c8b4016111e419a7ef3ce6017bb582af0",
+  "cursorSha": "153ecf0b9debaa4456b0141be66f6d39650a4bec",
   "highWaterVersion": "1.577.20",
   "rows": [
     {
@@ -181377,6 +181377,11 @@
       "intentIds": [
         "reclaim-finished-worker-temp:e1ea7fc715ac0e96efff873f8e874a417cf8b502ac7594acc8045e29271242ce"
       ]
+    },
+    {
+      "sourceSha": "153ecf0b9debaa4456b0141be66f6d39650a4bec",
+      "sourcePackageVersion": "1.577.19",
+      "intentIds": []
     }
   ],
   "intents": [
