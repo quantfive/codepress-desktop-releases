@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b18b47a6ca15e7b0711251f6610aa7ba9a78fd9f",
+  "cursorSha": "7e9893a89ddaa343898290c123c49a3084a43e85",
   "highWaterVersion": "1.577.12",
   "rows": [
     {
@@ -180751,6 +180751,18 @@
       "sourceSha": "b18b47a6ca15e7b0711251f6610aa7ba9a78fd9f",
       "sourcePackageVersion": "1.577.12",
       "intentIds": []
+    },
+    {
+      "sourceSha": "60c8a33198be484989ae10b260bdb6d0e97cef92",
+      "sourcePackageVersion": "1.577.12",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "7e9893a89ddaa343898290c123c49a3084a43e85",
+      "sourcePackageVersion": "1.577.12",
+      "intentIds": [
+        "terminal-sharing-across-orgs-ui:7aca261d256af2cac33eeefdaefb8ab749a430f8f9bcbaacb289e17041c125db"
+      ]
     }
   ],
   "intents": [
@@ -192617,6 +192629,14 @@
       "summary": "A machine's sharing settings can now be read and changed for each organization its owner belongs to, and a change to one organization's sharing rechecks everyone connected to the machine. Nothing changes for machines shared only in their own organization.",
       "sourceSha": "0bb1bc7fc8f6319784cecef64e60cf1ab1843963",
       "identity": "terminal-per-org-machine-sharing:8a782b500d17bd058ba062a200cf81a227a8bec0797123c92c2c336c47d1ef57"
+    },
+    {
+      "id": "terminal-sharing-across-orgs-ui",
+      "digest": "7aca261d256af2cac33eeefdaefb8ab749a430f8f9bcbaacb289e17041c125db",
+      "type": "patch",
+      "summary": "Settings → Computers → Sharing now lists each organization you belong to, so you can choose which organizations may use a machine and who in each. Machines shared only in their own organization look the same as before.",
+      "sourceSha": "7e9893a89ddaa343898290c123c49a3084a43e85",
+      "identity": "terminal-sharing-across-orgs-ui:7aca261d256af2cac33eeefdaefb8ab749a430f8f9bcbaacb289e17041c125db"
     }
   ],
   "consumedIntentIds": [
