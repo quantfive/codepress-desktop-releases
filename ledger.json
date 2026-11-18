@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0de6a7bf91c0deeae2beb65fadc4147a3c5ff8bc",
+  "cursorSha": "d49f64b4985e56e83648d955d2c7eced437a52b0",
   "highWaterVersion": "1.577.23",
   "rows": [
     {
@@ -181658,6 +181658,13 @@
       "sourceSha": "0de6a7bf91c0deeae2beb65fadc4147a3c5ff8bc",
       "sourcePackageVersion": "1.577.22",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d49f64b4985e56e83648d955d2c7eced437a52b0",
+      "sourcePackageVersion": "1.577.22",
+      "intentIds": [
+        "proposal-card-screenshots:8165f5860d661fe295b93b5d1b0c6eb6004f679a7490b8fc1f08e70f9d2dafb2"
+      ]
     }
   ],
   "intents": [
@@ -193628,6 +193635,14 @@
       "summary": "An App's preview on the App page now says \"Loading the preview…\" until the frame has loaded, and if it hasn't loaded after 20 seconds it says \"The preview didn't load.\" with Reload and Open in new tab, instead of sitting blank.",
       "sourceSha": "545e6ec6dfdfc650be25e91c36a204664fc543a2",
       "identity": "app-preview-frame-state:3301b57ce43502c73ebbf0995e8ab3b38469f6590bc08df37bfff024dfd878b7"
+    },
+    {
+      "id": "proposal-card-screenshots",
+      "digest": "8165f5860d661fe295b93b5d1b0c6eb6004f679a7490b8fc1f08e70f9d2dafb2",
+      "type": "patch",
+      "summary": "Agent proposal cards in team chat now show the UI Finding Fixer's Now and With the proposed fix screenshots instead of two empty boxes. An image that still can't load says \"Image didn't load here\" with an Open image link.",
+      "sourceSha": "d49f64b4985e56e83648d955d2c7eced437a52b0",
+      "identity": "proposal-card-screenshots:8165f5860d661fe295b93b5d1b0c6eb6004f679a7490b8fc1f08e70f9d2dafb2"
     }
   ],
   "consumedIntentIds": [
