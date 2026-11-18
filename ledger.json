@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b1b5ad46463b873b4c3ee57df68b8132561d0984",
+  "cursorSha": "64287da677d9d2f38c4eaaf21e4e0574dd5948d9",
   "highWaterVersion": "1.577.6",
   "rows": [
     {
@@ -180188,6 +180188,13 @@
       "sourceSha": "b1b5ad46463b873b4c3ee57df68b8132561d0984",
       "sourcePackageVersion": "1.577.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "64287da677d9d2f38c4eaaf21e4e0574dd5948d9",
+      "sourcePackageVersion": "1.577.5",
+      "intentIds": [
+        "terminal-machine-home-org:a3740b8022970b3051f5baaabb974231ba5dccce17f9ed6b7f2bb01390fe776f"
+      ]
     }
   ],
   "intents": [
@@ -191966,6 +191973,14 @@
       "summary": "Terminal's local implementor model default now reads the shared Codex default, which the model catalog's `codex-frontier` role sets. The model is unchanged.",
       "sourceSha": "d33a9c6f58ee8188de88f4f93b3e02aa7f6fa392",
       "identity": "model-catalog-roles:d46f5e1eccfe4f1d97439a47ffa005ea6f5af68cb36f1db8e4c423a77351b5c9"
+    },
+    {
+      "id": "terminal-machine-home-org",
+      "digest": "a3740b8022970b3051f5baaabb974231ba5dccce17f9ed6b7f2bb01390fe776f",
+      "type": "patch",
+      "summary": "When your machine stays in its home organization while the app is signed in to another one, choosing a folder for a chat on it works again. Nothing changes for a machine in the organization the app is signed in to.",
+      "sourceSha": "64287da677d9d2f38c4eaaf21e4e0574dd5948d9",
+      "identity": "terminal-machine-home-org:a3740b8022970b3051f5baaabb974231ba5dccce17f9ed6b7f2bb01390fe776f"
     }
   ],
   "consumedIntentIds": [
