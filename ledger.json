@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "89bf87bb8fd541b49034333607d58d9acfd00091",
-  "highWaterVersion": "1.577.7",
+  "highWaterVersion": "1.577.8",
   "rows": [
     {
       "schemaVersion": 1,
@@ -98615,6 +98615,55 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:89bf87bb8fd541b49034333607d58d9acfd00091",
+      "kind": "main",
+      "sequence": 2477,
+      "sourceSha": "89bf87bb8fd541b49034333607d58d9acfd00091",
+      "sourcePackageVersion": "1.577.6",
+      "version": "1.577.8",
+      "batch": {
+        "intentIds": [
+          "win-process-creds:cd37154e507e6bb24aea90b000c331b5a3ce817380ce8154f15c7ce1123cebe4",
+          "kickoff-quiet-captions:b7145fdf8a894757ae1b870c511d3d794f76f8d7808fd99ea0f2d3ec20d7ac6c",
+          "terminal-planner-incremental-spawn-graph:9156faa0dda14644f5eeb4d66e489526febfc3e9028cc4c8e9951c6f0124fadd",
+          "retired-model-successors:6c7180c99be03c8487b9c28e23547fcaa34655cd918d0ac38c433a1b8dcaf078"
+        ],
+        "notesIntentIds": [
+          "win-process-creds:cd37154e507e6bb24aea90b000c331b5a3ce817380ce8154f15c7ce1123cebe4",
+          "kickoff-quiet-captions:b7145fdf8a894757ae1b870c511d3d794f76f8d7808fd99ea0f2d3ec20d7ac6c",
+          "terminal-planner-incremental-spawn-graph:9156faa0dda14644f5eeb4d66e489526febfc3e9028cc4c8e9951c6f0124fadd",
+          "retired-model-successors:6c7180c99be03c8487b9c28e23547fcaa34655cd918d0ac38c433a1b8dcaf078"
+        ],
+        "throughSourceSha": "89bf87bb8fd541b49034333607d58d9acfd00091",
+        "previousThroughSourceSha": "64287da677d9d2f38c4eaaf21e4e0574dd5948d9",
+        "baselineVersion": "1.577.7",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-18T09:36:19.808Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44277400097",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-19T09:36:10.646Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -193603,7 +193652,11 @@
     "app-plan-pane-terminal:d0779ac9ba2b79620d6bb6eab62639dc661c533095600d7cea9f93a416646383",
     "usage-slot-no-layout-shift:60ac0a15a9b81d8171848936e20be7fd7a86d4ed83b439278e98e3a4e93fe519",
     "model-catalog-roles:d46f5e1eccfe4f1d97439a47ffa005ea6f5af68cb36f1db8e4c423a77351b5c9",
-    "terminal-machine-home-org:a3740b8022970b3051f5baaabb974231ba5dccce17f9ed6b7f2bb01390fe776f"
+    "terminal-machine-home-org:a3740b8022970b3051f5baaabb974231ba5dccce17f9ed6b7f2bb01390fe776f",
+    "win-process-creds:cd37154e507e6bb24aea90b000c331b5a3ce817380ce8154f15c7ce1123cebe4",
+    "kickoff-quiet-captions:b7145fdf8a894757ae1b870c511d3d794f76f8d7808fd99ea0f2d3ec20d7ac6c",
+    "terminal-planner-incremental-spawn-graph:9156faa0dda14644f5eeb4d66e489526febfc3e9028cc4c8e9951c6f0124fadd",
+    "retired-model-successors:6c7180c99be03c8487b9c28e23547fcaa34655cd918d0ac38c433a1b8dcaf078"
   ],
-  "consumedThroughSha": "64287da677d9d2f38c4eaaf21e4e0574dd5948d9"
+  "consumedThroughSha": "89bf87bb8fd541b49034333607d58d9acfd00091"
 }
