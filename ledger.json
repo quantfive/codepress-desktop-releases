@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "392f46d1c365b3a07e23f9876b7fe2a2ef46456f",
-  "highWaterVersion": "1.577.2",
+  "highWaterVersion": "1.577.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -98358,6 +98358,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:392f46d1c365b3a07e23f9876b7fe2a2ef46456f",
+      "kind": "main",
+      "sequence": 2472,
+      "sourceSha": "392f46d1c365b3a07e23f9876b7fe2a2ef46456f",
+      "sourcePackageVersion": "1.577.1",
+      "version": "1.577.3",
+      "batch": {
+        "intentIds": [
+          "cloud-needs-card-rest:dd250f377bc969266a2461d30cfb0825197db5832833b30a86bc8c80ecc3cb95"
+        ],
+        "notesIntentIds": [
+          "cloud-needs-card-rest:dd250f377bc969266a2461d30cfb0825197db5832833b30a86bc8c80ecc3cb95"
+        ],
+        "throughSourceSha": "392f46d1c365b3a07e23f9876b7fe2a2ef46456f",
+        "previousThroughSourceSha": "9fd7d94975e87b5ce26b74b197d1c3401a893279",
+        "baselineVersion": "1.577.2",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-18T06:55:47.753Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44254895180",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-19T06:55:38.835Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -193058,7 +193101,8 @@
     "gpt-6-2-activation:61cb71cb77d8066e77a0e3ec43492cb6f57d39caaa92ddea46fc589d321b8609",
     "gemini-google-usage:f37ac3c4870947834d0bae0b1b76ce5891c53a7cdf76c4d8e88268b58f7d8598",
     "at-menu-cloud-projects:102671bc052c2b1fea3d945b9fb81311d337563ff685a0efda30eabbcca88548",
-    "app-rail-badge-drops-on-write:cbda1e54f80a9851cfa01c93262cd85e432216631bc78216910627385aee4b60"
+    "app-rail-badge-drops-on-write:cbda1e54f80a9851cfa01c93262cd85e432216631bc78216910627385aee4b60",
+    "cloud-needs-card-rest:dd250f377bc969266a2461d30cfb0825197db5832833b30a86bc8c80ecc3cb95"
   ],
-  "consumedThroughSha": "9fd7d94975e87b5ce26b74b197d1c3401a893279"
+  "consumedThroughSha": "392f46d1c365b3a07e23f9876b7fe2a2ef46456f"
 }
