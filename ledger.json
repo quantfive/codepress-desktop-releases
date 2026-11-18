@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "91c1aec2e27e70ae6366a1f21c333335c5a536a9",
-  "highWaterVersion": "1.576.2",
+  "highWaterVersion": "1.577.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -98205,6 +98205,53 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:91c1aec2e27e70ae6366a1f21c333335c5a536a9",
+      "kind": "main",
+      "sequence": 2469,
+      "sourceSha": "91c1aec2e27e70ae6366a1f21c333335c5a536a9",
+      "sourcePackageVersion": "1.576.2",
+      "version": "1.577.0",
+      "batch": {
+        "intentIds": [
+          "sidebar-icon-uploads:c9428825c003dc97e39b5f7d8e10ff316f8495542f3c7aab170b50bdc588fa0d",
+          "gpt-6-2-activation:61cb71cb77d8066e77a0e3ec43492cb6f57d39caaa92ddea46fc589d321b8609",
+          "gemini-google-usage:f37ac3c4870947834d0bae0b1b76ce5891c53a7cdf76c4d8e88268b58f7d8598"
+        ],
+        "notesIntentIds": [
+          "sidebar-icon-uploads:c9428825c003dc97e39b5f7d8e10ff316f8495542f3c7aab170b50bdc588fa0d",
+          "gpt-6-2-activation:61cb71cb77d8066e77a0e3ec43492cb6f57d39caaa92ddea46fc589d321b8609",
+          "gemini-google-usage:f37ac3c4870947834d0bae0b1b76ce5891c53a7cdf76c4d8e88268b58f7d8598"
+        ],
+        "throughSourceSha": "91c1aec2e27e70ae6366a1f21c333335c5a536a9",
+        "previousThroughSourceSha": "7733f90cbb7ea13e366b0fe2310ad016c879056e",
+        "baselineVersion": "1.576.2",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-18T05:30:19.965Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44244607849",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-19T05:30:11.781Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -192800,7 +192847,10 @@
     "cloud-needs-card-everywhere:495b821af4348d6551eee79a33dedeee92950c1788a3849eb1b3733c240c8da0",
     "terminal-windows-compile:6655c2c00749a2254ba212914313e7a5b9b6705c9a1b4048efda04be61f02d1a",
     "agy-managed-pin-upgrade:4543b174457deddd32b6e4802e1c09565e71fa7a61da512ba653da09afc45ba6",
-    "home-accepts-cloud-project-mentions:fafef943e60a3510d4f6da4f6537e9963e143fe4d1b7bc03a0e464c5e4a46202"
+    "home-accepts-cloud-project-mentions:fafef943e60a3510d4f6da4f6537e9963e143fe4d1b7bc03a0e464c5e4a46202",
+    "sidebar-icon-uploads:c9428825c003dc97e39b5f7d8e10ff316f8495542f3c7aab170b50bdc588fa0d",
+    "gpt-6-2-activation:61cb71cb77d8066e77a0e3ec43492cb6f57d39caaa92ddea46fc589d321b8609",
+    "gemini-google-usage:f37ac3c4870947834d0bae0b1b76ce5891c53a7cdf76c4d8e88268b58f7d8598"
   ],
-  "consumedThroughSha": "7733f90cbb7ea13e366b0fe2310ad016c879056e"
+  "consumedThroughSha": "91c1aec2e27e70ae6366a1f21c333335c5a536a9"
 }
