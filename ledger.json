@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "08f117b2e2bf8c86e44cf1d2cdf7d2d707e09ac5",
+  "cursorSha": "a6bb48299df1790f5b354ba98b83c776066f4aee",
   "highWaterVersion": "1.577.2",
   "rows": [
     {
@@ -179849,6 +179849,13 @@
       "sourceSha": "08f117b2e2bf8c86e44cf1d2cdf7d2d707e09ac5",
       "sourcePackageVersion": "1.577.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a6bb48299df1790f5b354ba98b83c776066f4aee",
+      "sourcePackageVersion": "1.577.1",
+      "intentIds": [
+        "cloud-needs-card-rest:dd250f377bc969266a2461d30cfb0825197db5832833b30a86bc8c80ecc3cb95"
+      ]
     }
   ],
   "intents": [
@@ -191571,6 +191578,14 @@
       "summary": "In Terminal, an App's rail badge count now drops within about 2 seconds of the App's own change (such as reading a message), instead of waiting for you to leave the App or for the next minute refresh.",
       "sourceSha": "4601701c8a4761c690c9f3c5aa7c08a743406164",
       "identity": "app-rail-badge-drops-on-write:cbda1e54f80a9851cfa01c93262cd85e432216631bc78216910627385aee4b60"
+    },
+    {
+      "id": "cloud-needs-card-rest",
+      "digest": "dd250f377bc969266a2461d30cfb0825197db5832833b30a86bc8c80ecc3cb95",
+      "type": "patch",
+      "summary": "Cloud now shows as disabled, \"Cloud · Needs a card\" with Add a card, in the rest of the places that send work to Cloud when the workspace has no card on file: re-opening an Orchestrator (Run on), Hand off for a project, a session or an automation run, Where automations run and the cloud fallback in Computers settings, and Start in Cloud on an app. A failed hand-off to Cloud no longer offers Retry while Cloud needs a card. Moving work away from Cloud is never blocked.",
+      "sourceSha": "a6bb48299df1790f5b354ba98b83c776066f4aee",
+      "identity": "cloud-needs-card-rest:dd250f377bc969266a2461d30cfb0825197db5832833b30a86bc8c80ecc3cb95"
     }
   ],
   "consumedIntentIds": [
