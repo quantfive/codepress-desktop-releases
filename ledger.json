@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e472343cc52413128fd15d82da517c970addbff3",
+  "cursorSha": "811abbe6b5efc70e53826c3939c00f87a518b15c",
   "highWaterVersion": "1.575.2",
   "rows": [
     {
@@ -178890,6 +178890,18 @@
       "sourceSha": "e472343cc52413128fd15d82da517c970addbff3",
       "sourcePackageVersion": "1.575.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "83ad6234ad972219abe929f2feacc2ab7b80603e",
+      "sourcePackageVersion": "1.575.2",
+      "intentIds": [
+        "cloud-project-open-bounded-first-page:7020bc17d79464d2401f14013463c273491995fc5f259d6717d513a0a3378825"
+      ]
+    },
+    {
+      "sourceSha": "811abbe6b5efc70e53826c3939c00f87a518b15c",
+      "sourcePackageVersion": "1.575.2",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -190484,6 +190496,14 @@
       "summary": "The App page's chat now shows a plan the agent proposes as the plan card, with Approve & build, Open plan and Ask for changes…, as the Agent tab's chat does. Approve & build opens the new project in the same column on a managed App, and in the Agent tab on a repository App. A started App chat no longer shows an empty amber box above its composer.",
       "sourceSha": "ec4b379a1a8b27096f2a06402c4074c340bb9265",
       "identity": "app-chat-plan-card:7a1a59d7a1506bf1f138cc97ab63a745b3fe215fa0d7bc24782115d1d7c5b002"
+    },
+    {
+      "id": "cloud-project-open-bounded-first-page",
+      "digest": "7020bc17d79464d2401f14013463c273491995fc5f259d6717d513a0a3378825",
+      "type": "patch",
+      "summary": "Opening a cloud Orchestrator project reads only the newest page of its transcript first and asks for the live-stream token at the same time, so the project shows sooner; older messages still load as before.",
+      "sourceSha": "83ad6234ad972219abe929f2feacc2ab7b80603e",
+      "identity": "cloud-project-open-bounded-first-page:7020bc17d79464d2401f14013463c273491995fc5f259d6717d513a0a3378825"
     }
   ],
   "consumedIntentIds": [
