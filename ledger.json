@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2f1993e3221e218fa10d58861052f73c6cf5723b",
+  "cursorSha": "fb407b89a34c2e5218f8fdc0a2b5d089ecf575a7",
   "highWaterVersion": "1.577.5",
   "rows": [
     {
@@ -180092,6 +180092,13 @@
       "sourceSha": "2f1993e3221e218fa10d58861052f73c6cf5723b",
       "sourcePackageVersion": "1.577.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "fb407b89a34c2e5218f8fdc0a2b5d089ecf575a7",
+      "sourcePackageVersion": "1.577.3",
+      "intentIds": [
+        "usage-slot-no-layout-shift:60ac0a15a9b81d8171848936e20be7fd7a86d4ed83b439278e98e3a4e93fe519"
+      ]
     }
   ],
   "intents": [
@@ -191854,6 +191861,14 @@
       "summary": "App page: a chat's plan, a project's plan ask and its Plans tab now open in the App's place, beside the chat, with Back to preview returning to the App as it was, instead of a full-window overlay. A plan that arrives while you watch opens there once by itself.",
       "sourceSha": "57d0a2f340fe29394a4d1234cd383c346e6ea989",
       "identity": "app-plan-pane-terminal:d0779ac9ba2b79620d6bb6eab62639dc661c533095600d7cea9f93a416646383"
+    },
+    {
+      "id": "usage-slot-no-layout-shift",
+      "digest": "60ac0a15a9b81d8171848936e20be7fd7a86d4ed83b439278e98e3a4e93fe519",
+      "type": "patch",
+      "summary": "The weekly usage bar under the Orchestrator's model chips no longer moves the composer: its space is reserved while the usage is still loading.",
+      "sourceSha": "fb407b89a34c2e5218f8fdc0a2b5d089ecf575a7",
+      "identity": "usage-slot-no-layout-shift:60ac0a15a9b81d8171848936e20be7fd7a86d4ed83b439278e98e3a4e93fe519"
     }
   ],
   "consumedIntentIds": [
