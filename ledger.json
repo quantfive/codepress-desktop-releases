@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "eb9d0507bd0512d80077f1242f04f26a6ec46116",
+  "cursorSha": "aa396c7f7189870d7a4a6ebb565af299bee7811b",
   "highWaterVersion": "1.577.28",
   "rows": [
     {
@@ -182181,6 +182181,13 @@
       "sourceSha": "eb9d0507bd0512d80077f1242f04f26a6ec46116",
       "sourcePackageVersion": "1.577.28",
       "intentIds": []
+    },
+    {
+      "sourceSha": "aa396c7f7189870d7a4a6ebb565af299bee7811b",
+      "sourcePackageVersion": "1.577.28",
+      "intentIds": [
+        "app-chat-new-chat-model-chips:8eb91fd25c3f92a398a518edfa82415899f5c57fa733c2544155e3558670172c"
+      ]
     }
   ],
   "intents": [
@@ -194199,6 +194206,14 @@
       "summary": "An App change preview now shows in the App page inside Terminal on macOS and Linux: Terminal frames the preview's edit host in place, including the cookieless address WebKit gets, instead of blocking it or opening a browser tab.",
       "sourceSha": "923bc032335517d69d47f91598cd788ea85b0965",
       "identity": "webkit-edit-pass-hosts:4d00090e5b12b36c1644eca64fd2fc6887d3810f77093ebdaf6318dd087d1148"
+    },
+    {
+      "id": "app-chat-new-chat-model-chips",
+      "digest": "8eb91fd25c3f92a398a518edfa82415899f5c57fa733c2544155e3558670172c",
+      "type": "minor",
+      "summary": "With Orchestrator for Apps on, a new App chat shows Orchestrator and Workers model chips in its composer, starting on your saved defaults for where it runs. The chat starts on the Orchestrator pick, and Approve & build starts the project on both picks.",
+      "sourceSha": "aa396c7f7189870d7a4a6ebb565af299bee7811b",
+      "identity": "app-chat-new-chat-model-chips:8eb91fd25c3f92a398a518edfa82415899f5c57fa733c2544155e3558670172c"
     }
   ],
   "consumedIntentIds": [
