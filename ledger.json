@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "8350e16fb633ba4118534694ec9f20086bc11330",
-  "highWaterVersion": "1.577.8",
+  "highWaterVersion": "1.577.9",
   "rows": [
     {
       "schemaVersion": 1,
@@ -98668,6 +98668,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:8350e16fb633ba4118534694ec9f20086bc11330",
+      "kind": "main",
+      "sequence": 2478,
+      "sourceSha": "8350e16fb633ba4118534694ec9f20086bc11330",
+      "sourcePackageVersion": "1.577.7",
+      "version": "1.577.9",
+      "batch": {
+        "intentIds": [
+          "app-project-title-chats:b74eaec5de8bc9f709aa7fbd3a20d409c0a5959e17bdf3f4b56a39116cb613fe",
+          "launch-compaction-always:6ba8a6939ad920c74fcc82bcdbf46fcd3a6ab08433f0593113a4a93370836b5e"
+        ],
+        "notesIntentIds": [
+          "app-project-title-chats:b74eaec5de8bc9f709aa7fbd3a20d409c0a5959e17bdf3f4b56a39116cb613fe",
+          "launch-compaction-always:6ba8a6939ad920c74fcc82bcdbf46fcd3a6ab08433f0593113a4a93370836b5e"
+        ],
+        "throughSourceSha": "8350e16fb633ba4118534694ec9f20086bc11330",
+        "previousThroughSourceSha": "89bf87bb8fd541b49034333607d58d9acfd00091",
+        "baselineVersion": "1.577.8",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-18T10:01:18.934Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44281240899",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-19T10:01:10.564Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -193715,7 +193760,9 @@
     "win-process-creds:cd37154e507e6bb24aea90b000c331b5a3ce817380ce8154f15c7ce1123cebe4",
     "kickoff-quiet-captions:b7145fdf8a894757ae1b870c511d3d794f76f8d7808fd99ea0f2d3ec20d7ac6c",
     "terminal-planner-incremental-spawn-graph:9156faa0dda14644f5eeb4d66e489526febfc3e9028cc4c8e9951c6f0124fadd",
-    "retired-model-successors:6c7180c99be03c8487b9c28e23547fcaa34655cd918d0ac38c433a1b8dcaf078"
+    "retired-model-successors:6c7180c99be03c8487b9c28e23547fcaa34655cd918d0ac38c433a1b8dcaf078",
+    "app-project-title-chats:b74eaec5de8bc9f709aa7fbd3a20d409c0a5959e17bdf3f4b56a39116cb613fe",
+    "launch-compaction-always:6ba8a6939ad920c74fcc82bcdbf46fcd3a6ab08433f0593113a4a93370836b5e"
   ],
-  "consumedThroughSha": "89bf87bb8fd541b49034333607d58d9acfd00091"
+  "consumedThroughSha": "8350e16fb633ba4118534694ec9f20086bc11330"
 }
