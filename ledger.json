@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e2ff403f14630e84c3ef423c8a52edd7f30f793e",
+  "cursorSha": "f11f2853fdad5fb7e352e6353f1a096471dcb4bf",
   "highWaterVersion": "1.577.7",
   "rows": [
     {
@@ -180298,6 +180298,13 @@
       "intentIds": [
         "terminal-planner-incremental-spawn-graph:9156faa0dda14644f5eeb4d66e489526febfc3e9028cc4c8e9951c6f0124fadd"
       ]
+    },
+    {
+      "sourceSha": "f11f2853fdad5fb7e352e6353f1a096471dcb4bf",
+      "sourcePackageVersion": "1.577.6",
+      "intentIds": [
+        "retired-model-successors:6c7180c99be03c8487b9c28e23547fcaa34655cd918d0ac38c433a1b8dcaf078"
+      ]
     }
   ],
   "intents": [
@@ -192108,6 +192115,14 @@
       "summary": "The Terminal Vitest selector now reuses the spawned-process graph file by file from its cache, resolving only the files that changed, and prints where its time went.",
       "sourceSha": "e2ff403f14630e84c3ef423c8a52edd7f30f793e",
       "identity": "terminal-planner-incremental-spawn-graph:9156faa0dda14644f5eeb4d66e489526febfc3e9028cc4c8e9951c6f0124fadd"
+    },
+    {
+      "id": "retired-model-successors",
+      "digest": "6c7180c99be03c8487b9c28e23547fcaa34655cd918d0ac38c433a1b8dcaf078",
+      "type": "patch",
+      "summary": "A saved Orchestrator or Implementor model that has been retired now starts its successor everywhere, not only for the retired GPT models: for example a saved Claude Opus 5 default starts Claude Opus 5.5. Sessions that already ran on a retired model keep it.",
+      "sourceSha": "f11f2853fdad5fb7e352e6353f1a096471dcb4bf",
+      "identity": "retired-model-successors:6c7180c99be03c8487b9c28e23547fcaa34655cd918d0ac38c433a1b8dcaf078"
     }
   ],
   "consumedIntentIds": [
