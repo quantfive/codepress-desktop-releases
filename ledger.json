@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "5cebdf5c8b4016111e419a7ef3ce6017bb582af0",
-  "highWaterVersion": "1.577.19",
+  "highWaterVersion": "1.577.20",
   "rows": [
     {
       "schemaVersion": 1,
@@ -99245,6 +99245,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:5cebdf5c8b4016111e419a7ef3ce6017bb582af0",
+      "kind": "main",
+      "sequence": 2489,
+      "sourceSha": "5cebdf5c8b4016111e419a7ef3ce6017bb582af0",
+      "sourcePackageVersion": "1.577.18",
+      "version": "1.577.20",
+      "batch": {
+        "intentIds": [
+          "reclaim-finished-worker-temp:e1ea7fc715ac0e96efff873f8e874a417cf8b502ac7594acc8045e29271242ce"
+        ],
+        "notesIntentIds": [
+          "reclaim-finished-worker-temp:e1ea7fc715ac0e96efff873f8e874a417cf8b502ac7594acc8045e29271242ce"
+        ],
+        "throughSourceSha": "5cebdf5c8b4016111e419a7ef3ce6017bb582af0",
+        "previousThroughSourceSha": "4f5d5330acb5fb6709767e343d1035913df31904",
+        "baselineVersion": "1.577.19",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-18T18:12:20.504Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44367028374",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-19T18:12:11.884Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -194761,7 +194804,8 @@
     "terminal-stop-polling-deleted-chat:d67d6d2a62d6a7d2c152084f6c5c11f475993ee9efa0c89519e8ccc424acf671",
     "moved-projects-storage-cleanup:2119782781223093988b7bcaf1396a424c65d8409175a95166995928186843bd",
     "headless-updater-staging-sweep:a287c26d2b8e58e24ce37da8e245c92b2b9dea0fd6978cda85adf8d8542ed348",
-    "janitor-lock-recovery:96228d1793bc0fb3fcb4141588cd506afc6977ff793144fb19a4528b8d1f81db"
+    "janitor-lock-recovery:96228d1793bc0fb3fcb4141588cd506afc6977ff793144fb19a4528b8d1f81db",
+    "reclaim-finished-worker-temp:e1ea7fc715ac0e96efff873f8e874a417cf8b502ac7594acc8045e29271242ce"
   ],
-  "consumedThroughSha": "4f5d5330acb5fb6709767e343d1035913df31904"
+  "consumedThroughSha": "5cebdf5c8b4016111e419a7ef3ce6017bb582af0"
 }
