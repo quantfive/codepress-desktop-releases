@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "7e9893a89ddaa343898290c123c49a3084a43e85",
-  "highWaterVersion": "1.577.12",
+  "highWaterVersion": "1.577.13",
   "rows": [
     {
       "schemaVersion": 1,
@@ -98884,6 +98884,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:7e9893a89ddaa343898290c123c49a3084a43e85",
+      "kind": "main",
+      "sequence": 2482,
+      "sourceSha": "7e9893a89ddaa343898290c123c49a3084a43e85",
+      "sourcePackageVersion": "1.577.12",
+      "version": "1.577.13",
+      "batch": {
+        "intentIds": [
+          "terminal-sharing-across-orgs-ui:7aca261d256af2cac33eeefdaefb8ab749a430f8f9bcbaacb289e17041c125db"
+        ],
+        "notesIntentIds": [
+          "terminal-sharing-across-orgs-ui:7aca261d256af2cac33eeefdaefb8ab749a430f8f9bcbaacb289e17041c125db"
+        ],
+        "throughSourceSha": "7e9893a89ddaa343898290c123c49a3084a43e85",
+        "previousThroughSourceSha": "0bb1bc7fc8f6319784cecef64e60cf1ab1843963",
+        "baselineVersion": "1.577.12",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-18T12:28:18.701Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44304109666",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-19T12:28:10.145Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -194122,7 +194165,8 @@
     "windows-node-hooks-codepress-cmd:6ab407fe0494501aa6d23d6e6e3f501aa68b608f0964989c6dc1e4b842693d53",
     "model-catalog-prices:73088679ac853c29784f4b27a4a71e74d8c94cdb2498526b941851bd3571d283",
     "app-alert-bubbles:a71010366161660463ccfcfd8291f2b22fe3bd77fe641945cff0e0558d8bb344",
-    "terminal-per-org-machine-sharing:8a782b500d17bd058ba062a200cf81a227a8bec0797123c92c2c336c47d1ef57"
+    "terminal-per-org-machine-sharing:8a782b500d17bd058ba062a200cf81a227a8bec0797123c92c2c336c47d1ef57",
+    "terminal-sharing-across-orgs-ui:7aca261d256af2cac33eeefdaefb8ab749a430f8f9bcbaacb289e17041c125db"
   ],
-  "consumedThroughSha": "0bb1bc7fc8f6319784cecef64e60cf1ab1843963"
+  "consumedThroughSha": "7e9893a89ddaa343898290c123c49a3084a43e85"
 }
