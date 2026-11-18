@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "52a18e6101c8c60787bd9fa4f3070732b07f83e5",
+  "cursorSha": "91cf116e186641dfffaffb713eaf8519054c6b4e",
   "highWaterVersion": "1.575.4",
   "rows": [
     {
@@ -179074,6 +179074,13 @@
       "sourceSha": "52a18e6101c8c60787bd9fa4f3070732b07f83e5",
       "sourcePackageVersion": "1.575.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "91cf116e186641dfffaffb713eaf8519054c6b4e",
+      "sourcePackageVersion": "1.575.4",
+      "intentIds": [
+        "add-to-sidebar-app-automation:b643bc0e8b5e8cf92c297aeb25e364891bb599bc85fae5e2e508a6642de0000c"
+      ]
     }
   ],
   "intents": [
@@ -190684,6 +190691,14 @@
       "summary": "Sidebar: click any row in Settings → Navigation or the onboarding sidebar step to pick that section's or workspace link's icon from a searchable library; your choice shows on the rail, the phone drawer and the editor on every machine. Escape in a dialog opened from Settings now closes only that dialog.",
       "sourceSha": "b9251cb285fdf61683aebbabb28ddb0ca92e95f3",
       "identity": "sidebar-section-icons:ab607ddef47ec0bb2b297d6c6a41ea0d01154e8ddd3966b14badc6c4d5984082"
+    },
+    {
+      "id": "add-to-sidebar-app-automation",
+      "digest": "b643bc0e8b5e8cf92c297aeb25e364891bb599bc85fae5e2e508a6642de0000c",
+      "type": "patch",
+      "summary": "App cards, collection cards and an automation's page now have a ⋯ menu with Add to sidebar, or Remove from sidebar once it is there, so an App or an automation can be pinned to your sidebar without opening Settings. The Apps folders' Add to my navbar now shows in the app too.",
+      "sourceSha": "91cf116e186641dfffaffb713eaf8519054c6b4e",
+      "identity": "add-to-sidebar-app-automation:b643bc0e8b5e8cf92c297aeb25e364891bb599bc85fae5e2e508a6642de0000c"
     }
   ],
   "consumedIntentIds": [
