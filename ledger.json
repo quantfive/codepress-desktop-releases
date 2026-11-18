@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4240e43f1af89000bc62929486b5f471761032ce",
+  "cursorSha": "e2ff403f14630e84c3ef423c8a52edd7f30f793e",
   "highWaterVersion": "1.577.7",
   "rows": [
     {
@@ -180291,6 +180291,13 @@
       "intentIds": [
         "kickoff-quiet-captions:b7145fdf8a894757ae1b870c511d3d794f76f8d7808fd99ea0f2d3ec20d7ac6c"
       ]
+    },
+    {
+      "sourceSha": "e2ff403f14630e84c3ef423c8a52edd7f30f793e",
+      "sourcePackageVersion": "1.577.6",
+      "intentIds": [
+        "terminal-planner-incremental-spawn-graph:9156faa0dda14644f5eeb4d66e489526febfc3e9028cc4c8e9951c6f0124fadd"
+      ]
     }
   ],
   "intents": [
@@ -192093,6 +192100,14 @@
       "summary": "The Orchestrator new chat page no longer repeats what the model and Runs on chips say (\"Starts on Opus 5.5 · Medium, your saved model…\", \"Reading your saved models…\", \"It opens here once it starts\"), and the message box stays where it first appeared while the page loads.",
       "sourceSha": "4240e43f1af89000bc62929486b5f471761032ce",
       "identity": "kickoff-quiet-captions:b7145fdf8a894757ae1b870c511d3d794f76f8d7808fd99ea0f2d3ec20d7ac6c"
+    },
+    {
+      "id": "terminal-planner-incremental-spawn-graph",
+      "digest": "9156faa0dda14644f5eeb4d66e489526febfc3e9028cc4c8e9951c6f0124fadd",
+      "type": "patch",
+      "summary": "The Terminal Vitest selector now reuses the spawned-process graph file by file from its cache, resolving only the files that changed, and prints where its time went.",
+      "sourceSha": "e2ff403f14630e84c3ef423c8a52edd7f30f793e",
+      "identity": "terminal-planner-incremental-spawn-graph:9156faa0dda14644f5eeb4d66e489526febfc3e9028cc4c8e9951c6f0124fadd"
     }
   ],
   "consumedIntentIds": [
