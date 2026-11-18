@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1a27df4cb1ae2adaafd17bd102419f5a91f1eb85",
+  "cursorSha": "c6b78eca43a6160e4dfd6dc21f8550f6034aa419",
   "highWaterVersion": "1.577.26",
   "rows": [
     {
@@ -181985,6 +181985,13 @@
       "sourceSha": "1a27df4cb1ae2adaafd17bd102419f5a91f1eb85",
       "sourcePackageVersion": "1.577.26",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c6b78eca43a6160e4dfd6dc21f8550f6034aa419",
+      "sourcePackageVersion": "1.577.26",
+      "intentIds": [
+        "real-provider-error:e539f8e850aa049019cc180f5dbae052d5b9598e11c2e440c3213f36fac0800a"
+      ]
     }
   ],
   "intents": [
@@ -193987,6 +193994,14 @@
       "summary": "With an App change open, the App page's header is one calm row: the change's branch and a short status under the App's name, one Publish change button (with Saves, Open preview and Discard change in its menu) in place of the live site's Publish, and the private-preview note behind an ⓘ. The row under the toolbar shows only when something needs you, such as a build running or failing, a conflict, or a publish blocker.",
       "sourceSha": "b2232a576d236cecb2fb9028ec8445f3461e8cf8",
       "identity": "app-change-calm-header:8c5b933d80c7f98cc0bc3bdad1d7e019919e6e54532424ffa05a599a35731088"
+    },
+    {
+      "id": "real-provider-error",
+      "digest": "e539f8e850aa049019cc180f5dbae052d5b9598e11c2e440c3213f36fac0800a",
+      "type": "patch",
+      "summary": "When a Codex Orchestrator turn fails, the thread now shows the provider's error, such as `OpenAI 400 invalid_request_error (model_not_found): The 'gpt-6.2-sol' model is not supported when using Codex with a ChatGPT account.`, instead of \"Recorded failure details omitted because they contain credential data.\" Secret values inside an error still show as `[redacted]`.",
+      "sourceSha": "c6b78eca43a6160e4dfd6dc21f8550f6034aa419",
+      "identity": "real-provider-error:e539f8e850aa049019cc180f5dbae052d5b9598e11c2e440c3213f36fac0800a"
     }
   ],
   "consumedIntentIds": [
