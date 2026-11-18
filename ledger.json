@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "069255e10742297d3cdd10fc7d9e0c087b59eedb",
+  "cursorSha": "d126796b0671288a8f7047e1e0b73e05dd9aca8f",
   "highWaterVersion": "1.577.22",
   "rows": [
     {
@@ -181575,6 +181575,13 @@
       "sourceSha": "069255e10742297d3cdd10fc7d9e0c087b59eedb",
       "sourcePackageVersion": "1.577.21",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d126796b0671288a8f7047e1e0b73e05dd9aca8f",
+      "sourcePackageVersion": "1.577.21",
+      "intentIds": [
+        "steady-context-meter:c5770ef1265f1df4881a8ea0d611dcf6c7619b2e951cf31d96e1019e002f6d91"
+      ]
     }
   ],
   "intents": [
@@ -193529,6 +193536,14 @@
       "summary": "Test-only: the app is unchanged. The limit-bypass server test no longer drains the whole fake clock in its shared test worker, and the reaper's event-loop test checks that a callback runs while `ps` is in flight instead of timing it.",
       "sourceSha": "646b1326b227b8f3705ae723baac83bf9801e3af",
       "identity": "limit-bypass-drift-tests-deterministic:95d13af031dcf80fa0dca6dd73c119c5a049508e8c78192ffd3757b346c5f62d"
+    },
+    {
+      "id": "steady-context-meter",
+      "digest": "c5770ef1265f1df4881a8ea0d611dcf6c7619b2e951cf31d96e1019e002f6d91",
+      "type": "patch",
+      "summary": "The Orchestrator context fact in a project's Status block no longer flashes in and out when you view a project whose home is another machine. Once measured, it stays on screen and updates in place.",
+      "sourceSha": "d126796b0671288a8f7047e1e0b73e05dd9aca8f",
+      "identity": "steady-context-meter:c5770ef1265f1df4881a8ea0d611dcf6c7619b2e951cf31d96e1019e002f6d91"
     }
   ],
   "consumedIntentIds": [
