@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ff98e26224100800f6e8ebc729241ae79bff87f0",
+  "cursorSha": "8e6f6ebc67c2b70e037f388d5ac394878508bf4d",
   "highWaterVersion": "1.576.0",
   "rows": [
     {
@@ -179397,6 +179397,13 @@
       "sourceSha": "ff98e26224100800f6e8ebc729241ae79bff87f0",
       "sourcePackageVersion": "1.575.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "8e6f6ebc67c2b70e037f388d5ac394878508bf4d",
+      "sourcePackageVersion": "1.575.7",
+      "intentIds": [
+        "cloud-needs-card-everywhere:495b821af4348d6551eee79a33dedeee92950c1788a3849eb1b3733c240c8da0"
+      ]
     }
   ],
   "intents": [
@@ -191047,6 +191054,14 @@
       "summary": "Pinned Apps on the sidebar can show a count on their icon, such as unread items, read from the App every minute, on focus and after leaving the App.",
       "sourceSha": "f13bbccf032142b3784de1ddf52b915145863d7a",
       "identity": "rail-app-badges:4b2b5eab1343c02fe7e27b4b037cb55bfc013c80761e3f91365e030518365166"
+    },
+    {
+      "id": "cloud-needs-card-everywhere",
+      "digest": "495b821af4348d6551eee79a33dedeee92950c1788a3849eb1b3733c240c8da0",
+      "type": "patch",
+      "summary": "Every place you pick where new work runs (the Orchestrator kickoff, New app, Continue on and an automation's Where this runs) now shows Cloud as disabled, \"Cloud · Needs a card\" with Add a card, when the workspace has no card on file. Auto with no computer online says so and waits instead of starting in Cloud.",
+      "sourceSha": "8e6f6ebc67c2b70e037f388d5ac394878508bf4d",
+      "identity": "cloud-needs-card-everywhere:495b821af4348d6551eee79a33dedeee92950c1788a3849eb1b3733c240c8da0"
     }
   ],
   "consumedIntentIds": [
