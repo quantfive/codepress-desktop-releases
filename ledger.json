@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "365dc563f122e7b770de7abb8556f059e3545182",
+  "cursorSha": "db4cadcb7c9c6ce8e4d5a5248f102ea4f488e25b",
   "highWaterVersion": "1.577.20",
   "rows": [
     {
@@ -181387,6 +181387,13 @@
       "sourceSha": "365dc563f122e7b770de7abb8556f059e3545182",
       "sourcePackageVersion": "1.577.19",
       "intentIds": []
+    },
+    {
+      "sourceSha": "db4cadcb7c9c6ce8e4d5a5248f102ea4f488e25b",
+      "sourcePackageVersion": "1.577.19",
+      "intentIds": [
+        "ptmp-quarantine-attribution:1cb6b5bd87946ff40e110fa0af6d656ec77928c9fcca1d3f6ae9cf91568e0377"
+      ]
     }
   ],
   "intents": [
@@ -193325,6 +193332,14 @@
       "summary": "A finished Orchestrator worker's own temp folder (QA and bisect clones, copied `node_modules`) is now removed when that worker is done, alongside its worktree, instead of waiting for the whole project to land. It follows Settings → Storage → Reclaim finished worker folders and is kept while the worker's tab, a relaunch, a lease or any process still uses it.",
       "sourceSha": "5cebdf5c8b4016111e419a7ef3ce6017bb582af0",
       "identity": "reclaim-finished-worker-temp:e1ea7fc715ac0e96efff873f8e874a417cf8b502ac7594acc8045e29271242ce"
+    },
+    {
+      "id": "ptmp-quarantine-attribution",
+      "digest": "1cb6b5bd87946ff40e110fa0af6d656ec77928c9fcca1d3f6ae9cf91568e0377",
+      "type": "patch",
+      "summary": "Storage cleanup keeps a project's temp folder attributable while removing it, so an interrupted removal is cleaned up on a later run; an older unattributable leftover is now listed in Kept as an interrupted cleanup's leftover so Remove clears it.",
+      "sourceSha": "db4cadcb7c9c6ce8e4d5a5248f102ea4f488e25b",
+      "identity": "ptmp-quarantine-attribution:1cb6b5bd87946ff40e110fa0af6d656ec77928c9fcca1d3f6ae9cf91568e0377"
     }
   ],
   "consumedIntentIds": [
