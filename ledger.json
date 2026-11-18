@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "541186535fbcee967c4946a73f92ac56f10b3bbd",
+  "cursorSha": "29bf4725960b0c203f9a62cb5d7e0636543fb2c1",
   "highWaterVersion": "1.577.0",
   "rows": [
     {
@@ -179688,6 +179688,13 @@
       "sourceSha": "541186535fbcee967c4946a73f92ac56f10b3bbd",
       "sourcePackageVersion": "1.576.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "29bf4725960b0c203f9a62cb5d7e0636543fb2c1",
+      "sourcePackageVersion": "1.576.2",
+      "intentIds": [
+        "at-menu-cloud-projects:102671bc052c2b1fea3d945b9fb81311d337563ff685a0efda30eabbcca88548"
+      ]
     }
   ],
   "intents": [
@@ -191394,6 +191401,14 @@
       "summary": "Accounts → Google now shows the Google account agy is signed in to, its plan, and Google's Gemini and shared Claude & GPT usage bars with their resets, with Refresh.",
       "sourceSha": "177304f45fd7dcbd7ccd9ee9c85fcb6fc9db4177",
       "identity": "gemini-google-usage:f37ac3c4870947834d0bae0b1b76ce5891c53a7cdf76c4d8e88268b58f7d8598"
+    },
+    {
+      "id": "at-menu-cloud-projects",
+      "digest": "102671bc052c2b1fea3d945b9fb81311d337563ff685a0efda30eabbcca88548",
+      "type": "patch",
+      "summary": "Typing @ in any Orchestrator composer now lists your own cloud Orchestrator projects under Projects › Cloud, after your machines' projects, and finds older ones as you type their name. Picking one sends it as `cloud:orchestrator:<id>`. The project you are in is never listed, and a synced copy lists them only when its home machine can read them.\n\nYour own cloud chats (Chats › Cloud) and synced copies of your other machines' chats and projects now list in the @ menu too: they had been left out because the feed marks your own rows with no owner name.",
+      "sourceSha": "29bf4725960b0c203f9a62cb5d7e0636543fb2c1",
+      "identity": "at-menu-cloud-projects:102671bc052c2b1fea3d945b9fb81311d337563ff685a0efda30eabbcca88548"
     }
   ],
   "consumedIntentIds": [
