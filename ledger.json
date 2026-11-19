@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "77843f9278e6ca54c4465f313804f3bfe4b49a4c",
+  "cursorSha": "85007fab6f35e1d786f2283c86d52b8d41b34a24",
   "highWaterVersion": "1.590.0",
   "rows": [
     {
@@ -185221,6 +185221,18 @@
       "intentIds": [
         "ptmp-temp-files-open:b499272fa9fb56aefe7ad8522e1436d051a6606cdfb2e2b7d05196ae62ec396c"
       ]
+    },
+    {
+      "sourceSha": "11113c0c47469a05b8d6ea40e41fdba1960997cf",
+      "sourcePackageVersion": "1.589.2",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "85007fab6f35e1d786f2283c86d52b8d41b34a24",
+      "sourcePackageVersion": "1.589.2",
+      "intentIds": [
+        "one-cli-account-panel:4d7c5843c864585e91351deceadab272d0ecad96b0de487c323f24584f53eeca"
+      ]
     }
   ],
   "intents": [
@@ -197687,6 +197699,14 @@
       "summary": "Links to files in a project's temp folder (where its Orchestrator and workers keep `$TMPDIR`) now open in Files, on this machine and from another machine, instead of \"That path can't be opened from here\".",
       "sourceSha": "77843f9278e6ca54c4465f313804f3bfe4b49a4c",
       "identity": "ptmp-temp-files-open:b499272fa9fb56aefe7ad8522e1436d051a6606cdfb2e2b7d05196ae62ec396c"
+    },
+    {
+      "id": "one-cli-account-panel",
+      "digest": "4d7c5843c864585e91351deceadab272d0ecad96b0de487c323f24584f53eeca",
+      "type": "patch",
+      "summary": "Settings → Agent accounts: the Qwen, Kiro, Cursor, GitHub Copilot and Mistral Vibe tabs are drawn by one shared panel. Nothing changes on screen.",
+      "sourceSha": "85007fab6f35e1d786f2283c86d52b8d41b34a24",
+      "identity": "one-cli-account-panel:4d7c5843c864585e91351deceadab272d0ecad96b0de487c323f24584f53eeca"
     }
   ],
   "consumedIntentIds": [
