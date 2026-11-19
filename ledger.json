@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6279e59735cf7b540eac95911f6bd3c7823f83c8",
+  "cursorSha": "e03ed5adc071a70e2b1ce17619c9709ff72dbc9c",
   "highWaterVersion": "1.578.7",
   "rows": [
     {
@@ -182815,6 +182815,13 @@
       "sourceSha": "6279e59735cf7b540eac95911f6bd3c7823f83c8",
       "sourcePackageVersion": "1.578.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e03ed5adc071a70e2b1ce17619c9709ff72dbc9c",
+      "sourcePackageVersion": "1.578.7",
+      "intentIds": [
+        "handoff-always-plain:639f3d11fd572ca6d6d89efd32ba8439e703fcce4691e8cb80297b1386d63069"
+      ]
     }
   ],
   "intents": [
@@ -194897,6 +194904,14 @@
       "summary": "Terminal's subscription conformance check accepts the backend's new list of providers whose lease carries the whole sign-in (Google sign-in, #24046). Terminal still ignores Google sign-in leases until it can launch them.",
       "sourceSha": "99986536a003517119cf323ba64e65de19e76441",
       "identity": "google-sign-in-lease-tolerant:65675ff18d5503fd84d0191faf65c1841b721f36f011b9a6afdd9ce0a13cec20"
+    },
+    {
+      "id": "handoff-always-plain",
+      "digest": "639f3d11fd572ca6d6d89efd32ba8439e703fcce4691e8cb80297b1386d63069",
+      "type": "minor",
+      "summary": "Every browser handoff on a machine with a screen now opens a plain window (no debugging port), so \"Sign in with Google\" works even inside another site's sign-in. The person finishes at the machine or through \"Connect to this machine\" and closes the window; the agent's browser then has the session. Live view is used only on machines without a screen, and on Windows a plain window left open is now closed gracefully so its sign-in is kept.",
+      "sourceSha": "e03ed5adc071a70e2b1ce17619c9709ff72dbc9c",
+      "identity": "handoff-always-plain:639f3d11fd572ca6d6d89efd32ba8439e703fcce4691e8cb80297b1386d63069"
     }
   ],
   "consumedIntentIds": [
