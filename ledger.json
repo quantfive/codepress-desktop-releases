@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0d0988303eb59884df52a2ae6c50445eee2bdabd",
+  "cursorSha": "d721433eaf7318b98070aaa0affe635d9226c850",
   "highWaterVersion": "1.585.0",
   "rows": [
     {
@@ -183998,6 +183998,13 @@
       "sourceSha": "0d0988303eb59884df52a2ae6c50445eee2bdabd",
       "sourcePackageVersion": "1.585.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d721433eaf7318b98070aaa0affe635d9226c850",
+      "sourcePackageVersion": "1.585.0",
+      "intentIds": [
+        "mcp-share-with-teams:14c83bb07a8b9e35eaa3853cfde215170617af828295f2e8c9ec2640bd19d7d0"
+      ]
     }
   ],
   "intents": [
@@ -196272,6 +196279,14 @@
       "summary": "With Model profiles turned on for you, the Orchestrator's model menu lists your saved profiles at the top: one click sets the Workers, the Orchestrator and a planning model together, and Save current keeps what is in use. A wide menu shows Plan, Build · Orchestrator and Workers side by side; a narrower one adds \"Plan with\" under the Orchestrator. A new project's composer offers the same, and starts the project on the planning model you picked.",
       "sourceSha": "1392f160af51b956cca22452fd14a72594912908",
       "identity": "model-profiles-menu:ba21af0716a712fc83915d5ce721dfcd132633e68f2bb21736775b6a0009c057"
+    },
+    {
+      "id": "mcp-share-with-teams",
+      "digest": "14c83bb07a8b9e35eaa3853cfde215170617af828295f2e8c9ec2640bd19d7d0",
+      "type": "patch",
+      "summary": "Settings → Integrations: the share dialog for an integration can now pick teams as well as people (\"Everyone\" or \"Specific people and teams\"), and the integration card says who has access, for example \"2 teams, 3 people\".",
+      "sourceSha": "d721433eaf7318b98070aaa0affe635d9226c850",
+      "identity": "mcp-share-with-teams:14c83bb07a8b9e35eaa3853cfde215170617af828295f2e8c9ec2640bd19d7d0"
     }
   ],
   "consumedIntentIds": [
