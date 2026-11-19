@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b4016dadd47ecd6a217e24d77d460554c7befd26",
+  "cursorSha": "1a24560fd82bc480bd5e9c86bb050d5bfc795f0a",
   "highWaterVersion": "1.586.0",
   "rows": [
     {
@@ -184244,6 +184244,13 @@
       "sourceSha": "b4016dadd47ecd6a217e24d77d460554c7befd26",
       "sourcePackageVersion": "1.586.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "1a24560fd82bc480bd5e9c86bb050d5bfc795f0a",
+      "sourcePackageVersion": "1.586.0",
+      "intentIds": [
+        "app-variables-editors-ui:69907da1b7f15872ac42dde52c83a30a7a74903b1a830b2ea019e877660a67ca"
+      ]
     }
   ],
   "intents": [
@@ -196558,6 +196565,14 @@
       "summary": "With Model profiles turned on for you, the Orchestrator's composer shows one model chip in place of the Orchestrator and Workers chips. It names the profile in use, followed by its models, or just the models, such as \"Fable 5.2 → Opus 5.5 / Sol\" while it plans on another model. One click opens the same menu. Hover the chip to see every role with its effort; usage and effort are in the menu. Turning Model profiles on or off now shows in an open window without reloading: right away in the window where you changed it, and on your other machines when you come back to them.",
       "sourceSha": "f942ef08c905c14aa79dd97555e43a32a32f8506",
       "identity": "model-profiles-one-chip:0d85d56ec352112034eddff1cdacf06e0775086c9e59420e0489822ed0f0f1a6"
+    },
+    {
+      "id": "app-variables-editors-ui",
+      "digest": "69907da1b7f15872ac42dde52c83a30a7a74903b1a830b2ea019e877660a67ca",
+      "type": "patch",
+      "summary": "App Settings shows who can change an App's environment variables. Org admins and owners can limit it to specific people and teams; anyone else the rule keeps out sees the variables read-only, with a notice saying who can change them.",
+      "sourceSha": "1a24560fd82bc480bd5e9c86bb050d5bfc795f0a",
+      "identity": "app-variables-editors-ui:69907da1b7f15872ac42dde52c83a30a7a74903b1a830b2ea019e877660a67ca"
     }
   ],
   "consumedIntentIds": [
