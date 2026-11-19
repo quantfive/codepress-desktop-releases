@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "fc274c84bfda9623ed82f80e31288c096a0f309f",
+  "cursorSha": "928e5e0d559458cf6d1ca6749450068d18828524",
   "highWaterVersion": "1.590.0",
   "rows": [
     {
@@ -185185,6 +185185,13 @@
       "sourceSha": "fc274c84bfda9623ed82f80e31288c096a0f309f",
       "sourcePackageVersion": "1.589.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "928e5e0d559458cf6d1ca6749450068d18828524",
+      "sourcePackageVersion": "1.589.2",
+      "intentIds": [
+        "app-chat-chip-providers:cd36e1add227d2d223e552a0fb934230d6e2620775f5d70cd8e9a2f916bc8f5a"
+      ]
     }
   ],
   "intents": [
@@ -197627,6 +197634,14 @@
       "summary": "Answering or messaging a project on another machine now names the real refusal (press your passkey, sign in again, confirm this computer, or the machine refused it) instead of blaming a retired organization setting.",
       "sourceSha": "c3917efeb2331731b11543120bebe77e1142e394",
       "identity": "reply-refusal-names-reason:8e14c19af6be5f39b7fd52368d1b152b9716ff77d79c0cadf1077f6c3e270cab"
+    },
+    {
+      "id": "app-chat-chip-providers",
+      "digest": "cd36e1add227d2d223e552a0fb934230d6e2620775f5d70cd8e9a2f916bc8f5a",
+      "type": "patch",
+      "summary": "Chat mode's Model chip now offers the same providers as the Orchestrator chip: GitHub Copilot, Cursor, Kiro, Mistral Vibe, Qwen Code, GLM, MiniMax and Gemini, with any provider this machine can't run shown disabled with its fix.",
+      "sourceSha": "928e5e0d559458cf6d1ca6749450068d18828524",
+      "identity": "app-chat-chip-providers:cd36e1add227d2d223e552a0fb934230d6e2620775f5d70cd8e9a2f916bc8f5a"
     }
   ],
   "consumedIntentIds": [
