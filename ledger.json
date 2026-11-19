@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2346c18b41056a6d20cb02d0efd9e2607d8d824d",
+  "cursorSha": "a960631845e0c8e1b27feaaabefffb245261e633",
   "highWaterVersion": "1.589.2",
   "rows": [
     {
@@ -185052,6 +185052,13 @@
       "sourceSha": "2346c18b41056a6d20cb02d0efd9e2607d8d824d",
       "sourcePackageVersion": "1.589.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a960631845e0c8e1b27feaaabefffb245261e633",
+      "sourcePackageVersion": "1.589.1",
+      "intentIds": [
+        "terminal-env-knobs:9cfc059a98b67cb152584563c2c3b4a531636880c32a85b052f515d683e80c05"
+      ]
     }
   ],
   "intents": [
@@ -197454,6 +197461,14 @@
       "summary": "With Model profiles on, the Orchestrator composer's model chip shows a small usage ring before its caret, filled to the tightest weekly subscription limit the Plan, Orchestrator and Workers models use, and red near or at the limit. Hover the chip for the number and reset time; click it for the model menu with each role's usage.",
       "sourceSha": "30dbf2267fa9c42690f3a2ca253816129b2c154d",
       "identity": "model-chip-usage-ring:f775cd90936b2b785a4fa9d11cae0eedb11d95f7ca68134707a0a7fa82f7360c"
+    },
+    {
+      "id": "terminal-env-knobs",
+      "digest": "9cfc059a98b67cb152584563c2c3b4a531636880c32a85b052f515d683e80c05",
+      "type": "patch",
+      "summary": "Terminal's server reads its timer and limit overrides through one shared helper. Nothing changes in how any override behaves.",
+      "sourceSha": "a960631845e0c8e1b27feaaabefffb245261e633",
+      "identity": "terminal-env-knobs:9cfc059a98b67cb152584563c2c3b4a531636880c32a85b052f515d683e80c05"
     }
   ],
   "consumedIntentIds": [
