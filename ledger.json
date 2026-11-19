@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "197e8023e6b271cce87bc7c1d59bea8b2f36512a",
+  "cursorSha": "eee18b72f4ba1e9a73bbc80ff12a7268b8396a35",
   "highWaterVersion": "1.582.0",
   "rows": [
     {
@@ -183538,6 +183538,13 @@
       "sourceSha": "197e8023e6b271cce87bc7c1d59bea8b2f36512a",
       "sourcePackageVersion": "1.581.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "eee18b72f4ba1e9a73bbc80ff12a7268b8396a35",
+      "sourcePackageVersion": "1.581.1",
+      "intentIds": [
+        "linux-consent-trust-root:444e6e267ed4f67db5b7716bff86ed814d924be5a0fe6727cfdf65297c514613"
+      ]
     }
   ],
   "intents": [
@@ -195764,6 +195771,14 @@
       "summary": "Codex workers now attach to a shared Codex app-server daemon at the version Terminal ships. A worker launch moves an idle daemon on another release onto the bundled CLI with Codex's own pin, and leaves a daemon with a conversation loaded running until a later launch.",
       "sourceSha": "d907af72c59bcdd2e2bc5d0a3ab5eba830b7466e",
       "identity": "codex-daemon-bundled-version:f39f4b24c1e9ade48c97b7606e70aefa00f44b1905f677efcb40dc14c73affe3"
+    },
+    {
+      "id": "linux-consent-trust-root",
+      "digest": "444e6e267ed4f67db5b7716bff86ed814d924be5a0fe6727cfdf65297c514613",
+      "type": "minor",
+      "summary": "Linux machines can now turn on \"Run my automations\", the team opt-in and \"Use this machine for all automations\" through the system password dialog, or with `sudo codepress-terminal automations allow` on a machine with no desktop. Windows shows these switches as not available.",
+      "sourceSha": "eee18b72f4ba1e9a73bbc80ff12a7268b8396a35",
+      "identity": "linux-consent-trust-root:444e6e267ed4f67db5b7716bff86ed814d924be5a0fe6727cfdf65297c514613"
     }
   ],
   "consumedIntentIds": [
