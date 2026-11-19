@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "928e5e0d559458cf6d1ca6749450068d18828524",
+  "cursorSha": "32a7dd62d34362bec13d6a4105d7d554455d8bc9",
   "highWaterVersion": "1.590.0",
   "rows": [
     {
@@ -185192,6 +185192,13 @@
       "intentIds": [
         "app-chat-chip-providers:cd36e1add227d2d223e552a0fb934230d6e2620775f5d70cd8e9a2f916bc8f5a"
       ]
+    },
+    {
+      "sourceSha": "32a7dd62d34362bec13d6a4105d7d554455d8bc9",
+      "sourcePackageVersion": "1.589.2",
+      "intentIds": [
+        "agy-google-gh-auth:42541821436eeae6667e08270a8d435efb47bbc8655a704f6ce5bb41bd9e8672"
+      ]
     }
   ],
   "intents": [
@@ -197642,6 +197649,14 @@
       "summary": "Chat mode's Model chip now offers the same providers as the Orchestrator chip: GitHub Copilot, Cursor, Kiro, Mistral Vibe, Qwen Code, GLM, MiniMax and Gemini, with any provider this machine can't run shown disabled with its fix.",
       "sourceSha": "928e5e0d559458cf6d1ca6749450068d18828524",
       "identity": "app-chat-chip-providers:cd36e1add227d2d223e552a0fb934230d6e2620775f5d70cd8e9a2f916bc8f5a"
+    },
+    {
+      "id": "agy-google-gh-auth",
+      "digest": "42541821436eeae6667e08270a8d435efb47bbc8655a704f6ce5bb41bd9e8672",
+      "type": "patch",
+      "summary": "`gh` and `git push` over https now work inside Antigravity agents running on a Personal or Team Google account: they use your own GitHub sign-in, while agy's Google sign-in stays in its private home.",
+      "sourceSha": "32a7dd62d34362bec13d6a4105d7d554455d8bc9",
+      "identity": "agy-google-gh-auth:42541821436eeae6667e08270a8d435efb47bbc8655a704f6ce5bb41bd9e8672"
     }
   ],
   "consumedIntentIds": [
