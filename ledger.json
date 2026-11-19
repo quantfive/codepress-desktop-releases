@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e55c0e2e083fc36eb40371df787f871c45c11762",
+  "cursorSha": "98f6c6804ffe4ed51fbf694f86cee2b38bdd053e",
   "highWaterVersion": "1.589.1",
   "rows": [
     {
@@ -184969,6 +184969,13 @@
       "sourceSha": "e55c0e2e083fc36eb40371df787f871c45c11762",
       "sourcePackageVersion": "1.588.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "98f6c6804ffe4ed51fbf694f86cee2b38bdd053e",
+      "sourcePackageVersion": "1.588.1",
+      "intentIds": [
+        "kickoff-mentions-too-old:ca463565bb9c1e4df8f3f0dfc4e6ce16f7a1b2df5fbe1e1a1c76d236bfd78bed"
+      ]
     }
   ],
   "intents": [
@@ -197355,6 +197362,14 @@
       "summary": "Share… and Copy link now work on your own synced projects and chats in the Orchestrator's My feed. They used to show \"Turn on sync to share a link\" even when the item was synced. A Personal chat's Share dialog says only you can open the link, and its row wears the Personal lock, as on the web.",
       "sourceSha": "7fc19bcfb92ec7e14b702bc68fd793f8e0654401",
       "identity": "own-feed-row-share:f3817cbb5077f5dde561494ad5f5012bb4fc9d3b2ef3c0ab570169d61176c6df"
+    },
+    {
+      "id": "kickoff-mentions-too-old",
+      "digest": "ca463565bb9c1e4df8f3f0dfc4e6ce16f7a1b2df5fbe1e1a1c76d236bfd78bed",
+      "type": "patch",
+      "summary": "Starting a project on another machine shows \"CodePress on that machine is too old\" for an @mention refusal only when that machine reports an older version. Other refusals now say what actually happened, including a passkey press or sign-in the control call still needs.",
+      "sourceSha": "98f6c6804ffe4ed51fbf694f86cee2b38bdd053e",
+      "identity": "kickoff-mentions-too-old:ca463565bb9c1e4df8f3f0dfc4e6ce16f7a1b2df5fbe1e1a1c76d236bfd78bed"
     }
   ],
   "consumedIntentIds": [
