@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T07:40:25.000Z",
+  "generatedAt": "2026-11-19T12:25:00.000Z",
   "catalog": [
     {
       "id": "claude-opus-5-5",
@@ -146,6 +146,8 @@
       "agentType": "claude",
       "family": "fable",
       "status": "active",
+      "longContextOptIn": true,
+      "minTerminalVersion": "1.506.2",
       "supportedEffortLevels": ["low", "medium", "high", "xhigh", "max"],
       "inputModalities": ["text", "image"],
       "outputModalities": ["text"],
@@ -672,6 +674,7 @@
       "agentType": "claude",
       "family": "fable",
       "status": "retired",
+      "longContextOptIn": true,
       "successor": "claude-fable-5-2",
       "disabledReason": "This model is retired; existing sessions can continue using it.",
       "omitFrom": ["backendChoices"],
