@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "13d25942d1dbdf13ea0634169e03a91c4240da80",
+  "cursorSha": "127333ae54f95ccf334d6d587ceffef14d416668",
   "highWaterVersion": "1.584.0",
   "rows": [
     {
@@ -183823,6 +183823,13 @@
       "sourceSha": "13d25942d1dbdf13ea0634169e03a91c4240da80",
       "sourcePackageVersion": "1.584.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "127333ae54f95ccf334d6d587ceffef14d416668",
+      "sourcePackageVersion": "1.584.0",
+      "intentIds": [
+        "terminal-ota-runtimes-flag:0eef90c34eaf6bdd49468899de69000016751314c188ec3477d9d1ad595d59ec"
+      ]
     }
   ],
   "intents": [
@@ -196073,6 +196080,14 @@
       "summary": "Linux machines can run automations: Settings checks that KVM is available to you and QEMU is installed (and shows the command to fix either), downloads CodePress's sandbox runtime, and qualifies a per-job VM on QEMU with one public-only network.",
       "sourceSha": "520689f446e38391768c6772fa5efb330913043e",
       "identity": "linux-sandbox-lima-qemu:8d5955386f78d0355ad539219633937cdf7abdfc3ac1a4ff80a6e768ebe13a1c"
+    },
+    {
+      "id": "terminal-ota-runtimes-flag",
+      "digest": "0eef90c34eaf6bdd49468899de69000016751314c188ec3477d9d1ad595d59ec",
+      "type": "patch",
+      "summary": "Terminal now reads the organization's new \"Terminal over-the-air models\" setting along with its other organization settings. Nothing acts on it yet.",
+      "sourceSha": "127333ae54f95ccf334d6d587ceffef14d416668",
+      "identity": "terminal-ota-runtimes-flag:0eef90c34eaf6bdd49468899de69000016751314c188ec3477d9d1ad595d59ec"
     }
   ],
   "consumedIntentIds": [
