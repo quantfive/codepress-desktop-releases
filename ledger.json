@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "95da1d9541010a1150f464efdc2ff2804a4b8b28",
+  "cursorSha": "46718fb80cec02c12172b4d2c6285336ebcb56e2",
   "highWaterVersion": "1.581.0",
   "rows": [
     {
@@ -183298,6 +183298,13 @@
       "sourceSha": "95da1d9541010a1150f464efdc2ff2804a4b8b28",
       "sourcePackageVersion": "1.580.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "46718fb80cec02c12172b4d2c6285336ebcb56e2",
+      "sourcePackageVersion": "1.580.3",
+      "intentIds": [
+        "device-gemini-status-relay:63e030dc15d88ad41480ff0b95accd85fc5e0f00bb9721f6fce9ea208cbccb7d"
+      ]
     }
   ],
   "intents": [
@@ -195476,6 +195483,14 @@
       "summary": "Muse, Grok and Gemini launches now run the CLI version Terminal pins for this machine ahead of a CLI of yours. When the pin isn't installed yet, Terminal keeps using your CLI and downloads the pin in the background at app start.",
       "sourceSha": "51288f2e74f384148f65592d114bf7c885a349c4",
       "identity": "managed-pins-muse-grok-gemini:ad8562151787f8ea8c72dca5b8ea3d02cb062f3bff58390b329ff9c68dd8704a"
+    },
+    {
+      "id": "device-gemini-status-relay",
+      "digest": "63e030dc15d88ad41480ff0b95accd85fc5e0f00bb9721f6fce9ea208cbccb7d",
+      "type": "patch",
+      "summary": "Advertise `device_gemini_v1` over the device channel and answer owner-only `device_gemini_status_request` frames with allow-listed Gemini availability and model list fields so web and mobile clients can read a machine's Gemini status.",
+      "sourceSha": "46718fb80cec02c12172b4d2c6285336ebcb56e2",
+      "identity": "device-gemini-status-relay:63e030dc15d88ad41480ff0b95accd85fc5e0f00bb9721f6fce9ea208cbccb7d"
     }
   ],
   "consumedIntentIds": [
