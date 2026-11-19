@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2a0cce90f9bbd6066901455d9ca4502e58238e93",
+  "cursorSha": "d774fcb936b936d4dae194ba460efa67bdc56f7b",
   "highWaterVersion": "1.580.2",
   "rows": [
     {
@@ -183139,6 +183139,16 @@
       "intentIds": [
         "managed-oauth-connect-card:43f7a7996130979bdb71255136deed18ffb8dfbb58e8ef7adac6fc1081908c93"
       ]
+    },
+    {
+      "sourceSha": "4afd7581f863d3fa2f13a233c15efa10dd7478b7",
+      "sourcePackageVersion": "1.580.1",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "d774fcb936b936d4dae194ba460efa67bdc56f7b",
+      "sourcePackageVersion": "1.580.1",
+      "intentIds": []
     }
   ],
   "intents": [
