@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b9c3c46c75ae9b9b481f583a761f380e0a90e9ee",
+  "cursorSha": "021a97c62104b06aa57416e79566a0a0c8dab454",
   "highWaterVersion": "1.585.2",
   "rows": [
     {
@@ -184126,6 +184126,13 @@
       "sourceSha": "b9c3c46c75ae9b9b481f583a761f380e0a90e9ee",
       "sourcePackageVersion": "1.585.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "021a97c62104b06aa57416e79566a0a0c8dab454",
+      "sourcePackageVersion": "1.585.1",
+      "intentIds": [
+        "teams-access-view:58b0dbd03a013aa1607d0feb4966fef9ba073b36a0d4fab7c5fc278e696a5141"
+      ]
     }
   ],
   "intents": [
@@ -196416,6 +196423,14 @@
       "summary": "Fix macOS private keychain unlock for Gemini Personal and Team Google sign-in by naming each private home's keychain `agy.keychain-db` and pointing that home's `com.apple.security.plist` at it, self-healing legacy `login.keychain-db` private homes.",
       "sourceSha": "b1e7f27996b471dcb0b31570dc8aa1bcaae34d7c",
       "identity": "fix-agy-private-keychain-unlock:1073d3ab9b2d847b60f1ababcada3bd8834dd4672db3b8afa04879ac52e20d05"
+    },
+    {
+      "id": "teams-access-view",
+      "digest": "58b0dbd03a013aa1607d0feb4966fef9ba073b36a0d4fab7c5fc278e696a5141",
+      "type": "patch",
+      "summary": "Settings → Teams: opening a team now shows what it can reach, the integrations whose shared connection it may use and the Apps whose environment variables it may change, each with a link to where it is managed.",
+      "sourceSha": "021a97c62104b06aa57416e79566a0a0c8dab454",
+      "identity": "teams-access-view:58b0dbd03a013aa1607d0feb4966fef9ba073b36a0d4fab7c5fc278e696a5141"
     }
   ],
   "consumedIntentIds": [
