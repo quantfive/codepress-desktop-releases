@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "36a668aa1e7f9058067deb95dd5824f76a5de867",
+  "cursorSha": "b90c52ef81b185af195ddadda8ef8fdd58165f2d",
   "highWaterVersion": "1.579.0",
   "rows": [
     {
@@ -182896,6 +182896,13 @@
       "intentIds": [
         "automations-settings-groups:2f79b00594189adc76ca7bf4e29f8106c58a079d29e30dcfaa00e2f28bd56dac"
       ]
+    },
+    {
+      "sourceSha": "b90c52ef81b185af195ddadda8ef8fdd58165f2d",
+      "sourcePackageVersion": "1.578.7",
+      "intentIds": [
+        "remote-desktop-clipboard-sync:441483e71d22acc3db4730d017955aff52986daf25301cdeef5642f75f372fb7"
+      ]
     }
   ],
   "intents": [
@@ -194994,6 +195001,14 @@
       "summary": "Settings → This computer → Automations now reads as titled groups (Run on this machine, Which automations, How much of this machine, Running on this machine, From your other machines), with agent asks in Waiting for you and every switch level with its label.",
       "sourceSha": "36a668aa1e7f9058067deb95dd5824f76a5de867",
       "identity": "automations-settings-groups:2f79b00594189adc76ca7bf4e29f8106c58a079d29e30dcfaa00e2f28bd56dac"
+    },
+    {
+      "id": "remote-desktop-clipboard-sync",
+      "digest": "441483e71d22acc3db4730d017955aff52986daf25301cdeef5642f75f372fb7",
+      "type": "minor",
+      "summary": "Remote Desktop: while you control a remote machine, ⌘V pastes this machine's clipboard text there, and text copied on the remote machine lands on this machine's clipboard. Plain text up to 1 MB; the lock screen and view-only sessions are left out, and an older remote machine gets the text typed instead.",
+      "sourceSha": "b90c52ef81b185af195ddadda8ef8fdd58165f2d",
+      "identity": "remote-desktop-clipboard-sync:441483e71d22acc3db4730d017955aff52986daf25301cdeef5642f75f372fb7"
     }
   ],
   "consumedIntentIds": [
