@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "64b822c9797581dd6fcdef5b258e906c5a4bdde3",
+  "cursorSha": "22299c8d6c353759b70817fb35f07d03e8d50b74",
   "highWaterVersion": "1.586.2",
   "rows": [
     {
@@ -184400,6 +184400,13 @@
       "sourceSha": "64b822c9797581dd6fcdef5b258e906c5a4bdde3",
       "sourcePackageVersion": "1.586.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "22299c8d6c353759b70817fb35f07d03e8d50b74",
+      "sourcePackageVersion": "1.586.2",
+      "intentIds": [
+        "ota-downloaded-sdks:99cfc628c392d86f62e5d2c183805d6e0ab76bc8f832e83f9cdfe260c8071add"
+      ]
     }
   ],
   "intents": [
@@ -196730,6 +196737,14 @@
       "summary": "A project started on another of your machines, from the web on your own computer, or by a teammate on a shared computer can now plan on its planning model and switch to its building model at the build. The new-project composer sends the planning model only to a machine whose Terminal takes one, and says so plainly when a machine can't or your Model profiles switch is off.",
       "sourceSha": "0d41be7dc42f56e9cf54e56db32f905a58352767",
       "identity": "routed-kickoff-planning-model:50e0e8e85f44c2e10ca5cfc2bf2f87f19db5ec77bf18ca93ba30af1adae1da97"
+    },
+    {
+      "id": "ota-downloaded-sdks",
+      "digest": "99cfc628c392d86f62e5d2c183805d6e0ab76bc8f832e83f9cdfe260c8071add",
+      "type": "minor",
+      "summary": "With the over-the-air runtimes flag on for your organization, Terminal runs the Claude and Codex SDKs and CLIs from the signed provider feed, and takes the Antigravity CLI pin from it. Each copy is checked against its signed integrity before use, running sessions keep the version they started with, and turning the flag off returns new sessions to the bundled copies. Settings shows a downloaded copy as \"Using Codex 0.171.0 (downloaded)\".",
+      "sourceSha": "22299c8d6c353759b70817fb35f07d03e8d50b74",
+      "identity": "ota-downloaded-sdks:99cfc628c392d86f62e5d2c183805d6e0ab76bc8f832e83f9cdfe260c8071add"
     }
   ],
   "consumedIntentIds": [
