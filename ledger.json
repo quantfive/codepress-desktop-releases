@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "55118a4b704f0660a0abc1d8999c7c8d5472fc4d",
-  "highWaterVersion": "1.578.6",
+  "highWaterVersion": "1.578.7",
   "rows": [
     {
       "schemaVersion": 1,
@@ -100054,6 +100054,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:55118a4b704f0660a0abc1d8999c7c8d5472fc4d",
+      "kind": "main",
+      "sequence": 2505,
+      "sourceSha": "55118a4b704f0660a0abc1d8999c7c8d5472fc4d",
+      "sourcePackageVersion": "1.578.6",
+      "version": "1.578.7",
+      "batch": {
+        "intentIds": [
+          "google-sign-in-lease-tolerant:65675ff18d5503fd84d0191faf65c1841b721f36f011b9a6afdd9ce0a13cec20"
+        ],
+        "notesIntentIds": [
+          "google-sign-in-lease-tolerant:65675ff18d5503fd84d0191faf65c1841b721f36f011b9a6afdd9ce0a13cec20"
+        ],
+        "throughSourceSha": "55118a4b704f0660a0abc1d8999c7c8d5472fc4d",
+        "previousThroughSourceSha": "2d9d1598f804c3b68254074ceacde7e99794c334",
+        "baselineVersion": "1.578.6",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-19T01:08:23.914Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44434518239",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-20T01:08:16.051Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -196328,7 +196371,8 @@
     "copy-screenshots-load-inline:ebf359ef25aa14ce5721f73106e63821d4878702eae84882a8d613822bb4a4a8",
     "app-chat-share-terminal:3139683d08166cf163774468b865e51cb5ac296a00cda9c266b3d969f9a7f9ab",
     "remote-desktop-edit-shortcuts:8f2c1a5f6f989bdea5a324dbdc5afb187a9f2e0057392b7a5628dd163a2ecc2e",
-    "model-profiles-switch:137411011d80a1704638194fc22368122f6ce6466e3c6d4086e925b5bbb4e35a"
+    "model-profiles-switch:137411011d80a1704638194fc22368122f6ce6466e3c6d4086e925b5bbb4e35a",
+    "google-sign-in-lease-tolerant:65675ff18d5503fd84d0191faf65c1841b721f36f011b9a6afdd9ce0a13cec20"
   ],
-  "consumedThroughSha": "2d9d1598f804c3b68254074ceacde7e99794c334"
+  "consumedThroughSha": "55118a4b704f0660a0abc1d8999c7c8d5472fc4d"
 }
