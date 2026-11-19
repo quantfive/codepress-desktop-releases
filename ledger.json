@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d774fcb936b936d4dae194ba460efa67bdc56f7b",
+  "cursorSha": "14385106b5a6be6b4a61730f19cc78bdbb8c0a42",
   "highWaterVersion": "1.580.2",
   "rows": [
     {
@@ -183149,6 +183149,13 @@
       "sourceSha": "d774fcb936b936d4dae194ba460efa67bdc56f7b",
       "sourcePackageVersion": "1.580.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "14385106b5a6be6b4a61730f19cc78bdbb8c0a42",
+      "sourcePackageVersion": "1.580.1",
+      "intentIds": [
+        "sandbox-lima-linux-build:24860365e66da57490ca59f9ab037d45ec1006f53dcb13d3010e18381f46e772"
+      ]
     }
   ],
   "intents": [
@@ -195303,6 +195310,14 @@
       "summary": "Managed automations whose release declares `oauth_install` show a Connect card on the installation dialog's Setup tab, with Connect, Reconnect and Disconnect and the connection's state.",
       "sourceSha": "2a0cce90f9bbd6066901455d9ca4502e58238e93",
       "identity": "managed-oauth-connect-card:43f7a7996130979bdb71255136deed18ffb8dfbb58e8ef7adac6fc1081908c93"
+    },
+    {
+      "id": "sandbox-lima-linux-build",
+      "digest": "24860365e66da57490ca59f9ab037d45ec1006f53dcb13d3010e18381f46e772",
+      "type": "patch",
+      "summary": "Build the sandbox's patched Lima for Linux (x86_64 and arm64) and pin it by platform and architecture; macOS keeps the same build.",
+      "sourceSha": "14385106b5a6be6b4a61730f19cc78bdbb8c0a42",
+      "identity": "sandbox-lima-linux-build:24860365e66da57490ca59f9ab037d45ec1006f53dcb13d3010e18381f46e772"
     }
   ],
   "consumedIntentIds": [
