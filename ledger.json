@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "133fdc11b4226516f88e73b2fcc479f7229f6584",
+  "cursorSha": "ea79b457f55c2a98c59fa61db8a1f0ad129e2b8e",
   "highWaterVersion": "1.588.0",
   "rows": [
     {
@@ -184719,6 +184719,13 @@
       "sourceSha": "133fdc11b4226516f88e73b2fcc479f7229f6584",
       "sourcePackageVersion": "1.588.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ea79b457f55c2a98c59fa61db8a1f0ad129e2b8e",
+      "sourcePackageVersion": "1.588.0",
+      "intentIds": [
+        "remote-kickoff-cloud-project-mention:e38a20719f55c5fdd596432885db0cc6ac4cfb6731e4870529fabecf8fd7f314"
+      ]
     }
   ],
   "intents": [
@@ -197065,6 +197072,14 @@
       "summary": "App chat gets the Orchestrator composer's model menu when Model profiles is on: one model chip, the Profiles strip with Save current and Manage, and a Plan column where the chat's target takes a planning model. The chat starts on the planning model and builds on the Orchestrator pick.",
       "sourceSha": "4981a6d95d7e59a617fe2d368cf8554446e0e8ea",
       "identity": "app-chat-model-profiles:0eb3be0568d42ecb05b55adc185bd9a9463459b3ccf615c150aa4e69c7122921"
+    },
+    {
+      "id": "remote-kickoff-cloud-project-mention",
+      "digest": "e38a20719f55c5fdd596432885db0cc6ac4cfb6731e4870529fabecf8fd7f314",
+      "type": "patch",
+      "summary": "Starting an Orchestrator project on another machine with an @mention of one of your cloud projects no longer fails with `must start with \"remote:\"`: the project starts there and records the mention. A machine on an older CodePress now says to update it or remove the @mention.",
+      "sourceSha": "ea79b457f55c2a98c59fa61db8a1f0ad129e2b8e",
+      "identity": "remote-kickoff-cloud-project-mention:e38a20719f55c5fdd596432885db0cc6ac4cfb6731e4870529fabecf8fd7f314"
     }
   ],
   "consumedIntentIds": [
