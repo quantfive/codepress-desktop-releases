@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "dd23b634551721ac91e66f7b302546d8b7b861e9",
+  "cursorSha": "50f6f246abc06a7357f271b0b7c008820e4b8ed5",
   "highWaterVersion": "1.589.2",
   "rows": [
     {
@@ -185093,6 +185093,11 @@
       "intentIds": [
         "orchestrator-slash-skills:80c4c4d707d073b80a24f86ddfe64c14ee681ef73beb7ab95019b226b79e6f76"
       ]
+    },
+    {
+      "sourceSha": "50f6f246abc06a7357f271b0b7c008820e4b8ed5",
+      "sourcePackageVersion": "1.589.1",
+      "intentIds": []
     }
   ],
   "intents": [
