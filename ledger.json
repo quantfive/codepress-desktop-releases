@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e90fd0c4a7965a182f4ef897ad7df90430d54f81",
+  "cursorSha": "af4c9fb0ede8e8450784521f9f13fa107b4bed41",
   "highWaterVersion": "1.581.1",
   "rows": [
     {
@@ -183372,6 +183372,13 @@
       "sourceSha": "e90fd0c4a7965a182f4ef897ad7df90430d54f81",
       "sourcePackageVersion": "1.581.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "af4c9fb0ede8e8450784521f9f13fa107b4bed41",
+      "sourcePackageVersion": "1.581.0",
+      "intentIds": [
+        "model-profiles-settings:a5ad196c9f2120f216bd57092d5307767647a58fd388bd75c7ca492fa49c6e0c"
+      ]
     }
   ],
   "intents": [
@@ -195558,6 +195565,14 @@
       "summary": "Advertise `device_gemini_v1` over the device channel and answer owner-only `device_gemini_status_request` frames with allow-listed Gemini availability and model list fields so web and mobile clients can read a machine's Gemini status.",
       "sourceSha": "46718fb80cec02c12172b4d2c6285336ebcb56e2",
       "identity": "device-gemini-status-relay:63e030dc15d88ad41480ff0b95accd85fc5e0f00bb9721f6fce9ea208cbccb7d"
+    },
+    {
+      "id": "model-profiles-settings",
+      "digest": "a5ad196c9f2120f216bd57092d5307767647a58fd388bd75c7ca492fa49c6e0c",
+      "type": "minor",
+      "summary": "Settings → Orchestrator gains Model profiles (rename, reorder, edit, delete, new from your defaults) and a Planning row in New projects, and Project settings shows the planning model: editable before the build, read-only after. All of it appears only with your Model profiles switch on.",
+      "sourceSha": "af4c9fb0ede8e8450784521f9f13fa107b4bed41",
+      "identity": "model-profiles-settings:a5ad196c9f2120f216bd57092d5307767647a58fd388bd75c7ca492fa49c6e0c"
     }
   ],
   "consumedIntentIds": [
