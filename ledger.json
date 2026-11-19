@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "98a2af2a218f3dc3d12379be11c96cd55b4f4192",
-  "highWaterVersion": "1.584.1",
+  "highWaterVersion": "1.585.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -100717,6 +100717,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:98a2af2a218f3dc3d12379be11c96cd55b4f4192",
+      "kind": "main",
+      "sequence": 2518,
+      "sourceSha": "98a2af2a218f3dc3d12379be11c96cd55b4f4192",
+      "sourcePackageVersion": "1.584.0",
+      "version": "1.585.0",
+      "batch": {
+        "intentIds": [
+          "terminal-automations-say-machine:35b1e74647967b10564fe5793e08035b12e709cd7e8a15e7d12314be9c7d441e",
+          "model-profiles-menu:ba21af0716a712fc83915d5ce721dfcd132633e68f2bb21736775b6a0009c057"
+        ],
+        "notesIntentIds": [
+          "terminal-automations-say-machine:35b1e74647967b10564fe5793e08035b12e709cd7e8a15e7d12314be9c7d441e",
+          "model-profiles-menu:ba21af0716a712fc83915d5ce721dfcd132633e68f2bb21736775b6a0009c057"
+        ],
+        "throughSourceSha": "98a2af2a218f3dc3d12379be11c96cd55b4f4192",
+        "previousThroughSourceSha": "127333ae54f95ccf334d6d587ceffef14d416668",
+        "baselineVersion": "1.584.1",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-19T07:49:26.364Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44482516677",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-20T07:49:17.990Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -197724,7 +197769,9 @@
     "linux-consent-trust-root:444e6e267ed4f67db5b7716bff86ed814d924be5a0fe6727cfdf65297c514613",
     "google-tab-after-codex:af36fe6a60335d512be47b2fc9526e4a424bb9089b0485574b98bcb9da43ae7f",
     "linux-sandbox-lima-qemu:8d5955386f78d0355ad539219633937cdf7abdfc3ac1a4ff80a6e768ebe13a1c",
-    "terminal-ota-runtimes-flag:0eef90c34eaf6bdd49468899de69000016751314c188ec3477d9d1ad595d59ec"
+    "terminal-ota-runtimes-flag:0eef90c34eaf6bdd49468899de69000016751314c188ec3477d9d1ad595d59ec",
+    "terminal-automations-say-machine:35b1e74647967b10564fe5793e08035b12e709cd7e8a15e7d12314be9c7d441e",
+    "model-profiles-menu:ba21af0716a712fc83915d5ce721dfcd132633e68f2bb21736775b6a0009c057"
   ],
-  "consumedThroughSha": "127333ae54f95ccf334d6d587ceffef14d416668"
+  "consumedThroughSha": "98a2af2a218f3dc3d12379be11c96cd55b4f4192"
 }
