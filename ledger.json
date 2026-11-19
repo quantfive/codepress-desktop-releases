@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ce0f27fae03dc5a736ab14cc6c29cff263a1084f",
+  "cursorSha": "2a0cce90f9bbd6066901455d9ca4502e58238e93",
   "highWaterVersion": "1.580.2",
   "rows": [
     {
@@ -183132,6 +183132,13 @@
       "sourceSha": "ce0f27fae03dc5a736ab14cc6c29cff263a1084f",
       "sourcePackageVersion": "1.580.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2a0cce90f9bbd6066901455d9ca4502e58238e93",
+      "sourcePackageVersion": "1.580.1",
+      "intentIds": [
+        "managed-oauth-connect-card:43f7a7996130979bdb71255136deed18ffb8dfbb58e8ef7adac6fc1081908c93"
+      ]
     }
   ],
   "intents": [
@@ -195278,6 +195285,14 @@
       "summary": "Update the bundled and pinned CLIs to their latest releases: Claude Agent SDK 0.3.328 (Claude Code 2.1.328), Muse 1.4.23-R8977.1, Grok 1.0.89, Antigravity agy 1.5.12 and GitHub CLI 2.105.0. An agy of 1.5.8 or newer is no longer called outdated just because Terminal's pin is newer.",
       "sourceSha": "f11cc279768696d46aa65e57092ae089eb883ae4",
       "identity": "runtime-pins-latest:7cc96de2f3d4291827942d2945c3b203d7569c8053d3805d690fcb05b4882752"
+    },
+    {
+      "id": "managed-oauth-connect-card",
+      "digest": "43f7a7996130979bdb71255136deed18ffb8dfbb58e8ef7adac6fc1081908c93",
+      "type": "patch",
+      "summary": "Managed automations whose release declares `oauth_install` show a Connect card on the installation dialog's Setup tab, with Connect, Reconnect and Disconnect and the connection's state.",
+      "sourceSha": "2a0cce90f9bbd6066901455d9ca4502e58238e93",
+      "identity": "managed-oauth-connect-card:43f7a7996130979bdb71255136deed18ffb8dfbb58e8ef7adac6fc1081908c93"
     }
   ],
   "consumedIntentIds": [
