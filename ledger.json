@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "c9f59dd1074137a20298c912932115dd197d6453",
-  "highWaterVersion": "1.579.0",
+  "highWaterVersion": "1.580.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -100156,6 +100156,55 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:c9f59dd1074137a20298c912932115dd197d6453",
+      "kind": "main",
+      "sequence": 2507,
+      "sourceSha": "c9f59dd1074137a20298c912932115dd197d6453",
+      "sourcePackageVersion": "1.578.7",
+      "version": "1.580.0",
+      "batch": {
+        "intentIds": [
+          "automations-settings-groups:2f79b00594189adc76ca7bf4e29f8106c58a079d29e30dcfaa00e2f28bd56dac",
+          "remote-desktop-clipboard-sync:441483e71d22acc3db4730d017955aff52986daf25301cdeef5642f75f372fb7",
+          "planning-building-models:24718905270736bf022afc214ebd97e356d72fde976f30ce9eca8c315fc3bb69",
+          "gemini-4-neon-catalog:ee3808606b721a6bd4a6f2b769c8ac4d3b313505dcdcc68c0fd6c8d72dbe6120"
+        ],
+        "notesIntentIds": [
+          "automations-settings-groups:2f79b00594189adc76ca7bf4e29f8106c58a079d29e30dcfaa00e2f28bd56dac",
+          "remote-desktop-clipboard-sync:441483e71d22acc3db4730d017955aff52986daf25301cdeef5642f75f372fb7",
+          "planning-building-models:24718905270736bf022afc214ebd97e356d72fde976f30ce9eca8c315fc3bb69",
+          "gemini-4-neon-catalog:ee3808606b721a6bd4a6f2b769c8ac4d3b313505dcdcc68c0fd6c8d72dbe6120"
+        ],
+        "throughSourceSha": "c9f59dd1074137a20298c912932115dd197d6453",
+        "previousThroughSourceSha": "e03ed5adc071a70e2b1ce17619c9709ff72dbc9c",
+        "baselineVersion": "1.579.0",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-19T02:33:23.378Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44445084824",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-20T02:33:13.949Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -196552,7 +196601,11 @@
     "remote-desktop-edit-shortcuts:8f2c1a5f6f989bdea5a324dbdc5afb187a9f2e0057392b7a5628dd163a2ecc2e",
     "model-profiles-switch:137411011d80a1704638194fc22368122f6ce6466e3c6d4086e925b5bbb4e35a",
     "google-sign-in-lease-tolerant:65675ff18d5503fd84d0191faf65c1841b721f36f011b9a6afdd9ce0a13cec20",
-    "handoff-always-plain:639f3d11fd572ca6d6d89efd32ba8439e703fcce4691e8cb80297b1386d63069"
+    "handoff-always-plain:639f3d11fd572ca6d6d89efd32ba8439e703fcce4691e8cb80297b1386d63069",
+    "automations-settings-groups:2f79b00594189adc76ca7bf4e29f8106c58a079d29e30dcfaa00e2f28bd56dac",
+    "remote-desktop-clipboard-sync:441483e71d22acc3db4730d017955aff52986daf25301cdeef5642f75f372fb7",
+    "planning-building-models:24718905270736bf022afc214ebd97e356d72fde976f30ce9eca8c315fc3bb69",
+    "gemini-4-neon-catalog:ee3808606b721a6bd4a6f2b769c8ac4d3b313505dcdcc68c0fd6c8d72dbe6120"
   ],
-  "consumedThroughSha": "e03ed5adc071a70e2b1ce17619c9709ff72dbc9c"
+  "consumedThroughSha": "c9f59dd1074137a20298c912932115dd197d6453"
 }
