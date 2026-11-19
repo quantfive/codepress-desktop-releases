@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "98b30eea89dff17c66ff039131bb74568ada0745",
-  "highWaterVersion": "1.589.2",
+  "highWaterVersion": "1.590.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -101346,6 +101346,55 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:98b30eea89dff17c66ff039131bb74568ada0745",
+      "kind": "main",
+      "sequence": 2530,
+      "sourceSha": "98b30eea89dff17c66ff039131bb74568ada0745",
+      "sourcePackageVersion": "1.589.1",
+      "version": "1.590.0",
+      "batch": {
+        "intentIds": [
+          "model-chip-usage-ring:f775cd90936b2b785a4fa9d11cae0eedb11d95f7ca68134707a0a7fa82f7360c",
+          "terminal-env-knobs:9cfc059a98b67cb152584563c2c3b4a531636880c32a85b052f515d683e80c05",
+          "queued-undo-window:f6757ce2733eaf203f87a2fad722338965974c44bbfb71f556c3458d6cc7869e",
+          "orchestrator-slash-skills:80c4c4d707d073b80a24f86ddfe64c14ee681ef73beb7ab95019b226b79e6f76"
+        ],
+        "notesIntentIds": [
+          "model-chip-usage-ring:f775cd90936b2b785a4fa9d11cae0eedb11d95f7ca68134707a0a7fa82f7360c",
+          "terminal-env-knobs:9cfc059a98b67cb152584563c2c3b4a531636880c32a85b052f515d683e80c05",
+          "queued-undo-window:f6757ce2733eaf203f87a2fad722338965974c44bbfb71f556c3458d6cc7869e",
+          "orchestrator-slash-skills:80c4c4d707d073b80a24f86ddfe64c14ee681ef73beb7ab95019b226b79e6f76"
+        ],
+        "throughSourceSha": "98b30eea89dff17c66ff039131bb74568ada0745",
+        "previousThroughSourceSha": "22a517254571b53121a44f1b287cfa80d5da5208",
+        "baselineVersion": "1.589.2",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-19T23:19:59.989Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44636663387",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-20T23:19:51.418Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -199080,7 +199129,11 @@
     "roles-menu-context-row:1f2129dc56005ea438bf5c1424135790f7d893382343db8a0f04f141a541cda5",
     "gemini-device-report-provider:032beba7559b38fed2d8a51fafb2cd8bfb9179ff8ef8eebbb3aba0e0b0b24395",
     "own-feed-row-share:f3817cbb5077f5dde561494ad5f5012bb4fc9d3b2ef3c0ab570169d61176c6df",
-    "kickoff-mentions-too-old:ca463565bb9c1e4df8f3f0dfc4e6ce16f7a1b2df5fbe1e1a1c76d236bfd78bed"
+    "kickoff-mentions-too-old:ca463565bb9c1e4df8f3f0dfc4e6ce16f7a1b2df5fbe1e1a1c76d236bfd78bed",
+    "model-chip-usage-ring:f775cd90936b2b785a4fa9d11cae0eedb11d95f7ca68134707a0a7fa82f7360c",
+    "terminal-env-knobs:9cfc059a98b67cb152584563c2c3b4a531636880c32a85b052f515d683e80c05",
+    "queued-undo-window:f6757ce2733eaf203f87a2fad722338965974c44bbfb71f556c3458d6cc7869e",
+    "orchestrator-slash-skills:80c4c4d707d073b80a24f86ddfe64c14ee681ef73beb7ab95019b226b79e6f76"
   ],
-  "consumedThroughSha": "22a517254571b53121a44f1b287cfa80d5da5208"
+  "consumedThroughSha": "98b30eea89dff17c66ff039131bb74568ada0745"
 }
