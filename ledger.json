@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0ae8b1b754991dc545cd523ae51e3e89802a331f",
+  "cursorSha": "93f73ba409ed763cac684e4843d8ac80a63b1b41",
   "highWaterVersion": "1.580.3",
   "rows": [
     {
@@ -183215,6 +183215,13 @@
       "sourceSha": "0ae8b1b754991dc545cd523ae51e3e89802a331f",
       "sourcePackageVersion": "1.580.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "93f73ba409ed763cac684e4843d8ac80a63b1b41",
+      "sourcePackageVersion": "1.580.2",
+      "intentIds": [
+        "google-sign-in-personal-team:fa97cd5ca81c9b724c2e4de6cdc1a48db593865a7646e80e277b6e45c72f03d3"
+      ]
     }
   ],
   "intents": [
@@ -195377,6 +195384,14 @@
       "summary": "Build the sandbox's patched Lima for Linux (x86_64 and arm64) and pin it by platform and architecture; macOS keeps the same build.",
       "sourceSha": "14385106b5a6be6b4a61730f19cc78bdbb8c0a42",
       "identity": "sandbox-lima-linux-build:24860365e66da57490ca59f9ab037d45ec1006f53dcb13d3010e18381f46e772"
+    },
+    {
+      "id": "google-sign-in-personal-team",
+      "digest": "fa97cd5ca81c9b724c2e4de6cdc1a48db593865a7646e80e277b6e45c72f03d3",
+      "type": "minor",
+      "summary": "Accounts → Google now has Local, Personal and Team groups. Sign in with Google straight to Personal or Team, or upload this machine's own sign-in to Personal. Each machine can choose a Personal or Team Google account for its Gemini workers and local Orchestrators; it runs in a private agy home, so your own agy sign-in is never touched. A deleted or revoked account stops the next launch with a clear message and never falls back to your own sign-in. Not available on Windows yet.",
+      "sourceSha": "93f73ba409ed763cac684e4843d8ac80a63b1b41",
+      "identity": "google-sign-in-personal-team:fa97cd5ca81c9b724c2e4de6cdc1a48db593865a7646e80e277b6e45c72f03d3"
     }
   ],
   "consumedIntentIds": [
