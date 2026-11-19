@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "73eada13751f070bc16729d235ab4568f00d423b",
-  "highWaterVersion": "1.585.1",
+  "highWaterVersion": "1.585.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -100821,6 +100821,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:73eada13751f070bc16729d235ab4568f00d423b",
+      "kind": "main",
+      "sequence": 2520,
+      "sourceSha": "73eada13751f070bc16729d235ab4568f00d423b",
+      "sourcePackageVersion": "1.585.1",
+      "version": "1.585.2",
+      "batch": {
+        "intentIds": [
+          "fix-agy-private-keychain-unlock:1073d3ab9b2d847b60f1ababcada3bd8834dd4672db3b8afa04879ac52e20d05"
+        ],
+        "notesIntentIds": [
+          "fix-agy-private-keychain-unlock:1073d3ab9b2d847b60f1ababcada3bd8834dd4672db3b8afa04879ac52e20d05"
+        ],
+        "throughSourceSha": "73eada13751f070bc16729d235ab4568f00d423b",
+        "previousThroughSourceSha": "d721433eaf7318b98070aaa0affe635d9226c850",
+        "baselineVersion": "1.585.1",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-19T09:00:10.314Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44492324864",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-20T09:00:01.727Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -197896,7 +197939,8 @@
     "terminal-ota-runtimes-flag:0eef90c34eaf6bdd49468899de69000016751314c188ec3477d9d1ad595d59ec",
     "terminal-automations-say-machine:35b1e74647967b10564fe5793e08035b12e709cd7e8a15e7d12314be9c7d441e",
     "model-profiles-menu:ba21af0716a712fc83915d5ce721dfcd132633e68f2bb21736775b6a0009c057",
-    "mcp-share-with-teams:14c83bb07a8b9e35eaa3853cfde215170617af828295f2e8c9ec2640bd19d7d0"
+    "mcp-share-with-teams:14c83bb07a8b9e35eaa3853cfde215170617af828295f2e8c9ec2640bd19d7d0",
+    "fix-agy-private-keychain-unlock:1073d3ab9b2d847b60f1ababcada3bd8834dd4672db3b8afa04879ac52e20d05"
   ],
-  "consumedThroughSha": "d721433eaf7318b98070aaa0affe635d9226c850"
+  "consumedThroughSha": "73eada13751f070bc16729d235ab4568f00d423b"
 }
