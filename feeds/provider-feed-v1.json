@@ -1,0 +1,1028 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-19T07:40:25.000Z",
+  "catalog": [
+    {
+      "id": "claude-opus-5-5",
+      "label": "Opus 5.5",
+      "description": "Most capable",
+      "provider": "anthropic",
+      "agentType": "claude",
+      "family": "opus",
+      "status": "active",
+      "supportedEffortLevels": ["low", "medium", "high", "xhigh", "max"],
+      "supportsFastMode": true,
+      "inputModalities": ["text", "image"],
+      "outputModalities": ["text"],
+      "prices": [
+        {
+          "effectiveFrom": "2026-09-07",
+          "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
+          "inputUsdPerMillion": 4,
+          "cacheReadUsdPerMillion": 0.2,
+          "cacheWriteUsdPerMillion": 5,
+          "cacheWrite1hUsdPerMillion": 8,
+          "outputUsdPerMillion": 20
+        }
+      ]
+    },
+    {
+      "id": "claude-opus-5",
+      "label": "Opus 5",
+      "description": "Deprecated model for existing sessions",
+      "backendDescription": "Deprecated; existing sessions only",
+      "provider": "anthropic",
+      "agentType": "claude",
+      "family": "opus",
+      "status": "retired",
+      "successor": "claude-opus-5-5",
+      "disabledReason": "This model is deprecated; existing sessions can continue using it.",
+      "supportedEffortLevels": ["low", "medium", "high", "xhigh", "max"],
+      "supportsFastMode": true,
+      "inputModalities": ["text", "image"],
+      "outputModalities": ["text"],
+      "prices": [
+        {
+          "effectiveFrom": "2026-09-07",
+          "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
+          "inputUsdPerMillion": 5,
+          "cacheReadUsdPerMillion": 0.5,
+          "cacheWriteUsdPerMillion": 6.25,
+          "cacheWrite1hUsdPerMillion": 10,
+          "outputUsdPerMillion": 25
+        }
+      ]
+    },
+    {
+      "id": "claude-opus-4-8",
+      "label": "Opus 4.8",
+      "description": "Deprecated model for existing sessions",
+      "backendDescription": "Deprecated; existing sessions only",
+      "provider": "anthropic",
+      "agentType": "claude",
+      "family": "opus",
+      "status": "retired",
+      "successor": "claude-opus-5-5",
+      "disabledReason": "This model is deprecated; existing sessions can continue using it.",
+      "supportedEffortLevels": ["low", "medium", "high", "xhigh", "max"],
+      "supportsFastMode": true,
+      "inputModalities": ["text", "image"],
+      "outputModalities": ["text"],
+      "prices": [
+        {
+          "effectiveFrom": "2026-09-07",
+          "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
+          "inputUsdPerMillion": 5,
+          "cacheReadUsdPerMillion": 0.5,
+          "cacheWriteUsdPerMillion": 6.25,
+          "cacheWrite1hUsdPerMillion": 10,
+          "outputUsdPerMillion": 25
+        }
+      ]
+    },
+    {
+      "id": "claude-sonnet-5-5",
+      "label": "Sonnet 5.5",
+      "description": "Latest balanced Claude model",
+      "provider": "anthropic",
+      "agentType": "claude",
+      "family": "sonnet",
+      "status": "active",
+      "supportedEffortLevels": ["low", "medium", "high", "xhigh", "max"],
+      "inputModalities": ["text", "image"],
+      "outputModalities": ["text"],
+      "prices": [
+        {
+          "effectiveFrom": "2026-09-07",
+          "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
+          "inputUsdPerMillion": 2,
+          "cacheReadUsdPerMillion": 0.2,
+          "cacheWriteUsdPerMillion": 2.5,
+          "cacheWrite1hUsdPerMillion": 4,
+          "outputUsdPerMillion": 10
+        },
+        {
+          "effectiveFrom": "2026-10-07",
+          "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
+          "inputUsdPerMillion": 2,
+          "cacheReadUsdPerMillion": 0.1,
+          "cacheWriteUsdPerMillion": 2.5,
+          "cacheWrite1hUsdPerMillion": 4,
+          "outputUsdPerMillion": 10
+        }
+      ]
+    },
+    {
+      "id": "claude-sonnet-5",
+      "label": "Sonnet 5",
+      "description": "Deprecated model for existing sessions",
+      "backendDescription": "Deprecated; existing sessions only",
+      "provider": "anthropic",
+      "agentType": "claude",
+      "family": "sonnet",
+      "status": "retired",
+      "successor": "claude-sonnet-5-5",
+      "disabledReason": "This model is deprecated; existing sessions can continue using it.",
+      "supportedEffortLevels": ["low", "medium", "high", "xhigh", "max"],
+      "inputModalities": ["text", "image"],
+      "outputModalities": ["text"],
+      "prices": [
+        {
+          "effectiveFrom": "2026-09-07",
+          "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
+          "inputUsdPerMillion": 2,
+          "cacheReadUsdPerMillion": 0.2,
+          "cacheWriteUsdPerMillion": 2.5,
+          "cacheWrite1hUsdPerMillion": 4,
+          "outputUsdPerMillion": 10
+        }
+      ]
+    },
+    {
+      "id": "claude-fable-5-2",
+      "label": "Fable 5.2",
+      "description": "Frontier model",
+      "provider": "anthropic",
+      "agentType": "claude",
+      "family": "fable",
+      "status": "active",
+      "supportedEffortLevels": ["low", "medium", "high", "xhigh", "max"],
+      "inputModalities": ["text", "image"],
+      "outputModalities": ["text"],
+      "prices": [
+        {
+          "effectiveFrom": "2026-09-07",
+          "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
+          "inputUsdPerMillion": 8,
+          "cacheReadUsdPerMillion": 0.2,
+          "cacheWriteUsdPerMillion": 10,
+          "cacheWrite1hUsdPerMillion": 16,
+          "outputUsdPerMillion": 40
+        }
+      ]
+    },
+    {
+      "id": "claude-haiku-5-5",
+      "label": "Haiku 5.5",
+      "description": "Fastest Claude model",
+      "provider": "anthropic",
+      "agentType": "claude",
+      "family": "haiku",
+      "status": "active",
+      "supportedEffortLevels": ["low", "medium", "high", "xhigh", "max"],
+      "inputModalities": ["text", "image"],
+      "outputModalities": ["text"],
+      "prices": [
+        {
+          "effectiveFrom": "2026-10-07",
+          "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
+          "inputUsdPerMillion": 0.1,
+          "cacheReadUsdPerMillion": 0.01,
+          "cacheWriteUsdPerMillion": 0.125,
+          "cacheWrite1hUsdPerMillion": 0.2,
+          "outputUsdPerMillion": 0.5,
+          "longContext": {
+            "thresholdTokens": 100000,
+            "inputUsdPerMillion": 0.5,
+            "cacheReadUsdPerMillion": 0.05,
+            "cacheWriteUsdPerMillion": 0.625,
+            "cacheWrite1hUsdPerMillion": 1,
+            "outputUsdPerMillion": 2.5
+          }
+        }
+      ]
+    },
+    {
+      "id": "claude-haiku-4-5",
+      "label": "Haiku 4.5",
+      "description": "Deprecated model for existing sessions",
+      "backendDescription": "Deprecated; existing sessions only",
+      "provider": "anthropic",
+      "agentType": "claude",
+      "family": "haiku",
+      "status": "retired",
+      "successor": "claude-haiku-5-5",
+      "disabledReason": "This model is deprecated; existing sessions can continue using it.",
+      "supportedEffortLevels": ["low", "medium", "high"],
+      "inputModalities": ["text", "image"],
+      "outputModalities": ["text"],
+      "prices": [
+        {
+          "effectiveFrom": "2026-09-07",
+          "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
+          "inputUsdPerMillion": 1,
+          "cacheReadUsdPerMillion": 0.1,
+          "cacheWriteUsdPerMillion": 1.25,
+          "cacheWrite1hUsdPerMillion": 2,
+          "outputUsdPerMillion": 5
+        }
+      ]
+    },
+    {
+      "id": "gpt-6.2-astra",
+      "label": "GPT-6.2 Astra",
+      "description": "For your hardest projects.",
+      "backendDescription": "For your hardest projects",
+      "provider": "openai",
+      "agentType": "codex",
+      "family": "gpt",
+      "status": "active",
+      "supportedEffortLevels": ["low", "medium", "high", "xhigh", "max"],
+      "supportsFastMode": true,
+      "inputModalities": ["text", "image"],
+      "outputModalities": ["text"],
+      "contextWindowTokens": 272000,
+      "prices": [
+        {
+          "effectiveFrom": "2026-11-17",
+          "sourceUrl": "https://developers.openai.com/api/docs/models/gpt-6.2-astra",
+          "inputUsdPerMillion": 8,
+          "cacheReadUsdPerMillion": 0.4,
+          "cacheWriteUsdPerMillion": 10,
+          "cacheWrite12hUsdPerMillion": 20,
+          "outputUsdPerMillion": 40,
+          "longContext": {
+            "thresholdTokens": 272000,
+            "inputUsdPerMillion": 16,
+            "cacheReadUsdPerMillion": 0.8,
+            "cacheWriteUsdPerMillion": 20,
+            "cacheWrite12hUsdPerMillion": 40,
+            "outputUsdPerMillion": 60
+          }
+        }
+      ]
+    },
+    {
+      "id": "gpt-6.2-sol",
+      "label": "GPT-6.2 Sol",
+      "description": "Default for Codex.",
+      "backendDescription": "Default for Codex",
+      "provider": "openai",
+      "agentType": "codex",
+      "family": "gpt",
+      "status": "active",
+      "supportedEffortLevels": ["low", "medium", "high", "xhigh", "max"],
+      "supportsFastMode": true,
+      "inputModalities": ["text", "image"],
+      "outputModalities": ["text"],
+      "contextWindowTokens": 500000,
+      "prices": [
+        {
+          "effectiveFrom": "2026-11-17",
+          "sourceUrl": "https://developers.openai.com/api/docs/models/gpt-6.2-sol",
+          "inputUsdPerMillion": 2,
+          "cacheReadUsdPerMillion": 0.1,
+          "cacheWriteUsdPerMillion": 2.5,
+          "cacheWrite12hUsdPerMillion": 5,
+          "outputUsdPerMillion": 10,
+          "longContext": {
+            "thresholdTokens": 272000,
+            "inputUsdPerMillion": 4,
+            "cacheReadUsdPerMillion": 0.2,
+            "cacheWriteUsdPerMillion": 5,
+            "cacheWrite12hUsdPerMillion": 10,
+            "outputUsdPerMillion": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "gpt-6-astra",
+      "label": "GPT-6 Astra",
+      "description": "Deprecated model for existing sessions",
+      "backendDescription": "Most capable model for complex end-to-end work",
+      "provider": "openai",
+      "agentType": "codex",
+      "family": "gpt",
+      "status": "retired",
+      "successor": "gpt-6.2-astra",
+      "disabledReason": "This model is deprecated; existing sessions can continue using it.",
+      "supportedEffortLevels": ["low", "medium", "high", "xhigh", "max"],
+      "supportsFastMode": true,
+      "inputModalities": ["text", "image"],
+      "outputModalities": ["text"],
+      "contextWindowTokens": 272000,
+      "prices": [
+        {
+          "effectiveFrom": "2026-09-07",
+          "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+          "inputUsdPerMillion": 10,
+          "cacheReadUsdPerMillion": 1,
+          "cacheWriteUsdPerMillion": 12.5,
+          "outputUsdPerMillion": 50,
+          "longContext": {
+            "thresholdTokens": 272000,
+            "inputUsdPerMillion": 20,
+            "cacheReadUsdPerMillion": 2,
+            "cacheWriteUsdPerMillion": 25,
+            "outputUsdPerMillion": 75
+          }
+        }
+      ]
+    },
+    {
+      "id": "gpt-6.1-sol",
+      "label": "GPT-6.1 Sol",
+      "description": "Deprecated model for existing sessions",
+      "backendDescription": "Frontier professional work",
+      "provider": "openai",
+      "agentType": "codex",
+      "family": "gpt",
+      "status": "retired",
+      "successor": "gpt-6.2-sol",
+      "disabledReason": "This model is deprecated; existing sessions can continue using it.",
+      "supportedEffortLevels": ["low", "medium", "high", "xhigh", "max"],
+      "supportsFastMode": true,
+      "inputModalities": ["text", "image"],
+      "outputModalities": ["text"],
+      "contextWindowTokens": 272000,
+      "prices": [
+        {
+          "effectiveFrom": "2026-09-29",
+          "sourceUrl": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+          "inputUsdPerMillion": 2,
+          "cacheReadUsdPerMillion": 0.1,
+          "cacheWriteUsdPerMillion": 2.5,
+          "outputUsdPerMillion": 10,
+          "longContext": {
+            "thresholdTokens": 272000,
+            "inputUsdPerMillion": 4,
+            "cacheReadUsdPerMillion": 0.2,
+            "cacheWriteUsdPerMillion": 5,
+            "outputUsdPerMillion": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "gpt-6-sol",
+      "label": "GPT-6 Sol",
+      "description": "Deprecated model for existing sessions",
+      "backendDescription": "Frontier professional work",
+      "provider": "openai",
+      "agentType": "codex",
+      "family": "gpt",
+      "status": "retired",
+      "successor": "gpt-6.2-sol",
+      "disabledReason": "This model is deprecated; existing sessions can continue using it.",
+      "supportedEffortLevels": ["low", "medium", "high", "xhigh", "max"],
+      "supportsFastMode": true,
+      "inputModalities": ["text", "image"],
+      "outputModalities": ["text"],
+      "contextWindowTokens": 272000,
+      "prices": [
+        {
+          "effectiveFrom": "2026-09-22",
+          "sourceUrl": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+          "inputUsdPerMillion": 2,
+          "cacheReadUsdPerMillion": 0.2,
+          "cacheWriteUsdPerMillion": 2.5,
+          "outputUsdPerMillion": 10,
+          "longContext": {
+            "thresholdTokens": 272000,
+            "inputUsdPerMillion": 4,
+            "cacheReadUsdPerMillion": 0.4,
+            "cacheWriteUsdPerMillion": 5,
+            "outputUsdPerMillion": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "gpt-6.1-terra",
+      "label": "GPT-6.1 Terra",
+      "description": "Fast visual reasoning and computer use.",
+      "backendDescription": "Fast visual reasoning and computer use",
+      "provider": "openai",
+      "agentType": "codex",
+      "family": "gpt",
+      "status": "active",
+      "supportedEffortLevels": ["low", "medium", "high", "xhigh", "max"],
+      "supportsFastMode": true,
+      "inputModalities": ["text", "image"],
+      "outputModalities": ["text"],
+      "contextWindowTokens": 500000,
+      "prices": [
+        {
+          "effectiveFrom": "2026-10-26",
+          "sourceUrl": "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
+          "inputUsdPerMillion": 1,
+          "cacheReadUsdPerMillion": 0.05,
+          "cacheWriteUsdPerMillion": 1.25,
+          "cacheWrite12hUsdPerMillion": 2.5,
+          "outputUsdPerMillion": 5,
+          "longContext": {
+            "thresholdTokens": 272000,
+            "inputUsdPerMillion": 2,
+            "cacheReadUsdPerMillion": 0.1,
+            "cacheWriteUsdPerMillion": 2.5,
+            "cacheWrite12hUsdPerMillion": 5,
+            "outputUsdPerMillion": 7.5
+          }
+        }
+      ]
+    },
+    {
+      "id": "gpt-6-luna",
+      "label": "GPT-6 Luna",
+      "description": "Fast model for high-volume work.",
+      "backendDescription": "Fast model for high-volume work",
+      "provider": "openai",
+      "agentType": "codex",
+      "family": "gpt",
+      "status": "active",
+      "supportedEffortLevels": ["low", "medium", "high", "xhigh", "max"],
+      "supportsFastMode": true,
+      "inputModalities": ["text", "image"],
+      "outputModalities": ["text"],
+      "contextWindowTokens": 272000,
+      "prices": [
+        {
+          "effectiveFrom": "2026-09-22",
+          "sourceUrl": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+          "inputUsdPerMillion": 0.1,
+          "cacheReadUsdPerMillion": 0.010000000000000002,
+          "cacheWriteUsdPerMillion": 0.125,
+          "outputUsdPerMillion": 0.5,
+          "longContext": {
+            "thresholdTokens": 272000,
+            "inputUsdPerMillion": 0.2,
+            "cacheReadUsdPerMillion": 0.020000000000000004,
+            "cacheWriteUsdPerMillion": 0.25,
+            "outputUsdPerMillion": 0.75
+          }
+        }
+      ]
+    },
+    {
+      "id": "gpt-5.6-sol",
+      "label": "GPT-5.6 Sol",
+      "description": "Deprecated model for existing sessions",
+      "backendDescription": "Frontier professional work",
+      "provider": "openai",
+      "agentType": "codex",
+      "family": "gpt",
+      "status": "retired",
+      "successor": "gpt-6.2-sol",
+      "disabledReason": "This model is deprecated; existing sessions can continue using it.",
+      "supportedEffortLevels": ["low", "medium", "high", "xhigh", "max"],
+      "supportsFastMode": true,
+      "inputModalities": ["text", "image"],
+      "outputModalities": ["text"],
+      "contextWindowTokens": 272000,
+      "prices": [
+        {
+          "effectiveFrom": "2026-09-07",
+          "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+          "inputUsdPerMillion": 4,
+          "cacheReadUsdPerMillion": 0.4,
+          "cacheWriteUsdPerMillion": 5,
+          "outputUsdPerMillion": 20,
+          "longContext": {
+            "thresholdTokens": 272000,
+            "inputUsdPerMillion": 8,
+            "cacheReadUsdPerMillion": 0.8,
+            "cacheWriteUsdPerMillion": 10,
+            "outputUsdPerMillion": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "gpt-5.6-luna",
+      "label": "GPT-5.6 Luna",
+      "description": "Deprecated model for existing sessions",
+      "backendDescription": "Deprecated; existing sessions only",
+      "provider": "openai",
+      "agentType": "codex",
+      "family": "gpt",
+      "status": "retired",
+      "successor": "gpt-6-luna",
+      "disabledReason": "This model is deprecated; existing sessions can continue using it.",
+      "supportedEffortLevels": ["low", "medium", "high", "xhigh", "max"],
+      "inputModalities": ["text", "image"],
+      "outputModalities": ["text"],
+      "contextWindowTokens": 272000,
+      "prices": [
+        {
+          "effectiveFrom": "2026-09-07",
+          "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+          "inputUsdPerMillion": 0.2,
+          "cacheReadUsdPerMillion": 0.020000000000000004,
+          "cacheWriteUsdPerMillion": 0.25,
+          "outputUsdPerMillion": 1.2,
+          "longContext": {
+            "thresholdTokens": 272000,
+            "inputUsdPerMillion": 0.4,
+            "cacheReadUsdPerMillion": 0.04000000000000001,
+            "cacheWriteUsdPerMillion": 0.5,
+            "outputUsdPerMillion": 1.7999999999999998
+          }
+        }
+      ]
+    },
+    {
+      "id": "gpt-5.6-terra",
+      "label": "GPT-5.6 Terra",
+      "description": "Deprecated model for existing sessions",
+      "backendDescription": "Deprecated; existing sessions only",
+      "provider": "openai",
+      "agentType": "codex",
+      "family": "gpt",
+      "status": "retired",
+      "successor": "gpt-6.1-terra",
+      "disabledReason": "This model is deprecated; existing sessions can continue using it.",
+      "supportedEffortLevels": ["low", "medium", "high", "xhigh", "max"],
+      "inputModalities": ["text", "image"],
+      "outputModalities": ["text"],
+      "contextWindowTokens": 272000,
+      "prices": [
+        {
+          "effectiveFrom": "2026-09-07",
+          "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+          "inputUsdPerMillion": 2,
+          "cacheReadUsdPerMillion": 0.2,
+          "cacheWriteUsdPerMillion": 2.5,
+          "outputUsdPerMillion": 12,
+          "longContext": {
+            "thresholdTokens": 272000,
+            "inputUsdPerMillion": 4,
+            "cacheReadUsdPerMillion": 0.4,
+            "cacheWriteUsdPerMillion": 5,
+            "outputUsdPerMillion": 18
+          }
+        }
+      ]
+    },
+    {
+      "id": "gpt-5.5",
+      "label": "GPT-5.5",
+      "description": "Deprecated model for existing sessions",
+      "backendDescription": "Frontier coding",
+      "provider": "openai",
+      "agentType": "codex",
+      "family": "gpt",
+      "status": "retired",
+      "successor": "gpt-6.2-sol",
+      "disabledReason": "This model is deprecated; existing sessions can continue using it.",
+      "supportedEffortLevels": ["low", "medium", "high", "xhigh"],
+      "supportsFastMode": true,
+      "inputModalities": ["text", "image"],
+      "outputModalities": ["text"],
+      "contextWindowTokens": 272000,
+      "prices": [
+        {
+          "effectiveFrom": "2026-09-07",
+          "sourceUrl": "https://developers.openai.com/api/docs/models/gpt-5.5",
+          "inputUsdPerMillion": 5,
+          "cacheReadUsdPerMillion": 0.5,
+          "cacheWriteUsdPerMillion": 5,
+          "outputUsdPerMillion": 30,
+          "longContext": {
+            "thresholdTokens": 272000,
+            "inputUsdPerMillion": 10,
+            "cacheReadUsdPerMillion": 1,
+            "cacheWriteUsdPerMillion": 10,
+            "outputUsdPerMillion": 45
+          }
+        }
+      ]
+    },
+    {
+      "id": "gpt-5.4",
+      "label": "GPT-5.4",
+      "description": "Deprecated model for existing sessions",
+      "backendDescription": "Deprecated; existing sessions only",
+      "provider": "openai",
+      "agentType": "codex",
+      "family": "gpt",
+      "status": "retired",
+      "successor": "gpt-6-luna",
+      "disabledReason": "This model is deprecated; existing sessions can continue using it.",
+      "supportedEffortLevels": ["low", "medium", "high", "xhigh"],
+      "inputModalities": ["text", "image"],
+      "outputModalities": ["text"],
+      "contextWindowTokens": 272000,
+      "prices": [
+        {
+          "effectiveFrom": "2026-09-07",
+          "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+          "inputUsdPerMillion": 2.5,
+          "cacheReadUsdPerMillion": 0.25,
+          "cacheWriteUsdPerMillion": 2.5,
+          "outputUsdPerMillion": 15,
+          "longContext": {
+            "thresholdTokens": 272000,
+            "inputUsdPerMillion": 5,
+            "cacheReadUsdPerMillion": 0.5,
+            "cacheWriteUsdPerMillion": 5,
+            "outputUsdPerMillion": 22.5
+          }
+        }
+      ],
+      "pricesOmitFrom": ["terminal"]
+    },
+    {
+      "id": "gpt-5.4-mini",
+      "label": "GPT-5.4 Mini",
+      "description": "Deprecated model for existing sessions",
+      "backendDescription": "Deprecated; existing sessions only",
+      "provider": "openai",
+      "agentType": "codex",
+      "family": "gpt",
+      "status": "retired",
+      "successor": "gpt-6-luna",
+      "disabledReason": "This model is deprecated; existing sessions can continue using it.",
+      "supportedEffortLevels": ["low", "medium", "high", "xhigh"],
+      "inputModalities": ["text", "image"],
+      "outputModalities": ["text"],
+      "contextWindowTokens": 272000,
+      "prices": [
+        {
+          "effectiveFrom": "2026-09-07",
+          "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+          "inputUsdPerMillion": 0.75,
+          "cacheReadUsdPerMillion": 0.075,
+          "cacheWriteUsdPerMillion": 0.75,
+          "outputUsdPerMillion": 4.5
+        }
+      ],
+      "pricesOmitFrom": ["terminal"]
+    },
+    {
+      "id": "gpt-5.3-codex-spark",
+      "label": "GPT-5.3 Codex Spark",
+      "description": "Deprecated model for existing sessions",
+      "backendDescription": "Deprecated; existing sessions only",
+      "provider": "openai",
+      "agentType": "codex",
+      "family": "gpt",
+      "status": "retired",
+      "successor": "gpt-6-luna",
+      "disabledReason": "This model is deprecated; existing sessions can continue using it.",
+      "supportedEffortLevels": ["low", "medium", "high", "xhigh"],
+      "inputModalities": ["text", "image"],
+      "outputModalities": ["text"]
+    },
+    {
+      "id": "claude-fable-5-1",
+      "label": "Fable 5.1",
+      "description": "Retired model for existing sessions",
+      "provider": "anthropic",
+      "agentType": "claude",
+      "family": "fable",
+      "status": "retired",
+      "successor": "claude-fable-5-2",
+      "disabledReason": "This model is retired; existing sessions can continue using it.",
+      "omitFrom": ["backendChoices"],
+      "supportedEffortLevels": ["low", "medium", "high", "xhigh", "max"],
+      "inputModalities": ["text", "image"],
+      "outputModalities": ["text"],
+      "prices": [
+        {
+          "effectiveFrom": "2026-09-07",
+          "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
+          "inputUsdPerMillion": 10,
+          "cacheReadUsdPerMillion": 0.25,
+          "cacheWriteUsdPerMillion": 12.5,
+          "cacheWrite1hUsdPerMillion": 20,
+          "outputUsdPerMillion": 50
+        }
+      ]
+    },
+    {
+      "id": "claude-fable-5",
+      "label": "Fable 5",
+      "description": "Retired model for existing sessions",
+      "provider": "anthropic",
+      "agentType": "claude",
+      "family": "fable",
+      "status": "retired",
+      "successor": "claude-fable-5-2",
+      "disabledReason": "This model is retired; existing sessions can continue using it.",
+      "omitFrom": ["backendChoices"],
+      "supportedEffortLevels": ["low", "medium", "high", "xhigh", "max"],
+      "inputModalities": ["text", "image"],
+      "outputModalities": ["text"],
+      "prices": [
+        {
+          "effectiveFrom": "2026-09-07",
+          "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
+          "inputUsdPerMillion": 10,
+          "cacheReadUsdPerMillion": 1,
+          "cacheWriteUsdPerMillion": 12.5,
+          "cacheWrite1hUsdPerMillion": 20,
+          "outputUsdPerMillion": 50
+        }
+      ]
+    },
+    {
+      "id": "claude-opus-4-7",
+      "label": "Opus 4.7",
+      "provider": "anthropic",
+      "agentType": "claude",
+      "family": "opus",
+      "status": "retired",
+      "successor": "claude-opus-5",
+      "historyOnly": true,
+      "omitFrom": ["ui", "backendChoices"],
+      "supportedEffortLevels": ["low", "medium", "high", "xhigh", "max"],
+      "prices": [
+        {
+          "effectiveFrom": "2026-09-07",
+          "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
+          "inputUsdPerMillion": 5,
+          "cacheReadUsdPerMillion": 0.5,
+          "cacheWriteUsdPerMillion": 6.25,
+          "cacheWrite1hUsdPerMillion": 10,
+          "outputUsdPerMillion": 25
+        }
+      ]
+    },
+    {
+      "id": "claude-opus-4-6",
+      "label": "Opus 4.6",
+      "provider": "anthropic",
+      "agentType": "claude",
+      "family": "opus",
+      "status": "retired",
+      "successor": "claude-opus-5",
+      "historyOnly": true,
+      "omitFrom": ["ui", "backendChoices"],
+      "supportedEffortLevels": ["low", "medium", "high", "max"],
+      "prices": [
+        {
+          "effectiveFrom": "2026-09-07",
+          "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
+          "inputUsdPerMillion": 5,
+          "cacheReadUsdPerMillion": 0.5,
+          "cacheWriteUsdPerMillion": 6.25,
+          "cacheWrite1hUsdPerMillion": 10,
+          "outputUsdPerMillion": 25
+        }
+      ]
+    },
+    {
+      "id": "claude-sonnet-4-6",
+      "label": "Sonnet 4.6",
+      "provider": "anthropic",
+      "agentType": "claude",
+      "family": "sonnet",
+      "status": "retired",
+      "successor": "claude-sonnet-5",
+      "historyOnly": true,
+      "omitFrom": ["ui", "backendChoices"],
+      "supportedEffortLevels": ["low", "medium", "high", "max"],
+      "prices": [
+        {
+          "effectiveFrom": "2026-09-07",
+          "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
+          "inputUsdPerMillion": 3,
+          "cacheReadUsdPerMillion": 0.3,
+          "cacheWriteUsdPerMillion": 3.75,
+          "cacheWrite1hUsdPerMillion": 6,
+          "outputUsdPerMillion": 15
+        }
+      ]
+    }
+  ],
+  "roles": {
+    "chat-default": {
+      "model": "claude-sonnet-5-5",
+      "description": "Default Anthropic chat model for new web, Slack and WhatsApp chats (DEFAULT_CHAT_MODEL_ID, DEFAULT_CHAT_MODEL_CLAUDE)."
+    },
+    "orchestrator-default": {
+      "model": "claude-opus-5-5",
+      "description": "Default Orchestrator PM model and backend Claude agent default (DEFAULT_ORCHESTRATOR_MODEL_ID, DEFAULT_AGENT_MODEL_CLAUDE)."
+    },
+    "codex-frontier": {
+      "model": "gpt-6.2-sol",
+      "description": "Codex default and frontier Codex builtin agents (DEFAULT_CODEX_MODEL_ID, DEFAULT_AGENT_MODEL_OPENAI, the staging default, Terminal's local implementor default).",
+      "codexAgents": ["db-performance-verifier", "falsifier", "falsifier-next"]
+    },
+    "codex-subagent": {
+      "model": "gpt-6-luna",
+      "description": "Codex model for the everyday builtin agents.",
+      "codexAgents": [
+        "code-architect",
+        "code-explorer",
+        "code-reviewer",
+        "gather",
+        "image-optimizer",
+        "notifier",
+        "qa-verifier",
+        "qa-verifier-next",
+        "video-optimizer"
+      ]
+    },
+    "claude-subagent": {
+      "model": "claude-sonnet-5-5",
+      "description": "Claude model for the everyday builtin agents, written as its family alias.",
+      "claudeAgents": [
+        "code-architect",
+        "code-explorer",
+        "code-reviewer",
+        "falsifier",
+        "falsifier-next",
+        "gather",
+        "image-optimizer",
+        "qa-verifier",
+        "qa-verifier-next",
+        "video-optimizer"
+      ]
+    },
+    "claude-subagent-deep": {
+      "model": "claude-opus-5-5",
+      "description": "Claude model for builtin agents that need the most capable tier, written as its family alias.",
+      "claudeAgents": ["db-performance-verifier"]
+    },
+    "claude-subagent-light": {
+      "model": "claude-haiku-5-5",
+      "description": "Claude model for lightweight builtin agents, written as its family alias.",
+      "claudeAgents": ["notifier"]
+    },
+    "backend-utility": {
+      "model": "claude-haiku-5-5",
+      "description": "Backend's default Anthropic model for small utility LLM calls (DEFAULT_LLM_MODEL_ANTHROPIC)."
+    },
+    "managed-automation": {
+      "model": "gpt-6-luna",
+      "description": "Codex model pinned by CodePress-managed automations that run on Codex (Post-Merge Production QA, Sentry PR Resolver; DEFAULT_MANAGED_AUTOMATION_MODEL). It seeds agent_model when an organization installs one; existing installations keep their stored model, and agent_model is not in the serialized release manifest, so moving it needs no version or digest change."
+    }
+  },
+  "runtimes": {
+    "claude": {
+      "sdk": {
+        "name": "@anthropic-ai/claude-agent-sdk",
+        "version": "0.3.328",
+        "tarball": "https://registry.npmjs.org/@anthropic-ai/claude-agent-sdk/-/claude-agent-sdk-0.3.328.tgz",
+        "integrity": "sha512-YcOWlpXVm7etPjPVrvSJEfynDksMiG11zvEybSBnk1EVWji6rSjU75HbbhJ8XPEB2ECEwRRP597Udu6IWMtsDw==",
+        "platforms": {
+          "darwin-arm64": {
+            "name": "@anthropic-ai/claude-agent-sdk-darwin-arm64",
+            "version": "0.3.328",
+            "tarball": "https://registry.npmjs.org/@anthropic-ai/claude-agent-sdk-darwin-arm64/-/claude-agent-sdk-darwin-arm64-0.3.328.tgz",
+            "integrity": "sha512-vjBASSSZFNs5M84XONCM4xAJMKPD0E9RtF0UDQ/a1Qqt5L+slNxhSADkH5n0tEM5HJMK7j9DCPi+0FVOBpZr3w=="
+          },
+          "darwin-x64": {
+            "name": "@anthropic-ai/claude-agent-sdk-darwin-x64",
+            "version": "0.3.328",
+            "tarball": "https://registry.npmjs.org/@anthropic-ai/claude-agent-sdk-darwin-x64/-/claude-agent-sdk-darwin-x64-0.3.328.tgz",
+            "integrity": "sha512-pkZuDNi16H4yJFo6cS2sw8mFj7m7ESAxV74t2gQ9EFzZOpXbQoJqhPBHNEZJ2q/+kr/3vHUtRc2W6jURA6nS+A=="
+          },
+          "linux-arm64": {
+            "name": "@anthropic-ai/claude-agent-sdk-linux-arm64",
+            "version": "0.3.328",
+            "tarball": "https://registry.npmjs.org/@anthropic-ai/claude-agent-sdk-linux-arm64/-/claude-agent-sdk-linux-arm64-0.3.328.tgz",
+            "integrity": "sha512-VvsUzOEf7r3ZtOPfliNGxqknsIvxEmnUOtQnq4+uw7MsfiALKR4s0bx2SP32UuXpqbmqxR1gn456D27XgsAmnA=="
+          },
+          "linux-arm64-musl": {
+            "name": "@anthropic-ai/claude-agent-sdk-linux-arm64-musl",
+            "version": "0.3.328",
+            "tarball": "https://registry.npmjs.org/@anthropic-ai/claude-agent-sdk-linux-arm64-musl/-/claude-agent-sdk-linux-arm64-musl-0.3.328.tgz",
+            "integrity": "sha512-4Vui26/OZwr8AU7FpAt+R5s/1AKmj5qDorUZIqF1MMfdjAQf8/ut/+HyEkuMom/MVF2JeQLdvnFFFmbfgmAq/g=="
+          },
+          "linux-x64": {
+            "name": "@anthropic-ai/claude-agent-sdk-linux-x64",
+            "version": "0.3.328",
+            "tarball": "https://registry.npmjs.org/@anthropic-ai/claude-agent-sdk-linux-x64/-/claude-agent-sdk-linux-x64-0.3.328.tgz",
+            "integrity": "sha512-saP4fWgVZj1n7MYCqvTKADHXIc/hIAMRDpLVpXD5xB0IT68vhWgIMkzIrsg5P02P6zA49TDuoijbP1YBUEXT4A=="
+          },
+          "linux-x64-musl": {
+            "name": "@anthropic-ai/claude-agent-sdk-linux-x64-musl",
+            "version": "0.3.328",
+            "tarball": "https://registry.npmjs.org/@anthropic-ai/claude-agent-sdk-linux-x64-musl/-/claude-agent-sdk-linux-x64-musl-0.3.328.tgz",
+            "integrity": "sha512-oJowzzjhWGbdBGyRjqV9CT0nfh4A4/fEI11LjX6b1SkhrNNgy9QT2HzSe8A2yNlliOWo1xJl6nAHT8pLwMNlVg=="
+          },
+          "win32-arm64": {
+            "name": "@anthropic-ai/claude-agent-sdk-win32-arm64",
+            "version": "0.3.328",
+            "tarball": "https://registry.npmjs.org/@anthropic-ai/claude-agent-sdk-win32-arm64/-/claude-agent-sdk-win32-arm64-0.3.328.tgz",
+            "integrity": "sha512-FkqzA++c+giPH2k8svb0egWDiGDkvSLQJTp5bq7QFXOxPEael4ct1yjKit/Yu6Sd48uLEgNT1waBYbyApPzhOw=="
+          },
+          "win32-x64": {
+            "name": "@anthropic-ai/claude-agent-sdk-win32-x64",
+            "version": "0.3.328",
+            "tarball": "https://registry.npmjs.org/@anthropic-ai/claude-agent-sdk-win32-x64/-/claude-agent-sdk-win32-x64-0.3.328.tgz",
+            "integrity": "sha512-9Wd0XrZ0QWkgtcKxObcYDvUpQjUzN3Uq4Chbvu1SOWOoKPfQdD40dwRQMCeKx2KGxAfMrggJ7I3JYnvRWAFYjg=="
+          }
+        }
+      },
+      "peers": {
+        "@anthropic-ai/sdk": ">=0.93.0",
+        "@modelcontextprotocol/sdk": "^1.29.0",
+        "zod": "^4.0.0"
+      },
+      "cli": {
+        "version": "2.1.328"
+      },
+      "compatibleTerminalVersions": ["1.582.0"]
+    },
+    "codex": {
+      "sdk": {
+        "name": "@openai/codex-sdk",
+        "version": "0.170.0",
+        "tarball": "https://registry.npmjs.org/@openai/codex-sdk/-/codex-sdk-0.170.0.tgz",
+        "integrity": "sha512-YwgiT3WqgSSpetiWr3g8/TvyJf5pu02xoN+mFGl+XULoDGFl0rK0ugr9K3UjyvCOYdFjI3+dieLah7HtsbPn3w=="
+      },
+      "peers": {},
+      "cli": {
+        "version": "0.170.0",
+        "package": {
+          "name": "@openai/codex",
+          "version": "0.170.0",
+          "tarball": "https://registry.npmjs.org/@openai/codex/-/codex-0.170.0.tgz",
+          "integrity": "sha512-dwoughgqjiik++CFaNkjQ5y6pJO6LUzu5P1z8Hy4LUeJ+aIYcX/QO1P5rOQnHmBG4agOM7Y+hc4LtVo/a4GFiw==",
+          "platforms": {
+            "darwin-arm64": {
+              "name": "@openai/codex",
+              "version": "0.170.0-darwin-arm64",
+              "tarball": "https://registry.npmjs.org/@openai/codex/-/codex-0.170.0-darwin-arm64.tgz",
+              "integrity": "sha512-sQyOGJabAUTEWCKe1O6GNsE7NKnHCHSjzLrazfYUgw8OFsFDeAQGVEwzvpXTK1yW1hJiLLAMRzC/W2Vu7m9DwQ=="
+            },
+            "darwin-x64": {
+              "name": "@openai/codex",
+              "version": "0.170.0-darwin-x64",
+              "tarball": "https://registry.npmjs.org/@openai/codex/-/codex-0.170.0-darwin-x64.tgz",
+              "integrity": "sha512-lniwntVB9YaCQNNaTgpLxVvABkrnZDCO/UZf3z7POwH71ikkVNi7NxBrfl6aSIS9b3UBJKxjPlAm3qeIxINJVg=="
+            },
+            "linux-arm64": {
+              "name": "@openai/codex",
+              "version": "0.170.0-linux-arm64",
+              "tarball": "https://registry.npmjs.org/@openai/codex/-/codex-0.170.0-linux-arm64.tgz",
+              "integrity": "sha512-mJLm5eia/GcukCrRfVEnYVD5dOXGE7cmpd9dJ/ixkSiKifzDAPaGq83ZEmwVhk3PxbdTPUSLRpnXZQKbNS5HoA=="
+            },
+            "linux-x64": {
+              "name": "@openai/codex",
+              "version": "0.170.0-linux-x64",
+              "tarball": "https://registry.npmjs.org/@openai/codex/-/codex-0.170.0-linux-x64.tgz",
+              "integrity": "sha512-6cCZJaZL17tiTAvhd1Pirt8vsV1dP8CfG94+IHygUO4m24oYLQrIInJJLyKzcMv/uUonbu1dF2JmcXhA/s5bsg=="
+            },
+            "win32-arm64": {
+              "name": "@openai/codex",
+              "version": "0.170.0-win32-arm64",
+              "tarball": "https://registry.npmjs.org/@openai/codex/-/codex-0.170.0-win32-arm64.tgz",
+              "integrity": "sha512-VSfDt/Y/RYqeT+9gCwmIO1kEj7bF7RYQdhanhMWQqWpZBdPLrF19z2z8JbL+Gt/amE7A1d/Rt2g/p44DLrDhFg=="
+            },
+            "win32-x64": {
+              "name": "@openai/codex",
+              "version": "0.170.0-win32-x64",
+              "tarball": "https://registry.npmjs.org/@openai/codex/-/codex-0.170.0-win32-x64.tgz",
+              "integrity": "sha512-eNlCGvSTKMegqo1R0PPfAf0jOQp8OGfWH8WX2UyTtRN6E/YOecJnz4n1X9lIb02O8Zda/Lv6/WST7+8mufTVSw=="
+            }
+          }
+        }
+      },
+      "compatibleTerminalVersions": ["1.582.0"]
+    },
+    "gemini": {
+      "peers": {},
+      "cli": {
+        "version": "1.5.12",
+        "assets": {
+          "darwin-arm64": {
+            "url": "https://storage.googleapis.com/antigravity-public/antigravity-cli/1.5.12-5281398513336320/darwin-arm/cli_mac_arm64.tar.gz",
+            "format": "tar.gz",
+            "executableName": "agy",
+            "size": 85295784,
+            "digest": {
+              "algorithm": "sha512",
+              "value": "f0d951b41bddb62cbee0199a60cc9a9aba16cecb95c5cf7d5c71349c745c578f2d2bbce1194b058e867e85456030ac1b1ec72772ee17b31de1d606f34cce3154"
+            }
+          },
+          "darwin-x64": {
+            "url": "https://storage.googleapis.com/antigravity-public/antigravity-cli/1.5.12-5281398513336320/darwin-x64/cli_mac_x64.tar.gz",
+            "format": "tar.gz",
+            "executableName": "agy",
+            "size": 90841040,
+            "digest": {
+              "algorithm": "sha512",
+              "value": "b392e94e593a3c93e90b14e277c80e9712c1442dba0f68a7b48918bbeb990250a544eedf791426d3afd95162128b4de320f549f2639640d20e1d25b567784c7f"
+            }
+          },
+          "linux-x64": {
+            "url": "https://storage.googleapis.com/antigravity-public/antigravity-cli/1.5.12-5281398513336320/linux-x64/cli_linux_x64.tar.gz",
+            "format": "tar.gz",
+            "executableName": "agy",
+            "size": 100322406,
+            "digest": {
+              "algorithm": "sha512",
+              "value": "26de25fccb3fbf0b093e090ce14a14ac1df1ec3e90ef4ea6106887d3a81b0cc9edb0dadea7b9101d07f9606eba159062a6fb7b78e91b73f7520684a24db73428"
+            }
+          },
+          "linux-arm64": {
+            "url": "https://storage.googleapis.com/antigravity-public/antigravity-cli/1.5.12-5281398513336320/linux-arm/cli_linux_arm64.tar.gz",
+            "format": "tar.gz",
+            "executableName": "agy",
+            "size": 91394923,
+            "digest": {
+              "algorithm": "sha512",
+              "value": "1030d89ce9e5cb39509e272cb89b71fde0e0d5d6527b7392525d5ef2683da54fb49230449107486d91c02ded39a678faaa649b2041304a6cf82a3a332d5819d9"
+            }
+          }
+        }
+      },
+      "compatibleTerminalVersions": ["1.582.0"]
+    }
+  }
+}
