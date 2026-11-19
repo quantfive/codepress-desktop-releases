@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e4b69e7c5b7e09adefe2542c978457d06a6b9a33",
+  "cursorSha": "b0ffc4fb68bb1a464c18f7407737ba2bf39afee0",
   "highWaterVersion": "1.581.1",
   "rows": [
     {
@@ -183418,6 +183418,23 @@
       "intentIds": [
         "gemini-picker-speed-swr:8a81a20d005b4cea1506c8fefea44c1774a47597e45b9075990f6a2379d87f43"
       ]
+    },
+    {
+      "sourceSha": "60d59d75193b8255512826d453efc44473c2c24e",
+      "sourcePackageVersion": "1.581.0",
+      "intentIds": [
+        "kimi-code-cli-pin:8954cd076efab37b8d4f28f0114c60b826a403da4663d48dc2854b68421bc281"
+      ]
+    },
+    {
+      "sourceSha": "6c33a721287c263b35af3389e2bf0b1993dec227",
+      "sourcePackageVersion": "1.581.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "b0ffc4fb68bb1a464c18f7407737ba2bf39afee0",
+      "sourcePackageVersion": "1.581.0",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -195628,6 +195645,14 @@
       "summary": "Speed up live Gemini status reads with startup pre-warming, server-side stale-while-revalidate caching, non-blocking Google usage reads, per-machine client SWR caches, and background staging of Terminal's pinned `agy` when no `agy` is installed.",
       "sourceSha": "e4b69e7c5b7e09adefe2542c978457d06a6b9a33",
       "identity": "gemini-picker-speed-swr:8a81a20d005b4cea1506c8fefea44c1774a47597e45b9075990f6a2379d87f43"
+    },
+    {
+      "id": "kimi-code-cli-pin",
+      "digest": "8954cd076efab37b8d4f28f0114c60b826a403da4663d48dc2854b68421bc281",
+      "type": "patch",
+      "summary": "Tabs Terminal starts with `kimi` now run the Kimi Code CLI version Terminal pins (2.6.3) instead of whichever `kimi` comes first on PATH. When the pin isn't installed yet, Terminal keeps using your `kimi` and downloads the pin in the background. A `kimi` you type in an ordinary tab still runs your own CLI.",
+      "sourceSha": "60d59d75193b8255512826d453efc44473c2c24e",
+      "identity": "kimi-code-cli-pin:8954cd076efab37b8d4f28f0114c60b826a403da4663d48dc2854b68421bc281"
     }
   ],
   "consumedIntentIds": [
