@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e81fe550ac8189c885e60d91ed04f6cb74d348fd",
+  "cursorSha": "f942ef08c905c14aa79dd97555e43a32a32f8506",
   "highWaterVersion": "1.585.2",
   "rows": [
     {
@@ -184158,6 +184158,13 @@
       "sourceSha": "e81fe550ac8189c885e60d91ed04f6cb74d348fd",
       "sourcePackageVersion": "1.585.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f942ef08c905c14aa79dd97555e43a32a32f8506",
+      "sourcePackageVersion": "1.585.1",
+      "intentIds": [
+        "model-profiles-one-chip:0d85d56ec352112034eddff1cdacf06e0775086c9e59420e0489822ed0f0f1a6"
+      ]
     }
   ],
   "intents": [
@@ -196464,6 +196471,14 @@
       "summary": "With the organization's \"Terminal over-the-air models\" flag on, Terminal reads the signed provider feed at start and every 30 minutes, and its model menus show the new models without an app update or restart. A feed that fails its signature check, an older feed, or a network failure keeps the last good copy or the bundled list. A model that needs a newer Terminal shows disabled with \"Update Terminal to use <model>\". With the flag off, Terminal makes no request and shows the bundled list, as before.",
       "sourceSha": "a28e586d59dfe71ddeaeaa97c00f24882d8b2132",
       "identity": "terminal-ota-model-catalog:bb5ed5c3b7ea6e865b4ddcfa881c5251f1b5e25b93aa1e2d41a09078343aa704"
+    },
+    {
+      "id": "model-profiles-one-chip",
+      "digest": "0d85d56ec352112034eddff1cdacf06e0775086c9e59420e0489822ed0f0f1a6",
+      "type": "minor",
+      "summary": "With Model profiles turned on for you, the Orchestrator's composer shows one model chip in place of the Orchestrator and Workers chips. It names the profile in use, followed by its models, or just the models, such as \"Fable 5.2 → Opus 5.5 / Sol\" while it plans on another model. One click opens the same menu. Hover the chip to see every role with its effort; usage and effort are in the menu. Turning Model profiles on or off now shows in an open window without reloading: right away in the window where you changed it, and on your other machines when you come back to them.",
+      "sourceSha": "f942ef08c905c14aa79dd97555e43a32a32f8506",
+      "identity": "model-profiles-one-chip:0d85d56ec352112034eddff1cdacf06e0775086c9e59420e0489822ed0f0f1a6"
     }
   ],
   "consumedIntentIds": [
