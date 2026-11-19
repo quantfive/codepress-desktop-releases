@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "f0014e80f1587d338e083c35a2ee0114e0d2d5d5",
-  "highWaterVersion": "1.589.0",
+  "highWaterVersion": "1.589.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -101248,6 +101248,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:f0014e80f1587d338e083c35a2ee0114e0d2d5d5",
+      "kind": "main",
+      "sequence": 2528,
+      "sourceSha": "f0014e80f1587d338e083c35a2ee0114e0d2d5d5",
+      "sourcePackageVersion": "1.588.1",
+      "version": "1.589.1",
+      "batch": {
+        "intentIds": [
+          "gemini-device-report-provider:032beba7559b38fed2d8a51fafb2cd8bfb9179ff8ef8eebbb3aba0e0b0b24395"
+        ],
+        "notesIntentIds": [
+          "orchestrator-skill-turns:a201a2d89a840cac10cfc64bd3ba680dc0f6b6c258536613280b512199b9f4b0",
+          "roles-menu-context-row:1f2129dc56005ea438bf5c1424135790f7d893382343db8a0f04f141a541cda5",
+          "gemini-device-report-provider:032beba7559b38fed2d8a51fafb2cd8bfb9179ff8ef8eebbb3aba0e0b0b24395"
+        ],
+        "throughSourceSha": "f0014e80f1587d338e083c35a2ee0114e0d2d5d5",
+        "previousThroughSourceSha": "8c23be7391a71ef8701d56853f295ca1587fbfbe",
+        "baselineVersion": "1.589.0",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-19T22:15:50.992Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44626807427",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-20T22:15:41.382Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -198819,7 +198864,8 @@
     "app-chat-model-profiles:0eb3be0568d42ecb05b55adc185bd9a9463459b3ccf615c150aa4e69c7122921",
     "remote-kickoff-cloud-project-mention:e38a20719f55c5fdd596432885db0cc6ac4cfb6731e4870529fabecf8fd7f314",
     "orchestrator-skill-turns:a201a2d89a840cac10cfc64bd3ba680dc0f6b6c258536613280b512199b9f4b0",
-    "roles-menu-context-row:1f2129dc56005ea438bf5c1424135790f7d893382343db8a0f04f141a541cda5"
+    "roles-menu-context-row:1f2129dc56005ea438bf5c1424135790f7d893382343db8a0f04f141a541cda5",
+    "gemini-device-report-provider:032beba7559b38fed2d8a51fafb2cd8bfb9179ff8ef8eebbb3aba0e0b0b24395"
   ],
-  "consumedThroughSha": "8c23be7391a71ef8701d56853f295ca1587fbfbe"
+  "consumedThroughSha": "f0014e80f1587d338e083c35a2ee0114e0d2d5d5"
 }
