@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d9b317a4eed6f8d3a6c200842a6066ff9b25a27e",
+  "cursorSha": "77843f9278e6ca54c4465f313804f3bfe4b49a4c",
   "highWaterVersion": "1.590.0",
   "rows": [
     {
@@ -185214,6 +185214,13 @@
       "sourceSha": "d9b317a4eed6f8d3a6c200842a6066ff9b25a27e",
       "sourcePackageVersion": "1.589.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "77843f9278e6ca54c4465f313804f3bfe4b49a4c",
+      "sourcePackageVersion": "1.589.2",
+      "intentIds": [
+        "ptmp-temp-files-open:b499272fa9fb56aefe7ad8522e1436d051a6606cdfb2e2b7d05196ae62ec396c"
+      ]
     }
   ],
   "intents": [
@@ -197672,6 +197679,14 @@
       "summary": "`gh` and `git push` over https now work inside Antigravity agents running on a Personal or Team Google account: they use your own GitHub sign-in, while agy's Google sign-in stays in its private home.",
       "sourceSha": "32a7dd62d34362bec13d6a4105d7d554455d8bc9",
       "identity": "agy-google-gh-auth:42541821436eeae6667e08270a8d435efb47bbc8655a704f6ce5bb41bd9e8672"
+    },
+    {
+      "id": "ptmp-temp-files-open",
+      "digest": "b499272fa9fb56aefe7ad8522e1436d051a6606cdfb2e2b7d05196ae62ec396c",
+      "type": "patch",
+      "summary": "Links to files in a project's temp folder (where its Orchestrator and workers keep `$TMPDIR`) now open in Files, on this machine and from another machine, instead of \"That path can't be opened from here\".",
+      "sourceSha": "77843f9278e6ca54c4465f313804f3bfe4b49a4c",
+      "identity": "ptmp-temp-files-open:b499272fa9fb56aefe7ad8522e1436d051a6606cdfb2e2b7d05196ae62ec396c"
     }
   ],
   "consumedIntentIds": [
