@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a3bba04c670391378f270a15aeceb3c3a79b6a05",
+  "cursorSha": "b1e7f27996b471dcb0b31570dc8aa1bcaae34d7c",
   "highWaterVersion": "1.585.1",
   "rows": [
     {
@@ -184057,6 +184057,13 @@
       "sourceSha": "a3bba04c670391378f270a15aeceb3c3a79b6a05",
       "sourcePackageVersion": "1.585.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b1e7f27996b471dcb0b31570dc8aa1bcaae34d7c",
+      "sourcePackageVersion": "1.585.0",
+      "intentIds": [
+        "fix-agy-private-keychain-unlock:1073d3ab9b2d847b60f1ababcada3bd8834dd4672db3b8afa04879ac52e20d05"
+      ]
     }
   ],
   "intents": [
@@ -196339,6 +196346,14 @@
       "summary": "Settings → Integrations: the share dialog for an integration can now pick teams as well as people (\"Everyone\" or \"Specific people and teams\"), and the integration card says who has access, for example \"2 teams, 3 people\".",
       "sourceSha": "d721433eaf7318b98070aaa0affe635d9226c850",
       "identity": "mcp-share-with-teams:14c83bb07a8b9e35eaa3853cfde215170617af828295f2e8c9ec2640bd19d7d0"
+    },
+    {
+      "id": "fix-agy-private-keychain-unlock",
+      "digest": "1073d3ab9b2d847b60f1ababcada3bd8834dd4672db3b8afa04879ac52e20d05",
+      "type": "patch",
+      "summary": "Fix macOS private keychain unlock for Gemini Personal and Team Google sign-in by naming each private home's keychain `agy.keychain-db` and pointing that home's `com.apple.security.plist` at it, self-healing legacy `login.keychain-db` private homes.",
+      "sourceSha": "b1e7f27996b471dcb0b31570dc8aa1bcaae34d7c",
+      "identity": "fix-agy-private-keychain-unlock:1073d3ab9b2d847b60f1ababcada3bd8834dd4672db3b8afa04879ac52e20d05"
     }
   ],
   "consumedIntentIds": [
