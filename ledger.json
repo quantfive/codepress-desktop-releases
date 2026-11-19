@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ed66a68dea286136644d687cfea3ad4f9538df7b",
+  "cursorSha": "d907af72c59bcdd2e2bc5d0a3ab5eba830b7466e",
   "highWaterVersion": "1.582.0",
   "rows": [
     {
@@ -183521,6 +183521,13 @@
       "sourceSha": "ed66a68dea286136644d687cfea3ad4f9538df7b",
       "sourcePackageVersion": "1.581.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d907af72c59bcdd2e2bc5d0a3ab5eba830b7466e",
+      "sourcePackageVersion": "1.581.1",
+      "intentIds": [
+        "codex-daemon-bundled-version:f39f4b24c1e9ade48c97b7606e70aefa00f44b1905f677efcb40dc14c73affe3"
+      ]
     }
   ],
   "intents": [
@@ -195739,6 +195746,14 @@
       "summary": "Tabs Terminal starts with `kimi` now run the Kimi Code CLI version Terminal pins (2.6.3) instead of whichever `kimi` comes first on PATH. When the pin isn't installed yet, Terminal keeps using your `kimi` and downloads the pin in the background. A `kimi` you type in an ordinary tab still runs your own CLI.",
       "sourceSha": "60d59d75193b8255512826d453efc44473c2c24e",
       "identity": "kimi-code-cli-pin:8954cd076efab37b8d4f28f0114c60b826a403da4663d48dc2854b68421bc281"
+    },
+    {
+      "id": "codex-daemon-bundled-version",
+      "digest": "f39f4b24c1e9ade48c97b7606e70aefa00f44b1905f677efcb40dc14c73affe3",
+      "type": "patch",
+      "summary": "Codex workers now attach to a shared Codex app-server daemon at the version Terminal ships. A worker launch moves an idle daemon on another release onto the bundled CLI with Codex's own pin, and leaves a daemon with a conversation loaded running until a later launch.",
+      "sourceSha": "d907af72c59bcdd2e2bc5d0a3ab5eba830b7466e",
+      "identity": "codex-daemon-bundled-version:f39f4b24c1e9ade48c97b7606e70aefa00f44b1905f677efcb40dc14c73affe3"
     }
   ],
   "consumedIntentIds": [
