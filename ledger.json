@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "4981a6d95d7e59a617fe2d368cf8554446e0e8ea",
-  "highWaterVersion": "1.587.0",
+  "highWaterVersion": "1.588.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -101092,6 +101092,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:4981a6d95d7e59a617fe2d368cf8554446e0e8ea",
+      "kind": "main",
+      "sequence": 2525,
+      "sourceSha": "4981a6d95d7e59a617fe2d368cf8554446e0e8ea",
+      "sourcePackageVersion": "1.587.0",
+      "version": "1.588.0",
+      "batch": {
+        "intentIds": [
+          "app-chat-model-profiles:0eb3be0568d42ecb05b55adc185bd9a9463459b3ccf615c150aa4e69c7122921"
+        ],
+        "notesIntentIds": [
+          "app-chat-model-profiles:0eb3be0568d42ecb05b55adc185bd9a9463459b3ccf615c150aa4e69c7122921"
+        ],
+        "throughSourceSha": "4981a6d95d7e59a617fe2d368cf8554446e0e8ea",
+        "previousThroughSourceSha": "22299c8d6c353759b70817fb35f07d03e8d50b74",
+        "baselineVersion": "1.587.0",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-19T13:54:15.286Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44537961024",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-20T13:54:06.996Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -198409,7 +198452,8 @@
     "model-profiles-one-chip:0d85d56ec352112034eddff1cdacf06e0775086c9e59420e0489822ed0f0f1a6",
     "app-variables-editors-ui:69907da1b7f15872ac42dde52c83a30a7a74903b1a830b2ea019e877660a67ca",
     "routed-kickoff-planning-model:50e0e8e85f44c2e10ca5cfc2bf2f87f19db5ec77bf18ca93ba30af1adae1da97",
-    "ota-downloaded-sdks:99cfc628c392d86f62e5d2c183805d6e0ab76bc8f832e83f9cdfe260c8071add"
+    "ota-downloaded-sdks:99cfc628c392d86f62e5d2c183805d6e0ab76bc8f832e83f9cdfe260c8071add",
+    "app-chat-model-profiles:0eb3be0568d42ecb05b55adc185bd9a9463459b3ccf615c150aa4e69c7122921"
   ],
-  "consumedThroughSha": "22299c8d6c353759b70817fb35f07d03e8d50b74"
+  "consumedThroughSha": "4981a6d95d7e59a617fe2d368cf8554446e0e8ea"
 }
