@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "d721433eaf7318b98070aaa0affe635d9226c850",
-  "highWaterVersion": "1.585.0",
+  "highWaterVersion": "1.585.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -100774,6 +100774,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:d721433eaf7318b98070aaa0affe635d9226c850",
+      "kind": "main",
+      "sequence": 2519,
+      "sourceSha": "d721433eaf7318b98070aaa0affe635d9226c850",
+      "sourcePackageVersion": "1.585.0",
+      "version": "1.585.1",
+      "batch": {
+        "intentIds": [
+          "mcp-share-with-teams:14c83bb07a8b9e35eaa3853cfde215170617af828295f2e8c9ec2640bd19d7d0"
+        ],
+        "notesIntentIds": [
+          "mcp-share-with-teams:14c83bb07a8b9e35eaa3853cfde215170617af828295f2e8c9ec2640bd19d7d0"
+        ],
+        "throughSourceSha": "d721433eaf7318b98070aaa0affe635d9226c850",
+        "previousThroughSourceSha": "98a2af2a218f3dc3d12379be11c96cd55b4f4192",
+        "baselineVersion": "1.585.0",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-19T08:35:44.243Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44488795048",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-20T08:35:28.344Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -197823,7 +197866,8 @@
     "linux-sandbox-lima-qemu:8d5955386f78d0355ad539219633937cdf7abdfc3ac1a4ff80a6e768ebe13a1c",
     "terminal-ota-runtimes-flag:0eef90c34eaf6bdd49468899de69000016751314c188ec3477d9d1ad595d59ec",
     "terminal-automations-say-machine:35b1e74647967b10564fe5793e08035b12e709cd7e8a15e7d12314be9c7d441e",
-    "model-profiles-menu:ba21af0716a712fc83915d5ce721dfcd132633e68f2bb21736775b6a0009c057"
+    "model-profiles-menu:ba21af0716a712fc83915d5ce721dfcd132633e68f2bb21736775b6a0009c057",
+    "mcp-share-with-teams:14c83bb07a8b9e35eaa3853cfde215170617af828295f2e8c9ec2640bd19d7d0"
   ],
-  "consumedThroughSha": "98a2af2a218f3dc3d12379be11c96cd55b4f4192"
+  "consumedThroughSha": "d721433eaf7318b98070aaa0affe635d9226c850"
 }
