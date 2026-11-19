@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1a24560fd82bc480bd5e9c86bb050d5bfc795f0a",
+  "cursorSha": "0d41be7dc42f56e9cf54e56db32f905a58352767",
   "highWaterVersion": "1.586.1",
   "rows": [
     {
@@ -184298,6 +184298,18 @@
       "intentIds": [
         "app-variables-editors-ui:69907da1b7f15872ac42dde52c83a30a7a74903b1a830b2ea019e877660a67ca"
       ]
+    },
+    {
+      "sourceSha": "8a3de1d112cf6ec30b77036d822bbaa4e6162adc",
+      "sourcePackageVersion": "1.586.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "0d41be7dc42f56e9cf54e56db32f905a58352767",
+      "sourcePackageVersion": "1.586.0",
+      "intentIds": [
+        "routed-kickoff-planning-model:50e0e8e85f44c2e10ca5cfc2bf2f87f19db5ec77bf18ca93ba30af1adae1da97"
+      ]
     }
   ],
   "intents": [
@@ -196620,6 +196632,14 @@
       "summary": "App Settings shows who can change an App's environment variables. Org admins and owners can limit it to specific people and teams; anyone else the rule keeps out sees the variables read-only, with a notice saying who can change them.",
       "sourceSha": "1a24560fd82bc480bd5e9c86bb050d5bfc795f0a",
       "identity": "app-variables-editors-ui:69907da1b7f15872ac42dde52c83a30a7a74903b1a830b2ea019e877660a67ca"
+    },
+    {
+      "id": "routed-kickoff-planning-model",
+      "digest": "50e0e8e85f44c2e10ca5cfc2bf2f87f19db5ec77bf18ca93ba30af1adae1da97",
+      "type": "patch",
+      "summary": "A project started on another of your machines, from the web on your own computer, or by a teammate on a shared computer can now plan on its planning model and switch to its building model at the build. The new-project composer sends the planning model only to a machine whose Terminal takes one, and says so plainly when a machine can't or your Model profiles switch is off.",
+      "sourceSha": "0d41be7dc42f56e9cf54e56db32f905a58352767",
+      "identity": "routed-kickoff-planning-model:50e0e8e85f44c2e10ca5cfc2bf2f87f19db5ec77bf18ca93ba30af1adae1da97"
     }
   ],
   "consumedIntentIds": [
