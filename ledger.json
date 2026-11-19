@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "de9ad9b7f07d9f62f4dfa0d565108b8c0d9f3051",
+  "cursorSha": "c3917efeb2331731b11543120bebe77e1142e394",
   "highWaterVersion": "1.590.0",
   "rows": [
     {
@@ -185168,6 +185168,13 @@
       "intentIds": [
         "plan-frame-auth-retry:5bff011d56041297674e1a4a02963496553d18874e54e5a1c020e1373fbf9470"
       ]
+    },
+    {
+      "sourceSha": "c3917efeb2331731b11543120bebe77e1142e394",
+      "sourcePackageVersion": "1.589.2",
+      "intentIds": [
+        "reply-refusal-names-reason:8e14c19af6be5f39b7fd52368d1b152b9716ff77d79c0cadf1077f6c3e270cab"
+      ]
     }
   ],
   "intents": [
@@ -197602,6 +197609,14 @@
       "summary": "Plan pages no longer show raw `{\"error\":\"Authentication required\"}` when this machine's local-client gate is on: the canvas asks for a fresh frame capability once more when the first is late or fails, and otherwise says \"Couldn't open this plan page.\" with Reload.",
       "sourceSha": "de9ad9b7f07d9f62f4dfa0d565108b8c0d9f3051",
       "identity": "plan-frame-auth-retry:5bff011d56041297674e1a4a02963496553d18874e54e5a1c020e1373fbf9470"
+    },
+    {
+      "id": "reply-refusal-names-reason",
+      "digest": "8e14c19af6be5f39b7fd52368d1b152b9716ff77d79c0cadf1077f6c3e270cab",
+      "type": "patch",
+      "summary": "Answering or messaging a project on another machine now names the real refusal (press your passkey, sign in again, confirm this computer, or the machine refused it) instead of blaming a retired organization setting.",
+      "sourceSha": "c3917efeb2331731b11543120bebe77e1142e394",
+      "identity": "reply-refusal-names-reason:8e14c19af6be5f39b7fd52368d1b152b9716ff77d79c0cadf1077f6c3e270cab"
     }
   ],
   "consumedIntentIds": [
