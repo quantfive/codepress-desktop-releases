@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "36b8d61283e740fffc2412dfa703fcaf5e1591a1",
+  "cursorSha": "fce3087acb0068f8faef2622ffe055427892de96",
   "highWaterVersion": "1.583.0",
   "rows": [
     {
@@ -183622,6 +183622,13 @@
       "sourceSha": "36b8d61283e740fffc2412dfa703fcaf5e1591a1",
       "sourcePackageVersion": "1.582.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "fce3087acb0068f8faef2622ffe055427892de96",
+      "sourcePackageVersion": "1.582.0",
+      "intentIds": [
+        "google-tab-after-codex:af36fe6a60335d512be47b2fc9526e4a424bb9089b0485574b98bcb9da43ae7f"
+      ]
     }
   ],
   "intents": [
@@ -195856,6 +195863,14 @@
       "summary": "Linux machines can now turn on \"Run my automations\", the team opt-in and \"Use this machine for all automations\" through the system password dialog, or with `sudo codepress-terminal automations allow` on a machine with no desktop. Windows shows these switches as not available.",
       "sourceSha": "eee18b72f4ba1e9a73bbc80ff12a7268b8396a35",
       "identity": "linux-consent-trust-root:444e6e267ed4f67db5b7716bff86ed814d924be5a0fe6727cfdf65297c514613"
+    },
+    {
+      "id": "google-tab-after-codex",
+      "digest": "af36fe6a60335d512be47b2fc9526e4a424bb9089b0485574b98bcb9da43ae7f",
+      "type": "patch",
+      "summary": "Agent accounts now lists Google right after Claude and Codex: Claude, Codex, Google, Muse, then the rest.",
+      "sourceSha": "fce3087acb0068f8faef2622ffe055427892de96",
+      "identity": "google-tab-after-codex:af36fe6a60335d512be47b2fc9526e4a424bb9089b0485574b98bcb9da43ae7f"
     }
   ],
   "consumedIntentIds": [
