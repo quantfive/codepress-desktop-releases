@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "1919220fd1e7ed7c38c412d5efaaa051b0f8be14",
-  "highWaterVersion": "1.581.1",
+  "highWaterVersion": "1.582.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -100458,6 +100458,55 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:1919220fd1e7ed7c38c412d5efaaa051b0f8be14",
+      "kind": "main",
+      "sequence": 2513,
+      "sourceSha": "1919220fd1e7ed7c38c412d5efaaa051b0f8be14",
+      "sourcePackageVersion": "1.581.0",
+      "version": "1.582.0",
+      "batch": {
+        "intentIds": [
+          "model-profiles-settings:a5ad196c9f2120f216bd57092d5307767647a58fd388bd75c7ca492fa49c6e0c",
+          "gemini-weekly-usage-composer:405c405daab7c34e2439baa69d659f09c324db9114f18b69812e7826dc49cc14",
+          "gemini-picker-speed-swr:8a81a20d005b4cea1506c8fefea44c1774a47597e45b9075990f6a2379d87f43",
+          "kimi-code-cli-pin:8954cd076efab37b8d4f28f0114c60b826a403da4663d48dc2854b68421bc281"
+        ],
+        "notesIntentIds": [
+          "model-profiles-settings:a5ad196c9f2120f216bd57092d5307767647a58fd388bd75c7ca492fa49c6e0c",
+          "gemini-weekly-usage-composer:405c405daab7c34e2439baa69d659f09c324db9114f18b69812e7826dc49cc14",
+          "gemini-picker-speed-swr:8a81a20d005b4cea1506c8fefea44c1774a47597e45b9075990f6a2379d87f43",
+          "kimi-code-cli-pin:8954cd076efab37b8d4f28f0114c60b826a403da4663d48dc2854b68421bc281"
+        ],
+        "throughSourceSha": "1919220fd1e7ed7c38c412d5efaaa051b0f8be14",
+        "previousThroughSourceSha": "e90fd0c4a7965a182f4ef897ad7df90430d54f81",
+        "baselineVersion": "1.581.1",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-19T05:11:10.454Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44463333833",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-20T05:11:02.422Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -197191,7 +197240,11 @@
     "sandbox-lima-linux-build:24860365e66da57490ca59f9ab037d45ec1006f53dcb13d3010e18381f46e772",
     "google-sign-in-personal-team:fa97cd5ca81c9b724c2e4de6cdc1a48db593865a7646e80e277b6e45c72f03d3",
     "managed-pins-muse-grok-gemini:ad8562151787f8ea8c72dca5b8ea3d02cb062f3bff58390b329ff9c68dd8704a",
-    "device-gemini-status-relay:63e030dc15d88ad41480ff0b95accd85fc5e0f00bb9721f6fce9ea208cbccb7d"
+    "device-gemini-status-relay:63e030dc15d88ad41480ff0b95accd85fc5e0f00bb9721f6fce9ea208cbccb7d",
+    "model-profiles-settings:a5ad196c9f2120f216bd57092d5307767647a58fd388bd75c7ca492fa49c6e0c",
+    "gemini-weekly-usage-composer:405c405daab7c34e2439baa69d659f09c324db9114f18b69812e7826dc49cc14",
+    "gemini-picker-speed-swr:8a81a20d005b4cea1506c8fefea44c1774a47597e45b9075990f6a2379d87f43",
+    "kimi-code-cli-pin:8954cd076efab37b8d4f28f0114c60b826a403da4663d48dc2854b68421bc281"
   ],
-  "consumedThroughSha": "e90fd0c4a7965a182f4ef897ad7df90430d54f81"
+  "consumedThroughSha": "1919220fd1e7ed7c38c412d5efaaa051b0f8be14"
 }
