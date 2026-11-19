@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5e4ef0d1ed34136bd214d083217bb11c3bfd4235",
+  "cursorSha": "a28e586d59dfe71ddeaeaa97c00f24882d8b2132",
   "highWaterVersion": "1.585.2",
   "rows": [
     {
@@ -184138,6 +184138,13 @@
       "sourceSha": "5e4ef0d1ed34136bd214d083217bb11c3bfd4235",
       "sourcePackageVersion": "1.585.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a28e586d59dfe71ddeaeaa97c00f24882d8b2132",
+      "sourcePackageVersion": "1.585.1",
+      "intentIds": [
+        "terminal-ota-model-catalog:bb5ed5c3b7ea6e865b4ddcfa881c5251f1b5e25b93aa1e2d41a09078343aa704"
+      ]
     }
   ],
   "intents": [
@@ -196436,6 +196443,14 @@
       "summary": "Settings → Teams: opening a team now shows what it can reach, the integrations whose shared connection it may use and the Apps whose environment variables it may change, each with a link to where it is managed.",
       "sourceSha": "021a97c62104b06aa57416e79566a0a0c8dab454",
       "identity": "teams-access-view:58b0dbd03a013aa1607d0feb4966fef9ba073b36a0d4fab7c5fc278e696a5141"
+    },
+    {
+      "id": "terminal-ota-model-catalog",
+      "digest": "bb5ed5c3b7ea6e865b4ddcfa881c5251f1b5e25b93aa1e2d41a09078343aa704",
+      "type": "minor",
+      "summary": "With the organization's \"Terminal over-the-air models\" flag on, Terminal reads the signed provider feed at start and every 30 minutes, and its model menus show the new models without an app update or restart. A feed that fails its signature check, an older feed, or a network failure keeps the last good copy or the bundled list. A model that needs a newer Terminal shows disabled with \"Update Terminal to use <model>\". With the flag off, Terminal makes no request and shows the bundled list, as before.",
+      "sourceSha": "a28e586d59dfe71ddeaeaa97c00f24882d8b2132",
+      "identity": "terminal-ota-model-catalog:bb5ed5c3b7ea6e865b4ddcfa881c5251f1b5e25b93aa1e2d41a09078343aa704"
     }
   ],
   "consumedIntentIds": [
