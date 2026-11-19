@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "93f73ba409ed763cac684e4843d8ac80a63b1b41",
+  "cursorSha": "51288f2e74f384148f65592d114bf7c885a349c4",
   "highWaterVersion": "1.580.3",
   "rows": [
     {
@@ -183222,6 +183222,13 @@
       "intentIds": [
         "google-sign-in-personal-team:fa97cd5ca81c9b724c2e4de6cdc1a48db593865a7646e80e277b6e45c72f03d3"
       ]
+    },
+    {
+      "sourceSha": "51288f2e74f384148f65592d114bf7c885a349c4",
+      "sourcePackageVersion": "1.580.2",
+      "intentIds": [
+        "managed-pins-muse-grok-gemini:ad8562151787f8ea8c72dca5b8ea3d02cb062f3bff58390b329ff9c68dd8704a"
+      ]
     }
   ],
   "intents": [
@@ -195392,6 +195399,14 @@
       "summary": "Accounts → Google now has Local, Personal and Team groups. Sign in with Google straight to Personal or Team, or upload this machine's own sign-in to Personal. Each machine can choose a Personal or Team Google account for its Gemini workers and local Orchestrators; it runs in a private agy home, so your own agy sign-in is never touched. A deleted or revoked account stops the next launch with a clear message and never falls back to your own sign-in. Not available on Windows yet.",
       "sourceSha": "93f73ba409ed763cac684e4843d8ac80a63b1b41",
       "identity": "google-sign-in-personal-team:fa97cd5ca81c9b724c2e4de6cdc1a48db593865a7646e80e277b6e45c72f03d3"
+    },
+    {
+      "id": "managed-pins-muse-grok-gemini",
+      "digest": "ad8562151787f8ea8c72dca5b8ea3d02cb062f3bff58390b329ff9c68dd8704a",
+      "type": "patch",
+      "summary": "Muse, Grok and Gemini launches now run the CLI version Terminal pins for this machine ahead of a CLI of yours. When the pin isn't installed yet, Terminal keeps using your CLI and downloads the pin in the background at app start.",
+      "sourceSha": "51288f2e74f384148f65592d114bf7c885a349c4",
+      "identity": "managed-pins-muse-grok-gemini:ad8562151787f8ea8c72dca5b8ea3d02cb062f3bff58390b329ff9c68dd8704a"
     }
   ],
   "consumedIntentIds": [
