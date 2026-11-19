@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "60a59e5cb05cd214cee847b612731d459bb01ecb",
+  "cursorSha": "9731da415c2313a058942188ae69c64d2a24a24e",
   "highWaterVersion": "1.578.4",
   "rows": [
     {
@@ -182572,6 +182572,13 @@
       "intentIds": [
         "app-chat-share-terminal:3139683d08166cf163774468b865e51cb5ac296a00cda9c266b3d969f9a7f9ab"
       ]
+    },
+    {
+      "sourceSha": "9731da415c2313a058942188ae69c64d2a24a24e",
+      "sourcePackageVersion": "1.578.3",
+      "intentIds": [
+        "remote-desktop-edit-shortcuts:8f2c1a5f6f989bdea5a324dbdc5afb187a9f2e0057392b7a5628dd163a2ecc2e"
+      ]
     }
   ],
   "intents": [
@@ -194630,6 +194637,14 @@
       "summary": "The App page's chat header has a Share icon: it copies the chat's web link and says who can open it. A shared App chat link opens that chat on the App page, or says \"You can't open this chat\" when it can't be opened.",
       "sourceSha": "60a59e5cb05cd214cee847b612731d459bb01ecb",
       "identity": "app-chat-share-terminal:3139683d08166cf163774468b865e51cb5ac296a00cda9c266b3d969f9a7f9ab"
+    },
+    {
+      "id": "remote-desktop-edit-shortcuts",
+      "digest": "8f2c1a5f6f989bdea5a324dbdc5afb187a9f2e0057392b7a5628dd163a2ecc2e",
+      "type": "patch",
+      "summary": "Remote Desktop: ⌘C, ⌘X, ⌘V, ⌘A, ⌘Z and ⇧⌘Z now act on the remote machine while a Desktop view is focused and in control, so copy and paste inside the remote machine work. Key events also carry the held modifiers, so the host presses a real chord.",
+      "sourceSha": "9731da415c2313a058942188ae69c64d2a24a24e",
+      "identity": "remote-desktop-edit-shortcuts:8f2c1a5f6f989bdea5a324dbdc5afb187a9f2e0057392b7a5628dd163a2ecc2e"
     }
   ],
   "consumedIntentIds": [
