@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ee805a6a68f8668d69083a101c11bbaa280f59ed",
+  "cursorSha": "1c96f337f781279c32e0a86434e0d04850ab90b7",
   "highWaterVersion": "1.584.1",
   "rows": [
     {
@@ -183887,6 +183887,13 @@
       "sourceSha": "ee805a6a68f8668d69083a101c11bbaa280f59ed",
       "sourcePackageVersion": "1.584.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "1c96f337f781279c32e0a86434e0d04850ab90b7",
+      "sourcePackageVersion": "1.584.0",
+      "intentIds": [
+        "terminal-automations-say-machine:35b1e74647967b10564fe5793e08035b12e709cd7e8a15e7d12314be9c7d441e"
+      ]
     }
   ],
   "intents": [
@@ -196145,6 +196152,14 @@
       "summary": "Terminal now reads the organization's new \"Terminal over-the-air models\" setting along with its other organization settings. Nothing acts on it yet.",
       "sourceSha": "127333ae54f95ccf334d6d587ceffef14d416668",
       "identity": "terminal-ota-runtimes-flag:0eef90c34eaf6bdd49468899de69000016751314c188ec3477d9d1ad595d59ec"
+    },
+    {
+      "id": "terminal-automations-say-machine",
+      "digest": "35b1e74647967b10564fe5793e08035b12e709cd7e8a15e7d12314be9c7d441e",
+      "type": "patch",
+      "summary": "Automations copy says machine, not Mac: the rail tab reads \"This machine\", and a failed sandbox check says \"this machine stays out of placement\", on Linux as on macOS.",
+      "sourceSha": "1c96f337f781279c32e0a86434e0d04850ab90b7",
+      "identity": "terminal-automations-say-machine:35b1e74647967b10564fe5793e08035b12e709cd7e8a15e7d12314be9c7d441e"
     }
   ],
   "consumedIntentIds": [
