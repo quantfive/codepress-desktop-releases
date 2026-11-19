@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "b03da76594fd51b22d07f211c2d397f5b3baf26d",
-  "highWaterVersion": "1.580.3",
+  "highWaterVersion": "1.581.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -100354,6 +100354,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:b03da76594fd51b22d07f211c2d397f5b3baf26d",
+      "kind": "main",
+      "sequence": 2511,
+      "sourceSha": "b03da76594fd51b22d07f211c2d397f5b3baf26d",
+      "sourcePackageVersion": "1.580.2",
+      "version": "1.581.0",
+      "batch": {
+        "intentIds": [
+          "google-sign-in-personal-team:fa97cd5ca81c9b724c2e4de6cdc1a48db593865a7646e80e277b6e45c72f03d3",
+          "managed-pins-muse-grok-gemini:ad8562151787f8ea8c72dca5b8ea3d02cb062f3bff58390b329ff9c68dd8704a"
+        ],
+        "notesIntentIds": [
+          "google-sign-in-personal-team:fa97cd5ca81c9b724c2e4de6cdc1a48db593865a7646e80e277b6e45c72f03d3",
+          "managed-pins-muse-grok-gemini:ad8562151787f8ea8c72dca5b8ea3d02cb062f3bff58390b329ff9c68dd8704a"
+        ],
+        "throughSourceSha": "b03da76594fd51b22d07f211c2d397f5b3baf26d",
+        "previousThroughSourceSha": "18627de6b1330c51c69a207aa03c0d20f4fefa5c",
+        "baselineVersion": "1.580.3",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-19T04:24:15.223Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44458026211",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-20T04:24:07.498Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -196944,7 +196989,9 @@
     "rail-this-mac-tab:7fbaf748358c214b037ce6e5d75631b2ee3ce2cdf74ecb7da13901cb7fd120c4",
     "runtime-pins-latest:7cc96de2f3d4291827942d2945c3b203d7569c8053d3805d690fcb05b4882752",
     "managed-oauth-connect-card:43f7a7996130979bdb71255136deed18ffb8dfbb58e8ef7adac6fc1081908c93",
-    "sandbox-lima-linux-build:24860365e66da57490ca59f9ab037d45ec1006f53dcb13d3010e18381f46e772"
+    "sandbox-lima-linux-build:24860365e66da57490ca59f9ab037d45ec1006f53dcb13d3010e18381f46e772",
+    "google-sign-in-personal-team:fa97cd5ca81c9b724c2e4de6cdc1a48db593865a7646e80e277b6e45c72f03d3",
+    "managed-pins-muse-grok-gemini:ad8562151787f8ea8c72dca5b8ea3d02cb062f3bff58390b329ff9c68dd8704a"
   ],
-  "consumedThroughSha": "18627de6b1330c51c69a207aa03c0d20f4fefa5c"
+  "consumedThroughSha": "b03da76594fd51b22d07f211c2d397f5b3baf26d"
 }
