@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "22a517254571b53121a44f1b287cfa80d5da5208",
-  "highWaterVersion": "1.589.1",
+  "highWaterVersion": "1.589.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -101297,6 +101297,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:22a517254571b53121a44f1b287cfa80d5da5208",
+      "kind": "main",
+      "sequence": 2529,
+      "sourceSha": "22a517254571b53121a44f1b287cfa80d5da5208",
+      "sourcePackageVersion": "1.588.1",
+      "version": "1.589.2",
+      "batch": {
+        "intentIds": [
+          "own-feed-row-share:f3817cbb5077f5dde561494ad5f5012bb4fc9d3b2ef3c0ab570169d61176c6df",
+          "kickoff-mentions-too-old:ca463565bb9c1e4df8f3f0dfc4e6ce16f7a1b2df5fbe1e1a1c76d236bfd78bed"
+        ],
+        "notesIntentIds": [
+          "own-feed-row-share:f3817cbb5077f5dde561494ad5f5012bb4fc9d3b2ef3c0ab570169d61176c6df",
+          "kickoff-mentions-too-old:ca463565bb9c1e4df8f3f0dfc4e6ce16f7a1b2df5fbe1e1a1c76d236bfd78bed"
+        ],
+        "throughSourceSha": "22a517254571b53121a44f1b287cfa80d5da5208",
+        "previousThroughSourceSha": "f0014e80f1587d338e083c35a2ee0114e0d2d5d5",
+        "baselineVersion": "1.589.1",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-19T22:41:28.245Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44630881274",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-20T22:41:20.976Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -198929,7 +198974,9 @@
     "remote-kickoff-cloud-project-mention:e38a20719f55c5fdd596432885db0cc6ac4cfb6731e4870529fabecf8fd7f314",
     "orchestrator-skill-turns:a201a2d89a840cac10cfc64bd3ba680dc0f6b6c258536613280b512199b9f4b0",
     "roles-menu-context-row:1f2129dc56005ea438bf5c1424135790f7d893382343db8a0f04f141a541cda5",
-    "gemini-device-report-provider:032beba7559b38fed2d8a51fafb2cd8bfb9179ff8ef8eebbb3aba0e0b0b24395"
+    "gemini-device-report-provider:032beba7559b38fed2d8a51fafb2cd8bfb9179ff8ef8eebbb3aba0e0b0b24395",
+    "own-feed-row-share:f3817cbb5077f5dde561494ad5f5012bb4fc9d3b2ef3c0ab570169d61176c6df",
+    "kickoff-mentions-too-old:ca463565bb9c1e4df8f3f0dfc4e6ce16f7a1b2df5fbe1e1a1c76d236bfd78bed"
   ],
-  "consumedThroughSha": "f0014e80f1587d338e083c35a2ee0114e0d2d5d5"
+  "consumedThroughSha": "22a517254571b53121a44f1b287cfa80d5da5208"
 }
