@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "d45c308c88c7e30d5338b358137629b0f4da8a92",
-  "highWaterVersion": "1.595.3",
+  "highWaterVersion": "1.596.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -102558,6 +102558,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:d45c308c88c7e30d5338b358137629b0f4da8a92",
+      "kind": "main",
+      "sequence": 2553,
+      "sourceSha": "d45c308c88c7e30d5338b358137629b0f4da8a92",
+      "sourcePackageVersion": "1.595.3",
+      "version": "1.596.0",
+      "batch": {
+        "intentIds": [
+          "orchestrator-adopt-open-pr:720f6e787461f498ef0d0c84fe97700b5bd9e7f9f247788a6703345891b7c5e8"
+        ],
+        "notesIntentIds": [
+          "orchestrator-adopt-open-pr:720f6e787461f498ef0d0c84fe97700b5bd9e7f9f247788a6703345891b7c5e8"
+        ],
+        "throughSourceSha": "d45c308c88c7e30d5338b358137629b0f4da8a92",
+        "previousThroughSourceSha": "85ad5512a32ae1087d190a9c2c32b8b9f230ff75",
+        "baselineVersion": "1.595.3",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-20T10:48:38.863Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44722242236",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-21T10:48:29.259Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -201878,7 +201921,8 @@
     "orchestrator-context-variant:11f9344a9d90985c3a6080df75670fb5f9c40f9ac07361eb187e630a8ea9309c",
     "fold-reasoning-activity-group:7342641f778362f61946e3096b1f01ce29e052d20e903c897fcf53c2b5f50099",
     "shared-worker-liveness-rules:30fa918640473e95cea45e125c21037ecfb18b5dbc40d8750f4a7ed40496277f",
-    "orchestrator-build-rules-once:c23f9635a61d5cbb75ebfb65e778587821e05145866811189543b7e8b5cee872"
+    "orchestrator-build-rules-once:c23f9635a61d5cbb75ebfb65e778587821e05145866811189543b7e8b5cee872",
+    "orchestrator-adopt-open-pr:720f6e787461f498ef0d0c84fe97700b5bd9e7f9f247788a6703345891b7c5e8"
   ],
-  "consumedThroughSha": "85ad5512a32ae1087d190a9c2c32b8b9f230ff75"
+  "consumedThroughSha": "d45c308c88c7e30d5338b358137629b0f4da8a92"
 }
