@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4a3326dbb51c92611659da1c375d4c6b19898c40",
+  "cursorSha": "96525f47322b7ee068d4b5fa537ddf58337c485e",
   "highWaterVersion": "1.596.12",
   "rows": [
     {
@@ -188522,6 +188522,23 @@
       "sourceSha": "4a3326dbb51c92611659da1c375d4c6b19898c40",
       "sourcePackageVersion": "1.596.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "5ef5ae2f3e968545e802eb2aae0b2b7c187f8d22",
+      "sourcePackageVersion": "1.596.7",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "e03f479e17e3e5ed1022e0dad13d2d8240560ec4",
+      "sourcePackageVersion": "1.596.7",
+      "intentIds": [
+        "macos-dmg-ownership-survives-restart:ef63041d3a770b96594cae689846e26295f407aa2b412e1281336ba45eb5686f"
+      ]
+    },
+    {
+      "sourceSha": "96525f47322b7ee068d4b5fa537ddf58337c485e",
+      "sourcePackageVersion": "1.596.7",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -201524,6 +201541,14 @@
       "summary": "A teammate's Orchestrator on a shared computer starts its workers again. Terminal makes the teammate's `~/work` if it is missing and repairs one that lost its write bit, as the teammate. When another account owns it, the refusal names the owner's one fix. A failed worker directory now tells the Orchestrator the error code and the path. A worker with no repository named uses the work item's recorded repository. A teammate's Orchestrator gets the usual shell and file tools in its own account instead of a read-only shell.",
       "sourceSha": "dee3f484d61a82649e740dd0c6a126b43a11c832",
       "identity": "teammate-workers-own-work-dir:fe148239c8ec13c09289d7343e4b7790ee05dd993be1ce793df6422a0484c066"
+    },
+    {
+      "id": "macos-dmg-ownership-survives-restart",
+      "digest": "ef63041d3a770b96594cae689846e26295f407aa2b412e1281336ba45eb5686f",
+      "type": "patch",
+      "summary": "Terminal's macOS release builds no longer stop for good after the build Mac restarts. The Mac's disk gets a new device number on restart, and the build's leftover-installer check read that as a changed folder, so every later Intel and Apple Silicon build was refused until someone cleared its records by hand.",
+      "sourceSha": "e03f479e17e3e5ed1022e0dad13d2d8240560ec4",
+      "identity": "macos-dmg-ownership-survives-restart:ef63041d3a770b96594cae689846e26295f407aa2b412e1281336ba45eb5686f"
     }
   ],
   "consumedIntentIds": [
