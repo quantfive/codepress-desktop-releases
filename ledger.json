@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9ccbb1644782afd5cadc46c827f16a69eb1aae6a",
+  "cursorSha": "0953580c6f8e7f3afb278ee5522ebddae375409c",
   "highWaterVersion": "1.590.6",
   "rows": [
     {
@@ -185760,6 +185760,13 @@
       "sourceSha": "9ccbb1644782afd5cadc46c827f16a69eb1aae6a",
       "sourcePackageVersion": "1.590.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0953580c6f8e7f3afb278ee5522ebddae375409c",
+      "sourcePackageVersion": "1.590.5",
+      "intentIds": [
+        "terminal-one-machine-status:411d116389cff102c9c00fca7076c75079c4801bbd71887ade5ac7b8732d8807"
+      ]
     }
   ],
   "intents": [
@@ -198338,6 +198345,14 @@
       "summary": "Choosing a model in the composer's model menu now opens the list in a popover of its own, beside the model row, so the menu no longer grows and shrinks as you open and close it. On a narrow screen the list covers the menu, with Back first.",
       "sourceSha": "89e7bcc4ed33e477417caedbcc0f8645d24d28f8",
       "identity": "model-list-own-popover:2d3dd396859757361a8a6149bb45922f67792fc7f9636b911a08a47554b74e59"
+    },
+    {
+      "id": "terminal-one-machine-status",
+      "digest": "411d116389cff102c9c00fca7076c75079c4801bbd71887ade5ac7b8732d8807",
+      "type": "patch",
+      "summary": "Machines list, handoff targets, project move and usage sync now read one machine status: a Mac takes its newest check-in across every organization, so they agree on the same machine at the same moment.",
+      "sourceSha": "0953580c6f8e7f3afb278ee5522ebddae375409c",
+      "identity": "terminal-one-machine-status:411d116389cff102c9c00fca7076c75079c4801bbd71887ade5ac7b8732d8807"
     }
   ],
   "consumedIntentIds": [
