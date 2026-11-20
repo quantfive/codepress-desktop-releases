@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e7e9f3afaab43d96ade4f7a33a10d0b56bfd7baa",
+  "cursorSha": "4b6bc1e160af0fe622489274657b02fb3fe0a947",
   "highWaterVersion": "1.596.13",
   "rows": [
     {
@@ -188617,6 +188617,13 @@
       "sourceSha": "e7e9f3afaab43d96ade4f7a33a10d0b56bfd7baa",
       "sourcePackageVersion": "1.596.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4b6bc1e160af0fe622489274657b02fb3fe0a947",
+      "sourcePackageVersion": "1.596.7",
+      "intentIds": [
+        "terminal-remote-machine-weekly-usage:12ca9c2f0696468edab157df71f28bd90e3fa8df4cbe8d34853b14d922aa6dfc"
+      ]
     }
   ],
   "intents": [
@@ -201627,6 +201634,14 @@
       "summary": "Terminal's macOS release builds no longer stop for good after the build Mac restarts. The Mac's disk gets a new device number on restart, and the build's leftover-installer check read that as a changed folder, so every later Intel and Apple Silicon build was refused until someone cleared its records by hand.",
       "sourceSha": "e03f479e17e3e5ed1022e0dad13d2d8240560ec4",
       "identity": "macos-dmg-ownership-survives-restart:ef63041d3a770b96594cae689846e26295f407aa2b412e1281336ba45eb5686f"
+    },
+    {
+      "id": "terminal-remote-machine-weekly-usage",
+      "digest": "12ca9c2f0696468edab157df71f28bd90e3fa8df4cbe8d34853b14d922aa6dfc",
+      "type": "patch",
+      "summary": "Orchestrator model pickers now show weekly usage for another of your machines: on the kickoff when Runs on picks it (or Auto does), and in a synced copy when its home is away. The numbers come from the cloud's copy of that machine's last account report, and the tooltip says which machine and how long ago it reported. Each machine's account report now also carries a Local Claude account's Opus and Fable weekly windows, so those per-model bars show from another machine too.",
+      "sourceSha": "4b6bc1e160af0fe622489274657b02fb3fe0a947",
+      "identity": "terminal-remote-machine-weekly-usage:12ca9c2f0696468edab157df71f28bd90e3fa8df4cbe8d34853b14d922aa6dfc"
     }
   ],
   "consumedIntentIds": [
