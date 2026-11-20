@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b68ab896166fa8c007f12f167a344222cf9ce006",
+  "cursorSha": "f665cbab36535ff3d513ef999955dc59531b0a00",
   "highWaterVersion": "1.591.0",
   "rows": [
     {
@@ -185892,6 +185892,13 @@
       "sourceSha": "b68ab896166fa8c007f12f167a344222cf9ce006",
       "sourcePackageVersion": "1.590.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f665cbab36535ff3d513ef999955dc59531b0a00",
+      "sourcePackageVersion": "1.590.6",
+      "intentIds": [
+        "update-menu-redesign-ui:96c710efbe1acb0bc5e7c6308271b5f0cc1b4089c0f140d784df625f4fe76c44"
+      ]
     }
   ],
   "intents": [
@@ -198494,6 +198501,14 @@
       "summary": "⌘K shows ranked Top results when the organization has ranked search on: the server's chats, apps and projects merged with this machine's tabs, machines, files and local projects on one scale.",
       "sourceSha": "ef1434522b78e1dbf4b24264d09652aaf387e19c",
       "identity": "terminal-palette-ranked:d33dc96369fe74c6a7ff62096c91befe73b9e679030d7bef4a27832891d40d53"
+    },
+    {
+      "id": "update-menu-redesign-ui",
+      "digest": "96c710efbe1acb0bc5e7c6308271b5f0cc1b4089c0f140d784df625f4fe76c44",
+      "type": "patch",
+      "summary": "Redesign the Terminal update menu with a What's new changelog from the current version to the proposed update version, inline per-machine Update buttons (preserving earlier per-machine statuses), single-machine popover access with Restart to update, and immediate animated spinner feedback on every update and restart button.",
+      "sourceSha": "f665cbab36535ff3d513ef999955dc59531b0a00",
+      "identity": "update-menu-redesign-ui:96c710efbe1acb0bc5e7c6308271b5f0cc1b4089c0f140d784df625f4fe76c44"
     }
   ],
   "consumedIntentIds": [
