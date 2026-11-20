@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "a89e6ce75f73ff89237377aa601733f37de0029f",
-  "highWaterVersion": "1.594.5",
+  "highWaterVersion": "1.595.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -102335,6 +102335,55 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:a89e6ce75f73ff89237377aa601733f37de0029f",
+      "kind": "main",
+      "sequence": 2549,
+      "sourceSha": "a89e6ce75f73ff89237377aa601733f37de0029f",
+      "sourcePackageVersion": "1.594.5",
+      "version": "1.595.0",
+      "batch": {
+        "intentIds": [
+          "terminal-tiny-helpers:d0cb4f97c499d6b17a8316bd7a3b2b1f67e6c82a2b29aa979e0e1ba3bead428e",
+          "mcp-relay-device-proof:930f9586bf8f0e1cf8316401bbf22055a096bc87a231aa6723a2374387a279a2",
+          "terminal-feature-flags-menu:4dbc57e68ccb6361ea06f3e15dc20201860e2f75a158c8407033a142eaff1734",
+          "chat-model-profiles:94a02757787ba02f35586cfeb2d7001b84f6b6401ab19781e380d8361c908105"
+        ],
+        "notesIntentIds": [
+          "terminal-tiny-helpers:d0cb4f97c499d6b17a8316bd7a3b2b1f67e6c82a2b29aa979e0e1ba3bead428e",
+          "mcp-relay-device-proof:930f9586bf8f0e1cf8316401bbf22055a096bc87a231aa6723a2374387a279a2",
+          "terminal-feature-flags-menu:4dbc57e68ccb6361ea06f3e15dc20201860e2f75a158c8407033a142eaff1734",
+          "chat-model-profiles:94a02757787ba02f35586cfeb2d7001b84f6b6401ab19781e380d8361c908105"
+        ],
+        "throughSourceSha": "a89e6ce75f73ff89237377aa601733f37de0029f",
+        "previousThroughSourceSha": "04cf2a31409cfe3f0dc707af968c5c814a7cae2c",
+        "baselineVersion": "1.594.5",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-20T08:07:38.396Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44699989201",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-21T08:07:29.985Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -201411,7 +201460,11 @@
     "hide-write-with-siri:4856a884b3389a119bf6be47523abd08193917329b77c1a3e4208727b9527d88",
     "shared-orchestrator-wake-rules:404ce2fed65f138080ec4ff60b6051788d9c9179dabf316b260bc559f362e282",
     "in-app-antigravity-terms-pickers-accounts:3ec3a529c2fdbada01ca80f075ce7a50d356eac080470361aa832ad9d0f74fcb",
-    "cli-status-truth:e0a69c3ddb47436fbb3a97c6c096c7cfd6a0fd7b32acdb10ac3d54ac3e526b5b"
+    "cli-status-truth:e0a69c3ddb47436fbb3a97c6c096c7cfd6a0fd7b32acdb10ac3d54ac3e526b5b",
+    "terminal-tiny-helpers:d0cb4f97c499d6b17a8316bd7a3b2b1f67e6c82a2b29aa979e0e1ba3bead428e",
+    "mcp-relay-device-proof:930f9586bf8f0e1cf8316401bbf22055a096bc87a231aa6723a2374387a279a2",
+    "terminal-feature-flags-menu:4dbc57e68ccb6361ea06f3e15dc20201860e2f75a158c8407033a142eaff1734",
+    "chat-model-profiles:94a02757787ba02f35586cfeb2d7001b84f6b6401ab19781e380d8361c908105"
   ],
-  "consumedThroughSha": "04cf2a31409cfe3f0dc707af968c5c814a7cae2c"
+  "consumedThroughSha": "a89e6ce75f73ff89237377aa601733f37de0029f"
 }
