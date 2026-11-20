@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "bf60755199a9ef85911287122e55a6cdd5b4f478",
+  "cursorSha": "8dd3fc8f3f02312cc1935ba1cc2bcb5892397ebc",
   "highWaterVersion": "1.595.0",
   "rows": [
     {
@@ -187098,6 +187098,13 @@
       "sourceSha": "bf60755199a9ef85911287122e55a6cdd5b4f478",
       "sourcePackageVersion": "1.594.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "8dd3fc8f3f02312cc1935ba1cc2bcb5892397ebc",
+      "sourcePackageVersion": "1.594.5",
+      "intentIds": [
+        "fold-reasoning-activity-group:7342641f778362f61946e3096b1f01ce29e052d20e903c897fcf53c2b5f50099"
+      ]
     }
   ],
   "intents": [
@@ -199956,6 +199963,14 @@
       "summary": "Local Orchestrator projects can be started with a forced `context_variant` (an eval-only field on `start_local_orchestrator_project` and its route). The Orchestrator then uses those context flags instead of the organization's and records `forced` in its context profile. No Orchestrator tool can set it. `pnpm orchestrator:eval trial` runs one Orchestrator context eval task against the verification fixture.",
       "sourceSha": "33aaee4073827ab4c8d0af9bf4d366a5573ce481",
       "identity": "orchestrator-context-variant:11f9344a9d90985c3a6080df75670fb5f9c40f9ac07361eb187e630a8ea9309c"
+    },
+    {
+      "id": "fold-reasoning-activity-group",
+      "digest": "7342641f778362f61946e3096b1f01ce29e052d20e903c897fcf53c2b5f50099",
+      "type": "patch",
+      "summary": "Fold interleaved reasoning/thinking chunks and tool calls into one collapsible activity group (`N tools used · M thoughts`) with a bounded 2-line live preview for active trailing thoughts, and collapse settled standalone reasoning blocks to one line (#24575).",
+      "sourceSha": "8dd3fc8f3f02312cc1935ba1cc2bcb5892397ebc",
+      "identity": "fold-reasoning-activity-group:7342641f778362f61946e3096b1f01ce29e052d20e903c897fcf53c2b5f50099"
     }
   ],
   "consumedIntentIds": [
