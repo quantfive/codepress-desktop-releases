@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5a8eae1aca094718f61af1acd394492cd0368d07",
+  "cursorSha": "bfbed36e97157c1362a732d4b23d10c222da3282",
   "highWaterVersion": "1.597.0",
   "rows": [
     {
@@ -188939,6 +188939,13 @@
       "sourceSha": "5a8eae1aca094718f61af1acd394492cd0368d07",
       "sourcePackageVersion": "1.596.15",
       "intentIds": []
+    },
+    {
+      "sourceSha": "bfbed36e97157c1362a732d4b23d10c222da3282",
+      "sourcePackageVersion": "1.596.15",
+      "intentIds": [
+        "orchestrator-shared-machine-reads:4c9daf942aa78d46ee06b41069086acbc7c55b8c855047b7cc30ed092814acd4"
+      ]
     }
   ],
   "intents": [
@@ -202005,6 +202012,14 @@
       "summary": "A teammate's chat or project that a shared computer refuses now says why, with the owner's next step, instead of only a code.",
       "sourceSha": "d6e7ba3ca9d31d620c67b5029e0d5bf0a7c25afe",
       "identity": "teammate-kickoff-refusal-sentences:bc2732a9f1a2a08663f71740b5c57c05e2c256563e0c73d93521769f309bd12d"
+    },
+    {
+      "id": "orchestrator-shared-machine-reads",
+      "digest": "4c9daf942aa78d46ee06b41069086acbc7c55b8c855047b7cc30ed092814acd4",
+      "type": "patch",
+      "summary": "An Orchestrator can list and read your own projects on a machine shared with you. `list_orchestrators` and `read_orchestrator_chat` with that machine's id now answer with only your projects there, instead of refusing.",
+      "sourceSha": "bfbed36e97157c1362a732d4b23d10c222da3282",
+      "identity": "orchestrator-shared-machine-reads:4c9daf942aa78d46ee06b41069086acbc7c55b8c855047b7cc30ed092814acd4"
     }
   ],
   "consumedIntentIds": [
