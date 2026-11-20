@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5159ec999678cc18a22a541d1c45f4e64897920c",
+  "cursorSha": "33aaee4073827ab4c8d0af9bf4d366a5573ce481",
   "highWaterVersion": "1.595.0",
   "rows": [
     {
@@ -187076,6 +187076,13 @@
       "sourceSha": "5159ec999678cc18a22a541d1c45f4e64897920c",
       "sourcePackageVersion": "1.594.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "33aaee4073827ab4c8d0af9bf4d366a5573ce481",
+      "sourcePackageVersion": "1.594.5",
+      "intentIds": [
+        "orchestrator-context-variant:11f9344a9d90985c3a6080df75670fb5f9c40f9ac07361eb187e630a8ea9309c"
+      ]
     }
   ],
   "intents": [
@@ -199926,6 +199933,14 @@
       "summary": "A personal automation with the AWS broker on can now run on its owner's machine: Terminal says it takes broker-minted AWS keys, and the automation sandbox hands them to the handler in its secrets and environment.",
       "sourceSha": "adcd61e0c22d7a3a1d7da95d80aa1aee42037d6f",
       "identity": "terminal-aws-broker-env:b4e37f4e9a2f87de113ff7d970538dac6fe2e5661f8e3fb47916a68bf43db95b"
+    },
+    {
+      "id": "orchestrator-context-variant",
+      "digest": "11f9344a9d90985c3a6080df75670fb5f9c40f9ac07361eb187e630a8ea9309c",
+      "type": "patch",
+      "summary": "Local Orchestrator projects can be started with a forced `context_variant` (an eval-only field on `start_local_orchestrator_project` and its route). The Orchestrator then uses those context flags instead of the organization's and records `forced` in its context profile. No Orchestrator tool can set it. `pnpm orchestrator:eval trial` runs one Orchestrator context eval task against the verification fixture.",
+      "sourceSha": "33aaee4073827ab4c8d0af9bf4d366a5573ce481",
+      "identity": "orchestrator-context-variant:11f9344a9d90985c3a6080df75670fb5f9c40f9ac07361eb187e630a8ea9309c"
     }
   ],
   "consumedIntentIds": [
