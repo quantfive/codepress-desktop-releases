@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "79021e44f77f6d6f28eb6146c1eca96880ae0c11",
+  "cursorSha": "cbee5d5961e4ca54ba02c7a4039fdf2a0860ff5e",
   "highWaterVersion": "1.592.1",
   "rows": [
     {
@@ -186272,6 +186272,20 @@
       "sourceSha": "79021e44f77f6d6f28eb6146c1eca96880ae0c11",
       "sourcePackageVersion": "1.592.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "46bda51d0a2cc90f6f7d38318019d66519f357c5",
+      "sourcePackageVersion": "1.592.0",
+      "intentIds": [
+        "shared-ui-guards-formatters:f5b736c551cf0370d79f4750e8432ec499336e644a829867b46dacd5246b3268"
+      ]
+    },
+    {
+      "sourceSha": "cbee5d5961e4ca54ba02c7a4039fdf2a0860ff5e",
+      "sourcePackageVersion": "1.592.0",
+      "intentIds": [
+        "orchestrator-context-eval:ca8c34f291717c4cf5a70607fafec2246b40ee4ee2b4b3df959b240422e7b045"
+      ]
     }
   ],
   "intents": [
@@ -198946,6 +198960,22 @@
       "summary": "Run my automations on this machine is now the only step: turning it on takes one password dialog, which also lets every one of your automations run here without asking for each one. Sandbox setup then runs by itself with a progress bar and no other password (and carries on after a restart; Apple silicon on macOS 26 uses Apple's container tool if it is already installed, and offers it as an optional upgrade otherwise), an unconfirmed machine emails you the confirmation link, and none of your own automations waits under \"Waiting for you\". Machines where the switch was already on finish this by themselves after updating.",
       "sourceSha": "c313b42812cff63b626c1398e274ece3e67709dc",
       "identity": "one-switch-automations:12e183ff451f53661c9728d234e1a64f7d85ece19fc7ea3ad6b9587ae440446a"
+    },
+    {
+      "id": "shared-ui-guards-formatters",
+      "digest": "f5b736c551cf0370d79f4750e8432ec499336e644a829867b46dacd5246b3268",
+      "type": "patch",
+      "summary": "Shared screens now use one copy of their small text and data-shape helpers. Nothing you see changes.",
+      "sourceSha": "46bda51d0a2cc90f6f7d38318019d66519f357c5",
+      "identity": "shared-ui-guards-formatters:f5b736c551cf0370d79f4750e8432ec499336e644a829867b46dacd5246b3268"
+    },
+    {
+      "id": "orchestrator-context-eval",
+      "digest": "ca8c34f291717c4cf5a70607fafec2246b40ee4ee2b4b3df959b240422e7b045",
+      "type": "patch",
+      "summary": "Development only, no change to the app: `pnpm orchestrator:eval` launches a local Orchestrator from a checkout to measure what its first call costs and to score nine scripted scenarios, and compares two checkouts.",
+      "sourceSha": "cbee5d5961e4ca54ba02c7a4039fdf2a0860ff5e",
+      "identity": "orchestrator-context-eval:ca8c34f291717c4cf5a70607fafec2246b40ee4ee2b4b3df959b240422e7b045"
     }
   ],
   "consumedIntentIds": [
