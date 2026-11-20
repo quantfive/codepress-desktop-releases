@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "45587de7c7a4953e049a1c69cc7750d57eed1c90",
+  "cursorSha": "4bd15742ea3df0b31d6413a5ea69135f75ee1f27",
   "highWaterVersion": "1.590.4",
   "rows": [
     {
@@ -185573,6 +185573,13 @@
       "sourceSha": "45587de7c7a4953e049a1c69cc7750d57eed1c90",
       "sourcePackageVersion": "1.590.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4bd15742ea3df0b31d6413a5ea69135f75ee1f27",
+      "sourcePackageVersion": "1.590.3",
+      "intentIds": [
+        "orchestrator-plans-questions:0f0dc0bedacf78a281356237b558fea27a4b2990b11a18cea116f53cc6e39411"
+      ]
     }
   ],
   "intents": [
@@ -198103,6 +198110,14 @@
       "summary": "The Orchestrator keeps status posts to the status line plus a sentence or two, and sends findings, explanations and recommendations as ordinary messages.",
       "sourceSha": "019d8af88f2845ec806257388ff6f042e3176834",
       "identity": "orchestrator-short-status-posts:f6920f53fdd6da538d8e48c2652c3c9037211d01f7d114278512bfa93f117ce3"
+    },
+    {
+      "id": "orchestrator-plans-questions",
+      "digest": "0f0dc0bedacf78a281356237b558fea27a4b2990b11a18cea116f53cc6e39411",
+      "type": "patch",
+      "summary": "The Orchestrator now plans a brief phrased as a question (\"how do we fix it?\", \"shouldn't this be smaller?\") in the same turn: it answers, then publishes the plan and asks you to approve it, instead of ending with \"Want me to plan it?\". A question it has to ask you before planning shows in the answer dock. The plan still needs your approval before anything is built.",
+      "sourceSha": "4bd15742ea3df0b31d6413a5ea69135f75ee1f27",
+      "identity": "orchestrator-plans-questions:0f0dc0bedacf78a281356237b558fea27a4b2990b11a18cea116f53cc6e39411"
     }
   ],
   "consumedIntentIds": [
