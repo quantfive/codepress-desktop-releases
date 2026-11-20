@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "001ddb9dae618e890430223fdff4e7f2c50ee0ad",
+  "cursorSha": "b0608d2d0f150920d4bbe7c2a182cb283858d33a",
   "highWaterVersion": "1.596.9",
   "rows": [
     {
@@ -188278,6 +188278,13 @@
       "sourceSha": "001ddb9dae618e890430223fdff4e7f2c50ee0ad",
       "sourcePackageVersion": "1.596.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b0608d2d0f150920d4bbe7c2a182cb283858d33a",
+      "sourcePackageVersion": "1.596.7",
+      "intentIds": [
+        "acp-steer-tool-boundary:bf673bccfa1ea927bdff5f44e69759922df3d2cb263096b7e3dc11cfd5c7b329"
+      ]
     }
   ],
   "intents": [
@@ -201256,6 +201263,14 @@
       "summary": "The local Orchestrator project settings tool no longer says a planning or building model needs the Model profiles and planning model switch, because that switch is being removed and the planning model is available to everyone.",
       "sourceSha": "ec0d9285d7365702e38ad179465a276bad83b313",
       "identity": "model-profiles-tool-no-switch:64e8641b32767fda39dc009307147fa66da98cf32bc9c95a82de4c0e765d8ae8"
+    },
+    {
+      "id": "acp-steer-tool-boundary",
+      "digest": "bf673bccfa1ea927bdff5f44e69759922df3d2cb263096b7e3dc11cfd5c7b329",
+      "type": "patch",
+      "summary": "A Gemini Orchestrator now reads a message you send while it works as soon as its current tool call finishes, instead of after its whole reply.",
+      "sourceSha": "b0608d2d0f150920d4bbe7c2a182cb283858d33a",
+      "identity": "acp-steer-tool-boundary:bf673bccfa1ea927bdff5f44e69759922df3d2cb263096b7e3dc11cfd5c7b329"
     }
   ],
   "consumedIntentIds": [
