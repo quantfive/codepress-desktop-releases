@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2e7d04d1feff7c276e3f6b9dc834fa16412d547b",
+  "cursorSha": "128763d25f7b10950455638a144f875b4755536c",
   "highWaterVersion": "1.593.0",
   "rows": [
     {
@@ -186378,6 +186378,13 @@
       "sourceSha": "2e7d04d1feff7c276e3f6b9dc834fa16412d547b",
       "sourcePackageVersion": "1.592.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "128763d25f7b10950455638a144f875b4755536c",
+      "sourcePackageVersion": "1.592.1",
+      "intentIds": [
+        "local-pm-acp-reasoning-block:50a2601a0796ee7d617636cef7f5d4e826d36cd337be4c1bda76f11f12248493"
+      ]
     }
   ],
   "intents": [
@@ -199084,6 +199091,14 @@
       "summary": "Machines can run TypeScript automations built for Workers: the sandbox runs the bundle with Node under the same event and callback contract as Workers, and Terminal tells CodePress it can (`run_ts_automations`) once its sandbox has qualified.",
       "sourceSha": "3980a3943e6f3b7c84e7fa81b9a086ea70d8d4b7",
       "identity": "terminal-workers-automations:6fb42fe7ec2080c82760a45f5a832fea1f3f37ec070443f5c27b8a5d7ce99a78"
+    },
+    {
+      "id": "local-pm-acp-reasoning-block",
+      "digest": "50a2601a0796ee7d617636cef7f5d4e826d36cd337be4c1bda76f11f12248493",
+      "type": "patch",
+      "summary": "Local Orchestrators running over ACP (including Gemini on `agy acp`) now stream `agent_thought_chunk` updates into the existing collapsible `ReasoningBlock` across Terminal desktop, web synced copies, and phone web.",
+      "sourceSha": "128763d25f7b10950455638a144f875b4755536c",
+      "identity": "local-pm-acp-reasoning-block:50a2601a0796ee7d617636cef7f5d4e826d36cd337be4c1bda76f11f12248493"
     }
   ],
   "consumedIntentIds": [
