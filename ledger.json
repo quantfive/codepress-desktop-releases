@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "49b3c6ca35c4688b4f60ac822b5f6216acb59b39",
-  "highWaterVersion": "1.596.15",
+  "highWaterVersion": "1.597.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -103419,6 +103419,55 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:49b3c6ca35c4688b4f60ac822b5f6216acb59b39",
+      "kind": "main",
+      "sequence": 2569,
+      "sourceSha": "49b3c6ca35c4688b4f60ac822b5f6216acb59b39",
+      "sourcePackageVersion": "1.596.14",
+      "version": "1.597.0",
+      "batch": {
+        "intentIds": [
+          "live-app-screen-annotation:369675c2941f0a45e97cba84597050b6eb5aaef3c674e3c5b0ebd3930b9fffe6",
+          "app-onboarding-v2-everyone:34f9160e13b47e36624d04b991b83474d710b75f993ddb1e494d6f9cc77f497d",
+          "design-kit-offer-every-org:03c6ae54f79e52d7a70089cfdede56212f055b36dbe412472cf1d6a87d85156b",
+          "theme-save-waits-for-settings-lock:74852fd1723f3edf61b9ea75452a90c554ff9bcc65299e4ba937ee4344c75705"
+        ],
+        "notesIntentIds": [
+          "live-app-screen-annotation:369675c2941f0a45e97cba84597050b6eb5aaef3c674e3c5b0ebd3930b9fffe6",
+          "app-onboarding-v2-everyone:34f9160e13b47e36624d04b991b83474d710b75f993ddb1e494d6f9cc77f497d",
+          "design-kit-offer-every-org:03c6ae54f79e52d7a70089cfdede56212f055b36dbe412472cf1d6a87d85156b",
+          "theme-save-waits-for-settings-lock:74852fd1723f3edf61b9ea75452a90c554ff9bcc65299e4ba937ee4344c75705"
+        ],
+        "throughSourceSha": "49b3c6ca35c4688b4f60ac822b5f6216acb59b39",
+        "previousThroughSourceSha": "568f7332f408093397d9995da89de792162d1d75",
+        "baselineVersion": "1.596.15",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-20T22:09:34.551Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44826474276",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-21T22:09:26.786Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -203542,7 +203591,11 @@
     "teammate-workers-own-work-dir:fe148239c8ec13c09289d7343e4b7790ee05dd993be1ce793df6422a0484c066",
     "macos-dmg-ownership-survives-restart:ef63041d3a770b96594cae689846e26295f407aa2b412e1281336ba45eb5686f",
     "terminal-remote-machine-weekly-usage:12ca9c2f0696468edab157df71f28bd90e3fa8df4cbe8d34853b14d922aa6dfc",
-    "kickoff-no-after-you-send:ab56ddebac6a2933d380cedf518439c344d9d6a0171b49f6f3ae5e4b6e10cd72"
+    "kickoff-no-after-you-send:ab56ddebac6a2933d380cedf518439c344d9d6a0171b49f6f3ae5e4b6e10cd72",
+    "live-app-screen-annotation:369675c2941f0a45e97cba84597050b6eb5aaef3c674e3c5b0ebd3930b9fffe6",
+    "app-onboarding-v2-everyone:34f9160e13b47e36624d04b991b83474d710b75f993ddb1e494d6f9cc77f497d",
+    "design-kit-offer-every-org:03c6ae54f79e52d7a70089cfdede56212f055b36dbe412472cf1d6a87d85156b",
+    "theme-save-waits-for-settings-lock:74852fd1723f3edf61b9ea75452a90c554ff9bcc65299e4ba937ee4344c75705"
   ],
-  "consumedThroughSha": "568f7332f408093397d9995da89de792162d1d75"
+  "consumedThroughSha": "49b3c6ca35c4688b4f60ac822b5f6216acb59b39"
 }
