@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4bd15742ea3df0b31d6413a5ea69135f75ee1f27",
+  "cursorSha": "4e63fc5fd44ed8a87da507c850dd967de17d318f",
   "highWaterVersion": "1.590.4",
   "rows": [
     {
@@ -185580,6 +185580,13 @@
       "intentIds": [
         "orchestrator-plans-questions:0f0dc0bedacf78a281356237b558fea27a4b2990b11a18cea116f53cc6e39411"
       ]
+    },
+    {
+      "sourceSha": "4e63fc5fd44ed8a87da507c850dd967de17d318f",
+      "sourcePackageVersion": "1.590.3",
+      "intentIds": [
+        "live-display-switch:6c5626d906541e08220e9f5081e29177cfb33a186b87b052a893fc8bffdb6c8a"
+      ]
     }
   ],
   "intents": [
@@ -198118,6 +198125,14 @@
       "summary": "The Orchestrator now plans a brief phrased as a question (\"how do we fix it?\", \"shouldn't this be smaller?\") in the same turn: it answers, then publishes the plan and asks you to approve it, instead of ending with \"Want me to plan it?\". A question it has to ask you before planning shows in the answer dock. The plan still needs your approval before anything is built.",
       "sourceSha": "4bd15742ea3df0b31d6413a5ea69135f75ee1f27",
       "identity": "orchestrator-plans-questions:0f0dc0bedacf78a281356237b558fea27a4b2990b11a18cea116f53cc6e39411"
+    },
+    {
+      "id": "live-display-switch",
+      "digest": "6c5626d906541e08220e9f5081e29177cfb33a186b87b052a893fc8bffdb6c8a",
+      "type": "patch",
+      "summary": "Remote Desktop: switch displays without disconnecting. The Display menu stays usable while connected; picking another display shows \"Switching to <display>…\" over the last picture and comes back live on the chosen display by itself.",
+      "sourceSha": "4e63fc5fd44ed8a87da507c850dd967de17d318f",
+      "identity": "live-display-switch:6c5626d906541e08220e9f5081e29177cfb33a186b87b052a893fc8bffdb6c8a"
     }
   ],
   "consumedIntentIds": [
