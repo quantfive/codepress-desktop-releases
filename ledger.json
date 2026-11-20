@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "db0f913d96a5ea860c211d6bd41bb1c89fa16de7",
-  "highWaterVersion": "1.597.1",
+  "highWaterVersion": "1.598.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -103521,6 +103521,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:db0f913d96a5ea860c211d6bd41bb1c89fa16de7",
+      "kind": "main",
+      "sequence": 2571,
+      "sourceSha": "db0f913d96a5ea860c211d6bd41bb1c89fa16de7",
+      "sourcePackageVersion": "1.597.1",
+      "version": "1.598.0",
+      "batch": {
+        "intentIds": [
+          "autocompact-scope-watch-shared-worker:a6c1a05242d61d17feb90ccaff6b2a53fc230a2b7a0acfa379e4aa7159d5395e",
+          "terminal-browser-annotate-and-staff-redline:ada3004effd1451e9d48acfd17d333ebe0c1fa54c8225dc51504ddefb1d866f2"
+        ],
+        "notesIntentIds": [
+          "autocompact-scope-watch-shared-worker:a6c1a05242d61d17feb90ccaff6b2a53fc230a2b7a0acfa379e4aa7159d5395e",
+          "terminal-browser-annotate-and-staff-redline:ada3004effd1451e9d48acfd17d333ebe0c1fa54c8225dc51504ddefb1d866f2"
+        ],
+        "throughSourceSha": "db0f913d96a5ea860c211d6bd41bb1c89fa16de7",
+        "previousThroughSourceSha": "d2327e89008091cc4dbd87cb72283bce04f5c869",
+        "baselineVersion": "1.597.1",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-20T22:56:46.958Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44832904406",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-21T22:56:38.075Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -203760,7 +203805,9 @@
     "design-kit-offer-every-org:03c6ae54f79e52d7a70089cfdede56212f055b36dbe412472cf1d6a87d85156b",
     "theme-save-waits-for-settings-lock:74852fd1723f3edf61b9ea75452a90c554ff9bcc65299e4ba937ee4344c75705",
     "teammate-kickoff-refusal-sentences:bc2732a9f1a2a08663f71740b5c57c05e2c256563e0c73d93521769f309bd12d",
-    "orchestrator-shared-machine-reads:4c9daf942aa78d46ee06b41069086acbc7c55b8c855047b7cc30ed092814acd4"
+    "orchestrator-shared-machine-reads:4c9daf942aa78d46ee06b41069086acbc7c55b8c855047b7cc30ed092814acd4",
+    "autocompact-scope-watch-shared-worker:a6c1a05242d61d17feb90ccaff6b2a53fc230a2b7a0acfa379e4aa7159d5395e",
+    "terminal-browser-annotate-and-staff-redline:ada3004effd1451e9d48acfd17d333ebe0c1fa54c8225dc51504ddefb1d866f2"
   ],
-  "consumedThroughSha": "d2327e89008091cc4dbd87cb72283bce04f5c869"
+  "consumedThroughSha": "db0f913d96a5ea860c211d6bd41bb1c89fa16de7"
 }
