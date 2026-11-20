@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "461f9ff4fe1dd1582d1df7ddabea9844bf4dbae1",
+  "cursorSha": "81a7eea80adfd57f0f55bf06eac85bd50face721",
   "highWaterVersion": "1.591.2",
   "rows": [
     {
@@ -186034,6 +186034,13 @@
       "sourceSha": "461f9ff4fe1dd1582d1df7ddabea9844bf4dbae1",
       "sourcePackageVersion": "1.591.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "81a7eea80adfd57f0f55bf06eac85bd50face721",
+      "sourcePackageVersion": "1.591.1",
+      "intentIds": [
+        "orchestrator-run-model-env:077c3b443a8362ace56f97c481d367ce959305b6bed78ae0de2a8bee7355977c"
+      ]
     }
   ],
   "intents": [
@@ -198660,6 +198667,14 @@
       "summary": "Refusals from your other machines now read the same on every screen. A machine that can't be reached says \"<machine> is asleep, so it can't <do this> right now\", or \"offline\" or \"not running\" (for a cloud machine) in place of \"asleep\". A lost answer says \"<machine> didn't answer\", and an older app says it needs a newer CodePress app. A connection that moved mid-request now counts as away everywhere, and a message refused because the project moved says so.",
       "sourceSha": "fdb0396f5d3ac4a4cef68ebbbc81cea0d8b0c446",
       "identity": "one-refusal-sentence-set:92607ffc7dce1f217cba7356ee92783beee8cfcee2b16eac16c22a86be68460d"
+    },
+    {
+      "id": "orchestrator-run-model-env",
+      "digest": "077c3b443a8362ace56f97c481d367ce959305b6bed78ae0de2a8bee7355977c",
+      "type": "patch",
+      "summary": "Orchestrator: when a Claude Orchestrator changes model mid-conversation (for example planning on Fable 5.2 and building on Opus 5.5), each turn now gets the context window, compaction point and Status context meter of the model it runs on, instead of the model the conversation started on.",
+      "sourceSha": "81a7eea80adfd57f0f55bf06eac85bd50face721",
+      "identity": "orchestrator-run-model-env:077c3b443a8362ace56f97c481d367ce959305b6bed78ae0de2a8bee7355977c"
     }
   ],
   "consumedIntentIds": [
