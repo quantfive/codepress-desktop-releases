@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e7cbebb88f6ec166cee9c1fbc4802db04d78177e",
+  "cursorSha": "68a2b38b926980fc47d79f6589fea1d68d40769c",
   "highWaterVersion": "1.594.2",
   "rows": [
     {
@@ -186654,6 +186654,13 @@
       "sourceSha": "e7cbebb88f6ec166cee9c1fbc4802db04d78177e",
       "sourcePackageVersion": "1.594.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "68a2b38b926980fc47d79f6589fea1d68d40769c",
+      "sourcePackageVersion": "1.594.0",
+      "intentIds": [
+        "fleet-download-progress:2a86e071a44cc6fe14596063fcd136ce964bf2113d2fd4ba3b51ba590fad9bb2"
+      ]
     }
   ],
   "intents": [
@@ -199408,6 +199415,14 @@
       "summary": "Stop posting the one-time Gemini Google sign-in `worker_model` thread note in Orchestrator projects when launching or relaunching Gemini workers on a Google sign-in.",
       "sourceSha": "42d177f4f0a1701e7fda5cbeebd459170a8f600b",
       "identity": "remove-gemini-worker-thread-note:8b827c540ee2023bd5ef290d079eeea5412ceb643f5b883d511cf4e7c4cdcad8"
+    },
+    {
+      "id": "fleet-download-progress",
+      "digest": "2a86e071a44cc6fe14596063fcd136ce964bf2113d2fd4ba3b51ba590fad9bb2",
+      "type": "patch",
+      "summary": "The update popover shows how far each machine's download has come: a progress bar and \"Downloading 42%\", or \"Downloading…\" while no percent is known. A Server CLI says whether it is downloading, checking or finishing its update. Each machine that can update names its own target (\"Update ready · v1.592.0\"), in the popover, Settings → Computers and My Computers on the web.",
+      "sourceSha": "68a2b38b926980fc47d79f6589fea1d68d40769c",
+      "identity": "fleet-download-progress:2a86e071a44cc6fe14596063fcd136ce964bf2113d2fd4ba3b51ba590fad9bb2"
     }
   ],
   "consumedIntentIds": [
