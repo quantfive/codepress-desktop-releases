@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ae8e74be491a034488c980d8342654a8d178a8d5",
+  "cursorSha": "0e01f85a3cbd2d6403d6f669f6dc41e3dca2da4c",
   "highWaterVersion": "1.596.8",
   "rows": [
     {
@@ -188139,6 +188139,13 @@
       "sourceSha": "ae8e74be491a034488c980d8342654a8d178a8d5",
       "sourcePackageVersion": "1.596.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0e01f85a3cbd2d6403d6f669f6dc41e3dca2da4c",
+      "sourcePackageVersion": "1.596.7",
+      "intentIds": [
+        "trim-live-thought-preview:7327088cf87c00cdef5fd99244760acfaeb751cc98ae7ac66852713629b0c02f"
+      ]
     }
   ],
   "intents": [
@@ -201101,6 +201108,14 @@
       "summary": "On the App page toolbar, Reload and Open in new tab now hover as circles that fit their round pill, and every medium segmented control (such as Desktop · Tablet · Phone and the Settings tabs) draws its selected segment with corners that nest inside the track instead of a squarer 6px segment in a 12px track.",
       "sourceSha": "4d0e20b88126edff4a7db9c3c10fff1741a7504e",
       "identity": "app-toolbar-hover-shape:4156704054e000a7f276ba347a72a7b275c2bcb2569dadbabf2f9eb2bf66a6ad"
+    },
+    {
+      "id": "trim-live-thought-preview",
+      "digest": "7327088cf87c00cdef5fd99244760acfaeb751cc98ae7ac66852713629b0c02f",
+      "type": "patch",
+      "summary": "Trim surrounding whitespace from a live thought before rendering it, so the bottom-anchored 2-line reasoning preview shows the thought's last words instead of an empty line when the thought ends in blank lines (as Gemini thoughts do).",
+      "sourceSha": "0e01f85a3cbd2d6403d6f669f6dc41e3dca2da4c",
+      "identity": "trim-live-thought-preview:7327088cf87c00cdef5fd99244760acfaeb751cc98ae7ac66852713629b0c02f"
     }
   ],
   "consumedIntentIds": [
