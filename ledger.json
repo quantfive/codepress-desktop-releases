@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "8ace1b2389159a0ed97da6a3ddcf577082a49a50",
+  "cursorSha": "f889699bcbfe228b62ab364992be0d8c84e161bc",
   "highWaterVersion": "1.596.15",
   "rows": [
     {
@@ -188827,6 +188827,20 @@
       "intentIds": [
         "app-onboarding-v2-everyone:34f9160e13b47e36624d04b991b83474d710b75f993ddb1e494d6f9cc77f497d"
       ]
+    },
+    {
+      "sourceSha": "f63447b30d120ae26b02165c9eab5de42158540f",
+      "sourcePackageVersion": "1.596.14",
+      "intentIds": [
+        "design-kit-offer-every-org:03c6ae54f79e52d7a70089cfdede56212f055b36dbe412472cf1d6a87d85156b"
+      ]
+    },
+    {
+      "sourceSha": "f889699bcbfe228b62ab364992be0d8c84e161bc",
+      "sourcePackageVersion": "1.596.14",
+      "intentIds": [
+        "theme-save-waits-for-settings-lock:74852fd1723f3edf61b9ea75452a90c554ff9bcc65299e4ba937ee4344c75705"
+      ]
     }
   ],
   "intents": [
@@ -201869,6 +201883,22 @@
       "summary": "Everyone who signs in to the desktop app now gets the new setup: it picks up your finished workspace, offers to join your team's, or walks you through setting up a new one, and the workspace switcher offers Add workspace on this machine. Signing in later with no workspace opens the same setup, where it used to offer a dialog you could dismiss with Not now; the free plan finishes it without paying. Signed out and Continue locally are unchanged. Replay onboarding in Settings → General stays for Quant Five accounts.",
       "sourceSha": "8ace1b2389159a0ed97da6a3ddcf577082a49a50",
       "identity": "app-onboarding-v2-everyone:34f9160e13b47e36624d04b991b83474d710b75f993ddb1e494d6f9cc77f497d"
+    },
+    {
+      "id": "design-kit-offer-every-org",
+      "digest": "03c6ae54f79e52d7a70089cfdede56212f055b36dbe412472cf1d6a87d85156b",
+      "type": "patch",
+      "summary": "When an Orchestrator draws mockups for a repository with no design kit, it now offers to set one up in every organization, not only where a feature flag was on. It first checks whether your organization already declined a kit for that repository, and when you say no it records that, so no later project offers it there again.",
+      "sourceSha": "f63447b30d120ae26b02165c9eab5de42158540f",
+      "identity": "design-kit-offer-every-org:03c6ae54f79e52d7a70089cfdede56212f055b36dbe412472cf1d6a87d85156b"
+    },
+    {
+      "id": "theme-save-waits-for-settings-lock",
+      "digest": "74852fd1723f3edf61b9ea75452a90c554ff9bcc65299e4ba937ee4344c75705",
+      "type": "patch",
+      "summary": "Choosing a theme (in onboarding or Settings), keep-awake or the update channel no longer fails with \"Settings were not saved\" when the background service is saving settings at the same moment: the save now waits up to 2 seconds for it, off the main thread, so the window stays responsive. On Windows, a settings replace that antivirus or the indexer blocks for a moment is retried instead of failing. When a save still cannot land, the alert says another part of CodePress was saving settings instead of showing \"busy\".",
+      "sourceSha": "f889699bcbfe228b62ab364992be0d8c84e161bc",
+      "identity": "theme-save-waits-for-settings-lock:74852fd1723f3edf61b9ea75452a90c554ff9bcc65299e4ba937ee4344c75705"
     }
   ],
   "consumedIntentIds": [
