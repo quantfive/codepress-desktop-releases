@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "52291f25c4f14840568110d09e7f3b84c6fa3b29",
+  "cursorSha": "adcd61e0c22d7a3a1d7da95d80aa1aee42037d6f",
   "highWaterVersion": "1.595.0",
   "rows": [
     {
@@ -187034,6 +187034,13 @@
       "sourceSha": "52291f25c4f14840568110d09e7f3b84c6fa3b29",
       "sourcePackageVersion": "1.594.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "adcd61e0c22d7a3a1d7da95d80aa1aee42037d6f",
+      "sourcePackageVersion": "1.594.5",
+      "intentIds": [
+        "terminal-aws-broker-env:b4e37f4e9a2f87de113ff7d970538dac6fe2e5661f8e3fb47916a68bf43db95b"
+      ]
     }
   ],
   "intents": [
@@ -199876,6 +199883,14 @@
       "summary": "With your Model profiles switch on, every chat's model menu now has the Profiles strip a project's has: one tap sets the chat's model and effort to the profile's Orchestrator, and Save current saves the chat's model. On a phone the Profiles section starts collapsed to one row, and a project's roles stack one per row. Manage in the model menu opens Settings at Model profiles.",
       "sourceSha": "a59bae62b2915ab771242d68150d1719ce00024b",
       "identity": "chat-model-profiles:94a02757787ba02f35586cfeb2d7001b84f6b6401ab19781e380d8361c908105"
+    },
+    {
+      "id": "terminal-aws-broker-env",
+      "digest": "b4e37f4e9a2f87de113ff7d970538dac6fe2e5661f8e3fb47916a68bf43db95b",
+      "type": "patch",
+      "summary": "A personal automation with the AWS broker on can now run on its owner's machine: Terminal says it takes broker-minted AWS keys, and the automation sandbox hands them to the handler in its secrets and environment.",
+      "sourceSha": "adcd61e0c22d7a3a1d7da95d80aa1aee42037d6f",
+      "identity": "terminal-aws-broker-env:b4e37f4e9a2f87de113ff7d970538dac6fe2e5661f8e3fb47916a68bf43db95b"
     }
   ],
   "consumedIntentIds": [
