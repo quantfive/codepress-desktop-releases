@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "6de231aca508a66a7c33c0047ea3944b5ca82ffd",
-  "highWaterVersion": "1.590.4",
+  "highWaterVersion": "1.590.5",
   "rows": [
     {
       "schemaVersion": 1,
@@ -101613,6 +101613,57 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:6de231aca508a66a7c33c0047ea3944b5ca82ffd",
+      "kind": "main",
+      "sequence": 2535,
+      "sourceSha": "6de231aca508a66a7c33c0047ea3944b5ca82ffd",
+      "sourcePackageVersion": "1.590.3",
+      "version": "1.590.5",
+      "batch": {
+        "intentIds": [
+          "orchestrator-plans-questions:0f0dc0bedacf78a281356237b558fea27a4b2990b11a18cea116f53cc6e39411",
+          "live-display-switch:6c5626d906541e08220e9f5081e29177cfb33a186b87b052a893fc8bffdb6c8a",
+          "worker-notes-on-card:d4dd596757bbbb2a636aa0805f6c799847133359c4fcdf30cf9100eaf397103a",
+          "palette-ranked-scorer:e2c2796ac20043960bbf84ef7924322065a47d2f1de329f436b289ddfc72fd47",
+          "status-card-body-below:f67d8ed5118cb2e749aacd103d9ba28c6594ca592fce830cca7f43f6535a1e87"
+        ],
+        "notesIntentIds": [
+          "orchestrator-plans-questions:0f0dc0bedacf78a281356237b558fea27a4b2990b11a18cea116f53cc6e39411",
+          "live-display-switch:6c5626d906541e08220e9f5081e29177cfb33a186b87b052a893fc8bffdb6c8a",
+          "worker-notes-on-card:d4dd596757bbbb2a636aa0805f6c799847133359c4fcdf30cf9100eaf397103a",
+          "palette-ranked-scorer:e2c2796ac20043960bbf84ef7924322065a47d2f1de329f436b289ddfc72fd47",
+          "status-card-body-below:f67d8ed5118cb2e749aacd103d9ba28c6594ca592fce830cca7f43f6535a1e87"
+        ],
+        "throughSourceSha": "6de231aca508a66a7c33c0047ea3944b5ca82ffd",
+        "previousThroughSourceSha": "45587de7c7a4953e049a1c69cc7750d57eed1c90",
+        "baselineVersion": "1.590.4",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-20T01:48:56.190Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44656253656",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-21T01:48:48.065Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -199769,7 +199820,12 @@
     "thread-plan-approval:2d02f403c1742c1d514484634a85ee7dec962725bab8483fcc974150394661d2",
     "fleet-update-changelog-endpoint:2bd20855e457b5ec527b0cdcf1f8d54ebeaeae6712c0904e126800af7ba2b8aa",
     "ptmp-read-file:9191e8618e0dbe7545636e81533ef6fd08697e0d4920f20db737786ca0257d72",
-    "orchestrator-short-status-posts:f6920f53fdd6da538d8e48c2652c3c9037211d01f7d114278512bfa93f117ce3"
+    "orchestrator-short-status-posts:f6920f53fdd6da538d8e48c2652c3c9037211d01f7d114278512bfa93f117ce3",
+    "orchestrator-plans-questions:0f0dc0bedacf78a281356237b558fea27a4b2990b11a18cea116f53cc6e39411",
+    "live-display-switch:6c5626d906541e08220e9f5081e29177cfb33a186b87b052a893fc8bffdb6c8a",
+    "worker-notes-on-card:d4dd596757bbbb2a636aa0805f6c799847133359c4fcdf30cf9100eaf397103a",
+    "palette-ranked-scorer:e2c2796ac20043960bbf84ef7924322065a47d2f1de329f436b289ddfc72fd47",
+    "status-card-body-below:f67d8ed5118cb2e749aacd103d9ba28c6594ca592fce830cca7f43f6535a1e87"
   ],
-  "consumedThroughSha": "45587de7c7a4953e049a1c69cc7750d57eed1c90"
+  "consumedThroughSha": "6de231aca508a66a7c33c0047ea3944b5ca82ffd"
 }
