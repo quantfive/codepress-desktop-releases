@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "04cf2a31409cfe3f0dc707af968c5c814a7cae2c",
-  "highWaterVersion": "1.594.4",
+  "highWaterVersion": "1.594.5",
   "rows": [
     {
       "schemaVersion": 1,
@@ -102279,6 +102279,58 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:04cf2a31409cfe3f0dc707af968c5c814a7cae2c",
+      "kind": "main",
+      "sequence": 2548,
+      "sourceSha": "04cf2a31409cfe3f0dc707af968c5c814a7cae2c",
+      "sourcePackageVersion": "1.594.3",
+      "version": "1.594.5",
+      "batch": {
+        "intentIds": [
+          "orchestrator-planning-rules-once:859479ea5e839ae80618f301cd8b6f2bdce0f3d9549a05d3de4ec1f3fd9a337d",
+          "hide-write-with-siri:4856a884b3389a119bf6be47523abd08193917329b77c1a3e4208727b9527d88",
+          "shared-orchestrator-wake-rules:404ce2fed65f138080ec4ff60b6051788d9c9179dabf316b260bc559f362e282",
+          "in-app-antigravity-terms-pickers-accounts:3ec3a529c2fdbada01ca80f075ce7a50d356eac080470361aa832ad9d0f74fcb",
+          "cli-status-truth:e0a69c3ddb47436fbb3a97c6c096c7cfd6a0fd7b32acdb10ac3d54ac3e526b5b"
+        ],
+        "notesIntentIds": [
+          "one-inbound-capability-list:9d94e07ebeb6fd045d400af57c7f792dc79bb47a9840eeaa70d75a7054455c2a",
+          "orchestrator-planning-rules-once:859479ea5e839ae80618f301cd8b6f2bdce0f3d9549a05d3de4ec1f3fd9a337d",
+          "hide-write-with-siri:4856a884b3389a119bf6be47523abd08193917329b77c1a3e4208727b9527d88",
+          "shared-orchestrator-wake-rules:404ce2fed65f138080ec4ff60b6051788d9c9179dabf316b260bc559f362e282",
+          "in-app-antigravity-terms-pickers-accounts:3ec3a529c2fdbada01ca80f075ce7a50d356eac080470361aa832ad9d0f74fcb",
+          "cli-status-truth:e0a69c3ddb47436fbb3a97c6c096c7cfd6a0fd7b32acdb10ac3d54ac3e526b5b"
+        ],
+        "throughSourceSha": "04cf2a31409cfe3f0dc707af968c5c814a7cae2c",
+        "previousThroughSourceSha": "ab34e6f9a742af76c630761b748d4e0a65d6dd1e",
+        "baselineVersion": "1.594.4",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-20T07:35:32.529Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44696034673",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-21T07:35:23.872Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -201255,7 +201307,12 @@
     "in-app-antigravity-terms-recovery:2ad4ccfd99e108ead215fa216d3b7f83b6616f719387abce986593c5b900c089",
     "remove-gemini-worker-thread-note:8b827c540ee2023bd5ef290d079eeea5412ceb643f5b883d511cf4e7c4cdcad8",
     "fleet-download-progress:2a86e071a44cc6fe14596063fcd136ce964bf2113d2fd4ba3b51ba590fad9bb2",
-    "one-inbound-capability-list:9d94e07ebeb6fd045d400af57c7f792dc79bb47a9840eeaa70d75a7054455c2a"
+    "one-inbound-capability-list:9d94e07ebeb6fd045d400af57c7f792dc79bb47a9840eeaa70d75a7054455c2a",
+    "orchestrator-planning-rules-once:859479ea5e839ae80618f301cd8b6f2bdce0f3d9549a05d3de4ec1f3fd9a337d",
+    "hide-write-with-siri:4856a884b3389a119bf6be47523abd08193917329b77c1a3e4208727b9527d88",
+    "shared-orchestrator-wake-rules:404ce2fed65f138080ec4ff60b6051788d9c9179dabf316b260bc559f362e282",
+    "in-app-antigravity-terms-pickers-accounts:3ec3a529c2fdbada01ca80f075ce7a50d356eac080470361aa832ad9d0f74fcb",
+    "cli-status-truth:e0a69c3ddb47436fbb3a97c6c096c7cfd6a0fd7b32acdb10ac3d54ac3e526b5b"
   ],
-  "consumedThroughSha": "ab34e6f9a742af76c630761b748d4e0a65d6dd1e"
+  "consumedThroughSha": "04cf2a31409cfe3f0dc707af968c5c814a7cae2c"
 }
