@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "73abcb5dd043506cba22440b004ec9e7d2595cfa",
-  "highWaterVersion": "1.596.4",
+  "highWaterVersion": "1.596.5",
   "rows": [
     {
       "schemaVersion": 1,
@@ -102819,6 +102819,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:73abcb5dd043506cba22440b004ec9e7d2595cfa",
+      "kind": "main",
+      "sequence": 2558,
+      "sourceSha": "73abcb5dd043506cba22440b004ec9e7d2595cfa",
+      "sourcePackageVersion": "1.596.4",
+      "version": "1.596.5",
+      "batch": {
+        "intentIds": [
+          "sandbox-lima-job-vm-boot-retry:23a16d50b51c3a5c6728b6a1f422f24dd1ed2cfc9c6708ac0ffe89f49082f855"
+        ],
+        "notesIntentIds": [
+          "sandbox-lima-job-vm-boot-retry:23a16d50b51c3a5c6728b6a1f422f24dd1ed2cfc9c6708ac0ffe89f49082f855"
+        ],
+        "throughSourceSha": "73abcb5dd043506cba22440b004ec9e7d2595cfa",
+        "previousThroughSourceSha": "90af78e3d370168f0b2c61ba001aabdd42c664de",
+        "baselineVersion": "1.596.4",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-20T15:18:46.421Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44761894071",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-21T15:18:37.356Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -202385,7 +202428,8 @@
     "switch-allowance-holds:85c5254037a234ff3a8f8c1ea9b9240daa788ee4b23d414c53a168937e1169cd",
     "sandbox-lima-base-restart:3d9b2b0b35b971e399dfbeb87cd1504b08c40a0ce2344b5ce2f620b1e7904f95",
     "orchestrator-merge-ask-balance:496f9bfb164d1674a03daf84427ad24c7ba395ec895fe769a77f4342618ecee7",
-    "orchestrator-forced-listing:bb99dacc53e84ebfa99da49244c413ce9cdb3154b734434d6c65d7b7308c22a1"
+    "orchestrator-forced-listing:bb99dacc53e84ebfa99da49244c413ce9cdb3154b734434d6c65d7b7308c22a1",
+    "sandbox-lima-job-vm-boot-retry:23a16d50b51c3a5c6728b6a1f422f24dd1ed2cfc9c6708ac0ffe89f49082f855"
   ],
-  "consumedThroughSha": "90af78e3d370168f0b2c61ba001aabdd42c664de"
+  "consumedThroughSha": "73abcb5dd043506cba22440b004ec9e7d2595cfa"
 }
