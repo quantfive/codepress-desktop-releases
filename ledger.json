@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7c2a3f6a08133b27ced16e2c6a6fcb0b1000f895",
+  "cursorSha": "73abcb5dd043506cba22440b004ec9e7d2595cfa",
   "highWaterVersion": "1.596.4",
   "rows": [
     {
@@ -187822,6 +187822,13 @@
       "sourceSha": "7c2a3f6a08133b27ced16e2c6a6fcb0b1000f895",
       "sourcePackageVersion": "1.596.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "73abcb5dd043506cba22440b004ec9e7d2595cfa",
+      "sourcePackageVersion": "1.596.4",
+      "intentIds": [
+        "sandbox-lima-job-vm-boot-retry:23a16d50b51c3a5c6728b6a1f422f24dd1ed2cfc9c6708ac0ffe89f49082f855"
+      ]
     }
   ],
   "intents": [
@@ -200752,6 +200759,14 @@
       "summary": "An eval project's forced `context_variant.lean_tool_list` now picks the Orchestrator's CodePress listing: `false` gives the full listing and `true` the gateway-only one that ships by default. The session's context profile records the listing the server asked for and, for a forced session, the tool names it listed.",
       "sourceSha": "13525dae38259bcb19970f4b3a0ad8cae94d0ac0",
       "identity": "orchestrator-forced-listing:bb99dacc53e84ebfa99da49244c413ce9cdb3154b734434d6c65d7b7308c22a1"
+    },
+    {
+      "id": "sandbox-lima-job-vm-boot-retry",
+      "digest": "23a16d50b51c3a5c6728b6a1f422f24dd1ed2cfc9c6708ac0ffe89f49082f855",
+      "type": "patch",
+      "summary": "Two jobs starting at once on the Linux sandbox no longer fail because one machine's start meets the other's half-made copy, and a job no longer fails when its virtual machine stops by itself while starting: the sandbox discards that machine, starts a fresh one up to three times, and logs why it stopped.",
+      "sourceSha": "73abcb5dd043506cba22440b004ec9e7d2595cfa",
+      "identity": "sandbox-lima-job-vm-boot-retry:23a16d50b51c3a5c6728b6a1f422f24dd1ed2cfc9c6708ac0ffe89f49082f855"
     }
   ],
   "consumedIntentIds": [
