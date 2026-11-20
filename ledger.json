@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1fa542d9a497950bbec21bacba6724770bda8afd",
+  "cursorSha": "c313b42812cff63b626c1398e274ece3e67709dc",
   "highWaterVersion": "1.592.1",
   "rows": [
     {
@@ -186250,6 +186250,18 @@
       "sourceSha": "1fa542d9a497950bbec21bacba6724770bda8afd",
       "sourcePackageVersion": "1.592.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "67d3a8148a664612f4b4a68eea7634a92b0b2d81",
+      "sourcePackageVersion": "1.592.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "c313b42812cff63b626c1398e274ece3e67709dc",
+      "sourcePackageVersion": "1.592.0",
+      "intentIds": [
+        "one-switch-automations:12e183ff451f53661c9728d234e1a64f7d85ece19fc7ea3ad6b9587ae440446a"
+      ]
     }
   ],
   "intents": [
@@ -198916,6 +198928,14 @@
       "summary": "Default local Orchestrator HTML design plans and canvas mockups to lightweight click-through interactivity (button → loading → next state with Reset/Close, menus, dialogs, tabs) and wire composed design-kit screens with declarative state attributes (`data-kit-state`, `data-kit-set`, `data-kit-after`, `data-kit-toggle`, `data-kit-tabs`).",
       "sourceSha": "287f5ffe52cf3c38fdfbc2547bd8e9e20bf2ed18",
       "identity": "orchestrator-interactive-plans:8d7bc2083e653a0f4042e535ca7a0c501684479b9dae60a8bc355c94b291caba"
+    },
+    {
+      "id": "one-switch-automations",
+      "digest": "12e183ff451f53661c9728d234e1a64f7d85ece19fc7ea3ad6b9587ae440446a",
+      "type": "minor",
+      "summary": "Run my automations on this machine is now the only step: turning it on takes one password dialog, which also lets every one of your automations run here without asking for each one. Sandbox setup then runs by itself with a progress bar and no other password (and carries on after a restart; Apple silicon on macOS 26 uses Apple's container tool if it is already installed, and offers it as an optional upgrade otherwise), an unconfirmed machine emails you the confirmation link, and none of your own automations waits under \"Waiting for you\". Machines where the switch was already on finish this by themselves after updating.",
+      "sourceSha": "c313b42812cff63b626c1398e274ece3e67709dc",
+      "identity": "one-switch-automations:12e183ff451f53661c9728d234e1a64f7d85ece19fc7ea3ad6b9587ae440446a"
     }
   ],
   "consumedIntentIds": [
