@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "bdc464c951bfd4656a39571334c284e75f221bda",
+  "cursorSha": "55bd540c8a55222b2ab0257eb52acd138a3ce831",
   "highWaterVersion": "1.596.2",
   "rows": [
     {
@@ -187637,6 +187637,13 @@
       "sourceSha": "bdc464c951bfd4656a39571334c284e75f221bda",
       "sourcePackageVersion": "1.596.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "55bd540c8a55222b2ab0257eb52acd138a3ce831",
+      "sourcePackageVersion": "1.596.1",
+      "intentIds": [
+        "sandbox-lima-base-restart:3d9b2b0b35b971e399dfbeb87cd1504b08c40a0ce2344b5ce2f620b1e7904f95"
+      ]
     }
   ],
   "intents": [
@@ -200543,6 +200550,14 @@
       "summary": "Keep this machine's automation allowance with CodePress across restarts, updates and reconnects: Terminal no longer drops it while the organization flag hasn't been read yet, sends it again once the flag reads on, and Settings says when CodePress hasn't accepted this machine instead of \"Ready\".",
       "sourceSha": "d37d3e41b61b850131e26ea9b4c86c7c2959fa08",
       "identity": "switch-allowance-holds:85c5254037a234ff3a8f8c1ea9b9240daa788ee4b23d414c53a168937e1169cd"
+    },
+    {
+      "id": "sandbox-lima-base-restart",
+      "digest": "3d9b2b0b35b971e399dfbeb87cd1504b08c40a0ce2344b5ce2f620b1e7904f95",
+      "type": "patch",
+      "summary": "The Linux sandbox's setup no longer fails when its virtual machine stops by itself while the sandbox image is being downloaded: it starts the machine again and retries, and says why when the machine keeps stopping.",
+      "sourceSha": "55bd540c8a55222b2ab0257eb52acd138a3ce831",
+      "identity": "sandbox-lima-base-restart:3d9b2b0b35b971e399dfbeb87cd1504b08c40a0ce2344b5ce2f620b1e7904f95"
     }
   ],
   "consumedIntentIds": [
