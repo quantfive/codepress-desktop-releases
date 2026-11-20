@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3d672843bad3e1a09b4e42291fe519ca9370020f",
+  "cursorSha": "d3086e1a8149c75a8703ca7e5d44a631f0371573",
   "highWaterVersion": "1.594.0",
   "rows": [
     {
@@ -186456,6 +186456,13 @@
       "intentIds": [
         "orchestrator-context-profiles:11e6d6489a723f486d71ceeeb516594851dd59795e61526024b90e32788fed3f"
       ]
+    },
+    {
+      "sourceSha": "d3086e1a8149c75a8703ca7e5d44a631f0371573",
+      "sourcePackageVersion": "1.593.0",
+      "intentIds": [
+        "rail-ranked-search:f47e7da7a8b52b5238ce0c5714760aaf4c682cf7ccca8bea1121c72e496df75d"
+      ]
     }
   ],
   "intents": [
@@ -199178,6 +199185,14 @@
       "summary": "Record what each local Orchestrator session carries at every runtime open (instruction sizes by section, tool names by MCP server, allowed tools, and the context variant) in a machine-local table, and add `--by variant` to the launch-compaction report to compare variants with per-project quality signals and cold-cache points. Nothing sent to the model changes.",
       "sourceSha": "3d672843bad3e1a09b4e42291fe519ca9370020f",
       "identity": "orchestrator-context-profiles:11e6d6489a723f486d71ceeeb516594851dd59795e61526024b90e32788fed3f"
+    },
+    {
+      "id": "rail-ranked-search",
+      "digest": "f47e7da7a8b52b5238ce0c5714760aaf4c682cf7ccca8bea1121c72e496df75d",
+      "type": "patch",
+      "summary": "Search chats ranks its results: with ranked search on for the organization and while signed in, typing two or more characters in the Orchestrator rail's search lists one Best matches list of chats and projects, best match first, with the matched words marked, the matching message under a chat found by one, and why each row matched. ↑/↓ move through it, Enter opens a row, Esc clears it and brings back the sections where they were.",
+      "sourceSha": "d3086e1a8149c75a8703ca7e5d44a631f0371573",
+      "identity": "rail-ranked-search:f47e7da7a8b52b5238ce0c5714760aaf4c682cf7ccca8bea1121c72e496df75d"
     }
   ],
   "consumedIntentIds": [
