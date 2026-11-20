@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "af273b711efbf054b5e970609e03a95f30ad6ea8",
+  "cursorSha": "fdb0396f5d3ac4a4cef68ebbbc81cea0d8b0c446",
   "highWaterVersion": "1.591.1",
   "rows": [
     {
@@ -185970,6 +185970,13 @@
       "sourceSha": "af273b711efbf054b5e970609e03a95f30ad6ea8",
       "sourcePackageVersion": "1.591.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "fdb0396f5d3ac4a4cef68ebbbc81cea0d8b0c446",
+      "sourcePackageVersion": "1.591.0",
+      "intentIds": [
+        "one-refusal-sentence-set:92607ffc7dce1f217cba7356ee92783beee8cfcee2b16eac16c22a86be68460d"
+      ]
     }
   ],
   "intents": [
@@ -198588,6 +198595,14 @@
       "summary": "Terminal's bundle now carries the shared one-chip model picker (`NewChatModelChip`) that the shared chat input draws when a host turns its model selector on. No Terminal screen turns it on yet, so nothing Terminal shows changes.",
       "sourceSha": "4986f4b795b803242697ede53c77845e3aecefa0",
       "identity": "web-model-chip-closure:d935b9cb13bacf8ac89f39aedb6f0a63d203b32339028a285d6f384cb385dbd9"
+    },
+    {
+      "id": "one-refusal-sentence-set",
+      "digest": "92607ffc7dce1f217cba7356ee92783beee8cfcee2b16eac16c22a86be68460d",
+      "type": "patch",
+      "summary": "Refusals from your other machines now read the same on every screen. A machine that can't be reached says \"<machine> is asleep, so it can't <do this> right now\", or \"offline\" or \"not running\" (for a cloud machine) in place of \"asleep\". A lost answer says \"<machine> didn't answer\", and an older app says it needs a newer CodePress app. A connection that moved mid-request now counts as away everywhere, and a message refused because the project moved says so.",
+      "sourceSha": "fdb0396f5d3ac4a4cef68ebbbc81cea0d8b0c446",
+      "identity": "one-refusal-sentence-set:92607ffc7dce1f217cba7356ee92783beee8cfcee2b16eac16c22a86be68460d"
     }
   ],
   "consumedIntentIds": [
