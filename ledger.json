@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6de231aca508a66a7c33c0047ea3944b5ca82ffd",
+  "cursorSha": "89e7bcc4ed33e477417caedbcc0f8645d24d28f8",
   "highWaterVersion": "1.590.5",
   "rows": [
     {
@@ -185686,6 +185686,13 @@
       "sourceSha": "6de231aca508a66a7c33c0047ea3944b5ca82ffd",
       "sourcePackageVersion": "1.590.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "89e7bcc4ed33e477417caedbcc0f8645d24d28f8",
+      "sourcePackageVersion": "1.590.3",
+      "intentIds": [
+        "model-list-own-popover:2d3dd396859757361a8a6149bb45922f67792fc7f9636b911a08a47554b74e59"
+      ]
     }
   ],
   "intents": [
@@ -198256,6 +198263,14 @@
       "summary": "A status post in the Orchestrator thread is now a small card holding only the status line, its step progress and the Risk / Need / ETA footer; the rest of the update reads below the card as ordinary message text instead of a wall of boxed text.",
       "sourceSha": "c58d5f9c55254779bb34628c3752e94d3faab1c6",
       "identity": "status-card-body-below:f67d8ed5118cb2e749aacd103d9ba28c6594ca592fce830cca7f43f6535a1e87"
+    },
+    {
+      "id": "model-list-own-popover",
+      "digest": "2d3dd396859757361a8a6149bb45922f67792fc7f9636b911a08a47554b74e59",
+      "type": "patch",
+      "summary": "Choosing a model in the composer's model menu now opens the list in a popover of its own, beside the model row, so the menu no longer grows and shrinks as you open and close it. On a narrow screen the list covers the menu, with Back first.",
+      "sourceSha": "89e7bcc4ed33e477417caedbcc0f8645d24d28f8",
+      "identity": "model-list-own-popover:2d3dd396859757361a8a6149bb45922f67792fc7f9636b911a08a47554b74e59"
     }
   ],
   "consumedIntentIds": [
