@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c8423ba4d0b8e754be76d816d23f04b250c15e6b",
+  "cursorSha": "4d0e20b88126edff4a7db9c3c10fff1741a7504e",
   "highWaterVersion": "1.596.7",
   "rows": [
     {
@@ -188075,6 +188075,13 @@
       "sourceSha": "c8423ba4d0b8e754be76d816d23f04b250c15e6b",
       "sourcePackageVersion": "1.596.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4d0e20b88126edff4a7db9c3c10fff1741a7504e",
+      "sourcePackageVersion": "1.596.7",
+      "intentIds": [
+        "app-toolbar-hover-shape:4156704054e000a7f276ba347a72a7b275c2bcb2569dadbabf2f9eb2bf66a6ad"
+      ]
     }
   ],
   "intents": [
@@ -201029,6 +201036,14 @@
       "summary": "The agents panel shows a cloud worker whose runner froze as Frozen, in the stalled tone, and reads a liveness value it does not know as Stalled.",
       "sourceSha": "9feca0bc18b28681cd154ea9b27008f26e172d4b",
       "identity": "frozen-worker-liveness:7385d721774dec5052c25bba09095efde554bd289ea09e0830d08512f8de807c"
+    },
+    {
+      "id": "app-toolbar-hover-shape",
+      "digest": "4156704054e000a7f276ba347a72a7b275c2bcb2569dadbabf2f9eb2bf66a6ad",
+      "type": "patch",
+      "summary": "On the App page toolbar, Reload and Open in new tab now hover as circles that fit their round pill, and every medium segmented control (such as Desktop · Tablet · Phone and the Settings tabs) draws its selected segment with corners that nest inside the track instead of a squarer 6px segment in a 12px track.",
+      "sourceSha": "4d0e20b88126edff4a7db9c3c10fff1741a7504e",
+      "identity": "app-toolbar-hover-shape:4156704054e000a7f276ba347a72a7b275c2bcb2569dadbabf2f9eb2bf66a6ad"
     }
   ],
   "consumedIntentIds": [
