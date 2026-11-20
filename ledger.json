@@ -103281,10 +103281,14 @@
       "publicationDate": "2026-11-20T20:31:09.632Z",
       "releaseId": null,
       "mac": {
-        "status": "pending",
-        "generation": 1,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 2,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44813951032",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-21T20:44:03.031Z",
         "dispatch": null,
         "failures": [
           {
