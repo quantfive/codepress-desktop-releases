@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "7eee5f8531d5a8c03a1159cda06b09ad3fbeb36f",
-  "highWaterVersion": "1.596.8",
+  "highWaterVersion": "1.596.9",
   "rows": [
     {
       "schemaVersion": 1,
@@ -103028,6 +103028,52 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:7eee5f8531d5a8c03a1159cda06b09ad3fbeb36f",
+      "kind": "main",
+      "sequence": 2562,
+      "sourceSha": "7eee5f8531d5a8c03a1159cda06b09ad3fbeb36f",
+      "sourcePackageVersion": "1.596.7",
+      "version": "1.596.9",
+      "batch": {
+        "intentIds": [
+          "trim-live-thought-preview:7327088cf87c00cdef5fd99244760acfaeb751cc98ae7ac66852713629b0c02f",
+          "model-profiles-tool-no-switch:64e8641b32767fda39dc009307147fa66da98cf32bc9c95a82de4c0e765d8ae8"
+        ],
+        "notesIntentIds": [
+          "app-toolbar-hover-shape:4156704054e000a7f276ba347a72a7b275c2bcb2569dadbabf2f9eb2bf66a6ad",
+          "trim-live-thought-preview:7327088cf87c00cdef5fd99244760acfaeb751cc98ae7ac66852713629b0c02f",
+          "model-profiles-tool-no-switch:64e8641b32767fda39dc009307147fa66da98cf32bc9c95a82de4c0e765d8ae8"
+        ],
+        "throughSourceSha": "7eee5f8531d5a8c03a1159cda06b09ad3fbeb36f",
+        "previousThroughSourceSha": "4d0e20b88126edff4a7db9c3c10fff1741a7504e",
+        "baselineVersion": "1.596.8",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-20T19:29:08.405Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44802443666",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-21T19:28:59.323Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -202773,7 +202819,9 @@
     "sandbox-lima-job-vm-boot-retry:23a16d50b51c3a5c6728b6a1f422f24dd1ed2cfc9c6708ac0ffe89f49082f855",
     "automation-own-secrets:b66b7d08b981f11702f0cab7c65aebea02303f79acff96675149877e47f6ae8a",
     "frozen-worker-liveness:7385d721774dec5052c25bba09095efde554bd289ea09e0830d08512f8de807c",
-    "app-toolbar-hover-shape:4156704054e000a7f276ba347a72a7b275c2bcb2569dadbabf2f9eb2bf66a6ad"
+    "app-toolbar-hover-shape:4156704054e000a7f276ba347a72a7b275c2bcb2569dadbabf2f9eb2bf66a6ad",
+    "trim-live-thought-preview:7327088cf87c00cdef5fd99244760acfaeb751cc98ae7ac66852713629b0c02f",
+    "model-profiles-tool-no-switch:64e8641b32767fda39dc009307147fa66da98cf32bc9c95a82de4c0e765d8ae8"
   ],
-  "consumedThroughSha": "4d0e20b88126edff4a7db9c3c10fff1741a7504e"
+  "consumedThroughSha": "7eee5f8531d5a8c03a1159cda06b09ad3fbeb36f"
 }
