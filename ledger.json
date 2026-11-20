@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "021be365531cd6d04b0e5fead8c289884c9ed233",
+  "cursorSha": "4bbe6710348df70ce081fba2ce462dc88d5fffdb",
   "highWaterVersion": "1.591.0",
   "rows": [
     {
@@ -185904,6 +185904,18 @@
       "sourceSha": "021be365531cd6d04b0e5fead8c289884c9ed233",
       "sourcePackageVersion": "1.590.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4986f4b795b803242697ede53c77845e3aecefa0",
+      "sourcePackageVersion": "1.590.6",
+      "intentIds": [
+        "web-model-chip-closure:d935b9cb13bacf8ac89f39aedb6f0a63d203b32339028a285d6f384cb385dbd9"
+      ]
+    },
+    {
+      "sourceSha": "4bbe6710348df70ce081fba2ce462dc88d5fffdb",
+      "sourcePackageVersion": "1.591.0",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -198514,6 +198526,14 @@
       "summary": "Redesign the Terminal update menu with a What's new changelog from the current version to the proposed update version, inline per-machine Update buttons (preserving earlier per-machine statuses), single-machine popover access with Restart to update, and immediate animated spinner feedback on every update and restart button.",
       "sourceSha": "f665cbab36535ff3d513ef999955dc59531b0a00",
       "identity": "update-menu-redesign-ui:96c710efbe1acb0bc5e7c6308271b5f0cc1b4089c0f140d784df625f4fe76c44"
+    },
+    {
+      "id": "web-model-chip-closure",
+      "digest": "d935b9cb13bacf8ac89f39aedb6f0a63d203b32339028a285d6f384cb385dbd9",
+      "type": "patch",
+      "summary": "Terminal's bundle now carries the shared one-chip model picker (`NewChatModelChip`) that the shared chat input draws when a host turns its model selector on. No Terminal screen turns it on yet, so nothing Terminal shows changes.",
+      "sourceSha": "4986f4b795b803242697ede53c77845e3aecefa0",
+      "identity": "web-model-chip-closure:d935b9cb13bacf8ac89f39aedb6f0a63d203b32339028a285d6f384cb385dbd9"
     }
   ],
   "consumedIntentIds": [
