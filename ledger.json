@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ec4fdd0206e848e5ed6d474833bcddfe632478f3",
+  "cursorSha": "8ace1b2389159a0ed97da6a3ddcf577082a49a50",
   "highWaterVersion": "1.596.15",
   "rows": [
     {
@@ -188820,6 +188820,13 @@
       "sourceSha": "ec4fdd0206e848e5ed6d474833bcddfe632478f3",
       "sourcePackageVersion": "1.596.14",
       "intentIds": []
+    },
+    {
+      "sourceSha": "8ace1b2389159a0ed97da6a3ddcf577082a49a50",
+      "sourcePackageVersion": "1.596.14",
+      "intentIds": [
+        "app-onboarding-v2-everyone:34f9160e13b47e36624d04b991b83474d710b75f993ddb1e494d6f9cc77f497d"
+      ]
     }
   ],
   "intents": [
@@ -201854,6 +201861,14 @@
       "summary": "Live in-app screen annotation and Send to Fix are now available directly inside customer Managed and Repo Apps on CodePress Terminal and Web (`AppDetailPage` and `RepoAppDetail`, retiring `ff_app_element_select`), with `Browse ↔ Annotate` multi-step redlines and background fix dispatch via `POST /v1/redlines/dispatch`.",
       "sourceSha": "bffe08afa8f34cdf860c856003ba0ef3460b1fd0",
       "identity": "live-app-screen-annotation:369675c2941f0a45e97cba84597050b6eb5aaef3c674e3c5b0ebd3930b9fffe6"
+    },
+    {
+      "id": "app-onboarding-v2-everyone",
+      "digest": "34f9160e13b47e36624d04b991b83474d710b75f993ddb1e494d6f9cc77f497d",
+      "type": "minor",
+      "summary": "Everyone who signs in to the desktop app now gets the new setup: it picks up your finished workspace, offers to join your team's, or walks you through setting up a new one, and the workspace switcher offers Add workspace on this machine. Signing in later with no workspace opens the same setup, where it used to offer a dialog you could dismiss with Not now; the free plan finishes it without paying. Signed out and Continue locally are unchanged. Replay onboarding in Settings → General stays for Quant Five accounts.",
+      "sourceSha": "8ace1b2389159a0ed97da6a3ddcf577082a49a50",
+      "identity": "app-onboarding-v2-everyone:34f9160e13b47e36624d04b991b83474d710b75f993ddb1e494d6f9cc77f497d"
     }
   ],
   "consumedIntentIds": [
