@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6eb47daac8737b0be0a079b8c54154138ed332ae",
+  "cursorSha": "57470a7b11615efde58df61fb9f793d63fabb573",
   "highWaterVersion": "1.596.3",
   "rows": [
     {
@@ -187701,6 +187701,13 @@
       "sourceSha": "6eb47daac8737b0be0a079b8c54154138ed332ae",
       "sourcePackageVersion": "1.596.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "57470a7b11615efde58df61fb9f793d63fabb573",
+      "sourcePackageVersion": "1.596.2",
+      "intentIds": [
+        "orchestrator-merge-ask-balance:496f9bfb164d1674a03daf84427ad24c7ba395ec895fe769a77f4342618ecee7"
+      ]
     }
   ],
   "intents": [
@@ -200615,6 +200622,14 @@
       "summary": "The Linux sandbox's setup no longer fails when its virtual machine stops by itself while the sandbox image is being downloaded: it starts the machine again and retries, and says why when the machine keeps stopping.",
       "sourceSha": "55bd540c8a55222b2ab0257eb52acd138a3ce831",
       "identity": "sandbox-lima-base-restart:3d9b2b0b35b971e399dfbeb87cd1504b08c40a0ce2344b5ce2f620b1e7904f95"
+    },
+    {
+      "id": "orchestrator-merge-ask-balance",
+      "digest": "496f9bfb164d1674a03daf84427ad24c7ba395ec895fe769a77f4342618ecee7",
+      "type": "patch",
+      "summary": "Orchestrator: when auto-merge is off, a reviewed, green pull request goes to the person as a merge order again instead of being held for tests its design never asked for.",
+      "sourceSha": "57470a7b11615efde58df61fb9f793d63fabb573",
+      "identity": "orchestrator-merge-ask-balance:496f9bfb164d1674a03daf84427ad24c7ba395ec895fe769a77f4342618ecee7"
     }
   ],
   "consumedIntentIds": [
