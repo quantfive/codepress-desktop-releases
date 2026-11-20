@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "db0f913d96a5ea860c211d6bd41bb1c89fa16de7",
+  "cursorSha": "b2f1f7819aba6e74b6e4b5108f05c4413193b982",
   "highWaterVersion": "1.598.0",
   "rows": [
     {
@@ -189083,6 +189083,13 @@
       "sourceSha": "db0f913d96a5ea860c211d6bd41bb1c89fa16de7",
       "sourcePackageVersion": "1.597.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b2f1f7819aba6e74b6e4b5108f05c4413193b982",
+      "sourcePackageVersion": "1.597.1",
+      "intentIds": [
+        "orchestrator-send-now:7218b4d5357085b9e51605a18c889e54ed88ef21513266d0b1713ebda8fa3f54"
+      ]
     }
   ],
   "intents": [
@@ -202173,6 +202180,14 @@
       "summary": "Add live in-app screen annotation (`Browse ↔ Annotate → Send to Workflow Agent`) to local Terminal Browser Tabs and strictly Q5 Staff-only self-annotation (`user.featureFlagAccess`) to CodePress Terminal chrome.",
       "sourceSha": "279da2ab561a1bfdb6601091c4646ea043fca3ca",
       "identity": "terminal-browser-annotate-and-staff-redline:ada3004effd1451e9d48acfd17d333ebe0c1fa54c8225dc51504ddefb1d866f2"
+    },
+    {
+      "id": "orchestrator-send-now",
+      "digest": "7218b4d5357085b9e51605a18c889e54ed88ef21513266d0b1713ebda8fa3f54",
+      "type": "minor",
+      "summary": "Orchestrator: a queued message now has a Send now button on this machine's projects. It stops the Orchestrator's current step (keeping its reply so far) so your queued messages are read right away, in order. The queued line also says when the message would otherwise be read: after the current tool call, or when the reply ends.",
+      "sourceSha": "b2f1f7819aba6e74b6e4b5108f05c4413193b982",
+      "identity": "orchestrator-send-now:7218b4d5357085b9e51605a18c889e54ed88ef21513266d0b1713ebda8fa3f54"
     }
   ],
   "consumedIntentIds": [
