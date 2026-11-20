@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4440338085fa3cd30fc2f6f8c2d423844a5c3646",
+  "cursorSha": "2f95b09733162abc768173257d0afdabf18e7e4c",
   "highWaterVersion": "1.595.2",
   "rows": [
     {
@@ -187262,6 +187262,13 @@
       "sourceSha": "4440338085fa3cd30fc2f6f8c2d423844a5c3646",
       "sourcePackageVersion": "1.595.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2f95b09733162abc768173257d0afdabf18e7e4c",
+      "sourcePackageVersion": "1.595.1",
+      "intentIds": [
+        "orchestrator-build-rules-once:c23f9635a61d5cbb75ebfb65e778587821e05145866811189543b7e8b5cee872"
+      ]
     }
   ],
   "intents": [
@@ -200136,6 +200143,14 @@
       "summary": "Local quiet-worker checks and the step clock now use the shared Orchestrator liveness rules, the same rules the cloud uses, so a local and a cloud worker are judged working, quiet or stuck the same way.",
       "sourceSha": "fa62e9e062ef3355133c82a1d3ed83420d0a8348",
       "identity": "shared-worker-liveness-rules:30fa918640473e95cea45e125c21037ecfb18b5dbc40d8750f4a7ed40496277f"
+    },
+    {
+      "id": "orchestrator-build-rules-once",
+      "digest": "c23f9635a61d5cbb75ebfb65e778587821e05145866811189543b7e8b5cee872",
+      "type": "patch",
+      "summary": "The local Orchestrator's instructions for running the build, merging and landing, its launch sections, and its inbox and project tool descriptions now say each rule once. That shortens its first request by about a thousand tokens, and every rule is kept.",
+      "sourceSha": "2f95b09733162abc768173257d0afdabf18e7e4c",
+      "identity": "orchestrator-build-rules-once:c23f9635a61d5cbb75ebfb65e778587821e05145866811189543b7e8b5cee872"
     }
   ],
   "consumedIntentIds": [
