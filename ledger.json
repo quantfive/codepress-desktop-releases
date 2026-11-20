@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7752e6cc49d8540d6cc0bf6aa5461948892817c5",
+  "cursorSha": "5865ca5f217f7ca5f7334cca2edd50ec7cd7083c",
   "highWaterVersion": "1.597.1",
   "rows": [
     {
@@ -189010,6 +189010,13 @@
       "sourceSha": "7752e6cc49d8540d6cc0bf6aa5461948892817c5",
       "sourcePackageVersion": "1.597.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "5865ca5f217f7ca5f7334cca2edd50ec7cd7083c",
+      "sourcePackageVersion": "1.597.0",
+      "intentIds": [
+        "autocompact-scope-watch-shared-worker:a6c1a05242d61d17feb90ccaff6b2a53fc230a2b7a0acfa379e4aa7159d5395e"
+      ]
     }
   ],
   "intents": [
@@ -202084,6 +202091,14 @@
       "summary": "An Orchestrator can list and read your own projects on a machine shared with you. `list_orchestrators` and `read_orchestrator_chat` with that machine's id now answer with only your projects there, instead of refusing.",
       "sourceSha": "bfbed36e97157c1362a732d4b23d10c222da3282",
       "identity": "orchestrator-shared-machine-reads:4c9daf942aa78d46ee06b41069086acbc7c55b8c855047b7cc30ed092814acd4"
+    },
+    {
+      "id": "autocompact-scope-watch-shared-worker",
+      "digest": "a6c1a05242d61d17feb90ccaff6b2a53fc230a2b7a0acfa379e4aa7159d5395e",
+      "type": "patch",
+      "summary": "Test-only: the autocompact scope-watch test now proves its watcher stopped from its own reads and opens, not from the shared fake clock's global timer count, so it no longer fails when an earlier file in the shared Vitest worker leaves a timer pending. No change to the app.",
+      "sourceSha": "5865ca5f217f7ca5f7334cca2edd50ec7cd7083c",
+      "identity": "autocompact-scope-watch-shared-worker:a6c1a05242d61d17feb90ccaff6b2a53fc230a2b7a0acfa379e4aa7159d5395e"
     }
   ],
   "consumedIntentIds": [
