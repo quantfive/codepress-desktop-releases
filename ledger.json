@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e9f8fb55ae21fc18d184732b6cd1c528ff23c8fd",
+  "cursorSha": "1e3f7842c3168ef652396c43ff81a916f73f4759",
   "highWaterVersion": "1.594.1",
   "rows": [
     {
@@ -186554,6 +186554,13 @@
       "sourceSha": "e9f8fb55ae21fc18d184732b6cd1c528ff23c8fd",
       "sourcePackageVersion": "1.594.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "1e3f7842c3168ef652396c43ff81a916f73f4759",
+      "sourcePackageVersion": "1.594.0",
+      "intentIds": [
+        "in-app-antigravity-terms-recovery:2ad4ccfd99e108ead215fa216d3b7f83b6616f719387abce986593c5b900c089"
+      ]
     }
   ],
   "intents": [
@@ -199292,6 +199299,14 @@
       "summary": "The local Orchestrator's CodePress connection no longer lists every connected integration's tools by name (Sentry, Vercel, Cloudflare and the rest, several hundred names); it reaches them through `discover_integration_tools` and `call_integration_tool`, which makes its first request smaller. Workers and other sessions keep the full list.",
       "sourceSha": "4e182863ab4471d91f10d0490f0f620fe1e886fc",
       "identity": "orchestrator-gateway-listing:31050533b3a460054bf3657f9512d5696c8062bd489f9980e4e5391b8192b927"
+    },
+    {
+      "id": "in-app-antigravity-terms-recovery",
+      "digest": "2ad4ccfd99e108ead215fa216d3b7f83b6616f719387abce986593c5b900c089",
+      "type": "patch",
+      "summary": "Allow accepting Google's Antigravity CLI (`agy`) Terms of Service directly from the Orchestrator stopped recovery ask (`pm_recovery`) and Gemini worker launch recovery ask (`launch_recovery`), backed by `POST /api/gemini-sign-in/accept-terms`, so users never need to open a terminal to unblock a Gemini Orchestrator or worker.",
+      "sourceSha": "1e3f7842c3168ef652396c43ff81a916f73f4759",
+      "identity": "in-app-antigravity-terms-recovery:2ad4ccfd99e108ead215fa216d3b7f83b6616f719387abce986593c5b900c089"
     }
   ],
   "consumedIntentIds": [
