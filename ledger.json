@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9f3e94a2116f0e09700eca72b46558f9efd87871",
+  "cursorSha": "42d177f4f0a1701e7fda5cbeebd459170a8f600b",
   "highWaterVersion": "1.594.1",
   "rows": [
     {
@@ -186566,6 +186566,13 @@
       "sourceSha": "9f3e94a2116f0e09700eca72b46558f9efd87871",
       "sourcePackageVersion": "1.594.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "42d177f4f0a1701e7fda5cbeebd459170a8f600b",
+      "sourcePackageVersion": "1.594.0",
+      "intentIds": [
+        "remove-gemini-worker-thread-note:8b827c540ee2023bd5ef290d079eeea5412ceb643f5b883d511cf4e7c4cdcad8"
+      ]
     }
   ],
   "intents": [
@@ -199312,6 +199319,14 @@
       "summary": "Allow accepting Google's Antigravity CLI (`agy`) Terms of Service directly from the Orchestrator stopped recovery ask (`pm_recovery`) and Gemini worker launch recovery ask (`launch_recovery`), backed by `POST /api/gemini-sign-in/accept-terms`, so users never need to open a terminal to unblock a Gemini Orchestrator or worker.",
       "sourceSha": "1e3f7842c3168ef652396c43ff81a916f73f4759",
       "identity": "in-app-antigravity-terms-recovery:2ad4ccfd99e108ead215fa216d3b7f83b6616f719387abce986593c5b900c089"
+    },
+    {
+      "id": "remove-gemini-worker-thread-note",
+      "digest": "8b827c540ee2023bd5ef290d079eeea5412ceb643f5b883d511cf4e7c4cdcad8",
+      "type": "patch",
+      "summary": "Stop posting the one-time Gemini Google sign-in `worker_model` thread note in Orchestrator projects when launching or relaunching Gemini workers on a Google sign-in.",
+      "sourceSha": "42d177f4f0a1701e7fda5cbeebd459170a8f600b",
+      "identity": "remove-gemini-worker-thread-note:8b827c540ee2023bd5ef290d079eeea5412ceb643f5b883d511cf4e7c4cdcad8"
     }
   ],
   "consumedIntentIds": [
