@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "63989d7da097e7d8f9f25fa2c6d6ac7cd70e7013",
+  "cursorSha": "c58d5f9c55254779bb34628c3752e94d3faab1c6",
   "highWaterVersion": "1.590.4",
   "rows": [
     {
@@ -185606,6 +185606,13 @@
       "intentIds": [
         "palette-ranked-scorer:e2c2796ac20043960bbf84ef7924322065a47d2f1de329f436b289ddfc72fd47"
       ]
+    },
+    {
+      "sourceSha": "c58d5f9c55254779bb34628c3752e94d3faab1c6",
+      "sourcePackageVersion": "1.590.3",
+      "intentIds": [
+        "status-card-body-below:f67d8ed5118cb2e749aacd103d9ba28c6594ca592fce830cca7f43f6535a1e87"
+      ]
     }
   ],
   "intents": [
@@ -198168,6 +198175,14 @@
       "summary": "The shared command palette package now includes the ranked search scorer the web ⌘K palette uses; Terminal's palette is unchanged.",
       "sourceSha": "63989d7da097e7d8f9f25fa2c6d6ac7cd70e7013",
       "identity": "palette-ranked-scorer:e2c2796ac20043960bbf84ef7924322065a47d2f1de329f436b289ddfc72fd47"
+    },
+    {
+      "id": "status-card-body-below",
+      "digest": "f67d8ed5118cb2e749aacd103d9ba28c6594ca592fce830cca7f43f6535a1e87",
+      "type": "patch",
+      "summary": "A status post in the Orchestrator thread is now a small card holding only the status line, its step progress and the Risk / Need / ETA footer; the rest of the update reads below the card as ordinary message text instead of a wall of boxed text.",
+      "sourceSha": "c58d5f9c55254779bb34628c3752e94d3faab1c6",
+      "identity": "status-card-body-below:f67d8ed5118cb2e749aacd103d9ba28c6594ca592fce830cca7f43f6535a1e87"
     }
   ],
   "consumedIntentIds": [
