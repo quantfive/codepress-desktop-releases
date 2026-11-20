@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e757460c4fb7f6918903d526c8637d8ba93320ef",
+  "cursorSha": "5f397fafe98f59306ca141f139161277aed61cd2",
   "highWaterVersion": "1.596.0",
   "rows": [
     {
@@ -187461,6 +187461,13 @@
       "sourceSha": "e757460c4fb7f6918903d526c8637d8ba93320ef",
       "sourcePackageVersion": "1.596.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "5f397fafe98f59306ca141f139161277aed61cd2",
+      "sourcePackageVersion": "1.596.0",
+      "intentIds": [
+        "orchestrator-build-phase-instructions:62b211869896663e4bad113d31e7ff0505366503950a78c82797c5e587c044c1"
+      ]
     }
   ],
   "intents": [
@@ -200351,6 +200358,14 @@
       "summary": "Orchestrator: `project_fleet_assign` takes a `pull_request_url` to start a worker on a pull request that is already open. The worker's worktree is cut on its branch and the item starts in review; a closed, forked, other-repository, other-base or already-owned pull request is refused with a reason and nothing launches. Writing `implement` on an item whose pull request is open now records `checks`, by the same shared rule the cloud uses.",
       "sourceSha": "d45c308c88c7e30d5338b358137629b0f4da8a92",
       "identity": "orchestrator-adopt-open-pr:720f6e787461f498ef0d0c84fe97700b5bd9e7f9f247788a6703345891b7c5e8"
+    },
+    {
+      "id": "orchestrator-build-phase-instructions",
+      "digest": "62b211869896663e4bad113d31e7ff0505366503950a78c82797c5e587c044c1",
+      "type": "patch",
+      "summary": "Behind the default-off organization flag \"Orchestrator build-phase instructions\", a local Claude Orchestrator whose build has started moves its design instructions to a file it reads before designing, at its next open or after an idle gap longer than the prompt cache lifetime, so later requests carry less context. Each swap is recorded for the variant report.",
+      "sourceSha": "5f397fafe98f59306ca141f139161277aed61cd2",
+      "identity": "orchestrator-build-phase-instructions:62b211869896663e4bad113d31e7ff0505366503950a78c82797c5e587c044c1"
     }
   ],
   "consumedIntentIds": [
