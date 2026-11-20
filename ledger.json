@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "04cf2a31409cfe3f0dc707af968c5c814a7cae2c",
+  "cursorSha": "2da2a2b06306a67a673ca7af2716cabbf93a17b5",
   "highWaterVersion": "1.594.5",
   "rows": [
     {
@@ -186903,6 +186903,18 @@
       "sourceSha": "04cf2a31409cfe3f0dc707af968c5c814a7cae2c",
       "sourcePackageVersion": "1.594.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9da43aa9f1093915a810dc3819f53511d931a306",
+      "sourcePackageVersion": "1.594.3",
+      "intentIds": [
+        "terminal-tiny-helpers:d0cb4f97c499d6b17a8316bd7a3b2b1f67e6c82a2b29aa979e0e1ba3bead428e"
+      ]
+    },
+    {
+      "sourceSha": "2da2a2b06306a67a673ca7af2716cabbf93a17b5",
+      "sourcePackageVersion": "1.594.3",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -199713,6 +199725,14 @@
       "summary": "A Server CLI now says it is downloading an update only while an update is actually running: a status left behind by a finished, crashed or lock-race-losing attempt is re-checked so the update popover offers Update again. A losing attempt no longer overwrites the saved status, and a running download reports its percent and step (download, verify, finishing).",
       "sourceSha": "0eeacae6d8155742868986d717583e4c2bfd87ca",
       "identity": "cli-status-truth:e0a69c3ddb47436fbb3a97c6c096c7cfd6a0fd7b32acdb10ac3d54ac3e526b5b"
+    },
+    {
+      "id": "terminal-tiny-helpers",
+      "digest": "d0cb4f97c499d6b17a8316bd7a3b2b1f67e6c82a2b29aa979e0e1ba3bead428e",
+      "type": "patch",
+      "summary": "Terminal's small repeated helpers (record checks, error text, sleep, SHA-256 and POSIX shell quoting) now live in two shared modules instead of being re-typed in each file. Nothing changes in how Terminal behaves.",
+      "sourceSha": "9da43aa9f1093915a810dc3819f53511d931a306",
+      "identity": "terminal-tiny-helpers:d0cb4f97c499d6b17a8316bd7a3b2b1f67e6c82a2b29aa979e0e1ba3bead428e"
     }
   ],
   "consumedIntentIds": [
