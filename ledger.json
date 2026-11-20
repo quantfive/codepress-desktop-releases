@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "331cedc226fddbbcd134da68b898d9c4b68db712",
+  "cursorSha": "a9152463213712ed638aaffcf8fe578c1b5d2c29",
   "highWaterVersion": "1.594.5",
   "rows": [
     {
@@ -186930,6 +186930,13 @@
       "sourceSha": "331cedc226fddbbcd134da68b898d9c4b68db712",
       "sourcePackageVersion": "1.594.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a9152463213712ed638aaffcf8fe578c1b5d2c29",
+      "sourcePackageVersion": "1.594.3",
+      "intentIds": [
+        "mcp-relay-device-proof:930f9586bf8f0e1cf8316401bbf22055a096bc87a231aa6723a2374387a279a2"
+      ]
     }
   ],
   "intents": [
@@ -199748,6 +199755,14 @@
       "summary": "Terminal's small repeated helpers (record checks, error text, sleep, SHA-256 and POSIX shell quoting) now live in two shared modules instead of being re-typed in each file. Nothing changes in how Terminal behaves.",
       "sourceSha": "9da43aa9f1093915a810dc3819f53511d931a306",
       "identity": "terminal-tiny-helpers:d0cb4f97c499d6b17a8316bd7a3b2b1f67e6c82a2b29aa979e0e1ba3bead428e"
+    },
+    {
+      "id": "mcp-relay-device-proof",
+      "digest": "930f9586bf8f0e1cf8316401bbf22055a096bc87a231aa6723a2374387a279a2",
+      "type": "patch",
+      "summary": "An agent in a Terminal tab that creates or edits an automation through the CodePress MCP no longer leaves it marked \"Changed without a person's sign-in\". Terminal signs the agent's CodePress MCP requests with this machine's key, so with \"Run my automations on this machine\" on, the automation runs here with no vouch.",
+      "sourceSha": "a9152463213712ed638aaffcf8fe578c1b5d2c29",
+      "identity": "mcp-relay-device-proof:930f9586bf8f0e1cf8316401bbf22055a096bc87a231aa6723a2374387a279a2"
     }
   ],
   "consumedIntentIds": [
