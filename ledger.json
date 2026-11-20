@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ab34e6f9a742af76c630761b748d4e0a65d6dd1e",
+  "cursorSha": "4d3e1f7b113bd554a5de9882d633725ae7828f0a",
   "highWaterVersion": "1.594.4",
   "rows": [
     {
@@ -186792,6 +186792,13 @@
       "sourceSha": "ab34e6f9a742af76c630761b748d4e0a65d6dd1e",
       "sourcePackageVersion": "1.594.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4d3e1f7b113bd554a5de9882d633725ae7828f0a",
+      "sourcePackageVersion": "1.594.3",
+      "intentIds": [
+        "orchestrator-planning-rules-once:859479ea5e839ae80618f301cd8b6f2bdce0f3d9549a05d3de4ec1f3fd9a337d"
+      ]
     }
   ],
   "intents": [
@@ -199562,6 +199569,14 @@
       "summary": "Sending to a project that lives on another machine now says right away when that machine's CodePress app is too old for what you attached or mentioned (a file, typed words with an answer, a cloud chat or a cloud project), instead of sending first and failing. This machine also reports what it can receive from one shared list, so your other machines and the web read it the same way.",
       "sourceSha": "fd2345689c3174a685869c6a6daff807bfd2e14a",
       "identity": "one-inbound-capability-list:9d94e07ebeb6fd045d400af57c7f792dc79bb47a9840eeaa70d75a7054455c2a"
+    },
+    {
+      "id": "orchestrator-planning-rules-once",
+      "digest": "859479ea5e839ae80618f301cd8b6f2bdce0f3d9549a05d3de4ec1f3fd9a337d",
+      "type": "patch",
+      "summary": "The local Orchestrator's default instructions now say each planning rule once, from \"Who you are\" through \"A design for every pull request\", so every project starts with about 3,000 fewer tokens of instructions. No rule was removed and every heading is unchanged, so a prompt you customized still merges: a section you edited is offered for review and the others update by themselves.",
+      "sourceSha": "4d3e1f7b113bd554a5de9882d633725ae7828f0a",
+      "identity": "orchestrator-planning-rules-once:859479ea5e839ae80618f301cd8b6f2bdce0f3d9549a05d3de4ec1f3fd9a337d"
     }
   ],
   "consumedIntentIds": [
