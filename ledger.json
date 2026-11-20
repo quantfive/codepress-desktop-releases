@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "81a7eea80adfd57f0f55bf06eac85bd50face721",
+  "cursorSha": "bb243ad3f516ba8ca0aad58f9da62f5a58da17fb",
   "highWaterVersion": "1.591.2",
   "rows": [
     {
@@ -186041,6 +186041,13 @@
       "intentIds": [
         "orchestrator-run-model-env:077c3b443a8362ace56f97c481d367ce959305b6bed78ae0de2a8bee7355977c"
       ]
+    },
+    {
+      "sourceSha": "bb243ad3f516ba8ca0aad58f9da62f5a58da17fb",
+      "sourcePackageVersion": "1.591.1",
+      "intentIds": [
+        "model-change-switches-running-turn:3880074a804ef5f8abbc244d6929a19e6be7abd91e57defaa393027d004fdb2e"
+      ]
     }
   ],
   "intents": [
@@ -198675,6 +198682,14 @@
       "summary": "Orchestrator: when a Claude Orchestrator changes model mid-conversation (for example planning on Fable 5.2 and building on Opus 5.5), each turn now gets the context window, compaction point and Status context meter of the model it runs on, instead of the model the conversation started on.",
       "sourceSha": "81a7eea80adfd57f0f55bf06eac85bd50face721",
       "identity": "orchestrator-run-model-env:077c3b443a8362ace56f97c481d367ce959305b6bed78ae0de2a8bee7355977c"
+    },
+    {
+      "id": "model-change-switches-running-turn",
+      "digest": "3880074a804ef5f8abbc244d6929a19e6be7abd91e57defaa393027d004fdb2e",
+      "type": "minor",
+      "summary": "Changing a local Orchestrator's model or effort while it is working now stops the running turn and continues the same message on the new model straight away, with no Stop or resend. The Orchestrator is told its previous attempt was interrupted, so it checks what already happened before repeating anything. With no turn running, the choice still applies from your next message.",
+      "sourceSha": "bb243ad3f516ba8ca0aad58f9da62f5a58da17fb",
+      "identity": "model-change-switches-running-turn:3880074a804ef5f8abbc244d6929a19e6be7abd91e57defaa393027d004fdb2e"
     }
   ],
   "consumedIntentIds": [
