@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7a332d71315f1aae4da6ae590d5f87a75005ec2a",
+  "cursorSha": "3980a3943e6f3b7c84e7fa81b9a086ea70d8d4b7",
   "highWaterVersion": "1.593.0",
   "rows": [
     {
@@ -186366,6 +186366,13 @@
       "sourceSha": "7a332d71315f1aae4da6ae590d5f87a75005ec2a",
       "sourcePackageVersion": "1.592.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3980a3943e6f3b7c84e7fa81b9a086ea70d8d4b7",
+      "sourcePackageVersion": "1.592.1",
+      "intentIds": [
+        "terminal-workers-automations:6fb42fe7ec2080c82760a45f5a832fea1f3f37ec070443f5c27b8a5d7ce99a78"
+      ]
     }
   ],
   "intents": [
@@ -199064,6 +199071,14 @@
       "summary": "Orchestrator stages now read Brief → Design → Build → Land, and the model menu, profile cards and settings name the three model slots Design, Orchestrate and Build. The composer chips read ORCHESTRATE and BUILD, \"Same as building\" is now \"Same as orchestrating\", and the Orchestrator's instructions name the stages the same way.",
       "sourceSha": "90d40d68e6946abde89d686ec2012440fee06deb",
       "identity": "stage-labels-one-tense:58fa28de950f33f66f3e433a02fe507757aea5aa3b67dc3a692a1360234364f9"
+    },
+    {
+      "id": "terminal-workers-automations",
+      "digest": "6fb42fe7ec2080c82760a45f5a832fea1f3f37ec070443f5c27b8a5d7ce99a78",
+      "type": "minor",
+      "summary": "Machines can run TypeScript automations built for Workers: the sandbox runs the bundle with Node under the same event and callback contract as Workers, and Terminal tells CodePress it can (`run_ts_automations`) once its sandbox has qualified.",
+      "sourceSha": "3980a3943e6f3b7c84e7fa81b9a086ea70d8d4b7",
+      "identity": "terminal-workers-automations:6fb42fe7ec2080c82760a45f5a832fea1f3f37ec070443f5c27b8a5d7ce99a78"
     }
   ],
   "consumedIntentIds": [
