@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ac18b6e508ccbaf34ba017db87ae6a2aa9d88c35",
+  "cursorSha": "d6e7ba3ca9d31d620c67b5029e0d5bf0a7c25afe",
   "highWaterVersion": "1.597.0",
   "rows": [
     {
@@ -188917,6 +188917,13 @@
       "sourceSha": "ac18b6e508ccbaf34ba017db87ae6a2aa9d88c35",
       "sourcePackageVersion": "1.596.15",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d6e7ba3ca9d31d620c67b5029e0d5bf0a7c25afe",
+      "sourcePackageVersion": "1.596.15",
+      "intentIds": [
+        "teammate-kickoff-refusal-sentences:bc2732a9f1a2a08663f71740b5c57c05e2c256563e0c73d93521769f309bd12d"
+      ]
     }
   ],
   "intents": [
@@ -201975,6 +201982,14 @@
       "summary": "Choosing a theme (in onboarding or Settings), keep-awake or the update channel no longer fails with \"Settings were not saved\" when the background service is saving settings at the same moment: the save now waits up to 2 seconds for it, off the main thread, so the window stays responsive. On Windows, a settings replace that antivirus or the indexer blocks for a moment is retried instead of failing. When a save still cannot land, the alert says another part of CodePress was saving settings instead of showing \"busy\".",
       "sourceSha": "f889699bcbfe228b62ab364992be0d8c84e161bc",
       "identity": "theme-save-waits-for-settings-lock:74852fd1723f3edf61b9ea75452a90c554ff9bcc65299e4ba937ee4344c75705"
+    },
+    {
+      "id": "teammate-kickoff-refusal-sentences",
+      "digest": "bc2732a9f1a2a08663f71740b5c57c05e2c256563e0c73d93521769f309bd12d",
+      "type": "patch",
+      "summary": "A teammate's chat or project that a shared computer refuses now says why, with the owner's next step, instead of only a code.",
+      "sourceSha": "d6e7ba3ca9d31d620c67b5029e0d5bf0a7c25afe",
+      "identity": "teammate-kickoff-refusal-sentences:bc2732a9f1a2a08663f71740b5c57c05e2c256563e0c73d93521769f309bd12d"
     }
   ],
   "consumedIntentIds": [
