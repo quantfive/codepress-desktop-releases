@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "42d177f4f0a1701e7fda5cbeebd459170a8f600b",
+  "cursorSha": "c7ec5cdf6927575a264d22c2a35c1e1bcaafabbc",
   "highWaterVersion": "1.594.2",
   "rows": [
     {
@@ -186624,6 +186624,11 @@
       "intentIds": [
         "remove-gemini-worker-thread-note:8b827c540ee2023bd5ef290d079eeea5412ceb643f5b883d511cf4e7c4cdcad8"
       ]
+    },
+    {
+      "sourceSha": "c7ec5cdf6927575a264d22c2a35c1e1bcaafabbc",
+      "sourcePackageVersion": "1.594.0",
+      "intentIds": []
     }
   ],
   "intents": [
