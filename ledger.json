@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2e9ac229933c105d4ed110d8924d1320aacdf7c0",
+  "cursorSha": "26afa6c5c17cdd4b6dc3d064719b827fb7e621e4",
   "highWaterVersion": "1.590.2",
   "rows": [
     {
@@ -185378,6 +185378,13 @@
       "sourceSha": "2e9ac229933c105d4ed110d8924d1320aacdf7c0",
       "sourcePackageVersion": "1.590.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "26afa6c5c17cdd4b6dc3d064719b827fb7e621e4",
+      "sourcePackageVersion": "1.590.1",
+      "intentIds": [
+        "unify-chat-model-picker:4559ffbcce4222c8310b4f599e3c380a51481b27ae36396ac80bb029379431d3"
+      ]
     }
   ],
   "intents": [
@@ -197868,6 +197875,14 @@
       "summary": "Support leasing and adopting Personal and Team Google sign-ins across machines (including All computers, remote machine targets, and Windows refusal reporting) and show all 13 providers across Accounts views.",
       "sourceSha": "e126fac0e857f810c77dfb5be41bc777a5904d7c",
       "identity": "terminal-google-lease-and-all-computers:fefb06b639fe6a0a6df5b5394f68438ae37c5474dc30f638b7b84544c84c1a5e"
+    },
+    {
+      "id": "unify-chat-model-picker",
+      "digest": "4559ffbcce4222c8310b4f599e3c380a51481b27ae36396ac80bb029379431d3",
+      "type": "patch",
+      "summary": "Unify Terminal's Chat and Orchestrator kickoff model pickers into one shared component so Chats tab kickoff offers all 14 providers (including Gemini, GitHub Copilot, Kiro, Cursor, Mistral Vibe, Qwen, GLM, and MiniMax) and resolves remote machine Gemini availability when targeting another owned machine.",
+      "sourceSha": "26afa6c5c17cdd4b6dc3d064719b827fb7e621e4",
+      "identity": "unify-chat-model-picker:4559ffbcce4222c8310b4f599e3c380a51481b27ae36396ac80bb029379431d3"
     }
   ],
   "consumedIntentIds": [
