@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "714a276d481a59f42912c3202d9b98352bc1af88",
+  "cursorSha": "73d106d1bc1d7d6843a2610476b6015b3443e78e",
   "highWaterVersion": "1.590.2",
   "rows": [
     {
@@ -185409,6 +185409,11 @@
       "intentIds": [
         "fleet-update-changelog-endpoint:2bd20855e457b5ec527b0cdcf1f8d54ebeaeae6712c0904e126800af7ba2b8aa"
       ]
+    },
+    {
+      "sourceSha": "73d106d1bc1d7d6843a2610476b6015b3443e78e",
+      "sourcePackageVersion": "1.590.1",
+      "intentIds": []
     }
   ],
   "intents": [
