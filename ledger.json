@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b32845ad08c6a1b49a5726a2d7c3a43268d17e12",
+  "cursorSha": "9feca0bc18b28681cd154ea9b27008f26e172d4b",
   "highWaterVersion": "1.596.6",
   "rows": [
     {
@@ -187973,6 +187973,13 @@
       "sourceSha": "b32845ad08c6a1b49a5726a2d7c3a43268d17e12",
       "sourcePackageVersion": "1.596.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9feca0bc18b28681cd154ea9b27008f26e172d4b",
+      "sourcePackageVersion": "1.596.6",
+      "intentIds": [
+        "frozen-worker-liveness:7385d721774dec5052c25bba09095efde554bd289ea09e0830d08512f8de807c"
+      ]
     }
   ],
   "intents": [
@@ -200919,6 +200926,14 @@
       "summary": "An automation's settings now have a Secrets section: people who can manage the automation can add, replace and remove its own secrets there, and saving other settings no longer clears them.",
       "sourceSha": "dd86179fe3a37141cf0b9553feb2920eb924a55a",
       "identity": "automation-own-secrets:b66b7d08b981f11702f0cab7c65aebea02303f79acff96675149877e47f6ae8a"
+    },
+    {
+      "id": "frozen-worker-liveness",
+      "digest": "7385d721774dec5052c25bba09095efde554bd289ea09e0830d08512f8de807c",
+      "type": "patch",
+      "summary": "The agents panel shows a cloud worker whose runner froze as Frozen, in the stalled tone, and reads a liveness value it does not know as Stalled.",
+      "sourceSha": "9feca0bc18b28681cd154ea9b27008f26e172d4b",
+      "identity": "frozen-worker-liveness:7385d721774dec5052c25bba09095efde554bd289ea09e0830d08512f8de807c"
     }
   ],
   "consumedIntentIds": [
