@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4d3e1f7b113bd554a5de9882d633725ae7828f0a",
+  "cursorSha": "58b48bc7163aa418d455486628e3f4e83165b56b",
   "highWaterVersion": "1.594.4",
   "rows": [
     {
@@ -186799,6 +186799,20 @@
       "intentIds": [
         "orchestrator-planning-rules-once:859479ea5e839ae80618f301cd8b6f2bdce0f3d9549a05d3de4ec1f3fd9a337d"
       ]
+    },
+    {
+      "sourceSha": "7125c1c38d7510e68c80fdb6daa5a2052e3fc9fe",
+      "sourcePackageVersion": "1.594.3",
+      "intentIds": [
+        "hide-write-with-siri:4856a884b3389a119bf6be47523abd08193917329b77c1a3e4208727b9527d88"
+      ]
+    },
+    {
+      "sourceSha": "58b48bc7163aa418d455486628e3f4e83165b56b",
+      "sourcePackageVersion": "1.594.3",
+      "intentIds": [
+        "shared-orchestrator-wake-rules:404ce2fed65f138080ec4ff60b6051788d9c9179dabf316b260bc559f362e282"
+      ]
     }
   ],
   "intents": [
@@ -199577,6 +199591,22 @@
       "summary": "The local Orchestrator's default instructions now say each planning rule once, from \"Who you are\" through \"A design for every pull request\", so every project starts with about 3,000 fewer tokens of instructions. No rule was removed and every heading is unchanged, so a prompt you customized still merges: a section you edited is offered for review and the others update by themselves.",
       "sourceSha": "4d3e1f7b113bd554a5de9882d633725ae7828f0a",
       "identity": "orchestrator-planning-rules-once:859479ea5e839ae80618f301cd8b6f2bdce0f3d9549a05d3de4ec1f3fd9a337d"
+    },
+    {
+      "id": "hide-write-with-siri",
+      "digest": "4856a884b3389a119bf6be47523abd08193917329b77c1a3e4208727b9527d88",
+      "type": "patch",
+      "summary": "macOS: clicking into a text field in Terminal (such as the Orchestrator message box) no longer pops the system \"Write with Siri\" bubble over the app. Writing Tools is also gone from Terminal's right-click menu.",
+      "sourceSha": "7125c1c38d7510e68c80fdb6daa5a2052e3fc9fe",
+      "identity": "hide-write-with-siri:4856a884b3389a119bf6be47523abd08193917329b77c1a3e4208727b9527d88"
+    },
+    {
+      "id": "shared-orchestrator-wake-rules",
+      "digest": "404ce2fed65f138080ec4ff60b6051788d9c9179dabf316b260bc559f362e282",
+      "type": "patch",
+      "summary": "A worker's progress report and every inbox message now wake the local Orchestrator, decided by the same shared wake rules the cloud Orchestrator uses.",
+      "sourceSha": "58b48bc7163aa418d455486628e3f4e83165b56b",
+      "identity": "shared-orchestrator-wake-rules:404ce2fed65f138080ec4ff60b6051788d9c9179dabf316b260bc559f362e282"
     }
   ],
   "consumedIntentIds": [
