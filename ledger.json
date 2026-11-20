@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "cbee5d5961e4ca54ba02c7a4039fdf2a0860ff5e",
+  "cursorSha": "90d40d68e6946abde89d686ec2012440fee06deb",
   "highWaterVersion": "1.592.1",
   "rows": [
     {
@@ -186286,6 +186286,13 @@
       "intentIds": [
         "orchestrator-context-eval:ca8c34f291717c4cf5a70607fafec2246b40ee4ee2b4b3df959b240422e7b045"
       ]
+    },
+    {
+      "sourceSha": "90d40d68e6946abde89d686ec2012440fee06deb",
+      "sourcePackageVersion": "1.592.0",
+      "intentIds": [
+        "stage-labels-one-tense:58fa28de950f33f66f3e433a02fe507757aea5aa3b67dc3a692a1360234364f9"
+      ]
     }
   ],
   "intents": [
@@ -198976,6 +198983,14 @@
       "summary": "Development only, no change to the app: `pnpm orchestrator:eval` launches a local Orchestrator from a checkout to measure what its first call costs and to score nine scripted scenarios, and compares two checkouts.",
       "sourceSha": "cbee5d5961e4ca54ba02c7a4039fdf2a0860ff5e",
       "identity": "orchestrator-context-eval:ca8c34f291717c4cf5a70607fafec2246b40ee4ee2b4b3df959b240422e7b045"
+    },
+    {
+      "id": "stage-labels-one-tense",
+      "digest": "58fa28de950f33f66f3e433a02fe507757aea5aa3b67dc3a692a1360234364f9",
+      "type": "patch",
+      "summary": "Orchestrator stages now read Brief → Design → Build → Land, and the model menu, profile cards and settings name the three model slots Design, Orchestrate and Build. The composer chips read ORCHESTRATE and BUILD, \"Same as building\" is now \"Same as orchestrating\", and the Orchestrator's instructions name the stages the same way.",
+      "sourceSha": "90d40d68e6946abde89d686ec2012440fee06deb",
+      "identity": "stage-labels-one-tense:58fa28de950f33f66f3e433a02fe507757aea5aa3b67dc3a692a1360234364f9"
     }
   ],
   "consumedIntentIds": [
