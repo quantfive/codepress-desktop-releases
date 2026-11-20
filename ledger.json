@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "73d106d1bc1d7d6843a2610476b6015b3443e78e",
+  "cursorSha": "f2953103cf95e0661c0413599e316b92a8479cac",
   "highWaterVersion": "1.590.2",
   "rows": [
     {
@@ -185414,6 +185414,13 @@
       "sourceSha": "73d106d1bc1d7d6843a2610476b6015b3443e78e",
       "sourcePackageVersion": "1.590.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f2953103cf95e0661c0413599e316b92a8479cac",
+      "sourcePackageVersion": "1.590.1",
+      "intentIds": [
+        "ptmp-read-file:9191e8618e0dbe7545636e81533ef6fd08697e0d4920f20db737786ca0257d72"
+      ]
     }
   ],
   "intents": [
@@ -197928,6 +197935,14 @@
       "summary": "Add a cached daemon changelog endpoint (`GET /api/terminal/fleet-update/changelog`) for release notes between two Terminal versions, and merge targeted per-machine `POST /api/terminal/fleet-update` results by `machine_id` so earlier machines' statuses are preserved.",
       "sourceSha": "714a276d481a59f42912c3202d9b98352bc1af88",
       "identity": "fleet-update-changelog-endpoint:2bd20855e457b5ec527b0cdcf1f8d54ebeaeae6712c0904e126800af7ba2b8aa"
+    },
+    {
+      "id": "ptmp-read-file",
+      "digest": "9191e8618e0dbe7545636e81533ef6fd08697e0d4920f20db737786ca0257d72",
+      "type": "patch",
+      "summary": "A local Orchestrator's `read_file` and `list_files` now reach its own project's temp folder (where it and its workers keep `$TMPDIR`), so it can read the QA evidence and scratch files its workers write there. The rest of Terminal's data folder, and other projects' temp folders, stay refused.",
+      "sourceSha": "f2953103cf95e0661c0413599e316b92a8479cac",
+      "identity": "ptmp-read-file:9191e8618e0dbe7545636e81533ef6fd08697e0d4920f20db737786ca0257d72"
     }
   ],
   "consumedIntentIds": [
