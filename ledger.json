@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "dee3f484d61a82649e740dd0c6a126b43a11c832",
-  "highWaterVersion": "1.596.11",
+  "highWaterVersion": "1.596.12",
   "rows": [
     {
       "schemaVersion": 1,
@@ -103194,6 +103194,54 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:dee3f484d61a82649e740dd0c6a126b43a11c832",
+      "kind": "main",
+      "sequence": 2565,
+      "sourceSha": "dee3f484d61a82649e740dd0c6a126b43a11c832",
+      "sourcePackageVersion": "1.596.7",
+      "version": "1.596.12",
+      "batch": {
+        "intentIds": [
+          "teammate-workers-own-work-dir:fe148239c8ec13c09289d7343e4b7790ee05dd993be1ce793df6422a0484c066"
+        ],
+        "notesIntentIds": [
+          "app-toolbar-hover-shape:4156704054e000a7f276ba347a72a7b275c2bcb2569dadbabf2f9eb2bf66a6ad",
+          "trim-live-thought-preview:7327088cf87c00cdef5fd99244760acfaeb751cc98ae7ac66852713629b0c02f",
+          "model-profiles-tool-no-switch:64e8641b32767fda39dc009307147fa66da98cf32bc9c95a82de4c0e765d8ae8",
+          "acp-steer-tool-boundary:bf673bccfa1ea927bdff5f44e69759922df3d2cb263096b7e3dc11cfd5c7b329",
+          "terminal-usage-every-chatbox:8c08cfbbaa7c36744f82b9ae1d36ccb0f492f9cc3d4e65de964db74fee7b3485",
+          "teammate-workers-own-work-dir:fe148239c8ec13c09289d7343e4b7790ee05dd993be1ce793df6422a0484c066"
+        ],
+        "throughSourceSha": "dee3f484d61a82649e740dd0c6a126b43a11c832",
+        "previousThroughSourceSha": "28d70460e67ebe3c1e271b2f7566a9f9eac47f2f",
+        "baselineVersion": "1.596.11",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-20T20:09:55.696Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44808693466",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-21T20:09:47.423Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -203078,7 +203126,8 @@
     "trim-live-thought-preview:7327088cf87c00cdef5fd99244760acfaeb751cc98ae7ac66852713629b0c02f",
     "model-profiles-tool-no-switch:64e8641b32767fda39dc009307147fa66da98cf32bc9c95a82de4c0e765d8ae8",
     "acp-steer-tool-boundary:bf673bccfa1ea927bdff5f44e69759922df3d2cb263096b7e3dc11cfd5c7b329",
-    "terminal-usage-every-chatbox:8c08cfbbaa7c36744f82b9ae1d36ccb0f492f9cc3d4e65de964db74fee7b3485"
+    "terminal-usage-every-chatbox:8c08cfbbaa7c36744f82b9ae1d36ccb0f492f9cc3d4e65de964db74fee7b3485",
+    "teammate-workers-own-work-dir:fe148239c8ec13c09289d7343e4b7790ee05dd993be1ce793df6422a0484c066"
   ],
-  "consumedThroughSha": "28d70460e67ebe3c1e271b2f7566a9f9eac47f2f"
+  "consumedThroughSha": "dee3f484d61a82649e740dd0c6a126b43a11c832"
 }
