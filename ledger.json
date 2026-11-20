@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "6eb47daac8737b0be0a079b8c54154138ed332ae",
-  "highWaterVersion": "1.596.2",
+  "highWaterVersion": "1.596.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -102715,6 +102715,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:6eb47daac8737b0be0a079b8c54154138ed332ae",
+      "kind": "main",
+      "sequence": 2556,
+      "sourceSha": "6eb47daac8737b0be0a079b8c54154138ed332ae",
+      "sourcePackageVersion": "1.596.2",
+      "version": "1.596.3",
+      "batch": {
+        "intentIds": [
+          "sandbox-lima-base-restart:3d9b2b0b35b971e399dfbeb87cd1504b08c40a0ce2344b5ce2f620b1e7904f95"
+        ],
+        "notesIntentIds": [
+          "sandbox-lima-base-restart:3d9b2b0b35b971e399dfbeb87cd1504b08c40a0ce2344b5ce2f620b1e7904f95"
+        ],
+        "throughSourceSha": "6eb47daac8737b0be0a079b8c54154138ed332ae",
+        "previousThroughSourceSha": "d37d3e41b61b850131e26ea9b4c86c7c2959fa08",
+        "baselineVersion": "1.596.2",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-20T13:08:52.054Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44741664141",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-21T13:08:43.065Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -202183,7 +202226,8 @@
     "orchestrator-build-rules-once:c23f9635a61d5cbb75ebfb65e778587821e05145866811189543b7e8b5cee872",
     "orchestrator-adopt-open-pr:720f6e787461f498ef0d0c84fe97700b5bd9e7f9f247788a6703345891b7c5e8",
     "orchestrator-build-phase-instructions:62b211869896663e4bad113d31e7ff0505366503950a78c82797c5e587c044c1",
-    "switch-allowance-holds:85c5254037a234ff3a8f8c1ea9b9240daa788ee4b23d414c53a168937e1169cd"
+    "switch-allowance-holds:85c5254037a234ff3a8f8c1ea9b9240daa788ee4b23d414c53a168937e1169cd",
+    "sandbox-lima-base-restart:3d9b2b0b35b971e399dfbeb87cd1504b08c40a0ce2344b5ce2f620b1e7904f95"
   ],
-  "consumedThroughSha": "d37d3e41b61b850131e26ea9b4c86c7c2959fa08"
+  "consumedThroughSha": "6eb47daac8737b0be0a079b8c54154138ed332ae"
 }
