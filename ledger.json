@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ed6c182f5f8f0a76d0624f1b79c3f9fa2087a528",
+  "cursorSha": "a59bae62b2915ab771242d68150d1719ce00024b",
   "highWaterVersion": "1.594.5",
   "rows": [
     {
@@ -186944,6 +186944,18 @@
       "intentIds": [
         "terminal-feature-flags-menu:4dbc57e68ccb6361ea06f3e15dc20201860e2f75a158c8407033a142eaff1734"
       ]
+    },
+    {
+      "sourceSha": "63c9db180be008d944ecd2b4ee94cefeacf318ec",
+      "sourcePackageVersion": "1.594.3",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "a59bae62b2915ab771242d68150d1719ce00024b",
+      "sourcePackageVersion": "1.594.3",
+      "intentIds": [
+        "chat-model-profiles:94a02757787ba02f35586cfeb2d7001b84f6b6401ab19781e380d8361c908105"
+      ]
     }
   ],
   "intents": [
@@ -199778,6 +199790,14 @@
       "summary": "Wire the shared `@codepress/ui/feature-flags` Feature Flags menu into CodePress Terminal's unified shell Account menu on desktop and mobile TitleBar on phone widths, gated on `user.featureFlagsPanelAccess`, with immediate `orgSettingsStore` cache updates, synced-settings refresh, and native webview overlay coordination.",
       "sourceSha": "ed6c182f5f8f0a76d0624f1b79c3f9fa2087a528",
       "identity": "terminal-feature-flags-menu:4dbc57e68ccb6361ea06f3e15dc20201860e2f75a158c8407033a142eaff1734"
+    },
+    {
+      "id": "chat-model-profiles",
+      "digest": "94a02757787ba02f35586cfeb2d7001b84f6b6401ab19781e380d8361c908105",
+      "type": "minor",
+      "summary": "With your Model profiles switch on, every chat's model menu now has the Profiles strip a project's has: one tap sets the chat's model and effort to the profile's Orchestrator, and Save current saves the chat's model. On a phone the Profiles section starts collapsed to one row, and a project's roles stack one per row. Manage in the model menu opens Settings at Model profiles.",
+      "sourceSha": "a59bae62b2915ab771242d68150d1719ce00024b",
+      "identity": "chat-model-profiles:94a02757787ba02f35586cfeb2d7001b84f6b6401ab19781e380d8361c908105"
     }
   ],
   "consumedIntentIds": [
