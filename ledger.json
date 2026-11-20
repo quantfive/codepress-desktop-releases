@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "d2327e89008091cc4dbd87cb72283bce04f5c869",
-  "highWaterVersion": "1.597.0",
+  "highWaterVersion": "1.597.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -103472,6 +103472,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:d2327e89008091cc4dbd87cb72283bce04f5c869",
+      "kind": "main",
+      "sequence": 2570,
+      "sourceSha": "d2327e89008091cc4dbd87cb72283bce04f5c869",
+      "sourcePackageVersion": "1.596.15",
+      "version": "1.597.1",
+      "batch": {
+        "intentIds": [
+          "teammate-kickoff-refusal-sentences:bc2732a9f1a2a08663f71740b5c57c05e2c256563e0c73d93521769f309bd12d",
+          "orchestrator-shared-machine-reads:4c9daf942aa78d46ee06b41069086acbc7c55b8c855047b7cc30ed092814acd4"
+        ],
+        "notesIntentIds": [
+          "teammate-kickoff-refusal-sentences:bc2732a9f1a2a08663f71740b5c57c05e2c256563e0c73d93521769f309bd12d",
+          "orchestrator-shared-machine-reads:4c9daf942aa78d46ee06b41069086acbc7c55b8c855047b7cc30ed092814acd4"
+        ],
+        "throughSourceSha": "d2327e89008091cc4dbd87cb72283bce04f5c869",
+        "previousThroughSourceSha": "49b3c6ca35c4688b4f60ac822b5f6216acb59b39",
+        "baselineVersion": "1.597.0",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-20T22:31:42.466Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44829597014",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-21T22:31:35.258Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -203659,7 +203704,9 @@
     "live-app-screen-annotation:369675c2941f0a45e97cba84597050b6eb5aaef3c674e3c5b0ebd3930b9fffe6",
     "app-onboarding-v2-everyone:34f9160e13b47e36624d04b991b83474d710b75f993ddb1e494d6f9cc77f497d",
     "design-kit-offer-every-org:03c6ae54f79e52d7a70089cfdede56212f055b36dbe412472cf1d6a87d85156b",
-    "theme-save-waits-for-settings-lock:74852fd1723f3edf61b9ea75452a90c554ff9bcc65299e4ba937ee4344c75705"
+    "theme-save-waits-for-settings-lock:74852fd1723f3edf61b9ea75452a90c554ff9bcc65299e4ba937ee4344c75705",
+    "teammate-kickoff-refusal-sentences:bc2732a9f1a2a08663f71740b5c57c05e2c256563e0c73d93521769f309bd12d",
+    "orchestrator-shared-machine-reads:4c9daf942aa78d46ee06b41069086acbc7c55b8c855047b7cc30ed092814acd4"
   ],
-  "consumedThroughSha": "49b3c6ca35c4688b4f60ac822b5f6216acb59b39"
+  "consumedThroughSha": "d2327e89008091cc4dbd87cb72283bce04f5c869"
 }
