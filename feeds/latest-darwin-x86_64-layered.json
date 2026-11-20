@@ -1,19 +1,19 @@
 {
-  "version": "1.590.4",
+  "version": "1.590.5",
   "notes": "See the release notes on GitHub",
-  "pub_date": "2026-11-20T01:24:34.574Z",
+  "pub_date": "2026-11-20T01:48:56.190Z",
   "codepress": {
-    "brokerRuntimeIdentity": "bundle=da26de4ca8ec6ea9;launch-env=4",
+    "brokerRuntimeIdentity": "bundle=ff6aec2d05abbbd6;launch-env=4",
     "brokerGenerationProtocolVersion": 1,
     "brokerRuntimeIdentities": {
-      "darwin-x86_64": "bundle=da26de4ca8ec6ea9;launch-env=4"
+      "darwin-x86_64": "bundle=ff6aec2d05abbbd6;launch-env=4"
     },
     "layers": {
       "darwin-x86_64": {
         "app": {
-          "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.590.4/CodePress_x64.app.tar.gz",
-          "size": 73330908,
-          "sha256": "11483e728f2f0288c518ecf6c37077d1db0c5ee45f07c0d4a3f45ab17f0dae0d"
+          "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.590.5/CodePress_x64.app.tar.gz",
+          "size": 73330895,
+          "sha256": "0366d5c627a3c7cb8f646ad770953dfc75f4ceb2131b5092a6a76cf0115c8c64"
         },
         "layers": [
           {
@@ -46,8 +46,8 @@
   },
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMUhLaXVFZHU3VWJyb3FtYkliYVNGbGlNN2FmYnh3azhrSUVOMWt1OHJqRzBmZStBdDNTazdCaGo5RWNQVEZVYzgvZnVTS0xkQ3hkSWJGQUxUWWtLSTV1cy84dVNWSWdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTM4NTc1CWZpbGU6Q29kZVByZXNzLmFwcC50YXIuZ3oKMEFpajY5cEltbXE5VS8ycHdhZUZ5TThiR2VyQVE0aDR1c1pjTzNnelNHVzlCYXppL1dFdHl2S05hUnFUNDdNZzZPWk54NTVGZkJEUUF5NGRmUVBYQ1E9PQo=",
-      "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.590.4/CodePress_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMUhLaXVFZHU3VWZDZ3ZpUHFsVDJOb1NtYm91ZklaK1NvNjBDS3RPK014ZWx3WEhtZ3I0eHAvNGpqQ005QXZPVXhiRjRWNVE1elplWTZIVXFvTWZCME9saW45YnRkVmc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTQwMDEyCWZpbGU6Q29kZVByZXNzLmFwcC50YXIuZ3oKakloWExOaVg3THhZdld1Rk9OeG9Mb0tXK1VWaXhvNzVGWFQxamdWOHdMd3NYYTBObEZ5TGlHOWdjYzYvQUM2WWtlc01KMW9aeW9RZE5BOG1EMzA5REE9PQo=",
+      "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.590.5/CodePress_x64.app.tar.gz"
     }
   }
 }
