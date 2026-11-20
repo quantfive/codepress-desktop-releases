@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "45b179527c3c3eb000cc7b1e355fef0dc7c45338",
+  "cursorSha": "287f5ffe52cf3c38fdfbc2547bd8e9e20bf2ed18",
   "highWaterVersion": "1.592.0",
   "rows": [
     {
@@ -186153,6 +186153,13 @@
       "sourceSha": "45b179527c3c3eb000cc7b1e355fef0dc7c45338",
       "sourcePackageVersion": "1.591.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "287f5ffe52cf3c38fdfbc2547bd8e9e20bf2ed18",
+      "sourcePackageVersion": "1.591.2",
+      "intentIds": [
+        "orchestrator-interactive-plans:8d7bc2083e653a0f4042e535ca7a0c501684479b9dae60a8bc355c94b291caba"
+      ]
     }
   ],
   "intents": [
@@ -198811,6 +198818,14 @@
       "summary": "A cloud Orchestrator's `/` menu lists its repository's skills under \"Skills\", with the repository's name as a badge.",
       "sourceSha": "aed8914de117c67ac5c939fe97ac51bfcb25be38",
       "identity": "cloud-lead-repo-skills:abf00e6f06a0901d7a82f170ce2743eb5f0efe6a313ee8321b9ea7ea26d09509"
+    },
+    {
+      "id": "orchestrator-interactive-plans",
+      "digest": "8d7bc2083e653a0f4042e535ca7a0c501684479b9dae60a8bc355c94b291caba",
+      "type": "patch",
+      "summary": "Default local Orchestrator HTML design plans and canvas mockups to lightweight click-through interactivity (button → loading → next state with Reset/Close, menus, dialogs, tabs) and wire composed design-kit screens with declarative state attributes (`data-kit-state`, `data-kit-set`, `data-kit-after`, `data-kit-toggle`, `data-kit-tabs`).",
+      "sourceSha": "287f5ffe52cf3c38fdfbc2547bd8e9e20bf2ed18",
+      "identity": "orchestrator-interactive-plans:8d7bc2083e653a0f4042e535ca7a0c501684479b9dae60a8bc355c94b291caba"
     }
   ],
   "consumedIntentIds": [
