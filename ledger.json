@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "85ad5512a32ae1087d190a9c2c32b8b9f230ff75",
-  "highWaterVersion": "1.595.2",
+  "highWaterVersion": "1.595.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -102503,6 +102503,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:85ad5512a32ae1087d190a9c2c32b8b9f230ff75",
+      "kind": "main",
+      "sequence": 2552,
+      "sourceSha": "85ad5512a32ae1087d190a9c2c32b8b9f230ff75",
+      "sourcePackageVersion": "1.595.2",
+      "version": "1.595.3",
+      "batch": {
+        "intentIds": [
+          "orchestrator-build-rules-once:c23f9635a61d5cbb75ebfb65e778587821e05145866811189543b7e8b5cee872"
+        ],
+        "notesIntentIds": [
+          "orchestrator-build-rules-once:c23f9635a61d5cbb75ebfb65e778587821e05145866811189543b7e8b5cee872"
+        ],
+        "throughSourceSha": "85ad5512a32ae1087d190a9c2c32b8b9f230ff75",
+        "previousThroughSourceSha": "fa62e9e062ef3355133c82a1d3ed83420d0a8348",
+        "baselineVersion": "1.595.2",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-20T09:45:14.501Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44713277028",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-21T09:45:03.524Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -201777,7 +201820,8 @@
     "terminal-aws-broker-env:b4e37f4e9a2f87de113ff7d970538dac6fe2e5661f8e3fb47916a68bf43db95b",
     "orchestrator-context-variant:11f9344a9d90985c3a6080df75670fb5f9c40f9ac07361eb187e630a8ea9309c",
     "fold-reasoning-activity-group:7342641f778362f61946e3096b1f01ce29e052d20e903c897fcf53c2b5f50099",
-    "shared-worker-liveness-rules:30fa918640473e95cea45e125c21037ecfb18b5dbc40d8750f4a7ed40496277f"
+    "shared-worker-liveness-rules:30fa918640473e95cea45e125c21037ecfb18b5dbc40d8750f4a7ed40496277f",
+    "orchestrator-build-rules-once:c23f9635a61d5cbb75ebfb65e778587821e05145866811189543b7e8b5cee872"
   ],
-  "consumedThroughSha": "fa62e9e062ef3355133c82a1d3ed83420d0a8348"
+  "consumedThroughSha": "85ad5512a32ae1087d190a9c2c32b8b9f230ff75"
 }
