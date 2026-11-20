@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "20868587458b1a75be89b458b1d538b7ed24c223",
+  "cursorSha": "28d70460e67ebe3c1e271b2f7566a9f9eac47f2f",
   "highWaterVersion": "1.596.10",
   "rows": [
     {
@@ -188360,6 +188360,18 @@
       "sourceSha": "20868587458b1a75be89b458b1d538b7ed24c223",
       "sourcePackageVersion": "1.596.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4b3a323eaf432933370f878050842e5038480fb8",
+      "sourcePackageVersion": "1.596.7",
+      "intentIds": [
+        "terminal-usage-every-chatbox:8c08cfbbaa7c36744f82b9ae1d36ccb0f492f9cc3d4e65de964db74fee7b3485"
+      ]
+    },
+    {
+      "sourceSha": "28d70460e67ebe3c1e271b2f7566a9f9eac47f2f",
+      "sourcePackageVersion": "1.596.7",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -201346,6 +201358,14 @@
       "summary": "A Gemini Orchestrator now reads a message you send while it works as soon as its current tool call finishes, instead of after its whole reply.",
       "sourceSha": "b0608d2d0f150920d4bbe7c2a182cb283858d33a",
       "identity": "acp-steer-tool-boundary:bf673bccfa1ea927bdff5f44e69759922df3d2cb263096b7e3dc11cfd5c7b329"
+    },
+    {
+      "id": "terminal-usage-every-chatbox",
+      "digest": "8c08cfbbaa7c36744f82b9ae1d36ccb0f492f9cc3d4e65de964db74fee7b3485",
+      "type": "patch",
+      "summary": "Show weekly subscription usage in every chatbox with a model chip. A new project's composer now follows Runs on: this machine shows this machine's reading, another of your machines shows that machine's reading (and names it), and Cloud shows the subscription you chose for Cloud runs. Cloud chats show their chosen subscription too. A usage read that fails while Terminal starts is asked again a few times instead of leaving the ring empty.",
+      "sourceSha": "4b3a323eaf432933370f878050842e5038480fb8",
+      "identity": "terminal-usage-every-chatbox:8c08cfbbaa7c36744f82b9ae1d36ccb0f492f9cc3d4e65de964db74fee7b3485"
     }
   ],
   "consumedIntentIds": [
