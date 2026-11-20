@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5e4ee95be462f4d80c0f1cac362a7a5931e17068",
+  "cursorSha": "dee3f484d61a82649e740dd0c6a126b43a11c832",
   "highWaterVersion": "1.596.11",
   "rows": [
     {
@@ -188443,6 +188443,13 @@
       "sourceSha": "5e4ee95be462f4d80c0f1cac362a7a5931e17068",
       "sourcePackageVersion": "1.596.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "dee3f484d61a82649e740dd0c6a126b43a11c832",
+      "sourcePackageVersion": "1.596.7",
+      "intentIds": [
+        "teammate-workers-own-work-dir:fe148239c8ec13c09289d7343e4b7790ee05dd993be1ce793df6422a0484c066"
+      ]
     }
   ],
   "intents": [
@@ -201437,6 +201444,14 @@
       "summary": "Show weekly subscription usage in every chatbox with a model chip. A new project's composer now follows Runs on: this machine shows this machine's reading, another of your machines shows that machine's reading (and names it), and Cloud shows the subscription you chose for Cloud runs. Cloud chats show their chosen subscription too. A usage read that fails while Terminal starts is asked again a few times instead of leaving the ring empty.",
       "sourceSha": "4b3a323eaf432933370f878050842e5038480fb8",
       "identity": "terminal-usage-every-chatbox:8c08cfbbaa7c36744f82b9ae1d36ccb0f492f9cc3d4e65de964db74fee7b3485"
+    },
+    {
+      "id": "teammate-workers-own-work-dir",
+      "digest": "fe148239c8ec13c09289d7343e4b7790ee05dd993be1ce793df6422a0484c066",
+      "type": "patch",
+      "summary": "A teammate's Orchestrator on a shared computer starts its workers again. Terminal makes the teammate's `~/work` if it is missing and repairs one that lost its write bit, as the teammate. When another account owns it, the refusal names the owner's one fix. A failed worker directory now tells the Orchestrator the error code and the path. A worker with no repository named uses the work item's recorded repository. A teammate's Orchestrator gets the usual shell and file tools in its own account instead of a read-only shell.",
+      "sourceSha": "dee3f484d61a82649e740dd0c6a126b43a11c832",
+      "identity": "teammate-workers-own-work-dir:fe148239c8ec13c09289d7343e4b7790ee05dd993be1ce793df6422a0484c066"
     }
   ],
   "consumedIntentIds": [
