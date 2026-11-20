@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "fc7d4c8ebc92bd29fd872353b74b594b6c7af9f5",
+  "cursorSha": "714a276d481a59f42912c3202d9b98352bc1af88",
   "highWaterVersion": "1.590.2",
   "rows": [
     {
@@ -185397,6 +185397,18 @@
       "intentIds": [
         "thread-plan-approval:2d02f403c1742c1d514484634a85ee7dec962725bab8483fcc974150394661d2"
       ]
+    },
+    {
+      "sourceSha": "df21a9d2d9f761f47ed8c5b18cdfa538dc4aee9e",
+      "sourcePackageVersion": "1.590.1",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "714a276d481a59f42912c3202d9b98352bc1af88",
+      "sourcePackageVersion": "1.590.1",
+      "intentIds": [
+        "fleet-update-changelog-endpoint:2bd20855e457b5ec527b0cdcf1f8d54ebeaeae6712c0904e126800af7ba2b8aa"
+      ]
     }
   ],
   "intents": [
@@ -197903,6 +197915,14 @@
       "summary": "Orchestrator: when a turn ends with a plan posted only in the thread (no plan issue), Terminal opens a \"Start the build on the plan in this thread?\" approval card, notifies you and marks the project as needing you.",
       "sourceSha": "fc7d4c8ebc92bd29fd872353b74b594b6c7af9f5",
       "identity": "thread-plan-approval:2d02f403c1742c1d514484634a85ee7dec962725bab8483fcc974150394661d2"
+    },
+    {
+      "id": "fleet-update-changelog-endpoint",
+      "digest": "2bd20855e457b5ec527b0cdcf1f8d54ebeaeae6712c0904e126800af7ba2b8aa",
+      "type": "patch",
+      "summary": "Add a cached daemon changelog endpoint (`GET /api/terminal/fleet-update/changelog`) for release notes between two Terminal versions, and merge targeted per-machine `POST /api/terminal/fleet-update` results by `machine_id` so earlier machines' statuses are preserved.",
+      "sourceSha": "714a276d481a59f42912c3202d9b98352bc1af88",
+      "identity": "fleet-update-changelog-endpoint:2bd20855e457b5ec527b0cdcf1f8d54ebeaeae6712c0904e126800af7ba2b8aa"
     }
   ],
   "consumedIntentIds": [
