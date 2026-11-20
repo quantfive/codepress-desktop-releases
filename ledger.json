@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "20f25558c6b3e06411900fcd9b9840d00ad4da99",
+  "cursorSha": "63989d7da097e7d8f9f25fa2c6d6ac7cd70e7013",
   "highWaterVersion": "1.590.4",
   "rows": [
     {
@@ -185599,6 +185599,13 @@
       "sourceSha": "20f25558c6b3e06411900fcd9b9840d00ad4da99",
       "sourcePackageVersion": "1.590.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "63989d7da097e7d8f9f25fa2c6d6ac7cd70e7013",
+      "sourcePackageVersion": "1.590.3",
+      "intentIds": [
+        "palette-ranked-scorer:e2c2796ac20043960bbf84ef7924322065a47d2f1de329f436b289ddfc72fd47"
+      ]
     }
   ],
   "intents": [
@@ -198153,6 +198160,14 @@
       "summary": "The project card shows a running worker's newest progress, question or result note under the Now line until the Orchestrator posts a status, and the Work view uses that note for a working agent with no live activity.",
       "sourceSha": "a9f90c338164480990dec3dfb15644240b4a5af5",
       "identity": "worker-notes-on-card:d4dd596757bbbb2a636aa0805f6c799847133359c4fcdf30cf9100eaf397103a"
+    },
+    {
+      "id": "palette-ranked-scorer",
+      "digest": "e2c2796ac20043960bbf84ef7924322065a47d2f1de329f436b289ddfc72fd47",
+      "type": "patch",
+      "summary": "The shared command palette package now includes the ranked search scorer the web ⌘K palette uses; Terminal's palette is unchanged.",
+      "sourceSha": "63989d7da097e7d8f9f25fa2c6d6ac7cd70e7013",
+      "identity": "palette-ranked-scorer:e2c2796ac20043960bbf84ef7924322065a47d2f1de329f436b289ddfc72fd47"
     }
   ],
   "consumedIntentIds": [
