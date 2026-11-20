@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0953580c6f8e7f3afb278ee5522ebddae375409c",
+  "cursorSha": "8996bbb680a3d6eeca9cacf1b4cb340509a4f243",
   "highWaterVersion": "1.590.6",
   "rows": [
     {
@@ -185767,6 +185767,13 @@
       "intentIds": [
         "terminal-one-machine-status:411d116389cff102c9c00fca7076c75079c4801bbd71887ade5ac7b8732d8807"
       ]
+    },
+    {
+      "sourceSha": "8996bbb680a3d6eeca9cacf1b4cb340509a4f243",
+      "sourcePackageVersion": "1.590.5",
+      "intentIds": [
+        "model-picks-become-defaults:c2e6211265c17a9d20baf919185db74961445455bde6aab591080357de6621b1"
+      ]
     }
   ],
   "intents": [
@@ -198353,6 +198360,14 @@
       "summary": "Machines list, handoff targets, project move and usage sync now read one machine status: a Mac takes its newest check-in across every organization, so they agree on the same machine at the same moment.",
       "sourceSha": "0953580c6f8e7f3afb278ee5522ebddae375409c",
       "identity": "terminal-one-machine-status:411d116389cff102c9c00fca7076c75079c4801bbd71887ade5ac7b8732d8807"
+    },
+    {
+      "id": "model-picks-become-defaults",
+      "digest": "c2e6211265c17a9d20baf919185db74961445455bde6aab591080357de6621b1",
+      "type": "minor",
+      "summary": "With Model profiles on, what you pick in the Orchestrator model menu (a profile, the Orchestrator, Workers or Plan model, or an effort) is saved as your default, so your next new chat opens on it. This works in a new chat, in project threads and on the App page. If the save fails, a line under the input says why and your pick still applies. With Model profiles off, nothing changes.",
+      "sourceSha": "8996bbb680a3d6eeca9cacf1b4cb340509a4f243",
+      "identity": "model-picks-become-defaults:c2e6211265c17a9d20baf919185db74961445455bde6aab591080357de6621b1"
     }
   ],
   "consumedIntentIds": [
