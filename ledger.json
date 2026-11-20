@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "83c4f2360a6d66e64d513c4ca0dbcdbd1daf1759",
-  "highWaterVersion": "1.592.1",
+  "highWaterVersion": "1.593.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -101978,6 +101978,55 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:83c4f2360a6d66e64d513c4ca0dbcdbd1daf1759",
+      "kind": "main",
+      "sequence": 2542,
+      "sourceSha": "83c4f2360a6d66e64d513c4ca0dbcdbd1daf1759",
+      "sourcePackageVersion": "1.592.0",
+      "version": "1.593.0",
+      "batch": {
+        "intentIds": [
+          "one-switch-automations:12e183ff451f53661c9728d234e1a64f7d85ece19fc7ea3ad6b9587ae440446a",
+          "shared-ui-guards-formatters:f5b736c551cf0370d79f4750e8432ec499336e644a829867b46dacd5246b3268",
+          "orchestrator-context-eval:ca8c34f291717c4cf5a70607fafec2246b40ee4ee2b4b3df959b240422e7b045",
+          "stage-labels-one-tense:58fa28de950f33f66f3e433a02fe507757aea5aa3b67dc3a692a1360234364f9"
+        ],
+        "notesIntentIds": [
+          "one-switch-automations:12e183ff451f53661c9728d234e1a64f7d85ece19fc7ea3ad6b9587ae440446a",
+          "shared-ui-guards-formatters:f5b736c551cf0370d79f4750e8432ec499336e644a829867b46dacd5246b3268",
+          "orchestrator-context-eval:ca8c34f291717c4cf5a70607fafec2246b40ee4ee2b4b3df959b240422e7b045",
+          "stage-labels-one-tense:58fa28de950f33f66f3e433a02fe507757aea5aa3b67dc3a692a1360234364f9"
+        ],
+        "throughSourceSha": "83c4f2360a6d66e64d513c4ca0dbcdbd1daf1759",
+        "previousThroughSourceSha": "872b8c13045fb4152bedcb3c1cd124806f3ba8f9",
+        "baselineVersion": "1.592.1",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-20T04:39:25.287Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44675764781",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-21T04:39:16.819Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -200581,7 +200630,11 @@
     "model-change-switches-running-turn:3880074a804ef5f8abbc244d6929a19e6be7abd91e57defaa393027d004fdb2e",
     "vault-request-shared:e5ec8ea5b571024a6bbf47aa74b4e78f9816db1ddbf61effd8fa14e7745824f6",
     "cloud-lead-repo-skills:abf00e6f06a0901d7a82f170ce2743eb5f0efe6a313ee8321b9ea7ea26d09509",
-    "orchestrator-interactive-plans:8d7bc2083e653a0f4042e535ca7a0c501684479b9dae60a8bc355c94b291caba"
+    "orchestrator-interactive-plans:8d7bc2083e653a0f4042e535ca7a0c501684479b9dae60a8bc355c94b291caba",
+    "one-switch-automations:12e183ff451f53661c9728d234e1a64f7d85ece19fc7ea3ad6b9587ae440446a",
+    "shared-ui-guards-formatters:f5b736c551cf0370d79f4750e8432ec499336e644a829867b46dacd5246b3268",
+    "orchestrator-context-eval:ca8c34f291717c4cf5a70607fafec2246b40ee4ee2b4b3df959b240422e7b045",
+    "stage-labels-one-tense:58fa28de950f33f66f3e433a02fe507757aea5aa3b67dc3a692a1360234364f9"
   ],
-  "consumedThroughSha": "872b8c13045fb4152bedcb3c1cd124806f3ba8f9"
+  "consumedThroughSha": "83c4f2360a6d66e64d513c4ca0dbcdbd1daf1759"
 }
