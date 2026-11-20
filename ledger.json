@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "258c4704618e2891bb07f33f78d57cd9dd5c5921",
+  "cursorSha": "69a113837120dcadefb898878c71673af7a38d47",
   "highWaterVersion": "1.590.1",
   "rows": [
     {
@@ -185295,6 +185295,13 @@
       "sourceSha": "258c4704618e2891bb07f33f78d57cd9dd5c5921",
       "sourcePackageVersion": "1.590.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "69a113837120dcadefb898878c71673af7a38d47",
+      "sourcePackageVersion": "1.590.0",
+      "intentIds": [
+        "pool-settings-shared-half:5d24de0f3f4a54769f6286cd1d006a05184470a70534c52dbf280568ba28597a"
+      ]
     }
   ],
   "intents": [
@@ -197769,6 +197776,14 @@
       "summary": "Settings → Agent accounts: the Qwen, Kiro, Cursor, GitHub Copilot and Mistral Vibe tabs are drawn by one shared panel. Nothing changes on screen.",
       "sourceSha": "85007fab6f35e1d786f2283c86d52b8d41b34a24",
       "identity": "one-cli-account-panel:4d7c5843c864585e91351deceadab272d0ecad96b0de487c323f24584f53eeca"
+    },
+    {
+      "id": "pool-settings-shared-half",
+      "digest": "5d24de0f3f4a54769f6286cd1d006a05184470a70534c52dbf280568ba28597a",
+      "type": "patch",
+      "summary": "Settings → Agent accounts: the Claude and Codex panels now share one implementation of what they do the same. Nothing looks or behaves differently.",
+      "sourceSha": "69a113837120dcadefb898878c71673af7a38d47",
+      "identity": "pool-settings-shared-half:5d24de0f3f4a54769f6286cd1d006a05184470a70534c52dbf280568ba28597a"
     }
   ],
   "consumedIntentIds": [
