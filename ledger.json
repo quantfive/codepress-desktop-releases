@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "87a53168af9201ce21fcf755f5e0c9f4ac021861",
+  "cursorSha": "fd2345689c3174a685869c6a6daff807bfd2e14a",
   "highWaterVersion": "1.594.3",
   "rows": [
     {
@@ -186718,6 +186718,13 @@
       "sourceSha": "87a53168af9201ce21fcf755f5e0c9f4ac021861",
       "sourcePackageVersion": "1.594.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "fd2345689c3174a685869c6a6daff807bfd2e14a",
+      "sourcePackageVersion": "1.594.2",
+      "intentIds": [
+        "one-inbound-capability-list:9d94e07ebeb6fd045d400af57c7f792dc79bb47a9840eeaa70d75a7054455c2a"
+      ]
     }
   ],
   "intents": [
@@ -199480,6 +199487,14 @@
       "summary": "The update popover shows how far each machine's download has come: a progress bar and \"Downloading 42%\", or \"Downloading…\" while no percent is known. A Server CLI says whether it is downloading, checking or finishing its update. Each machine that can update names its own target (\"Update ready · v1.592.0\"), in the popover, Settings → Computers and My Computers on the web.",
       "sourceSha": "68a2b38b926980fc47d79f6589fea1d68d40769c",
       "identity": "fleet-download-progress:2a86e071a44cc6fe14596063fcd136ce964bf2113d2fd4ba3b51ba590fad9bb2"
+    },
+    {
+      "id": "one-inbound-capability-list",
+      "digest": "9d94e07ebeb6fd045d400af57c7f792dc79bb47a9840eeaa70d75a7054455c2a",
+      "type": "patch",
+      "summary": "Sending to a project that lives on another machine now says right away when that machine's CodePress app is too old for what you attached or mentioned (a file, typed words with an answer, a cloud chat or a cloud project), instead of sending first and failing. This machine also reports what it can receive from one shared list, so your other machines and the web read it the same way.",
+      "sourceSha": "fd2345689c3174a685869c6a6daff807bfd2e14a",
+      "identity": "one-inbound-capability-list:9d94e07ebeb6fd045d400af57c7f792dc79bb47a9840eeaa70d75a7054455c2a"
     }
   ],
   "consumedIntentIds": [
