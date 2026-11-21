@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "4bd3f385bdb582d0df0c369690e1098d086140fd",
-  "highWaterVersion": "1.604.0",
+  "highWaterVersion": "1.604.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -105084,6 +105084,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:4bd3f385bdb582d0df0c369690e1098d086140fd",
+      "kind": "main",
+      "sequence": 2601,
+      "sourceSha": "4bd3f385bdb582d0df0c369690e1098d086140fd",
+      "sourcePackageVersion": "1.603.0",
+      "version": "1.604.1",
+      "batch": {
+        "intentIds": [
+          "stop-post-approval-review-churn:5ea51e51a45da5f994e40b0cabe15bf0560ff6287a0decfd7d81b98056241202"
+        ],
+        "notesIntentIds": [
+          "stop-post-approval-review-churn:5ea51e51a45da5f994e40b0cabe15bf0560ff6287a0decfd7d81b98056241202"
+        ],
+        "throughSourceSha": "4bd3f385bdb582d0df0c369690e1098d086140fd",
+        "previousThroughSourceSha": "1c5c9e022b6bf9123bc4c65348c73fab97f7b2d0",
+        "baselineVersion": "1.604.0",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-21T21:02:24.131Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44949357627",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-22T21:02:14.526Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -206856,7 +206899,8 @@
     "terminal-app-name-and-icon:7adcf7ca2e55166ed0851dfe9f6e4bdb2f32fe025c2771fddbba308d6c563ce0",
     "sync-terminal-muse-sdk:8be9baa76ab8cf26d44ccd66d9374e0789e46d5040d4159687b6bbe4ce0054e4",
     "redline-open-run-undo-redo:65ed0c96ed2a884be7296d5ceb165d038f539878719b01bbe65404ea6aad2cb1",
-    "windows-remote-desktop-capture:d03aae6240a35d43df2e32cd8d16457d24731452d0dec713a2360b491f9b505d"
+    "windows-remote-desktop-capture:d03aae6240a35d43df2e32cd8d16457d24731452d0dec713a2360b491f9b505d",
+    "stop-post-approval-review-churn:5ea51e51a45da5f994e40b0cabe15bf0560ff6287a0decfd7d81b98056241202"
   ],
-  "consumedThroughSha": "1c5c9e022b6bf9123bc4c65348c73fab97f7b2d0"
+  "consumedThroughSha": "4bd3f385bdb582d0df0c369690e1098d086140fd"
 }
