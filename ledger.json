@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5bdd35260ef49c665ee84a0307177cf70919c30b",
+  "cursorSha": "bb4ff64dd41af427651be07979bb66f851ec4d68",
   "highWaterVersion": "1.600.0",
   "rows": [
     {
@@ -189255,6 +189255,16 @@
       "intentIds": [
         "broker-manager-dispose-final:e0bb17c50f2d422c50ad1aedff63f1eaea9f81ebedea4b26d3700c1a98e997b4"
       ]
+    },
+    {
+      "sourceSha": "0add0c19c2151f1e14e7aaced2fe85bab1dcaadf",
+      "sourcePackageVersion": "1.599.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "bb4ff64dd41af427651be07979bb66f851ec4d68",
+      "sourcePackageVersion": "1.599.0",
+      "intentIds": []
     }
   ],
   "intents": [
