@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "a2018747f461b7312638e50dec8f298d8606b355",
-  "highWaterVersion": "1.601.5",
+  "highWaterVersion": "1.601.6",
   "rows": [
     {
       "schemaVersion": 1,
@@ -104203,6 +104203,55 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:a2018747f461b7312638e50dec8f298d8606b355",
+      "kind": "main",
+      "sequence": 2584,
+      "sourceSha": "a2018747f461b7312638e50dec8f298d8606b355",
+      "sourcePackageVersion": "1.601.4",
+      "version": "1.601.6",
+      "batch": {
+        "intentIds": [
+          "kickoff-holds-in-place:8651d18f82045c7e34584c2e533c318bf9691c341cfd85cfe11329add7e72ba7",
+          "duo-status-bar-clearance:4454c03090476f4bc86580995b8a4113dc148b9acee3e550ebd7af57768c1521",
+          "teammate-git-author-from-token-identity:339fd18eeee4ea2c5b4a87e91ea05fef08f99e4d1268bbaff8274d7b6c3fcc83",
+          "terminal-selection-fanout:6b88401d16f35fc4ef971884ca32b6a5191cfcaf770e4874ee55a3ff6d361241"
+        ],
+        "notesIntentIds": [
+          "kickoff-holds-in-place:8651d18f82045c7e34584c2e533c318bf9691c341cfd85cfe11329add7e72ba7",
+          "duo-status-bar-clearance:4454c03090476f4bc86580995b8a4113dc148b9acee3e550ebd7af57768c1521",
+          "teammate-git-author-from-token-identity:339fd18eeee4ea2c5b4a87e91ea05fef08f99e4d1268bbaff8274d7b6c3fcc83",
+          "terminal-selection-fanout:6b88401d16f35fc4ef971884ca32b6a5191cfcaf770e4874ee55a3ff6d361241"
+        ],
+        "throughSourceSha": "a2018747f461b7312638e50dec8f298d8606b355",
+        "previousThroughSourceSha": "083787ebef830a30d32b87ed9a2e6e68da13a3e2",
+        "baselineVersion": "1.601.5",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-21T04:49:31.155Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44867920670",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-22T04:49:23.934Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -205179,7 +205228,11 @@
     "app-theme-bridge:d5b5947682d7a5e9fc56defa8b29e1b8da38ab72f4b9fb9df0d23cfe5a766dc8",
     "automations-list-scan:4f4ab063d7523b4c15c0183c5dd332409d92f01c6dc32082a2ac7c8246792e8f",
     "terminal-qa-scripts-real-timers:ad3fdcd04bf6e883aff2260ddab637b5c57345c5d98c862c6b7c4d6a367ad808",
-    "plain-control-errors-other-screens:0ea69d0213b401e21294e831441c24ebd54b2acbea49e95ef8cee22b57a78723"
+    "plain-control-errors-other-screens:0ea69d0213b401e21294e831441c24ebd54b2acbea49e95ef8cee22b57a78723",
+    "kickoff-holds-in-place:8651d18f82045c7e34584c2e533c318bf9691c341cfd85cfe11329add7e72ba7",
+    "duo-status-bar-clearance:4454c03090476f4bc86580995b8a4113dc148b9acee3e550ebd7af57768c1521",
+    "teammate-git-author-from-token-identity:339fd18eeee4ea2c5b4a87e91ea05fef08f99e4d1268bbaff8274d7b6c3fcc83",
+    "terminal-selection-fanout:6b88401d16f35fc4ef971884ca32b6a5191cfcaf770e4874ee55a3ff6d361241"
   ],
-  "consumedThroughSha": "083787ebef830a30d32b87ed9a2e6e68da13a3e2"
+  "consumedThroughSha": "a2018747f461b7312638e50dec8f298d8606b355"
 }
