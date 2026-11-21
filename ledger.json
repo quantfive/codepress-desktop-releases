@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "742493af572ba956cb5bf8decbc08c04ccceb87b",
-  "highWaterVersion": "1.602.0",
+  "highWaterVersion": "1.602.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -104374,6 +104374,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:742493af572ba956cb5bf8decbc08c04ccceb87b",
+      "kind": "main",
+      "sequence": 2587,
+      "sourceSha": "742493af572ba956cb5bf8decbc08c04ccceb87b",
+      "sourcePackageVersion": "1.602.0",
+      "version": "1.602.1",
+      "batch": {
+        "intentIds": [
+          "terminal-vitest-memory-limit-and-sqlite-stmt-cache:6ad360e46ff8f9e0dd2fbb46137b7e31328c253ca9453a01cc30aa594c608625"
+        ],
+        "notesIntentIds": [
+          "terminal-vitest-memory-limit-and-sqlite-stmt-cache:6ad360e46ff8f9e0dd2fbb46137b7e31328c253ca9453a01cc30aa594c608625"
+        ],
+        "throughSourceSha": "742493af572ba956cb5bf8decbc08c04ccceb87b",
+        "previousThroughSourceSha": "68cc7cef9bd7372b102a563a889b7a03ed1f75df",
+        "baselineVersion": "1.602.0",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-21T06:38:43.831Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44876468945",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-22T06:38:35.938Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -205481,7 +205524,8 @@
     "teammate-git-author-from-token-identity:339fd18eeee4ea2c5b4a87e91ea05fef08f99e4d1268bbaff8274d7b6c3fcc83",
     "terminal-selection-fanout:6b88401d16f35fc4ef971884ca32b6a5191cfcaf770e4874ee55a3ff6d361241",
     "terminal-real-timer-lint-error:eb9da0fa3eebbaa3b7e29b2ef51359d7c8dfcfd2ddd4f6cf381aef875e26ab9b",
-    "terminal-forward-github-login:31f8272262fc75375679e94762b32072b6f8fa3e3b6e01a686e1df289dbc0d52"
+    "terminal-forward-github-login:31f8272262fc75375679e94762b32072b6f8fa3e3b6e01a686e1df289dbc0d52",
+    "terminal-vitest-memory-limit-and-sqlite-stmt-cache:6ad360e46ff8f9e0dd2fbb46137b7e31328c253ca9453a01cc30aa594c608625"
   ],
-  "consumedThroughSha": "68cc7cef9bd7372b102a563a889b7a03ed1f75df"
+  "consumedThroughSha": "742493af572ba956cb5bf8decbc08c04ccceb87b"
 }
