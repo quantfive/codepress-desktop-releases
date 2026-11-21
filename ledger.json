@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "44bba64f8410dfdd74f5f216a4a694c2f6ab517f",
+  "cursorSha": "2664fca5e91d15e07d55f0a41efd41cd285adb3a",
   "highWaterVersion": "1.601.1",
   "rows": [
     {
@@ -189844,6 +189844,13 @@
       "sourceSha": "44bba64f8410dfdd74f5f216a4a694c2f6ab517f",
       "sourcePackageVersion": "1.601.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2664fca5e91d15e07d55f0a41efd41cd285adb3a",
+      "sourcePackageVersion": "1.601.0",
+      "intentIds": [
+        "teammate-ask-acting-answers:824ccbe86328baeacca1dbeaf7838069b4d4121cfa7b791de0a68aed0c3413a7"
+      ]
     }
   ],
   "intents": [
@@ -203046,6 +203053,14 @@
       "summary": "The shared rail can now draw an organization's pinned tabs after its sections. Terminal draws them only once its host passes pinned links, so it looks the same today.",
       "sourceSha": "b2a729fdef42966e1bb9121f3258bac806fe5794",
       "identity": "rail-pinned-tabs:161588355ccfccc340af60e986df0ba75a43364d5ae7073a0a3b75189b361e57"
+    },
+    {
+      "id": "teammate-ask-acting-answers",
+      "digest": "824ccbe86328baeacca1dbeaf7838069b4d4121cfa7b791de0a68aed0c3413a7",
+      "type": "patch",
+      "summary": "A teammate's project on a shared computer can now act on a card's answer: Relaunch or Other model on a failed worker launch restarts the worker under the teammate's own account in their `~/work`, and Start on a stopped Orchestrator restarts it, instead of being refused `fleet_unavailable`.",
+      "sourceSha": "2664fca5e91d15e07d55f0a41efd41cd285adb3a",
+      "identity": "teammate-ask-acting-answers:824ccbe86328baeacca1dbeaf7838069b4d4121cfa7b791de0a68aed0c3413a7"
     }
   ],
   "consumedIntentIds": [
