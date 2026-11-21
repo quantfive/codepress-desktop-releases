@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1f2a7f007ea28316a4f53caeec6e6926dc2a88a7",
+  "cursorSha": "af068354c36bf02de54843230f8215da0f1f2b22",
   "highWaterVersion": "1.602.5",
   "rows": [
     {
@@ -190845,6 +190845,20 @@
       "sourceSha": "1f2a7f007ea28316a4f53caeec6e6926dc2a88a7",
       "sourcePackageVersion": "1.602.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "32f801829cb58b5b56ae9eda76b843dd427a3fdc",
+      "sourcePackageVersion": "1.602.4",
+      "intentIds": [
+        "teammate-refusal-reason:53898c78ac3c65a20292b217f644c94d418590b123a849b21b67b2bcf4c6e18a"
+      ]
+    },
+    {
+      "sourceSha": "af068354c36bf02de54843230f8215da0f1f2b22",
+      "sourcePackageVersion": "1.602.4",
+      "intentIds": [
+        "relaunch-orphaned-claims-settle:b7401f4a3e9c98c0df6c45bec2b339ef4221da38ecf086f5dc1f4837563c8cb9"
+      ]
     }
   ],
   "intents": [
@@ -204183,6 +204197,22 @@
       "summary": "A chat started with no Project folder or repository now works out which repository the person means from what they say, checking this machine's repositories and folders, and asks a short question when several could match or none does.",
       "sourceSha": "0ee97ff0e3c2a9231df245e70062930cc8921d88",
       "identity": "chat-no-repository-discovery:e9f6d088e735ba1e6028e2e07786600be1f0f81ea4b0c6ffad3c9b78cfbf74f7"
+    },
+    {
+      "id": "teammate-refusal-reason",
+      "digest": "53898c78ac3c65a20292b217f644c94d418590b123a849b21b67b2bcf4c6e18a",
+      "type": "patch",
+      "summary": "When a shared machine refuses a teammate's message or answer, the notice now shows the machine's own reason in plain words, with the refusal code kept for diagnosis.",
+      "sourceSha": "32f801829cb58b5b56ae9eda76b843dd427a3fdc",
+      "identity": "teammate-refusal-reason:53898c78ac3c65a20292b217f644c94d418590b123a849b21b67b2bcf4c6e18a"
+    },
+    {
+      "id": "relaunch-orphaned-claims-settle",
+      "digest": "b7401f4a3e9c98c0df6c45bec2b339ef4221da38ecf086f5dc1f4837563c8cb9",
+      "type": "patch",
+      "summary": "Relaunch on a teammate's failed worker launch card works again after the shared computer's Terminal restarted during an earlier relaunch: a relaunch left unfinished by a process that is gone is cleared instead of holding the worker forever, and a relaunch that must still wait now says why in plain words.",
+      "sourceSha": "af068354c36bf02de54843230f8215da0f1f2b22",
+      "identity": "relaunch-orphaned-claims-settle:b7401f4a3e9c98c0df6c45bec2b339ef4221da38ecf086f5dc1f4837563c8cb9"
     }
   ],
   "consumedIntentIds": [
