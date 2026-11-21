@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e6a2e6f7bdf5f6dd1a92f5d9e641b11d576cc3c8",
+  "cursorSha": "0ee97ff0e3c2a9231df245e70062930cc8921d88",
   "highWaterVersion": "1.602.4",
   "rows": [
     {
@@ -190786,6 +190786,13 @@
       "sourceSha": "e6a2e6f7bdf5f6dd1a92f5d9e641b11d576cc3c8",
       "sourcePackageVersion": "1.602.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0ee97ff0e3c2a9231df245e70062930cc8921d88",
+      "sourcePackageVersion": "1.602.3",
+      "intentIds": [
+        "chat-no-repository-discovery:e9f6d088e735ba1e6028e2e07786600be1f0f81ea4b0c6ffad3c9b78cfbf74f7"
+      ]
     }
   ],
   "intents": [
@@ -204116,6 +204123,14 @@
       "summary": "Make the annotate toolbar box draggable anywhere on screen, including popping out into a frameless always-on-top native window outside the CodePress Terminal app window.",
       "sourceSha": "614bf8b2353ad28abc23cdf864327f5b228c1a23",
       "identity": "feat-annotate-draggable-box:20390f299f891ff314222ad65ad0751d353017b751cf96d4a501d72225a9e0e0"
+    },
+    {
+      "id": "chat-no-repository-discovery",
+      "digest": "e9f6d088e735ba1e6028e2e07786600be1f0f81ea4b0c6ffad3c9b78cfbf74f7",
+      "type": "patch",
+      "summary": "A chat started with no Project folder or repository now works out which repository the person means from what they say, checking this machine's repositories and folders, and asks a short question when several could match or none does.",
+      "sourceSha": "0ee97ff0e3c2a9231df245e70062930cc8921d88",
+      "identity": "chat-no-repository-discovery:e9f6d088e735ba1e6028e2e07786600be1f0f81ea4b0c6ffad3c9b78cfbf74f7"
     }
   ],
   "consumedIntentIds": [
