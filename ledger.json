@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "08f6d15445b659e3e6fa58769b4e548243b00200",
-  "highWaterVersion": "1.600.0",
+  "highWaterVersion": "1.600.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -103679,6 +103679,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:08f6d15445b659e3e6fa58769b4e548243b00200",
+      "kind": "main",
+      "sequence": 2574,
+      "sourceSha": "08f6d15445b659e3e6fa58769b4e548243b00200",
+      "sourcePackageVersion": "1.600.0",
+      "version": "1.600.1",
+      "batch": {
+        "intentIds": [
+          "broker-manager-dispose-final:e0bb17c50f2d422c50ad1aedff63f1eaea9f81ebedea4b26d3700c1a98e997b4",
+          "automations-list-find:8498c40508ed07034105e81b3902f4926ec4dfe0d4fc88a8c2c1b0bfe974f18d"
+        ],
+        "notesIntentIds": [
+          "broker-manager-dispose-final:e0bb17c50f2d422c50ad1aedff63f1eaea9f81ebedea4b26d3700c1a98e997b4",
+          "automations-list-find:8498c40508ed07034105e81b3902f4926ec4dfe0d4fc88a8c2c1b0bfe974f18d"
+        ],
+        "throughSourceSha": "08f6d15445b659e3e6fa58769b4e548243b00200",
+        "previousThroughSourceSha": "bd3161db4fcaa72c73cd093f9212011ba32c97a9",
+        "baselineVersion": "1.600.0",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-21T00:26:23.731Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44843754078",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-22T00:26:16.013Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -204063,7 +204108,9 @@
     "terminal-browser-annotate-and-staff-redline:ada3004effd1451e9d48acfd17d333ebe0c1fa54c8225dc51504ddefb1d866f2",
     "orchestrator-send-now:7218b4d5357085b9e51605a18c889e54ed88ef21513266d0b1713ebda8fa3f54",
     "codex-device-code-word-label:8b9588199dd99277ff6ac89f76b73018b9df45c2a8ee8c27ca1e5d00a8365ac1",
-    "model-profiles-for-everyone:96f08c811b7d24ab33b5fd6966f567107aea30e17f33ed26e7073c5ea7cb9462"
+    "model-profiles-for-everyone:96f08c811b7d24ab33b5fd6966f567107aea30e17f33ed26e7073c5ea7cb9462",
+    "broker-manager-dispose-final:e0bb17c50f2d422c50ad1aedff63f1eaea9f81ebedea4b26d3700c1a98e997b4",
+    "automations-list-find:8498c40508ed07034105e81b3902f4926ec4dfe0d4fc88a8c2c1b0bfe974f18d"
   ],
-  "consumedThroughSha": "bd3161db4fcaa72c73cd093f9212011ba32c97a9"
+  "consumedThroughSha": "08f6d15445b659e3e6fa58769b4e548243b00200"
 }
