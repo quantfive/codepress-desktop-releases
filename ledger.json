@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5896b8e422c72dd133ec5b2edf6a6cf167e0e68d",
+  "cursorSha": "ca66392adaf195616aa159f01997e63ced139cc6",
   "highWaterVersion": "1.602.11",
   "rows": [
     {
@@ -191415,6 +191415,13 @@
       "sourceSha": "5896b8e422c72dd133ec5b2edf6a6cf167e0e68d",
       "sourcePackageVersion": "1.602.10",
       "intentIds": []
+    },
+    {
+      "sourceSha": "ca66392adaf195616aa159f01997e63ced139cc6",
+      "sourcePackageVersion": "1.602.10",
+      "intentIds": [
+        "project-sync-off-thread-snapshot-upload:cdfc368d696915a554cd7ad182ee5c33bb311fd78fe126f2bb003d02f8639df8"
+      ]
     }
   ],
   "intents": [
@@ -204825,6 +204832,14 @@
       "summary": "Every Orchestrator chat's header now says where its agent runs: this machine's name (the same name its card in the list shows), another machine's name for a synced chat, or Cloud. Hover reads \"Running on …\". On a phone the name is a small line under the chat's title, so the header is no taller.",
       "sourceSha": "78a9495a271a504f0876f38a59306fde428990f8",
       "identity": "chat-header-names-run-location:3d94453728d35e212e6e8f9f0930db441a46377532f7ea6d8e2a26d4c1558691"
+    },
+    {
+      "id": "project-sync-off-thread-snapshot-upload",
+      "digest": "cdfc368d696915a554cd7ad182ee5c33bb311fd78fe126f2bb003d02f8639df8",
+      "type": "patch",
+      "summary": "Move background Orchestrator project-sync turn snapshot preparation (file stat, bounded read, SHA-256 hashing, gzip compression, base64/UTF-8 encoding, and JSON request body serialization) off the Terminal daemon's main event loop into a reusable worker thread with async inline fallback, preventing multi-second daemon stalls during large snapshot uploads so Remote Desktop video, input, and health checks stay responsive on this machine.",
+      "sourceSha": "ca66392adaf195616aa159f01997e63ced139cc6",
+      "identity": "project-sync-off-thread-snapshot-upload:cdfc368d696915a554cd7ad182ee5c33bb311fd78fe126f2bb003d02f8639df8"
     }
   ],
   "consumedIntentIds": [
