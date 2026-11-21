@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "f21b61d5e2233129971a1d3297cd91259b582c7c",
-  "highWaterVersion": "1.600.1",
+  "highWaterVersion": "1.600.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -103728,6 +103728,53 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:f21b61d5e2233129971a1d3297cd91259b582c7c",
+      "kind": "main",
+      "sequence": 2575,
+      "sourceSha": "f21b61d5e2233129971a1d3297cd91259b582c7c",
+      "sourcePackageVersion": "1.600.0",
+      "version": "1.600.2",
+      "batch": {
+        "intentIds": [
+          "device-channel-wake-probe:9261ad82699b67eae69eb18e17e0788ecb836c08697503eec3918c2c0b7394b2",
+          "plain-unreachable-machine-wording:32fc0c177ec9806efc03b29b6cb108b604d02c9e027432e264fe6b19d89f01c4",
+          "kickoff-defers-gh-check:ff8bbc6bfa4a0546099afa6496d11dcdeda9b692ff381219d859b82c86d4bd21"
+        ],
+        "notesIntentIds": [
+          "device-channel-wake-probe:9261ad82699b67eae69eb18e17e0788ecb836c08697503eec3918c2c0b7394b2",
+          "plain-unreachable-machine-wording:32fc0c177ec9806efc03b29b6cb108b604d02c9e027432e264fe6b19d89f01c4",
+          "kickoff-defers-gh-check:ff8bbc6bfa4a0546099afa6496d11dcdeda9b692ff381219d859b82c86d4bd21"
+        ],
+        "throughSourceSha": "f21b61d5e2233129971a1d3297cd91259b582c7c",
+        "previousThroughSourceSha": "08f6d15445b659e3e6fa58769b4e548243b00200",
+        "baselineVersion": "1.600.1",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-21T00:48:33.263Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44846095137",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-22T00:48:25.820Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -204199,7 +204246,10 @@
     "codex-device-code-word-label:8b9588199dd99277ff6ac89f76b73018b9df45c2a8ee8c27ca1e5d00a8365ac1",
     "model-profiles-for-everyone:96f08c811b7d24ab33b5fd6966f567107aea30e17f33ed26e7073c5ea7cb9462",
     "broker-manager-dispose-final:e0bb17c50f2d422c50ad1aedff63f1eaea9f81ebedea4b26d3700c1a98e997b4",
-    "automations-list-find:8498c40508ed07034105e81b3902f4926ec4dfe0d4fc88a8c2c1b0bfe974f18d"
+    "automations-list-find:8498c40508ed07034105e81b3902f4926ec4dfe0d4fc88a8c2c1b0bfe974f18d",
+    "device-channel-wake-probe:9261ad82699b67eae69eb18e17e0788ecb836c08697503eec3918c2c0b7394b2",
+    "plain-unreachable-machine-wording:32fc0c177ec9806efc03b29b6cb108b604d02c9e027432e264fe6b19d89f01c4",
+    "kickoff-defers-gh-check:ff8bbc6bfa4a0546099afa6496d11dcdeda9b692ff381219d859b82c86d4bd21"
   ],
-  "consumedThroughSha": "08f6d15445b659e3e6fa58769b4e548243b00200"
+  "consumedThroughSha": "f21b61d5e2233129971a1d3297cd91259b582c7c"
 }
