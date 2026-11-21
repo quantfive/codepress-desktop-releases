@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f24d11a78274138b40c4013f2a6a8567c2fa17b3",
+  "cursorSha": "051fe57767251a38e6445443eaccdf25530d7ee5",
   "highWaterVersion": "1.604.4",
   "rows": [
     {
@@ -192121,6 +192121,13 @@
       "sourceSha": "f24d11a78274138b40c4013f2a6a8567c2fa17b3",
       "sourcePackageVersion": "1.604.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "051fe57767251a38e6445443eaccdf25530d7ee5",
+      "sourcePackageVersion": "1.604.2",
+      "intentIds": [
+        "link-primitives-ui-closure:10c758ba911f5917a6e374970df89d14657cfe708dd1198c80899efa897b945a"
+      ]
     }
   ],
   "intents": [
@@ -205651,6 +205658,14 @@
       "summary": "Text delivered into terminal tabs from outside the machine stays text: review and task messages have escape sequences and control bytes removed before they are pasted, automatic delivery no longer pastes into database consoles, editors or a bare language REPL, and an agent started from a cloud task reads the task from a private file instead of having it typed into the shell.",
       "sourceSha": "2e902b3af6d0a57932090bef2459e8ed987fbab9",
       "identity": "safe-tab-delivery:2dd8aa296072b450107be2354403692ee3a9d71b14efc012a7db6546842cacc2"
+    },
+    {
+      "id": "link-primitives-ui-closure",
+      "digest": "10c758ba911f5917a6e374970df89d14657cfe708dd1198c80899efa897b945a",
+      "type": "patch",
+      "summary": "Update Terminal UI dependency closure manifest for the shared `@codepress/ui` link primitive and navigation helper.",
+      "sourceSha": "051fe57767251a38e6445443eaccdf25530d7ee5",
+      "identity": "link-primitives-ui-closure:10c758ba911f5917a6e374970df89d14657cfe708dd1198c80899efa897b945a"
     }
   ],
   "consumedIntentIds": [
