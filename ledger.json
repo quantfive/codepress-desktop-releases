@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "083787ebef830a30d32b87ed9a2e6e68da13a3e2",
+  "cursorSha": "53616ad000ac1ae5a93dcfd2e45667e1ca2fa8e7",
   "highWaterVersion": "1.601.5",
   "rows": [
     {
@@ -190201,6 +190201,13 @@
       "sourceSha": "083787ebef830a30d32b87ed9a2e6e68da13a3e2",
       "sourcePackageVersion": "1.601.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "53616ad000ac1ae5a93dcfd2e45667e1ca2fa8e7",
+      "sourcePackageVersion": "1.601.4",
+      "intentIds": [
+        "kickoff-holds-in-place:8651d18f82045c7e34584c2e533c318bf9691c341cfd85cfe11329add7e72ba7"
+      ]
     }
   ],
   "intents": [
@@ -203451,6 +203458,14 @@
       "summary": "Open app in the Machines menu, Update and Update all, Hand off here on a saved tab, and Project move now say a failure to reach another machine in one plain sentence naming that machine, never a code, an operation id or raw JSON. When the other machine never confirmed the outcome, the Hand off dialog no longer also says that nothing moved, and the Machines menu's cloud machine list no longer shows the browser's \"Failed to fetch\".",
       "sourceSha": "eac48c730b8b0b3e4c319ae6477b8a1365a22047",
       "identity": "plain-control-errors-other-screens:0ea69d0213b401e21294e831441c24ebd54b2acbea49e95ef8cee22b57a78723"
+    },
+    {
+      "id": "kickoff-holds-in-place",
+      "digest": "8651d18f82045c7e34584c2e533c318bf9691c341cfd85cfe11329add7e72ba7",
+      "type": "patch",
+      "summary": "New chat holds every piece in place from first paint: the Team chip, Runs on, the voice buttons, the model chip and the Instructions chip are drawn at this machine's last answer while their reads are out, and the prompt update notice sits under the message box, so nothing above or inside the box moves when the reads answer.",
+      "sourceSha": "53616ad000ac1ae5a93dcfd2e45667e1ca2fa8e7",
+      "identity": "kickoff-holds-in-place:8651d18f82045c7e34584c2e533c318bf9691c341cfd85cfe11329add7e72ba7"
     }
   ],
   "consumedIntentIds": [
