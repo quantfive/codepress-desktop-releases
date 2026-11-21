@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2740ffe17668457cc02884e2fed5ae8b68a5b028",
+  "cursorSha": "b2373a220c0e61cbd9e233854ef993f986d825e0",
   "highWaterVersion": "1.602.6",
   "rows": [
     {
@@ -190933,6 +190933,13 @@
       "sourceSha": "2740ffe17668457cc02884e2fed5ae8b68a5b028",
       "sourcePackageVersion": "1.602.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b2373a220c0e61cbd9e233854ef993f986d825e0",
+      "sourcePackageVersion": "1.602.5",
+      "intentIds": [
+        "terminal-windows-platforms-prompt:3f98712921c08ad94a1d1bd447906df16e21b72b1dc7056d26cc67999fc5fe8d"
+      ]
     }
   ],
   "intents": [
@@ -204287,6 +204294,14 @@
       "summary": "Relaunch on a teammate's failed worker launch card works again after the shared computer's Terminal restarted during an earlier relaunch: a relaunch left unfinished by a process that is gone is cleared instead of holding the worker forever, and a relaunch that must still wait now says why in plain words.",
       "sourceSha": "af068354c36bf02de54843230f8215da0f1f2b22",
       "identity": "relaunch-orphaned-claims-settle:b7401f4a3e9c98c0df6c45bec2b339ef4221da38ecf086f5dc1f4837563c8cb9"
+    },
+    {
+      "id": "terminal-windows-platforms-prompt",
+      "digest": "3f98712921c08ad94a1d1bd447906df16e21b72b1dc7056d26cc67999fc5fe8d",
+      "type": "patch",
+      "summary": "The local Orchestrator's instructions now say CodePress runs on macOS, Linux and Windows, now that the Windows app is downloadable from `/app`.",
+      "sourceSha": "b2373a220c0e61cbd9e233854ef993f986d825e0",
+      "identity": "terminal-windows-platforms-prompt:3f98712921c08ad94a1d1bd447906df16e21b72b1dc7056d26cc67999fc5fe8d"
     }
   ],
   "consumedIntentIds": [
