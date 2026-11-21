@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "57a6368125ce3f3ee5683e8790c0c3aa3c9a9ad3",
+  "cursorSha": "742493af572ba956cb5bf8decbc08c04ccceb87b",
   "highWaterVersion": "1.602.0",
   "rows": [
     {
@@ -190504,6 +190504,13 @@
       "sourceSha": "57a6368125ce3f3ee5683e8790c0c3aa3c9a9ad3",
       "sourcePackageVersion": "1.602.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "742493af572ba956cb5bf8decbc08c04ccceb87b",
+      "sourcePackageVersion": "1.602.0",
+      "intentIds": [
+        "terminal-vitest-memory-limit-and-sqlite-stmt-cache:6ad360e46ff8f9e0dd2fbb46137b7e31328c253ca9453a01cc30aa594c608625"
+      ]
     }
   ],
   "intents": [
@@ -203802,6 +203809,14 @@
       "summary": "Your own machine can now lend its GitHub login to the team machines you run work on. When a Team computer runs your work and your CodePress account has no GitHub linked, it can borrow this machine's `gh` or git login so commits and pull requests are authored as you. Only requests for your own signed-in account are answered, nothing ever prompts, and the token is never logged. Turn it off with \"Forward my GitHub login to team machines\" on this computer's card in Settings → Computers (shown while Team computers is on), or ask an agent to turn off `forwardGithubToTeamMachines`. Only you can turn it back on.",
       "sourceSha": "68cc7cef9bd7372b102a563a889b7a03ed1f75df",
       "identity": "terminal-forward-github-login:31f8272262fc75375679e94762b32072b6f8fa3e3b6e01a686e1df289dbc0d52"
+    },
+    {
+      "id": "terminal-vitest-memory-limit-and-sqlite-stmt-cache",
+      "digest": "6ad360e46ff8f9e0dd2fbb46137b7e31328c253ca9453a01cc30aa594c608625",
+      "type": "patch",
+      "summary": "Cache prepared SQLite statements per `OrchestratorStore` connection (cleared on `close()`) to cut repeated SQLite prepare overhead across Orchestrator store and project-sync queries, and lower Terminal's Vitest `vmMemoryLimit` from `1000MB` to `650MB` to reduce CI worker memory spikes.",
+      "sourceSha": "742493af572ba956cb5bf8decbc08c04ccceb87b",
+      "identity": "terminal-vitest-memory-limit-and-sqlite-stmt-cache:6ad360e46ff8f9e0dd2fbb46137b7e31328c253ca9453a01cc30aa594c608625"
     }
   ],
   "consumedIntentIds": [
