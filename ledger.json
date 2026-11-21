@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ebb24aea67ded7f2bc14f96becf65d94d6c6eeb1",
+  "cursorSha": "2499a7efa3de4c08068023c8c4267365fa11b370",
   "highWaterVersion": "1.601.5",
   "rows": [
     {
@@ -190215,6 +190215,13 @@
       "intentIds": [
         "duo-status-bar-clearance:4454c03090476f4bc86580995b8a4113dc148b9acee3e550ebd7af57768c1521"
       ]
+    },
+    {
+      "sourceSha": "2499a7efa3de4c08068023c8c4267365fa11b370",
+      "sourcePackageVersion": "1.601.4",
+      "intentIds": [
+        "teammate-git-author-from-token-identity:339fd18eeee4ea2c5b4a87e91ea05fef08f99e4d1268bbaff8274d7b6c3fcc83"
+      ]
     }
   ],
   "intents": [
@@ -203481,6 +203488,14 @@
       "summary": "In the phone app on an iPhone Duo, the Orchestrator's header keeps its controls and title clear of the status bar iOS draws in the top corner, once the app reports where it is. Regular iPhones are unchanged.",
       "sourceSha": "ebb24aea67ded7f2bc14f96becf65d94d6c6eeb1",
       "identity": "duo-status-bar-clearance:4454c03090476f4bc86580995b8a4113dc148b9acee3e550ebd7af57768c1521"
+    },
+    {
+      "id": "teammate-git-author-from-token-identity",
+      "digest": "339fd18eeee4ea2c5b4a87e91ea05fef08f99e4d1268bbaff8274d7b6c3fcc83",
+      "type": "patch",
+      "summary": "On a shared machine, a teammate without linked GitHub can commit: Terminal writes the commit name and email CodePress sends with their GitHub token into their own git config.",
+      "sourceSha": "2499a7efa3de4c08068023c8c4267365fa11b370",
+      "identity": "teammate-git-author-from-token-identity:339fd18eeee4ea2c5b4a87e91ea05fef08f99e4d1268bbaff8274d7b6c3fcc83"
     }
   ],
   "consumedIntentIds": [
