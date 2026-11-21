@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5929c6758f0d3a10ad1547c20aaf2759fce5967a",
+  "cursorSha": "f28d501e7799b37381ffd360bf30089cd053cab2",
   "highWaterVersion": "1.604.2",
   "rows": [
     {
@@ -191943,6 +191943,13 @@
       "sourceSha": "5929c6758f0d3a10ad1547c20aaf2759fce5967a",
       "sourcePackageVersion": "1.604.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f28d501e7799b37381ffd360bf30089cd053cab2",
+      "sourcePackageVersion": "1.604.1",
+      "intentIds": [
+        "remote-desktop-direct-tailnet:518956d7e8c291ba7006f04d804035cc87fde48f6a97d308844c4f6459dfc73b"
+      ]
     }
   ],
   "intents": [
@@ -205449,6 +205456,14 @@
       "summary": "Agent hook settings, saved database connections and the process list now answer only this machine's own window or its signed-in owner. A share-link viewer, a teammate or an anonymous tunnel visitor is refused even with Secure Access off. Hook settings accept only what Settings sends, and an existing hook settings file is checked entry by entry so no shell text reaches an installed hook command.",
       "sourceSha": "1bfc6295e362aa6da073e3540224a603f9c8fd9f",
       "identity": "terminal-owner-only-hook-db-process-routes:574f39edfb81c3bcd1eb27728d3d34d5b467fde6b4daf25483d6140f5250cfea"
+    },
+    {
+      "id": "remote-desktop-direct-tailnet",
+      "digest": "518956d7e8c291ba7006f04d804035cc87fde48f6a97d308844c4f6459dfc73b",
+      "type": "patch",
+      "summary": "Remote Desktop sessions now connect directly over Tailscale whenever the target machine's tailnet address responds within 800 ms, bypassing the cloud relay for lower latency and higher throughput. If the tailnet address is unreachable or fails before the session opens, the connection transparently falls back to the standard tunnel in the same Connect attempt and skips re-probing Tailscale for 60 seconds, while keeping host-key pinning and automatic changed-key recovery anchored to the machine's canonical tunnel hostname.",
+      "sourceSha": "f28d501e7799b37381ffd360bf30089cd053cab2",
+      "identity": "remote-desktop-direct-tailnet:518956d7e8c291ba7006f04d804035cc87fde48f6a97d308844c4f6459dfc73b"
     }
   ],
   "consumedIntentIds": [
