@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "636b27b94bbbeff83e9ee3d7f114e07c178de77b",
+  "cursorSha": "70c7a9de09593ffd4c026619a42ca505830609dc",
   "highWaterVersion": "1.600.1",
   "rows": [
     {
@@ -189385,6 +189385,18 @@
       "sourceSha": "636b27b94bbbeff83e9ee3d7f114e07c178de77b",
       "sourcePackageVersion": "1.600.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "acd749e6776e6118778d19ab20eb3dfb7811c52d",
+      "sourcePackageVersion": "1.600.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "70c7a9de09593ffd4c026619a42ca505830609dc",
+      "sourcePackageVersion": "1.600.0",
+      "intentIds": [
+        "kickoff-defers-gh-check:ff8bbc6bfa4a0546099afa6496d11dcdeda9b692ff381219d859b82c86d4bd21"
+      ]
     }
   ],
   "intents": [
@@ -202531,6 +202543,14 @@
       "summary": "Starting a project or chat on another machine that gets no answer now shows one plain sentence naming the machine and saying what to do (for example \"M4 Macbook 128GB could not be reached. It may have started there; check that machine before sending again.\") instead of the raw device-control error. Agents still get the machine-readable code, now with a single full stop.",
       "sourceSha": "b8c531f9f654f0c3f7ed1e7affd27723f61804e7",
       "identity": "plain-unreachable-machine-wording:32fc0c177ec9806efc03b29b6cb108b604d02c9e027432e264fe6b19d89f01c4"
+    },
+    {
+      "id": "kickoff-defers-gh-check",
+      "digest": "ff8bbc6bfa4a0546099afa6496d11dcdeda9b692ff381219d859b82c86d4bd21",
+      "type": "patch",
+      "summary": "Orchestrator: a kickoff that names a GitHub repository no longer stops when gh is not installed, signed out or slow on this machine. The project starts without that repository, and its first turn tells the Orchestrator gh is the reason and how to set it up.",
+      "sourceSha": "70c7a9de09593ffd4c026619a42ca505830609dc",
+      "identity": "kickoff-defers-gh-check:ff8bbc6bfa4a0546099afa6496d11dcdeda9b692ff381219d859b82c86d4bd21"
     }
   ],
   "consumedIntentIds": [
