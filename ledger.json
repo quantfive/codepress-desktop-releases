@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d5023b2ac1d87084b9b2c46cc2aab5eef1281042",
+  "cursorSha": "c3685dfcf72cecf5a544293c7a93806896877aaf",
   "highWaterVersion": "1.600.2",
   "rows": [
     {
@@ -189473,6 +189473,13 @@
       "sourceSha": "d5023b2ac1d87084b9b2c46cc2aab5eef1281042",
       "sourcePackageVersion": "1.600.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c3685dfcf72cecf5a544293c7a93806896877aaf",
+      "sourcePackageVersion": "1.600.1",
+      "intentIds": [
+        "settings-active-profile-selector:2f1d6086ae09179cf2558ba9c8eb122470e3096e36ccaa3c18a933a3bb81c2d5"
+      ]
     }
   ],
   "intents": [
@@ -202627,6 +202634,14 @@
       "summary": "Orchestrator: a kickoff that names a GitHub repository no longer stops when gh is not installed, signed out or slow on this machine. The project starts without that repository, and its first turn tells the Orchestrator gh is the reason and how to set it up.",
       "sourceSha": "70c7a9de09593ffd4c026619a42ca505830609dc",
       "identity": "kickoff-defers-gh-check:ff8bbc6bfa4a0546099afa6496d11dcdeda9b692ff381219d859b82c86d4bd21"
+    },
+    {
+      "id": "settings-active-profile-selector",
+      "digest": "2f1d6086ae09179cf2558ba9c8eb122470e3096e36ccaa3c18a933a3bb81c2d5",
+      "type": "patch",
+      "summary": "Replace the separate Default models pickers in Settings → Orchestrator → New projects with an Active profile selector in Model profiles, supporting one-click profile activation and saving an unsaved active model mix as a profile.",
+      "sourceSha": "c3685dfcf72cecf5a544293c7a93806896877aaf",
+      "identity": "settings-active-profile-selector:2f1d6086ae09179cf2558ba9c8eb122470e3096e36ccaa3c18a933a3bb81c2d5"
     }
   ],
   "consumedIntentIds": [
