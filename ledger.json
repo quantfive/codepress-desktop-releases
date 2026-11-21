@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "af068354c36bf02de54843230f8215da0f1f2b22",
+  "cursorSha": "236fde5ee308dd15266b20138eae28c361985573",
   "highWaterVersion": "1.602.5",
   "rows": [
     {
@@ -190859,6 +190859,11 @@
       "intentIds": [
         "relaunch-orphaned-claims-settle:b7401f4a3e9c98c0df6c45bec2b339ef4221da38ecf086f5dc1f4837563c8cb9"
       ]
+    },
+    {
+      "sourceSha": "236fde5ee308dd15266b20138eae28c361985573",
+      "sourcePackageVersion": "1.602.4",
+      "intentIds": []
     }
   ],
   "intents": [
