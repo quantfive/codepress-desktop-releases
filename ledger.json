@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7936804101667c7fb2751367389af6f0f2f48b65",
+  "cursorSha": "1daefb77fca05096be1587f6a76bad68f51626a9",
   "highWaterVersion": "1.604.3",
   "rows": [
     {
@@ -192055,6 +192055,18 @@
       "intentIds": [
         "win-daemon-headless-startup:a9a45b4297222012aacc757fa787b10a4adf2d88ca2d53d13762a1d506074a49"
       ]
+    },
+    {
+      "sourceSha": "2e902b3af6d0a57932090bef2459e8ed987fbab9",
+      "sourcePackageVersion": "1.604.2",
+      "intentIds": [
+        "safe-tab-delivery:2dd8aa296072b450107be2354403692ee3a9d71b14efc012a7db6546842cacc2"
+      ]
+    },
+    {
+      "sourceSha": "1daefb77fca05096be1587f6a76bad68f51626a9",
+      "sourcePackageVersion": "1.604.2",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -205577,6 +205589,14 @@
       "summary": "Eliminate visible Windows console windows during Terminal daemon startup and background helper spawns (`CREATE_NO_WINDOW` and `windowsHide: true`), start the post-download daemon startup watcher on window 1, and surface daemon startup errors on the setup screen instead of racing `getServerPort` into a silent dead port `6783` fallback.",
       "sourceSha": "7936804101667c7fb2751367389af6f0f2f48b65",
       "identity": "win-daemon-headless-startup:a9a45b4297222012aacc757fa787b10a4adf2d88ca2d53d13762a1d506074a49"
+    },
+    {
+      "id": "safe-tab-delivery",
+      "digest": "2dd8aa296072b450107be2354403692ee3a9d71b14efc012a7db6546842cacc2",
+      "type": "patch",
+      "summary": "Text delivered into terminal tabs from outside the machine stays text: review and task messages have escape sequences and control bytes removed before they are pasted, automatic delivery no longer pastes into database consoles, editors or a bare language REPL, and an agent started from a cloud task reads the task from a private file instead of having it typed into the shell.",
+      "sourceSha": "2e902b3af6d0a57932090bef2459e8ed987fbab9",
+      "identity": "safe-tab-delivery:2dd8aa296072b450107be2354403692ee3a9d71b14efc012a7db6546842cacc2"
     }
   ],
   "consumedIntentIds": [
