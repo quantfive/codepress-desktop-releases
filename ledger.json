@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d4996dff74a6c57e97df0b3df076cdf54f56d40b",
+  "cursorSha": "37f45e75c37be88a830e6f3a6214aeaab883f09a",
   "highWaterVersion": "1.604.0",
   "rows": [
     {
@@ -191674,6 +191674,13 @@
       "sourceSha": "d4996dff74a6c57e97df0b3df076cdf54f56d40b",
       "sourcePackageVersion": "1.603.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "37f45e75c37be88a830e6f3a6214aeaab883f09a",
+      "sourcePackageVersion": "1.603.0",
+      "intentIds": [
+        "stop-post-approval-review-churn:5ea51e51a45da5f994e40b0cabe15bf0560ff6287a0decfd7d81b98056241202"
+      ]
     }
   ],
   "intents": [
@@ -205132,6 +205139,14 @@
       "summary": "Terminal on Windows can now list its displays, capture them and encode them to H.264 with Media Foundation for Remote Desktop hosting. Capture pauses while the session is locked or on the secure desktop. Nobody can reach this yet: Windows still reports that it can't host until hosting is turned on in a later release.",
       "sourceSha": "2ccc1324bce981b819acd100f4dddcc2cfea7401",
       "identity": "windows-remote-desktop-capture:d03aae6240a35d43df2e32cd8d16457d24731452d0dec713a2360b491f9b505d"
+    },
+    {
+      "id": "stop-post-approval-review-churn",
+      "digest": "5ea51e51a45da5f994e40b0cabe15bf0560ff6287a0decfd7d81b98056241202",
+      "type": "patch",
+      "summary": "Provide explicit finish-line guidance on approved PR reviews so workers do not push commits for non-blocking `Warning`/`Suggestion` notes that reset exact-head QA, readiness, and in-flight CI, and prevent non-blocking managed bot `COMMENT` reviews from trapping PRs in `review-pending` when no `CHANGES_REQUESTED` review is active.",
+      "sourceSha": "37f45e75c37be88a830e6f3a6214aeaab883f09a",
+      "identity": "stop-post-approval-review-churn:5ea51e51a45da5f994e40b0cabe15bf0560ff6287a0decfd7d81b98056241202"
     }
   ],
   "consumedIntentIds": [
