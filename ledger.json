@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "0b495bdb5d9b008ddbe75c4854db21b3990a957f",
-  "highWaterVersion": "1.604.1",
+  "highWaterVersion": "1.604.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -105139,6 +105139,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:0b495bdb5d9b008ddbe75c4854db21b3990a957f",
+      "kind": "main",
+      "sequence": 2602,
+      "sourceSha": "0b495bdb5d9b008ddbe75c4854db21b3990a957f",
+      "sourcePackageVersion": "1.604.1",
+      "version": "1.604.2",
+      "batch": {
+        "intentIds": [
+          "shared-ui-formatters:e5503010d443d49125cb8b031807b0134d3031da9ed62ab0fed6dde4e7e70f87"
+        ],
+        "notesIntentIds": [
+          "shared-ui-formatters:e5503010d443d49125cb8b031807b0134d3031da9ed62ab0fed6dde4e7e70f87"
+        ],
+        "throughSourceSha": "0b495bdb5d9b008ddbe75c4854db21b3990a957f",
+        "previousThroughSourceSha": "4bd3f385bdb582d0df0c369690e1098d086140fd",
+        "baselineVersion": "1.604.1",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-21T22:12:08.806Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44955445196",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-22T22:12:00.471Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -206957,7 +207000,8 @@
     "sync-terminal-muse-sdk:8be9baa76ab8cf26d44ccd66d9374e0789e46d5040d4159687b6bbe4ce0054e4",
     "redline-open-run-undo-redo:65ed0c96ed2a884be7296d5ceb165d038f539878719b01bbe65404ea6aad2cb1",
     "windows-remote-desktop-capture:d03aae6240a35d43df2e32cd8d16457d24731452d0dec713a2360b491f9b505d",
-    "stop-post-approval-review-churn:5ea51e51a45da5f994e40b0cabe15bf0560ff6287a0decfd7d81b98056241202"
+    "stop-post-approval-review-churn:5ea51e51a45da5f994e40b0cabe15bf0560ff6287a0decfd7d81b98056241202",
+    "shared-ui-formatters:e5503010d443d49125cb8b031807b0134d3031da9ed62ab0fed6dde4e7e70f87"
   ],
-  "consumedThroughSha": "4bd3f385bdb582d0df0c369690e1098d086140fd"
+  "consumedThroughSha": "0b495bdb5d9b008ddbe75c4854db21b3990a957f"
 }
