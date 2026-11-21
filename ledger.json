@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "141f1be289561ad80e7b5f7780802fe393bf39f2",
+  "cursorSha": "614bf8b2353ad28abc23cdf864327f5b228c1a23",
   "highWaterVersion": "1.602.3",
   "rows": [
     {
@@ -190727,6 +190727,13 @@
       "sourceSha": "141f1be289561ad80e7b5f7780802fe393bf39f2",
       "sourcePackageVersion": "1.602.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "614bf8b2353ad28abc23cdf864327f5b228c1a23",
+      "sourcePackageVersion": "1.602.3",
+      "intentIds": [
+        "feat-annotate-draggable-box:20390f299f891ff314222ad65ad0751d353017b751cf96d4a501d72225a9e0e0"
+      ]
     }
   ],
   "intents": [
@@ -204049,6 +204056,14 @@
       "summary": "Replace `@codepress/ui/orchestrator` barrel imports in Terminal frontend source with direct leaf subpath imports to reduce module graph evaluation and CI test fan-out.",
       "sourceSha": "b0503eea968d2c280883ede0ecfb88bb8ef1a91b",
       "identity": "terminal-ui-orchestrator-leaf-imports:354420f953a45fb173261117dfca8c92a0ebd857856cb7b93bdfd86b5f4ba0fe"
+    },
+    {
+      "id": "feat-annotate-draggable-box",
+      "digest": "20390f299f891ff314222ad65ad0751d353017b751cf96d4a501d72225a9e0e0",
+      "type": "patch",
+      "summary": "Make the annotate toolbar box draggable anywhere on screen, including popping out into a frameless always-on-top native window outside the CodePress Terminal app window.",
+      "sourceSha": "614bf8b2353ad28abc23cdf864327f5b228c1a23",
+      "identity": "feat-annotate-draggable-box:20390f299f891ff314222ad65ad0751d353017b751cf96d4a501d72225a9e0e0"
     }
   ],
   "consumedIntentIds": [
