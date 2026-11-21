@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c1322b06d2c1ed302e0c1aee2c58af4b16bb1ad2",
+  "cursorSha": "b2a729fdef42966e1bb9121f3258bac806fe5794",
   "highWaterVersion": "1.601.1",
   "rows": [
     {
@@ -189827,6 +189827,13 @@
       "sourceSha": "c1322b06d2c1ed302e0c1aee2c58af4b16bb1ad2",
       "sourcePackageVersion": "1.601.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b2a729fdef42966e1bb9121f3258bac806fe5794",
+      "sourcePackageVersion": "1.601.0",
+      "intentIds": [
+        "rail-pinned-tabs:161588355ccfccc340af60e986df0ba75a43364d5ae7073a0a3b75189b361e57"
+      ]
     }
   ],
   "intents": [
@@ -203021,6 +203028,14 @@
       "summary": "A site's Analytics tab shows an Events card with conversions such as applications, job alerts and vacancy requests, by event, source and page.",
       "sourceSha": "b3e524904c5098297c91d72a204547c89b20c117",
       "identity": "website-conversion-events-card:4482a77b7c865d7799483c6bf292b85d24fe42ea228a73de1584edab4c274987"
+    },
+    {
+      "id": "rail-pinned-tabs",
+      "digest": "161588355ccfccc340af60e986df0ba75a43364d5ae7073a0a3b75189b361e57",
+      "type": "patch",
+      "summary": "The shared rail can now draw an organization's pinned tabs after its sections. Terminal draws them only once its host passes pinned links, so it looks the same today.",
+      "sourceSha": "b2a729fdef42966e1bb9121f3258bac806fe5794",
+      "identity": "rail-pinned-tabs:161588355ccfccc340af60e986df0ba75a43364d5ae7073a0a3b75189b361e57"
     }
   ],
   "consumedIntentIds": [
