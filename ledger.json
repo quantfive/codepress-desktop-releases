@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1bdd9f9c60b98005c28148b073e6017428d41177",
+  "cursorSha": "d57ab68e2f6d67f281b82445322b5a4a8e3e347d",
   "highWaterVersion": "1.602.10",
   "rows": [
     {
@@ -191334,6 +191334,13 @@
       "sourceSha": "1bdd9f9c60b98005c28148b073e6017428d41177",
       "sourcePackageVersion": "1.602.9",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d57ab68e2f6d67f281b82445322b5a4a8e3e347d",
+      "sourcePackageVersion": "1.602.9",
+      "intentIds": [
+        "pages-menu-device-icons:b645c8d5eb36547f8e35d20ce838c79c64b7625269bb8f28a6c1eb22bc7cb99c"
+      ]
     }
   ],
   "intents": [
@@ -204728,6 +204735,14 @@
       "summary": "While this machine's Terminal is still starting, the Orchestrator's project list no longer warns that local projects are unavailable. It shows the cloud projects, then after a few seconds a quiet \"Starting this machine… its projects will appear when it's ready.\" line, and lists this machine's projects as soon as its server answers. The amber warning still appears if the machine has not answered after a minute, or if it stops answering later.",
       "sourceSha": "3d53f728db36faca5845e7b69a2b299bc832614d",
       "identity": "rail-starting-machine-notice:66b7c4691990c3c72c46ca283182b64a2f029dcddcc61672009f2f3b639975c6"
+    },
+    {
+      "id": "pages-menu-device-icons",
+      "digest": "b645c8d5eb36547f8e35d20ce838c79c64b7625269bb8f28a6c1eb22bc7cb99c",
+      "type": "patch",
+      "summary": "The plan's Pages menu shows each page's device as an icon on the left (a monitor, a phone, a clipboard list for the overall plan, a plain page otherwise) instead of the word at the end of its title, with the shown page's check at the right.",
+      "sourceSha": "d57ab68e2f6d67f281b82445322b5a4a8e3e347d",
+      "identity": "pages-menu-device-icons:b645c8d5eb36547f8e35d20ce838c79c64b7625269bb8f28a6c1eb22bc7cb99c"
     }
   ],
   "consumedIntentIds": [
