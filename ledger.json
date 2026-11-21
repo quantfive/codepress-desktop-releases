@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a0cc2244445cc23e8fa4358a7efff204f2fbe6a3",
+  "cursorSha": "8fc51cbee50b72b119c0988c54f1c47c0e2a8af7",
   "highWaterVersion": "1.601.6",
   "rows": [
     {
@@ -190330,6 +190330,13 @@
       "sourceSha": "a0cc2244445cc23e8fa4358a7efff204f2fbe6a3",
       "sourcePackageVersion": "1.601.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "8fc51cbee50b72b119c0988c54f1c47c0e2a8af7",
+      "sourcePackageVersion": "1.601.6",
+      "intentIds": [
+        "terminal-real-timer-lint-error:eb9da0fa3eebbaa3b7e29b2ef51359d7c8dfcfd2ddd4f6cf381aef875e26ab9b"
+      ]
     }
   ],
   "intents": [
@@ -203612,6 +203619,14 @@
       "summary": "Terminal server: move constants and small helpers out of large modules (`personal-lease-messages`, `always-on-skills`, `nested-repository`, `handoff-transcript-checks`, `platform-mcp-name`) so the CI test selector picks fewer unrelated tests. Behavior is unchanged.",
       "sourceSha": "a2018747f461b7312638e50dec8f298d8606b355",
       "identity": "terminal-selection-fanout:6b88401d16f35fc4ef971884ca32b6a5191cfcaf770e4874ee55a3ff6d361241"
+    },
+    {
+      "id": "terminal-real-timer-lint-error",
+      "digest": "eb9da0fa3eebbaa3b7e29b2ef51359d7c8dfcfd2ddd4f6cf381aef875e26ab9b",
+      "type": "patch",
+      "summary": "Terminal's own test lint now fails on a real `setTimeout`/`setInterval` call in its end-to-end tests (`codepress/no-test-real-timer`), the same as the rest of the repository. Nothing changes in the app.",
+      "sourceSha": "8fc51cbee50b72b119c0988c54f1c47c0e2a8af7",
+      "identity": "terminal-real-timer-lint-error:eb9da0fa3eebbaa3b7e29b2ef51359d7c8dfcfd2ddd4f6cf381aef875e26ab9b"
     }
   ],
   "consumedIntentIds": [
