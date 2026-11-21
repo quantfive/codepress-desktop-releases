@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "bb4ff64dd41af427651be07979bb66f851ec4d68",
+  "cursorSha": "776aca1965b89a68e259ab471f49cc2e3f985eb7",
   "highWaterVersion": "1.600.0",
   "rows": [
     {
@@ -189265,6 +189265,13 @@
       "sourceSha": "bb4ff64dd41af427651be07979bb66f851ec4d68",
       "sourcePackageVersion": "1.599.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "776aca1965b89a68e259ab471f49cc2e3f985eb7",
+      "sourcePackageVersion": "1.599.0",
+      "intentIds": [
+        "automations-list-find:8498c40508ed07034105e81b3902f4926ec4dfe0d4fc88a8c2c1b0bfe974f18d"
+      ]
     }
   ],
   "intents": [
@@ -202387,6 +202394,14 @@
       "summary": "A closed broker connection manager no longer opens a new broker connection that keeps retrying in the background.",
       "sourceSha": "5bdd35260ef49c665ee84a0307177cf70919c30b",
       "identity": "broker-manager-dispose-final:e0bb17c50f2d422c50ad1aedff63f1eaea9f81ebedea4b26d3700c1a98e997b4"
+    },
+    {
+      "id": "automations-list-find",
+      "digest": "8498c40508ed07034105e81b3902f4926ec4dfe0d4fc88a8c2c1b0bfe974f18d",
+      "type": "patch",
+      "summary": "The unified shell's Automations section now has a header with the total, Overview and New, and a search box (\"Search name, trigger, owner\") that narrows the list by name, trigger, owner or managed slug. Every automations list, including the Orchestrator feed's Automations tab, gains All · Needs you · Running · Paused chips and a Filter and sort menu (owner, trigger, sort) that are remembered per organization. Press / to search, ↑/↓ to move, Enter to open and Esc to clear.",
+      "sourceSha": "776aca1965b89a68e259ab471f49cc2e3f985eb7",
+      "identity": "automations-list-find:8498c40508ed07034105e81b3902f4926ec4dfe0d4fc88a8c2c1b0bfe974f18d"
     }
   ],
   "consumedIntentIds": [
