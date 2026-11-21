@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "857ecbe4a9b94c02415bbb13186fb5c58045a815",
+  "cursorSha": "2580e13d3795f050af82b014944d40a4e68b13d5",
   "highWaterVersion": "1.603.0",
   "rows": [
     {
@@ -191582,6 +191582,23 @@
       "intentIds": [
         "sync-terminal-muse-sdk:8be9baa76ab8cf26d44ccd66d9374e0789e46d5040d4159687b6bbe4ce0054e4"
       ]
+    },
+    {
+      "sourceSha": "df1e4713e52e4b7a12012726e1b460caa31c4f20",
+      "sourcePackageVersion": "1.602.12",
+      "intentIds": [
+        "redline-open-run-undo-redo:65ed0c96ed2a884be7296d5ceb165d038f539878719b01bbe65404ea6aad2cb1"
+      ]
+    },
+    {
+      "sourceSha": "736e1d15796bfd68a9437e26ef1cd518d16693bd",
+      "sourcePackageVersion": "1.602.12",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "2580e13d3795f050af82b014944d40a4e68b13d5",
+      "sourcePackageVersion": "1.602.12",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -205024,6 +205041,14 @@
       "summary": "Update the bundled `@muse-code/sdk` dependency in Terminal from `1.4.6` to `1.4.24` to match `agent-runner`.",
       "sourceSha": "857ecbe4a9b94c02415bbb13186fb5c58045a815",
       "identity": "sync-terminal-muse-sdk:8be9baa76ab8cf26d44ccd66d9374e0789e46d5040d4159687b6bbe4ce0054e4"
+    },
+    {
+      "id": "redline-open-run-undo-redo",
+      "digest": "65ed0c96ed2a884be7296d5ceb165d038f539878719b01bbe65404ea6aad2cb1",
+      "type": "patch",
+      "summary": "Screen annotator: \"Open run ↗\" after Send to Fix now opens the run. The link is always an absolute address (a relative run URL resolves against the host page, or the new `runUrlBase` option, never a popped-out toolbar's blank window), and the new `onOpenRun(url)` option lets a host route it itself; without one it opens in a new tab from the host page. In CodePress Terminal the link opens the Orchestrator project or chat inside Terminal, also from the native pop-out toolbar, which now shows an \"Open run ↗\" button. The toolbar also gains Undo and Redo buttons, with Cmd/Ctrl+Z, Shift+Cmd/Ctrl+Z and Ctrl+Y while the annotator is open (left alone in text fields, terminals and code editors). History covers adding, removing, editing notes and clearing, keeps 100 steps for the page session, and ends when Send to Fix succeeds. The controller adds `undo()`, `redo()`, `canUndo()`, `canRedo()` and `openRun()`, and its state adds `toastUrl`, `canUndo` and `canRedo`.",
+      "sourceSha": "df1e4713e52e4b7a12012726e1b460caa31c4f20",
+      "identity": "redline-open-run-undo-redo:65ed0c96ed2a884be7296d5ceb165d038f539878719b01bbe65404ea6aad2cb1"
     }
   ],
   "consumedIntentIds": [
