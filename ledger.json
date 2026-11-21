@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "1c5c9e022b6bf9123bc4c65348c73fab97f7b2d0",
-  "highWaterVersion": "1.603.0",
+  "highWaterVersion": "1.604.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -105031,6 +105031,55 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:1c5c9e022b6bf9123bc4c65348c73fab97f7b2d0",
+      "kind": "main",
+      "sequence": 2600,
+      "sourceSha": "1c5c9e022b6bf9123bc4c65348c73fab97f7b2d0",
+      "sourcePackageVersion": "1.602.12",
+      "version": "1.604.0",
+      "batch": {
+        "intentIds": [
+          "terminal-app-name-and-icon:7adcf7ca2e55166ed0851dfe9f6e4bdb2f32fe025c2771fddbba308d6c563ce0",
+          "sync-terminal-muse-sdk:8be9baa76ab8cf26d44ccd66d9374e0789e46d5040d4159687b6bbe4ce0054e4",
+          "redline-open-run-undo-redo:65ed0c96ed2a884be7296d5ceb165d038f539878719b01bbe65404ea6aad2cb1",
+          "windows-remote-desktop-capture:d03aae6240a35d43df2e32cd8d16457d24731452d0dec713a2360b491f9b505d"
+        ],
+        "notesIntentIds": [
+          "terminal-app-name-and-icon:7adcf7ca2e55166ed0851dfe9f6e4bdb2f32fe025c2771fddbba308d6c563ce0",
+          "sync-terminal-muse-sdk:8be9baa76ab8cf26d44ccd66d9374e0789e46d5040d4159687b6bbe4ce0054e4",
+          "redline-open-run-undo-redo:65ed0c96ed2a884be7296d5ceb165d038f539878719b01bbe65404ea6aad2cb1",
+          "windows-remote-desktop-capture:d03aae6240a35d43df2e32cd8d16457d24731452d0dec713a2360b491f9b505d"
+        ],
+        "throughSourceSha": "1c5c9e022b6bf9123bc4c65348c73fab97f7b2d0",
+        "previousThroughSourceSha": "9e895896a5c16ca20a1c9acfdd1310e165d33f06",
+        "baselineVersion": "1.603.0",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-21T20:35:44.376Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44947065668",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-22T20:35:36.528Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -206749,7 +206798,11 @@
     "pages-menu-device-icons:b645c8d5eb36547f8e35d20ce838c79c64b7625269bb8f28a6c1eb22bc7cb99c",
     "chat-header-names-run-location:3d94453728d35e212e6e8f9f0930db441a46377532f7ea6d8e2a26d4c1558691",
     "project-sync-off-thread-snapshot-upload:cdfc368d696915a554cd7ad182ee5c33bb311fd78fe126f2bb003d02f8639df8",
-    "local-model-runtime:10f5035a2980859ae6caedbf6b08cc1cc23644df2ce8043dc266e0ff0f288fc3"
+    "local-model-runtime:10f5035a2980859ae6caedbf6b08cc1cc23644df2ce8043dc266e0ff0f288fc3",
+    "terminal-app-name-and-icon:7adcf7ca2e55166ed0851dfe9f6e4bdb2f32fe025c2771fddbba308d6c563ce0",
+    "sync-terminal-muse-sdk:8be9baa76ab8cf26d44ccd66d9374e0789e46d5040d4159687b6bbe4ce0054e4",
+    "redline-open-run-undo-redo:65ed0c96ed2a884be7296d5ceb165d038f539878719b01bbe65404ea6aad2cb1",
+    "windows-remote-desktop-capture:d03aae6240a35d43df2e32cd8d16457d24731452d0dec713a2360b491f9b505d"
   ],
-  "consumedThroughSha": "9e895896a5c16ca20a1c9acfdd1310e165d33f06"
+  "consumedThroughSha": "1c5c9e022b6bf9123bc4c65348c73fab97f7b2d0"
 }
