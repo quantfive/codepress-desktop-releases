@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "4956df3a2ebd839ebb6065a4204fb6230ffa8baa",
-  "highWaterVersion": "1.602.11",
+  "highWaterVersion": "1.602.12",
   "rows": [
     {
       "schemaVersion": 1,
@@ -104927,6 +104927,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:4956df3a2ebd839ebb6065a4204fb6230ffa8baa",
+      "kind": "main",
+      "sequence": 2598,
+      "sourceSha": "4956df3a2ebd839ebb6065a4204fb6230ffa8baa",
+      "sourcePackageVersion": "1.602.10",
+      "version": "1.602.12",
+      "batch": {
+        "intentIds": [
+          "chat-header-names-run-location:3d94453728d35e212e6e8f9f0930db441a46377532f7ea6d8e2a26d4c1558691",
+          "project-sync-off-thread-snapshot-upload:cdfc368d696915a554cd7ad182ee5c33bb311fd78fe126f2bb003d02f8639df8"
+        ],
+        "notesIntentIds": [
+          "chat-header-names-run-location:3d94453728d35e212e6e8f9f0930db441a46377532f7ea6d8e2a26d4c1558691",
+          "project-sync-off-thread-snapshot-upload:cdfc368d696915a554cd7ad182ee5c33bb311fd78fe126f2bb003d02f8639df8"
+        ],
+        "throughSourceSha": "4956df3a2ebd839ebb6065a4204fb6230ffa8baa",
+        "previousThroughSourceSha": "7673859440fb0d8eaa8e5af1ea7d56994a47f340",
+        "baselineVersion": "1.602.11",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-21T19:45:51.177Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44942607099",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-22T19:45:43.590Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -206522,7 +206567,9 @@
     "mobile-open-this-machines-desktop:5fce5988f1c0ba53588fdffb83be706c0364194a93a0fb6bcb19ae0c988cae97",
     "windows-daemon-startup-watch:3f0448d401a04af612371c8eb6c7bdf0bb2b720695cba4003e01b257dd7a4a05",
     "rail-starting-machine-notice:66b7c4691990c3c72c46ca283182b64a2f029dcddcc61672009f2f3b639975c6",
-    "pages-menu-device-icons:b645c8d5eb36547f8e35d20ce838c79c64b7625269bb8f28a6c1eb22bc7cb99c"
+    "pages-menu-device-icons:b645c8d5eb36547f8e35d20ce838c79c64b7625269bb8f28a6c1eb22bc7cb99c",
+    "chat-header-names-run-location:3d94453728d35e212e6e8f9f0930db441a46377532f7ea6d8e2a26d4c1558691",
+    "project-sync-off-thread-snapshot-upload:cdfc368d696915a554cd7ad182ee5c33bb311fd78fe126f2bb003d02f8639df8"
   ],
-  "consumedThroughSha": "7673859440fb0d8eaa8e5af1ea7d56994a47f340"
+  "consumedThroughSha": "4956df3a2ebd839ebb6065a4204fb6230ffa8baa"
 }
