@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "06796bee4f57274b4fe9e3c141ceb2c9ee734d5b",
+  "cursorSha": "3d53f728db36faca5845e7b69a2b299bc832614d",
   "highWaterVersion": "1.602.9",
   "rows": [
     {
@@ -191248,6 +191248,13 @@
       "sourceSha": "06796bee4f57274b4fe9e3c141ceb2c9ee734d5b",
       "sourcePackageVersion": "1.602.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3d53f728db36faca5845e7b69a2b299bc832614d",
+      "sourcePackageVersion": "1.602.8",
+      "intentIds": [
+        "rail-starting-machine-notice:66b7c4691990c3c72c46ca283182b64a2f029dcddcc61672009f2f3b639975c6"
+      ]
     }
   ],
   "intents": [
@@ -204634,6 +204641,14 @@
       "summary": "On Windows, Terminal no longer leaves window 1 waiting close to a minute on a background service that has stopped after a restart or update. If the service is gone or not answering within a few seconds of starting, Terminal starts a new one, and it never replaces one that is only slow. Terminal's own log is now written to logs/frontend.log on Windows too.",
       "sourceSha": "bca7c9fb69e16ac8f98553edda8d2565409d081b",
       "identity": "windows-daemon-startup-watch:3f0448d401a04af612371c8eb6c7bdf0bb2b720695cba4003e01b257dd7a4a05"
+    },
+    {
+      "id": "rail-starting-machine-notice",
+      "digest": "66b7c4691990c3c72c46ca283182b64a2f029dcddcc61672009f2f3b639975c6",
+      "type": "patch",
+      "summary": "While this machine's Terminal is still starting, the Orchestrator's project list no longer warns that local projects are unavailable. It shows the cloud projects, then after a few seconds a quiet \"Starting this machine… its projects will appear when it's ready.\" line, and lists this machine's projects as soon as its server answers. The amber warning still appears if the machine has not answered after a minute, or if it stops answering later.",
+      "sourceSha": "3d53f728db36faca5845e7b69a2b299bc832614d",
+      "identity": "rail-starting-machine-notice:66b7c4691990c3c72c46ca283182b64a2f029dcddcc61672009f2f3b639975c6"
     }
   ],
   "consumedIntentIds": [
