@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "121fc76de547036d681ad379277c45cd7b12c7f4",
+  "cursorSha": "2c79c7f9f3021ee5ae3808eb8a505b71cbfba73a",
   "highWaterVersion": "1.600.3",
   "rows": [
     {
@@ -189563,6 +189563,13 @@
       "sourceSha": "121fc76de547036d681ad379277c45cd7b12c7f4",
       "sourcePackageVersion": "1.600.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2c79c7f9f3021ee5ae3808eb8a505b71cbfba73a",
+      "sourcePackageVersion": "1.600.3",
+      "intentIds": [
+        "segmented-pill-first-paint:ee80a9327a8eb4228ce0289e8ee6111de9e38d79e25329a64e4627078713019f"
+      ]
     }
   ],
   "intents": [
@@ -202725,6 +202732,14 @@
       "summary": "Replace the separate Default models pickers in Settings → Orchestrator → New projects with an Active profile selector in Model profiles, supporting one-click profile activation and saving an unsaved active model mix as a profile.",
       "sourceSha": "c3685dfcf72cecf5a544293c7a93806896877aaf",
       "identity": "settings-active-profile-selector:2f1d6086ae09179cf2558ba9c8eb122470e3096e36ccaa3c18a933a3bb81c2d5"
+    },
+    {
+      "id": "segmented-pill-first-paint",
+      "digest": "ee80a9327a8eb4228ce0289e8ee6111de9e38d79e25329a64e4627078713019f",
+      "type": "patch",
+      "summary": "The Chat | Orchestrator pill's highlight now appears in place on first paint instead of growing in from the left edge.",
+      "sourceSha": "2c79c7f9f3021ee5ae3808eb8a505b71cbfba73a",
+      "identity": "segmented-pill-first-paint:ee80a9327a8eb4228ce0289e8ee6111de9e38d79e25329a64e4627078713019f"
     }
   ],
   "consumedIntentIds": [
