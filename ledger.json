@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2580e13d3795f050af82b014944d40a4e68b13d5",
+  "cursorSha": "2ccc1324bce981b819acd100f4dddcc2cfea7401",
   "highWaterVersion": "1.603.0",
   "rows": [
     {
@@ -191599,6 +191599,13 @@
       "sourceSha": "2580e13d3795f050af82b014944d40a4e68b13d5",
       "sourcePackageVersion": "1.602.12",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2ccc1324bce981b819acd100f4dddcc2cfea7401",
+      "sourcePackageVersion": "1.602.12",
+      "intentIds": [
+        "windows-remote-desktop-capture:d03aae6240a35d43df2e32cd8d16457d24731452d0dec713a2360b491f9b505d"
+      ]
     }
   ],
   "intents": [
@@ -205049,6 +205056,14 @@
       "summary": "Screen annotator: \"Open run ↗\" after Send to Fix now opens the run. The link is always an absolute address (a relative run URL resolves against the host page, or the new `runUrlBase` option, never a popped-out toolbar's blank window), and the new `onOpenRun(url)` option lets a host route it itself; without one it opens in a new tab from the host page. In CodePress Terminal the link opens the Orchestrator project or chat inside Terminal, also from the native pop-out toolbar, which now shows an \"Open run ↗\" button. The toolbar also gains Undo and Redo buttons, with Cmd/Ctrl+Z, Shift+Cmd/Ctrl+Z and Ctrl+Y while the annotator is open (left alone in text fields, terminals and code editors). History covers adding, removing, editing notes and clearing, keeps 100 steps for the page session, and ends when Send to Fix succeeds. The controller adds `undo()`, `redo()`, `canUndo()`, `canRedo()` and `openRun()`, and its state adds `toastUrl`, `canUndo` and `canRedo`.",
       "sourceSha": "df1e4713e52e4b7a12012726e1b460caa31c4f20",
       "identity": "redline-open-run-undo-redo:65ed0c96ed2a884be7296d5ceb165d038f539878719b01bbe65404ea6aad2cb1"
+    },
+    {
+      "id": "windows-remote-desktop-capture",
+      "digest": "d03aae6240a35d43df2e32cd8d16457d24731452d0dec713a2360b491f9b505d",
+      "type": "patch",
+      "summary": "Terminal on Windows can now list its displays, capture them and encode them to H.264 with Media Foundation for Remote Desktop hosting. Capture pauses while the session is locked or on the secure desktop. Nobody can reach this yet: Windows still reports that it can't host until hosting is turned on in a later release.",
+      "sourceSha": "2ccc1324bce981b819acd100f4dddcc2cfea7401",
+      "identity": "windows-remote-desktop-capture:d03aae6240a35d43df2e32cd8d16457d24731452d0dec713a2360b491f9b505d"
     }
   ],
   "consumedIntentIds": [
