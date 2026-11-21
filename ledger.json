@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2b9962b0f0a909a53b477085b31db1727d65e607",
+  "cursorSha": "84d72bb48a64a4921ff0969c50befc2f0a705ce3",
   "highWaterVersion": "1.600.1",
   "rows": [
     {
@@ -189351,6 +189351,13 @@
       "sourceSha": "2b9962b0f0a909a53b477085b31db1727d65e607",
       "sourcePackageVersion": "1.600.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "84d72bb48a64a4921ff0969c50befc2f0a705ce3",
+      "sourcePackageVersion": "1.600.0",
+      "intentIds": [
+        "device-channel-wake-probe:9261ad82699b67eae69eb18e17e0788ecb836c08697503eec3918c2c0b7394b2"
+      ]
     }
   ],
   "intents": [
@@ -202481,6 +202488,14 @@
       "summary": "The unified shell's Automations section now has a header with the total, Overview and New, and a search box (\"Search name, trigger, owner\") that narrows the list by name, trigger, owner or managed slug. Every automations list, including the Orchestrator feed's Automations tab, gains All · Needs you · Running · Paused chips and a Filter and sort menu (owner, trigger, sort) that are remembered per organization. Press / to search, ↑/↓ to move, Enter to open and Esc to clear.",
       "sourceSha": "776aca1965b89a68e259ab471f49cc2e3f985eb7",
       "identity": "automations-list-find:8498c40508ed07034105e81b3902f4926ec4dfe0d4fc88a8c2c1b0bfe974f18d"
+    },
+    {
+      "id": "device-channel-wake-probe",
+      "digest": "9261ad82699b67eae69eb18e17e0788ecb836c08697503eec3918c2c0b7394b2",
+      "type": "patch",
+      "summary": "After a machine wakes from sleep, its connection to CodePress now checks that it still works at its first heartbeat after waking (at most 30 seconds later). If nothing answers within 10 seconds, it reconnects, instead of staying listed online for up to 90 seconds while messages sent to it are lost.",
+      "sourceSha": "84d72bb48a64a4921ff0969c50befc2f0a705ce3",
+      "identity": "device-channel-wake-probe:9261ad82699b67eae69eb18e17e0788ecb836c08697503eec3918c2c0b7394b2"
     }
   ],
   "consumedIntentIds": [
