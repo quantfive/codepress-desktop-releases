@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "0ee97ff0e3c2a9231df245e70062930cc8921d88",
-  "highWaterVersion": "1.602.4",
+  "highWaterVersion": "1.602.5",
   "rows": [
     {
       "schemaVersion": 1,
@@ -104578,6 +104578,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:0ee97ff0e3c2a9231df245e70062930cc8921d88",
+      "kind": "main",
+      "sequence": 2591,
+      "sourceSha": "0ee97ff0e3c2a9231df245e70062930cc8921d88",
+      "sourcePackageVersion": "1.602.3",
+      "version": "1.602.5",
+      "batch": {
+        "intentIds": [
+          "chat-no-repository-discovery:e9f6d088e735ba1e6028e2e07786600be1f0f81ea4b0c6ffad3c9b78cfbf74f7"
+        ],
+        "notesIntentIds": [
+          "chat-no-repository-discovery:e9f6d088e735ba1e6028e2e07786600be1f0f81ea4b0c6ffad3c9b78cfbf74f7"
+        ],
+        "throughSourceSha": "0ee97ff0e3c2a9231df245e70062930cc8921d88",
+        "previousThroughSourceSha": "614bf8b2353ad28abc23cdf864327f5b228c1a23",
+        "baselineVersion": "1.602.4",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-21T08:33:23.093Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44885368535",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-22T08:33:15.406Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -205799,7 +205842,8 @@
     "terminal-vitest-memory-limit-and-sqlite-stmt-cache:6ad360e46ff8f9e0dd2fbb46137b7e31328c253ca9453a01cc30aa594c608625",
     "fix-annotate-redline-dispatch:cb778d38c963af80073e434dde9092bb1a2ea9f690e8028b665d278142ec3595",
     "terminal-ui-orchestrator-leaf-imports:354420f953a45fb173261117dfca8c92a0ebd857856cb7b93bdfd86b5f4ba0fe",
-    "feat-annotate-draggable-box:20390f299f891ff314222ad65ad0751d353017b751cf96d4a501d72225a9e0e0"
+    "feat-annotate-draggable-box:20390f299f891ff314222ad65ad0751d353017b751cf96d4a501d72225a9e0e0",
+    "chat-no-repository-discovery:e9f6d088e735ba1e6028e2e07786600be1f0f81ea4b0c6ffad3c9b78cfbf74f7"
   ],
-  "consumedThroughSha": "614bf8b2353ad28abc23cdf864327f5b228c1a23"
+  "consumedThroughSha": "0ee97ff0e3c2a9231df245e70062930cc8921d88"
 }
