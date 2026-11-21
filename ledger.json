@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "973de9b63a80f3c6aae92e710f2bb1e1f064ec27",
-  "highWaterVersion": "1.604.2",
+  "highWaterVersion": "1.604.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -105194,6 +105194,57 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:973de9b63a80f3c6aae92e710f2bb1e1f064ec27",
+      "kind": "main",
+      "sequence": 2603,
+      "sourceSha": "973de9b63a80f3c6aae92e710f2bb1e1f064ec27",
+      "sourcePackageVersion": "1.604.1",
+      "version": "1.604.3",
+      "batch": {
+        "intentIds": [
+          "windows-remote-desktop-input:b02d6f6ce900db1f83e8da609f7bbb78a625b8e4e5be04412ca3b1ca2aa92513",
+          "first-run-agent-onboarding:3f5e9265f264f79972694dd2b2235b654876403c25d00059de09cf5976b099d3",
+          "remote-desktop-host-frame-pump:36ab0930c682ee9cbd95271b17e93813a8dd66ce3fbbcb0e494f80b7877f02a4",
+          "terminal-owner-only-hook-db-process-routes:574f39edfb81c3bcd1eb27728d3d34d5b467fde6b4daf25483d6140f5250cfea",
+          "remote-desktop-direct-tailnet:518956d7e8c291ba7006f04d804035cc87fde48f6a97d308844c4f6459dfc73b"
+        ],
+        "notesIntentIds": [
+          "windows-remote-desktop-input:b02d6f6ce900db1f83e8da609f7bbb78a625b8e4e5be04412ca3b1ca2aa92513",
+          "first-run-agent-onboarding:3f5e9265f264f79972694dd2b2235b654876403c25d00059de09cf5976b099d3",
+          "remote-desktop-host-frame-pump:36ab0930c682ee9cbd95271b17e93813a8dd66ce3fbbcb0e494f80b7877f02a4",
+          "terminal-owner-only-hook-db-process-routes:574f39edfb81c3bcd1eb27728d3d34d5b467fde6b4daf25483d6140f5250cfea",
+          "remote-desktop-direct-tailnet:518956d7e8c291ba7006f04d804035cc87fde48f6a97d308844c4f6459dfc73b"
+        ],
+        "throughSourceSha": "973de9b63a80f3c6aae92e710f2bb1e1f064ec27",
+        "previousThroughSourceSha": "0b495bdb5d9b008ddbe75c4854db21b3990a957f",
+        "baselineVersion": "1.604.2",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-21T22:39:20.516Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44957541545",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-22T22:39:12.287Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -207173,7 +207224,12 @@
     "redline-open-run-undo-redo:65ed0c96ed2a884be7296d5ceb165d038f539878719b01bbe65404ea6aad2cb1",
     "windows-remote-desktop-capture:d03aae6240a35d43df2e32cd8d16457d24731452d0dec713a2360b491f9b505d",
     "stop-post-approval-review-churn:5ea51e51a45da5f994e40b0cabe15bf0560ff6287a0decfd7d81b98056241202",
-    "shared-ui-formatters:e5503010d443d49125cb8b031807b0134d3031da9ed62ab0fed6dde4e7e70f87"
+    "shared-ui-formatters:e5503010d443d49125cb8b031807b0134d3031da9ed62ab0fed6dde4e7e70f87",
+    "windows-remote-desktop-input:b02d6f6ce900db1f83e8da609f7bbb78a625b8e4e5be04412ca3b1ca2aa92513",
+    "first-run-agent-onboarding:3f5e9265f264f79972694dd2b2235b654876403c25d00059de09cf5976b099d3",
+    "remote-desktop-host-frame-pump:36ab0930c682ee9cbd95271b17e93813a8dd66ce3fbbcb0e494f80b7877f02a4",
+    "terminal-owner-only-hook-db-process-routes:574f39edfb81c3bcd1eb27728d3d34d5b467fde6b4daf25483d6140f5250cfea",
+    "remote-desktop-direct-tailnet:518956d7e8c291ba7006f04d804035cc87fde48f6a97d308844c4f6459dfc73b"
   ],
-  "consumedThroughSha": "0b495bdb5d9b008ddbe75c4854db21b3990a957f"
+  "consumedThroughSha": "973de9b63a80f3c6aae92e710f2bb1e1f064ec27"
 }
