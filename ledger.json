@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3cdea7c81b9f859f81248fbb3909f6642ddd6587",
+  "cursorSha": "b27f8a20715c061e4fbb8d95e456e42e64480c6a",
   "highWaterVersion": "1.604.2",
   "rows": [
     {
@@ -191882,6 +191882,23 @@
       "sourceSha": "3cdea7c81b9f859f81248fbb3909f6642ddd6587",
       "sourcePackageVersion": "1.604.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d0b0683d496578a0acdd5f03dd7dd72e63364a89",
+      "sourcePackageVersion": "1.604.1",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "f9a7bc568f15fa525aeb5508fe96fb9243ed7fee",
+      "sourcePackageVersion": "1.604.1",
+      "intentIds": [
+        "first-run-agent-onboarding:3f5e9265f264f79972694dd2b2235b654876403c25d00059de09cf5976b099d3"
+      ]
+    },
+    {
+      "sourceSha": "b27f8a20715c061e4fbb8d95e456e42e64480c6a",
+      "sourcePackageVersion": "1.604.1",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -205364,6 +205381,14 @@
       "summary": "Remote Desktop on a Windows host now takes the viewer's mouse, keyboard and clipboard, and keeps the display awake while a viewer is connected. It stays unreachable until Windows hosting is turned on.",
       "sourceSha": "67eb36a5d33f679c3867158130140bb9bf43ba76",
       "identity": "windows-remote-desktop-input:b02d6f6ce900db1f83e8da609f7bbb78a625b8e4e5be04412ca3b1ca2aa92513"
+    },
+    {
+      "id": "first-run-agent-onboarding",
+      "digest": "3f5e9265f264f79972694dd2b2235b654876403c25d00059de09cf5976b099d3",
+      "type": "patch",
+      "summary": "Route first-time desktop users directly to the Agent sign-in screen and v2 Agent onboarding (`ServedShell`) upon sign-in instead of auto-opening the legacy Terminal onboarding modal.",
+      "sourceSha": "f9a7bc568f15fa525aeb5508fe96fb9243ed7fee",
+      "identity": "first-run-agent-onboarding:3f5e9265f264f79972694dd2b2235b654876403c25d00059de09cf5976b099d3"
     }
   ],
   "consumedIntentIds": [
