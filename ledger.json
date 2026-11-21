@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c1222ea8b20addb7fd279853f1c2be6baec9cbee",
+  "cursorSha": "404901d61fa3086b25803a5b4f0b7d76a3ebd5cf",
   "highWaterVersion": "1.600.4",
   "rows": [
     {
@@ -189634,6 +189634,13 @@
       "intentIds": [
         "macos-broker-helper-timestamp-retry:c792410278f78c6ae251cab5a7acfccd4999907eaf8dfdb4482421c9b00bccce"
       ]
+    },
+    {
+      "sourceSha": "404901d61fa3086b25803a5b4f0b7d76a3ebd5cf",
+      "sourcePackageVersion": "1.600.3",
+      "intentIds": [
+        "orchestrator-github-setup:0d14300b876796839a8226f3409172605e91a7cfbbfbb90c990a94a1f84308be"
+      ]
     }
   ],
   "intents": [
@@ -202812,6 +202819,14 @@
       "summary": "macOS release builds no longer fail when Apple's timestamp service briefly refuses a request while the PTY broker helper app is being signed. The signature is now tried again a few times before the build gives up.",
       "sourceSha": "c1222ea8b20addb7fd279853f1c2be6baec9cbee",
       "identity": "macos-broker-helper-timestamp-retry:c792410278f78c6ae251cab5a7acfccd4999907eaf8dfdb4482421c9b00bccce"
+    },
+    {
+      "id": "orchestrator-github-setup",
+      "digest": "0d14300b876796839a8226f3409172605e91a7cfbbfbb90c990a94a1f84308be",
+      "type": "minor",
+      "summary": "The Orchestrator can now set up GitHub itself. When gh is missing or signed out, its new `github_setup` tool installs Terminal's gh, signs it in from your CodePress account and clones the project's repositories. If your CodePress account has no GitHub linked, it asks you once with GitHub's one-time code. It never changes a gh that is already signed in, and it acts only for the account that owns the project.",
+      "sourceSha": "404901d61fa3086b25803a5b4f0b7d76a3ebd5cf",
+      "identity": "orchestrator-github-setup:0d14300b876796839a8226f3409172605e91a7cfbbfbb90c990a94a1f84308be"
     }
   ],
   "consumedIntentIds": [
