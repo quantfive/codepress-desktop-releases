@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2b28c07ee0724509a364db4288012bb66878204e",
+  "cursorSha": "c24df68a8861bfa09430cec9bb5a8a0854881d69",
   "highWaterVersion": "1.602.1",
   "rows": [
     {
@@ -190586,6 +190586,13 @@
       "sourceSha": "2b28c07ee0724509a364db4288012bb66878204e",
       "sourcePackageVersion": "1.602.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c24df68a8861bfa09430cec9bb5a8a0854881d69",
+      "sourcePackageVersion": "1.602.1",
+      "intentIds": [
+        "fix-annotate-redline-dispatch:cb778d38c963af80073e434dde9092bb1a2ea9f690e8028b665d278142ec3595"
+      ]
     }
   ],
   "intents": [
@@ -203892,6 +203899,14 @@
       "summary": "Cache prepared SQLite statements per `OrchestratorStore` connection (cleared on `close()`) to cut repeated SQLite prepare overhead across Orchestrator store and project-sync queries, and lower Terminal's Vitest `vmMemoryLimit` from `1000MB` to `650MB` to reduce CI worker memory spikes.",
       "sourceSha": "742493af572ba956cb5bf8decbc08c04ccceb87b",
       "identity": "terminal-vitest-memory-limit-and-sqlite-stmt-cache:6ad360e46ff8f9e0dd2fbb46137b7e31328c253ca9453a01cc30aa594c608625"
+    },
+    {
+      "id": "fix-annotate-redline-dispatch",
+      "digest": "cb778d38c963af80073e434dde9092bb1a2ea9f690e8028b665d278142ec3595",
+      "type": "patch",
+      "summary": "Fix staff self-annotation Send to Fix 422 error by dispatching to `/redlines/dispatch` with the `RedlineDispatchRequest` payload and fixing the kickoff fallback request shape.",
+      "sourceSha": "c24df68a8861bfa09430cec9bb5a8a0854881d69",
+      "identity": "fix-annotate-redline-dispatch:cb778d38c963af80073e434dde9092bb1a2ea9f690e8028b665d278142ec3595"
     }
   ],
   "consumedIntentIds": [
