@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5676db2cacdc1ad9d7ab4a686123625781940ca4",
+  "cursorSha": "e4d6359ef40bda5b475b8169a281a121f8eccd40",
   "highWaterVersion": "1.604.2",
   "rows": [
     {
@@ -191909,6 +191909,13 @@
       "sourceSha": "5676db2cacdc1ad9d7ab4a686123625781940ca4",
       "sourcePackageVersion": "1.604.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e4d6359ef40bda5b475b8169a281a121f8eccd40",
+      "sourcePackageVersion": "1.604.1",
+      "intentIds": [
+        "remote-desktop-host-frame-pump:36ab0930c682ee9cbd95271b17e93813a8dd66ce3fbbcb0e494f80b7877f02a4"
+      ]
     }
   ],
   "intents": [
@@ -205399,6 +205406,14 @@
       "summary": "Route first-time desktop users directly to the Agent sign-in screen and v2 Agent onboarding (`ServedShell`) upon sign-in instead of auto-opening the legacy Terminal onboarding modal.",
       "sourceSha": "f9a7bc568f15fa525aeb5508fe96fb9243ed7fee",
       "identity": "first-run-agent-onboarding:3f5e9265f264f79972694dd2b2235b654876403c25d00059de09cf5976b099d3"
+    },
+    {
+      "id": "remote-desktop-host-frame-pump",
+      "digest": "36ab0930c682ee9cbd95271b17e93813a8dd66ce3fbbcb0e494f80b7877f02a4",
+      "type": "patch",
+      "summary": "Remote Desktop now stays responsive and sharp when the host machine is busy with heavy background work. Frame encryption runs synchronously on the host instead of waiting behind disk or compression tasks, host-side queue pauses no longer trigger false bitrate or resolution drops, bridge credentials are cached across control calls with automatic reload after app restarts, and keyframe recovery signals travel directly over the native frame channel.",
+      "sourceSha": "e4d6359ef40bda5b475b8169a281a121f8eccd40",
+      "identity": "remote-desktop-host-frame-pump:36ab0930c682ee9cbd95271b17e93813a8dd66ce3fbbcb0e494f80b7877f02a4"
     }
   ],
   "consumedIntentIds": [
