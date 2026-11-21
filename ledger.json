@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b864614d603d2dc253e06f66448d885144957dc9",
+  "cursorSha": "7936804101667c7fb2751367389af6f0f2f48b65",
   "highWaterVersion": "1.604.3",
   "rows": [
     {
@@ -192048,6 +192048,13 @@
       "sourceSha": "b864614d603d2dc253e06f66448d885144957dc9",
       "sourcePackageVersion": "1.604.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7936804101667c7fb2751367389af6f0f2f48b65",
+      "sourcePackageVersion": "1.604.2",
+      "intentIds": [
+        "win-daemon-headless-startup:a9a45b4297222012aacc757fa787b10a4adf2d88ca2d53d13762a1d506074a49"
+      ]
     }
   ],
   "intents": [
@@ -205562,6 +205569,14 @@
       "summary": "Remote Desktop sessions now connect directly over Tailscale whenever the target machine's tailnet address responds within 800 ms, bypassing the cloud relay for lower latency and higher throughput. If the tailnet address is unreachable or fails before the session opens, the connection transparently falls back to the standard tunnel in the same Connect attempt and skips re-probing Tailscale for 60 seconds, while keeping host-key pinning and automatic changed-key recovery anchored to the machine's canonical tunnel hostname.",
       "sourceSha": "f28d501e7799b37381ffd360bf30089cd053cab2",
       "identity": "remote-desktop-direct-tailnet:518956d7e8c291ba7006f04d804035cc87fde48f6a97d308844c4f6459dfc73b"
+    },
+    {
+      "id": "win-daemon-headless-startup",
+      "digest": "a9a45b4297222012aacc757fa787b10a4adf2d88ca2d53d13762a1d506074a49",
+      "type": "patch",
+      "summary": "Eliminate visible Windows console windows during Terminal daemon startup and background helper spawns (`CREATE_NO_WINDOW` and `windowsHide: true`), start the post-download daemon startup watcher on window 1, and surface daemon startup errors on the setup screen instead of racing `getServerPort` into a silent dead port `6783` fallback.",
+      "sourceSha": "7936804101667c7fb2751367389af6f0f2f48b65",
+      "identity": "win-daemon-headless-startup:a9a45b4297222012aacc757fa787b10a4adf2d88ca2d53d13762a1d506074a49"
     }
   ],
   "consumedIntentIds": [
