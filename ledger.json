@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "7673859440fb0d8eaa8e5af1ea7d56994a47f340",
-  "highWaterVersion": "1.602.10",
+  "highWaterVersion": "1.602.11",
   "rows": [
     {
       "schemaVersion": 1,
@@ -104880,6 +104880,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:7673859440fb0d8eaa8e5af1ea7d56994a47f340",
+      "kind": "main",
+      "sequence": 2597,
+      "sourceSha": "7673859440fb0d8eaa8e5af1ea7d56994a47f340",
+      "sourcePackageVersion": "1.602.10",
+      "version": "1.602.11",
+      "batch": {
+        "intentIds": [
+          "pages-menu-device-icons:b645c8d5eb36547f8e35d20ce838c79c64b7625269bb8f28a6c1eb22bc7cb99c"
+        ],
+        "notesIntentIds": [
+          "pages-menu-device-icons:b645c8d5eb36547f8e35d20ce838c79c64b7625269bb8f28a6c1eb22bc7cb99c"
+        ],
+        "throughSourceSha": "7673859440fb0d8eaa8e5af1ea7d56994a47f340",
+        "previousThroughSourceSha": "51ba22a11e1c6f7faf990e0ae7f612171f50328c",
+        "baselineVersion": "1.602.10",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-21T19:23:37.831Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44940649145",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-22T19:23:30.090Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -206429,7 +206472,8 @@
     "teammate-message-restarts-ended-orchestrator:085c6f761046c22fbcb5ad97fe5ec15bb76c4bcd6eb97bffe5e596a66436cb4e",
     "mobile-open-this-machines-desktop:5fce5988f1c0ba53588fdffb83be706c0364194a93a0fb6bcb19ae0c988cae97",
     "windows-daemon-startup-watch:3f0448d401a04af612371c8eb6c7bdf0bb2b720695cba4003e01b257dd7a4a05",
-    "rail-starting-machine-notice:66b7c4691990c3c72c46ca283182b64a2f029dcddcc61672009f2f3b639975c6"
+    "rail-starting-machine-notice:66b7c4691990c3c72c46ca283182b64a2f029dcddcc61672009f2f3b639975c6",
+    "pages-menu-device-icons:b645c8d5eb36547f8e35d20ce838c79c64b7625269bb8f28a6c1eb22bc7cb99c"
   ],
-  "consumedThroughSha": "51ba22a11e1c6f7faf990e0ae7f612171f50328c"
+  "consumedThroughSha": "7673859440fb0d8eaa8e5af1ea7d56994a47f340"
 }
