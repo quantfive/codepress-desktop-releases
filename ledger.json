@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a9fc9fcd2fcea7a5517e73c6e9af498348349bda",
+  "cursorSha": "a812b65a69c4d9d3c95bc89d1afbfcf8b625fbe7",
   "highWaterVersion": "1.601.4",
   "rows": [
     {
@@ -190118,6 +190118,13 @@
       "sourceSha": "a9fc9fcd2fcea7a5517e73c6e9af498348349bda",
       "sourcePackageVersion": "1.601.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a812b65a69c4d9d3c95bc89d1afbfcf8b625fbe7",
+      "sourcePackageVersion": "1.601.3",
+      "intentIds": [
+        "terminal-qa-scripts-real-timers:ad3fdcd04bf6e883aff2260ddab637b5c57345c5d98c862c6b7c4d6a367ad808"
+      ]
     }
   ],
   "intents": [
@@ -203352,6 +203359,14 @@
       "summary": "Automations lists now use compact two-line rows: a status dot, the name and the last run's time, then the failure, or \"Running for 2m\", the trigger in words (\"Every hour\", \"GitHub · PR opened\"), the owner and Managed. Rows are grouped by what needs attention (Needs you, Running, Active, Paused) instead of by owner. Paused is folded under All and opens under the Paused chip or when a search matches it. About three times as many automations fit on screen.",
       "sourceSha": "1509d67c05dbf5de6fcada462311b07fcdc22345",
       "identity": "automations-list-scan:4f4ab063d7523b4c15c0183c5dd332409d92f01c6dc32082a2ac7c8246792e8f"
+    },
+    {
+      "id": "terminal-qa-scripts-real-timers",
+      "digest": "ad3fdcd04bf6e883aff2260ddab637b5c57345c5d98c862c6b7c4d6a367ad808",
+      "type": "patch",
+      "summary": "No user-visible change: Terminal's QA scripts and the broker's socket-client test helper now use the shared test deadline helper instead of raw timers.",
+      "sourceSha": "a812b65a69c4d9d3c95bc89d1afbfcf8b625fbe7",
+      "identity": "terminal-qa-scripts-real-timers:ad3fdcd04bf6e883aff2260ddab637b5c57345c5d98c862c6b7c4d6a367ad808"
     }
   ],
   "consumedIntentIds": [
