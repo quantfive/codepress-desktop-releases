@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "69fedd54332a8afd6465e4194a51fcdcea021e0a",
+  "cursorSha": "a2018747f461b7312638e50dec8f298d8606b355",
   "highWaterVersion": "1.601.5",
   "rows": [
     {
@@ -190232,6 +190232,13 @@
       "sourceSha": "69fedd54332a8afd6465e4194a51fcdcea021e0a",
       "sourcePackageVersion": "1.601.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a2018747f461b7312638e50dec8f298d8606b355",
+      "sourcePackageVersion": "1.601.4",
+      "intentIds": [
+        "terminal-selection-fanout:6b88401d16f35fc4ef971884ca32b6a5191cfcaf770e4874ee55a3ff6d361241"
+      ]
     }
   ],
   "intents": [
@@ -203506,6 +203513,14 @@
       "summary": "On a shared machine, a teammate without linked GitHub can commit: Terminal writes the commit name and email CodePress sends with their GitHub token into their own git config.",
       "sourceSha": "2499a7efa3de4c08068023c8c4267365fa11b370",
       "identity": "teammate-git-author-from-token-identity:339fd18eeee4ea2c5b4a87e91ea05fef08f99e4d1268bbaff8274d7b6c3fcc83"
+    },
+    {
+      "id": "terminal-selection-fanout",
+      "digest": "6b88401d16f35fc4ef971884ca32b6a5191cfcaf770e4874ee55a3ff6d361241",
+      "type": "patch",
+      "summary": "Terminal server: move constants and small helpers out of large modules (`personal-lease-messages`, `always-on-skills`, `nested-repository`, `handoff-transcript-checks`, `platform-mcp-name`) so the CI test selector picks fewer unrelated tests. Behavior is unchanged.",
+      "sourceSha": "a2018747f461b7312638e50dec8f298d8606b355",
+      "identity": "terminal-selection-fanout:6b88401d16f35fc4ef971884ca32b6a5191cfcaf770e4874ee55a3ff6d361241"
     }
   ],
   "consumedIntentIds": [
