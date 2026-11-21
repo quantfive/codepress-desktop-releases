@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3cc6c4eaeb7fd638c4b84f3f44f5a852ae47ecc0",
+  "cursorSha": "8bb77a0f3a1126afa334e1fbcc49bdc0c57d229a",
   "highWaterVersion": "1.602.8",
   "rows": [
     {
@@ -191182,6 +191182,13 @@
       "sourceSha": "3cc6c4eaeb7fd638c4b84f3f44f5a852ae47ecc0",
       "sourcePackageVersion": "1.602.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "8bb77a0f3a1126afa334e1fbcc49bdc0c57d229a",
+      "sourcePackageVersion": "1.602.8",
+      "intentIds": [
+        "mobile-open-this-machines-desktop:5fce5988f1c0ba53588fdffb83be706c0364194a93a0fb6bcb19ae0c988cae97"
+      ]
     }
   ],
   "intents": [
@@ -204552,6 +204559,14 @@
       "summary": "A teammate's message to their project on a shared machine now restarts its Orchestrator after that machine's Terminal restarted, crashed or updated, instead of being refused every time. A turn cut off with a message owed resumes when the teammate's host starts, and a restart that cannot start says why in plain words.",
       "sourceSha": "f27502d5ebb699828c6a42018ffe74dce1b21c5c",
       "identity": "teammate-message-restarts-ended-orchestrator:085c6f761046c22fbcb5ad97fe5ec15bb76c4bcd6eb97bffe5e596a66436cb4e"
+    },
+    {
+      "id": "mobile-open-this-machines-desktop",
+      "digest": "5fce5988f1c0ba53588fdffb83be706c0364194a93a0fb6bcb19ae0c988cae97",
+      "type": "patch",
+      "summary": "The phone app's live view can open this machine's own Remote Desktop: on a Mac with a display, the page advertises it, and the app's request opens (or selects) a Desktop tab on this machine and shows the Terminal. Windows, Linux and headless machines do not offer it. Opening a machine's desktop twice in quick succession (from the phone, the machines menu or the command palette) now makes one Desktop tab, even when the second open lands just after the first tab was created.",
+      "sourceSha": "8bb77a0f3a1126afa334e1fbcc49bdc0c57d229a",
+      "identity": "mobile-open-this-machines-desktop:5fce5988f1c0ba53588fdffb83be706c0364194a93a0fb6bcb19ae0c988cae97"
     }
   ],
   "consumedIntentIds": [
