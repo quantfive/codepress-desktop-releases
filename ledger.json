@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "8406be703a0f9b16d124b91f84942f2d3389ec86",
+  "cursorSha": "eac48c730b8b0b3e4c319ae6477b8a1365a22047",
   "highWaterVersion": "1.601.4",
   "rows": [
     {
@@ -190135,6 +190135,13 @@
       "sourceSha": "8406be703a0f9b16d124b91f84942f2d3389ec86",
       "sourcePackageVersion": "1.601.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "eac48c730b8b0b3e4c319ae6477b8a1365a22047",
+      "sourcePackageVersion": "1.601.3",
+      "intentIds": [
+        "plain-control-errors-other-screens:0ea69d0213b401e21294e831441c24ebd54b2acbea49e95ef8cee22b57a78723"
+      ]
     }
   ],
   "intents": [
@@ -203377,6 +203384,14 @@
       "summary": "No user-visible change: Terminal's QA scripts and the broker's socket-client test helper now use the shared test deadline helper instead of raw timers.",
       "sourceSha": "a812b65a69c4d9d3c95bc89d1afbfcf8b625fbe7",
       "identity": "terminal-qa-scripts-real-timers:ad3fdcd04bf6e883aff2260ddab637b5c57345c5d98c862c6b7c4d6a367ad808"
+    },
+    {
+      "id": "plain-control-errors-other-screens",
+      "digest": "0ea69d0213b401e21294e831441c24ebd54b2acbea49e95ef8cee22b57a78723",
+      "type": "patch",
+      "summary": "Open app in the Machines menu, Update and Update all, Hand off here on a saved tab, and Project move now say a failure to reach another machine in one plain sentence naming that machine, never a code, an operation id or raw JSON. When the other machine never confirmed the outcome, the Hand off dialog no longer also says that nothing moved, and the Machines menu's cloud machine list no longer shows the browser's \"Failed to fetch\".",
+      "sourceSha": "eac48c730b8b0b3e4c319ae6477b8a1365a22047",
+      "identity": "plain-control-errors-other-screens:0ea69d0213b401e21294e831441c24ebd54b2acbea49e95ef8cee22b57a78723"
     }
   ],
   "consumedIntentIds": [
