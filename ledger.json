@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7673859440fb0d8eaa8e5af1ea7d56994a47f340",
+  "cursorSha": "78a9495a271a504f0876f38a59306fde428990f8",
   "highWaterVersion": "1.602.11",
   "rows": [
     {
@@ -191398,6 +191398,13 @@
       "sourceSha": "7673859440fb0d8eaa8e5af1ea7d56994a47f340",
       "sourcePackageVersion": "1.602.10",
       "intentIds": []
+    },
+    {
+      "sourceSha": "78a9495a271a504f0876f38a59306fde428990f8",
+      "sourcePackageVersion": "1.602.10",
+      "intentIds": [
+        "chat-header-names-run-location:3d94453728d35e212e6e8f9f0930db441a46377532f7ea6d8e2a26d4c1558691"
+      ]
     }
   ],
   "intents": [
@@ -204800,6 +204807,14 @@
       "summary": "The plan's Pages menu shows each page's device as an icon on the left (a monitor, a phone, a clipboard list for the overall plan, a plain page otherwise) instead of the word at the end of its title, with the shown page's check at the right.",
       "sourceSha": "d57ab68e2f6d67f281b82445322b5a4a8e3e347d",
       "identity": "pages-menu-device-icons:b645c8d5eb36547f8e35d20ce838c79c64b7625269bb8f28a6c1eb22bc7cb99c"
+    },
+    {
+      "id": "chat-header-names-run-location",
+      "digest": "3d94453728d35e212e6e8f9f0930db441a46377532f7ea6d8e2a26d4c1558691",
+      "type": "patch",
+      "summary": "Every Orchestrator chat's header now says where its agent runs: this machine's name (the same name its card in the list shows), another machine's name for a synced chat, or Cloud. Hover reads \"Running on …\". On a phone the name is a small line under the chat's title, so the header is no taller.",
+      "sourceSha": "78a9495a271a504f0876f38a59306fde428990f8",
+      "identity": "chat-header-names-run-location:3d94453728d35e212e6e8f9f0930db441a46377532f7ea6d8e2a26d4c1558691"
     }
   ],
   "consumedIntentIds": [
