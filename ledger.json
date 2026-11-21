@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "428fbc66e7f926a5e781bd040255145b49aa2586",
+  "cursorSha": "dac1766d1007896e06501f3b6e6b750ff68b4917",
   "highWaterVersion": "1.601.2",
   "rows": [
     {
@@ -189923,6 +189923,28 @@
       "sourceSha": "428fbc66e7f926a5e781bd040255145b49aa2586",
       "sourcePackageVersion": "1.601.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "8089e2bc46cc4611021cb38854a1de765d9f5391",
+      "sourcePackageVersion": "1.601.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "9f86327c1d8879ea4228a9388d4422aaefe79a1d",
+      "sourcePackageVersion": "1.601.0",
+      "intentIds": [
+        "ci-file-cpu-profile:3888a214277882113441d52d85fb9f43bb34de37174dda8025271ea89e9782a5"
+      ]
+    },
+    {
+      "sourceSha": "a75e3d5fb53250e61a770bb17ad9077c8158322e",
+      "sourcePackageVersion": "1.601.1",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "dac1766d1007896e06501f3b6e6b750ff68b4917",
+      "sourcePackageVersion": "1.601.1",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -203133,6 +203155,14 @@
       "summary": "A teammate's project on a shared computer can now act on a card's answer: Relaunch or Other model on a failed worker launch restarts the worker under the teammate's own account in their `~/work`, and Start on a stopped Orchestrator restarts it, instead of being refused `fleet_unavailable`.",
       "sourceSha": "2664fca5e91d15e07d55f0a41efd41cd285adb3a",
       "identity": "teammate-ask-acting-answers:824ccbe86328baeacca1dbeaf7838069b4d4121cfa7b791de0a68aed0c3413a7"
+    },
+    {
+      "id": "ci-file-cpu-profile",
+      "digest": "3888a214277882113441d52d85fb9f43bb34de37174dda8025271ea89e9782a5",
+      "type": "patch",
+      "summary": "CI only: the CI server's Terminal test runs now record each test file's CPU time, and the Terminal unit planner records how many test files it selected. Nothing changes in the app.",
+      "sourceSha": "9f86327c1d8879ea4228a9388d4422aaefe79a1d",
+      "identity": "ci-file-cpu-profile:3888a214277882113441d52d85fb9f43bb34de37174dda8025271ea89e9782a5"
     }
   ],
   "consumedIntentIds": [
