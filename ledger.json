@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2f7fc693bb5e34259f2b42d0f532d4d7fc70ff7f",
+  "cursorSha": "b0503eea968d2c280883ede0ecfb88bb8ef1a91b",
   "highWaterVersion": "1.602.2",
   "rows": [
     {
@@ -190645,6 +190645,13 @@
       "sourceSha": "2f7fc693bb5e34259f2b42d0f532d4d7fc70ff7f",
       "sourcePackageVersion": "1.602.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b0503eea968d2c280883ede0ecfb88bb8ef1a91b",
+      "sourcePackageVersion": "1.602.1",
+      "intentIds": [
+        "terminal-ui-orchestrator-leaf-imports:354420f953a45fb173261117dfca8c92a0ebd857856cb7b93bdfd86b5f4ba0fe"
+      ]
     }
   ],
   "intents": [
@@ -203959,6 +203966,14 @@
       "summary": "Fix staff self-annotation Send to Fix 422 error by dispatching to `/redlines/dispatch` with the `RedlineDispatchRequest` payload and fixing the kickoff fallback request shape.",
       "sourceSha": "c24df68a8861bfa09430cec9bb5a8a0854881d69",
       "identity": "fix-annotate-redline-dispatch:cb778d38c963af80073e434dde9092bb1a2ea9f690e8028b665d278142ec3595"
+    },
+    {
+      "id": "terminal-ui-orchestrator-leaf-imports",
+      "digest": "354420f953a45fb173261117dfca8c92a0ebd857856cb7b93bdfd86b5f4ba0fe",
+      "type": "patch",
+      "summary": "Replace `@codepress/ui/orchestrator` barrel imports in Terminal frontend source with direct leaf subpath imports to reduce module graph evaluation and CI test fan-out.",
+      "sourceSha": "b0503eea968d2c280883ede0ecfb88bb8ef1a91b",
+      "identity": "terminal-ui-orchestrator-leaf-imports:354420f953a45fb173261117dfca8c92a0ebd857856cb7b93bdfd86b5f4ba0fe"
     }
   ],
   "consumedIntentIds": [
