@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "58c0abd41d429d9dc6e8565f5969f022385c8235",
-  "highWaterVersion": "1.600.4",
+  "highWaterVersion": "1.601.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -103889,6 +103889,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:58c0abd41d429d9dc6e8565f5969f022385c8235",
+      "kind": "main",
+      "sequence": 2578,
+      "sourceSha": "58c0abd41d429d9dc6e8565f5969f022385c8235",
+      "sourcePackageVersion": "1.600.3",
+      "version": "1.601.0",
+      "batch": {
+        "intentIds": [
+          "macos-broker-helper-timestamp-retry:c792410278f78c6ae251cab5a7acfccd4999907eaf8dfdb4482421c9b00bccce",
+          "orchestrator-github-setup:0d14300b876796839a8226f3409172605e91a7cfbbfbb90c990a94a1f84308be"
+        ],
+        "notesIntentIds": [
+          "macos-broker-helper-timestamp-retry:c792410278f78c6ae251cab5a7acfccd4999907eaf8dfdb4482421c9b00bccce",
+          "orchestrator-github-setup:0d14300b876796839a8226f3409172605e91a7cfbbfbb90c990a94a1f84308be"
+        ],
+        "throughSourceSha": "58c0abd41d429d9dc6e8565f5969f022385c8235",
+        "previousThroughSourceSha": "2c79c7f9f3021ee5ae3808eb8a505b71cbfba73a",
+        "baselineVersion": "1.600.4",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-21T02:05:24.737Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44853852031",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-22T02:05:16.882Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -204495,7 +204540,9 @@
     "plain-unreachable-machine-wording:32fc0c177ec9806efc03b29b6cb108b604d02c9e027432e264fe6b19d89f01c4",
     "kickoff-defers-gh-check:ff8bbc6bfa4a0546099afa6496d11dcdeda9b692ff381219d859b82c86d4bd21",
     "settings-active-profile-selector:2f1d6086ae09179cf2558ba9c8eb122470e3096e36ccaa3c18a933a3bb81c2d5",
-    "segmented-pill-first-paint:ee80a9327a8eb4228ce0289e8ee6111de9e38d79e25329a64e4627078713019f"
+    "segmented-pill-first-paint:ee80a9327a8eb4228ce0289e8ee6111de9e38d79e25329a64e4627078713019f",
+    "macos-broker-helper-timestamp-retry:c792410278f78c6ae251cab5a7acfccd4999907eaf8dfdb4482421c9b00bccce",
+    "orchestrator-github-setup:0d14300b876796839a8226f3409172605e91a7cfbbfbb90c990a94a1f84308be"
   ],
-  "consumedThroughSha": "2c79c7f9f3021ee5ae3808eb8a505b71cbfba73a"
+  "consumedThroughSha": "58c0abd41d429d9dc6e8565f5969f022385c8235"
 }
