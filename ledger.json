@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "c24df68a8861bfa09430cec9bb5a8a0854881d69",
-  "highWaterVersion": "1.602.1",
+  "highWaterVersion": "1.602.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -104429,6 +104429,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:c24df68a8861bfa09430cec9bb5a8a0854881d69",
+      "kind": "main",
+      "sequence": 2588,
+      "sourceSha": "c24df68a8861bfa09430cec9bb5a8a0854881d69",
+      "sourcePackageVersion": "1.602.1",
+      "version": "1.602.2",
+      "batch": {
+        "intentIds": [
+          "fix-annotate-redline-dispatch:cb778d38c963af80073e434dde9092bb1a2ea9f690e8028b665d278142ec3595"
+        ],
+        "notesIntentIds": [
+          "fix-annotate-redline-dispatch:cb778d38c963af80073e434dde9092bb1a2ea9f690e8028b665d278142ec3595"
+        ],
+        "throughSourceSha": "c24df68a8861bfa09430cec9bb5a8a0854881d69",
+        "previousThroughSourceSha": "742493af572ba956cb5bf8decbc08c04ccceb87b",
+        "baselineVersion": "1.602.1",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-21T07:12:53.313Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44879113627",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-22T07:12:46.206Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -205572,7 +205615,8 @@
     "terminal-selection-fanout:6b88401d16f35fc4ef971884ca32b6a5191cfcaf770e4874ee55a3ff6d361241",
     "terminal-real-timer-lint-error:eb9da0fa3eebbaa3b7e29b2ef51359d7c8dfcfd2ddd4f6cf381aef875e26ab9b",
     "terminal-forward-github-login:31f8272262fc75375679e94762b32072b6f8fa3e3b6e01a686e1df289dbc0d52",
-    "terminal-vitest-memory-limit-and-sqlite-stmt-cache:6ad360e46ff8f9e0dd2fbb46137b7e31328c253ca9453a01cc30aa594c608625"
+    "terminal-vitest-memory-limit-and-sqlite-stmt-cache:6ad360e46ff8f9e0dd2fbb46137b7e31328c253ca9453a01cc30aa594c608625",
+    "fix-annotate-redline-dispatch:cb778d38c963af80073e434dde9092bb1a2ea9f690e8028b665d278142ec3595"
   ],
-  "consumedThroughSha": "742493af572ba956cb5bf8decbc08c04ccceb87b"
+  "consumedThroughSha": "c24df68a8861bfa09430cec9bb5a8a0854881d69"
 }
