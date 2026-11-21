@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "85eb4ab64185f89766587943ba86e22a35fd66a9",
+  "cursorSha": "7c845804ae25acdade9ce6d0ba36bb3028076acd",
   "highWaterVersion": "1.604.5",
   "rows": [
     {
@@ -192205,6 +192205,28 @@
       "sourceSha": "85eb4ab64185f89766587943ba86e22a35fd66a9",
       "sourcePackageVersion": "1.604.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c602652c04993a8af6d82eeea89a7c652cf55e98",
+      "sourcePackageVersion": "1.604.4",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "68a1360fb2b11b6bbe67c9f50b3ab5b4576e4eb7",
+      "sourcePackageVersion": "1.604.4",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "e16808379f291a9546c5d8fb1d8cc3a91cf90fd5",
+      "sourcePackageVersion": "1.604.4",
+      "intentIds": [
+        "pin-linuxdeploy-digest:795323d84f92c4c6d2fbda661da1f8169596e997d6fef07ddaa5d6f45e924b09"
+      ]
+    },
+    {
+      "sourceSha": "7c845804ae25acdade9ce6d0ba36bb3028076acd",
+      "sourcePackageVersion": "1.604.4",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -205743,6 +205765,14 @@
       "summary": "Update Terminal UI dependency closure manifest for the shared `@codepress/ui` link primitive and navigation helper.",
       "sourceSha": "051fe57767251a38e6445443eaccdf25530d7ee5",
       "identity": "link-primitives-ui-closure:10c758ba911f5917a6e374970df89d14657cfe708dd1198c80899efa897b945a"
+    },
+    {
+      "id": "pin-linuxdeploy-digest",
+      "digest": "795323d84f92c4c6d2fbda661da1f8169596e997d6fef07ddaa5d6f45e924b09",
+      "type": "patch",
+      "summary": "The Linux build now runs linuxdeploy and its GTK plugin only when their SHA-256 matches the digests committed in the repository, whether the tool was just downloaded or restored from the build cache.",
+      "sourceSha": "e16808379f291a9546c5d8fb1d8cc3a91cf90fd5",
+      "identity": "pin-linuxdeploy-digest:795323d84f92c4c6d2fbda661da1f8169596e997d6fef07ddaa5d6f45e924b09"
     }
   ],
   "consumedIntentIds": [
