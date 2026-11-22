@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f4dba66f91e996e94f6f853aac89e9c05e38d3eb",
+  "cursorSha": "35c932d007830090d309888b13506f216e64463e",
   "highWaterVersion": "1.607.1",
   "rows": [
     {
@@ -193050,6 +193050,13 @@
       "sourceSha": "f4dba66f91e996e94f6f853aac89e9c05e38d3eb",
       "sourcePackageVersion": "1.607.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "35c932d007830090d309888b13506f216e64463e",
+      "sourcePackageVersion": "1.607.0",
+      "intentIds": [
+        "windows-tab-process-tree-proof:2e9e3aeadafffd1ac9bccf85839add39c9e5de7dce0a78395a57ec182876644e"
+      ]
     }
   ],
   "intents": [
@@ -206692,6 +206699,14 @@
       "summary": "A worker launch refused before anything was typed is now recorded as failed and not started even when its tab could not be closed (as on Windows), so no \"may not have started — try again?\" card opens that nothing could retire. The failure says the tab is still open and should be closed by hand.",
       "sourceSha": "af47b3391279af06936cfc5d206159332abf7dc2",
       "identity": "refused-launch-not-started:0fb01b1da9c9ab5b7b432a9f6fae66aa0e5811d8b6bfaecef1781b8543391878"
+    },
+    {
+      "id": "windows-tab-process-tree-proof",
+      "digest": "2e9e3aeadafffd1ac9bccf85839add39c9e5de7dce0a78395a57ec182876644e",
+      "type": "patch",
+      "summary": "On Windows, Terminal can now prove a tab's processes are gone from the process tree (the tab's shell and everything it started, including orphans), so stopping, relaunching and cleaning up worker tabs no longer fails with \"positive process attribution is unavailable on Windows\".",
+      "sourceSha": "35c932d007830090d309888b13506f216e64463e",
+      "identity": "windows-tab-process-tree-proof:2e9e3aeadafffd1ac9bccf85839add39c9e5de7dce0a78395a57ec182876644e"
     }
   ],
   "consumedIntentIds": [
