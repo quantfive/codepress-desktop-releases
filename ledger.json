@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "c64eee33ebcbfddd595d077acc52b6a7299ac56c",
-  "highWaterVersion": "1.608.0",
+  "highWaterVersion": "1.608.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -106020,6 +106020,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:c64eee33ebcbfddd595d077acc52b6a7299ac56c",
+      "kind": "main",
+      "sequence": 2619,
+      "sourceSha": "c64eee33ebcbfddd595d077acc52b6a7299ac56c",
+      "sourcePackageVersion": "1.607.3",
+      "version": "1.608.1",
+      "batch": {
+        "intentIds": [
+          "settings-shaped-placeholder:592c55536b26593d6ffa0f9f4a253ba5a36e8ee78c3f3a2375bb6f48c01cd3e8",
+          "annotate-windows-errors:02d5145fed3aaf1e22d9ab483709e8f468270e8158757f4c690d0c54541f036e"
+        ],
+        "notesIntentIds": [
+          "settings-shaped-placeholder:592c55536b26593d6ffa0f9f4a253ba5a36e8ee78c3f3a2375bb6f48c01cd3e8",
+          "annotate-windows-errors:02d5145fed3aaf1e22d9ab483709e8f468270e8158757f4c690d0c54541f036e"
+        ],
+        "throughSourceSha": "c64eee33ebcbfddd595d077acc52b6a7299ac56c",
+        "previousThroughSourceSha": "620eef0fac44fefa2e84883ecb1ad8ed0b8061d4",
+        "baselineVersion": "1.608.0",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-22T05:54:31.246Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44991344911",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-23T05:54:23.169Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -208694,7 +208739,9 @@
     "windows-tab-process-tree-proof:2e9e3aeadafffd1ac9bccf85839add39c9e5de7dce0a78395a57ec182876644e",
     "windows-worker-launch:40cb4183c9f20372f41ac838e7061b72392b12fb4c13d22cb9764c57e83f85a3",
     "teammate-orchestrator-limit-failover:bcc9d4b95c0d211b171a195ab05fe42a3e5440abeff22189d878e41671ec9b13",
-    "local-media-export:856e7139e14e09f6c0195dde97a07e640342a714bd2758145cb8c34c8000c5fd"
+    "local-media-export:856e7139e14e09f6c0195dde97a07e640342a714bd2758145cb8c34c8000c5fd",
+    "settings-shaped-placeholder:592c55536b26593d6ffa0f9f4a253ba5a36e8ee78c3f3a2375bb6f48c01cd3e8",
+    "annotate-windows-errors:02d5145fed3aaf1e22d9ab483709e8f468270e8158757f4c690d0c54541f036e"
   ],
-  "consumedThroughSha": "620eef0fac44fefa2e84883ecb1ad8ed0b8061d4"
+  "consumedThroughSha": "c64eee33ebcbfddd595d077acc52b6a7299ac56c"
 }
