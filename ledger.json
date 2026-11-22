@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d746d6be752f235ec001a48fa73629405de82348",
+  "cursorSha": "c35e98c8df50439bb28ca6ae6a89739d42981783",
   "highWaterVersion": "1.605.3",
   "rows": [
     {
@@ -192772,6 +192772,13 @@
       "sourceSha": "d746d6be752f235ec001a48fa73629405de82348",
       "sourcePackageVersion": "1.605.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c35e98c8df50439bb28ca6ae6a89739d42981783",
+      "sourcePackageVersion": "1.605.1",
+      "intentIds": [
+        "release-flags-encode-tests:fcc449e6989676144c03a890cb182bc25bd77947e8a04380aec3e76b79f38385"
+      ]
     }
   ],
   "intents": [
@@ -206374,6 +206381,14 @@
       "summary": "The Orchestrator rail reads its remembered rows once per launch instead of twice, so a slow launch draws them instead of a loading skeleton.",
       "sourceSha": "a85eb51c55478cff59ead8b350dfeb28716c273b",
       "identity": "remembered-rail-one-read:d134887567e0bb6c5663999ba2cc6f1f0cff91a0f1e0e24046382514b7ee3111"
+    },
+    {
+      "id": "release-flags-encode-tests",
+      "digest": "fcc449e6989676144c03a890cb182bc25bd77947e8a04380aec3e76b79f38385",
+      "type": "patch",
+      "summary": "The macOS desktop-stream encode tests compile again after the encoder took release flags in place of a keyframe boolean.",
+      "sourceSha": "c35e98c8df50439bb28ca6ae6a89739d42981783",
+      "identity": "release-flags-encode-tests:fcc449e6989676144c03a890cb182bc25bd77947e8a04380aec3e76b79f38385"
     }
   ],
   "consumedIntentIds": [
