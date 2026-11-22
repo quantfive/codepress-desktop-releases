@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c6d31ee8436843e684c08473430da545ddc8ddff",
+  "cursorSha": "10c4fb85c99ea5ae1987ab6318c9f19d365c48c7",
   "highWaterVersion": "1.609.8",
   "rows": [
     {
@@ -194138,6 +194138,11 @@
       "intentIds": [
         "fix-agy-invalid-output:f59574d6a36786f0084b22752edf299053b7ab4ff12560c0e01739b5f6738e06"
       ]
+    },
+    {
+      "sourceSha": "10c4fb85c99ea5ae1987ab6318c9f19d365c48c7",
+      "sourcePackageVersion": "1.609.7",
+      "intentIds": []
     }
   ],
   "intents": [
