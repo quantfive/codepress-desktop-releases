@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "faf186517f1f98f89f57f22a6198dfa9e0fd08ed",
+  "cursorSha": "c64eee33ebcbfddd595d077acc52b6a7299ac56c",
   "highWaterVersion": "1.608.0",
   "rows": [
     {
@@ -193283,6 +193283,16 @@
       "intentIds": [
         "annotate-windows-errors:02d5145fed3aaf1e22d9ab483709e8f468270e8158757f4c690d0c54541f036e"
       ]
+    },
+    {
+      "sourceSha": "adb7f3698f96de1c7e9531aa2c6932f1c0e5aa95",
+      "sourcePackageVersion": "1.607.3",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "c64eee33ebcbfddd595d077acc52b6a7299ac56c",
+      "sourcePackageVersion": "1.607.3",
+      "intentIds": []
     }
   ],
   "intents": [
