@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "8fde236db9f26460c8b98c6f918248c430f18243",
+  "cursorSha": "2d3eb7b456cc2ea2e19e1a7a34b8755a85954a7c",
   "highWaterVersion": "1.604.7",
   "rows": [
     {
@@ -192427,6 +192427,13 @@
       "sourceSha": "8fde236db9f26460c8b98c6f918248c430f18243",
       "sourcePackageVersion": "1.604.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2d3eb7b456cc2ea2e19e1a7a34b8755a85954a7c",
+      "sourcePackageVersion": "1.604.7",
+      "intentIds": [
+        "local-model-vendor:b348e95c07dc7aeed89c6eabfb41e43b186b6affd305de8cc765e389d82ad9c1"
+      ]
     }
   ],
   "intents": [
@@ -205981,6 +205988,14 @@
       "summary": "Remote Desktop now requests native 1:1 capture width (up to 2560 px) in Fit view on 1x displays, seeds an initial frame when an unlocked desktop is idle at connect time, and emits a single bitrate-boosted settle keyframe after motion stops so resting text snaps sharp.",
       "sourceSha": "7a3cdd70c9a4124cddcae6ca26605de92a0bc01c",
       "identity": "remote-desktop-sharp-capture-still-topoff:f8e8d2c96958ac6d6d4e304d7aaa8106cfd96f1d6351c90485561efc0d017ad1"
+    },
+    {
+      "id": "local-model-vendor",
+      "digest": "b348e95c07dc7aeed89c6eabfb41e43b186b6affd305de8cc765e389d82ad9c1",
+      "type": "minor",
+      "summary": "Claude Code tabs and Orchestrator workers can run on Inkling 2 Mini on this machine (`local/inkling-2-mini`), with no key: the launch starts Terminal's own local model server and its requests go through the coding-plan relay with no credential, while every Claude credential stays masked. A machine that can't run it, or a model not set up yet, is refused with the way through. No model menu offers it yet.",
+      "sourceSha": "2d3eb7b456cc2ea2e19e1a7a34b8755a85954a7c",
+      "identity": "local-model-vendor:b348e95c07dc7aeed89c6eabfb41e43b186b6affd305de8cc765e389d82ad9c1"
     }
   ],
   "consumedIntentIds": [
