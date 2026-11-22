@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "bef5e74f171a4a23da8f60877cf73eaacdb53693",
-  "highWaterVersion": "1.605.0",
+  "highWaterVersion": "1.605.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -105505,6 +105505,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:bef5e74f171a4a23da8f60877cf73eaacdb53693",
+      "kind": "main",
+      "sequence": 2609,
+      "sourceSha": "bef5e74f171a4a23da8f60877cf73eaacdb53693",
+      "sourcePackageVersion": "1.605.0",
+      "version": "1.605.1",
+      "batch": {
+        "intentIds": [
+          "redline-send-to-fix-new-chat:7108d404d484ecbe2ab589c3af1ba6510e99f3052c13dd55490d443e4c03ad82"
+        ],
+        "notesIntentIds": [
+          "redline-send-to-fix-new-chat:7108d404d484ecbe2ab589c3af1ba6510e99f3052c13dd55490d443e4c03ad82"
+        ],
+        "throughSourceSha": "bef5e74f171a4a23da8f60877cf73eaacdb53693",
+        "previousThroughSourceSha": "2d3eb7b456cc2ea2e19e1a7a34b8755a85954a7c",
+        "baselineVersion": "1.605.0",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-22T01:23:35.010Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44971204318",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-23T01:23:26.535Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -207785,7 +207828,8 @@
     "link-primitives-ui-closure:10c758ba911f5917a6e374970df89d14657cfe708dd1198c80899efa897b945a",
     "pin-linuxdeploy-digest:795323d84f92c4c6d2fbda661da1f8169596e997d6fef07ddaa5d6f45e924b09",
     "remote-desktop-sharp-capture-still-topoff:f8e8d2c96958ac6d6d4e304d7aaa8106cfd96f1d6351c90485561efc0d017ad1",
-    "local-model-vendor:b348e95c07dc7aeed89c6eabfb41e43b186b6affd305de8cc765e389d82ad9c1"
+    "local-model-vendor:b348e95c07dc7aeed89c6eabfb41e43b186b6affd305de8cc765e389d82ad9c1",
+    "redline-send-to-fix-new-chat:7108d404d484ecbe2ab589c3af1ba6510e99f3052c13dd55490d443e4c03ad82"
   ],
-  "consumedThroughSha": "2d3eb7b456cc2ea2e19e1a7a34b8755a85954a7c"
+  "consumedThroughSha": "bef5e74f171a4a23da8f60877cf73eaacdb53693"
 }
