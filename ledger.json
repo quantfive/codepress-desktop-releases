@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "c6d31ee8436843e684c08473430da545ddc8ddff",
-  "highWaterVersion": "1.609.7",
+  "highWaterVersion": "1.609.8",
   "rows": [
     {
       "schemaVersion": 1,
@@ -106510,6 +106510,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:c6d31ee8436843e684c08473430da545ddc8ddff",
+      "kind": "main",
+      "sequence": 2628,
+      "sourceSha": "c6d31ee8436843e684c08473430da545ddc8ddff",
+      "sourcePackageVersion": "1.609.7",
+      "version": "1.609.8",
+      "batch": {
+        "intentIds": [
+          "fix-agy-invalid-output:f59574d6a36786f0084b22752edf299053b7ab4ff12560c0e01739b5f6738e06"
+        ],
+        "notesIntentIds": [
+          "fix-agy-invalid-output:f59574d6a36786f0084b22752edf299053b7ab4ff12560c0e01739b5f6738e06"
+        ],
+        "throughSourceSha": "c6d31ee8436843e684c08473430da545ddc8ddff",
+        "previousThroughSourceSha": "62e57faad088b46d8c9a1c35c3bb873c3aebcf7d",
+        "baselineVersion": "1.609.7",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-22T20:03:29.378Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45064173295",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-23T20:03:19.405Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -209610,7 +209653,8 @@
     "custom-orchestration-passes-flag:279c33e29134ee169376f01a050f92cf0584aa2e9f27317ca2011f82b15abe61",
     "custom-orchestration-passes-local-runtime:f2da85d195794806107fc592ee796e2bdbb1351abd4f875ae3d767f51d66d43d",
     "custom-orchestration-passes-settings-builder:0c2e1fb6616c1560aab99ad258b080bc66c5acad5c7e399d05aa2e2586f334d4",
-    "terminal-shared-helpers:5f9df478d742dfaf047c096cf3bd09212cdbbe4724160c6778457c4efa7bec19"
+    "terminal-shared-helpers:5f9df478d742dfaf047c096cf3bd09212cdbbe4724160c6778457c4efa7bec19",
+    "fix-agy-invalid-output:f59574d6a36786f0084b22752edf299053b7ab4ff12560c0e01739b5f6738e06"
   ],
-  "consumedThroughSha": "62e57faad088b46d8c9a1c35c3bb873c3aebcf7d"
+  "consumedThroughSha": "c6d31ee8436843e684c08473430da545ddc8ddff"
 }
