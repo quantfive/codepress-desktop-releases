@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "eb1be21f1d43c75bdb3b0d2a271000a28be982bf",
-  "highWaterVersion": "1.607.1",
+  "highWaterVersion": "1.607.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -105869,6 +105869,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:eb1be21f1d43c75bdb3b0d2a271000a28be982bf",
+      "kind": "main",
+      "sequence": 2616,
+      "sourceSha": "eb1be21f1d43c75bdb3b0d2a271000a28be982bf",
+      "sourcePackageVersion": "1.607.1",
+      "version": "1.607.2",
+      "batch": {
+        "intentIds": [
+          "windows-tab-process-tree-proof:2e9e3aeadafffd1ac9bccf85839add39c9e5de7dce0a78395a57ec182876644e"
+        ],
+        "notesIntentIds": [
+          "windows-tab-process-tree-proof:2e9e3aeadafffd1ac9bccf85839add39c9e5de7dce0a78395a57ec182876644e"
+        ],
+        "throughSourceSha": "eb1be21f1d43c75bdb3b0d2a271000a28be982bf",
+        "previousThroughSourceSha": "af47b3391279af06936cfc5d206159332abf7dc2",
+        "baselineVersion": "1.607.1",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-22T04:18:45.886Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "44984441452",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-23T04:18:38.088Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -208424,7 +208467,8 @@
     "local-media-derived-reads:7f92e2ae8401bf2c360c1be2bd0ed5c4a161803be0078e85480dee8ad93a846c",
     "secure-access-always-on-terminal:15ed1449ae9b0eeb59697e7c55a82d8a335af2066da98e3618ab8d349b19b62c",
     "local-model-agent-accounts:165e46c33fb1c36984cb584f0afd151893926f26262180fdbd2cb47f633bd443",
-    "refused-launch-not-started:0fb01b1da9c9ab5b7b432a9f6fae66aa0e5811d8b6bfaecef1781b8543391878"
+    "refused-launch-not-started:0fb01b1da9c9ab5b7b432a9f6fae66aa0e5811d8b6bfaecef1781b8543391878",
+    "windows-tab-process-tree-proof:2e9e3aeadafffd1ac9bccf85839add39c9e5de7dce0a78395a57ec182876644e"
   ],
-  "consumedThroughSha": "af47b3391279af06936cfc5d206159332abf7dc2"
+  "consumedThroughSha": "eb1be21f1d43c75bdb3b0d2a271000a28be982bf"
 }
