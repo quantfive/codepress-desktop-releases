@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1f0716f6913be19b734fa5a89ba1618ff548eb1c",
+  "cursorSha": "2ff84d505fd956ddab214843670884aa0e987651",
   "highWaterVersion": "1.609.4",
   "rows": [
     {
@@ -193814,6 +193814,20 @@
       "sourceSha": "1f0716f6913be19b734fa5a89ba1618ff548eb1c",
       "sourcePackageVersion": "1.609.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "44913c09baf69aaaa86ddc347d1aa4f0cb23a471",
+      "sourcePackageVersion": "1.609.4",
+      "intentIds": [
+        "terminal-dead-code-cleanup:9729800fdf5fd3547afba4168eaf8547be4ac53a2b1b8bb5100b50adfcb90ed4"
+      ]
+    },
+    {
+      "sourceSha": "2ff84d505fd956ddab214843670884aa0e987651",
+      "sourcePackageVersion": "1.609.4",
+      "intentIds": [
+        "remove-document-workspace-harness:9349f4c45e07bcca352864f2e8e005814f001369b2b9a2747ab4defaf2d897cb"
+      ]
     }
   ],
   "intents": [
@@ -207544,6 +207558,22 @@
       "summary": "A teammate's leased login on a shared computer is now kept renewed while their Orchestrator runs there, and their Claude Orchestrator gets past \"OAuth token revoked\" or an expired login: Terminal re-leases their Personal Claude login and the turn runs again, or, when renewal can't help, it moves to their other Personal subscription or the CodePress router and the thread says to reconnect the account.",
       "sourceSha": "841da0088d0ac1463aa66ab64e04d56ec08d7f88",
       "identity": "teammate-revoked-login-recovery:18ca9a0124027db57a2b626716ee48b7a4401e422474c5741e38d4a93c76c48a"
+    },
+    {
+      "id": "terminal-dead-code-cleanup",
+      "digest": "9729800fdf5fd3547afba4168eaf8547be4ac53a2b1b8bb5100b50adfcb90ed4",
+      "type": "patch",
+      "summary": "Remove Terminal code nothing reaches (unused exports, the unused `check_internet_connectivity` desktop command, the ghostty viewer prototype, dead barrels and an unreferenced stress script) and replace five copies of `escapeRegExp` with one shared helper, fixing the copy that escaped almost nothing.",
+      "sourceSha": "44913c09baf69aaaa86ddc347d1aa4f0cb23a471",
+      "identity": "terminal-dead-code-cleanup:9729800fdf5fd3547afba4168eaf8547be4ac53a2b1b8bb5100b50adfcb90ed4"
+    },
+    {
+      "id": "remove-document-workspace-harness",
+      "digest": "9349f4c45e07bcca352864f2e8e005814f001369b2b9a2747ab4defaf2d897cb",
+      "type": "patch",
+      "summary": "Removes the unused development harness for the shared document workspace from Terminal's source. No view ever mounted it, so nothing you see or use in Terminal changes.",
+      "sourceSha": "2ff84d505fd956ddab214843670884aa0e987651",
+      "identity": "remove-document-workspace-harness:9349f4c45e07bcca352864f2e8e005814f001369b2b9a2747ab4defaf2d897cb"
     }
   ],
   "consumedIntentIds": [
