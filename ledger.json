@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "07f41ff622f793176b6abf4c3e98380bf63834e8",
+  "cursorSha": "faf186517f1f98f89f57f22a6198dfa9e0fd08ed",
   "highWaterVersion": "1.608.0",
   "rows": [
     {
@@ -193276,6 +193276,13 @@
       "intentIds": [
         "settings-shaped-placeholder:592c55536b26593d6ffa0f9f4a253ba5a36e8ee78c3f3a2375bb6f48c01cd3e8"
       ]
+    },
+    {
+      "sourceSha": "faf186517f1f98f89f57f22a6198dfa9e0fd08ed",
+      "sourcePackageVersion": "1.607.3",
+      "intentIds": [
+        "annotate-windows-errors:02d5145fed3aaf1e22d9ab483709e8f468270e8158757f4c690d0c54541f036e"
+      ]
     }
   ],
   "intents": [
@@ -206958,6 +206965,14 @@
       "summary": "While Settings loads, its pane now shows a placeholder shaped like a settings page (sections, then rows with a label on the left and a switch, menu or button on the right) instead of the editor's text lines. The classic Settings dialog also shows its section list's outline while it loads, so it no longer jumps when the real one appears.",
       "sourceSha": "07f41ff622f793176b6abf4c3e98380bf63834e8",
       "identity": "settings-shaped-placeholder:592c55536b26593d6ffa0f9f4a253ba5a36e8ee78c3f3a2375bb6f48c01cd3e8"
+    },
+    {
+      "id": "annotate-windows-errors",
+      "digest": "02d5145fed3aaf1e22d9ab483709e8f468270e8158757f4c690d0c54541f036e",
+      "type": "patch",
+      "summary": "Staff Annotate now says why it failed: a failed overlay load or toolbar pop-out shows a toast with the reason and is written to the Terminal log, and the docked toolbar stays put. A failed load offers Reload, because the window keeps the failed download until it reloads. The Annotate shortcut moves to Cmd/Ctrl+Shift+X, because Cmd/Ctrl+Shift+A belongs to the Agent Dashboard and never reached Annotate.",
+      "sourceSha": "faf186517f1f98f89f57f22a6198dfa9e0fd08ed",
+      "identity": "annotate-windows-errors:02d5145fed3aaf1e22d9ab483709e8f468270e8158757f4c690d0c54541f036e"
     }
   ],
   "consumedIntentIds": [
