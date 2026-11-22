@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2d3eb7b456cc2ea2e19e1a7a34b8755a85954a7c",
+  "cursorSha": "35361951c1b2381632b3204c0efad1a0a192ae6b",
   "highWaterVersion": "1.605.0",
   "rows": [
     {
@@ -192481,6 +192481,18 @@
       "intentIds": [
         "local-model-vendor:b348e95c07dc7aeed89c6eabfb41e43b186b6affd305de8cc765e389d82ad9c1"
       ]
+    },
+    {
+      "sourceSha": "26a26945e8ac2a86618a42264cf0f25e88b07db7",
+      "sourcePackageVersion": "1.604.7",
+      "intentIds": [
+        "redline-send-to-fix-new-chat:7108d404d484ecbe2ab589c3af1ba6510e99f3052c13dd55490d443e4c03ad82"
+      ]
+    },
+    {
+      "sourceSha": "35361951c1b2381632b3204c0efad1a0a192ae6b",
+      "sourcePackageVersion": "1.604.7",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -206043,6 +206055,14 @@
       "summary": "Claude Code tabs and Orchestrator workers can run on Inkling 2 Mini on this machine (`local/inkling-2-mini`), with no key: the launch starts Terminal's own local model server and its requests go through the coding-plan relay with no credential, while every Claude credential stays masked. A machine that can't run it, or a model not set up yet, is refused with the way through. No model menu offers it yet.",
       "sourceSha": "2d3eb7b456cc2ea2e19e1a7a34b8755a85954a7c",
       "identity": "local-model-vendor:b348e95c07dc7aeed89c6eabfb41e43b186b6affd305de8cc765e389d82ad9c1"
+    },
+    {
+      "id": "redline-send-to-fix-new-chat",
+      "digest": "7108d404d484ecbe2ab589c3af1ba6510e99f3052c13dd55490d443e4c03ad82",
+      "type": "patch",
+      "summary": "Staff Send to Fix on the annotator now opens New chat prefilled with the fix instruction and the redline snapshots, instead of starting a cloud chat at once, so you pick where it runs and send it yourself.",
+      "sourceSha": "26a26945e8ac2a86618a42264cf0f25e88b07db7",
+      "identity": "redline-send-to-fix-new-chat:7108d404d484ecbe2ab589c3af1ba6510e99f3052c13dd55490d443e4c03ad82"
     }
   ],
   "consumedIntentIds": [
