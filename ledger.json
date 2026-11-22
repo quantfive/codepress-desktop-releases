@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9dc36f4830e0ac5da046e77ad1af71b2c7546e46",
+  "cursorSha": "41fcf53f0b6465cc86fdc848a658a6a467cc0763",
   "highWaterVersion": "1.607.3",
   "rows": [
     {
@@ -193203,6 +193203,13 @@
       "sourceSha": "9dc36f4830e0ac5da046e77ad1af71b2c7546e46",
       "sourcePackageVersion": "1.607.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "41fcf53f0b6465cc86fdc848a658a6a467cc0763",
+      "sourcePackageVersion": "1.607.2",
+      "intentIds": [
+        "local-media-export:856e7139e14e09f6c0195dde97a07e640342a714bd2758145cb8c34c8000c5fd"
+      ]
     }
   ],
   "intents": [
@@ -206869,6 +206876,14 @@
       "summary": "A teammate's Orchestrator on a shared computer no longer stops with \"Subscription recovery unavailable: terminal_unavailable\" when their own Claude or Codex subscription hits a usage limit. It moves to another Personal subscription of theirs, or, for Claude, to the CodePress router for them, and runs the turn again. The thread says \"Moved to <account>\" or \"Moved to the CodePress router\", or why nothing could take it. The machine owner's accounts and sponsor are never used for a teammate.",
       "sourceSha": "83f0f368496c05fc493a4329430d12d4de4a4190",
       "identity": "teammate-orchestrator-limit-failover:bcc9d4b95c0d211b171a195ab05fe42a3e5440abeff22189d878e41671ec9b13"
+    },
+    {
+      "id": "local-media-export",
+      "digest": "856e7139e14e09f6c0195dde97a07e640342a714bd2758145cb8c34c8000c5fd",
+      "type": "minor",
+      "summary": "A video project with a local-only clip now exports on the machine that holds it: this machine downloads the cloud music and graphics, renders with its ffmpeg, writes the result into the shared folder and uploads only the finished video. An ffmpeg that lacks a needed encoder or filter is refused up front with the missing pieces named.",
+      "sourceSha": "41fcf53f0b6465cc86fdc848a658a6a467cc0763",
+      "identity": "local-media-export:856e7139e14e09f6c0195dde97a07e640342a714bd2758145cb8c34c8000c5fd"
     }
   ],
   "consumedIntentIds": [
