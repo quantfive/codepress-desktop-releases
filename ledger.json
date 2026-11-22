@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "10c4fb85c99ea5ae1987ab6318c9f19d365c48c7",
+  "cursorSha": "cae1907385601e9c833fcdfaeaa8f4eb6e00784b",
   "highWaterVersion": "1.609.8",
   "rows": [
     {
@@ -194143,6 +194143,13 @@
       "sourceSha": "10c4fb85c99ea5ae1987ab6318c9f19d365c48c7",
       "sourcePackageVersion": "1.609.7",
       "intentIds": []
+    },
+    {
+      "sourceSha": "cae1907385601e9c833fcdfaeaa8f4eb6e00784b",
+      "sourcePackageVersion": "1.609.7",
+      "intentIds": [
+        "windows-settings-stuck-load:726548a572621206caf72afdb17c3015b489df0f67d42bc64806825d439a550d"
+      ]
     }
   ],
   "intents": [
@@ -207937,6 +207944,14 @@
       "summary": "Prevent Gemini Orchestrator (`agy acp`) empty-turn retries and strip standalone `⚠ Model produced invalid output.` retry banners from ACP streams.",
       "sourceSha": "c6d31ee8436843e684c08473430da545ddc8ddff",
       "identity": "fix-agy-invalid-output:f59574d6a36786f0084b22752edf299053b7ab4ff12560c0e01739b5f6738e06"
+    },
+    {
+      "id": "windows-settings-stuck-load",
+      "digest": "726548a572621206caf72afdb17c3015b489df0f67d42bc64806825d439a550d",
+      "type": "patch",
+      "summary": "On Windows, opening the signed-in Cloud view no longer stops the window from loading any more of its code, which left Settings → This computer (and other panes opened for the first time) on loading bars forever. Any pane whose code is still loading after 10 seconds now says \"Still loading the …\" with Retry and Reload window instead of waiting silently.",
+      "sourceSha": "cae1907385601e9c833fcdfaeaa8f4eb6e00784b",
+      "identity": "windows-settings-stuck-load:726548a572621206caf72afdb17c3015b489df0f67d42bc64806825d439a550d"
     }
   ],
   "consumedIntentIds": [
