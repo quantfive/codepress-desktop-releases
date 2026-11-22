@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "83f0f368496c05fc493a4329430d12d4de4a4190",
+  "cursorSha": "9dc36f4830e0ac5da046e77ad1af71b2c7546e46",
   "highWaterVersion": "1.607.3",
   "rows": [
     {
@@ -193198,6 +193198,11 @@
       "intentIds": [
         "teammate-orchestrator-limit-failover:bcc9d4b95c0d211b171a195ab05fe42a3e5440abeff22189d878e41671ec9b13"
       ]
+    },
+    {
+      "sourceSha": "9dc36f4830e0ac5da046e77ad1af71b2c7546e46",
+      "sourcePackageVersion": "1.607.2",
+      "intentIds": []
     }
   ],
   "intents": [
