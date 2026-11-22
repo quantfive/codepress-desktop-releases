@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5f8aa22dc8d8f8ea14c72f3cf21c4feae57aed62",
+  "cursorSha": "6b6b21199fa369432b171e34d30794baeeb158c8",
   "highWaterVersion": "1.608.1",
   "rows": [
     {
@@ -193360,6 +193360,13 @@
       "sourceSha": "5f8aa22dc8d8f8ea14c72f3cf21c4feae57aed62",
       "sourcePackageVersion": "1.608.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "6b6b21199fa369432b171e34d30794baeeb158c8",
+      "sourcePackageVersion": "1.608.1",
+      "intentIds": [
+        "windows-desktop-hosting:1682f90ad91537c40add42b2cc34a509842c5136150acd1566737ae912c35304"
+      ]
     }
   ],
   "intents": [
@@ -207050,6 +207057,14 @@
       "summary": "Staff Annotate now says why it failed: a failed overlay load or toolbar pop-out shows a toast with the reason and is written to the Terminal log, and the docked toolbar stays put. A failed load offers Reload, because the window keeps the failed download until it reloads. The Annotate shortcut moves to Cmd/Ctrl+Shift+X, because Cmd/Ctrl+Shift+A belongs to the Agent Dashboard and never reached Annotate.",
       "sourceSha": "faf186517f1f98f89f57f22a6198dfa9e0fd08ed",
       "identity": "annotate-windows-errors:02d5145fed3aaf1e22d9ab483709e8f468270e8158757f4c690d0c54541f036e"
+    },
+    {
+      "id": "windows-desktop-hosting",
+      "digest": "1682f90ad91537c40add42b2cc34a509842c5136150acd1566737ae912c35304",
+      "type": "minor",
+      "summary": "Windows 10 and 11 machines can now host Remote Desktop. Turn on Desktop hosting in Settings → Network & remote access to view and control the machine from your other machines. A Windows machine without a usable video encoder says so instead.",
+      "sourceSha": "6b6b21199fa369432b171e34d30794baeeb158c8",
+      "identity": "windows-desktop-hosting:1682f90ad91537c40add42b2cc34a509842c5136150acd1566737ae912c35304"
     }
   ],
   "consumedIntentIds": [
