@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6507d1c5f9ea0a605fb676539c8f6526fe96ae9a",
+  "cursorSha": "a3c45997d563ce27789fe8cc71772f3489304123",
   "highWaterVersion": "1.606.0",
   "rows": [
     {
@@ -192895,6 +192895,13 @@
       "sourceSha": "6507d1c5f9ea0a605fb676539c8f6526fe96ae9a",
       "sourcePackageVersion": "1.605.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a3c45997d563ce27789fe8cc71772f3489304123",
+      "sourcePackageVersion": "1.605.4",
+      "intentIds": [
+        "secure-access-always-on-terminal:15ed1449ae9b0eeb59697e7c55a82d8a335af2066da98e3618ab8d349b19b62c"
+      ]
     }
   ],
   "intents": [
@@ -206513,6 +206520,14 @@
       "summary": "Video editor agents can now inspect and transcribe a local-only file without uploading it: this machine reads frames, the waveform and a small audio proxy with ffmpeg (found via `CODEPRESS_FFMPEG_PATH`/`CODEPRESS_FFPROBE_PATH` or `PATH`) and sends only those.",
       "sourceSha": "4bbc221187be75d122d4be3a4c28406bd68580ed",
       "identity": "local-media-derived-reads:7f92e2ae8401bf2c360c1be2bd0ed5c4a161803be0078e85480dee8ad93a846c"
+    },
+    {
+      "id": "secure-access-always-on-terminal",
+      "digest": "15ed1449ae9b0eeb59697e7c55a82d8a335af2066da98e3618ab8d349b19b62c",
+      "type": "patch",
+      "summary": "Secure Access is always on: every request from another device needs the owner's sign-in or a share link, whatever Terminal's saved setting or the backend says, and Settings no longer offers to turn it off.",
+      "sourceSha": "a3c45997d563ce27789fe8cc71772f3489304123",
+      "identity": "secure-access-always-on-terminal:15ed1449ae9b0eeb59697e7c55a82d8a335af2066da98e3618ab8d349b19b62c"
     }
   ],
   "consumedIntentIds": [
