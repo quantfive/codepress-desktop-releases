@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3dc6e0cb15e730916e8369e18edd4be3a69173ef",
+  "cursorSha": "354d429cecd4388135ecac8c5d0442e8d515ca29",
   "highWaterVersion": "1.609.6",
   "rows": [
     {
@@ -193983,6 +193983,13 @@
       "sourceSha": "3dc6e0cb15e730916e8369e18edd4be3a69173ef",
       "sourcePackageVersion": "1.609.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "354d429cecd4388135ecac8c5d0442e8d515ca29",
+      "sourcePackageVersion": "1.609.5",
+      "intentIds": [
+        "terminal-shared-helpers:5f9df478d742dfaf047c096cf3bd09212cdbbe4724160c6778457c4efa7bec19"
+      ]
     }
   ],
   "intents": [
@@ -207761,6 +207768,14 @@
       "summary": "Add flag-gated Skill + Model orchestration pass builder in Settings → Orchestrator → Model profiles.",
       "sourceSha": "993256f5da92a36e9dd4789d5cfaac974f3699a4",
       "identity": "custom-orchestration-passes-settings-builder:0c2e1fb6616c1560aab99ad258b080bc66c5acad5c7e399d05aa2e2586f334d4"
+    },
+    {
+      "id": "terminal-shared-helpers",
+      "digest": "5f9df478d742dfaf047c096cf3bd09212cdbbe4724160c6778457c4efa7bec19",
+      "type": "patch",
+      "summary": "Terminal's server and app now use one shared helper each for reading timing overrides, checking whether a process is still running, and checking whether a path sits inside a folder, instead of many private copies. One fix comes with it: an override that allows 0 and is set to an empty value now falls back to its default instead of reading as 0. Nothing else you see or use in Terminal changes.",
+      "sourceSha": "354d429cecd4388135ecac8c5d0442e8d515ca29",
+      "identity": "terminal-shared-helpers:5f9df478d742dfaf047c096cf3bd09212cdbbe4724160c6778457c4efa7bec19"
     }
   ],
   "consumedIntentIds": [
