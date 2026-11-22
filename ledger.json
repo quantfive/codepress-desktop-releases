@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2e43147ce7f9b52d5b0a8e6284960bc9399f31a3",
+  "cursorSha": "83f0f368496c05fc493a4329430d12d4de4a4190",
   "highWaterVersion": "1.607.3",
   "rows": [
     {
@@ -193191,6 +193191,13 @@
       "intentIds": [
         "windows-worker-launch:40cb4183c9f20372f41ac838e7061b72392b12fb4c13d22cb9764c57e83f85a3"
       ]
+    },
+    {
+      "sourceSha": "83f0f368496c05fc493a4329430d12d4de4a4190",
+      "sourcePackageVersion": "1.607.2",
+      "intentIds": [
+        "teammate-orchestrator-limit-failover:bcc9d4b95c0d211b171a195ab05fe42a3e5440abeff22189d878e41671ec9b13"
+      ]
     }
   ],
   "intents": [
@@ -206849,6 +206856,14 @@
       "summary": "Orchestrator workers now start on Windows. A worker tab running PowerShell 7, Windows PowerShell, cmd.exe or Git Bash gets its full brief through a small Node launcher, instead of failing with \"worker launch requires an absolute prompt file path\". Launches on macOS and Linux are unchanged.",
       "sourceSha": "2e43147ce7f9b52d5b0a8e6284960bc9399f31a3",
       "identity": "windows-worker-launch:40cb4183c9f20372f41ac838e7061b72392b12fb4c13d22cb9764c57e83f85a3"
+    },
+    {
+      "id": "teammate-orchestrator-limit-failover",
+      "digest": "bcc9d4b95c0d211b171a195ab05fe42a3e5440abeff22189d878e41671ec9b13",
+      "type": "patch",
+      "summary": "A teammate's Orchestrator on a shared computer no longer stops with \"Subscription recovery unavailable: terminal_unavailable\" when their own Claude or Codex subscription hits a usage limit. It moves to another Personal subscription of theirs, or, for Claude, to the CodePress router for them, and runs the turn again. The thread says \"Moved to <account>\" or \"Moved to the CodePress router\", or why nothing could take it. The machine owner's accounts and sponsor are never used for a teammate.",
+      "sourceSha": "83f0f368496c05fc493a4329430d12d4de4a4190",
+      "identity": "teammate-orchestrator-limit-failover:bcc9d4b95c0d211b171a195ab05fe42a3e5440abeff22189d878e41671ec9b13"
     }
   ],
   "consumedIntentIds": [
