@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "bf7da910d61c8364b4d852596f20ab665e93c9af",
+  "cursorSha": "c811fdfe2d61dba0e9d3615eab2fbe54ee954f9e",
   "highWaterVersion": "1.609.9",
   "rows": [
     {
@@ -194225,6 +194225,13 @@
       "sourceSha": "bf7da910d61c8364b4d852596f20ab665e93c9af",
       "sourcePackageVersion": "1.609.9",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c811fdfe2d61dba0e9d3615eab2fbe54ee954f9e",
+      "sourcePackageVersion": "1.609.9",
+      "intentIds": [
+        "base-app-settings-ui:49c1444cab99fa5e93de93725ae97d8e6107ef7cdf661f971c5770acb3fbf8d1"
+      ]
     }
   ],
   "intents": [
@@ -208027,6 +208034,14 @@
       "summary": "On Windows, opening the signed-in Cloud view no longer stops the window from loading any more of its code, which left Settings → This computer (and other panes opened for the first time) on loading bars forever. Any pane whose code is still loading after 10 seconds now says \"Still loading the …\" with Retry and Reload window instead of waiting silently.",
       "sourceSha": "cae1907385601e9c833fcdfaeaa8f4eb6e00784b",
       "identity": "windows-settings-stuck-load:726548a572621206caf72afdb17c3015b489df0f67d42bc64806825d439a550d"
+    },
+    {
+      "id": "base-app-settings-ui",
+      "digest": "49c1444cab99fa5e93de93725ae97d8e6107ef7cdf661f971c5770acb3fbf8d1",
+      "type": "patch",
+      "summary": "Show Base App version, customized-file list, automatic updates toggle, manual update trigger, and Tier 2 chat decision link in App Settings → Versions.",
+      "sourceSha": "c811fdfe2d61dba0e9d3615eab2fbe54ee954f9e",
+      "identity": "base-app-settings-ui:49c1444cab99fa5e93de93725ae97d8e6107ef7cdf661f971c5770acb3fbf8d1"
     }
   ],
   "consumedIntentIds": [
