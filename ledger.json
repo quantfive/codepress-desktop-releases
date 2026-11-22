@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "57ca781c8a342e9e942568765a606abe750d3318",
+  "cursorSha": "a0de373453f6349f42cbca75e086e2f3fc60728e",
   "highWaterVersion": "1.606.0",
   "rows": [
     {
@@ -192907,6 +192907,13 @@
       "sourceSha": "57ca781c8a342e9e942568765a606abe750d3318",
       "sourcePackageVersion": "1.605.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a0de373453f6349f42cbca75e086e2f3fc60728e",
+      "sourcePackageVersion": "1.605.4",
+      "intentIds": [
+        "local-model-agent-accounts:165e46c33fb1c36984cb584f0afd151893926f26262180fdbd2cb47f633bd443"
+      ]
     }
   ],
   "intents": [
@@ -206533,6 +206540,14 @@
       "summary": "Secure Access is always on: every request from another device needs the owner's sign-in or a share link, whatever Terminal's saved setting or the backend says, and Settings no longer offers to turn it off.",
       "sourceSha": "a3c45997d563ce27789fe8cc71772f3489304123",
       "identity": "secure-access-always-on-terminal:15ed1449ae9b0eeb59697e7c55a82d8a335af2066da98e3618ab8d349b19b62c"
+    },
+    {
+      "id": "local-model-agent-accounts",
+      "digest": "165e46c33fb1c36984cb584f0afd151893926f26262180fdbd2cb47f633bd443",
+      "type": "minor",
+      "summary": "Settings → Agent accounts has an Inkling 2 Mini card, last on the page: Set up downloads Terminal's own model server and the model with progress and Cancel, Ready shows where to pick it, and Remove asks first and frees the space. A machine that can't run it sees \"Not available on this machine\". Once it is set up, worker and new-tab model menus offer \"Inkling 2 Mini (this machine)\"; the Orchestrator's own model menu never does.",
+      "sourceSha": "a0de373453f6349f42cbca75e086e2f3fc60728e",
+      "identity": "local-model-agent-accounts:165e46c33fb1c36984cb584f0afd151893926f26262180fdbd2cb47f633bd443"
     }
   ],
   "consumedIntentIds": [
