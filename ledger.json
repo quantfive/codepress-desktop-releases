@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ab188d7bd88aab854e74105b3e4f3cce2b0461df",
+  "cursorSha": "7a3cdd70c9a4124cddcae6ca26605de92a0bc01c",
   "highWaterVersion": "1.604.6",
   "rows": [
     {
@@ -192309,6 +192309,13 @@
       "sourceSha": "ab188d7bd88aab854e74105b3e4f3cce2b0461df",
       "sourcePackageVersion": "1.604.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7a3cdd70c9a4124cddcae6ca26605de92a0bc01c",
+      "sourcePackageVersion": "1.604.5",
+      "intentIds": [
+        "remote-desktop-sharp-capture-still-topoff:f8e8d2c96958ac6d6d4e304d7aaa8106cfd96f1d6351c90485561efc0d017ad1"
+      ]
     }
   ],
   "intents": [
@@ -205855,6 +205862,14 @@
       "summary": "The Linux build now runs linuxdeploy and its GTK plugin only when their SHA-256 matches the digests committed in the repository, whether the tool was just downloaded or restored from the build cache.",
       "sourceSha": "e16808379f291a9546c5d8fb1d8cc3a91cf90fd5",
       "identity": "pin-linuxdeploy-digest:795323d84f92c4c6d2fbda661da1f8169596e997d6fef07ddaa5d6f45e924b09"
+    },
+    {
+      "id": "remote-desktop-sharp-capture-still-topoff",
+      "digest": "f8e8d2c96958ac6d6d4e304d7aaa8106cfd96f1d6351c90485561efc0d017ad1",
+      "type": "patch",
+      "summary": "Remote Desktop now requests native 1:1 capture width (up to 2560 px) in Fit view on 1x displays, seeds an initial frame when an unlocked desktop is idle at connect time, and emits a single bitrate-boosted settle keyframe after motion stops so resting text snaps sharp.",
+      "sourceSha": "7a3cdd70c9a4124cddcae6ca26605de92a0bc01c",
+      "identity": "remote-desktop-sharp-capture-still-topoff:f8e8d2c96958ac6d6d4e304d7aaa8106cfd96f1d6351c90485561efc0d017ad1"
     }
   ],
   "consumedIntentIds": [
