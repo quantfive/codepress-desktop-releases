@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "bfed17b93212a9c9ebdc3d8660903d4a345929b1",
+  "cursorSha": "21382538d801a736df924c9c7cb38f03cbe0f5b4",
   "highWaterVersion": "1.610.0",
   "rows": [
     {
@@ -195915,6 +195915,13 @@
       "intentIds": [
         "app-publish-menus-once:a4c05725097712643026d852e4c1d3421d6e2f3757316391bd79b65db7eefde7"
       ]
+    },
+    {
+      "sourceSha": "21382538d801a736df924c9c7cb38f03cbe0f5b4",
+      "sourcePackageVersion": "1.609.26",
+      "intentIds": [
+        "duo-upright-status-band:9601c5f8152f95f2ef80a66416746ac4dbae8822a61867effc2c333dec765feb"
+      ]
     }
   ],
   "intents": [
@@ -209925,6 +209932,14 @@
       "summary": "The App page's Publish menu now says its status once, in one line with what the live site matches, and holds the App's Preview link beside its public address (audience, Copy, Manage). An App's toolbar drops its separate Share icon; More always offers \"Preview link…\". Publish change's menu is now Publish change, Save history, Open pull request and Discard change. The menus use theme colours in light and dark.",
       "sourceSha": "bfed17b93212a9c9ebdc3d8660903d4a345929b1",
       "identity": "app-publish-menus-once:a4c05725097712643026d852e4c1d3421d6e2f3757316391bd79b65db7eefde7"
+    },
+    {
+      "id": "duo-upright-status-band",
+      "digest": "9601c5f8152f95f2ef80a66416746ac4dbae8822a61867effc2c333dec765feb",
+      "type": "patch",
+      "summary": "On the iPhone Duo's inner display held upright, the Orchestrator's phone toolbar moves up into the empty status band beside the clock, which gives back about 74px of height.\n\nKiro's mark in the model picker's dark menu is a shade lighter, so it reads clearly against the menu.",
+      "sourceSha": "21382538d801a736df924c9c7cb38f03cbe0f5b4",
+      "identity": "duo-upright-status-band:9601c5f8152f95f2ef80a66416746ac4dbae8822a61867effc2c333dec765feb"
     }
   ],
   "consumedIntentIds": [
