@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "b82ed4c39f408754e0c01195066499c42fe1936e",
-  "highWaterVersion": "1.610.2",
+  "highWaterVersion": "1.610.3",
   "rows": [
     {
       "schemaVersion": 1,
@@ -107674,6 +107674,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:b82ed4c39f408754e0c01195066499c42fe1936e",
+      "kind": "main",
+      "sequence": 2650,
+      "sourceSha": "b82ed4c39f408754e0c01195066499c42fe1936e",
+      "sourcePackageVersion": "1.610.2",
+      "version": "1.610.3",
+      "batch": {
+        "intentIds": [
+          "app-toolbar-fewer-things:2e969fe5d7e8276b130282ea4b06cdc21f0cae3175bcda9907b82e4c18cca616",
+          "duo-status-column-tabs:1a842f54307a7d76c08e91525d75f27cc2a0bd8fb03efa77274f8ce657290080"
+        ],
+        "notesIntentIds": [
+          "app-toolbar-fewer-things:2e969fe5d7e8276b130282ea4b06cdc21f0cae3175bcda9907b82e4c18cca616",
+          "duo-status-column-tabs:1a842f54307a7d76c08e91525d75f27cc2a0bd8fb03efa77274f8ce657290080"
+        ],
+        "throughSourceSha": "b82ed4c39f408754e0c01195066499c42fe1936e",
+        "previousThroughSourceSha": "160690d56940eda1d2ebcdc6c8750ed3228a158f",
+        "baselineVersion": "1.610.2",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-23T23:44:53.611Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45291370592",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-24T23:44:45.392Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -212000,7 +212045,9 @@
     "app-publish-menus-once:a4c05725097712643026d852e4c1d3421d6e2f3757316391bd79b65db7eefde7",
     "duo-upright-status-band:9601c5f8152f95f2ef80a66416746ac4dbae8822a61867effc2c333dec765feb",
     "rail-tab-names:4d8ff22707624277edb60bbff12f9b72d2f7e0abc12d57a0e5ca2f921916ee42",
-    "rail-folders-by-drag:99fa83f68545a4a1c4f6d0c173fd5d0ef98987fc5204964574e88e384f6de7d1"
+    "rail-folders-by-drag:99fa83f68545a4a1c4f6d0c173fd5d0ef98987fc5204964574e88e384f6de7d1",
+    "app-toolbar-fewer-things:2e969fe5d7e8276b130282ea4b06cdc21f0cae3175bcda9907b82e4c18cca616",
+    "duo-status-column-tabs:1a842f54307a7d76c08e91525d75f27cc2a0bd8fb03efa77274f8ce657290080"
   ],
-  "consumedThroughSha": "160690d56940eda1d2ebcdc6c8750ed3228a158f"
+  "consumedThroughSha": "b82ed4c39f408754e0c01195066499c42fe1936e"
 }
