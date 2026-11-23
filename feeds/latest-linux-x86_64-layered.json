@@ -1,7 +1,7 @@
 {
-  "version": "1.609.24",
+  "version": "1.609.25",
   "notes": "See the release notes on GitHub",
-  "pub_date": "2026-11-23T20:19:55.824Z",
+  "pub_date": "2026-11-23T20:50:03.101Z",
   "codepress": {
     "brokerRuntimeIdentity": "bundle=62306897ab58b545;launch-env=4",
     "brokerGenerationProtocolVersion": 1,
@@ -11,18 +11,18 @@
     "layers": {
       "linux-x86_64": {
         "app": {
-          "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.609.24/CodePress_1.609.24_amd64-update.AppImage",
-          "size": 166955512,
-          "sha256": "2d642c5932d44287748ea16d9044a56c98f7394a8b59ae2374469824ea4fcaae"
+          "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.609.25/CodePress_1.609.25_amd64-update.AppImage",
+          "size": 166967800,
+          "sha256": "00f6ad42259dc7ec02a940109d63f3691919ed72b2bd732ba2889048e49271a4"
         },
         "layers": [
           {
             "name": "server-deps",
             "key": "c48f9d3dab870aaac1bf9939a1658f0ecb192af8db0c5bdf93b738d77a57bb9e",
-            "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.609.24/layer-server-deps-c48f9d3dab870aaac1bf9939a1658f0ecb192af8db0c5bdf93b738d77a57bb9e-linux-x86_64.tar.gz",
-            "sha256": "0f4347b5dc454f2c5bd21852ebff421fcac6654b452d06bf96065ce05d7ad308",
-            "size": 353702233,
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMUhLaXVFZHU3VVh0bjg4YmNiaUorZ1FJNzBvNnpFbE54UjUvYmswbFJnTWlpWlJxUzdpSUh0cW1teDhPdUJrdFVhZSt6ZWZTWm93VjJRQ0VGOEdlSGlqTGxwYVBlQ0FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDY5MzY4CWZpbGU6bGF5ZXItc2VydmVyLWRlcHMtYzQ4ZjlkM2RhYjg3MGFhYWMxYmY5OTM5YTE2NThmMGVjYjE5MmFmOGRiMGM1YmRmOTNiNzM4ZDc3YTU3YmI5ZS1saW51eC14ODZfNjQudGFyLmd6Ck9RN3cwdi94RlVSR09kbWdHaFpVZ1ZaMFhmVnQyTHpZUGRFTStIUlJyRXphNWRIL3FRaGozeUdMYWUvbXNGOXZSNllEblRjMi9aREU0SGcyTmFpZUJnPT0K"
+            "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.609.25/layer-server-deps-c48f9d3dab870aaac1bf9939a1658f0ecb192af8db0c5bdf93b738d77a57bb9e-linux-x86_64.tar.gz",
+            "sha256": "d22cee0dbcc14faae923693f856940d40283c037f5d3510c966749dc0dc92e62",
+            "size": 353706602,
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMUhLaXVFZHU3VWZrWHJORW52TGtZcDhSODNNT1lkWTdTUDhBaE1ncS9oZ3loN2ZIQ1g1amR0NnN6dE5LZnd1dGFsekhUYzFNN29ma3hKMWJSbVN2QjdiNVp4dWZBV0F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDcwMDM1CWZpbGU6bGF5ZXItc2VydmVyLWRlcHMtYzQ4ZjlkM2RhYjg3MGFhYWMxYmY5OTM5YTE2NThmMGVjYjE5MmFmOGRiMGM1YmRmOTNiNzM4ZDc3YTU3YmI5ZS1saW51eC14ODZfNjQudGFyLmd6CjhTS1JOcXU4R2s4UTFZeXB2M2pmM1A4N2lhWUt0S2ZFL2FWRGJYZUJiNXVuZG44MW1CSk1WQkVUaE1Gb2xpQXg1TXBXTGw3WjBYSVZFUERGV3RlTkNBPT0K"
           },
           {
             "name": "agent-runner-deps",
@@ -46,8 +46,8 @@
   },
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMUhLaXVFZHU3VWZEMjlrRXh6MHczUkNQOFBMajc2TjlpSGlkWlBIcUE4eFBEMFNkZGdWL3E2cnR4SjVmL1plOVo2dEMrczd6OWtsY29JVkg3eGx5blBVMDVmNlVHcGc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDY5MzY4CWZpbGU6Q29kZVByZXNzXzEuNjA5LjI0X2FtZDY0LkFwcEltYWdlCm5Zb1BNakFuZ2EwV1haMXRBTDB0QjUwY2FWUGQxMjdGVEV4aE5haHNhelBxZk9PRWgwQU8zNmRWT1JUVGVrWGIzSlFZUm50L0JMU1FKTHhiem9jL0RnPT0K",
-      "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.609.24/CodePress_1.609.24_amd64-update.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMUhLaXVFZHU3VVRwMVhlU3BtWXdGM01jb2xNK015MUUwQnMrNFBmY29KOStLQm5MK1RaMFNSTGJKOHg4dXZoUGNrVlBhWkNNYlF6TTgvU04vWUI0MmxlM1hzeWJaK0F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NDcwMDM1CWZpbGU6Q29kZVByZXNzXzEuNjA5LjI1X2FtZDY0LkFwcEltYWdlCjhnTkUzMVpKZFJrSDJOZ1VWTFUrZytFTDZERURrSnA3WWFOU1ZWTzg2TlkxbS83b2xUY1U4cjRwZDE0SngzVEl2dWgwd0R1cEFaRTE5WC9ZL2ttc0NBPT0K",
+      "url": "https://github.com/quantfive/codepress-desktop-releases/releases/download/v1.609.25/CodePress_1.609.25_amd64-update.AppImage"
     }
   }
 }
