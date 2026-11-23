@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "da4a3db842227dd6c426a96bbffc4f3c10894aac",
+  "cursorSha": "a2554de395e649af18486a26300651796faa05df",
   "highWaterVersion": "1.609.24",
   "rows": [
     {
@@ -195555,6 +195555,18 @@
       "sourceSha": "da4a3db842227dd6c426a96bbffc4f3c10894aac",
       "sourcePackageVersion": "1.609.23",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f211b6bed4d5ca3aaa9a29da44aa8c494b47e86c",
+      "sourcePackageVersion": "1.609.23",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "a2554de395e649af18486a26300651796faa05df",
+      "sourcePackageVersion": "1.609.23",
+      "intentIds": [
+        "app-toolbar-one-look:943b33ff500dbc0c7b0c1dcc69131e28f34935d86b5374e146e0d19c0571f0e0"
+      ]
     }
   ],
   "intents": [
@@ -209509,6 +209521,14 @@
       "summary": "A sidebar link to an App, a page inside one, or a pinned App tab now opens the App's full page with its chat shown, and that link stays the only lit entry while you move around inside the App.",
       "sourceSha": "745ae226fa69541bfdd590205dc4ecfbf7c66cb4",
       "identity": "sidebar-app-links-full-page:2d0bb6fc9d6a8793f1379e11aabdea5635ef2c546662ecddff1beabfb2a4f936"
+    },
+    {
+      "id": "app-toolbar-one-look",
+      "digest": "943b33ff500dbc0c7b0c1dcc69131e28f34935d86b5374e146e0d19c0571f0e0",
+      "type": "patch",
+      "summary": "App page toolbar: every control shares one look (32px round pills and circles), there is one Edit button, the preview size is icons in the tools capsule, and the size note sits over the preview.",
+      "sourceSha": "a2554de395e649af18486a26300651796faa05df",
+      "identity": "app-toolbar-one-look:943b33ff500dbc0c7b0c1dcc69131e28f34935d86b5374e146e0d19c0571f0e0"
     }
   ],
   "consumedIntentIds": [
