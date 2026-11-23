@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d87c6f51bee8f9edf293e0bb412f6b4069d135ca",
+  "cursorSha": "27abfbf8506fcbd2dd5662fdbc5d4cd9860adc1a",
   "highWaterVersion": "1.609.19",
   "rows": [
     {
@@ -195134,6 +195134,13 @@
       "sourceSha": "d87c6f51bee8f9edf293e0bb412f6b4069d135ca",
       "sourcePackageVersion": "1.609.19",
       "intentIds": []
+    },
+    {
+      "sourceSha": "27abfbf8506fcbd2dd5662fdbc5d4cd9860adc1a",
+      "sourcePackageVersion": "1.609.19",
+      "intentIds": [
+        "duo-status-regions-signal:d22f626a67adf8d7193f74ef046806247cca4a54ed74bbc0db8b7b482163f210"
+      ]
     }
   ],
   "intents": [
@@ -209016,6 +209023,14 @@
       "summary": "Spaces typed in an annotation note stay in the note again while the Plans canvas is on screen. Before, the canvas took each space as \"Space + drag to pan\", so \"fix the button\" was saved as \"fixthebutton\". Space pressed on the canvas itself still pans.",
       "sourceSha": "6a0a630dea81c19a028d88e9bed93bcf74cdc4df",
       "identity": "annotation-note-spaces:8f817f96d564bc011a7f449058beb1761bdc60b4fc1f193bb4616785838b41a9"
+    },
+    {
+      "id": "duo-status-regions-signal",
+      "digest": "d22f626a67adf8d7193f74ef046806247cca4a54ed74bbc0db8b7b482163f210",
+      "type": "patch",
+      "summary": "Pages read the iPhone Duo's status column and top band from the app's display contract (`readDisplayStatusColumn`, `readDisplayTopBand`), ready for the layout changes that follow.",
+      "sourceSha": "27abfbf8506fcbd2dd5662fdbc5d4cd9860adc1a",
+      "identity": "duo-status-regions-signal:d22f626a67adf8d7193f74ef046806247cca4a54ed74bbc0db8b7b482163f210"
     }
   ],
   "consumedIntentIds": [
