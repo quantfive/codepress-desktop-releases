@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e65923bcf47a1ab787b4f4c3165bb757f0a58ae1",
+  "cursorSha": "cc9f907e560feecc169c7fecdfcd3c680942d62d",
   "highWaterVersion": "1.610.2",
   "rows": [
     {
@@ -196172,6 +196172,13 @@
       "sourceSha": "e65923bcf47a1ab787b4f4c3165bb757f0a58ae1",
       "sourcePackageVersion": "1.610.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "cc9f907e560feecc169c7fecdfcd3c680942d62d",
+      "sourcePackageVersion": "1.610.1",
+      "intentIds": [
+        "duo-status-column-tabs:1a842f54307a7d76c08e91525d75f27cc2a0bd8fb03efa77274f8ce657290080"
+      ]
     }
   ],
   "intents": [
@@ -210214,6 +210221,14 @@
       "summary": "App page toolbar: fewer things in the row. Three fold tiers decide what moves into More, viewers included; there are no badges, a disconnected repository is a line under the toolbar with its Reconnect link, a change's private preview is \"· Private ⓘ\" beside the picker, the Saves pill becomes a dot and a count in a narrow row, and Build app / Edit video sit in the chat's composer (or More while the chat is closed).",
       "sourceSha": "a3d11faba980d198527e60cce1e9f35652a6eb6c",
       "identity": "app-toolbar-fewer-things:2e969fe5d7e8276b130282ea4b06cdc21f0cae3175bcda9907b82e4c18cca616"
+    },
+    {
+      "id": "duo-status-column-tabs",
+      "digest": "1a842f54307a7d76c08e91525d75f27cc2a0bd8fb03efa77274f8ce657290080",
+      "type": "patch",
+      "summary": "On the iPhone Duo, an Orchestrator project's tabs (Thread, Plans, App, Files, Artifacts, Terminal, Desktop) move into the status column as vertical icon tabs, so the header is one row shorter and every tab is reachable without scrolling sideways. Terminal's phone toolbar keeps the same column for its buttons and tabs.",
+      "sourceSha": "cc9f907e560feecc169c7fecdfcd3c680942d62d",
+      "identity": "duo-status-column-tabs:1a842f54307a7d76c08e91525d75f27cc2a0bd8fb03efa77274f8ce657290080"
     }
   ],
   "consumedIntentIds": [
