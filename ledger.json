@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "27abfbf8506fcbd2dd5662fdbc5d4cd9860adc1a",
+  "cursorSha": "e7ee661e2e8a9b27330ea90c50397ed8d27c8dc6",
   "highWaterVersion": "1.609.20",
   "rows": [
     {
@@ -195188,6 +195188,16 @@
       "intentIds": [
         "duo-status-regions-signal:d22f626a67adf8d7193f74ef046806247cca4a54ed74bbc0db8b7b482163f210"
       ]
+    },
+    {
+      "sourceSha": "e738c62c3b6e2d89ce42bf8b894a101673dd6d17",
+      "sourcePackageVersion": "1.609.19",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "e7ee661e2e8a9b27330ea90c50397ed8d27c8dc6",
+      "sourcePackageVersion": "1.609.19",
+      "intentIds": []
     }
   ],
   "intents": [
