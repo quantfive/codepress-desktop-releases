@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d5744934ed00ae2c6cc3d4c477f0727e5c95b87a",
+  "cursorSha": "9d5a8c23d57a150d537a472b21fa97e41d5414b4",
   "highWaterVersion": "1.609.25",
   "rows": [
     {
@@ -195651,6 +195651,13 @@
       "intentIds": [
         "app-card-drop-on-rail:58256cb3e7b07e9f3a5bf87c85babedf9f9ff045eac0de84870ccef1855d95f2"
       ]
+    },
+    {
+      "sourceSha": "9d5a8c23d57a150d537a472b21fa97e41d5414b4",
+      "sourcePackageVersion": "1.609.24",
+      "intentIds": [
+        "duo-status-column-shell:bd46a4ef5f6c8d82670a97bbc052bee16ac2de3009ebefd07cdba532772510c2"
+      ]
     }
   ],
   "intents": [
@@ -209621,6 +209628,14 @@
       "summary": "Drag an App card from the Apps page onto the left rail to pin it: a slot opens where it will land, and dropping it opens Add to sidebar for that spot (or moves your existing link there).",
       "sourceSha": "d5744934ed00ae2c6cc3d4c477f0727e5c95b87a",
       "identity": "app-card-drop-on-rail:58256cb3e7b07e9f3a5bf87c85babedf9f9ff045eac0de84870ccef1855d95f2"
+    },
+    {
+      "id": "duo-status-column-shell",
+      "digest": "bd46a4ef5f6c8d82670a97bbc052bee16ac2de3009ebefd07cdba532772510c2",
+      "type": "patch",
+      "summary": "On the iPhone Duo, the phone shell keeps a full-height column free for iOS's corner status cluster and moves each page header's actions into it, below the cluster.",
+      "sourceSha": "9d5a8c23d57a150d537a472b21fa97e41d5414b4",
+      "identity": "duo-status-column-shell:bd46a4ef5f6c8d82670a97bbc052bee16ac2de3009ebefd07cdba532772510c2"
     }
   ],
   "consumedIntentIds": [
