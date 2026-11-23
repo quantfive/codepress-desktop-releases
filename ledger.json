@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b82ed4c39f408754e0c01195066499c42fe1936e",
+  "cursorSha": "82eebea80c742248aae61266aabbc4fa8e1499f6",
   "highWaterVersion": "1.610.3",
   "rows": [
     {
@@ -196251,6 +196251,13 @@
       "sourceSha": "b82ed4c39f408754e0c01195066499c42fe1936e",
       "sourcePackageVersion": "1.610.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "82eebea80c742248aae61266aabbc4fa8e1499f6",
+      "sourcePackageVersion": "1.610.2",
+      "intentIds": [
+        "agent-google-account-card:3fe2168e1fedb54e1fd3cb49ef5ac9774ca26a5bd3c2a63d43d78471cd27a5ec"
+      ]
     }
   ],
   "intents": [
@@ -210301,6 +210308,14 @@
       "summary": "On the iPhone Duo, an Orchestrator project's tabs (Thread, Plans, App, Files, Artifacts, Terminal, Desktop) move into the status column as vertical icon tabs, so the header is one row shorter and every tab is reachable without scrolling sideways. Terminal's phone toolbar keeps the same column for its buttons and tabs.",
       "sourceSha": "cc9f907e560feecc169c7fecdfcd3c680942d62d",
       "identity": "duo-status-column-tabs:1a842f54307a7d76c08e91525d75f27cc2a0bd8fb03efa77274f8ce657290080"
+    },
+    {
+      "id": "agent-google-account-card",
+      "digest": "3fe2168e1fedb54e1fd3cb49ef5ac9774ca26a5bd3c2a63d43d78471cd27a5ec",
+      "type": "patch",
+      "summary": "An agent teammate's Integrations tab can connect the agent's own Google account and choose who can use it.",
+      "sourceSha": "82eebea80c742248aae61266aabbc4fa8e1499f6",
+      "identity": "agent-google-account-card:3fe2168e1fedb54e1fd3cb49ef5ac9774ca26a5bd3c2a63d43d78471cd27a5ec"
     }
   ],
   "consumedIntentIds": [
