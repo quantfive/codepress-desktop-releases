@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9145aab38764117352bb57267102916b6cc5870d",
+  "cursorSha": "6642381df6f0a87070e4ae13457416d52b952437",
   "highWaterVersion": "1.609.23",
   "rows": [
     {
@@ -195457,6 +195457,13 @@
       "sourceSha": "9145aab38764117352bb57267102916b6cc5870d",
       "sourcePackageVersion": "1.609.22",
       "intentIds": []
+    },
+    {
+      "sourceSha": "6642381df6f0a87070e4ae13457416d52b952437",
+      "sourcePackageVersion": "1.609.22",
+      "intentIds": [
+        "sidebar-editor-folders:8a79bbcc847bf1fca00c461991c0f04665dc67a7e5c963ba70d2490d566181e2"
+      ]
     }
   ],
   "intents": [
@@ -209395,6 +209402,14 @@
       "summary": "An App card's ⋯ menu on the Apps page now reads \"Add to sidebar…\" and opens an Add to sidebar dialog to choose the link's name and icon (including your uploaded icons) before it is added to your sidebar.",
       "sourceSha": "b6e6e9d5337773a4ac52df2716be988aee9b4596",
       "identity": "add-to-sidebar-dialog:21c763f1a0842325aeca3ecb9b9dba2b635e31fbdc789bdaedc20d49359599ba"
+    },
+    {
+      "id": "sidebar-editor-folders",
+      "digest": "8a79bbcc847bf1fca00c461991c0f04665dc67a7e5c963ba70d2490d566181e2",
+      "type": "patch",
+      "summary": "Settings → Navigation shows your sidebar folders with their links, and lets you make, rename, re-icon and remove folders and move links into or out of them without dragging.",
+      "sourceSha": "6642381df6f0a87070e4ae13457416d52b952437",
+      "identity": "sidebar-editor-folders:8a79bbcc847bf1fca00c461991c0f04665dc67a7e5c963ba70d2490d566181e2"
     }
   ],
   "consumedIntentIds": [
