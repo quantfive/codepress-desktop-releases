@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "553de50a1b33321393f46061f8b2a22358dd8860",
+  "cursorSha": "4dda892d01092d18b70890a312f78bfa390e4d44",
   "highWaterVersion": "1.609.26",
   "rows": [
     {
@@ -195777,6 +195777,13 @@
       "sourceSha": "553de50a1b33321393f46061f8b2a22358dd8860",
       "sourcePackageVersion": "1.609.25",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4dda892d01092d18b70890a312f78bfa390e4d44",
+      "sourcePackageVersion": "1.609.25",
+      "intentIds": [
+        "terminal-native-app-identity:bbffccdfc01bde231f006d7fcdebad3b8017dc0288d961a488ab9046e0e501a5"
+      ]
     }
   ],
   "intents": [
@@ -209763,6 +209770,14 @@
       "summary": "A sidebar link saved with a trailing slash (`/foo/`) now highlights when you are on that page.",
       "sourceSha": "a8ea18efea21961e90d69cba6efd83385faf3d95",
       "identity": "custom-nav-trailing-slash:f426f2777eba8cf7dd9b86bf0805b96880f3d3e07fd638d5435500a14fbd466f"
+    },
+    {
+      "id": "terminal-native-app-identity",
+      "digest": "bbffccdfc01bde231f006d7fcdebad3b8017dc0288d961a488ab9046e0e501a5",
+      "type": "minor",
+      "summary": "Your own app name and icon now reach the desktop: the icon shows on the Dock tile on macOS (also after reopening from the menu bar) and as every window's icon on Windows and Linux, and the name leads the menu bar icon's tooltip and the \"still running in the menu bar\" notice. Reset puts the CodePress icon back without a restart; the app bundle on disk is never changed. The installed app now reads your name and icon from its own background server, so they show at all (before, it asked the development server's port).",
+      "sourceSha": "4dda892d01092d18b70890a312f78bfa390e4d44",
+      "identity": "terminal-native-app-identity:bbffccdfc01bde231f006d7fcdebad3b8017dc0288d961a488ab9046e0e501a5"
     }
   ],
   "consumedIntentIds": [
