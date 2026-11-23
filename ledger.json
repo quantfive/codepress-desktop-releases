@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c73b664e40b95c94d0657993829250eaed00962b",
+  "cursorSha": "58b5121ead73481d9446500d9bb365c3d3046f94",
   "highWaterVersion": "1.609.17",
   "rows": [
     {
@@ -194813,6 +194813,13 @@
       "sourceSha": "c73b664e40b95c94d0657993829250eaed00962b",
       "sourcePackageVersion": "1.609.17",
       "intentIds": []
+    },
+    {
+      "sourceSha": "58b5121ead73481d9446500d9bb365c3d3046f94",
+      "sourcePackageVersion": "1.609.17",
+      "intentIds": [
+        "editor-match-app:c0bec200abe0a3364f5268317aeedc5f81ebdb705b367cba5b8f50da850388b9"
+      ]
     }
   ],
   "intents": [
@@ -208679,6 +208686,14 @@
       "summary": "On a phone, tapping into the Orchestrator thread's folded message box now opens it every time, so the first Send press sends. Before, a touch the page never saw end could keep the box folded while you typed.",
       "sourceSha": "e4b3dc8143906e74292dc878bbfebd148c7cfa58",
       "identity": "phone-composer-opens-on-tap:65033230064de974094bb07195fd150809f25601b280ed475573ceb98e9705c9"
+    },
+    {
+      "id": "editor-match-app",
+      "digest": "c0bec200abe0a3364f5268317aeedc5f81ebdb705b367cba5b8f50da850388b9",
+      "type": "patch",
+      "summary": "The file editor now matches the app's light or dark by default. Settings' Editor Theme row gains a Match app card, first and selected until you pick Light, Dark or System; choosing it again clears your editor choice on this machine and your account, so your other machines follow the app too. A System you already chose stays as it was.",
+      "sourceSha": "58b5121ead73481d9446500d9bb365c3d3046f94",
+      "identity": "editor-match-app:c0bec200abe0a3364f5268317aeedc5f81ebdb705b367cba5b8f50da850388b9"
     }
   ],
   "consumedIntentIds": [
