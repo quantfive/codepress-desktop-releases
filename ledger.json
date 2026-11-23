@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "43a20188e2caf6d81acf7f763b4cab6b6e6248d9",
-  "highWaterVersion": "1.609.12",
+  "highWaterVersion": "1.609.13",
   "rows": [
     {
       "schemaVersion": 1,
@@ -106769,6 +106769,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:43a20188e2caf6d81acf7f763b4cab6b6e6248d9",
+      "kind": "main",
+      "sequence": 2633,
+      "sourceSha": "43a20188e2caf6d81acf7f763b4cab6b6e6248d9",
+      "sourcePackageVersion": "1.609.12",
+      "version": "1.609.13",
+      "batch": {
+        "intentIds": [
+          "windows-account-space-stop:9981a233268fdf700f7bbf99422b58317fe59adebe3f04e9624415a159020932"
+        ],
+        "notesIntentIds": [
+          "windows-account-space-stop:9981a233268fdf700f7bbf99422b58317fe59adebe3f04e9624415a159020932"
+        ],
+        "throughSourceSha": "43a20188e2caf6d81acf7f763b4cab6b6e6248d9",
+        "previousThroughSourceSha": "2f61669695ad35bd20091572671b76c73d5bdfe7",
+        "baselineVersion": "1.609.12",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-23T00:17:06.724Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45087802001",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-24T00:16:59.419Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -210004,7 +210047,8 @@
     "windows-settings-stuck-load:726548a572621206caf72afdb17c3015b489df0f67d42bc64806825d439a550d",
     "base-app-settings-ui:49c1444cab99fa5e93de93725ae97d8e6107ef7cdf661f971c5770acb3fbf8d1",
     "connect-checks-account:ba98753f08d6be8f9f553b4081c60f483cb03255b19f699f9771c1da639bbd15",
-    "terminal-register-on-workspace:2e0a55e63bb00e329df14e19cf4b8dfae2b93e5c4121f5699de55bf8e61c87df"
+    "terminal-register-on-workspace:2e0a55e63bb00e329df14e19cf4b8dfae2b93e5c4121f5699de55bf8e61c87df",
+    "windows-account-space-stop:9981a233268fdf700f7bbf99422b58317fe59adebe3f04e9624415a159020932"
   ],
-  "consumedThroughSha": "2f61669695ad35bd20091572671b76c73d5bdfe7"
+  "consumedThroughSha": "43a20188e2caf6d81acf7f763b4cab6b6e6248d9"
 }
