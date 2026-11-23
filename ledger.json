@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "92b62b1b23600cdd078cf2e088a5ea72e6cfa8ce",
+  "cursorSha": "5dfe3b0a195ba218e1122fea03de74db0dabb866",
   "highWaterVersion": "1.609.21",
   "rows": [
     {
@@ -195318,6 +195318,13 @@
       "sourceSha": "92b62b1b23600cdd078cf2e088a5ea72e6cfa8ce",
       "sourcePackageVersion": "1.609.20",
       "intentIds": []
+    },
+    {
+      "sourceSha": "5dfe3b0a195ba218e1122fea03de74db0dabb866",
+      "sourcePackageVersion": "1.609.20",
+      "intentIds": [
+        "unknown-sign-in-connects:d3009f2ec1887c075a310fe9459ffea3ee294569183435f69af67594266958b4"
+      ]
     }
   ],
   "intents": [
@@ -209240,6 +209247,14 @@
       "summary": "Terminal and the web dashboard now share one copy each of the ranked-search requests, the file-download link, the reduced-motion and touch-pointer checks, and a few other small helpers, instead of keeping their own. Search on an organization whose id has a reserved character now reaches the right address, and a saved file's temporary link stays open a moment after the click so the download is not cut short. Nothing else you see or use changes.",
       "sourceSha": "f119c629d2dcd3e51f914ab2057409e9747e5528",
       "identity": "web-ui-shared-helpers:1eda98734646504e30d09defe80d165cce0fa7d0bf1b227c86c5464145ef0aa8"
+    },
+    {
+      "id": "unknown-sign-in-connects",
+      "digest": "d3009f2ec1887c075a310fe9459ffea3ee294569183435f69af67594266958b4",
+      "type": "patch",
+      "summary": "When Terminal can't confirm a provider sign-in, the account strip's button now says what it does (Connect or Link) and starts the sign-in, instead of \"Check setup\" re-reading the login and stopping silently.",
+      "sourceSha": "5dfe3b0a195ba218e1122fea03de74db0dabb866",
+      "identity": "unknown-sign-in-connects:d3009f2ec1887c075a310fe9459ffea3ee294569183435f69af67594266958b4"
     }
   ],
   "consumedIntentIds": [
