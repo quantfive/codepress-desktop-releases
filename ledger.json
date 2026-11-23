@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1d5f1e26ddd4bbb7ff1340112d16be6783c895a1",
+  "cursorSha": "884e72097ad8a02480ff2252c9137a9ab195a76d",
   "highWaterVersion": "1.609.21",
   "rows": [
     {
@@ -195282,6 +195282,13 @@
       "sourceSha": "1d5f1e26ddd4bbb7ff1340112d16be6783c895a1",
       "sourcePackageVersion": "1.609.20",
       "intentIds": []
+    },
+    {
+      "sourceSha": "884e72097ad8a02480ff2252c9137a9ab195a76d",
+      "sourcePackageVersion": "1.609.20",
+      "intentIds": [
+        "claude-login-windows-managed-settings:5f96da65259b50e66333f765a5b30ce98ddb05c28fce208a49ba053911ed961b"
+      ]
     }
   ],
   "intents": [
@@ -209180,6 +209187,14 @@
       "summary": "Staff Send to Fix now opens the Agent tab's New chat with the redlines even when Agent had not been opened in that window yet, instead of showing \"Couldn't open a new chat\".",
       "sourceSha": "1ffe9a7b31fb0b14e91bd4cd59a6f92b3ceddbb1",
       "identity": "redline-new-chat-first-visit:6a138ab51842375988976e39d0e3922f542541967036e0c57cade1c22a6ec5fa"
+    },
+    {
+      "id": "claude-login-windows-managed-settings",
+      "digest": "5f96da65259b50e66333f765a5b30ce98ddb05c28fce208a49ba053911ed961b",
+      "type": "patch",
+      "summary": "On Windows, the Claude card now shows whether Claude is signed in instead of \"Sign-in status unknown\": Terminal reads Claude Code's managed settings from `C:\\Program Files\\ClaudeCode` (or a moved `%ProgramFiles%`).",
+      "sourceSha": "884e72097ad8a02480ff2252c9137a9ab195a76d",
+      "identity": "claude-login-windows-managed-settings:5f96da65259b50e66333f765a5b30ce98ddb05c28fce208a49ba053911ed961b"
     }
   ],
   "consumedIntentIds": [
