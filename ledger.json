@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e28179f8a2a82a16cbb1f7154f7098903471df6b",
+  "cursorSha": "bfed17b93212a9c9ebdc3d8660903d4a345929b1",
   "highWaterVersion": "1.610.0",
   "rows": [
     {
@@ -195908,6 +195908,13 @@
       "sourceSha": "e28179f8a2a82a16cbb1f7154f7098903471df6b",
       "sourcePackageVersion": "1.609.26",
       "intentIds": []
+    },
+    {
+      "sourceSha": "bfed17b93212a9c9ebdc3d8660903d4a345929b1",
+      "sourcePackageVersion": "1.609.26",
+      "intentIds": [
+        "app-publish-menus-once:a4c05725097712643026d852e4c1d3421d6e2f3757316391bd79b65db7eefde7"
+      ]
     }
   ],
   "intents": [
@@ -209910,6 +209917,14 @@
       "summary": "Give Linux desktop builds more time to download the bundled Claude and Codex executables, and identify which executable is missing if dependency preparation still fails.",
       "sourceSha": "604c86fc984733b23aa1655913b884f85bf3c2cb",
       "identity": "linux-runner-sdk-download-timeout:686fb35c2c019099a3c9bc8e2702684df763e5cb84acee5340e0e5c7b8ce41d2"
+    },
+    {
+      "id": "app-publish-menus-once",
+      "digest": "a4c05725097712643026d852e4c1d3421d6e2f3757316391bd79b65db7eefde7",
+      "type": "patch",
+      "summary": "The App page's Publish menu now says its status once, in one line with what the live site matches, and holds the App's Preview link beside its public address (audience, Copy, Manage). An App's toolbar drops its separate Share icon; More always offers \"Preview link…\". Publish change's menu is now Publish change, Save history, Open pull request and Discard change. The menus use theme colours in light and dark.",
+      "sourceSha": "bfed17b93212a9c9ebdc3d8660903d4a345929b1",
+      "identity": "app-publish-menus-once:a4c05725097712643026d852e4c1d3421d6e2f3757316391bd79b65db7eefde7"
     }
   ],
   "consumedIntentIds": [
