@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "1c9bf959a36c0e85f75ea654ebdf0ba69116fc7f",
-  "highWaterVersion": "1.609.21",
+  "highWaterVersion": "1.609.22",
   "rows": [
     {
       "schemaVersion": 1,
@@ -107240,6 +107240,55 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:1c9bf959a36c0e85f75ea654ebdf0ba69116fc7f",
+      "kind": "main",
+      "sequence": 2642,
+      "sourceSha": "1c9bf959a36c0e85f75ea654ebdf0ba69116fc7f",
+      "sourcePackageVersion": "1.609.21",
+      "version": "1.609.22",
+      "batch": {
+        "intentIds": [
+          "claude-login-windows-managed-settings:5f96da65259b50e66333f765a5b30ce98ddb05c28fce208a49ba053911ed961b",
+          "sidebar-folders:0eaf52b177034e76d478a7209f88b60329fdbb688059e8be185332a3ab572ad8",
+          "web-ui-shared-helpers:1eda98734646504e30d09defe80d165cce0fa7d0bf1b227c86c5464145ef0aa8",
+          "unknown-sign-in-connects:d3009f2ec1887c075a310fe9459ffea3ee294569183435f69af67594266958b4"
+        ],
+        "notesIntentIds": [
+          "claude-login-windows-managed-settings:5f96da65259b50e66333f765a5b30ce98ddb05c28fce208a49ba053911ed961b",
+          "sidebar-folders:0eaf52b177034e76d478a7209f88b60329fdbb688059e8be185332a3ab572ad8",
+          "web-ui-shared-helpers:1eda98734646504e30d09defe80d165cce0fa7d0bf1b227c86c5464145ef0aa8",
+          "unknown-sign-in-connects:d3009f2ec1887c075a310fe9459ffea3ee294569183435f69af67594266958b4"
+        ],
+        "throughSourceSha": "1c9bf959a36c0e85f75ea654ebdf0ba69116fc7f",
+        "previousThroughSourceSha": "ad0d55b976692c2bf5aa583946316b64e18ae6c3",
+        "baselineVersion": "1.609.21",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-23T19:29:55.425Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45249425129",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-24T19:29:42.178Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -211004,7 +211053,11 @@
     "editor-match-app:c0bec200abe0a3364f5268317aeedc5f81ebdb705b367cba5b8f50da850388b9",
     "annotation-note-spaces:8f817f96d564bc011a7f449058beb1761bdc60b4fc1f193bb4616785838b41a9",
     "duo-status-regions-signal:d22f626a67adf8d7193f74ef046806247cca4a54ed74bbc0db8b7b482163f210",
-    "redline-new-chat-first-visit:6a138ab51842375988976e39d0e3922f542541967036e0c57cade1c22a6ec5fa"
+    "redline-new-chat-first-visit:6a138ab51842375988976e39d0e3922f542541967036e0c57cade1c22a6ec5fa",
+    "claude-login-windows-managed-settings:5f96da65259b50e66333f765a5b30ce98ddb05c28fce208a49ba053911ed961b",
+    "sidebar-folders:0eaf52b177034e76d478a7209f88b60329fdbb688059e8be185332a3ab572ad8",
+    "web-ui-shared-helpers:1eda98734646504e30d09defe80d165cce0fa7d0bf1b227c86c5464145ef0aa8",
+    "unknown-sign-in-connects:d3009f2ec1887c075a310fe9459ffea3ee294569183435f69af67594266958b4"
   ],
-  "consumedThroughSha": "ad0d55b976692c2bf5aa583946316b64e18ae6c3"
+  "consumedThroughSha": "1c9bf959a36c0e85f75ea654ebdf0ba69116fc7f"
 }
