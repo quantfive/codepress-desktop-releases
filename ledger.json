@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e5eafb674b00b58c23574be99e1670c2dbd6254b",
+  "cursorSha": "67e8cf0481c6ca9297a6e30459d2a4d75422ffaf",
   "highWaterVersion": "1.609.14",
   "rows": [
     {
@@ -194567,6 +194567,13 @@
       "sourceSha": "e5eafb674b00b58c23574be99e1670c2dbd6254b",
       "sourcePackageVersion": "1.609.14",
       "intentIds": []
+    },
+    {
+      "sourceSha": "67e8cf0481c6ca9297a6e30459d2a4d75422ffaf",
+      "sourcePackageVersion": "1.609.14",
+      "intentIds": [
+        "thread-plans-fixed-order:f288c37eb628316b77dae6906c3417a44aa0f9a660e24de150e8f111e7568611"
+      ]
     }
   ],
   "intents": [
@@ -208409,6 +208416,14 @@
       "summary": "Terminal's build defines `__CODEPRESS_MOBILE_APP__` as false, so code written only for the phone app's own UI bundle is left out of Terminal. Nothing changes on screen.",
       "sourceSha": "c0c54004376ffb41730cacfbcf26d49964b020e9",
       "identity": "mobile-app-build-constant:6fd3fdc5c1138a6689d237834d32474b69a4981253129d3d5df726f83b0d0cf9"
+    },
+    {
+      "id": "thread-plans-fixed-order",
+      "digest": "f288c37eb628316b77dae6906c3417a44aa0f9a660e24de150e8f111e7568611",
+      "type": "patch",
+      "summary": "Orchestrator: Thread and Plans keep their places in a project's tab row in every phase. While a plan awaits approval the row now reads Thread · Plan #N, with the plan still selected, instead of moving the plan in front of Thread.",
+      "sourceSha": "67e8cf0481c6ca9297a6e30459d2a4d75422ffaf",
+      "identity": "thread-plans-fixed-order:f288c37eb628316b77dae6906c3417a44aa0f9a660e24de150e8f111e7568611"
     }
   ],
   "consumedIntentIds": [
