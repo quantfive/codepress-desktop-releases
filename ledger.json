@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "bd4563a9b064c4495ff9f9073f88f39d8c1bbfc7",
+  "cursorSha": "a3d11faba980d198527e60cce1e9f35652a6eb6c",
   "highWaterVersion": "1.610.2",
   "rows": [
     {
@@ -196160,6 +196160,13 @@
       "sourceSha": "bd4563a9b064c4495ff9f9073f88f39d8c1bbfc7",
       "sourcePackageVersion": "1.610.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a3d11faba980d198527e60cce1e9f35652a6eb6c",
+      "sourcePackageVersion": "1.610.1",
+      "intentIds": [
+        "app-toolbar-fewer-things:2e969fe5d7e8276b130282ea4b06cdc21f0cae3175bcda9907b82e4c18cca616"
+      ]
     }
   ],
   "intents": [
@@ -210194,6 +210201,14 @@
       "summary": "Make folders on the left rail by dragging: hold one of your links on another until it says \"Release to make a folder\", then name it. Hold a link or an App card on one of your folders to drop it in at a spot, drag a folder's links to reorder them or out onto the rail, and use the pencil in a folder to rename it or remove it while keeping its links.",
       "sourceSha": "160690d56940eda1d2ebcdc6c8750ed3228a158f",
       "identity": "rail-folders-by-drag:99fa83f68545a4a1c4f6d0c173fd5d0ef98987fc5204964574e88e384f6de7d1"
+    },
+    {
+      "id": "app-toolbar-fewer-things",
+      "digest": "2e969fe5d7e8276b130282ea4b06cdc21f0cae3175bcda9907b82e4c18cca616",
+      "type": "patch",
+      "summary": "App page toolbar: fewer things in the row. Three fold tiers decide what moves into More, viewers included; there are no badges, a disconnected repository is a line under the toolbar with its Reconnect link, a change's private preview is \"· Private ⓘ\" beside the picker, the Saves pill becomes a dot and a count in a narrow row, and Build app / Edit video sit in the chat's composer (or More while the chat is closed).",
+      "sourceSha": "a3d11faba980d198527e60cce1e9f35652a6eb6c",
+      "identity": "app-toolbar-fewer-things:2e969fe5d7e8276b130282ea4b06cdc21f0cae3175bcda9907b82e4c18cca616"
     }
   ],
   "consumedIntentIds": [
