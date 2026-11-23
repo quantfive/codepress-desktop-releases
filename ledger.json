@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "8856d914d364df4a282be0fa0b849ad5b62c2636",
+  "cursorSha": "a8ea18efea21961e90d69cba6efd83385faf3d95",
   "highWaterVersion": "1.609.25",
   "rows": [
     {
@@ -195686,6 +195686,13 @@
       "sourceSha": "8856d914d364df4a282be0fa0b849ad5b62c2636",
       "sourcePackageVersion": "1.609.24",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a8ea18efea21961e90d69cba6efd83385faf3d95",
+      "sourcePackageVersion": "1.609.24",
+      "intentIds": [
+        "custom-nav-trailing-slash:f426f2777eba8cf7dd9b86bf0805b96880f3d3e07fd638d5435500a14fbd466f"
+      ]
     }
   ],
   "intents": [
@@ -209664,6 +209671,14 @@
       "summary": "On the iPhone Duo, the phone shell keeps a full-height column free for iOS's corner status cluster and moves each page header's actions into it, below the cluster.",
       "sourceSha": "9d5a8c23d57a150d537a472b21fa97e41d5414b4",
       "identity": "duo-status-column-shell:bd46a4ef5f6c8d82670a97bbc052bee16ac2de3009ebefd07cdba532772510c2"
+    },
+    {
+      "id": "custom-nav-trailing-slash",
+      "digest": "f426f2777eba8cf7dd9b86bf0805b96880f3d3e07fd638d5435500a14fbd466f",
+      "type": "patch",
+      "summary": "A sidebar link saved with a trailing slash (`/foo/`) now highlights when you are on that page.",
+      "sourceSha": "a8ea18efea21961e90d69cba6efd83385faf3d95",
+      "identity": "custom-nav-trailing-slash:f426f2777eba8cf7dd9b86bf0805b96880f3d3e07fd638d5435500a14fbd466f"
     }
   ],
   "consumedIntentIds": [
