@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c8ec0145c46027fa6728e85ab024183343275bdc",
+  "cursorSha": "c1cd7c2d944dca7eed5907feac2573c6b68cd86a",
   "highWaterVersion": "1.609.15",
   "rows": [
     {
@@ -194664,6 +194664,13 @@
       "sourceSha": "c8ec0145c46027fa6728e85ab024183343275bdc",
       "sourcePackageVersion": "1.609.15",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c1cd7c2d944dca7eed5907feac2573c6b68cd86a",
+      "sourcePackageVersion": "1.609.15",
+      "intentIds": [
+        "duo-status-backdrop:404cb939699713b70354d2b2444f5153cc3024aaa52855b0208b56091867905a"
+      ]
     }
   ],
   "intents": [
@@ -208514,6 +208521,14 @@
       "summary": "Orchestrator: Thread and Plans keep their places in a project's tab row in every phase. While a plan awaits approval the row now reads Thread · Plan #N, with the plan still selected, instead of moving the plan in front of Thread.",
       "sourceSha": "67e8cf0481c6ca9297a6e30459d2a4d75422ffaf",
       "identity": "thread-plans-fixed-order:f288c37eb628316b77dae6906c3417a44aa0f9a660e24de150e8f111e7568611"
+    },
+    {
+      "id": "duo-status-backdrop",
+      "digest": "404cb939699713b70354d2b2444f5153cc3024aaa52855b0208b56091867905a",
+      "type": "patch",
+      "summary": "On the iPhone Duo's closed display, the Orchestrator's phone header now paints a small backdrop behind the corner status pill where it hangs below the header, so thread text no longer scrolls under the clock, and the thread starts below it.",
+      "sourceSha": "c1cd7c2d944dca7eed5907feac2573c6b68cd86a",
+      "identity": "duo-status-backdrop:404cb939699713b70354d2b2444f5153cc3024aaa52855b0208b56091867905a"
     }
   ],
   "consumedIntentIds": [
