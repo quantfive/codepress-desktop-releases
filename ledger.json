@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "de14a4abeeace2fdc8cdbffc415f561c1a3c1a54",
-  "highWaterVersion": "1.609.24",
+  "highWaterVersion": "1.609.25",
   "rows": [
     {
       "schemaVersion": 1,
@@ -107389,6 +107389,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:de14a4abeeace2fdc8cdbffc415f561c1a3c1a54",
+      "kind": "main",
+      "sequence": 2645,
+      "sourceSha": "de14a4abeeace2fdc8cdbffc415f561c1a3c1a54",
+      "sourcePackageVersion": "1.609.23",
+      "version": "1.609.25",
+      "batch": {
+        "intentIds": [
+          "app-toolbar-one-look:943b33ff500dbc0c7b0c1dcc69131e28f34935d86b5374e146e0d19c0571f0e0"
+        ],
+        "notesIntentIds": [
+          "app-toolbar-one-look:943b33ff500dbc0c7b0c1dcc69131e28f34935d86b5374e146e0d19c0571f0e0"
+        ],
+        "throughSourceSha": "de14a4abeeace2fdc8cdbffc415f561c1a3c1a54",
+        "previousThroughSourceSha": "d71c2370f8b213630e8927219e6e6d296f3bea90",
+        "baselineVersion": "1.609.24",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-23T20:50:03.101Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45263309100",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-24T20:49:54.025Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -211300,7 +211343,8 @@
     "unknown-sign-in-connects:d3009f2ec1887c075a310fe9459ffea3ee294569183435f69af67594266958b4",
     "add-to-sidebar-dialog:21c763f1a0842325aeca3ecb9b9dba2b635e31fbdc789bdaedc20d49359599ba",
     "sidebar-editor-folders:8a79bbcc847bf1fca00c461991c0f04665dc67a7e5c963ba70d2490d566181e2",
-    "sidebar-app-links-full-page:2d0bb6fc9d6a8793f1379e11aabdea5635ef2c546662ecddff1beabfb2a4f936"
+    "sidebar-app-links-full-page:2d0bb6fc9d6a8793f1379e11aabdea5635ef2c546662ecddff1beabfb2a4f936",
+    "app-toolbar-one-look:943b33ff500dbc0c7b0c1dcc69131e28f34935d86b5374e146e0d19c0571f0e0"
   ],
-  "consumedThroughSha": "d71c2370f8b213630e8927219e6e6d296f3bea90"
+  "consumedThroughSha": "de14a4abeeace2fdc8cdbffc415f561c1a3c1a54"
 }
