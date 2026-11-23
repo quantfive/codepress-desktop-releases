@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "9145aab38764117352bb57267102916b6cc5870d",
-  "highWaterVersion": "1.609.22",
+  "highWaterVersion": "1.609.23",
   "rows": [
     {
       "schemaVersion": 1,
@@ -107293,6 +107293,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:9145aab38764117352bb57267102916b6cc5870d",
+      "kind": "main",
+      "sequence": 2643,
+      "sourceSha": "9145aab38764117352bb57267102916b6cc5870d",
+      "sourcePackageVersion": "1.609.22",
+      "version": "1.609.23",
+      "batch": {
+        "intentIds": [
+          "add-to-sidebar-dialog:21c763f1a0842325aeca3ecb9b9dba2b635e31fbdc789bdaedc20d49359599ba"
+        ],
+        "notesIntentIds": [
+          "add-to-sidebar-dialog:21c763f1a0842325aeca3ecb9b9dba2b635e31fbdc789bdaedc20d49359599ba"
+        ],
+        "throughSourceSha": "9145aab38764117352bb57267102916b6cc5870d",
+        "previousThroughSourceSha": "1c9bf959a36c0e85f75ea654ebdf0ba69116fc7f",
+        "baselineVersion": "1.609.22",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-23T19:53:57.985Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45253550765",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-24T19:53:49.322Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -211091,7 +211134,8 @@
     "claude-login-windows-managed-settings:5f96da65259b50e66333f765a5b30ce98ddb05c28fce208a49ba053911ed961b",
     "sidebar-folders:0eaf52b177034e76d478a7209f88b60329fdbb688059e8be185332a3ab572ad8",
     "web-ui-shared-helpers:1eda98734646504e30d09defe80d165cce0fa7d0bf1b227c86c5464145ef0aa8",
-    "unknown-sign-in-connects:d3009f2ec1887c075a310fe9459ffea3ee294569183435f69af67594266958b4"
+    "unknown-sign-in-connects:d3009f2ec1887c075a310fe9459ffea3ee294569183435f69af67594266958b4",
+    "add-to-sidebar-dialog:21c763f1a0842325aeca3ecb9b9dba2b635e31fbdc789bdaedc20d49359599ba"
   ],
-  "consumedThroughSha": "1c9bf959a36c0e85f75ea654ebdf0ba69116fc7f"
+  "consumedThroughSha": "9145aab38764117352bb57267102916b6cc5870d"
 }
