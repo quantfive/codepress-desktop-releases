@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "8f8f798840695372478668c55c8b7cb6d6024312",
+  "cursorSha": "745ae226fa69541bfdd590205dc4ecfbf7c66cb4",
   "highWaterVersion": "1.609.23",
   "rows": [
     {
@@ -195469,6 +195469,13 @@
       "sourceSha": "8f8f798840695372478668c55c8b7cb6d6024312",
       "sourcePackageVersion": "1.609.22",
       "intentIds": []
+    },
+    {
+      "sourceSha": "745ae226fa69541bfdd590205dc4ecfbf7c66cb4",
+      "sourcePackageVersion": "1.609.22",
+      "intentIds": [
+        "sidebar-app-links-full-page:2d0bb6fc9d6a8793f1379e11aabdea5635ef2c546662ecddff1beabfb2a4f936"
+      ]
     }
   ],
   "intents": [
@@ -209415,6 +209422,14 @@
       "summary": "Settings → Navigation shows your sidebar folders with their links, and lets you make, rename, re-icon and remove folders and move links into or out of them without dragging.",
       "sourceSha": "6642381df6f0a87070e4ae13457416d52b952437",
       "identity": "sidebar-editor-folders:8a79bbcc847bf1fca00c461991c0f04665dc67a7e5c963ba70d2490d566181e2"
+    },
+    {
+      "id": "sidebar-app-links-full-page",
+      "digest": "2d0bb6fc9d6a8793f1379e11aabdea5635ef2c546662ecddff1beabfb2a4f936",
+      "type": "patch",
+      "summary": "A sidebar link to an App, a page inside one, or a pinned App tab now opens the App's full page with its chat shown, and that link stays the only lit entry while you move around inside the App.",
+      "sourceSha": "745ae226fa69541bfdd590205dc4ecfbf7c66cb4",
+      "identity": "sidebar-app-links-full-page:2d0bb6fc9d6a8793f1379e11aabdea5635ef2c546662ecddff1beabfb2a4f936"
     }
   ],
   "consumedIntentIds": [
