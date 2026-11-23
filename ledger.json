@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "1ff991f15c964994ebb4f4d62b25353fda9bca8c",
-  "highWaterVersion": "1.609.26",
+  "highWaterVersion": "1.610.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -107503,6 +107503,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:1ff991f15c964994ebb4f4d62b25353fda9bca8c",
+      "kind": "main",
+      "sequence": 2647,
+      "sourceSha": "1ff991f15c964994ebb4f4d62b25353fda9bca8c",
+      "sourcePackageVersion": "1.609.25",
+      "version": "1.610.0",
+      "batch": {
+        "intentIds": [
+          "terminal-native-app-identity:bbffccdfc01bde231f006d7fcdebad3b8017dc0288d961a488ab9046e0e501a5",
+          "linux-runner-sdk-download-timeout:686fb35c2c019099a3c9bc8e2702684df763e5cb84acee5340e0e5c7b8ce41d2"
+        ],
+        "notesIntentIds": [
+          "terminal-native-app-identity:bbffccdfc01bde231f006d7fcdebad3b8017dc0288d961a488ab9046e0e501a5",
+          "linux-runner-sdk-download-timeout:686fb35c2c019099a3c9bc8e2702684df763e5cb84acee5340e0e5c7b8ce41d2"
+        ],
+        "throughSourceSha": "1ff991f15c964994ebb4f4d62b25353fda9bca8c",
+        "previousThroughSourceSha": "3e50dedb19591fdba7ad27a430d67c87a2c70c24",
+        "baselineVersion": "1.609.26",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-23T21:47:22.892Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45273110947",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-24T21:47:14.825Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -211588,7 +211633,9 @@
     "app-toolbar-one-look:943b33ff500dbc0c7b0c1dcc69131e28f34935d86b5374e146e0d19c0571f0e0",
     "app-card-drop-on-rail:58256cb3e7b07e9f3a5bf87c85babedf9f9ff045eac0de84870ccef1855d95f2",
     "duo-status-column-shell:bd46a4ef5f6c8d82670a97bbc052bee16ac2de3009ebefd07cdba532772510c2",
-    "custom-nav-trailing-slash:f426f2777eba8cf7dd9b86bf0805b96880f3d3e07fd638d5435500a14fbd466f"
+    "custom-nav-trailing-slash:f426f2777eba8cf7dd9b86bf0805b96880f3d3e07fd638d5435500a14fbd466f",
+    "terminal-native-app-identity:bbffccdfc01bde231f006d7fcdebad3b8017dc0288d961a488ab9046e0e501a5",
+    "linux-runner-sdk-download-timeout:686fb35c2c019099a3c9bc8e2702684df763e5cb84acee5340e0e5c7b8ce41d2"
   ],
-  "consumedThroughSha": "3e50dedb19591fdba7ad27a430d67c87a2c70c24"
+  "consumedThroughSha": "1ff991f15c964994ebb4f4d62b25353fda9bca8c"
 }
