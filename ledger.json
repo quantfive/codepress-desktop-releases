@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e704bb5e4d4fc74f3d1d9be2e6927d572d4f2c39",
+  "cursorSha": "b47dfe8d58a41afd216f9b629989b324187cbf27",
   "highWaterVersion": "1.613.0",
   "rows": [
     {
@@ -197171,6 +197171,13 @@
       "sourceSha": "e704bb5e4d4fc74f3d1d9be2e6927d572d4f2c39",
       "sourcePackageVersion": "1.612.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b47dfe8d58a41afd216f9b629989b324187cbf27",
+      "sourcePackageVersion": "1.612.2",
+      "intentIds": [
+        "ci-runners-repository-filter:8058a5e8a96471a37152f45fc74d9309fc0e3030a25e86a033df901f2e9d4b78"
+      ]
     }
   ],
   "intents": [
@@ -211341,6 +211348,14 @@
       "summary": "Improve Remote Desktop host connection stability: resume backpressure-paused Edge Relay local WebSockets before closing so disconnects do not hang for 30 seconds, serialize `open` requests so an authenticated owner cleanly supersedes a prior viewer grant instead of failing with a busy error, and keep native-started Remote Desktop sessions alive across host WebView reloads or closes.",
       "sourceSha": "7d53c0fdef708a48301bfff61d4bc9a7f2b3642f",
       "identity": "desktop-host-takeover-and-relay-close:49d9ecd7cff5d32abfb29987e23fe4c83ad12899f5629b4721ff11cc97b804b2"
+    },
+    {
+      "id": "ci-runners-repository-filter",
+      "digest": "8058a5e8a96471a37152f45fc74d9309fc0e3030a25e86a033df901f2e9d4b78",
+      "type": "patch",
+      "summary": "CI runners: a Repository picker in the toolbar narrows every section to one repository when the organization tracks two or more; per-repository usage figures say they are estimated from job minutes.",
+      "sourceSha": "b47dfe8d58a41afd216f9b629989b324187cbf27",
+      "identity": "ci-runners-repository-filter:8058a5e8a96471a37152f45fc74d9309fc0e3030a25e86a033df901f2e9d4b78"
     }
   ],
   "consumedIntentIds": [
