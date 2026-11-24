@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "77ef21a657b5ce8498ac92517b861f9d9ff7e18d",
-  "highWaterVersion": "1.613.1",
+  "highWaterVersion": "1.613.2",
   "rows": [
     {
       "schemaVersion": 1,
@@ -108250,6 +108250,52 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:77ef21a657b5ce8498ac92517b861f9d9ff7e18d",
+      "kind": "main",
+      "sequence": 2660,
+      "sourceSha": "77ef21a657b5ce8498ac92517b861f9d9ff7e18d",
+      "sourcePackageVersion": "1.613.0",
+      "version": "1.613.2",
+      "batch": {
+        "intentIds": [
+          "share-link-domain-ui:1995132754a089d94f04185b9029261fda8172b8bee7b4bf7786a2f8db62b238"
+        ],
+        "notesIntentIds": [
+          "factory-ui-review-flag-delivery:aba630c746bf418e16911a04bcff79865cffe5467c3686bc94b3977e9c019fe3",
+          "desktop-host-takeover-and-relay-close:49d9ecd7cff5d32abfb29987e23fe4c83ad12899f5629b4721ff11cc97b804b2",
+          "ci-runners-repository-filter:8058a5e8a96471a37152f45fc74d9309fc0e3030a25e86a033df901f2e9d4b78",
+          "share-link-domain-ui:1995132754a089d94f04185b9029261fda8172b8bee7b4bf7786a2f8db62b238"
+        ],
+        "throughSourceSha": "77ef21a657b5ce8498ac92517b861f9d9ff7e18d",
+        "previousThroughSourceSha": "b47dfe8d58a41afd216f9b629989b324187cbf27",
+        "baselineVersion": "1.613.1",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-24T05:57:59.215Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45336888647",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-25T05:57:49.696Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -213239,7 +213285,8 @@
     "pin-no-fallback-managed:311b6579f83738c67f4eedf33894c16d8e1a5dcd1db036c2c7b7fba933ca69ef",
     "factory-ui-review-flag-delivery:aba630c746bf418e16911a04bcff79865cffe5467c3686bc94b3977e9c019fe3",
     "desktop-host-takeover-and-relay-close:49d9ecd7cff5d32abfb29987e23fe4c83ad12899f5629b4721ff11cc97b804b2",
-    "ci-runners-repository-filter:8058a5e8a96471a37152f45fc74d9309fc0e3030a25e86a033df901f2e9d4b78"
+    "ci-runners-repository-filter:8058a5e8a96471a37152f45fc74d9309fc0e3030a25e86a033df901f2e9d4b78",
+    "share-link-domain-ui:1995132754a089d94f04185b9029261fda8172b8bee7b4bf7786a2f8db62b238"
   ],
-  "consumedThroughSha": "b47dfe8d58a41afd216f9b629989b324187cbf27"
+  "consumedThroughSha": "77ef21a657b5ce8498ac92517b861f9d9ff7e18d"
 }
