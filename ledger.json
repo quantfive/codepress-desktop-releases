@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "532aa10d8193d2f049b830807b6dfae0d937c35c",
+  "cursorSha": "1c4e7aa03c7d0ec4ebf50a22785340216a23d93a",
   "highWaterVersion": "1.615.2",
   "rows": [
     {
@@ -198030,6 +198030,13 @@
       "sourceSha": "532aa10d8193d2f049b830807b6dfae0d937c35c",
       "sourcePackageVersion": "1.615.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "1c4e7aa03c7d0ec4ebf50a22785340216a23d93a",
+      "sourcePackageVersion": "1.615.2",
+      "intentIds": [
+        "failover-soonest-reset:9271ab98dc6f427b78c69e1dde5d31eee2078bcfd2ac54ed34e901c475802dfa"
+      ]
     }
   ],
   "intents": [
@@ -212312,6 +212319,14 @@
       "summary": "The agent Stop hook's Terminal unit-test tier no longer fails falsely in a Terminal-hosted agent: when TMPDIR is inside the Terminal data folder, the Vitest run gets a temp root outside it, and the test setup's refusal now names the temp root as the cause.",
       "sourceSha": "9b63bf3816810d5cd558b4f950dc3e0f3827197a",
       "identity": "stop-hook-vitest-temp-root:b67c45912cadf8b4e27cc1358437c6a0813eccf84e1c53a5da9f75b8d50b3819"
+    },
+    {
+      "id": "failover-soonest-reset",
+      "digest": "9271ab98dc6f427b78c69e1dde5d31eee2078bcfd2ac54ed34e901c475802dfa",
+      "type": "patch",
+      "summary": "Automatic account switching at a usage limit now always moves to the free account whose limit resets soonest: workers with relaunch off, the pooled proxy moving a tab off a limited account, and Kimi worker switches now rank this way, as the Orchestrator and relaunched workers already did.",
+      "sourceSha": "1c4e7aa03c7d0ec4ebf50a22785340216a23d93a",
+      "identity": "failover-soonest-reset:9271ab98dc6f427b78c69e1dde5d31eee2078bcfd2ac54ed34e901c475802dfa"
     }
   ],
   "consumedIntentIds": [
