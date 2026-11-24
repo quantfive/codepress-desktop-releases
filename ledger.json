@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ced29be1a8ffd498898ee329bae37b146cb65b4d",
+  "cursorSha": "181e30c3eb606762f0a8b401f22deaef5e72c287",
   "highWaterVersion": "1.617.7",
   "rows": [
     {
@@ -199648,6 +199648,13 @@
       "sourceSha": "ced29be1a8ffd498898ee329bae37b146cb65b4d",
       "sourcePackageVersion": "1.617.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "181e30c3eb606762f0a8b401f22deaef5e72c287",
+      "sourcePackageVersion": "1.617.6",
+      "intentIds": [
+        "windows-runner-identity:4eb4377aca8092c78a2b62cd5ef65542962306b35a5441a7d617b025c77d848d"
+      ]
     }
   ],
   "intents": [
@@ -214090,6 +214097,14 @@
       "summary": "Older posts loading above you in a long Orchestrator thread no longer nudge the post you are reading by a pixel or two: each loaded chunk now counts from where you are meant to be, not from where the last chunk's whole-pixel rounding left you.",
       "sourceSha": "beb6251f172dc0ceccba723643a30f159ad849e7",
       "identity": "thread-backfill-subpixel-hold:5466a8dbb5fe1e9c3adc9868987382868be5488ae3221e511b2896f304764004"
+    },
+    {
+      "id": "windows-runner-identity",
+      "digest": "4eb4377aca8092c78a2b62cd5ef65542962306b35a5441a7d617b025c77d848d",
+      "type": "patch",
+      "summary": "On Windows, Terminal now tells whether a saved local agent runner pid is still the runner it started (by its creation time and command line), scans for runner processes, and stops a runner together with its child processes. Local execution stays off on Windows; macOS and Linux behave as before.",
+      "sourceSha": "181e30c3eb606762f0a8b401f22deaef5e72c287",
+      "identity": "windows-runner-identity:4eb4377aca8092c78a2b62cd5ef65542962306b35a5441a7d617b025c77d848d"
     }
   ],
   "consumedIntentIds": [
