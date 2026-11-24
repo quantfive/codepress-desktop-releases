@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "06ac7e347c675762b4ba142185a09d5f98329964",
+  "cursorSha": "beb6251f172dc0ceccba723643a30f159ad849e7",
   "highWaterVersion": "1.617.6",
   "rows": [
     {
@@ -199547,6 +199547,13 @@
       "sourceSha": "06ac7e347c675762b4ba142185a09d5f98329964",
       "sourcePackageVersion": "1.617.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "beb6251f172dc0ceccba723643a30f159ad849e7",
+      "sourcePackageVersion": "1.617.5",
+      "intentIds": [
+        "thread-backfill-subpixel-hold:5466a8dbb5fe1e9c3adc9868987382868be5488ae3221e511b2896f304764004"
+      ]
     }
   ],
   "intents": [
@@ -213981,6 +213988,14 @@
       "summary": "Remote Desktop: the toolbar fits a narrow Desktop pane again. The machine chip shrinks to its dot and chevron before the status, Expand or ⋯ are pushed out, and the divider before Expand only shows next to the zoom controls.",
       "sourceSha": "9fd0611c7f85a9f97273b52e842bfc6d0177a186",
       "identity": "desktop-toolbar-narrow-pane:7944fb9d265979d9fe42fdb0baf108bfb2cb69beaec89bf04b784ebc36c58a20"
+    },
+    {
+      "id": "thread-backfill-subpixel-hold",
+      "digest": "5466a8dbb5fe1e9c3adc9868987382868be5488ae3221e511b2896f304764004",
+      "type": "patch",
+      "summary": "Older posts loading above you in a long Orchestrator thread no longer nudge the post you are reading by a pixel or two: each loaded chunk now counts from where you are meant to be, not from where the last chunk's whole-pixel rounding left you.",
+      "sourceSha": "beb6251f172dc0ceccba723643a30f159ad849e7",
+      "identity": "thread-backfill-subpixel-hold:5466a8dbb5fe1e9c3adc9868987382868be5488ae3221e511b2896f304764004"
     }
   ],
   "consumedIntentIds": [
