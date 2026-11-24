@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1975d7b424e735ceb882440c9df7dd53485206b1",
+  "cursorSha": "9fd0611c7f85a9f97273b52e842bfc6d0177a186",
   "highWaterVersion": "1.617.6",
   "rows": [
     {
@@ -199535,6 +199535,13 @@
       "sourceSha": "1975d7b424e735ceb882440c9df7dd53485206b1",
       "sourcePackageVersion": "1.617.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9fd0611c7f85a9f97273b52e842bfc6d0177a186",
+      "sourcePackageVersion": "1.617.5",
+      "intentIds": [
+        "desktop-toolbar-narrow-pane:7944fb9d265979d9fe42fdb0baf108bfb2cb69beaec89bf04b784ebc36c58a20"
+      ]
     }
   ],
   "intents": [
@@ -213961,6 +213968,14 @@
       "summary": "Terminal's CI test selector no longer holds back time on the first browser test job for the Rust checks, which now run in their own CI job.",
       "sourceSha": "4d429112816b810851a63c3560f719552c57ea9b",
       "identity": "terminal-rust-own-job:ec5688c40470f6eee189b393391411ce37595be5ef8704999abcf79f14d07b57"
+    },
+    {
+      "id": "desktop-toolbar-narrow-pane",
+      "digest": "7944fb9d265979d9fe42fdb0baf108bfb2cb69beaec89bf04b784ebc36c58a20",
+      "type": "patch",
+      "summary": "Remote Desktop: the toolbar fits a narrow Desktop pane again. The machine chip shrinks to its dot and chevron before the status, Expand or ⋯ are pushed out, and the divider before Expand only shows next to the zoom controls.",
+      "sourceSha": "9fd0611c7f85a9f97273b52e842bfc6d0177a186",
+      "identity": "desktop-toolbar-narrow-pane:7944fb9d265979d9fe42fdb0baf108bfb2cb69beaec89bf04b784ebc36c58a20"
     }
   ],
   "consumedIntentIds": [
