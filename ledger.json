@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d5f986fca83c58a5f2d90e5c0882b16c198330ac",
+  "cursorSha": "1dd04f4f9c10f68c1ddaf230947e3e2576af7abf",
   "highWaterVersion": "1.617.7",
   "rows": [
     {
@@ -199687,6 +199687,13 @@
       "intentIds": [
         "reclaimed-worker-resume-generation:80e39967f28448a4786f32fd63908d123f42e11ec053e1089f33b4c856f22482"
       ]
+    },
+    {
+      "sourceSha": "1dd04f4f9c10f68c1ddaf230947e3e2576af7abf",
+      "sourcePackageVersion": "1.617.6",
+      "intentIds": [
+        "intent-in-force:d92d72e3906f5d3ddc4c4dd550cbb30566b025034a21b889713629ebfcfadf9c"
+      ]
     }
   ],
   "intents": [
@@ -214145,6 +214152,14 @@
       "summary": "A worker reclaimed to free memory now resumes after a Terminal update removed the background-service folder its CLI lived in: the resume finds the provider's current CLI. When the in-tab resume still fails, relaunching the worker starts it fresh in a new tab on the project's model, and a relaunch waits briefly while the background service is still starting.",
       "sourceSha": "d5f986fca83c58a5f2d90e5c0882b16c198330ac",
       "identity": "reclaimed-worker-resume-generation:80e39967f28448a4786f32fd63908d123f42e11ec053e1089f33b4c856f22482"
+    },
+    {
+      "id": "intent-in-force",
+      "digest": "d92d72e3906f5d3ddc4c4dd550cbb30566b025034a21b889713629ebfcfadf9c",
+      "type": "patch",
+      "summary": "User intent ledgers mark a replaced decision with `Superseded by: U-key`, or `(in part)`: the user-intent skill explains the label and `codepress factory intent` lists a replaced decision by key only.",
+      "sourceSha": "1dd04f4f9c10f68c1ddaf230947e3e2576af7abf",
+      "identity": "intent-in-force:d92d72e3906f5d3ddc4c4dd550cbb30566b025034a21b889713629ebfcfadf9c"
     }
   ],
   "consumedIntentIds": [
