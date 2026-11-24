@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "8ab3b92b44c4ed8ef7a13a0523a288e31c5a3865",
+  "cursorSha": "0768bede9e14742d597fc488b80d6851e820d32d",
   "highWaterVersion": "1.612.0",
   "rows": [
     {
@@ -196803,6 +196803,18 @@
       "sourceSha": "8ab3b92b44c4ed8ef7a13a0523a288e31c5a3865",
       "sourcePackageVersion": "1.611.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "2c22872bc0edf0404a35a11a13fe9baf1a852a35",
+      "sourcePackageVersion": "1.611.2",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "0768bede9e14742d597fc488b80d6851e820d32d",
+      "sourcePackageVersion": "1.611.2",
+      "intentIds": [
+        "app-share-holds-preview-link:bbf4426451625e2bc26385ddd8ce999cfecb8b106a3d1cdde2ea34b9f79501c6"
+      ]
     }
   ],
   "intents": [
@@ -210917,6 +210929,14 @@
       "summary": "Built-in tabs such as Agent, Apps and Media can now go in your sidebar folders. Hold one tab over another tab, or over one of your links or folders, to group them. Open the folder to pick one. Settings → Navigation lists a folder's built-in tabs, and each tab's Folder menu moves it in or out without dragging.",
       "sourceSha": "57aea15d3014817550c79ccb73e1233420ebdca4",
       "identity": "rail-folder-built-in-tabs:69310cacbf2d4c9f1317633e80753798122e203c06cd91276aeadb9508fe8061"
+    },
+    {
+      "id": "app-share-holds-preview-link",
+      "digest": "bbf4426451625e2bc26385ddd8ce999cfecb8b106a3d1cdde2ea34b9f79501c6",
+      "type": "patch",
+      "summary": "The App page's Share, at the top of the chat, is now the one way to its Preview link: with a chat on screen it opens Share chat and Share app, and with no chat it opens the App's Share dialog. The Publish menu and More no longer hold the Preview link. Open in new tab moves from the toolbar into More at every width. Share also stands in a project's header when one fills the chat column, beside Open assistant while the chat is minimized, and in the App's phone header (on phones narrower than 400px, as the first item in More).",
+      "sourceSha": "0768bede9e14742d597fc488b80d6851e820d32d",
+      "identity": "app-share-holds-preview-link:bbf4426451625e2bc26385ddd8ce999cfecb8b106a3d1cdde2ea34b9f79501c6"
     }
   ],
   "consumedIntentIds": [
