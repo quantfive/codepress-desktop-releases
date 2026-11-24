@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "130e86add8e0d694a5d79a70cc2bc02e93872485",
+  "cursorSha": "da4ff2cffd12d5ed2da4c006cfb885f83d93dcfc",
   "highWaterVersion": "1.611.2",
   "rows": [
     {
@@ -196699,6 +196699,13 @@
       "sourceSha": "130e86add8e0d694a5d79a70cc2bc02e93872485",
       "sourcePackageVersion": "1.611.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "da4ff2cffd12d5ed2da4c006cfb885f83d93dcfc",
+      "sourcePackageVersion": "1.611.1",
+      "intentIds": [
+        "canvas-node-links:b5d25d25fbb6522584c8a6954d6e36876dcc32606a0536235d25473715bf4252"
+      ]
     }
   ],
   "intents": [
@@ -210781,6 +210788,14 @@
       "summary": "The sidebar rail is 72px wide and each tab's name now sits just under its icon, with room on both sides for long names like Automations. List and Annotate are named too.",
       "sourceSha": "589ec057a2e639c89d098a6c988ca27a2766dacd",
       "identity": "rail-tidy-names-72:e9993e9b9f6ff94da9297be4390d080b4a9c389ff50e8dfa414aa264b1280f3c"
+    },
+    {
+      "id": "canvas-node-links",
+      "digest": "b5d25d25fbb6522584c8a6954d6e36876dcc32606a0536235d25473715bf4252",
+      "type": "minor",
+      "summary": "Each page of a plan canvas with a share link has a Copy link that opens the shared canvas centred on that page, marked Linked, with every other page still on the canvas.",
+      "sourceSha": "da4ff2cffd12d5ed2da4c006cfb885f83d93dcfc",
+      "identity": "canvas-node-links:b5d25d25fbb6522584c8a6954d6e36876dcc32606a0536235d25473715bf4252"
     }
   ],
   "consumedIntentIds": [
