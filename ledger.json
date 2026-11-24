@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "8689100bb8774e1907e4f5c5f6e62408a0d97fc5",
-  "highWaterVersion": "1.617.4",
+  "highWaterVersion": "1.617.5",
   "rows": [
     {
       "schemaVersion": 1,
@@ -109256,6 +109256,52 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:8689100bb8774e1907e4f5c5f6e62408a0d97fc5",
+      "kind": "main",
+      "sequence": 2678,
+      "sourceSha": "8689100bb8774e1907e4f5c5f6e62408a0d97fc5",
+      "sourcePackageVersion": "1.617.3",
+      "version": "1.617.5",
+      "batch": {
+        "intentIds": [
+          "terminal-script-tests-sliced:8196baed2c9f98cb39bf57e6ba52b678040966cc552145d19b1be75aa6dd033e",
+          "new-chat-opens-on-orchestrator:9390bdf1eb8b4e1cda48fc12cd7036050267ed77c48f08748b867f695b4da874"
+        ],
+        "notesIntentIds": [
+          "terminal-e2e-shard-cap:63609306670902f2ee5240929b85e01531949cca451633217114e56532e8dc94",
+          "terminal-script-tests-sliced:8196baed2c9f98cb39bf57e6ba52b678040966cc552145d19b1be75aa6dd033e",
+          "new-chat-opens-on-orchestrator:9390bdf1eb8b4e1cda48fc12cd7036050267ed77c48f08748b867f695b4da874"
+        ],
+        "throughSourceSha": "8689100bb8774e1907e4f5c5f6e62408a0d97fc5",
+        "previousThroughSourceSha": "17ada91c18cd3e8ad2911450561540a6a42ec990",
+        "baselineVersion": "1.617.4",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-24T19:24:25.972Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45469619068",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-25T19:24:17.432Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -215572,7 +215618,9 @@
     "m45-google-oauth-state:ac7dc7651f5186c22e48805849c9c5a9bef8ee10cf5c8c840a7e1986cdf9fccd",
     "terminal-e2e-shard-sizing:2cf3cf373bc5e1a0a70043ced2b6648f48a22fea791e9cc01fed3d752afd1d40",
     "duo-status-column-device-fixes:f6e10f3d8226707d914de1054033547a333a079494b55fccc63c7aafbc06cd6f",
-    "terminal-e2e-shard-cap:63609306670902f2ee5240929b85e01531949cca451633217114e56532e8dc94"
+    "terminal-e2e-shard-cap:63609306670902f2ee5240929b85e01531949cca451633217114e56532e8dc94",
+    "terminal-script-tests-sliced:8196baed2c9f98cb39bf57e6ba52b678040966cc552145d19b1be75aa6dd033e",
+    "new-chat-opens-on-orchestrator:9390bdf1eb8b4e1cda48fc12cd7036050267ed77c48f08748b867f695b4da874"
   ],
-  "consumedThroughSha": "17ada91c18cd3e8ad2911450561540a6a42ec990"
+  "consumedThroughSha": "8689100bb8774e1907e4f5c5f6e62408a0d97fc5"
 }
