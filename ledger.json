@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d18a8fb31695350dceee1ceabd9b0fae363df9f5",
+  "cursorSha": "849ebeb15c3ce0cc65ca9f7170fc4f0f048ec73f",
   "highWaterVersion": "1.613.3",
   "rows": [
     {
@@ -197494,6 +197494,13 @@
       "intentIds": [
         "thread-map-gutter-no-shift:5b61f776b2009322da902ab184eebec1681f428cc0ccb51b04cb87735352e9b0"
       ]
+    },
+    {
+      "sourceSha": "849ebeb15c3ce0cc65ca9f7170fc4f0f048ec73f",
+      "sourcePackageVersion": "1.613.2",
+      "intentIds": [
+        "desktop-input-responsiveness:a7a160ad25aca010dc474082e53d63edef244147ecf0c150113b984d635f1ee3"
+      ]
     }
   ],
   "intents": [
@@ -211720,6 +211727,14 @@
       "summary": "Orchestrator threads no longer slide 12px to the right when the conversation map appears: the map's gutter is reserved from the first render on desktop layouts with a fine pointer.",
       "sourceSha": "d18a8fb31695350dceee1ceabd9b0fae363df9f5",
       "identity": "thread-map-gutter-no-shift:5b61f776b2009322da902ab184eebec1681f428cc0ccb51b04cb87735352e9b0"
+    },
+    {
+      "id": "desktop-input-responsiveness",
+      "digest": "a7a160ad25aca010dc474082e53d63edef244147ecf0c150113b984d635f1ee3",
+      "type": "patch",
+      "summary": "Improve Remote Desktop input responsiveness under trackpad/wheel bursts and high-RTT links by accumulating sub-pixel wheel residuals, coalescing `move -> scroll` and bounded `scroll -> scroll` bursts across the viewer and native host queues, microtask-batching native input bridge calls, automatically recovering input stalls via `reconnectTransport()`, and scoping permission recovery guidance to actual permission/consent refusals.",
+      "sourceSha": "849ebeb15c3ce0cc65ca9f7170fc4f0f048ec73f",
+      "identity": "desktop-input-responsiveness:a7a160ad25aca010dc474082e53d63edef244147ecf0c150113b984d635f1ee3"
     }
   ],
   "consumedIntentIds": [
