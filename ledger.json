@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a097a6d108c9eaa7eb1aca85ec380af1a1708ce0",
+  "cursorSha": "6eed9162640b2a25fc18ed2d2fc21f1093edd914",
   "highWaterVersion": "1.613.0",
   "rows": [
     {
@@ -197142,6 +197142,13 @@
       "sourceSha": "a097a6d108c9eaa7eb1aca85ec380af1a1708ce0",
       "sourcePackageVersion": "1.612.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "6eed9162640b2a25fc18ed2d2fc21f1093edd914",
+      "sourcePackageVersion": "1.612.2",
+      "intentIds": [
+        "factory-ui-review-flag-delivery:aba630c746bf418e16911a04bcff79865cffe5467c3686bc94b3977e9c019fe3"
+      ]
     }
   ],
   "intents": [
@@ -211296,6 +211303,14 @@
       "summary": "Muse, Grok, Gemini and Kimi Code agent launches now run only Terminal's own pinned CLI where Terminal ships one: a launch waits for the pin to download and fails with the reason if it cannot, instead of running your own CLI or an older copy. A tab Terminal starts with `kimi` waits for the pinned Kimi Code CLI the same way.",
       "sourceSha": "6ae2290287338378f3dcb6783e02872a42442fa8",
       "identity": "pin-no-fallback-managed:311b6579f83738c67f4eedf33894c16d8e1a5dcd1db036c2c7b7fba933ca69ef"
+    },
+    {
+      "id": "factory-ui-review-flag-delivery",
+      "digest": "aba630c746bf418e16911a04bcff79865cffe5467c3686bc94b3977e9c019fe3",
+      "type": "patch",
+      "summary": "Terminal now records which of your organizations have Software Factory UI/UX review turned on in `<CODEPRESS_HOME>/factory/variant.json` (`ui_review_organization_ids`, `[]` from an older backend). The Factory CLI reads it with `uiReviewEnabledFor(orgId)`, and `codepress factory variant` prints a `UI/UX review: on for <n> org(s)` or `off` line. Nothing changes behavior on the flag yet.",
+      "sourceSha": "6eed9162640b2a25fc18ed2d2fc21f1093edd914",
+      "identity": "factory-ui-review-flag-delivery:aba630c746bf418e16911a04bcff79865cffe5467c3686bc94b3977e9c019fe3"
     }
   ],
   "consumedIntentIds": [
