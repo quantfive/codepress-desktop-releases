@@ -108101,19 +108101,11 @@
       "publicationDate": "2026-11-24T03:47:45.652Z",
       "releaseId": null,
       "mac": {
-        "status": "failed",
+        "status": "pending",
         "generation": 1,
-        "owner": {
-          "ownerId": "terminal-macos-delivery",
-          "runId": "45321878673",
-          "attempt": 1
-        },
-        "leaseUntil": "2026-11-25T03:49:46.105Z",
-        "dispatch": {
-          "intentId": "same-run:fed0cebca04bf5c6681f51f2ed7b042989250c3499744a2ad45c9dfe655e3c11",
-          "runId": "45321878673",
-          "terminal": true
-        },
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
         "failures": [
           {
             "code": "run_failed",
