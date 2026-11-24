@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c6b8a85f8b9d7b78babe222565ddd0bbd2087d8b",
+  "cursorSha": "227a35f6d1b703256d72f2a4fbece7fa0350ec03",
   "highWaterVersion": "1.614.0",
   "rows": [
     {
@@ -197623,6 +197623,13 @@
       "sourceSha": "c6b8a85f8b9d7b78babe222565ddd0bbd2087d8b",
       "sourcePackageVersion": "1.613.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "227a35f6d1b703256d72f2a4fbece7fa0350ec03",
+      "sourcePackageVersion": "1.613.3",
+      "intentIds": [
+        "gh-auth-flood:e9676b14cf5ff127c5c0f8795630bbf5dbdaa6c7c9fb8b8965beeeb7cbae8841"
+      ]
     }
   ],
   "intents": [
@@ -211865,6 +211872,14 @@
       "summary": "CI places a selected Terminal unit run by its measured time instead of its file count: a selection that fits one 300-second shard runs in js-terminal-rest, and a larger one is spread over the js-terminal shards. The js-terminal shards' small artifact uploads now time out after two minutes instead of holding a shard for up to 17 minutes.",
       "sourceSha": "0f34ee8e3734040413b654d317d163bf6288a5a6",
       "identity": "terminal-unit-weighted-placement:37cc8e82fe235ca32f2eb511eb921a6f80785984435465b6120ed02b2094f585"
+    },
+    {
+      "id": "gh-auth-flood",
+      "digest": "e9676b14cf5ff127c5c0f8795630bbf5dbdaa6c7c9fb8b8965beeeb7cbae8841",
+      "type": "patch",
+      "summary": "GitHub stats checks its gh token once a minute instead of before every request, which cuts about 150 `gh auth token` runs a minute during a collection pass. A sign-out or account switch still stops the pass before its next request. `gh auth status` is now billed to GitHub's REST (`core`) bucket in GitHub API usage. The project handoff reuses the shared sign-in check. Repeated \"check again\" refreshes run it at most once every 15 seconds.",
+      "sourceSha": "227a35f6d1b703256d72f2a4fbece7fa0350ec03",
+      "identity": "gh-auth-flood:e9676b14cf5ff127c5c0f8795630bbf5dbdaa6c7c9fb8b8965beeeb7cbae8841"
     }
   ],
   "consumedIntentIds": [
