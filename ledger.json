@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "93435f3a970e30f634da990888fce5d6cbcaa2f7",
+  "cursorSha": "9b63bf3816810d5cd558b4f950dc3e0f3827197a",
   "highWaterVersion": "1.615.1",
   "rows": [
     {
@@ -197853,6 +197853,13 @@
       "sourceSha": "93435f3a970e30f634da990888fce5d6cbcaa2f7",
       "sourcePackageVersion": "1.615.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9b63bf3816810d5cd558b4f950dc3e0f3827197a",
+      "sourcePackageVersion": "1.615.0",
+      "intentIds": [
+        "stop-hook-vitest-temp-root:b67c45912cadf8b4e27cc1358437c6a0813eccf84e1c53a5da9f75b8d50b3819"
+      ]
     }
   ],
   "intents": [
@@ -212127,6 +212134,14 @@
       "summary": "Keep my computers up to date no longer installs an update while someone is connected to the machine from another device (Remote Desktop or a visible remote Terminal window), and waits 10 minutes after the last one leaves. Update and Update all still install right away.",
       "sourceSha": "5eae7f4a0cf5c41d55a521411a7b94ee14feb23f",
       "identity": "keep-updated-remote-hold:e66c10018348a788b51a3e954041d00051e05105f162f7dcd35df0e3946986ea"
+    },
+    {
+      "id": "stop-hook-vitest-temp-root",
+      "digest": "b67c45912cadf8b4e27cc1358437c6a0813eccf84e1c53a5da9f75b8d50b3819",
+      "type": "patch",
+      "summary": "The agent Stop hook's Terminal unit-test tier no longer fails falsely in a Terminal-hosted agent: when TMPDIR is inside the Terminal data folder, the Vitest run gets a temp root outside it, and the test setup's refusal now names the temp root as the cause.",
+      "sourceSha": "9b63bf3816810d5cd558b4f950dc3e0f3827197a",
+      "identity": "stop-hook-vitest-temp-root:b67c45912cadf8b4e27cc1358437c6a0813eccf84e1c53a5da9f75b8d50b3819"
     }
   ],
   "consumedIntentIds": [
