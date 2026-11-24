@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a643a202c1b8736e199ad64599ea3ca317f21530",
+  "cursorSha": "a4b5b73e40f052aec942fc8dd2ac52fa77d9c8d0",
   "highWaterVersion": "1.617.7",
   "rows": [
     {
@@ -199721,6 +199721,13 @@
       "sourceSha": "a643a202c1b8736e199ad64599ea3ca317f21530",
       "sourcePackageVersion": "1.617.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a4b5b73e40f052aec942fc8dd2ac52fa77d9c8d0",
+      "sourcePackageVersion": "1.617.6",
+      "intentIds": [
+        "claude-worker-dialog-hooks:5a90f450af9b9946bf7895541d73f2034ad3a145d493b742a52158dfc9a079f0"
+      ]
     }
   ],
   "intents": [
@@ -214195,6 +214202,14 @@
       "summary": "The shared Button, Badge and Input read their mobile-app capsule from a new helper, `appCapsule`, which Terminal now bundles. Terminal looks the same: its stylesheet has no `mobile-app` variant, so the capsule class draws nothing there.",
       "sourceSha": "59694281ab878a6091b42e77c90b5a09fddf5581",
       "identity": "app-corners-capsule-helper:1d68114da135dd46b2fda4dfe2cc03cb4c979a61b34a990041154aeabb38aec8"
+    },
+    {
+      "id": "claude-worker-dialog-hooks",
+      "digest": "5a90f450af9b9946bf7895541d73f2034ad3a145d493b742a52158dfc9a079f0",
+      "type": "patch",
+      "summary": "Claude workers now report their permission prompts, plan approvals, MCP questions and API-error turn ends to their Orchestrator even when Terminal's hooks were never installed in your Claude settings. Your Claude settings are not changed.",
+      "sourceSha": "a4b5b73e40f052aec942fc8dd2ac52fa77d9c8d0",
+      "identity": "claude-worker-dialog-hooks:5a90f450af9b9946bf7895541d73f2034ad3a145d493b742a52158dfc9a079f0"
     }
   ],
   "consumedIntentIds": [
