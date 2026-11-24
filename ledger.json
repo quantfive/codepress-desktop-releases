@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "cba31eb603c955ca6c8664b180fd9928d37f3e55",
+  "cursorSha": "bc0a28d8004aeb30c20fda5595d321ffea5d7557",
   "highWaterVersion": "1.616.0",
   "rows": [
     {
@@ -198558,6 +198558,13 @@
       "sourceSha": "cba31eb603c955ca6c8664b180fd9928d37f3e55",
       "sourcePackageVersion": "1.616.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "bc0a28d8004aeb30c20fda5595d321ffea5d7557",
+      "sourcePackageVersion": "1.616.0",
+      "intentIds": [
+        "terminal-full-nine-shards:7e5010f6e5a9f1435576507dd9b8de7840498c20f5123af454b0e00045e1fbf9"
+      ]
     }
   ],
   "intents": [
@@ -212896,6 +212903,14 @@
       "summary": "On Linux and macOS, Terminal now refuses full access to local programs that are not running in one of its tabs and show no client credential, whatever the organization's machine-work setting. Another OS account or a container sharing the machine's network can no longer drive your agents and sessions. Set `terminal.localClientEnforcement` to `false` in this machine's settings to roll back. Not available on Windows, which stays log-only.",
       "sourceSha": "b75454baff7849e937d1b7aec3a8f9f2713dbae2",
       "identity": "local-client-gate-default-on:3def73c99c75304e1eb35c95412557c0f86b4b314e3051543a3fa4a4a5fd58db"
+    },
+    {
+      "id": "terminal-full-nine-shards",
+      "digest": "7e5010f6e5a9f1435576507dd9b8de7840498c20f5123af454b0e00045e1fbf9",
+      "type": "patch",
+      "summary": "Test tooling only: the full Terminal Playwright run uses nine shards instead of fourteen, with weights measured again from full run 45353273203 and a `refresh-full-spec-timings.mjs` script to refresh them. No change to the app.",
+      "sourceSha": "bc0a28d8004aeb30c20fda5595d321ffea5d7557",
+      "identity": "terminal-full-nine-shards:7e5010f6e5a9f1435576507dd9b8de7840498c20f5123af454b0e00045e1fbf9"
     }
   ],
   "consumedIntentIds": [
