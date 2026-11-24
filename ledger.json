@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1556a5747f874cf4bf716b24dbf384634db19ca9",
+  "cursorSha": "8fff6561dcdb67e5a30bffaf78620bb2349ad121",
   "highWaterVersion": "1.617.1",
   "rows": [
     {
@@ -199056,6 +199056,13 @@
       "sourceSha": "1556a5747f874cf4bf716b24dbf384634db19ca9",
       "sourcePackageVersion": "1.617.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "8fff6561dcdb67e5a30bffaf78620bb2349ad121",
+      "sourcePackageVersion": "1.617.1",
+      "intentIds": [
+        "terminal-e2e-shard-sizing:2cf3cf373bc5e1a0a70043ced2b6648f48a22fea791e9cc01fed3d752afd1d40"
+      ]
     }
   ],
   "intents": [
@@ -213426,6 +213433,14 @@
       "summary": "Google sign-in now sends its state back to CodePress, so the server can check that the sign-in started on this machine and is used once.",
       "sourceSha": "4596cc63ce6bc78aeee8adf8d831672ad598414d",
       "identity": "m45-google-oauth-state:ac7dc7651f5186c22e48805849c9c5a9bef8ee10cf5c8c840a7e1986cdf9fccd"
+    },
+    {
+      "id": "terminal-e2e-shard-sizing",
+      "digest": "2cf3cf373bc5e1a0a70043ced2b6648f48a22fea791e9cc01fed3d752afd1d40",
+      "type": "patch",
+      "summary": "Size pull-request Terminal browser test runs from measured spec times: refresh `e2e/spec-timings.json` from post-cut CI runs (with a script to rerun it) and split a selection across one to six jobs so each carries about six minutes of tests.",
+      "sourceSha": "8fff6561dcdb67e5a30bffaf78620bb2349ad121",
+      "identity": "terminal-e2e-shard-sizing:2cf3cf373bc5e1a0a70043ced2b6648f48a22fea791e9cc01fed3d752afd1d40"
     }
   ],
   "consumedIntentIds": [
