@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3a861bd8d6e6c6bae3d2cfdf003ec3f629e554c2",
+  "cursorSha": "ae8bc467678659f95a864c4ed92e75a238b0fdff",
   "highWaterVersion": "1.611.2",
   "rows": [
     {
@@ -196718,6 +196718,13 @@
       "intentIds": [
         "interactions-ui-state:aa230b9fc4c29ac6ff5b071089d85920a8f2bd804a7f5d57a363efde85d71d6f"
       ]
+    },
+    {
+      "sourceSha": "ae8bc467678659f95a864c4ed92e75a238b0fdff",
+      "sourcePackageVersion": "1.611.1",
+      "intentIds": [
+        "codex-claude-no-user-cli-fallback:9e50b3a9bf3e78da7ca23646e094926c44cbea5dab9a7aa429cec897b897d457"
+      ]
     }
   ],
   "intents": [
@@ -210816,6 +210823,14 @@
       "summary": "Interaction recording, when it is on, also records what a click did to the screen's state: whether anything was marked current or selected before and after, and whether the page you landed on is marked in the navigation you clicked. No page text, paths or values are sent.",
       "sourceSha": "3a861bd8d6e6c6bae3d2cfdf003ec3f629e554c2",
       "identity": "interactions-ui-state:aa230b9fc4c29ac6ff5b071089d85920a8f2bd804a7f5d57a363efde85d71d6f"
+    },
+    {
+      "id": "codex-claude-no-user-cli-fallback",
+      "digest": "9e50b3a9bf3e78da7ca23646e094926c44cbea5dab9a7aa429cec897b897d457",
+      "type": "patch",
+      "summary": "Codex and Claude agent launches now run only Terminal's built-in CLI. Terminal waits up to two minutes for that CLI's first check, which the operating system can slow down while it scans a new file after an update. Terminal no longer falls back to a Codex or Claude installed on your machine, which could be an older version that rejects new models. If the built-in CLI really fails its check, the launch stops and says why: missing files, no answer in time, the wrong version, or a failed start. Restarting Terminal, or reinstalling it, fixes this. A `codex` or `claude` you type in a plain tab still runs your own CLI.",
+      "sourceSha": "ae8bc467678659f95a864c4ed92e75a238b0fdff",
+      "identity": "codex-claude-no-user-cli-fallback:9e50b3a9bf3e78da7ca23646e094926c44cbea5dab9a7aa429cec897b897d457"
     }
   ],
   "consumedIntentIds": [
