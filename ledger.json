@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "3d457b54b316f00e7da2e18010188ce1f60b8243",
-  "highWaterVersion": "1.615.6",
+  "highWaterVersion": "1.616.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -108813,6 +108813,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:3d457b54b316f00e7da2e18010188ce1f60b8243",
+      "kind": "main",
+      "sequence": 2670,
+      "sourceSha": "3d457b54b316f00e7da2e18010188ce1f60b8243",
+      "sourcePackageVersion": "1.615.5",
+      "version": "1.616.0",
+      "batch": {
+        "intentIds": [
+          "local-client-gate-default-on:3def73c99c75304e1eb35c95412557c0f86b4b314e3051543a3fa4a4a5fd58db"
+        ],
+        "notesIntentIds": [
+          "local-client-gate-default-on:3def73c99c75304e1eb35c95412557c0f86b4b314e3051543a3fa4a4a5fd58db"
+        ],
+        "throughSourceSha": "3d457b54b316f00e7da2e18010188ce1f60b8243",
+        "previousThroughSourceSha": "a56e0aa0e0baef2999e7b92c4a4570608fcbdb23",
+        "baselineVersion": "1.615.6",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-24T11:49:29.497Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45387519053",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-25T11:49:21.084Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -214581,7 +214624,8 @@
     "sandbox-qemu-pull-five-tries:00f9f7273548bc9d688077467a266f100d2181e66762a76186a514861b91db59",
     "terminal-e2e-core-flows:603f8603155ed80c991353528953dbdfae05b8f45af872ef07fa7df62610fa5b",
     "factory-terminal-pr-snapshot:c8799c48f0d1b3a4e8f13769240af01a52c07f147fd64b6489038a117307c0d6",
-    "proposal-page-and-remove:d37763bfa85e3a18e9d67de64a9e375626e49c4c1941ede606bb95cde09f6d7e"
+    "proposal-page-and-remove:d37763bfa85e3a18e9d67de64a9e375626e49c4c1941ede606bb95cde09f6d7e",
+    "local-client-gate-default-on:3def73c99c75304e1eb35c95412557c0f86b4b314e3051543a3fa4a4a5fd58db"
   ],
-  "consumedThroughSha": "a56e0aa0e0baef2999e7b92c4a4570608fcbdb23"
+  "consumedThroughSha": "3d457b54b316f00e7da2e18010188ce1f60b8243"
 }
