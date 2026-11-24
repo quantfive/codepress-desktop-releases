@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f92426457f3ac54f7288ac5d344dd594f64efa05",
+  "cursorSha": "44c10cca6f1b886a32274daf182a088918771e84",
   "highWaterVersion": "1.617.9",
   "rows": [
     {
@@ -199923,6 +199923,13 @@
       "sourceSha": "f92426457f3ac54f7288ac5d344dd594f64efa05",
       "sourcePackageVersion": "1.617.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "44c10cca6f1b886a32274daf182a088918771e84",
+      "sourcePackageVersion": "1.617.8",
+      "intentIds": [
+        "sandbox-lima-parallel-starts:b5169c8e6fc34b0d1645ed8392000b49dbb4b684cf991bae866df489cb24e2a0"
+      ]
     }
   ],
   "intents": [
@@ -214413,6 +214420,14 @@
       "summary": "Sandbox jobs that run under QEMU no longer lose their network mid-download: the bundled Lima connects QEMU 7.2 and later to the sandbox network with a datagram socket, which avoids a QEMU 10.x crash that stopped image pulls.",
       "sourceSha": "6967b6e8463106f6c1df164d62469ba003800b9a",
       "identity": "sandbox-lima-qemu-dgram:77f8fbb8783fac3a148abe9a4387bf696d017ad3b9680b59fb4d2f3f5db2e9e4"
+    },
+    {
+      "id": "sandbox-lima-parallel-starts",
+      "digest": "b5169c8e6fc34b0d1645ed8392000b49dbb4b684cf991bae866df489cb24e2a0",
+      "type": "patch",
+      "summary": "On Linux, sandbox jobs boot up to two VMs at once instead of one at a time. Terminal's Lima build (2.1.1-cp.5) now locks its network config edits, never stops another job's network while that job's VM is still starting, and creates and deletes VMs atomically. `SANDBOX_LIMA_PARALLEL_STARTS=1` brings back one boot at a time.",
+      "sourceSha": "44c10cca6f1b886a32274daf182a088918771e84",
+      "identity": "sandbox-lima-parallel-starts:b5169c8e6fc34b0d1645ed8392000b49dbb4b684cf991bae866df489cb24e2a0"
     }
   ],
   "consumedIntentIds": [
