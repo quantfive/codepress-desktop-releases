@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d4d7fa9cfb19ce75fa393e96dcf54a6d6bd8753a",
+  "cursorSha": "4d429112816b810851a63c3560f719552c57ea9b",
   "highWaterVersion": "1.617.6",
   "rows": [
     {
@@ -199513,6 +199513,13 @@
       "sourceSha": "d4d7fa9cfb19ce75fa393e96dcf54a6d6bd8753a",
       "sourcePackageVersion": "1.617.5",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4d429112816b810851a63c3560f719552c57ea9b",
+      "sourcePackageVersion": "1.617.5",
+      "intentIds": [
+        "terminal-rust-own-job:ec5688c40470f6eee189b393391411ce37595be5ef8704999abcf79f14d07b57"
+      ]
     }
   ],
   "intents": [
@@ -213931,6 +213938,14 @@
       "summary": "Inkling 2 Mini follows Runs on: when the kickoff or a new chat runs on another of your machines where Inkling 2 Mini is ready, the Orchestrate, Build and chat Model menus offer it under that machine's name, and the run starts there. A start on it that the machine can't run is refused with the way through, and nothing is created.",
       "sourceSha": "edd495c3b4645ae2178d5aeb85057df4bf947b7e",
       "identity": "inkling-runs-on-another-machine:0811900bf1543c2dc793e6d59e38d822ed23d3ea90e80db0a456a228cc605575"
+    },
+    {
+      "id": "terminal-rust-own-job",
+      "digest": "ec5688c40470f6eee189b393391411ce37595be5ef8704999abcf79f14d07b57",
+      "type": "patch",
+      "summary": "Terminal's CI test selector no longer holds back time on the first browser test job for the Rust checks, which now run in their own CI job.",
+      "sourceSha": "4d429112816b810851a63c3560f719552c57ea9b",
+      "identity": "terminal-rust-own-job:ec5688c40470f6eee189b393391411ce37595be5ef8704999abcf79f14d07b57"
     }
   ],
   "consumedIntentIds": [
