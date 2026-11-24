@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7a838088da8539029cc16f31fec9d6be213b95a4",
+  "cursorSha": "d5f986fca83c58a5f2d90e5c0882b16c198330ac",
   "highWaterVersion": "1.617.7",
   "rows": [
     {
@@ -199680,6 +199680,13 @@
       "sourceSha": "7a838088da8539029cc16f31fec9d6be213b95a4",
       "sourcePackageVersion": "1.617.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d5f986fca83c58a5f2d90e5c0882b16c198330ac",
+      "sourcePackageVersion": "1.617.6",
+      "intentIds": [
+        "reclaimed-worker-resume-generation:80e39967f28448a4786f32fd63908d123f42e11ec053e1089f33b4c856f22482"
+      ]
     }
   ],
   "intents": [
@@ -214130,6 +214137,14 @@
       "summary": "On Windows, Terminal now tells whether a saved local agent runner pid is still the runner it started (by its creation time and command line), scans for runner processes, and stops a runner together with its child processes. Local execution stays off on Windows; macOS and Linux behave as before.",
       "sourceSha": "181e30c3eb606762f0a8b401f22deaef5e72c287",
       "identity": "windows-runner-identity:4eb4377aca8092c78a2b62cd5ef65542962306b35a5441a7d617b025c77d848d"
+    },
+    {
+      "id": "reclaimed-worker-resume-generation",
+      "digest": "80e39967f28448a4786f32fd63908d123f42e11ec053e1089f33b4c856f22482",
+      "type": "patch",
+      "summary": "A worker reclaimed to free memory now resumes after a Terminal update removed the background-service folder its CLI lived in: the resume finds the provider's current CLI. When the in-tab resume still fails, relaunching the worker starts it fresh in a new tab on the project's model, and a relaunch waits briefly while the background service is still starting.",
+      "sourceSha": "d5f986fca83c58a5f2d90e5c0882b16c198330ac",
+      "identity": "reclaimed-worker-resume-generation:80e39967f28448a4786f32fd63908d123f42e11ec053e1089f33b4c856f22482"
     }
   ],
   "consumedIntentIds": [
