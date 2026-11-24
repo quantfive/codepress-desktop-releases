@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "106ef613a462b19af1a56ed82be71f1b8324f63d",
+  "cursorSha": "6797ab3573b00848e146bb466b3c8044d9d05b52",
   "highWaterVersion": "1.611.0",
   "rows": [
     {
@@ -196518,6 +196518,13 @@
       "sourceSha": "106ef613a462b19af1a56ed82be71f1b8324f63d",
       "sourcePackageVersion": "1.611.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "6797ab3573b00848e146bb466b3c8044d9d05b52",
+      "sourcePackageVersion": "1.611.0",
+      "intentIds": [
+        "rail-drag-zones:59057c7f5afc687e4bef7205ea640d1e31e82a6ad436544a89858a6621c34e8b"
+      ]
     }
   ],
   "intents": [
@@ -210584,6 +210591,14 @@
       "summary": "An App with a website has an Experiments view: every A/B test at a glance, and a page for each test showing its arms, metrics, verdict and trust checks. You can ask an agent to roll out a winner from there.",
       "sourceSha": "b02991c738f1e3170634e757f6d5af1d89cd7e69",
       "identity": "app-experiments-view:376caa92e2768dd9e121af367b17f3922c18b4c99700ce931955aed8d491f251"
+    },
+    {
+      "id": "rail-drag-zones",
+      "digest": "59057c7f5afc687e4bef7205ea640d1e31e82a6ad436544a89858a6621c34e8b",
+      "type": "patch",
+      "summary": "Dragging one of your own sidebar links now reorders only when the pointer is between two tabs. Holding it over the middle of another of your links keeps that link still and makes a folder, even if your hand moves a little.",
+      "sourceSha": "6797ab3573b00848e146bb466b3c8044d9d05b52",
+      "identity": "rail-drag-zones:59057c7f5afc687e4bef7205ea640d1e31e82a6ad436544a89858a6621c34e8b"
     }
   ],
   "consumedIntentIds": [
