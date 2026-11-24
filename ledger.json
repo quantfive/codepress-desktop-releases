@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a7ee832a734bd250aaf660f5a8ee6fe4d3f7b14c",
+  "cursorSha": "39967a2d354a45ed647fe6166e7bdbfdec346930",
   "highWaterVersion": "1.617.11",
   "rows": [
     {
@@ -200102,6 +200102,13 @@
       "sourceSha": "a7ee832a734bd250aaf660f5a8ee6fe4d3f7b14c",
       "sourcePackageVersion": "1.617.10",
       "intentIds": []
+    },
+    {
+      "sourceSha": "39967a2d354a45ed647fe6166e7bdbfdec346930",
+      "sourcePackageVersion": "1.617.10",
+      "intentIds": [
+        "inkling-handoff-to-machine:be7b2235c0988ff854dfe848be2c29ccba659261173772e6c8d837c33b15068a"
+      ]
     }
   ],
   "intents": [
@@ -214608,6 +214615,14 @@
       "summary": "Feature flags shows again in the account menu for staff who signed in to Terminal before November 19: Terminal now reads your account from CodePress once after launch instead of relying only on the copy saved at sign-in.",
       "sourceSha": "e2733e4cc560cc71a5e42d46df31a71794acee9c",
       "identity": "terminal-refresh-saved-user:850e828947dc410177f3082fa4dd70ad5f87b781fa33a1fe6b1a34b201a2b19a"
+    },
+    {
+      "id": "inkling-handoff-to-machine",
+      "digest": "be7b2235c0988ff854dfe848be2c29ccba659261173772e6c8d837c33b15068a",
+      "type": "patch",
+      "summary": "A project whose Orchestrator or Workers run on Inkling 2 Mini can now be handed off to another of your machines where Inkling 2 Mini is ready (with a window big enough for the Orchestrator). A move to a machine that can't run it, or that couldn't be checked, is refused before anything stops, naming the machine and how to set it up there or switch models.",
+      "sourceSha": "39967a2d354a45ed647fe6166e7bdbfdec346930",
+      "identity": "inkling-handoff-to-machine:be7b2235c0988ff854dfe848be2c29ccba659261173772e6c8d837c33b15068a"
     }
   ],
   "consumedIntentIds": [
