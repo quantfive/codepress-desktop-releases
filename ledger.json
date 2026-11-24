@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "8dbf6c0af4aab6e24375da27ccc9d506ff6c0705",
+  "cursorSha": "0f34ee8e3734040413b654d317d163bf6288a5a6",
   "highWaterVersion": "1.613.3",
   "rows": [
     {
@@ -197506,6 +197506,18 @@
       "sourceSha": "8dbf6c0af4aab6e24375da27ccc9d506ff6c0705",
       "sourcePackageVersion": "1.613.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "272ec6e638d5efc789a0cbdb321e47749764eac0",
+      "sourcePackageVersion": "1.613.2",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "0f34ee8e3734040413b654d317d163bf6288a5a6",
+      "sourcePackageVersion": "1.613.2",
+      "intentIds": [
+        "terminal-unit-weighted-placement:37cc8e82fe235ca32f2eb511eb921a6f80785984435465b6120ed02b2094f585"
+      ]
     }
   ],
   "intents": [
@@ -211740,6 +211752,14 @@
       "summary": "Improve Remote Desktop input responsiveness under trackpad/wheel bursts and high-RTT links by accumulating sub-pixel wheel residuals, coalescing `move -> scroll` and bounded `scroll -> scroll` bursts across the viewer and native host queues, microtask-batching native input bridge calls, automatically recovering input stalls via `reconnectTransport()`, and scoping permission recovery guidance to actual permission/consent refusals.",
       "sourceSha": "849ebeb15c3ce0cc65ca9f7170fc4f0f048ec73f",
       "identity": "desktop-input-responsiveness:a7a160ad25aca010dc474082e53d63edef244147ecf0c150113b984d635f1ee3"
+    },
+    {
+      "id": "terminal-unit-weighted-placement",
+      "digest": "37cc8e82fe235ca32f2eb511eb921a6f80785984435465b6120ed02b2094f585",
+      "type": "patch",
+      "summary": "CI places a selected Terminal unit run by its measured time instead of its file count: a selection that fits one 300-second shard runs in js-terminal-rest, and a larger one is spread over the js-terminal shards. The js-terminal shards' small artifact uploads now time out after two minutes instead of holding a shard for up to 17 minutes.",
+      "sourceSha": "0f34ee8e3734040413b654d317d163bf6288a5a6",
+      "identity": "terminal-unit-weighted-placement:37cc8e82fe235ca32f2eb511eb921a6f80785984435465b6120ed02b2094f585"
     }
   ],
   "consumedIntentIds": [
