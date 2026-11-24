@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "53166cc4831c550e5b084f1970be7073c7ab0296",
+  "cursorSha": "4596cc63ce6bc78aeee8adf8d831672ad598414d",
   "highWaterVersion": "1.617.0",
   "rows": [
     {
@@ -198921,6 +198921,13 @@
       "sourceSha": "53166cc4831c550e5b084f1970be7073c7ab0296",
       "sourcePackageVersion": "1.616.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4596cc63ce6bc78aeee8adf8d831672ad598414d",
+      "sourcePackageVersion": "1.616.2",
+      "intentIds": [
+        "m45-google-oauth-state:ac7dc7651f5186c22e48805849c9c5a9bef8ee10cf5c8c840a7e1986cdf9fccd"
+      ]
     }
   ],
   "intents": [
@@ -213283,6 +213290,14 @@
       "summary": "Code Mode runs on this machine: when an agent in Terminal calls the Platform MCP's `execute` tool and Code Mode is on for its organization, Terminal runs the script in a local workerd (fetched once, pinned and integrity-checked) instead of the hosted executor. The script's searches and calls go out on the agent's own connection, marked as made via `execute`. Where workerd cannot run, `execute` goes to the hosted executor as before.",
       "sourceSha": "69ec5fd92578a1b915dcaaa362dc3d4bbb11db46",
       "identity": "code-mode-local-executor:38d3255c5a5809bd7aa90e48d7dd809be88f20a1d2eff616284691bf7927f66e"
+    },
+    {
+      "id": "m45-google-oauth-state",
+      "digest": "ac7dc7651f5186c22e48805849c9c5a9bef8ee10cf5c8c840a7e1986cdf9fccd",
+      "type": "patch",
+      "summary": "Google sign-in now sends its state back to CodePress, so the server can check that the sign-in started on this machine and is used once.",
+      "sourceSha": "4596cc63ce6bc78aeee8adf8d831672ad598414d",
+      "identity": "m45-google-oauth-state:ac7dc7651f5186c22e48805849c9c5a9bef8ee10cf5c8c840a7e1986cdf9fccd"
     }
   ],
   "consumedIntentIds": [
