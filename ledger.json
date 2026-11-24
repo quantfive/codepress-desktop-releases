@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6be693137840a031b425d20f9d86b93e363b9cc9",
+  "cursorSha": "6ae2290287338378f3dcb6783e02872a42442fa8",
   "highWaterVersion": "1.612.2",
   "rows": [
     {
@@ -197043,6 +197043,23 @@
       "sourceSha": "6be693137840a031b425d20f9d86b93e363b9cc9",
       "sourcePackageVersion": "1.612.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "10527e706ab87df445f4144d0b3d4f9fcef3909d",
+      "sourcePackageVersion": "1.612.1",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "41ad3fc3a63404932f5bf358a7b631caf3f36eed",
+      "sourcePackageVersion": "1.612.1",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "6ae2290287338378f3dcb6783e02872a42442fa8",
+      "sourcePackageVersion": "1.612.1",
+      "intentIds": [
+        "pin-no-fallback-managed:311b6579f83738c67f4eedf33894c16d8e1a5dcd1db036c2c7b7fba933ca69ef"
+      ]
     }
   ],
   "intents": [
@@ -211189,6 +211206,14 @@
       "summary": "Apps: browse App templates and add one to a collection. New app gains a menu with Describe an app…, From a template and Add default apps; an empty collection shows Start from a template.",
       "sourceSha": "e5eda3217947fc7bb0530e448a5d29cd8d4ef55c",
       "identity": "app-templates-gallery:179fd445d11d6e79801e13efcca9efd0722f113fa38c9b237b8acdc4f7a70738"
+    },
+    {
+      "id": "pin-no-fallback-managed",
+      "digest": "311b6579f83738c67f4eedf33894c16d8e1a5dcd1db036c2c7b7fba933ca69ef",
+      "type": "patch",
+      "summary": "Muse, Grok, Gemini and Kimi Code agent launches now run only Terminal's own pinned CLI where Terminal ships one: a launch waits for the pin to download and fails with the reason if it cannot, instead of running your own CLI or an older copy. A tab Terminal starts with `kimi` waits for the pinned Kimi Code CLI the same way.",
+      "sourceSha": "6ae2290287338378f3dcb6783e02872a42442fa8",
+      "identity": "pin-no-fallback-managed:311b6579f83738c67f4eedf33894c16d8e1a5dcd1db036c2c7b7fba933ca69ef"
     }
   ],
   "consumedIntentIds": [
