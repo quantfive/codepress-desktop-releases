@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d31c72b3dac3425db956e9ff9f5b58cf9a30f31d",
+  "cursorSha": "d18a8fb31695350dceee1ceabd9b0fae363df9f5",
   "highWaterVersion": "1.613.3",
   "rows": [
     {
@@ -197487,6 +197487,13 @@
       "sourceSha": "d31c72b3dac3425db956e9ff9f5b58cf9a30f31d",
       "sourcePackageVersion": "1.613.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d18a8fb31695350dceee1ceabd9b0fae363df9f5",
+      "sourcePackageVersion": "1.613.2",
+      "intentIds": [
+        "thread-map-gutter-no-shift:5b61f776b2009322da902ab184eebec1681f428cc0ccb51b04cb87735352e9b0"
+      ]
     }
   ],
   "intents": [
@@ -211705,6 +211712,14 @@
       "summary": "Opening a project thread draws the composer's combined Orchestrator + Workers model chip, with its usage ring, from the first frame instead of showing a per-role chip with a bar that then swaps to the ring.",
       "sourceSha": "9eb0e2441dc85938727c8cba46fcd165a4c35ecf",
       "identity": "model-chip-first-frame:fa527b1800403c644f9e7cfd10729927a28146ac902f565e35566edee2317b92"
+    },
+    {
+      "id": "thread-map-gutter-no-shift",
+      "digest": "5b61f776b2009322da902ab184eebec1681f428cc0ccb51b04cb87735352e9b0",
+      "type": "patch",
+      "summary": "Orchestrator threads no longer slide 12px to the right when the conversation map appears: the map's gutter is reserved from the first render on desktop layouts with a fine pointer.",
+      "sourceSha": "d18a8fb31695350dceee1ceabd9b0fae363df9f5",
+      "identity": "thread-map-gutter-no-shift:5b61f776b2009322da902ab184eebec1681f428cc0ccb51b04cb87735352e9b0"
     }
   ],
   "consumedIntentIds": [
