@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d68092bb0725a5a313b88f4ae97192db31666588",
+  "cursorSha": "7dc1a50f701d1f9c0e0f3609f4a2a6e14e1d8795",
   "highWaterVersion": "1.615.4",
   "rows": [
     {
@@ -198194,6 +198194,13 @@
       "sourceSha": "d68092bb0725a5a313b88f4ae97192db31666588",
       "sourcePackageVersion": "1.615.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7dc1a50f701d1f9c0e0f3609f4a2a6e14e1d8795",
+      "sourcePackageVersion": "1.615.3",
+      "intentIds": [
+        "factory-terminal-pr-snapshot:c8799c48f0d1b3a4e8f13769240af01a52c07f147fd64b6489038a117307c0d6"
+      ]
     }
   ],
   "intents": [
@@ -212508,6 +212515,14 @@
       "summary": "Test tooling only: the Terminal Playwright suite keeps only the specs that walk a core flow (#25639). Removed specs leave the e2e selector, spec areas, timings and paired-shard plan with them, and `check-core-flow-classification.mjs` proves the classification CSV covers every spec. No change to the app.",
       "sourceSha": "fd3ade1b9e8ef31db9d1a52c1aa98bc34dfd23f9",
       "identity": "terminal-e2e-core-flows:603f8603155ed80c991353528953dbdfae05b8f45af872ef07fa7df62610fa5b"
+    },
+    {
+      "id": "factory-terminal-pr-snapshot",
+      "digest": "c8799c48f0d1b3a4e8f13769240af01a52c07f147fd64b6489038a117307c0d6",
+      "type": "patch",
+      "summary": "In a CodePress Terminal tab, the Factory Stop hook asks Terminal for its pull request before asking GitHub. Terminal answers from the PR record it keeps from webhooks and its 5-minute reconcile, through a new local route (`GET /api/factory/pr-snapshot`) that makes no GitHub call and refuses browser requests. When Terminal saw nothing change on the PR since the hook's last full read, the hook reuses that read past its 2-minute cache; a head change, any webhook for the PR, an old or missing answer, or a conclusion that the delivery is finished sends it back to GitHub as before. Each hook firing's request log now records where its PR facts came from and why Terminal's answer was not used. `CODEPRESS_FACTORY_TERMINAL_SNAPSHOT_MAX_AGE_SECONDS=0` turns the new path off.",
+      "sourceSha": "7dc1a50f701d1f9c0e0f3609f4a2a6e14e1d8795",
+      "identity": "factory-terminal-pr-snapshot:c8799c48f0d1b3a4e8f13769240af01a52c07f147fd64b6489038a117307c0d6"
     }
   ],
   "consumedIntentIds": [
