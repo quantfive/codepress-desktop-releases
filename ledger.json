@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "eadc632b3462425e6c409a697a39062d00982f3e",
+  "cursorSha": "805ad8883e6be36cb3ba4737f2c25496a2fc2cda",
   "highWaterVersion": "1.617.4",
   "rows": [
     {
@@ -199347,6 +199347,13 @@
       "sourceSha": "eadc632b3462425e6c409a697a39062d00982f3e",
       "sourcePackageVersion": "1.617.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "805ad8883e6be36cb3ba4737f2c25496a2fc2cda",
+      "sourcePackageVersion": "1.617.3",
+      "intentIds": [
+        "terminal-script-tests-sliced:8196baed2c9f98cb39bf57e6ba52b678040966cc552145d19b1be75aa6dd033e"
+      ]
     }
   ],
   "intents": [
@@ -213741,6 +213748,14 @@
       "summary": "CI: a broad selected Terminal Playwright run is cut across up to ten jobs instead of six, and the job that also runs the Rust checks gets fewer specs, so every job finishes in under 10 minutes.",
       "sourceSha": "17ada91c18cd3e8ad2911450561540a6a42ec990",
       "identity": "terminal-e2e-shard-cap:63609306670902f2ee5240929b85e01531949cca451633217114e56532e8dc94"
+    },
+    {
+      "id": "terminal-script-tests-sliced",
+      "digest": "8196baed2c9f98cb39bf57e6ba52b678040966cc552145d19b1be75aa6dd033e",
+      "type": "patch",
+      "summary": "CI only: Terminal's script tests run the long Playwright-selector test file in four parallel processes, so the `js-terminal-rest` job finishes sooner. No change to the app.",
+      "sourceSha": "805ad8883e6be36cb3ba4737f2c25496a2fc2cda",
+      "identity": "terminal-script-tests-sliced:8196baed2c9f98cb39bf57e6ba52b678040966cc552145d19b1be75aa6dd033e"
     }
   ],
   "consumedIntentIds": [
