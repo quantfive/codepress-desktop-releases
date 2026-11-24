@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "fb23715b7509202aa8eb13105b298ef4706603c3",
-  "highWaterVersion": "1.617.0",
+  "highWaterVersion": "1.617.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -109033,6 +109033,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:fb23715b7509202aa8eb13105b298ef4706603c3",
+      "kind": "main",
+      "sequence": 2674,
+      "sourceSha": "fb23715b7509202aa8eb13105b298ef4706603c3",
+      "sourcePackageVersion": "1.617.0",
+      "version": "1.617.1",
+      "batch": {
+        "intentIds": [
+          "m45-google-oauth-state:ac7dc7651f5186c22e48805849c9c5a9bef8ee10cf5c8c840a7e1986cdf9fccd"
+        ],
+        "notesIntentIds": [
+          "m45-google-oauth-state:ac7dc7651f5186c22e48805849c9c5a9bef8ee10cf5c8c840a7e1986cdf9fccd"
+        ],
+        "throughSourceSha": "fb23715b7509202aa8eb13105b298ef4706603c3",
+        "previousThroughSourceSha": "53166cc4831c550e5b084f1970be7073c7ab0296",
+        "baselineVersion": "1.617.0",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-24T15:03:17.902Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45420874512",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-25T15:03:08.021Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -215115,7 +215158,8 @@
     "local-client-gate-default-on:3def73c99c75304e1eb35c95412557c0f86b4b314e3051543a3fa4a4a5fd58db",
     "terminal-full-nine-shards:7e5010f6e5a9f1435576507dd9b8de7840498c20f5123af454b0e00045e1fbf9",
     "terminal-macos-entitlements-trim:1dfcb4d3ef46f4a9a855116f20eafd7f1c244c0f43151f0d28ecb86925738a16",
-    "code-mode-local-executor:38d3255c5a5809bd7aa90e48d7dd809be88f20a1d2eff616284691bf7927f66e"
+    "code-mode-local-executor:38d3255c5a5809bd7aa90e48d7dd809be88f20a1d2eff616284691bf7927f66e",
+    "m45-google-oauth-state:ac7dc7651f5186c22e48805849c9c5a9bef8ee10cf5c8c840a7e1986cdf9fccd"
   ],
-  "consumedThroughSha": "53166cc4831c550e5b084f1970be7073c7ab0296"
+  "consumedThroughSha": "fb23715b7509202aa8eb13105b298ef4706603c3"
 }
