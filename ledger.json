@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "6797ab3573b00848e146bb466b3c8044d9d05b52",
-  "highWaterVersion": "1.611.0",
+  "highWaterVersion": "1.611.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -107849,6 +107849,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:6797ab3573b00848e146bb466b3c8044d9d05b52",
+      "kind": "main",
+      "sequence": 2653,
+      "sourceSha": "6797ab3573b00848e146bb466b3c8044d9d05b52",
+      "sourcePackageVersion": "1.611.0",
+      "version": "1.611.1",
+      "batch": {
+        "intentIds": [
+          "rail-drag-zones:59057c7f5afc687e4bef7205ea640d1e31e82a6ad436544a89858a6621c34e8b"
+        ],
+        "notesIntentIds": [
+          "rail-drag-zones:59057c7f5afc687e4bef7205ea640d1e31e82a6ad436544a89858a6621c34e8b"
+        ],
+        "throughSourceSha": "6797ab3573b00848e146bb466b3c8044d9d05b52",
+        "previousThroughSourceSha": "b02991c738f1e3170634e757f6d5af1d89cd7e69",
+        "baselineVersion": "1.611.0",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-24T01:38:36.433Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45306454963",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-25T01:38:27.956Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -212359,7 +212402,8 @@
     "app-toolbar-fewer-things:2e969fe5d7e8276b130282ea4b06cdc21f0cae3175bcda9907b82e4c18cca616",
     "duo-status-column-tabs:1a842f54307a7d76c08e91525d75f27cc2a0bd8fb03efa77274f8ce657290080",
     "agent-google-account-card:3fe2168e1fedb54e1fd3cb49ef5ac9774ca26a5bd3c2a63d43d78471cd27a5ec",
-    "app-experiments-view:376caa92e2768dd9e121af367b17f3922c18b4c99700ce931955aed8d491f251"
+    "app-experiments-view:376caa92e2768dd9e121af367b17f3922c18b4c99700ce931955aed8d491f251",
+    "rail-drag-zones:59057c7f5afc687e4bef7205ea640d1e31e82a6ad436544a89858a6621c34e8b"
   ],
-  "consumedThroughSha": "b02991c738f1e3170634e757f6d5af1d89cd7e69"
+  "consumedThroughSha": "6797ab3573b00848e146bb466b3c8044d9d05b52"
 }
