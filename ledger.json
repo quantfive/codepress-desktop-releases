@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "c795628a9b733c2d5d0e4cf2b2dc0daecc589e6e",
-  "highWaterVersion": "1.610.3",
+  "highWaterVersion": "1.610.4",
   "rows": [
     {
       "schemaVersion": 1,
@@ -107731,6 +107731,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:c795628a9b733c2d5d0e4cf2b2dc0daecc589e6e",
+      "kind": "main",
+      "sequence": 2651,
+      "sourceSha": "c795628a9b733c2d5d0e4cf2b2dc0daecc589e6e",
+      "sourcePackageVersion": "1.610.2",
+      "version": "1.610.4",
+      "batch": {
+        "intentIds": [
+          "agent-google-account-card:3fe2168e1fedb54e1fd3cb49ef5ac9774ca26a5bd3c2a63d43d78471cd27a5ec"
+        ],
+        "notesIntentIds": [
+          "agent-google-account-card:3fe2168e1fedb54e1fd3cb49ef5ac9774ca26a5bd3c2a63d43d78471cd27a5ec"
+        ],
+        "throughSourceSha": "c795628a9b733c2d5d0e4cf2b2dc0daecc589e6e",
+        "previousThroughSourceSha": "b82ed4c39f408754e0c01195066499c42fe1936e",
+        "baselineVersion": "1.610.3",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-24T00:07:46.169Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45294454799",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-25T00:07:32.696Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -212104,7 +212147,8 @@
     "rail-tab-names:4d8ff22707624277edb60bbff12f9b72d2f7e0abc12d57a0e5ca2f921916ee42",
     "rail-folders-by-drag:99fa83f68545a4a1c4f6d0c173fd5d0ef98987fc5204964574e88e384f6de7d1",
     "app-toolbar-fewer-things:2e969fe5d7e8276b130282ea4b06cdc21f0cae3175bcda9907b82e4c18cca616",
-    "duo-status-column-tabs:1a842f54307a7d76c08e91525d75f27cc2a0bd8fb03efa77274f8ce657290080"
+    "duo-status-column-tabs:1a842f54307a7d76c08e91525d75f27cc2a0bd8fb03efa77274f8ce657290080",
+    "agent-google-account-card:3fe2168e1fedb54e1fd3cb49ef5ac9774ca26a5bd3c2a63d43d78471cd27a5ec"
   ],
-  "consumedThroughSha": "b82ed4c39f408754e0c01195066499c42fe1936e"
+  "consumedThroughSha": "c795628a9b733c2d5d0e4cf2b2dc0daecc589e6e"
 }
