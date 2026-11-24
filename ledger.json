@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1550de75cbeaffc84f3c2e4a4360a14b5c4c880c",
+  "cursorSha": "77ef21a657b5ce8498ac92517b861f9d9ff7e18d",
   "highWaterVersion": "1.613.1",
   "rows": [
     {
@@ -197272,6 +197272,13 @@
       "sourceSha": "1550de75cbeaffc84f3c2e4a4360a14b5c4c880c",
       "sourcePackageVersion": "1.613.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "77ef21a657b5ce8498ac92517b861f9d9ff7e18d",
+      "sourcePackageVersion": "1.613.0",
+      "intentIds": [
+        "share-link-domain-ui:1995132754a089d94f04185b9029261fda8172b8bee7b4bf7786a2f8db62b238"
+      ]
     }
   ],
   "intents": [
@@ -211450,6 +211457,14 @@
       "summary": "CI runners: a Repository picker in the toolbar narrows every section to one repository when the organization tracks two or more; per-repository usage figures say they are estimated from job minutes.",
       "sourceSha": "b47dfe8d58a41afd216f9b629989b324187cbf27",
       "identity": "ci-runners-repository-filter:8058a5e8a96471a37152f45fc74d9309fc0e3030a25e86a033df901f2e9d4b78"
+    },
+    {
+      "id": "share-link-domain-ui",
+      "digest": "1995132754a089d94f04185b9029261fda8172b8bee7b4bf7786a2f8db62b238",
+      "type": "patch",
+      "summary": "An App's or artifact's Share dialog shows the share link on the domain it is served on, and, while share links on website domains are on, lets you pick that domain. A website App's Domains panel marks which domains serve share links and which one new links use.",
+      "sourceSha": "77ef21a657b5ce8498ac92517b861f9d9ff7e18d",
+      "identity": "share-link-domain-ui:1995132754a089d94f04185b9029261fda8172b8bee7b4bf7786a2f8db62b238"
     }
   ],
   "consumedIntentIds": [
