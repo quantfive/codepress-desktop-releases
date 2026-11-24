@@ -108389,7 +108389,7 @@
       "publicationDate": "2026-11-24T07:12:05.459Z",
       "releaseId": null,
       "mac": {
-        "status": "claimed",
+        "status": "dispatching",
         "generation": 1,
         "owner": {
           "ownerId": "terminal-macos-delivery",
@@ -108397,7 +108397,11 @@
           "attempt": 1
         },
         "leaseUntil": "2026-11-25T07:11:57.747Z",
-        "dispatch": null,
+        "dispatch": {
+          "intentId": "same-run:9eaa56e8977e048e59810a05584d87c1f117d37e70fd708eaf3a8c4b12703b58",
+          "runId": null,
+          "terminal": false
+        },
         "failures": []
       },
       "linux": {
