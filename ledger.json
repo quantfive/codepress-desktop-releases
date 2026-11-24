@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "0d3370a626eec4a3665bb0783fa66e43f39955ec",
-  "highWaterVersion": "1.615.4",
+  "highWaterVersion": "1.615.5",
   "rows": [
     {
       "schemaVersion": 1,
@@ -108711,6 +108711,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:0d3370a626eec4a3665bb0783fa66e43f39955ec",
+      "kind": "main",
+      "sequence": 2668,
+      "sourceSha": "0d3370a626eec4a3665bb0783fa66e43f39955ec",
+      "sourcePackageVersion": "1.615.4",
+      "version": "1.615.5",
+      "batch": {
+        "intentIds": [
+          "factory-terminal-pr-snapshot:c8799c48f0d1b3a4e8f13769240af01a52c07f147fd64b6489038a117307c0d6"
+        ],
+        "notesIntentIds": [
+          "factory-terminal-pr-snapshot:c8799c48f0d1b3a4e8f13769240af01a52c07f147fd64b6489038a117307c0d6"
+        ],
+        "throughSourceSha": "0d3370a626eec4a3665bb0783fa66e43f39955ec",
+        "previousThroughSourceSha": "4b4678cad18f399ad1824a0fe678be22a0103a63",
+        "baselineVersion": "1.615.4",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-24T10:46:55.431Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45377835059",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-25T10:46:46.209Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -214362,7 +214405,8 @@
     "failover-soonest-reset:9271ab98dc6f427b78c69e1dde5d31eee2078bcfd2ac54ed34e901c475802dfa",
     "terminal-app-identity-port:886e0b17fe38fd1d751b41e657241d20373d9d898e2d4c686742c9d3720db309",
     "sandbox-qemu-pull-five-tries:00f9f7273548bc9d688077467a266f100d2181e66762a76186a514861b91db59",
-    "terminal-e2e-core-flows:603f8603155ed80c991353528953dbdfae05b8f45af872ef07fa7df62610fa5b"
+    "terminal-e2e-core-flows:603f8603155ed80c991353528953dbdfae05b8f45af872ef07fa7df62610fa5b",
+    "factory-terminal-pr-snapshot:c8799c48f0d1b3a4e8f13769240af01a52c07f147fd64b6489038a117307c0d6"
   ],
-  "consumedThroughSha": "4b4678cad18f399ad1824a0fe678be22a0103a63"
+  "consumedThroughSha": "0d3370a626eec4a3665bb0783fa66e43f39955ec"
 }
