@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "aae4b9b08fbd34778fbe5c07db348b06a23493d9",
+  "cursorSha": "e24a6be731833c77d05d12b153fd9cf9d511bef2",
   "highWaterVersion": "1.615.0",
   "rows": [
     {
@@ -197691,6 +197691,13 @@
       "intentIds": [
         "inkling-orchestrator-and-chat:2f3c44e562ef6a5cd0852c80182f77cfd42605b7b36fe06abe0da400054f3df6"
       ]
+    },
+    {
+      "sourceSha": "e24a6be731833c77d05d12b153fd9cf9d511bef2",
+      "sourcePackageVersion": "1.613.3",
+      "intentIds": [
+        "remote-call-no-answer-wording:15b7ac38bfb4cc8e116413545da57c1b26e935c28ee76ae6951a178865b687a0"
+      ]
     }
   ],
   "intents": [
@@ -211949,6 +211956,14 @@
       "summary": "The Orchestrator and chats can run on Inkling 2 Mini (this machine). On a machine with 48 GB of memory or more where it is set up, the Orchestrator and chat model menus offer it, and the launch starts the local model server with no key. The local model server's window now follows memory: 65,536 tokens, 131,072 from 48 GB and 262,144 from 64 GB. Claude Code is told that window so it compacts in time. On a 32 GB machine it still runs workers and Claude Code tabs, and an Orchestrator or chat on it is refused with the way through.",
       "sourceSha": "aae4b9b08fbd34778fbe5c07db348b06a23493d9",
       "identity": "inkling-orchestrator-and-chat:2f3c44e562ef6a5cd0852c80182f77cfd42605b7b36fe06abe0da400054f3df6"
+    },
+    {
+      "id": "remote-call-no-answer-wording",
+      "digest": "15b7ac38bfb4cc8e116413545da57c1b26e935c28ee76ae6951a178865b687a0",
+      "type": "patch",
+      "summary": "A cross-machine call that gets no answer in time now says the target machine did not answer (it may be busy or restarting) instead of \"target refused remote execution\", and keeps the same-operation retry advice.",
+      "sourceSha": "e24a6be731833c77d05d12b153fd9cf9d511bef2",
+      "identity": "remote-call-no-answer-wording:15b7ac38bfb4cc8e116413545da57c1b26e935c28ee76ae6951a178865b687a0"
     }
   ],
   "consumedIntentIds": [
