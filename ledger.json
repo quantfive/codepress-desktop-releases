@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "805ad8883e6be36cb3ba4737f2c25496a2fc2cda",
+  "cursorSha": "8689100bb8774e1907e4f5c5f6e62408a0d97fc5",
   "highWaterVersion": "1.617.4",
   "rows": [
     {
@@ -199354,6 +199354,13 @@
       "intentIds": [
         "terminal-script-tests-sliced:8196baed2c9f98cb39bf57e6ba52b678040966cc552145d19b1be75aa6dd033e"
       ]
+    },
+    {
+      "sourceSha": "8689100bb8774e1907e4f5c5f6e62408a0d97fc5",
+      "sourcePackageVersion": "1.617.3",
+      "intentIds": [
+        "new-chat-opens-on-orchestrator:9390bdf1eb8b4e1cda48fc12cd7036050267ed77c48f08748b867f695b4da874"
+      ]
     }
   ],
   "intents": [
@@ -213756,6 +213763,14 @@
       "summary": "CI only: Terminal's script tests run the long Playwright-selector test file in four parallel processes, so the `js-terminal-rest` job finishes sooner. No change to the app.",
       "sourceSha": "805ad8883e6be36cb3ba4737f2c25496a2fc2cda",
       "identity": "terminal-script-tests-sliced:8196baed2c9f98cb39bf57e6ba52b678040966cc552145d19b1be75aa6dd033e"
+    },
+    {
+      "id": "new-chat-opens-on-orchestrator",
+      "digest": "9390bdf1eb8b4e1cda48fc12cd7036050267ed77c48f08748b867f695b4da874",
+      "type": "patch",
+      "summary": "New chat opens on the Orchestrator the first time, until you pick Chat or Orchestrator on the pill; a saved pick is kept as before.",
+      "sourceSha": "8689100bb8774e1907e4f5c5f6e62408a0d97fc5",
+      "identity": "new-chat-opens-on-orchestrator:9390bdf1eb8b4e1cda48fc12cd7036050267ed77c48f08748b867f695b4da874"
     }
   ],
   "consumedIntentIds": [
