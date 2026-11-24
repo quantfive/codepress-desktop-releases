@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e69a5b17e91c17207e7a7d2d7e5259a221c82361",
+  "cursorSha": "0d61d9cebdbf3ffe206ca4f9a286004fcf1af1ff",
   "highWaterVersion": "1.615.3",
   "rows": [
     {
@@ -198094,6 +198094,13 @@
       "sourceSha": "e69a5b17e91c17207e7a7d2d7e5259a221c82361",
       "sourcePackageVersion": "1.615.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "0d61d9cebdbf3ffe206ca4f9a286004fcf1af1ff",
+      "sourcePackageVersion": "1.615.2",
+      "intentIds": [
+        "terminal-app-identity-port:886e0b17fe38fd1d751b41e657241d20373d9d898e2d4c686742c9d3720db309"
+      ]
     }
   ],
   "intents": [
@@ -212384,6 +212391,14 @@
       "summary": "Automatic account switching at a usage limit now always moves to the free account whose limit resets soonest: workers with relaunch off, the pooled proxy moving a tab off a limited account, and Kimi worker switches now rank this way, as the Orchestrator and relaunched workers already did.",
       "sourceSha": "1c4e7aa03c7d0ec4ebf50a22785340216a23d93a",
       "identity": "failover-soonest-reset:9271ab98dc6f427b78c69e1dde5d31eee2078bcfd2ac54ed34e901c475802dfa"
+    },
+    {
+      "id": "terminal-app-identity-port",
+      "digest": "886e0b17fe38fd1d751b41e657241d20373d9d898e2d4c686742c9d3720db309",
+      "type": "patch",
+      "summary": "The app name and icon are read from the background server that is running now: after the server is replaced on another port, the window stops asking the stopped one.",
+      "sourceSha": "0d61d9cebdbf3ffe206ca4f9a286004fcf1af1ff",
+      "identity": "terminal-app-identity-port:886e0b17fe38fd1d751b41e657241d20373d9d898e2d4c686742c9d3720db309"
     }
   ],
   "consumedIntentIds": [
