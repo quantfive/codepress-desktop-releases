@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7b1d1efcc318fa8808709b45c46145e04026b0cf",
+  "cursorSha": "59694281ab878a6091b42e77c90b5a09fddf5581",
   "highWaterVersion": "1.617.7",
   "rows": [
     {
@@ -199709,6 +199709,13 @@
       "sourceSha": "7b1d1efcc318fa8808709b45c46145e04026b0cf",
       "sourcePackageVersion": "1.617.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "59694281ab878a6091b42e77c90b5a09fddf5581",
+      "sourcePackageVersion": "1.617.6",
+      "intentIds": [
+        "app-corners-capsule-helper:1d68114da135dd46b2fda4dfe2cc03cb4c979a61b34a990041154aeabb38aec8"
+      ]
     }
   ],
   "intents": [
@@ -214175,6 +214182,14 @@
       "summary": "User intent ledgers mark a replaced decision with `Superseded by: U-key`, or `(in part)`: the user-intent skill explains the label and `codepress factory intent` lists a replaced decision by key only.",
       "sourceSha": "1dd04f4f9c10f68c1ddaf230947e3e2576af7abf",
       "identity": "intent-in-force:d92d72e3906f5d3ddc4c4dd550cbb30566b025034a21b889713629ebfcfadf9c"
+    },
+    {
+      "id": "app-corners-capsule-helper",
+      "digest": "1d68114da135dd46b2fda4dfe2cc03cb4c979a61b34a990041154aeabb38aec8",
+      "type": "patch",
+      "summary": "The shared Button, Badge and Input read their mobile-app capsule from a new helper, `appCapsule`, which Terminal now bundles. Terminal looks the same: its stylesheet has no `mobile-app` variant, so the capsule class draws nothing there.",
+      "sourceSha": "59694281ab878a6091b42e77c90b5a09fddf5581",
+      "identity": "app-corners-capsule-helper:1d68114da135dd46b2fda4dfe2cc03cb4c979a61b34a990041154aeabb38aec8"
     }
   ],
   "consumedIntentIds": [
