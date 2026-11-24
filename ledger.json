@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7df1e31e0eb14cbdc23f8723795d0e39592620b8",
+  "cursorSha": "fd3ade1b9e8ef31db9d1a52c1aa98bc34dfd23f9",
   "highWaterVersion": "1.615.3",
   "rows": [
     {
@@ -198118,6 +198118,13 @@
       "sourceSha": "7df1e31e0eb14cbdc23f8723795d0e39592620b8",
       "sourcePackageVersion": "1.615.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "fd3ade1b9e8ef31db9d1a52c1aa98bc34dfd23f9",
+      "sourcePackageVersion": "1.615.2",
+      "intentIds": [
+        "terminal-e2e-core-flows:603f8603155ed80c991353528953dbdfae05b8f45af872ef07fa7df62610fa5b"
+      ]
     }
   ],
   "intents": [
@@ -212424,6 +212431,14 @@
       "summary": "Setting up the Linux sandbox on QEMU now tries the base image's pull five times instead of three, starting the base VM again after each QEMU crash, so three crashes in a row no longer fail setup.",
       "sourceSha": "b58f689af5bc1a13589ba9f2c8bd655e1a03f650",
       "identity": "sandbox-qemu-pull-five-tries:00f9f7273548bc9d688077467a266f100d2181e66762a76186a514861b91db59"
+    },
+    {
+      "id": "terminal-e2e-core-flows",
+      "digest": "603f8603155ed80c991353528953dbdfae05b8f45af872ef07fa7df62610fa5b",
+      "type": "patch",
+      "summary": "Test tooling only: the Terminal Playwright suite keeps only the specs that walk a core flow (#25639). Removed specs leave the e2e selector, spec areas, timings and paired-shard plan with them, and `check-core-flow-classification.mjs` proves the classification CSV covers every spec. No change to the app.",
+      "sourceSha": "fd3ade1b9e8ef31db9d1a52c1aa98bc34dfd23f9",
+      "identity": "terminal-e2e-core-flows:603f8603155ed80c991353528953dbdfae05b8f45af872ef07fa7df62610fa5b"
     }
   ],
   "consumedIntentIds": [
