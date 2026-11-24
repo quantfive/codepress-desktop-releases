@@ -108101,10 +108101,14 @@
       "publicationDate": "2026-11-24T03:47:45.652Z",
       "releaseId": null,
       "mac": {
-        "status": "pending",
-        "generation": 1,
-        "owner": null,
-        "leaseUntil": null,
+        "status": "claimed",
+        "generation": 2,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45324499065",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-25T04:10:42.413Z",
         "dispatch": null,
         "failures": [
           {
