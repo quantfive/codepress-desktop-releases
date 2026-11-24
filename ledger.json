@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "b02991c738f1e3170634e757f6d5af1d89cd7e69",
-  "highWaterVersion": "1.610.4",
+  "highWaterVersion": "1.611.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -107794,6 +107794,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:b02991c738f1e3170634e757f6d5af1d89cd7e69",
+      "kind": "main",
+      "sequence": 2652,
+      "sourceSha": "b02991c738f1e3170634e757f6d5af1d89cd7e69",
+      "sourcePackageVersion": "1.610.4",
+      "version": "1.611.0",
+      "batch": {
+        "intentIds": [
+          "app-experiments-view:376caa92e2768dd9e121af367b17f3922c18b4c99700ce931955aed8d491f251"
+        ],
+        "notesIntentIds": [
+          "app-experiments-view:376caa92e2768dd9e121af367b17f3922c18b4c99700ce931955aed8d491f251"
+        ],
+        "throughSourceSha": "b02991c738f1e3170634e757f6d5af1d89cd7e69",
+        "previousThroughSourceSha": "c795628a9b733c2d5d0e4cf2b2dc0daecc589e6e",
+        "baselineVersion": "1.610.4",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-24T00:55:02.263Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45300893304",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-25T00:54:53.313Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -212243,7 +212286,8 @@
     "rail-folders-by-drag:99fa83f68545a4a1c4f6d0c173fd5d0ef98987fc5204964574e88e384f6de7d1",
     "app-toolbar-fewer-things:2e969fe5d7e8276b130282ea4b06cdc21f0cae3175bcda9907b82e4c18cca616",
     "duo-status-column-tabs:1a842f54307a7d76c08e91525d75f27cc2a0bd8fb03efa77274f8ce657290080",
-    "agent-google-account-card:3fe2168e1fedb54e1fd3cb49ef5ac9774ca26a5bd3c2a63d43d78471cd27a5ec"
+    "agent-google-account-card:3fe2168e1fedb54e1fd3cb49ef5ac9774ca26a5bd3c2a63d43d78471cd27a5ec",
+    "app-experiments-view:376caa92e2768dd9e121af367b17f3922c18b4c99700ce931955aed8d491f251"
   ],
-  "consumedThroughSha": "c795628a9b733c2d5d0e4cf2b2dc0daecc589e6e"
+  "consumedThroughSha": "b02991c738f1e3170634e757f6d5af1d89cd7e69"
 }
