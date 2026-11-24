@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T12:25:00.000Z",
+  "generatedAt": "2026-11-24T04:23:34.000Z",
   "catalog": [
     {
       "id": "claude-opus-5-5",
@@ -801,7 +801,12 @@
     "codex-frontier": {
       "model": "gpt-6.2-sol",
       "description": "Codex default and frontier Codex builtin agents (DEFAULT_CODEX_MODEL_ID, DEFAULT_AGENT_MODEL_OPENAI, the staging default, Terminal's local implementor default).",
-      "codexAgents": ["db-performance-verifier", "falsifier", "falsifier-next"]
+      "codexAgents": [
+        "db-performance-verifier",
+        "falsifier",
+        "falsifier-next",
+        "ui-reviewer"
+      ]
     },
     "codex-subagent": {
       "model": "gpt-6-luna",
@@ -837,7 +842,7 @@
     "claude-subagent-deep": {
       "model": "claude-opus-5-5",
       "description": "Claude model for builtin agents that need the most capable tier, written as its family alias.",
-      "claudeAgents": ["db-performance-verifier"]
+      "claudeAgents": ["db-performance-verifier", "ui-reviewer"]
     },
     "claude-subagent-light": {
       "model": "claude-haiku-5-5",
