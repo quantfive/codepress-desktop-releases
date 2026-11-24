@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "d8988810cdf47a59f474f35917a72dcb2ef538d7",
-  "highWaterVersion": "1.617.6",
+  "highWaterVersion": "1.617.7",
   "rows": [
     {
       "schemaVersion": 1,
@@ -109361,6 +109361,53 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:d8988810cdf47a59f474f35917a72dcb2ef538d7",
+      "kind": "main",
+      "sequence": 2680,
+      "sourceSha": "d8988810cdf47a59f474f35917a72dcb2ef538d7",
+      "sourcePackageVersion": "1.617.5",
+      "version": "1.617.7",
+      "batch": {
+        "intentIds": [
+          "terminal-rust-own-job:ec5688c40470f6eee189b393391411ce37595be5ef8704999abcf79f14d07b57",
+          "desktop-toolbar-narrow-pane:7944fb9d265979d9fe42fdb0baf108bfb2cb69beaec89bf04b784ebc36c58a20",
+          "thread-backfill-subpixel-hold:5466a8dbb5fe1e9c3adc9868987382868be5488ae3221e511b2896f304764004"
+        ],
+        "notesIntentIds": [
+          "terminal-rust-own-job:ec5688c40470f6eee189b393391411ce37595be5ef8704999abcf79f14d07b57",
+          "desktop-toolbar-narrow-pane:7944fb9d265979d9fe42fdb0baf108bfb2cb69beaec89bf04b784ebc36c58a20",
+          "thread-backfill-subpixel-hold:5466a8dbb5fe1e9c3adc9868987382868be5488ae3221e511b2896f304764004"
+        ],
+        "throughSourceSha": "d8988810cdf47a59f474f35917a72dcb2ef538d7",
+        "previousThroughSourceSha": "7cdf55fa74be0e650ebddc2b85258ca836c06486",
+        "baselineVersion": "1.617.6",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-24T20:47:29.196Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45484252211",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-25T20:47:18.181Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -215830,7 +215877,10 @@
     "terminal-e2e-shard-cap:63609306670902f2ee5240929b85e01531949cca451633217114e56532e8dc94",
     "terminal-script-tests-sliced:8196baed2c9f98cb39bf57e6ba52b678040966cc552145d19b1be75aa6dd033e",
     "new-chat-opens-on-orchestrator:9390bdf1eb8b4e1cda48fc12cd7036050267ed77c48f08748b867f695b4da874",
-    "inkling-runs-on-another-machine:0811900bf1543c2dc793e6d59e38d822ed23d3ea90e80db0a456a228cc605575"
+    "inkling-runs-on-another-machine:0811900bf1543c2dc793e6d59e38d822ed23d3ea90e80db0a456a228cc605575",
+    "terminal-rust-own-job:ec5688c40470f6eee189b393391411ce37595be5ef8704999abcf79f14d07b57",
+    "desktop-toolbar-narrow-pane:7944fb9d265979d9fe42fdb0baf108bfb2cb69beaec89bf04b784ebc36c58a20",
+    "thread-backfill-subpixel-hold:5466a8dbb5fe1e9c3adc9868987382868be5488ae3221e511b2896f304764004"
   ],
-  "consumedThroughSha": "7cdf55fa74be0e650ebddc2b85258ca836c06486"
+  "consumedThroughSha": "d8988810cdf47a59f474f35917a72dcb2ef538d7"
 }
