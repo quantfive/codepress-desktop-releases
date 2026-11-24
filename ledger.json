@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2bb2f66c6c5b4d4ccc7bf7d29facdf5da614bc7f",
+  "cursorSha": "69ec5fd92578a1b915dcaaa362dc3d4bbb11db46",
   "highWaterVersion": "1.616.2",
   "rows": [
     {
@@ -198829,6 +198829,13 @@
       "sourceSha": "2bb2f66c6c5b4d4ccc7bf7d29facdf5da614bc7f",
       "sourcePackageVersion": "1.616.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "69ec5fd92578a1b915dcaaa362dc3d4bbb11db46",
+      "sourcePackageVersion": "1.616.1",
+      "intentIds": [
+        "code-mode-local-executor:38d3255c5a5809bd7aa90e48d7dd809be88f20a1d2eff616284691bf7927f66e"
+      ]
     }
   ],
   "intents": [
@@ -213183,6 +213190,14 @@
       "summary": "macOS: the signed app now carries only the microphone entitlement. Library validation and the hardened runtime's executable-memory protections are back on, so macOS refuses unsigned or foreign-team libraries injected into CodePress.",
       "sourceSha": "85b4fbdbf7acee1f7f500d8a96e770e2747900d5",
       "identity": "terminal-macos-entitlements-trim:1dfcb4d3ef46f4a9a855116f20eafd7f1c244c0f43151f0d28ecb86925738a16"
+    },
+    {
+      "id": "code-mode-local-executor",
+      "digest": "38d3255c5a5809bd7aa90e48d7dd809be88f20a1d2eff616284691bf7927f66e",
+      "type": "minor",
+      "summary": "Code Mode runs on this machine: when an agent in Terminal calls the Platform MCP's `execute` tool and Code Mode is on for its organization, Terminal runs the script in a local workerd (fetched once, pinned and integrity-checked) instead of the hosted executor. The script's searches and calls go out on the agent's own connection, marked as made via `execute`. Where workerd cannot run, `execute` goes to the hosted executor as before.",
+      "sourceSha": "69ec5fd92578a1b915dcaaa362dc3d4bbb11db46",
+      "identity": "code-mode-local-executor:38d3255c5a5809bd7aa90e48d7dd809be88f20a1d2eff616284691bf7927f66e"
     }
   ],
   "consumedIntentIds": [
