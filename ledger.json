@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "df0d370b505f665c841359fde154b3ea915f1ce4",
+  "cursorSha": "3a861bd8d6e6c6bae3d2cfdf003ec3f629e554c2",
   "highWaterVersion": "1.611.2",
   "rows": [
     {
@@ -196711,6 +196711,13 @@
       "sourceSha": "df0d370b505f665c841359fde154b3ea915f1ce4",
       "sourcePackageVersion": "1.611.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3a861bd8d6e6c6bae3d2cfdf003ec3f629e554c2",
+      "sourcePackageVersion": "1.611.1",
+      "intentIds": [
+        "interactions-ui-state:aa230b9fc4c29ac6ff5b071089d85920a8f2bd804a7f5d57a363efde85d71d6f"
+      ]
     }
   ],
   "intents": [
@@ -210801,6 +210808,14 @@
       "summary": "Each page of a plan canvas with a share link has a Copy link that opens the shared canvas centred on that page, marked Linked, with every other page still on the canvas.",
       "sourceSha": "da4ff2cffd12d5ed2da4c006cfb885f83d93dcfc",
       "identity": "canvas-node-links:b5d25d25fbb6522584c8a6954d6e36876dcc32606a0536235d25473715bf4252"
+    },
+    {
+      "id": "interactions-ui-state",
+      "digest": "aa230b9fc4c29ac6ff5b071089d85920a8f2bd804a7f5d57a363efde85d71d6f",
+      "type": "patch",
+      "summary": "Interaction recording, when it is on, also records what a click did to the screen's state: whether anything was marked current or selected before and after, and whether the page you landed on is marked in the navigation you clicked. No page text, paths or values are sent.",
+      "sourceSha": "3a861bd8d6e6c6bae3d2cfdf003ec3f629e554c2",
+      "identity": "interactions-ui-state:aa230b9fc4c29ac6ff5b071089d85920a8f2bd804a7f5d57a363efde85d71d6f"
     }
   ],
   "consumedIntentIds": [
