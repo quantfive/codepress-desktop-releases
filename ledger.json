@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4d03abb20b47718c6d0982eec2cb3d9b71458c98",
+  "cursorSha": "55423a033afbb02248ce6e06eeafba2f692ed41e",
   "highWaterVersion": "1.613.3",
   "rows": [
     {
@@ -197443,6 +197443,13 @@
       "sourceSha": "4d03abb20b47718c6d0982eec2cb3d9b71458c98",
       "sourcePackageVersion": "1.613.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "55423a033afbb02248ce6e06eeafba2f692ed41e",
+      "sourcePackageVersion": "1.613.2",
+      "intentIds": [
+        "requester-approves-orchestrator:709db91275fbdf24c6faf5fdc92ed9f30f492c20ce0e9e0c66773c1194175b14"
+      ]
     }
   ],
   "intents": [
@@ -211645,6 +211652,14 @@
       "summary": "Local Orchestrators can use permitted desktop control for requested work, including reading a signed-in browser window after you yield it.",
       "sourceSha": "19f3727dfc3ecd11db01c38fb08e2b32530c8a64",
       "identity": "orchestrator-permitted-desktop-control:bf60bb25f09d70740a1e8b393d89f4e7aea73400dc38428b36e117feb060b6aa"
+    },
+    {
+      "id": "requester-approves-orchestrator",
+      "digest": "709db91275fbdf24c6faf5fdc92ed9f30f492c20ce0e9e0c66773c1194175b14",
+      "type": "minor",
+      "summary": "An agent that starts an Orchestrator project with `requester_approves: true` (`start_orchestrator` from a tab, or `start_project` from another Orchestrator) becomes the project's requester: its messages read as `your_requester`, it answers the project's questions, and its approving reply starts the build without a press from the person. The build line names who approved. Projects started without it are unchanged.",
+      "sourceSha": "55423a033afbb02248ce6e06eeafba2f692ed41e",
+      "identity": "requester-approves-orchestrator:709db91275fbdf24c6faf5fdc92ed9f30f492c20ce0e9e0c66773c1194175b14"
     }
   ],
   "consumedIntentIds": [
