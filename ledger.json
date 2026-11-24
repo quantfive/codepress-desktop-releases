@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d0636becc5fa6f511334628241b123d25c326873",
+  "cursorSha": "e5eda3217947fc7bb0530e448a5d29cd8d4ef55c",
   "highWaterVersion": "1.612.2",
   "rows": [
     {
@@ -197006,6 +197006,13 @@
       "sourceSha": "d0636becc5fa6f511334628241b123d25c326873",
       "sourcePackageVersion": "1.612.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e5eda3217947fc7bb0530e448a5d29cd8d4ef55c",
+      "sourcePackageVersion": "1.612.1",
+      "intentIds": [
+        "app-templates-gallery:179fd445d11d6e79801e13efcca9efd0722f113fa38c9b237b8acdc4f7a70738"
+      ]
     }
   ],
   "intents": [
@@ -211144,6 +211151,14 @@
       "summary": "A proposal project's Team view names the automation (or person) that proposed it, with an Automation marker, instead of the teammate whose account it runs on.",
       "sourceSha": "a833a104374b5bf03ab79fdb1fd77518d15d406b",
       "identity": "proposal-projects-from-the-bot:3c495a9644e4f4a51fb08256ae27c4dc224d097e0681d772168ba92104c8988b"
+    },
+    {
+      "id": "app-templates-gallery",
+      "digest": "179fd445d11d6e79801e13efcca9efd0722f113fa38c9b237b8acdc4f7a70738",
+      "type": "minor",
+      "summary": "Apps: browse App templates and add one to a collection. New app gains a menu with Describe an app…, From a template and Add default apps; an empty collection shows Start from a template.",
+      "sourceSha": "e5eda3217947fc7bb0530e448a5d29cd8d4ef55c",
+      "identity": "app-templates-gallery:179fd445d11d6e79801e13efcca9efd0722f113fa38c9b237b8acdc4f7a70738"
     }
   ],
   "consumedIntentIds": [
