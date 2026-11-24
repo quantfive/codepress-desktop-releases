@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c7976b6c3f290dc295fc888545391b2b66706c2c",
+  "cursorSha": "19f3727dfc3ecd11db01c38fb08e2b32530c8a64",
   "highWaterVersion": "1.613.3",
   "rows": [
     {
@@ -197406,6 +197406,13 @@
       "intentIds": [
         "rail-show-tab-names:fb98e17ab8d7ea70d397ba317411565c10a931c4d4ae5adb0c248666b8d31ec2"
       ]
+    },
+    {
+      "sourceSha": "19f3727dfc3ecd11db01c38fb08e2b32530c8a64",
+      "sourcePackageVersion": "1.613.2",
+      "intentIds": [
+        "orchestrator-permitted-desktop-control:bf60bb25f09d70740a1e8b393d89f4e7aea73400dc38428b36e117feb060b6aa"
+      ]
     }
   ],
   "intents": [
@@ -211600,6 +211607,14 @@
       "summary": "Settings → Navigation has a Show tab names switch. Turn it off for the slim 56px icons-only sidebar; hovering a tab still shows its name. Right-clicking a tab offers Show names too, and the setting follows you to every machine.",
       "sourceSha": "c7976b6c3f290dc295fc888545391b2b66706c2c",
       "identity": "rail-show-tab-names:fb98e17ab8d7ea70d397ba317411565c10a931c4d4ae5adb0c248666b8d31ec2"
+    },
+    {
+      "id": "orchestrator-permitted-desktop-control",
+      "digest": "bf60bb25f09d70740a1e8b393d89f4e7aea73400dc38428b36e117feb060b6aa",
+      "type": "patch",
+      "summary": "Local Orchestrators can use permitted desktop control for requested work, including reading a signed-in browser window after you yield it.",
+      "sourceSha": "19f3727dfc3ecd11db01c38fb08e2b32530c8a64",
+      "identity": "orchestrator-permitted-desktop-control:bf60bb25f09d70740a1e8b393d89f4e7aea73400dc38428b36e117feb060b6aa"
     }
   ],
   "consumedIntentIds": [
