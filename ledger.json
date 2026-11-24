@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "b9dd117b4edeb3aa8c4bcd029d8b7a633fa29959",
-  "highWaterVersion": "1.617.8",
+  "highWaterVersion": "1.617.9",
   "rows": [
     {
       "schemaVersion": 1,
@@ -109483,6 +109483,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:b9dd117b4edeb3aa8c4bcd029d8b7a633fa29959",
+      "kind": "main",
+      "sequence": 2682,
+      "sourceSha": "b9dd117b4edeb3aa8c4bcd029d8b7a633fa29959",
+      "sourcePackageVersion": "1.617.7",
+      "version": "1.617.9",
+      "batch": {
+        "intentIds": [
+          "sandbox-lima-qemu-dgram:77f8fbb8783fac3a148abe9a4387bf696d017ad3b9680b59fb4d2f3f5db2e9e4"
+        ],
+        "notesIntentIds": [
+          "sandbox-lima-qemu-dgram:77f8fbb8783fac3a148abe9a4387bf696d017ad3b9680b59fb4d2f3f5db2e9e4"
+        ],
+        "throughSourceSha": "b9dd117b4edeb3aa8c4bcd029d8b7a633fa29959",
+        "previousThroughSourceSha": "a4b5b73e40f052aec942fc8dd2ac52fa77d9c8d0",
+        "baselineVersion": "1.617.8",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-24T22:20:21.955Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45499883762",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-25T22:20:12.681Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -216140,7 +216183,8 @@
     "reclaimed-worker-resume-generation:80e39967f28448a4786f32fd63908d123f42e11ec053e1089f33b4c856f22482",
     "intent-in-force:d92d72e3906f5d3ddc4c4dd550cbb30566b025034a21b889713629ebfcfadf9c",
     "app-corners-capsule-helper:1d68114da135dd46b2fda4dfe2cc03cb4c979a61b34a990041154aeabb38aec8",
-    "claude-worker-dialog-hooks:5a90f450af9b9946bf7895541d73f2034ad3a145d493b742a52158dfc9a079f0"
+    "claude-worker-dialog-hooks:5a90f450af9b9946bf7895541d73f2034ad3a145d493b742a52158dfc9a079f0",
+    "sandbox-lima-qemu-dgram:77f8fbb8783fac3a148abe9a4387bf696d017ad3b9680b59fb4d2f3f5db2e9e4"
   ],
-  "consumedThroughSha": "a4b5b73e40f052aec942fc8dd2ac52fa77d9c8d0"
+  "consumedThroughSha": "b9dd117b4edeb3aa8c4bcd029d8b7a633fa29959"
 }
