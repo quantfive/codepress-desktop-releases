@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "f6153309d8a62baa93bb35b79a9a824ce44ebd0b",
-  "highWaterVersion": "1.613.3",
+  "highWaterVersion": "1.614.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -108355,6 +108355,59 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:f6153309d8a62baa93bb35b79a9a824ce44ebd0b",
+      "kind": "main",
+      "sequence": 2662,
+      "sourceSha": "f6153309d8a62baa93bb35b79a9a824ce44ebd0b",
+      "sourcePackageVersion": "1.613.2",
+      "version": "1.614.0",
+      "batch": {
+        "intentIds": [
+          "orchestrator-permitted-desktop-control:bf60bb25f09d70740a1e8b393d89f4e7aea73400dc38428b36e117feb060b6aa",
+          "requester-approves-orchestrator:709db91275fbdf24c6faf5fdc92ed9f30f492c20ce0e9e0c66773c1194175b14",
+          "model-chip-first-frame:fa527b1800403c644f9e7cfd10729927a28146ac902f565e35566edee2317b92",
+          "thread-map-gutter-no-shift:5b61f776b2009322da902ab184eebec1681f428cc0ccb51b04cb87735352e9b0",
+          "desktop-input-responsiveness:a7a160ad25aca010dc474082e53d63edef244147ecf0c150113b984d635f1ee3",
+          "terminal-unit-weighted-placement:37cc8e82fe235ca32f2eb511eb921a6f80785984435465b6120ed02b2094f585"
+        ],
+        "notesIntentIds": [
+          "orchestrator-permitted-desktop-control:bf60bb25f09d70740a1e8b393d89f4e7aea73400dc38428b36e117feb060b6aa",
+          "requester-approves-orchestrator:709db91275fbdf24c6faf5fdc92ed9f30f492c20ce0e9e0c66773c1194175b14",
+          "model-chip-first-frame:fa527b1800403c644f9e7cfd10729927a28146ac902f565e35566edee2317b92",
+          "thread-map-gutter-no-shift:5b61f776b2009322da902ab184eebec1681f428cc0ccb51b04cb87735352e9b0",
+          "desktop-input-responsiveness:a7a160ad25aca010dc474082e53d63edef244147ecf0c150113b984d635f1ee3",
+          "terminal-unit-weighted-placement:37cc8e82fe235ca32f2eb511eb921a6f80785984435465b6120ed02b2094f585"
+        ],
+        "throughSourceSha": "f6153309d8a62baa93bb35b79a9a824ce44ebd0b",
+        "previousThroughSourceSha": "c7976b6c3f290dc295fc888545391b2b66706c2c",
+        "baselineVersion": "1.613.3",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-24T07:12:05.459Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45346097518",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-25T07:11:57.747Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -213541,7 +213594,13 @@
     "desktop-host-takeover-and-relay-close:49d9ecd7cff5d32abfb29987e23fe4c83ad12899f5629b4721ff11cc97b804b2",
     "ci-runners-repository-filter:8058a5e8a96471a37152f45fc74d9309fc0e3030a25e86a033df901f2e9d4b78",
     "share-link-domain-ui:1995132754a089d94f04185b9029261fda8172b8bee7b4bf7786a2f8db62b238",
-    "rail-show-tab-names:fb98e17ab8d7ea70d397ba317411565c10a931c4d4ae5adb0c248666b8d31ec2"
+    "rail-show-tab-names:fb98e17ab8d7ea70d397ba317411565c10a931c4d4ae5adb0c248666b8d31ec2",
+    "orchestrator-permitted-desktop-control:bf60bb25f09d70740a1e8b393d89f4e7aea73400dc38428b36e117feb060b6aa",
+    "requester-approves-orchestrator:709db91275fbdf24c6faf5fdc92ed9f30f492c20ce0e9e0c66773c1194175b14",
+    "model-chip-first-frame:fa527b1800403c644f9e7cfd10729927a28146ac902f565e35566edee2317b92",
+    "thread-map-gutter-no-shift:5b61f776b2009322da902ab184eebec1681f428cc0ccb51b04cb87735352e9b0",
+    "desktop-input-responsiveness:a7a160ad25aca010dc474082e53d63edef244147ecf0c150113b984d635f1ee3",
+    "terminal-unit-weighted-placement:37cc8e82fe235ca32f2eb511eb921a6f80785984435465b6120ed02b2094f585"
   ],
-  "consumedThroughSha": "c7976b6c3f290dc295fc888545391b2b66706c2c"
+  "consumedThroughSha": "f6153309d8a62baa93bb35b79a9a824ce44ebd0b"
 }
