@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2820f5b80ac3143e25170b5fcddd35d13ce93c52",
+  "cursorSha": "9eb0e2441dc85938727c8cba46fcd165a4c35ecf",
   "highWaterVersion": "1.613.3",
   "rows": [
     {
@@ -197460,6 +197460,13 @@
       "sourceSha": "2820f5b80ac3143e25170b5fcddd35d13ce93c52",
       "sourcePackageVersion": "1.613.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9eb0e2441dc85938727c8cba46fcd165a4c35ecf",
+      "sourcePackageVersion": "1.613.2",
+      "intentIds": [
+        "model-chip-first-frame:fa527b1800403c644f9e7cfd10729927a28146ac902f565e35566edee2317b92"
+      ]
     }
   ],
   "intents": [
@@ -211670,6 +211677,14 @@
       "summary": "An agent that starts an Orchestrator project with `requester_approves: true` (`start_orchestrator` from a tab, or `start_project` from another Orchestrator) becomes the project's requester: its messages read as `your_requester`, it answers the project's questions, and its approving reply starts the build without a press from the person. The build line names who approved. Projects started without it are unchanged.",
       "sourceSha": "55423a033afbb02248ce6e06eeafba2f692ed41e",
       "identity": "requester-approves-orchestrator:709db91275fbdf24c6faf5fdc92ed9f30f492c20ce0e9e0c66773c1194175b14"
+    },
+    {
+      "id": "model-chip-first-frame",
+      "digest": "fa527b1800403c644f9e7cfd10729927a28146ac902f565e35566edee2317b92",
+      "type": "patch",
+      "summary": "Opening a project thread draws the composer's combined Orchestrator + Workers model chip, with its usage ring, from the first frame instead of showing a per-role chip with a bar that then swaps to the ring.",
+      "sourceSha": "9eb0e2441dc85938727c8cba46fcd165a4c35ecf",
+      "identity": "model-chip-first-frame:fa527b1800403c644f9e7cfd10729927a28146ac902f565e35566edee2317b92"
     }
   ],
   "consumedIntentIds": [
