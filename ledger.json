@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "adaa34fb0628fa63659fe4fcb411ae09fc7f0bb8",
+  "cursorSha": "baf24a127f187b001b14883300d4b0397c35fac4",
   "highWaterVersion": "1.615.5",
   "rows": [
     {
@@ -198341,6 +198341,13 @@
       "sourceSha": "adaa34fb0628fa63659fe4fcb411ae09fc7f0bb8",
       "sourcePackageVersion": "1.615.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "baf24a127f187b001b14883300d4b0397c35fac4",
+      "sourcePackageVersion": "1.615.4",
+      "intentIds": [
+        "proposal-page-and-remove:d37763bfa85e3a18e9d67de64a9e375626e49c4c1941ede606bb95cde09f6d7e"
+      ]
     }
   ],
   "intents": [
@@ -212663,6 +212670,14 @@
       "summary": "In a CodePress Terminal tab, the Factory Stop hook asks Terminal for its pull request before asking GitHub. Terminal answers from the PR record it keeps from webhooks and its 5-minute reconcile, through a new local route (`GET /api/factory/pr-snapshot`) that makes no GitHub call and refuses browser requests. When Terminal saw nothing change on the PR since the hook's last full read, the hook reuses that read past its 2-minute cache; a head change, any webhook for the PR, an old or missing answer, or a conclusion that the delivery is finished sends it back to GitHub as before. Each hook firing's request log now records where its PR facts came from and why Terminal's answer was not used. `CODEPRESS_FACTORY_TERMINAL_SNAPSHOT_MAX_AGE_SECONDS=0` turns the new path off.",
       "sourceSha": "7dc1a50f701d1f9c0e0f3609f4a2a6e14e1d8795",
       "identity": "factory-terminal-pr-snapshot:c8799c48f0d1b3a4e8f13769240af01a52c07f147fd64b6489038a117307c0d6"
+    },
+    {
+      "id": "proposal-page-and-remove",
+      "digest": "d37763bfa85e3a18e9d67de64a9e375626e49c4c1941ede606bb95cde09f6d7e",
+      "type": "patch",
+      "summary": "Proposals under Needs you now name who proposed them (\"UI Finding Fixer proposes a fix\", \"Automation · sent to 6 people\"). Opening one shows a proposal page above the project's thread: what's wrong and why, the fix and why it works, before and after pictures, the plan and draft pull request, and an answer bar (Fix it, It's intended, Not now, Ask for changes) that shows when someone else answered first. Remove from my feed, in the row's menu and on the page, takes a proposal out of your own feed with Undo, without answering it or changing anyone else's feed.",
+      "sourceSha": "baf24a127f187b001b14883300d4b0397c35fac4",
+      "identity": "proposal-page-and-remove:d37763bfa85e3a18e9d67de64a9e375626e49c4c1941ede606bb95cde09f6d7e"
     }
   ],
   "consumedIntentIds": [
