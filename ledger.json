@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "0013c3fbbc4ae3971d6ad801e5147bca0cb5f815",
+  "cursorSha": "c7976b6c3f290dc295fc888545391b2b66706c2c",
   "highWaterVersion": "1.613.2",
   "rows": [
     {
@@ -197352,6 +197352,13 @@
       "sourceSha": "0013c3fbbc4ae3971d6ad801e5147bca0cb5f815",
       "sourcePackageVersion": "1.613.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c7976b6c3f290dc295fc888545391b2b66706c2c",
+      "sourcePackageVersion": "1.613.2",
+      "intentIds": [
+        "rail-show-tab-names:fb98e17ab8d7ea70d397ba317411565c10a931c4d4ae5adb0c248666b8d31ec2"
+      ]
     }
   ],
   "intents": [
@@ -211538,6 +211545,14 @@
       "summary": "An App's or artifact's Share dialog shows the share link on the domain it is served on, and, while share links on website domains are on, lets you pick that domain. A website App's Domains panel marks which domains serve share links and which one new links use.",
       "sourceSha": "77ef21a657b5ce8498ac92517b861f9d9ff7e18d",
       "identity": "share-link-domain-ui:1995132754a089d94f04185b9029261fda8172b8bee7b4bf7786a2f8db62b238"
+    },
+    {
+      "id": "rail-show-tab-names",
+      "digest": "fb98e17ab8d7ea70d397ba317411565c10a931c4d4ae5adb0c248666b8d31ec2",
+      "type": "patch",
+      "summary": "Settings → Navigation has a Show tab names switch. Turn it off for the slim 56px icons-only sidebar; hovering a tab still shows its name. Right-clicking a tab offers Show names too, and the setting follows you to every machine.",
+      "sourceSha": "c7976b6c3f290dc295fc888545391b2b66706c2c",
+      "identity": "rail-show-tab-names:fb98e17ab8d7ea70d397ba317411565c10a931c4d4ae5adb0c248666b8d31ec2"
     }
   ],
   "consumedIntentIds": [
