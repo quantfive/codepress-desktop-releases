@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "c57d15a28187a9d2945081a1dd2babb97e2c1faf",
+  "cursorSha": "07e563b9ef5f2c2ebe0563a11032d0b056ff2cd2",
   "highWaterVersion": "1.621.0",
   "rows": [
     {
@@ -202681,6 +202681,13 @@
       "sourceSha": "c57d15a28187a9d2945081a1dd2babb97e2c1faf",
       "sourcePackageVersion": "1.620.13",
       "intentIds": []
+    },
+    {
+      "sourceSha": "07e563b9ef5f2c2ebe0563a11032d0b056ff2cd2",
+      "sourcePackageVersion": "1.620.13",
+      "intentIds": [
+        "own-pr-wakes:7a173544b912a3cf24a502844c5a8249804a2723a8b16dd682c15fab10df78a8"
+      ]
     }
   ],
   "intents": [
@@ -217483,6 +217490,14 @@
       "summary": "Open Orchestrator projects nobody has worked on for 3 days no longer hold gigabytes of dependencies: Terminal removes `node_modules` and Turbo caches from worker folders whose worker isn't running, keeping code, branches and temp files, and a relaunched worker is told to reinstall. Turn it off with Settings → Storage → \"Free dependencies in idle projects\".",
       "sourceSha": "f9c5a6b0371329420ae937507e2ebe658442f2f4",
       "identity": "free-idle-project-dependencies:ae35b7e9ad4acaf5a9c9111c10b0e0ac85cd086afcffaf55ec7d1cf49ac740f4"
+    },
+    {
+      "id": "own-pr-wakes",
+      "digest": "7a173544b912a3cf24a502844c5a8249804a2723a8b16dd682c15fab10df78a8",
+      "type": "patch",
+      "summary": "A local Orchestrator is now woken by the pull requests it opens itself and links on a work item, the way it is woken by a worker's: when their checks pass or fail, when they are reviewed or judged, and once per head when they look ready to merge.",
+      "sourceSha": "07e563b9ef5f2c2ebe0563a11032d0b056ff2cd2",
+      "identity": "own-pr-wakes:7a173544b912a3cf24a502844c5a8249804a2723a8b16dd682c15fab10df78a8"
     }
   ],
   "consumedIntentIds": [
