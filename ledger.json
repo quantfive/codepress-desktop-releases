@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "07e563b9ef5f2c2ebe0563a11032d0b056ff2cd2",
+  "cursorSha": "b482be42074a183ca36b9a560706fb74a8ed2718",
   "highWaterVersion": "1.621.0",
   "rows": [
     {
@@ -202688,6 +202688,13 @@
       "intentIds": [
         "own-pr-wakes:7a173544b912a3cf24a502844c5a8249804a2723a8b16dd682c15fab10df78a8"
       ]
+    },
+    {
+      "sourceSha": "b482be42074a183ca36b9a560706fb74a8ed2718",
+      "sourcePackageVersion": "1.620.13",
+      "intentIds": [
+        "orchestrator-promise-needs-wake:f2cf37134deb68b95bbd735a7ea2704bf80cf76397c9f77f5c97ee03e0876566"
+      ]
     }
   ],
   "intents": [
@@ -217498,6 +217505,14 @@
       "summary": "A local Orchestrator is now woken by the pull requests it opens itself and links on a work item, the way it is woken by a worker's: when their checks pass or fail, when they are reviewed or judged, and once per head when they look ready to merge.",
       "sourceSha": "07e563b9ef5f2c2ebe0563a11032d0b056ff2cd2",
       "identity": "own-pr-wakes:7a173544b912a3cf24a502844c5a8249804a2723a8b16dd682c15fab10df78a8"
+    },
+    {
+      "id": "orchestrator-promise-needs-wake",
+      "digest": "f2cf37134deb68b95bbd735a7ea2704bf80cf76397c9f77f5c97ee03e0876566",
+      "type": "patch",
+      "summary": "The Orchestrator no longer ends a turn promising a later action (\"once CI passes\") with nothing to wake it: its instructions now say pull requests it opens on a work item wake it like a worker's, and to call schedule_wake when no worker, pull-request event, merge or person will.",
+      "sourceSha": "b482be42074a183ca36b9a560706fb74a8ed2718",
+      "identity": "orchestrator-promise-needs-wake:f2cf37134deb68b95bbd735a7ea2704bf80cf76397c9f77f5c97ee03e0876566"
     }
   ],
   "consumedIntentIds": [
