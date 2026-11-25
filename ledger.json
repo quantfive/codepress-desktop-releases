@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "8df59b34dd4855ec55509bc5dad57a9d780a7019",
+  "cursorSha": "5b057ce4c3e8f3712b313c83d3600ef7260bf54b",
   "highWaterVersion": "1.620.7",
   "rows": [
     {
@@ -201771,6 +201771,18 @@
       "intentIds": [
         "duo-menu-thumb-reach:d1283894548a16c65a4683fcae63652ee4e6d322914dcd859a8948fe7c0955ba"
       ]
+    },
+    {
+      "sourceSha": "eff3f6a93442748f63e26cc71f526742d1a39eed",
+      "sourcePackageVersion": "1.620.6",
+      "intentIds": [
+        "phone-view-desktop-overlay:c53a03e3616dad4f7e519cc014dc899aa03aa41eb9b6097a3f51c96b72bfb284"
+      ]
+    },
+    {
+      "sourceSha": "5b057ce4c3e8f3712b313c83d3600ef7260bf54b",
+      "sourcePackageVersion": "1.620.6",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -216509,6 +216521,14 @@
       "summary": "On the closed iPhone Duo, the chat-history menu now sits at the bottom of the status column, level with the chat box, within reach of the right thumb, instead of in the top-left corner.",
       "sourceSha": "8df59b34dd4855ec55509bc5dad57a9d780a7019",
       "identity": "duo-menu-thumb-reach:d1283894548a16c65a4683fcae63652ee4e6d322914dcd859a8948fe7c0955ba"
+    },
+    {
+      "id": "phone-view-desktop-overlay",
+      "digest": "c53a03e3616dad4f7e519cc014dc899aa03aa41eb9b6097a3f51c96b72bfb284",
+      "type": "patch",
+      "summary": "On the phone, View desktop now shows the machine's screen full screen over the page you were on, instead of switching to Terminal and opening a Desktop tab. Close takes you back to where you were.",
+      "sourceSha": "eff3f6a93442748f63e26cc71f526742d1a39eed",
+      "identity": "phone-view-desktop-overlay:c53a03e3616dad4f7e519cc014dc899aa03aa41eb9b6097a3f51c96b72bfb284"
     }
   ],
   "consumedIntentIds": [
