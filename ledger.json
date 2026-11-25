@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "8ec1520e42af3f2f1b765389237eafb97814da5b",
+  "cursorSha": "8a0fad61ab60b7e29adf851db675d9e7d6cc2181",
   "highWaterVersion": "1.619.1",
   "rows": [
     {
@@ -200956,6 +200956,18 @@
       "sourceSha": "8ec1520e42af3f2f1b765389237eafb97814da5b",
       "sourcePackageVersion": "1.619.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9c19ddcde977870ac4a383af4643f748f84965d3",
+      "sourcePackageVersion": "1.619.1",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "8a0fad61ab60b7e29adf851db675d9e7d6cc2181",
+      "sourcePackageVersion": "1.619.1",
+      "intentIds": [
+        "orchestrator-designs-server-copy:eaf1762e88323948bcb73d21f6a216a16d5b749512bbbe68fac8301e804615e8"
+      ]
     }
   ],
   "intents": [
@@ -215598,6 +215610,14 @@
       "summary": "Open **View desktop** in a dedicated native Tauri window (`desktop-viewer-*`, one window per machine, reused and focused on repeat clicks) on desktop CodePress, falling back to `DesktopViewerOverlay` in browsers, `remote-machine-*` windows, or when native window creation fails.",
       "sourceSha": "dc5486871eb1e10f58b9e084f00921fd83c4503c",
       "identity": "desktop-viewer-window:6bd1b7df2f71f4a143087282799f5b5b0194350cebb15ac7c9ef45619351cd2e"
+    },
+    {
+      "id": "orchestrator-designs-server-copy",
+      "digest": "eaf1762e88323948bcb73d21f6a216a16d5b749512bbbe68fac8301e804615e8",
+      "type": "patch",
+      "summary": "Rename user-facing Orchestrator server copy from \"plan\" to \"design\" across approval questions, thread records, hand-edit notices, landing/cleanup summaries, and design artifact error messages.",
+      "sourceSha": "8a0fad61ab60b7e29adf851db675d9e7d6cc2181",
+      "identity": "orchestrator-designs-server-copy:eaf1762e88323948bcb73d21f6a216a16d5b749512bbbe68fac8301e804615e8"
     }
   ],
   "consumedIntentIds": [
