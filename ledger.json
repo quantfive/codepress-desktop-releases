@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "8a0fad61ab60b7e29adf851db675d9e7d6cc2181",
-  "highWaterVersion": "1.619.1",
+  "highWaterVersion": "1.620.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -110108,6 +110108,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:8a0fad61ab60b7e29adf851db675d9e7d6cc2181",
+      "kind": "main",
+      "sequence": 2693,
+      "sourceSha": "8a0fad61ab60b7e29adf851db675d9e7d6cc2181",
+      "sourcePackageVersion": "1.619.1",
+      "version": "1.620.0",
+      "batch": {
+        "intentIds": [
+          "desktop-viewer-window:6bd1b7df2f71f4a143087282799f5b5b0194350cebb15ac7c9ef45619351cd2e",
+          "orchestrator-designs-server-copy:eaf1762e88323948bcb73d21f6a216a16d5b749512bbbe68fac8301e804615e8"
+        ],
+        "notesIntentIds": [
+          "desktop-viewer-window:6bd1b7df2f71f4a143087282799f5b5b0194350cebb15ac7c9ef45619351cd2e",
+          "orchestrator-designs-server-copy:eaf1762e88323948bcb73d21f6a216a16d5b749512bbbe68fac8301e804615e8"
+        ],
+        "throughSourceSha": "8a0fad61ab60b7e29adf851db675d9e7d6cc2181",
+        "previousThroughSourceSha": "ae7bbf5775a7631e4886e5e62b55d9764ef6e5d2",
+        "baselineVersion": "1.619.1",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-25T04:05:34.594Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45544279050",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-26T04:05:23.113Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -217449,7 +217494,9 @@
     "duo-island-rail-tabs:12bd54d89f72effd0ad1f8acfa2bfda40b7ddebcdf5e9e7d3bc522414cec0b61",
     "orchestrator-intent-record:418f65a681cc0a5272cf6c66a208c49dc9f48b4b29749e9ca65923a48bb8110e",
     "mobile-device-frame-ui:b499547bcec7e3fdfcd5883b6d954f06acf45bb642b936ca0c1b9eb448de7ef3",
-    "resumed-agent-message-submitted:55272112c904b6e22996ee889ba846b70b5cf7a8b3047be28681b8fd3dd838d3"
+    "resumed-agent-message-submitted:55272112c904b6e22996ee889ba846b70b5cf7a8b3047be28681b8fd3dd838d3",
+    "desktop-viewer-window:6bd1b7df2f71f4a143087282799f5b5b0194350cebb15ac7c9ef45619351cd2e",
+    "orchestrator-designs-server-copy:eaf1762e88323948bcb73d21f6a216a16d5b749512bbbe68fac8301e804615e8"
   ],
-  "consumedThroughSha": "ae7bbf5775a7631e4886e5e62b55d9764ef6e5d2"
+  "consumedThroughSha": "8a0fad61ab60b7e29adf851db675d9e7d6cc2181"
 }
