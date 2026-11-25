@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "625939fa214f4ee3e4695fd044148b07c7bd354c",
+  "cursorSha": "28ce58cd15504a31ec8d14e47d31f86d90262422",
   "highWaterVersion": "1.620.1",
   "rows": [
     {
@@ -201117,6 +201117,18 @@
       "sourceSha": "625939fa214f4ee3e4695fd044148b07c7bd354c",
       "sourcePackageVersion": "1.620.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "bdad151637f1deb3389e57d0e5cc519a73218cbf",
+      "sourcePackageVersion": "1.620.0",
+      "intentIds": []
+    },
+    {
+      "sourceSha": "28ce58cd15504a31ec8d14e47d31f86d90262422",
+      "sourcePackageVersion": "1.620.0",
+      "intentIds": [
+        "feed-lineage-read:86ee668f20a369ea327d3cc2ec178b3274eb5a0c1cf647c6e56f5b792fba120a"
+      ]
     }
   ],
   "intents": [
@@ -215775,6 +215787,14 @@
       "summary": "Rename the Orchestrator **Plans** tab and user-facing Orchestrator plan copy to **Designs** / **Design** across the main column, details panel, drawers, composer context, project settings, landing dialogs, and App project panels.",
       "sourceSha": "fca1a5274767db819eebf746be178bf27bf58a6a",
       "identity": "orchestrator-plans-to-designs-ui:ecf2a91ca87e793bdc88b882a85c93f9f6d8637a992a8d9a54fd6a4edf90a422"
+    },
+    {
+      "id": "feed-lineage-read",
+      "digest": "86ee668f20a369ea327d3cc2ec178b3274eb5a0c1cf647c6e56f5b792fba120a",
+      "type": "patch",
+      "summary": "The Orchestrator feed now also sends the parent projects of listed child projects that the feed does not list itself, such as a landed parent while Landed is closed, and how many projects each one started, so the rail can nest children under their parents.",
+      "sourceSha": "28ce58cd15504a31ec8d14e47d31f86d90262422",
+      "identity": "feed-lineage-read:86ee668f20a369ea327d3cc2ec178b3274eb5a0c1cf647c6e56f5b792fba120a"
     }
   ],
   "consumedIntentIds": [
