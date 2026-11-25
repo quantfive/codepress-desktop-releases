@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "de521d484da0d787059df3987368a05eeeb9ca64",
+  "cursorSha": "9015425c15751a406da9d153b2b3172b51aee117",
   "highWaterVersion": "1.620.10",
   "rows": [
     {
@@ -202347,6 +202347,13 @@
       "sourceSha": "de521d484da0d787059df3987368a05eeeb9ca64",
       "sourcePackageVersion": "1.620.10",
       "intentIds": []
+    },
+    {
+      "sourceSha": "9015425c15751a406da9d153b2b3172b51aee117",
+      "sourcePackageVersion": "1.620.10",
+      "intentIds": [
+        "rail-landed-fold-count:52bcc395c9acf854a716b15d93707ab0083c1ca956e880db84d27008ce2354c7"
+      ]
     }
   ],
   "intents": [
@@ -217109,6 +217116,14 @@
       "summary": "Staff Send to Fix now opens a new Orchestrator instead of a chat: the fix instruction is the brief and the redline snapshots are attached. Nothing starts until you press Start.",
       "sourceSha": "16b936f7ea5ff1d02e1d071520e06976977f15dd",
       "identity": "send-to-fix-opens-orchestrator:fc86f0587b5c19aa55b7a3712187f3cfa8b3e81e9c70fe000261a8139c2e42fe"
+    },
+    {
+      "id": "rail-landed-fold-count",
+      "digest": "52bcc395c9acf854a716b15d93707ab0083c1ca956e880db84d27008ce2354c7",
+      "type": "patch",
+      "summary": "The Orchestrator rail's \"✓ N landed\" line under a running project now says how many of its started projects have landed and opens to all of them, not only the ones on a loaded Landed page; the project's card no longer repeats \"N landed\" beside \"N started\", so the repository and machine have room on a phone.",
+      "sourceSha": "9015425c15751a406da9d153b2b3172b51aee117",
+      "identity": "rail-landed-fold-count:52bcc395c9acf854a716b15d93707ab0083c1ca956e880db84d27008ce2354c7"
     }
   ],
   "consumedIntentIds": [
