@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "154f988d7019abdc61fb1d704ca99339aed68e54",
+  "cursorSha": "b8445a57aa3a34ab4c05aa80627ecd6b47b8f95d",
   "highWaterVersion": "1.620.6",
   "rows": [
     {
@@ -201608,6 +201608,18 @@
       "sourceSha": "154f988d7019abdc61fb1d704ca99339aed68e54",
       "sourcePackageVersion": "1.620.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7c3b60c5374d9b46e9a66a6dad7657835082823d",
+      "sourcePackageVersion": "1.620.4",
+      "intentIds": [
+        "new-chat-short-pane-room:62fd224e3f4973e62c7d07456c00cbb144ae2d007c2bb285e906f34b1357e59f"
+      ]
+    },
+    {
+      "sourceSha": "b8445a57aa3a34ab4c05aa80627ecd6b47b8f95d",
+      "sourcePackageVersion": "1.620.4",
+      "intentIds": []
     }
   ],
   "intents": [
@@ -216314,6 +216326,14 @@
       "summary": "The feed rail now shows who started each running project: a child whose parent landed keeps its own card under a slim \"Started by <parent> · Landed\" line, and a running parent's landed children fold into one \"✓ N landed\" line that opens in place.",
       "sourceSha": "b9cb2064b64483b867f51f2aaef9c32becdaf381",
       "identity": "rail-landed-parent-line:7c27b53a8fac60be2c22e62095d392360e29147b284b9cbe16beee4a0941f73a"
+    },
+    {
+      "id": "new-chat-short-pane-room",
+      "digest": "62fd224e3f4973e62c7d07456c00cbb144ae2d007c2bb285e906f34b1357e59f",
+      "type": "patch",
+      "summary": "New chat and New project no longer scroll a little on a short phone pane (such as the iPhone Duo's closed display) when everything already fits: the empty room kept under the suggestion cards now shrinks to what the pane has left.",
+      "sourceSha": "7c3b60c5374d9b46e9a66a6dad7657835082823d",
+      "identity": "new-chat-short-pane-room:62fd224e3f4973e62c7d07456c00cbb144ae2d007c2bb285e906f34b1357e59f"
     }
   ],
   "consumedIntentIds": [
