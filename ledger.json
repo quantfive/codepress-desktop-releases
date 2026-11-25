@@ -110936,7 +110936,7 @@
         "failures": []
       },
       "linux": {
-        "status": "claimed",
+        "status": "dispatching",
         "generation": 1,
         "owner": {
           "ownerId": "terminal-macos-delivery",
@@ -110944,7 +110944,11 @@
           "attempt": 1
         },
         "leaseUntil": "2026-11-26T22:37:00.480Z",
-        "dispatch": null,
+        "dispatch": {
+          "intentId": "same-run:55344cf87cbdd48959a56bf037c15ab0bc6af26578c9aeb6294f2f2e463a72a8",
+          "runId": null,
+          "terminal": false
+        },
         "failures": []
       }
     },
