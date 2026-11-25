@@ -110645,7 +110645,7 @@
       "publicationDate": "2026-11-25T15:17:08.636Z",
       "releaseId": null,
       "mac": {
-        "status": "running",
+        "status": "failed",
         "generation": 1,
         "owner": {
           "ownerId": "terminal-macos-delivery",
@@ -110656,9 +110656,14 @@
         "dispatch": {
           "intentId": "same-run:0d6a79852d47601f784f7deab0305f12a2dd26e061ac93a54bc82a21304f255b",
           "runId": "45643284338",
-          "terminal": false
+          "terminal": true
         },
-        "failures": []
+        "failures": [
+          {
+            "code": "run_failed",
+            "at": "2026-11-25T15:55:48.797Z"
+          }
+        ]
       },
       "linux": {
         "status": "pending",
