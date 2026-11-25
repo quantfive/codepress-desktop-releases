@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7909c1917fa217a332f209364d5ba0ec761716af",
+  "cursorSha": "84086cdbbe2dfda3c14974e145a81a7535493159",
   "highWaterVersion": "1.618.0",
   "rows": [
     {
@@ -200685,6 +200685,13 @@
       "sourceSha": "7909c1917fa217a332f209364d5ba0ec761716af",
       "sourcePackageVersion": "1.617.12",
       "intentIds": []
+    },
+    {
+      "sourceSha": "84086cdbbe2dfda3c14974e145a81a7535493159",
+      "sourcePackageVersion": "1.617.12",
+      "intentIds": [
+        "duo-island-rail-tabs:12bd54d89f72effd0ad1f8acfa2bfda40b7ddebcdf5e9e7d3bc522414cec0b61"
+      ]
     }
   ],
   "intents": [
@@ -215287,6 +215294,14 @@
       "summary": "Declutter the App Publish popover into a 4-part layout with a prominent Add a custom domain action and Hosting in the footer, and allow saving custom domains pre-live with an inline $20/month CodePress Hosting upgrade gate.",
       "sourceSha": "e2c8e348efe948e8a021709a4e0af67b37f0f980",
       "identity": "publish-popover-domains:edbd9e616a22e5257ab3c81b9ed225f9932c917f90e80e8e955c523b720a885c"
+    },
+    {
+      "id": "duo-island-rail-tabs",
+      "digest": "12bd54d89f72effd0ad1f8acfa2bfda40b7ddebcdf5e9e7d3bc522414cec0b61",
+      "type": "patch",
+      "summary": "On the iPhone Duo, an Orchestrator project's tabs in the status column are now a narrow pill of round icon buttons, like the iPhone's own island and status controls, with each tab's name in its tooltip. The tabs start below the clock and battery, and with the keyboard up they scroll inside the space under them instead of sliding behind the clock.",
+      "sourceSha": "84086cdbbe2dfda3c14974e145a81a7535493159",
+      "identity": "duo-island-rail-tabs:12bd54d89f72effd0ad1f8acfa2bfda40b7ddebcdf5e9e7d3bc522414cec0b61"
     }
   ],
   "consumedIntentIds": [
