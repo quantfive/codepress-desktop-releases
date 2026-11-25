@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3242ccc7cf9e8def9fcbdd96e40f911609554b96",
+  "cursorSha": "fca1a5274767db819eebf746be178bf27bf58a6a",
   "highWaterVersion": "1.620.0",
   "rows": [
     {
@@ -201053,6 +201053,13 @@
       "sourceSha": "3242ccc7cf9e8def9fcbdd96e40f911609554b96",
       "sourcePackageVersion": "1.620.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "fca1a5274767db819eebf746be178bf27bf58a6a",
+      "sourcePackageVersion": "1.620.0",
+      "intentIds": [
+        "orchestrator-plans-to-designs-ui:ecf2a91ca87e793bdc88b882a85c93f9f6d8637a992a8d9a54fd6a4edf90a422"
+      ]
     }
   ],
   "intents": [
@@ -215703,6 +215710,14 @@
       "summary": "Rename user-facing Orchestrator server copy from \"plan\" to \"design\" across approval questions, thread records, hand-edit notices, landing/cleanup summaries, and design artifact error messages.",
       "sourceSha": "8a0fad61ab60b7e29adf851db675d9e7d6cc2181",
       "identity": "orchestrator-designs-server-copy:eaf1762e88323948bcb73d21f6a216a16d5b749512bbbe68fac8301e804615e8"
+    },
+    {
+      "id": "orchestrator-plans-to-designs-ui",
+      "digest": "ecf2a91ca87e793bdc88b882a85c93f9f6d8637a992a8d9a54fd6a4edf90a422",
+      "type": "patch",
+      "summary": "Rename the Orchestrator **Plans** tab and user-facing Orchestrator plan copy to **Designs** / **Design** across the main column, details panel, drawers, composer context, project settings, landing dialogs, and App project panels.",
+      "sourceSha": "fca1a5274767db819eebf746be178bf27bf58a6a",
+      "identity": "orchestrator-plans-to-designs-ui:ecf2a91ca87e793bdc88b882a85c93f9f6d8637a992a8d9a54fd6a4edf90a422"
     }
   ],
   "consumedIntentIds": [
