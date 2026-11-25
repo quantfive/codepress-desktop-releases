@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "67934edb92885aa88111fe18a88bbb31eca0f4a7",
+  "cursorSha": "7058624e24bbd26eeca5e77bdd54576f272294de",
   "highWaterVersion": "1.619.0",
   "rows": [
     {
@@ -200828,6 +200828,13 @@
       "sourceSha": "67934edb92885aa88111fe18a88bbb31eca0f4a7",
       "sourcePackageVersion": "1.618.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7058624e24bbd26eeca5e77bdd54576f272294de",
+      "sourcePackageVersion": "1.618.0",
+      "intentIds": [
+        "mobile-device-frame-ui:b499547bcec7e3fdfcd5883b6d954f06acf45bb642b936ca0c1b9eb448de7ef3"
+      ]
     }
   ],
   "intents": [
@@ -215446,6 +215453,14 @@
       "summary": "The Orchestrator records the decisions you state in your exact words and under your CodePress name, checks each quote against the message it came from, lists the recorded decisions its design keeps or changes, and commits a project's entries to the feature ledgers in one pull request before landing.",
       "sourceSha": "f684bfe4ffae8c7fb3e51582525a73d05811f512",
       "identity": "orchestrator-intent-record:418f65a681cc0a5272cf6c66a208c49dc9f48b4b29749e9ca65923a48bb8110e"
+    },
+    {
+      "id": "mobile-device-frame-ui",
+      "digest": "b499547bcec7e3fdfcd5883b6d954f06acf45bb642b936ca0c1b9eb448de7ef3",
+      "type": "patch",
+      "summary": "Mobile Apps (`app_platform: \"mobile\"`) now preview inside an interactive iOS or Android device bezel in App tabs, with an **iOS | Android** toggle that switches frames without reloading the preview and a **Run on device** dialog with copyable Expo Go and EAS build commands.",
+      "sourceSha": "7058624e24bbd26eeca5e77bdd54576f272294de",
+      "identity": "mobile-device-frame-ui:b499547bcec7e3fdfcd5883b6d954f06acf45bb642b936ca0c1b9eb448de7ef3"
     }
   ],
   "consumedIntentIds": [
