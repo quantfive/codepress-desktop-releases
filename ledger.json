@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "85c06b7a35e9d91a74836836e43cad7ba85d05ad",
+  "cursorSha": "892de929e85eec1d518786feb8e7cce61c730721",
   "highWaterVersion": "1.620.12",
   "rows": [
     {
@@ -202498,6 +202498,13 @@
       "sourceSha": "85c06b7a35e9d91a74836836e43cad7ba85d05ad",
       "sourcePackageVersion": "1.620.11",
       "intentIds": []
+    },
+    {
+      "sourceSha": "892de929e85eec1d518786feb8e7cce61c730721",
+      "sourcePackageVersion": "1.620.11",
+      "intentIds": [
+        "storage-disk-report:8e49eae2476efdba2eced2753e0fc2445abb55432449798300f512e45f3f586a"
+      ]
     }
   ],
   "intents": [
@@ -217276,6 +217283,14 @@
       "summary": "Terminal now notices a permission prompt, question or plan on an Orchestrator worker's screen even when the agent's hooks never reported it, and tells the Orchestrator within seconds instead of leaving the worker waiting.",
       "sourceSha": "2fa588802225037b7738aca82ee99702b4b1112a",
       "identity": "screen-watch-reports-dialogs:2f0915d630644f85ac036dd4ce5fbbeb013d7d28374be54db14e1e7565dc8ca8"
+    },
+    {
+      "id": "storage-disk-report",
+      "digest": "8e49eae2476efdba2eced2753e0fc2445abb55432449798300f512e45f3f586a",
+      "type": "patch",
+      "summary": "Storage status is now compact: recent runs report counts, bytes and the most common reasons for keeping things instead of every planned item, so `get_terminal_storage_status` stays small. It also reports where CodePress's disk goes: the ten largest projects, shared caches, the local model and logs. The Kept list shows the largest folders first and folds tiny folders with no project record into one row.",
+      "sourceSha": "892de929e85eec1d518786feb8e7cce61c730721",
+      "identity": "storage-disk-report:8e49eae2476efdba2eced2753e0fc2445abb55432449798300f512e45f3f586a"
     }
   ],
   "consumedIntentIds": [
