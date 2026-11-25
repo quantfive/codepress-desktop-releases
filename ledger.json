@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "154f988d7019abdc61fb1d704ca99339aed68e54",
-  "highWaterVersion": "1.620.5",
+  "highWaterVersion": "1.620.6",
   "rows": [
     {
       "schemaVersion": 1,
@@ -110442,6 +110442,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:154f988d7019abdc61fb1d704ca99339aed68e54",
+      "kind": "main",
+      "sequence": 2699,
+      "sourceSha": "154f988d7019abdc61fb1d704ca99339aed68e54",
+      "sourcePackageVersion": "1.620.4",
+      "version": "1.620.6",
+      "batch": {
+        "intentIds": [
+          "rail-landed-parent-line:7c27b53a8fac60be2c22e62095d392360e29147b284b9cbe16beee4a0941f73a"
+        ],
+        "notesIntentIds": [
+          "rail-landed-parent-line:7c27b53a8fac60be2c22e62095d392360e29147b284b9cbe16beee4a0941f73a"
+        ],
+        "throughSourceSha": "154f988d7019abdc61fb1d704ca99339aed68e54",
+        "previousThroughSourceSha": "d9aa48a0c5afddface62f9f559cac24e92ead9bd",
+        "baselineVersion": "1.620.5",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-25T07:38:20.032Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45569491155",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-26T07:38:11.753Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -218106,7 +218149,8 @@
     "inkling-thinking-streams:05e24395ed6a94502039eb26a36f3c996e6f680d74b628c0f67e9b54fdfa380d",
     "rail-design-ready-bottom-right:afe0c52ad72b1775dafea981cc8ef8c027c6e5acba59a913491864aba2700ecd",
     "landed-parents-say-what-they-started:d1c8d42c1bd8f15debebc310dadb41d785abf2b2f1665c2ed7233986d67f5dc5",
-    "slack-canvas-read-allowlist:7672a6ba00f0dc4daddf7d0c900088fc25363305f73d51316af59419eba69173"
+    "slack-canvas-read-allowlist:7672a6ba00f0dc4daddf7d0c900088fc25363305f73d51316af59419eba69173",
+    "rail-landed-parent-line:7c27b53a8fac60be2c22e62095d392360e29147b284b9cbe16beee4a0941f73a"
   ],
-  "consumedThroughSha": "d9aa48a0c5afddface62f9f559cac24e92ead9bd"
+  "consumedThroughSha": "154f988d7019abdc61fb1d704ca99339aed68e54"
 }
