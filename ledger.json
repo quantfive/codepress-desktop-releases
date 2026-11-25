@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3d160926017d4baa42a0d41bb97fc8ca4dfee0c6",
+  "cursorSha": "e2c8e348efe948e8a021709a4e0af67b37f0f980",
   "highWaterVersion": "1.618.0",
   "rows": [
     {
@@ -200673,6 +200673,13 @@
       "sourceSha": "3d160926017d4baa42a0d41bb97fc8ca4dfee0c6",
       "sourcePackageVersion": "1.617.12",
       "intentIds": []
+    },
+    {
+      "sourceSha": "e2c8e348efe948e8a021709a4e0af67b37f0f980",
+      "sourcePackageVersion": "1.617.12",
+      "intentIds": [
+        "publish-popover-domains:edbd9e616a22e5257ab3c81b9ed225f9932c917f90e80e8e955c523b720a885c"
+      ]
     }
   ],
   "intents": [
@@ -215267,6 +215274,14 @@
       "summary": "Allow Orchestrators to list pending repository prompt updates (`list_orchestrator_instruction_updates`) and resolve prompt-update conflicts or update repository instructions (`update_repository_instructions`) when explicitly asked by the person, while keeping fleet worker tabs refused.",
       "sourceSha": "4ddb601c9d2272be8c9606f0b0498aac4662a9e5",
       "identity": "allow-orchestrator-repo-instructions:2aa8a633da4956e59bb46d3ae57c68668e3da4e68b16e691d178518cfbe351cd"
+    },
+    {
+      "id": "publish-popover-domains",
+      "digest": "edbd9e616a22e5257ab3c81b9ed225f9932c917f90e80e8e955c523b720a885c",
+      "type": "patch",
+      "summary": "Declutter the App Publish popover into a 4-part layout with a prominent Add a custom domain action and Hosting in the footer, and allow saving custom domains pre-live with an inline $20/month CodePress Hosting upgrade gate.",
+      "sourceSha": "e2c8e348efe948e8a021709a4e0af67b37f0f980",
+      "identity": "publish-popover-domains:edbd9e616a22e5257ab3c81b9ed225f9932c917f90e80e8e955c523b720a885c"
     }
   ],
   "consumedIntentIds": [
