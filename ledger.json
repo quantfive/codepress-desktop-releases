@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "6e2cf6f06c906b9e799198054b4e1bd2d37fd69e",
+  "cursorSha": "a382857dd9d93b3ae8869a3b6f7cdbb5ce6badb3",
   "highWaterVersion": "1.620.4",
   "rows": [
     {
@@ -201422,6 +201422,13 @@
       "sourceSha": "6e2cf6f06c906b9e799198054b4e1bd2d37fd69e",
       "sourcePackageVersion": "1.620.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a382857dd9d93b3ae8869a3b6f7cdbb5ce6badb3",
+      "sourcePackageVersion": "1.620.3",
+      "intentIds": [
+        "slack-canvas-read-allowlist:7672a6ba00f0dc4daddf7d0c900088fc25363305f73d51316af59419eba69173"
+      ]
     }
   ],
   "intents": [
@@ -216112,6 +216119,14 @@
       "summary": "A landed project's summary now lists the projects it started, each as Landed or Still running with a link to open it, and a landed parent's row in the rail reads \"Landed · N started, M still running\". The Orchestrator names any started project still running when it lands, without waiting for it.",
       "sourceSha": "2fe6e018c9742d028c901d30c1c49fbafd9737fd",
       "identity": "landed-parents-say-what-they-started:d1c8d42c1bd8f15debebc310dadb41d785abf2b2f1665c2ed7233986d67f5dc5"
+    },
+    {
+      "id": "slack-canvas-read-allowlist",
+      "digest": "7672a6ba00f0dc4daddf7d0c900088fc25363305f73d51316af59419eba69173",
+      "type": "patch",
+      "summary": "Expose `read_slack_canvas` under Terminal's `comms:read` Slack tool allowlist so agents can read Slack canvases and huddle notes by URL or ID, with output wrapped as untrusted Slack content.",
+      "sourceSha": "a382857dd9d93b3ae8869a3b6f7cdbb5ce6badb3",
+      "identity": "slack-canvas-read-allowlist:7672a6ba00f0dc4daddf7d0c900088fc25363305f73d51316af59419eba69173"
     }
   ],
   "consumedIntentIds": [
