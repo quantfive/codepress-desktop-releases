@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "7f9fe2bb84748342855a5ee4dc895a6828d9a89b",
+  "cursorSha": "2fe6e018c9742d028c901d30c1c49fbafd9737fd",
   "highWaterVersion": "1.620.3",
   "rows": [
     {
@@ -201338,6 +201338,13 @@
       "intentIds": [
         "rail-design-ready-bottom-right:afe0c52ad72b1775dafea981cc8ef8c027c6e5acba59a913491864aba2700ecd"
       ]
+    },
+    {
+      "sourceSha": "2fe6e018c9742d028c901d30c1c49fbafd9737fd",
+      "sourcePackageVersion": "1.620.2",
+      "intentIds": [
+        "landed-parents-say-what-they-started:d1c8d42c1bd8f15debebc310dadb41d785abf2b2f1665c2ed7233986d67f5dc5"
+      ]
     }
   ],
   "intents": [
@@ -216020,6 +216027,14 @@
       "summary": "The \"Design ready\" and \"Stalled\" badges on Orchestrator and feed rail rows now sit at the bottom right of the row, so a project's name keeps its full width on the title line.",
       "sourceSha": "7f9fe2bb84748342855a5ee4dc895a6828d9a89b",
       "identity": "rail-design-ready-bottom-right:afe0c52ad72b1775dafea981cc8ef8c027c6e5acba59a913491864aba2700ecd"
+    },
+    {
+      "id": "landed-parents-say-what-they-started",
+      "digest": "d1c8d42c1bd8f15debebc310dadb41d785abf2b2f1665c2ed7233986d67f5dc5",
+      "type": "patch",
+      "summary": "A landed project's summary now lists the projects it started, each as Landed or Still running with a link to open it, and a landed parent's row in the rail reads \"Landed · N started, M still running\". The Orchestrator names any started project still running when it lands, without waiting for it.",
+      "sourceSha": "2fe6e018c9742d028c901d30c1c49fbafd9737fd",
+      "identity": "landed-parents-say-what-they-started:d1c8d42c1bd8f15debebc310dadb41d785abf2b2f1665c2ed7233986d67f5dc5"
     }
   ],
   "consumedIntentIds": [
