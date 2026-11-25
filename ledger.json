@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "123aa384f9102f72768ec1a8afad7cc94e88b728",
+  "cursorSha": "7fc7ee36865b85ba9e54034e383511bd0e7f4e49",
   "highWaterVersion": "1.620.2",
   "rows": [
     {
@@ -201249,6 +201249,13 @@
       "sourceSha": "123aa384f9102f72768ec1a8afad7cc94e88b728",
       "sourcePackageVersion": "1.620.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7fc7ee36865b85ba9e54034e383511bd0e7f4e49",
+      "sourcePackageVersion": "1.620.1",
+      "intentIds": [
+        "inkling-thinking-streams:05e24395ed6a94502039eb26a36f3c996e6f680d74b628c0f67e9b54fdfa380d"
+      ]
     }
   ],
   "intents": [
@@ -215915,6 +215922,14 @@
       "summary": "The Orchestrator feed now also sends the parent projects of listed child projects that the feed does not list itself, such as a landed parent while Landed is closed, and how many projects each one started, so the rail can nest children under their parents.",
       "sourceSha": "28ce58cd15504a31ec8d14e47d31f86d90262422",
       "identity": "feed-lineage-read:86ee668f20a369ea327d3cc2ec178b3274eb5a0c1cf647c6e56f5b792fba120a"
+    },
+    {
+      "id": "inkling-thinking-streams",
+      "digest": "05e24395ed6a94502039eb26a36f3c996e6f680d74b628c0f67e9b54fdfa380d",
+      "type": "patch",
+      "summary": "Chats and Orchestrators on Inkling 2 Mini now show the model's thinking as it streams, in the thread's thinking block, instead of an empty thread until the answer starts.",
+      "sourceSha": "7fc7ee36865b85ba9e54034e383511bd0e7f4e49",
+      "identity": "inkling-thinking-streams:05e24395ed6a94502039eb26a36f3c996e6f680d74b628c0f67e9b54fdfa380d"
     }
   ],
   "consumedIntentIds": [
