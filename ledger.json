@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "ccd357f364fdf74a0afaaa9320836df53ee086e1",
+  "cursorSha": "a77f855a5683e313c06436f52eeb13f383e9bfbf",
   "highWaterVersion": "1.617.13",
   "rows": [
     {
@@ -200343,6 +200343,13 @@
       "sourceSha": "ccd357f364fdf74a0afaaa9320836df53ee086e1",
       "sourcePackageVersion": "1.617.12",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a77f855a5683e313c06436f52eeb13f383e9bfbf",
+      "sourcePackageVersion": "1.617.12",
+      "intentIds": [
+        "windows-own-start-async:692399b2970daa9e41cae1bb8dad46fc6605b3feb699652e1d1d1b72f88fb5fe"
+      ]
     }
   ],
   "intents": [
@@ -214889,6 +214896,14 @@
       "summary": "On the iPhone Duo, the ⋮ menu and the page buttons beside it stay at the right end of the header row, where a regular iPhone shows them, instead of moving into the status column. The status column now holds only an Orchestrator project's tabs.",
       "sourceSha": "207ed3e87c1a84a8d06751a3cce5ad9eb57e8c5a",
       "identity": "duo-ellipsis-header-row:70a21904b4e55e4fc2627c0b2b404d8d0ccd841ca265c10d973b3155c6b3451e"
+    },
+    {
+      "id": "windows-own-start-async",
+      "digest": "692399b2970daa9e41cae1bb8dad46fc6605b3feb699652e1d1d1b72f88fb5fe",
+      "type": "patch",
+      "summary": "Windows: Terminal reads its own start time in the background instead of pausing for up to 15 seconds while PowerShell answers.",
+      "sourceSha": "a77f855a5683e313c06436f52eeb13f383e9bfbf",
+      "identity": "windows-own-start-async:692399b2970daa9e41cae1bb8dad46fc6605b3feb699652e1d1d1b72f88fb5fe"
     }
   ],
   "consumedIntentIds": [
