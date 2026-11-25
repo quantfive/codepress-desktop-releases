@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "bb8c865915042218ab1378aef67dcdad3d8f5ac2",
+  "cursorSha": "f9c5a6b0371329420ae937507e2ebe658442f2f4",
   "highWaterVersion": "1.620.13",
   "rows": [
     {
@@ -202587,6 +202587,13 @@
       "sourceSha": "bb8c865915042218ab1378aef67dcdad3d8f5ac2",
       "sourcePackageVersion": "1.620.12",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f9c5a6b0371329420ae937507e2ebe658442f2f4",
+      "sourcePackageVersion": "1.620.12",
+      "intentIds": [
+        "free-idle-project-dependencies:ae35b7e9ad4acaf5a9c9111c10b0e0ac85cd086afcffaf55ec7d1cf49ac740f4"
+      ]
     }
   ],
   "intents": [
@@ -217381,6 +217388,14 @@
       "summary": "Storage cleanup now prunes the uv, pnpm and Rust caches on a busy machine: a shell sitting in your home folder no longer keeps the uv cache, and each shared Rust build folder is cleaned on its own while cargo builds elsewhere, keeping only the folders a running build is using.",
       "sourceSha": "d2c2580a8e46d7713c9d466745f6a388a95973f2",
       "identity": "storage-cache-prunes-busy-machine:b987665acc7dfdbccb5279fd522bfe1edec229e6ee502229162ab9863f1b4f4f"
+    },
+    {
+      "id": "free-idle-project-dependencies",
+      "digest": "ae35b7e9ad4acaf5a9c9111c10b0e0ac85cd086afcffaf55ec7d1cf49ac740f4",
+      "type": "minor",
+      "summary": "Open Orchestrator projects nobody has worked on for 3 days no longer hold gigabytes of dependencies: Terminal removes `node_modules` and Turbo caches from worker folders whose worker isn't running, keeping code, branches and temp files, and a relaunched worker is told to reinstall. Turn it off with Settings → Storage → \"Free dependencies in idle projects\".",
+      "sourceSha": "f9c5a6b0371329420ae937507e2ebe658442f2f4",
+      "identity": "free-idle-project-dependencies:ae35b7e9ad4acaf5a9c9111c10b0e0ac85cd086afcffaf55ec7d1cf49ac740f4"
     }
   ],
   "consumedIntentIds": [
