@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "9015425c15751a406da9d153b2b3172b51aee117",
-  "highWaterVersion": "1.620.10",
+  "highWaterVersion": "1.620.11",
   "rows": [
     {
       "schemaVersion": 1,
@@ -110729,6 +110729,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:9015425c15751a406da9d153b2b3172b51aee117",
+      "kind": "main",
+      "sequence": 2704,
+      "sourceSha": "9015425c15751a406da9d153b2b3172b51aee117",
+      "sourcePackageVersion": "1.620.10",
+      "version": "1.620.11",
+      "batch": {
+        "intentIds": [
+          "rail-landed-fold-count:52bcc395c9acf854a716b15d93707ab0083c1ca956e880db84d27008ce2354c7"
+        ],
+        "notesIntentIds": [
+          "rail-landed-fold-count:52bcc395c9acf854a716b15d93707ab0083c1ca956e880db84d27008ce2354c7"
+        ],
+        "throughSourceSha": "9015425c15751a406da9d153b2b3172b51aee117",
+        "previousThroughSourceSha": "16b936f7ea5ff1d02e1d071520e06976977f15dd",
+        "baselineVersion": "1.620.10",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-25T19:07:41.232Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45681939520",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-26T19:07:30.363Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -218971,7 +219014,8 @@
     "duo-menu-thumb-reach:d1283894548a16c65a4683fcae63652ee4e6d322914dcd859a8948fe7c0955ba",
     "phone-view-desktop-overlay:c53a03e3616dad4f7e519cc014dc899aa03aa41eb9b6097a3f51c96b72bfb284",
     "delivery-reads-open-dialogs:bb3bacb957569e1d87a5aaccfe5ccc4564a91906072e68412d380b681c5fa14f",
-    "send-to-fix-opens-orchestrator:fc86f0587b5c19aa55b7a3712187f3cfa8b3e81e9c70fe000261a8139c2e42fe"
+    "send-to-fix-opens-orchestrator:fc86f0587b5c19aa55b7a3712187f3cfa8b3e81e9c70fe000261a8139c2e42fe",
+    "rail-landed-fold-count:52bcc395c9acf854a716b15d93707ab0083c1ca956e880db84d27008ce2354c7"
   ],
-  "consumedThroughSha": "16b936f7ea5ff1d02e1d071520e06976977f15dd"
+  "consumedThroughSha": "9015425c15751a406da9d153b2b3172b51aee117"
 }
