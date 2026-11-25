@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3605919a88a3f3f219e49995807f83247c6af5e9",
+  "cursorSha": "d2c2580a8e46d7713c9d466745f6a388a95973f2",
   "highWaterVersion": "1.620.13",
   "rows": [
     {
@@ -202562,6 +202562,13 @@
       "sourceSha": "3605919a88a3f3f219e49995807f83247c6af5e9",
       "sourcePackageVersion": "1.620.12",
       "intentIds": []
+    },
+    {
+      "sourceSha": "d2c2580a8e46d7713c9d466745f6a388a95973f2",
+      "sourcePackageVersion": "1.620.12",
+      "intentIds": [
+        "storage-cache-prunes-busy-machine:b987665acc7dfdbccb5279fd522bfe1edec229e6ee502229162ab9863f1b4f4f"
+      ]
     }
   ],
   "intents": [
@@ -217348,6 +217355,14 @@
       "summary": "Storage status is now compact: recent runs report counts, bytes and the most common reasons for keeping things instead of every planned item, so `get_terminal_storage_status` stays small. It also reports where CodePress's disk goes: the ten largest projects, shared caches, the local model and logs. The Kept list shows the largest folders first and folds tiny folders with no project record into one row.",
       "sourceSha": "892de929e85eec1d518786feb8e7cce61c730721",
       "identity": "storage-disk-report:8e49eae2476efdba2eced2753e0fc2445abb55432449798300f512e45f3f586a"
+    },
+    {
+      "id": "storage-cache-prunes-busy-machine",
+      "digest": "b987665acc7dfdbccb5279fd522bfe1edec229e6ee502229162ab9863f1b4f4f",
+      "type": "patch",
+      "summary": "Storage cleanup now prunes the uv, pnpm and Rust caches on a busy machine: a shell sitting in your home folder no longer keeps the uv cache, and each shared Rust build folder is cleaned on its own while cargo builds elsewhere, keeping only the folders a running build is using.",
+      "sourceSha": "d2c2580a8e46d7713c9d466745f6a388a95973f2",
+      "identity": "storage-cache-prunes-busy-machine:b987665acc7dfdbccb5279fd522bfe1edec229e6ee502229162ab9863f1b4f4f"
     }
   ],
   "consumedIntentIds": [
