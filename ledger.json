@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5f7c4cb9cf05c46f75f253ac06be7eef6b41e02c",
+  "cursorSha": "d34bf38b5ae83fba2048662c74ebc3eb901d3b69",
   "highWaterVersion": "1.617.14",
   "rows": [
     {
@@ -200469,6 +200469,11 @@
       "intentIds": [
         "remove-project-machine-grants:feceb13372f24e6d696447873040015718778fc9158b54bfcd8e7d781f07f745"
       ]
+    },
+    {
+      "sourceSha": "d34bf38b5ae83fba2048662c74ebc3eb901d3b69",
+      "sourcePackageVersion": "1.617.12",
+      "intentIds": []
     }
   ],
   "intents": [
