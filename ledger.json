@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b92c7173f8bb7d444f6d4cd90af55f0c090918d3",
+  "cursorSha": "8df59b34dd4855ec55509bc5dad57a9d780a7019",
   "highWaterVersion": "1.620.7",
   "rows": [
     {
@@ -201757,6 +201757,20 @@
       "sourceSha": "b92c7173f8bb7d444f6d4cd90af55f0c090918d3",
       "sourcePackageVersion": "1.620.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "8225a5439f6156c7a7760350bb57fc9cb9cc82b6",
+      "sourcePackageVersion": "1.620.6",
+      "intentIds": [
+        "rail-swipe-from-anywhere:cb377f52842339fdf5d76acd8411513ac5497e92be2c2edbb85f1a7e63d0a56b"
+      ]
+    },
+    {
+      "sourceSha": "8df59b34dd4855ec55509bc5dad57a9d780a7019",
+      "sourcePackageVersion": "1.620.6",
+      "intentIds": [
+        "duo-menu-thumb-reach:d1283894548a16c65a4683fcae63652ee4e6d322914dcd859a8948fe7c0955ba"
+      ]
     }
   ],
   "intents": [
@@ -216479,6 +216493,22 @@
       "summary": "On the iPhone Duo's status column, the project tabs' pill is now Liquid Glass, and holding a finger on it opens a panel that names every tab. Tap a name, or slide the held finger onto one and lift, to switch to it.",
       "sourceSha": "9dbe4e5acacdd5bbe16fa4b52c414b9d43a9e4e6",
       "identity": "duo-liquid-glass-rail:595e5aa38401643f0303c5f133b2d7efce5bc2711dcbb27c1b3df7ccd6b73519"
+    },
+    {
+      "id": "rail-swipe-from-anywhere",
+      "digest": "cb377f52842339fdf5d76acd8411513ac5497e92be2c2edbb85f1a7e63d0a56b",
+      "type": "patch",
+      "summary": "On a phone, a clearly sideways swipe right from anywhere on the screen now opens the left sidebar, and on a project page a swipe left from anywhere opens Work. Before, both opened only from a thin strip at the screen's edge. Vertical and diagonal swipes still scroll, and terminals, canvases, text fields and selected text keep their own drags.",
+      "sourceSha": "8225a5439f6156c7a7760350bb57fc9cb9cc82b6",
+      "identity": "rail-swipe-from-anywhere:cb377f52842339fdf5d76acd8411513ac5497e92be2c2edbb85f1a7e63d0a56b"
+    },
+    {
+      "id": "duo-menu-thumb-reach",
+      "digest": "d1283894548a16c65a4683fcae63652ee4e6d322914dcd859a8948fe7c0955ba",
+      "type": "patch",
+      "summary": "On the closed iPhone Duo, the chat-history menu now sits at the bottom of the status column, level with the chat box, within reach of the right thumb, instead of in the top-left corner.",
+      "sourceSha": "8df59b34dd4855ec55509bc5dad57a9d780a7019",
+      "identity": "duo-menu-thumb-reach:d1283894548a16c65a4683fcae63652ee4e6d322914dcd859a8948fe7c0955ba"
     }
   ],
   "consumedIntentIds": [
