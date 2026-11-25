@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "372dac2c1683dc98621c21d365f0159f9c885d26",
-  "highWaterVersion": "1.621.1",
+  "highWaterVersion": "1.622.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -111008,6 +111008,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:372dac2c1683dc98621c21d365f0159f9c885d26",
+      "kind": "main",
+      "sequence": 2709,
+      "sourceSha": "372dac2c1683dc98621c21d365f0159f9c885d26",
+      "sourcePackageVersion": "1.621.1",
+      "version": "1.622.0",
+      "batch": {
+        "intentIds": [
+          "storage-where-the-space-goes:46a1e06cce346bc34387916080f5d35ba0847d54ea1d32ff7a0d2a61f816d08b"
+        ],
+        "notesIntentIds": [
+          "storage-where-the-space-goes:46a1e06cce346bc34387916080f5d35ba0847d54ea1d32ff7a0d2a61f816d08b"
+        ],
+        "throughSourceSha": "372dac2c1683dc98621c21d365f0159f9c885d26",
+        "previousThroughSourceSha": "b482be42074a183ca36b9a560706fb74a8ed2718",
+        "baselineVersion": "1.621.1",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-25T23:10:12.753Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45719104003",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-26T23:10:02.033Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -219507,7 +219550,8 @@
     "storage-cache-prunes-busy-machine:b987665acc7dfdbccb5279fd522bfe1edec229e6ee502229162ab9863f1b4f4f",
     "free-idle-project-dependencies:ae35b7e9ad4acaf5a9c9111c10b0e0ac85cd086afcffaf55ec7d1cf49ac740f4",
     "own-pr-wakes:7a173544b912a3cf24a502844c5a8249804a2723a8b16dd682c15fab10df78a8",
-    "orchestrator-promise-needs-wake:f2cf37134deb68b95bbd735a7ea2704bf80cf76397c9f77f5c97ee03e0876566"
+    "orchestrator-promise-needs-wake:f2cf37134deb68b95bbd735a7ea2704bf80cf76397c9f77f5c97ee03e0876566",
+    "storage-where-the-space-goes:46a1e06cce346bc34387916080f5d35ba0847d54ea1d32ff7a0d2a61f816d08b"
   ],
-  "consumedThroughSha": "b482be42074a183ca36b9a560706fb74a8ed2718"
+  "consumedThroughSha": "372dac2c1683dc98621c21d365f0159f9c885d26"
 }
