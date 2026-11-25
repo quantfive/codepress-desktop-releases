@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "3bad44f0d0bbe290320b467e1beb6c5e1929834a",
+  "cursorSha": "207ed3e87c1a84a8d06751a3cce5ad9eb57e8c5a",
   "highWaterVersion": "1.617.12",
   "rows": [
     {
@@ -200222,6 +200222,13 @@
       "sourceSha": "3bad44f0d0bbe290320b467e1beb6c5e1929834a",
       "sourcePackageVersion": "1.617.11",
       "intentIds": []
+    },
+    {
+      "sourceSha": "207ed3e87c1a84a8d06751a3cce5ad9eb57e8c5a",
+      "sourcePackageVersion": "1.617.11",
+      "intentIds": [
+        "duo-ellipsis-header-row:70a21904b4e55e4fc2627c0b2b404d8d0ccd841ca265c10d973b3155c6b3451e"
+      ]
     }
   ],
   "intents": [
@@ -214760,6 +214767,14 @@
       "summary": "The Windows installer now carries the local agent runner as its two runtime archives, built from a link-free dependency tree and extracted with the system's own tar. Local execution on Windows stays off for now.",
       "sourceSha": "7d55820e893385d8e27a918b95455c1242a99152",
       "identity": "windows-runner-runtime-archives:4abcac012dd1a442dd9b6dfe1818913ceb22827aa4a9448a2b9225090ce4fc74"
+    },
+    {
+      "id": "duo-ellipsis-header-row",
+      "digest": "70a21904b4e55e4fc2627c0b2b404d8d0ccd841ca265c10d973b3155c6b3451e",
+      "type": "patch",
+      "summary": "On the iPhone Duo, the ⋮ menu and the page buttons beside it stay at the right end of the header row, where a regular iPhone shows them, instead of moving into the status column. The status column now holds only an Orchestrator project's tabs.",
+      "sourceSha": "207ed3e87c1a84a8d06751a3cce5ad9eb57e8c5a",
+      "identity": "duo-ellipsis-header-row:70a21904b4e55e4fc2627c0b2b404d8d0ccd841ca265c10d973b3155c6b3451e"
     }
   ],
   "consumedIntentIds": [
