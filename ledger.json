@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "e6f48634c67715c24b27d58bdc6d7acd6cdd2b8c",
+  "cursorSha": "81266ae9d0f018a7722242fdf8e51e2dab75d546",
   "highWaterVersion": "1.617.15",
   "rows": [
     {
@@ -200569,6 +200569,13 @@
       "sourceSha": "e6f48634c67715c24b27d58bdc6d7acd6cdd2b8c",
       "sourcePackageVersion": "1.617.12",
       "intentIds": []
+    },
+    {
+      "sourceSha": "81266ae9d0f018a7722242fdf8e51e2dab75d546",
+      "sourcePackageVersion": "1.617.12",
+      "intentIds": [
+        "desktop-viewer-overlay:ae55c26793237b8da139bda4dc7f03c6abe0171b4ab0327b11c9ea1e52f1ee59"
+      ]
     }
   ],
   "intents": [
@@ -215147,6 +215154,14 @@
       "summary": "Windows: chats you send from the CodePress web app to this machine now run here, as they do on macOS and Linux. Turn it off in Settings → Local Cloud Agents. Managed local previews are still not available on Windows.",
       "sourceSha": "cd2d42157abc655b9a4f90c0132ce380f81b015b",
       "identity": "windows-local-agent-chats:0eaa4c6d10d037c84b9c3aad93a9eb9f168de2e56e58ec1f3f93096dfc5db187"
+    },
+    {
+      "id": "desktop-viewer-overlay",
+      "digest": "ae55c26793237b8da139bda4dc7f03c6abe0171b4ab0327b11c9ea1e52f1ee59",
+      "type": "patch",
+      "summary": "Clicking **View desktop** in the Machines menu or **View desktop: <machine>** in the Command Palette now opens the remote desktop in a full-viewport overlay over your current view instead of switching to Terminal and creating a Desktop tab. Pressing Escape sends Escape to the remote computer; use the Close button to return to what you were doing.",
+      "sourceSha": "81266ae9d0f018a7722242fdf8e51e2dab75d546",
+      "identity": "desktop-viewer-overlay:ae55c26793237b8da139bda4dc7f03c6abe0171b4ab0327b11c9ea1e52f1ee59"
     }
   ],
   "consumedIntentIds": [
