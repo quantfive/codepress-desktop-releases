@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "d176370227ad6554ad80452cd62e118fa9622630",
-  "highWaterVersion": "1.618.0",
+  "highWaterVersion": "1.618.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -109937,6 +109937,53 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:d176370227ad6554ad80452cd62e118fa9622630",
+      "kind": "main",
+      "sequence": 2690,
+      "sourceSha": "d176370227ad6554ad80452cd62e118fa9622630",
+      "sourcePackageVersion": "1.618.0",
+      "version": "1.618.1",
+      "batch": {
+        "intentIds": [
+          "allow-orchestrator-repo-instructions:2aa8a633da4956e59bb46d3ae57c68668e3da4e68b16e691d178518cfbe351cd",
+          "publish-popover-domains:edbd9e616a22e5257ab3c81b9ed225f9932c917f90e80e8e955c523b720a885c",
+          "duo-island-rail-tabs:12bd54d89f72effd0ad1f8acfa2bfda40b7ddebcdf5e9e7d3bc522414cec0b61"
+        ],
+        "notesIntentIds": [
+          "allow-orchestrator-repo-instructions:2aa8a633da4956e59bb46d3ae57c68668e3da4e68b16e691d178518cfbe351cd",
+          "publish-popover-domains:edbd9e616a22e5257ab3c81b9ed225f9932c917f90e80e8e955c523b720a885c",
+          "duo-island-rail-tabs:12bd54d89f72effd0ad1f8acfa2bfda40b7ddebcdf5e9e7d3bc522414cec0b61"
+        ],
+        "throughSourceSha": "d176370227ad6554ad80452cd62e118fa9622630",
+        "previousThroughSourceSha": "4e499b66505dff266dfb8bcc0c5b48f22eceb463",
+        "baselineVersion": "1.618.0",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-25T02:37:32.117Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45534212715",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-26T02:37:24.030Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -217137,7 +217184,10 @@
     "ghostty-worker-tests-settle:fa91a1a02f9c21cbf3673c1194cfecbbbf0ea4f5ab5e1d49b51a2ade62c6478d",
     "remove-project-machine-grants:feceb13372f24e6d696447873040015718778fc9158b54bfcd8e7d781f07f745",
     "windows-local-agent-chats:0eaa4c6d10d037c84b9c3aad93a9eb9f168de2e56e58ec1f3f93096dfc5db187",
-    "desktop-viewer-overlay:ae55c26793237b8da139bda4dc7f03c6abe0171b4ab0327b11c9ea1e52f1ee59"
+    "desktop-viewer-overlay:ae55c26793237b8da139bda4dc7f03c6abe0171b4ab0327b11c9ea1e52f1ee59",
+    "allow-orchestrator-repo-instructions:2aa8a633da4956e59bb46d3ae57c68668e3da4e68b16e691d178518cfbe351cd",
+    "publish-popover-domains:edbd9e616a22e5257ab3c81b9ed225f9932c917f90e80e8e955c523b720a885c",
+    "duo-island-rail-tabs:12bd54d89f72effd0ad1f8acfa2bfda40b7ddebcdf5e9e7d3bc522414cec0b61"
   ],
-  "consumedThroughSha": "4e499b66505dff266dfb8bcc0c5b48f22eceb463"
+  "consumedThroughSha": "d176370227ad6554ad80452cd62e118fa9622630"
 }
