@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "1dcef9991d52b73afb843ecc05ff22e08b211f68",
+  "cursorSha": "992225470ef4ac6bad6bc1b10229da17c5386205",
   "highWaterVersion": "1.620.8",
   "rows": [
     {
@@ -202085,6 +202085,13 @@
       "sourceSha": "1dcef9991d52b73afb843ecc05ff22e08b211f68",
       "sourcePackageVersion": "1.620.8",
       "intentIds": []
+    },
+    {
+      "sourceSha": "992225470ef4ac6bad6bc1b10229da17c5386205",
+      "sourcePackageVersion": "1.620.8",
+      "intentIds": [
+        "delivery-reads-open-dialogs:bb3bacb957569e1d87a5aaccfe5ccc4564a91906072e68412d380b681c5fa14f"
+      ]
     }
   ],
   "intents": [
@@ -216831,6 +216838,14 @@
       "summary": "On the phone, View desktop now shows the machine's screen full screen over the page you were on, instead of switching to Terminal and opening a Desktop tab. Close takes you back to where you were.",
       "sourceSha": "eff3f6a93442748f63e26cc71f526742d1a39eed",
       "identity": "phone-view-desktop-overlay:c53a03e3616dad4f7e519cc014dc899aa03aa41eb9b6097a3f51c96b72bfb284"
+    },
+    {
+      "id": "delivery-reads-open-dialogs",
+      "digest": "bb3bacb957569e1d87a5aaccfe5ccc4564a91906072e68412d380b681c5fa14f",
+      "type": "patch",
+      "summary": "Terminal never answers an agent's open dialog with a message: before it types a message it reads the tab's screen, so a permission prompt, plan approval or question that no hook reported is left open and the sender is told, and declining a worker's prompt works on one only the screen shows.",
+      "sourceSha": "992225470ef4ac6bad6bc1b10229da17c5386205",
+      "identity": "delivery-reads-open-dialogs:bb3bacb957569e1d87a5aaccfe5ccc4564a91906072e68412d380b681c5fa14f"
     }
   ],
   "consumedIntentIds": [
