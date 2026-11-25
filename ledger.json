@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "187c23a2f47e7536263415503fe2a541ff4c1714",
+  "cursorSha": "7f9fe2bb84748342855a5ee4dc895a6828d9a89b",
   "highWaterVersion": "1.620.3",
   "rows": [
     {
@@ -201331,6 +201331,13 @@
       "sourceSha": "187c23a2f47e7536263415503fe2a541ff4c1714",
       "sourcePackageVersion": "1.620.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7f9fe2bb84748342855a5ee4dc895a6828d9a89b",
+      "sourcePackageVersion": "1.620.2",
+      "intentIds": [
+        "rail-design-ready-bottom-right:afe0c52ad72b1775dafea981cc8ef8c027c6e5acba59a913491864aba2700ecd"
+      ]
     }
   ],
   "intents": [
@@ -216005,6 +216012,14 @@
       "summary": "Chats and Orchestrators on Inkling 2 Mini now show the model's thinking as it streams, in the thread's thinking block, instead of an empty thread until the answer starts.",
       "sourceSha": "7fc7ee36865b85ba9e54034e383511bd0e7f4e49",
       "identity": "inkling-thinking-streams:05e24395ed6a94502039eb26a36f3c996e6f680d74b628c0f67e9b54fdfa380d"
+    },
+    {
+      "id": "rail-design-ready-bottom-right",
+      "digest": "afe0c52ad72b1775dafea981cc8ef8c027c6e5acba59a913491864aba2700ecd",
+      "type": "patch",
+      "summary": "The \"Design ready\" and \"Stalled\" badges on Orchestrator and feed rail rows now sit at the bottom right of the row, so a project's name keeps its full width on the title line.",
+      "sourceSha": "7f9fe2bb84748342855a5ee4dc895a6828d9a89b",
+      "identity": "rail-design-ready-bottom-right:afe0c52ad72b1775dafea981cc8ef8c027c6e5acba59a913491864aba2700ecd"
     }
   ],
   "consumedIntentIds": [
