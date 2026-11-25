@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f2c088d1263622de98de1bd7c3d89a98ee0e97cb",
+  "cursorSha": "7d55820e893385d8e27a918b95455c1242a99152",
   "highWaterVersion": "1.617.12",
   "rows": [
     {
@@ -200210,6 +200210,13 @@
       "sourceSha": "f2c088d1263622de98de1bd7c3d89a98ee0e97cb",
       "sourcePackageVersion": "1.617.11",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7d55820e893385d8e27a918b95455c1242a99152",
+      "sourcePackageVersion": "1.617.11",
+      "intentIds": [
+        "windows-runner-runtime-archives:4abcac012dd1a442dd9b6dfe1818913ceb22827aa4a9448a2b9225090ce4fc74"
+      ]
     }
   ],
   "intents": [
@@ -214740,6 +214747,14 @@
       "summary": "A project running on another of your machines now offers Inkling 2 Mini in its thread's Orchestrator and Workers menus when that machine has it ready, named after the machine (for example \"Inkling 2 Mini (128gb)\").",
       "sourceSha": "c21ed6a9e515119c76f8dc6734ccd0b0e6c4d57b",
       "identity": "inkling-copy-thread-menus:5ec03df31c3b2e55e0d0f975b3436a4ff84fcae7d045fefef3fdaf32b91781a8"
+    },
+    {
+      "id": "windows-runner-runtime-archives",
+      "digest": "4abcac012dd1a442dd9b6dfe1818913ceb22827aa4a9448a2b9225090ce4fc74",
+      "type": "patch",
+      "summary": "The Windows installer now carries the local agent runner as its two runtime archives, built from a link-free dependency tree and extracted with the system's own tar. Local execution on Windows stays off for now.",
+      "sourceSha": "7d55820e893385d8e27a918b95455c1242a99152",
+      "identity": "windows-runner-runtime-archives:4abcac012dd1a442dd9b6dfe1818913ceb22827aa4a9448a2b9225090ce4fc74"
     }
   ],
   "consumedIntentIds": [
