@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d176370227ad6554ad80452cd62e118fa9622630",
+  "cursorSha": "f684bfe4ffae8c7fb3e51582525a73d05811f512",
   "highWaterVersion": "1.618.1",
   "rows": [
     {
@@ -200761,6 +200761,13 @@
       "sourceSha": "d176370227ad6554ad80452cd62e118fa9622630",
       "sourcePackageVersion": "1.618.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f684bfe4ffae8c7fb3e51582525a73d05811f512",
+      "sourcePackageVersion": "1.618.0",
+      "intentIds": [
+        "orchestrator-intent-record:418f65a681cc0a5272cf6c66a208c49dc9f48b4b29749e9ca65923a48bb8110e"
+      ]
     }
   ],
   "intents": [
@@ -215371,6 +215378,14 @@
       "summary": "On the iPhone Duo, an Orchestrator project's tabs in the status column are now a narrow pill of round icon buttons, like the iPhone's own island and status controls, with each tab's name in its tooltip. The tabs start below the clock and battery, and with the keyboard up they scroll inside the space under them instead of sliding behind the clock.",
       "sourceSha": "84086cdbbe2dfda3c14974e145a81a7535493159",
       "identity": "duo-island-rail-tabs:12bd54d89f72effd0ad1f8acfa2bfda40b7ddebcdf5e9e7d3bc522414cec0b61"
+    },
+    {
+      "id": "orchestrator-intent-record",
+      "digest": "418f65a681cc0a5272cf6c66a208c49dc9f48b4b29749e9ca65923a48bb8110e",
+      "type": "minor",
+      "summary": "The Orchestrator records the decisions you state in your exact words and under your CodePress name, checks each quote against the message it came from, lists the recorded decisions its design keeps or changes, and commits a project's entries to the feature ledgers in one pull request before landing.",
+      "sourceSha": "f684bfe4ffae8c7fb3e51582525a73d05811f512",
+      "identity": "orchestrator-intent-record:418f65a681cc0a5272cf6c66a208c49dc9f48b4b29749e9ca65923a48bb8110e"
     }
   ],
   "consumedIntentIds": [
