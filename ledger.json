@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b3e8fc9d61aceb874726cd24249975a2e0780bbb",
+  "cursorSha": "5805cd3929d9b30228b068f9ecf8f6873885c937",
   "highWaterVersion": "1.619.0",
   "rows": [
     {
@@ -200840,6 +200840,13 @@
       "sourceSha": "b3e8fc9d61aceb874726cd24249975a2e0780bbb",
       "sourcePackageVersion": "1.618.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "5805cd3929d9b30228b068f9ecf8f6873885c937",
+      "sourcePackageVersion": "1.618.0",
+      "intentIds": [
+        "resumed-agent-message-submitted:55272112c904b6e22996ee889ba846b70b5cf7a8b3047be28681b8fd3dd838d3"
+      ]
     }
   ],
   "intents": [
@@ -215466,6 +215473,14 @@
       "summary": "Mobile Apps (`app_platform: \"mobile\"`) now preview inside an interactive iOS or Android device bezel in App tabs, with an **iOS | Android** toggle that switches frames without reloading the preview and a **Run on device** dialog with copyable Expo Go and EAS build commands.",
       "sourceSha": "7058624e24bbd26eeca5e77bdd54576f272294de",
       "identity": "mobile-device-frame-ui:b499547bcec7e3fdfcd5883b6d954f06acf45bb642b936ca0c1b9eb448de7ef3"
+    },
+    {
+      "id": "resumed-agent-message-submitted",
+      "digest": "55272112c904b6e22996ee889ba846b70b5cf7a8b3047be28681b8fd3dd838d3",
+      "type": "patch",
+      "summary": "A message to a worker Terminal put to sleep is sent once its agent is ready for it. Before, a slow start could leave the message typed but not sent while it was reported as delivered.",
+      "sourceSha": "5805cd3929d9b30228b068f9ecf8f6873885c937",
+      "identity": "resumed-agent-message-submitted:55272112c904b6e22996ee889ba846b70b5cf7a8b3047be28681b8fd3dd838d3"
     }
   ],
   "consumedIntentIds": [
