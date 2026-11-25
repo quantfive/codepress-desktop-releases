@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "dbaebcc88c7b5e2820722dba11a226fcdf3f9844",
+  "cursorSha": "372dac2c1683dc98621c21d365f0159f9c885d26",
   "highWaterVersion": "1.621.1",
   "rows": [
     {
@@ -202820,6 +202820,13 @@
       "sourceSha": "dbaebcc88c7b5e2820722dba11a226fcdf3f9844",
       "sourcePackageVersion": "1.621.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "372dac2c1683dc98621c21d365f0159f9c885d26",
+      "sourcePackageVersion": "1.621.1",
+      "intentIds": [
+        "storage-where-the-space-goes:46a1e06cce346bc34387916080f5d35ba0847d54ea1d32ff7a0d2a61f816d08b"
+      ]
     }
   ],
   "intents": [
@@ -217638,6 +217645,14 @@
       "summary": "The Orchestrator no longer ends a turn promising a later action (\"once CI passes\") with nothing to wake it: its instructions now say pull requests it opens on a work item wake it like a worker's, and to call schedule_wake when no worker, pull-request event, merge or person will.",
       "sourceSha": "b482be42074a183ca36b9a560706fb74a8ed2718",
       "identity": "orchestrator-promise-needs-wake:f2cf37134deb68b95bbd735a7ea2704bf80cf76397c9f77f5c97ee03e0876566"
+    },
+    {
+      "id": "storage-where-the-space-goes",
+      "digest": "46a1e06cce346bc34387916080f5d35ba0847d54ea1d32ff7a0d2a61f816d08b",
+      "type": "minor",
+      "summary": "Settings → Storage now shows where CodePress's disk space goes: total use and free space, a bar split by projects, shared caches and everything else, the biggest projects with Open and Free up… (free a project's dependencies now, or archive it so cleanup removes its folders), and each shared cache's size and why it was last kept. When free space drops below the low-disk threshold, Terminal tells you once, naming the three biggest projects, and the notification opens Settings → Storage.",
+      "sourceSha": "372dac2c1683dc98621c21d365f0159f9c885d26",
+      "identity": "storage-where-the-space-goes:46a1e06cce346bc34387916080f5d35ba0847d54ea1d32ff7a0d2a61f816d08b"
     }
   ],
   "consumedIntentIds": [
