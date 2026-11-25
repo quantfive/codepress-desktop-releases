@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4e499b66505dff266dfb8bcc0c5b48f22eceb463",
+  "cursorSha": "4ddb601c9d2272be8c9606f0b0498aac4662a9e5",
   "highWaterVersion": "1.618.0",
   "rows": [
     {
@@ -200651,6 +200651,13 @@
       "sourceSha": "4e499b66505dff266dfb8bcc0c5b48f22eceb463",
       "sourcePackageVersion": "1.617.12",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4ddb601c9d2272be8c9606f0b0498aac4662a9e5",
+      "sourcePackageVersion": "1.617.12",
+      "intentIds": [
+        "allow-orchestrator-repo-instructions:2aa8a633da4956e59bb46d3ae57c68668e3da4e68b16e691d178518cfbe351cd"
+      ]
     }
   ],
   "intents": [
@@ -215237,6 +215244,14 @@
       "summary": "Clicking **View desktop** in the Machines menu or **View desktop: <machine>** in the Command Palette now opens the remote desktop in a full-viewport overlay over your current view instead of switching to Terminal and creating a Desktop tab. Pressing Escape sends Escape to the remote computer; use the Close button to return to what you were doing.",
       "sourceSha": "81266ae9d0f018a7722242fdf8e51e2dab75d546",
       "identity": "desktop-viewer-overlay:ae55c26793237b8da139bda4dc7f03c6abe0171b4ab0327b11c9ea1e52f1ee59"
+    },
+    {
+      "id": "allow-orchestrator-repo-instructions",
+      "digest": "2aa8a633da4956e59bb46d3ae57c68668e3da4e68b16e691d178518cfbe351cd",
+      "type": "patch",
+      "summary": "Allow Orchestrators to list pending repository prompt updates (`list_orchestrator_instruction_updates`) and resolve prompt-update conflicts or update repository instructions (`update_repository_instructions`) when explicitly asked by the person, while keeping fleet worker tabs refused.",
+      "sourceSha": "4ddb601c9d2272be8c9606f0b0498aac4662a9e5",
+      "identity": "allow-orchestrator-repo-instructions:2aa8a633da4956e59bb46d3ae57c68668e3da4e68b16e691d178518cfbe351cd"
     }
   ],
   "consumedIntentIds": [
