@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "f15c0cd8d6d68477696982a659d4a65547d056a0",
+  "cursorSha": "6a8850a6fd4f0f97d02abb2e0539f7d5f0682108",
   "highWaterVersion": "1.622.5",
   "rows": [
     {
@@ -203471,6 +203471,13 @@
       "sourceSha": "f15c0cd8d6d68477696982a659d4a65547d056a0",
       "sourcePackageVersion": "1.622.4",
       "intentIds": []
+    },
+    {
+      "sourceSha": "6a8850a6fd4f0f97d02abb2e0539f7d5f0682108",
+      "sourcePackageVersion": "1.622.4",
+      "intentIds": [
+        "terminal-copy-service-isolation:60e3227bfbb60a41ea990b19394824afd61c1bb0910d8e0a2109576f8a855b19"
+      ]
     }
   ],
   "intents": [
@@ -218337,6 +218344,14 @@
       "summary": "The background server now starts again within seconds when something stops it that you did not ask for, instead of staying down until a window noticed. Terminal no longer shows \"Could not restart server\" while the server is only between a stop and its restart, and the server shuts down without waiting out its 30 second deadline.",
       "sourceSha": "e42c7e70dade4f922eaedd59023af5464f9061b6",
       "identity": "terminal-server-restart-after-unowned-stop:82ab0c9266d633bc90558b7d9ce9e7b6dd4576057208d949b5a4d42a907e9650"
+    },
+    {
+      "id": "terminal-copy-service-isolation",
+      "digest": "60e3227bfbb60a41ea990b19394824afd61c1bb0910d8e0a2109576f8a855b19",
+      "type": "patch",
+      "summary": "A copy of CodePress that is not your installed app (a test build, a second download) now runs its own background server and data folder and says so in its window title, so it can no longer stop the server your installed app runs.",
+      "sourceSha": "6a8850a6fd4f0f97d02abb2e0539f7d5f0682108",
+      "identity": "terminal-copy-service-isolation:60e3227bfbb60a41ea990b19394824afd61c1bb0910d8e0a2109576f8a855b19"
     }
   ],
   "consumedIntentIds": [
