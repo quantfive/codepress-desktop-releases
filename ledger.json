@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "d615473a0ac2373dfe5b0e69ad6ad0222d1461cf",
-  "highWaterVersion": "1.622.5",
+  "highWaterVersion": "1.622.6",
   "rows": [
     {
       "schemaVersion": 1,
@@ -111330,6 +111330,49 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:d615473a0ac2373dfe5b0e69ad6ad0222d1461cf",
+      "kind": "main",
+      "sequence": 2715,
+      "sourceSha": "d615473a0ac2373dfe5b0e69ad6ad0222d1461cf",
+      "sourcePackageVersion": "1.622.5",
+      "version": "1.622.6",
+      "batch": {
+        "intentIds": [
+          "terminal-copy-service-isolation:60e3227bfbb60a41ea990b19394824afd61c1bb0910d8e0a2109576f8a855b19"
+        ],
+        "notesIntentIds": [
+          "terminal-copy-service-isolation:60e3227bfbb60a41ea990b19394824afd61c1bb0910d8e0a2109576f8a855b19"
+        ],
+        "throughSourceSha": "d615473a0ac2373dfe5b0e69ad6ad0222d1461cf",
+        "previousThroughSourceSha": "f15c0cd8d6d68477696982a659d4a65547d056a0",
+        "baselineVersion": "1.622.5",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-26T21:01:27.273Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45895112058",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-27T21:01:16.723Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -220245,7 +220288,8 @@
     "gemini-pm-unwrap-quoted-keys:c2582ec69442b2125f972f624750a58875f6eeb9b02bdfdd2acee45a0ae41eb3",
     "reconnect-resync-healthy:e1f63fb81c065e4585289af770a122b5146d01e95ecac6bb484cf6702d50596f",
     "quiet-pickers-open:d08233cedb45e1ed94fea67cbbe4ff7688658463b4e45f1a9ce79da143ae3852",
-    "terminal-server-restart-after-unowned-stop:82ab0c9266d633bc90558b7d9ce9e7b6dd4576057208d949b5a4d42a907e9650"
+    "terminal-server-restart-after-unowned-stop:82ab0c9266d633bc90558b7d9ce9e7b6dd4576057208d949b5a4d42a907e9650",
+    "terminal-copy-service-isolation:60e3227bfbb60a41ea990b19394824afd61c1bb0910d8e0a2109576f8a855b19"
   ],
-  "consumedThroughSha": "f15c0cd8d6d68477696982a659d4a65547d056a0"
+  "consumedThroughSha": "d615473a0ac2373dfe5b0e69ad6ad0222d1461cf"
 }
