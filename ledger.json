@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2163f7f8ea2e47ae4a0186488bee064776b5d9cb",
+  "cursorSha": "be56a04ad328b1f3fde27118a6723339606c3c30",
   "highWaterVersion": "1.623.0",
   "rows": [
     {
@@ -203766,6 +203766,13 @@
       "sourceSha": "2163f7f8ea2e47ae4a0186488bee064776b5d9cb",
       "sourcePackageVersion": "1.623.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "be56a04ad328b1f3fde27118a6723339606c3c30",
+      "sourcePackageVersion": "1.623.0",
+      "intentIds": [
+        "staging-sleep-asleep-message:02227dae4764def4b898fbf8a85474cb8b17f27684a434517a1da83fd99aa6d1"
+      ]
     }
   ],
   "intents": [
@@ -218648,6 +218655,14 @@
       "summary": "Archiving an Orchestrator project now cleans up the way landing does: it stops the project's Orchestrator and workers, closes their tabs, removes their worktrees (a worktree with unsaved work is kept and listed), tidies the Orchestrator's folder while keeping the files the conversation links to, removes plan copies, closes the project's GitHub plan and design issues (unfinished work closes as not planned), and posts one \"Cleaned up after archiving.\" summary in the thread.",
       "sourceSha": "bb06597dbf67c39afdd5afb80158f2f04dbd0256",
       "identity": "archive-full-cleanup:eb961c995cff8f074f3423645a4cd3fdfa6076b713454d2ac762ae1d2157c47b"
+    },
+    {
+      "id": "staging-sleep-asleep-message",
+      "digest": "02227dae4764def4b898fbf8a85474cb8b17f27684a434517a1da83fd99aa6d1",
+      "type": "patch",
+      "summary": "The global staging provider-key tools now say when shared staging is asleep and how to wake it (`pnpm staging:wake`) instead of reporting a bare HTTP 503.",
+      "sourceSha": "be56a04ad328b1f3fde27118a6723339606c3c30",
+      "identity": "staging-sleep-asleep-message:02227dae4764def4b898fbf8a85474cb8b17f27684a434517a1da83fd99aa6d1"
     }
   ],
   "consumedIntentIds": [
