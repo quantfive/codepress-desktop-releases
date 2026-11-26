@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "d0ba6042302cd31ec451c97273ff6c725d3b9d88",
+  "cursorSha": "bb06597dbf67c39afdd5afb80158f2f04dbd0256",
   "highWaterVersion": "1.622.6",
   "rows": [
     {
@@ -203634,6 +203634,13 @@
       "sourceSha": "d0ba6042302cd31ec451c97273ff6c725d3b9d88",
       "sourcePackageVersion": "1.622.6",
       "intentIds": []
+    },
+    {
+      "sourceSha": "bb06597dbf67c39afdd5afb80158f2f04dbd0256",
+      "sourcePackageVersion": "1.622.6",
+      "intentIds": [
+        "archive-full-cleanup:eb961c995cff8f074f3423645a4cd3fdfa6076b713454d2ac762ae1d2157c47b"
+      ]
     }
   ],
   "intents": [
@@ -218508,6 +218515,14 @@
       "summary": "A copy of CodePress that is not your installed app (a test build, a second download) now runs its own background server and data folder and says so in its window title, so it can no longer stop the server your installed app runs.",
       "sourceSha": "6a8850a6fd4f0f97d02abb2e0539f7d5f0682108",
       "identity": "terminal-copy-service-isolation:60e3227bfbb60a41ea990b19394824afd61c1bb0910d8e0a2109576f8a855b19"
+    },
+    {
+      "id": "archive-full-cleanup",
+      "digest": "eb961c995cff8f074f3423645a4cd3fdfa6076b713454d2ac762ae1d2157c47b",
+      "type": "minor",
+      "summary": "Archiving an Orchestrator project now cleans up the way landing does: it stops the project's Orchestrator and workers, closes their tabs, removes their worktrees (a worktree with unsaved work is kept and listed), tidies the Orchestrator's folder while keeping the files the conversation links to, removes plan copies, closes the project's GitHub plan and design issues (unfinished work closes as not planned), and posts one \"Cleaned up after archiving.\" summary in the thread.",
+      "sourceSha": "bb06597dbf67c39afdd5afb80158f2f04dbd0256",
+      "identity": "archive-full-cleanup:eb961c995cff8f074f3423645a4cd3fdfa6076b713454d2ac762ae1d2157c47b"
     }
   ],
   "consumedIntentIds": [
