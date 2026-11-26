@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a62a58b1b8809590afe235200e5b7d492f10e29f",
+  "cursorSha": "c27d62b0dc89bbd1f7dd6fe7038411dd857fda1d",
   "highWaterVersion": "1.622.1",
   "rows": [
     {
@@ -203049,6 +203049,13 @@
       "sourceSha": "a62a58b1b8809590afe235200e5b7d492f10e29f",
       "sourcePackageVersion": "1.622.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "c27d62b0dc89bbd1f7dd6fe7038411dd857fda1d",
+      "sourcePackageVersion": "1.622.1",
+      "intentIds": [
+        "gemini-pm-unwrap-quoted-keys:c2582ec69442b2125f972f624750a58875f6eeb9b02bdfdd2acee45a0ae41eb3"
+      ]
     }
   ],
   "intents": [
@@ -217883,6 +217890,14 @@
       "summary": "A building project's Orchestrator that takes no turn for an hour is now woken with a live read of its open items and pull requests, even when no event arrived, so a lost webhook can no longer leave it idle. The check waits longer while nothing changes and holds while the project is paused, landed or waiting on its own scheduled wake.",
       "sourceSha": "d5dc69cb3e8858ff5d7a81023bdf158eb37d8858",
       "identity": "orchestrator-idle-check:dc41b398d887822bc7df11b9f322af6e6e0fa22c3424da036a7cb4099dfc8393"
+    },
+    {
+      "id": "gemini-pm-unwrap-quoted-keys",
+      "digest": "c2582ec69442b2125f972f624750a58875f6eeb9b02bdfdd2acee45a0ae41eb3",
+      "type": "patch",
+      "summary": "Unwrap literal double-quoted JSON object keys (such as `\"\\\"Content-Type\\\"\"`) emitted by Gemini (`agy`) in Orchestrator `tool_call` gateway arguments before forwarding them to local and remote MCP tools.",
+      "sourceSha": "c27d62b0dc89bbd1f7dd6fe7038411dd857fda1d",
+      "identity": "gemini-pm-unwrap-quoted-keys:c2582ec69442b2125f972f624750a58875f6eeb9b02bdfdd2acee45a0ae41eb3"
     }
   ],
   "consumedIntentIds": [
