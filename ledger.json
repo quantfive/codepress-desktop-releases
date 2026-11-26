@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b166e1342e8ccaf2df73c0adae4a5a9ac6d7943a",
+  "cursorSha": "a7bfe3a6865be37c9f66821dc87241e358be8744",
   "highWaterVersion": "1.622.3",
   "rows": [
     {
@@ -203338,6 +203338,13 @@
       "sourceSha": "b166e1342e8ccaf2df73c0adae4a5a9ac6d7943a",
       "sourcePackageVersion": "1.622.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a7bfe3a6865be37c9f66821dc87241e358be8744",
+      "sourcePackageVersion": "1.622.3",
+      "intentIds": [
+        "quiet-pickers-open:d08233cedb45e1ed94fea67cbbe4ff7688658463b4e45f1a9ce79da143ae3852"
+      ]
     }
   ],
   "intents": [
@@ -218188,6 +218195,14 @@
       "summary": "Settings → Accounts: a reconnected account's card drops \"Reconnect required\" and shows its usage within a few seconds of the sign-in finishing, without reopening Settings. A reconnect done on codepress.dev shows when you come back to the Terminal window.",
       "sourceSha": "d8b98ebe7947ff843e102a09269e51479362d95a",
       "identity": "reconnect-resync-healthy:e1f63fb81c065e4585289af770a122b5146d01e95ecac6bb484cf6702d50596f"
+    },
+    {
+      "id": "quiet-pickers-open",
+      "digest": "d08233cedb45e1ed94fea67cbbe4ff7688658463b4e45f1a9ce79da143ae3852",
+      "type": "patch",
+      "summary": "Allow background computer use on macOS to select and confirm files in a browser's attached file picker using the verified browser window.",
+      "sourceSha": "a7bfe3a6865be37c9f66821dc87241e358be8744",
+      "identity": "quiet-pickers-open:d08233cedb45e1ed94fea67cbbe4ff7688658463b4e45f1a9ce79da143ae3852"
     }
   ],
   "consumedIntentIds": [
