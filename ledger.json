@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a219f33035601dd8dc029a4756074cc8cc71c0d5",
+  "cursorSha": "61120fa29094fef5bb31fa11e2729ee2ef685137",
   "highWaterVersion": "1.628.2",
   "rows": [
     {
@@ -204591,6 +204591,13 @@
       "sourceSha": "a219f33035601dd8dc029a4756074cc8cc71c0d5",
       "sourcePackageVersion": "1.628.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "61120fa29094fef5bb31fa11e2729ee2ef685137",
+      "sourcePackageVersion": "1.628.1",
+      "intentIds": [
+        "remote-initiatives-machine:7fa57c41732eeca2524252baf8c47bfae7dda71b3e452a35de51a1e0a591cdc6"
+      ]
     }
   ],
   "intents": [
@@ -219545,6 +219552,14 @@
       "summary": "Choosing a Team account in Settings → Accounts no longer fails with \"This account is no longer available\" when this computer already holds that account under an older key (for example its email, from before it was added to the Team). A switch that only fails its last check now says \"This switch didn't finish.\" and can be retried.",
       "sourceSha": "c1fee9211cd6fe05db2b497eef6929f551999bc0",
       "identity": "codex-switch-held-key:0e368a9354e7a2fcec3d5d5b89cb5d12702e346b39adc753b46f7dbba218a23f"
+    },
+    {
+      "id": "remote-initiatives-machine",
+      "digest": "7fa57c41732eeca2524252baf8c47bfae7dda71b3e452a35de51a1e0a591cdc6",
+      "type": "minor",
+      "summary": "With Initiatives turned on, this machine can start an initiative from the web or your phone, and take its controls from there: On, Off and Retire, setup changes, Check in now, recommendation decisions and the journal. Turning Initiatives off withdraws all of them. The account switch \"Approve agents' prompts\" (You → Orchestrator → New projects) is now \"Let the Orchestrator answer its agents' prompts\", the same words as each project's own setting. It is the value a new project starts with when its kickoff doesn't say.",
+      "sourceSha": "61120fa29094fef5bb31fa11e2729ee2ef685137",
+      "identity": "remote-initiatives-machine:7fa57c41732eeca2524252baf8c47bfae7dda71b3e452a35de51a1e0a591cdc6"
     }
   ],
   "consumedIntentIds": [
