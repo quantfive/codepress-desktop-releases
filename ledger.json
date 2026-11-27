@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "9fb5b50a9944ec24e85291d14d15adc20ab786d8",
+  "cursorSha": "3b7157967364251742db5d719df56096630e12bb",
   "highWaterVersion": "1.626.0",
   "rows": [
     {
@@ -204111,6 +204111,13 @@
       "sourceSha": "9fb5b50a9944ec24e85291d14d15adc20ab786d8",
       "sourcePackageVersion": "1.625.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "3b7157967364251742db5d719df56096630e12bb",
+      "sourcePackageVersion": "1.625.0",
+      "intentIds": [
+        "terminal-initiative-check-ins:9373a03d1a9e35f4661eac18aab63a0e7e77b07cfb70c3d9f9bf437d7b1810a2"
+      ]
     }
   ],
   "intents": [
@@ -219025,6 +219032,14 @@
       "summary": "Initiatives (behind Settings → Orchestrator → Initiatives): accepting a recommended project now starts it as one of the initiative's projects, and an initiative runs at most its own projects-at-once number. By default only the person starts its projects; in start mode auto its Orchestrator may start them itself, up to that number.",
       "sourceSha": "1f836ba8ec6ef872771ed9a5544e30ba4e0f101c",
       "identity": "initiative-project-starts:f7c976d5346ca3832d3139f2b79192ca4c1d8762d97730c3db4d5ac574758e20"
+    },
+    {
+      "id": "terminal-initiative-check-ins",
+      "digest": "9373a03d1a9e35f4661eac18aab63a0e7e77b07cfb70c3d9f9bf437d7b1810a2",
+      "type": "minor",
+      "summary": "Initiatives, part 2 (behind Settings → Orchestrator → Initiatives, off by default): an initiative's Orchestrator now sets up its own signals, cadence and projects at once on its first turn, and is woken on that cadence (every N hours, daily, weekdays or weekly at a time in your time zone) to recommend projects, revise its setup, ask you, or record that nothing is worth doing. Check in now delivers one at once, and a landed project is written to the initiative's journal.",
+      "sourceSha": "3b7157967364251742db5d719df56096630e12bb",
+      "identity": "terminal-initiative-check-ins:9373a03d1a9e35f4661eac18aab63a0e7e77b07cfb70c3d9f9bf437d7b1810a2"
     }
   ],
   "consumedIntentIds": [
