@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2f6940830db810dbccd9373e43c10a438fa41265",
+  "cursorSha": "8628042aa15639cd90780dc226610af6806bf2b1",
   "highWaterVersion": "1.629.0",
   "rows": [
     {
@@ -204663,6 +204663,13 @@
       "sourceSha": "2f6940830db810dbccd9373e43c10a438fa41265",
       "sourcePackageVersion": "1.628.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "8628042aa15639cd90780dc226610af6806bf2b1",
+      "sourcePackageVersion": "1.628.2",
+      "intentIds": [
+        "linux-redis-shim-peer-uid:a83d2f8ea9ea52d6fd5df17824c39b9ca46ea1d0a3ef2657bd9831b28b3e3379"
+      ]
     }
   ],
   "intents": [
@@ -219625,6 +219632,14 @@
       "summary": "With Initiatives turned on, this machine can start an initiative from the web or your phone, and take its controls from there: On, Off and Retire, setup changes, Check in now, recommendation decisions and the journal. Turning Initiatives off withdraws all of them. The account switch \"Approve agents' prompts\" (You → Orchestrator → New projects) is now \"Let the Orchestrator answer its agents' prompts\", the same words as each project's own setting. It is the value a new project starts with when its kickoff doesn't say.",
       "sourceSha": "61120fa29094fef5bb31fa11e2729ee2ef685137",
       "identity": "remote-initiatives-machine:7fa57c41732eeca2524252baf8c47bfae7dda71b3e452a35de51a1e0a591cdc6"
+    },
+    {
+      "id": "linux-redis-shim-peer-uid",
+      "digest": "a83d2f8ea9ea52d6fd5df17824c39b9ca46ea1d0a3ef2657bd9831b28b3e3379",
+      "type": "patch",
+      "summary": "Local agent Redis tunnels on Linux machines now always verify that loopback connections originate from the signed-in OS account's UID via `/proc/net/tcp`, preventing other local OS users on multi-user Linux machines from connecting to the owner's session stream even when shared-computer mode is off.",
+      "sourceSha": "8628042aa15639cd90780dc226610af6806bf2b1",
+      "identity": "linux-redis-shim-peer-uid:a83d2f8ea9ea52d6fd5df17824c39b9ca46ea1d0a3ef2657bd9831b28b3e3379"
     }
   ],
   "consumedIntentIds": [
