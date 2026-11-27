@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "2cdfa15c47198d05a1f5246e67f64754114b5551",
+  "cursorSha": "7499cfba0958270f1ffb6543d54121c99d0df5cb",
   "highWaterVersion": "1.627.0",
   "rows": [
     {
@@ -204201,6 +204201,13 @@
       "sourceSha": "2cdfa15c47198d05a1f5246e67f64754114b5551",
       "sourcePackageVersion": "1.627.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "7499cfba0958270f1ffb6543d54121c99d0df5cb",
+      "sourcePackageVersion": "1.627.0",
+      "intentIds": [
+        "codex-wrapper-liveness:bb73ba579283139de48b960c914e320ddfb4127c5fe88f19e731cc8ac1e22bf5"
+      ]
     }
   ],
   "intents": [
@@ -219123,6 +219130,14 @@
       "summary": "Initiatives, part 2 (behind Settings → Orchestrator → Initiatives, off by default): an initiative's Orchestrator now sets up its own signals, cadence and projects at once on its first turn, and is woken on that cadence (every N hours, daily, weekdays or weekly at a time in your time zone) to recommend projects, revise its setup, ask you, or record that nothing is worth doing. Check in now delivers one at once, and a landed project is written to the initiative's journal.",
       "sourceSha": "3b7157967364251742db5d719df56096630e12bb",
       "identity": "terminal-initiative-check-ins:9373a03d1a9e35f4661eac18aab63a0e7e77b07cfb70c3d9f9bf437d7b1810a2"
+    },
+    {
+      "id": "codex-wrapper-liveness",
+      "digest": "bb73ba579283139de48b960c914e320ddfb4127c5fe88f19e731cc8ac1e22bf5",
+      "type": "patch",
+      "summary": "An Orchestrator can again answer a Codex worker's \"Hooks need review\" startup screen and message the worker afterwards. Terminal had mistaken one of Codex's short startup helpers for the worker itself, so once that helper exited it treated the running worker as stopped and refused every dialog answer and message until the worker was relaunched.",
+      "sourceSha": "7499cfba0958270f1ffb6543d54121c99d0df5cb",
+      "identity": "codex-wrapper-liveness:bb73ba579283139de48b960c914e320ddfb4127c5fe88f19e731cc8ac1e22bf5"
     }
   ],
   "consumedIntentIds": [
