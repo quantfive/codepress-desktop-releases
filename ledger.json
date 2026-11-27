@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "be9abc33ede9f5de0402d047223dc08a8cd8b2aa",
+  "cursorSha": "1f836ba8ec6ef872771ed9a5544e30ba4e0f101c",
   "highWaterVersion": "1.625.0",
   "rows": [
     {
@@ -204052,6 +204052,13 @@
       "sourceSha": "be9abc33ede9f5de0402d047223dc08a8cd8b2aa",
       "sourcePackageVersion": "1.625.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "1f836ba8ec6ef872771ed9a5544e30ba4e0f101c",
+      "sourcePackageVersion": "1.625.0",
+      "intentIds": [
+        "initiative-project-starts:f7c976d5346ca3832d3139f2b79192ca4c1d8762d97730c3db4d5ac574758e20"
+      ]
     }
   ],
   "intents": [
@@ -218958,6 +218965,14 @@
       "summary": "Initiatives, part 1 (behind Settings → Orchestrator → Initiatives, off by default): an Orchestrator project can be a standing goal with a journal and recommendations. Its Orchestrator gets initiative tools, Terminal MCP gets list, get, start, update and decide tools, and an initiative never lands.",
       "sourceSha": "a1f323f48caf04fbd21de10aa5b6ca896261170b",
       "identity": "terminal-initiatives-core:df2004eb72f6053c218c526765f04726c2d9598bfa0b51ded1d213be53fe85d4"
+    },
+    {
+      "id": "initiative-project-starts",
+      "digest": "f7c976d5346ca3832d3139f2b79192ca4c1d8762d97730c3db4d5ac574758e20",
+      "type": "minor",
+      "summary": "Initiatives (behind Settings → Orchestrator → Initiatives): accepting a recommended project now starts it as one of the initiative's projects, and an initiative runs at most its own projects-at-once number. By default only the person starts its projects; in start mode auto its Orchestrator may start them itself, up to that number.",
+      "sourceSha": "1f836ba8ec6ef872771ed9a5544e30ba4e0f101c",
+      "identity": "initiative-project-starts:f7c976d5346ca3832d3139f2b79192ca4c1d8762d97730c3db4d5ac574758e20"
     }
   ],
   "consumedIntentIds": [
