@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "91934c871c17cd181d86d8469929f4712198b69e",
+  "cursorSha": "a1f323f48caf04fbd21de10aa5b6ca896261170b",
   "highWaterVersion": "1.624.0",
   "rows": [
     {
@@ -203965,6 +203965,13 @@
       "sourceSha": "91934c871c17cd181d86d8469929f4712198b69e",
       "sourcePackageVersion": "1.624.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "a1f323f48caf04fbd21de10aa5b6ca896261170b",
+      "sourcePackageVersion": "1.624.0",
+      "intentIds": [
+        "terminal-initiatives-core:df2004eb72f6053c218c526765f04726c2d9598bfa0b51ded1d213be53fe85d4"
+      ]
     }
   ],
   "intents": [
@@ -218863,6 +218870,14 @@
       "summary": "Deleting an Orchestrator project now also closes its GitHub plan and design issues with a \"Project deleted in CodePress.\" comment (a done item's issue closes as completed, unfinished work as not planned, and an issue a land or archive already closed is not commented on again), removes its plan copies, closes the project's Terminal session and idle helper tabs (a session your own tab keeps open stays), and stops the project's leftover processes.",
       "sourceSha": "4d57240557062849e573175e4e6059abddd8e7bb",
       "identity": "delete-closes-issues:30267a7a31b10348456b56d45613a0424aa7e2fe585a9ad54bb52f6a6d923c86"
+    },
+    {
+      "id": "terminal-initiatives-core",
+      "digest": "df2004eb72f6053c218c526765f04726c2d9598bfa0b51ded1d213be53fe85d4",
+      "type": "minor",
+      "summary": "Initiatives, part 1 (behind Settings → Orchestrator → Initiatives, off by default): an Orchestrator project can be a standing goal with a journal and recommendations. Its Orchestrator gets initiative tools, Terminal MCP gets list, get, start, update and decide tools, and an initiative never lands.",
+      "sourceSha": "a1f323f48caf04fbd21de10aa5b6ca896261170b",
+      "identity": "terminal-initiatives-core:df2004eb72f6053c218c526765f04726c2d9598bfa0b51ded1d213be53fe85d4"
     }
   ],
   "consumedIntentIds": [
