@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "72e906bb2adfe4736bc657d205ba0bd0768b5025",
-  "highWaterVersion": "1.627.1",
+  "highWaterVersion": "1.628.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -111778,6 +111778,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:72e906bb2adfe4736bc657d205ba0bd0768b5025",
+      "kind": "main",
+      "sequence": 2723,
+      "sourceSha": "72e906bb2adfe4736bc657d205ba0bd0768b5025",
+      "sourcePackageVersion": "1.627.1",
+      "version": "1.628.0",
+      "batch": {
+        "intentIds": [
+          "initiative-ui:a3e01593b0ce800b63ef21787afac40a2f937c0d60528f5cad4e9bb66eb57524"
+        ],
+        "notesIntentIds": [
+          "initiative-ui:a3e01593b0ce800b63ef21787afac40a2f937c0d60528f5cad4e9bb66eb57524"
+        ],
+        "throughSourceSha": "72e906bb2adfe4736bc657d205ba0bd0768b5025",
+        "previousThroughSourceSha": "7499cfba0958270f1ffb6543d54121c99d0df5cb",
+        "baselineVersion": "1.627.1",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-27T04:45:12.058Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45941685829",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-28T04:45:03.320Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -221106,7 +221149,8 @@
     "terminal-initiatives-core:df2004eb72f6053c218c526765f04726c2d9598bfa0b51ded1d213be53fe85d4",
     "initiative-project-starts:f7c976d5346ca3832d3139f2b79192ca4c1d8762d97730c3db4d5ac574758e20",
     "terminal-initiative-check-ins:9373a03d1a9e35f4661eac18aab63a0e7e77b07cfb70c3d9f9bf437d7b1810a2",
-    "codex-wrapper-liveness:bb73ba579283139de48b960c914e320ddfb4127c5fe88f19e731cc8ac1e22bf5"
+    "codex-wrapper-liveness:bb73ba579283139de48b960c914e320ddfb4127c5fe88f19e731cc8ac1e22bf5",
+    "initiative-ui:a3e01593b0ce800b63ef21787afac40a2f937c0d60528f5cad4e9bb66eb57524"
   ],
-  "consumedThroughSha": "7499cfba0958270f1ffb6543d54121c99d0df5cb"
+  "consumedThroughSha": "72e906bb2adfe4736bc657d205ba0bd0768b5025"
 }
