@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "7499cfba0958270f1ffb6543d54121c99d0df5cb",
-  "highWaterVersion": "1.627.0",
+  "highWaterVersion": "1.627.1",
   "rows": [
     {
       "schemaVersion": 1,
@@ -111723,6 +111723,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:7499cfba0958270f1ffb6543d54121c99d0df5cb",
+      "kind": "main",
+      "sequence": 2722,
+      "sourceSha": "7499cfba0958270f1ffb6543d54121c99d0df5cb",
+      "sourcePackageVersion": "1.627.0",
+      "version": "1.627.1",
+      "batch": {
+        "intentIds": [
+          "codex-wrapper-liveness:bb73ba579283139de48b960c914e320ddfb4127c5fe88f19e731cc8ac1e22bf5"
+        ],
+        "notesIntentIds": [
+          "codex-wrapper-liveness:bb73ba579283139de48b960c914e320ddfb4127c5fe88f19e731cc8ac1e22bf5"
+        ],
+        "throughSourceSha": "7499cfba0958270f1ffb6543d54121c99d0df5cb",
+        "previousThroughSourceSha": "819e415a2a355c0d752f309df2eea24ed28dec52",
+        "baselineVersion": "1.627.0",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-27T04:00:33.359Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "45937328537",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-28T04:00:24.378Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -221005,7 +221048,8 @@
     "delete-closes-issues:30267a7a31b10348456b56d45613a0424aa7e2fe585a9ad54bb52f6a6d923c86",
     "terminal-initiatives-core:df2004eb72f6053c218c526765f04726c2d9598bfa0b51ded1d213be53fe85d4",
     "initiative-project-starts:f7c976d5346ca3832d3139f2b79192ca4c1d8762d97730c3db4d5ac574758e20",
-    "terminal-initiative-check-ins:9373a03d1a9e35f4661eac18aab63a0e7e77b07cfb70c3d9f9bf437d7b1810a2"
+    "terminal-initiative-check-ins:9373a03d1a9e35f4661eac18aab63a0e7e77b07cfb70c3d9f9bf437d7b1810a2",
+    "codex-wrapper-liveness:bb73ba579283139de48b960c914e320ddfb4127c5fe88f19e731cc8ac1e22bf5"
   ],
-  "consumedThroughSha": "819e415a2a355c0d752f309df2eea24ed28dec52"
+  "consumedThroughSha": "7499cfba0958270f1ffb6543d54121c99d0df5cb"
 }
