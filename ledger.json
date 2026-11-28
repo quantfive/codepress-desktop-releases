@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "b6a56983eb9fa35e4e3b0699d1a8c2e95bf015f9",
+  "cursorSha": "4367a7bfd58084177b0f61b3a1c05344d6c40243",
   "highWaterVersion": "1.632.3",
   "rows": [
     {
@@ -205287,6 +205287,13 @@
       "intentIds": [
         "initiative-mentions:977f8217c232f8d5d01cbfc6c0606fd27e370ee6250cf9df766d58c380edc3de"
       ]
+    },
+    {
+      "sourceSha": "4367a7bfd58084177b0f61b3a1c05344d6c40243",
+      "sourcePackageVersion": "1.632.2",
+      "intentIds": [
+        "initiative-titled-by-name:e1bb5601d32a759a7188049bc4b19d6bc339093eaf22b740c09a7e6010f5e3ca"
+      ]
     }
   ],
   "intents": [
@@ -220305,6 +220312,14 @@
       "summary": "Initiatives show their target mark and an \"Initiative\" hint in the @ menu, and typing a word from an initiative's goal now finds it, not only words from its name.",
       "sourceSha": "b6a56983eb9fa35e4e3b0699d1a8c2e95bf015f9",
       "identity": "initiative-mentions:977f8217c232f8d5d01cbfc6c0606fd27e370ee6250cf9df766d58c380edc3de"
+    },
+    {
+      "id": "initiative-titled-by-name",
+      "digest": "e1bb5601d32a759a7188049bc4b19d6bc339093eaf22b740c09a7e6010f5e3ca",
+      "type": "patch",
+      "summary": "Initiatives are titled by their chat name: the feed card and the initiative header show the name, with the goal as the card's tooltip and as muted text under the header. An initiative with no name still shows its goal.",
+      "sourceSha": "4367a7bfd58084177b0f61b3a1c05344d6c40243",
+      "identity": "initiative-titled-by-name:e1bb5601d32a759a7188049bc4b19d6bc339093eaf22b740c09a7e6010f5e3ca"
     }
   ],
   "consumedIntentIds": [
