@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "a278f8385991f5fe72a3d389400e6e073dcbc483",
+  "cursorSha": "b5ba1928009e54db90206c9f7457501b660e1fa1",
   "highWaterVersion": "1.632.3",
   "rows": [
     {
@@ -205304,6 +205304,13 @@
       "sourceSha": "a278f8385991f5fe72a3d389400e6e073dcbc483",
       "sourcePackageVersion": "1.632.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b5ba1928009e54db90206c9f7457501b660e1fa1",
+      "sourcePackageVersion": "1.632.2",
+      "intentIds": [
+        "initiative-requester-approves:9ead51076f2f6cfbe5c3f40c0945cf15f088433b57a2267de2ddbf9b37554a24"
+      ]
     }
   ],
   "intents": [
@@ -220330,6 +220337,14 @@
       "summary": "Initiatives are titled by their chat name: the feed card and the initiative header show the name, with the goal as the card's tooltip and as muted text under the header. An initiative with no name still shows its goal.",
       "sourceSha": "4367a7bfd58084177b0f61b3a1c05344d6c40243",
       "identity": "initiative-titled-by-name:e1bb5601d32a759a7188049bc4b19d6bc339093eaf22b740c09a7e6010f5e3ca"
+    },
+    {
+      "id": "initiative-requester-approves",
+      "digest": "9ead51076f2f6cfbe5c3f40c0945cf15f088433b57a2267de2ddbf9b37554a24",
+      "type": "patch",
+      "summary": "Projects an initiative starts now send their plan to the initiative, and its approval starts the build without a second press from you. You are still asked for anything that is yours, and your own Start still works.",
+      "sourceSha": "b5ba1928009e54db90206c9f7457501b660e1fa1",
+      "identity": "initiative-requester-approves:9ead51076f2f6cfbe5c3f40c0945cf15f088433b57a2267de2ddbf9b37554a24"
     }
   ],
   "consumedIntentIds": [
