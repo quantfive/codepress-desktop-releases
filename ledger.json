@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "e03a2d26ae1906d3ecd89a17f4c28024c25ca17a",
-  "highWaterVersion": "1.632.3",
+  "highWaterVersion": "1.632.4",
   "rows": [
     {
       "schemaVersion": 1,
@@ -112375,6 +112375,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:e03a2d26ae1906d3ecd89a17f4c28024c25ca17a",
+      "kind": "main",
+      "sequence": 2734,
+      "sourceSha": "e03a2d26ae1906d3ecd89a17f4c28024c25ca17a",
+      "sourcePackageVersion": "1.632.3",
+      "version": "1.632.4",
+      "batch": {
+        "intentIds": [
+          "initiative-titled-by-name:e1bb5601d32a759a7188049bc4b19d6bc339093eaf22b740c09a7e6010f5e3ca",
+          "initiative-requester-approves:9ead51076f2f6cfbe5c3f40c0945cf15f088433b57a2267de2ddbf9b37554a24"
+        ],
+        "notesIntentIds": [
+          "initiative-titled-by-name:e1bb5601d32a759a7188049bc4b19d6bc339093eaf22b740c09a7e6010f5e3ca",
+          "initiative-requester-approves:9ead51076f2f6cfbe5c3f40c0945cf15f088433b57a2267de2ddbf9b37554a24"
+        ],
+        "throughSourceSha": "e03a2d26ae1906d3ecd89a17f4c28024c25ca17a",
+        "previousThroughSourceSha": "b6a56983eb9fa35e4e3b0699d1a8c2e95bf015f9",
+        "baselineVersion": "1.632.3",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-28T04:41:48.599Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "46108595051",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-29T04:41:40.934Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -222229,7 +222274,9 @@
     "initiatives-org-flag:2f7c097e4449726b44a5f02b211a66d3119b540c8132d42957ba08e101794c07",
     "initiative-card-full-width:d8c866e3a292b83cd349b1237c87b1b812f16e4ba209654a4f9f3e8b465ee97f",
     "initiative-tab-row:29ca16584d60d439a9a1e919773eae35096a2f600371895bdb2200dc273fcc2e",
-    "initiative-mentions:977f8217c232f8d5d01cbfc6c0606fd27e370ee6250cf9df766d58c380edc3de"
+    "initiative-mentions:977f8217c232f8d5d01cbfc6c0606fd27e370ee6250cf9df766d58c380edc3de",
+    "initiative-titled-by-name:e1bb5601d32a759a7188049bc4b19d6bc339093eaf22b740c09a7e6010f5e3ca",
+    "initiative-requester-approves:9ead51076f2f6cfbe5c3f40c0945cf15f088433b57a2267de2ddbf9b37554a24"
   ],
-  "consumedThroughSha": "b6a56983eb9fa35e4e3b0699d1a8c2e95bf015f9"
+  "consumedThroughSha": "e03a2d26ae1906d3ecd89a17f4c28024c25ca17a"
 }
