@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "05cd064496b7bd7a0917bd063b08f0d9118e6667",
+  "cursorSha": "f57211e24052cf2e17ec7fc95a1aac194ebb0060",
   "highWaterVersion": "1.631.0",
   "rows": [
     {
@@ -204989,6 +204989,13 @@
       "sourceSha": "05cd064496b7bd7a0917bd063b08f0d9118e6667",
       "sourcePackageVersion": "1.630.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "f57211e24052cf2e17ec7fc95a1aac194ebb0060",
+      "sourcePackageVersion": "1.630.0",
+      "intentIds": [
+        "initiatives-org-flag:2f7c097e4449726b44a5f02b211a66d3119b540c8132d42957ba08e101794c07"
+      ]
     }
   ],
   "intents": [
@@ -219975,6 +219982,14 @@
       "summary": "Initiatives on a teammate's shared machine: a teammate granted a shared machine can turn on Initiative in its New chat, start an initiative in their own Orchestrator there and use On/Off, Check in now and a recommendation's Start, while Initiatives are on for that machine.",
       "sourceSha": "595aba29f1a98514c44260f77ce2825455da1657",
       "identity": "shared-machine-initiatives:745231a16ad18ebf8d0fee4a96e96f7d1b3bdd642af032f02e34c1c4b93f4d2d"
+    },
+    {
+      "id": "initiatives-org-flag",
+      "digest": "2f7c097e4449726b44a5f02b211a66d3119b540c8132d42957ba08e101794c07",
+      "type": "minor",
+      "summary": "Initiatives now follow your organization's Initiatives flag in the Feature Flags menu, so an org admin turns them on or off for every machine at once. The per-machine switch in Settings → Orchestrator is gone. A machine picks up a change right away when the admin saves on it, and within 5 minutes elsewhere.",
+      "sourceSha": "f57211e24052cf2e17ec7fc95a1aac194ebb0060",
+      "identity": "initiatives-org-flag:2f7c097e4449726b44a5f02b211a66d3119b540c8132d42957ba08e101794c07"
     }
   ],
   "consumedIntentIds": [
