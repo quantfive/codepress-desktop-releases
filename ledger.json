@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "83b63516a3912c42791dbf3f406be0a268ef666e",
+  "cursorSha": "193141ddbe883a6d4bc28d15b2c6004728ac8e63",
   "highWaterVersion": "1.632.4",
   "rows": [
     {
@@ -205385,6 +205385,13 @@
       "sourceSha": "83b63516a3912c42791dbf3f406be0a268ef666e",
       "sourcePackageVersion": "1.632.3",
       "intentIds": []
+    },
+    {
+      "sourceSha": "193141ddbe883a6d4bc28d15b2c6004728ac8e63",
+      "sourcePackageVersion": "1.632.3",
+      "intentIds": [
+        "initiatives-tab-projects:0cf523138b5343664fb3620fccd63c754b22b72b44af48d47f47e758a4c985f6"
+      ]
     }
   ],
   "intents": [
@@ -220427,6 +220434,14 @@
       "summary": "An initiative now decides whether to start or recommend its next project as soon as one of its projects lands, instead of waiting for its next check-in. The landing message tells it how many projects are running against its limit, its start mode and whether it is switched on.",
       "sourceSha": "f54fe54d2a1f2e4f9c9912fa2637aee366ceec9e",
       "identity": "initiative-acts-on-landing:68d4a8d074018e2ad4f3b0e9da25f93fd2d800e9a892534b1a91da741c9ab9c7"
+    },
+    {
+      "id": "initiatives-tab-projects",
+      "digest": "0cf523138b5343664fb3620fccd63c754b22b72b44af48d47f47e758a4c985f6",
+      "type": "patch",
+      "summary": "The Initiatives tab now shows each initiative's projects nested under its card, as the Projects tab does: running projects as cards, landed ones folded into \"✓ N landed\", and their own projects inside.",
+      "sourceSha": "193141ddbe883a6d4bc28d15b2c6004728ac8e63",
+      "identity": "initiatives-tab-projects:0cf523138b5343664fb3620fccd63c754b22b72b44af48d47f47e758a4c985f6"
     }
   ],
   "consumedIntentIds": [
