@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "4e399c0fcb368a444a39e7ce3d18739171e6b41a",
+  "cursorSha": "4e5a99f47996a68334c4edb632180642c8fa1ddd",
   "highWaterVersion": "1.632.1",
   "rows": [
     {
@@ -205138,6 +205138,13 @@
       "sourceSha": "4e399c0fcb368a444a39e7ce3d18739171e6b41a",
       "sourcePackageVersion": "1.632.0",
       "intentIds": []
+    },
+    {
+      "sourceSha": "4e5a99f47996a68334c4edb632180642c8fa1ddd",
+      "sourcePackageVersion": "1.632.0",
+      "intentIds": [
+        "initiative-tab-row:29ca16584d60d439a9a1e919773eae35096a2f600371895bdb2200dc273fcc2e"
+      ]
     }
   ],
   "intents": [
@@ -220140,6 +220147,14 @@
       "summary": "An initiative's card in the Orchestrator rail now uses the rail's full width: the bullseye sits inline before the goal, every line lines up with project rows, and the On/Off switch is gone from the card. Turn an initiative on or off from its header; an Off initiative's goal is dimmed.",
       "sourceSha": "a9b9f170e10e518c43f31710b8316aa65a519f60",
       "identity": "initiative-card-full-width:d8c866e3a292b83cd349b1237c87b1b812f16e4ba209654a4f9f3e8b465ee97f"
+    },
+    {
+      "id": "initiative-tab-row",
+      "digest": "29ca16584d60d439a9a1e919773eae35096a2f600371895bdb2200dc273fcc2e",
+      "type": "patch",
+      "summary": "Initiatives: the banner over the thread is gone. An initiative uses the project toolbar's tab row, Thread · Overview then Files, Artifacts and Terminal, its chip reads Initiative · On, Off or Retired, and the goal, On/Off, Check in now and Retire are at the top of Overview, so the thread starts right under the toolbar on a phone.",
+      "sourceSha": "4e5a99f47996a68334c4edb632180642c8fa1ddd",
+      "identity": "initiative-tab-row:29ca16584d60d439a9a1e919773eae35096a2f600371895bdb2200dc273fcc2e"
     }
   ],
   "consumedIntentIds": [
