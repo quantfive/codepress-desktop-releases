@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "595aba29f1a98514c44260f77ce2825455da1657",
-  "highWaterVersion": "1.630.0",
+  "highWaterVersion": "1.631.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -112108,6 +112108,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:595aba29f1a98514c44260f77ce2825455da1657",
+      "kind": "main",
+      "sequence": 2729,
+      "sourceSha": "595aba29f1a98514c44260f77ce2825455da1657",
+      "sourcePackageVersion": "1.630.0",
+      "version": "1.631.0",
+      "batch": {
+        "intentIds": [
+          "shared-machine-initiatives:745231a16ad18ebf8d0fee4a96e96f7d1b3bdd642af032f02e34c1c4b93f4d2d"
+        ],
+        "notesIntentIds": [
+          "shared-machine-initiatives:745231a16ad18ebf8d0fee4a96e96f7d1b3bdd642af032f02e34c1c4b93f4d2d"
+        ],
+        "throughSourceSha": "595aba29f1a98514c44260f77ce2825455da1657",
+        "previousThroughSourceSha": "54665e05e4327f7cb13c4b739b1a720e7520ab28",
+        "baselineVersion": "1.630.0",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-28T02:03:21.398Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "46096092971",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-29T02:03:13.025Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -221797,7 +221840,8 @@
     "codex-switch-held-key:0e368a9354e7a2fcec3d5d5b89cb5d12702e346b39adc753b46f7dbba218a23f",
     "remote-initiatives-machine:7fa57c41732eeca2524252baf8c47bfae7dda71b3e452a35de51a1e0a591cdc6",
     "linux-redis-shim-peer-uid:a83d2f8ea9ea52d6fd5df17824c39b9ca46ea1d0a3ef2657bd9831b28b3e3379",
-    "remote-initiatives-web:c1cc0f6e64cea6c60822a05ee136b0d87e5e6b03436b86d8dff7da1ef7650b4c"
+    "remote-initiatives-web:c1cc0f6e64cea6c60822a05ee136b0d87e5e6b03436b86d8dff7da1ef7650b4c",
+    "shared-machine-initiatives:745231a16ad18ebf8d0fee4a96e96f7d1b3bdd642af032f02e34c1c4b93f4d2d"
   ],
-  "consumedThroughSha": "54665e05e4327f7cb13c4b739b1a720e7520ab28"
+  "consumedThroughSha": "595aba29f1a98514c44260f77ce2825455da1657"
 }
