@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "5c0c7bfaa6a3ceb8bcd674cad2ba252a64ac23e3",
+  "cursorSha": "b6a56983eb9fa35e4e3b0699d1a8c2e95bf015f9",
   "highWaterVersion": "1.632.2",
   "rows": [
     {
@@ -205233,6 +205233,13 @@
       "sourceSha": "5c0c7bfaa6a3ceb8bcd674cad2ba252a64ac23e3",
       "sourcePackageVersion": "1.632.2",
       "intentIds": []
+    },
+    {
+      "sourceSha": "b6a56983eb9fa35e4e3b0699d1a8c2e95bf015f9",
+      "sourcePackageVersion": "1.632.2",
+      "intentIds": [
+        "initiative-mentions:977f8217c232f8d5d01cbfc6c0606fd27e370ee6250cf9df766d58c380edc3de"
+      ]
     }
   ],
   "intents": [
@@ -220243,6 +220250,14 @@
       "summary": "Initiatives: the banner over the thread is gone. An initiative uses the project toolbar's tab row, Thread · Overview then Files, Artifacts and Terminal, its chip reads Initiative · On, Off or Retired, and the goal, On/Off, Check in now and Retire are at the top of Overview, so the thread starts right under the toolbar on a phone.",
       "sourceSha": "4e5a99f47996a68334c4edb632180642c8fa1ddd",
       "identity": "initiative-tab-row:29ca16584d60d439a9a1e919773eae35096a2f600371895bdb2200dc273fcc2e"
+    },
+    {
+      "id": "initiative-mentions",
+      "digest": "977f8217c232f8d5d01cbfc6c0606fd27e370ee6250cf9df766d58c380edc3de",
+      "type": "patch",
+      "summary": "Initiatives show their target mark and an \"Initiative\" hint in the @ menu, and typing a word from an initiative's goal now finds it, not only words from its name.",
+      "sourceSha": "b6a56983eb9fa35e4e3b0699d1a8c2e95bf015f9",
+      "identity": "initiative-mentions:977f8217c232f8d5d01cbfc6c0606fd27e370ee6250cf9df766d58c380edc3de"
     }
   ],
   "consumedIntentIds": [
