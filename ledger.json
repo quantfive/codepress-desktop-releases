@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "54665e05e4327f7cb13c4b739b1a720e7520ab28",
-  "highWaterVersion": "1.629.1",
+  "highWaterVersion": "1.630.0",
   "rows": [
     {
       "schemaVersion": 1,
@@ -112053,6 +112053,49 @@
         },
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:54665e05e4327f7cb13c4b739b1a720e7520ab28",
+      "kind": "main",
+      "sequence": 2728,
+      "sourceSha": "54665e05e4327f7cb13c4b739b1a720e7520ab28",
+      "sourcePackageVersion": "1.629.1",
+      "version": "1.630.0",
+      "batch": {
+        "intentIds": [
+          "remote-initiatives-web:c1cc0f6e64cea6c60822a05ee136b0d87e5e6b03436b86d8dff7da1ef7650b4c"
+        ],
+        "notesIntentIds": [
+          "remote-initiatives-web:c1cc0f6e64cea6c60822a05ee136b0d87e5e6b03436b86d8dff7da1ef7650b4c"
+        ],
+        "throughSourceSha": "54665e05e4327f7cb13c4b739b1a720e7520ab28",
+        "previousThroughSourceSha": "8177002a9b5f5272af13fe2195aef973b29d44d5",
+        "baselineVersion": "1.629.1",
+        "type": "minor"
+      },
+      "publicationDate": "2026-11-28T00:31:38.753Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "46088295951",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-29T00:31:30.920Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -221691,7 +221734,8 @@
     "talk-in-codex-chats:6c45a620cf476eeef575856c38302a01a2b7d0f6d5395ef98be9ed1e382eba69",
     "codex-switch-held-key:0e368a9354e7a2fcec3d5d5b89cb5d12702e346b39adc753b46f7dbba218a23f",
     "remote-initiatives-machine:7fa57c41732eeca2524252baf8c47bfae7dda71b3e452a35de51a1e0a591cdc6",
-    "linux-redis-shim-peer-uid:a83d2f8ea9ea52d6fd5df17824c39b9ca46ea1d0a3ef2657bd9831b28b3e3379"
+    "linux-redis-shim-peer-uid:a83d2f8ea9ea52d6fd5df17824c39b9ca46ea1d0a3ef2657bd9831b28b3e3379",
+    "remote-initiatives-web:c1cc0f6e64cea6c60822a05ee136b0d87e5e6b03436b86d8dff7da1ef7650b4c"
   ],
-  "consumedThroughSha": "8177002a9b5f5272af13fe2195aef973b29d44d5"
+  "consumedThroughSha": "54665e05e4327f7cb13c4b739b1a720e7520ab28"
 }
