@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
-  "cursorSha": "63659c9541ca6c14ff00372d8d262b2895d4f1f8",
+  "cursorSha": "54665e05e4327f7cb13c4b739b1a720e7520ab28",
   "highWaterVersion": "1.629.1",
   "rows": [
     {
@@ -204833,6 +204833,13 @@
       "sourceSha": "63659c9541ca6c14ff00372d8d262b2895d4f1f8",
       "sourcePackageVersion": "1.629.1",
       "intentIds": []
+    },
+    {
+      "sourceSha": "54665e05e4327f7cb13c4b739b1a720e7520ab28",
+      "sourcePackageVersion": "1.629.1",
+      "intentIds": [
+        "remote-initiatives-web:c1cc0f6e64cea6c60822a05ee136b0d87e5e6b03436b86d8dff7da1ef7650b4c"
+      ]
     }
   ],
   "intents": [
@@ -219803,6 +219810,14 @@
       "summary": "Local agent Redis tunnels on Linux machines now always verify that loopback connections originate from the signed-in OS account's UID via `/proc/net/tcp`, preventing other local OS users on multi-user Linux machines from connecting to the owner's session stream even when shared-computer mode is off.",
       "sourceSha": "8628042aa15639cd90780dc226610af6806bf2b1",
       "identity": "linux-redis-shim-peer-uid:a83d2f8ea9ea52d6fd5df17824c39b9ca46ea1d0a3ef2657bd9831b28b3e3379"
+    },
+    {
+      "id": "remote-initiatives-web",
+      "digest": "c1cc0f6e64cea6c60822a05ee136b0d87e5e6b03436b86d8dff7da1ef7650b4c",
+      "type": "minor",
+      "summary": "New chat's Initiative switch now sits first in the row of switches under the box, before Auto-merge, so the repository, folder, Team and Runs on row looks the same with it on. The Worker prompts switch is gone from New chat: a new project follows your account setting \"Let the Orchestrator answer its agents' prompts\" (You → Orchestrator → New projects). An initiative running on another of your machines can now be switched on or off, checked in, retired, edited and decided on from its synced copy here, and when it can't be, the page says why: the machine is offline, its Initiatives are off, or it needs updating. An initiative's On/Off switch, Check in now and ⋯ menu now sit above its thread instead of in the closed details panel. On a phone a long goal in that header shows three lines with More to read the rest, and a retired initiative's header now says it no longer checks in or starts projects.",
+      "sourceSha": "54665e05e4327f7cb13c4b739b1a720e7520ab28",
+      "identity": "remote-initiatives-web:c1cc0f6e64cea6c60822a05ee136b0d87e5e6b03436b86d8dff7da1ef7650b4c"
     }
   ],
   "consumedIntentIds": [
