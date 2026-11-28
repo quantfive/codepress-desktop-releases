@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "activationSha": "d0902284abcf4b8ca40d679b5b806de9fa7f039a",
   "cursorSha": "3430b59c40763711b7055f904e52d1404b3f61cd",
-  "highWaterVersion": "1.632.4",
+  "highWaterVersion": "1.632.5",
   "rows": [
     {
       "schemaVersion": 1,
@@ -112432,6 +112432,51 @@
         "dispatch": null,
         "failures": []
       }
+    },
+    {
+      "schemaVersion": 2,
+      "key": "batch:3430b59c40763711b7055f904e52d1404b3f61cd",
+      "kind": "main",
+      "sequence": 2735,
+      "sourceSha": "3430b59c40763711b7055f904e52d1404b3f61cd",
+      "sourcePackageVersion": "1.632.4",
+      "version": "1.632.5",
+      "batch": {
+        "intentIds": [
+          "initiative-acts-on-landing:68d4a8d074018e2ad4f3b0e9da25f93fd2d800e9a892534b1a91da741c9ab9c7",
+          "initiatives-tab-projects:0cf523138b5343664fb3620fccd63c754b22b72b44af48d47f47e758a4c985f6"
+        ],
+        "notesIntentIds": [
+          "initiative-acts-on-landing:68d4a8d074018e2ad4f3b0e9da25f93fd2d800e9a892534b1a91da741c9ab9c7",
+          "initiatives-tab-projects:0cf523138b5343664fb3620fccd63c754b22b72b44af48d47f47e758a4c985f6"
+        ],
+        "throughSourceSha": "3430b59c40763711b7055f904e52d1404b3f61cd",
+        "previousThroughSourceSha": "e03a2d26ae1906d3ecd89a17f4c28024c25ca17a",
+        "baselineVersion": "1.632.4",
+        "type": "patch"
+      },
+      "publicationDate": "2026-11-28T05:08:10.157Z",
+      "releaseId": null,
+      "mac": {
+        "status": "claimed",
+        "generation": 1,
+        "owner": {
+          "ownerId": "terminal-macos-delivery",
+          "runId": "46110663663",
+          "attempt": 1
+        },
+        "leaseUntil": "2026-11-29T05:08:02.797Z",
+        "dispatch": null,
+        "failures": []
+      },
+      "linux": {
+        "status": "pending",
+        "generation": 0,
+        "owner": null,
+        "leaseUntil": null,
+        "dispatch": null,
+        "failures": []
+      }
     }
   ],
   "preTransition": {
@@ -222333,7 +222378,9 @@
     "initiative-tab-row:29ca16584d60d439a9a1e919773eae35096a2f600371895bdb2200dc273fcc2e",
     "initiative-mentions:977f8217c232f8d5d01cbfc6c0606fd27e370ee6250cf9df766d58c380edc3de",
     "initiative-titled-by-name:e1bb5601d32a759a7188049bc4b19d6bc339093eaf22b740c09a7e6010f5e3ca",
-    "initiative-requester-approves:9ead51076f2f6cfbe5c3f40c0945cf15f088433b57a2267de2ddbf9b37554a24"
+    "initiative-requester-approves:9ead51076f2f6cfbe5c3f40c0945cf15f088433b57a2267de2ddbf9b37554a24",
+    "initiative-acts-on-landing:68d4a8d074018e2ad4f3b0e9da25f93fd2d800e9a892534b1a91da741c9ab9c7",
+    "initiatives-tab-projects:0cf523138b5343664fb3620fccd63c754b22b72b44af48d47f47e758a4c985f6"
   ],
-  "consumedThroughSha": "e03a2d26ae1906d3ecd89a17f4c28024c25ca17a"
+  "consumedThroughSha": "3430b59c40763711b7055f904e52d1404b3f61cd"
 }
